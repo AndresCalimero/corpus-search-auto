@@ -23,6 +23,11 @@ public class Main {
 	public static final Path ACTUAL_DIR = Paths.get("").toAbsolutePath().resolve("data");
 
 	public static void main(String[] args) {
+		System.out.println("CorpusSearchAuto  Copyright (C) 2017  Andrés Calimero García Pérez <andrescalimero@hotmail.es>");
+		System.out.println("This program comes with ABSOLUTELY NO WARRANTY.");
+		System.out.println("This is free software, and you are welcome to redistribute it under certain conditions.");
+		System.out.println();
+		
 		if (args.length == 0) {
 			printHelp();
 		} else if (args.length < 2) {
