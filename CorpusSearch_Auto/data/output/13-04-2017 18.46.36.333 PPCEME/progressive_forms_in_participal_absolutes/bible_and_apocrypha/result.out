@@ -1,0 +1,402 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:18 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_participal_absolutes.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_participal_absolutes\bible_and_apocrypha\result.out
+
+node:   *PPL*ABS*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PPL*ABS* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd
+*/
+
+/~*
+for Iesus had conueyed himselfe away, a multitude being in that place.
+(AUTHNEW-E2-H,5,1J.542)
+*~/
+/*
+25 BAG:  25 BAG, 26 being, 19 IP-PPL-ABS
+*/
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (NPR Iesus))
+	  (HVD had)
+	  (VBN conueyed)
+	  (NP-OB1 (PRO+N himselfe))
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D a) (N multitude))
+		      (BAG being)
+		      (PP (P in)
+			  (NP (D that) (N place))))
+	  (. .))
+  (ID AUTHNEW-E2-H,5,1J.542))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	1/1/1613
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd
+*/
+
+/~*
+And supper being ended the deuill hauing now put into the heart of Iudas
+Iscariot Simons sonne to betray him. 3 Iesus knowing that the Father had giuen
+all things into his hands, and that he was come from God, and went to God: 4
+He riseth from supper,
+(AUTHNEW-E2-P1,13,1J.148)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 4 IP-PPL-ABS
+20 HAG:  20 HAG, 21 hauing, 14 IP-PPL-ABS
+67 VAG:  67 VAG, 68 knowing, 63 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ And)
+	  (IP-PPL-ABS (NP-SBJ (N supper))
+		      (BAG being)
+		      (VAN ended))
+	  (CODE <paren>)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NPR deuill))
+		      (HAG hauing)
+		      (ADVP-TMP (ADV now))
+		      (VBN put)
+		      (PP (P into)
+			  (NP (D the)
+			      (N heart)
+			      (PP (P of)
+				  (NP (NPR Iudas)
+				      (NPR Iscariot)
+				      (NP-PRN (NPR$ Simons) (N sonne))))))
+		      (IP-INF (TO to)
+			      (VB betray)
+			      (NP-OB1 (PRO him))))
+	  (, .)
+	  (CODE <$$paren>)
+	  (CODE (NUM 3))
+	  (IP-PPL-ABS (NP-SBJ (NPR Iesus))
+		      (VAG knowing)
+		      (CP-THT (CP-THT (C that)
+				      (IP-SUB (NP-SBJ (D the) (NPR Father))
+					      (HVD had)
+					      (VBN giuen)
+					      (NP-OB1 (Q all) (NS things))
+					      (PP (P into)
+						  (NP (PRO$ his) (NS hands)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (CP-THT (C that)
+					     (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+							     (BED was)
+							     (VBN come)
+							     (PP (P from)
+								 (NP (NPR God))))
+						     (, ,)
+						     (CONJP (CONJ and)
+							    (IP-SUB (NP-SBJ *con*)
+								    (VBD went)
+								    (PP (P to)
+									(NP (NPR God))))))))))
+	  (, :)
+	  (CODE (NUM 4))
+	  (NP-SBJ (PRO He))
+	  (VBP riseth)
+	  (PP (P from)
+	      (NP (N supper)))
+	  (. ,))
+  (ID AUTHNEW-E2-P1,13,1J.148))
+
+/~*
+Then came Iesus, the doores being shut,
+(AUTHNEW-E2-P1,20,20J.996)
+*~/
+/*
+22 BAG:  22 BAG, 23 being, 16 IP-PPL-ABS
+*/
+
+( (IP-MAT (CODE <font>)
+	  (ADVP-TMP (ADV Then))
+	  (CODE <$$font>)
+	  (VBD came)
+	  (NP-SBJ (NPR Iesus))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NS doores))
+		      (BAG being)
+		      (VAN shut))
+	  (. ,))
+  (ID AUTHNEW-E2-P1,20,20J.996))
+
+/~*
+And kept backe part of the price, his wife also being priuy to it,
+(AUTHNEW-E2-P1,5,1A.1436)
+*~/
+/*
+36 BAG:  36 BAG, 37 being, 28 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ *con*)
+	  (VBD kept)
+	  (ADVP-DIR (ADV backe))
+	  (CODE <font>)
+	  (NP-OB1 (N part)
+		  (CODE <$$font>)
+		  (PP (P of)
+		      (NP (D the) (N price))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ his) (N wife) (ALSO also))
+		      (BAG being)
+		      (ADJP (ADJ priuy)
+			    (CODE <font>)
+			    (PP (P to)
+				(NP (PRO it)))))
+	  (CODE <$$font>)
+	  (. ,))
+  (ID AUTHNEW-E2-P1,5,1A.1436))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	5/3/1558
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	0/0/1255
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	0/0/1234
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd
+*/
+
+/~*
+Therefore Sarah laughed within her selfe, saying, After I am waxed old, shall
+I haue pleasure, my lord being old also?
+(AUTHOLD-E2-P1,18,1G.629)
+*~/
+/*
+64 BAG:  64 BAG, 65 being, 58 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT (PP (ADV+P Therefore))
+	  (NP-SBJ (NPR Sarah))
+	  (VBD laughed)
+	  (PP (P within)
+	      (NP (PRO her) (N selfe)))
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (CP-QUE-SPE (PP (P After)
+				  (CP-ADV-SPE (C 0)
+					      (IP-SUB-SPE (NP-SBJ (PRO I))
+							  (BEP am)
+							  (VBN waxed)
+							  (ADJP (ADJ old)))))
+			      (, ,)
+			      (IP-SUB-SPE (MD shall)
+					  (NP-SBJ (PRO I))
+					  (HV haue)
+					  (NP-OB1 (N pleasure))
+					  (, ,)
+					  (IP-PPL-ABS-SPE (NP-SBJ (PRO$ my) (N lord))
+							  (BAG being)
+							  (ADJP (ADJ old) (ALSO also))))))
+	  (. ?))
+  (ID AUTHOLD-E2-P1,18,1G.629))
+
+/~*
+And while he lingred, the men laid hold upon his hand, and upon the hand of
+his wife, and upon the hand of his two daughters, the Lord being mercifull
+vnto him:
+(AUTHOLD-E2-P1,19,1G.770)
+*~/
+/*
+89 BAG:  89 BAG, 90 being, 83 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBD lingred))))
+	  (, ,)
+	  (NP-SBJ (D the) (NS men))
+	  (VBD laid)
+	  (NP-OB1 (N hold)
+		  (PP (PP (P upon)
+			  (NP (PRO$ his) (N hand)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (PP (P upon)
+				 (NP (D the)
+				     (N hand)
+				     (PP (P of)
+					 (NP (PRO$ his) (N wife))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (PP (P upon)
+				 (NP (D the)
+				     (N hand)
+				     (PP (P of)
+					 (NP (PRO$ his) (NUM two) (NS daughters))))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NPR Lord))
+		      (BAG being)
+		      (ADJP (ADJ mercifull)
+			    (PP (P vnto)
+				(NP (PRO him)))))
+	  (. :))
+  (ID AUTHOLD-E2-P1,19,1G.770))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	2/2/1385
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	0/0/912
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	0/0/1078
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd
+*/
+
+/~*
+and kepte awaye parte of the pryce his wyfe also beynge of counsell
+(TYNDNEW-E1-P1,5,1A.1012)
+*~/
+/*
+32 BAG:  32 BAG, 33 beynge, 24 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD kepte)
+	  (ADVP-DIR (ADV awaye))
+	  (NP-OB1 (N parte)
+		  (PP (P of)
+		      (NP (D the) (N pryce))))
+	  (CODE <paren>)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ his) (N wyfe))
+		      (ALSO also)
+		      (BAG beynge)
+		      (PP (P of)
+			  (NP (N counsell))))
+	  (CODE <$$paren>))
+  (ID TYNDNEW-E1-P1,5,1A.1012))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	1/1/1102
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	0/0/889
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd
+*/
+
+/~*
+and pytched hys tente: Bethel beynge on the west syde, and Ay on the east:
+(TYNDOLD-E1-H,12,1G.377)
+*~/
+/*
+20 BAG:  20 BAG, 21 beynge, 15 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD pytched)
+	  (NP-OB1 (PRO$ hys) (N tente))
+	  (, :)
+	  (IP-PPL-ABS (IP-PPL-1 (NP-SBJ (NPR Bethel))
+				(BAG beynge)
+				(PP (P on)
+				    (NP (D the) (ADJ west) (N syde))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=1 (NP-SBJ (NPR Ay))
+				       (PP (P on)
+					   (NP (D the) (N east))))))
+	  (. :))
+  (ID TYNDOLD-E1-H,12,1G.377))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	1/1/811
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	0/0/1317
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	0/0/866
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	1/1/1613
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	5/3/1558
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	0/0/1255
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	0/0/1234
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	2/2/1385
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	0/0/912
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	0/0/1078
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	1/1/1102
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	0/0/889
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	1/1/811
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	0/0/1317
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	0/0/866
+whole search, hits/tokens/total
+		10/8/14020
+*/

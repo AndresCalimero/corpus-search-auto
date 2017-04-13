@@ -1,0 +1,1084 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:50:35 BST 2017
+
+command file:     data\searches\queries\YCOE\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\whquestions\science_astronomy_geography\result.out
+
+node:   CP-QUE*|WADV*|WADJ*|WPRO*|WNP*|WPP*|WQ*
+query:  (WADV*|WADJ*|WPRO*|WNP*|WPP*|WQ* Dominates  !WADV*|WADJ*|WPRO*|WNP*|WPP*|WQ*) 
+  AND  (CP-QUE* Dominates  WADV*|WADJ*|WPRO*|WNP*|WPP*|WQ*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd
+*/
+
+/~*
++Dis Englisc +atyw+d hw+at seo foresette r+ading m+an+d.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.35.22)
+*~/
+/*
+13 WPRO^A:  13 WPRO^A, 14 hw+at, 11 CP-QUE
+*/
+( (CODE <T22710002100,1.1.35>)
+  (IP-MAT (NP-NOM (D^N +Dis) (ADJ^N Englisc))
+	  (VBPI +atyw+d)
+	  (CP-QUE (WNP-ACC-1 (WPRO^A hw+at))
+		  (C 0)
+		  (IP-SUB (NP-ACC *T*-1)
+			  (NP-NOM (D^N seo) (RP+VBN^N foresette) (N^N r+ading))
+			  (VBPI m+an+d)))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.35.22))
+
+/~*
+Gif hwam gelustfulla+d to witanne hw+at sy quadrans +t+at ys fy+derlinc +tonne
+undergite he mid so+dre race +t+at quadrans by+d se feor+da d+al +t+as d+ages
+o+d+de o+dra +tinga +te man m+ag rihtlice tod+alan on feower.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.37.23)
+*~/
+/*
+24 WPRO^N:  24 WPRO^N, 25 hw+at, 22 CP-QUE
+*/
+
+( (CODE <T22710002200,1.1.37>)
+  (IP-MAT (CP-ADV (P Gif)
+		  (C 0)
+		  (IP-SUB (NP-NOM-x *exp*)
+			  (NP-DAT (Q^D hwam))
+			  (VBPI gelustfulla+d)
+			  (IP-INF-x (TO to)
+				    (VB^D witanne)
+				    (CP-QUE (WNP-NOM-1 (WPRO^N hw+at))
+					    (C 0)
+					    (IP-SUB (NP-NOM-PRD *T*-1)
+						    (BEPS sy)
+						    (NP-NOM (FW quadrans)
+							    (CODE <paren>)
+							    (IP-MAT-PRN (NP-NOM (D^N +t+at))
+									(BEPI ys)
+									(XP (NP-NOM (N^N fy+derlinc))))
+							    (CODE </paren>)))))))
+	  (ADVP-TMP (ADV^T +tonne))
+	  (RP+VBPS undergite)
+	  (NP-NOM (PRO^N he))
+	  (PP (P mid)
+	      (NP-DAT (ADJ^D so+dre) (N^D race)))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (FW quadrans))
+			  (BEPI by+d)
+			  (NP-NOM-PRD (D^N se)
+				      (ADJ^N feor+da)
+				      (N^N d+al)
+				      (NP-GEN (NP-GEN (D^G +t+as) (N^G d+ages))
+					      (CONJP (CONJ o+d+de)
+						     (NP-GEN (ADJ^G o+dra)
+							     (N^G +tinga)
+							     (CP-REL (WNP-2 0)
+								     (C +te)
+								     (IP-SUB (NP *T*-2)
+									     (NP-NOM (MAN^N man))
+									     (MDPI m+ag)
+									     (ADVP (ADV rihtlice))
+									     (RP+VB tod+alan)
+									     (PP (P on)
+										 (NP (NUM feower)))))))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.37.23))
+
+/~*
++Deah +de ealle dagas +alce geare habbon heora concurrentes, synderlice se
+d+ag +te by+d on IX kalendas Aprilis getacna+d hu fela beo+d on geare.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.92.207)
+*~/
+/*
+62 WADV:  62 WADV, 63 hu, 59 CP-QUE
+*/
+
+( (CODE <T22710016300,1.2.92>)
+  (IP-MAT (CP-ADV (P +Deah)
+		  (C +de)
+		  (IP-SUB (NP-NOM (Q^N ealle) (N^N dagas))
+			  (NP-DAT-TMP (Q^I +alce) (N^D geare))
+			  (HVPS habbon)
+			  (NP (PRO$ heora) (FW concurrentes))))
+	  (, ,)
+	  (ADVP (ADV synderlice))
+	  (NP-NOM (D^N se)
+		  (N^N d+ag)
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (BEPI by+d)
+				  (PP (P on)
+				      (NP (NUM IX) (FW kalendas) (FW Aprilis))))))
+	  (VBPI getacna+d)
+	  (CP-QUE (WNP-NOM-2 (WQP (WADV hu) (Q fela)))
+		  (C 0)
+		  (IP-SUB (NP-NOM *T*-2)
+			  (BEPI beo+d)
+			  (PP (P on)
+			      (NP-DAT (N^D geare)))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.92.207))
+
+/~*
+Hwanon +ta concurrentes up arison we s+adon feawum wordum.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.160.266)
+*~/
+/*
+6 WADV^D:  6 WADV^D, 7 Hwanon, 4 CP-QUE
+*/
+
+( (CODE <T22710019500,1.2.160>)
+  (IP-MAT (CP-QUE (WADVP-DIR-1 (WADV^D Hwanon))
+		  (C 0)
+		  (IP-SUB (ADVP-DIR *T*-1)
+			  (NP-NOM (D^N +ta) (FW concurrentes))
+			  (RP up)
+			  (VBDI arison)))
+	  (NP-NOM (PRO^N we))
+	  (VBDI s+adon)
+	  (NP-DAT-ADT (Q^D feawum) (N^D wordum))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.160.266))
+
+/~*
+Vton nu gleawlice swy+de geseon hwanon +arest arison +ta regulares +te man
+h+at feriarum.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.166.269)
+*~/
+/*
+18 WADV^D:  18 WADV^D, 19 hwanon, 16 CP-QUE
+36 WNP-2:  36 WNP-2, 37 0, 16 CP-QUE
+*/
+
+( (CODE <T22710019800,1.2.166>)
+  (IP-MAT (UTP Vton)
+	  (ADVP-TMP (ADV^T nu))
+	  (ADVP (ADV gleawlice) (ADV swy+de))
+	  (VB geseon)
+	  (CP-QUE (WADVP-DIR-1 (WADV^D hwanon))
+		  (C 0)
+		  (IP-SUB (ADVP-DIR *T*-1)
+			  (ADVP-TMP (ADVS^T +arest))
+			  (VBDI arison)
+			  (NP-NOM (D^N +ta)
+				  (FW regulares)
+				  (CP-REL (WNP-2 0)
+					  (C +te)
+					  (IP-SUB (NP-NOM (MAN^N man))
+						  (VBPI h+at)
+						  (IP-SMC (NP-SBJ *T*-2)
+							  (NP-PRD (FW feriarum))))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.166.269))
+
+/~*
+Cwe+d hw+a+der +te selre +tince, swa +trittig si+don twelf swa twelf si+don
+XXX;
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.175.275)
+*~/
+/*
+7 WQ:  7 WQ, 8 hw+a+der, 6 CP-QUE
+*/
+
+( (CODE <T22710020200,1.2.175>)
+  (IP-MAT (VBI Cwe+d)
+	  (CP-QUE (WQ hw+a+der)
+		  (C 0)
+		  (IP-SUB (NP-DAT (PRO^D +te))
+			  (ADJP-NOM-PRD (ADJR^N selre))
+			  (VBPS +tince)
+			  (, ,)
+			  (NP-NOM (CONJ swa)
+				  (NP (NUMP (NUM +trittig) (N^D si+don) (NUM twelf)))
+				  (CONJP (CONJ swa)
+					 (NP (NUMP (NUM twelf) (N^D si+don) (NUM XXX)))))))
+	  (. ;))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.175.275))
+
+/~*
+Nu we wylla+d gecy+dan hu man sceal mid +tam concurrentium and +t+ara mon+da
+rihtingum findan hwylce d+age +ta mon+das gan on tun.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.200.307)
+*~/
+/*
+16 WADV:  16 WADV, 17 hu, 14 CP-QUE
+52 WADJ^I:  52 WADJ^I, 53 hwylce, 50 CP-QUE
+52 WADJ^I:  52 WADJ^I, 53 hwylce, 14 CP-QUE
+*/
+
+( (CODE <T22710022000,1.2.200>)
+  (IP-MAT (ADVP-TMP (ADV^T Nu))
+	  (NP-NOM (PRO^N we))
+	  (MDPI wylla+d)
+	  (VB gecy+dan)
+	  (CP-QUE (WADVP-2 (WADV hu))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-2)
+			  (NP-NOM (MAN^N man))
+			  (MDPI sceal)
+			  (PP (P mid)
+			      (NP-DAT (NP-DAT (D^D +tam) (FW concurrentium))
+				      (CONJP (CONJ and)
+					     (NP-DAT (NP-GEN (D^G +t+ara) (N^G mon+da))
+						     (N^D rihtingum)))))
+			  (VB findan)
+			  (CP-QUE (WNP-DAT-1 (WADJ^I hwylce) (N^D d+age))
+				  (C 0)
+				  (IP-SUB (NP-DAT-TMP *T*-1)
+					  (NP-NOM (D^N +ta) (N^N mon+das))
+					  (VBPS gan)
+					  (PP (P on)
+					      (NP-ACC (N^A tun)))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.200.307))
+
+/~*
+Eala wur+dfulla wer, gyf +tu wylt witan +aniges mon+des gescead, hwylce d+age
+he cume to mannum, +tonne nim +tu +t+as Mon+d+as rihtinga and +ta concurrentes
++te +ty geare yrna+d, +t+ara fare we herbufan +atywdon.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.210.311)
+*~/
+/*
+38 WADJ^I:  38 WADJ^I, 39 hwylce, 36 CP-QUE-PRN
+*/
+
+( (CODE <T22710022400,1.2.210>)
+  (IP-MAT (INTJ Eala)
+	  (NP-NOM-VOC (ADJ^N wur+dfulla) (N^N wer))
+	  (, ,)
+	  (CP-ADV (P gyf)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N +tu))
+			  (MDPI wylt)
+			  (VB witan)
+			  (NP-ACC (NP-GEN (Q^G +aniges) (N^G mon+des))
+				  (N^A gescead)
+				  (, ,)
+				  (CP-QUE-PRN (WNP-DAT-1 (WADJ^I hwylce) (N^D d+age))
+					      (C 0)
+					      (IP-SUB (NP-DAT-TMP *T*-1)
+						      (NP-NOM (PRO^N he))
+						      (VBPS cume)
+						      (PP (P to)
+							  (NP-DAT (N^D mannum))))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (VBI nim)
+	  (NP-NOM (PRO^N +tu))
+	  (NP-ACC (NP-ACC (NP-GEN (D^G +t+as) (NR^G Mon+d+as))
+			  (N^A rihtinga))
+		  (CONJP (CONJ and)
+			 (NP-ACC (D^A +ta)
+				 (FW concurrentes)
+				 (CP-REL (WNP-NOM-2 0)
+					 (C +te)
+					 (IP-SUB (NP-NOM *T*-2)
+						 (NP-DAT-TMP (D^I +ty) (N^D geare))
+						 (VBPI yrna+d)))
+				 (, ,)
+				 (CP-REL (WNP-3 (NP-GEN (D^G +t+ara))
+						(N fare))
+					 (C 0)
+					 (IP-SUB (NP *T*-3)
+						 (NP-NOM (PRO^N we))
+						 (PP (ADV+P herbufan))
+						 (VBDI +atywdon))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.210.311))
+
+/~*
+Her+after hyt gerist +t+at we gecy+don +after +tam forman d+age +t+at ys
++after kalendas hwylce d+ag hyt sy.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.218.315)
+*~/
+/*
+50 WADJ^N:  50 WADJ^N, 51 hwylce, 48 CP-QUE
+*/
+
+( (CODE <T22710022700,1.2.218>)
+  (IP-MAT (PP (ADV+P Her+after))
+	  (NP-NOM-x (PRO^N hyt))
+	  (VBPI gerist)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (PRO^N we))
+			    (VBPS gecy+don)
+			    (PP (P +after)
+				(NP-DAT (D^D +tam) (ADJ^D forman) (N^D d+age)))
+			    (CODE <paren>)
+			    (IP-MAT-PRN (NP-NOM (D^N +t+at))
+					(BEPI ys)
+					(XP (PP (P +after)
+						(NP (FW kalendas)))))
+			    (CODE </paren>)
+			    (CP-QUE (WNP-NOM-1 (WADJ^N hwylce) (N^N d+ag))
+				    (C 0)
+				    (IP-SUB (NP-NOM-PRD *T*-1)
+					    (NP-NOM (PRO^N hyt))
+					    (BEPS sy)))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.218.315))
+
+/~*
+Nu hyt gerist +t+at we +tas +ting mid rihtlicre race areccun and +tisra epacta
+gerynu apinsiun and hwanon hig up arison geornlice asmeagon.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.317.427)
+*~/
+/*
+59 WADV^D:  59 WADV^D, 60 hwanon, 57 CP-QUE
+*/
+
+( (CODE <T22710031500,1.2.317>)
+  (IP-MAT (ADVP-TMP (ADV^T Nu))
+	  (NP-NOM-x (PRO^N hyt))
+	  (VBPI gerist)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (IP-SUB (NP-NOM (PRO^N we))
+				    (NP-ACC (D^A +tas) (N^A +ting))
+				    (PP (P mid)
+					(NP-DAT (ADJ^D rihtlicre) (N^D race)))
+				    (VBPS areccun))
+			    (CONJP (CONJ and)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (NP-ACC (NP-GEN (D^G +tisra) (N^G epacta))
+						       (N^A gerynu))
+					       (VBPS apinsiun)))
+			    (CONJP (CONJ and)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (CP-QUE (WADVP-DIR-1 (WADV^D hwanon))
+						       (C 0)
+						       (IP-SUB (ADVP-DIR *T*-1)
+							       (NP-NOM (PRO^N hig))
+							       (RP up)
+							       (VBDI arison)))
+					       (ADVP (ADV geornlice))
+					       (VBPS asmeagon)))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.317.427))
+
+/~*
++Tonne $gecy+da+d hig $buta hwylce +ty o+dre geare beon sceolon.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.332.435)
+*~/
+/*
+16 WADJ^N:  16 WADJ^N, 17 hwylce, 14 CP-QUE
+*/
+
+( (CODE <T22710032100,1.2.332>)
+  (IP-MAT (ADVP-TMP (ADV^T +Tonne))
+	  (VBPI $gecy+da+d)
+	  (NP-NOM (PRO^N hig) (Q^N $buta))
+	  (CP-QUE (WNP-NOM-1 (WADJ^N hwylce))
+		  (C 0)
+		  (IP-SUB (NP-NOM *T*-1)
+			  (NP-DAT-TMP (D^I +ty) (ADJ^I o+dre) (N^D geare))
+			  (BE beon)
+			  (MDPI sceolon)))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.332.435))
+
+/~*
+Hwylc neod ys hyt +t+at man swa oft do $XXX to and eft wi+dteo +tonne +t+as
+geares ne beo+d nane epactas?
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.351.468)
+*~/
+/*
+5 WADJ^N:  5 WADJ^N, 6 Hwylc, 3 CP-QUE
+*/
+
+( (CODE <T22710034000,1.2.351>)
+  (CP-QUE (WNP-NOM-1 (WADJ^N Hwylc) (N^N neod))
+	  (IP-SUB (NP-NOM-PRD *T*-1)
+		  (BEPI ys)
+		  (NP-NOM-x (PRO^N hyt))
+		  (CP-THT-x (C +t+at)
+			    (IP-SUB (IP-SUB (NP-NOM (MAN^N man))
+					    (ADVP-TMP (ADV swa) (ADV^T oft))
+					    (VBPS do)
+					    (NP (NUM $XXX))
+					    (RPX to))
+				    (CONJP (CONJ and)
+					   (IP-SUB-CON (NP-NOM *con*)
+						       (ADVP-TMP (ADV^T eft))
+						       (RP+VBPS wi+dteo)
+						       (CP-ADV (P +tonne)
+							       (C 0)
+							       (IP-SUB (NP-GEN-3 (D^G +t+as) (N^G geares))
+								       (NEG ne)
+								       (BEPI beo+d)
+								       (NP-NOM (NP-GEN *ICH*-3)
+									       (NEG+Q^N nane)
+									       (N^N epactas)))))))))
+	  (. ?))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.351.468))
+
+/~*
+Gyf +tu wille witan mid fullum gesceade hwanon +ta concurrentes cumon, +tonne
+gedo +tu tog+adere ealle +t+as geares dagas, +t+ara synt +treo hundred and fif
+and syxtig daga on so+dum get+ale.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.4.17.534)
+*~/
+/*
+27 WADV^D:  27 WADV^D, 28 hwanon, 25 CP-QUE
+*/
+
+( (CODE <T22710038800,1.4.17>)
+  (IP-MAT (CP-ADV (P Gyf)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N +tu))
+			  (MDP wille)
+			  (VB witan)
+			  (PP (P mid)
+			      (NP-DAT (ADJ^D fullum) (N^D gesceade)))
+			  (CP-QUE (WADVP-DIR-1 (WADV^D hwanon))
+				  (C 0)
+				  (IP-SUB (ADVP-DIR *T*-1)
+					  (NP-NOM (D^N +ta) (FW concurrentes))
+					  (VBPS cumon)))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (VBPH gedo)
+	  (NP-NOM (PRO^N +tu))
+	  (ADVP (ADV tog+adere))
+	  (NP-ACC (Q^A ealle)
+		  (NP-GEN (D^G +t+as) (N^G geares))
+		  (N^A dagas)
+		  (, ,)
+		  (CP-REL (WNP-GEN-2 (D^G +t+ara))
+			  (C 0)
+			  (IP-SUB (BEPI synt)
+				  (NP-NOM (NP-GEN *T*-2)
+					  (NUMP (NUM +treo) (NUM hundred) (CONJ and) (NUM fif) (CONJ and) (NUM syxtig))
+					  (NP-GEN (N^G daga)))
+				  (PP (P on)
+				      (NP-DAT (ADJ^D so+dum) (N^D get+ale))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.4.17.534))
+
+/~*
+Gyf +tu wylle witan mid boclicum get+ale hwanon +ta regulares cumon +te
+preostas cigea+d feriarum, +tonne ne tod+al +tu +t+ara daga get+al +te beo+d
+on twelf mon+dum on +ta wisan +te we nu dydon, ac +turh twelf.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.4.30.546)
+*~/
+/*
+28 WADV^D:  28 WADV^D, 29 hwanon, 26 CP-QUE
+45 WNP-3:  45 WNP-3, 46 0, 26 CP-QUE
+*/
+
+( (CODE <T22710039800,1.4.30>)
+  (IP-MAT (IP-MAT-0 (CP-ADV (P Gyf)
+			    (C 0)
+			    (IP-SUB (NP-NOM (PRO^N +tu))
+				    (MDP wylle)
+				    (VB witan)
+				    (PP (P mid)
+					(NP-DAT (ADJ^D boclicum) (N^D get+ale)))
+				    (CP-QUE (WADVP-DIR-1 (WADV^D hwanon))
+					    (C 0)
+					    (IP-SUB (ADVP-DIR *T*-1)
+						    (NP-NOM (D^N +ta)
+							    (FW regulares)
+							    (CP-REL *ICH*-2))
+						    (VBPS cumon)
+						    (CP-REL-2 (WNP-3 0)
+							      (C +te)
+							      (IP-SUB (NP-NOM (N^N preostas))
+								      (VBPI cigea+d)
+								      (IP-SMC (NP-SBJ *T*-3)
+									      (NP-PRD (FW feriarum)))))))))
+		    (, ,)
+		    (ADVP-TMP (ADV^T +tonne))
+		    (NEG ne)
+		    (RP+VBI tod+al)
+		    (NP-NOM (PRO^N +tu))
+		    (NP-ACC (NP-GEN (D^G +t+ara)
+				    (N^G daga)
+				    (CP-REL *ICH*-4))
+			    (N^A get+al)
+			    (CP-REL-4 (WNP-NOM-5 0)
+				      (C +te)
+				      (IP-SUB (NP-NOM *T*-5)
+					      (BEPI beo+d)
+					      (PP (P on)
+						  (NP-DAT (NUM twelf) (N^D mon+dum))))))
+		    (PP (P on)
+			(NP-ACC (D^A +ta)
+				(N^A wisan)
+				(CP-REL (WPP-6 0)
+					(C +te)
+					(IPX-SUB=0 (PP *T*-6)
+						   (NP-NOM (PRO^N we))
+						   (ADVP-TMP (ADV^T nu))
+						   (VBDI dydon))))))
+	  (, ,)
+	  (CONJP (CONJ ac)
+		 (IPX-MAT=0 (PP (P +turh)
+				(NP (NUM twelf)))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.4.30.546))
+
+/~*
+hyt by+d geradlic +t+at we ascrutnion his fare and apinsiun his si+d, hwanon
+he come and hwa hine gesette o+d+de hu he sy o+d+de to hwam he m+age.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.25.602)
+*~/
+/*
+41 WADV^D:  41 WADV^D, 42 hwanon, 39 CP-QUE
+41 WADV^D:  41 WADV^D, 42 hwanon, 38 CP-QUE-5
+58 WPRO^N:  58 WPRO^N, 59 hwa, 56 CP-QUE
+58 WPRO^N:  58 WPRO^N, 59 hwa, 38 CP-QUE-5
+75 WADV:  75 WADV, 76 hu, 73 CP-QUE
+75 WADV:  75 WADV, 76 hu, 38 CP-QUE-5
+95 WPRO^D:  95 WPRO^D, 96 hwam, 90 CP-QUE
+95 WPRO^D:  95 WPRO^D, 96 hwam, 38 CP-QUE-5
+*/
+
+( (IP-MAT (NP-NOM-x (PRO^N hyt))
+	  (BEPI by+d)
+	  (ADJP-NOM-PRD (ADJ^N geradlic))
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB-0 (NP-NOM (PRO^N we))
+			      (VBPS ascrutnion)
+			      (NP (PRO$ his)
+				  (N fare)
+				  (CP-QUE-PRN *ICH*-5))
+			      (IPX-SUB-PRN=0 (CONJ and)
+					     (VBPS apinsiun)
+					     (NP-ACC (PRO$ his) (N^A si+d)))
+			      (, ,)
+			      (CP-QUE-5 (CP-QUE (WADVP-DIR-1 (WADV^D hwanon))
+						(C 0)
+						(IP-SUB (ADVP-DIR *T*-1)
+							(NP-NOM (PRO^N he))
+							(VBDS come)))
+					(CONJP (CONJ and)
+					       (CP-QUE (WNP-NOM-2 (WPRO^N hwa))
+						       (C 0)
+						       (IP-SUB (NP-NOM *T*-2)
+							       (NP-ACC (PRO^A hine))
+							       (VBD gesette))))
+					(CONJP (CONJ o+d+de)
+					       (CP-QUE (WADVP-3 (WADV hu))
+						       (C 0)
+						       (IP-SUB (ADVP *T*-3)
+							       (NP-NOM (PRO^N he))
+							       (BEPS sy))))
+					(CONJP (CONJ o+d+de)
+					       (CP-QUE (WPP-4 (P to)
+							      (WNP-DAT (WPRO^D hwam)))
+						       (C 0)
+						       (IP-SUB (PP *T*-4)
+							       (NP-NOM (PRO^N he))
+							       (MDPS m+age)))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.25.602))
+
+/~*
+Gif +tu wille witan hu mycel beo momentum, wite +tu +t+at to so+de +t+at
+feowertig momenta wyrcea+d ane tid.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.51.617)
+*~/
+/*
+19 WADV:  19 WADV, 20 hu, 17 CP-QUE
+*/
+
+( (CODE <T22710044400,2.1.51>)
+  (IP-MAT (CP-ADV (P Gif)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N +tu))
+			  (MDP wille)
+			  (VB witan)
+			  (CP-QUE (WQP-NOM-1 (WADV hu) (Q^N mycel))
+				  (C 0)
+				  (IP-SUB (QP-NOM-PRD *T*-1)
+					  (BEPS beo)
+					  (NP-NOM (FW momentum))))))
+	  (, ,)
+	  (VBPS wite)
+	  (NP-NOM (PRO^N +tu))
+	  (NP-ACC (D^A +t+at)
+		  (CP-THT-PRN *ICH*-2))
+	  (PP (P to)
+	      (NP-DAT (N^D so+de)))
+	  (CP-THT-PRN-2 (C +t+at)
+			(IP-SUB (NP-NOM (NUM feowertig) (FW momenta))
+				(VBPI wyrcea+d)
+				(NP-ACC (NUM^A ane) (N^A tid))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.51.617))
+
+/~*
+We witon to so+de +t+at manega sydefulle clericas nyton hw+at by+d quadrans
+o+d+de quadras,
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.60.622)
+*~/
+/*
+30 WPRO^N:  30 WPRO^N, 31 hw+at, 28 CP-QUE
+*/
+
+( (CODE <T22710044800,2.1.60>)
+  (IP-MAT (NP-NOM (PRO^N We))
+	  (VBPI witon)
+	  (PP (P to)
+	      (NP-DAT (N^D so+de)))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (Q^N manega) (ADJ^N sydefulle) (N^N clericas))
+			  (NEG+VBPI nyton)
+			  (CP-QUE (WNP-NOM-1 (WPRO^N hw+at))
+				  (C 0)
+				  (IP-SUB (NP-NOM-PRD *T*-1)
+					  (BEPI by+d)
+					  (NP-NOM (FW quadrans) (CONJ o+d+de) (FW quadras))))))
+	  (. ,))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.60.622))
+
+/~*
+Vs com nu to mode hu se arwur+da abbud Dionisius iu gefyrn ymbe +tisne
+wundorlican bissextum w+as sprecende.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.73.633)
+*~/
+/*
+22 WADV:  22 WADV, 23 hu, 20 CP-QUE-x
+*/
+
+( (CODE <T22710045600,2.1.73>)
+  (IP-MAT (NP-NOM-x *exp*)
+	  (NP (PRO Vs))
+	  (VBDI com)
+	  (ADVP-TMP (ADV^T nu))
+	  (PP (P to)
+	      (NP-DAT (N^D mode)))
+	  (CP-QUE-x (WADVP-1 (WADV hu))
+		    (C 0)
+		    (IP-SUB (ADVP *T*-1)
+			    (NP-NOM (D^N se)
+				    (ADJ^N arwur+da)
+				    (N^N abbud)
+				    (NP-NOM-PRN (NR^N Dionisius)))
+			    (ADVP-TMP (ADV^T iu))
+			    (ADVP-TMP (ADV^T gefyrn))
+			    (PP (P ymbe)
+				(NP-ACC (D^A +tisne) (ADJ^A wundorlican) (FW bissextum)))
+			    (BEDI w+as)
+			    (VAG sprecende)))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.73.633))
+
+/~*
+Vton +arest gleawlice swy+de witan hw+at he sy to so+de and hwanon he come and
+hw+at he do on +tam gerime o+d+de hwy he sy swa gehaten o+d+de hwa hine gemete
+o+d+de hine +t+as wur+dscipes cu+de, +t+at he sceolde gestandan on +tam
+rimcr+afte.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.158.677)
+*~/
+/*
+19 WPRO^N:  19 WPRO^N, 20 hw+at, 17 CP-QUE
+19 WPRO^N:  19 WPRO^N, 20 hw+at, 16 CP-QUE
+42 WADV^D:  42 WADV^D, 43 hwanon, 40 CP-QUE
+42 WADV^D:  42 WADV^D, 43 hwanon, 16 CP-QUE
+59 WPRO^A:  59 WPRO^A, 60 hw+at, 57 CP-QUE
+59 WPRO^A:  59 WPRO^A, 60 hw+at, 16 CP-QUE
+84 WADV:  84 WADV, 85 hwy, 82 CP-QUE
+84 WADV:  84 WADV, 85 hwy, 16 CP-QUE
+106 WPRO^N:  106 WPRO^N, 107 hwa, 104 CP-QUE
+106 WPRO^N:  106 WPRO^N, 107 hwa, 16 CP-QUE
+*/
+
+( (CODE <T22710048500,2.1.158>)
+  (IP-MAT (UTP Vton)
+	  (ADVP-TMP (ADVS^T +arest))
+	  (ADVP (ADV gleawlice) (ADV swy+de))
+	  (VB witan)
+	  (CP-QUE (CP-QUE (WNP-NOM-1 (WPRO^N hw+at))
+			  (C 0)
+			  (IP-SUB (NP-NOM-PRD *T*-1)
+				  (NP-NOM (PRO^N he))
+				  (BEPS sy)
+				  (PP (P to)
+				      (NP-DAT (N^D so+de)))))
+		  (CONJP (CONJ and)
+			 (CP-QUE (WADVP-DIR-2 (WADV^D hwanon))
+				 (C 0)
+				 (IP-SUB (ADVP-DIR *T*-2)
+					 (NP-NOM (PRO^N he))
+					 (VBPS come))))
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-ACC-3 (WPRO^A hw+at))
+				 (C 0)
+				 (IP-SUB (NP-ACC *T*-3)
+					 (NP-NOM (PRO^N he))
+					 (VBPS do)
+					 (PP (P on)
+					     (NP-DAT (D^D +tam) (N^D gerime))))))
+		  (CONJP (CONJ o+d+de)
+			 (CP-QUE (WADVP-4 (WADV hwy))
+				 (C 0)
+				 (IP-SUB (ADVP *T*-4)
+					 (NP-NOM (PRO^N he))
+					 (BEPS sy)
+					 (ADVP (ADV swa))
+					 (VBN gehaten))))
+		  (CONJP (CONJ o+d+de)
+			 (CP-QUE (WNP-NOM-5 (WPRO^N hwa))
+				 (C 0)
+				 (IP-SUB (IP-SUB (NP-NOM *T*-5)
+						 (NP-ACC (PRO^A hine))
+						 (VBPS gemete))
+					 (CONJP (CONJ o+d+de)
+						(IP-SUB-CON (NP-NOM *T*-5)
+							    (NP-ACC (PRO^A hine))
+							    (NP-GEN (D^G +t+as) (N^G wur+dscipes))
+							    (MDD cu+de)
+							    (, ,)
+							    (CP-ADV (C +t+at)
+								    (IP-SUB (NP-NOM (PRO^N he))
+									    (MDD sceolde)
+									    (VB gestandan)
+									    (PP (P on)
+										(NP-DAT (D^D +tam) (N^D rimcr+afte)))))))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.158.677))
+
+/~*
+Hu mihte hyt beon, la wynsuma leornere, +t+at binnan nigontyne wintrum wurde
+an d+ag gelytlod of +t+as monan ylde, gyf +t+at ne dyde +t+as monan $swyftnys
+lytlum and lytlum +turh +ta nigontyne gear yrnende and +t+ane saltus wyrcende?
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.165.680)
+*~/
+/*
+5 WADV:  5 WADV, 6 Hu, 3 CP-QUE
+*/
+
+( (CODE <T22710048800,2.1.165>)
+  (CP-QUE (WADVP (WADV Hu))
+	  (IP-SUB (MDD mihte)
+		  (NP-NOM-x (PRO^N hyt))
+		  (BE beon)
+		  (, ,)
+		  (INTJ la)
+		  (NP-NOM-VOC (ADJ^N wynsuma) (N^N leornere))
+		  (, ,)
+		  (CP-THT-x (C +t+at)
+			    (IP-SUB (PP (P binnan)
+					(NP-DAT (NUM nigontyne) (N^D wintrum)))
+				    (BEDS wurde)
+				    (NP-NOM (NUM^N an) (N^N d+ag))
+				    (VBN gelytlod)
+				    (PP (P of)
+					(NP (NP-GEN (D^G +t+as) (N^G monan))
+					    (N ylde)))
+				    (, ,)
+				    (CP-ADV (P gyf)
+					    (C 0)
+					    (IP-SUB (NP-ACC (D^A +t+at))
+						    (NEG ne)
+						    (VBD dyde)
+						    (NP-NOM (NP-GEN (D^G +t+as) (N^G monan))
+							    (N^N $swyftnys))
+						    (QP-DAT-ADT (Q^D lytlum) (CONJ and) (Q^D lytlum))
+						    (PTP-NOM (PP (P +turh)
+								 (NP-ACC (D^A +ta) (NUM nigontyne) (N^A gear)))
+							     (PTP-NOM (VAG^N yrnende))
+							     (CONJP (CONJ and)
+								    (PTP-NOM (NP-ACC (D^A +t+ane) (FW saltus))
+									     (VAG^N wyrcende)))))))))
+	  (. ?))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.165.680))
+
+/~*
++T+as anes d+ages wanung, hu he by+d geworden binnan nigontyne wintrum we
+wylla+d gecy+dan.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.193.697)
+*~/
+/*
+18 WADV:  18 WADV, 19 hu, 16 CP-QUE
+*/
+
+( (IP-MAT (CODE <T22710050100,2.1.193>)
+	  (NP-NOM-LFD-2 (NP-GEN (D^G +T+as) (NUM^G anes) (N^G d+ages))
+			(N^N wanung))
+	  (, ,)
+	  (CP-QUE (WADVP-1 (WADV hu))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-1)
+			  (NP-NOM-LFD *ICH*-2)
+			  (NP-NOM-RSP (PRO^N he))
+			  (BEPI by+d)
+			  (BEN geworden)
+			  (PP (P binnan)
+			      (NP-DAT (NUM nigontyne) (N^D wintrum)))))
+	  (NP-NOM (PRO^N we))
+	  (MDPI wylla+d)
+	  (VB gecy+dan)
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.193.697))
+
+/~*
+Vnderstand, la r+adere, hw+at seo r+ading cwy+d:
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.198.701)
+*~/
+/*
+17 WPRO^A:  17 WPRO^A, 18 hw+at, 15 CP-QUE
+*/
+
+( (IP-MAT (CODE <T22710050500,2.1.198>)
+	  (VBI Vnderstand)
+	  (, ,)
+	  (INTJ la)
+	  (NP-NOM-VOC (N^N r+adere))
+	  (, ,)
+	  (CP-QUE (WNP-ACC-1 (WPRO^A hw+at))
+		  (C 0)
+		  (IP-SUB (NP-ACC *T*-1)
+			  (NP-NOM (D^N seo) (N^N r+ading))
+			  (VBPI cwy+d)))
+	  (. :))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.198.701))
+
+/~*
++Tu scealt gyman swy+de georne hw+anne VIII idus Martius ga on tun,
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.736)
+*~/
+/*
+18 WADV^T:  18 WADV^T, 19 hw+anne, 16 CP-QUE
+*/
+
+( (CODE <T22710052700,2.1.238>)
+  (IP-MAT (NP-NOM (PRO^N +Tu))
+	  (MDPI scealt)
+	  (VB gyman)
+	  (ADVP (ADV swy+de) (ADV georne))
+	  (CP-QUE (WADVP-TMP-1 (WADV^T hw+anne))
+		  (C 0)
+		  (IP-SUB (ADVP-TMP *T*-1)
+			  (NP-NOM (FW VIII) (FW idus) (FW Martius))
+			  (VBPS ga)
+			  (PP (P on)
+			      (NP-ACC (N^A tun)))))
+	  (. ,))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.736))
+
+/~*
+and loca swy+de georne hw+ar beo luna prima +t+ar+after,
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.737)
+*~/
+/*
+13 WADV^L:  13 WADV^L, 14 hw+ar, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (VBI loca)
+	  (ADVP (ADV swy+de) (ADV georne))
+	  (CP-QUE (WADVP-LOC-1 (WADV^L hw+ar))
+		  (C 0)
+		  (IP-SUB (ADVP-LOC *T*-1)
+			  (BEPS beo)
+			  (NP-NOM (FW luna) (FW prima))
+			  (PP (ADV+P +t+ar+after))))
+	  (. ,))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.737))
+
+/~*
+and hawa swy+de scearplice hw+ar sy XII kalendas Aprelis,
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.739)
+*~/
+/*
+13 WADV^L:  13 WADV^L, 14 hw+ar, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (VBI hawa)
+	  (ADVP (ADV swy+de) (ADV scearplice))
+	  (CP-QUE (WADVP-LOC-1 (WADV^L hw+ar))
+		  (C 0)
+		  (IP-SUB (ADVP-LOC *T*-1)
+			  (BEPS sy)
+			  (NP-NOM (FW XII) (FW kalendas) (FW Aprelis))))
+	  (. ,))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.238.739))
+
+/~*
+An +t+ara +tinga ys +t+at we sceolon witan mid fullum gesceade hw+ar +t+as
+monan niwnys beo on Martio up asprungen, and o+der +t+at we sceolon witan
+hw+ar he beo XIIIIma +after +t+are emnihte, and +tridde +t+at we sceolon
+healdan +ta Eastertid on +t+are +triddan wucan,
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.295.788)
+*~/
+/*
+36 WADV^L:  36 WADV^L, 37 hw+ar, 34 CP-QUE
+85 WADV^L:  85 WADV^L, 86 hw+ar, 83 CP-QUE
+*/
+
+( (CODE <T22710055400,2.1.295>)
+  (IP-MAT (IP-MAT-0 (NP-NOM (NUM^N An)
+			    (NP-GEN (D^G +t+ara) (N^G +tinga)))
+		    (BEPI ys)
+		    (CP-THT (C +t+at)
+			    (IP-SUB (NP-NOM (PRO^N we))
+				    (MDPI sceolon)
+				    (VB witan)
+				    (PP (P mid)
+					(NP-DAT (ADJ^D fullum) (N^D gesceade)))
+				    (CP-QUE (WADVP-LOC-1 (WADV^L hw+ar))
+					    (C 0)
+					    (IP-SUB (ADVP-LOC *T*-1)
+						    (NP-NOM (NP-GEN (D^G +t+as) (N^G monan))
+							    (N^N niwnys))
+						    (BEPS beo)
+						    (PP (P on)
+							(NP-DAT (NR^D Martio)))
+						    (RP up)
+						    (VBN asprungen))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IPX-MAT=0 (NP-NOM (ADJ^N o+der))
+			    (CP-THT (C +t+at)
+				    (IP-SUB (NP-NOM (PRO^N we))
+					    (MDPI sceolon)
+					    (VB witan)
+					    (CP-QUE (WADVP-LOC-2 (WADV^L hw+ar))
+						    (C 0)
+						    (IP-SUB (ADVP-LOC *T*-2)
+							    (NP-NOM (PRO^N he))
+							    (BEPS beo)
+							    (PP (NP-EXT (FW XIIIIma))
+								(P +after)
+								(NP-DAT (D^D +t+are) (N^D emnihte)))))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IPX-MAT=0 (NP-NOM (ADJ^N +tridde))
+			    (CP-THT (C +t+at)
+				    (IP-SUB (NP-NOM (PRO^N we))
+					    (MDPI sceolon)
+					    (VB healdan)
+					    (NP-ACC (D^A +ta) (NR^A Eastertid))
+					    (PP (P on)
+						(NP-DAT (D^D +t+are) (ADJ^D +triddan) (N^D wucan)))))))
+	  (. ,))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.295.788))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	37/26/813
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd
+*/
+
+/~*
+La hu ne h+af+d se d+ag twelf tida?
+(cotempo,+ATemp:6.21.237)
+*~/
+/*
+6 WADV:  6 WADV, 7 hu, 1 CP-QUE-SPE
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (INTJP (INTJ La) (WADV hu))
+			  (NEG ne)
+			  (HVPI h+af+d)
+			  (NP-NOM (D^N se) (N^N d+ag))
+			  (NP-ACC (NUM twelf) (N^A tida)))
+	      (. ?))
+  (ID cotempo,+ATemp:6.21.237))
+
+/~*
+Men magon swa +deah +ta +de fyrwite beo+d cepan be his bleo & be +d+are sunnan,
+o+d+de +t+as roderes, hwilc weder toweard bi+d.
+(cotempo,+ATemp:8.12.278)
+*~/
+/*
+68 WADJ^N:  68 WADJ^N, 69 hwilc, 66 CP-QUE
+*/
+
+( (CODE <T03990019300,8.12>)
+  (IP-MAT (NP-NOM (N^N Men)
+		  (CP-REL *ICH*-1))
+	  (MDPI magon)
+	  (ADVP (ADV swa) (ADV +deah))
+	  (CP-REL-1 (WNP-NOM-2 (D^N +ta))
+		    (C +de)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (ADJP-NOM-PRD (ADJ^N fyrwite))
+			    (BEPI beo+d)))
+	  (VB cepan)
+	  (PP (PP (P be)
+		  (NP-DAT (PRO$ his) (N^D bleo)))
+	      (CONJP (CONJ &)
+		     (PP (P be)
+			 (NP (NP-GEN (NP-GEN (D^G +d+are) (N^G sunnan))
+				     (, ,)
+				     (CONJP (CONJ o+d+de)
+					    (NP-GEN (D^G +t+as) (N^G roderes))))))))
+	  (, ,)
+	  (CP-QUE (WNP-NOM-3 (WADJ^N hwilc) (N^N weder))
+		  (C 0)
+		  (IP-SUB (NP-NOM *T*-3)
+			  (ADJP-NOM-PRD (ADJ^N toweard))
+			  (BEPI bi+d)))
+	  (. .))
+  (ID cotempo,+ATemp:8.12.278))
+
+/~*
++Dis m+ag sceawian se +de wile, hu se w+ata g+a+d upp, swilce mid smice o+d+de
+mid miste,
+(cotempo,+ATemp:11.9.363)
+*~/
+/*
+30 WADV:  30 WADV, 31 hu, 28 CP-QUE-PRN-2
+*/
+
+( (CODE <T03990024900,11.9>)
+  (IP-MAT-0 (NP-ACC (D^A +Dis)
+		    (CP-QUE-PRN *ICH*-2))
+	    (MDPI m+ag)
+	    (VB sceawian)
+	    (NP-NOM (D^N se)
+		    (CP-REL (WNP-NOM-1 0)
+			    (C +de)
+			    (IPX-SUB=0 (NP-NOM *T*-1)
+				       (MDP wile))))
+	    (, ,)
+	    (CP-QUE-PRN-2 (WADVP-3 (WADV hu))
+			  (C 0)
+			  (IP-SUB (ADVP *T*-3)
+				  (NP-NOM (D^N se) (N^N w+ata))
+				  (VBPI g+a+d)
+				  (RP upp)
+				  (, ,)
+				  (PP (P swilce)
+				      (CPX-CMP (IPX-SUB (PP (PP (P mid)
+								(NP-DAT (N^D smice)))
+							    (CONJP (CONJ o+d+de)
+								   (PP (P mid)
+								       (NP-DAT (N^D miste))))))))))
+	    (. ,))
+  (ID cotempo,+ATemp:11.9.363))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	3/3/384
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	37/26/813
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	3/3/384
+whole search, hits/tokens/total
+		40/29/1360
+*/

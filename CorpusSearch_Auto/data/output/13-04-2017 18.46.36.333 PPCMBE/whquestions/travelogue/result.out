@@ -1,0 +1,899 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:46 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\whquestions\travelogue\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd
+*/
+
+/~*
+It is small wonder so many artists make their headquarters, and, indeed, live
+permanently, at this mouth of the Conway, seeing what infinite variety there
+is here of light and scene, what a wealth of detail on sea and shore, and what
+ready access to the best inland scenery in Wales.
+(BRADLEY-1905,199.33)
+*~/
+/*
+77 WNP-2:  77 WNP-2, 85 *ICH*-5, 76 CP-QUE
+113 WNP-6:  113 WNP-6, 125 detail, 112 CP-QUE
+147 WNP:  147 WNP, 171 Wales, 146 CP-QUE
+*/
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (NP-OB1 (ADJ small) (N wonder))
+	  (CP-THT-1 (C 0)
+		    (IP-SUB (IP-SUB (NP-SBJ (QP (ADVR so) (Q many))
+					    (NS artists))
+				    (VBP make)
+				    (NP-OB1 (PRO$ their) (NS headquarters)))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (, ,)
+				   (IP-SUB (NP-SBJ *con*)
+					   (PP (P+N indeed))
+					   (, ,)
+					   (VBP live)
+					   (ADVP (ADV permanently))
+					   (, ,)
+					   (PP (P at)
+					       (NP (D this)
+						   (N mouth)
+						   (PP (P of)
+						       (NP (D the) (NPR Conway)))))))))
+	  (, ,)
+	  (IP-PPL (VAG seeing)
+		  (CP-QUE (CP-QUE (WNP-2 (WD what)
+					 (ADJ infinite)
+					 (N variety)
+					 (PP *ICH*-5))
+				  (C 0)
+				  (IP-SUB-3 (NP-4 *T*-2)
+					    (NP-SBJ-4 (EX there))
+					    (BEP is)
+					    (ADVP-LOC (ADV here))
+					    (PP-5 (P of)
+						  (NP (N light) (CONJ and) (N scene)))))
+			  (, ,)
+			  (CONJP (CP-QUE (WNP-6 (WD what)
+						(D a)
+						(N wealth)
+						(PP (P of)
+						    (NP (N detail))))
+					 (C 0)
+					 (IP-SUB=3 (NP *T*-6)
+						   (PP (P on)
+						       (NP (N sea) (CONJ and) (N shore))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-QUE (WNP (WD what)
+					      (ADJ ready)
+					      (N access)
+					      (PP (P to)
+						  (NP (D the)
+						      (ADJS best)
+						      (ADJ inland)
+						      (N scenery)
+						      (PP (P in)
+							  (NP (NPR Wales))))))))))
+	  (. .))
+  (ID BRADLEY-1905,199.33))
+
+/~*
+and if he is not hardy I do not know who is.
+(BRADLEY-1905,202.69)
+*~/
+/*
+31 WNP-2:  31 WNP-2, 33 who, 30 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB-1 (NP-SBJ (PRO he))
+				(BEP is)
+				(NEG not)
+				(ADJP (ADJ hardy)))))
+	  (NP-SBJ (PRO I))
+	  (DOP do)
+	  (NEG not)
+	  (VB know)
+	  (CP-QUE (WNP-2 (WPRO who))
+		  (C 0)
+		  (IP-SUB=1 (NP-SBJ *T*-2)
+			    (BEP is)))
+	  (. .))
+  (ID BRADLEY-1905,202.69))
+
+/~*
+Indeed, I $can $not think what Wales will do when this question is definitely
+settled.
+(BRADLEY-1905,204.103)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (IP-MAT (PP (P+N Indeed))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB think)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (NPR Wales))
+			  (MD will)
+			  (DO do)))
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D this) (N question))
+			      (BEP is)
+			      (ADVP (ADV definitely))
+			      (VAN settled))))
+	  (. .))
+  (ID BRADLEY-1905,204.103))
+
+/~*
+But remembering that it is thirteen miles to Llanrwst, and the river for
+nearly the whole distance a tideway, and only to be crossed, and that with
+something of a detour, at one point, it will be necessary to consider somewhat
+before electing which gateway in the walls of Conway to ride out of.
+(BRADLEY-1905,219.298)
+*~/
+/*
+131 WNP-5:  131 WNP-5, 149 Conway, 130 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (IP-PPL (VAG remembering)
+		  (CP-THT (C that)
+			  (IP-SUB (IP-SUB-1 (NP-SBJ (PRO it))
+					    (BEP is)
+					    (PP (NP-MSR (NUM thirteen) (NS miles))
+						(P to)
+						(NP (NPR Llanrwst))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=1 (IP-SUB-2 (NP-SBJ (D the) (N river))
+							     (PP (P for)
+								 (NP (ADV nearly) (D the) (ADJ whole) (N distance)))
+							     (NP-OB1 (D a) (N tideway)))
+						   (, ,)
+						   (CONJP (CONJ and)
+							  (IP-SUB=2 (IP-INF-3 (FP only)
+									      (TO to)
+									      (BE be)
+									      (VAN crossed)
+									      (, ,)
+									      (IP-INF-PRN=3 (CONJ and)
+											    (NP (D that))
+											    (PP (P with)
+												(NP (Q+N something)
+												    (PP (P of)
+													(NP (D a) (N detour))))))
+									      (, ,)
+									      (PP (P at)
+										  (NP (ONE one) (N point)))))))))))
+	  (, ,)
+	  (NP-SBJ-4 (PRO it))
+	  (MD will)
+	  (BE be)
+	  (ADJP (ADJ necessary))
+	  (IP-INF-4 (TO to)
+		    (VB consider)
+		    (NP-MSR (Q+WPRO somewhat))
+		    (PP (P before)
+			(IP-PPL (VAG electing)
+				(CP-QUE (WNP-5 (WD which)
+					       (N gateway)
+					       (PP (P in)
+						   (NP (D the)
+						       (NS walls)
+						       (PP (P of)
+							   (NP (NPR Conway))))))
+					(IP-INF (TO to)
+						(VB ride)
+						(PP (RP out)
+						    (P of)
+						    (NP *T*-5)))))))
+	  (. .))
+  (ID BRADLEY-1905,219.298))
+
+/~*
+Few of us, I fancy, realise what skill and patience and money it takes to
+fight the ocean as the North Western has to fight it for many a mile between
+the mouths of the Dee and Menai.
+(BRADLEY-1905,220.306)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 40 money, 23 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (Q Few)
+		  (PP (P of)
+		      (NP (PRO us))))
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (VBP fancy))
+	  (, ,)
+	  (VBP realise)
+	  (CP-QUE (WNP-1 (WD what)
+			 (N skill)
+			 (CONJP (CONJ and)
+				(NX (N patience)))
+			 (CONJP (CONJ and)
+				(NX (N money))))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (VBP takes)
+			  (IP-INF-PRP (TO to)
+				      (VB fight)
+				      (NP-OB1 (D the) (N ocean))
+				      (PP (P as)
+					  (CP-ADV (WADVP-2 0)
+						  (C 0)
+						  (IP-SUB (ADVP *T*-2)
+							  (NP-SBJ (D the) (NPR North) (NPR Western))
+							  (HVP has)
+							  (IP-INF (TO to)
+								  (VB fight)
+								  (NP-OB1 (PRO it))
+								  (PP (P for)
+								      (NP (Q many) (D a) (N mile)))
+								  (PP (P between)
+								      (NP (D the)
+									  (NS mouths)
+									  (PP (P of)
+									      (NP (D the)
+										  (NPR Dee)
+										  (CONJP (CONJ and)
+											 (NX (NPR Menai))))))))))))))
+	  (. .))
+  (ID BRADLEY-1905,220.306))
+
+/~*
+What can be said of such an attitude? unless indeed it helps to convince us
+that the move for higher education in Wales has come none too soon.
+(BRADLEY-1905,226.386)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD can)
+		  (BE be)
+		  (VAN said)
+		  (PP (P of)
+		      (NP (SUCH such) (D an) (N attitude)))
+		  (, ?)
+		  (PP (P unless)
+		      (CP-ADV (C 0)
+			      (IP-SUB (PP (P+N indeed))
+				      (CODE <P_226>)
+				      (NP-SBJ (PRO it))
+				      (VBP helps)
+				      (IP-INF (TO to)
+					      (VB convince)
+					      (NP-OB1 (PRO us))
+					      (CP-THT (C that)
+						      (IP-SUB (NP-SBJ (D the)
+								      (N move)
+								      (PP (P for)
+									  (NP (ADJR higher)
+									      (N education)
+									      (PP (P in)
+										  (NP (NPR Wales))))))
+							      (HVP has)
+							      (VBN come)
+							      (ADVP-TMP (Q none) (ADVR too) (ADV soon)))))))))
+	  (. .))
+  (ID BRADLEY-1905,226.386))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	8/6/437
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd
+*/
+
+/~*
+As soon as they saw the war canoe they ran up and down the ship like
+distracted people, not knowing which way to escape.
+(COOK-1776,38.821)
+*~/
+/*
+64 WNP-2:  64 WNP-2, 68 way, 63 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADVR As)
+		    (ADV soon)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-1)
+					(NP-SBJ (PRO they))
+					(VBD saw)
+					(NP-OB1 (D the) (N war) (N canoe))))))
+	  (NP-SBJ (PRO they))
+	  (VBD ran)
+	  (PP (P (P up) (CONJ and) (P down))
+	      (NP (D the) (N ship)))
+	  (ADJP-SPR (ADJ like)
+		    (NP (VAN distracted) (NS people)))
+	  (, ,)
+	  (IP-PPL (NEG not)
+		  (VAG knowing)
+		  (CP-QUE (WNP-2 (WD which) (N way))
+			  (IP-INF (NP-DIR *T*-2)
+				  (TO to)
+				  (VB escape))))
+	  (. .))
+  (ID COOK-1776,38.821))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	1/1/829
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd
+*/
+
+/~*
+and two of Motezuma 's Governors came to visit Cortes, bringing him Presents,
+and asking what his Intention was?
+(COOKE-1712,1,418.26)
+*~/
+/*
+57 WNP-1:  57 WNP-1, 59 what, 56 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NUM two)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NP-POS (NPR Motezuma) (CODE <$$font>) ($ 's))
+			  (NS Governors))))
+	  (VBD came)
+	  (IP-INF-PRP (TO to)
+		      (VB visit)
+		      (CODE <font>)
+		      (NP-OB1 (NPR Cortes)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG bringing)
+			  (NP-OB2 (PRO him))
+			  (NP-OB1 (NS Presents)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (VAG asking)
+				 (CP-QUE (WNP-1 (WPRO what))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-1)
+						 (NP-SBJ (PRO$ his) (N Intention))
+						 (BED was))))))
+	  (. ?))
+  (ID COOKE-1712,1,418.26))
+
+/~*
+These Defeats put the Senate of Tlascala upon debating what was farther to be
+done;
+(COOKE-1712,1,421.50)
+*~/
+/*
+31 WNP-1:  31 WNP-1, 33 what, 30 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D These) (NS Defeats))
+	  (VBD put)
+	  (NP-OB1 (D the)
+		  (N Senate)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Tlascala))))
+	  (CODE <$$font>)
+	  (PP (P upon)
+	      (IP-PPL (VAG debating)
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-1)
+				      (BED was)
+				      (NP-MSR-2 (ADJR farther))
+				      (IP-INF (NP-SBJ *-1)
+					      (NP-MSR *ICH*-2)
+					      (TO to)
+					      (BE be)
+					      (DAN done))))))
+	  (. ;))
+  (ID COOKE-1712,1,421.50))
+
+/~*
+but, Gemelli tells us it may be more properly call'd a poor Village of
+Fishermen, being only a few wretched Houses of Mud, Wood, and Straw, and
+inhabited by none but Blacks and Mulattoes; by which we see what Credit is to
+be given to the Accounts of some Men;
+(COOKE-1712,1,443.383)
+*~/
+/*
+130 WNP-4:  130 WNP-4, 134 Credit, 129 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (CODE <font>)
+	  (NP-SBJ (NPR Gemelli))
+	  (CODE <$$font>)
+	  (VBP tells)
+	  (NP-OB2 (PRO us))
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (PRO it))
+			  (MD may)
+			  (BE be)
+			  (ADVP (QR more) (ADV properly))
+			  (VAN call'd)
+			  (IP-SMC (NP-SBJ *-1)
+				  (NP-OB1 (D a)
+					  (ADJ poor)
+					  (N Village)
+					  (PP (P of)
+					      (NP (N+NS Fishermen)))))
+			  (, ,)
+			  (IP-PPL (IP-PPL-2 (BAG being)
+					    (NP-OB1 (QP (FP only) (D a) (Q few))
+						    (ADJ wretched)
+						    (NS Houses)
+						    (PP (P of)
+							(NP (N Mud) (, ,) (N Wood) (, ,) (CONJ and) (N Straw)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-PPL=2 (VAN inhabited)
+						   (PP (P by)
+						       (NP (Q none)
+							   (PP (P but)
+							       (NP (NS Blacks) (CONJ and) (NS Mulattoes))))))))))
+	  (, ;)
+	  (CP-CAR (WPP-3 (P by)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-3)
+			  (NP-SBJ (PRO we))
+			  (VBP see)
+			  (CP-QUE (WNP-4 (WD what) (N Credit))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-4)
+					  (BEP is)
+					  (IP-INF (NP-SBJ *-4)
+						  (TO to)
+						  (BE be)
+						  (VAN given)
+						  (PP (P to)
+						      (NP (D the)
+							  (NS Accounts)
+							  (PP (P of)
+							      (NP (Q some) (NS Men))))))))))
+	  (. ;))
+  (ID COOKE-1712,1,443.383))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	3/3/545
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	0/0/614
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd
+*/
+
+/~*
+but knew not which way,
+(OFFICER-1744,229.355)
+*~/
+/*
+11 WNP:  11 WNP, 15 way, 10 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (VBD knew)
+	  (NEG not)
+	  (CP-QUE (WNP (WD which) (N way)))
+	  (. ,))
+  (ID OFFICER-1744,229.355))
+
+/~*
+and but only two came to an Anchor, which were Spaniards, who landed before he
+knew what they were,
+(OFFICER-1744,243.626)
+*~/
+/*
+74 WNP-5:  74 WNP-5, 76 what, 73 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (CONJ but)
+	  (CODE {COM:sic})
+	  (NP-SBJ (NUMP (FP only) (NUM two))
+		  (CP-REL *ICH*-1)
+		  (CP-REL *ICH*-3))
+	  (VBD came)
+	  (PP (P to)
+	      (NP (D an) (N Anchor)))
+	  (, ,)
+	  (CP-REL-1 (WNP-2 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (BED were)
+			    (CODE <font>)
+			    (NP-OB1 (NPRS Spaniards))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-REL-3 (WNP-4 (WPRO who))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-4)
+			    (VBD landed)
+			    (PP (P before)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (PRO he))
+						(VBD knew)
+						(CP-QUE (WNP-5 (WPRO what))
+							(C 0)
+							(IP-SUB (NP-OB1 *T*-5)
+								(NP-SBJ (PRO they))
+								(BED were))))))))
+	  (. ,))
+  (ID OFFICER-1744,243.626))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	2/2/761
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd
+*/
+
+/~*
+Should it be known, he said, that he had told me what he had, the women would
+drag him into a fetich-house,
+(READE-1863,207.111)
+*~/
+/*
+40 WNP-2:  40 WNP-2, 42 what, 39 CP-QUE
+*/
+
+( (IP-MAT (CP-ADV (C 0)
+		  (IP-SUB (MD Should)
+			  (NP-SBJ-1 (PRO it))
+			  (BE be)
+			  (VAN known)
+			  (, ,)
+			  (IP-MAT-PRN (NP-SBJ (PRO he))
+				      (VBD said))
+			  (, ,)
+			  (CP-THT-1 (C that)
+				    (IP-SUB (NP-SBJ (PRO he))
+					    (HVD had)
+					    (VBN told)
+					    (NP-OB2 (PRO me))
+					    (CP-QUE (WNP-2 (WPRO what))
+						    (C 0)
+						    (IP-SUB (NP-OB1 *T*-2)
+							    (NP-SBJ (PRO he))
+							    (HVD had)))))))
+	  (, ,)
+	  (NP-SBJ (D the) (NS women))
+	  (MD would)
+	  (VB drag)
+	  (NP-OB1 (PRO him))
+	  (PP (P into)
+	      (NP (D a) (N+N fetich-house)))
+	  (. ,))
+  (ID READE-1863,207.111))
+
+/~*
+and again, when I was at Ngumbi, taking down words from an Ashira slave, I
+asked him what was the word for God in the language of his country.
+(READE-1863,210.177)
+*~/
+/*
+58 WNP-1:  58 WNP-1, 60 what, 57 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV again))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (BED was)
+			      (PP (P at)
+				  (NP (NPR Ngumbi)))
+			      (, ,)
+			      (IP-PPL (VAG taking)
+				      (RP down)
+				      (NP-OB1 (NS words))
+				      (PP (P from)
+					  (NP (D an) (NPR Ashira) (N slave)))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (NP-OB1 (D the)
+				  (N word)
+				  (PP (P for)
+				      (NP (NPR God))))
+			  (PP (P in)
+			      (NP (D the)
+				  (N language)
+				  (PP (P of)
+				      (NP (PRO$ his) (N country)))))))
+	  (. .))
+  (ID READE-1863,210.177))
+
+/~*
+And what in Boccaccio is more poignant and more vicious than this song of the
+Benga, which I have often heard them sing, young men and women together, when
+no old men were present?
+(READE-1863,219.451)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 12 Boccaccio, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what)
+		 (PP (P in)
+		     (NP (NPR Boccaccio))))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (ADJP (ADJP (QR more) (ADJ poignant))
+			(CONJP (CONJ and)
+			       (ADJP (QR more) (ADJ vicious)))
+			(PP (P than)
+			    (NP (D this)
+				(N song)
+				(PP (P of)
+				    (NP (D the) (NPRS Benga)))
+				(, ,)
+				(CP-REL (WNP-2 (WPRO which))
+					(C 0)
+					(IP-SUB (NP-SBJ (PRO I))
+						(HVP have)
+						(ADVP-TMP (ADV often))
+						(VBN heard)
+						(IP-INF (NP-OB1 *T*-2)
+							(NP-SBJ (PRO them))
+							(VB sing)
+							(, ,)
+							(IP-ABS (NP-SBJ (ADJ young)
+									(NS men)
+									(CONJP (CONJ and)
+									       (NX (NS women))))
+								(ADVP (ADV together))))
+						(, ,)
+						(PP (P when)
+						    (CP-ADV (C 0)
+							    (IP-SUB (NP-SBJ (Q no) (ADJ old) (NS men))
+								    (BED were)
+								    (ADJP (ADJ present)))))))))))
+	  (. ?))
+  (ID READE-1863,219.451))
+
+/~*
+What is it, then, that they would have us imitate?
+(READE-1863,219.462)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ-2 (PRO it))
+		  (, ,)
+		  (ADVP (ADV then))
+		  (, ,)
+		  (CP-THT-2 (C that)
+			    (IP-SUB (NP-SBJ (PRO they))
+				    (MD would)
+				    (HV have)
+				    (IP-INF (NP-SBJ (PRO us))
+					    (VB imitate)))))
+	  (. ?))
+  (ID READE-1863,219.462))
+
+/~*
+and asked what her name was, and where she was bound, in the same way that I
+would have inquired the name and address of a handsome girl who had suddenly
+inspired me with "the divine passion."
+(READE-1863,221.505)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD asked)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO$ her) (N name))
+				  (BED was)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WADVP-2 (WADV where))
+				 (C 0)
+				 (IP-SUB (ADVP-DIR *T*-2)
+					 (NP-SBJ (PRO she))
+					 (BED was)
+					 (VAN bound)))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (D the)
+		  (ADJ same)
+		  (N way)
+		  (CP-REL (WADVP-3 0)
+			  (C that)
+			  (IP-SUB (ADVP *T*-3)
+				  (NP-SBJ (PRO I))
+				  (MD would)
+				  (HV have)
+				  (VBN inquired)
+				  (NP-OB1 (D the)
+					  (N name)
+					  (CONJP (CONJ and)
+						 (NX (N address)))
+					  (PP (P of)
+					      (NP (D a)
+						  (ADJ handsome)
+						  (N girl)
+						  (CP-REL (WNP-4 (WPRO who))
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-4)
+								  (HVD had)
+								  (ADVP (ADV suddenly))
+								  (VBN inspired)
+								  (NP-OB1 (PRO me))
+								  (PP (P with)
+								      (" ")
+								      (NP (D the) (ADJ divine) (N passion))))))))))))
+	  (. .)
+	  (" "))
+  (ID READE-1863,221.505))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	5/5/706
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd
+*/
+
+/~*
+yet who would expect to find the domestic servant, in a person invested with
+so high a title?
+(TURNER2-1800,247.250)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 7 who, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV yet))
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD would)
+		  (VB expect)
+		  (IP-INF (TO to)
+			  (VB find)
+			  (NP-OB1 (D the) (ADJ domestic) (N servant))
+			  (, ,)
+			  (PP (P in)
+			      (NP (D a)
+				  (N person)
+				  (RRC (VAN invested)
+				       (PP (P with)
+					   (NP (ADJP (ADVR so) (ADJ high))
+					       (D a)
+					       (N title))))))))
+	  (. ?))
+  (ID TURNER2-1800,247.250))
+
+/~*
+But all this was, in fact, nothing more than a pious token of the most ardent
+zeal, a sort of contest for the palm, a struggle, which should do the highest
+honour to his supreme and tutelary gods.
+(TURNER2-1800,257.357)
+*~/
+/*
+83 WNP-1:  83 WNP-1, 85 which, 82 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (Q all) (D this))
+	  (BED was)
+	  (, ,)
+	  (PP (P in)
+	      (NP (N fact)))
+	  (, ,)
+	  (NP-OB1 (Q+N nothing)
+		  (QP (QR more))
+		  (PP (P than)
+		      (NP (D a)
+			  (ADJ pious)
+			  (N token)
+			  (PP (P of)
+			      (NP (D the)
+				  (ADJP (QS most) (ADJ ardent))
+				  (N zeal)))))
+		  (, ,)
+		  (NP-PRN (NP (D a)
+			      (N sort)
+			      (PP (P of)
+				  (NP (N contest)))
+			      (PP (P for)
+				  (NP (D the) (N palm))))
+			  (, ,)
+			  (CONJP (NP (D a)
+				     (N struggle)
+				     (, ,)
+				     (CP-QUE (WNP-1 (WPRO which))
+					     (C 0)
+					     (IP-SUB (NP-SBJ *T*-1)
+						     (MD should)
+						     (DO do)
+						     (NP-OB1 (D the) (ADJS highest) (N honour))
+						     (PP (P to)
+							 (NP (PRO$ his)
+							     (ADJP (ADJ supreme) (CONJ and) (ADJ tutelary))
+							     (NS gods)))))))))
+	  (. .))
+  (ID TURNER2-1800,257.357))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	2/2/527
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	8/6/437
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	1/1/829
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	3/3/545
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	0/0/614
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	2/2/761
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	5/5/706
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	2/2/527
+whole search, hits/tokens/total
+		21/19/4419
+*/

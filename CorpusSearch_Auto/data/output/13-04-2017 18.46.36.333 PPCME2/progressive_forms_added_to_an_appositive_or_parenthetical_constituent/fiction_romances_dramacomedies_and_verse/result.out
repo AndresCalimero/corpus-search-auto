@@ -1,0 +1,162 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:32 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_an_appositive_or_parenthetical_constituent.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_an_appositive_or_parenthetical_constituent\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   *PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmctmeli.m3.psd
+*/
+
+/~*
+'The joye of God,' he seith, 'is perdurable -' that is to seyn, everelastynge.
+(CMCTMELI,231.C2.562)
+*~/
+/*
+52 VAG:  52 VAG, 53 everelastynge, 38 IP-MAT-PRN-SPE
+*/
+( (IP-MAT-SPE (' ')
+	      (NP-SBJ (D The)
+		      (N joye)
+		      (PP (P of)
+			  (NP (NPR God))))
+	      (, ,)
+	      (' ')
+	      (IP-MAT-PRN-SPE (NP-SBJ (PRO he))
+			      (VBP seith))
+	      (, ,)
+	      (' ')
+	      (BEP is)
+	      (ADJP (ADJ perdurable)
+		    (, -)
+		    (' ')
+		    (IP-MAT-PRN-SPE (NP-SBJ (D that))
+				    (BEP is)
+				    (IP-INF-SPE (TO to)
+						(VB seyn)
+						(, ,)
+						(ADJP (VAG everelastynge)))))
+	      (. .))
+  (ID CMCTMELI,231.C2.562))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmctmeli.m3.psd	1/1/860
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmmalory.m4.psd
+*/
+
+/~*
+And because that we undirstonde youre worthynesse, that thou art the noblest
+knyght lyvyng,
+(CMMALORY,183.2546)
+*~/
+/*
+39 VAG:  39 VAG, 40 lyvyng, 22 CP-THT-PRN-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P+N because)
+		  (NP (D that)))
+	      (NP-SBJ (PRO we))
+	      (VBP undirstonde)
+	      (NP-OB1 (PRO$ youre)
+		      (N worthynesse)
+		      (, ,)
+		      (CP-THT-PRN-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (PRO thou))
+						  (BEP art)
+						  (NP-OB1 (D the)
+							  (ADJS noblest)
+							  (N knyght)
+							  (RRC (VAG lyvyng))))))
+	      (. ,))
+  (ID CMMALORY,183.2546))
+
+/~*
+And as for my lady, dame Gwenyvere, were I at my lyberte` as I was, I wolde
+prove hit on youres that she is the treweste lady unto hir lorde lyvynge. '
+(CMMALORY,184.2559)
+*~/
+/*
+95 VAG:  95 VAG, 96 lyvynge, 71 CP-THT-PRN-SPE-1
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P as)
+		  (PP (P for)
+		      (NP (PRO$ my)
+			  (N lady)
+			  (, ,)
+			  (NP-PRN (NPR dame) (NPR Gwenyvere)))))
+	      (, ,)
+	      (CP-ADV-SPE (IP-SUB-SPE (BED were)
+				      (NP-SBJ (PRO I))
+				      (PP (P at)
+					  (NP (PRO$ my) (N lyberte`)))
+				      (PP (P as)
+					  (CP-ADV-SPE (C 0)
+						      (IP-SUB-SPE (NP-SBJ (PRO I))
+								  (BED was))))))
+	      (, ,)
+	      (NP-SBJ (PRO I))
+	      (MD wolde)
+	      (VB prove)
+	      (NP-OB1 (PRO hit)
+		      (CP-THT-PRN-SPE *ICH*-1))
+	      (PP (P on)
+		  (NP (PRO$ youres)))
+	      (CP-THT-PRN-SPE-1 (C that)
+				(IP-SUB-SPE (NP-SBJ (PRO she))
+					    (BEP is)
+					    (NP-OB1 (D the)
+						    (ADJS treweste)
+						    (N lady)
+						    (PP (P unto)
+							(NP (PRO$ hir) (N lorde)))
+						    (VAG lyvynge))))
+	      (. .)
+	      (' '))
+  (ID CMMALORY,184.2559))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmmalory.m4.psd	2/2/4999
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmreynar.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmreynar.m4.psd	0/0/740
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmsiege.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmsiege.m4.psd	0/0/732
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmctmeli.m3.psd	1/1/860
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmmalory.m4.psd	2/2/4999
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmreynar.m4.psd	0/0/740
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\fiction_romances_dramacomedies_and_verse\cmsiege.m4.psd	0/0/732
+whole search, hits/tokens/total
+		3/3/7331
+*/

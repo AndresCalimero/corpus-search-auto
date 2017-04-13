@@ -1,0 +1,436 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:53:14 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_added_to_nonverbal_predicates\history\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	0/0/376
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	0/0/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	0/0/330
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	0/0/220
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	0/0/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	0/0/212
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd
+*/
+
+/~*
+our young Quene is married into France, where she nowe lyveth as a stranger
+both to them and us, unable to use the liberty of her crowne, partely by
+reason of her tender yeares, and partlie for that the French King, her husband,
+beinge no lesse yonge both in age and judgement then her self, is wholly
+governed by his mother, and by the Duke of Guise, unckle to the Quene.
+(HAYWARD-E2-P2,47.180)
+*~/
+/*
+135 BAG:  135 BAG, 136 beinge, 62 ADJP-SPR
+*/
+( (IP-MAT-SPE (NP-SBJ (PRO$ our) (ADJ young) (N Quene))
+	      (BEP is)
+	      (VAN married)
+	      (PP (P into)
+		  (NP (NPR France)
+		      (, ,)
+		      (CP-REL-SPE (WADVP-1 (WADV where))
+				  (C 0)
+				  (IP-SUB-SPE (ADVP-LOC *T*-1)
+					      (NP-SBJ (PRO she))
+					      (ADVP-TMP (ADV nowe))
+					      (VBP lyveth)
+					      (PP (P as)
+						  (NP (D a)
+						      (N stranger)
+						      (PP (CONJ-2 both)
+							  (P to)
+							  (NP (CONJ *ICH*-2)
+							      (PRO them)
+							      (CONJ and)
+							      (PRO us)))))
+					      (, ,)
+					      (ADJP-SPR (ADJ unable)
+							(IP-INF-SPE (TO to)
+								    (VB use)
+								    (NP-OB1 (D the)
+									    (N liberty)
+									    (PP (P of)
+										(NP (PRO$ her) (N crowne))))
+								    (, ,)
+								    (PP (PP (ADV partely)
+									    (P by)
+									    (NP (N reason)
+										(PP (P of)
+										    (NP (PRO$ her) (ADJ tender) (NS yeares)))))
+									(, ,)
+									(CONJP (CONJ and)
+									       (PP (ADV partlie)
+										   (P for)
+										   (CP-ADV-SPE (C that)
+											       (IP-SUB-SPE (NP-SBJ (D the)
+														   (ADJ French)
+														   (N King)
+														   (, ,)
+														   (NP-PRN (PRO$ her) (N husband))
+														   (, ,)
+														   (RRC (BAG beinge)
+															(ADJP (QP (Q no) (QR lesse))
+															      (ADJ yonge)
+															      (PP (CONJ-3 both)
+																  (P in)
+																  (NP (CONJ *ICH*-3)
+																      (N age)
+																      (CONJ and)
+																      (N judgement)))
+															      (PP (P then)
+																  (NP (PRO her) (N self))))))
+													   (, ,)
+													   (BEP is)
+													   (ADVP (ADV wholly))
+													   (VAN governed)
+													   (PP (PP (P by)
+														   (NP (PRO$ his) (N mother)))
+													       (, ,)
+													       (CONJP (CONJ and)
+														      (PP (P by)
+															  (NP (D the)
+															      (N Duke)
+															      (PP (P of)
+																  (NP (NPR Guise)))
+															      (, ,)
+															      (NP-PRN (N unckle)
+																      (PP (P to)
+																	  (NP (D the) (CODE <P_47>) (N Quene)))))))))))))))))))
+	      (. .))
+  (ID HAYWARD-E2-P2,47.180))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	1/1/195
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	0/0/207
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd
+*/
+
+/~*
+In the year 640. Eadbald deceasing, left to Ercombert his Son by Emma the
+French Kings Daughter, the Kingdom of Kent; recorded the first of English
+Kings, who commanded through his limits the destroying of Idols; laudably, if
+all Idols without exception, and the first to have establisht Lent among us,
+under strict penalty, not worth remembring, but only to inform us, that no
+Lent was observ'd heer till his time by compulsion:
+(MILTON-E3-P1,X,162.117)
+*~/
+/*
+207 VAG:  207 VAG, 208 remembring, 84 NP-SPR
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the)
+		  (N year)
+		  (NUMP (NUM 640.))))
+	  (NP-SBJ (CODE <font>)
+		  (NPR Eadbald)
+		  (CODE <$$font>)
+		  (RRC (VAG deceasing)))
+	  (, ,)
+	  (VBD left)
+	  (PP (P to)
+	      (NP (CODE <font>)
+		  (NPR Ercombert)
+		  (CODE <$$font>)
+		  (NP-PRN (PRO$ his)
+			  (N Son)
+			  (PP (P by)
+			      (NP (CODE <font>)
+				  (NPR Emma)
+				  (CODE <$$font>)
+				  (NP-PRN (NP-POS (D the) (ADJ French) (N$ Kings))
+					  (N Daughter)))))))
+	  (, ,)
+	  (NP-OB1 (D the)
+		  (N Kingdom)
+		  (PP (P of)
+		      (NP (CODE <font>) (NPR Kent) (CODE <$$font>))))
+	  (, ;)
+	  (IP-PPL (VAN recorded)
+		  (NP-SPR (NP (D the)
+			      (ADJ first)
+			      (PP (P of)
+				  (NP (ADJ English) (NS Kings)))
+			      (, ,)
+			      (CP-REL (WNP-1 (WPRO who))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (VBD commanded)
+					      (PP (P through)
+						  (NP (PRO$ his) (NS limits)))
+					      (NP-OB1 (D the)
+						      (N destroying)
+						      (PP (P of)
+							  (NP (NS Idols))))
+					      (, ;)
+					      (FRAG (ADVP (ADV laudably))
+						    (, ,)
+						    (PP (P if)
+							(NP (Q all)
+							    (NS Idols)
+							    (PP (P without)
+								(NP (N exception)))))))))
+			  (, ,)
+			  (CONJP (CONJP (CONJ and)
+					(NP (D the)
+					    (ADJ first)
+					    (CP-EOP (WNP-2 0)
+						    (IP-INF (NP-SBJ *T*-2)
+							    (TO to)
+							    (HV have)
+							    (VBN establisht)
+							    (NP-OB1 (CODE <font>) (NPR Lent) (CODE <$$font>))
+							    (PP (P among)
+								(NP (PRO us)))
+							    (, ,)
+							    (PP (P under)
+								(NP (ADJ strict)
+								    (N penalty)
+								    (, ,)
+								    (ADJP (NEG not)
+									  (ADJ worth)
+									  (IP-PPL (IP-PPL (VAG remembring))
+										  (, ,)
+										  (CONJP (CONJ but)
+											 (IP-INF (FP only)
+												 (TO to)
+												 (VB inform)
+												 (NP-OB1 (PRO us))
+												 (, ,)
+												 (CP-THT (C that)
+													 (IP-SUB (NP-SBJ (Q no) (CODE <font>) (NPR Lent) (CODE <$$font>))
+														 (BED was)
+														 (VAN observ'd)
+														 (ADVP-LOC (ADV heer))
+														 (PP (P till)
+														     (NP (PRO$ his) (N time)))
+														 (PP (P by)
+														     (NP (N compulsion))))))))))))))))))
+	  (. :))
+  (ID MILTON-E3-P1,X,162.117))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	1/1/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	0/0/225
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd
+*/
+
+/~*
+& could both rede wel & write, mery in company, redy & quick of aunswer,
+neither mute nor ful of bable, sometime taunting w=t=out displesure & not
+w=t=out disport.
+(MORERIC-E1-H,56.128)
+*~/
+/*
+74 VAG:  74 VAG, 75 taunting, 22 ADJP-SPR
+*/
+
+( (IP-MAT-1 (CONJ &)
+	    (NP-SBJ *con*)
+	    (MD could)
+	    (CONJ both)
+	    (VB rede)
+	    (ADVP (ADV wel))
+	    (IP-MAT-PRN=1 (CONJ &) (VB write))
+	    (, ,)
+	    (ADJP-SPR (ADJ mery)
+		      (PP (P in)
+			  (NP (N company)))
+		      (, ,)
+		      (CONJP (ADJP (ADJ redy)
+				   (CONJ &)
+				   (ADJ quick)
+				   (PP (P of)
+				       (NP (N aunswer)))))
+		      (, ,)
+		      (CONJP (CONJ neither)
+			     (ADJP (ADJP (ADJ mute))
+				   (CONJP (CONJ nor)
+					  (ADJP (ADJ ful)
+						(PP (P of)
+						    (NP (N bable)))))))
+		      (, ,)
+		      (IP-PPL (NP-TMP (Q+N sometime))
+			      (VAG taunting)
+			      (PP (PP (P w=t=out)
+				      (NP (N displesure)))
+				  (CONJP (CONJ &)
+					 (PP (NEG not)
+					     (P w=t=out)
+					     (NP (N disport)))))))
+	    (. .))
+  (ID MORERIC-E1-H,56.128))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	1/1/173
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	0/0/202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	0/0/224
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	0/0/258
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	0/0/376
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	0/0/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	0/0/330
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	0/0/220
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	0/0/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	0/0/212
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	1/1/195
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	0/0/207
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	1/1/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	0/0/225
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	1/1/173
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	0/0/202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	0/0/224
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	0/0/258
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+whole search, hits/tokens/total
+		3/3/4232
+*/

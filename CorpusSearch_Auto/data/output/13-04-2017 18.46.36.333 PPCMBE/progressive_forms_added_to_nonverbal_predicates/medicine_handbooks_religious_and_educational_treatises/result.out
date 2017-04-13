@@ -1,0 +1,548 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:51 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_nonverbal_predicates\medicine_handbooks_religious_and_educational_treatises\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	0/0/241
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	0/0/488
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	0/0/475
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	0/0/422
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	0/0/458
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	0/0/49
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	0/0/383
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd
+*/
+
+/~*
+and is named Insurance, which diminishing the Profit on a Voyage, when you
+insure, may be added as a Charge upon the Adventure, therefore comes more
+properly into the Scheme of the Voyage, a Book for which you are to keep;
+(DRUMMOND-1718,13.146)
+*~/
+/*
+30 VAG:  30 VAG, 31 diminishing, 12 NP-SPR
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BEP is)
+	  (VAN named)
+	  (CODE <font>)
+	  (NP-SPR (N Insurance)
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+					  (IP-PPL (VAG diminishing)
+						  (NP-OB1 (D the) (N Profit))
+						  (PP (P on)
+						      (NP (D a) (N Voyage)))
+						  (, ,)
+						  (PP (P when)
+						      (CP-ADV (C 0)
+							      (IP-SUB (NP-SBJ (PRO you))
+								      (VBP insure)))))
+					  (, ,)
+					  (MD may)
+					  (BE be)
+					  (VAN added)
+					  (PP (P as)
+					      (NP (D a) (N Charge)))
+					  (PP (P upon)
+					      (NP (D the) (N Adventure))))
+				  (, ,)
+				  (CONJP (IP-SUB (NP-SBJ *T*-1)
+						 (PP (ADV+P therefore))
+						 (VBP comes)
+						 (ADVP (QR more) (ADV properly))
+						 (PP (P into)
+						     (NP (D the)
+							 (N Scheme)
+							 (PP (P of)
+							     (NP (D the)
+								 (N Voyage)
+								 (, ,)
+								 (CP-REL (WNP-2 (D a)
+										(N Book)
+										(WPP (P for)
+										     (WNP (WPRO which))))
+									 (C 0)
+									 (IP-SUB (NP-SBJ (PRO you))
+										 (BEP are)
+										 (IP-INF (NP-OB1 *T*-2)
+											 (TO to)
+											 (VB keep)))))))))))))
+	  (. ;))
+  (ID DRUMMOND-1718,13.146))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	1/1/436
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd
+*/
+
+/~*
+It is a good plan to vary the diet now and again - such as giving a bran or
+linseed mash once or twice a week.
+(FLEMING-1886,89.413)
+*~/
+/*
+40 VAG:  40 VAG, 41 giving, 33 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (NP-OB1 (D a) (ADJ good) (N plan))
+	  (IP-INF-1 (TO to)
+		    (VB vary)
+		    (NP-OB1 (D the) (N diet))
+		    (ADVP-TMP (ADV now) (CONJ and) (ADV again))
+		    (, -)
+		    (ADJP-SPR (SUCH such)
+			      (PP (P as)
+				  (IP-PPL (VAG giving)
+					  (NP-OB1 (D a)
+						  (N bran)
+						  (CONJP (CONJ or)
+							 (NX (N linseed)))
+						  (N mash))
+					  (NP-TMP (NUM once)
+						  (CONJ or)
+						  (NUM twice)
+						  (NP-MSR (D a) (N week)))))))
+	  (. .))
+  (ID FLEMING-1886,89.413))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	1/1/522
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd
+*/
+
+/~*
+The succeeding spring the top of the stock must be taken off sloping, about
+two inches above the graft;
+(GRAFTING-1780,14.112)
+*~/
+/*
+31 VAG:  31 VAG, 32 sloping, 30 ADJP-SPR
+*/
+
+( (IP-MAT (NP-TMP (D The) (VAG succeeding) (N spring))
+	  (NP-SBJ (D the)
+		  (N top)
+		  (PP (P of)
+		      (NP (D the) (N stock))))
+	  (MD must)
+	  (BE be)
+	  (VAN taken)
+	  (RP off)
+	  (ADJP-SPR (VAG sloping))
+	  (, ,)
+	  (PP (NP-MSR (NUMP (ADV about) (CODE <font>) (NUM two))
+		      (NS inches))
+	      (CODE <$$font>)
+	      (P above)
+	      (NP (D the) (N graft)))
+	  (. ;))
+  (ID GRAFTING-1780,14.112))
+
+/~*
+then having, fixed upon a leaf that hath a fresh and fair bud growing out
+between it and the bark, cut off the leaf from the bud, leaving the foot stalk
+remaining;
+(GRAFTING-1780,36.302)
+*~/
+/*
+94 VAG:  94 VAG, 95 remaining, 93 ADJP-SPR
+*/
+
+( (IP-IMP (ADVP-TMP (ADV then))
+	  (IP-PPL (HAG having)
+		  (, ,)
+		  (VBN fixed)
+		  (PP (P upon)
+		      (NP (D a)
+			  (N leaf)
+			  (CP-REL (WNP-1 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (HVP hath)
+					  (IP-PPL-OB1 (NP-SBJ (D a)
+							      (ADJP (ADJ fresh) (CONJ and) (ADJ fair))
+							      (N bud))
+						      (VAG growing)
+						      (RP out)
+						      (PP (P between)
+							  (NP (NP (PRO it))
+							      (CONJP (CONJ and)
+								     (NP (D the) (N bark)))))))))))
+	  (, ,)
+	  (VBI cut)
+	  (RP off)
+	  (NP-OB1 (D the) (N leaf))
+	  (PP (P from)
+	      (NP (D the) (N bud)))
+	  (, ,)
+	  (IP-PPL (VAG leaving)
+		  (NP-OB1 (D the) (N foot) (N stalk))
+		  (ADJP-SPR (VAG remaining)))
+	  (. ;))
+  (ID GRAFTING-1780,36.302))
+
+/~*
+The March following, cut off the stock sloping, about three inches above the
+bud,
+(GRAFTING-1780,38.321)
+*~/
+/*
+22 VAG:  22 VAG, 23 sloping, 21 ADJP-SPR
+*/
+
+( (IP-IMP (NP-TMP (D The)
+		  (NPR March)
+		  (IP-PPL (VAG following)))
+	  (, ,)
+	  (VBI cut)
+	  (RP off)
+	  (NP-OB1 (D the) (N stock))
+	  (ADJP-SPR (VAG sloping))
+	  (, ,)
+	  (PP (NP-MSR (NUMP (ADV about) (NUM three))
+		      (NS inches))
+	      (P above)
+	      (NP (D the) (N bud)))
+	  (. ,))
+  (ID GRAFTING-1780,38.321))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	3/3/423
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd
+*/
+
+/~*
+and left it nearly finished, and better than could be expected, considering
+his education and youth.
+(LANCASTER-1806,39.121)
+*~/
+/*
+45 VAG:  45 VAG, 46 considering, 11 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD left)
+	  (NP-OB1 (PRO it))
+	  (ADJP-SPR (ADJP (ADV nearly) (VAN finished))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (ADJP (ADJR better)
+				 (PP (P than)
+				     (CP-CMP (WNP-1 0)
+					     (C 0)
+					     (IP-SUB (NP-SBJ *T*-1)
+						     (MD could)
+						     (BE be)
+						     (VAN expected)
+						     (, ,)
+						     (IP-PPL (VAG considering)
+							     (NP-OB1 (PRO$ his)
+								     (N education)
+								     (CONJP (CONJ and)
+									    (NX (N youth)))))))))))
+	  (. .))
+  (ID LANCASTER-1806,39.121))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	1/1/548
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd
+*/
+
+/~*
+and one of them soon after, overjoyed upon being restored to the use of his
+limbs, walked several miles to return the gentleman thanks for his salutary
+advice.
+(LIND-1753,265.159)
+*~/
+/*
+27 BAG:  27 BAG, 28 being, 20 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (ONE one)
+		  (PP (P of)
+		      (NP (PRO them))))
+	  (ADVP-TMP (ADV soon) (ADV after))
+	  (, ,)
+	  (ADJP-SPR (ADJ overjoyed)
+		    (PP (P upon)
+			(IP-PPL (BAG being)
+				(VAN restored)
+				(PP (P to)
+				    (NP (D the)
+					(N use)
+					(PP (P of)
+					    (NP (PRO$ his) (NS limbs))))))))
+	  (, ,)
+	  (VBD walked)
+	  (NP-MSR (Q several) (NS miles))
+	  (IP-INF-PRP (TO to)
+		      (VB return)
+		      (NP-OB2 (D the) (ADJ+N gentleman))
+		      (NP-OB1 (NS thanks)
+			      (PP (P for)
+				  (NP (PRO$ his) (ADJ salutary) (N advice)))))
+	  (. .))
+  (ID LIND-1753,265.159))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	1/1/294
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	0/0/470
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	0/0/435
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	0/0/494
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd
+*/
+
+/~*
+fatal as these may often prove to animals deserving our best care and
+attention, they may perhaps be considered as minor causes, compared with that
+of urging a horse into a deep pond, or perhaps a river, while the fine vapours
+are exuding from every part of his body, heated with $overexertion, and
+covering the surface of the water with mist-like exhalations.
+(TINDALL-1814,37.267)
+*~/
+/*
+33 VAG:  33 VAG, 34 deserving, 2 ADJP-SPR
+*/
+
+( (IP-MAT (ADJP-SPR (ADJ fatal)
+		    (PP (P as)
+			(CP-CMP (WADJP-1 0)
+				(C 0)
+				(IP-SUB (ADJP *T*-1)
+					(NP-SBJ (D these))
+					(MD may)
+					(ADVP-TMP (ADV often))
+					(VB prove)
+					(PP (P to)
+					    (NP (NS animals)
+						(RRC (VAG deserving)
+						     (NP-OB1 (PRO$ our)
+							     (ADJS best)
+							     (N care)
+							     (CONJP (CONJ and)
+								    (NX (N attention)))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (MD may)
+	  (ADVP (ADV perhaps))
+	  (BE be)
+	  (VAN considered)
+	  (PP (P as)
+	      (NP (ADJ minor) (NS causes)))
+	  (, ,)
+	  (IP-PPL (VAN compared)
+		  (PP (P with)
+		      (NP (D that)
+			  (PP (P of)
+			      (IP-PPL-2 (VAG urging)
+					(NP-OB1 (D a) (N horse))
+					(PP (P into)
+					    (NP (D a) (ADJ deep) (N pond)))
+					(, ,)
+					(IP-PPL-PRN=2 (CONJ or)
+						      (ADVP (ADV perhaps))
+						      (NP (D a) (N river)))
+					(, ,)
+					(PP (P while)
+					    (CP-ADV (C 0)
+						    (IP-SUB (IP-SUB (NP-SBJ (D the) (ADJ fine) (NS vapours))
+								    (BEP are)
+								    (VAG exuding)
+								    (PP (P from)
+									(NP (Q every)
+									    (N part)
+									    (PP (P of)
+										(NP (PRO$ his)
+										    (N body)
+										    (, ,)
+										    (RRC (VAN heated)
+											 (PP (P with)
+											     (NP (N $overexertion)))))))))
+							    (CODE {TEXT:over_exertion})
+							    (, ,)
+							    (CONJP (CONJ and)
+								   (IP-PPL (NP-SBJ *con*)
+									   (VAG covering)
+									   (NP-OB1 (D the)
+										   (N surface)
+										   (PP (P of)
+										       (NP (D the) (N water))))
+									   (PP (P with)
+									       (NP (ADJ mist-like) (NS exhalations)))))))))))))
+	  (. .))
+  (ID TINDALL-1814,37.267))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	1/1/464
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	0/0/395
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	0/0/77
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	0/0/404
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	0/0/241
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	0/0/488
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	0/0/475
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	0/0/422
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	0/0/458
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	0/0/49
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	0/0/383
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	1/1/436
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	1/1/522
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	3/3/423
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	1/1/548
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	1/1/294
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	0/0/470
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	0/0/435
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	0/0/494
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	1/1/464
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	0/0/395
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	0/0/77
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	0/0/404
+whole search, hits/tokens/total
+		8/8/7478
+*/

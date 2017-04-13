@@ -1,0 +1,559 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:53:00 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_added_to_adjuncts\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-h.psd	0/0/313
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-p1.psd	0/0/179
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p1.psd	0/0/162
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p2.psd	0/0/327
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\judall-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\judall-e2-p2.psd	0/0/476
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-h.psd	0/0/536
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p1.psd	0/0/581
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p2.psd	0/0/487
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-h.psd	0/0/711
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p1.psd	0/0/706
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p2.psd	0/0/678
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-h.psd	0/0/664
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-p1.psd	0/0/517
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1500-e1-h.psd
+*/
+
+/~*
+Nev~thelesse for that the drapyng and makyng of suche clothes callid Vesses
+Rayes Saillyng Clothes and other Clothes which tyme of makyng of the Statute
+of Kyng Henry the vij=th= were co~monly solde at xl s. or under the maker
+therof and Clothier of tymes passyd and nowe is and herafter is like to be at
+gretter charge aboute the drapyng and makyng of the same and also of all other
+clothes for that Wolle is of ferr gretter price, and also the Cost~ and Charg~
+for the workemanship of such Clothes is ferr more chargeable than it were tyme
+of makyng of the seid estatute; Be it therfore p~vyded by the auctoritie
+aforeseid that Clothes called Vesses Rayes Saillyng Clothes and other Clothes
+nowe co~monly sold at iiij Mark~ or under be not comprised in this or any of
+the seid Act~ but may be caried and conveyed oute of this Realme into the
+p~ties of beyond the See not barbed rowed nor shorn, this or any of the seid
+Actes notwithstondyng.
+(STAT-1500-E1-H,3,29.119)
+*~/
+/*
+48 VAG:  48 VAG, 49 Saillyng, 12 NP-ADT
+*/
+( (IP-MAT (ADVP (ADV Nev~thelesse))
+	  (PP-LFD (P for)
+		  (CP-ADV (C that)
+			  (IP-SUB-1 (NP-ADT (D the)
+					    (N drapyng)
+					    (CONJP (CONJ and)
+						   (NX (N makyng)))
+					    (PP (P of)
+						(NP (NP (SUCH suche)
+							(NS clothes)
+							(RRC (VAN callid)
+							     (IP-SMC (NP-SBJ *)
+								     (NP-OB1 (NP (NS Vesses))
+									     (CONJP (NP (NS Rayes)))
+									     (CONJP (NP (VAG Saillyng) (NS Clothes)))))))
+						    (CONJP (CONJ and)
+							   (NP (OTHER other)
+							       (NS Clothes)
+							       (CP-REL (WNP-2 (WPRO which))
+								       (C 0)
+								       (IP-SUB (NP-SBJ *T*-2)
+									       (NP-TMP (N tyme)
+										       (PP (P of)
+											   (NP (N makyng)
+											       (PP (P of)
+												   (NP (D the)
+												       (N Statute)
+												       (PP (P of)
+													   (NP (NPR Kyng)
+													       (NPR Henry)
+													       (NP-PRN (D the) (ADJ vij=th=)))))))))
+									       (BED were)
+									       (ADVP (ADV co~monly))
+									       (VAN solde)
+									       (PP (PP (P at)
+										       (NP (NUM xl) (NS s.)))
+										   (CONJP (CONJ or)
+											  (ADVP (ADV under)))))))))))
+				    (NP-SBJ (D the)
+					    (N maker)
+					    (PP (ADV+P therof))
+					    (CONJP (CONJ and)
+						   (NX (N Clothier)
+						       (PP (P of)
+							   (NP (NP (NS tymes)
+								   (RRC (VBN passyd)))
+							       (CONJP (CONJ and)
+								      (ADVP-TMP (ADV nowe))))))))
+				    (BEP is)
+				    (IP-SUB-PRN=1 (CONJ and)
+						  (PP (ADV+P herafter))
+						  (BEP is)
+						  (ADJP (ADJ like)
+							(IP-INF (TO to) (BE be))))
+				    (PP (P at)
+					(NP (ADJR gretter) (N charge)))
+				    (PP (P aboute)
+					(NP (D the)
+					    (N drapyng)
+					    (CONJP (CONJ and)
+						   (NX (N makyng))))
+					(PP (PP (P of)
+						(NP (D the) (ADJ same)))
+					    (CONJP (CONJ and)
+						   (ALSO also)
+						   (PP (P of)
+						       (NP (Q all) (OTHER other) (NS clothes))))))
+				    (PP (P for)
+					(CP-ADV (C that)
+						(IP-SUB (IP-SUB (NP-SBJ (N Wolle))
+								(BEP is)
+								(PP (P of)
+								    (NP (ADJP (NP-MSR (ADJ ferr))
+									      (ADJR gretter))
+									(N price))))
+							(, ,)
+							(CONJP (CONJ and)
+							       (ALSO also)
+							       (IP-SUB (NP-SBJ (D the)
+									       (NS Cost~)
+									       (CONJP (CONJ and)
+										      (NX (NS Charg~)))
+									       (PP (P for)
+										   (NP (D the)
+										       (N workemanship)
+										       (PP (P of)
+											   (NP (SUCH such) (NS Clothes))))))
+								       (BEP is)
+								       (ADJP (QP (NP-MSR (ADJ ferr))
+										 (QR more))
+									     (ADJ chargeable)
+									     (PP (P than)
+										 (CP-CMP (WADJP-3 0)
+											 (C 0)
+											 (IP-SUB (ADJP *T*-3)
+												 (NP-SBJ (PRO it))
+												 (BED were)
+												 (NP-TMP (N tyme)
+													 (PP (P of)
+													     (NP (N makyng)
+														 (PP (P of)
+														     (NP (D the) (VAN seid) (N estatute))))))))))))))))))
+	  (, ;)
+	  (BEP Be)
+	  (NP-SBJ-4 (PRO it))
+	  (ADVP-RSP (ADV+P therfore))
+	  (VAN p~vyded)
+	  (PP (P by)
+	      (NP (D the)
+		  (N auctoritie)
+		  (RRC (ADV+VAN aforeseid))))
+	  (CP-THT-4 (C that)
+		    (IP-SUB (IP-SUB (NP-SBJ (NS Clothes)
+					    (RRC (VAN called)
+						 (IP-SMC (NP-SBJ *)
+							 (NP-OB1 (NP (NS Vesses))
+								 (CONJP (NP (NS Rayes)))
+								 (CONJP (NP (VAG Saillyng) (NS Clothes)))
+								 (CONJP (CONJ and)
+									(NP (OTHER other) (NS Clothes)))
+								 (RRC (ADVP-TMP (ADV nowe))
+								      (ADVP (ADV co~monly))
+								      (VAN sold)
+								      (PP (PP (P at)
+									      (NP (NUM iiij) (NS Mark~)))
+									  (CONJP (CONJ or)
+										 (ADVP (ADV under)))))))))
+				    (BEP be)
+				    (NEG not)
+				    (VAN comprised)
+				    (PP (P in)
+					(NP (NP (D this))
+					    (CONJP (CONJ or)
+						   (NP (Q any)
+						       (PP (P of)
+							   (NP (D the) (VAN seid) (NS Act~))))))))
+			    (CONJP (CONJ but)
+				   (IP-SUB (NP-SBJ *con*)
+					   (MD may)
+					   (BE be)
+					   (VAN (VAN caried) (CONJ and) (VAN conveyed))
+					   (PP (RP oute)
+					       (P of)
+					       (NP (D this) (N Realme)))
+					   (PP (P into)
+					       (NP (D the)
+						   (NS p~ties)
+						   (PP (P of)
+						       (PP (P beyond)
+							   (NP (D the) (N See))))))
+					   (ADJP-SPR (NEG not)
+						     (VAN (VAN barbed) (VAN rowed) (CONJ nor) (VAN shorn)))
+					   (, ,)
+					   (IP-ABS (NP-SBJ (NP (D this))
+							   (CONJP (CONJ or)
+								  (NP (Q any)
+								      (PP (P of)
+									  (NP (D the) (VAN seid) (NS Actes))))))
+						   (ADVP (ADV notwithstondyng)))))))
+	  (. .))
+  (ID STAT-1500-E1-H,3,29.119))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1500-e1-h.psd	1/1/144
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1510-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1510-e1-p2.psd	0/0/53
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1530-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1530-e1-p1.psd	0/0/113
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-h.psd	0/0/54
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-p1.psd	0/0/35
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1550-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1550-e1-p2.psd	0/0/71
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1560-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1560-e1-p2.psd	0/0/37
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p1.psd	0/0/33
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p2.psd	0/0/19
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-h.psd	0/0/16
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-p2.psd	0/0/86
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1590-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1590-e2-h.psd	0/0/56
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-h.psd	0/0/72
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-p2.psd	0/0/23
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1620-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1620-e2-p2.psd	0/0/53
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1640-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1640-e2-p2.psd	0/0/71
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1660-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1660-e3-p2.psd	0/0/108
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1670-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1670-e3-p2.psd	0/0/39
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-h.psd	0/0/149
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-p1.psd	0/0/143
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p1.psd	0/0/749
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p2.psd	0/0/1078
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\throckm-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\throckm-e1-h.psd	0/0/802
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-h.psd	0/0/313
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essex-e2-p1.psd	0/0/179
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p1.psd	0/0/162
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\essexstate-e2-p2.psd	0/0/327
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\judall-e2-p2.psd	0/0/476
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-h.psd	0/0/536
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p1.psd	0/0/581
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\lisle-e3-p2.psd	0/0/487
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-h.psd	0/0/711
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p1.psd	0/0/706
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\oates-e3-p2.psd	0/0/678
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-h.psd	0/0/664
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\raleigh-e2-p1.psd	0/0/517
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1500-e1-h.psd	1/1/144
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1510-e1-p2.psd	0/0/53
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1530-e1-p1.psd	0/0/113
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-h.psd	0/0/54
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1540-e1-p1.psd	0/0/35
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1550-e1-p2.psd	0/0/71
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1560-e1-p2.psd	0/0/37
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p1.psd	0/0/33
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1570-e2-p2.psd	0/0/19
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-h.psd	0/0/16
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1580-e2-p2.psd	0/0/86
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1590-e2-h.psd	0/0/56
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-h.psd	0/0/72
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1600-e2-p2.psd	0/0/23
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1620-e2-p2.psd	0/0/53
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1640-e2-p2.psd	0/0/71
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1660-e3-p2.psd	0/0/108
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1670-e3-p2.psd	0/0/39
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-h.psd	0/0/149
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\stat-1690-e3-p1.psd	0/0/143
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p1.psd	0/0/749
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\thoward2-e2-p2.psd	0/0/1078
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\throckm-e1-h.psd	0/0/802
+whole search, hits/tokens/total
+		1/1/10341
+*/

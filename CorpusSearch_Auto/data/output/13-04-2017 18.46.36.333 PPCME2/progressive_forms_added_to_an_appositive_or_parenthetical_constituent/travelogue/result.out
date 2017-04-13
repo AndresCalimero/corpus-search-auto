@@ -1,0 +1,476 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:31 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_an_appositive_or_parenthetical_constituent.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_an_appositive_or_parenthetical_constituent\travelogue\result.out
+
+node:   *PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd
+*/
+
+/~*
+And +tere is the welle of the whiche holy writt speketh offe & seyth: FONS
+ORTORUM & PUTEUS AQUARUM VIUENCIOUM, +tat is to seye: the welle of gardyns &
+the dych of lyuynge watres.
+(CMMANDEV,18.424)
+*~/
+/*
+102 VAG:  102 VAG, 103 lyuynge, 65 IP-MAT-PRN
+*/
+( (IP-MAT (CONJ And)
+	  (ADVP-LOC (ADV +tere))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N welle)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (D the) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ (NPR holy) (NPR writt))
+					  (VBP speketh)
+					  (PP (P offe)
+					      (PP *T*-1)))
+				  (CONJP (CONJ &)
+					 (IP-SUB (NP-SBJ *con*)
+						 (VBP seyth)
+						 (, :)
+						 (QTP (LATIN (FW FONS)
+							     (FW ORTORUM)
+							     (FW &)
+							     (FW PUTEUS)
+							     (FW AQUARUM)
+							     (FW VIUENCIOUM)
+							     (, ,)
+							     (IP-MAT-PRN (NP-SBJ (D +tat))
+									 (BEP is)
+									 (IP-INF (TO to)
+										 (VB seye)
+										 (, :)
+										 (NP-OB1 (NP (D the)
+											     (N welle)
+											     (PP (P of)
+												 (NP (NS gardyns))))
+											 (CONJP (CONJ &)
+												(NP (D the)
+												    (N dych)
+												    (PP (P of)
+													(NP (VAG lyuynge) (NS watres)))))))))))))))
+	  (. .))
+  (ID CMMANDEV,18.424))
+
+/~*
+And the Mount of Synay is clept the desert of Syne +tat is for to seyne the
+bussch brennynge Because +tat Moyses sawgh oure lord god many tymes in forme
+of fuyr brennynge vpon +tat hill And also in a bussch brennynge & spak to him
+And +tat was at the foot of the hill.
+(CMMANDEV,38.956)
+*~/
+/*
+52 VAG:  52 VAG, 53 brennynge, 33 IP-MAT-PRN
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ-1 (D the)
+		    (N Mount)
+		    (PP (P of)
+			(NP (NPR Synay))))
+	  (BEP is)
+	  (VAN clept)
+	  (IP-SMC (NP-SBJ *-1)
+		  (NP-OB1 (D the)
+			  (N desert)
+			  (PP (P of)
+			      (NP (NPR Syne)
+				  (IP-MAT-PRN (NP-SBJ (D +tat))
+					      (BEP is)
+					      (IP-INF (FOR for)
+						      (TO to)
+						      (VB seyne)
+						      (NP-OB1 (D the)
+							      (N bussch)
+							      (RRC (VAG brennynge)))))))))
+	  (PP (P+N Because)
+	      (CP-ADV (C +tat)
+		      (IP-SUB (IP-SUB (NP-SBJ (NPR Moyses))
+				      (VBD sawgh)
+				      (NP-OB1 (PRO$ oure)
+					      (NPR lord)
+					      (NP-PRN (NPR god)))
+				      (NP-TMP (Q many) (NS tymes))
+				      (PP (PP (P in)
+					      (NP (N forme)
+						  (PP (P of)
+						      (NP (N fuyr)
+							  (RRC (VAG brennynge)
+							       (PP (P vpon)
+								   (NP (D +tat) (N hill))))))))
+					  (CONJP (CONJ And)
+						 (ALSO also)
+						 (PP (P in)
+						     (NP (D a)
+							 (N bussch)
+							 (RRC (VAG brennynge)))))))
+			      (CONJP (CONJ &)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBD spak)
+					     (PP (P to)
+						 (NP (PRO him)))))
+			      (CONJP (CONJ And)
+				     (IP-SUB (NP-SBJ (D +tat))
+					     (BED was)
+					     (PP (P at)
+						 (NP (D the)
+						     (N foot)
+						     (PP (P of)
+							 (NP (D the) (N hill))))))))))
+	  (. .))
+  (ID CMMANDEV,38.956))
+
+/~*
+And all be it +tat the Collect of seynte kateryne seye +tat it is the place
+where oure lord betaughte the .x. commandementes to Moyses & +tere where the
+blessed virgyne seynte kateryne was buryed, +tat is to vnderstonde in .o.
+contree or in .o. place berynge .o. name, For bothe +tat on & +tat o+ter is
+clept the mount of Synay, But +tere is a gret weye from +tat on to +tat o+ter
+& a gret deep valeye betwene hem.
+(CMMANDEV,41.1031)
+*~/
+/*
+142 VAG:  142 VAG, 143 berynge, 110 IP-MAT-PRN
+*/
+
+( (IP-MAT (CONJ And)
+	  (CP-ADV (ADVP (Q all))
+		  (IP-SUB (BEP be)
+			  (NP-SBJ-1 (PRO it))
+			  (CP-THT-1 (C +tat)
+				    (IP-SUB (NP-SBJ (D the)
+						    (N Collect)
+						    (PP (P of)
+							(NP (NPR seynte) (NPR kateryne))))
+					    (VBP seye)
+					    (CP-THT (C +tat)
+						    (IP-SUB (NP-SBJ (PRO it))
+							    (BEP is)
+							    (NP-OB1 (NP (D the)
+									(N place)
+									(CP-REL (WADVP-2 (WADV where))
+										(C 0)
+										(IP-SUB (ADVP-LOC *T*-2)
+											(NP-SBJ (PRO$ oure) (NPR lord))
+											(VBD betaughte)
+											(NP-OB1 (D the) (NUM .x.) (NS commandementes))
+											(PP (P to)
+											    (NP (NS Moyses))))))
+								    (CONJP (CONJ &)
+									   (ADVP (ADV +tere)
+										 (CP-REL (WADVP-3 (WADV where))
+											 (C 0)
+											 (IP-SUB (ADVP-LOC *T*-3)
+												 (NP-SBJ (D the)
+													 (VAN blessed)
+													 (N virgyne)
+													 (NP-PRN (NPR seynte) (NPR kateryne)))
+												 (BED was)
+												 (VAN buryed)))))
+								    (, ,)
+								    (IP-MAT-PRN (NP-SBJ (D +tat))
+										(BEP is)
+										(IP-INF (TO to)
+											(VB vnderstonde)
+											(PP (PP (P in)
+												(NP (ONE .o.) (N contree)))
+											    (CONJP (CONJ or)
+												   (PP (P in)
+												       (NP (ONE .o.)
+													   (N place)
+													   (RRC (VAG berynge)
+														(NP-OB1 (ONE .o.) (N name))))))))))
+							    (, ,)
+							    (PP (P For)
+								(CP-ADV (C 0)
+									(IP-SUB (NP-SBJ-4 (CONJ bothe)
+											  (NP (D +tat) (ONE on))
+											  (CONJP (CONJ &)
+												 (NP (D +tat) (OTHER o+ter))))
+										(BEP is)
+										(VAN clept)
+										(IP-SMC (NP-SBJ *-4)
+											(NP-OB1 (D the)
+												(N mount)
+												(PP (P of)
+												    (NP (NPR Synay))))))))))))))
+	  (, ,)
+	  (CONJ But)
+	  (NP-SBJ-5 (EX +tere))
+	  (BEP is)
+	  (NP-5 (NP (D a)
+		    (ADJ gret)
+		    (N weye)
+		    (PP (P from)
+			(NP (D +tat) (ONE on)))
+		    (PP (P to)
+			(NP (D +tat) (OTHER o+ter))))
+		(CONJP (CONJ &)
+		       (NP (D a)
+			   (ADJ gret)
+			   (ADJ deep)
+			   (N valeye)
+			   (PP (P betwene)
+			       (NP (PRO hem))))))
+	  (. .))
+  (ID CMMANDEV,41.1031))
+
+/~*
+ET HABITAUI COM HABITANTIBUS CEDAR, +tat is for to seye: And I haue dwelled
+with the dwellynge men in Cedar.
+(CMMANDEV,73.1860)
+*~/
+/*
+45 VAG:  45 VAG, 46 dwellynge, 14 IP-MAT-PRN
+*/
+
+( (LATIN (FW ET)
+	 (FW HABITAUI)
+	 (FW COM)
+	 (FW HABITANTIBUS)
+	 (FW CEDAR)
+	 (, ,)
+	 (IP-MAT-PRN (NP-SBJ (D +tat))
+		     (BEP is)
+		     (IP-INF (FOR for)
+			     (TO to)
+			     (VB seye)
+			     (, :)
+			     (IP-MAT (CONJ And)
+				     (NP-SBJ (PRO I))
+				     (HVP haue)
+				     (VBN dwelled)
+				     (PP (P with)
+					 (NP (D the)
+					     (VAG dwellynge)
+					     (NS men)
+					     (PP (P in)
+						 (NP (NPR Cedar))))))))
+	 (. .))
+  (ID CMMANDEV,73.1860))
+
+/~*
+And +terfore seyn summen whan +tei dreden hem of thefes in ony weye or of
+enemyes: IHESUS AUTEM TRANSIENS PER MEDIUM ILLORUM IBAT, +tat is to seyne:
+Ihesus forsothe passynge be the myddes of hem he wente, In tokene & mynde +tat
+oure lord passed +torghout the Iewes crueltee & scaped safly fro hem, so
+surely mowe men passen the perile of thefes.
+(CMMANDEV,76.1914)
+*~/
+/*
+92 VAG:  92 VAG, 93 passynge, 71 IP-MAT-PRN
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADV+P +terfore))
+	  (VBP seyn)
+	  (NP-SBJ (Q+NS summen))
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tei))
+			      (VBP dreden)
+			      (NP-RFL (PRO hem))
+			      (PP (PP (P of)
+				      (NP (NS thefes)
+					  (PP (P in)
+					      (NP (Q ony) (N weye)))))
+				  (CONJP (CONJ or)
+					 (PP (P of)
+					     (NP (NS enemyes))))))))
+	  (, :)
+	  (QTP (LATIN (FW IHESUS)
+		      (FW AUTEM)
+		      (FW TRANSIENS)
+		      (FW PER)
+		      (FW MEDIUM)
+		      (FW ILLORUM)
+		      (FW IBAT)
+		      (, ,)
+		      (IP-MAT-PRN (NP-SBJ (D +tat))
+				  (BEP is)
+				  (IP-INF (TO to)
+					  (VB seyne)
+					  (, :)
+					  (IP-MAT-SPE (NP-LFD (NPR Ihesus))
+						      (IP-PPL-SPE (PP (P+N forsothe))
+								  (VAG passynge)
+								  (PP (P be)
+								      (NP (D the)
+									  (N myddes)
+									  (PP (P of)
+									      (NP (PRO hem))))))
+						      (NP-SBJ-RSP (PRO he))
+						      (VBD wente))))))
+	  (, ,)
+	  (PP (P In)
+	      (NP (N tokene)
+		  (CONJ &)
+		  (N mynde)
+		  (CP-THT-SPE (C +tat)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO$ oure) (NPR lord))
+						      (VBD passed)
+						      (PP (P +torghout)
+							  (NP (NP-POS (D the) (NPRS$ Iewes))
+							      (N crueltee))))
+					  (CONJP (CONJ &)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBD scaped)
+							     (ADVP (ADV safly))
+							     (PP (P fro)
+								 (NP (PRO hem)))))
+					  (, ,)
+					  (CONJP (IP-SUB-SPE (ADVP (ADV so))
+							     (ADVP (ADV surely))
+							     (MD mowe)
+							     (NP-SBJ (NS men))
+							     (VB passen)
+							     (NP-OB1 (D the)
+								     (CODE <P_76>)
+								     (N perile)
+								     (PP (P of)
+									 (NP (NS thefes))))))))))
+	  (. .))
+  (ID CMMANDEV,76.1914))
+
+/~*
+And the custome also +tere is this, +tat whan +tei +tat han such deuocioun &
+entent for to sle himself for loue of his god, +tei senden for all here
+frendes & han gret plentee of mynstrell & +tei gon before the ydole ledynge
+him +tat wil sle himself for such deuocioun betwene hem with gret reuerence.
+(CMMANDEV,117.2872)
+*~/
+/*
+129 VAG:  129 VAG, 130 ledynge, 21 CP-THT-PRN
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (D the) (N custome))
+	  (ALSO also)
+	  (ADVP-LOC (ADV +tere))
+	  (BEP is)
+	  (NP-OB1 (D this)
+		  (, ,)
+		  (CP-THT-PRN (C +tat)
+			      (IP-SUB (IP-SUB (PP (P whan)
+						  (CP-ADV (C 0)
+							  (IP-SUB (NP-SBJ (PRO +tei))
+								  (X +tat)
+								  (HVP han)
+								  (NP-OB1 (SUCH such)
+									  (N deuocioun)
+									  (CONJP (CONJ &)
+										 (NX (N entent)))
+									  (IP-INF (FOR for)
+										  (TO to)
+										  (VB sle)
+										  (NP-OB1 (PRO+N himself))
+										  (PP (P for)
+										      (NP (N loue)
+											  (PP (P of)
+											      (NP (PRO$ his) (N god))))))))))
+					      (, ,)
+					      (NP-SBJ (PRO +tei))
+					      (VBP senden)
+					      (PP (P for)
+						  (NP (Q all) (PRO$ here) (NS frendes))))
+				      (CONJP (CONJ &)
+					     (IP-SUB (NP-SBJ *con*)
+						     (HVP han)
+						     (NP-OB1 (ADJ gret)
+							     (N plentee)
+							     (PP (P of)
+								 (NP (N mynstrell))))))
+				      (CONJP (CONJ &)
+					     (IP-SUB (NP-SBJ (PRO +tei))
+						     (VBP gon)
+						     (PP (P before)
+							 (NP (D the) (N ydole)))
+						     (IP-PPL (VAG ledynge)
+							     (NP-OB1 (PRO him)
+								     (CP-REL (WNP-1 0)
+									     (C +tat)
+									     (IP-SUB (NP-SBJ *T*-1)
+										     (MD wil)
+										     (VB sle)
+										     (NP-OB1 (PRO+N himself))
+										     (PP (P for)
+											 (NP (SUCH such) (N deuocioun))))))
+							     (PP (P betwene)
+								 (NP (PRO hem))
+								 (PP (P with)
+								     (NP (ADJ gret) (N reuerence))))))))))
+	  (. .))
+  (ID CMMANDEV,117.2872))
+
+/~*
+But I seye +tat he had gon so longe be londe & be see, +tat he had envyround
+all the erthe, +tat he was comen a+gen envirounynge +tat is to seye goynge
+aboute vnto his owne marches.
+(CMMANDEV,122.2974)
+*~/
+/*
+94 VAG:  94 VAG, 95 goynge, 82 IP-MAT-PRN
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO I))
+	  (VBP seye)
+	  (CP-THT (C +tat)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (HVD had)
+			  (VBN gon)
+			  (NP-MSR (ADVR so)
+				  (ADJ longe)
+				  (CP-DEG *ICH*-1))
+			  (PP (PP (P be)
+				  (NP (N londe)))
+			      (CONJP (CONJ &)
+				     (PP (P be)
+					 (NP (N see)))))
+			  (, ,)
+			  (CP-DEG-1 (C +tat)
+				    (IP-SUB (NP-SBJ (PRO he))
+					    (HVD had)
+					    (VBN envyround)
+					    (NP-OB1 (Q all) (D the) (NPR erthe))
+					    (, ,)
+					    (CP-ADV (C +tat)
+						    (IP-SUB (NP-SBJ (PRO he))
+							    (BED was)
+							    (VBN comen)
+							    (ADVP (ADV a+gen))
+							    (IP-PPL (VAG envirounynge))
+							    (IP-MAT-PRN (NP-SBJ (D +tat))
+									(BEP is)
+									(IP-INF (TO to)
+										(VB seye)
+										(IP-PPL (VAG goynge)
+											(RP aboute)
+											(PP (P vnto)
+											    (NP (PRO$ his) (ADJ owne) (NS marches))))))))))))
+	  (. .))
+  (ID CMMANDEV,122.2974))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd	7/7/3314
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd	7/7/3314
+whole search, hits/tokens/total
+		7/7/3314
+*/

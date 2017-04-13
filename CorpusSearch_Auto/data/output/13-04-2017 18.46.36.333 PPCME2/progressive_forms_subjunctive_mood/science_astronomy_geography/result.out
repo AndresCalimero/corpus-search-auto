@@ -1,0 +1,736 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:52 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_subjunctive_mood.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_subjunctive_mood\science_astronomy_geography\result.out
+
+node:   IP-SUB|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (IP-SUB Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd
+*/
+
+/~*
+And Lowys, yf so be that I shewe the in my lighte Englissh as trewe
+conclusions touching this mater, and not oonly as trewe but as many and as
+subtile conclusiouns, as ben shewid in Latyn in eny commune tretys of the
+Astrelabie, konne me the more thank.
+(CMASTRO,662.C2.19)
+*~/
+/*
+55 VAG:  55 VAG, 56 touching, 26 IP-SUB
+55 VAG:  55 VAG, 56 touching, 15 IP-SUB
+*/
+( (IP-IMP (CONJ And)
+	  (NP-VOC (NPR Lowys))
+	  (, ,)
+	  (PP (P yf)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 *exp*)
+			      (ADVP (ADV so))
+			      (BEP be)
+			      (CP-THT-1 (C that)
+					(IP-SUB (NP-SBJ (PRO I))
+						(VBP shewe)
+						(NP-OB2 (PRO the))
+						(PP (P in)
+						    (NP (PRO$ my) (ADJ lighte) (NPR Englissh)))
+						(NP-OB1 (NP (ADJP (ADVR as) (ADJ trewe))
+							    (NS conclusions)
+							    (RRC (VAG touching)
+								 (NP (D this) (N mater))))
+							(, ,)
+							(CONJP (CONJ and)
+							       (ADJP (ADJP (NEG not) (FP oonly) (ADVR as) (ADJ trewe))
+								     (CONJP (CONJ but)
+									    (QP (QP (ADVR as) (Q many))
+										(CONJP (CONJ and)
+										       (ADJP (ADVR as) (ADJ subtile)))))
+								     (NS conclusiouns)))
+							(, ,)
+							(PP (P as)
+							    (CP-CMP (WNP-2 0)
+								    (C 0)
+								    (IP-SUB (NP-SBJ *T*-2)
+									    (BEP ben)
+									    (VAN shewid)
+									    (PP (P in)
+										(NP (NPR Latyn)))
+									    (PP (P in)
+										(NP (Q eny)
+										    (ADJ commune)
+										    (N tretys)
+										    (PP (P of)
+											(NP (D the) (N Astrelabie))))))))))))))
+	  (, ,)
+	  (VBI konne)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (D the) (QR more) (N thank))
+	  (. .))
+  (ID CMASTRO,662.C2.19))
+
+/~*
+This moder is dividid on the bakhalf with a lyne that cometh descending fro
+the ring doun to the netherist bordure. The whiche lyne, fro the forseide ring
+unto the centre of the large hool amidde, is clepid the south lyne, or ellis
+the lyne meridional.
+(CMASTRO,663.C2.50)
+*~/
+/*
+38 VAG:  38 VAG, 39 descending, 32 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (D This) (N moder))
+	  (BEP is)
+	  (VAN dividid)
+	  (PP (P on)
+	      (NP (D the) (N+N bakhalf)))
+	  (PP (P with)
+	      (NP (D a)
+		  (N lyne)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP cometh)
+				  (IP-PPL (VAG descending)
+					  (PP (P fro)
+					      (NP (D the) (N ring)))
+					  (PP (RP doun)
+					      (P to)
+					      (NP (D the) (ADJS netherist) (N bordure))))))))
+	  (, .)
+	  (CP-CAR (WNP-2 (D The)
+			 (WD whiche)
+			 (N lyne)
+			 (, ,)
+			 (PP (P fro)
+			     (NP (D the) (ADV+VAN forseide) (N ring)))
+			 (PP (P unto)
+			     (NP (D the)
+				 (N centre)
+				 (PP (P of)
+				     (NP (D the)
+					 (ADJ large)
+					 (N hool)
+					 (PP (P+N amidde)))))))
+		  (C 0)
+		  (, ,)
+		  (IP-SUB (NP-SBJ-3 *T*-2)
+			  (BEP is)
+			  (VAN clepid)
+			  (IP-SMC (NP-SBJ *-3)
+				  (NP-OB1 (NP (D the) (N south) (N lyne))
+					  (, ,)
+					  (CONJP (CONJ or)
+						 (ELSE ellis)
+						 (NP (D the)
+						     (N lyne)
+						     (ADJP (ADJ meridional))))))))
+	  (. .))
+  (ID CMASTRO,663.C2.50))
+
+/~*
+And understond wel that degres of this bordure ben aunswering and consentrike
+to the degrees of the equinoxiall, that is dividid in the same nombre as every
+othir cercle is in the highe hevene.
+(CMASTRO,666.C1.98)
+*~/
+/*
+27 VAG:  27 VAG, 28 aunswering, 12 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (VBI understond)
+	  (ADVP (ADV wel))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (NS degres)
+				  (PP (P of)
+				      (NP (D this) (N bordure))))
+			  (BEP ben)
+			  (ADJP (VAG aunswering)
+				(CONJ and)
+				(ADJ consentrike)
+				(PP (P to)
+				    (NP (D the)
+					(NS degrees)
+					(PP (P of)
+					    (NP (D the)
+						(N equinoxiall)
+						(, ,)
+						(CP-REL (WNP-1 0)
+							(C that)
+							(IP-SUB (NP-SBJ *T*-1)
+								(BEP is)
+								(VAN dividid)
+								(PP (P in)
+								    (NP (D the)
+									(ADJ same)
+									(N nombre)
+									(PP (P as)
+									    (CP-CMP (WNP-2 0)
+										    (C 0)
+										    (IP-SUB (PP (P (CODE {in}))
+												(NP *T*-2))
+											    (NP-SBJ (Q every) (CODE <P_666.C1>) (OTHER othir) (N cercle))
+											    (BEP is)
+											    (PP (P in)
+												(NP (D the) (ADJ highe) (NPR hevene)))))))))))))))))
+	  (. .))
+  (ID CMASTRO,666.C1.98))
+
+/~*
+And understond also that alle the sterres sitting within the zodiak of thin
+Astrelabie ben clepid sterres of the north, for thei arise by northe the est
+lyne.
+(CMASTRO,667.C2.146)
+*~/
+/*
+20 VAG:  20 VAG, 21 sitting, 11 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (VBI understond)
+	  (ALSO also)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ-1 (Q alle)
+				    (D the)
+				    (NS sterres)
+				    (RRC (VAG sitting)
+					 (PP (P within)
+					     (NP (D the)
+						 (N zodiak)
+						 (PP (P of)
+						     (NP (PRO$ thin) (N Astrelabie)))))))
+			  (BEP ben)
+			  (VAN clepid)
+			  (IP-SMC (NP-SBJ *-1)
+				  (NP-OB1 (NS sterres)
+					  (PP (P of)
+					      (NP (D the) (N north)))))
+			  (, ,)
+			  (PP (P for)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO thei))
+					      (VBP arise)
+					      (PP (P by)
+						  (NP (N northe)))
+					      (NP-DIR (D the) (N est) (N lyne)))))))
+	  (. .))
+  (ID CMASTRO,667.C2.146))
+
+/~*
+Thy zodiak of thin Astrelabie is shapen as a compas which that contenith a
+large brede as after the quantite of thyn Astrelabie, in ensample that the
+zodiak in hevene is ymagyned to ben a superfice contenyng a latitude of 12
+degrees, whereas alle the remenaunt of cercles in the hevene ben ymagyned
+verrey lynes withoute eny latitude.
+(CMASTRO,668.C2.153)
+*~/
+/*
+102 VAG:  102 VAG, 103 contenyng, 75 IP-SUB
+102 VAG:  102 VAG, 103 contenyng, 33 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ Thy)
+		  (N zodiak)
+		  (PP (P of)
+		      (NP (PRO$ thin) (N Astrelabie))))
+	  (BEP is)
+	  (VAN shapen)
+	  (PP (P as)
+	      (NP (D a)
+		  (N compas)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP contenith)
+				  (NP-OB1 (D a) (ADJ large) (N brede))
+				  (PP (P as)
+				      (PP (P after)
+					  (NP (D the)
+					      (N quantite)
+					      (PP (P of)
+						  (NP (PRO$ thyn) (N Astrelabie))))))
+				  (, ,)
+				  (PP (P in)
+				      (NP (N ensample)
+					  (CP-THT (C that)
+						  (IP-SUB (NP-SBJ (D the) (N zodiak))
+							  (PP (P in)
+							      (NP (NPR hevene)))
+							  (BEP is)
+							  (VAN ymagyned)
+							  (IP-INF (TO to)
+								  (BE ben)
+								  (NP-OB1 (D a)
+									  (N superfice)
+									  (RRC (VAG contenyng)
+									       (NP (D a)
+										   (N latitude)
+										   (PP (P of)
+										       (NP (NUM 12) (NS degrees)))))))
+							  (, ,)
+							  (PP (WADV+P whereas)
+							      (CP-ADV (C 0)
+								      (IP-SUB (NP-SBJ-2 (Q alle)
+											(D the)
+											(N remenaunt)
+											(PP (P of)
+											    (NP (NS cercles)
+												(PP (P in)
+												    (NP (D the) (NPR hevene))))))
+									      (BEP ben)
+									      (VAN ymagyned)
+									      (IP-SMC (NP-SBJ *-2)
+										      (NP-OB1 (ADJ verrey)
+											      (NS lynes)
+											      (PP (P withoute)
+												  (NP (Q eny) (N latitude))))))))))))))))
+	  (. .))
+  (ID CMASTRO,668.C2.153))
+
+/~*
+And more over, by experience I wot wel that in our orisounte, from xi of the
+clokke unto oon of the clokke, in taking of a just ascendent in a portatif
+Astrelabie it is to hard to knowe - I mene from xi of the clokke before the
+houre of noon til oon of the clokke next folewyng.
+(CMASTRO,670.C2.253)
+*~/
+/*
+172 VAG:  172 VAG, 173 folewyng, 29 IP-SUB
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV (ADV21 more) (ADV22 over)))
+	  (, ,)
+	  (PP (P by)
+	      (NP (N experience)))
+	  (NP-SBJ (PRO I))
+	  (VBP wot)
+	  (ADVP (ADV wel))
+	  (CP-THT (C that)
+		  (IP-SUB (PP (P in)
+			      (NP (PRO$ our) (N orisounte)))
+			  (, ,)
+			  (NP-MSR (PP (P from)
+				      (NP (NUM xi)
+					  (PP (P of)
+					      (NP (D the) (N clokke)))))
+				  (PP (P unto)
+				      (NP (ONE oon)
+					  (PP (P of)
+					      (NP (D the) (N clokke))))))
+			  (, ,)
+			  (PP (P in)
+			      (NP (N taking)
+				  (PP (P of)
+				      (NP (D a) (ADJ just) (N ascendent)))))
+			  (PP (P in)
+			      (NP (D a) (ADJ portatif) (N Astrelabie)))
+			  (NP-SBJ (PRO it))
+			  (BEP is)
+			  (ADJP (ADVR to)
+				(ADJ hard)
+				(CP-TMC (WNP-1 0)
+					(IP-INF (NP-OB1 *T*-1)
+						(TO to)
+						(VB knowe))))
+			  (, -)
+			  (IP-MAT-PRN (NP-SBJ (PRO I))
+				      (VBP mene)
+				      (NP-MSR (PP (P from)
+						  (NP (NUM xi)
+						      (PP (P of)
+							  (NP (D the) (N clokke)))
+						      (PP (P before)
+							  (NP (D the)
+							      (N houre)
+							      (PP (P of)
+								  (NP (N noon)))))))
+					      (PP (P til)
+						  (NP (ONE oon)
+						      (PP (P of)
+							  (NP (D the) (N clokke)))
+						      (RRC (ADVP (ADV next))
+							   (VAG folewyng))))))))
+	  (. .))
+  (ID CMASTRO,670.C2.253))
+
+/~*
+But sothly, if he passe the boundes of these forseide spaces, above or bynethe,
+thei seyn that the planete is "fallyng fro the ascendent."
+(CMASTRO,671.C1.266)
+*~/
+/*
+65 VAG:  65 VAG, 66 fallyng, 55 IP-SUB
+*/
+
+( (IP-MAT (CONJ But)
+	  (ADVP (ADV sothly))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBP passe)
+			      (NP-OB1 (D the)
+				      (NS boundes)
+				      (PP (P of)
+					  (NP (D these) (ADV+VAN forseide) (NS spaces)))
+				      (, ,)
+				      (ADVP-LOC (ADV above) (CONJ or) (ADV bynethe))))))
+	  (, ,)
+	  (NP-SBJ (PRO thei))
+	  (VBP seyn)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the) (N planete))
+			  (BEP is)
+			  (" ")
+			  (VAG fallyng)
+			  (PP (P fro)
+			      (NP (D the) (N ascendent)))))
+	  (. .)
+	  (" "))
+  (ID CMASTRO,671.C1.266))
+
+/~*
+But understond wel that evermo generaly the houre inequal of the day with the
+houre inequal of the night contenen 30 degrees of the bordure, which bordure
+is evermo answeryng to the degrees of the equinoxial. Wherfore departe the
+arch of the day artificial in 12, and tak there the quantite of the houre
+inequale by day.
+(CMASTRO,672.C2.344)
+*~/
+/*
+87 VAG:  87 VAG, 88 answeryng, 79 IP-SUB
+87 VAG:  87 VAG, 88 answeryng, 12 IP-SUB
+*/
+
+( (IP-IMP (CONJ But)
+	  (VBI understond)
+	  (ADVP (ADV wel))
+	  (CP-THT (C that)
+		  (IP-SUB (ADVP-TMP (ADV evermo))
+			  (ADVP (ADV generaly))
+			  (NP-SBJ (D the)
+				  (N houre)
+				  (ADJP (ADJ inequal))
+				  (PP (P of)
+				      (NP (D the) (N day)))
+				  (PP (P with)
+				      (NP (D the)
+					  (N houre)
+					  (ADJP (ADJ inequal))
+					  (PP (P of)
+					      (NP (D the) (N night))))))
+			  (VBP contenen)
+			  (NP-OB1 (NUM 30)
+				  (NS degrees)
+				  (PP (P of)
+				      (NP (D the) (N bordure))))
+			  (, ,)
+			  (CP-CAR (WNP-1 (WD which) (N bordure))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP is)
+					  (ADVP-TMP (ADV evermo))
+					  (VAG answeryng)
+					  (PP (P to)
+					      (NP (D the)
+						  (NS degrees)
+						  (PP (P of)
+						      (NP (D the) (ADJ equinoxial)))))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (WADV+P Wherfore))
+		  (C 0)
+		  (IP-IMP (IP-IMP (PP *T*-2)
+				  (VBI departe)
+				  (NP-OB1 (D the)
+					  (N arch)
+					  (PP (P of)
+					      (NP (D the)
+						  (N day)
+						  (ADJP (ADJ artificial)))))
+				  (PP (P in)
+				      (NP (NUM 12))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-IMP (PP *T*-2)
+					 (VBI tak)
+					 (ADVP-LOC (ADV there))
+					 (NP-OB1 (D the)
+						 (N quantite)
+						 (PP (P of)
+						     (NP (D the)
+							 (N houre)
+							 (ADJP (ADJ inequale))
+							 (PP (P by)
+							     (NP (N day))))))))))
+	  (. .))
+  (ID CMASTRO,672.C2.344))
+
+/~*
+turne than thy ryet aboute tyl thou fynde a degre of thy zodiak according with
+the pricke, this is to seyn, sitting on the pricke.
+(CMASTRO,673.C2.393)
+*~/
+/*
+40 VAG:  40 VAG, 41 according, 20 IP-SUB
+66 VAG:  66 VAG, 67 sitting, 20 IP-SUB
+*/
+
+( (IP-IMP (VBI turne)
+	  (ADVP-TMP (ADV than))
+	  (NP-OB1 (PRO$ thy) (N ryet))
+	  (RP aboute)
+	  (PP (P tyl)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO thou))
+			      (VBP fynde)
+			      (NP-OB1 (D a)
+				      (N degre)
+				      (PP (P of)
+					  (NP (PRO$ thy) (N zodiak))))
+			      (IP-PPL (VAG according)
+				      (PP (P with)
+					  (NP (D the) (N pricke)))
+				      (, ,)
+				      (IP-MAT-PRN (NP-SBJ (D this))
+						  (BEP is)
+						  (IP-INF (TO to)
+							  (VB seyn)
+							  (, ,)
+							  (IP-PPL (VAG sitting)
+								  (PP (P on)
+								      (NP (D the) (N pricke))))))))))
+	  (. .))
+  (ID CMASTRO,673.C2.393))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	10/9/404
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd
+*/
+
+/~*
+& nota +t=t= whan the mone is direct w=t= caput or cauda. she hath no latitude
+& whan she passith caput til she be 3 signes in distance pro successione+g
+signorum fro caput she is 7trional ascendinge <slash>
+(CMEQUATO,42.297)
+*~/
+/*
+122 VAG:  122 VAG, 123 ascendinge, 53 IP-SUB
+122 VAG:  122 VAG, 123 ascendinge, 9 IP-SUB
+*/
+
+( (IP-IMP (CONJ &)
+	  (VBI nota)
+	  (CP-THT (C +t=t=)
+		  (IP-SUB (IP-SUB (PP (P whan)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (D the) (N mone))
+						      (BEP is)
+						      (ADJP (ADJ direct)
+							    (PP (P w=t=)
+								(NP (NPR caput) (CONJ or) (NPR cauda)))))))
+				  (, .)
+				  (NP-SBJ (PRO she))
+				  (HVP hath)
+				  (NP-OB1 (Q no) (N latitude)))
+			  (CONJP (CONJ &)
+				 (IP-SUB (PP (P whan)
+					     (CP-ADV (C 0)
+						     (IP-SUB (NP-SBJ (PRO she))
+							     (VBP passith)
+							     (NP-OB1 (NPR caput))
+							     (PP (P til)
+								 (CP-ADV (C 0)
+									 (IP-SUB (NP-SBJ (PRO she))
+										 (BEP be)
+										 (ADJP (NP-MSR (NUM 3)
+											       (NS signes)
+											       (CODE <paren>)
+											       (PP (P in)
+												   (CODE <$$paren>)
+												   (NP (N distance))))
+										       (CODE <paren>)
+										       (LATIN (FW pro) (FW successione+g) (FW signorum))
+										       (CODE <$$paren>)
+										       (PP (P fro)
+											   (NP (NPR caput))))))))))
+					 (NP-SBJ (PRO she))
+					 (BEP is)
+					 (ADJP (ADJ 7trional) (VAG ascendinge))))))
+	  (. <slash>))
+  (ID CMEQUATO,42.297))
+
+/~*
+tho karf the midel of my thred the meridional lyne .1. degre & 54 mi=a= fro
+centre aryn by which I knew +t=t= the latitude of my mone was .1. degre & 54
+mi=a= 7trional descending fro the Ecliptik
+(CMEQUATO,42.311)
+*~/
+/*
+107 VAG:  107 VAG, 108 descending, 74 IP-SUB
+107 VAG:  107 VAG, 108 descending, 63 IP-SUB
+*/
+
+( (IP-MAT (ADVP-TMP (ADV tho))
+	  (VBP karf)
+	  (CODE <paren>)
+	  (NP-SBJ (D the)
+		  (CODE <$$paren>)
+		  (N midel)
+		  (PP (P of)
+		      (NP (PRO$ my) (N thred))))
+	  (NP-OB1 (D the) (ADJ meridional) (N lyne))
+	  (ADJP-LOC (NP-MSR (NP (NUM .1.) (N degre))
+			    (CONJP (CONJ &)
+				   (NP (NUM 54) (NS mi=a=))))
+		    (PP (P fro)
+			(NP (N centre) (FW aryn))))
+	  (CP-CAR (WPP-1 (P by)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO I))
+			  (VBD knew)
+			  (CP-THT (C +t=t=)
+				  (IP-SUB (NP-SBJ (D the)
+						  (N latitude)
+						  (PP (P of)
+						      (NP (PRO$ my) (N mone))))
+					  (BED was)
+					  (NP-OB1 (NP (NUM .1.) (N degre))
+						  (CONJP (CONJ &)
+							 (NP (NUM 54) (NS mi=a=)))
+						  (ADJP (ADJ 7trional) (VAG descending))
+						  (PP (P fro)
+						      (NP (D the) (N Ecliptik)))))))))
+  (ID CMEQUATO,42.311))
+
+/~*
+& tho fond I the middel of my thred karf the meridional lyne at .3. degres &
+22 mi=a= fro the centre of the Erthe +t=t= is centre aryn <slash> wher for I
+knew wel +t=t= my mone was 3 degres .22. mi=a= in latitude 7trional
+descendinge fro the Ecliptik <slash>
+(CMEQUATO,44.325)
+*~/
+/*
+137 VAG:  137 VAG, 138 descendinge, 107 IP-SUB
+137 VAG:  137 VAG, 138 descendinge, 93 IP-SUB
+137 VAG:  137 VAG, 138 descendinge, 15 IP-SUB
+*/
+
+( (IP-MAT (CONJ &)
+	  (ADVP-TMP (ADV tho))
+	  (VBD fond)
+	  (NP-SBJ (PRO I))
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N middel)
+				  (PP (P of)
+				      (NP (PRO$ my) (N thred))))
+			  (VBD karf)
+			  (NP-OB1 (D the) (ADJ meridional) (N lyne))
+			  (PP (P at)
+			      (NP (NP (NUM .3.) (NS degres))
+				  (CONJP (CONJ &)
+					 (NP (NUM 22) (NS mi=a=)))
+				  (PP (P fro)
+				      (NP (D the)
+					  (N centre)
+					  (PP (P of)
+					      (NP (D the) (NPR Erthe)))
+					  (IP-MAT-PRN (NP-SBJ (D +t=t=))
+						      (BEP is)
+						      (NP-OB1 (N centre) (FW aryn)))))))
+			  (, <slash>)
+			  (CP-CAR (WPP-1 (WADVP (WADV wher))
+					 (P for))
+				  (C 0)
+				  (IP-SUB (PP *T*-1)
+					  (NP-SBJ (PRO I))
+					  (VBD knew)
+					  (ADVP (ADV wel))
+					  (CP-THT (C +t=t=)
+						  (IP-SUB (NP-SBJ (PRO$ my) (N mone))
+							  (BED was)
+							  (ADJP-LOC (NP-MSR (NP (NUM 3) (NS degres))
+									    (CONJP (NP (NUM .22.) (NS mi=a=)))
+									    (PP (P in)
+										(NP (N latitude)
+										    (ADJP (ADJ 7trional) (VAG descendinge)))))
+								    (PP (P fro)
+									(NP (D the) (N Ecliptik))))))))))
+	  (. <slash>))
+  (ID CMEQUATO,44.325))
+
+/~*
+& tho fond I +t=t= the middel of my thred karf the meridional lyne .1. degre
+22 mi=a= fro centre aryn bi which I knew the latitude of my mone was - .1.
+g=a= 22 m=a= fro the Ecliptil meridional discendinge <slash>
+(CMEQUATO,44.335)
+*~/
+/*
+121 VAG:  121 VAG, 122 discendinge, 79 IP-SUB
+121 VAG:  121 VAG, 122 discendinge, 68 IP-SUB
+121 VAG:  121 VAG, 122 discendinge, 15 IP-SUB
+*/
+
+( (IP-MAT (CONJ &)
+	  (ADVP-TMP (ADV tho))
+	  (VBD fond)
+	  (NP-SBJ (PRO I))
+	  (CP-THT (C +t=t=)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N middel)
+				  (PP (P of)
+				      (NP (PRO$ my) (N thred))))
+			  (VBD karf)
+			  (NP-OB1 (D the) (ADJ meridional) (N lyne))
+			  (ADJP-LOC (NP-MSR (NP (NUM .1.) (N degre))
+					    (CONJP (NP (NUM 22) (NS mi=a=))))
+				    (PP (P fro)
+					(NP (N centre) (FW aryn))))
+			  (CP-CAR (WPP-1 (P bi)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB (PP *T*-1)
+					  (NP-SBJ (PRO I))
+					  (VBD knew)
+					  (CP-THT (C 0)
+						  (IP-SUB (NP-SBJ (D the)
+								  (N latitude)
+								  (PP (P of)
+								      (NP (PRO$ my) (N mone))))
+							  (BED was)
+							  (, -)
+							  (ADJP-LOC (NP-MSR (NP (NUM .1.) (N g=a=))
+									    (CONJP (NP (NUM 22) (NS m=a=))))
+								    (PP (P fro)
+									(NP (D the)
+									    (N Ecliptil)
+									    (ADJP (ADJ meridional) (VAG discendinge)))))))))))
+	  (. <slash>))
+  (ID CMEQUATO,44.335))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	4/4/341
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	10/9/404
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	4/4/341
+whole search, hits/tokens/total
+		14/13/745
+*/

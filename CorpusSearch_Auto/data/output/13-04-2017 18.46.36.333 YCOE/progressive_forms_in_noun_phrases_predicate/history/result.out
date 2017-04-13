@@ -1,0 +1,414 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:19 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_predicate.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_predicate\history\result.out
+
+node:   NP-*PRD*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*PRD* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cobede.o2.psd
+*/
+
+/~*
+Beniamin is risende wulf;
+(cobede,Bede_1:18.92.10.844)
+*~/
+/*
+8 VAG^N:  8 VAG^N, 9 risende, 7 NP-NOM-PRD
+*/
+( (IP-MAT-SPE (NP-NOM (NR^N Beniamin))
+	      (BEPI is)
+	      (NP-NOM-PRD (VAG^N risende) (N^N wulf))
+	      (. ;))
+  (ID cobede,Bede_1:18.92.10.844))
+
+/~*
+ond seo is monigra folca ceapstow of londe & of s+a cumendra.
+(cobede,Bede_2:3.104.16.980)
+*~/
+/*
+34 VAG^G:  34 VAG^G, 35 cumendra, 9 NP-NOM-PRD
+*/
+
+( (IP-MAT (CONJ ond)
+	  (NP-NOM (D^N seo))
+	  (BEPI is)
+	  (NP-NOM-PRD (NP-GEN (Q^G monigra) (N^G folca))
+		      (N^N ceapstow)
+		      (PTP-GEN (PP (PP (P of)
+				       (NP-DAT (N^D londe)))
+				   (CONJP (CONJ &)
+					  (PP (P of)
+					      (NP (N s+a)))))
+			       (VAG^G cumendra)))
+	  (. .))
+  (ID cobede,Bede_2:3.104.16.980))
+
+/~*
+W+as heo seo f+amne Drihtne +teowiende in +t+am mynstre, +te in Fronclonde
+w+as getimbred from +t+are +a+delan abbudessan, +te Fara hatte, in +t+are
+stowe +te cweden is in Briige. For+don in +ta tid +ta get ne w+aron monig
+mynster getimbred in Ongol+teode, ond for+don monige gewunedon of Breotone for
+intingan munuclifes secan Froncna mynster & Gallia.
+(cobede,Bede_3:6.172.11.1689)
+*~/
+/*
+18 VAG^N:  18 VAG^N, 19 +teowiende, 9 NP-NOM-PRD
+*/
+
+( (CODE <T06880013300,6.172.11>)
+  (IP-MAT (BEDI W+as)
+	  (NP-NOM (PRO^N heo))
+	  (NP-NOM-PRD (D^N seo)
+		      (N^N f+amne)
+		      (PTP-NOM (NP-DAT (NR^D Drihtne))
+			       (VAG^N +teowiende)
+			       (PP (P in)
+				   (NP-DAT (D^D +t+am)
+					   (N^D mynstre)
+					   (, ,)
+					   (CP-REL (WNP-NOM-1 0)
+						   (C +te)
+						   (IP-SUB (NP-NOM *T*-1)
+							   (PP (P in)
+							       (NP-DAT (NR^D Fronclonde)))
+							   (BEDI w+as)
+							   (VBN getimbred)
+							   (PP (P from)
+							       (NP-DAT (D^D +t+are)
+								       (ADJ^D +a+delan)
+								       (N^D abbudessan)
+								       (, ,)
+								       (CP-REL (WNP-NOM-2 0)
+									       (C +te)
+									       (IP-SUB (NP-NOM *T*-2)
+										       (NP-NOM-PRD (NR^N Fara))
+										       (VBD hatte)))))
+							   (, ,)
+							   (PP (P in)
+							       (NP-DAT (D^D +t+are)
+								       (N^D stowe)
+								       (CP-REL (WNP-NOM-3 0)
+									       (C +te)
+									       (IP-SUB (NP-NOM *T*-3)
+										       (VBN cweden)
+										       (BEPI is)
+										       (XP-PRD (PP (P in)
+												   (NP (NR Briige))))))))))))))
+	  (, .)
+	  (CODE <T06880013400,6.172.14>)
+	  (CP-ADV (P For+don)
+		  (C 0)
+		  (IP-SUB (IP-SUB (PP (P in)
+				      (NP-ACC (D^A +ta) (N^A tid)))
+				  (ADVP-TMP (ADV^T +ta))
+				  (ADVP-TMP (ADV^T get))
+				  (NEG ne)
+				  (BEDI w+aron)
+				  (NP-NOM (Q^N monig) (N^N mynster))
+				  (VBN getimbred)
+				  (PP (P in)
+				      (NP (NR Ongol+teode))))
+			  (, ,)
+			  (CONJP (CONJ ond)
+				 (IP-SUB-CON (ADVP (ADV for+don))
+					     (NP-NOM (Q^N monige))
+					     (VBDI gewunedon)
+					     (PP (P of)
+						 (NP (NR Breotone)))
+					     (IP-INF (PP (P for)
+							 (NP (N intingan)
+							     (NP-GEN (N^G munuclifes))))
+						     (VB secan)
+						     (NP-ACC (NP-GEN (NR^G Froncna)
+								     (CONJP *ICH*-5))
+							     (N^A mynster)
+							     (CONJP-5 (CONJ &) (NR Gallia))))))))
+	  (. .))
+  (ID cobede,Bede_3:6.172.11.1689))
+
+/~*
+Cw+adon heo: +tis syndon +ta fyr, +ta +de middangeard w+aron forb+arnende &
+forneomende.
+(cobede,Bede_3:14.212.24.2163)
+*~/
+/*
+39 VAG:  39 VAG, 40 forb+arnende, 17 NP-NOM-PRD
+43 VAG:  43 VAG, 44 forneomende, 17 NP-NOM-PRD
+*/
+
+( (CODE <T06880040700,14.212.24>)
+  (IP-MAT (VBDI Cw+adon)
+	  (NP-NOM (PRO^N heo))
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM (D^N +tis))
+		      (BEPI syndon)
+		      (NP-NOM-PRD (D^N +ta)
+				  (N^N fyr)
+				  (, ,)
+				  (CP-REL-SPE (WNP-NOM-1 (D^N +ta))
+					      (C +de)
+					      (IP-SUB-SPE (NP-NOM *T*-1)
+							  (NP-ACC (N^A middangeard))
+							  (BEDI w+aron)
+							  (VAG (VAG forb+arnende) (CONJ &) (VAG forneomende))))))
+	  (. .))
+  (ID cobede,Bede_3:14.212.24.2163))
+
+/~*
+Se +aftera w+as Cellah, se forlet his biscop+tegnunge in Englum & lifigende to
+Scottum hwearf.
+(cobede,Bede_3:18.238.15.2432)
+*~/
+/*
+46 VAG^N:  46 VAG^N, 47 lifigende, 11 NP-NOM-PRD
+*/
+
+( (CODE <T06880056900,18.238.15>)
+  (IP-MAT (NP-NOM (D^N Se) (ADJR^N +aftera))
+	  (BEDI w+as)
+	  (NP-NOM-PRD (NR^N Cellah)
+		      (, ,)
+		      (CP-REL (WNP-NOM-1 (D^N se))
+			      (C 0)
+			      (IP-SUB (IP-SUB (NP-NOM *T*-1)
+					      (VBDI forlet)
+					      (NP (PRO$ his) (N biscop+tegnunge))
+					      (PP (P in)
+						  (NP-DAT (NR^D Englum))))
+				      (CONJP (CONJ &)
+					     (IP-SUB-CON (NP-NOM *con*)
+							 (PTP-NOM (VAG^N lifigende))
+							 (PP (P to)
+							     (NP-DAT (NR^D Scottum)))
+							 (VBDI hwearf))))))
+	  (. .))
+  (ID cobede,Bede_3:18.238.15.2432))
+
+/~*
+Cw+a+d he: Seo stow +t+ar seo denu w+as +de +tu gesawe wallende lege &
+strongum celum egeslice beon, +t+at is seo stow, in +d+are siondon to ademanne
+& to cl+ansienne +t+ara manna saula, +ta +de eldende w+aran to andettenne & to
+betenne heora synna & mand+ada, +ta hio gefremedan:
+(cobede,Bede_5:13.430.30.4340)
+*~/
+/*
+133 VAG:  133 VAG, 134 eldende, 75 NP-NOM-PRD
+*/
+
+( (CODE <T06910029200,13.430.30>)
+  (IP-MAT-SPE (VBDI Cw+a+d)
+	      (NP-NOM (PRO^N he))
+	      (, :)
+	      (IP-MAT-SPE (NP-NOM-LFD (D^N Seo)
+				      (N^N stow)
+				      (CP-REL-SPE (WADVP-LOC-1 (ADV^L +t+ar))
+						  (C 0)
+						  (IP-SUB-SPE (ADVP-LOC *T*-1)
+							      (NP-NOM (D^N seo)
+								      (N^N denu)
+								      (CP-REL-SPE *ICH*-2))
+							      (BEDI w+as)
+							      (CP-REL-SPE-2 (WNP-3 0)
+									    (C +de)
+									    (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+											(VBD gesawe)
+											(IP-INF-SPE (NP-SBJ *T*-3)
+												    (NP-DAT-ADT (NP-DAT (VAG^D wallende) (N^D lege))
+														(CONJP (CONJ &)
+														       (NP-DAT (ADJ^D strongum) (N^D celum))))
+												    (ADJP-ACC-PRD (ADJ^A egeslice))
+												    (BE beon)))))))
+			  (, ,)
+			  (NP-NOM-RSP (D^N +t+at))
+			  (BEPI is)
+			  (NP-NOM-PRD (D^N seo)
+				      (N^N stow)
+				      (, ,)
+				      (CP-REL-SPE (WPP-7 (P in)
+							 (NP-DAT (D^D +d+are)))
+						  (C 0)
+						  (IP-SUB-SPE (PP *T*-7)
+							      (BEPI siondon)
+							      (IP-INF-SPE (IP-INF-SPE (TO to)
+										      (VB^D ademanne)
+										      (NP *-8))
+									  (CONJP (CONJ &)
+										 (IP-INF-SPE (TO to) (VB^D cl+ansienne))))
+							      (NP-NOM-8 (NP-GEN (D^G +t+ara)
+										(N^G manna)
+										(CP-REL-SPE *ICH*-6))
+									(N^N saula)
+									(, ,)
+									(CP-REL-SPE-6 (WNP-NOM-4 (D^N +ta))
+										      (C +de)
+										      (IP-SUB-SPE (NP-NOM *T*-4)
+												  (VAG eldende)
+												  (BEDI w+aran)
+												  (IP-INF-SPE (IP-INF-SPE (TO to) (VB^D andettenne))
+													      (CONJP (CONJ &)
+														     (IP-INF-SPE (TO to)
+																 (VB^D betenne)
+																 (NP-ACC (PRO$ heora)
+																	 (N^A synna)
+																	 (CONJP (CONJ &)
+																		(NX-ACC (N^A mand+ada)))
+																	 (, ,)
+																	 (CP-REL-SPE (WNP-ACC-5 (D^A +ta))
+																		     (C 0)
+																		     (IP-SUB-SPE (NP-ACC *T*-5)
+																				 (NP-NOM (PRO^N hio))
+																				 (VBDI gefremedan))))))))))))))
+	      (. :))
+  (ID cobede,Bede_5:13.430.30.4340))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cobede.o2.psd	7/6/4923
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronA.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronA.o23.psd	0/0/1480
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronC.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronC.psd	0/0/2153
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronD.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronD.psd	0/0/2522
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronE.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronE.o34.psd	0/0/3644
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\coorosiu.o2.psd
+*/
+
+/~*
+Hwa is +t+at +te eall +da yfel +te hi donde w+aron asecgean m+age o+d+de
+areccean?
+(coorosiu,Or_1:8.27.26.537)
+*~/
+/*
+41 VAG:  41 VAG, 42 donde, 12 NP-NOM-PRD
+*/
+
+( (CODE <T06590027900,8.27.26>)
+  (CP-QUE-SPE (WNP-NOM-1 (WPRO^N Hwa))
+	      (IP-SUB-SPE (NP-NOM *T*-1)
+			  (BEPI is)
+			  (NP-NOM-PRD (D^N +t+at)
+				      (CP-REL-SPE (WNP-NOM-2 0)
+						  (C +te)
+						  (IP-SUB-SPE (NP-NOM *T*-2)
+							      (NP-ACC (Q^A eall)
+								      (D^A +da)
+								      (N^A yfel)
+								      (CP-REL-SPE (WNP-3 0)
+										  (C +te)
+										  (IP-SUB-SPE (NP *T*-3)
+											      (NP-NOM (PRO^N hi))
+											      (VAG donde)
+											      (BEDI w+aron))))
+							      (VB (VB asecgean)
+								  (CONJP *ICH*-4))
+							      (MDPS m+age)
+							      (CONJP-4 (CONJ o+d+de) (VB areccean))))))
+	      (. ?))
+  (ID coorosiu,Or_1:8.27.26.537))
+
+/~*
+For +ton hi mon h+at on Crecisc $Amazanas, +t+at is on Englisc fortende.
+(coorosiu,Or_1:10.29.34.582)
+*~/
+/*
+50 VAG:  50 VAG, 51 fortende, 27 NP-PRD
+*/
+
+( (CODE <T06590030600,10.29.34>)
+  (IP-MAT (PP (P For)
+	      (NP-DAT (D^I +ton)))
+	  (NP-ACC-1 (PRO^A hi))
+	  (NP-NOM (MAN^N mon))
+	  (VBPI h+at)
+	  (PP (P on)
+	      (NP-ACC (ADJ^A Crecisc)))
+	  (IP-SMC (NP-ACC-SBJ *ICH*-1)
+		  (NP-PRD (NR $Amazanas)
+			  (, ,)
+			  (CP-REL (WNP-NOM-2 (D^N +t+at))
+				  (C 0)
+				  (IP-SUB (NP-NOM *T*-2)
+					  (BEPI is)
+					  (PP (P on)
+					      (NP-ACC (ADJ^A Englisc)))
+					  (XP-PRD (VAG fortende))))))
+	  (. .))
+  (ID coorosiu,Or_1:10.29.34.582))
+
+/~*
+se feor+da is Romane, +te giet ricsiende sindon.
+(coorosiu,Or_2:1.36.12.704)
+*~/
+/*
+25 VAG:  25 VAG, 26 ricsiende, 9 NP-NOM-PRD
+*/
+
+( (IP-MAT-SPE (NP-NOM (D^N se) (ADJ^N feor+da))
+	      (BEPI is)
+	      (NP-NOM-PRD (NR^N Romane)
+			  (, ,)
+			  (CP-REL-SPE (WNP-NOM-1 0)
+				      (C +te)
+				      (IP-SUB-SPE (NP-NOM *T*-1)
+						  (ADVP-TMP (ADV^T giet))
+						  (VAG ricsiende)
+						  (BEPI sindon))))
+	      (. .))
+  (ID coorosiu,Or_2:1.36.12.704))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\coorosiu.o2.psd	3/3/3321
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cobede.o2.psd	7/6/4923
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronA.o23.psd	0/0/1480
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronC.psd	0/0/2153
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronD.psd	0/0/2522
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\cochronE.o34.psd	0/0/3644
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\history\coorosiu.o2.psd	3/3/3321
+whole search, hits/tokens/total
+		10/9/18043
+*/

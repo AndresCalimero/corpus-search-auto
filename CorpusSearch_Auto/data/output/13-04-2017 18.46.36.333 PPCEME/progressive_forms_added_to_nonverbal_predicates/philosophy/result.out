@@ -1,0 +1,302 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:53:14 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_added_to_nonverbal_predicates\philosophy\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd
+*/
+
+/~*
+PHIL. When I sawe the sad and wepyng, I knewe by and by that thou were a
+wretche, and a banyshed man,
+(BOETHCO-E1-P1,24.106)
+*~/
+/*
+26 VAG:  26 VAG, 27 wepyng, 21 ADJP-SPR
+*/
+( (IP-MAT (META (NP (NPR PHIL.)))
+	  (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD sawe)
+			      (NP-SBJ (PRO the))
+			      (ADJP-SPR (ADJ sad) (CONJ and) (VAG wepyng)))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD knewe)
+	  (ADVP-TMP (ADV by) (CONJ and) (ADV by))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO thou))
+			  (BED were)
+			  (NP-OB1 (NP (D a) (N wretche))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (NP (D a) (VAN banyshed) (N man))))))
+	  (. ,))
+  (ID BOETHCO-E1-P1,24.106))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	1/1/586
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd
+*/
+
+/~*
+and whether they knowynge and wyllyng do forsake the good and be turned vnto
+vyces?
+(BOETHCO-E1-P2,93.371)
+*~/
+/*
+14 VAG:  14 VAG, 15 knowynge, 13 ADJP-SPR
+*/
+
+( (CP-QUE (CONJ and)
+	  (WQ whether)
+	  (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+			  (CODE <paren>)
+			  (ADJP-SPR (VAG knowynge) (CONJ and) (ADJ wyllyng))
+			  (CODE <$$paren>)
+			  (DOP do)
+			  (VB forsake)
+			  (NP-OB1 (D the) (N good)))
+		  (CONJP (CONJ and)
+			 (IP-SUB (NP-SBJ *con*)
+				 (BEP be)
+				 (VAN turned)
+				 (PP (P vnto)
+				     (NP (NS vyces))))))
+	  (. ?))
+  (ID BOETHCO-E1-P2,93.371))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	1/1/512
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd
+*/
+
+/~*
+was I ignorant that somewhat lackt? by which lik cliff of Ramper shrinking,
+the woes disease into the mynde is crepte. "
+(BOETHEL-E2-P1,17.148)
+*~/
+/*
+49 VAG:  49 VAG, 50 shrinking, 36 ADJP-SPR
+*/
+
+( (CP-QUE (IP-SUB (BED was)
+		  (NP-SBJ (PRO I))
+		  (ADJP (ADJ ignorant)
+			(CP-THT (C that)
+				(IP-SUB (NP-SBJ (Q+WPRO somewhat)
+						(CP-REL *ICH*-1))
+					(VBD lackt)
+					(, ?)
+					(CP-REL-1 (WPP-2 (P by)
+							 (WNP (WPRO which)))
+						  (C 0)
+						  (IP-SUB (PP *T*-2)
+							  (ADJP-SPR (ADJ lik)
+								    (NP (N cliff)
+									(PP (P of)
+									    (NP (NPR Ramper)))
+									(RRC (VAG shrinking))))
+							  (, ,)
+							  (NP-SBJ (NP-POS (D the) (N$ woes))
+								  (N disease))
+							  (PP (P into)
+							      (NP (D the) (N mynde)))
+							  (BEP is)
+							  (VBN crepte)))))))
+	  (. .)
+	  (" "))
+  (ID BOETHEL-E2-P1,17.148))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	1/1/571
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd
+*/
+
+/~*
+but fearfull & flyeing, fearith & dredith that needes not,
+(BOETHEL-E2-P2,83.452)
+*~/
+/*
+9 VAG:  9 VAG, 10 flyeing, 4 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ but)
+	  (ADJP-SPR (ADJ fearfull) (CONJ &) (VAG flyeing))
+	  (, ,)
+	  (NP-SBJ *pro*)
+	  (VBP (VBP fearith) (CONJ &) (VBP dredith))
+	  (NP-OB1 (CP-FRL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (NP-ADV (N needes))
+				  (NEG not))))
+	  (. ,))
+  (ID BOETHEL-E2-P2,83.452))
+
+/~*
+For no wise man wold rather choose to be exul, poore, dispisde, than riche,
+reuerenced, mighty, & florishing abide in his own Citie.
+(BOETHEL-E2-P2,89.470)
+*~/
+/*
+57 VAG:  57 VAG, 58 florishing, 42 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (Q no) (ADJ wise) (N man))
+	  (MD wold)
+	  (ADVP (ADVR rather)
+		(PP *ICH*-1))
+	  (VB choose)
+	  (IP-INF (TO to)
+		  (BE be)
+		  (ADJP (ADJ exul) (, ,) (ADJ poore) (, ,) (ADJ dispisde)))
+	  (, ,)
+	  (PP-1 (P than)
+		(IP-INF (ADJP-SPR (ADJ riche) (, ,) (ADJ reuerenced) (, ,) (ADJ mighty) (, ,) (CONJ &) (VAG florishing))
+			(TO *)
+			(VB abide)
+			(PP (P in)
+			    (NP (PRO$ his) (ADJ own) (N Citie)))))
+	  (. .))
+  (ID BOETHEL-E2-P2,89.470))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	2/2/517
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	0/0/466
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd
+*/
+
+/~*
+When I first saw thee, sad and weeping, I knew thee to be miserable and in
+Banishment; yet at what distance from thy home I did not know, till I gather'd
+it by thine own Discourse:
+(BOETHPR-E3-P1,32.113)
+*~/
+/*
+28 VAG:  28 VAG, 29 weeping, 23 ADJP-SPR
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P When)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (PRO I))
+					(ADVP-TMP (ADV first))
+					(VBD saw)
+					(NP-OB1 (PRO thee))
+					(, ,)
+					(ADJP-SPR (ADJ sad) (CONJ and) (VAG weeping)))))
+		    (, ,)
+		    (NP-SBJ (PRO I))
+		    (VBD knew)
+		    (IP-INF (NP-SBJ (PRO thee))
+			    (TO to)
+			    (BE be)
+			    (ADJP (ADJP (ADJ miserable))
+				  (CONJP (CONJ and)
+					 (PP (P in)
+					     (NP (N Banishment)))))))
+	  (, ;)
+	  (CONJP (IP-MAT=1 (ADVP (ADV yet))
+			   (CP-QUE (WPP-2 (P at)
+					  (WNP (WD what)
+					       (N distance)
+					       (PP (P from)
+						   (NP (PRO$ thy) (N home)))))
+				   (C 0)
+				   (IP-SUB (PP *T*-2)
+					   (NP-SBJ (PRO I))
+					   (DOD did)
+					   (NEG not)
+					   (VB know)
+					   (, ,)
+					   (PP (P till)
+					       (CP-ADV (C 0)
+						       (IP-SUB (NP-SBJ (PRO I))
+							       (VBD gather'd)
+							       (NP-OB1 (PRO it))
+							       (PP (P by)
+								   (NP (PRO$ thine) (ADJ own) (N Discourse))))))))))
+	  (. :))
+  (ID BOETHPR-E3-P1,32.113))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	1/1/594
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	1/1/586
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	1/1/512
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	1/1/571
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	2/2/517
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	0/0/466
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	1/1/594
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+whole search, hits/tokens/total
+		6/6/5138
+*/

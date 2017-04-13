@@ -1,0 +1,576 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:10 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_adjunts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_adjunts\homilies_and_sermons\result.out
+
+node:   NP-*ADT*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*ADT* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaelhom.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaelhom.o3.psd	0/0/4186
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaugust.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaugust.psd	0/0/4
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coblick.o23.psd
+*/
+
+/~*
++Tonne cy+te+t se godspellere +t+at seo eadige f+amne Sancta Maria forhtode, &
+bifigendre stefne ea+dmodlice ondswarode, & +tus cw+a+t:
+(coblick,HomU_18_[BlHom_1]:9.107.105)
+*~/
+/*
+42 VAG^D:  42 VAG^D, 43 bifigendre, 41 NP-DAT-ADT
+*/
+( (CODE <T05500004600,9.107>)
+  (IP-MAT (ADVP-TMP (ADV^T +Tonne))
+	  (VBPI cy+te+t)
+	  (NP-NOM (D^N se) (N^N godspellere))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (IP-SUB (NP-NOM (D^N seo)
+					  (ADJ^N eadige)
+					  (N^N f+amne)
+					  (NP-NOM-PRN (NR Sancta) (NR^N Maria)))
+				  (VBD forhtode))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-DAT-ADT (VAG^D bifigendre) (N^D stefne))
+					     (ADVP (ADV ea+dmodlice))
+					     (VBD ondswarode)))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (ADVP (ADV +tus))
+					     (VBDI cw+a+t)))))
+	  (. :))
+  (ID coblick,HomU_18_[BlHom_1]:9.107.105))
+
+/~*
+For+ton, men +ta leofestan, ic eow bidde & halsige +t+at anra manna $gehwylc
+sceawige hine sylfne on his heortan, swigende mode, hwylc se deadlica lichama
+bi+t, +tonne seo saul of bi+d, & seo f+agernes +te he her on worlde lufade,
+swylc +tes blowenda wudu & +tas blowendan wyrta.
+(coblick,HomS_17_[BlHom_5]:57.62.718)
+*~/
+/*
+65 VAG^D:  65 VAG^D, 66 swigende, 64 NP-DAT-ADT
+*/
+
+( (CODE <T04460001800,57.62>)
+  (IP-MAT (ADVP (ADV For+ton))
+	  (, ,)
+	  (NP-NOM-VOC (N^N men)
+		      (NP-NOM-PRN (D^N +ta) (ADJS^N leofestan)))
+	  (, ,)
+	  (NP-NOM (PRO^N ic))
+	  (NP (PRO eow))
+	  (VBP (VBP bidde) (CONJ &) (VBP halsige))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (NP-GEN (NUM^G anra) (N^G manna))
+				  (Q^N $gehwylc))
+			  (VBPS sceawige)
+			  (NP-ACC-RFL (PRO^A hine)
+				      (ADJP-ACC (ADJ^A sylfne))
+				      (CP-QUE-PRN *ICH*-4))
+			  (PP (P on)
+			      (NP (PRO$ his) (N heortan)))
+			  (, ,)
+			  (NP-DAT-ADT (VAG^D swigende) (N^D mode))
+			  (, ,)
+			  (CP-QUE-4 (WADJP-NOM-1 (WADJ^N hwylc))
+				    (C 0)
+				    (IP-SUB (ADJP-NOM-PRD *T*-1)
+					    (NP-NOM (NP-NOM (D^N se) (ADJ^N deadlica) (N^N lichama))
+						    (CONJP *ICH*-3))
+					    (BEPI bi+t)
+					    (, ,)
+					    (CP-ADV (P +tonne)
+						    (C 0)
+						    (IP-SUB (NP-NOM (D^N seo) (N^N saul))
+							    (RPX of)
+							    (BEPI bi+d)))
+					    (, ,)
+					    (CONJP-3 (CONJ &)
+						     (NP-NOM (D^N seo)
+							     (N^N f+agernes)
+							     (CP-REL (WNP-2 0)
+								     (C +te)
+								     (IP-SUB (NP *T*-2)
+									     (NP-NOM (PRO^N he))
+									     (ADVP-LOC (ADV^L her))
+									     (PP (P on)
+										 (NP (N worlde)))
+									     (VBD lufade)))))
+					    (, ,)
+					    (PP (P swylc)
+						(CPX-CMP (IPX-SUB (NP-NOM (NP-NOM (D^N +tes) (VAG^N blowenda) (N^N wudu))
+									  (CONJP (CONJ &)
+										 (NP-NOM (D^N +tas) (VAG^N blowendan) (N^N wyrta)))))))))))
+	  (. .))
+  (ID coblick,HomS_17_[BlHom_5]:57.62.718))
+
+/~*
+Adam +ta wependre stefne & earmlicre cegde to Drihtne,
+(coblick,HomS_26_[BlHom_7]:87.89.1112)
+*~/
+/*
+12 VAG^D:  12 VAG^D, 13 wependre, 10 NP-DAT-ADT
+*/
+
+( (CODE <T04560004300,87.89>)
+  (IP-MAT (NP-NOM (NR^N Adam))
+	  (ADVP-TMP (ADV^T +ta))
+	  (NP-DAT-ADT (ADJP-DAT (VAG^D wependre)
+				(CONJP *ICH*-1))
+		      (N^D stefne)
+		      (CONJP-1 (CONJ &) (ADJ^D earmlicre)))
+	  (VBD cegde)
+	  (PP (P to)
+	      (NP-DAT (NR^D Drihtne)))
+	  (. ,))
+  (ID coblick,HomS_26_[BlHom_7]:87.89.1112))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coblick.o23.psd	3/3/3050
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom1.o3.psd
+*/
+
+/~*
++Da +da he mid swi+dlicum luste his lifes gewilnode. +ta het he hine ferian
+ofer +t+are ea. Iordanen +t+ar +d+ar w+aron geh+afde hate ba+du +te w+aron
+halwende gecwedene adligendum lichaman.
+(cocathom1,+ACHom_I,_5:221.141.1012)
+*~/
+/*
+96 VAG^D:  96 VAG^D, 97 adligendum, 95 NP-DAT-ADT
+*/
+
+( (CODE <T02090006700,221.141>)
+  (IP-MAT (CP-ADV (ADV^T +Da)
+		  (P +da)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (PP (P mid)
+			      (NP-DAT (ADJ^D swi+dlicum) (N^D luste)))
+			  (NP-GEN (PRO$ his) (N^G lifes))
+			  (VBD gewilnode)))
+	  (, .)
+	  (ADVP-TMP (ADV^T +ta))
+	  (VBDI het)
+	  (NP-NOM (PRO^N he))
+	  (IP-INF (NP-ACC (PRO^A hine))
+		  (VB ferian)
+		  (PP (P ofer)
+		      (NP-DAT (D^D +t+are)
+			      (N^D ea)
+			      (, .)
+			      (NP-PRN (NR Iordanen))))
+		  (ADVP-LOC (ADV^L +t+ar)
+			    (CP-REL (WADVP-LOC-1 (ADV^L +d+ar))
+				    (C 0)
+				    (IP-SUB (ADVP-LOC *T*-1)
+					    (BEDI w+aron)
+					    (VBN^N geh+afde)
+					    (NP-NOM (ADJ^N hate)
+						    (N^N ba+du)
+						    (CP-REL (WNP-NOM-2 0)
+							    (C +te)
+							    (IP-SUB (NP-NOM *T*-2)
+								    (BEDI w+aron)
+								    (ADJP-NOM-PRD (ADJ^N halwende))
+								    (VBN^N gecwedene)
+								    (NP-DAT-ADT (VAG^D adligendum) (N^D lichaman)))))))))
+	  (. .))
+  (ID cocathom1,+ACHom_I,_5:221.141.1012))
+
+/~*
+Se bydel +de boda+d rihtne geleafan & gode weorc. he gearca+t +tone weig
+cumendum Gode to +t+ara heorcniendra heortan.
+(cocathom1,+ACHom_I,_25:386.198.4945)
+*~/
+/*
+46 VAG^D:  46 VAG^D, 47 cumendum, 45 NP-DAT-ADT
+*/
+
+( (CODE <T02340009500,386.198>)
+  (IP-MAT (NP-NOM-LFD (D^N Se)
+		      (N^N bydel)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +de)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (VBPI boda+d)
+				      (NP-ACC (NP-ACC (ADJ^A rihtne) (N^A geleafan))
+					      (CONJP (CONJ &)
+						     (NP-ACC (ADJ^A gode) (N^A weorc)))))))
+	  (, .)
+	  (NP-NOM-RSP (PRO^N he))
+	  (VBPI gearca+t)
+	  (NP-ACC (D^A +tone) (N^A weig))
+	  (NP-DAT-ADT (VAG^D cumendum) (NR^D Gode))
+	  (PP (P to)
+	      (NP (NP-GEN (D^G +t+ara) (VAG^G heorcniendra))
+		  (N heortan)))
+	  (. .))
+  (ID cocathom1,+ACHom_I,_25:386.198.4945))
+
+/~*
+L+ad us metoda God to getele +tinra gecorenra halgena into +t+are ecan blisse
++tines rices. +te +du gearcodest fram frym+te middaneardes +te lufiendum. +tu
++de leofast & rixast mid +tam ecan f+ader & halgum gaste on ealra worulda
+woruld.
+(cocathom1,+ACHom_I,_35:485.285.7133)
+*~/
+/*
+72 VAG^D:  72 VAG^D, 73 lufiendum, 67 NP-DAT-ADT
+*/
+
+( (CODE <T02440015300,485.285>)
+  (IP-MAT (VBI L+ad)
+	  (NP (PRO us))
+	  (NP-NOM-VOC (N^N metoda)
+		      (NP-NOM-PRN (NR^N God)))
+	  (PP (P to)
+	      (NP-DAT (N^D getele)
+		      (NP-GEN (PRO$^G +tinra) (VBN^G gecorenra) (N^G halgena))))
+	  (PP (P into)
+	      (NP-DAT (D^D +t+are)
+		      (ADJ^D ecan)
+		      (N^D blisse)
+		      (NP-GEN (PRO$^G +tines)
+			      (N^G rices)
+			      (, .)
+			      (CP-REL (WNP-1 0)
+				      (C +te)
+				      (IP-SUB (NP *T*-1)
+					      (NP-NOM (PRO^N +du))
+					      (VBDI gearcodest)
+					      (PP (P fram)
+						  (NP (N frym+te)
+						      (NP-GEN (N^G middaneardes))))
+					      (NP-DAT-ADT (PTP-DAT (NP (PRO +te))
+								   (VAG^D lufiendum))))))))
+	  (, .)
+	  (NP-NOM-VOC (PRO^N +tu)
+		      (CP-REL (WNP-NOM-2 0)
+			      (C +de)
+			      (IP-SUB (NP-NOM *T*-2)
+				      (VBPI (VBPI leofast) (CONJ &) (VBPI rixast))
+				      (PP (P mid)
+					  (NP-DAT (D^D +tam)
+						  (ADJ^D ecan)
+						  (N^D f+ader)
+						  (CONJP (CONJ &)
+							 (NX-DAT (ADJ^D halgum) (N^D gaste)))))
+				      (PP (P on)
+					  (NP-ACC (NP-GEN (Q^G ealra) (N^G worulda))
+						  (N^A woruld))))))
+	  (. .))
+  (ID cocathom1,+ACHom_I,_35:485.285.7133))
+
+/~*
+Eala +du gode rod +te wlite & f+agernysse of Drihtnes leomum underfencge. +tu
+w+are gefyrn gewilnod. & carfullice gelufod. buton toforl+atennysse gesoht: &
+nu +at nextan minum wilnigendum mode gegearcod.
+(cocathom1,+ACHom_I,_38:517.302.7765)
+*~/
+/*
+93 VAG^D:  93 VAG^D, 94 wilnigendum, 90 NP-DAT-ADT
+*/
+
+( (CODE <T02470018200,517.302>)
+  (IP-MAT-SPE (IP-MAT-SPE-0 (INTJ Eala)
+			    (NP-NOM-VOC (PRO^N +du)
+					(NP-NOM-PRN (ADJ^N gode) (N^N rod))
+					(CP-REL-SPE (WNP-NOM-1 0)
+						    (C +te)
+						    (IP-SUB-SPE (NP-NOM *T*-1)
+								(NP (N wlite) (CONJ &) (N f+agernysse))
+								(PP (P of)
+								    (NP-DAT (NP-GEN (NR^G Drihtnes))
+									    (N^D leomum)))
+								(RP+VBDS underfencge))))
+			    (, .)
+			    (NP-NOM (PRO^N +tu))
+			    (BEDS w+are)
+			    (ADVP-TMP (ADV^T gefyrn))
+			    (VBN gewilnod))
+	      (, .)
+	      (CONJP (CONJ &)
+		     (IPX-MAT-SPE=0 (ADVP (ADV carfullice))
+				    (VBN gelufod)))
+	      (, .)
+	      (IPX-MAT-SPE=0 (PP (P buton)
+				 (NP (N toforl+atennysse)))
+			     (VBN gesoht))
+	      (, :)
+	      (CONJP (CONJ &)
+		     (IPX-MAT-SPE=0 (ADVP-TMP (ADV^T nu))
+				    (PP (P +at)
+					(NP (ADJS nextan)))
+				    (NP-DAT-ADT (PRO$^D minum) (VAG^D wilnigendum) (N^D mode))
+				    (VBN gegearcod)))
+	      (. .))
+  (ID cocathom1,+ACHom_I,_38:517.302.7765))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom1.o3.psd	4/4/8049
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom2.o3.psd
+*/
+
+/~*
+and swa swa +du +ar w+are deofles bearn him geefenl+acende. swa +du bist nu
+Godes bearn Gode geefenl+acende. se +de d+aghwomlice geti+da+d weld+ada
+un+dancwur+dum. and hine forseondum bigleofan gearca+d;
+(cocathom2,+ACHom_II,_31-32:244.98.5434)
+*~/
+/*
+100 VAG^D:  100 VAG^D, 101 forseondum, 95 NP-DAT-ADT
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (PP (ADV swa)
+		  (P swa)
+		  (CP-CMP-SPE (WADVP-3 0)
+			      (C 0)
+			      (IP-SUB-SPE (ADVP *T*-3)
+					  (NP-NOM (PRO^N +du))
+					  (ADVP-TMP (ADV^T +ar))
+					  (BEDS w+are)
+					  (NP-NOM-PRD (NP-GEN (N^G deofles))
+						      (N^N bearn))
+					  (PTP-NOM (NP-DAT (PRO^D him))
+						   (VAG^N geefenl+acende)))))
+	      (, .)
+	      (ADVP (ADV swa))
+	      (NP-NOM (PRO^N +du))
+	      (BEPI bist)
+	      (ADVP-TMP (ADV^T nu))
+	      (NP-NOM-PRD (NP-GEN (NR^G Godes))
+			  (N^N bearn))
+	      (PTP-NOM (NP-DAT (NR^D Gode)
+			       (CP-REL-SPE *ICH*-1))
+		       (VAG^N geefenl+acende)
+		       (, .)
+		       (CP-REL-SPE-1 (WNP-NOM-2 (D^N se))
+				     (C +de)
+				     (IP-SUB-SPE (IP-SUB-SPE (NP-NOM *T*-2)
+							     (ADVP-TMP (ADV^T d+aghwomlice))
+							     (VBPI geti+da+d)
+							     (NP (N weld+ada))
+							     (NP-DAT (ADJ^D un+dancwur+dum)))
+						 (, .)
+						 (CONJP (CONJ and)
+							(IP-SUB-CON-SPE (NP-NOM *T*-2)
+									(NP-DAT-ADT (PTP-DAT (NP-ACC (PRO^A hine))
+											     (VAG^D forseondum)))
+									(NP (N bigleofan))
+									(VBPI gearca+d))))))
+	      (. ;))
+  (ID cocathom2,+ACHom_II,_31-32:244.98.5434))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom2.o3.psd	1/1/7727
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhom.psd
+*/
+
+/~*
++Tonne clypa+d sum sawl to hire lichoman swi+de unrotre stefne & unbealdre &
+heofendre
+(coverhom,HomU_9_[ScraggVerc_4]:202.707)
+*~/
+/*
+40 VAG^D:  40 VAG^D, 41 heofendre, 22 NP-DAT-ADT
+*/
+
+( (CODE <T05370011700,202>)
+  (IP-MAT (ADVP-TMP (ADV^T +Tonne))
+	  (VBPI clypa+d)
+	  (NP-NOM (Q^N sum) (N^N sawl))
+	  (PP (P to)
+	      (NP (PRO$ hire) (N lichoman)))
+	  (NP-DAT-ADT (ADJP-DAT (ADV swi+de)
+				(ADJ^D unrotre)
+				(CONJP *ICH*-1))
+		      (N^D stefne)
+		      (CONJP-1 (CONJ &)
+			       (ADJX-DAT (ADJ^D unbealdre) (CONJ &) (VAG^D heofendre)))))
+  (ID coverhom,HomU_9_[ScraggVerc_4]:202.707))
+
+/~*
+& +t+at l+ane lic gerota+t to fulnesse, & +tam w+alslitendum wyrmum to +ate.
+(coverhom,HomM_13_[ScraggVerc_21]:207.2767)
+*~/
+/*
+29 VAG^D:  29 VAG^D, 30 w+alslitendum, 26 NP-DAT-ADT
+*/
+
+( (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM (D^N +t+at) (ADJ^N l+ane) (N^N lic))
+		    (VBPI gerota+t)
+		    (PP (P to)
+			(NP (N fulnesse))))
+	  (, ,)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-DAT-ADT (D^D +tam) (VAG^D w+alslitendum) (N^D wyrmum))
+			    (PP (P to)
+				(NP-DAT (N^D +ate)))))
+	  (. .))
+  (ID coverhom,HomM_13_[ScraggVerc_21]:207.2767))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhom.psd	2/2/3021
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomE.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomE.psd	0/0/361
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomL.psd
+*/
+
+/~*
+& +t+at l+ane lic +t+ar weor+te+d to fylnesse & grimmum gylstre & +t+am
+w+alslitendan wyrmum to mete.
+(coverhomL,HomU_15.1_[Scragg]:106.67)
+*~/
+/*
+39 VAG^D:  39 VAG^D, 40 w+alslitendan, 36 NP-DAT-ADT
+*/
+
+( (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM (D^N +t+at) (ADJ^N l+ane) (N^N lic))
+		    (ADVP-LOC (ADV^L +t+ar))
+		    (BEPI weor+te+d)
+		    (PP (P to)
+			(NP-DAT (NP-DAT (N^D fylnesse))
+				(CONJP (CONJ &)
+				       (NP-DAT (ADJ^D grimmum) (N^D gylstre))))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-DAT-ADT (D^D +t+am) (VAG^D w+alslitendan) (N^D wyrmum))
+			    (PP (P to)
+				(NP (N mete)))))
+	  (. .))
+  (ID coverhomL,HomU_15.1_[Scragg]:106.67))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomL.psd	1/1/94
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cowulf.o34.psd
+*/
+
+/~*
+& he wile miltsian & mycle forgyfnesse don forsyngedan mannum, wi+d +tam +te
+hi geswican & geornlice betan geomeriendum mode.
+(cowulf,WHom_14:41.1304)
+*~/
+/*
+56 VAG^D:  56 VAG^D, 57 geomeriendum, 55 NP-DAT-ADT
+*/
+
+( (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM (PRO^N he))
+		    (MDP wile)
+		    (VB miltsian))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-ACC (Q^A mycle) (N^A forgyfnesse))
+			    (VB don)
+			    (NP-DAT (VBN^D forsyngedan) (N^D mannum))
+			    (, ,)
+			    (CP-ADV (P wi+d)
+				    (D^D +tam)
+				    (C +te)
+				    (IP-SUB (IP-SUB (NP-NOM (PRO^N hi))
+						    (VBPS geswican))
+					    (CONJP (CONJ &)
+						   (IP-SUB-CON (NP-NOM *con*)
+							       (ADVP (ADV geornlice))
+							       (VBPS betan)
+							       (NP-DAT-ADT (VAG^D geomeriendum) (N^D mode))))))))
+	  (. .))
+  (ID cowulf,WHom_14:41.1304))
+
+/~*
+Uton creopan to Criste & bifigendre heortan clipian gelome & geearnian his
+mildse.
+(cowulf,WHom_20.2:167.1739)
+*~/
+/*
+20 VAG^D:  20 VAG^D, 21 bifigendre, 19 NP-DAT-ADT
+*/
+
+( (CODE <T04260005300,167>)
+  (IP-MAT (IP-MAT-0 (UTP Uton)
+		    (VB creopan)
+		    (PP (P to)
+			(NP-DAT (NR^D Criste))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-DAT-ADT (VAG^D bifigendre) (N^D heortan))
+			    (VB clipian)
+			    (ADVP-TMP (ADV^T gelome))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (VB geearnian)
+			    (NP (PRO$ his) (N mildse))))
+	  (. .))
+  (ID cowulf,WHom_20.2:167.1739))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cowulf.o34.psd	2/2/1889
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaelhom.o3.psd	0/0/4186
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coaugust.psd	0/0/4
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coblick.o23.psd	3/3/3050
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom1.o3.psd	4/4/8049
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cocathom2.o3.psd	1/1/7727
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhom.psd	2/2/3021
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomE.psd	0/0/361
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\coverhomL.psd	1/1/94
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\homilies_and_sermons\cowulf.o34.psd	2/2/1889
+whole search, hits/tokens/total
+		13/13/28381
+*/

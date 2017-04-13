@@ -1,0 +1,220 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:03:14 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\whquestions\science_astronomy_geography\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd
+*/
+
+/~*
+Rekne and knowe which is the day of thy month,
+(CMASTRO,669.C1.185)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 which, 9 CP-QUE
+*/
+( (IP-IMP (VBI (VBI Rekne) (CONJ and) (VBI knowe))
+	  (CP-QUE (WNP-1 (WPRO which))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (BEP is)
+			  (NP-SBJ (D the)
+				  (N day)
+				  (PP (P of)
+				      (NP (PRO$ thy) (N month))))))
+	  (. ,))
+  (ID CMASTRO,669.C1.185))
+
+/~*
+What nedith more declaracioun? Wherfore whan the list to knowe how many houres
+of the clokke ben passed, or eny part of eny of these houres that ben passed,
+or ellis how many houres or parties of houres ben to come fro such a tyme to
+such a tyme by day or by night, know the degre of thy sonne, and ley thy label
+on it.
+(CMASTRO,672.C2.351)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP nedith)
+		  (NP-OB1 (QR more) (N declaracioun))
+		  (, ?)
+		  (CP-CAR (WPP-2 (WADV+P Wherfore))
+			  (C 0)
+			  (IP-IMP (IP-IMP (PP *T*-2)
+					  (PP (P whan)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ-3 *exp*)
+							      (NP-OB2 (PRO the))
+							      (VBP list)
+							      (IP-INF-3 (TO to)
+									(VB knowe)
+									(CP-QUE (CP-QUE (WNP-4 (WQP (WADV how) (Q many))
+											       (NS houres)
+											       (PP (P of)
+												   (NP (D the) (N clokke))))
+											(C 0)
+											(IP-SUB (NP-SBJ *T*-4)
+												(BEP ben)
+												(VAN passed)))
+										(, ,)
+										(CONJP (CONJ or)
+										       (NP (Q eny)
+											   (N part)
+											   (PP (P of)
+											       (NP (Q eny)
+												   (PP (P of)
+												       (NP (D these)
+													   (NS houres)
+													   (CP-REL (WNP-5 0)
+														   (C that)
+														   (IP-SUB (NP-SBJ *T*-5)
+															   (BEP ben)
+															   (VAN passed)))))))))
+										(, ,)
+										(CONJP (CONJ or)
+										       (ELSE ellis)
+										       (CP-QUE (WNP-6 (WQP (WADV how) (Q many))
+												      (NS houres)
+												      (CONJP (CONJ or)
+													     (NX (NS parties)
+														 (PP (P of)
+														     (NP (NS houres))))))
+											       (C 0)
+											       (IP-SUB (NP-SBJ *T*-6)
+												       (BEP ben)
+												       (IP-INF (TO to)
+													       (VB come)
+													       (PP (P fro)
+														   (NP (SUCH such) (D a) (N tyme)))
+													       (PP (P to)
+														   (NP (SUCH such) (D a) (N tyme)))
+													       (PP (PP (P by)
+														       (NP (N day)))
+														   (CONJP (CONJ or)
+															  (PP (P by)
+															      (NP (N night))))))))))))))
+					  (, ,)
+					  (VBI know)
+					  (NP-OB1 (D the)
+						  (N degre)
+						  (PP (P of)
+						      (NP (PRO$ thy) (N sonne)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-IMP (VBI ley)
+						 (NP-OB1 (PRO$ thy) (N label))
+						 (PP (P on)
+						     (NP (PRO it))))))))
+	  (. .))
+  (ID CMASTRO,672.C2.351))
+
+/~*
+TO KNOWE WHICH DAY IS LIK TO WHICH DAY AS OF LENGTHE.
+(CMASTRO,673.C2.399)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 11 DAY, 6 CP-QUE
+*/
+
+( (IP-INF (TO TO)
+	  (VB KNOWE)
+	  (CP-QUE (WNP-1 (WD WHICH) (N DAY))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP IS)
+			  (ADJP (ADJ LIK)
+				(PP (P TO)
+				    (WNP (WD WHICH) (N DAY))))
+			  (PP (P AS)
+			      (PP (P OF)
+				  (NP (N LENGTHE))))))
+	  (. .))
+  (ID CMASTRO,673.C2.399))
+
+/~*
+Loke whiche degrees ben ylike fer fro the hevedes of Cancer and Capricorne,
+(CMASTRO,673.C2.401)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 9 degrees, 4 CP-QUE
+*/
+
+( (IP-IMP (VBI Loke)
+	  (CP-QUE (WNP-1 (WD whiche) (NS degrees))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP ben)
+			  (ADJP-LOC (NP-MSR (ADV ylike) (ADJ fer))
+				    (PP (P fro)
+					(NP (D the)
+					    (NS hevedes)
+					    (PP (P of)
+						(NP (NPR Cancer) (CONJ and) (NPR Capricorne))))))))
+	  (. ,))
+  (ID CMASTRO,673.C2.401))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	4/4/404
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd
+*/
+
+/~*
+ne lettere E ne seruyth nat but for to shewe the which wey +t=t= thow shalt
+procede fro lettere .D. <slash>
+(CMEQUATO,34.221)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 37 wey, 32 CP-QUE
+*/
+
+( (IP-MAT (CONJ ne)
+	  (NP-SBJ (N lettere) (CODE <paren>) (N E))
+	  (CODE <$$paren>)
+	  (NEG ne)
+	  (VBP seruyth)
+	  (NEG nat)
+	  (PP (P but)
+	      (IP-INF-PRP (FOR for)
+			  (TO to)
+			  (VB shewe)
+			  (NP-OB2 (PRO the))
+			  (CP-QUE (WNP-1 (WD which) (N wey))
+				  (C +t=t=)
+				  (IP-SUB (NP-DIR *T*-1)
+					  (NP-SBJ (PRO thow))
+					  (MD shalt)
+					  (VB procede)
+					  (PP (P fro)
+					      (NP (N lettere) (N .D.)))))))
+	  (. <slash>))
+  (ID CMEQUATO,34.221))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	1/1/341
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	4/4/404
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	1/1/341
+whole search, hits/tokens/total
+		5/5/745
+*/

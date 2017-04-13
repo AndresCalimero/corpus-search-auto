@@ -1,0 +1,104 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:22 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\stranded_prepositions\bible_and_apocrypha\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd	0/0/1047
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd	0/0/846
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd	0/0/1045
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd
+*/
+
+/~*
+Therefore they gathered together, and filled twelve Baskets with the Fragments
+of the five Barley-loaves, which were over and above to them that eat.
+(PURVER-NEW-1764,6,1J.398)
+*~/
+/*
+26 P:  26 P, 27 with, 25 PP
+*/
+( (IP-MAT-1 (PP (ADV+P Therefore))
+	    (NP-SBJ (PRO they))
+	    (VBD gathered)
+	    (ADVP (ADV together))
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (VBD filled)
+			  (NP-OB1 (NUM twelve) (NS Baskets))
+			  (PP (P with)))
+	    (NP-OB1 (D the)
+		    (NS Fragments)
+		    (PP (P of)
+			(NP (D the) (NUM five) (N+NS Barley-loaves)))
+		    (, ,)
+		    (CP-REL (WNP-2 (WPRO which))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (BED were)
+				    (RP (RP over) (CONJ and) (ADV above))
+				    (PP (P to)
+					(NP (PRO them)
+					    (CP-REL (WNP-3 0)
+						    (C that)
+						    (IP-SUB (NP-SBJ *T*-3)
+							    (VBD eat))))))))
+	    (. .))
+  (ID PURVER-NEW-1764,6,1J.398))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd	1/1/974
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd	0/0/605
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd	0/0/1047
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd	0/0/846
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd	0/0/1045
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd	1/1/974
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd	0/0/605
+whole search, hits/tokens/total
+		1/1/4517
+*/

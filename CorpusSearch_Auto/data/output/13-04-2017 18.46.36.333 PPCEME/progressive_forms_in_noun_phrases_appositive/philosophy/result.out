@@ -1,0 +1,325 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:05 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_appositive\philosophy\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	0/0/586
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	0/0/512
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd
+*/
+
+/~*
+"But lest you shuld suppose against fortune I make an Endles war, Ther is a
+time whan she, the begiling one, somewhat wel of men desarues:
+(BOETHEL-E2-P1,40.548)
+*~/
+/*
+69 VAG:  69 VAG, 70 begiling, 66 NP-PRN
+*/
+( (IP-MAT (" ")
+	  (CONJ But)
+	  (PP (P lest)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (MD shuld)
+			      (VB suppose)
+			      (CP-THT (C 0)
+				      (IP-SUB (PP (P against)
+						  (NP (NPR fortune)))
+					      (NP-SBJ (PRO I))
+					      (VBP make)
+					      (NP-OB1 (D an) (ADJ Endles) (N war)))))))
+	  (, ,)
+	  (NP-SBJ-1 (EX Ther))
+	  (BEP is)
+	  (NP-1 (D a)
+		(N time)
+		(PP (P whan)
+		    (CP-ADV (C 0)
+			    (IP-SUB (NP-SBJ (PRO she)
+					    (, ,)
+					    (NP-PRN (D the) (VAG begiling) (ONE one)))
+				    (, ,)
+				    (ADVP (NP-MSR (Q+WPRO somewhat))
+					  (ADV wel))
+				    (PP (P of)
+					(NP (NS men)))
+				    (VBP desarues)))))
+	  (. :))
+  (ID BOETHEL-E2-P1,40.548))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	1/1/571
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	0/0/517
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd
+*/
+
+/~*
+As in Animals or sensitive Creatures it is plain, the Soul and Body being
+united and continuing together, the Being then is called Animal, a living
+Creature:
+(BOETHPR-E3-H,143.204)
+*~/
+/*
+91 VAG:  91 VAG, 92 living, 88 NP-PRN
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-ADV-SPE (WADVP-1 0)
+			      (C 0)
+			      (IP-SUB-SPE (ADVP *T*-1)
+					  (PP (P in)
+					      (NP (NP (NS Animals))
+						  (CONJP (CONJ or)
+							 (NP (ADJ sensitive) (NS Creatures)))))
+					  (NP-SBJ (PRO it))
+					  (BEP is)
+					  (ADJP (ADJ plain)))))
+	      (, ,)
+	      (IP-PPL-ABS-SPE (IP-PPL-SPE (NP-SBJ (D the)
+						  (N Soul)
+						  (CONJP (CONJ and)
+							 (NX (N Body))))
+					  (BAG being)
+					  (VAN united))
+			      (CONJP (CONJ and)
+				     (IP-PPL-SPE (NP-SBJ *con*)
+						 (VAG continuing)
+						 (ADVP (ADV together)))))
+	      (, ,)
+	      (NP-SBJ-2 (D the) (N Being))
+	      (ADVP (ADV then))
+	      (BEP is)
+	      (VAN called)
+	      (IP-SMC-SPE (NP-SBJ *-2)
+			  (NP-OB1 (N Animal)
+				  (, ,)
+				  (NP-PRN (D a) (VAG living) (N Creature))))
+	      (. :))
+  (ID BOETHPR-E3-H,143.204))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	1/1/466
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd
+*/
+
+/~*
+For if thou dost call to mind of what Country thou art, a Country not govern'd
+by the Fury and Extasies of a giddy and passionate Multitude, as that of the
+Athenians was heretofore; but; where there is only one Lord, one King, the
+Almighty Governour of the Universe, who wishes the Encrease and numerous
+Prosperity, and procures the Welfare of all his Subjects and Citizens, and
+loves not to lessen their number, by sending them into Banishment: to obey
+whose Laws, and to be govern'd by them, is the noblest Liberty and greatest
+Happiness.
+(BOETHPR-E3-P1,32.118)
+*~/
+/*
+261 VAG:  261 VAG, 262 sending, 160 NP-PRN
+261 VAG:  261 VAG, 262 sending, 48 NP-PRN-2
+*/
+
+( (FRAG (CONJ For)
+	(PP (P if)
+	    (CP-ADV (C 0)
+		    (IP-SUB (NP-SBJ (PRO thou))
+			    (DOP dost)
+			    (VB call)
+			    (PP (P to)
+				(NP (N mind)))
+			    (NP-OB1 (CP-FRL (WPP-1 (P of)
+						   (WNP (WD what)
+							(N Country)
+							(NP-PRN *ICH*-2)))
+					    (C 0)
+					    (IP-SUB (PP *T*-1)
+						    (NP-SBJ (PRO thou))
+						    (BEP art))
+					    (, ,)
+					    (NP-PRN-2 (D a)
+						      (N Country)
+						      (RRC (RRC (NEG not)
+								(VAN govern'd)
+								(PP (P by)
+								    (NP (D the)
+									(N Fury)
+									(CONJP (CONJ and)
+									       (NX (NS Extasies)))
+									(PP (P of)
+									    (NP (D a)
+										(ADJP (ADJ giddy) (CONJ and) (ADJ passionate))
+										(N Multitude)))))
+								(, ,)
+								(PP (P as)
+								    (CP-ADV (WADVP-3 0)
+									    (C 0)
+									    (IP-SUB (ADVP *T*-3)
+										    (NP-SBJ (D that)
+											    (PP (P of)
+												(NP (D the) (NPRS Athenians))))
+										    (BED was)
+										    (VAN *)
+										    (PP (ADV+P+P heretofore))))))
+							   (, ;)
+							   (CONJP (CONJ but)
+								  (CODE {COM:greek_omitted})
+								  (, ;)
+								  (CP-REL (WADVP-4 (WADV where))
+									  (C 0)
+									  (IP-SUB (ADVP-LOC *T*-4)
+										  (NP-SBJ-5 (EX there))
+										  (BEP is)
+										  (NP-5 (NP (FP only) (ONE one) (N Lord))
+											(, ,)
+											(CONJP (NP (ONE one) (N King)))
+											(, ,)
+											(NP-PRN (D the)
+												(ADJ Almighty)
+												(N Governour)
+												(PP (P of)
+												    (NP (D the) (N Universe)))
+												(, ,)
+												(CP-REL (WNP-6 (WPRO who))
+													(C 0)
+													(IP-SUB (IP-SUB (NP-SBJ *T*-6)
+															(VBP wishes)
+															(NP-OB1 (D the)
+																(N Encrease)
+																(CONJP (CONJ and)
+																       (NX (ADJ numerous) (N Prosperity)))))
+														(, ,)
+														(CONJP (CONJ and)
+														       (IP-SUB (NP-SBJ *T*-6)
+															       (VBP procures)
+															       (NP-OB1 (D the)
+																       (N Welfare)
+																       (PP (P of)
+																	   (NP (Q all)
+																	       (PRO$ his)
+																	       (NS Subjects)
+																	       (CONJP (CONJ and)
+																		      (NX (NS Citizens))))))))
+														(, ,)
+														(CONJP (CONJ and)
+														       (IP-SUB (NP-SBJ *T*-6)
+															       (VBP loves)
+															       (NEG not)
+															       (IP-INF (TO to)
+																       (VB lessen)
+																       (NP-OB1 (PRO$ their) (N number))
+																       (, ,)
+																       (PP (P by)
+																	   (IP-PPL (VAG sending)
+																		   (NP-OB1 (PRO them))
+																		   (PP (P into)
+																		       (NP (N Banishment)))))))))))
+											(, :)
+											(CP-REL (WIP-INF-7 (WIP-INF (TO to)
+														    (VB obey)
+														    (WNP-OB1 (WPRO$ whose) (NS Laws)))
+													   (, ,)
+													   (CONJP (CONJ and)
+														  (IP-INF (TO to)
+															  (BE be)
+															  (VAN govern'd)
+															  (PP (P by)
+															      (NP (PRO them))))))
+												(C 0)
+												(, ,)
+												(IP-SUB (IP-INF-SBJ *T*-7)
+													(BEP is)
+													(NP-OB1 (D the)
+														(ADJS noblest)
+														(N Liberty)
+														(CONJP (CONJ and)
+														       (NX (ADJS greatest) (N Happiness)))))))))))))))))
+	(. .))
+  (ID BOETHPR-E3-P1,32.118))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	1/1/594
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	0/0/586
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	0/0/512
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	1/1/571
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	0/0/517
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	1/1/466
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	1/1/594
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+whole search, hits/tokens/total
+		3/3/5138
+*/

@@ -1,0 +1,3157 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:55:46 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\whquestions\history\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd
+*/
+
+/~*
+and told the king a long thread of many passages, all tending to the taking
+away his life; of which the king, as he afterwards told me, knew not what it
+could amount to,
+(BURNETCHA-E3-H,1.2,158.228)
+*~/
+/*
+102 WNP-3:  102 WNP-3, 104 what, 101 CP-QUE
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD told)
+	  (NP-OB2 (D the) (N king))
+	  (NP-OB1 (D a)
+		  (ADJ long)
+		  (N thread)
+		  (PP (P of)
+		      (NP (Q many) (NS passages)))
+		  (, ,)
+		  (RRC (Q all)
+		       (VAG tending)
+		       (PP (P to)
+			   (NP (D the)
+			       (IP-PPL (VAG taking)
+				       (ADVP-DIR (ADV away))
+				       (NP-OB1 (PRO$ his) (N life)))))))
+	  (, ;)
+	  (CP-CAR (WPP-1 (P of)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (D the) (N king))
+			  (, ,)
+			  (PP-PRN (P as)
+				  (CP-ADV (WNP-2 0)
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-2)
+						  (NP-SBJ (PRO he))
+						  (ADVP-TMP (ADV+WARD afterwards))
+						  (VBD told)
+						  (NP-OB2 (PRO me)))))
+			  (, ,)
+			  (VBD knew)
+			  (NEG not)
+			  (CP-QUE (WNP-3 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-SBJ (PRO it))
+					  (MD could)
+					  (VB amount)
+					  (PP (P to)
+					      (NP *T*-3))))))
+	  (. ,))
+  (ID BURNETCHA-E3-H,1.2,158.228))
+
+/~*
+In the mean while some letters of an odd strain relating to plots and
+discoveries were sent by the post to Windsor, directed to Bedingfield, the
+duke's confessor; who, when he read them, carried them to the duke, and
+protested he did not know what they meant, nor from whom they came.
+(BURNETCHA-E3-H,1.2,158.233)
+*~/
+/*
+150 WNP-3:  150 WNP-3, 152 what, 149 CP-QUE
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (ADJ mean) (N while)))
+	  (NP-SBJ (Q some)
+		  (NS letters)
+		  (PP (P of)
+		      (NP (D an) (ADJ odd) (N strain)))
+		  (RRC (VAG relating)
+		       (PP (P to)
+			   (NP (NS plots) (CONJ and) (NS discoveries))))
+		  (RRC *ICH*-1))
+	  (BED were)
+	  (VAN sent)
+	  (PP (P by)
+	      (NP (D the) (N post)))
+	  (PP (P to)
+	      (NP (NPR Windsor)))
+	  (, ,)
+	  (RRC-1 (VAN directed)
+		 (PP (P to)
+		     (NP (NPR Bedingfield)
+			 (, ,)
+			 (NP-PRN (NP-POS (D the) (N$ duke's))
+				 (N confessor))
+			 (, ;)
+			 (CP-REL (WNP-2 (WPRO who))
+				 (, ,)
+				 (C 0)
+				 (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+						 (PP (P when)
+						     (CP-ADV (C 0)
+							     (IP-SUB (NP-SBJ (PRO he))
+								     (VBD read)
+								     (NP-OB1 (PRO them)))))
+						 (, ,)
+						 (VBD carried)
+						 (NP-OB1 (PRO them))
+						 (PP (P to)
+						     (NP (D the) (N duke))))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(IP-SUB (NP-SBJ *T*-2)
+							(VBD protested)
+							(CP-THT (C 0)
+								(IP-SUB (NP-SBJ (PRO he))
+									(DOD did)
+									(NEG not)
+									(VB know)
+									(CP-QUE (CP-QUE (WNP-3 (WPRO what))
+											(C 0)
+											(IP-SUB (NP-OB1 *T*-3)
+												(NP-SBJ (PRO they))
+												(VBD meant)))
+										(, ,)
+										(CONJP (CONJ nor)
+										       (CP-QUE (WPP-4 (P from)
+												      (WNP (WPRO whom)))
+											       (C 0)
+											       (IP-SUB (PP *T*-4)
+												       (NP-SBJ (PRO they))
+												       (VBD came))))))))))))))
+	  (. .))
+  (ID BURNETCHA-E3-H,1.2,158.233))
+
+/~*
+The king, who knew Don John well, asked him what sort of a man he was:
+(BURNETCHA-E3-H,1.2,160.275)
+*~/
+/*
+36 WNP-2:  36 WNP-2, 48 man, 35 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N king)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD knew)
+				  (NP-OB1 (NPR Don) (NPR John))
+				  (ADVP (ADV well)))))
+	  (, ,)
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WNP-2 (WD what)
+			 (N sort)
+			 (PP (P of)
+			     (NP (D a) (N man))))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-2)
+			  (NP-SBJ (PRO he))
+			  (BED was)))
+	  (. :))
+  (ID BURNETCHA-E3-H,1.2,160.275))
+
+/~*
+but I, to divert him from that strain, asked him, what were the arguments that
+prevailed on him to change his religion, and to go over to the church of Rome?
+(BURNETCHA-E3-H,1.2,162.306)
+*~/
+/*
+35 WNP-1:  35 WNP-1, 37 what, 34 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB divert)
+		      (NP-OB1 (PRO him))
+		      (PP (P from)
+			  (NP (D that) (N strain))))
+	  (, ,)
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED were)
+			  (NP-OB1 (D the)
+				  (NS arguments)
+				  (CP-REL (WNP-2 0)
+					  (C that)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (VBD prevailed)
+						  (PP (P on)
+						      (NP (PRO him)))
+						  (IP-INF (IP-INF (TO to)
+								  (VB change)
+								  (NP-OB1 (PRO$ his) (N religion)))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-INF (TO to)
+									 (VB go)
+									 (PP (RP over)
+									     (P to)
+									     (NP (D the)
+										 (NPR church)
+										 (PP (P of)
+										     (NP (NPR Rome)))))))))))))
+	  (. ?))
+  (ID BURNETCHA-E3-H,1.2,162.306))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	4/4/376
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd
+*/
+
+/~*
+and Albemarle's judgment of them may be measured by what he said when he found
+the king grew weary of Morrice, but that in regard to him had no mind to turn
+him out: upon which the duke of Albemarle replied, he did not know what was
+necessary for a good secretary of state in which he was defective,
+(BURNETCHA-E3-P1,1,180.56)
+*~/
+/*
+155 WNP-3:  155 WNP-3, 159 *ICH*-4, 154 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NPR$ Albemarle's)
+		  (N judgment)
+		  (PP (P of)
+		      (NP (PRO them))))
+	  (MD may)
+	  (BE be)
+	  (VAN measured)
+	  (PP (P by)
+	      (NP (CP-FRL (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO he))
+				  (VBD said)
+				  (PP (P when)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO he))
+						      (VBD found)
+						      (CP-THT (CP-THT (C 0)
+								      (IP-SUB (NP-SBJ (D the) (N king))
+									      (VBD grew)
+									      (ADJP (ADJ weary)
+										    (PP (P of)
+											(NP (NPR Morrice))))))
+							      (, ,)
+							      (CONJP (CONJ but)
+								     (CP-THT (C that)
+									     (IP-SUB (NP-SBJ *con*)
+										     (PP (P in)
+											 (NP (N regard)
+											     (PP (P to)
+												 (NP (PRO him)))))
+										     (HVD had)
+										     (NP-OB1 (Q no) (N mind))
+										     (IP-INF (TO to)
+											     (VB turn)
+											     (NP-OB1 (PRO him))
+											     (RP out))))))
+						      (, :)
+						      (CP-CAR (WPP-2 (P upon)
+								     (WNP (WPRO which)))
+							      (C 0)
+							      (IP-SUB (PP *T*-2)
+								      (NP-SBJ (D the)
+									      (N duke)
+									      (PP (P of)
+										  (NP (NPR Albemarle))))
+								      (VBD replied)
+								      (, ,)
+								      (CP-THT (C 0)
+									      (IP-SUB (NP-SBJ (PRO he))
+										      (DOD did)
+										      (NEG not)
+										      (VB know)
+										      (CP-QUE (WNP-3 (WPRO what)
+												     (CP-REL *ICH*-4))
+											      (C 0)
+											      (IP-SUB (NP-SBJ *T*-3)
+												      (BED was)
+												      (ADJP (ADJ necessary)
+													    (PP (P for)
+														(NP (D a)
+														    (ADJ good)
+														    (N secretary)
+														    (PP (P of)
+															(NP (N state))))))
+												      (CP-REL-4 (WPP-5 (P in)
+														       (WNP (WPRO which)))
+														(C 0)
+														(IP-SUB (NP-SBJ (PRO he))
+															(BED was)
+															(ADJP (ADJ defective)
+															      (PP *T*-5)))))))))))))))))
+	  (. ,))
+  (ID BURNETCHA-E3-P1,1,180.56))
+
+/~*
+When I heard who the witnesses were, I thought I was bound to do what I could
+to stop it.
+(BURNETCHA-E3-P1,2,171.265)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 who, 14 CP-QUE
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD heard)
+			      (CP-QUE (WNP-1 (WPRO who))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (D the) (NS witnesses))
+					      (BED were))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD thought)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (BED was)
+			  (VAN bound)
+			  (IP-INF (TO to)
+				  (DO do)
+				  (NP-OB1 (CP-FRL (WNP-2 (WPRO what))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO I))
+							  (MD could)
+							  (VB *))))
+				  (IP-INF-PRP (TO to)
+					      (VB stop)
+					      (NP-OB1 (PRO it))))))
+	  (. .))
+  (ID BURNETCHA-E3-P1,2,171.265))
+
+/~*
+So I sent both to the lord chancellor and to the attorney general, to let them
+know what profligate wretches these witnesses were.
+(BURNETCHA-E3-P1,2,171.266)
+*~/
+/*
+51 WNP-1:  51 WNP-1, 57 wretches, 50 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV So))
+	  (NP-SBJ (PRO I))
+	  (VBD sent)
+	  (PP (CONJ both)
+	      (PP (P to)
+		  (NP (D the) (N lord) (N chancellor)))
+	      (CONJP (CONJ and)
+		     (PP (P to)
+			 (NP (D the)
+			     (N attorney)
+			     (ADJP (ADJ general))))))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB let)
+		      (IP-INF (NP-SBJ (PRO them))
+			      (VB know)
+			      (CP-QUE (WNP-1 (WD what) (ADJ profligate) (NS wretches))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (D these) (NS witnesses))
+					      (BED were)))))
+	  (. .))
+  (ID BURNETCHA-E3-P1,2,171.266))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	3/3/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd
+*/
+
+/~*
+and she said she would have all the ladies of that religion cast lots who
+should be comprehended,
+(BURNETCHA-E3-P2,2,176.27)
+*~/
+/*
+42 WNP-1:  42 WNP-1, 44 who, 41 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO she))
+	  (VBD said)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO she))
+			  (MD would)
+			  (HV have)
+			  (IP-INF (NP-SBJ (Q all)
+					  (D the)
+					  (NS ladies)
+					  (PP (P of)
+					      (NP (D that) (N religion))))
+				  (VB cast)
+				  (NP-OB1 (NS lots))
+				  (CP-QUE (WNP-1 (WPRO who))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (MD should)
+						  (BE be)
+						  (VAN comprehended))))))
+	  (. ,))
+  (ID BURNETCHA-E3-P2,2,176.27))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	1/1/330
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd
+*/
+
+/~*
+and wha~ they hadde axyd of hym which man | he sayde the duke of Herforde |
+not for drede that I haue of his persone | But for sorowe and rumours that he
+is lykelye to make within this Realme | Whiche byll was tha~ borne vnto the
+Kynges Parlyame~t Chaumbre & there radde | after redynge whereof the sayde
+Duke of Amnarle stoode vp and sayde as touchynge such Artycles as in that byll
+were put agayn hym they were false and vntrewe | & that he wolde proue vpon
+his body | or otherwyse as the Kynge wolde commaunde hym |
+(FABYAN-E1-H,168V.C2.38)
+*~/
+/*
+25 WNP:  25 WNP, 29 man, 24 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P wha~)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVD hadde)
+			      (VBN axyd)
+			      (PP (P of)
+				  (NP (PRO hym)))
+			      (CP-QUE (WNP (WD which) (N man))))))
+	  (, |)
+	  (NP-SBJ (PRO he))
+	  (VBD sayde)
+	  (QTP (NP (D the)
+		   (N duke)
+		   (PP (P of)
+		       (NP (NPR Herforde))))
+	       (. |)
+	       (FRAG (PP (PP (NEG not)
+			     (P for)
+			     (NP (N drede)
+				 (CP-REL (WNP-1 0)
+					 (C that)
+					 (IP-SUB (NP-OB1 *T*-1)
+						 (NP-SBJ (PRO I))
+						 (HVP haue)))
+				 (PP (P of)
+				     (NP (PRO$ his) (N persone)))))
+			 (, |)
+			 (CONJP (CONJ But)
+				(PP (P for)
+				    (NP (N sorowe)
+					(CONJ and)
+					(NS rumours)
+					(CP-REL (WNP-2 0)
+						(C that)
+						(IP-SUB (NP-SBJ (PRO he))
+							(BEP is)
+							(ADJP (ADJ lykelye)
+							      (IP-INF (NP-OB1 *T*-2)
+								      (TO to)
+								      (VB make)
+								      (PP (P within)
+									  (NP (D this) (N Realme)))))))))))))
+	  (, |)
+	  (CP-CAR (WNP-3 (WD Whiche) (N byll))
+		  (C 0)
+		  (IP-SUB (IP-SUB-4 (NP-SBJ *T*-3)
+				    (BED was)
+				    (ADVP-TMP (ADV tha~))
+				    (VAN borne)
+				    (PP (P vnto)
+					(NP (NP-POS (D the) (N$ Kynges))
+					    (NPR Parlyame~t)
+					    (NPR Chaumbre))))
+			  (CONJP (CONJ &)
+				 (IP-SUB=4 (ADVP-LOC (ADV there))
+					   (VAN radde)))))
+	  (, |)
+	  (CP-CAR (WPP-5 (P after)
+			 (WIP-PPL (VAG redynge)
+				  (WPP (WADV+P whereof))))
+		  (C 0)
+		  (IP-SUB (IP-SUB (PP *T*-5)
+				  (NP-SBJ (D the)
+					  (VAN sayde)
+					  (N Duke)
+					  (PP (P of)
+					      (NP (NPR Amnarle))))
+				  (VBD stoode)
+				  (RP vp))
+			  (CONJP (IP-SUB (CONJ and)
+					 (NP-SBJ *con*)
+					 (VBD sayde)
+					 (CP-THT (CP-THT (C 0)
+							 (IP-SUB (PP (P as)
+								     (IP-PPL (VAG touchynge)
+									     (NP-OB1 (SUCH such)
+										     (NS Artycles)
+										     (PP (P as)
+											 (CP-CMP (WNP-6 0)
+												 (C 0)
+												 (IP-SUB (NP-SBJ *T*-6)
+													 (PP (P in)
+													     (NP (D that) (N byll)))
+													 (BED were)
+													 (VAN put)
+													 (PP (P agayn)
+													     (NP (PRO hym)))))))))
+								 (NP-SBJ (PRO they))
+								 (BED were)
+								 (ADJP (ADJ false) (CONJ and) (ADJ vntrewe))))
+						 (, |)
+						 (CONJP (CONJ &)
+							(CP-THT (C that)
+								(IP-SUB (NP-SBJ (PRO he))
+									(MD wolde)
+									(VB proue)
+									(PP (PP (P vpon)
+										(NP (PRO$ his) (N body)))
+									    (, |)
+									    (CONJP (CONJ or)
+										   (NP-ADV (OTHER+N otherwyse)
+											   (PP (P as)
+											       (CP-ADV (WADVP-7 0)
+												       (C 0)
+												       (IP-SUB (ADVP *T*-7)
+													       (NP-SBJ (D the) (N Kynge))
+													       (MD wolde)
+													       (VB commaunde)
+													       (NP-OB2 (PRO hym))))))))))))))))
+	  (. |))
+  (ID FABYAN-E1-H,168V.C2.38))
+
+/~*
+At length whan he was co~myn to hymselfe nat knowynge where he was | freyned
+of suche as then were aboute hym what place that was | The which shewyd to hym
+that it belongyd vnto y=e= Abbot of Westmynster |
+(FABYAN-E1-H,174V.C2.211)
+*~/
+/*
+84 WNP-3:  84 WNP-3, 88 place, 83 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (PP (P At)
+	      (NP (N length)))
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (BED was)
+			      (VAG co~myn)
+			      (PP (P to)
+				  (NP (PRO+N hymselfe))))))
+	  (IP-PPL (NEG nat)
+		  (VAG knowynge)
+		  (CP-QUE (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (PRO he))
+				  (BED was))))
+	  (, |)
+	  (VBD freyned)
+	  (PP (P of)
+	      (NP (SUCH suche)
+		  (PP (P as)
+		      (CP-CMP (WNP-2 0)
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-2)
+				      (ADVP-TMP (ADV then))
+				      (BED were)
+				      (PP (P aboute)
+					  (NP (PRO hym))))))
+		  (CP-REL *ICH*-4)))
+	  (CP-QUE (WNP-3 (WD what) (N place))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-3)
+			  (NP-SBJ (D that))
+			  (BED was)))
+	  (, |)
+	  (CP-REL-4 (WNP-5 (D The) (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-5)
+			    (VBD shewyd)
+			    (PP (P to)
+				(NP (PRO hym)))
+			    (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (PRO it))
+					    (VBD belongyd)
+					    (PP (P vnto)
+						(NP (D y=e=)
+						    (N Abbot)
+						    (PP (P of)
+							(NP (NPR Westmynster)))))))))
+	  (. |))
+  (ID FABYAN-E1-H,174V.C2.211))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	2/2/220
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd
+*/
+
+/~*
+The people of all sorts even such whose fortunes were unlike either to bee
+amended or impaired by change went many myles out of the City to see her, some
+uppon particular affectione to her person, others upon opinione of good to the
+State, some uppon an ordinary levity and delight in change, and not a few
+because they would doe as others did; all with like fervency contending who
+should most neerly approach unto her, who should most cherefully bestow uppon
+her all honourable titles and happy wishes.
+(HAYWARD-E2-H,6.32)
+*~/
+/*
+227 WNP-5:  227 WNP-5, 229 who, 226 CP-QUE
+254 WNP-6:  254 WNP-6, 256 who, 253 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D The)
+			    (NS people)
+			    (PP (P of)
+				(NP (Q all)
+				    (NS sorts)
+				    (CODE <paren>)
+				    (NP-PRN (FP even)
+					    (SUCH such)
+					    (CP-REL (WNP-2 (WPRO$ whose) (NS fortunes))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (BED were)
+							    (ADJP (ADJ unlike)
+								  (IP-INF (CONJ-3 either)
+									  (TO to)
+									  (BE bee)
+									  (VAN (CONJ *ICH*-3)
+									       (VAN amended)
+									       (CONJ or)
+									       (VAN impaired))
+									  (PP (P by)
+									      (NP (N change)))))))))))
+		    (CODE <$$paren>)
+		    (VBD went)
+		    (NP-MSR (Q many) (NS myles))
+		    (PP (RP out)
+			(P of)
+			(NP (D the) (NPR City)))
+		    (IP-INF-PRP (TO to)
+				(VB see)
+				(NP-OB1 (PRO her))))
+	  (, ,)
+	  (IP-MAT=1 (NP-SBJ (Q some))
+		    (PP (P uppon)
+			(NP (ADJ particular)
+			    (N affectione)
+			    (PP (P to)
+				(NP (PRO$ her) (N person))))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (NP-SBJ (OTHERS others))
+			   (PP (P upon)
+			       (NP (N opinione)
+				   (PP (P of)
+				       (NP (N good)
+					   (PP (P to)
+					       (NP (D the) (N State)))))))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (NP-SBJ (Q some))
+			   (PP (P uppon)
+			       (NP (D an)
+				   (ADJ ordinary)
+				   (N levity)
+				   (CONJP (CONJ and)
+					  (NX (N delight)))
+				   (PP (P in)
+				       (NP (N change)))))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (CONJ and)
+			   (NP-SBJ (NEG not) (D a) (Q few))
+			   (PP (P+N because)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO they))
+					       (MD would)
+					       (DO doe)
+					       (PP (P as)
+						   (CP-ADV (WNP-4 0)
+							   (C 0)
+							   (IP-SUB (NP-OB1 *T*-4)
+								   (NP-SBJ (OTHERS others))
+								   (DOD did)))))))
+			   (, ;)
+			   (IP-PPL-ABS (NP-SBJ (Q all))
+				       (PP (P with)
+					   (NP (ADJ like) (N fervency)))
+				       (VAG contending)
+				       (CP-QUE (CP-QUE (WNP-5 (WPRO who))
+						       (C 0)
+						       (IP-SUB (NP-SBJ *T*-5)
+							       (MD should)
+							       (ADJP-LOC (QS most) (ADJ neerly))
+							       (VB approach)
+							       (PP (P unto)
+								   (NP (PRO her)))))
+					       (, ,)
+					       (CONJP (CP-QUE (WNP-6 (WPRO who))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-6)
+								      (MD should)
+								      (ADVP (QS most) (ADV cherefully))
+								      (VB bestow)
+								      (PP (P uppon)
+									  (NP (PRO her)))
+								      (NP-OB1 (Q all)
+									      (ADJ honourable)
+									      (NS titles)
+									      (CONJP (CONJ and)
+										     (NX (ADJ happy) (NS wishes)))))))))))
+	  (. .))
+  (ID HAYWARD-E2-H,6.32))
+
+/~*
+what doe my words but wrong thy worth?
+(HAYWARD-E2-H,8.68)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP doe)
+		  (NP-SBJ (PRO$ my) (NS words))
+		  (PP-2 (P but)
+			(IP-INF (VB wrong)
+				(NP-OB1 (PRO$ thy) (N worth)))))
+	  (. ?))
+  (ID HAYWARD-E2-H,8.68))
+
+/~*
+and now, rising from dejected feares to ambitious hopes, contended who should
+catch the first hold of her favour.
+(HAYWARD-E2-H,9.72)
+*~/
+/*
+35 WNP-1:  35 WNP-1, 37 who, 34 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (ADVP-TMP (ADV now))
+	  (, ,)
+	  (IP-PPL (VAG rising)
+		  (PP (P from)
+		      (NP (VAN dejected) (NS feares)))
+		  (PP (P to)
+		      (NP (ADJ ambitious) (NS hopes))))
+	  (, ,)
+	  (VBD contended)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD should)
+			  (VB catch)
+			  (NP-OB1 (D the)
+				  (ADJ first)
+				  (N hold)
+				  (PP (P of)
+				      (NP (PRO$ her) (N favour))))))
+	  (. .))
+  (ID HAYWARD-E2-H,9.72))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	4/3/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd
+*/
+
+/~*
+When shee espyed a Pageant at the Little Conduite in Cheape, shee demanded as
+it was her custome in the rest what should be represented therein:
+(HAYWARD-E2-P1,17.81)
+*~/
+/*
+76 WNP-2:  76 WNP-2, 78 what, 75 CP-QUE
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO shee))
+			      (VBD espyed)
+			      (NP-OB1 (D a)
+				      (N Pageant)
+				      (PP (P at)
+					  (NP (D the)
+					      (NPR Little)
+					      (NPR Conduite)
+					      (PP (P in)
+						  (NP (NPR Cheape)))))))))
+	  (, ,)
+	  (NP-SBJ (PRO shee))
+	  (VBD demanded)
+	  (CODE <paren>)
+	  (PP-PRN (P as)
+		  (CP-ADV (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BED was)
+				  (NP-OB1 (PRO$ her) (N custome))
+				  (PP (P in)
+				      (NP (D the) (N rest))))))
+	  (CODE <$$paren>)
+	  (CP-QUE (WNP-2 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-2)
+			  (MD should)
+			  (BE be)
+			  (VAN represented)
+			  (PP (ADV+P therein))))
+	  (. :))
+  (ID HAYWARD-E2-P1,17.81))
+
+/~*
+windowes wer dashed downe, because images little regarding what were paynted
+on them.
+(HAYWARD-E2-P1,28.205)
+*~/
+/*
+32 WNP:  32 WNP, 34 what, 31 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (NS windowes))
+	  (BED wer)
+	  (VAN dashed)
+	  (RP downe)
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NS images))
+			      (IP-PPL (CODE <paren>)
+				      (NP-MSR (Q little))
+				      (VAG regarding)
+				      (CP-QUE (WNP (WPRO what)))
+				      (CODE <$$paren>))
+			      (BED were)
+			      (VAN paynted)
+			      (PP (P on)
+				  (NP (PRO them))))))
+	  (. .))
+  (ID HAYWARD-E2-P1,28.205))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	2/2/212
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd
+*/
+
+/~*
+enquirie was made what grants had passed from Queen Mary, by restitutione,
+gift, sale, or exchange, and to what valew they did extend;
+(HAYWARD-E2-P2,30.6)
+*~/
+/*
+13 WNP-2:  13 WNP-2, 17 grants, 12 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (N enquirie)
+		  (CP-QUE *ICH*-1))
+	  (BED was)
+	  (VAN made)
+	  (CP-QUE-1 (CP-QUE (WNP-2 (WD what) (NS grants))
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (HVD had)
+				    (VBN passed)
+				    (PP (P from)
+					(NP (NPR Queen) (NPR Mary)))
+				    (, ,)
+				    (PP (P by)
+					(NP (N restitutione) (, ,) (N gift) (, ,) (N sale) (, ,) (CONJ or) (N exchange)))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (CP-QUE (WPP-3 (P to)
+					  (WNP (WD what) (N valew)))
+				   (C 0)
+				   (IP-SUB (PP *T*-3)
+					   (NP-SBJ (PRO they))
+					   (DOD did)
+					   (VB extend)))))
+	  (. ;))
+  (ID HAYWARD-E2-P2,30.6))
+
+/~*
+The Quene, whose deliberacions depended much upon herself, was neither
+ignorant nor irresolute what to doe, and also not unskillfull to carry
+affayres in fayrest forme,
+(HAYWARD-E2-P2,47.191)
+*~/
+/*
+46 WNP-2:  46 WNP-2, 48 what, 45 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Quene)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO$ whose) (NS deliberacions))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD depended)
+				  (NP-MSR (Q much))
+				  (PP (P upon)
+				      (NP (PRO+N herself))))))
+	  (, ,)
+	  (BED was)
+	  (ADJP (ADJP (CONJ neither)
+		      (ADJ ignorant)
+		      (CONJ nor)
+		      (ADJ irresolute)
+		      (CP-QUE (WNP-2 (WPRO what))
+			      (IP-INF (NP-OB1 *T*-2)
+				      (TO to)
+				      (DO doe))))
+		(, ,)
+		(CONJP (CONJ and)
+		       (ALSO also)
+		       (ADJP (NEG not)
+			     (ADJ unskillfull)
+			     (IP-INF (TO to)
+				     (VB carry)
+				     (NP-OB1 (NS affayres))
+				     (PP (P in)
+					 (NP (ADJS fayrest) (N forme)))))))
+	  (. ,))
+  (ID HAYWARD-E2-P2,47.191))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	2/2/195
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd
+*/
+
+/~*
+but how far to blame they were, and what hope there was of converting in the
+midst of so much hostility, at least falshood from thir first arrival, is not
+now easie to determin.
+(MILTON-E3-H,X,142.12)
+*~/
+/*
+34 WNP-2:  34 WNP-2, 40 *ICH*-4, 33 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (CP-QUE (CP-QUE (WNP-1 (WADJP (WADV how) (ADJ far)))
+				  (C 0)
+				  (IP-SUB (IP-INF (NP-MSR *T*-1)
+						  (TO to)
+						  (VB blame))
+					  (NP-SBJ (PRO they))
+					  (BED were)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-QUE (WNP-2 (WD what)
+						(N hope)
+						(PP *ICH*-4))
+					 (C 0)
+					 (IP-SUB (NP-3 *T*-2)
+						 (NP-SBJ-3 (EX there))
+						 (BED was)
+						 (PP-4 (P of)
+						       (IP-PPL (VAG converting)))
+						 (PP (P in)
+						     (NP (D the)
+							 (N midst)
+							 (PP (P of)
+							     (NP (QP (ADVR so) (Q much))
+								 (N hostility)
+								 (, ,)
+								 (NP-PRN (PP (P at)
+									     (QP (QS least)))
+									 (N falshood)
+									 (PP (P from)
+									     (NP (PRO$ thir) (ADJ first) (N arrival)))))))))))))
+	  (, ,)
+	  (BEP is)
+	  (NEG not)
+	  (ADVP-TMP (ADV now))
+	  (ADJP (ADJ easie)
+		(CP-TMC (WNP-5 0)
+			(IP-INF (NP-OB1 *T*-5)
+				(TO to)
+				(VB determin))))
+	  (. .))
+  (ID MILTON-E3-H,X,142.12))
+
+/~*
+Ethelbert the King, to whom Austin at his landing had sent a new and wondrous
+message, that he came from Rome to proffer Heav'n and eternal happiness in the
+knowledge of another God then the Saxons knew, appoints them to remain where
+they landed, and necessaries to be provided them, consulting in the mean time
+what was to be done.
+(MILTON-E3-H,X,143.21)
+*~/
+/*
+197 WNP-5:  197 WNP-5, 199 what, 196 CP-QUE
+*/
+
+( (IP-MAT-1 (NP-SBJ (CODE <font>)
+		    (NPR Ethelbert)
+		    (CODE <$$font>)
+		    (NP-PRN (D the) (N King))
+		    (, ,)
+		    (CP-REL (WPP-2 (P to)
+				   (WNP (WPRO whom)))
+			    (C 0)
+			    (IP-SUB (PP *T*-2)
+				    (NP-SBJ (CODE <font>) (NPR Austin) (CODE <$$font>))
+				    (PP (P at)
+					(NP (PRO$ his) (N landing)))
+				    (HVD had)
+				    (VBN sent)
+				    (NP-OB1 (D a)
+					    (ADJP (ADJ new) (CONJ and) (ADJ wondrous))
+					    (N message)
+					    (, ,)
+					    (CP-THT-PRN (C that)
+							(IP-SUB (NP-SBJ (PRO he))
+								(VBD came)
+								(PP (P from)
+								    (NP (CODE <font>) (NPR Rome) (CODE <$$font>)))
+								(IP-INF-PRP (TO to)
+									    (VB proffer)
+									    (NP-OB1 (NP (NPR Heav'n))
+										    (CONJP (CONJ and)
+											   (NP (ADJ eternal) (N happiness))))
+									    (PP (P in)
+										(NP (D the)
+										    (N knowledge)
+										    (PP (P of)
+											(NP (D+OTHER another)
+											    (N God)
+											    (PP (P then)
+												(CP-CMP (WNP-3 0)
+													(C 0)
+													(IP-SUB (NP-OB1 *T*-3)
+														(NP-SBJ (D the) (CODE <font>) (NPRS Saxons) (CODE <$$font>))
+														(VBD knew)))))))))))))))
+	    (, ,)
+	    (VBP appoints)
+	    (NP-OB1 (PRO them))
+	    (IP-INF (IP-INF (TO to)
+			    (VB remain)
+			    (ADVP-LOC (CP-FRL (WADVP-4 (WADV where))
+					      (C 0)
+					      (IP-SUB (ADVP-LOC *T*-4)
+						      (NP-SBJ (PRO they))
+						      (VBD landed)))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (IP-INF (NP-SBJ (NS necessaries))
+				   (TO to)
+				   (BE be)
+				   (VAN provided)
+				   (NP-OB2 (PRO them)))))
+	    (, ,)
+	    (IP-PPL (VAG consulting)
+		    (PP (P in)
+			(NP (D the) (ADJ mean) (N time)))
+		    (CP-QUE (WNP-5 (WPRO what))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-5)
+				    (BED was)
+				    (IP-INF (TO to) (BE be) (DAN done)))))
+	    (. .))
+  (ID MILTON-E3-H,X,143.21))
+
+/~*
+Edmund dead, Canute meaning to reign sole King of England, calls to him all
+the Dukes, Barons, and Bishops of the Land, cunningly demanding of them who
+were witnesses what agreement was made between him and Edmund dividing the
+Kingdome, whether the Sons and Brothers of Edmund were to govern the
+West-Saxons after him, Canute living?
+(MILTON-E3-H,X,274.136)
+*~/
+/*
+113 WNP-2:  113 WNP-2, 117 agreement, 112 CP-QUE
+*/
+
+( (IP-MAT (CODE <font>)
+	  (IP-ABS (NP-SBJ (NPR Edmund))
+		  (CODE <$$font>)
+		  (ADJP (ADJ dead)))
+	  (, ,)
+	  (CODE <font>)
+	  (NP-SBJ (NPR Canute) (CODE <$$font>))
+	  (IP-PPL (VAG meaning)
+		  (IP-INF (TO to)
+			  (VB reign)
+			  (NP-SPR (ADJ sole)
+				  (N King)
+				  (PP (P of)
+				      (CODE <font>)
+				      (NP (NPR England))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (VBP calls)
+	  (PP (P to)
+	      (NP (PRO him)))
+	  (NP-OB1 (Q all)
+		  (D the)
+		  (NS Dukes)
+		  (, ,)
+		  (CONJP (NX (NS Barons)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NX (NS Bishops)
+			     (PP (P of)
+				 (NP (D the) (N Land))))))
+	  (, ,)
+	  (IP-PPL (ADVP (ADV cunningly))
+		  (VAG demanding)
+		  (PP (P of)
+		      (NP (PRO them)
+			  (CP-REL (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BED were)
+					  (NP-OB1 (NS witnesses)
+						  (CP-QUE (WNP-2 (WD what) (N agreement))
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-2)
+								  (BED was)
+								  (VAN made)
+								  (PP (P between)
+								      (NP (PRO him)
+									  (CONJ and)
+									  (CODE <font>)
+									  (NPR Edmund)
+									  (CODE <$$font>)
+									  (RRC (VAG dividing)
+									       (NP-OB1 (D the) (N Kingdome))))))))))))
+		  (, ,)
+		  (CP-QUE (WQ whether)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (D the)
+					  (NS Sons)
+					  (CONJP (CONJ and)
+						 (NX (NS Brothers)))
+					  (PP (P of)
+					      (NP (CODE <font>) (NPR Edmund) (CODE <$$font>))))
+				  (BED were)
+				  (IP-INF (TO to)
+					  (VB govern)
+					  (NP-OB1 (D the) (CODE <font>) (N+NPRS West-Saxons) (CODE <$$font>))
+					  (PP (P after)
+					      (NP (PRO him)))
+					  (, ,)
+					  (IP-PPL-ABS (NP-SBJ (CODE <font>) (NPR Canute) (CODE <$$font>))
+						      (VAG living))))))
+	  (. ?))
+  (ID MILTON-E3-H,X,274.136))
+
+/~*
+For the like reason he is thought to have married Emma, and that Richard Duke
+of Normandy her Brother might the less care what became of Elfred and Edward,
+her Sons by King Ethelred.
+(MILTON-E3-H,X,280.189)
+*~/
+/*
+83 WNP-2:  83 WNP-2, 85 what, 82 CP-QUE
+*/
+
+( (IP-MAT (PP (PP (P For)
+		  (NP (D the) (ADJ like) (N reason)))
+	      (CONJP *ICH*-1))
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (VAN thought)
+	  (IP-INF (TO to)
+		  (HV have)
+		  (VBN married)
+		  (CODE <P_X,280>)
+		  (CODE <font>)
+		  (NP-OB1 (NPR Emma)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CONJP-1 (CONJ and)
+		   (CP-ADV (C that)
+			   (CODE <font>)
+			   (IP-SUB (NP-SBJ (NPR Richard)
+					   (CODE <$$font>)
+					   (NP-PRN (N Duke)
+						   (PP (P of)
+						       (CODE <font>)
+						       (NP (NPR Normandy))))
+					   (CODE <$$font>)
+					   (NP-PRN (PRO$ her) (N Brother)))
+				   (MD might)
+				   (NP-MSR (QP (D the) (QR less)))
+				   (VB care)
+				   (CP-QUE (WNP-2 (WPRO what))
+					   (C 0)
+					   (IP-SUB (NP-SBJ *T*-2)
+						   (VBD became)
+						   (PP (P of)
+						       (CODE <font>)
+						       (NP (NPR Elfred)
+							   (CODE <$$font>)
+							   (CONJ and)
+							   (CODE <font>)
+							   (NPR Edward)
+							   (CODE <$$font>)
+							   (, ,)
+							   (NP-PRN (PRO$ her)
+								   (NS Sons)
+								   (PP (P by)
+								       (NP (NPR King) (CODE <font>) (NPR Ethelred) (CODE <$$font>)))))))))))
+	  (. .))
+  (ID MILTON-E3-H,X,280.189))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	4/4/207
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd
+*/
+
+/~*
+and laying his right hand on the head of the King, ask'd him if he rememberd
+what that sign meant;
+(MILTON-E3-P1,X,155.49)
+*~/
+/*
+51 WNP-1:  51 WNP-1, 53 what, 50 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (IP-PPL (VAG laying)
+		  (NP-OB1 (PRO$ his) (ADJ right) (N hand))
+		  (PP (P on)
+		      (NP (D the)
+			  (N head)
+			  (PP (P of)
+			      (NP (D the) (N King))))))
+	  (, ,)
+	  (VBD ask'd)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WQ if)
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (VBD rememberd)
+			  (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (D that) (N sign))
+					  (VBD meant)))))
+	  (. ;))
+  (ID MILTON-E3-P1,X,155.49))
+
+/~*
+Edwin not a little misdoubting who he might be, ask'd him again, what his
+sitting within dores, or without, concern'd him to know?
+(MILTON-E3-P1,X,156.59)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 who, 20 CP-QUE
+49 WNP-2:  49 WNP-2, 51 what, 48 CP-QUE
+*/
+
+( (IP-MAT (CODE <font>)
+	  (NP-SBJ (NPR Edwin))
+	  (CODE <$$font>)
+	  (IP-PPL (NP-MSR (NP-MSR (NEG not) (D a) (ADJ little))
+			  (VAG misdoubting)
+			  (CP-QUE (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (MD might)
+					  (BE be)))))
+	  (, ,)
+	  (VBD ask'd)
+	  (NP-OB2 (PRO him))
+	  (ADVP (ADV again))
+	  (, ,)
+	  (CP-QUE (WNP-2 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO$ his)
+				  (IP-PPL (VAG sitting)
+					  (PP (PP (P within)
+						  (NP (NS dores)))
+					      (, ,)
+					      (CONJP (CONJ or)
+						     (PP (P without))))))
+			  (, ,)
+			  (VBD concern'd)
+			  (NP-OB2 (PRO him))
+			  (IP-INF (NP-OB1 *T*-2)
+				  (TO to)
+				  (VB know))))
+	  (. ?))
+  (ID MILTON-E3-P1,X,156.59))
+
+/~*
+and with these words disappeering, left Edwin much reviv'd, but not less
+fill'd with wonder, who this unknown should be. When suddenly the friend who
+had bin gon all this while to list'n furder what was like to be decree'd of
+Edwin, comes back and joyfully bids him rise to his repose, for that the Kings
+mind, though for a while drawn aside, was now fully resolv'd not only not to
+betray him, but to defend him against all Enemies, as he had promis'd.
+(MILTON-E3-P1,X,157.69)
+*~/
+/*
+58 WNP-2:  58 WNP-2, 60 who, 57 CP-QUE
+126 WNP-4:  126 WNP-4, 128 what, 125 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ and)
+		    (NP-SBJ *con*)
+		    (IP-PPL (PP (P with)
+				(NP (D these) (NS words)))
+			    (VAG disappeering))
+		    (, ,)
+		    (VBD left)
+		    (CODE <font>)
+		    (NP-OB1 (NPR Edwin))
+		    (CODE <$$font>)
+		    (ADJP (NP-MSR (Q much))
+			  (VAN reviv'd)))
+	  (, ,)
+	  (CONJP (CONJ but)
+		 (IP-MAT=1 (NP-MSR (QP (NEG not) (QR less)))
+			   (VAN fill'd)
+			   (PP (P with)
+			       (NP (N wonder)
+				   (, ,)
+				   (CP-QUE (WNP-2 (WPRO who))
+					   (C 0)
+					   (IP-SUB (NP-OB1 *T*-2)
+						   (NP-SBJ (D this) (N unknown))
+						   (MD should)
+						   (BE be)))))))
+	  (, .)
+	  (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (ADVP-TMP (ADV suddenly))
+				      (NP-SBJ (D the)
+					      (N friend)
+					      (CP-REL (WNP-3 (WPRO who))
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-3)
+							      (HVD had)
+							      (CODE <P_X,157>)
+							      (BEN bin)
+							      (VAN gon)
+							      (NP-MSR (Q all) (D this) (N while))
+							      (IP-INF-PRP (TO to)
+									  (VB list'n)
+									  (NP-MSR (ADJR furder))
+									  (CP-QUE (WNP-4 (WPRO what))
+										  (C 0)
+										  (IP-SUB (NP-SBJ *T*-4)
+											  (BED was)
+											  (ADJP (ADJ like)
+												(IP-INF (TO to)
+													(BE be)
+													(VAN decree'd)
+													(PP (P of)
+													    (CODE <font>)
+													    (NP (NPR Edwin)))))))))))
+				      (CODE <$$font>)
+				      (, ,)
+				      (VBP comes)
+				      (ADVP-DIR (ADV back)))
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (ADVP (ADV joyfully))
+					     (VBP bids)
+					     (IP-INF (NP-SBJ (PRO him))
+						     (VB rise)
+						     (PP (P to)
+							 (NP (PRO$ his) (N repose))))
+					     (, ,)
+					     (PP (P for)
+						 (CP-ADV (C that)
+							 (IP-SUB (NP-SBJ (NP-POS (D the) (N$ Kings))
+									 (N mind))
+								 (, ,)
+								 (PP (P though)
+								     (IP-PPL (PP (P for)
+										 (NP (D a) (N while)))
+									     (VAN drawn)
+									     (PP (P+N aside))))
+								 (, ,)
+								 (BED was)
+								 (ADVP-TMP (ADV now))
+								 (ADVP (ADV fully))
+								 (VAN resolv'd)
+								 (IP-INF (IP-INF (NEG not)
+										 (FP only)
+										 (NEG not)
+										 (TO to)
+										 (VB betray)
+										 (NP-OB1 (PRO him)))
+									 (, ,)
+									 (CONJP (CONJ but)
+										(IP-INF (TO to)
+											(VB defend)
+											(NP-OB1 (PRO him))
+											(PP (P against)
+											    (NP (Q all) (NS Enemies)))
+											(, ,)
+											(PP (P as)
+											    (CP-ADV (WNP-5 0)
+												    (C 0)
+												    (IP-SUB (NP-OB1 *T*-5)
+													    (NP-SBJ (PRO he))
+													    (HVD had)
+													    (VBN promis'd)))))))))))))))
+	  (. .))
+  (ID MILTON-E3-P1,X,157.69))
+
+/~*
+They therfore being ask'd in Counsel what thir opinion was concerning this new
+Doctrine, and well perceaving which way the King enclin'd, every one
+thereafter shap'd his reply.
+(MILTON-E3-P1,X,157.73)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 what, 20 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL-ABS (IP-PPL (NP-SBJ (PRO They))
+			      (PP (ADV+P therfore))
+			      (BAG being)
+			      (VAN ask'd)
+			      (PP (P in)
+				  (NP (N Counsel)))
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO$ thir)
+						      (N opinion)
+						      (RRC *ICH*-2))
+					      (BED was)
+					      (RRC-2 (VAG concerning)
+						     (NP-OB1 (D this) (ADJ new) (N Doctrine))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (ADVP (ADV well))
+				     (VAG perceaving)
+				     (NP-OB1 (CP-FRL (WNP-3 (WD which) (N way))
+						     (C 0)
+						     (IP-SUB (NP-DIR *T*-3)
+							     (NP-SBJ (D the) (N King))
+							     (VBD enclin'd)))))))
+	  (, ,)
+	  (NP-SBJ (Q every) (ONE one))
+	  (PP (ADV+P thereafter))
+	  (VBD shap'd)
+	  (NP-OB1 (PRO$ his) (N reply))
+	  (. .))
+  (ID MILTON-E3-P1,X,157.73))
+
+/~*
+But Sigebert some years after, though standing fast in Religion, was by the
+Conspiracy of two Brethren in place neer about him, wickedly murder'd; who
+being ask'd what mov'd them to do a deed so hainous, gave no other then this
+barbarous answer; that they were angry with him for being so gentle to his
+Enemies, as to forgive them thir injuries whenever they besought him.
+(MILTON-E3-P1,X,166.156)
+*~/
+/*
+97 WNP-3:  97 WNP-3, 99 what, 96 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (CODE <font>)
+	  (NP-SBJ (NPR Sigebert))
+	  (CODE <$$font>)
+	  (ADVP-TMP (NP-MSR (Q some) (NS years))
+		    (ADV after))
+	  (, ,)
+	  (PP (P though)
+	      (IP-PPL (VAG standing)
+		      (ADJP-SPR (ADJ fast)
+				(PP (P in)
+				    (NP (N Religion))))))
+	  (, ,)
+	  (BED was)
+	  (PP (P by)
+	      (NP (D the)
+		  (N Conspiracy)
+		  (PP (P of)
+		      (NP (NUM two)
+			  (NS Brethren)
+			  (PP (P in)
+			      (NP (N place)
+				  (ADJP-LOC (ADJ neer)
+					    (PP (P about)
+						(NP (PRO him))))))
+			  (CP-REL *ICH*-1)))))
+	  (, ,)
+	  (ADVP (ADV wickedly))
+	  (VAN murder'd)
+	  (, ;)
+	  (CP-REL-1 (WNP-2 (WPRO who))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (IP-PPL (BAG being)
+				    (VAN ask'd)
+				    (CP-QUE (WNP-3 (WPRO what))
+					    (C 0)
+					    (IP-SUB (NP-SBJ *T*-3)
+						    (VBD mov'd)
+						    (CODE <P_X,166>)
+						    (NP-OB1 (PRO them))
+						    (IP-INF (TO to)
+							    (DO do)
+							    (NP-OB1 (D a)
+								    (N deed)
+								    (ADJP (ADVR so) (ADJ hainous)))))))
+			    (, ,)
+			    (VBD gave)
+			    (NP-OB1 (Q no)
+				    (OTHER other)
+				    (PP (P then)
+					(NP (D this)
+					    (ADJ barbarous)
+					    (N answer)
+					    (, ;)
+					    (CP-THT-PRN (C that)
+							(IP-SUB (NP-SBJ (PRO they))
+								(BED were)
+								(ADJP (ADJ angry)
+								      (PP (P with)
+									  (NP (PRO him)))
+								      (PP (P for)
+									  (IP-PPL (BAG being)
+										  (ADJP (ADVR so)
+											(ADJ gentle)
+											(PP (P to)
+											    (NP (PRO$ his) (NS Enemies)))
+											(, ,)
+											(PP (P as)
+											    (IP-INF (TO to)
+												    (VB forgive)
+												    (NP-OB2 (PRO them))
+												    (NP-OB1 (PRO$ thir) (NS injuries))
+												    (PP (P+ADV whenever)
+													(CP-ADV (C 0)
+														(IP-SUB (NP-SBJ (PRO they))
+															(VBD besought)
+															(NP-OB2 (PRO him))))))))))))))))))
+	  (. .))
+  (ID MILTON-E3-P1,X,166.156))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	7/5/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd
+*/
+
+/~*
+This travail rather then not know at once what may be known of our antient
+story, sifted from Fables and impertinences, I voluntarily undergo; and to
+save others, if they please the like unpleasing labour; except those who take
+pleasure to be all thir life time, rakeing in the Foundations of old Abbies
+and Cathedrals;
+(MILTON-E3-P2,X,180.75)
+*~/
+/*
+27 WNP-1:  27 WNP-1, 29 what, 26 CP-QUE
+*/
+
+( (IP-MAT (NP-OB1 (D This) (N travail))
+	  (ADVP (ADVR rather)
+		(PP (P then)
+		    (IP-INF (NEG not)
+			    (TO *)
+			    (VB know)
+			    (PP (P at)
+				(ADVP (ADV once)))
+			    (CP-QUE (WNP-1 (WPRO what))
+				    (C 0)
+				    (IP-SUB (NP-SBJ *T*-1)
+					    (MD may)
+					    (BE be)
+					    (VAN known)
+					    (PP (P of)
+						(NP (PRO$ our)
+						    (ADJ antient)
+						    (N story)
+						    (, ,)
+						    (RRC (VAN sifted)
+							 (PP (P from)
+							     (NP (NS Fables) (CONJ and) (NS impertinences)))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (ADVP (ADVP (ADV voluntarily))
+		(CONJP *ICH*-2))
+	  (VBP undergo)
+	  (, ;)
+	  (CONJP-2 (CONJ and)
+		   (IP-INF-PRP (TO to)
+			       (VB save)
+			       (NP-OB2 (OTHERS others)
+				       (PP *ICH*-3))
+			       (, ,)
+			       (PP-PRN (P if)
+				       (CP-ADV (C 0)
+					       (IP-SUB (NP-SBJ (PRO they))
+						       (VBP please))))
+			       (NP-OB1 (D the) (ADJ like) (ADJ unpleasing) (N labour))
+			       (, ;)
+			       (PP-3 (P except)
+				     (NP (D those)
+					 (CP-REL (WNP-4 (WPRO who))
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-4)
+							 (VBP take)
+							 (NP-OB1 (N pleasure)
+								 (IP-INF (TO to)
+									 (BE be)
+									 (NP-MSR (Q all) (PRO$ thir) (N life) (N time))
+									 (, ,)
+									 (VAG rakeing)
+									 (PP (P in)
+									     (NP (D the)
+										 (NS Foundations)
+										 (PP (P of)
+										     (NP (ADJ old)
+											 (NS Abbies)
+											 (CONJP (CONJ and)
+												(NX (NS Cathedrals)))))))))))))))
+	  (. ;))
+  (ID MILTON-E3-P2,X,180.75))
+
+/~*
+what would it be to have inserted the long Bead-roll of Archbishops, Bishops,
+Abbots, Abbesses, and thir doeings, neither to Religion profitable, nor to
+morality, swelling my Authors each to a voluminous body, by me studiously
+omitted; and left as their propriety, who have a mind to write the
+Ecclesiastical matters of those Ages;
+(MILTON-E3-P2,X,185.131)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD would)
+		  (NP-SBJ-2 (PRO it))
+		  (BE be)
+		  (IP-INF-2 (TO to)
+			    (HV have)
+			    (VBN inserted)
+			    (NP-OB1 (D the)
+				    (ADJ long)
+				    (N+N Bead-roll)
+				    (PP (P of)
+					(NP (NP (NS Archbishops) (, ,) (NS Bishops) (, ,) (NS Abbots) (, ,) (NS Abbesses))
+					    (, ,)
+					    (CONJP (CONJ and)
+						   (NP (PRO$ thir)
+						       (NS doeings)
+						       (, ,)
+						       (ADJP (CONJ neither)
+							     (PP (PP (P to)
+								     (NP (N Religion)))
+								 (CONJP *ICH*-3))
+							     (ADJ profitable)
+							     (, ,)
+							     (CONJP-3 (CONJ nor)
+								      (PP (P to)
+									  (NP (N morality))))))))))))
+	  (, ,)
+	  (IP-PPL (VAG swelling)
+		  (NP-OB1 (PRO$ my) (NS Authors))
+		  (Q each)
+		  (PP (P to)
+		      (NP (D a) (ADJ voluminous) (N body))))
+	  (, ,)
+	  (IP-PPL (IP-PPL (PP (P by)
+			      (NP (PRO me)))
+			  (ADVP (ADV studiously))
+			  (VAN omitted))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (IP-PPL (VAN left)
+				 (PP (P as)
+				     (NP (PRO$ their)
+					 (N propriety)
+					 (, ,)
+					 (CP-REL (WNP-4 (WPRO who))
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-4)
+							 (HVP have)
+							 (NP-OB1 (D a)
+								 (N mind)
+								 (IP-INF (TO to)
+									 (VB write)
+									 (NP-OB1 (D the)
+										 (ADJ Ecclesiastical)
+										 (NS matters)
+										 (PP (P of)
+										     (NP (D those) (NS Ages)))))))))))))
+	  (. ;))
+  (ID MILTON-E3-P2,X,185.131))
+
+/~*
+what became of him, Malmsbury leaves in doubt.
+(MILTON-E3-P2,X,190.185)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 5 what, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD became)
+			  (PP (P of)
+			      (NP (PRO him)))))
+	  (, ,)
+	  (NP-SBJ (CODE <font>) (NPR Malmsbury) (CODE <$$font>))
+	  (VBP leaves)
+	  (PP (P in)
+	      (NP (N doubt)))
+	  (. .))
+  (ID MILTON-E3-P2,X,190.185))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	3/3/225
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd
+*/
+
+/~*
+he determined vppon the suretie of his own conscience, to goe boldelye to them,
+and inquire what thys matter myghte meane. Whome as soone as they sawe, they
+beganne to quarell with hym, and saye, that hee intended to sette distaunce
+beetwene the Kynge and them, and to brynge them to confusion,
+(MORERIC-E1-H,18.21)
+*~/
+/*
+53 WNP-1:  53 WNP-1, 55 what, 52 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO he))
+	  (VBD determined)
+	  (PP (P vppon)
+	      (NP (D the)
+		  (N suretie)
+		  (PP (P of)
+		      (NP (PRO$ his) (ADJ own) (N conscience)))))
+	  (, ,)
+	  (IP-INF (IP-INF (TO to)
+			  (VB goe)
+			  (ADVP (ADV boldelye))
+			  (PP (P to)
+			      (NP (PRO them))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO *)
+				 (VB inquire)
+				 (CP-QUE (WNP-1 (WPRO what))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-1)
+						 (NP-SBJ (D thys) (N matter))
+						 (MD myghte)
+						 (VB meane))))))
+	  (, .)
+	  (CP-CAR (WNP-2 (WPRO Whome))
+		  (C 0)
+		  (IP-SUB (ADVP-TMP (ADVR as)
+				    (ADV soone)
+				    (PP (P as)
+					(CP-CMP (WADVP-3 0)
+						(C 0)
+						(IP-SUB (NP-OB1 *T*-2)
+							(ADVP-TMP *T*-3)
+							(NP-SBJ (PRO they))
+							(VBD sawe)))))
+			  (, ,)
+			  (NP-SBJ (PRO they))
+			  (VBD beganne)
+			  (IP-INF (IP-INF (TO to)
+					  (VB quarell)
+					  (PP (P with)
+					      (NP=2 (PRO hym))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-INF (TO *)
+						 (VB saye)
+						 (, ,)
+						 (CP-THT (C that)
+							 (IP-SUB (NP-SBJ (PRO hee))
+								 (VBD intended)
+								 (IP-INF (IP-INF (TO to)
+										 (VB sette)
+										 (NP-OB1 (N distaunce)
+											 (PP (P beetwene)
+											     (NP (NP (D the) (N Kynge))
+												 (CONJP (CONJ and)
+													(NP (PRO them)))))))
+									 (, ,)
+									 (CONJP (CONJ and)
+										(IP-INF (TO to)
+											(VB brynge)
+											(NP-OB1 (PRO them))
+											(PP (P to)
+											    (NP (N confusion)))))))))))))
+	  (. ,))
+  (ID MORERIC-E1-H,18.21))
+
+/~*
+For what wise merchaunt aduentureth all his good in one ship?
+(MORERIC-E1-H,41.52)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 merchaunt, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WD what) (ADJ wise) (N merchaunt))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP aduentureth)
+		  (NP-OB1 (Q all) (PRO$ his) (N good))
+		  (PP (P in)
+		      (NP (ONE one) (N ship))))
+	  (. ?))
+  (ID MORERIC-E1-H,41.52))
+
+/~*
+and so sat him downe, in hys place: al the lordes much dismaied & sore
+merueiling of this maner of sodain chaunge, and what thing should him aile.
+(MORERIC-E1-H,47.90)
+*~/
+/*
+76 WNP-1:  76 WNP-1, 80 thing, 75 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (ADVP (ADV so))
+	  (VBD sat)
+	  (NP-OB1 (PRO him))
+	  (RP downe)
+	  (, ,)
+	  (PP (P in)
+	      (NP (PRO$ hys) (N place)))
+	  (, :)
+	  (IP-ABS (IP-ABS (NP-SBJ (Q al) (D the) (NS lordes))
+			  (NP-MSR (Q much))
+			  (VAN dismaied))
+		  (CONJP (CONJ &)
+			 (IP-PPL (NP-SBJ *con*)
+				 (ADVP (ADV sore))
+				 (VAG merueiling)
+				 (PP (P of)
+				     (NP (NP (D this)
+					     (N maner)
+					     (PP (P of)
+						 (NP (ADJ sodain) (N chaunge))))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(CP-QUE (WNP-1 (WD what) (N thing))
+							(C 0)
+							(IP-SUB (NP-SBJ *T*-1)
+								(MD should)
+								(NP-OB1 (PRO him))
+								(VB aile)))))))))
+	  (. .))
+  (ID MORERIC-E1-H,47.90))
+
+/~*
+what were they worthy to haue, that compasse & ymagine the distruccion of me,
+being so nere of blood vnto y=e= king and protectour of his riall person & his
+realme.
+(MORERIC-E1-H,47.92)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (BED were)
+		  (NP-SBJ (PRO they)
+			  (CP-REL *ICH*-2))
+		  (ADJP (ADJ worthy)
+			(IP-INF (NP-OB1 *T*-1)
+				(TO to)
+				(HV haue)))
+		  (, ,)
+		  (CP-REL-2 (WNP-3 0)
+			    (C that)
+			    (IP-SUB (NP-SBJ *T*-3)
+				    (VBP (VBP compasse) (CONJ &) (VBP ymagine))
+				    (NP-OB1 (D the)
+					    (N distruccion)
+					    (PP (P of)
+						(NP (PRO me)))))
+			    (, ,)
+			    (IP-PPL (BAG being)
+				    (ADJP-LOC (ADJP (ADVR so)
+						    (ADJ nere)
+						    (PP (P of)
+							(NP (N blood)
+							    (PP (P vnto)
+								(NP (D y=e=) (N king))))))
+					      (CONJP (CONJ and)
+						     (NP (N protectour)
+							 (PP (P of)
+							     (NP (NP (PRO$ his) (ADJ riall) (N person))
+								 (CONJP (CONJ &)
+									(NP (PRO$ his) (N realme)))))))))))
+	  (. .))
+  (ID MORERIC-E1-H,47.92))
+
+/~*
+And finally in many weighty sutes, she stode many men in gret stede, either
+for none, or very smal rewardes, & those rather gay then rich: either for that
+she was content w=t= the dede selfe well done, or for y=t= she delited to be
+suid vnto, & to show what she was able to do wyth the king, or for y=t= wanton
+women and welthy be not alway couetouse.
+(MORERIC-E1-H,56.138)
+*~/
+/*
+163 WNP-3:  163 WNP-3, 165 what, 162 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV finally))
+	  (PP (P in)
+	      (NP (Q many) (ADJ weighty) (NS sutes)))
+	  (, ,)
+	  (NP-SBJ (PRO she))
+	  (VBD stode)
+	  (NP-OB2 (Q many) (NS men))
+	  (PP (P in)
+	      (NP (ADJ gret) (N stede)))
+	  (, ,)
+	  (CONJ-1 either)
+	  (PP (P for)
+	      (NP (QP (CONJ *ICH*-1)
+		      (QP (Q none))
+		      (, ,)
+		      (CONJP (CONJ or)
+			     (ADJP (ADV very) (ADJ smal))))
+		  (NS rewardes)))
+	  (, ,)
+	  (IP-ABS (CONJ &)
+		  (NP-SBJ (D those))
+		  (ADVP (ADVR rather)
+			(PP *ICH*-2))
+		  (ADJP (ADJ gay))
+		  (PP-2 (P then)
+			(NP (ADJ rich))))
+	  (, :)
+	  (PP (CONJ either)
+	      (PP (P for)
+		  (CP-ADV (C that)
+			  (IP-SUB (NP-SBJ (PRO she))
+				  (BED was)
+				  (ADJP (ADJ content)
+					(PP (P w=t=)
+					    (NP (D the)
+						(N dede)
+						(NP-PRN (N selfe))
+						(RRC (ADVP (ADV well))
+						     (DAN done))))))))
+	      (, ,)
+	      (CONJP (CONJ or)
+		     (PP (P for)
+			 (CP-ADV (C y=t=)
+				 (IP-SUB (NP-SBJ (PRO she))
+					 (VBD delited)
+					 (IP-INF (IP-INF (TO to)
+							 (BE be)
+							 (VAN suid)
+							 (PP (P vnto)
+							     (NP *)))
+						 (, ,)
+						 (CONJP (CONJ &)
+							(IP-INF (TO to)
+								(VB show)
+								(CP-QUE (WNP-3 (WPRO what))
+									(C 0)
+									(IP-SUB (NP-SBJ (PRO she))
+										(BED was)
+										(ADJP (ADJ able)
+										      (IP-INF (NP-OB1 *T*-3)
+											      (TO to)
+											      (DO do)
+											      (PP (P wyth)
+												  (NP (D the) (N king))))))))))))))
+	      (, ,)
+	      (CONJP (CONJ or)
+		     (PP (P for)
+			 (CP-ADV (C y=t=)
+				 (IP-SUB (NP-SBJ (ADJP (ADJ wanton)
+						       (CONJP *ICH*-4))
+						 (NS women)
+						 (CONJP-4 (CONJ and) (ADJ welthy)))
+					 (BEP be)
+					 (NEG not)
+					 (ADVP-TMP (ADV alway))
+					 (ADJP (ADJ couetouse)))))))
+	  (. .))
+  (ID MORERIC-E1-H,56.138))
+
+/~*
+then the Duke when he had shewed this vnto the maire and other, that they
+mighte thereby see howe lytle the protectour loked for this matter, thei sent
+vnto him by the messenger suche louyng message againe, and therewith so
+humblye besought hym to vouchesafe that thei might resort to hys presence, to
+purpose their intent, of which they would vnto none other parson any part
+disclose, that at the laste hee came foorth of his chamber, and yet not down
+vnto them, but stode aboue in a galarye ouer them, where they mighte see hym &
+speake to him, as though he woulde not yet come to nere them tyll he wist what
+they mente.
+(MORERIC-E1-H,77.150)
+*~/
+/*
+370 WNP-8:  370 WNP-8, 372 what, 369 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV then))
+	  (NP-LFD (D the) (N Duke))
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-RSP (PRO he))
+			      (HVD had)
+			      (VBN shewed)
+			      (NP-OB1 (D this))
+			      (PP (P vnto)
+				  (NP (NP (D the) (N maire))
+				      (CONJP (CONJ and)
+					     (NP (OTHERS other)))))
+			      (, ,)
+			      (CP-ADV (C that)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (MD mighte)
+					      (PP (ADV+P thereby))
+					      (VB see)
+					      (CP-QUE (WNP-1 (WQP (WADV howe) (Q lytle)))
+						      (C 0)
+						      (IP-SUB (NP-MSR *T*-1)
+							      (NP-SBJ (D the) (N protectour))
+							      (VBD loked)
+							      (PP (P for)
+								  (NP (D this) (N matter))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO thei))
+	  (VBD sent)
+	  (PP (P vnto)
+	      (NP-RSP (PRO him)))
+	  (PP (P by)
+	      (NP (D the) (N messenger)))
+	  (NP-OB1 (ADJP (SUCH suche)
+			(CP-DEG *ICH*-3))
+		  (VAG louyng)
+		  (N message))
+	  (ADVP (ADV againe))
+	  (, ,)
+	  (IP-MAT-PRN (CONJ and)
+		      (NP-SBJ *con*)
+		      (PP (ADV+P therewith))
+		      (ADVP (ADVR so)
+			    (ADV humblye)
+			    (CP-DEG *ICH*-3))
+		      (VBD besought)
+		      (NP-OB2 (PRO hym))
+		      (IP-INF (TO to)
+			      (VB vouchesafe)
+			      (CP-THT (C that)
+				      (IP-SUB (NP-SBJ (PRO thei))
+					      (MD might)
+					      (VB resort)
+					      (PP (P to)
+						  (NP (PRO$ hys) (N presence)))
+					      (, ,)
+					      (IP-INF-PRP (TO to)
+							  (VB purpose)
+							  (NP-OB1 (PRO$ their)
+								  (N intent)
+								  (, ,)
+								  (CP-REL (WPP-2 (P of)
+										 (WNP (WPRO which)))
+									  (C 0)
+									  (IP-SUB (NP-SBJ (PRO they))
+										  (MD would)
+										  (PP (P vnto)
+										      (NP (Q none) (OTHER other) (N parson)))
+										  (NP-OB1 (Q any)
+											  (N part)
+											  (PP *T*-2))
+										  (VB disclose)))))))))
+	  (, ,)
+	  (CP-DEG-3 (C that)
+		    (IP-SUB (IP-SUB-4 (PP (P at)
+					  (NP (D the) (ADJ laste)))
+				      (NP-SBJ (PRO hee))
+				      (VBD came)
+				      (ADVP-DIR (ADV foorth))
+				      (PP (P of)
+					  (NP (PRO$ his) (N chamber)))
+				      (, ,)
+				      (IP-SUB-PRN=4 (CONJ and)
+						    (ADVP (ADV yet))
+						    (NEG not)
+						    (PP (RP down)
+							(P vnto)
+							(NP (PRO them)))))
+			    (, ,)
+			    (CONJP (CONJ but)
+				   (IP-SUB (NP-SBJ *con*)
+					   (VBD stode)
+					   (ADVP-LOC (ADV aboue))
+					   (PP (P in)
+					       (NP (D a)
+						   (N galarye)
+						   (CP-REL *ICH*-5)))
+					   (PP (P ouer)
+					       (NP (PRO them)))
+					   (, ,)
+					   (CP-REL-5 (WADVP-6 (WADV where))
+						     (C 0)
+						     (IP-SUB (IP-SUB-7 (ADVP-LOC *T*-6)
+								       (NP-SBJ (PRO they))
+								       (MD mighte)
+								       (VB see)
+								       (NP-OB1 (PRO hym)))
+							     (CONJP (CONJ &)
+								    (IP-SUB=7 (VB speake)
+									      (PP (P to)
+										  (NP (PRO him)))))))
+					   (, ,)
+					   (PP (P as)
+					       (PP (P though)
+						   (CP-ADV (C 0)
+							   (IP-SUB (NP-SBJ (PRO he))
+								   (MD woulde)
+								   (NEG not)
+								   (ADVP-TMP (ADV yet))
+								   (VB come)
+								   (ADJP-LOC (ADVR to)
+									     (ADJ nere)
+									     (NP (PRO them)))
+								   (PP (P tyll)
+								       (CP-ADV (C 0)
+									       (IP-SUB (NP-SBJ (PRO he))
+										       (VBD wist)
+										       (CP-QUE (WNP-8 (WPRO what))
+											       (C 0)
+											       (IP-SUB (NP-OB1 *T*-8)
+												       (NP-SBJ (PRO they))
+												       (VBD mente))))))))))))))
+	  (. .))
+  (ID MORERIC-E1-H,77.150))
+
+/~*
+Then the protector as hee was very gentle of hymselfe, and also longed sore to
+wit what they mente, gaue hym leaue to purpose what hym lyked, verely trustyng
+for the good minde that he bare them al, none of them ani thing would intende
+vnto hym warde, where with he ought to be greued.
+(MORERIC-E1-H,78.152)
+*~/
+/*
+55 WNP-1:  55 WNP-1, 57 what, 54 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (D the) (N protector))
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO hee))
+				      (BED was)
+				      (ADJP (ADV very)
+					    (ADJ gentle)
+					    (PP (P of)
+						(NP (PRO+N hymselfe)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (ALSO also)
+					     (VBD longed)
+					     (ADVP (ADV sore))
+					     (IP-INF (TO to)
+						     (VB wit)
+						     (CP-QUE (WNP-1 (WPRO what))
+							     (C 0)
+							     (IP-SUB (NP-OB1 *T*-1)
+								     (NP-SBJ (PRO they))
+								     (VBD mente)))))))))
+	  (, ,)
+	  (VBD gaue)
+	  (NP-OB2 (PRO hym))
+	  (NP-OB1 (N leaue)
+		  (IP-INF (TO to)
+			  (VB purpose)
+			  (NP-OB1 (CP-FRL (WNP-2 (WPRO what))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (NP-OB2 (PRO hym))
+						  (VBD lyked))))))
+	  (, ,)
+	  (IP-PPL (ADVP (ADV verely))
+		  (VAG trustyng)
+		  (PP (P for)
+		      (NP (D the)
+			  (ADJ good)
+			  (N minde)
+			  (CP-REL (WNP-3 0)
+				  (C that)
+				  (IP-SUB (NP-OB1 *T*-3)
+					  (NP-SBJ (PRO he))
+					  (VBD bare)
+					  (NP-OB2 (PRO them)
+						  (QP (Q al)))))))
+		  (, ,)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (Q none)
+					  (PP (P of)
+					      (NP (PRO them))))
+				  (NP-OB1 (Q ani)
+					  (N thing)
+					  (CP-REL *ICH*-4))
+				  (MD would)
+				  (VB intende)
+				  (PP (P vnto)
+				      (NP (PRO hym) (WARD warde)))
+				  (, ,)
+				  (CP-REL-4 (WPP-5 (WADV where) (P with))
+					    (C 0)
+					    (IP-SUB (PP *T*-5)
+						    (NP-SBJ (PRO he))
+						    (MD ought)
+						    (TO to)
+						    (BE be)
+						    (VAN greued))))))
+	  (. .))
+  (ID MORERIC-E1-H,78.152))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	7/7/173
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd
+*/
+
+/~*
+But anone the tidinges of this mater came hastely to y=e= quene, a litle
+before y=e= midnight folowing, & that in the sorest wise, y=t= the king her
+sonne was taken, her brother, her sonne and her other frendes arested, & sent
+no man wist whither, to be done w=t= god wot what. With which tidinges y=e=
+quene in gret flight & heuines, bewailing her childes ruin, her frendes
+mischance, & her own infortune, damning the time that euer shee diswaded the
+gatheryng of power aboute the kinge, gate her selfe in all the haste possible
+with her yonger sonne and her doughters oute of the Palyce of westminster in
+whiche shee then laye, into the Sainctuarye, lodginge her selfe and her
+coumpanye there in the Abbottes place.
+(MORERIC-E1-P1,21.22)
+*~/
+/*
+167 WNP:  167 WNP, 169 what, 166 CP-QUE
+*/
+
+( (IP-MAT-1 (CONJ But)
+	    (ADVP-TMP (ADV anone))
+	    (NP-SBJ (D the)
+		    (NS tidinges)
+		    (PP (P of)
+			(NP (D this) (N mater))))
+	    (VBD came)
+	    (ADVP (ADV hastely))
+	    (PP (P to)
+		(NP (D y=e=) (N quene)))
+	    (, ,)
+	    (PP (NP-MSR (D a) (ADJ litle))
+		(P before)
+		(NP (D y=e=)
+		    (N midnight)
+		    (RRC (VAG folowing))))
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ &)
+			  (NP (D that))
+			  (PP (P in)
+			      (NP (D the) (ADJS sorest) (N wise))))
+	    (, ,)
+	    (CP-THT (C y=t=)
+		    (IP-SUB (IP-SUB-2 (NP-SBJ (D the)
+					      (N king)
+					      (NP-PRN (PRO$ her) (N sonne)))
+				      (BED was)
+				      (VAN taken))
+			    (, ,)
+			    (CONJP (IP-SUB=2 (NP-SBJ (NP (PRO$ her) (N brother))
+						     (, ,)
+						     (CONJP (NP (PRO$ her) (N sonne)))
+						     (CONJP (CONJ and)
+							    (NP (PRO$ her) (OTHER other) (NS frendes))))
+					     (VAN arested)))
+			    (, ,)
+			    (CONJP (CONJ &)
+				   (IP-SUB=2 (VAN sent)
+					     (ADVP-DIR (IP-MAT (NP-SBJ (Q no) (N man))
+							       (VBD wist)
+							       (CP-QUE (WADVP (WADV whither)))))
+					     (, ,)
+					     (CP-EOP (WNP-3 0)
+						     (IP-INF (NP-SBJ *T*-3)
+							     (TO to)
+							     (BE be)
+							     (DAN done)
+							     (PP (P w=t=)
+								 (NP *))
+							     (IP-MAT-PRN (NP-SBJ (NPR god))
+									 (VBP wot)
+									 (CP-QUE (WNP (WPRO what))))))))))
+	    (, .)
+	    (CP-CAR (WPP-4 (P With)
+			   (WNP (WD which) (NS tidinges)))
+		    (C 0)
+		    (IP-SUB (PP *T*-4)
+			    (NP-SBJ (D y=e=) (N quene))
+			    (PP (P in)
+				(NP (ADJ gret)
+				    (N flight)
+				    (CONJP (CONJ &)
+					   (NX (N heuines)))))
+			    (, ,)
+			    (IP-PPL (VAG bewailing)
+				    (NP-OB1 (NP (NP-POS (PRO$ her) (N$ childes))
+						(N ruin))
+					    (, ,)
+					    (CONJP (NP (NP-POS (PRO$ her) (NS$ frendes))
+						       (N mischance)))
+					    (, ,)
+					    (CONJP (CONJ &)
+						   (NP (PRO$ her) (ADJ own) (N infortune)))))
+			    (, ,)
+			    (IP-PPL (VAG damning)
+				    (NP-OB1 (D the)
+					    (N time)
+					    (CP-REL (WNP-5 0)
+						    (C that)
+						    (IP-SUB (NP-TMP *T*-5)
+							    (ADVP-TMP (ADV euer))
+							    (NP-SBJ (PRO shee))
+							    (VBD diswaded)
+							    (NP-OB1 (D the)
+								    (N gatheryng)
+								    (PP (P of)
+									(NP (N power)))
+								    (PP (P aboute)
+									(NP (D the) (N kinge))))))))
+			    (, ,)
+			    (VBD gate)
+			    (NP-OB1 (PRO her) (N selfe))
+			    (PP (P in)
+				(NP (Q all)
+				    (D the)
+				    (N haste)
+				    (ADJP (ADJ possible))))
+			    (PP (P with)
+				(NP (NP (PRO$ her) (ADJR yonger) (N sonne))
+				    (CONJP (CONJ and)
+					   (NP (PRO$ her) (NS doughters)))))
+			    (PP (RP oute)
+				(P of)
+				(NP (D the)
+				    (N Palyce)
+				    (PP (P of)
+					(NP (NPR westminster)
+					    (CP-REL (WPP-6 (P in)
+							   (WNP (WPRO whiche)))
+						    (C 0)
+						    (IP-SUB (PP *T*-6)
+							    (NP-SBJ (PRO shee))
+							    (ADVP-TMP (ADV then))
+							    (VBD laye)
+							    (, ,)
+							    (CODE <P_21>)
+							    (PP (P into)
+								(NP (D the) (N Sainctuarye)))))))))
+			    (, ,)
+			    (IP-PPL (VAG lodginge)
+				    (NP-OB1 (NP (PRO her) (N selfe))
+					    (CONJP (CONJ and)
+						   (NP (PRO$ her) (N coumpanye))))
+				    (ADVP-LOC (ADV there))
+				    (PP (P in)
+					(NP (NP-POS (D the) (N$ Abbottes))
+					    (N place))))))
+	    (. .))
+  (ID MORERIC-E1-P1,21.22))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	1/1/202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd
+*/
+
+/~*
+Who wold prick him forward therunto, if they escaped for they would remembre
+their imprisonment.
+(MORERIC-E1-P2,43.46)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD wold)
+		  (VB prick)
+		  (NP-OB1 (PRO him))
+		  (ADVP-DIR (ADV+WARD forward))
+		  (PP (ADV+P therunto))
+		  (, ,)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (VBD escaped)))))
+	  (CODE <paren>)
+	  (IP-MAT-PRN (CONJ for)
+		      (NP-SBJ (PRO they))
+		      (MD would)
+		      (VB remembre)
+		      (NP-OB1 (PRO$ their) (N imprisonment)))
+	  (CODE <$$paren>)
+	  (. .))
+  (ID MORERIC-E1-P2,43.46))
+
+/~*
+For the state of thinges & the disposicions of men wer than such, that a man
+could not wel tell whom he might truste, or whom he might feare.
+(MORERIC-E1-P2,43.52)
+*~/
+/*
+60 WNP-1:  60 WNP-1, 62 whom, 59 CP-QUE
+81 WNP-2:  81 WNP-2, 83 whom, 80 CP-QUE
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (NP (D the)
+		      (N state)
+		      (PP (P of)
+			  (NP (NS thinges))))
+		  (CONJP (CONJ &)
+			 (NP (D the)
+			     (NS disposicions)
+			     (PP (P of)
+				 (NP (NS men))))))
+	  (BED wer)
+	  (ADVP-TMP (ADV than))
+	  (ADJP (SUCH such)
+		(, ,)
+		(CP-DEG (C that)
+			(IP-SUB (NP-SBJ (D a) (N man))
+				(MD could)
+				(NEG not)
+				(ADVP (ADV wel))
+				(VB tell)
+				(CP-QUE (CP-QUE (WNP-1 (WPRO whom))
+						(C 0)
+						(IP-SUB (NP-OB1 *T*-1)
+							(NP-SBJ (PRO he))
+							(MD might)
+							(VB truste)))
+					(, ,)
+					(CONJP (CONJ or)
+					       (CP-QUE (WNP-2 (WPRO whom))
+						       (C 0)
+						       (IP-SUB (NP-OB1 *T*-2)
+							       (NP-SBJ (PRO he))
+							       (MD might)
+							       (VB feare))))))))
+	  (. .))
+  (ID MORERIC-E1-P2,43.52))
+
+/~*
+But the protectour & the duke, after y=t=, that they had set the lord
+Cardinall, the Archebishoppe of Yorke than lorde Chauncellour, the Bishoppe of
+Ely, the lord Stanley & the lord Hastinges than lord chamberleine, w=t= many
+other noble men to commune & deuise about the coronacion in one place: as fast
+were they in an other place contryuyng the contrary, & to make the protectour
+kyng. To which counsel, albeit there were adhibit very few, & they very secret:
+yet began there here & there about, some maner of muttering amonge the people,
+as though al should not long be wel, though they neither wist what thei feared
+nor wherfore: were it that before such great thinges, mens hartes of a secret
+instinct of nature misgiueth them. As y=e= sea w=t=out wind swelleth of
+himself somtime before a tempest: or were it that some one man happely somwhat
+perceiuing, filled mani men w=t= suspicion, though he shewed few men what he
+knew.
+(MORERIC-E1-P2,44.63)
+*~/
+/*
+345 WNP-6:  345 WNP-6, 347 what, 344 CP-QUE
+527 WNP-9:  527 WNP-9, 529 what, 526 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-LFD-1 (NP (D the) (N protectour))
+		    (CONJP (CONJ &)
+			   (NP (D the) (N duke))))
+	  (, ,)
+	  (PP (P after)
+	      (NP (D y=t=)
+		  (, ,)
+		  (CP-THT-PRN (C that)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (HVD had)
+				      (VBN set)
+				      (IP-INF (NP-SBJ (NP (D the) (N lord) (N Cardinall))
+						      (, ,)
+						      (CONJP (NP (D the)
+								 (N Archebishoppe)
+								 (PP (P of)
+								     (NP (NPR Yorke)))
+								 (RRC (ADVP-TMP (ADV than))
+								      (NP-OB1 (N lorde) (N Chauncellour)))))
+						      (, ,)
+						      (CONJP (NP (D the)
+								 (N Bishoppe)
+								 (PP (P of)
+								     (NP (NPR Ely)))))
+						      (, ,)
+						      (CONJP (NP (D the)
+								 (N lord)
+								 (NP-PRN (NPR Stanley))))
+						      (CONJP (CONJ &)
+							     (NP (D the)
+								 (N lord)
+								 (NP-PRN (NPR Hastinges))
+								 (RRC (ADVP-TMP (ADV than))
+								      (NP-OB1 (N lord) (N chamberleine)))))
+						      (, ,)
+						      (PP (P w=t=)
+							  (NP (Q many) (OTHER other) (ADJ noble) (NS men))))
+					      (CODE {COM:end_of_passage_translated_from_more's_latin_text_but_not_by_him})
+					      (TO to)
+					      (VB (VB commune) (CONJ &) (VB deuise))
+					      (PP (P about)
+						  (NP (D the) (N coronacion)))
+					      (PP (P in)
+						  (NP (ONE one) (N place))))))))
+	  (, :)
+	  (ADVP (ADVR as) (ADV fast))
+	  (BED were)
+	  (NP-SBJ-RSP=1 (PRO they))
+	  (PP (P in)
+	      (NP (D an) (OTHER other) (N place)))
+	  (VAG contryuyng)
+	  (NP-OB1 (NP (D the) (N contrary))
+		  (, ,)
+		  (CONJP (CONJ &)
+			 (IP-INF (TO to)
+				 (VB make)
+				 (IP-SMC (NP-SBJ (D the) (N protectour))
+					 (NP-OB1 (N kyng))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (P To)
+			 (WNP (WD which) (N counsel)))
+		  (C 0)
+		  (, ,)
+		  (IP-SUB (PP *T*-2)
+			  (PP-LFD (P albeit)
+				  (CP-ADV (C 0)
+					  (IP-SUB-3 (IP-SUB (NP-SBJ-4 (EX there))
+							    (BED were)
+							    (VAN adhibit)
+							    (NP-4 (QP (ADV very) (Q few))))
+						    (, ,)
+						    (CONJP (CONJ &)
+							   (IP-SUB=3 (NP-SBJ (PRO they))
+								     (ADJP-SPR (ADV very) (ADJ secret)))))))
+			  (, :)
+			  (ADVP-RSP (ADV yet))
+			  (VBD began)
+			  (NP-SBJ-5 (EX there))
+			  (PP (ADVP (ADV here) (CONJ &) (ADV there))
+			      (P about))
+			  (, ,)
+			  (NP-5 (Q some)
+				(N maner)
+				(PP (P of)
+				    (NP (N muttering)))
+				(PP (P amonge)
+				    (NP (D the) (N people))))
+			  (, ,)
+			  (PP (P as)
+			      (PP (P though)
+				  (CP-ADV (C 0)
+					  (IP-SUB (NP-SBJ (Q al))
+						  (MD should)
+						  (NEG not)
+						  (NP-MSR (ADJ long))
+						  (BE be)
+						  (ADJP (ADJ wel))))))
+			  (, ,)
+			  (PP (P though)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (CONJ neither)
+					      (VBD wist)
+					      (CP-QUE (CP-QUE (WNP-6 (WPRO what))
+							      (C 0)
+							      (IP-SUB (NP-OB1 *T*-6)
+								      (NP-SBJ (PRO thei))
+								      (VBD feared)))
+						      (CONJP (CONJ nor)
+							     (CP-QUE (WPP (WADV+P wherfore))))))))
+			  (, :)
+			  (CP-ADV (CP-ADV (IP-SUB (BED were)
+						  (NP-SBJ-2 (PRO it))
+						  (CP-THT-2 (C that)
+							    (IP-SUB (PP (P before)
+									(NP (SUCH such) (ADJ great) (NS thinges)))
+								    (, ,)
+								    (NP-SBJ (NS$ mens) (NS hartes))
+								    (PP (P of)
+									(NP (D a)
+									    (ADJ secret)
+									    (N instinct)
+									    (PP (P of)
+										(NP (N nature)))))
+								    (VBP misgiueth)
+								    (NP-OB1 (PRO them))
+								    (, .)
+								    (PP (P As)
+									(CP-ADV (WADVP-7 0)
+										(C 0)
+										(IP-SUB (ADVP *T*-7)
+											(NP-SBJ (D y=e=) (N sea))
+											(PP (P w=t=out)
+											    (NP (N wind)))
+											(VBP swelleth)
+											(PP (P of)
+											    (NP (PRO+N himself)))
+											(NP-TMP (Q+N somtime))
+											(PP (P before)
+											    (NP (D a) (N tempest))))))))))
+				  (, :)
+				  (CONJP (CONJ or)
+					 (CP-ADV (IP-SUB (BED were)
+							 (NP-SBJ-8 (PRO it))
+							 (CP-THT-8 (C that)
+								   (IP-SUB (NP-SBJ (Q some) (ONE one) (N man))
+									   (IP-PPL (ADVP (ADV happely))
+										   (NP-OB1 (Q+WPRO somwhat))
+										   (VAG perceiuing))
+									   (, ,)
+									   (VBD filled)
+									   (NP-OB1 (Q mani) (NS men))
+									   (PP (P w=t=)
+									       (NP (N suspicion)))
+									   (, ,)
+									   (PP (P though)
+									       (CP-ADV (C 0)
+										       (IP-SUB (NP-SBJ (PRO he))
+											       (VBD shewed)
+											       (NP-OB2 (Q few) (NS men))
+											       (CP-QUE (WNP-9 (WPRO what))
+												       (C 0)
+												       (IP-SUB (NP-OB1 *T*-9)
+													       (NP-SBJ (PRO he))
+													       (VBD knew))))))))))))))
+	  (. .))
+  (ID MORERIC-E1-P2,44.63))
+
+/~*
+But so litle wist y=e= tother what he ment, & so little mistrusted, that he
+was neuer merier nor neuer so full of good hope in his life: which self thing
+is often sene a signe of chaunge.
+(MORERIC-E1-P2,51.134)
+*~/
+/*
+20 WNP-2:  20 WNP-2, 22 what, 19 CP-QUE
+*/
+
+( (IP-MAT-1 (CONJ But)
+	    (NP-MSR (QP (ADVR so)
+			(Q litle)
+			(CP-DEG *ICH*-3)))
+	    (VBD wist)
+	    (NP-SBJ (D y=e=) (D+OTHER tother))
+	    (CP-QUE (WNP-2 (WPRO what))
+		    (C 0)
+		    (IP-SUB (NP-OB1 *T*-2)
+			    (NP-SBJ (PRO he))
+			    (VBD ment)))
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ &)
+			  (NP-MSR (QP (ADVR so)
+				      (Q little)
+				      (CP-DEG *ICH*-3)))
+			  (VBD mistrusted))
+	    (, ,)
+	    (CP-DEG-3 (C that)
+		      (IP-SUB-4 (NP-SBJ (PRO he))
+				(BED was)
+				(ADVP-TMP (ADV neuer))
+				(ADJP (ADJR merier))
+				(IP-SUB-PRN=4 (CONJ nor)
+					      (ADVP-TMP (ADV neuer))
+					      (ADJP (ADVR so)
+						    (ADJ full)
+						    (PP (P of)
+							(NP (ADJ good) (N hope)))))
+				(PP (P in)
+				    (NP (PRO$ his) (N life)))
+				(, :)
+				(CP-CAR (WNP-5 (WD which) (ADJ self) (N thing))
+					(C 0)
+					(IP-SUB (NP-SBJ *T*-5)
+						(BEP is)
+						(ADVP-TMP (ADV often))
+						(VAN sene)
+						(IP-SMC (NP-SBJ *T*-5)
+							(NP-OB1 (D a)
+								(N signe)
+								(PP (P of)
+								    (NP (N chaunge)))))))))
+	    (. .))
+  (ID MORERIC-E1-P2,51.134))
+
+/~*
+Now when the lord Chamberlen & these other lordes & knightes were thus
+behedded & ridde out of the way: then thought the protectour, y=t= while men
+mused what y=e= mater ment, while y=e= lordes of the realme wer about him out
+of their owne strenghtis, while no man wist what to thinke nor whome to trust,
+ere euer they should haue space to dispute & disgest the mater & make parties:
+it wer best hastly to pursue his purpose, & put himself in possession of y=e=
+crowne, ere men could haue time to deuise ani wais to resist.
+(MORERIC-E1-P2,58.162)
+*~/
+/*
+92 WNP-2:  92 WNP-2, 94 what, 91 CP-QUE
+169 WNP-3:  169 WNP-3, 171 what, 168 CP-QUE
+185 WNP-4:  185 WNP-4, 187 whome, 184 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP-LFD (P when)
+		  (CP-ADV (C 0)
+			  (IP-SUB (IP-SUB-1 (NP-SBJ (NP (D the) (N lord) (N Chamberlen))
+						    (CONJP (CONJ &)
+							   (NP (D these)
+							       (OTHER other)
+							       (NS lordes)
+							       (CONJP (CONJ &)
+								      (NX (NS knightes))))))
+					    (BED were)
+					    (ADVP (ADV thus))
+					    (VAN behedded))
+				  (CONJP (CONJ &)
+					 (IP-SUB=1 (VAN ridde)
+						   (PP (RP out)
+						       (P of)
+						       (NP (D the) (N way))))))))
+	  (, :)
+	  (ADVP-TMP-RSP (ADV then))
+	  (VBD thought)
+	  (NP-SBJ (D the) (N protectour))
+	  (, ,)
+	  (CP-THT (C y=t=)
+		  (IP-SUB (PP (PP (P while)
+				  (CP-ADV (C 0)
+					  (IP-SUB (NP-SBJ (NS men))
+						  (VBD mused)
+						  (CP-QUE (WNP-2 (WPRO what))
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-2)
+								  (NP-SBJ (D y=e=) (N mater))
+								  (VBD ment))))))
+			      (, ,)
+			      (CONJP (PP (P while)
+					 (CP-ADV (C 0)
+						 (IP-SUB (NP-SBJ (D y=e=)
+								 (NS lordes)
+								 (PP (P of)
+								     (NP (D the) (N realme))))
+							 (BED wer)
+							 (PP (P about)
+							     (NP (PRO him)))
+							 (PP (RP out)
+							     (P of)
+							     (NP (PRO$ their) (ADJ owne) (NS strenghtis)))))))
+			      (, ,)
+			      (CONJP (PP (P while)
+					 (CP-ADV (C 0)
+						 (IP-SUB (NP-SBJ (Q no) (N man))
+							 (VBD wist)
+							 (CP-QUE (CP-QUE (WNP-3 (WPRO what))
+									 (C 0)
+									 (IP-INF (NP-OB1 *T*-3)
+										 (TO to)
+										 (VB thinke)))
+								 (CONJP (CONJ nor)
+									(CP-QUE (WNP-4 (WPRO whome))
+										(C 0)
+										(IP-INF (NP-OB1 *T*-4)
+											(TO to)
+											(VB trust))))))))))
+			  (, ,)
+			  (PP (P ere)
+			      (CP-ADV (C 0)
+				      (IP-SUB (ADVP-TMP (ADV euer))
+					      (NP-SBJ (PRO they))
+					      (MD should)
+					      (HV haue)
+					      (NP-OB1 (N space)
+						      (IP-INF (IP-INF (TO to)
+								      (VB (VB dispute) (CONJ &) (VB disgest))
+								      (NP-OB1 (D the) (N mater)))
+							      (CONJP (CONJ &)
+								     (IP-INF (TO *)
+									     (VB make)
+									     (NP-OB1 (NS parties)))))))))
+			  (, :)
+			  (NP-SBJ-5 (PRO it))
+			  (BED wer)
+			  (ADJP (ADJS best))
+			  (IP-INF-5 (IP-INF (ADVP (ADV hastly))
+					    (TO to)
+					    (VB pursue)
+					    (NP-OB1 (PRO$ his) (N purpose)))
+				    (, ,)
+				    (CONJP (CONJ &)
+					   (IP-INF (TO *)
+						   (VB put)
+						   (NP-OB1 (PRO+N himself))
+						   (PP (P in)
+						       (NP (N possession)
+							   (PP (P of)
+							       (NP (D y=e=) (NPR crowne)))))
+						   (, ,)
+						   (PP (P ere)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (NS men))
+								       (MD could)
+								       (HV haue)
+								       (NP-OB1 (N time)
+									       (IP-INF (TO to)
+										       (VB deuise)
+										       (NP-OB1 (Q ani)
+											       (NS wais)
+											       (IP-INF (TO to) (VB resist)))))))))))))
+	  (. .))
+  (ID MORERIC-E1-P2,58.162))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	9/5/224
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd
+*/
+
+/~*
+Moreouer certaine gray Friers were taken, of the whiche one Richard Friseby,
+doctour of Diuinitie, being asked what he would do if K. Richard were present,
+answered, that he woulde fight in his quarrel against any man, euen to the
+death, wherfore he was condemned, drawen, and hanged in his religious habit
+and weede.
+(STOW-E2-P1,550.21)
+*~/
+/*
+64 WNP-3:  64 WNP-3, 66 what, 63 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Moreouer))
+	  (NP-SBJ (ADJ certaine)
+		  (NPR gray)
+		  (NPRS Friers)
+		  (CP-REL *ICH*-1))
+	  (BED were)
+	  (VAN taken)
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P of)
+			   (WNP (D the) (WPRO whiche)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (ONE one)
+				    (CODE <font>)
+				    (NPR Richard)
+				    (NPR Friseby)
+				    (CODE <$$font>)
+				    (, ,)
+				    (NP-PRN (N doctour)
+					    (PP (P of)
+						(NP (N Diuinitie)))))
+			    (, ,)
+			    (IP-PPL (BAG being)
+				    (VAN asked)
+				    (CP-QUE (WNP-3 (WPRO what))
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-3)
+						    (NP-SBJ (PRO he))
+						    (MD would)
+						    (DO do)
+						    (PP (P if)
+							(CP-ADV (C 0)
+								(IP-SUB (NP-SBJ (NPR K.) (CODE <font>) (NPR Richard) (CODE <$$font>))
+									(BED were)
+									(ADJP (ADJ present))))))))
+			    (, ,)
+			    (VBD answered)
+			    (, ,)
+			    (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (PRO he))
+					    (MD woulde)
+					    (VB fight)
+					    (PP (P in)
+						(NP (PRO$ his) (N quarrel)))
+					    (PP (P against)
+						(NP (Q any) (N man)))
+					    (, ,)
+					    (PP (FP euen)
+						(P to)
+						(NP (D the) (N death)))))
+			    (, ,)
+			    (CP-CAR (WPP-4 (WADV+P wherfore))
+				    (C 0)
+				    (IP-SUB (PP *T*-4)
+					    (NP-SBJ (PRO he))
+					    (BED was)
+					    (VAN (VAN condemned) (, ,) (VAN drawen) (, ,) (CONJ and) (VAN hanged))
+					    (PP (P in)
+						(NP (PRO$ his)
+						    (ADJ religious)
+						    (N habit)
+						    (CONJP (CONJ and)
+							   (NX (N weede)))))))))
+	  (. .))
+  (ID STOW-E2-P1,550.21))
+
+/~*
+But the King being disquieted with these doings, that he might appease the
+communaltie, he wrote to them, that he maruelled much, that seeing the Earle
+of Northumberland, & Henry his son had receiued the most part of the payme~ts
+& summes granted to him by the Cleargy & co~munalite, for y=e= defence of the
+Marches of Scotland, what occasion they had to make such manifest slanders &c.
+(STOW-E2-P1,554.73)
+*~/
+/*
+191 WNP-2:  191 WNP-2, 197 *ICH*-3, 72 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N King))
+		      (BAG being)
+		      (VAN disquieted)
+		      (PP (P with)
+			  (NP (D these) (NS doings))))
+	  (, ,)
+	  (CP-ADV (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (MD might)
+			  (VB appease)
+			  (NP-OB1 (D the) (N communaltie))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD wrote)
+	  (PP (P to)
+	      (NP (PRO them)))
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (VBD maruelled)
+			  (NP-MSR (Q much))
+			  (, ,)
+			  (CP-THT (C that)
+				  (CP-QUE (IP-PPL-1 (VAG seeing)
+						    (CP-THT (C 0)
+							    (IP-SUB (NP-SBJ (NP (D the)
+										(N Earle)
+										(PP (P of)
+										    (NP (CODE <font>) (NPR Northumberland) (CODE <$$font>))))
+									    (, ,)
+									    (CONJP (CONJ &)
+										   (NP (CODE <font>)
+										       (NPR Henry)
+										       (CODE <$$font>)
+										       (NP-PRN (PRO$ his) (N son)))))
+								    (HVD had)
+								    (VBN receiued)
+								    (NP-OB1 (D the)
+									    (QS most)
+									    (N part)
+									    (PP (P of)
+										(NP (D the)
+										    (NS payme~ts)
+										    (CONJP (CONJ &)
+											   (NX (NS summes)))
+										    (RRC (VAN granted)
+											 (PP (P to)
+											     (NP (PRO him)))
+											 (PP (P by)
+											     (NP (D the)
+												 (N Cleargy)
+												 (CONJP (CONJ &)
+													(NX (N co~munalite)))))
+											 (, ,)
+											 (PP (P for)
+											     (NP (D y=e=)
+												 (N defence)
+												 (PP (P of)
+												     (NP (D the)
+													 (NS Marches)
+													 (PP (P of)
+													     (NP (CODE <font>) (NPR Scotland) (CODE <$$font>))))))))))))))
+					  (, ,)
+					  (WNP-2 (WD what)
+						 (N occasion)
+						 (IP-INF *ICH*-3))
+					  (C 0)
+					  (IP-SUB (IP-PPL *ICH*-1)
+						  (NP-OB1 *T*-2)
+						  (NP-SBJ (PRO they))
+						  (HVD had)
+						  (IP-INF-3 (TO to)
+							    (VB make)
+							    (NP-OB1 (SUCH such) (ADJ manifest) (NS slanders))
+							    (FW &c)))))))
+	  (. .))
+  (ID STOW-E2-P1,554.73))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	2/2/258
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	4/4/376
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	3/3/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	1/1/330
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	2/2/220
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	4/3/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	2/2/212
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	2/2/195
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	4/4/207
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	7/5/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	3/3/225
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	7/7/173
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	1/1/202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	9/5/224
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	2/2/258
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+whole search, hits/tokens/total
+		51/44/4232
+*/

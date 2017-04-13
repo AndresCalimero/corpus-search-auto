@@ -1,0 +1,1500 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:03:13 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\whquestions\bible_and_apocrypha\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd
+*/
+
+/~*
+and who schal shryue to +te in helle?
+(CMEARLPS,5.190)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD schal)
+		  (VB shryue)
+		  (PP (P to)
+		      (NP (PRO +te)))
+		  (PP (P in)
+		      (NP (NPR helle))))
+	  (. ?))
+  (ID CMEARLPS,5.190))
+
+/~*
+What +tynge ys man, +tat +tou ert +tenchand on hym? o+ter mannes sone, +tat ou
+visites hym?
+(CMEARLPS,7.277)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 +tynge, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N +tynge))
+	  (IP-SUB (IP-SUB-2 (NP-OB1 *T*-1)
+			    (BEP ys)
+			    (NP-SBJ (N man))
+			    (, ,)
+			    (CP-ADV (C +tat)
+				    (IP-SUB (NP-SBJ (PRO +tou))
+					    (BEP ert)
+					    (VAG +tenchand)
+					    (PP (P on)
+						(NP (PRO hym))))))
+		  (, ?)
+		  (CONJP (CONJ o+ter)
+			 (IP-SUB=2 (NP-SBJ (N$ mannes) (N sone))
+				   (, ,)
+				   (CP-ADV (C +tat)
+					   (IP-SUB (NP-SBJ (PRO ou))
+						   (VBP visites)
+						   (NP-OB1 (PRO hym)))))))
+	  (. ?))
+  (ID CMEARLPS,7.277))
+
+/~*
+what +tyng of iuel did +te ri+gtful?
+(CMEARLPS,11.418)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 12 iuel, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD what)
+		 (N +tyng)
+		 (PP (P of)
+		     (NP (N iuel))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (D +te) (ADJ ri+gtful)))
+	  (. ?))
+  (ID CMEARLPS,11.418))
+
+/~*
+who is our Lord?
+(CMEARLPS,12.451)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO$ our) (NPR Lord)))
+	  (. ?))
+  (ID CMEARLPS,12.451))
+
+/~*
+Who shal +gyf fram +te heuen hel+te to Israel?
+(CMEARLPS,14.522)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB +gyf)
+		  (PP (P fram)
+		      (NP (D +te) (NPR heuen)))
+		  (NP-OB1 (N hel+te))
+		  (PP (P to)
+		      (NP (NPR Israel))))
+	  (. ?))
+  (ID CMEARLPS,14.522))
+
+/~*
+Lord, who shal wonen in +ty tabernacle,
+(CMEARLPS,14.529)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 who, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-VOC (NPR Lord))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB wonen)
+		  (PP (P in)
+		      (NP (PRO$ +ty) (N tabernacle))))
+	  (. ,))
+  (ID CMEARLPS,14.529))
+
+/~*
+o+ter who shal resten in +tyn holy hill?
+(CMEARLPS,14.530)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ o+ter)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB resten)
+		  (PP (P in)
+		      (NP (PRO$ +tyn) (ADJ holy) (N hill))))
+	  (. ?))
+  (ID CMEARLPS,14.530))
+
+/~*
+For who ys God bot our Lord,
+(CMEARLPS,19.743)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO who)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP ys)
+		  (NP-OB1 (NPR God))
+		  (PP-2 (P bot)
+			(NP (PRO$ our) (NPR Lord))))
+	  (. ,))
+  (ID CMEARLPS,19.743))
+
+/~*
+o+ter who is God bot our God?
+(CMEARLPS,19.744)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ o+ter)
+	  (WNP-1 (WPRO who)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (NPR God))
+		  (PP-2 (P bot)
+			(NP (PRO$ our) (NPR God))))
+	  (. ?))
+  (ID CMEARLPS,19.744))
+
+/~*
+Who vnderstonde+t my trespasses?
+(CMEARLPS,21.835)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP vnderstonde+t)
+		  (NP-OB1 (PRO$ my) (NS trespasses)))
+	  (. ?))
+  (ID CMEARLPS,21.835))
+
+/~*
+Who shal climben in-to +te mountein of our Lord,
+(CMEARLPS,26.1068)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB climben)
+		  (PP (P in-to)
+		      (NP (D +te)
+			  (N mountein)
+			  (PP (P of)
+			      (NP (PRO$ our) (NPR Lord))))))
+	  (. ,))
+  (ID CMEARLPS,26.1068))
+
+/~*
+o+ter who shal stonde in his holy stede?
+(CMEARLPS,26.1069)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ o+ter)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB stonde)
+		  (PP (P in)
+		      (NP (PRO$ his) (ADJ holy) (N stede))))
+	  (. ?))
+  (ID CMEARLPS,26.1069))
+
+/~*
+Which is he, +tat kyng of glorie?
+(CMEARLPS,26.1081)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Which, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Which))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO he)
+			  (, ,)
+			  (NP-PRN (D +tat)
+				  (N kyng)
+				  (PP (P of)
+				      (NP (N glorie))))))
+	  (. ?))
+  (ID CMEARLPS,26.1081))
+
+/~*
+Which is he, +tat kynge of glorie?
+(CMEARLPS,27.1090)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Which, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Which))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO he)
+			  (, ,)
+			  (NP-PRN (D +tat)
+				  (N kynge)
+				  (PP (P of)
+				      (NP (N glorie))))))
+	  (. ?))
+  (ID CMEARLPS,27.1090))
+
+/~*
+Who is +te man +tat doute+t our Lord?
+(CMEARLPS,27.1131)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D +te)
+			  (N man)
+			  (CP-REL (WNP-2 0)
+				  (C +tat)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBP doute+t)
+					  (NP-OB1 (PRO$ our) (NPR Lord))))))
+	  (. ?))
+  (ID CMEARLPS,27.1131))
+
+/~*
+for what +tyng shal ich drede?
+(CMEARLPS,29.1209)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 +tyng, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ for)
+	  (WNP-1 (WD what) (N +tyng))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shal)
+		  (NP-SBJ (PRO ich))
+		  (VB drede))
+	  (. ?))
+  (ID CMEARLPS,29.1209))
+
+/~*
+What profit is in my penaunce, +ter-whiles +tat ich descende in-to synne?
+(CMEARLPS,32.1369)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 profit, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N profit))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (PP (P in)
+		      (NP (PRO$ my) (N penaunce)))
+		  (, ,)
+		  (PP (P +ter-whiles)
+		      (CP-ADV (C +tat)
+			      (IP-SUB (NP-SBJ (PRO ich))
+				      (VBP descende)
+				      (PP (P in-to)
+					  (NP (N synne)))))))
+	  (. ?))
+  (ID CMEARLPS,32.1369))
+
+/~*
+Which is +tat man +tat wyl +tat lif +tat euer shal laste, and loue+t to se
+gode daies?
+(CMEARLPS,38.1621)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Which, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Which))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D +tat)
+			  (N man)
+			  (CP-REL (WNP-2 0)
+				  (C +tat)
+				  (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+						  (VBP wyl)
+						  (NP-OB1 (D +tat)
+							  (N lif)
+							  (CP-REL (WNP-3 0)
+								  (C +tat)
+								  (IP-SUB (NP-SBJ *T*-3)
+									  (ADVP-TMP (ADV euer))
+									  (MD shal)
+									  (VB laste)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB (NP-SBJ *T*-2)
+							 (VBP loue+t)
+							 (IP-INF (TO to)
+								 (VB se)
+								 (NP-OB1 (ADJ gode) (NS daies)))))))))
+	  (. ?))
+  (ID CMEARLPS,38.1621))
+
+/~*
+Make, Lord, knowen to me myn endyng, 6. And +te numbre of my daies which it is,
++tat ich wite, what +tynge me lacke+t.
+(CMEARLPS,47.2024)
+*~/
+/*
+75 WNP-2:  75 WNP-2, 79 +tynge, 74 CP-QUE
+*/
+
+( (IP-IMP (VBI Make)
+	  (, ,)
+	  (NP-VOC (NPR Lord))
+	  (, ,)
+	  (IP-SMC (VAN knowen)
+		  (PP (P to)
+		      (NP (PRO me)))
+		  (NP-SBJ (NP (PRO$ myn) (N endyng))
+			  (, ,)
+			  (NUMP (NUM 6.))
+			  (CONJP (CONJ And)
+				 (NP (D +te)
+				     (N numbre)
+				     (PP (P of)
+					 (NP (PRO$ my) (NS daies)))
+				     (CP-QUE-PRN (WNP-1 (WPRO which))
+						 (C 0)
+						 (IP-SUB (NP-OB1 *T*-1)
+							 (NP-SBJ (PRO it))
+							 (BEP is))))))
+		  (, ,)
+		  (CP-ADV (C +tat)
+			  (IP-SUB (NP-SBJ (PRO ich))
+				  (VBP wite)
+				  (, ,)
+				  (CP-QUE (WNP-2 (WD what) (N +tynge))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (NP-OB2 (PRO me))
+						  (VBP lacke+t))))))
+	  (. .))
+  (ID CMEARLPS,47.2024))
+
+/~*
+And which is nou myn abydyng?
+(CMEARLPS,47.2037)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 which, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO which))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (ADVP-TMP (ADV nou))
+		  (NP-OB1 (PRO$ myn) (N abydyng)))
+	  (. ?))
+  (ID CMEARLPS,47.2037))
+
+/~*
+Who shal +gyf of Syon hel+te to Israel?
+(CMEARLPS,64.2776)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB +gyf)
+		  (PP (P of)
+		      (NP (NPR Syon)))
+		  (NP-OB1 (N hel+te))
+		  (PP (P to)
+		      (NP (NPR Israel))))
+	  (. ?))
+  (ID CMEARLPS,64.2776))
+
+/~*
+Who shal +gyf me +te +gyftes of +te holi gost?
+(CMEARLPS,64.2826)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB +gyf)
+		  (NP-OB2 (PRO me))
+		  (NP-OB1 (D +te)
+			  (NS +gyftes)
+			  (PP (P of)
+			      (NP (D +te) (NPR holi) (NPR gost)))))
+	  (. ?))
+  (ID CMEARLPS,64.2826))
+
+/~*
+y ne shal nou+gt dreden, what manes flesshe do+t to me.
+(CMEARLPS,66.2905)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO y))
+	  (NEG ne)
+	  (MD shal)
+	  (NEG nou+gt)
+	  (VB dreden)
+	  (, ,)
+	  (CODE <$$em>)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (N$ manes) (N flesshe))
+			  (DOP do+t)
+			  (PP (P to)
+			      (NP (PRO me)))))
+	  (. .))
+  (ID CMEARLPS,66.2905))
+
+/~*
+y shal nou+gt drede, what man do+t to me.
+(CMEARLPS,67.2927)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO y))
+	  (MD shal)
+	  (NEG nou+gt)
+	  (VB drede)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (N man))
+			  (DOP do+t)
+			  (PP (P to)
+			      (NP (PRO me)))))
+	  (. .))
+  (ID CMEARLPS,67.2927))
+
+/~*
+Who shal lade me in-to a cite warnist,
+(CMEARLPS,71.3108)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB lade)
+		  (NP-OB1 (PRO me))
+		  (PP (P in-to)
+		      (NP (D a)
+			  (N cite)
+			  (RRC (VAN warnist)))))
+	  (. ,))
+  (ID CMEARLPS,71.3108))
+
+/~*
+who shal lade me in-to Ydume?
+(CMEARLPS,71.3109)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB lade)
+		  (NP-OB1 (PRO me))
+		  (PP (P in-to)
+		      (NP (NPR Ydume))))
+	  (. ?))
+  (ID CMEARLPS,71.3109))
+
+/~*
+who shal sechen his mercy and hys so+tenes?
+(CMEARLPS,71.3142)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB sechen)
+		  (NP-OB1 (NP (PRO$ his) (N mercy))
+			  (CONJP (CONJ and)
+				 (NP (PRO$ hys) (N so+tenes))))
+		  (. ?)))
+  (ID CMEARLPS,71.3142))
+
+/~*
+ha, God, who his liche to +te?
+(CMEARLPS,84.3709)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 who, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJ ha)
+	  (, ,)
+	  (NP-ADV (NPR God))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP his)
+		  (ADJP (ADJ liche)
+			(PP (P to)
+			    (NP (PRO +te)))))
+	  (. ?))
+  (ID CMEARLPS,84.3709))
+
+/~*
+For wat +tynge ys to me in heuen,
+(CMEARLPS,88.3852)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 +tynge, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WD wat) (N +tynge))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP ys)
+		  (PP (P to)
+		      (NP (PRO me)))
+		  (PP (P in)
+		      (NP (NPR heuen))))
+	  (. ,))
+  (ID CMEARLPS,88.3852))
+
+/~*
+and what wolde ich of +te up +ter+te?
+(CMEARLPS,88.3853)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBD wolde)
+		  (NP-SBJ (PRO ich))
+		  (PP (P of)
+		      (NP (PRO +te)))
+		  (PP (P up)
+		      (NP (D+NPR +ter+te))))
+	  (. ?))
+  (ID CMEARLPS,88.3853))
+
+/~*
+and who shal stonden o+gains +te fram +tan in +ty vengeaunce?
+(CMEARLPS,91.3993)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB stonden)
+		  (PP (P o+gains)
+		      (NP (PRO +te)))
+		  (PP (P fram)
+		      (ADVP (ADV +tan)))
+		  (PP (P in)
+		      (NP (PRO$ +ty) (N vengeaunce))))
+	  (. ?))
+  (ID CMEARLPS,91.3993))
+
+/~*
+who is grete God as on God is?
+(CMEARLPS,92.4043)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (ADJ grete) (NPR God))
+		  (PP (P as)
+		      (CP-ADV (WADVP-2 0)
+			      (C 0)
+			      (IP-SUB (ADVP *T*-2)
+				      (NP-SBJ (ONE on) (NPR God))
+				      (BEP is)))))
+	  (. ?))
+  (ID CMEARLPS,92.4043))
+
+/~*
+Ha God, who shal be liche to +te?
+(CMEARLPS,102.4458)
+*~/
+/*
+9 WNP-1:  9 WNP-1, 11 who, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJ Ha)
+	  (NP-VOC (NPR God))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (BE be)
+		  (ADJP (ADJ liche)
+			(PP (P to)
+			    (NP (PRO +te)))))
+	  (. ?))
+  (ID CMEARLPS,102.4458))
+
+/~*
+Y shal here what +tyng our Lord speke+t in me;
+(CMEARLPS,104.4564)
+*~/
+/*
+10 WNP:  10 WNP, 14 +tyng, 9 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO Y))
+	  (MD shal)
+	  (VB here)
+	  (CP-QUE (WNP (WD what) (N +tyng))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO$ our) (NPR Lord))
+			  (VBP speke+t)
+			  (PP (P in)
+			      (NP (PRO me)))))
+	  (. ;))
+  (ID CMEARLPS,104.4564))
+
+/~*
+For who shal be euenned to our Lord in cloudes?
+(CMEARLPS,108.4730)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (BE be)
+		  (VAN euenned)
+		  (PP (P to)
+		      (NP (PRO$ our) (NPR Lord)))
+		  (PP (P in)
+		      (NP (NS cloudes))))
+	  (. ?))
+  (ID CMEARLPS,108.4730))
+
+/~*
+Lord God of vertu+g, who ys lich to +te?
+(CMEARLPS,108.4735)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 who, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-VOC (NPR Lord)
+		  (NPR God)
+		  (PP (P of)
+		      (NP (NS vertu+g))))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP ys)
+		  (ADJP (ADJ lich)
+			(PP (P to)
+			    (NP (PRO +te)))))
+	  (. ?))
+  (ID CMEARLPS,108.4735))
+
+/~*
+Which man ys yt +tat shal lyuen and nou+gt se +te de+t, and shal defende his
+soule fram +te streng+te of helle?
+(CMEARLPS,111.4842)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 man, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD Which) (N man))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP ys)
+		  (NP-SBJ (PRO yt))
+		  (CP-CLF (WNP-2 0)
+			  (C +tat)
+			  (IP-SUB (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+						    (MD shal)
+						    (VB lyuen))
+					  (CONJP (CONJ and)
+						 (IP-SUB=3 (NP-SBJ *T*-2)
+							   (NEG nou+gt)
+							   (VB se)
+							   (NP-OB1 (D +te) (N de+t)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *T*-2)
+						 (MD shal)
+						 (VB defende)
+						 (NP-OB1 (PRO$ his) (N soule))
+						 (PP (P fram)
+						     (NP (D +te)
+							 (N streng+te)
+							 (PP (P of)
+							     (NP (NPR helle))))))))))
+	  (. ?))
+  (ID CMEARLPS,111.4842))
+
+/~*
+Who knew +te my+gt of +tyn ire, and to tellen +ty wra+te for +ty drede?
+(CMEARLPS,112.4890)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD knew)
+		  (NP-OB1 (NP (D +te)
+			      (N my+gt)
+			      (PP (P of)
+				  (NP (PRO$ +tyn) (N ire))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-INF (TO to)
+					 (VB tellen)
+					 (NP-OB1 (PRO$ +ty) (N wra+te))
+					 (PP (P for)
+					     (NP (PRO$ +ty) (N drede)))))))
+	  (. ?))
+  (ID CMEARLPS,112.4890))
+
+/~*
+Who shal arisen wy+t me o+gains +te wicked?
+(CMEARLPS,116.5063)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB arisen)
+		  (PP (P wy+t)
+		      (NP (PRO me)))
+		  (PP (P o+gains)
+		      (NP (D +te) (ADJ wicked))))
+	  (. ?))
+  (ID CMEARLPS,116.5063))
+
+/~*
+o+ter who shal stonde wy+t me o+gains +te wirchand wickednes?
+(CMEARLPS,116.5064)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ o+ter)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB stonde)
+		  (PP (P wy+t)
+		      (NP (PRO me)))
+		  (PP (P o+gains)
+		      (NP (D +te)
+			  (RRC (VAG wirchand)
+			       (NP-OB1 (N wickednes))))))
+	  (. ?))
+  (ID CMEARLPS,116.5064))
+
+/~*
+Who shal speke +te my+gtes of our Lord?
+(CMEARLPS,130.5661)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB speke)
+		  (NP-OB1 (D +te)
+			  (NS my+gtes)
+			  (PP (P of)
+			      (NP (PRO$ our) (NPR Lord)))))
+	  (. ?))
+  (ID CMEARLPS,130.5661))
+
+/~*
+Which wise shal kepe +tes +tynges & vnderstonde +te merci of our Lord?
+(CMEARLPS,135.5897)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 wise, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD Which) (ADJ wise))
+	  (IP-SUB (IP-SUB-2 (NP-SBJ *T*-1)
+			    (MD shal)
+			    (VB kepe)
+			    (NP-OB1 (D +tes) (NS +tynges)))
+		  (CONJP (CONJ &)
+			 (IP-SUB=2 (VB vnderstonde)
+				   (NP-OB1 (D +te)
+					   (N merci)
+					   (PP (P of)
+					       (NP (PRO$ our) (NPR Lord)))))))
+	  (. ?))
+  (ID CMEARLPS,135.5897))
+
+/~*
+Who shal lede me in-to a cite warnist?
+(CMEARLPS,136.5937)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB lede)
+		  (NP-OB1 (PRO me))
+		  (PP (P in-to)
+		      (NP (D a)
+			  (N cite)
+			  (RRC (VAN warnist)))))
+	  (. ?))
+  (ID CMEARLPS,136.5937))
+
+/~*
+who shal lede me in-to Ydume?
+(CMEARLPS,136.5938)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB lede)
+		  (NP-OB1 (PRO me))
+		  (PP (P in-to)
+		      (NP (NPR Ydume))))
+	  (. ?))
+  (ID CMEARLPS,136.5938))
+
+/~*
+Who is as God, our Lord, +tat loked to +te meke +tinges in heuen & in er+te?
+6. Liftand +te mysays fram +ter+te & dressand up +te pouer out of dung, 7.
++Tat he sett him wy+t princes, wy+t princes of his folk; 8. +Tat do+t +te
+barain moder of childer to wonen in +te hous ioyand.
+(CMEARLPS,140.6142)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (PP (P as)
+		      (NP (NPR God)
+			  (, ,)
+			  (NP-PRN (PRO$ our) (NPR Lord))
+			  (, ,)
+			  (CP-REL (WNP-2 0)
+				  (C +tat)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBD loked)
+					  (PP (P to)
+					      (NP (D +te) (ADJ meke) (NS +tinges)))
+					  (PP (PP (P in)
+						  (NP (NPR heuen)))
+					      (CONJP (CONJ &)
+						     (PP (P in)
+							 (NP (NPR er+te)))))
+					  (, ?)
+					  (NUMP (NUM 6.))
+					  (IP-PPL (IP-PPL (VAG Liftand)
+							  (NP-OB1 (D +te)
+								  (N mysays)
+								  (PP (P fram)
+								      (NP (D+NPR +ter+te)))))
+						  (CONJP (CONJ &)
+							 (IP-PPL (VAG dressand)
+								 (RP up)
+								 (NP-OB1 (D +te) (ADJ pouer))
+								 (PP (RP out)
+								     (P of)
+								     (NP (N dung)))
+								 (, ,)
+								 (NUMP (NUM 7.))
+								 (CP-ADV (C +Tat)
+									 (IP-SUB (NP-SBJ (PRO he))
+										 (VBD sett)
+										 (NP-OB1 (PRO him))
+										 (PP (P wy+t)
+										     (NP (NS princes))
+										     (, ,)
+										     (PP-PRN (P wy+t)
+											     (NP (NS princes)
+												 (PP (P of)
+												     (NP (PRO$ his) (N folk)))))))))))))
+			  (, ;)
+			  (NUMP (NUM 8.))
+			  (CP-REL (WNP-3 0)
+				  (C +Tat)
+				  (IP-SUB (NP-SBJ *T*-3)
+					  (DOP do+t)
+					  (IP-INF (NP-SBJ (D +te) (ADJ barain) (N moder))
+						  (PP-4 (P of)
+							(NP (NS childer)))
+						  (TO to)
+						  (VB wonen)
+						  (PP (P in)
+						      (NP (D +te)
+							  (N hous)
+							  (PP *ICH*-4)))
+						  (IP-PPL (VAG ioyand))))))))
+	  (. .))
+  (ID CMEARLPS,140.6142))
+
+/~*
+Ha +tou see, what +tyng is to +te, +tat tou fleddest, & +tou flum Iordan, for
++tou art turned o+gainward?
+(CMEARLPS,141.6157)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 15 +tyng, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJ Ha)
+	  (NP-VOC (PRO +tou) (N see))
+	  (, ,)
+	  (WNP-1 (WD what) (N +tyng))
+	  (IP-SUB (IP-SUB-2 (NP-SBJ *T*-1)
+			    (BEP is)
+			    (PP (P to)
+				(NP (PRO +te)))
+			    (, ,)
+			    (CP-ADV (C +tat)
+				    (IP-SUB (NP-SBJ (PRO tou))
+					    (VBD fleddest))))
+		  (, ,)
+		  (CONJP (CONJ &)
+			 (IP-SUB=2 (NP-VOC (PRO +tou) (NPR flum) (NPR Iordan))
+				   (, ,)
+				   (PP (P for)
+				       (CP-ADV (C 0)
+					       (IP-SUB (NP-SBJ (PRO +tou))
+						       (BEP art)
+						       (VAN turned)
+						       (ADVP-DIR (ADV+WARD o+gainward))))))))
+	  (. ?))
+  (ID CMEARLPS,141.6157))
+
+/~*
+What +tyng shal y +geue to our Lord for alle +tyng +tat he ha+t +geuen to me?
+(CMEARLPS,143.6260)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 +tyng, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N +tyng))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shal)
+		  (NP-SBJ (PRO y))
+		  (VB +geue)
+		  (PP (P to)
+		      (NP (PRO$ our) (NPR Lord)))
+		  (PP (P for)
+		      (NP (Q alle)
+			  (N +tyng)
+			  (CP-REL (WNP-2 0)
+				  (C +tat)
+				  (IP-SUB (NP-OB1 *T*-2)
+					  (NP-SBJ (PRO he))
+					  (HVP ha+t)
+					  (VBN +geuen)
+					  (PP (P to)
+					      (NP (PRO me))))))))
+	  (. ?))
+  (ID CMEARLPS,143.6260))
+
+/~*
+What +tinge be +geuen to +te?
+(CMEARLPS,156.6960)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 +tinge, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N +tinge))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP be)
+		  (VAN +geuen)
+		  (PP (P to)
+		      (NP (PRO +te))))
+	  (. ?))
+  (ID CMEARLPS,156.6960))
+
+/~*
+o+ter what be sett to +te trecherous tunge?
+(CMEARLPS,156.6961)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ o+ter)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP be)
+		  (VAN sett)
+		  (PP (P to)
+		      (NP (D +te) (ADJ trecherous) (N tunge))))
+	  (. ?))
+  (ID CMEARLPS,156.6961))
+
+/~*
+Lord, +gif +tou hast kept wickednes, Lord, who shal holde hem vp?
+(CMEARLPS,161.7152)
+*~/
+/*
+31 WNP-1:  31 WNP-1, 33 who, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-VOC (NPR Lord))
+	  (, ,)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tou))
+			      (HVP hast)
+			      (VBN kept)
+			      (NP-OB1 (N wickednes)))))
+	  (, ,)
+	  (NP-VOC (NPR Lord))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB holde)
+		  (NP-OB1 (PRO hem))
+		  (RP vp))
+	  (. ?))
+  (ID CMEARLPS,161.7152))
+
+/~*
+Lord, what is man, +tat tou madest +te knowen to hym? o+ter mannes sone, for
++tou wetest hym?
+(CMEARLPS,173.7623)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 what, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-VOC (NPR Lord))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (IP-SUB-2 (NP-OB1 *T*-1)
+			    (BEP is)
+			    (NP-SBJ (N man))
+			    (, ,)
+			    (CP-ADV (C +tat)
+				    (IP-SUB (NP-SBJ (PRO tou))
+					    (VBD madest)
+					    (IP-SMC (NP-SBJ (PRO +te))
+						    (VAN knowen)
+						    (PP (P to)
+							(NP (PRO hym)))))))
+		  (, ?)
+		  (CONJP (CONJ o+ter)
+			 (IP-SUB=2 (NP-SBJ (N$ mannes) (N sone))
+				   (, ,)
+				   (PP (P for)
+				       (CP-ADV (C 0)
+					       (IP-SUB (NP-SBJ (PRO +tou))
+						       (VBD wetest)
+						       (NP-OB1 (PRO hym))))))))
+	  (. ?))
+  (ID CMEARLPS,173.7623))
+
+/~*
+who shal hold vp to-fore +te face of his colde?
+(CMEARLPS,177.7777)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shal)
+		  (VB hold)
+		  (RP vp)
+		  (PP (P to-fore)
+		      (NP (D +te)
+			  (N face)
+			  (PP (P of)
+			      (NP (PRO$ his) (N colde))))))
+	  (. ?))
+  (ID CMEARLPS,177.7777))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd	52/52/7869
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd
+*/
+
+/~*
+And thei axiden hym, What thanne?
+(CMNTEST,1,20J.42)
+*~/
+/*
+15 WNP:  15 WNP, 17 What, 14 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO thei))
+	  (VBD axiden)
+	  (NP-OB2 (PRO hym))
+	  (, ,)
+	  (CP-QUE (WNP (WPRO What))
+		  (IP-SUB (ADVP-TMP (ADV thanne))))
+	  (. ?))
+  (ID CMNTEST,1,20J.42))
+
+/~*
+for he wiste, what was in man.
+(CMNTEST,2,20J.164)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO he))
+	  (VBD wiste)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (PP (P in)
+			      (NP (N man)))))
+	  (. .))
+  (ID CMNTEST,2,20J.164))
+
+/~*
+But he that was maad hool, wiste not who it was.
+(CMNTEST,5,1J.382)
+*~/
+/*
+32 WNP-3:  32 WNP-3, 34 who, 31 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO he)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ-2 *T*-1)
+				  (BED was)
+				  (VAN maad)
+				  (IP-SMC (NP-SBJ *-2)
+					  (ADJP (ADJ hool))))))
+	  (, ,)
+	  (VBD wiste)
+	  (NEG not)
+	  (CP-QUE (WNP-3 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-3)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (. .))
+  (ID CMNTEST,5,1J.382))
+
+/~*
+for he wiste what he was to do.
+(CMNTEST,6,1J.463)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO he))
+	  (VBD wiste)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (BED was)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (DO do))))
+	  (. .))
+  (ID CMNTEST,6,1J.463))
+
+/~*
+but thei knewen not what he spak to hem.
+(CMNTEST,10,1J.968)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO thei))
+	  (VBD knewen)
+	  (NEG not)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (VBD spak)
+			  (PP (P to)
+			      (NP (PRO hem)))))
+	  (. .))
+  (ID CMNTEST,10,1J.968))
+
+/~*
+Therfor many of the Jewis that camen to Marie and Martha, and seyn what
+thingis Jhesus dide, bileueden in hym.
+(CMNTEST,11,40J.1132)
+*~/
+/*
+48 WNP-2:  48 WNP-2, 52 thingis, 47 CP-QUE
+*/
+
+( (IP-MAT (PP (ADV+P Therfor))
+	  (NP-SBJ (Q many)
+		  (PP (P of)
+		      (NP (D the)
+			  (NPRS Jewis)
+			  (CP-REL (WNP-1 0)
+				  (C that)
+				  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+						  (VBD camen)
+						  (PP (P to)
+						      (NP (NPR Marie) (CONJ and) (NPR Martha))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB (NP-SBJ *T*-1)
+							 (VBD seyn)
+							 (CP-QUE (WNP-2 (WD what) (NS thingis))
+								 (C 0)
+								 (IP-SUB (NP-OB1 *T*-2)
+									 (NP-SBJ (NPR Jhesus))
+									 (DOD dide)
+									 (, ,))))))))))
+	  (VBD bileueden)
+	  (PP (P in)
+	      (NP (PRO hym)))
+	  (. .))
+  (ID CMNTEST,11,40J.1132))
+
+/~*
+and seiden to hem, what thingis Jhesus hadde don.
+(CMNTEST,11,40J.1134)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 21 thingis, 16 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD seiden)
+	  (PP (P to)
+	      (NP (PRO hem)))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WD what) (NS thingis))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (NPR Jhesus))
+			  (HVD hadde)
+			  (DON don)))
+	  (. .))
+  (ID CMNTEST,11,40J.1134))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd	7/7/1152
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd
+*/
+
+/~*
+Therfor whanne alle lyuynge beestis of erthe, and alle the volatils of heuene
+weren formed of erthe, the Lord God brou+gte tho to Adam, that he schulde se
+what he schulde clepe tho;
+(CMOTEST,2,1G.116)
+*~/
+/*
+88 WNP-1:  88 WNP-1, 90 what, 87 CP-QUE
+*/
+
+( (IP-MAT (PP (ADV+P Therfor))
+	  (PP (P whanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NP (Q alle)
+					  (VAG lyuynge)
+					  (NS beestis)
+					  (PP (P of)
+					      (NP (NPR erthe))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (NP (Q alle)
+						 (D the)
+						 (NS volatils)
+						 (PP (P of)
+						     (NP (NPR heuene))))))
+			      (BED weren)
+			      (VAN formed)
+			      (PP (P of)
+				  (NP (N erthe))))))
+	  (, ,)
+	  (NP-SBJ (D the) (NPR Lord) (NPR God))
+	  (VBD brou+gte)
+	  (NP-OB1 (D tho))
+	  (PP (P to)
+	      (NP (NPR Adam)))
+	  (, ,)
+	  (CP-ADV (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (MD schulde)
+			  (VB se)
+			  (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-SBJ (PRO he))
+					  (MD schulde)
+					  (VB clepe)
+					  (IP-SMC (NP-SBJ *T*-1)
+						  (NP-OB1 (D tho)))))))
+	  (. ;))
+  (ID CMOTEST,2,1G.116))
+
+/~*
+and whanne he hadde lerned what thingis his lesse sone hadde do to hym, he
+seide, Cursid be the child Canaan,
+(CMOTEST,9,20G.379)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 23 thingis, 18 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P whanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (HVD hadde)
+			      (VBN lerned)
+			      (CP-QUE (WNP-1 (WD what) (NS thingis))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO$ his) (ADJR lesse) (N sone))
+					      (HVD hadde)
+					      (DON do)
+					      (PP (P to)
+						  (NP (PRO hym))))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD seide)
+	  (, ,)
+	  (IP-MAT-SPE (VAN Cursid)
+		      (BEP be)
+		      (NP-SBJ (D the)
+			      (N child)
+			      (NP-PRN (NPR Canaan))))
+	  (. ,))
+  (ID CMOTEST,9,20G.379))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd	2/2/811
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd	52/52/7869
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd	7/7/1152
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd	2/2/811
+whole search, hits/tokens/total
+		61/61/9832
+*/

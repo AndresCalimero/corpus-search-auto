@@ -1,0 +1,1413 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:50 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\whquestions\history\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd
+*/
+
+/~*
+but stand there in gloomy silence, uncertain what they shall do.
+(CARLYLE-1837,1,140.100)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 what, 24 CP-QUE
+*/
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (VBP stand)
+	  (ADVP-LOC (ADV there))
+	  (PP (P in)
+	      (NP (ADJ gloomy) (N silence)))
+	  (, ,)
+	  (ADJP-SPR (ADJ uncertain)
+		    (CP-QUE (WNP-1 (WPRO what))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-1)
+				    (NP-SBJ (PRO they))
+				    (MD shall)
+				    (DO do))))
+	  (. .))
+  (ID CARLYLE-1837,1,140.100))
+
+/~*
+But lo! while the lion's voice roars loudest, what Apparition is this?
+(CARLYLE-1837,1,141.114)
+*~/
+/*
+30 WNP-1:  30 WNP-1, 34 Apparition, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (INTJ lo)
+	  (, !)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NP-POS (D the) (N$ lion's))
+				      (N voice))
+			      (VBP roars)
+			      (ADVP (ADVS loudest)))))
+	  (, ,)
+	  (WNP-1 (WD what) (N Apparition))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D this)))
+	  (. ?))
+  (ID CARLYLE-1837,1,141.114))
+
+/~*
+But what does the Oeil-de-Boeuf, now when De Bre`ze` shivers back thither?
+(CARLYLE-1837,1,141.130)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP does)
+		  (NP-SBJ (D the) (FW Oeil-de-Boeuf))
+		  (, ,)
+		  (ADVP-TMP (ADV now)
+			    (CP-REL (WADVP-2 (WADV when))
+				    (C 0)
+				    (IP-SUB (ADVP-TMP *T*-2)
+					    (NP-SBJ (NPR De) (NPR Bre`ze`))
+					    (VBP shivers)
+					    (ADVP-DIR (ADV back) (ADV thither))))))
+	  (. ?))
+  (ID CARLYLE-1837,1,141.130))
+
+/~*
+but what then?
+(CARLYLE-1837,1,143.183)
+*~/
+/*
+4 WNP:  4 WNP, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP (WPRO what))
+	  (ADVP (ADV then))
+	  (. ?))
+  (ID CARLYLE-1837,1,143.183))
+
+/~*
+Accordingly, what means this 'apparatus of troops'?
+(CARLYLE-1837,1,143.189)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 what, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJP (ADV Accordingly))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP means)
+		  (NP-SBJ (D this)
+			  (' ')
+			  (N apparatus)
+			  (PP (P of)
+			      (NP (NS troops)))))
+	  (' ')
+	  (. ?))
+  (ID CARLYLE-1837,1,143.189))
+
+/~*
+What means it?
+(CARLYLE-1837,1,144.197)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP means)
+		  (NP-SBJ (PRO it)))
+	  (. ?))
+  (ID CARLYLE-1837,1,144.197))
+
+/~*
+What means this reticence of the Oeil-de-Boeuf, broken only by nods and shrugs?
+(CARLYLE-1837,1,144.200)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP means)
+		  (NP-SBJ (D this)
+			  (N reticence)
+			  (PP (P of)
+			      (NP (D the) (FW Oeil-de-Boeuf)))
+			  (, ,)
+			  (RRC (VAN broken)
+			       (PP (FP only)
+				   (P by)
+				   (NP (NS nods) (CONJ and) (NS shrugs))))))
+	  (. ?))
+  (ID CARLYLE-1837,1,144.200))
+
+/~*
+In the mystery of that cloudy Ida, what is it that they forge and shape?
+(CARLYLE-1837,1,144.201)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 24 what, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P In)
+	      (NP (D the)
+		  (N mystery)
+		  (PP (P of)
+		      (NP (D that) (ADJ cloudy) (NPR Ida)))))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO it))
+		  (CP-CLF (WNP-2 0)
+			  (C that)
+			  (IP-SUB (NP-OB1 *T*-2)
+				  (NP-SBJ (PRO they))
+				  (VBP (VBP forge) (CONJ and) (VBP shape)))))
+	  (. ?))
+  (ID CARLYLE-1837,1,144.201))
+
+/~*
+What will the issue of these things be?
+(CARLYLE-1837,1,144.213)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD will)
+		  (NP-SBJ (D the)
+			  (N issue)
+			  (PP (P of)
+			      (NP (D these) (NS things))))
+		  (BE be))
+	  (. ?))
+  (ID CARLYLE-1837,1,144.213))
+
+/~*
+He, with his Echevins, and the Six-and-Twenty Town-Councillors, all appointed
+from Above, may well sit silent there, in their long gowns; and consider, with
+awed eye, what prelude this is of convulsion coming from Below, and how they
+themselves shall fare in that!
+(CARLYLE-1837,1,148.304)
+*~/
+/*
+91 WNP-2:  91 WNP-2, 97 *ICH*-3, 90 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO He))
+		    (, ,)
+		    (PP (P with)
+			(NP (NP (PRO$ his) (NS Echevins))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (NP (D the)
+				       (NUM+CONJ+NUM Six-and-Twenty)
+				       (N+NS Town-Councillors)
+				       (, ,)
+				       (RRC (Q all)
+					    (VAN appointed)
+					    (PP (P from)
+						(ADVP (ADV Above))))))))
+		    (, ,)
+		    (MD may)
+		    (ADVP (ADV well))
+		    (VB sit)
+		    (ADJP-SPR (ADJ silent))
+		    (ADVP-LOC (ADV there))
+		    (, ,)
+		    (PP (P in)
+			(NP (PRO$ their) (ADJ long) (NS gowns))))
+	  (, ;)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB consider)
+			   (, ,)
+			   (PP (P with)
+			       (NP (VAN awed) (N eye)))
+			   (, ,)
+			   (CP-QUE (CP-QUE (WNP-2 (WD what)
+						  (N prelude)
+						  (PP *ICH*-3))
+					   (C 0)
+					   (IP-SUB (NP-OB1 *T*-2)
+						   (NP-SBJ (D this))
+						   (BEP is)
+						   (PP-3 (P of)
+							 (IP-PPL (NP-SBJ (N convulsion))
+								 (VAG coming)
+								 (PP (P from)
+								     (ADVP (ADV Below)))))))
+				   (, ,)
+				   (CONJP (CONJ and)
+					  (CP-QUE (WADVP-4 (WADV how))
+						  (C 0)
+						  (IP-SUB (ADVP *T*-4)
+							  (NP-SBJ (PRO they)
+								  (NP-PRN (PRO+N themselves)))
+							  (MD shall)
+							  (VB fare)
+							  (PP (P in)
+							      (NP (D that)))))))))
+	  (. !))
+  (ID CARLYLE-1837,1,148.304))
+
+/~*
+What mean these 'placards of enormous size'?
+(CARLYLE-1837,1,148.315)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP mean)
+		  (NP-SBJ (D these)
+			  (' ')
+			  (NS placards)
+			  (PP (P of)
+			      (NP (ADJ enormous) (N size)))))
+	  (' ')
+	  (. ?))
+  (ID CARLYLE-1837,1,148.315))
+
+/~*
+Above all, what means this clatter of military; dragoons, hussars, rattling in
+from all points of the compass towards the Place Louis Quinze; with a staid
+gravity of face, though saluted with mere nicknames, hootings and even
+missiles?
+(CARLYLE-1837,1,149.316)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P Above)
+	      (QP (Q all)))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP means)
+		  (IP-PPL-SBJ (NP-SBJ (D this)
+				      (N clatter)
+				      (PP (P of)
+					  (NP (N military)
+					      (, ;)
+					      (CONJP (NS dragoons))
+					      (, ,)
+					      (CONJP (NS hussars)))))
+			      (, ,)
+			      (VAG rattling)
+			      (RP in)
+			      (NP-MSR (PP (P from)
+					  (NP (Q all)
+					      (NS points)
+					      (PP (P of)
+						  (NP (D the) (N compass)))))
+				      (PP (P towards)
+					  (NP (D the) (NPR Place) (NPR Louis) (NPR Quinze))))
+			      (, ;)
+			      (PP (P with)
+				  (NP (D a)
+				      (ADJ staid)
+				      (N gravity)
+				      (PP (P of)
+					  (NP (N face)))))
+			      (, ,)
+			      (PP (P though)
+				  (IP-PPL (VAN saluted)
+					  (PP (P with)
+					      (NP (ADJ mere)
+						  (CODE <P_1,149>)
+						  (NS nicknames)
+						  (, ,)
+						  (CONJP (NX (NS hootings)))
+						  (CONJP (CONJ and)
+							 (NX (FP even) (NS missiles)))))))))
+	  (. ?))
+  (ID CARLYLE-1837,1,149.316))
+
+/~*
+What mystery is in the wind?
+(CARLYLE-1837,1,149.326)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 mystery, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N mystery))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (PP (P in)
+		      (NP (D the) (N wind))))
+	  (. ?))
+  (ID CARLYLE-1837,1,149.326))
+
+/~*
+If the Eumenides awaken, and Broglie has given no orders, what can a Besenval
+do?
+(CARLYLE-1837,1,151.400)
+*~/
+/*
+37 WNP-1:  37 WNP-1, 39 what, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (D the) (NPRS Eumenides))
+				      (VBP awaken))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ (NPR Broglie))
+					     (HVP has)
+					     (VBN given)
+					     (NP-OB1 (Q no) (NS orders)))))))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD can)
+		  (NP-SBJ (D a) (NPR Besenval))
+		  (DO do))
+	  (. ?))
+  (ID CARLYLE-1837,1,151.400))
+
+/~*
+What meanest thou, Flesselles?
+(CARLYLE-1837,1,155.512)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP meanest)
+		  (NP-SBJ (PRO thou)))
+	  (, ,)
+	  (NP-VOC (NPR Flesselles))
+	  (. ?))
+  (ID CARLYLE-1837,1,155.512))
+
+/~*
+What is it to him, departing elsewhither, on his long journey?
+(CARLYLE-1837,1,158.578)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO it))
+		  (PP (P to)
+		      (NP (PRO him)
+			  (, ,)
+			  (RRC (VAG departing)
+			       (ADVP-DIR (ADV+WADV elsewhither))
+			       (, ,)
+			       (PP (P on)
+				   (NP (PRO$ his) (ADJ long) (N journey)))))))
+	  (. ?))
+  (ID CARLYLE-1837,1,158.578))
+
+/~*
+Who this figure with inflamed eyes, with speech rapid and curt, might be?
+(CARLYLE-1837,1,160.616)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (NP-SBJ (D this)
+			  (N figure)
+			  (PP (PP (P with)
+				  (NP (VAN inflamed) (NS eyes)))
+			      (, ,)
+			      (PP (P with)
+				  (NP (N speech)
+				      (ADJP (ADJ rapid) (CONJ and) (ADJ curt))))))
+		  (, ,)
+		  (MD might)
+		  (BE be))
+	  (. ?))
+  (ID CARLYLE-1837,1,160.616))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd	17/17/626
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd	0/0/454
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd
+*/
+
+/~*
+but, being afterwards affrighted with Visions by Night, he continued for some
+time very doubtful and uncertain what Course to take:
+(HIND-1707,302.57)
+*~/
+/*
+53 WNP-1:  53 WNP-1, 57 Course, 52 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (ADVP-TMP (ADV+WARD afterwards))
+		  (VAN affrighted)
+		  (PP (P with)
+		      (NP (NS Visions)))
+		  (PP (P by)
+		      (NP (N Night))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD continued)
+	  (PP (P for)
+	      (NP (Q some) (N time)))
+	  (ADJP (ADV very)
+		(ADJ doubtful)
+		(CONJP (CONJ and)
+		       (ADJX (ADJ uncertain)))
+		(CP-QUE (WNP-1 (WD what) (N Course))
+			(IP-INF (NP-OB1 *T*-1)
+				(TO to)
+				(VB take))))
+	  (. :))
+  (ID HIND-1707,302.57))
+
+/~*
+many also were in doubt which side to take.
+(HIND-1707,306.102)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 20 side, 15 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (Q many))
+	  (ALSO also)
+	  (BED were)
+	  (PP (P in)
+	      (NP (N doubt))
+	      (CP-QUE (WNP-1 (WD which) (N side))
+		      (IP-INF (NP-OB1 *T*-1)
+			      (TO to)
+			      (VB take))))
+	  (. .))
+  (ID HIND-1707,306.102))
+
+/~*
+The Council, upon a second Declaration what was to be done, resolv'd, that the
+Grecians should possess themselves of the Streights of Thermopylae, which were
+the only Passage out of Thessaly into Greece, and more easy to be maintain'd
+by their small Numbers, than any other; wherefore Leonidas, King of Sparta,
+was sent hither with 5000 Foot.
+(HIND-1707,309.133)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 what, 19 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N Council))
+	  (, ,)
+	  (PP (P upon)
+	      (NP (D a)
+		  (ADJ second)
+		  (N Declaration)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (IP-INF (TO to) (BE be) (DAN done))))))
+	  (, ,)
+	  (VBD resolv'd)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the) (CODE <font>) (NPRS Grecians))
+			  (CODE <$$font>)
+			  (MD should)
+			  (VB possess)
+			  (NP-OB1 (PRO+N themselves))
+			  (PP (P of)
+			      (NP (D the)
+				  (NS Streights)
+				  (PP (P of)
+				      (CODE <font>)
+				      (NP (NPR Thermopylae)))
+				  (CODE <$$font>)
+				  (, ,)
+				  (CP-REL (WNP-2 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (BED were)
+						  (NP-OB1 (NP (D the)
+							      (ADJ only)
+							      (N Passage)
+							      (PP (RP out)
+								  (P of)
+								  (CODE <font>)
+								  (NP (NPR Thessaly)))
+							      (CODE <$$font>)
+							      (PP (P into)
+								  (CODE <font>)
+								  (NP (NPR Greece))))
+							  (CODE <$$font>)
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (ADJP (QR more)
+								       (ADJ easy)
+								       (IP-INF (TO to)
+									       (BE be)
+									       (VAN maintain'd)
+									       (PP (P by)
+										   (NP (PRO$ their) (ADJ small) (N Numbers))))
+								       (, ,)
+								       (PP (P than)
+									   (NP (Q any) (OTHER other))))))))))))
+	  (, ;)
+	  (CP-CAR (WPP-3 (WADV+P wherefore))
+		  (CODE <font>)
+		  (C 0)
+		  (IP-SUB (PP *T*-3)
+			  (NP-SBJ (NPR Leonidas)
+				  (CODE <$$font>)
+				  (, ,)
+				  (NP-PRN (N King)
+					  (PP (P of)
+					      (CODE <font>)
+					      (NP (NPR Sparta)))))
+			  (CODE <$$font>)
+			  (, ,)
+			  (BED was)
+			  (VAN sent)
+			  (ADVP-DIR (ADV hither))
+			  (PP (P with)
+			      (NP (NUM 5000) (N Foot)))))
+	  (. .))
+  (ID HIND-1707,309.133))
+
+/~*
+But whilst Xerxes was distracted between Shame and Despair, and in doubt what
+Measures to take, whether he should proceed in his Enterprize and trust to
+Fortune, or recede from it with Safety and Disgrace, a Grecian Deserter of
+Trachin, named Epialtes, discover'd to him a secret Way by which part of his
+Army might climb the Ledge of the Mountains, and fall upon the Backs of the
+Grecians.
+(HIND-1707,310.154)
+*~/
+/*
+47 WNP-2:  47 WNP-2, 51 Measures, 46 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P whilst)
+	      (CODE <font>)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (NPR Xerxes))
+					(CODE <$$font>)
+					(BED was)
+					(VAN distracted)
+					(PP (P between)
+					    (NP (N Shame) (CONJ and) (N Despair))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB-1 (PP (P in)
+						   (NP (N doubt)
+						       (CP-QUE (CP-QUE (WNP-2 (WD what) (NS Measures))
+								       (IP-INF (NP-OB1 *T*-2)
+									       (TO to)
+									       (VB take)))
+							       (, ,)
+							       (CONJP (CP-QUE (WQ whether)
+									      (C 0)
+									      (IP-SUB (IP-SUB (IP-SUB-3 (NP-SBJ (PRO he))
+													(MD should)
+													(VB proceed)
+													(PP (P in)
+													    (NP (PRO$ his) (N Enterprize))))
+											      (CONJP (CONJ and)
+												     (IP-SUB=3 (VB trust)
+													       (PP (P to)
+														   (NP (N Fortune))))))
+										      (, ,)
+										      (CONJP (CONJ or)
+											     (IP-SUB=3 (VB recede)
+												       (PP (P from)
+													   (NP (PRO it)))
+												       (PP (P with)
+													   (NP (N Safety) (CONJ and) (N Disgrace))))))))))))))))
+	  (, ,)
+	  (NP-SBJ (D a)
+		  (CODE <font>)
+		  (ADJ Grecian)
+		  (CODE <$$font>)
+		  (N Deserter)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Trachin)))
+		  (CODE <$$font>)
+		  (, ,)
+		  (RRC (VAN named)
+		       (CODE <font>)
+		       (NP-SPR (NPR Epialtes))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (VBD discover'd)
+	  (PP (P to)
+	      (NP (PRO him)))
+	  (NP-OB1 (D a)
+		  (ADJ secret)
+		  (N Way)
+		  (CP-REL (WPP-4 (P by)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (IP-SUB-5 (PP *T*-4)
+					    (NP-SBJ (N part)
+						    (PP (P of)
+							(NP (PRO$ his) (N Army))))
+					    (MD might)
+					    (VB climb)
+					    (NP-OB1 (D the)
+						    (N Ledge)
+						    (PP (P of)
+							(NP (D the) (NS Mountains)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=5 (VB fall)
+						   (PP (P upon)
+						       (NP (D the)
+							   (NS Backs)
+							   (PP (P of)
+							       (NP (D the) (CODE <font>) (NPRS Grecians))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID HIND-1707,310.154))
+
+/~*
+But of all the Grecians he most dreaded the Spartans, whose Valour appear'd so
+remarkable in this Action, that he made strict Enquiry what Numbers they were
+able to bring into the Field.
+(HIND-1707,312.170)
+*~/
+/*
+80 WNP-2:  80 WNP-2, 84 Numbers, 79 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P of)
+	      (NP (Q all) (D the) (CODE <font>) (NPRS Grecians)))
+	  (CODE <$$font>)
+	  (NP-SBJ (PRO he))
+	  (NP-MSR (QS most))
+	  (VBD dreaded)
+	  (NP-OB1 (D the)
+		  (CODE <font>)
+		  (NPRS Spartans)
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO$ whose) (N Valour))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD appear'd)
+				  (ADJP (ADVR so) (ADJ remarkable))
+				  (PP (P in)
+				      (NP (D this) (N Action))))))
+	  (, ,)
+	  (CP-ADV (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (VBD made)
+			  (NP-OB1 (ADJ strict)
+				  (N Enquiry)
+				  (CP-QUE (WNP-2 (WD what) (N Numbers))
+					  (C 0)
+					  (IP-SUB (NP-SBJ (PRO they))
+						  (BED were)
+						  (ADJP (ADJ able)
+							(IP-INF (NP-OB1 *T*-2)
+								(TO to)
+								(VB bring)
+								(PP (P into)
+								    (NP (D the) (N Field))))))))))
+	  (. .))
+  (ID HIND-1707,312.170))
+
+/~*
+Aristides, having related the Matter, the Council was divided, the greatest
+part of them not believing him; when one Panaetius, who commanded a Galley
+belonging to the Island Tenedos, revolting from the Persians, and confirming
+what Aristides had said, the Grecians, finding themselves under a Necessity of
+fighting or being destroy'd, unanimously prepar'd themselves for the Battle.
+(HIND-1707,322.275)
+*~/
+/*
+136 WNP-2:  136 WNP-2, 138 what, 135 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL (NP-SBJ (NPR Aristides))
+		  (CODE <$$font>)
+		  (, ,)
+		  (HAG having)
+		  (VBN related)
+		  (NP-OB1 (D the) (N Matter)))
+	  (, ,)
+	  (NP-SBJ (D the) (N Council))
+	  (BED was)
+	  (VAN divided)
+	  (, ,)
+	  (IP-PPL (NP-SBJ (D the)
+			  (ADJS greatest)
+			  (N part)
+			  (PP (P of)
+			      (NP (PRO them))))
+		  (NEG not)
+		  (VAG believing)
+		  (NP-OB1 (PRO him)))
+	  (, ;)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-PPL-ABS (IP-PPL (NP-SBJ (ONE one)
+							  (CODE <font>)
+							  (NPR Panaetius)
+							  (CODE <$$font>)
+							  (, ,)
+							  (CP-REL (WNP-1 (WPRO who))
+								  (C 0)
+								  (IP-SUB (NP-SBJ *T*-1)
+									  (VBD commanded)
+									  (NP-OB1 (D a)
+										  (N Galley)
+										  (RRC (VAG belonging)
+										       (PP (P to)
+											   (NP (D the)
+											       (N Island)
+											       (CODE <font>)
+											       (NP-PRN (NPR Tenedos)))))))))
+						  (CODE <$$font>)
+						  (, ,)
+						  (VAG revolting)
+						  (PP (P from)
+						      (NP (D the) (CODE <font>) (NPRS Persians))))
+					  (CODE <$$font>)
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-PPL (NP-SBJ *con*)
+							 (VAG confirming)
+							 (CP-QUE (WNP-2 (WPRO what))
+								 (CODE <font>)
+								 (C 0)
+								 (IP-SUB (NP-OB1 *T*-2)
+									 (NP-SBJ (NPR Aristides))
+									 (CODE <$$font>)
+									 (HVD had)
+									 (VBN said))))))
+			      (, ,)
+			      (NP-SBJ (D the) (CODE <font>) (NPRS Grecians))
+			      (CODE <$$font>)
+			      (, ,)
+			      (IP-PPL (VAG finding)
+				      (NP-OB1 (PRO+N themselves))
+				      (PP (P under)
+					  (NP (D a)
+					      (N Necessity)
+					      (PP (P of)
+						  (IP-PPL (IP-PPL (VAG fighting))
+							  (CONJP (CONJ or)
+								 (IP-PPL (BAG being) (VAN destroy'd))))))))
+			      (, ,)
+			      (ADVP (ADV unanimously))
+			      (VBD prepar'd)
+			      (NP-OB1 (PRO+N themselves))
+			      (PP (P for)
+				  (NP (D the) (N Battle))))))
+	  (. .))
+  (ID HIND-1707,322.275))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd	6/6/297
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd
+*/
+
+/~*
+Nevertheless, even after this, the highest Protestations of Friendship pass'd
+between the two Courts, Charles being afraid of the Queen of $England $'s
+assisting the Huguenots, and she being willing to gain Time, that she might
+penetrate farther into the Designs of her Enemies; so that the Huguenots could
+not tell what to make of their good Protectress, who had even gone so far as
+to stand Godmother to Charles's new-born Daughter, after the Massacre of St.
+Bartholomew; which might make one believe, that her Zeal for the Protestant
+Religion was always subordinate to her private Interest. Tho' this must be
+observ'd, that she ordered her Ambassador, who was to represent her, not to be
+present at the Mass in the Ceremony of the Christening; and if it should be
+insisted on, to get the Queen of Navarre to stand in his Room.
+(KIMBER-1742,265.C1.173)
+*~/
+/*
+172 WNP-1:  172 WNP-1, 174 what, 171 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Nevertheless))
+	  (, ,)
+	  (PP (FP even)
+	      (P after)
+	      (NP (D this)))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (ADJS highest)
+		  (NS Protestations)
+		  (PP (P of)
+		      (NP (N Friendship))))
+	  (VBD pass'd)
+	  (PP (P between)
+	      (NP (D the) (NUM two) (NS Courts)))
+	  (, ,)
+	  (CODE <font>)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (NPR Charles))
+			      (CODE <$$font>)
+			      (BAG being)
+			      (ADJP (ADJ afraid)
+				    (PP (P of)
+					(NP (NP-POS (D the)
+						    (N Queen)
+						    (PP (P of)
+							(CODE <font>)
+							(NP (NPR $England)))
+						    ($ $'s))
+					    (CODE {TEXT:England's})
+					    (CODE <$$font>)
+					    (IP-PPL (VAG assisting)
+						    (NP-OB1 (D the) (CODE <font>) (NPRS Huguenots)))))))
+		      (CODE <$$font>)
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (PRO she))
+				     (BAG being)
+				     (ADJP (ADJ willing)
+					   (IP-INF (TO to)
+						   (VB gain)
+						   (NP-OB1 (N Time))))
+				     (, ,)
+				     (CP-ADV (C that)
+					     (IP-SUB (NP-SBJ (PRO she))
+						     (MD might)
+						     (VB penetrate)
+						     (NP-MSR (ADJR farther))
+						     (PP (P into)
+							 (NP (D the)
+							     (NS Designs)
+							     (PP (P of)
+								 (NP (PRO$ her) (NS Enemies))))))))))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (D the) (CODE <font>) (NPRS Huguenots))
+			      (CODE <$$font>)
+			      (MD could)
+			      (NEG not)
+			      (VB tell)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (IP-INF (NP-OB1 *T*-1)
+					      (TO to)
+					      (VB make)
+					      (PP (P of)
+						  (NP (PRO$ their)
+						      (ADJ good)
+						      (N Protectress)
+						      (, ,)
+						      (CP-REL (WNP-2 (WPRO who))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-2)
+								      (HVD had)
+								      (FP even)
+								      (VBN gone)
+								      (NP-MSR (ADJP (ADVR so) (ADJ far))
+									      (PP (P as)
+										  (IP-INF (TO to)
+											  (VB stand)
+											  (NP-SPR (N+N Godmother))
+											  (PP (P to)
+											      (CODE <font>)
+											      (NP (NPR$ Charles's) (CODE <$$font>) (ADV+VAN new-born) (N Daughter)))
+											  (, ,)
+											  (PP (P after)
+											      (NP (D the)
+												  (N Massacre)
+												  (PP (P of)
+												      (CODE <font>)
+												      (NP (NPR St.) (NPR Bartholomew))))))))
+								      (CODE <$$font>)
+								      (, ;)
+								      (CP-CAR (WNP-3 (WPRO which))
+									      (C 0)
+									      (IP-SUB (NP-SBJ *T*-3)
+										      (MD might)
+										      (VB make)
+										      (IP-INF (NP-SBJ (ONE one))
+											      (VB believe)
+											      (, ,)
+											      (CP-THT (C that)
+												      (IP-SUB (NP-SBJ (PRO$ her)
+														      (N Zeal)
+														      (PP (P for)
+															  (NP (D the) (ADJ Protestant) (N Religion))))
+													      (BED was)
+													      (ADVP-TMP (ADV always))
+													      (ADJP (ADJ subordinate)
+														    (PP (P to)
+															(NP (PRO$ her) (ADJ private) (N Interest)))))))
+										      (, .)
+										      (PP (P Tho')
+											  (CP-ADV (C 0)
+												  (IP-SUB (NP-SBJ (D this)
+														  (CP-THT-PRN *ICH*-4))
+													  (MD must)
+													  (BE be)
+													  (VAN observ'd)
+													  (, ,)
+													  (CP-THT-PRN-4 (C that)
+															(IP-SUB (NP-SBJ (PRO she))
+																(VBD ordered)
+																(NP-OB1 (PRO$ her)
+																	(N Ambassador)
+																	(, ,)
+																	(CP-REL (WNP-5 (WPRO who))
+																		(C 0)
+																		(IP-SUB (NP-SBJ *T*-5)
+																			(BED was)
+																			(IP-INF (TO to)
+																				(VB represent)
+																				(NP-OB1 (PRO her))))))
+																(, ,)
+																(IP-INF (IP-INF (NEG not)
+																		(TO to)
+																		(BE be)
+																		(ADJP (ADJ present)
+																		      (PP (P at)
+																			  (NP (D the) (CODE <font>) (N Mass))))
+																		(CODE <$$font>)
+																		(PP (P in)
+																		    (NP (D the)
+																			(N Ceremony)
+																			(PP (P of)
+																			    (NP (D the) (N Christening))))))
+																	(, ;)
+																	(CONJP (CONJ and)
+																	       (IP-INF (PP (P if)
+																			   (CP-ADV (C 0)
+																				   (IP-SUB (NP-SBJ-6 (PRO it))
+																					   (MD should)
+																					   (BE be)
+																					   (VAN insisted)
+																					   (PP (P on)
+																					       (NP *-6)))))
+																		       (, ,)
+																		       (TO to)
+																		       (VB get)
+																		       (IP-INF (NP-SBJ (D the)
+																				       (N Queen)
+																				       (PP (P of)
+																					   (CODE <font>)
+																					   (NP (NPR Navarre))))
+																			       (CODE <$$font>)
+																			       (TO to)
+																			       (VB stand)
+																			       (PP (P in)
+																				   (NP (PRO$ his) (N Room)))))))))))))))))))))))
+	  (. .))
+  (ID KIMBER-1742,265.C1.173))
+
+/~*
+and establish'd a Council, to consult what was to be done in his favour;
+whilst his Enemies at Court took care to have Spies about him, to inform them
+of what passed, which they did not fail representing to the Queen as much to
+his Disadvantage as possible.
+(KIMBER-1742,271.C2.330)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 what, 20 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD establish'd)
+	  (NP-OB1 (D a) (N Council))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB consult)
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-1)
+				      (BED was)
+				      (IP-INF (TO to)
+					      (BE be)
+					      (DAN done)
+					      (PP (P in)
+						  (NP (PRO$ his) (N favour)))))))
+	  (, ;)
+	  (PP (P whilst)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO$ his)
+				      (NS Enemies)
+				      (PP (P at)
+					  (NP (N Court))))
+			      (VBD took)
+			      (NP-OB1 (N care))
+			      (IP-INF (TO to)
+				      (HV have)
+				      (NP-OB1 (NS Spies)
+					      (CP-EOP *ICH*-2))
+				      (PP (P about)
+					  (NP (PRO him)))
+				      (, ,)
+				      (CP-EOP-2 (WNP-3 0)
+						(IP-INF (NP-SBJ *T*-3)
+							(TO to)
+							(VB inform)
+							(NP-OB1 (PRO them))
+							(PP (P of)
+							    (NP (CP-FRL (WNP-4 (WPRO what))
+									(C 0)
+									(IP-SUB (NP-SBJ *T*-4)
+										(VBD passed)))
+								(, ,)
+								(CP-REL (WNP-5 (WPRO which))
+									(C 0)
+									(IP-SUB (NP-SBJ (PRO they))
+										(DOD did)
+										(NEG not)
+										(VB fail)
+										(IP-PPL-OB1 (NP-OB1 *T*-5)
+											    (VAG representing)
+											    (PP (P to)
+												(NP (D the) (N Queen)))
+											    (ADVP (ADVR as)
+												  (Q much)
+												  (PP (P to)
+												      (NP (PRO$ his) (N Disadvantage)))
+												  (PP (P as)
+												      (ADJP (ADJ possible)))))))))))))))
+	  (. .))
+  (ID KIMBER-1742,271.C2.330))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd	2/2/351
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd
+*/
+
+/~*
+Whatever truth may be hid under this statement of the origin of the
+insurrection we $can $not determine.
+(LONG-1866,2,77.24)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 7 truth, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WD+ADV Whatever) (N truth))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD may)
+			  (BE be)
+			  (VAN hid)
+			  (PP (P under)
+			      (NP (D this)
+				  (N statement)
+				  (PP (P of)
+				      (NP (D the)
+					  (N origin)
+					  (PP (P of)
+					      (NP (D the) (N insurrection)))))))))
+	  (NP-SBJ (PRO we))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB determine)
+	  (. .))
+  (ID LONG-1866,2,77.24))
+
+/~*
+Antonius in reply urged what the Romans called 'aequitas' or fair dealing:
+(LONG-1866,2,93.451)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (NPR Antonius))
+	  (PP (P in)
+	      (NP (N reply)))
+	  (VBD urged)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (D the) (NPRS Romans))
+			  (VBD called)
+			  (' ')
+			  (IP-SMC (NP-SBJ *T*-1)
+				  (NP-OB1 (FW aequitas)
+					  (' ')
+					  (CONJP (CONJ or)
+						 (NX (ADJ fair) (N dealing)))))))
+	  (. :))
+  (ID LONG-1866,2,93.451))
+
+/~*
+But when we look to the purpose of the suit, whether it was to rescind the
+contract or to claim damages, we are at a loss to know what kind of an
+argument Crassus would make,
+(LONG-1866,2,94.463)
+*~/
+/*
+88 WNP-1:  88 WNP-1, 100 argument, 87 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP look)
+			      (PP (P to)
+				  (NP (D the)
+				      (N purpose)
+				      (PP (P of)
+					  (NP (D the) (N suit)))))
+			      (, ,)
+			      (CP-QUE-ADV (WQ whether)
+					  (C 0)
+					  (IP-SUB (NP-SBJ (PRO it))
+						  (BED was)
+						  (IP-INF-OB1 (IP-INF (TO to)
+								      (VB rescind)
+								      (NP-OB1 (D the) (N contract)))
+							      (CONJP (CONJ or)
+								     (IP-INF (TO to)
+									     (VB claim)
+									     (NP-OB1 (NS damages))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (BEP are)
+	  (PP (P at)
+	      (NP (D a) (N loss)))
+	  (IP-INF (TO to)
+		  (VB know)
+		  (CP-QUE (WNP-1 (WD what)
+				 (N kind)
+				 (PP (P of)
+				     (NP (D an) (N argument))))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR Crassus))
+				  (MD would)
+				  (VB make))))
+	  (. ,))
+  (ID LONG-1866,2,94.463))
+
+/~*
+There is a fragment of Diodorus on the increase of luxury at Rome, which may
+be fitly introduced here, though we are not quite certain what chronological
+place it occupied in his history.
+(LONG-1866,2,95.480)
+*~/
+/*
+83 WNP-3:  83 WNP-3, 89 place, 82 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX There))
+	  (BEP is)
+	  (NP-1 (D a)
+		(N fragment)
+		(PP (P of)
+		    (NP (NPR Diodorus)))
+		(PP (P on)
+		    (NP (D the)
+			(N increase)
+			(PP (P of)
+			    (NP (N luxury)))
+			(PP (P at)
+			    (NP (NPR Rome)))))
+		(, ,)
+		(CP-REL (WNP-2 (WPRO which))
+			(C 0)
+			(IP-SUB (NP-SBJ *T*-2)
+				(MD may)
+				(BE be)
+				(ADVP (ADV fitly))
+				(VAN introduced)
+				(ADVP-LOC (ADV here))
+				(, ,)
+				(PP (P though)
+				    (CP-ADV (C 0)
+					    (IP-SUB (NP-SBJ (PRO we))
+						    (BEP are)
+						    (NEG not)
+						    (ADJP (ADV quite)
+							  (ADJ certain)
+							  (CP-QUE (WNP-3 (WD what) (ADJ chronological) (N place))
+								  (C 0)
+								  (IP-SUB (NP-OB1 *T*-3)
+									  (NP-SBJ (PRO it))
+									  (VBD occupied)
+									  (PP (P in)
+									      (NP (PRO$ his) (N history))))))))))))
+	  (. .))
+  (ID LONG-1866,2,95.480))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd	4/4/557
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd	0/0/578
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd
+*/
+
+/~*
+What is affluence or luxury, if those we revere, or those we most passionately
+esteem, are unable to partake!
+(TURNER1-1799,60.306)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (N affluence) (CONJ or) (N luxury))
+		  (, ,)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (NP (D those)
+						  (CODE <P_60>)
+						  (CP-REL (WNP-2 0)
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-2)
+								  (NP-SBJ (PRO we))
+								  (VBP revere))))
+					      (, ,)
+					      (CONJP (CONJ or)
+						     (NP (D those)
+							 (CP-REL (WNP-3 0)
+								 (C 0)
+								 (IP-SUB (NP-OB1 *T*-3)
+									 (NP-SBJ (PRO we))
+									 (ADVP (QS most) (ADV passionately))
+									 (VBP esteem))))))
+				      (, ,)
+				      (BEP are)
+				      (ADJP (ADJ unable)
+					    (IP-INF (TO to) (VB partake)))))))
+	  (. !))
+  (ID TURNER1-1799,60.306))
+
+/~*
+Who were their pilots, or how they conceived, in their untutored minds the
+possibility of a project so intricate, and for such barbarians so sublime, has
+not been revealed to us.
+(TURNER1-1799,60.314)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 Who, 3 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE-SBJ (CP-QUE (WNP-1 (WPRO Who))
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (BED were)
+				      (NP-SBJ (PRO$ their) (NS pilots))))
+		      (, ,)
+		      (CONJP (CONJ or)
+			     (CP-QUE (WADVP-2 (WADV how))
+				     (C 0)
+				     (IP-SUB (IP-SUB-3 (ADVP *T*-2)
+						       (NP-SBJ (PRO they))
+						       (VBD conceived)
+						       (, ,)
+						       (PP (P in)
+							   (NP (PRO$ their) (ADJ untutored) (NS minds)))
+						       (NP-OB1 (D the)
+							       (N possibility)
+							       (PP (P of)
+								   (NP (D a)
+								       (N project)
+								       (ADJP (ADVR so) (ADJ intricate))))))
+					     (, ,)
+					     (CONJP (CONJ and)
+						    (IP-SUB=3 (PP (P for)
+								  (NP (SUCH such) (NS barbarians)))
+							      (ADJP (ADVR so) (ADJ sublime))))))))
+	  (, ,)
+	  (HVP has)
+	  (NEG not)
+	  (BEN been)
+	  (VAN revealed)
+	  (PP (P to)
+	      (NP (PRO us)))
+	  (. .))
+  (ID TURNER1-1799,60.314))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd	2/2/538
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd	17/17/626
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd	0/0/454
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd	6/6/297
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd	2/2/351
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd	4/4/557
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd	0/0/578
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd	2/2/538
+whole search, hits/tokens/total
+		31/31/3401
+*/

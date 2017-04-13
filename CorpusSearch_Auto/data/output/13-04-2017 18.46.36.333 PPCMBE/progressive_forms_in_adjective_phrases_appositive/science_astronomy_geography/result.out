@@ -1,0 +1,129 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:18 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_adjective_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_adjective_phrases_appositive\science_astronomy_geography\result.out
+
+node:   ADJP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (ADJP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	0/0/843
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	0/0/484
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd
+*/
+
+/~*
+There is a very small star k, but not so small as b, very near to, and north
+following f, which I did not see on the 26th.
+(HERSCHEL-1797,10.201)
+*~/
+/*
+69 VAG:  69 VAG, 70 following, 63 ADJP-PRN=3
+*/
+( (IP-MAT (NP-SBJ-1 (EX There))
+	  (BEP is)
+	  (NP-1 (D a)
+		(ADJP (ADJP (ADV very) (ADJ small))
+		      (CONJP *ICH*-2))
+		(N star)
+		(CODE <font>)
+		(NP-PRN (N k))
+		(CP-REL *ICH*-4)
+		(CODE <$$font>)
+		(, ,)
+		(CONJP-2 (CONJ but)
+			 (ADJP (NEG not)
+			       (ADVR so)
+			       (ADJ small)
+			       (PP (P as)
+				   (CODE <font>)
+				   (NP (N b))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (ADJP-LOC-3 (ADV very)
+		      (ADJ near)
+		      (PP (P to)
+			  (, ,)
+			  (ADJP-PRN=3 (CONJ and)
+				      (NP-DIR (N north))
+				      (VAG following))
+			  (CODE <font>)
+			  (NP (N f))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-REL-4 (WNP-5 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-OB1 *T*-5)
+			    (NP-SBJ (PRO I))
+			    (DOD did)
+			    (NEG not)
+			    (VB see)
+			    (PP (P on)
+				(NP (D the) (ADJ 26th)))))
+	  (. .))
+  (ID HERSCHEL-1797,10.201))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	1/1/731
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	0/0/303
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	0/0/318
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	0/0/468
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	0/0/843
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	0/0/484
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	1/1/731
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	0/0/303
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	0/0/318
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	0/0/468
+whole search, hits/tokens/total
+		1/1/3147
+*/

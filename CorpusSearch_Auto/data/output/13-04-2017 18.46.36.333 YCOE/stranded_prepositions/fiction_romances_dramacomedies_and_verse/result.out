@@ -1,0 +1,887 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:50:05 BST 2017
+
+command file:     data\searches\queries\YCOE\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\stranded_prepositions\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd
+*/
+
+/~*
+ac sume d+age on +arnemergen +ta he of sl+ape awoc, he abr+ac into +dam bure
++tar heo inne l+ag
+(coapollo,ApT:1.10.9)
+*~/
+/*
+60 P:  60 P, 61 inne, 57 PP
+*/
+( (IP-MAT (CONJ ac)
+	  (NP-DAT-TMP (Q^I sume) (N^D d+age))
+	  (PP (P on)
+	      (NP-ACC (N^A +arnemergen)))
+	  (CP-ADV (P +ta)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (PP (P of)
+			      (NP-DAT (N^D sl+ape)))
+			  (VBDI awoc)))
+	  (, ,)
+	  (NP-NOM (PRO^N he))
+	  (VBDI abr+ac)
+	  (PP (P into)
+	      (NP-DAT (D^D +dam)
+		      (N^D bure)
+		      (CP-REL (WADVP-LOC-1 (ADV^L +tar))
+			      (C 0)
+			      (IP-SUB (NP-NOM (PRO^N heo))
+				      (PP (ADVP-LOC *T*-1)
+					  (P inne))
+				      (VBDI l+ag))))))
+  (ID coapollo,ApT:1.10.9))
+
+/~*
++Da gewear+d hit +t+at +t+as m+adenes fostormodor into +dam bure eode and
+geseah hi +dar sittan on micelre gedrefednesse and hire cw+a+d to: Hwig eart
++tu, hl+afdige, swa gedrefedes modes?
+(coapollo,ApT:2.1.14)
+*~/
+/*
+74 P:  74 P, 75 to, 71 PP
+*/
+
+( (CODE <T06080000800,2.1>)
+  (IP-MAT (ADVP-TMP (ADV^T +Da))
+	  (BEDI gewear+d)
+	  (NP-NOM-x (PRO^N hit))
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (IP-SUB (NP-NOM (NP-GEN (D^G +t+as) (N^G m+adenes))
+					    (N^N fostormodor))
+				    (PP (P into)
+					(NP-DAT (D^D +dam) (N^D bure)))
+				    (VBD eode))
+			    (CONJP (CONJ and)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (VBDI geseah)
+					       (IP-INF (NP-ACC-SBJ (PRO^A hi))
+						       (ADVP-LOC (ADV^L +dar))
+						       (VB sittan)
+						       (PP (P on)
+							   (NP-DAT (Q^D micelre) (N^D gedrefednesse))))))
+			    (CONJP (CONJ and)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (NP-DAT-1 (PRO^D hire))
+					       (VBDI cw+a+d)
+					       (PP (NP-DAT *ICH*-1)
+						   (P to))
+					       (, :)
+					       (CP-QUE-SPE (WADVP-2 (WADV Hwig))
+							   (IP-SUB-SPE (ADVP *T*-2)
+								       (BEPI eart)
+								       (NP-NOM (PRO^N +tu))
+								       (, ,)
+								       (NP-NOM-VOC (N^N hl+afdige))
+								       (, ,)
+								       (NP-GEN-PRD (ADJP-GEN (ADV swa) (ADJ^G gedrefedes))
+										   (N^G modes))))))))
+	  (. ?))
+  (ID coapollo,ApT:2.1.14))
+
+/~*
+Seo fostormodor so+dlice +ta +da heo gehyrde +t+at +t+at m+aden hire dea+des
+girnde, +da cliopode heo hi hire to mid li+dere spr+ace
+(coapollo,ApT:2.14.24)
+*~/
+/*
+58 P:  58 P, 59 to, 54 PP
+*/
+
+( (CODE <T06080001600,2.14>)
+  (IP-MAT (NP-NOM-LFD (D^N Seo) (N^N fostormodor))
+	  (ADVP (ADV so+dlice))
+	  (CP-ADV (ADV^T +ta)
+		  (P +da)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N heo))
+			  (VBD gehyrde)
+			  (CP-THT (C +t+at)
+				  (IP-SUB (NP-NOM (D^N +t+at) (N^N m+aden))
+					  (NP-GEN (PRO$ hire) (N^G dea+des))
+					  (VBD girnde)))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +da))
+	  (VBD cliopode)
+	  (NP-NOM-RSP (PRO^N heo))
+	  (NP-ACC (PRO^A hi))
+	  (PP (NP-DAT-RFL (PRO^D hire))
+	      (P to))
+	  (PP (P mid)
+	      (NP-DAT (ADJ^D li+dere) (N^D spr+ace))))
+  (ID coapollo,ApT:2.14.24))
+
+/~*
+And to +dam +t+at he +te lengc brucan mihte his dohtor arleasan bridbeddes and
+him fram adryfan +ta +de hyre girndon to rihtum gesynscipum, he asette +da
+r+adels +tus cwe+dende:
+(coapollo,ApT:3.5.29)
+*~/
+/*
+47 P:  47 P, 48 fram, 43 PP
+*/
+
+( (CODE <T06080001900,3.5>)
+  (IP-MAT (CONJ And)
+	  (CP-ADV (P to)
+		  (D^D +dam)
+		  (C +t+at)
+		  (IP-SUB (IP-SUB-0 (NP-NOM (PRO^N he))
+				    (CODE <TEXT:hi>)
+				    (ADVP-TMP (D^I +te) (ADVR^T lengc))
+				    (VB brucan)
+				    (MDD mihte)
+				    (NP-GEN (NP-GEN (PRO$ his) (N^G dohtor))
+					    (ADJ^G arleasan)
+					    (N^G bridbeddes)))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (PP (NP-DAT-RFL (PRO^D him))
+						    (P fram))
+						(VB adryfan)
+						(NP-ACC (D^A +ta)
+							(CP-REL (WNP-NOM-1 0)
+								(C +de)
+								(IP-SUB (NP-NOM *T*-1)
+									(NP-DAT (PRO^D hyre))
+									(VBDI girndon)
+									(PP (P to)
+									    (NP-DAT (ADJ^D rihtum) (N^D gesynscipum))))))))))
+	  (, ,)
+	  (NP-NOM (PRO^N he))
+	  (VBD asette)
+	  (NP-ACC (D^A +da) (N^A r+adels))
+	  (PTP-NOM (ADVP (ADV +tus))
+		   (VAG^N cwe+dende))
+	  (. :))
+  (ID coapollo,ApT:3.5.29))
+
+/~*
+So+dlice +after +tam $+te Apollonius afaren w+as, Antiochus se cyningc him to
+gecigde his dihtnere se w+as Thaliarcus gehaten:
+(coapollo,ApT:6.1.75)
+*~/
+/*
+36 P:  36 P, 37 to, 32 PP
+*/
+
+( (CODE <T06080003800,6.1>)
+  (IP-MAT (ADVP (ADV So+dlice))
+	  (CP-ADV (P +after)
+		  (D^D +tam)
+		  (C $+te)
+		  (IP-SUB (NP-NOM (NR^N Apollonius))
+			  (VBN afaren)
+			  (BEDI w+as)))
+	  (, ,)
+	  (NP-NOM (NR^N Antiochus)
+		  (NP-NOM-PRN (D^N se) (N^N cyningc)))
+	  (PP (NP-DAT-RFL (PRO^D him))
+	      (P to))
+	  (VBD gecigde)
+	  (NP (PRO$ his)
+	      (N dihtnere)
+	      (CP-REL (WNP-NOM-1 (D^N se))
+		      (C 0)
+		      (IP-SUB (NP-NOM *T*-1)
+			      (BEDI w+as)
+			      (NP-NOM-PRD (NR^N Thaliarcus))
+			      (VBN gehaten))))
+	  (. :))
+  (ID coapollo,ApT:6.1.75))
+
+/~*
+and +tonne +tu him to becume, +tonne acwel +du hine mid isene o+d+de mid attre,
++t+at +tu mage freodom onfon +tonne +tu ongean cymst.
+(coapollo,ApT:6.5.79)
+*~/
+/*
+17 P:  17 P, 18 to, 13 PP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (CP-ADV-SPE (P +tonne)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+				      (PP (NP-DAT (PRO^D him))
+					  (P to))
+				      (VBPS becume)))
+	      (, ,)
+	      (ADVP-TMP (ADV^T +tonne))
+	      (VBI acwel)
+	      (NP-NOM (PRO^N +du))
+	      (NP-ACC (PRO^A hine))
+	      (PP (PP (P mid)
+		      (NP-DAT (ADJ^D isene)))
+		  (CONJP (CONJ o+d+de)
+			 (PP (P mid)
+			     (NP-DAT (N^D attre)))))
+	      (, ,)
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+				      (MDPS mage)
+				      (NP-ACC (N^A freodom))
+				      (RP+VB onfon)
+				      (CP-ADV-SPE (P +tonne)
+						  (C 0)
+						  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+							      (RP ongean)
+							      (VBPI cymst)))))
+	      (. .))
+  (ID coapollo,ApT:6.5.79))
+
+/~*
+Eala hu manful man +tu eart, +du +te wast +t+at +tu +after axsast.
+(coapollo,ApT:7.12.103)
+*~/
+/*
+48 P:  48 P, 49 +after, 45 PP
+*/
+
+( (CP-QUE-SPE (INTJ Eala)
+	      (WNP-NOM-1 (WADJP-NOM (WADV hu) (ADJ^N manful))
+			 (N^N man))
+	      (IP-SUB-SPE (NP-NOM-PRD *T*-1)
+			  (NP-NOM (PRO^N +tu))
+			  (BEPI eart)
+			  (, ,)
+			  (NP-NOM-VOC (PRO^N +du)
+				      (CP-REL-SPE (WNP-NOM-2 0)
+						  (C +te)
+						  (IP-SUB-SPE (NP-NOM *T*-2)
+							      (VBPI wast)
+							      (CP-FRL-SPE (WNP-ACC-3 (D^A +t+at))
+									  (C 0)
+									  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+										      (PP (NP-ACC *T*-3)
+											  (P +after))
+										      (VBPI axsast)))))))
+	      (. .))
+  (ID coapollo,ApT:7.12.103))
+
+/~*
+Swa hwilc man swa me Apollonium lifigendne to gebring+d, ic him gife fifti
+punda goldes,
+(coapollo,ApT:7.23.112)
+*~/
+/*
+26 P:  26 P, 27 to, 23 PP
+*/
+
+( (IP-MAT-SPE (CP-FRL-LFD-SPE (WNP-NOM-1 (ADV Swa) (WADJ^N hwilc) (N^N man))
+			      (C swa)
+			      (IP-SUB-SPE (NP-NOM *T*-1)
+					  (NP-2 (PRO me))
+					  (NP-ACC (NR^A Apollonium) (VAG^A lifigendne))
+					  (PP (NP *ICH*-2)
+					      (P to))
+					  (VBPI gebring+d)))
+	      (, ,)
+	      (NP-NOM (PRO^N ic))
+	      (NP-DAT-RFL (PRO^D him))
+	      (VBP gife)
+	      (NP (NUM fifti)
+		  (NP-GEN (N^G punda)
+			  (NP-GEN (N^G goldes))))
+	      (. ,))
+  (ID coapollo,ApT:7.23.112))
+
+/~*
+and +tam +de me his heafod to gebring+d, ic gife him c punda goldes.
+(coapollo,ApT:7.23.113)
+*~/
+/*
+26 P:  26 P, 27 to, 23 PP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-DAT-LFD (D^D +tam)
+			  (CP-REL-SPE (WNP-NOM-1 0)
+				      (C +de)
+				      (IP-SUB-SPE (NP-NOM *T*-1)
+						  (NP-2 (PRO me))
+						  (NP-ACC (PRO$ his) (N^A heafod))
+						  (PP (NP *ICH*-2)
+						      (P to))
+						  (VBPI gebring+d))))
+	      (, ,)
+	      (NP-NOM (PRO^N ic))
+	      (VBP gife)
+	      (NP-DAT-RSP (PRO^D him))
+	      (NP (NUM c)
+		  (NP-GEN (N^G punda)
+			  (NP-GEN (N^G goldes))))
+	      (. .))
+  (ID coapollo,ApT:7.23.113))
+
+/~*
+and him +after foran
+(coapollo,ApT:7.26.115)
+*~/
+/*
+10 P:  10 P, 11 +after, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (NP-DAT (PRO^D him))
+	      (P +after))
+	  (VBDI foran))
+  (ID coapollo,ApT:7.26.115))
+
+/~*
++Da het se cyngc scipa gegearcian and him +after faran,
+(coapollo,ApT:8.1.118)
+*~/
+/*
+29 P:  29 P, 30 +after, 25 PP
+*/
+
+( (CODE <T06080005600,8.1>)
+  (IP-MAT (ADVP-TMP (ADV^T +Da))
+	  (VBDI het)
+	  (NP-NOM (D^N se) (N^N cyngc))
+	  (IP-INF (IP-INF (NP-ACC (N^A scipa))
+			  (VB gegearcian))
+		  (CONJP (CONJ and)
+			 (IP-INF (PP (NP-DAT (PRO^D him))
+				     (P +after))
+				 (VB faran))))
+	  (. ,))
+  (ID coapollo,ApT:8.1.118))
+
+/~*
+and se angrislica su+dwesterna wind him ongean stod
+(coapollo,ApT:11.11.189)
+*~/
+/*
+17 P:  17 P, 18 ongean, 13 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM (D^N se) (ADJ^N angrislica) (ADJ^N su+dwesterna) (N^N wind))
+	  (PP (NP-DAT (PRO^D him))
+	      (P ongean))
+	  (VBDI stod))
+  (ID coapollo,ApT:11.11.189))
+
+/~*
+and +da estas him beforan legde +te he him to beodenne h+afde.
+(coapollo,ApT:12.16.210)
+*~/
+/*
+17 P:  17 P, 18 beforan, 13 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (NP-ACC (D^A +da)
+		  (N^A estas)
+		  (CP-REL *ICH*-1))
+	  (PP (NP-DAT (PRO^D him))
+	      (P beforan))
+	  (VBD legde)
+	  (CP-REL-1 (WNP-2 0)
+		    (C +te)
+		    (IP-SUB (NP *T*-2)
+			    (NP-NOM (PRO^N he))
+			    (CP-EOP (WNP-3 0)
+				    (IP-INF-NCO (NP *T*-3)
+						(NP-DAT (PRO^D him))
+						(TO to)
+						(VB^D beodenne)))
+			    (HVD h+afde)))
+	  (. .))
+  (ID coapollo,ApT:12.16.210))
+
+/~*
+and +dar in eode.
+(coapollo,ApT:13.1.223)
+*~/
+/*
+10 P:  10 P, 11 in, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (ADVP-LOC (ADV^L +dar))
+	      (P in))
+	  (VBD eode)
+	  (. .))
+  (ID coapollo,ApT:13.1.223))
+
+/~*
++Da +da $Apollonius +t+at gehirde he hine unscridde +tam healfan scicilse +de
+he on h+afde
+(coapollo,ApT:13.9.229)
+*~/
+/*
+47 P:  47 P, 48 on, 44 PP
+*/
+
+( (CODE <T06080011700,13.9>)
+  (IP-MAT (CP-ADV (ADV^T +Da)
+		  (P +da)
+		  (C 0)
+		  (IP-SUB (NP-NOM (NR^N $Apollonius))
+			  (NP-ACC (D^A +t+at))
+			  (VBD gehirde)))
+	  (NP-NOM (PRO^N he))
+	  (NP-ACC-RFL (PRO^A hine))
+	  (VBD unscridde)
+	  (NP-DAT (D^D +tam)
+		  (NUM^D healfan)
+		  (N^D scicilse)
+		  (CP-REL (WNP-1 0)
+			  (C +de)
+			  (IP-SUB (NP-NOM (PRO^N he))
+				  (PP (NP *T*-1)
+				      (P on))
+				  (HVD h+afde)))))
+  (ID coapollo,ApT:13.9.229))
+
+/~*
+and cw+a+d: Se iunga man +te +tu +after axsodest is forliden man.
+(coapollo,ApT:14.6.257)
+*~/
+/*
+30 P:  30 P, 31 +after, 27 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM (D^N Se)
+			      (ADJ^N iunga)
+			      (N^N man)
+			      (CP-REL-SPE (WNP-1 0)
+					  (C +te)
+					  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+						      (PP (NP *T*-1)
+							  (P +after))
+						      (VBPI axsodest))))
+		      (BEPI is)
+		      (NP-NOM-PRD (VBN^N forliden) (N^N man)))
+	  (. .))
+  (ID coapollo,ApT:14.6.257))
+
+/~*
+and cw+a+d: Se $forlidena man is cumen +te +du +after s+andest,
+(coapollo,ApT:14.15.266)
+*~/
+/*
+36 P:  36 P, 37 +after, 33 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM (D^N Se)
+			      (ADJ^N $forlidena)
+			      (N^N man)
+			      (CP-REL-SPE *ICH*-2))
+		      (BEPI is)
+		      (VBN cumen)
+		      (CP-REL-SPE-2 (WNP-1 0)
+				    (C +te)
+				    (IP-SUB-SPE (NP-NOM (PRO^N +du))
+						(PP (NP *T*-1)
+						    (P +after))
+						(VBDI s+andest))))
+	  (. ,))
+  (ID coapollo,ApT:14.15.266))
+
+/~*
+Mid +ti +te he geseah +t+at Apollonius swa sarlice s+at and ealle +tingc
+beheold and nan +dingc ne +at, +da cw+a+d he to +dam cynge: +du goda cyngc,
+efne +tes man +te +tu swa wel wi+d gedest, he is swi+de +afestful for +dinum
+gode.
+(coapollo,ApT:14.26.276)
+*~/
+/*
+116 P:  116 P, 117 wi+d, 113 PP
+*/
+
+( (CODE <T06080013800,14.26>)
+  (IP-MAT (CP-ADV (P Mid)
+		  (D^I +ti)
+		  (C +te)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (VBDI geseah)
+			  (CP-THT (C +t+at)
+				  (IP-SUB (IP-SUB (NP-NOM (NR^N Apollonius))
+						  (ADVP (ADV swa) (ADV sarlice))
+						  (VBDI s+at))
+					  (CONJP (CONJ and)
+						 (IP-SUB-CON (NP-NOM *con*)
+							     (NP-ACC (Q^A ealle) (N^A +tingc))
+							     (VBDI beheold)))
+					  (CONJP (CONJ and)
+						 (IP-SUB-CON (NP-NOM *con*)
+							     (NP-ACC (NEG+Q^A nan) (N^A +dingc))
+							     (NEG ne)
+							     (VBDI +at)))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +da))
+	  (VBDI cw+a+d)
+	  (NP-NOM (PRO^N he))
+	  (PP (P to)
+	      (NP-DAT (D^D +dam) (N^D cynge)))
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM-VOC (PRO^N +du)
+				  (NP-NOM-PRN (ADJ^N goda) (N^N cyngc)))
+		      (, ,)
+		      (ADVP (ADV efne))
+		      (NP-NOM-LFD (D^N +tes)
+				  (N^N man)
+				  (CP-REL-SPE (WNP-1 0)
+					      (C +te)
+					      (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+							  (ADVP (ADV swa) (ADV wel))
+							  (PP (NP *T*-1)
+							      (P wi+d))
+							  (VBPI gedest))))
+		      (, ,)
+		      (NP-NOM-RSP (PRO^N he))
+		      (BEPI is)
+		      (ADJP-NOM-PRD (ADV swi+de)
+				    (ADJ^N +afestful)
+				    (PP (P for)
+					(NP-DAT (PRO$^D +dinum) (N^D gode)))))
+	  (. .))
+  (ID coapollo,ApT:14.26.276))
+
+/~*
+and hyre to cw+a+d: $Leofe dohtor, hat feccan +tine hearpan
+(coapollo,ApT:16.10.311)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-NOM *con*)
+	      (PP (NP-DAT (PRO^D hyre))
+		  (P to))
+	      (VBDI cw+a+d)
+	      (, :)
+	      (IP-MAT-SPE (NP-NOM-VOC (ADJ^N $Leofe) (N^N dohtor))
+			  (, ,)
+			  (VBI hat)
+			  (IP-INF-SPE (VB feccan)
+				      (NP-ACC (PRO$^A +tine) (N^A hearpan)))))
+  (ID coapollo,ApT:16.10.311))
+
+/~*
+and gecig +de to $+tine frynd
+(coapollo,ApT:16.10.312)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (VBI gecig)
+	      (PP (NP-RFL (PRO +de))
+		  (P to))
+	      (NP-ACC (PRO$^A $+tine) (N^A frynd)))
+  (ID coapollo,ApT:16.10.312))
+
+/~*
+and heom cw+a+d to: Nima+d +tas +ting mid eow +te me seo cwen forgeaf
+(coapollo,ApT:17.19.359)
+*~/
+/*
+14 P:  14 P, 15 to, 11 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (NP-DAT-1 (PRO^D heom))
+	  (VBDI cw+a+d)
+	  (PP (NP-DAT *ICH*-1)
+	      (P to))
+	  (, :)
+	  (IP-MAT-SPE (VBI Nima+d)
+		      (NP-ACC (D^A +tas)
+			      (N^A +ting)
+			      (CP-REL-SPE *ICH*-2))
+		      (PP (P mid)
+			  (NP (PRO eow)))
+		      (CP-REL-SPE-2 (WNP-3 0)
+				    (C +te)
+				    (IP-SUB-SPE (NP *T*-3)
+						(NP (PRO me))
+						(NP-NOM (D^N seo) (N^N cwen))
+						(VBDI forgeaf)))))
+  (ID coapollo,ApT:17.19.359))
+
+/~*
+and +dar in eode Gode +tancigende +de him ne forwyrnde cynelices wur+dscipes
+and frofres.
+(coapollo,ApT:17.28.368)
+*~/
+/*
+10 P:  10 P, 11 in, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (ADVP-LOC (ADV^L +dar))
+	      (P in))
+	  (VBD eode)
+	  (PTP-NOM (NP-DAT (NR^D Gode)
+			   (CP-REL *ICH*-1))
+		   (VAG^N +tancigende)
+		   (CP-REL-1 (WNP-NOM-2 0)
+			     (C +de)
+			     (IP-SUB (NP-NOM *T*-2)
+				     (NP-DAT (PRO^D him))
+				     (NEG ne)
+				     (VBD forwyrnde)
+				     (NP-GEN (ADJ^G cynelices)
+					     (N^G wur+dscipes)
+					     (CONJP (CONJ and)
+						    (NX-GEN (N^G frofres)))))))
+	  (. .))
+  (ID coapollo,ApT:17.28.368))
+
+/~*
+and him to cw+a+d: Min dohtor girn+d +t+at heo mote leornian +at +de +da
+ges+aligan lare +de +tu canst.
+(coapollo,ApT:18.8.378)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (NP-DAT (PRO^D him))
+	      (P to))
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM (PRO$^N Min) (N^N dohtor))
+		      (VBPI girn+d)
+		      (CP-THT-SPE (C +t+at)
+				  (IP-SUB-SPE (NP-NOM (PRO^N heo))
+					      (MDPS mote)
+					      (VB leornian)
+					      (PP (P +at)
+						  (NP (PRO +de)))
+					      (NP-ACC (D^A +da)
+						      (ADJ^A ges+aligan)
+						      (N^A lare)
+						      (CP-REL-SPE (WNP-1 0)
+								  (C +de)
+								  (IP-SUB-SPE (NP *T*-1)
+									      (NP-NOM (PRO^N +tu))
+									      (MDPI canst)))))))
+	  (. .))
+  (ID coapollo,ApT:18.8.378))
+
+/~*
+and heom to beseah
+(coapollo,ApT:19.6.387)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (NP-DAT (PRO^D heom))
+	      (P to))
+	  (VBDI beseah))
+  (ID coapollo,ApT:19.6.387))
+
+/~*
+and hire to cw+a+d: Leofe dohtor, ne ondr+at +tu +de +aniges +tinges.
+(coapollo,ApT:22.10.472)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (NP-DAT (PRO^D hire))
+	      (P to))
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM-VOC (ADJ^N Leofe) (N^N dohtor))
+		      (, ,)
+		      (NEG ne)
+		      (VBI ondr+at)
+		      (NP-NOM (PRO^N +tu))
+		      (NP-RFL (PRO +de))
+		      (NP-GEN (Q^G +aniges) (N^G +tinges)))
+	  (. .))
+  (ID coapollo,ApT:22.10.472))
+
+/~*
+Ac he silfa w+as mid +tam fulestan horwe +tar to ge+teod
+(coapollo,ApT:48.19.495)
+*~/
+/*
+28 P:  28 P, 29 to, 24 PP
+*/
+
+( (CODE <T06080024400,48.19>)
+  (IP-MAT-SPE (CONJ Ac)
+	      (NP-NOM (PRO^N he)
+		      (ADJP-NOM (ADJ^N silfa)))
+	      (BEDI w+as)
+	      (PP (P mid)
+		  (NP-DAT (D^D +tam) (ADJS^D fulestan) (N^D horwe)))
+	      (PP (ADVP-LOC (ADV^L +tar))
+		  (P to))
+	      (VBN ge+teod))
+  (ID coapollo,ApT:48.19.495))
+
+/~*
++D+at forscildgode wif +ta eallum limon abifode, +ta +da heo hire on locode,
+(coapollo,ApT:50.19.543)
+*~/
+/*
+38 P:  38 P, 39 on, 34 PP
+*/
+
+( (CODE <T06080026700,50.19>)
+  (IP-MAT (NP-NOM (D^N +D+at) (ADJ^N forscildgode) (N^N wif))
+	  (ADVP-TMP (ADV^T +ta))
+	  (NP-DAT-ADT (Q^D eallum) (N^D limon))
+	  (VBD abifode)
+	  (, ,)
+	  (CP-ADV (ADV^T +ta)
+		  (P +da)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N heo))
+			  (PP (NP-DAT (PRO^D hire))
+			      (P on))
+			  (VBD locode)))
+	  (. ,))
+  (ID coapollo,ApT:50.19.543))
+
+/~*
+and him to cw+a+d: Theophile, to +ton +t+at +tu +de gebeorge, sege hluddre
+st+afne hwa +de hete me ofslean.
+(coapollo,ApT:50.21.546)
+*~/
+/*
+10 P:  10 P, 11 to, 6 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (NP-DAT (PRO^D him))
+	      (P to))
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (NP-VOC (NR Theophile))
+		      (, ,)
+		      (CP-ADV-SPE (P to)
+				  (D^I +ton)
+				  (C +t+at)
+				  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+					      (NP-RFL (PRO +de))
+					      (VBPS gebeorge)))
+		      (, ,)
+		      (VBI sege)
+		      (NP-DAT-ADT (ADJ^D hluddre) (N^D st+afne))
+		      (CP-QUE-SPE (WNP-NOM-1 (WPRO^N hwa))
+				  (C 0)
+				  (IP-SUB-SPE (NP-NOM *T*-1)
+					      (NP-ACC-2 (PRO^A +de))
+					      (VBDS hete)
+					      (IP-INF-SPE (NP-ACC-SBJ *ICH*-2)
+							  (NP (PRO me))
+							  (RP+VB ofslean)))))
+	  (. .))
+  (ID coapollo,ApT:50.21.546))
+
+/~*
+Heo r+ahte +ta so+dlice hire handa him to
+(coapollo,ApT:50.29.554)
+*~/
+/*
+24 P:  24 P, 25 to, 20 PP
+*/
+
+( (CODE <T06080027100,50.29>)
+  (IP-MAT (NP-NOM (PRO^N Heo))
+	  (VBD r+ahte)
+	  (ADVP-TMP (ADV^T +ta))
+	  (ADVP (ADV so+dlice))
+	  (NP (PRO$ hire) (N handa))
+	  (PP (NP-DAT (PRO^D him))
+	      (P to)))
+  (ID coapollo,ApT:50.29.554))
+
+/~*
+And gif hi hwa r+ade, ic bidde +t+at he +tas aw+andednesse ne t+ale, ac +t+at
+he hele swa hw+at swa +tar on sy to tale.
+(coapollo,ApT:51.36.593)
+*~/
+/*
+73 P:  73 P, 74 on, 69 PP
+*/
+
+( (CODE <T06080028800,51.36>)
+  (IP-MAT-SPE (CONJ And)
+	      (CP-ADV-SPE (P gif)
+			  (C 0)
+			  (IP-SUB-SPE (NP-ACC (PRO^A hi))
+				      (NP-NOM (Q^N hwa))
+				      (VBPS r+ade)))
+	      (, ,)
+	      (NP-NOM (PRO^N ic))
+	      (VBP bidde)
+	      (CP-THT-SPE (CP-THT-SPE (C +t+at)
+				      (IP-SUB-SPE (NP-NOM (PRO^N he))
+						  (NP-ACC (D^A +tas) (N^A aw+andednesse))
+						  (NEG ne)
+						  (VBPS t+ale)))
+			  (, ,)
+			  (CONJP (CONJ ac)
+				 (CP-THT-SPE (C +t+at)
+					     (IP-SUB-SPE (NP-NOM (PRO^N he))
+							 (VBPS hele)
+							 (CP-FRL-SPE (WNP-NOM-1 (ADV swa) (WPRO^N hw+at))
+								     (C swa)
+								     (IP-SUB-SPE (NP-NOM *T*-1)
+										 (PP (ADVP-LOC (ADV^L +tar))
+										     (P on))
+										 (BEPS sy)
+										 (PP (P to)
+										     (NP (N tale)))))))))
+	      (. .))
+  (ID coapollo,ApT:51.36.593))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd	30/30/593
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd	30/30/593
+whole search, hits/tokens/total
+		30/30/593
+*/

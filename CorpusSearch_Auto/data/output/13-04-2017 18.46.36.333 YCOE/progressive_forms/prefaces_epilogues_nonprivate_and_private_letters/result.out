@@ -1,0 +1,415 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:48:17 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms\prefaces_epilogues_nonprivate_and_private_letters\result.out
+
+node:   AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coepigen.o3.psd
+*/
+
+/~*
+Se yldra Theodosius swi+de oft h+afde sige on manegum gewinne for his miclum
+geleafan, swa +t+at on sumum gefeohte him sende God swa micelne wind, +t+at
++ta w+amna flugon mid swiftum gesceote swi+de on heora find, & his feonda
+w+amna wendon on hi sylfe & fylston +tam casere, o+d +t+at him com to fotum
+his wi+derwinna gewilniende fri+des.
+(coepigen,+AGenEp:40.29)
+*~/
+/*
+171 VAG^N:  171 VAG^N, 172 gewilniende
+*/
+( (CODE <T06300001200,40>)
+  (IP-MAT (NP-NOM (D^N Se) (ADJR^N yldra) (NR^N Theodosius))
+	  (ADVP-TMP (ADV swi+de) (ADV^T oft))
+	  (HVD h+afde)
+	  (NP (N sige))
+	  (PP (P on)
+	      (NP-DAT (Q^D manegum) (N^D gewinne)))
+	  (PP (P for)
+	      (NP-DAT (PRO$ his) (Q^D miclum) (N^D geleafan)))
+	  (, ,)
+	  (CP-ADV (P swa)
+		  (C +t+at)
+		  (IP-SUB (PP (P on)
+			      (NP-DAT (Q^D sumum) (N^D gefeohte)))
+			  (NP-DAT (PRO^D him))
+			  (VBD sende)
+			  (NP-NOM (NR^N God))
+			  (NP-ACC (QP-ACC (ADV swa)
+					  (Q^A micelne)
+					  (CP-DEG *ICH*-1))
+				  (N^A wind)
+				  (, ,)
+				  (CP-DEG-1 (C +t+at)
+					    (IP-SUB (IP-SUB (NP-NOM (D^N +ta) (N^N w+amna))
+							    (VBDI flugon)
+							    (PP (P mid)
+								(NP-DAT (ADJ^D swiftum) (N^D gesceote)))
+							    (ADVP (ADV swi+de))
+							    (PP (P on)
+								(NP-ACC (PRO$ heora) (N^A find))))
+						    (, ,)
+						    (CONJP (CONJ &)
+							   (IP-SUB-CON (NP-NOM (NP-GEN (PRO$ his) (N^G feonda))
+									       (N^N w+amna))
+								       (VBDI wendon)
+								       (PP (P on)
+									   (NP-ACC-RFL (PRO^A hi)
+										       (ADJP-ACC (ADJ^A sylfe))))))
+						    (CONJP (CONJ &)
+							   (IP-SUB-CON (NP-NOM *con*)
+								       (VBDI fylston)
+								       (NP-DAT (D^D +tam) (N^D casere))
+								       (, ,)
+								       (CP-ADV (P o+d)
+									       (D^A +t+at)
+									       (C 0)
+									       (IP-SUB (NP-DAT-ADT (PRO^D him))
+										       (VBDI com)
+										       (PP (P to)
+											   (NP-DAT (N^D fotum)))
+										       (NP-NOM (PRO$ his)
+											       (N^N wi+derwinna)
+											       (PTP-NOM (VAG^N gewilniende)
+													(NP-GEN (N^G fri+des)))))))))))))
+	  (. .))
+  (ID coepigen,+AGenEp:40.29))
+
+/~*
+& hi gemetton +t+arrihte Godes engel him togeanes gangende mid him, se him
+t+ahte +tone weg, +te hi sylfe ne cu+don, ofer anum bradum fenne, +d+ar nan
+f+ar +ar n+as, & ofer +tam w+atere mid wundorlicum f+arelde drium fotum ealle,
+swa swa Moyses dyde mid +dam ealdan Israhel ofer +ta Readan S+a, o+d +t+at hi
+becomon +t+ar +d+ar he geh+aft w+as,
+(coepigen,+AGenEp:49.35)
+*~/
+/*
+27 VAG:  27 VAG, 28 gangende
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N hi))
+	  (VBDI gemetton)
+	  (ADVP-TMP (ADV^T +t+arrihte))
+	  (IP-SMC (NP-ACC-SBJ (NP-GEN (NR^G Godes))
+			      (N^A engel)
+			      (CP-REL *ICH*-4))
+		  (PP (NP-DAT (PRO^D him))
+		      (P togeanes))
+		  (VAG gangende)
+		  (PP (P mid)
+		      (NP-DAT (PRO^D him)))
+		  (, ,)
+		  (CP-REL-4 (WNP-NOM-1 (D^N se))
+			    (C 0)
+			    (IP-SUB (IP-SUB-0 (NP-NOM *T*-1)
+					      (NP-DAT (PRO^D him))
+					      (VBD t+ahte)
+					      (NP-ACC (D^A +tone)
+						      (N^A weg)
+						      (, ,)
+						      (CP-REL (WNP-2 0)
+							      (C +te)
+							      (IP-SUB (NP *T*-2)
+								      (NP-NOM (PRO^N hi)
+									      (ADJP-NOM (ADJ^N sylfe)))
+								      (NEG ne)
+								      (MDDI cu+don))))
+					      (, ,)
+					      (PP (P ofer)
+						  (NP-DAT (NUM^D anum)
+							  (ADJ^D bradum)
+							  (N^D fenne)
+							  (, ,)
+							  (CP-REL (WADVP-LOC-3 (ADV^L +d+ar))
+								  (C 0)
+								  (IP-SUB (ADVP-LOC *T*-3)
+									  (NP-NOM (NEG+Q^N nan) (N^N f+ar))
+									  (ADVP-TMP (ADV^T +ar))
+									  (NEG+BEDI n+as))))))
+				    (, ,)
+				    (CONJP (CONJ &)
+					   (IPX-SUB-CON=0 (PP (P ofer)
+							      (NP-DAT (D^D +tam) (N^D w+atere)))
+							  (PP (P mid)
+							      (NP-DAT (ADJ^D wundorlicum) (N^D f+arelde)))
+							  (NP-DAT-ADT (ADJ^D drium) (N^D fotum))
+							  (QP-NOM (Q^N ealle))
+							  (, ,)
+							  (PP (ADV swa)
+							      (P swa)
+							      (CP-CMP (WADVP-1 0)
+								      (C 0)
+								      (IP-SUB (ADVP *T*-1)
+									      (NP-NOM (NR^N Moyses))
+									      (VBD dyde)
+									      (PP (P mid)
+										  (NP-DAT (D^D +dam) (ADJ^D ealdan) (NR^D Israhel)))
+									      (PP (P ofer)
+										  (NP-ACC (D^A +ta) (ADJ^A Readan) (N^A S+a)))
+									      (, ,)
+									      (CP-ADV (P o+d)
+										      (D^A +t+at)
+										      (C 0)
+										      (IP-SUB (NP-NOM (PRO^N hi))
+											      (VBDI becomon)
+											      (ADVP-LOC (ADV^L +t+ar)
+													(CP-REL (WADVP-LOC-5 (ADV^L +d+ar))
+														(C 0)
+														(IP-SUB (ADVP-LOC *T*-5)
+															(NP-NOM (PRO^N he))
+															(VBN geh+aft)
+															(BEDI w+as))))))))))))))
+	  (. ,))
+  (ID coepigen,+AGenEp:49.35))
+
+/~*
+Hi +ta ferdon to truwiende on hi silfe,
+(coepigen,+AGenEp:65.46)
+*~/
+/*
+15 VAG^N:  15 VAG^N, 16 truwiende
+*/
+
+( (CODE <T06300001700,65>)
+  (IP-MAT (NP-NOM (PRO^N Hi))
+	  (ADVP-TMP (ADV^T +ta))
+	  (VBDI ferdon)
+	  (RP to)
+	  (PTP-NOM (VAG^N truwiende)
+		   (PP (P on)
+		       (NP-ACC-RFL (PRO^A hi)
+				   (ADJP-ACC (ADJ^A silfe)))))
+	  (. ,))
+  (ID coepigen,+AGenEp:65.46))
+
+/~*
+& him God gewilde his wi+derwinnan a, ciningas & eorlas, +t+at hi comon him to
+buton +alcum gefeohte fri+des wilniende,
+(coepigen,+AGenEp:82.64)
+*~/
+/*
+60 VAG^N:  60 VAG^N, 61 wilniende
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-DAT (PRO^D him))
+	  (NP-NOM (NR^N God))
+	  (VBD gewilde)
+	  (NP-ACC (PRO$ his)
+		  (N^A wi+derwinnan)
+		  (NP-ACC-PRN *ICH*-1))
+	  (ADVP-TMP (ADV^T a))
+	  (, ,)
+	  (NP-ACC-PRN-1 (N^A ciningas) (CONJ &) (N^A eorlas))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N hi))
+			  (VBDI comon)
+			  (PP (NP-DAT (PRO^D him))
+			      (P to))
+			  (PP (P buton)
+			      (NP-DAT (Q^D +alcum) (N^D gefeohte)))
+			  (PTP-NOM (NP-GEN (N^G fri+des))
+				   (VAG^N wilniende))))
+	  (. ,))
+  (ID coepigen,+AGenEp:82.64))
+
+/~*
+We endia+d nu +tisne cwide +tus, +tanciende +dam +almihtigan ealra his
+godnissa, se +de +afre rixa+d on ecnisse,
+(coepigen,+AGenEp:88.67)
+*~/
+/*
+23 VAG^N:  23 VAG^N, 24 +tanciende
+*/
+
+( (CODE <T06300002200,88>)
+  (IP-MAT (NP-NOM (PRO^N We))
+	  (VBPI endia+d)
+	  (ADVP-TMP (ADV^T nu))
+	  (NP-ACC (D^A +tisne) (N^A cwide))
+	  (ADVP (ADV +tus))
+	  (, ,)
+	  (PTP-NOM (VAG^N +tanciende)
+		   (NP-DAT (D^D +dam)
+			   (ADJ^D +almihtigan)
+			   (CP-REL *ICH*-1))
+		   (NP-GEN (Q^G ealra) (PRO$ his) (N^G godnissa))
+		   (, ,)
+		   (CP-REL-1 (WNP-NOM-2 (D^N se))
+			     (C +de)
+			     (IP-SUB (NP-NOM *T*-2)
+				     (ADVP-TMP (ADV^T +afre))
+				     (VBPI rixa+d)
+				     (PP (P on)
+					 (NP (N ecnisse))))))
+	  (. ,))
+  (ID coepigen,+AGenEp:88.67))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coepigen.o3.psd	5/5/68
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath1.o3.psd
+*/
+
+/~*
+For +disum antimbre ic gedyrstl+ahte on Gode truwiende +t+at ic +das
+gesetnysse undergann. & eac for +dam +de menn behofia+d godre lare swi+dost on
++tisum timan +te is geendung +tyssere worulde. & beo+d fela frecednyssa on
+mancynne +ar +dan +te se ende becume. swa swa ure Drihten on his godspelle
+cw+a+d to his leorningcnihtum.
+(coprefcath1,+ACHom_I_[Pref]:174.56.7)
+*~/
+/*
+27 VAG^N:  27 VAG^N, 28 truwiende
+*/
+
+( (CODE <T02040000300,174.56>)
+  (IP-MAT (PP (PP (P For)
+		  (NP-DAT (D^D +disum) (N^D antimbre)))
+	      (CONJP *ICH*-2))
+	  (NP-NOM (PRO^N ic))
+	  (VBD gedyrstl+ahte)
+	  (PTP-NOM (PP (P on)
+		       (NP-DAT (NR^D Gode)))
+		   (VAG^N truwiende))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N ic))
+			  (NP-ACC (D^A +das) (N^A gesetnysse))
+			  (RP+VBDI undergann)))
+	  (, .)
+	  (CONJP-2 (CONJ &)
+		   (ADV eac)
+		   (CP-ADV (P for)
+			   (D^D +dam)
+			   (C +de)
+			   (IP-SUB (IP-SUB (NP-NOM (N^N menn))
+					   (VBPI behofia+d)
+					   (NP-DAT (ADJ^D godre) (N^D lare))
+					   (ADVP (ADVS swi+dost))
+					   (PP (P on)
+					       (NP-DAT (D^D +tisum)
+						       (N^D timan)
+						       (CP-REL (WADVP-LOC-1 0)
+							       (C +te)
+							       (IP-SUB (ADVP-LOC *T*-1)
+								       (BEPI is)
+								       (NP-NOM (N^N geendung)
+									       (NP-GEN (D^G +tyssere) (N^G worulde))))))))
+				   (, .)
+				   (CONJP (CONJ &)
+					  (IP-SUB-CON (BEI beo+d)
+						      (NP-NOM (Q fela)
+							      (NP-GEN (N^G frecednyssa)))
+						      (PP (P on)
+							  (NP-DAT (N^D mancynne)))
+						      (CP-ADV (P +ar)
+							      (D^I +dan)
+							      (C +te)
+							      (IP-SUB (NP-NOM (D^N se) (N^N ende))
+								      (VBPS becume)))
+						      (, .)
+						      (PP (ADV swa)
+							  (P swa)
+							  (CPX-CMP (IPX-SUB (NP-NOM (PRO$^N ure) (NR^N Drihten))
+									    (PP (P on)
+										(NP-DAT (PRO$ his) (N^D godspelle)))
+									    (VBDI cw+a+d)
+									    (PP (P to)
+										(NP-DAT (PRO$ his) (N^D leorningcnihtum)))))))))))
+	  (. .))
+  (ID coprefcath1,+ACHom_I_[Pref]:174.56.7))
+
+/~*
+Manega lease cristas cuma+d on minum naman cwe+dende ic eom Crist.
+(coprefcath1,+ACHom_I_[Pref]:175.62.9)
+*~/
+/*
+22 VAG^N:  22 VAG^N, 23 cwe+dende
+*/
+
+( (CODE <T02040000500,175.62>)
+  (IP-MAT-SPE (NP-NOM (Q^N Manega) (ADJ^N lease) (N^N cristas))
+	      (VBPI cuma+d)
+	      (PP (P on)
+		  (NP-DAT (PRO$^D minum) (N^D naman)))
+	      (PTP-NOM (VAG^N cwe+dende)
+		       (IP-MAT-SPE (NP-NOM (PRO^N ic))
+				   (BEPI eom)
+				   (NP-NOM-PRD (NR^N Crist))))
+	      (. .))
+  (ID coprefcath1,+ACHom_I_[Pref]:175.62.9))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath1.o3.psd	2/2/58
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath2.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath2.o3.psd	0/0/17
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcura.o2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcura.o2.psd	0/0/37
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefgen.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefgen.o3.psd	0/0/79
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\copreflives.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\copreflives.o3.psd	0/0/22
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefsolilo.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefsolilo.psd	0/0/14
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coepigen.o3.psd	5/5/68
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath1.o3.psd	2/2/58
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcath2.o3.psd	0/0/17
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefcura.o2.psd	0/0/37
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefgen.o3.psd	0/0/79
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\copreflives.o3.psd	0/0/22
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\prefaces_epilogues_nonprivate_and_private_letters\coprefsolilo.psd	0/0/14
+whole search, hits/tokens/total
+		7/7/295
+*/

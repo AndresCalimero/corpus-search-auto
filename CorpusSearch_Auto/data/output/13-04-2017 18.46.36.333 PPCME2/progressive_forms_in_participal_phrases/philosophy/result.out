@@ -1,0 +1,116 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:29 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_participal_phrases.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_participal_phrases\philosophy\result.out
+
+node:   *PPL*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PPL* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd
+*/
+
+/~*
+And thanne sche, a litelwhat smylinge, seide: "Thou clepist me," quod sche, "
+to telle thing that is gretteste of alle thingis that mowen ben axed, and to
+the whiche questioun unnethes is ther aught inowh to laven it.
+(CMBOETH,450.C2.453)
+*~/
+/*
+18 VAG:  18 VAG, 19 smylinge, 12 IP-PPL
+*/
+( (IP-MAT (CONJ And)
+	  (ADVP-TMP (ADV thanne))
+	  (NP-SBJ (PRO sche))
+	  (, ,)
+	  (IP-PPL (NP-MSR (D a) (Q+WPRO litelwhat))
+		  (VAG smylinge))
+	  (, ,)
+	  (VBD seide)
+	  (, :)
+	  (" ")
+	  (IP-MAT-SPE (NP-SBJ (PRO Thou))
+		      (VBP clepist)
+		      (NP-OB1 (PRO me))
+		      (, ,)
+		      (" ")
+		      (IP-MAT-PRN-SPE (VBD quod)
+				      (NP-SBJ (PRO sche)))
+		      (, ,)
+		      (" ")
+		      (IP-INF-PRP-SPE (TO to)
+				      (VB telle)
+				      (NP-OB1 (N thing)
+					      (CP-REL-SPE (WNP-1 0)
+							  (C that)
+							  (IP-SUB-SPE (NP-SBJ *T*-1)
+								      (BEP is)
+								      (ADJP (ADJS gretteste)
+									    (PP (P of)
+										(NP (Q alle)
+										    (NS thingis)
+										    (CP-REL-SPE (WNP-2 0)
+												(C that)
+												(IP-SUB-SPE (NP-SBJ *T*-2)
+													    (MD mowen)
+													    (BE ben)
+													    (VAN axed)
+													    (, ,)
+													    (CONJP (CONJ and)
+														   (CP-CAR-SPE (WPP-3 (P to)
+																      (WNP (D the) (WD whiche) (N questioun)))
+															       (C 0)
+															       (IP-SUB-SPE (PP *T*-3)
+																	   (ADVP (ADV unnethes))
+																	   (BEP is)
+																	   (NP-SBJ-4 (EX ther))
+																	   (NP-4 (Q aught) (ADJR inowh))
+																	   (IP-INF-SPE (TO to)
+																		       (VB laven)
+																		       (NP-OB1 (PRO it))))))))))))))))
+	  (. .))
+  (ID CMBOETH,450.C2.453))
+
+/~*
+Natheles the propre maner of every thing, dressynge hem to gode, disponith hem
+alle,
+(CMBOETH,452.C2.494)
+*~/
+/*
+23 VAG:  23 VAG, 24 dressynge, 22 IP-PPL-SPE
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Natheles))
+	      (NP-SBJ (D the)
+		      (ADJ propre)
+		      (N maner)
+		      (PP (P of)
+			  (NP (Q every) (N thing))))
+	      (, ,)
+	      (IP-PPL-SPE (VAG dressynge)
+			  (NP-OB1 (PRO hem))
+			  (PP (P to)
+			      (NP (N gode))))
+	      (, ,)
+	      (VBP disponith)
+	      (NP-OB1 (PRO hem)
+		      (QP (Q alle)))
+	      (. ,))
+  (ID CMBOETH,452.C2.494))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	2/2/566
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	2/2/566
+whole search, hits/tokens/total
+		2/2/566
+*/

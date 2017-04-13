@@ -1,0 +1,350 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:00:55 BST 2017
+
+command file:     data\searches\queries\PENN\other_adverbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\other_adverbs\philosophy\result.out
+
+node:   ADVP-DIR*|ADVX*|RP^DIR*
+query:  (ADVP-DIR*|*DVX*|RP^DIR* Dominates  !ADVP-DIR*|ADVX*|RP^DIR*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd
+*/
+
+/~*
+"But whennes," quod I, "that any sorwe myghte comen to this thyng that is
+swiche, certes I mai nat thynke."
+(CMBOETH,429.C2.47)
+*~/
+/*
+27 ADVP-DIR:  27 ADVP-DIR, 28 *T*-1
+*/
+( (IP-MAT-SPE (" ")
+	      (CONJ But)
+	      (CP-QUE-SPE (WADVP-1 (WADV whennes))
+			  (, ,)
+			  (" ")
+			  (IP-MAT-PRN-SPE (VBD quod)
+					  (NP-SBJ (PRO I)))
+			  (, ,)
+			  (" ")
+			  (C that)
+			  (IP-SUB-SPE (ADVP-DIR *T*-1)
+				      (NP-SBJ (Q any) (N sorwe))
+				      (MD myghte)
+				      (VB comen)
+				      (PP (P to)
+					  (NP (D this)
+					      (N thyng)
+					      (CP-REL-SPE (WNP-2 0)
+							  (C that)
+							  (IP-SUB-SPE (NP-SBJ *T*-2)
+								      (BEP is)
+								      (NP-OB1 (SUCH swiche))))))))
+	      (, ,)
+	      (ADVP (ADV certes))
+	      (NP-SBJ (PRO I))
+	      (MD mai)
+	      (NEG nat)
+	      (VB thynke)
+	      (. .)
+	      (" "))
+  (ID CMBOETH,429.C2.47))
+
+/~*
+and whan he ne mai nat do tho defautes awey, he forletith to ben myghty,
+(CMBOETH,430.C1.75)
+*~/
+/*
+27 ADVP-DIR:  27 ADVP-DIR, 29 awey
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (PP (P whan)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO he))
+					  (NEG ne)
+					  (MD mai)
+					  (NEG nat)
+					  (DO do)
+					  (NP-OB1 (D tho) (NS defautes))
+					  (ADVP-DIR (ADV awey)))))
+	      (, ,)
+	      (NP-SBJ (PRO he))
+	      (VBP forletith)
+	      (IP-INF-SPE (TO to)
+			  (BE ben)
+			  (ADJP (ADJ myghty)))
+	      (. ,))
+  (ID CMBOETH,430.C1.75))
+
+/~*
+"Thanne," quod sche, "for as moche as thou hast knowen whiche is thilke verray
+blisfulnesse, and eek whiche thilke thynges ben that lyen falsly blisfulnesse
+that is to seyn, that be deceyte semen verray goodes, now byhoveth the to
+knowe, whennes and where thow mowe seke thilke verrai blisfulnesse."
+(CMBOETH,430.C2.113)
+*~/
+/*
+178 ADVP-DIR:  178 ADVP-DIR, 179 *T*-7
+*/
+
+( (IP-MAT-SPE (" ")
+	      (NP-SBJ-1 *exp*)
+	      (ADVP-TMP (ADV Thanne))
+	      (, ,)
+	      (" ")
+	      (IP-MAT-PRN-SPE (VBD quod)
+			      (NP-SBJ (PRO sche)))
+	      (, ,)
+	      (" ")
+	      (PP (P for)
+		  (QP (ADVR as)
+		      (Q moche)
+		      (PP (P as)
+			  (CP-ADV-SPE (C 0)
+				      (IP-SUB-SPE (NP-SBJ (PRO thou))
+						  (HVP hast)
+						  (VBN knowen)
+						  (CP-QUE-SPE (CP-QUE-SPE (WNP-2 (WPRO whiche))
+									  (C 0)
+									  (IP-SUB-SPE (NP-SBJ *T*-2)
+										      (BEP is)
+										      (NP-OB1 (D+ADJ thilke) (ADJ verray) (N blisfulnesse))))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (ALSO eek)
+								     (CP-QUE-SPE (WNP-3 (WPRO whiche))
+										 (C 0)
+										 (IP-SUB-SPE (NP-OB1 *T*-3)
+											     (NP-SBJ (D+ADJ thilke)
+												     (NS thynges)
+												     (CP-REL-SPE *ICH*-4))
+											     (BEP ben)
+											     (CP-REL-SPE-4 (WNP-5 0)
+													   (C that)
+													   (IP-SUB-SPE (NP-SBJ *T*-5)
+														       (VBP lyen)
+														       (ADVP (ADV falsly))
+														       (NP-OB1 (N blisfulnesse))
+														       (CODE <paren>)
+														       (CODE <font>)
+														       (IP-MAT-PRN-SPE (NP-SBJ (D that))
+																       (BEP is)
+																       (IP-INF-SPE (TO to)
+																		   (VB seyn)
+																		   (, ,)
+																		   (CP-REL-SPE (WNP-6 0)
+																			       (C that)
+																			       (IP-SUB-SPE (NP-SBJ *T*-6)
+																					   (PP (P be)
+																					       (NP (N deceyte)))
+																					   (VBP semen)
+																					   (NP-OB1 (ADJ verray) (NS goodes)))))))))))))))))
+	      (CODE <$$font>)
+	      (CODE <$$paren>)
+	      (, ,)
+	      (ADVP-TMP (ADV now))
+	      (VBP byhoveth)
+	      (NP-OB2 (PRO the))
+	      (IP-INF-SPE-1 (TO to)
+			    (VB knowe)
+			    (, ,)
+			    (CP-QUE-SPE (WADVP-7 (WADVP (WADV whennes))
+						 (CONJP (CONJ and)
+							(WADVP (WADV where))))
+					(C 0)
+					(IP-SUB-SPE (ADVP-DIR *T*-7)
+						    (NP-SBJ (PRO thow))
+						    (MD mowe)
+						    (VB seke)
+						    (NP-OB1 (D+ADJ thilke) (ADJ verrai) (N blisfulnesse)))))
+	      (. .)
+	      (" "))
+  (ID CMBOETH,430.C2.113))
+
+/~*
+For yif so be that perfeccioun is don awey, men may nat thinke ne say fro
+whennes thilke thing is that is cleped inparfyt.
+(CMBOETH,431.C2.130)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 31 awey
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP (P yif)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ-1 *exp*)
+					  (ADVP (ADV so))
+					  (BEP be)
+					  (CP-THT-SPE-1 (C that)
+							(IP-SUB-SPE (NP-SBJ (N perfeccioun))
+								    (BEP is)
+								    (DAN don)
+								    (ADVP-DIR (ADV awey)))))))
+	      (, ,)
+	      (NP-SBJ (NS men))
+	      (MD may)
+	      (NEG nat)
+	      (VB (VB thinke) (CONJ ne) (VB say))
+	      (CP-QUE-SPE (WPP-2 (P fro)
+				 (WADVP (WADV whennes)))
+			  (C 0)
+			  (IP-SUB-SPE (PP *T*-2)
+				      (NP-SBJ (D+ADJ thilke)
+					      (N thing)
+					      (CP-REL-SPE *ICH*-3))
+				      (BEP is)
+				      (CP-REL-SPE-3 (WNP-4 0)
+						    (C that)
+						    (IP-SUB-SPE (NP-SBJ-5 *T*-4)
+								(BEP is)
+								(VAN cleped)
+								(IP-SMC-SPE (NP-SBJ *-5)
+									    (ADJP (ADJ inparfyt)))))))
+	      (. .))
+  (ID CMBOETH,431.C2.130))
+
+/~*
+and forthy, for as moche as that my resoun or my proces ne go nat awey
+withouten an ende, we owe to graunte that the sovereyn God is ryght ful of
+sovereyn parfit good.
+(CMBOETH,432.C1.146)
+*~/
+/*
+44 ADVP-DIR:  44 ADVP-DIR, 46 awey
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (PP (P+D forthy))
+	      (, ,)
+	      (PP (P for)
+		  (QP (ADVR as)
+		      (Q moche)
+		      (PP (P as)
+			  (CP-ADV-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (NP (PRO$ my) (N resoun))
+							  (CONJP (CONJ or)
+								 (NP (PRO$ my) (N proces))))
+						  (NEG ne)
+						  (VBP go)
+						  (NEG nat)
+						  (ADVP-DIR (ADV awey))
+						  (PP (P withouten)
+						      (NP (D an) (N ende))))))))
+	      (, ,)
+	      (NP-SBJ (PRO we))
+	      (MD owe)
+	      (TO to)
+	      (VB graunte)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (D the) (ADJ sovereyn) (NPR God))
+				      (BEP is)
+				      (ADJP (ADV ryght)
+					    (ADJ ful)
+					    (PP (P of)
+						(NP (ADJ sovereyn) (ADJ parfit) (N good))))))
+	      (. .))
+  (ID CMBOETH,432.C1.146))
+
+/~*
+For the matere of it is swich, that whan o doute is determined and kut awey,
+ther waxen othere doutes withoute nombre, ryght as the hevedes wexen of Idre,
+the serpent that Hercules slowh.
+(CMBOETH,451.C1.455)
+*~/
+/*
+47 ADVP-DIR:  47 ADVP-DIR, 49 awey
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (D the)
+		      (N matere)
+		      (PP (P of)
+			  (NP (PRO it))))
+	      (BEP is)
+	      (ADJP (SUCH swich)
+		    (, ,)
+		    (CP-DEG-SPE (C that)
+				(IP-SUB-SPE (PP (P whan)
+						(CP-ADV-SPE (C 0)
+							    (IP-SUB-SPE (NP-SBJ (ONE o) (N doute))
+									(BEP is)
+									(VAN (VAN determined) (CONJ and) (VAN kut))
+									(ADVP-DIR (ADV awey)))))
+					    (, ,)
+					    (NP-SBJ-1 (EX ther))
+					    (VBP waxen)
+					    (NP-1 (OTHER othere)
+						  (NS doutes)
+						  (PP (P withoute)
+						      (NP (N nombre))))
+					    (, ,)
+					    (PP (ADV ryght)
+						(P as)
+						(CP-ADV-SPE (C 0)
+							    (IP-SUB-SPE (NP-SBJ (D the)
+										(NS hevedes)
+										(PP *ICH*-2))
+									(VBP wexen)
+									(PP-2 (P of)
+									      (NP (NPR Idre)
+										  (, ,)
+										  (NP-PRN (D the) (N serpent))
+										  (CODE <P_451.C1>)
+										  (CP-REL-SPE (WNP-3 0)
+											      (C that)
+											      (IP-SUB-SPE (NP-OB1 *T*-3)
+													  (NP-SBJ (NPR Hercules))
+													  (VBD slowh)))))))))))
+	      (. .))
+  (ID CMBOETH,451.C1.455))
+
+/~*
+And thus ben the thinges ful wel igoverned yif that the symplicite duellynge
+in the devyne thoght scheweth forth the ordre of causes unable to ben ibowed.
+(CMBOETH,452.C1.490)
+*~/
+/*
+48 ADVP-DIR:  48 ADVP-DIR, 50 forth
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV thus))
+	  (BEP ben)
+	  (NP-SBJ (D the) (NS thinges))
+	  (ADVP (ADV ful) (ADV wel))
+	  (VAN igoverned)
+	  (PP (P yif)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (D the)
+				      (N symplicite)
+				      (RRC (VAG duellynge)
+					   (PP (P in)
+					       (NP (D the) (ADJ devyne) (N thoght)))))
+			      (VBP scheweth)
+			      (ADVP-DIR (ADV forth))
+			      (NP-OB1 (D the)
+				      (N ordre)
+				      (PP (P of)
+					  (NP (NS causes)
+					      (ADJP (ADJ unable)
+						    (IP-INF (TO to) (BE ben) (VAN ibowed)))))))))
+	  (. .))
+  (ID CMBOETH,452.C1.490))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	7/7/566
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	7/7/566
+whole search, hits/tokens/total
+		7/7/566
+*/

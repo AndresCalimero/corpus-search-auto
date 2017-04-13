@@ -1,0 +1,1030 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:15 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_predicate.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_predicate\biography_and_diaries\result.out
+
+node:   NP-*PRD*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*PRD* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd
+*/
+
+/~*
+He w+as swi+de snotor wer and so+df+ast on spr+ace, rihtwis on dome and on
+r+ade foregleaw, getreowe on neode and strang fore+tingere, on godnysse
+scinende and on eallum +teawum arwur+dful.
+(coaelive,+ALS_[Sebastian]:4.1213)
+*~/
+/*
+90 VAG^N:  90 VAG^N, 91 scinende, 9 NP-NOM-PRD
+*/
+( (CODE <T03060000400,4>)
+  (IP-MAT (NP-NOM (PRO^N He))
+	  (BEDI w+as)
+	  (NP-NOM-PRD (ADJP-NOM (ADJP-NOM (ADV swi+de) (ADJ^N snotor))
+				(CONJP *ICH*-1))
+		      (N^N wer)
+		      (CONJP-1 (CONJ and)
+			       (ADJP-NOM (ADJP-NOM (ADJ^N so+df+ast)
+						   (PP (P on)
+						       (NP (N spr+ace))))
+					 (, ,)
+					 (CONJP (ADJP-NOM (ADJP-NOM (ADJ^N rihtwis)
+								    (PP (P on)
+									(NP-DAT (N^D dome))))
+							  (CONJP (CONJ and)
+								 (ADJP-NOM (PP (P on)
+									       (NP-DAT (N^D r+ade)))
+									   (ADJ^N foregleaw)))))
+					 (, ,)
+					 (CONJP (ADJP-NOM (ADJP-NOM (ADJ^N getreowe)
+								    (PP (P on)
+									(NP (N neode))))
+							  (CONJP (CONJ and)
+								 (NP-NOM (ADJ^N strang) (N^N fore+tingere)))))
+					 (, ,)
+					 (CONJP (ADJP-NOM (PTP-NOM (PP (P on)
+								       (NP (N godnysse)))
+								   (VAG^N scinende))
+							  (CONJP (CONJ and)
+								 (ADJP-NOM (PP (P on)
+									       (NP-DAT (Q^D eallum) (N^D +teawum)))
+									   (ADJ^N arwur+dful))))))))
+	  (. .))
+  (ID coaelive,+ALS_[Sebastian]:4.1213))
+
+/~*
+Be swilcum cw+a+d se h+alend eac on sumere stowe, Warnia+d eow georne wi+d
+lease witegan, +ta +de cuma+d to eow on sceape gelicnysse, and hi synd
+wi+tinnan reafigende wulfas.
+(coaelive,+ALS_[Mark]:119.3282)
+*~/
+/*
+91 VAG^N:  91 VAG^N, 92 reafigende, 90 NP-NOM-PRD
+*/
+
+( (CODE <T03160003500,119>)
+  (IP-MAT (PP (P Be)
+	      (NP-DAT (ADJ^D swilcum)))
+	  (VBDI cw+a+d)
+	  (NP-NOM (D^N se) (N^N h+alend))
+	  (ADVP (ADV eac))
+	  (PP (P on)
+	      (NP-DAT (Q^D sumere) (N^D stowe)))
+	  (, ,)
+	  (IP-MAT-SPE (VBI Warnia+d)
+		      (NP-RFL (PRO eow))
+		      (ADVP (ADV georne))
+		      (PP (P wi+d)
+			  (NP-ACC (ADJ^A lease)
+				  (N^A witegan)
+				  (, ,)
+				  (CP-REL-SPE (WNP-NOM-1 (D^N +ta))
+					      (C +de)
+					      (IP-SUB-SPE (IP-SUB-SPE (NP-NOM *T*-1)
+								      (VBPI cuma+d)
+								      (PP (P to)
+									  (NP (PRO eow)))
+								      (PP (P on)
+									  (NP (NP-DAT (N^D sceape))
+									      (N gelicnysse))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-SUB-CON-SPE (NP-NOM-RSP-1 (PRO^N hi))
+										 (BEPI synd)
+										 (ADVP-LOC (ADV^L wi+tinnan))
+										 (NP-NOM-PRD (VAG^N reafigende) (N^N wulfas)))))))))
+	  (. .))
+  (ID coaelive,+ALS_[Mark]:119.3282))
+
+/~*
+Se +dridda godspellere is Lucas, se w+as l+ace on worulde, and wunode mid +dam
+apostolum and mid Paule sy+d+dan, +teowigende +tam +almihtigan butan +alcum
+leahtre, on cl+anum life +afre buton wife, mid Godes gaste afylled;
+(coaelive,+ALS_[Mark]:150.3298)
+*~/
+/*
+72 VAG^N:  72 VAG^N, 73 +teowigende, 13 NP-NOM-PRD
+*/
+
+( (CODE <T03160004300,150>)
+  (IP-MAT (NP-NOM (D^N Se) (ADJ^N +dridda) (N^N godspellere))
+	  (BEPI is)
+	  (NP-NOM-PRD (NR^N Lucas)
+		      (, ,)
+		      (CP-REL (WNP-NOM-1 (D^N se))
+			      (C 0)
+			      (IP-SUB (IP-SUB (NP-NOM *T*-1)
+					      (BEDI w+as)
+					      (NP-NOM-PRD (N^N l+ace))
+					      (PP (P on)
+						  (NP (N worulde))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB-CON-0 (NP-NOM *T*-1)
+							   (VBD wunode)
+							   (PP (P mid)
+							       (NP-DAT (D^D +dam) (N^D apostolum)))
+							   (IPX-SUB-PRN=0 (CONJ and)
+									  (PP (P mid)
+									      (NP-DAT (NR^D Paule)))
+									  (ADVP-TMP (ADV^T sy+d+dan)))
+							   (, ,)
+							   (PTP-NOM (VAG^N +teowigende)
+								    (NP-DAT (D^D +tam) (ADJ^D +almihtigan))
+								    (PP (P butan)
+									(NP-DAT (Q^D +alcum) (N^D leahtre))))
+							   (, ,)
+							   (PP (P on)
+							       (NP-DAT (ADJ^D cl+anum) (N^D life)))
+							   (ADVP-TMP (ADV^T +afre))
+							   (PP (P buton)
+							       (NP-DAT (N^D wife)))
+							   (, ,)
+							   (PTP-NOM (PP (P mid)
+									(NP-DAT (NP-GEN (NR^G Godes))
+										(N^D gaste)))
+								    (VBN^N afylled)))))))
+	  (. ;))
+  (ID coaelive,+ALS_[Mark]:150.3298))
+
+/~*
++T+as gastes w+astmas synd +ta godan +deowas, +t+at se man lufige +tone
+lifigendan God, and h+abbe +da so+dan lufe symle on his mode, and +da
+gastlican blysse, and beo gesibsum, ge+dyldig and +dolmod, and on +deawum
+h+abbe godnysse and gl+ad mod and man+dw+arnysse, geleafan and gemetf+astnysse
+and modes cl+annysse, and forh+afednysse butan higeleaste.
+(coaelive,+ALS_[Auguries]:52.3559)
+*~/
+/*
+38 VAG^A:  38 VAG^A, 39 lifigendan, 14 NP-NOM-PRD
+*/
+
+( (CODE <T03180001600,52>)
+  (IP-MAT (NP-NOM (NP-GEN (D^G +T+as) (N^G gastes))
+		  (N^N w+astmas))
+	  (BEPI synd)
+	  (NP-NOM-PRD (D^N +ta)
+		      (ADJ^N godan)
+		      (N^N +deowas)
+		      (, ,)
+		      (CP-THT-PRN (C +t+at)
+				  (IP-SUB (IP-SUB (NP-NOM (D^N se) (N^N man))
+						  (VBPS lufige)
+						  (NP-ACC (D^A +tone) (VAG^A lifigendan) (NR^A God)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-CON (NP-NOM *con*)
+							     (HVPS h+abbe)
+							     (NP-ACC (NP-ACC (D^A +da) (ADJ^A so+dan) (N^A lufe))
+								     (CONJP *ICH*-1))
+							     (ADVP-TMP (ADV^T symle))
+							     (PP (P on)
+								 (NP-DAT (PRO$ his) (N^D mode)))
+							     (, ,)
+							     (CONJP-1 (CONJ and)
+								      (NP-ACC (D^A +da) (ADJ^A gastlican) (N^A blysse)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-CON (NP-NOM *con*)
+							     (BEPS beo)
+							     (ADJP-NOM-PRD (ADJ^N gesibsum) (, ,) (ADJ^N ge+dyldig) (CONJ and) (ADJ^N +dolmod))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-CON (NP-NOM *con*)
+							     (PP (P on)
+								 (NP-DAT (N^D +deawum)))
+							     (HVPS h+abbe)
+							     (NP-ACC (NP-ACC (NP-ACC (N^A godnysse))
+									     (CONJP (CONJ and)
+										    (NP-ACC (ADJ^A gl+ad) (N^A mod)))
+									     (CONJP (CONJ and)
+										    (NP-ACC (N^A man+dw+arnysse))))
+								     (, ,)
+								     (CONJP (NP-ACC (NP-ACC (N^A geleafan))
+										    (CONJP (CONJ and)
+											   (NP-ACC (N^A gemetf+astnysse)))
+										    (CONJP (CONJ and)
+											   (NP-ACC (NP-GEN (N^G modes))
+												   (N^A cl+annysse)))))
+								     (, ,)
+								     (CONJP (CONJ and)
+									    (NP-ACC (N^A forh+afednysse))))
+							     (PP (P butan)
+								 (NP (N higeleaste))))))))
+	  (. .))
+  (ID coaelive,+ALS_[Auguries]:52.3559))
+
+/~*
+Drihten h+alend Crist, +tu +de beclysedest +tyses mannes mu+d, +t+at he ne
+moste leng clypian to h+a+dengildum swylce him to fultume, geopena nu his mu+d
++t+at he m+arsige +tinne naman, and gelyfe +t+at +tu eart lifigende God on
+worulde.
+(coaelive,+ALS_[Apollinaris]:83.4595)
+*~/
+/*
+119 VAG^N:  119 VAG^N, 120 lifigende, 118 NP-NOM-PRD
+*/
+
+( (IP-MAT-SPE (NP-NOM-VOC (NR^N Drihten)
+			  (NP-NOM-PRN (N^N h+alend))
+			  (NP-NOM-PRN (NR^N Crist))
+			  (, ,)
+			  (NP-NOM-PRN (PRO^N +tu)
+				      (CP-REL-SPE (WNP-NOM-1 0)
+						  (C +de)
+						  (IP-SUB-SPE (NP-NOM *T*-1)
+							      (VBDI beclysedest)
+							      (NP-ACC (NP-GEN (D^G +tyses) (N^G mannes))
+								      (N^A mu+d))
+							      (, ,)
+							      (CP-ADV-SPE (C +t+at)
+									  (IP-SUB-SPE (NP-NOM (PRO^N he))
+										      (NEG ne)
+										      (MDD moste)
+										      (ADVP-TMP (ADVR^T leng))
+										      (VB clypian)
+										      (PP (P to)
+											  (NP-DAT (N^D h+a+dengildum)))
+										      (PP (P swylce)
+											  (CPX-CMP-SPE (IPX-SUB-SPE (NP-DAT-RFL-ADT (PRO^D him))
+														    (PP (P to)
+															(NP-DAT (N^D fultume))))))))))))
+	      (, ,)
+	      (VBI geopena)
+	      (ADVP-TMP (ADV^T nu))
+	      (NP-ACC (PRO$ his) (N^A mu+d))
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (IP-SUB-SPE (NP-NOM (PRO^N he))
+						  (VBPI m+arsige)
+						  (NP-ACC (PRO$^A +tinne) (N^A naman)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB-CON-SPE (NP-NOM *con*)
+							     (VBPS gelyfe)
+							     (CP-THT-SPE (C +t+at)
+									 (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+										     (BEPI eart)
+										     (NP-NOM-PRD (VAG^N lifigende) (NR^N God))
+										     (PP (P on)
+											 (NP (N worulde)))))))))
+	      (. .))
+  (ID coaelive,+ALS_[Apollinaris]:83.4595))
+
+/~*
+and ferde him togeanes mid +tam folce +te he h+afde, +t+at w+aron twelf
++tusend wigendra manna.
+(coaelive,+ALS_[Maccabees]:365.5072)
+*~/
+/*
+55 VAG^G:  55 VAG^G, 56 wigendra, 48 NP-PRD
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBD ferde)
+	  (PP (NP-DAT (PRO^D him))
+	      (P togeanes))
+	  (PP (P mid)
+	      (NP-DAT (D^D +tam)
+		      (N^D folce)
+		      (CP-REL (WNP-1 0)
+			      (C +te)
+			      (IP-SUB (NP *T*-1)
+				      (NP-NOM (PRO^N he))
+				      (HVD h+afde)))
+		      (. ,)
+		      (CP-REL (WNP-NOM-2 (D^N +t+at))
+			      (C 0)
+			      (IP-SUB (NP-NOM *T*-2)
+				      (BEDI w+aron)
+				      (NP-PRD (NUMP (NUM twelf) (NUM +tusend))
+					      (NP-GEN (VAG^G wigendra) (N^G manna)))))))
+	  (. .))
+  (ID coaelive,+ALS_[Maccabees]:365.5072))
+
+/~*
+and gesohte +tone apostol secgende mid wope, Min bro+tor nyste leof +t+at +tu
++t+as lifigendan Godes apostol w+are,
+(coaelive,+ALS_[Thomas]:151.7638)
+*~/
+/*
+46 VAG^G:  46 VAG^G, 47 lifigendan, 42 NP-NOM-PRD
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBD gesohte)
+	  (NP-ACC (D^A +tone) (N^A apostol))
+	  (PTP-NOM (VAG^N secgende)
+		   (PP (P mid)
+		       (NP-DAT (N^D wope)))
+		   (, ,)
+		   (IP-MAT-SPE (NP-NOM (PRO$^N Min) (N^N bro+tor))
+			       (NEG+VBD nyste)
+			       (NP-NOM-VOC (ADJ^N leof))
+			       (CP-THT-SPE (C +t+at)
+					   (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+						       (NP-NOM-PRD (NP-GEN (D^G +t+as) (VAG^G lifigendan) (NR^G Godes))
+								   (N^N apostol))
+						       (BEDS w+are)))))
+	  (. ,))
+  (ID coaelive,+ALS_[Thomas]:151.7638))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd	7/7/7969
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd	0/0/156
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd	0/0/91
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd
+*/
+
+/~*
+Heo w+as geomrigendra frofor, and geswencendra rest.
+(coeuphr,LS_7_[Euphr]:199.212)
+*~/
+/*
+12 VAG^G:  12 VAG^G, 13 geomrigendra, 9 NP-NOM-PRD
+23 VAG^G:  23 VAG^G, 24 geswencendra, 9 NP-NOM-PRD
+*/
+
+( (CODE <T04890010000,199>)
+  (IP-MAT-SPE (NP-NOM (PRO^N Heo))
+	      (BEDI w+as)
+	      (NP-NOM-PRD (NP-NOM (NP-GEN (VAG^G geomrigendra))
+				  (N^N frofor))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP-NOM (NP-GEN (VAG^G geswencendra))
+					 (N^N rest))))
+	      (. .))
+  (ID coeuphr,LS_7_[Euphr]:199.212))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd	2/1/351
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd
+*/
+
+/~*
+and cw+a+d, Ic gelyfe, Drihten, +t+at +tu eart se +de ealle +tincg geworhtest,
+and gecyrst +da dweliendan, and deade geliffestast.
+(coeust,LS_8_[Eust]:65.67)
+*~/
+/*
+64 VAG^A:  64 VAG^A, 65 dweliendan, 32 NP-NOM-PRD
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBDI cw+a+d)
+	  (, ,)
+	  (IP-MAT-SPE (NP-NOM (PRO^N Ic))
+		      (VBP gelyfe)
+		      (, ,)
+		      (NP-NOM-VOC (NR^N Drihten))
+		      (, ,)
+		      (CP-THT-SPE (C +t+at)
+				  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+					      (BEPI eart)
+					      (NP-NOM-PRD (D^N se)
+							  (CP-REL-SPE (WNP-NOM-1 0)
+								      (C +de)
+								      (IP-SUB-SPE (IP-SUB-SPE (NP-NOM *T*-1)
+											      (NP-ACC (Q^A ealle) (N^A +tincg))
+											      (VBDI geworhtest))
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (IP-SUB-CON-SPE (NP-NOM *T*-1)
+													 (VBPI gecyrst)
+													 (NP-ACC (D^A +da) (VAG^A dweliendan))))
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (IP-SUB-CON-SPE (NP-NOM *T*-1)
+													 (NP-ACC (ADJ^A deade))
+													 (VBPI geliffestast)))))))))
+	  (. .))
+  (ID coeust,LS_8_[Eust]:65.67))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd	1/1/492
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd
+*/
+
+/~*
+Be +tam ylcan Iohannes se godspellere cw+a+d: he w+as +t+at so+de leoht, +t+at
+onlyhte+t +aghwilcne man cumende in +tisne middaneard.
+(cogregdC,GD_2_[C]:8.120.22.1437)
+*~/
+/*
+56 VAG^N:  56 VAG^N, 57 cumende, 30 NP-NOM-PRD
+*/
+
+( (CODE <T06740021600,8.120.22>)
+  (IP-MAT-SPE (PP (P Be)
+		  (NP-DAT (D^D +tam) (ADJ^D ylcan)))
+	      (NP-NOM (NR^N Iohannes)
+		      (NP-NOM-PRN (D^N se) (N^N godspellere)))
+	      (VBDI cw+a+d)
+	      (, :)
+	      (IP-MAT-SPE (NP-NOM (PRO^N he))
+			  (BEDI w+as)
+			  (NP-NOM-PRD (D^N +t+at)
+				      (ADJ^N so+de)
+				      (N^N leoht)
+				      (, ,)
+				      (CP-REL-SPE (WNP-NOM-1 (D^N +t+at))
+						  (C 0)
+						  (IP-SUB-SPE (NP-NOM *T*-1)
+							      (RP+VBPI onlyhte+t)
+							      (NP-ACC (Q^A +aghwilcne) (N^A man))))
+				      (PTP-NOM (VAG^N cumende)
+					       (PP (P in)
+						   (NP-ACC (D^A +tisne) (N^A middaneard))))))
+	      (. .))
+  (ID cogregdC,GD_2_[C]:8.120.22.1437))
+
+/~*
+Petrus cw+a+d: nu ic gehyre, +t+at +tis is eft +tara +treora cnihta, +te geo
+aworpene w+aron in +tone byrnendan ofen,
+(cogregdC,GDPref_and_3_[C]:18.219.16.2968)
+*~/
+/*
+64 VAG^A:  64 VAG^A, 65 byrnendan, 34 NP-GEN-PRD
+*/
+
+( (CODE <T06750043600,18.219.16>)
+  (IP-MAT (NP-NOM (NR^N Petrus))
+	  (VBDI cw+a+d)
+	  (, :)
+	  (IP-MAT-SPE (ADVP-TMP (ADV^T nu))
+		      (NP-NOM (PRO^N ic))
+		      (VBP gehyre)
+		      (, ,)
+		      (CP-THT-SPE (C +t+at)
+				  (IP-SUB-SPE (NP-NOM (D^N +tis))
+					      (BEPI is)
+					      (ADVP-TMP (ADV^T eft))
+					      (NP-GEN-PRD (D^G +tara)
+							  (NUM^G +treora)
+							  (N^G cnihta)
+							  (, ,)
+							  (CP-REL-SPE (WNP-NOM-1 0)
+								      (C +te)
+								      (IP-SUB-SPE (NP-NOM *T*-1)
+										  (ADVP-TMP (ADV^T geo))
+										  (VBN^N aworpene)
+										  (BEDI w+aron)
+										  (PP (P in)
+										      (NP-ACC (D^A +tone) (VAG^A byrnendan) (N^A ofen)))))))))
+	  (. ,))
+  (ID cogregdC,GDPref_and_3_[C]:18.219.16.2968))
+
+/~*
+Se w+as mycelre eadmodnesse & gest+a+d+dignesse wer & getreowlice +teowiende
++tam +almihtigan Gode, swa +t+at se ylca apostol Sanctus Petrus mid manegum
+tacnum gerehte, hwylcne weor+dmynd he be him h+afde.
+(cogregdC,GDPref_and_3_[C]:25.228.6.3144)
+*~/
+/*
+29 VAG^N:  29 VAG^N, 30 +teowiende, 9 NP-NOM-PRD
+*/
+
+( (CODE <T06750053900,25.228.6>)
+  (IP-MAT (NP-NOM (D^N Se))
+	  (BEDI w+as)
+	  (NP-NOM-PRD (NP-GEN (Q^G mycelre)
+			      (N^G eadmodnesse)
+			      (CONJP (CONJ &)
+				     (NX-GEN (N^G gest+a+d+dignesse))))
+		      (N^N wer)
+		      (PTP-NOM (CONJ &)
+			       (ADVP (ADV getreowlice))
+			       (VAG^N +teowiende)
+			       (NP-DAT (D^D +tam) (ADJ^D +almihtigan) (NR^D Gode))))
+	  (, ,)
+	  (CP-ADV (P swa)
+		  (C +t+at)
+		  (IP-SUB (NP-NOM (D^N se)
+				  (ADJ^N ylca)
+				  (N^N apostol)
+				  (NP-NOM-PRN (NR Sanctus) (NR^N Petrus)))
+			  (PP (P mid)
+			      (NP-DAT (Q^D manegum) (N^D tacnum)))
+			  (VBD gerehte)
+			  (, ,)
+			  (CP-QUE (WNP-ACC-1 (WADJ^A hwylcne) (N^A weor+dmynd))
+				  (C 0)
+				  (IP-SUB (NP-ACC *T*-1)
+					  (NP-NOM (PRO^N he))
+					  (PP (P be)
+					      (NP-DAT (PRO^D him)))
+					  (HVD h+afde)))))
+	  (. .))
+  (ID cogregdC,GDPref_and_3_[C]:25.228.6.3144))
+
+/~*
+Witodlice se Eleutherius, +t+as gemynd ic herbufan dyde, se w+as +t+as
+mynstres f+ader, +t+at w+as geseted in Spolitane +t+are byrig & gehalgod +tam
+eadigan godspellere Sancte Marce, se eac w+as munuc in +tissere byrig lange
+drohtigende & lifigende in minum mynstre & eac +t+ar w+as for+dfered.
+(cogregdC,GDPref_and_3_[C]:33.241.23.3400)
+*~/
+/*
+129 VAG^N:  129 VAG^N, 130 drohtigende, 41 NP-NOM-PRD
+133 VAG^N:  133 VAG^N, 134 lifigende, 41 NP-NOM-PRD
+*/
+
+( (CODE <T06750069200,33.241.23>)
+  (IP-MAT (ADVP (ADV Witodlice))
+	  (NP-NOM-LFD (D^N se)
+		      (NR^N Eleutherius)
+		      (, ,)
+		      (CP-REL (WNP-ACC-1 (NP-GEN (D^G +t+as))
+					 (N^A gemynd))
+			      (C 0)
+			      (IP-SUB (NP-ACC *T*-1)
+				      (NP-NOM (PRO^N ic))
+				      (PP (ADV+P herbufan))
+				      (VBD dyde))))
+	  (, ,)
+	  (NP-NOM-RSP (D^N se))
+	  (BEDI w+as)
+	  (NP-NOM-PRD (NP-GEN (D^G +t+as)
+			      (N^G mynstres)
+			      (CP-REL *ICH*-3))
+		      (N^N f+ader)
+		      (, ,)
+		      (CP-REL-3 (WNP-NOM-2 (D^N +t+at))
+				(C 0)
+				(IP-SUB (IP-SUB-0 (NP-NOM *T*-2)
+						  (BEDI w+as)
+						  (VBN geseted)
+						  (PP (P in)
+						      (NP-DAT (NR Spolitane)
+							      (NP-DAT-PRN (D^D +t+are) (N^D byrig)))))
+					(CONJP (CONJ &)
+					       (IPX-SUB-CON=0 (VBN gehalgod)
+							      (NP-DAT (D^D +tam)
+								      (ADJ^D eadigan)
+								      (N^D godspellere)
+								      (NP-DAT-PRN (NR Sancte) (NR^D Marce))
+								      (, ,)
+								      (CP-REL (WNP-NOM-4 (D^N se))
+									      (C 0)
+									      (IP-SUB (IP-SUB (NP-NOM *T*-4)
+											      (ADVP (ADV eac))
+											      (BEDI w+as)
+											      (NP-NOM-PRD (N^N munuc))
+											      (PP (P in)
+												  (NP-DAT (D^D +tissere) (N^D byrig)))
+											      (PTP-NOM (ADVP-TMP (ADV^T lange))
+												       (VAG^N (VAG^N drohtigende) (CONJ &) (VAG^N lifigende))
+												       (PP (P in)
+													   (NP-DAT (PRO$^D minum) (N^D mynstre)))))
+										      (CONJP (CONJ &)
+											     (IP-SUB-CON (NP-NOM *T*-4)
+													 (ADVP (ADV eac))
+													 (ADVP-LOC (ADV^L +t+ar))
+													 (BEDI w+as)
+													 (RP+VBN for+dfered)))))))))))
+	  (. .))
+  (ID cogregdC,GDPref_and_3_[C]:33.241.23.3400))
+
+/~*
+So+dlice seo w+as +tinen Herundies +t+are f+amnan, seo is s+agd, +t+at heo
+w+are weaxende mid mycclum m+agnum, & gel+adde hi sylfe in ancorlif in +tam
+westenum, +te syndon bufan Prenostinus +tam muntum.
+(cogregdC,GDPref_and_4_[C]:16.283.7.4168)
+*~/
+/*
+50 VAG:  50 VAG, 51 weaxende, 12 NP-NOM-PRD
+*/
+
+( (CODE <T06760022200,16.283.7>)
+  (IP-MAT (ADVP (ADV So+dlice))
+	  (NP-NOM (D^N seo))
+	  (BEDI w+as)
+	  (NP-NOM-PRD (N^N +tinen)
+		      (NP-GEN (NR^G Herundies)
+			      (NP-GEN-PRN (D^G +t+are) (N^G f+amnan)))
+		      (, ,)
+		      (CP-REL (WNP-NOM-1 (D^N seo))
+			      (C 0)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (BEPI is)
+				      (VBN s+agd)
+				      (, ,)
+				      (CP-THT (C +t+at)
+					      (IP-SUB (IP-SUB (NP-NOM (PRO^N heo))
+							      (BEDS w+are)
+							      (VAG weaxende)
+							      (PP (P mid)
+								  (NP-DAT (Q^D mycclum) (N^D m+agnum))))
+						      (, ,)
+						      (CONJP (CONJ &)
+							     (IP-SUB-CON (NP-NOM *con*)
+									 (VBD gel+adde)
+									 (NP-ACC-RFL (PRO^A hi)
+										     (ADJP-ACC (ADJ^A sylfe)))
+									 (PP (P in)
+									     (NP-ACC (N^A ancorlif)))
+									 (PP (P in)
+									     (NP-DAT (D^D +tam)
+										     (N^D westenum)
+										     (, ,)
+										     (CP-REL (WNP-NOM-2 0)
+											     (C +te)
+											     (IP-SUB (NP-NOM *T*-2)
+												     (BEPI syndon)
+												     (PP (P bufan)
+													 (NP-DAT (NR Prenostinus)
+														 (NP-DAT-PRN (D^D +tam) (N^D muntum)))))))))))))))
+	  (. .))
+  (ID cogregdC,GDPref_and_4_[C]:16.283.7.4168))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd	6/5/5373
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd	0/0/1638
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd
+*/
+
+/~*
+Gyf +tonne Abraham is geworden Godes freond gelyfende, hwy mycele swy+dere
+by+d se Godes feond +te ne gelyf+d on hine?
+(cojames,LS_11_[James]:18.18)
+*~/
+/*
+26 VAG^N:  26 VAG^N, 27 gelyfende, 20 NP-NOM-PRD
+*/
+
+( (CODE <T04940001100,18>)
+  (CP-QUE-SPE (CP-ADV-SPE (P Gyf)
+			  (C 0)
+			  (IP-SUB-SPE (ADVP-TMP (ADV^T +tonne))
+				      (NP-NOM (NR^N Abraham))
+				      (BEPI is)
+				      (BEN geworden)
+				      (NP-NOM-PRD (NP-GEN (NR^G Godes))
+						  (N^N freond)
+						  (VAG^N gelyfende))))
+	      (, ,)
+	      (WADVP-1 (WQP-DAT-EXT (WADV hwy) (Q^I mycele))
+		       (ADVR swy+dere))
+	      (IP-SUB-SPE (ADVP *T*-1)
+			  (BEPI by+d)
+			  (NP-NOM (D^N se)
+				  (CP-REL-SPE *ICH*-2))
+			  (NP-NOM-PRD (NP-GEN (NR^G Godes))
+				      (N^N feond))
+			  (CP-REL-SPE-2 (WNP-NOM-3 0)
+					(C +te)
+					(IP-SUB-SPE (NP-NOM *T*-3)
+						    (NEG ne)
+						    (VBPI gelyf+d)
+						    (PP (P on)
+							(NP-ACC (PRO^A hine))))))
+	      (. ?))
+  (ID cojames,LS_11_[James]:18.18))
+
+/~*
+& +t+at is min geleafe nu o+d+d +tysne time +t+at he is +t+as lyfigendan Godes
+Sune.
+(cojames,LS_11_[James]:125.114)
+*~/
+/*
+40 VAG^G:  40 VAG^G, 41 lyfigendan, 36 NP-NOM-PRD
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM-PRD (D^N +t+at)
+			  (CP-THT-PRN-SPE *ICH*-1))
+	      (BEPI is)
+	      (NP-NOM (PRO$^N min) (N^N geleafe))
+	      (ADVP-TMP (ADV^T nu))
+	      (PP (P o+d+d)
+		  (NP-ACC (D^A +tysne) (N^A time)))
+	      (CP-THT-PRN-SPE-1 (C +t+at)
+				(IP-SUB-SPE (NP-NOM (PRO^N he))
+					    (BEPI is)
+					    (NP-NOM-PRD (NP-GEN (D^G +t+as) (VAG^G lyfigendan) (NR^G Godes))
+							(N^N Sune))))
+	      (. .))
+  (ID cojames,LS_11_[James]:125.114))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd	2/2/135
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd	0/0/368
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd
+*/
+
+/~*
+Ic +te wuldrige and herige, for+ton +tu eart halig and micel on eallum +tingum,
++tu +te gemedomast $gecy+tan +tinre +teowen +t+at +tu eart ane hiht ealra
+gelifendra on +te.
+(comargaT,LS_16_[MargaretCot.Tib._A.iii]:15.7.180)
+*~/
+/*
+88 VAG^G:  88 VAG^G, 89 gelifendra, 79 NP-NOM-PRD
+*/
+
+( (CODE <T04990008700,15.7>)
+  (IP-MAT-SPE (NP-NOM (PRO^N Ic))
+	      (NP (PRO +te))
+	      (VBP (VBP wuldrige) (CONJ and) (VBP herige))
+	      (, ,)
+	      (CP-ADV-SPE (P for+ton)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N +tu)
+					      (NP-NOM-PRN *ICH*-1))
+				      (BEPI eart)
+				      (ADJP-NOM-PRD (ADJ^N halig) (CONJ and) (Q^N micel))
+				      (PP (P on)
+					  (NP-DAT (Q^D eallum) (N^D +tingum)))
+				      (, ,)
+				      (NP-NOM-PRN-1 (PRO^N +tu)
+						    (CP-REL-SPE (WNP-NOM-2 0)
+								(C +te)
+								(IP-SUB-SPE (NP-NOM *T*-2)
+									    (VBPI gemedomast)
+									    (IP-INF-SPE (VB $gecy+tan)
+											(NP-DAT (PRO$^D +tinre) (N^D +teowen))
+											(CP-THT-SPE (C +t+at)
+												    (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+														(BEPI eart)
+														(NP-NOM-PRD (NUM^N ane)
+															    (N^N hiht)
+															    (NP-GEN (Q^G ealra)
+																    (PTP-GEN (VAG^G gelifendra)
+																	     (PP (P on)
+																		 (NP (PRO +te))))))))))))))
+	      (. .))
+  (ID comargaT,LS_16_[MargaretCot.Tib._A.iii]:15.7.180))
+
+/~*
+Get ic +te bidde, Drihten, +t+at se +te maca+d boc mines martirhades o+t+te on
+his huse h+abbe, sy his synna eal al+atnesse, for+ton +te we syndon fl+asc and
+blod +afre singiende and n+afre ablinnende.
+(comargaT,LS_16_[MargaretCot.Tib._A.iii]:19.18.260)
+*~/
+/*
+103 VAG^N:  103 VAG^N, 104 singiende, 91 NP-NOM-PRD
+112 VAG^N:  112 VAG^N, 113 ablinnende, 91 NP-NOM-PRD
+*/
+
+( (CODE <T04990012800,19.18>)
+  (IP-MAT-SPE (ADVP-TMP (ADV^T Get))
+	      (NP-NOM (PRO^N ic))
+	      (NP (PRO +te))
+	      (VBP bidde)
+	      (, ,)
+	      (NP-NOM-VOC (NR^N Drihten))
+	      (, ,)
+	      (CP-THT-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM-LFD (D^N se)
+						  (CP-REL-SPE (WNP-NOM-1 0)
+							      (C +te)
+							      (IP-SUB-SPE (IP-SUB-SPE (NP-NOM *T*-1)
+										      (VBPI maca+d)
+										      (NP-ACC (N^A boc)
+											      (NP-GEN (PRO$^G mines) (N^G martirhades))))
+									  (CONJP (CONJ o+t+te)
+										 (IP-SUB-CON-SPE (NP-NOM *T*-1)
+												 (PP (P on)
+												     (NP-DAT (PRO$ his) (N^D huse)))
+												 (HVPS h+abbe))))))
+				      (, ,)
+				      (BEPS sy)
+				      (NP-NOM (NP-GEN-RSP (PRO$ his) (N^G synna))
+					      (Q^N eal)
+					      (N^N al+atnesse))
+				      (, ,)
+				      (CP-ADV-SPE (P for+ton)
+						  (C +te)
+						  (IP-SUB-SPE (NP-NOM (PRO^N we))
+							      (BEPI syndon)
+							      (NP-NOM-PRD (N^N fl+asc)
+									  (CONJ and)
+									  (N^N blod)
+									  (PTP-NOM (PTP-NOM (ADVP-TMP (ADV^T +afre))
+											    (VAG^N singiende))
+										   (CONJP (CONJ and)
+											  (PTP-NOM (ADVP-TMP (NEG+ADV^T n+afre))
+												   (VAG^N ablinnende)))))))))
+	      (. .))
+  (ID comargaT,LS_16_[MargaretCot.Tib._A.iii]:19.18.260))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd	3/2/323
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd	0/0/115
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd	0/0/359
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd
+*/
+
+/~*
+$+D+at is sinowalt hus acorfen of anum stane, on +d+am magon nigon men
+standende him gebiddan,
+(comart3,Mart_5_[Kotzor]:Ma27,A.10.495)
+*~/
+/*
+47 VAG^N:  47 VAG^N, 48 standende, 9 NP-NOM-PRD
+*/
+
+( (CODE <T22300028600,Ma27,A.10>)
+  (IP-MAT (NP-NOM (D^N $+D+at))
+	  (BEPI is)
+	  (NP-NOM-PRD (ADJ^N sinowalt)
+		      (N^N hus)
+		      (PTP-NOM (VBN^N acorfen)
+			       (PP (P of)
+				   (NP-DAT (NUM^D anum) (N^D stane))))
+		      (, ,)
+		      (CP-REL (WPP-1 (P on)
+				     (NP-DAT (D^D +d+am)))
+			      (C 0)
+			      (IP-SUB (PP *T*-1)
+				      (MDPI magon)
+				      (NP-NOM (NUM nigon)
+					      (N^N men)
+					      (PTP-NOM (VAG^N standende)))
+				      (NP-DAT (PRO^D him))
+				      (VB gebiddan))))
+	  (. ,))
+  (ID comart3,Mart_5_[Kotzor]:Ma27,A.10.495))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd	1/1/2153
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd	0/0/547
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd	0/0/163
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd	0/0/591
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd
+*/
+
+/~*
+we andetta+d +te, leofa H+alend, +tu +te +anlic eart +t+as lyfigendan Godes
+Bearn;
+(cosevensl,LS_34_[SevenSleepers]:736.583)
+*~/
+/*
+39 VAG^G:  39 VAG^G, 40 lyfigendan, 35 NP-NOM-PRD
+*/
+
+( (IP-MAT (NP-NOM (PRO^N we))
+	  (VBPI andetta+d)
+	  (NP (PRO +te))
+	  (, ,)
+	  (NP-NOM-VOC (ADJ^N leofa)
+		      (N^N H+alend)
+		      (, ,)
+		      (NP-NOM-PRN (PRO^N +tu)
+				  (CP-REL (WNP-NOM-1 0)
+					  (C +te)
+					  (IP-SUB (NP-NOM *T*-1)
+						  (ADJP-NOM (ADJ^N +anlic))
+						  (BEPI eart)
+						  (NP-NOM-PRD (NP-GEN (D^G +t+as) (VAG^G lyfigendan) (NR^G Godes))
+							      (N^N Bearn))))))
+	  (. ;))
+  (ID cosevensl,LS_34_[SevenSleepers]:736.583))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd	1/1/604
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd	0/0/47
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd	7/7/7969
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd	0/0/156
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd	0/0/91
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd	2/1/351
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd	1/1/492
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd	6/5/5373
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd	0/0/1638
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd	2/2/135
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd	0/0/368
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd	3/2/323
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd	0/0/115
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd	0/0/359
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd	1/1/2153
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd	0/0/547
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd	0/0/163
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd	0/0/591
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd	1/1/604
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd	0/0/47
+whole search, hits/tokens/total
+		23/20/21475
+*/

@@ -1,0 +1,283 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:40 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_adjuncts\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd	0/0/1593
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd	0/0/192
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd	0/0/225
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd	0/0/222
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd
+*/
+
+/~*
+and whereas the commons of Great Britain in parliament assembled did, on the
+eighth day of December one thousand seven hundred and ninety-six, resolve that
+the sum of eighteen millions be raised by annuities; and did also resolve that
+every contributor to the said sum of eighteen millions should, for every one
+hundred pounds contributed and paid, be entitled to the principal sum of one
+hundred and twelve pounds ten shillings in annuities after the rate of five
+pounds per centum per annum, to commence from the tenth day of October one
+thousand seven hundred and ninety-six, and to be irredeemable, unless with the
+consent of the proprietors thereof, until the expiration of three years from
+the period at which the existing annuities, after the rate of five pounds per
+centum per annum, should be redeemed and paid off, or the interest payable
+thereon reduced;
+(STATUTES-1805,45,550.74)
+*~/
+/*
+369 VAG:  369 VAG, 370 existing, 250 IP-INF-ADT
+*/
+( (CONJP (CONJ and)
+	 (PP (WADV+P whereas)
+	     (CP-ADV (C 0)
+		     (IP-SUB (IP-SUB (NP-SBJ (D the)
+					     (NS commons)
+					     (PP (P of)
+						 (CODE <$$font>)
+						 (NP (ADJ Great) (NPR Britain)))
+					     (CODE <font>)
+					     (RRC (PP (P in)
+						      (NP (N parliament)))
+						  (VAN assembled)))
+				     (DOD did)
+				     (, ,)
+				     (PP (P on)
+					 (NP (D the)
+					     (ADJ eighth)
+					     (N day)
+					     (PP (P of)
+						 (CODE <$$font>)
+						 (NP (NPR December)))
+					     (CODE <font>)
+					     (NUMP (ONE one) (NUM thousand) (NUM seven) (NUM hundred) (CONJ and) (NUM ninety-six))))
+				     (, ,)
+				     (VB resolve)
+				     (CP-THT (C that)
+					     (IP-SUB (NP-SBJ (D the)
+							     (N sum)
+							     (PP (P of)
+								 (NP (NUM eighteen) (NS millions))))
+						     (BEP be)
+						     (VAN raised)
+						     (PP (P by)
+							 (NP (NS annuities))))))
+			     (, ;)
+			     (CONJP (CONJ and)
+				    (IP-SUB (NP-SBJ *con*)
+					    (DOD did)
+					    (ALSO also)
+					    (VB resolve)
+					    (CP-THT (C that)
+						    (IP-SUB (NP-SBJ (Q every)
+								    (N contributor)
+								    (PP (P to)
+									(NP (D the)
+									    (VAN said)
+									    (N sum)
+									    (PP (P of)
+										(NP (NUM eighteen) (NS millions))))))
+							    (MD should)
+							    (, ,)
+							    (PP (P for)
+								(IP-SMC (NP-SBJ (Q every)
+										(NUMP (ONE one) (NUM hundred))
+										(NS pounds))
+									(VAN (VAN contributed) (CONJ and) (VAN paid))))
+							    (, ,)
+							    (BE be)
+							    (VAN entitled)
+							    (PP (P to)
+								(NP (D the)
+								    (ADJ principal)
+								    (N sum)
+								    (PP (P of)
+									(NP (NP (NUMP (ONE one) (NUM hundred) (CONJ and) (NUM twelve))
+										(NS pounds))
+									    (CONJP (NP (NUM ten) (NS shillings)))
+									    (PP (P in)
+										(NP (NS annuities)))))))
+							    (PP (P after)
+								(NP (D the)
+								    (N rate)
+								    (PP (P of)
+									(NP (NUM five)
+									    (NS pounds)
+									    (CODE <$$font>)
+									    (NP-MSR (LATIN (FW per) (FW centum)))
+									    (NP-MSR (LATIN (FW per) (FW annum)))))))
+							    (, ,)
+							    (CODE <font>)
+							    (IP-INF-ADT (IP-INF (TO to)
+										(VB commence)
+										(PP (P from)
+										    (NP (D the)
+											(ADJ tenth)
+											(N day)
+											(PP (P of)
+											    (CODE <$$font>)
+											    (NP (NPR October)))
+											(CODE <font>)
+											(NUMP (ONE one) (NUM thousand) (NUM seven) (NUM hundred) (CONJ and) (NUM ninety-six)))))
+									(, ,)
+									(CONJP (CONJ and)
+									       (IP-INF (TO to)
+										       (BE be)
+										       (ADJP (ADJ irredeemable))
+										       (, ,)
+										       (PP (P unless)
+											   (PP (P with)
+											       (NP (D the)
+												   (N consent)
+												   (PP (P of)
+												       (NP (D the)
+													   (NS proprietors)
+													   (PP (ADV+P thereof)))))))
+										       (, ,)
+										       (PP (P until)
+											   (NP (D the)
+											       (N expiration)
+											       (PP (P of)
+												   (NP (NUM three)
+												       (NS years)
+												       (PP (P from)
+													   (NP (D the)
+													       (N period)
+													       (CP-REL (WPP-1 (P at)
+															      (WNP (WPRO which)))
+														       (C 0)
+														       (IP-SUB (IP-SUB (IP-SUB-2 (PP *T*-1)
+																		 (NP-SBJ (D the) (VAG existing) (NS annuities))
+																		 (, ,)
+																		 (PP (P after)
+																		     (NP (D the)
+																			 (N rate)
+																			 (PP (P of)
+																			     (NP (NUM five)
+																				 (NS pounds)
+																				 (CODE <$$font>)
+																				 (NP-MSR (LATIN (FW per) (FW centum)))
+																				 (NP-MSR (LATIN (FW per) (FW annum)))))))
+																		 (, ,)
+																		 (CODE <font>)
+																		 (MD should)
+																		 (BE be)
+																		 (VAN redeemed))
+																       (CONJP (CONJ and)
+																	      (IP-SUB=2 (VAN paid) (RP off))))
+															       (, ,)
+															       (CONJP (CONJ or)
+																      (IP-SUB=2 (NP-SBJ (D the)
+																			(N interest)
+																			(ADJP (ADJ payable)
+																			      (PP (ADV+P thereon))))
+																		(VAN reduced)))))))))))))))))))))
+	 (. ;))
+  (ID STATUTES-1805,45,550.74))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd	1/1/142
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd	0/0/171
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd	0/0/238
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd	0/0/342
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd	0/0/625
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd	0/0/2658
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd	0/0/1593
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd	0/0/192
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd	0/0/225
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd	0/0/222
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd	1/1/142
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd	0/0/171
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd	0/0/238
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd	0/0/342
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd	0/0/625
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd	0/0/2658
+whole search, hits/tokens/total
+		1/1/6408
+*/

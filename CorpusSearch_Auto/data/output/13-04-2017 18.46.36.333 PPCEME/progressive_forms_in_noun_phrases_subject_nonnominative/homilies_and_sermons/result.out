@@ -1,0 +1,2120 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:15 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_subject_nonnominative\homilies_and_sermons\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	0/0/262
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	0/0/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd
+*/
+
+/~*
+but the heretykes misconstruynge the scryptures of god. by theyr false
+doctryne. & erronyous opynyons & pestilent heresyes doth slee the soules of
+chrysten people. & send them to euerlastyng damnacyon. Wherfore these wordes
+must rather be vnderstanded of the persecucyon that was made by the heretykes.
+(FISHER-E1-P2,340.123)
+*~/
+/*
+11 VAG:  11 VAG, 12 misconstruynge, 5 NP-SBJ
+*/
+( (IP-MAT (IP-MAT-1 (CONJ but)
+		    (NP-SBJ (D the)
+			    (NS heretykes)
+			    (RRC (VAG misconstruynge)
+				 (NP-OB1 (D the)
+					 (NPRS scryptures)
+					 (PP (P of)
+					     (NP (NPR god))))))
+		    (, .)
+		    (PP (P by)
+			(NP (PRO$ theyr)
+			    (ADJ false)
+			    (N doctryne)
+			    (, .)
+			    (CONJP (CONJ &)
+				   (NX (ADJ erronyous) (NS opynyons)))
+			    (CONJP (CONJ &)
+				   (NX (ADJ pestilent) (NS heresyes)))))
+		    (DOP doth)
+		    (VB slee)
+		    (NP-OB1 (D the)
+			    (NS soules)
+			    (PP (P of)
+				(NP (ADJ chrysten) (NS people)))))
+	  (, .)
+	  (CONJP (CONJ &)
+		 (IP-MAT=1 (VB send)
+			   (NP-OB1 (PRO them))
+			   (PP (P to)
+			       (NP (ADV+VAG euerlastyng) (N damnacyon)))))
+	  (, .)
+	  (CP-CAR (WPP-2 (WADV+P Wherfore))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (D these) (NS wordes))
+			  (MD must)
+			  (ADVP (ADVR rather))
+			  (BE be)
+			  (VAN vnderstanded)
+			  (PP (P of)
+			      (NP (D the)
+				  (N persecucyon)
+				  (CP-REL (WNP-3 0)
+					  (C that)
+					  (IP-SUB (NP-SBJ *T*-3)
+						  (BED was)
+						  (VAN made)
+						  (PP (P by)
+						      (NP (D the) (NS heretykes)))))))))
+	  (. .))
+  (ID FISHER-E1-P2,340.123))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	1/1/208
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd
+*/
+
+/~*
+It is death for me to be ignorant of the vnsearchable misterie of the sonne of
+God: of which misterie notwithstanding I should haue been ignorant, but that a
+poore fisherman, vnknowne, vnlearned, new come from his bote with his cloathes
+wringing wet, hath opened his mouth and taught me, In the beginning was the
+word,
+(HOOKER-A-E2-H,10.114)
+*~/
+/*
+133 VAG:  133 VAG, 134 wringing, 88 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (NP-OB1 (N death))
+	  (IP-INF-1 (FOR for)
+		    (NP-SBJ (PRO me))
+		    (TO to)
+		    (BE be)
+		    (ADJP (ADJ ignorant)
+			  (PP (P of)
+			      (NP (D the)
+				  (ADJ vnsearchable)
+				  (N misterie)
+				  (PP (P of)
+				      (NP (D the)
+					  (NPR sonne)
+					  (PP (P of)
+					      (NP (NPR God)))))))))
+	  (, :)
+	  (CP-CAR (WPP-2 (P of)
+			 (WNP (WD which) (N misterie)))
+		  (C 0)
+		  (IP-SUB (ADVP (ADV notwithstanding))
+			  (NP-SBJ (PRO I))
+			  (MD should)
+			  (HV haue)
+			  (BEN been)
+			  (ADJP (ADJ ignorant)
+				(PP *T*-2))
+			  (, ,)
+			  (PP (P but)
+			      (CP-ADV (C that)
+				      (IP-SUB (IP-SUB-3 (NP-SBJ (D a)
+								(ADJ poore)
+								(N+N fisherman)
+								(, ,)
+								(ADJP (ADJ vnknowne))
+								(, ,)
+								(ADJP (ADJ vnlearned))
+								(, ,)
+								(CODE <P_10>)
+								(RRC (ADVP (ADV new))
+								     (VBN come)
+								     (PP (P from)
+									 (NP (PRO$ his) (N bote)))
+								     (PP (P with)
+									 (IP-SMC (NP-SBJ (PRO$ his) (NS cloathes))
+										 (ADJP (VAG wringing) (ADJ wet))))))
+							(, ,)
+							(HVP hath)
+							(VBN opened)
+							(NP-OB1 (PRO$ his) (N mouth)))
+					      (CONJP (CONJ and)
+						     (IP-SUB=3 (VBN taught)
+							       (NP-OB2 (PRO me))
+							       (, ,)
+							       (CODE <font>)
+							       (IP-MAT-SPE (PP (P In)
+									       (NP (D the) (N beginning)))
+									   (BED was)
+									   (NP-SBJ (D the) (N word))))))))))
+	  (. ,))
+  (ID HOOKER-A-E2-H,10.114))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	1/1/117
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd
+*/
+
+/~*
+I doe marvaile that any man bearing the name of a servant of the servants of
+Iesus Christ, will goe about to drawe vs from our allegeance.
+(HOOKER-A-E2-P1,11.17)
+*~/
+/*
+19 VAG:  19 VAG, 20 bearing, 13 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (DOP doe)
+	  (VB marvaile)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (Q any)
+				  (N man)
+				  (RRC (VAG bearing)
+				       (NP-OB1 (D the)
+					       (N name)
+					       (PP (P of)
+						   (NP (D a)
+						       (N servant)
+						       (PP (P of)
+							   (NP (D the)
+							       (NS servants)
+							       (PP (P of)
+								   (NP (NPR Iesus) (NPR Christ))))))))))
+			  (, ,)
+			  (MD will)
+			  (VB goe)
+			  (RP about)
+			  (IP-INF-PRP (TO to)
+				      (VB drawe)
+				      (NP-OB1 (PRO vs))
+				      (PP (P from)
+					  (NP (PRO$ our) (N allegeance))))))
+	  (. .))
+  (ID HOOKER-A-E2-P1,11.17))
+
+/~*
+Now because that by such examples, not only the hearts of Infidels were
+hardned against the truth, but the mindes of weake brethren also much troubled,
+the holy Ghost hath given sentence of these backsliders, that they were
+carnall men, and had not the spirit of Christ Iesus, least any man hauing an
+overweening of their persons should be overmuch amazed and offended at their
+fall.
+(HOOKER-A-E2-P1,19.119)
+*~/
+/*
+160 HAG:  160 HAG, 161 hauing, 154 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP (P+N because)
+	      (CP-ADV (C that)
+		      (IP-SUB (PP (P by)
+				  (NP (SUCH such) (NS examples)))
+			      (, ,)
+			      (NP-SBJ (NP (NEG not)
+					  (FP only)
+					  (D the)
+					  (NS hearts)
+					  (PP (P of)
+					      (NP (NS Infidels))))
+				      (CONJP *ICH*-1))
+			      (BED were)
+			      (VAN hardned)
+			      (PP (P against)
+				  (NP (D the) (N truth)))
+			      (, ,)
+			      (CONJP-1 (CONJ but)
+				       (NP (D the)
+					   (NS mindes)
+					   (PP (P of)
+					       (NP (ADJ weake) (NS brethren) (ALSO also)))))
+			      (NP-MSR (Q much))
+			      (VAN troubled))))
+	  (, ,)
+	  (NP-SBJ (D the) (NPR holy) (NPR Ghost))
+	  (HVP hath)
+	  (VBN given)
+	  (NP-OB1 (N sentence)
+		  (PP (P of)
+		      (NP (D these) (NS backsliders)))
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+					  (BED were)
+					  (NP-OB1 (ADJ carnall) (NS men)))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *con*)
+						 (HVD had)
+						 (NEG not)
+						 (CODE <P_19>)
+						 (NP-OB1 (D the)
+							 (NPR spirit)
+							 (PP (P of)
+							     (NP (NPR Christ) (NPR Iesus)))))))))
+	  (, ,)
+	  (PP (P least)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q any)
+				      (N man)
+				      (RRC (HAG hauing)
+					   (NP-OB1 (D an)
+						   (ADVR+N overweening)
+						   (PP (P of)
+						       (NP (PRO$ their) (NS persons))))))
+			      (MD should)
+			      (BE be)
+			      (NP-MSR (ADVR+Q overmuch))
+			      (VAN (VAN amazed) (CONJ and) (VAN offended))
+			      (PP (P at)
+				  (NP (PRO$ their) (N fall))))))
+	  (. .))
+  (ID HOOKER-A-E2-P1,19.119))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	2/2/128
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	0/0/111
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd
+*/
+
+/~*
+Blessed and praised for ever and ever be his name, who perceiuing of how
+senselesse & heavy mettall we are made, hath instituted in his Church a
+spirituall supper, and an holy communion, to be celebrated often, that we
+might thereby bee occasioned often to examine these buildings of ours, in what
+case they stand.
+(HOOKER-B-E2-H,39.53)
+*~/
+/*
+41 VAG:  41 VAG, 42 perceiuing, 21 NP-SBJ
+*/
+
+( (IP-MAT (VAN (VAN Blessed) (CONJ and) (VAN praised))
+	  (PP (P for)
+	      (ADVP (ADV ever) (CONJ and) (ADV ever)))
+	  (BEP be)
+	  (NP-SBJ (NP-POS (PRO$ his)
+			  (CP-REL *ICH*-1))
+		  (N name)
+		  (, ,)
+		  (CP-REL-1 (WNP-2 (WPRO who))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (IP-PPL (VAG perceiuing)
+					    (CP-QUE (WPP-3 (P of)
+							   (WNP (WADJP (WADV how)
+								       (ADJ senselesse)
+								       (CONJP (CONJ &)
+									      (ADJX (ADJ heavy))))
+								(N mettall)))
+						    (C 0)
+						    (IP-SUB (PP *T*-3)
+							    (NP-SBJ (PRO we))
+							    (BEP are)
+							    (VAN made))))
+				    (, ,)
+				    (HVP hath)
+				    (VBN instituted)
+				    (PP (P in)
+					(NP (PRO$ his) (NPR Church)))
+				    (NP-OB1 (NP (D a) (CODE <P_39>) (ADJ spirituall) (N supper))
+					    (, ,)
+					    (CONJP (CONJ and)
+						   (NP (D an) (ADJ holy) (N communion)))
+					    (, ,)
+					    (CP-EOP (WNP-4 0)
+						    (IP-INF (NP-SBJ *T*-4)
+							    (TO to)
+							    (BE be)
+							    (VAN celebrated)
+							    (ADVP-TMP (ADV often)))))
+				    (, ,)
+				    (CP-ADV (C that)
+					    (IP-SUB (NP-SBJ (PRO we))
+						    (MD might)
+						    (PP (ADV+P thereby))
+						    (BE bee)
+						    (VAN occasioned)
+						    (IP-INF (ADVP-TMP (ADV often))
+							    (TO to)
+							    (VB examine)
+							    (NP-OB1 (D these)
+								    (NS buildings)
+								    (PP (P of)
+									(NP (PRO$ ours))))
+							    (, ,)
+							    (CP-QUE (WPP-5 (P in)
+									   (WNP (WD what) (N case)))
+								    (C 0)
+								    (IP-SUB (PP *T*-5)
+									    (NP-SBJ (PRO they))
+									    (VBP stand)))))))))
+	  (. .))
+  (ID HOOKER-B-E2-H,39.53))
+
+/~*
+For as in a chaine, which is made of many linkes, if you pull the first, you
+drawe the rest; and as in a ladder of many staues, if you take away the lowest,
+all hope of ascending to the highest will be remoued, So because all the
+precepts and promises in the law and in the Gospell doe hang vpon this,
+Beleeue; and because the last of the graces of God doth so follow the first,
+that he glorifieth none, but whom he hath iustified, nor iustifieth any, but
+whom he hath called to a true, effectual, and liuely faith in Christ Iesus,
+therefore S Iude exhorting us to build our selues, mentioneth here expresly
+only faith, as the thing wherein we must be edified,
+(HOOKER-B-E2-H,41.81)
+*~/
+/*
+143 VAG:  143 VAG, 144 ascending, 134 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (PP (P as)
+		  (CP-CMP (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP *T*-1)
+				  (PP (P in)
+				      (NP (D a)
+					  (N chaine)
+					  (, ,)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (BEP is)
+							  (VAN made)
+							  (PP (P of)
+							      (NP (Q many) (NS linkes)))))))
+				  (, ,)
+				  (PP (P if)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO you))
+						      (VBP pull)
+						      (NP-OB1 (D the) (ADJ first)))))
+				  (, ,)
+				  (NP-SBJ (PRO you))
+				  (VBP drawe)
+				  (NP-OB1 (D the) (N rest)))))
+	      (, ;)
+	      (CONJP (CONJ and)
+		     (PP (P as)
+			 (CP-CMP (WADVP-3 0)
+				 (C 0)
+				 (IP-SUB (ADVP *T*-3)
+					 (PP (P in)
+					     (NP (D a)
+						 (N ladder)
+						 (PP (P of)
+						     (NP (Q many) (NS staues)))))
+					 (, ,)
+					 (PP (P if)
+					     (CP-ADV (C 0)
+						     (IP-SUB (NP-SBJ (PRO you))
+							     (VBP take)
+							     (ADVP-DIR (ADV away))
+							     (NP-OB1 (D the) (ADJS lowest)))))
+					 (, ,)
+					 (NP-SBJ (Q all)
+						 (N hope)
+						 (PP (P of)
+						     (IP-PPL (VAG ascending)
+							     (PP (P to)
+								 (NP (D the) (ADJS highest))))))
+					 (MD will)
+					 (BE be)
+					 (VAN remoued))))))
+	  (, ,)
+	  (ADVP (ADV So))
+	  (PP-LFD (PP (P+N because)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (Q all)
+					      (D the)
+					      (NS precepts)
+					      (CONJP (CONJ and)
+						     (NX (NS promises)))
+					      (PP (PP (P in)
+						      (NP (D the) (N law)))
+						  (CONJP (CONJ and)
+							 (PP (P in)
+							     (NP (D the) (NPR Gospell))))))
+				      (DOP doe)
+				      (VB hang)
+				      (PP (P vpon)
+					  (NP (D this)
+					      (, ,)
+					      (CODE <font>)
+					      (QTP (IP-IMP (VBI Beleeue))))))))
+		  (CODE <$$font>)
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (PP (P+N because)
+			     (CP-ADV (C 0)
+				     (IP-SUB (NP-SBJ (D the)
+						     (ADJ last)
+						     (PP (P of)
+							 (NP (D the)
+							     (NS graces)
+							     (PP (P of)
+								 (NP (NPR God))))))
+					     (DOP doth)
+					     (ADVP (ADVR so)
+						   (CP-DEG *ICH*-4))
+					     (VB follow)
+					     (NP-OB1 (D the) (ADJ first))
+					     (, ,)
+					     (CP-DEG-4 (C that)
+						       (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+								       (VBP glorifieth)
+								       (NP-OB1 (Q none)
+									       (, ,)
+									       (PP (P but)
+										   (NP (CP-FRL (WNP-5 (WPRO whom))
+											       (C 0)
+											       (IP-SUB (NP-OB1 *T*-5)
+												       (NP-SBJ (PRO he))
+												       (HVP hath)
+												       (VBN iustified)))))))
+							       (, ,)
+							       (CONJP (CONJ nor)
+								      (IP-SUB (NP-SBJ *con*)
+									      (VBP iustifieth)
+									      (NP-OB1 (Q any)
+										      (, ,)
+										      (PP (P but)
+											  (NP (CP-FRL (WNP-6 (WPRO whom))
+												      (C 0)
+												      (IP-SUB (NP-OB1 *T*-6)
+													      (NP-SBJ (PRO he))
+													      (HVP hath)
+													      (VBN called)
+													      (PP (P to)
+														  (NP (D a)
+														      (ADJP (ADJ true) (, ,) (ADJ effectual) (, ,) (CONJ and) (ADJ liuely))
+														      (N faith)
+														      (PP (P in)
+															  (NP (NPR Christ) (NPR Iesus)))))))))))))))))))
+	  (, ,)
+	  (PP-RSP (ADV+P therefore))
+	  (NP-SBJ (NPR S) (CODE <font>) (NPR Iude) (CODE <$$font>))
+	  (IP-PPL (VAG exhorting)
+		  (NP-OB1 (PRO us))
+		  (IP-INF (TO to)
+			  (CODE <font>)
+			  (VB build)
+			  (NP-OB1 (PRO$ our) (N selues))
+			  (CODE <$$font>)))
+	  (, ,)
+	  (VBP mentioneth)
+	  (ADVP-LOC (ADV here))
+	  (ADVP (ADV expresly))
+	  (NP-OB1 (FP only) (N faith))
+	  (, ,)
+	  (PP (P as)
+	      (NP (D the)
+		  (N thing)
+		  (CP-REL (WPP-7 (WADV+P wherein))
+			  (C 0)
+			  (IP-SUB (PP *T*-7)
+				  (NP-SBJ (PRO we))
+				  (MD must)
+				  (BE be)
+				  (VAN edified)))))
+	  (. ,))
+  (ID HOOKER-B-E2-H,41.81))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	2/2/134
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd
+*/
+
+/~*
+And in the first to Tim. the 6. Chap. Some men lusting after money haue erred
+from the faith, & pierced themselues through with many sorrowes.
+(HOOKER-B-E2-P1,32.16)
+*~/
+/*
+35 VAG:  35 VAG, 36 lusting, 29 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (REF (PP (P in)
+		       (NP (D the)
+			   (ADJ first)
+			   (PP (P to)
+			       (NP (NPR Tim.)))))
+		   (NP (D the) (NUM 6.) (N Chap.)))
+	      (IP-MAT-SPE-1 (CODE <font>)
+			    (NP-SBJ (Q Some)
+				    (NS men)
+				    (RRC (VAG lusting)
+					 (PP (P after)
+					     (NP (N money)))))
+			    (HVP haue)
+			    (VBN erred)
+			    (PP (P from)
+				(NP (D the) (N faith))))
+	      (, ,)
+	      (CONJP (CONJ &)
+		     (IP-MAT-SPE=1 (VBN pierced)
+				   (NP-OB1 (PRO+N themselues))
+				   (RP through)
+				   (PP (P with)
+				       (NP (Q many) (NS sorrowes)))))
+	      (. .))
+  (ID HOOKER-B-E2-P1,32.16))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	1/1/175
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd
+*/
+
+/~*
+His being such, is thy deseruing
+(HOOKER-B-E2-P2,56.111)
+*~/
+/*
+6 BAG:  6 BAG, 7 being, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ His)
+		  (IP-PPL (BAG being)
+			  (ADJP (SUCH such))))
+	  (, ,)
+	  (BEP is)
+	  (NP-OB1 (PRO$ thy) (N deseruing)))
+  (ID HOOKER-B-E2-P2,56.111))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	1/1/115
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd
+*/
+
+/~*
+Here is the eternal Conjunction, the indissoluble knot, the exceeding love of
+Christ, the obedience of the Spouse, the communicating of Goods, the uniting
+of Interests, the fruit of Marriage, a celestial Generation, a new Creature;
+(JETAYLOR-E3-H,8.25)
+*~/
+/*
+31 VAG:  31 VAG, 32 exceeding, 7 NP-SBJ
+*/
+
+( (IP-MAT (ADVP-LOC (ADV Here))
+	  (BEP is)
+	  (NP-SBJ (NP (D the) (ADJ eternal) (N Conjunction))
+		  (, ,)
+		  (CONJP (NP (D the) (ADJ indissoluble) (N knot)))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (VAG exceeding)
+			     (N love)
+			     (PP (P of)
+				 (NP (NPR Christ)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N obedience)
+			     (PP (P of)
+				 (NP (D the) (N Spouse)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N communicating)
+			     (PP (P of)
+				 (NP (NS Goods)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N uniting)
+			     (PP (P of)
+				 (NP (NS Interests)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N fruit)
+			     (PP (P of)
+				 (NP (N Marriage)))))
+		  (, ,)
+		  (CONJP (NP (D a) (ADJ celestial) (N Generation)))
+		  (, ,)
+		  (CONJP (NP (D a) (ADJ new) (N Creature))))
+	  (. ;))
+  (ID JETAYLOR-E3-H,8.25))
+
+/~*
+Life or death, felicity or a lasting sorrow are in the power of marriage.
+(JETAYLOR-E3-H,9.41)
+*~/
+/*
+25 VAG:  25 VAG, 26 lasting, 4 NP-SBJ
+*/
+
+( (IP-MAT (CODE {COM:greek_omitted})
+	  (NP-SBJ (NP (N Life) (CONJ or) (N death))
+		  (, ,)
+		  (CONJP (NP (NP (N felicity))
+			     (CONJP (CONJ or)
+				    (NP (D a) (VAG lasting) (N sorrow))))))
+	  (BEP are)
+	  (PP (P in)
+	      (NP (D the)
+		  (N power)
+		  (PP (P of)
+		      (NP (N marriage)))))
+	  (. .))
+  (ID JETAYLOR-E3-H,9.41))
+
+/~*
+but the avoiding fornication came in by the superfoetation of the evil
+accidents of the world.
+(JETAYLOR-E3-H,13.97)
+*~/
+/*
+8 VAG:  8 VAG, 9 avoiding, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D the)
+		  (IP-PPL (VAG avoiding)
+			  (NP-OB1 (N fornication))))
+	  (VBD came)
+	  (RP in)
+	  (PP (P by)
+	      (NP (D the)
+		  (CODE <P_13>)
+		  (N superfoetation)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ evil)
+			  (NS accidents)
+			  (PP (P of)
+			      (NP (D the) (N world)))))))
+	  (. .))
+  (ID JETAYLOR-E3-H,13.97))
+
+/~*
+The little Boy in the Greek Epigram, that was creeping down a Precipice was
+invited to his Safety by the sight of his Mother's pap, when nothing else
+could intice him to return:
+(JETAYLOR-E3-H,15.137)
+*~/
+/*
+31 VAG:  31 VAG, 32 creeping, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ little)
+		  (N Boy)
+		  (PP (P in)
+		      (NP (D the) (ADJ Greek) (N Epigram)))
+		  (, ,)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (VAG creeping)
+				  (PP (P down)
+				      (NP (D a) (N Precipice))))))
+	  (BED was)
+	  (VAN invited)
+	  (PP (P to)
+	      (NP (PRO$ his) (N Safety)))
+	  (PP (P by)
+	      (NP (D the)
+		  (N sight)
+		  (PP (P of)
+		      (NP (NP-POS (PRO$ his) (N$ Mother's))
+			  (N pap)))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q+N nothing)
+				      (ADJP (ADJ else)))
+			      (MD could)
+			      (VB intice)
+			      (NP-OB1 (PRO him))
+			      (IP-INF (TO to) (VB return)))))
+	  (. :))
+  (ID JETAYLOR-E3-H,15.137))
+
+/~*
+and the bond of common Children, and the sight of her that nurses what is most
+dear to him, and the endearments of each other in the course of a long society,
+and the same relation is an excellent security to redintegrate and to call
+that love back which folly and trifling accidents would disturb. -
+(JETAYLOR-E3-H,15.138)
+*~/
+/*
+165 VAG:  165 VAG, 166 trifling, 157 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NP (D the)
+		      (N bond)
+		      (PP (P of)
+			  (NP (ADJ common) (NS Children))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (N sight)
+			     (PP (P of)
+				 (NP (PRO her)
+				     (CP-REL (WNP-1 0)
+					     (C that)
+					     (IP-SUB (NP-SBJ *T*-1)
+						     (VBP nurses)
+						     (NP-OB1 (CP-FRL (WNP-2 (WPRO what))
+								     (C 0)
+								     (IP-SUB (NP-SBJ *T*-2)
+									     (BEP is)
+									     (ADJP (QS most)
+										   (ADJ dear)
+										   (PP (P to)
+										       (NP (PRO him)))))))))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (NS endearments)
+			     (PP (P of)
+				 (NP (Q each) (OTHER other)))
+			     (PP (P in)
+				 (NP (D the)
+				     (N course)
+				     (PP (P of)
+					 (NP (D a) (ADJ long) (N society)))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the) (ADJ same) (N relation))))
+	  (BEP is)
+	  (NP-OB1 (D an)
+		  (ADJ excellent)
+		  (N security)
+		  (IP-INF-3 (TO to)
+			    (VB redintegrate)
+			    (IP-INF-PRN=3 (CONJ and)
+					  (TO to)
+					  (VB call)
+					  (NP-OB1-4 (D that)
+						    (N love)
+						    (CP-REL *ICH*-5))
+					  (ADVP-DIR (ADV back)))
+			    (NP-OB1 *ICH*-4)
+			    (CP-REL-5 (WNP-6 (WPRO which))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-6)
+					      (NP-SBJ (NP (N folly))
+						      (CONJP (CONJ and)
+							     (NP (VAG trifling) (NS accidents))))
+					      (MD would)
+					      (VB disturb)))))
+	  (, .)
+	  (. -))
+  (ID JETAYLOR-E3-H,15.138))
+
+/~*
+and when his Discourses are imperfect, and a trifling Trouble makes him yet
+more restless, he is soon betrayed to the violence of Passion.
+(JETAYLOR-E3-H,16.149)
+*~/
+/*
+31 VAG:  31 VAG, 32 trifling, 28 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO$ his) (NS Discourses))
+				      (BEP are)
+				      (ADJP (ADJ imperfect)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ (D a) (VAG trifling) (N Trouble))
+					     (VBP makes)
+					     (IP-SMC (NP-SBJ (PRO him))
+						     (ADJP (ADVP (ADV yet) (QR more))
+							   (ADJ restless))))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (ADVP-TMP (ADV soon))
+	  (VAN betrayed)
+	  (PP (P to)
+	      (NP (D the)
+		  (N violence)
+		  (PP (P of)
+		      (NP (N Passion)))))
+	  (. .))
+  (ID JETAYLOR-E3-H,16.149))
+
+/~*
+and the discontent will pass away soon, as the sparks from the collision of a
+flint; ever remembring, that Discontents proceeding from daily little things,
+do breed a secret undiscernable Disease, which is more dangerous than a Fever
+proceeding from a discerned notorious Surfeit.
+(JETAYLOR-E3-H,16.157)
+*~/
+/*
+63 VAG:  63 VAG, 64 proceeding, 59 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the) (N discontent))
+	  (MD will)
+	  (VB pass)
+	  (ADVP-DIR (ADV away))
+	  (ADVP-TMP (ADV soon))
+	  (, ,)
+	  (PP (P as)
+	      (NP (D the)
+		  (NS sparks)
+		  (PP (P from)
+		      (NP (D the)
+			  (N collision)
+			  (PP (P of)
+			      (NP (D a) (N flint)))))))
+	  (, ;)
+	  (IP-PPL (ADVP-TMP (ADV ever))
+		  (VAG remembring)
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (NS Discontents)
+					  (RRC (VAG proceeding)
+					       (PP (P from)
+						   (NP (ADJ daily) (ADJ little) (NS things)))))
+				  (, ,)
+				  (DOP do)
+				  (VB breed)
+				  (NP-OB1 (D a)
+					  (ADJ secret)
+					  (ADJ undiscernable)
+					  (N Disease)
+					  (, ,)
+					  (CP-REL (WNP-1 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *-1)
+							  (BEP is)
+							  (ADJP (QR more)
+								(ADJ dangerous)
+								(PP (P than)
+								    (NP (D a)
+									(N Fever)
+									(RRC (VAG proceeding)
+									     (PP (P from)
+										 (NP (D a) (VAN discerned) (ADJ notorious) (N Surfeit)))))))))))))
+	  (. .))
+  (ID JETAYLOR-E3-H,16.157))
+
+/~*
+but the disposing them into portions of inheritance, the assignation of
+charges and governments, stipends and rewards, annuities and greater donatives
+are the reserves of the superior right, and not to be invaded by the
+under-possessors.
+(JETAYLOR-E3-H,18.194)
+*~/
+/*
+9 VAG:  9 VAG, 10 disposing, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (NP (D the)
+		      (IP-PPL (VAG disposing)
+			      (CODE <P_18>)
+			      (NP-OB1 (PRO them))
+			      (PP (P into)
+				  (NP (NS portions)
+				      (PP (P of)
+					  (NP (N inheritance)))))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N assignation)
+			     (PP (P of)
+				 (NP (NP (NS charges) (CONJ and) (NS governments))
+				     (, ,)
+				     (CONJP (NP (NS stipends) (CONJ and) (NS rewards)))
+				     (, ,)
+				     (CONJP (NP (NP (NS annuities))
+						(CONJP (CONJ and)
+						       (NP (ADJR greater) (NS donatives))))))))))
+	  (BEP are)
+	  (NP-OB1 (NP (D the)
+		      (NS reserves)
+		      (PP (P of)
+			  (NP (D the) (ADJ superior) (N right))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (NEG not)
+				 (TO to)
+				 (BE be)
+				 (VAN invaded)
+				 (PP (P by)
+				     (NP (D the) (P+NS under-possessors))))))
+	  (. .))
+  (ID JETAYLOR-E3-H,18.194))
+
+/~*
+for those kindnesses are undecent which the fighting-man pays unto his wife.
+(JETAYLOR-E3-H,25.327)
+*~/
+/*
+28 VAG+N:  28 VAG+N, 29 fighting-man, 25 NP-SBJ
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (D those)
+		  (NS kindnesses)
+		  (CP-REL *ICH*-1))
+	  (BEP are)
+	  (ADJP (ADJ undecent))
+	  (CP-REL-1 (WNP-2 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-OB1 *T*-2)
+			    (NP-SBJ (D the) (VAG+N fighting-man))
+			    (VBP pays)
+			    (PP (P unto)
+				(NP (PRO$ his) (N wife)))))
+	  (. .))
+  (ID JETAYLOR-E3-H,25.327))
+
+/~*
+and Blessing itself $can $not make him Happy; so that all the Commandments of
+God injoyning a man to love his wife, are nothing but so many Necessities and
+Capacities of joy.
+(JETAYLOR-E3-H,27.372)
+*~/
+/*
+48 VAG:  48 VAG, 49 injoyning, 34 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (N Blessing)
+		  (NP-PRN (PRO+N itself)))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB make)
+	  (IP-SMC (NP-SBJ (PRO him))
+		  (ADJP (ADJ Happy)))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (Q all)
+				      (D the)
+				      (NS Commandments)
+				      (PP (P of)
+					  (NP (NPR God)))
+				      (RRC (VAG injoyning)
+					   (NP-OB1 (D a) (N man))
+					   (IP-INF (TO to)
+						   (CODE <font>)
+						   (VB love)
+						   (NP-OB1 (PRO$ his) (N wife)))))
+			      (CODE <$$font>)
+			      (, ,)
+			      (BEP are)
+			      (NP-OB1 (Q+N nothing)
+				      (PP (P but)
+					  (NP (QP (ADVR so) (Q many))
+					      (NS Necessities)
+					      (CONJP (CONJ and)
+						     (NX (NS Capacities)))
+					      (PP (P of)
+						  (NP (N joy)))))))))
+	  (. .))
+  (ID JETAYLOR-E3-H,27.372))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	10/10/394
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd
+*/
+
+/~*
+But in this first interval, the publick Necessity and the private Zeal
+mingling together did sometimes over-act their love of single Life, even to
+the disparagement of Marriage, and to the scandal of Religion; which was
+increased by the occasion of some pious persons renouncing their contract of
+marriage, not consummate, with unbelievers.
+(JETAYLOR-E3-P1,4.40)
+*~/
+/*
+35 VAG:  35 VAG, 36 mingling, 16 NP-SBJ
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P in)
+	      (NP (D this) (ADJ first) (N interval)))
+	  (, ,)
+	  (NP-SBJ (NP (D the) (ADJ publick) (N Necessity))
+		  (CONJP (CONJ and)
+			 (NP (D the) (ADJ private) (N Zeal)))
+		  (RRC (VAG mingling)
+		       (ADVP (ADV together))))
+	  (DOD did)
+	  (NP-TMP (Q+NS sometimes))
+	  (VB over-act)
+	  (NP-OB1 (PRO$ their)
+		  (N love)
+		  (PP (P of)
+		      (NP (ADJ single) (N Life))))
+	  (, ,)
+	  (PP (PP (FP even)
+		  (P to)
+		  (NP (D the)
+		      (N disparagement)
+		      (PP (P of)
+			  (NP (N Marriage)))))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (PP (P to)
+			 (NP (D the)
+			     (N scandal)
+			     (PP (P of)
+				 (NP (N Religion)))
+			     (, ;)
+			     (CP-REL (WNP-1 (WPRO which))
+				     (C 0)
+				     (IP-SUB (NP-SBJ *T*-1)
+					     (BED was)
+					     (VAN increased)
+					     (PP (P by)
+						 (NP (D the)
+						     (N occasion)
+						     (PP (P of)
+							 (IP-PPL (NP-SBJ (Q some) (ADJ pious) (NS persons))
+								 (VAG renouncing)
+								 (NP-OB1 (PRO$ their)
+									 (N contract)
+									 (PP (P of)
+									     (NP (N marriage)
+										 (, ,)
+										 (RRC (NEG not) (VAN consummate))))
+									 (, ,)
+									 (PP (P with)
+									     (NP (NS unbelievers))))))))))))))
+	  (. .))
+  (ID JETAYLOR-E3-P1,4.40))
+
+/~*
+A ruling Woman is intolerable ... Faciunt graviora coactae Imperios sexus ...
+(JETAYLOR-E3-P1,32.193)
+*~/
+/*
+5 VAG:  5 VAG, 6 ruling, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D A) (VAG ruling) (N Woman))
+	  (BEP is)
+	  (ADJP (ADJ intolerable))
+	  (, ...)
+	  (LATIN (FW Faciunt) (FW graviora) (FW coactae) (FW Imperios) (FW sexus))
+	  (. ...))
+  (ID JETAYLOR-E3-P1,32.193))
+
+/~*
+and the remaining portion of the state is a dull progress without variety of
+joys but not without the change of sorrows;
+(JETAYLOR-E3-P1,38.276)
+*~/
+/*
+7 VAG:  7 VAG, 8 remaining, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (VAG remaining)
+		  (N portion)
+		  (PP (P of)
+		      (NP (D the) (N state))))
+	  (BEP is)
+	  (NP-OB1 (D a)
+		  (ADJ dull)
+		  (N progress)
+		  (PP (PP (P without)
+			  (NP (N variety)
+			      (PP (P of)
+				  (NP (NS joys)))))
+		      (CONJP (CONJ but)
+			     (PP (NEG not)
+				 (P without)
+				 (NP (D the)
+				     (N change)
+				     (PP (P of)
+					 (NP (NS sorrows))))))))
+	  (. ;))
+  (ID JETAYLOR-E3-P1,38.276))
+
+/~*
+But those married Pairs that Live, as remembring that they must Part again,
+and give an Account how they treat themselves and each other, shall at that
+day of their Death be admitted to glorious Espousals; and when they shall live
+again, be married to their Lord, and partake of his Glories, with Abraham and
+Joseph, S. Peter and S. Paul,, and all the married Saints.
+(JETAYLOR-E3-P1,38.281)
+*~/
+/*
+28 VAG:  28 VAG, 29 remembring, 5 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ But)
+		    (NP-SBJ (D those)
+			    (ADJ married)
+			    (NS Pairs)
+			    (CP-REL (WNP-2 0)
+				    (C that)
+				    (IP-SUB (NP-SBJ *T*-2)
+					    (VBP Live)
+					    (, ,)
+					    (PP (P as)
+						(IP-PPL (VAG remembring)
+							(CP-THT (C that)
+								(IP-SUB (IP-SUB-3 (NP-SBJ (PRO they))
+										  (MD must)
+										  (VB Part)
+										  (ADVP (ADV again)))
+									(, ,)
+									(CONJP (CONJ and)
+									       (IP-SUB=3 (VB give)
+											 (NP-OB1 (D an)
+												 (N Account)
+												 (CP-QUE (WADVP-4 (WADV how))
+													 (C 0)
+													 (IP-SUB (ADVP *T*-4)
+														 (NP-SBJ (PRO they))
+														 (VB treat)
+														 (NP-OB1 (NP (PRO+N themselves))
+															 (CONJP (CONJ and)
+																(NP (Q each) (OTHER other))))))))))))))))
+		    (, ,)
+		    (MD shall)
+		    (PP (P at)
+			(NP (D that)
+			    (N day)
+			    (PP (P of)
+				(NP (PRO$ their) (N Death)))))
+		    (BE be)
+		    (VAN admitted)
+		    (PP (P to)
+			(NP (ADJ glorious) (NS Espousals))))
+	  (, ;)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (PP (P when)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO they))
+					       (MD shall)
+					       (VB live)
+					       (ADVP (ADV again)))))
+			   (, ,)
+			   (BE be)
+			   (ADJP (ADJ married)
+				 (PP (P to)
+				     (NP (PRO$ their) (NPR Lord))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB partake)
+			   (PP (P of)
+			       (NP (PRO$ his) (NS Glories)))
+			   (, ,)
+			   (PP (P with)
+			       (NP (NP (NP (CODE <font>) (NPR Abraham) (CODE <$$font>))
+				       (CONJP (CONJ and)
+					      (NP (CODE <font>) (NPR Joseph) (, ,) (CODE <$$font>))))
+				   (CONJP (NP (NP (NPR S.) (CODE <font>) (NPR Peter) (CODE <$$font>))
+					      (CONJP (CONJ and)
+						     (NP (NPR S.) (CODE <font>) (NPR Paul) (, ,) (CODE <$$font>)))))
+				   (, ,)
+				   (CONJP (CONJ and)
+					  (NP (Q all) (D the) (ADJ married) (NS Saints)))))))
+	  (. .))
+  (ID JETAYLOR-E3-P1,38.281))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	4/4/287
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd
+*/
+
+/~*
+Thus came vp lordyng loyterers.
+(LATIMER-E1-H,25P.109)
+*~/
+/*
+10 VAG:  10 VAG, 11 lordyng, 9 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (ADV Thus))
+	  (VBD came)
+	  (RP vp)
+	  (NP-SBJ (VAG lordyng) (NS loyterers))
+	  (. .))
+  (ID LATIMER-E1-H,25P.109))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	1/1/355
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd
+*/
+
+/~*
+for he is, Iuge sacrificium, a continuall sacrifice, in effecte, fruite and
+operation, that lyke as they whiche seinge the serpente hange vp in the
+deserte were put in remembrance of Christes death, in whome as many as beleued
+were saued: so all men that trusted in the death of Chryste shall be saued, as
+well they that were before, as they that came after.
+(LATIMER-E1-P1,33P.188)
+*~/
+/*
+78 VAG:  78 VAG, 79 seinge, 65 NP-SBJ
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (, ,)
+	  (CODE <font>)
+	  (NP-OB1 (LATIN (FW Iuge) (FW sacrificium))
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (D a) (ADJ continuall) (N sacrifice))
+		  (, ,)
+		  (PP (P in)
+		      (NP (N effecte) (, ,) (N fruite) (CONJ and) (N operation))))
+	  (, ,)
+	  (CP-ADV (C that)
+		  (IP-SUB (PP (ADV lyke)
+			      (P as)
+			      (CP-CMP (WADVP-1 0)
+				      (C 0)
+				      (IP-SUB (ADVP *T*-1)
+					      (NP-SBJ (PRO they)
+						      (CP-REL (WNP-2 (WPRO whiche))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-2)
+								      (IP-PPL (VAG seinge)
+									      (IP-INF (NP-SBJ (D the) (N serpente))
+										      (VB hange)
+										      (RP vp)
+										      (PP (P in)
+											  (NP (D the) (N deserte))))))))
+					      (BED were)
+					      (VAN put)
+					      (PP (P in)
+						  (NP (N remembrance)
+						      (PP (P of)
+							  (NP (NPR$ Christes)
+							      (N death)
+							      (, ,)
+							      (CP-REL (WPP-3 (P in)
+									     (WNP (WPRO whome)))
+								      (C 0)
+								      (IP-SUB (PP *T*-3)
+									      (NP-SBJ (QP (ADVR as) (Q many))
+										      (PP (P as)
+											  (CP-CMP (WNP-4 0)
+												  (C 0)
+												  (IP-SUB (NP-SBJ *T*-4)
+													  (VBD beleued)))))
+									      (BED were)
+									      (VAN saued))))))))))
+			  (, :)
+			  (ADVP (ADV so))
+			  (NP-SBJ (Q all)
+				  (NS men)
+				  (CP-REL (WNP-5 0)
+					  (C that)
+					  (IP-SUB (NP-SBJ *T*-5)
+						  (VBD trusted)
+						  (PP (P in)
+						      (NP (D the)
+							  (N death)
+							  (PP (P of)
+							      (NP (NPR Chryste)))))))
+				  (NP-PRN *ICH*-6))
+			  (MD shall)
+			  (BE be)
+			  (VAN saued)
+			  (, ,)
+			  (NP-PRN-6 (ADVP (ADVR as)
+					  (ADV well)
+					  (PP *ICH*-8))
+				    (PRO they)
+				    (CP-REL (WNP-7 0)
+					    (C that)
+					    (IP-SUB (NP-SBJ *T*-7)
+						    (BED were)
+						    (ADVP-TMP (ADV before))))
+				    (, ,)
+				    (PP-8 (P as)
+					  (NP (PRO they)
+					      (CP-REL (WNP-9 0)
+						      (C that)
+						      (IP-SUB (NP-SBJ *T*-9)
+							      (VBD came)
+							      (ADVP (ADV after)))))))))
+	  (. .))
+  (ID LATIMER-E1-P1,33P.188))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	1/1/336
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd
+*/
+
+/~*
+but the commens be vtterlye vndone by them. Whose bitter cry ascendyng vp to
+the eares of the god of Sabaoth, the gredy pyt of hel burning fire without
+great repentaunce do tary and loke for them.
+(LATIMER-E1-P2,42L.228)
+*~/
+/*
+82 VAG:  82 VAG, 83 burning, 68 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D the)
+		  (NS commens)
+		  (CP-REL *ICH*-1))
+	  (BE be)
+	  (ADVP (ADV vtterlye))
+	  (VAN vndone)
+	  (PP (P by)
+	      (NP (PRO them)))
+	  (, .)
+	  (CP-REL-1 (WNP-2 (WPRO$ Whose) (ADJ bitter) (N cry))
+		    (C 0)
+		    (IP-SUB (IP-PPL-ABS (NP-SBJ *T*-2)
+					(VAG ascendyng)
+					(RP vp)
+					(PP (P to)
+					    (NP (D the)
+						(NS eares)
+						(PP (P of)
+						    (NP (D the)
+							(NPR god)
+							(PP (P of)
+							    (NP (NPR Sabaoth))))))))
+			    (, ,)
+			    (NP-SBJ (D the)
+				    (ADJ gredy)
+				    (N pyt)
+				    (PP (P of)
+					(NP (NPR hel)))
+				    (RRC (VAG burning)
+					 (NP-OB1 (N fire))))
+			    (CODE <paren>)
+			    (PP-PRN (P without)
+				    (NP (ADJ great) (N repentaunce)))
+			    (CODE <$$paren>)
+			    (DOP do)
+			    (VB (VB tary) (CONJ and) (VB loke))
+			    (PP (P for)
+				(NP (PRO them)))))
+	  (. .))
+  (ID LATIMER-E1-P2,42L.228))
+
+/~*
+The second hope I haue is, I beleue that the general accomptyng daye is at
+hande,
+(LATIMER-E1-P2,42L.232)
+*~/
+/*
+44 VAG:  44 VAG, 45 accomptyng, 39 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ second)
+		  (N hope)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (HVP haue))))
+	  (BEP is)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (VBP beleue)
+			  (CP-THT (C that)
+				  (IP-SUB (NP-SBJ (D the) (ADJ general) (VAG accomptyng) (N daye))
+					  (BEP is)
+					  (PP (P at)
+					      (NP (N hande)))))))
+	  (. ,))
+  (ID LATIMER-E1-P2,42L.232))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	2/2/295
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	0/0/338
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd
+*/
+
+/~*
+For none of these Martiall, and clowdie, and whining Marriages can saye that
+Godlinesse was inuited to their Bridall;
+(SMITH-E2-P1,43.335)
+*~/
+/*
+26 VAG:  26 VAG, 27 whining, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (Q none)
+		  (PP (P of)
+		      (NP (D these)
+			  (ADJP (ADJ Martiall) (, ,) (CONJ and) (ADJ clowdie) (, ,) (CONJ and) (VAG whining))
+			  (NS Marriages))))
+	  (MD can)
+	  (VB saye)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (N Godlinesse))
+			  (BED was)
+			  (VAN inuited)
+			  (PP (P to)
+			      (NP (PRO$ their) (N Bridall)))))
+	  (. ;))
+  (ID SMITH-E2-P1,43.335))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	1/1/360
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd
+*/
+
+/~*
+Sixtly they say, because Vsurie comes of biting, the biting Vsurie is onely
+forbidden, and none but the biting Vsurie:
+(SMITH-E2-P2,D3R.170)
+*~/
+/*
+40 VAG:  40 VAG, 41 biting, 36 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (ADV Sixtly))
+	  (NP-SBJ (PRO they))
+	  (VBP say)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (PP (P+N because)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (N Vsurie))
+					      (VBP comes)
+					      (PP (P of)
+						  (NP (N biting))))))
+			  (, ,)
+			  (NP-SBJ (NP (D the) (VAG biting) (N Vsurie))
+				  (CONJP *ICH*-1))
+			  (BEP is)
+			  (FP onely)
+			  (VAN forbidden)
+			  (, ,)
+			  (CONJP-1 (CONJ and)
+				   (NP (Q none)
+				       (PP (P but)
+					   (NP (D the) (VAG biting) (N Vsurie)))))))
+	  (. :))
+  (ID SMITH-E2-P2,D3R.170))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	1/1/278
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	0/0/162
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd
+*/
+
+/~*
+In the last days shall come scoffers walking after their own lusts, and saying
+where is the promise of his coming?
+(TILLOTS-A-E3-P1,417.14)
+*~/
+/*
+23 VAG:  23 VAG, 24 walking, 18 NP-SBJ
+41 VAG:  41 VAG, 42 saying, 18 NP-SBJ
+*/
+
+( (IP-MAT (CODE <font>)
+	  (PP (P In)
+	      (NP (D the) (ADJ last) (NS days)))
+	  (MD shall)
+	  (VB come)
+	  (NP-SBJ (NS scoffers)
+		  (RRC (RRC (VAG walking)
+			    (PP (P after)
+				(NP (PRO$ their) (ADJ own) (NS lusts))))
+		       (, ,)
+		       (CONJP (CONJ and)
+			      (RRC (VAG saying)
+				   (CP-QUE-SPE (WADVP-1 (WADV where))
+					       (IP-SUB-SPE (ADVP-LOC *T*-1)
+							   (BEP is)
+							   (NP-SBJ (D the)
+								   (N promise)
+								   (PP (P of)
+								       (NP (PRO$ his) (N coming))))))))))
+	  (. ?)
+	  (CODE <$$font>))
+  (ID TILLOTS-A-E3-P1,417.14))
+
+/~*
+But if we suppose this apprehension of a Deity to have no foundation in nature,
+but to have had its rise from tradition which hath been confirmed in the world
+by the prejudice of education; the difficulty of removing it will almost be as
+great as if it were natural, that which men take in by education being next to
+that which is natural.
+(TILLOTS-A-E3-P1,423.55)
+*~/
+/*
+119 VAG:  119 VAG, 120 removing, 110 NP-SBJ
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP suppose)
+			      (IP-INF (IP-INF (NP-SBJ (D this)
+						      (N apprehension)
+						      (PP (P of)
+							  (NP (D a) (N Deity))))
+					      (TO to)
+					      (HV have)
+					      (NP-OB1 (Q no) (N foundation))
+					      (PP (P in)
+						  (NP (N nature))))
+				      (, ,)
+				      (CONJP (CONJ but)
+					     (IP-INF (NP-SBJ *con*)
+						     (TO to)
+						     (HV have)
+						     (HVN had)
+						     (NP-OB1 (PRO$ its) (N rise))
+						     (PP (P from)
+							 (NP (N tradition)
+							     (CP-REL (WNP-1 (WPRO which))
+								     (C 0)
+								     (IP-SUB (NP-SBJ *T*-1)
+									     (HVP hath)
+									     (BEN been)
+									     (VAN confirmed)
+									     (PP (P in)
+										 (NP (D the) (N world)))
+									     (PP (P by)
+										 (NP (D the)
+										     (N prejudice)
+										     (PP (P of)
+											 (NP (N education)))))))))))))))
+	  (, ;)
+	  (NP-SBJ (D the)
+		  (N difficulty)
+		  (PP (P of)
+		      (IP-PPL (VAG removing)
+			      (NP-OB1 (PRO it)))))
+	  (MD will)
+	  (ADVP (ADV almost))
+	  (BE be)
+	  (ADJP (ADVR as)
+		(ADJ great)
+		(PP (P as)
+		    (PP (P if)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (PRO it))
+					(BED were)
+					(ADJP (ADJ natural)))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D that)
+			      (CP-REL (WNP-2 (WPRO which))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-2)
+					      (NP-SBJ (NS men))
+					      (VBP take)
+					      (RP in)
+					      (PP (P by)
+						  (NP (N education))))))
+		      (BAG being)
+		      (ADJP-LOC (ADJS next)
+				(PP (P to)
+				    (NP (D that)
+					(CP-REL (WNP-3 (WPRO which))
+						(C 0)
+						(IP-SUB (NP-SBJ *T*-3)
+							(BEP is)
+							(ADJP (ADJ natural))))))))
+	  (. .))
+  (ID TILLOTS-A-E3-P1,423.55))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	3/2/126
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd
+*/
+
+/~*
+And therefore in answer to it, I desire these following particulars may be
+considered.
+(TILLOTS-B-E3-H,445.8)
+*~/
+/*
+33 VAG:  33 VAG, 34 following, 30 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADV+P therefore)
+	      (PP (P in)
+		  (NP (N answer)
+		      (PP (P to)
+			  (NP (PRO it))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP desire)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (D these) (VAG following) (NS particulars))
+			  (MD may)
+			  (BE be)
+			  (VAN considered)))
+	  (. .))
+  (ID TILLOTS-B-E3-H,445.8))
+
+/~*
+And if it be true which they tell us, That without an infallible Judge
+Controversies $can $not be ended, then a Controversie concerning an infallible
+Judge can never be ended.
+(TILLOTS-B-E3-H,446.24)
+*~/
+/*
+82 VAG:  82 VAG, 83 concerning, 76 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP-LFD (P if)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ-1 (PRO it)
+					    (CP-REL *ICH*-2))
+				  (BEP be)
+				  (NP-OB1 (ADJ true))
+				  (CP-REL-2 (WNP-3 (WPRO which))
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-3)
+						    (NP-SBJ (PRO they))
+						    (VBP tell)
+						    (NP-OB2 (PRO us))))
+				  (, ,)
+				  (CP-THT-1 (CODE <font>)
+					    (C That)
+					    (IP-SUB (PP (P without)
+							(NP (D an) (ADJ infallible) (N Judge)))
+						    (NP-SBJ (NS Controversies))
+						    (MD $can)
+						    (NEG $not)
+						    (CODE {TEXT:cannot})
+						    (BE be)
+						    (VAN ended)
+						    (CODE <$$font>))))))
+	  (, ,)
+	  (ADVP-RSP (ADV then))
+	  (NP-SBJ (D a)
+		  (N Controversie)
+		  (RRC (VAG concerning)
+		       (NP-OB1 (D an) (ADJ infallible) (N Judge))))
+	  (MD can)
+	  (ADVP-TMP (ADV never))
+	  (BE be)
+	  (VAN ended)
+	  (. .))
+  (ID TILLOTS-B-E3-H,446.24))
+
+/~*
+For though the inconveniences arising from the ill use of it may be very great,
+yet the mischief on the other hand is intolerable.
+(TILLOTS-B-E3-H,451.102)
+*~/
+/*
+21 VAG:  21 VAG, 22 arising, 11 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP-LFD (P though)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (D the)
+					  (CODE <font>)
+					  (NS inconveniences)
+					  (CODE <$$font>)
+					  (RRC (VAG arising)
+					       (PP (P from)
+						   (NP (D the)
+						       (ADJ ill)
+						       (N use)
+						       (PP (P of)
+							   (NP (PRO it)))))))
+				  (MD may)
+				  (BE be)
+				  (ADJP (ADV very) (ADJ great)))))
+	  (, ,)
+	  (ADVP-RSP (ADV yet))
+	  (NP-SBJ (D the)
+		  (CODE <font>)
+		  (N mischief)
+		  (CODE <$$font>)
+		  (PP (P on)
+		      (NP (D the) (OTHER other) (N hand))))
+	  (BEP is)
+	  (ADJP (ADJ intolerable))
+	  (. .))
+  (ID TILLOTS-B-E3-H,451.102))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	3/3/138
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd
+*/
+
+/~*
+And these teaching contrary things, could not both be from God;
+(TILLOTS-B-E3-P1,433.12)
+*~/
+/*
+8 VAG:  8 VAG, 9 teaching, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (D these)
+		  (RRC (VAG teaching)
+		       (NP-OB1 (ADJ contrary) (NS things))))
+	  (, ,)
+	  (MD could)
+	  (NEG not)
+	  (Q both)
+	  (BE be)
+	  (PP (P from)
+	      (NP (NPR God)))
+	  (. ;))
+  (ID TILLOTS-B-E3-P1,433.12))
+
+/~*
+and he hath the very same evidence to prove, that what he sees in the
+Sacrament is not the body of Christ, but bread. So that here ariseth a new
+controversie, whether a man should believe his senses giving testimony against
+the Doctrine of Transubstantiation, or bearing testimony to the Miracle which
+is wrought to confirm that Doctrine:
+(TILLOTS-B-E3-P1,439.116)
+*~/
+/*
+126 VAG:  126 VAG, 127 giving, 95 NP-SBJ
+151 VAG:  151 VAG, 152 bearing, 95 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO he))
+	  (HVP hath)
+	  (NP-OB1 (D the)
+		  (ADJP (ADV very) (ADJ same))
+		  (N evidence)
+		  (IP-INF (TO to)
+			  (VB prove)
+			  (, ,)
+			  (CP-THT (CODE <font>)
+				  (C that)
+				  (IP-SUB (NP-SBJ (CP-FRL (WNP-1 (WPRO what))
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-1)
+								  (NP-SBJ (PRO he))
+								  (VBP sees)
+								  (PP (P in)
+								      (NP (D the) (NPR Sacrament))))))
+					  (BEP is)
+					  (NEG not)
+					  (NP-OB1 (NP (D the)
+						      (N body)
+						      (PP (P of)
+							  (NP (NPR Christ))))
+						  (, ,)
+						  (CONJP (CONJ but)
+							 (NP (N bread)))))
+				  (CODE <$$font>))))
+	  (, .)
+	  (PP (P So)
+	      (CP-ADV (C that)
+		      (IP-SUB (ADVP-LOC (ADV here))
+			      (VBP ariseth)
+			      (NP-SBJ (D a)
+				      (ADJ new)
+				      (N controversie)
+				      (, ,)
+				      (CP-QUE (WQ whether)
+					      (C 0)
+					      (IP-SUB (NP-SBJ (D a) (N man))
+						      (MD should)
+						      (VB believe)
+						      (NP-OB2 (PRO$ his)
+							      (NS senses)
+							      (RRC (RRC (VAG giving)
+									(NP-OB1 (N testimony))
+									(PP (P against)
+									    (NP (D the)
+										(N Doctrine)
+										(PP (P of)
+										    (NP (N Transubstantiation))))))
+								   (, ,)
+								   (CONJP (CONJ or)
+									  (RRC (VAG bearing)
+									       (NP-OB1 (N testimony))
+									       (PP (P to)
+										   (NP (D the)
+										       (N Miracle)
+										       (CP-REL (WNP-2 (WPRO which))
+											       (C 0)
+											       (IP-SUB (NP-SBJ *T*-2)
+												       (BEP is)
+												       (VAN wrought)
+												       (IP-INF (TO to)
+													       (VB confirm)
+													       (NP-OB1 (D that) (N Doctrine)))))))))))))))))
+	  (. :))
+  (ID TILLOTS-B-E3-P1,439.116))
+
+/~*
+And this being the case of many, especially in the Church of Rome, where
+Ignorance is so industriously cherished, I have so much charity as to hope
+well concerning many of them:
+(TILLOTS-B-E3-P1,442.167)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 5 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (IP-ABS (NP-SBJ (D this)
+			  (BAG being)
+			  (NP-OB1 (D the)
+				  (N case)
+				  (PP (P of)
+				      (NP (Q many)))))
+		  (, ,)
+		  (PP (ADV especially)
+		      (P in)
+		      (NP (D the)
+			  (NPR Church)
+			  (PP (P of)
+			      (NP (CODE <font>) (NPR Rome) (CODE <$$font>)))
+			  (, ,)
+			  (CP-REL (WADVP-1 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-1)
+					  (NP-SBJ (N Ignorance))
+					  (BEP is)
+					  (ADVP (ADVR so) (ADV industriously))
+					  (VAN cherished))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (NP-OB1 (ADVR so)
+		  (Q much)
+		  (N charity)
+		  (PP (P as)
+		      (IP-INF (TO to)
+			      (VB hope)
+			      (ADVP (ADV well))
+			      (IP-PPL (VAG concerning)
+				      (NP-OB1 (Q many)
+					      (PP (P of)
+						  (NP (PRO them))))))))
+	  (. :))
+  (ID TILLOTS-B-E3-P1,442.167))
+
+/~*
+And indeed, it were a hard case that a necessity of believing Divine
+Revelations, and rejecting Impostures, should be imposed upon Christians; and
+yet the liberty of judging, whether a Doctrine be from God or not, should be
+taken away from them.
+(TILLOTS-B-E3-P1,444.189)
+*~/
+/*
+36 VAG:  36 VAG, 37 believing, 26 NP-SBJ
+49 VAG:  49 VAG, 50 rejecting, 26 NP-SBJ
+88 VAG:  88 VAG, 89 judging, 79 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P+N indeed))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BED were)
+	  (NP-OB1 (D a) (ADJ hard) (N case))
+	  (CP-THT-1 (C that)
+		    (IP-SUB (IP-SUB (NP-SBJ (D a)
+					    (N necessity)
+					    (PP (P of)
+						(IP-PPL (IP-PPL (VAG believing)
+								(NP-OB1 (ADJ Divine) (NS Revelations)))
+							(, ,)
+							(CONJP (CONJ and)
+							       (IP-PPL (VAG rejecting)
+								       (NP-OB1 (NS Impostures)))))))
+				    (, ,)
+				    (MD should)
+				    (BE be)
+				    (CODE <P_444>)
+				    (VAN imposed)
+				    (PP (P upon)
+					(NP (NPRS Christians))))
+			    (, ;)
+			    (CONJP (CONJ and)
+				   (IP-SUB (ADVP (ADV yet))
+					   (NP-SBJ (D the)
+						   (N liberty)
+						   (PP (P of)
+						       (IP-PPL (VAG judging)
+							       (, ,)
+							       (CP-QUE (WQ whether)
+								       (C 0)
+								       (IP-SUB (IP-SUB-2 (NP-SBJ (D a) (N Doctrine))
+											 (BEP be)
+											 (PP (P from)
+											     (NP (NPR God))))
+									       (CONJP (CONJ or)
+										      (IP-SUB=2 (NEG not))))))))
+					   (, ,)
+					   (MD should)
+					   (BE be)
+					   (VAN taken)
+					   (ADVP-DIR (ADV away))
+					   (PP (P from)
+					       (NP (PRO them)))))))
+	  (. .))
+  (ID TILLOTS-B-E3-P1,444.189))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	7/4/197
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	0/0/235
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	0/0/262
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	0/0/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	1/1/208
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	1/1/117
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	2/2/128
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	0/0/111
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	2/2/134
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	1/1/175
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	1/1/115
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	10/10/394
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	4/4/287
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	1/1/355
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	1/1/336
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	2/2/295
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	0/0/338
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	1/1/360
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	1/1/278
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	0/0/162
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	3/2/126
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	3/3/138
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	7/4/197
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	0/0/235
+whole search, hits/tokens/total
+		41/37/5062
+*/

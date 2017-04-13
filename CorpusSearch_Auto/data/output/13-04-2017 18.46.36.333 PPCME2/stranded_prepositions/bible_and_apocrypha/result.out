@@ -1,0 +1,139 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:54 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\stranded_prepositions\bible_and_apocrypha\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd
+*/
+
+/~*
+y shal make hem fai+tliche +ter ynne.
+(CMEARLPS,12.456)
+*~/
+/*
+20 P:  20 P, 21 ynne, 16 PP
+*/
+( (IP-MAT (NP-SBJ (PRO y))
+	  (MD shal)
+	  (VB make)
+	  (IP-SMC (NP-SBJ (PRO hem))
+		  (ADJP (ADJ fai+tliche))
+		  (PP (ADVP (ADV +ter))
+		      (P ynne)))
+	  (. .))
+  (ID CMEARLPS,12.456))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd	1/1/7869
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd
+*/
+
+/~*
+The womman seith to him, Sire, thou hast not where ynne to drawe,
+(CMNTEST,4,1J.261)
+*~/
+/*
+36 P:  36 P, 37 ynne, 32 WPP-1
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N womman))
+	  (VBP seith)
+	  (PP (P to)
+	      (NP (PRO him)))
+	  (, ,)
+	  (IP-MAT-SPE (NP-VOC (N Sire))
+		      (, ,)
+		      (NP-SBJ (PRO thou))
+		      (HVP hast)
+		      (NEG not)
+		      (NP-OB1 (CP-FRL-SPE (WPP-1 (WADVP (WADV where))
+						 (P ynne))
+					  (IP-INF-SPE (PP *T*-1)
+						      (TO to)
+						      (VB drawe)))))
+	  (. ,))
+  (ID CMNTEST,4,1J.261))
+
+/~*
+Therfor he cam eftsoone in to the Cane of Galile, where he made the watir wiyn.
+(CMNTEST,4,40J.335)
+*~/
+/*
+33 P:  33 P, 34 where, 32 WADVP-1
+*/
+
+( (IP-MAT (PP (ADV+P Therfor))
+	  (NP-SBJ (PRO he))
+	  (VBD cam)
+	  (ADVP (ADV eftsoone))
+	  (PP (RP in)
+	      (P to)
+	      (NP (D the)
+		  (NPR Cane)
+		  (PP (P of)
+		      (NP (NPR Galile)))
+		  (, ,)
+		  (CP-REL (WADVP-1 (P where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (PRO he))
+				  (VBD made)
+				  (IP-SMC (NP-SBJ (D the) (N watir))
+					  (NP-OB1 (N wiyn)))))))
+	  (. .))
+  (ID CMNTEST,4,40J.335))
+
+/~*
+and thei schulen not perische with outen ende,
+(CMNTEST,10,20J.1026)
+*~/
+/*
+14 P:  14 P, 21 ende, 13 PP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO thei))
+	      (MD schulen)
+	      (NEG not)
+	      (VB perische)
+	      (PP (P (P21 with)
+		     (P22 outen)
+		     (NP (N ende))))
+	      (. ,))
+  (ID CMNTEST,10,20J.1026))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd	3/3/1152
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd	0/0/811
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmearlps.m2.psd	1/1/7869
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmntest.m3.psd	3/3/1152
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\bible_and_apocrypha\cmotest.m3.psd	0/0/811
+whole search, hits/tokens/total
+		4/4/9832
+*/

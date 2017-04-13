@@ -1,0 +1,112 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:36 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_nonverbal_predicates\biography_and_diaries\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd	0/0/300
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd	0/0/568
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd
+*/
+
+/~*
+& dearede al a-dedet druicninde & dreori & drupest alre monne.
+(CMKATHE,45.414)
+*~/
+/*
+16 VAG:  16 VAG, 17 druicninde, 8 ADJP-SPR
+*/
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (VBD dearede)
+	  (ADJP-SPR (ADJP (Q al) (VAN a-dedet))
+		    (CONJP (ADJP (VAG druicninde) (CONJ &) (ADJ dreori)))
+		    (CONJP (CONJ &)
+			   (ADJP (ADJS drupest)
+				 (NP (Q alre) (NS$ monne)))))
+	  (. .))
+  (ID CMKATHE,45.414))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd	1/1/544
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd
+*/
+
+/~*
+& heo ase schene ase schininde sunne wende up of +te weater singinde a
+loftsong. +tt daui+d +te witege wrahte feor +ter-biuoren criste to wurdmunt
+(CMMARGA,86.504)
+*~/
+/*
+16 VAG:  16 VAG, 17 schininde, 7 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ (PRO heo))
+	  (ADJP-SPR (ADVR ase)
+		    (ADJ schene)
+		    (PP (P ase)
+			(NP (VAG schininde) (N sunne))))
+	  (VBD wende)
+	  (PP (RP up)
+	      (P of)
+	      (NP (D +te) (N weater)))
+	  (IP-PPL (VAG singinde)
+		  (NP-OB1 (D a)
+			  (N+N loftsong)
+			  (, .)
+			  (CP-REL (WNP-1 0)
+				  (C +tt)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (NPR daui+d)
+						  (NP-PRN (D +te) (N witege)))
+					  (VBD wrahte)
+					  (PP (NP-MSR (ADJ feor))
+					      (ADV+P +ter-biuoren))
+					  (NP-OB2 (NPR criste))
+					  (PP (P to)
+					      (NP (N wurdmunt))))))))
+  (ID CMMARGA,86.504))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd	1/1/639
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd	0/0/300
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd	0/0/568
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd	1/1/544
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd	1/1/639
+whole search, hits/tokens/total
+		2/2/2051
+*/

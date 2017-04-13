@@ -1,0 +1,1217 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:53:14 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_added_to_nonverbal_predicates\science_astronomy_geography\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-h.psd	0/0/279
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p1.psd	0/0/317
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p2.psd	0/0/381
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-h.psd	0/0/151
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-p1.psd
+*/
+
+/~*
+But my stay abroad proving much longer than I expected, when, being returned
+to London, I had occasion to make use of this Loadstone for an Experiment, I
+found it indeed where I left it, but so exceedingly decayed, as to its
+attractive power, which I had formerly examin'd by weight, by having lain
+almost a year in an inconvenient posture, that if it had not been for the
+circumstances newly related, I should have concluded that some body had
+purposely got it out in my absence, and spoiled it by help of the fire, the
+vertue being so much impaired, that I cared little to employ it any more about
+considerable Experiments.
+(BOYLE-E3-P1,18M.103)
+*~/
+/*
+190 HAG:  190 HAG, 191 having, 134 ADJP-SPR
+*/
+( (IP-MAT (IP-MAT-1 (CONJ But)
+		    (IP-PPL-ABS (NP-SBJ (PRO$ my)
+					(N stay)
+					(ADVP-LOC (ADV abroad)))
+				(VAG proving)
+				(ADJP (Q much)
+				      (ADJR longer)
+				      (PP (P than)
+					  (CP-CMP (WNP-2 0)
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO I))
+							  (VBD expected))))))
+		    (, ,)
+		    (PP (P when)
+			(, ,)
+			(CP-ADV (C 0)
+				(IP-SUB (IP-PPL (BAG being)
+						(VBN returned)
+						(PP (P to)
+						    (CODE <font>)
+						    (NP (NPR London))))
+					(CODE <$$font>)
+					(, ,)
+					(NP-SBJ (PRO I))
+					(HVD had)
+					(NP-OB1 (N occasion)
+						(IP-INF (TO to)
+							(VB make)
+							(NP-OB1 (N use)
+								(PP (P of)
+								    (NP (D this) (N+N Loadstone))))
+							(PP (P for)
+							    (NP (D an) (N Experiment))))))))
+		    (, ,)
+		    (NP-SBJ (PRO I))
+		    (VBD found)
+		    (NP-OB1 (PRO it))
+		    (PP (P+N indeed))
+		    (ADVP-LOC (CP-FRL (WADVP-3 (WADV where))
+				      (C 0)
+				      (IP-SUB (ADVP-LOC *T*-3)
+					      (NP-SBJ (PRO I))
+					      (VBD left)
+					      (NP-OB1 (PRO it))))))
+	  (, ,)
+	  (CONJP (CONJ but)
+		 (IP-MAT=1 (ADJP-SPR (ADVP (ADVR so) (ADV exceedingly))
+				     (VAN decayed)
+				     (, ,)
+				     (PP (P as)
+					 (PP (P to)
+					     (NP (PRO$ its)
+						 (ADJ attractive)
+						 (N power)
+						 (, ,)
+						 (CP-REL (WNP-4 (WPRO which))
+							 (C 0)
+							 (IP-SUB (NP-OB1 *T*-4)
+								 (NP-SBJ (PRO I))
+								 (HVD had)
+								 (ADVP-TMP (ADV formerly))
+								 (VBN examin'd)
+								 (PP (P by)
+								     (NP (N weight))))))))
+				     (, ,)
+				     (PP (P by)
+					 (IP-PPL (HAG having)
+						 (VBN lain)
+						 (NP-MSR (ADV almost) (D a) (N year))
+						 (PP (P in)
+						     (NP (D an) (ADJ inconvenient) (N posture)))))
+				     (, ,)
+				     (CP-DEG (C that)
+					     (IP-SUB (PP (P if)
+							 (CP-ADV (C 0)
+								 (IP-SUB (NP-SBJ (PRO it))
+									 (HVD had)
+									 (NEG not)
+									 (BEN been)
+									 (PP (P for)
+									     (NP (D the)
+										 (NS circumstances)
+										 (RRC (ADVP (ADV newly))
+										      (VAN related)))))))
+						     (, ,)
+						     (NP-SBJ (PRO I))
+						     (MD should)
+						     (HV have)
+						     (VBN concluded)
+						     (CP-THT (C that)
+							     (IP-SUB (IP-SUB (NP-SBJ (Q some) (N body))
+									     (HVD had)
+									     (ADVP (ADV purposely))
+									     (VBN got)
+									     (NP-OB1 (PRO it))
+									     (RP out)
+									     (PP (P in)
+										 (NP (PRO$ my) (N absence))))
+								     (, ,)
+								     (CONJP (IP-SUB (CONJ and)
+										    (NP-SBJ *con*)
+										    (VBD spoiled)
+										    (NP-OB1 (PRO it))
+										    (PP (P by)
+											(NP (N help)
+											    (PP (P of)
+												(NP (D the) (N fire))))))))))))
+			   (, ,)
+			   (IP-PPL-ABS (NP-SBJ (D the) (N vertue))
+				       (BAG being)
+				       (NP-MSR (QP (ADVR so) (Q much))
+					       (CP-DEG *ICH*-5))
+				       (VAN impaired)
+				       (, ,)
+				       (CP-DEG-5 (C that)
+						 (IP-SUB (NP-SBJ (PRO I))
+							 (VBD cared)
+							 (NP-MSR (Q little))
+							 (IP-INF (TO to)
+								 (VB employ)
+								 (NP-OB1 (PRO it))
+								 (NP-MSR (QP (Q any) (QR more)))
+								 (PP (P about)
+								     (NP (ADJ considerable) (NS Experiments)))))))))
+	  (. .))
+  (ID BOYLE-E3-P1,18M.103))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-p1.psd	1/1/117
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p1.psd	0/0/45
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p2.psd	0/0/151
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-h.psd
+*/
+
+/~*
+nor need we trouble our selves to examine by what Prometheus the Element of
+Fire comes to be fetcht down from above the Regions of the Air, in what Cells
+or Boxes it is kept, and what Epimetheus lets it go: Nor to consider what it
+is that causes so great a conflux of the atomical Particles of Fire, which are
+said to fly to a flaming Body, like Vultures or Eagles to a putrifying Carcass,
+and there to make a very great pudder. Since we have nothing more difficult in
+this Hypothesis to conceive, first, as to the kindling of Tinder, then how a
+large Iron-bullet, let fall red or glowing hot upon a heap of Small-coal,
+should set fire to those that are next to it first:
+(HOOKE-E3-H,46.40)
+*~/
+/*
+257 VAG:  257 VAG, 258 putrifying, 235 ADJP-SPR
+392 VAG:  392 VAG, 393 glowing, 386 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ nor)
+	  (MD need)
+	  (NP-SBJ (PRO we))
+	  (VB trouble)
+	  (NP-OB1 (PRO$ our) (N selves))
+	  (IP-INF (IP-INF (TO to)
+			  (VB examine)
+			  (CP-QUE (CP-QUE (WPP-1 (P by)
+						 (WNP (WD what) (CODE <font>) (NPR Prometheus)))
+					  (CODE <$$font>)
+					  (C 0)
+					  (IP-SUB (PP *T*-1)
+						  (NP-SBJ (D the)
+							  (N Element)
+							  (PP (P of)
+							      (NP (N Fire))))
+						  (VBP comes)
+						  (IP-INF (TO to)
+							  (BE be)
+							  (VAN fetcht)
+							  (RP down)
+							  (PP (P from)
+							      (PP (P above)
+								  (NP (D the)
+								      (NS Regions)
+								      (PP (P of)
+									  (NP (D the) (N Air)))))))))
+				  (, ,)
+				  (CONJP (CP-QUE (WPP-2 (P in)
+							(WNP (WD what)
+							     (NS Cells)
+							     (CONJP (CONJ or)
+								    (NX (NS Boxes)))))
+						 (C 0)
+						 (IP-SUB (PP *T*-2)
+							 (NP-SBJ (PRO it))
+							 (BEP is)
+							 (VAN kept))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (CP-QUE (WNP-3 (WD what) (CODE <font>) (NPR Epimetheus))
+						 (CODE <$$font>)
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-3)
+							 (VBP lets)
+							 (IP-INF (NP-SBJ (PRO it))
+								 (VB go)))))))
+		  (, :)
+		  (CONJP (CONJ Nor)
+			 (IP-INF (TO to)
+				 (VB consider)
+				 (CP-QUE (WNP-4 (WPRO what))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-4)
+						 (NP-SBJ (PRO it))
+						 (BEP is)
+						 (CP-CLF (WNP-5 0)
+							 (C that)
+							 (IP-SUB (NP-SBJ *T*-5)
+								 (VBP causes)
+								 (NP-OB1 (ADJP (ADVR so) (ADJ great))
+									 (D a)
+									 (N conflux)
+									 (PP (P of)
+									     (NP (D the)
+										 (ADJ atomical)
+										 (NS Particles)
+										 (PP (P of)
+										     (NP (N Fire)))
+										 (, ,)
+										 (CP-REL (WNP-6 (WPRO which))
+											 (C 0)
+											 (IP-SUB (NP-SBJ *T*-6)
+												 (BEP are)
+												 (VAN said)
+												 (IP-INF (IP-INF (NP-SBJ *-6)
+														 (TO to)
+														 (VB fly)
+														 (PP (P to)
+														     (NP (D a) (VAG flaming) (N Body)))
+														 (, ,)
+														 (ADJP-SPR (ADJ like)
+															   (CP-ADV (C 0)
+																   (IP-SUB (NP-SBJ (NS Vultures) (CONJ or) (NS Eagles))
+																	   (VBP *)
+																	   (PP (P to)
+																	       (NP (D a) (VAG putrifying) (N Carcass)))))))
+													 (, ,)
+													 (CONJP (CONJ and)
+														(IP-INF (NP-SBJ *-6)
+															(ADVP-LOC (ADV there))
+															(TO to)
+															(VB make)
+															(NP-OB1 (D a)
+																(ADJP (ADV very) (ADJ great))
+																(N pudder)))))))))))))))))
+	  (, .)
+	  (PP (P Since)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (HVP have)
+			      (NP-OB1 (Q+N nothing)
+				      (ADJP (QR more)
+					    (ADJ difficult)
+					    (PP (P in)
+						(NP (D this) (CODE <font>) (N Hypothesis) (CODE <$$font>)))
+					    (CP-TMC (WNP-7 0)
+						    (IP-INF (NP-OB1 *T*-7)
+							    (TO to)
+							    (VB conceive)))
+					    (, ,)
+					    (FRAG (ADVP-TMP (ADV first))
+						  (, ,)
+						  (PP (P as)
+						      (PP (P to)
+							  (NP (D the)
+							      (N kindling)
+							      (PP (P of)
+								  (NP (N Tinder)))))))
+					    (, ,)
+					    (PP (P then)
+						(CP-QUE (WADVP-8 (WADV how))
+							(C 0)
+							(IP-SUB (ADVP *T*-8)
+								(NP-SBJ (D a)
+									(ADJ large)
+									(N+N Iron-bullet)
+									(, ,)
+									(RRC (VAN let)
+									     (IP-INF (NP-SBJ *)
+										     (VB fall)
+										     (ADJP-SPR (ADJP (ADJ red) (CONJ or) (VAG glowing))
+											       (ADJ hot))
+										     (PP (P upon)
+											 (NP (D a)
+											     (N heap)
+											     (PP (P of)
+												 (NP (ADJ+N Small-coal))))))))
+								(, ,)
+								(MD should)
+								(VB set)
+								(NP-OB1 (N fire)
+									(PP (P to)
+									    (NP (D those)
+										(CP-REL (WNP-9 0)
+											(C that)
+											(IP-SUB (NP-SBJ *T*-9)
+												(BEP are)
+												(ADJP-LOC (ADJS next)
+													  (PP (P to)
+													      (NP (PRO it))))
+												(ADVP-TMP (ADV first)))))))))))))))
+	  (. :))
+  (ID HOOKE-E3-H,46.40))
+
+/~*
+for the pores lie like so many Rays tending from the center, or pith of the
+tree, outwards; so that if you cut off a piece from a board of Cork
+transversly, to the flat of it, you will, as it were, split the pores, and
+they will appear just as they are express'd in the Figure B of the XI. Scheme.
+(HOOKE-E3-H,115.88)
+*~/
+/*
+23 VAG:  23 VAG, 24 tending, 11 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (D the) (NS pores))
+	  (VBP lie)
+	  (ADJP-SPR (ADJ like)
+		    (NP (QP (ADVR so) (Q many))
+			(NS Rays)
+			(RRC (VAG tending)
+			     (PP (P from)
+				 (NP (D the)
+				     (N center)
+				     (, ,)
+				     (CONJP (CONJ or)
+					    (NX (N pith)))
+				     (PP (P of)
+					 (NP (D the) (N tree)))))
+			     (, ,)
+			     (ADVP-DIR (ADV+WARD outwards)))))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (IP-SUB (PP (P if)
+					  (CP-ADV (C 0)
+						  (IP-SUB (NP-SBJ (PRO you))
+							  (VBP cut)
+							  (RP off)
+							  (NP-OB1 (D a) (N piece))
+							  (PP (P from)
+							      (NP (D a)
+								  (N board)
+								  (PP (P of)
+								      (NP (N Cork)))))
+							  (ADVP (ADV transversly))
+							  (, ,)
+							  (PP (P to)
+							      (NP (D the)
+								  (N flat)
+								  (PP (P of)
+								      (NP (PRO it))))))))
+				      (, ,)
+				      (NP-SBJ (PRO you))
+				      (MD will)
+				      (, ,)
+				      (PP-PRN (P as)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO it))
+							      (BED were))))
+				      (, ,)
+				      (VB split)
+				      (NP-OB1 (D the) (NS pores)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ (PRO they))
+					     (MD will)
+					     (VB appear)
+					     (PP (ADV just)
+						 (P as)
+						 (CP-ADV (WADVP-1 0)
+							 (C 0)
+							 (IP-SUB (ADVP *T*-1)
+								 (NP-SBJ (PRO they))
+								 (BEP are)
+								 (VAN express'd)
+								 (PP (P in)
+								     (NP (D the)
+									 (N Figure)
+									 (NP-PRN (N B))
+									 (PP (P of)
+									     (NP (D the) (NUM XI.) (CODE <font>) (N Scheme)))))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID HOOKE-E3-H,115.88))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-h.psd	3/2/185
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p1.psd
+*/
+
+/~*
+for if you take a small round Charcoal, and break it short with your fingers,
+you may perceive it to break with a very smooth and sleek surface, almost like
+the surface of black sealing Wax;
+(HOOKE-E3-P1,100.7)
+*~/
+/*
+104 VAG:  104 VAG, 105 sealing, 88 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO you))
+				      (VBP take)
+				      (NP-OB1 (D a) (ADJ small) (ADJ round) (N Charcoal)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBP break)
+					     (NP-OB1 (PRO it))
+					     (ADJP-SPR (ADJ short))
+					     (PP (P with)
+						 (NP (PRO$ your) (NS fingers))))))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD may)
+	  (VB perceive)
+	  (IP-INF (NP-SBJ (PRO it))
+		  (TO to)
+		  (VB break)
+		  (PP (P with)
+		      (NP (D a)
+			  (ADJP (ADV very)
+				(ADJ smooth)
+				(CONJP (CONJ and)
+				       (ADJX (ADJ sleek))))
+			  (N surface)))
+		  (, ,)
+		  (ADJP-SPR (ADV almost)
+			    (ADJ like)
+			    (NP (D the)
+				(N surface)
+				(PP (P of)
+				    (NP (ADJ black) (VAG sealing) (N Wax))))))
+	  (. ;))
+  (ID HOOKE-E3-P1,100.7))
+
+/~*
+It is not my design at present, to examine the use and Mechanisme of these
+parts of Wood, that being more proper to another Enquiry; but rather to hint,
+that from this Experiment we may learn, First, what is the cause of the
+blackness of many burnt bodies, which we may find to be nothing else but this;
+that the heat of the fire agitating and rarifying the waterish, transparent,
+and volatile water that is contain'd in them, by the continuation of that
+action, does so totally expel and drive away all that which before fill'd the
+pores, and was dispers'd also through the solid mass of it, and thereby caus'd
+an universal kind of transparency, that it not onely leaves all the pores
+empty, but all the Interstitia also so dry and opacous, and perhaps also yet
+further perforated, that the light onely is reflected back which falls upon
+the very outward edges of the pores, all they that enter into the pores of the
+body, never returning, but being lost in it.
+(HOOKE-E3-P1,102.36)
+*~/
+/*
+543 VAG:  543 VAG, 544 returning, 414 ADJP-SPR
+553 BAG:  553 BAG, 554 being, 414 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (NEG not)
+	  (NP-OB1 (PRO$ my) (N design))
+	  (PP (P at)
+	      (ADJP (ADJ present)))
+	  (, ,)
+	  (IP-INF-1 (IP-INF (TO to)
+			    (VB examine)
+			    (NP-OB1 (D the)
+				    (N use)
+				    (CONJP (CONJ and)
+					   (CODE <font>)
+					   (NX (N Mechanisme)))
+				    (CODE <$$font>)
+				    (PP (P of)
+					(NP (D these)
+					    (NS parts)
+					    (PP (P of)
+						(NP (N Wood))))))
+			    (, ,)
+			    (IP-PPL-ABS (NP-SBJ (D that))
+					(BAG being)
+					(ADJP (QR more)
+					      (ADJ proper)
+					      (PP (P to)
+						  (NP (D+OTHER another) (N Enquiry))))))
+		    (, ;)
+		    (CONJP (CONJ but)
+			   (IP-INF (ADVP (ADVR rather))
+				   (TO to)
+				   (VB hint)
+				   (, ,)
+				   (CP-THT (C that)
+					   (IP-SUB (PP (P from)
+						       (NP (D this) (N Experiment)))
+						   (NP-SBJ (PRO we))
+						   (MD may)
+						   (VB learn)
+						   (, ,)
+						   (ADVP (ADV First))
+						   (, ,)
+						   (CP-QUE (WNP-2 (WPRO what))
+							   (C 0)
+							   (IP-SUB (NP-SBJ *T*-2)
+								   (BEP is)
+								   (NP-OB1 (D the)
+									   (N cause)
+									   (PP (P of)
+									       (NP (D the)
+										   (N blackness)
+										   (PP (P of)
+										       (NP (Q many) (VAN burnt) (NS bodies)))))
+									   (, ,)
+									   (CP-REL (WNP-3 (WPRO which))
+										   (C 0)
+										   (IP-SUB (NP-SBJ (PRO we))
+											   (MD may)
+											   (VB find)
+											   (IP-INF (NP-SBJ *T*-3)
+												   (TO to)
+												   (BE be)
+												   (NP-OB1 (Q+N nothing)
+													   (ADJP (ADJ else))
+													   (PP (P but)
+													       (NP (D this)
+														   (, ;)
+														   (CP-THT-PRN (C that)
+															       (IP-SUB (NP-SBJ (D the)
+																	       (N heat)
+																	       (PP (P of)
+																		   (NP (D the) (N fire)))
+																	       (RRC (VAG (VAG agitating) (CONJ and) (VAG rarifying))
+																		    (NP-OB1 (D the)
+																			    (ADJP (ADJ waterish) (, ,) (ADJ transparent) (, ,) (CONJ and) (ADJ volatile))
+																			    (N water)
+																			    (CP-REL (WNP-4 0)
+																				    (C that)
+																				    (IP-SUB (NP-SBJ *T*-4)
+																					    (BEP is)
+																					    (VAN contain'd)
+																					    (PP (P in)
+																						(NP (PRO them))))))))
+																       (, ,)
+																       (PP (P by)
+																	   (NP (D the)
+																	       (N continuation)
+																	       (PP (P of)
+																		   (NP (D that) (N action)))))
+																       (, ,)
+																       (DOP does)
+																       (ADVP (ADVR so) (ADV totally))
+																       (VB (VB expel) (CONJ and) (VB drive))
+																       (ADVP-DIR (ADV away))
+																       (NP-OB1 (Q all)
+																	       (D that)
+																	       (CP-REL (WNP-5 (WPRO which))
+																		       (C 0)
+																		       (IP-SUB (IP-SUB (NP-SBJ *T*-5)
+																				       (ADVP-TMP (ADV before))
+																				       (VBD fill'd)
+																				       (NP-OB1 (D the) (NS pores)))
+																			       (, ,)
+																			       (CONJP (CONJ and)
+																				      (IP-SUB (NP-SBJ *T*-5)
+																					      (BED was)
+																					      (VAN dispers'd)
+																					      (ALSO also)
+																					      (PP (P through)
+																						  (NP (D the)
+																						      (ADJ solid)
+																						      (N mass)
+																						      (PP (P of)
+																							  (NP (PRO it)))))))
+																			       (, ,)
+																			       (CONJP (CONJ and)
+																				      (IP-SUB (NP-SBJ *T*-5)
+																					      (PP (ADV+P thereby))
+																					      (VBD caus'd)
+																					      (NP-OB1 (D an)
+																						      (ADJ universal)
+																						      (N kind)
+																						      (PP (P of)
+																							  (NP (N transparency)))))))))
+																       (, ,)
+																       (CP-DEG (C that)
+																	       (IP-SUB (IP-SUB-6 (NP-SBJ (PRO it))
+																				 (NEG not)
+																				 (FP onely)
+																				 (VBP leaves)
+																				 (NP-OB1 (Q all) (D the) (NS pores))
+																				 (ADJP-SPR (ADJ empty)))
+																		       (, ,)
+																		       (CONJP (IP-SUB=6 (CONJ but)
+																					(NP-OB1 (Q all) (D the) (CODE <font>) (FW Interstitia) (CODE <$$font>) (ALSO also))
+																					(ADJP-SPR (ADJP (ADVR so)
+																							(ADJ dry)
+																							(CONJP (CONJ and)
+																							       (CODE <font>)
+																							       (ADJX (ADJ opacous))))
+																						  (CODE <$$font>)
+																						  (, ,)
+																						  (CONJP (CONJ and)
+																							 (IP-PPL (ADVP (ADV perhaps))
+																								 (ALSO also)
+																								 (NP-MSR (ADJP (ADV yet) (ADJR further)))
+																								 (VAN perforated)))
+																						  (, ,)
+																						  (CP-DEG (C that)
+																							  (IP-SUB (NP-SBJ (D the)
+																									  (N light)
+																									  (FP onely)
+																									  (CP-REL *ICH*-7))
+																								  (BEP is)
+																								  (VAN reflected)
+																								  (ADVP-DIR (ADV back))
+																								  (CP-REL-7 (WNP-8 (WPRO which))
+																									    (C 0)
+																									    (IP-SUB (NP-SBJ *T*-8)
+																										    (VBP falls)
+																										    (PP (P upon)
+																											(NP (D the)
+																											    (ADJP (ADV very) (ADJ outward))
+																											    (NS edges)
+																											    (PP (P of)
+																												(NP (D the) (NS pores)))))))
+																								  (, ,)
+																								  (IP-PPL-ABS (IP-PPL (NP-SBJ (Q all)
+																											      (PRO they)
+																											      (CP-REL (WNP-9 0)
+																												      (C that)
+																												      (IP-SUB (NP-SBJ *T*-9)
+																													      (VBP enter)
+																													      (PP (P into)
+																														  (NP (D the)
+																														      (NS pores)
+																														      (PP (P of)
+																															  (NP (D the) (N body))))))))
+																										      (, ,)
+																										      (ADVP-TMP (ADV never))
+																										      (VAG returning))
+																									      (, ,)
+																									      (CONJP (CONJ but)
+																										     (IP-PPL (NP-SBJ *con*)
+																											     (BAG being)
+																											     (VAN lost)
+																											     (PP (P in)
+																												 (NP (PRO it)))))))))))))))))))))))))))))
+	  (. .))
+  (ID HOOKE-E3-P1,102.36))
+
+/~*
+And therefore, what ever is by some, who have written of it, and particularly
+by Francisco Stelluto, who wrote a Treatise in Italian of that Subject, which
+was Printed at Rome, 1637, affirm'd that it is a certain kind of Clay or Earth,
+which in tract of time is turn'd into Wood, I rather suspect the quite
+contrary, that it was at first certain great Trees of Fir or Pine, which by
+some Earthquake, or other casualty, came to be buried under the Earth, and was
+there, after a long time's residence according to the several natures of the
+encompassing adjacent parts either rotted and turn'd into a kind of Clay,
+petrify'd and turn'd into a kind of Stone, or else had its pores fill'd with
+certain Mineral juices, which being stayd in time, and in tract of time
+coagulated, appear'd, upon cleaving out, like small Metaline Wires, or else
+from some flames or scorching forms that are the occasion oftentimes, and
+usually accompany Earthquakes, might be blasted and turn'd into Coal, or else
+from certain subterraneous fires which are affirm'd by that Authour to abound
+much about those parts namely, in a Province of Italy, call'd Umbria, now the
+Dutchie of Spoletto, in the Territory of Todi, anciently call'd Tudor, and
+between the two Villages of Collesecco and Rosaro not far distant from the
+high-way leading to Rome, where it is found in greater quantity then elsewhere
+are by reason of their being encompassed with Earth, and so kept close from
+the dissolving Air, charr'd and converted into Coal.
+(HOOKE-E3-P1,106.92)
+*~/
+/*
+904 VAG:  904 VAG, 905 dissolving, 895 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADV+P therefore))
+	  (, ,)
+	  (NP-ADV (CP-FRL (WNP-1 (WPRO what) (ADV ever))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (PP (PP (P by)
+					  (NP (Q some)
+					      (, ,)
+					      (CP-REL (WNP-2 (WPRO who))
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (HVP have)
+							      (VBN written)
+							      (PP (P of)
+								  (NP (PRO it)))))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (PP (ADV particularly)
+						 (P by)
+						 (CODE <font>)
+						 (NP (NPR Francisco)
+						     (NPR Stelluto)
+						     (CODE <$$font>)
+						     (, ,)
+						     (CP-REL (WNP-3 (WPRO who))
+							     (C 0)
+							     (IP-SUB (NP-SBJ *T*-3)
+								     (VBD wrote)
+								     (NP-OB1 (D a)
+									     (N Treatise)
+									     (PP (P in)
+										 (NP (CODE <font>) (NPR Italian) (CODE <$$font>)))
+									     (PP (P of)
+										 (NP (D that) (N Subject)))
+									     (, ,)
+									     (CP-REL (WNP-4 (WPRO which))
+										     (C 0)
+										     (IP-SUB (NP-SBJ *T*-4)
+											     (BED was)
+											     (VAN Printed)
+											     (PP (P at)
+												 (NP (CODE <font>) (NPR Rome) (CODE <$$font>)))
+											     (, ,)
+											     (NP-TMP (NUM 1637)))))))))))
+				  (, ,)
+				  (VAN affirm'd)
+				  (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (PRO it))
+						  (BEP is)
+						  (NP-OB1 (D a)
+							  (ADJ certain)
+							  (N kind)
+							  (PP (P of)
+							      (NP (N Clay)
+								  (CONJ or)
+								  (N Earth)
+								  (, ,)
+								  (CP-REL (WNP-5 (WPRO which))
+									  (C 0)
+									  (IP-SUB (NP-SBJ *T*-5)
+										  (PP (P in)
+										      (NP (N tract)
+											  (PP (P of)
+											      (NP (N time)))))
+										  (BEP is)
+										  (VAN turn'd)
+										  (PP (P into)
+										      (NP (N Wood)))))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (ADVP (ADVR rather))
+	  (VBP suspect)
+	  (NP-OB1 (D the)
+		  (ADJP (ADV quite) (ADJ contrary))
+		  (, ,)
+		  (CP-THT-PRN (C that)
+			      (IP-SUB (NP-SBJ (PRO it))
+				      (BED was)
+				      (PP (P at)
+					  (ADVP (ADV first)))
+				      (NP-OB1 (ADJ certain)
+					      (ADJ great)
+					      (NS Trees)
+					      (PP (P of)
+						  (NP (N Fir) (CONJ or) (N Pine))))
+				      (, ,)
+				      (CP-CLF (WNP-6 (WPRO which))
+					      (C 0)
+					      (IP-SUB (IP-SUB (NP-SBJ *T*-6)
+							      (PP (P by)
+								  (NP (Q some)
+								      (N+N Earthquake)
+								      (, ,)
+								      (CONJP (CONJ or)
+									     (NX (OTHER other) (N casualty)))))
+							      (, ,)
+							      (VBD came)
+							      (IP-INF (TO to)
+								      (BE be)
+								      (VAN buried)
+								      (PP (P under)
+									  (NP (D the) (N Earth)))))
+						      (, ,)
+						      (CONJP (CONJ and)
+							     (IP-SUB (IP-SUB (NP-SBJ *con*)
+									     (BED was)
+									     (ADVP-LOC (ADV there))
+									     (, ,)
+									     (PP (P after)
+										 (NP (NP-POS (D a) (ADJ long) (N$ time's))
+										     (N residence)))
+									     (CODE <paren>)
+									     (IP-PPL (VAG according)
+										     (PP (P to)
+											 (NP (D the)
+											     (Q several)
+											     (NS natures)
+											     (PP (P of)
+												 (NP (D the) (VAG encompassing) (ADJ adjacent) (NS parts))))))
+									     (CODE <$$paren>)
+									     (CONJ either)
+									     (VAN (VAN rotted) (CONJ and) (VAN turn'd))
+									     (PP (P into)
+										 (NP (D a)
+										     (N kind)
+										     (PP (P of)
+											 (NP (N Clay)
+											     (, ,)
+											     (CODE <font>)
+											     (RRC (RRC (VAN petrify'd) (CODE <$$font>))
+												  (CONJP (CONJ and)
+													 (RRC (VAN turn'd)
+													      (PP (P into)
+														  (NP (D a)
+														      (N kind)
+														      (PP (P of)
+															  (NP (N Stone)))))))))))))
+								     (, ,)
+								     (CONJP (CONJ or)
+									    (ELSE else)
+									    (IP-SUB (NP-SBJ *con*)
+										    (HVD had)
+										    (IP-SMC (NP-SBJ (PRO$ its) (NS pores))
+											    (VAN fill'd)
+											    (PP (P with)
+												(NP (ADJ certain)
+												    (N Mineral)
+												    (NS juices)
+												    (, ,)
+												    (CP-REL (WNP-7 (WPRO which))
+													    (C 0)
+													    (IP-SUB (NP-SBJ *T*-7)
+														    (IP-PPL (IP-PPL (BAG being)
+																    (VAN stayd)
+																    (PP (P in)
+																	(NP (N time))))
+															    (, ,)
+															    (CONJP (CONJ and)
+																   (IP-PPL (PP (P in)
+																	       (NP (N tract)
+																		   (PP (P of)
+																		       (NP (N time)))))
+																	   (VAN coagulated))))
+														    (, ,)
+														    (VBD appear'd)
+														    (, ,)
+														    (PP (P upon)
+															(IP-PPL (VAG cleaving) (RP out)))
+														    (, ,)
+														    (ADJP (ADJ like)
+															  (NP (ADJ small) (ADJ Metaline) (NS Wires))))))))))
+								     (, ,)
+								     (CONJP (CONJ or)
+									    (ELSE else)
+									    (IP-SUB (NP-SBJ *con*)
+										    (PP (P from)
+											(NP (Q some)
+											    (NS flames)
+											    (CONJP (CONJ or)
+												   (NX (VAG scorching) (NS forms)))
+											    (CP-REL (WNP-8 0)
+												    (C that)
+												    (IP-SUB (NP-SBJ *T*-8)
+													    (BEP are)
+													    (NP-OB1 (D the)
+														    (N occasion)
+														    (PP *ICH*-9))
+													    (NP-TMP (ADV+NS oftentimes))
+													    (, ,)
+													    (IP-SUB-PRN (CONJ and)
+															(ADVP (ADV usually))
+															(VB accompany))
+													    (PP-9 (P (CODE {of}))
+														  (NP (NS Earthquakes)))))))
+										    (, ,)
+										    (MD might)
+										    (BE be)
+										    (VAN (VAN blasted) (CONJ and) (VAN turn'd))
+										    (PP (P into)
+											(NP (N Coal)))))
+								     (, ,)
+								     (CONJP (CONJ or)
+									    (ELSE else)
+									    (IP-SUB (NP-SBJ *con*)
+										    (PP (P from)
+											(NP (ADJ certain)
+											    (CODE <font>)
+											    (ADJ subterraneous)
+											    (CODE <$$font>)
+											    (NS fires)
+											    (CP-REL (WNP-10 (WPRO which))
+												    (C 0)
+												    (IP-SUB (NP-SBJ *T*-10)
+													    (BEP are)
+													    (VAN affirm'd)
+													    (PP (P by)
+														(NP (D that) (N Authour)))
+													    (IP-INF (NP-SBJ *T*-10)
+														    (TO to)
+														    (VB abound)
+														    (NP-MSR (Q much))
+														    (PP (P about)
+															(NP (D those) (NS parts)))
+														    (CODE <paren>)
+														    (PP-PRN (ADV namely)
+															    (, ,)
+															    (P in)
+															    (NP (D a)
+																(N Province)
+																(PP (P of)
+																    (NP (CODE <font>) (NPR Italy) (CODE <$$font>)))
+																(, ,)
+																(RRC (VAN call'd)
+																     (IP-SMC (NP-SBJ *)
+																	     (NP-OB1 (CODE <font>) (NPR Umbria) (CODE <$$font>))))
+																(, ,)
+																(RRC (ADVP-TMP (ADV now))
+																     (NP-OB1 (D the)
+																	     (CODE <font>)
+																	     (N Dutchie)
+																	     (CODE <$$font>)
+																	     (PP (P of)
+																		 (CODE <font>)
+																		 (NP (NPR Spoletto)))))
+																(CODE <$$font>)
+																(, ,)
+																(PP (P in)
+																    (NP (D the)
+																	(N Territory)
+																	(PP (P of)
+																	    (CODE <font>)
+																	    (NP (NPR Todi)))
+																	(CODE <$$font>)
+																	(, ,)
+																	(RRC (RRC (ADVP (ADV anciently))
+																		  (VAN call'd)
+																		  (IP-SMC (NP-SBJ *)
+																			  (CODE <font>)
+																			  (NP-OB1 (NPR Tudor))))
+																	     (CODE <$$font>)
+																	     (, ,)
+																	     (CONJP (CONJ and)
+																		    (PP (P between)
+																			(NP (D the)
+																			    (NUM two)
+																			    (NS Villages)
+																			    (PP (P of)
+																				(NP (CODE <font>)
+																				    (NP (NPR Collesecco))
+																				    (CODE <$$font>)
+																				    (CONJP (CONJ and)
+																					   (CODE <font>)
+																					   (NP (NPR Rosaro)))))))))
+																	(CODE <$$font>)
+																	(ADJP-LOC (NP-MSR (ADJP (NEG not) (ADJ far)))
+																		  (ADJ distant)
+																		  (PP (P from)
+																		      (NP (D the)
+																			  (ADJ+N high-way)
+																			  (RRC (VAG leading)
+																			       (PP (P to)
+																				   (CODE <font>)
+																				   (NP (NPR Rome)))))))))
+																(CODE <$$font>)
+																(, ,)
+																(CP-REL (WADVP-11 (WADV where))
+																	(C 0)
+																	(IP-SUB (ADVP-LOC *T*-11)
+																		(NP-SBJ (PRO it))
+																		(BEP is)
+																		(VAN found)
+																		(PP (P in)
+																		    (NP (ADJR greater)
+																			(N quantity)
+																			(PP (P then)
+																			    (ADVP (ADV+WADV elsewhere))))))))))))))
+										    (CODE <$$paren>)
+										    (BEP are)
+										    (PP (P by)
+											(NP (N reason)
+											    (PP (P of)
+												(NP (PRO$ their)
+												    (IP-PPL (IP-PPL-12 (BAG being)
+														       (VAN encompassed)
+														       (PP (P with)
+															   (NP (N Earth))))
+													    (, ,)
+													    (CONJP (CONJ and)
+														   (IP-PPL=12 (ADVP (ADV so))
+															      (VAN kept)
+															      (ADJP-SPR (ADJ close)
+																	(PP (P from)
+																	    (NP (D the) (VAG dissolving) (N Air)))))))))))
+										    (, ,)
+										    (VAN (VAN charr'd) (CONJ and) (VAN converted))
+										    (PP (P into)
+											(NP (N Coal))))))))))))
+	  (. .))
+  (ID HOOKE-E3-P1,106.92))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p1.psd	4/3/171
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p2.psd
+*/
+
+/~*
+each of these Plates lie close to another, almost like a company of sloping
+ridge or gutter Tyles;
+(HOOKE-E3-P2,168.209)
+*~/
+/*
+40 VAG:  40 VAG, 41 sloping, 26 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ (Q each)
+		  (PP (P of)
+		      (NP (D these) (NS Plates))))
+	  (VBP lie)
+	  (ADJP-LOC (ADJ close)
+		    (PP (P to)
+			(NP (D+OTHER another))))
+	  (, ,)
+	  (ADJP-SPR (ADV almost)
+		    (ADJ like)
+		    (NP (D a)
+			(N company)
+			(PP (P of)
+			    (NP (VAG sloping)
+				(N ridge)
+				(CONJP (CONJ or)
+				       (NX (N gutter) (NS Tyles)))))))
+	  (. ;))
+  (ID HOOKE-E3-P2,168.209))
+
+/~*
+but reflects them all toward that side from whence they come, much like the
+foil of a Looking-glass;
+(HOOKE-E3-P2,168.213)
+*~/
+/*
+58 VAG+N:  58 VAG+N, 59 Looking-glass, 41 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (VBP reflects)
+	  (NP-OB1 (PRO them)
+		  (QP (Q all)))
+	  (PP (P toward)
+	      (NP (D that)
+		  (N side)
+		  (CP-REL (WPP-1 (P from)
+				 (WADVP (WADV whence)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBP come)
+				  (, ,)
+				  (ADJP-SPR (NP-MSR (Q much))
+					    (ADJ like)
+					    (NP (D the)
+						(N foil)
+						(PP (P of)
+						    (NP (D a) (VAG+N Looking-glass)))))))))
+	  (. ;))
+  (ID HOOKE-E3-P2,168.213))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p2.psd	2/2/216
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-h.psd	0/0/391
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p1.psd	0/0/582
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p2.psd	0/0/530
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-h.psd	0/0/279
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p1.psd	0/0/317
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\blundev-e2-p2.psd	0/0/381
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-h.psd	0/0/151
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boyle-e3-p1.psd	1/1/117
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p1.psd	0/0/45
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\boylecol-e3-p2.psd	0/0/151
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-h.psd	3/2/185
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p1.psd	4/3/171
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\hooke-e3-p2.psd	2/2/216
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-h.psd	0/0/391
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p1.psd	0/0/582
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\science_astronomy_geography\record-e1-p2.psd	0/0/530
+whole search, hits/tokens/total
+		10/8/3516
+*/

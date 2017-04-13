@@ -1,0 +1,388 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:51 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_prepositional_phrases_appositive_parenthetical.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_prepositional_phrases_appositive_parenthetical\medicine_handbooks_religious_and_educational_treatises\result.out
+
+node:   PP-*PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (PP-*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	0/0/241
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	0/0/488
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	0/0/475
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	0/0/422
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd
+*/
+
+/~*
+and I have told any boys who care to attempt it, to treat it exactly as they
+like - as a letter from a conspirator describing a meeting, as a fragment from
+a narrative poem, as a dramatic scene - whatever they prefer.
+(BENSON-1908,61.226)
+*~/
+/*
+83 VAG:  83 VAG, 84 describing, 65 PP-PRN
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN told)
+	  (NP-OB2 (Q any)
+		  (NS boys)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP care)
+				  (IP-INF (TO to)
+					  (VB attempt)
+					  (NP-OB1 (PRO it))))))
+	  (, ,)
+	  (IP-INF (TO to)
+		  (VB treat)
+		  (NP-OB1 (PRO it))
+		  (PP (ADV exactly)
+		      (P as)
+		      (CP-ADV (WADVP-2 0)
+			      (C 0)
+			      (IP-SUB (ADVP *T*-2)
+				      (NP-SBJ (PRO they))
+				      (VBP like))))
+		  (, -)
+		  (PP-PRN (PP (P as)
+			      (NP (D a)
+				  (N letter)
+				  (PP (P from)
+				      (NP (D a) (N conspirator)))
+				  (RRC (VAG describing)
+				       (NP-OB1 (D a) (N meeting)))))
+			  (, ,)
+			  (CONJP (PP (P as)
+				     (NP (D a)
+					 (N fragment)
+					 (PP (P from)
+					     (NP (D a) (ADJ narrative) (N poem))))))
+			  (, ,)
+			  (CONJP (PP (P as)
+				     (NP (D a) (ADJ dramatic) (N scene))))
+			  (, -)
+			  (CONJP (NP (CP-FRL (WNP-3 (WPRO+ADV whatever))
+					     (C 0)
+					     (IP-SUB (NP-OB1 *T*-3)
+						     (NP-SBJ (PRO they))
+						     (VBP prefer)))))))
+	  (. .))
+  (ID BENSON-1908,61.226))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	1/1/458
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	0/0/49
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	0/0/383
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	0/0/436
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	0/0/522
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd
+*/
+
+/~*
+There is another method of doing this, by cutting off the head of the stock at
+first, sloping half off, about two inches in length, and joining the cion
+thereunto.
+(GRAFTING-1780,16.127)
+*~/
+/*
+32 VAG:  32 VAG, 33 cutting, 27 PP-PRN
+59 VAG:  59 VAG, 60 sloping, 27 PP-PRN
+88 VAG:  88 VAG, 89 joining, 27 PP-PRN
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX There))
+	  (BEP is)
+	  (CODE <font>)
+	  (NP-1 (D+OTHER another)
+		(CODE <$$font>)
+		(N method)
+		(PP (P of)
+		    (IP-PPL (DAG doing)
+			    (NP-OB1 (D this))))
+		(, ,)
+		(PP-PRN (P by)
+			(IP-PPL (IP-PPL (VAG cutting)
+					(RP off)
+					(NP-OB1 (D the)
+						(N head)
+						(PP (P of)
+						    (NP (D the) (N stock))))
+					(PP (P at)
+					    (ADVP (ADV first))))
+				(, ,)
+				(CONJP (IP-PPL (VAG sloping)
+					       (NP-OB1 (Q half))
+					       (RP off)
+					       (, ,)
+					       (NP-MSR (NUMP (ADV about) (NUM two))
+						       (NS inches)
+						       (PP (P in)
+							   (NP (N length))))))
+				(, ,)
+				(CONJP (CONJ and)
+				       (IP-PPL (VAG joining)
+					       (NP-OB1 (D the) (N cion))
+					       (PP (ADV+P thereunto)))))))
+	  (. .))
+  (ID GRAFTING-1780,16.127))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	3/1/423
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	0/0/548
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	0/0/294
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	0/0/470
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd
+*/
+
+/~*
+The pain of which she complained was centred in four different points: 1 at
+the lower and posterior part of the neck; 2 on the shoulder corresponding to
+the emergence of the superficial filets of the circumflex nerve; 3 in the
+axilla; and 4 at the inferior angle of the scapula.
+(POORE-1876,168.123)
+*~/
+/*
+92 VAG:  92 VAG, 93 corresponding, 42 PP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N pain)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO she))
+				  (VBD complained))))
+	  (BED was)
+	  (VAN centred)
+	  (PP (P in)
+	      (NP (NUM four)
+		  (ADJ different)
+		  (NS points)
+		  (, :)
+		  (CODE <paren>)
+		  (PP-PRN (PP (LS (NUM 1))
+			      (CODE <$$paren>)
+			      (P at)
+			      (NP (D the)
+				  (ADJP (ADJ lower) (CONJ and) (ADJ posterior))
+				  (N part)
+				  (PP (P of)
+				      (NP (D the) (N neck)))))
+			  (, ;)
+			  (CODE <paren>)
+			  (CONJP (PP (LS (NUM 2))
+				     (CODE <$$paren>)
+				     (P on)
+				     (NP (D the)
+					 (N shoulder)
+					 (CODE <paren>)
+					 (RRC (VAG corresponding)
+					      (PP (P to)
+						  (NP (D the)
+						      (N emergence)
+						      (PP (P of)
+							  (NP (D the)
+							      (ADJ superficial)
+							      (NS filets)
+							      (PP (P of)
+								  (NP (D the) (ADJ circumflex) (N nerve)))))))))))
+			  (, ;)
+			  (CODE <paren>)
+			  (CONJP (PP (LS (NUM 3))
+				     (CODE <$$paren>)
+				     (P in)
+				     (NP (D the) (N axilla))))
+			  (, ;)
+			  (CONJP (CONJ and)
+				 (CODE <paren>)
+				 (PP (LS (NUM 4))
+				     (CODE <$$paren>)
+				     (P at)
+				     (NP (D the)
+					 (ADJ inferior)
+					 (N angle)
+					 (PP (P of)
+					     (NP (D the) (N scapula)))))))))
+	  (. .))
+  (ID POORE-1876,168.123))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	1/1/435
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	0/0/494
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	0/0/464
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	0/0/395
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	0/0/77
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	0/0/404
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	0/0/241
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	0/0/488
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	0/0/475
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	0/0/422
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	1/1/458
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	0/0/49
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	0/0/383
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	0/0/436
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	0/0/522
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	3/1/423
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	0/0/548
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	0/0/294
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	0/0/470
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	1/1/435
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	0/0/494
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	0/0/464
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	0/0/395
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	0/0/77
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	0/0/404
+whole search, hits/tokens/total
+		5/3/7478
+*/

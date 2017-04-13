@@ -1,0 +1,66 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:20 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_predicate.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_predicate\philosophy\result.out
+
+node:   NP-*PRD*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*PRD* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd
+*/
+
+/~*
+Ic wat +teah +t+at hit is +tis andwearde lif & +des brosnienda wela +de we +ar
+ymbe spr+acon.
+(coboeth,Bo:16.35.25.645)
+*~/
+/*
+35 VAG^N:  35 VAG^N, 36 brosnienda, 21 NP-NOM-PRD
+*/
+( (CODE <T06660039600,16.35.25>)
+  (IP-MAT-SPE (NP-NOM (PRO^N Ic))
+	      (VBPI wat)
+	      (ADVP (ADV +teah))
+	      (CP-THT-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N hit))
+				      (BEPI is)
+				      (NP-NOM-PRD (NP-NOM (D^N +tis) (ADJ^N andwearde) (N^N lif))
+						  (CONJP (CONJ &)
+							 (NP-NOM (D^N +des) (VAG^N brosnienda) (N^N wela)))
+						  (CP-REL-SPE (WNP-1 0)
+							      (C +de)
+							      (IP-SUB-SPE (NP-NOM (PRO^N we))
+									  (ADVP-TMP (ADV^T +ar))
+									  (PP (NP *T*-1)
+									      (P ymbe))
+									  (VBDI spr+acon))))))
+	      (. .))
+  (ID coboeth,Bo:16.35.25.645))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd	1/1/3007
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd	0/0/179
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd	1/1/3007
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd	0/0/179
+whole search, hits/tokens/total
+		1/1/3186
+*/

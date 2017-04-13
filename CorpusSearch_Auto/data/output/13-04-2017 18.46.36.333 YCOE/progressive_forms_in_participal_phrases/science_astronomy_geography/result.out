@@ -1,0 +1,294 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:32 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_participal_phrases.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_participal_phrases\science_astronomy_geography\result.out
+
+node:   PTP*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (PTP* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd
+*/
+
+/~*
+We cwe+da+d openlice +ta tod+alednyssa +t+as seofonfealdan get+ales on +t+at
+gerad +t+at we magon, Criste miltsigendum, +te ea+d gesundfullice ingan to
++tam +tingum +te we ymbe spreca+d.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.119.226)
+*~/
+/*
+47 VAG^D:  47 VAG^D, 48 miltsigendum, 43 PTP-DAT-ABS
+*/
+( (CODE <T22710017200,1.2.119>)
+  (IP-MAT (NP-NOM (PRO^N We))
+	  (VBPI cwe+da+d)
+	  (ADVP (ADV openlice))
+	  (NP-ACC (D^A +ta)
+		  (N^A tod+alednyssa)
+		  (NP-GEN (D^G +t+as) (ADJ^G seofonfealdan) (N^G get+ales)))
+	  (PP (P on)
+	      (NP-ACC (D^A +t+at)
+		      (N^A gerad)
+		      (CP-THT (C +t+at)
+			      (IP-SUB (NP-NOM (PRO^N we))
+				      (MDPI magon)
+				      (, ,)
+				      (PTP-DAT-ABS (NP-DAT-SBJ (NR^D Criste))
+						   (VAG^D miltsigendum))
+				      (, ,)
+				      (ADVP (D^I +te) (ADVR ea+d))
+				      (ADVP (ADV gesundfullice))
+				      (RP+VB ingan)
+				      (PP (P to)
+					  (NP-DAT (D^D +tam)
+						  (N^D +tingum)
+						  (CP-REL (WNP-1 0)
+							  (C +te)
+							  (IP-SUB (NP-NOM (PRO^N we))
+								  (PP (P ymbe)
+								      (NP *T*-1))
+								  (VBPI spreca+d)))))))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.119.226))
+
+/~*
+Vton nu aginnan in to farenne to +tisses wingeardes weorce mid wynsumum fotum,
+for+don we sitta+d ymb +tam wege w+adligende mid Timeus sunu.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.161.267)
+*~/
+/*
+59 VAG^N:  59 VAG^N, 60 w+adligende, 58 PTP-NOM
+*/
+
+( (CODE <T22710019600,1.2.161>)
+  (IP-MAT (UTP Vton)
+	  (ADVP-TMP (ADV^T nu))
+	  (VB aginnan)
+	  (IP-INF (RP in)
+		  (TO to)
+		  (VB^D farenne)
+		  (PP (P to)
+		      (NP-DAT (NP-GEN (D^G +tisses) (N^G wingeardes))
+			      (N^D weorce)))
+		  (PP (P mid)
+		      (NP-DAT (ADJ^D wynsumum) (N^D fotum))))
+	  (, ,)
+	  (CP-ADV (P for+don)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N we))
+			  (VBPI sitta+d)
+			  (PP (P ymb)
+			      (NP-DAT (D^D +tam) (N^D wege)))
+			  (PTP-NOM (VAG^N w+adligende))
+			  (PP (P mid)
+			      (NP-ACC (NP-GEN (NR^G Timeus))
+				      (N^A sunu)))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.2.161.267))
+
+/~*
++Tas fif dagas beo+d +ta rihtinga +te we gyfa+d Martio, +tus cwe+dende:
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.81.637)
+*~/
+/*
+40 VAG^N:  40 VAG^N, 41 cwe+dende, 36 PTP-NOM
+*/
+
+( (CODE <T22710045900,2.1.81>)
+  (IP-MAT (NP-NOM (D^N +Tas) (NUM fif) (N^N dagas))
+	  (BEPI beo+d)
+	  (NP-NOM-PRD (D^N +ta)
+		      (N^N rihtinga)
+		      (CP-REL (WNP-1 0)
+			      (C +te)
+			      (IP-SUB (NP *T*-1)
+				      (NP-NOM (PRO^N we))
+				      (VBPI gyfa+d)
+				      (NP-DAT (NR^D Martio))
+				      (, ,)
+				      (PTP-NOM (ADVP (ADV +tus))
+					       (VAG^N cwe+dende)))))
+	  (. :))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.81.637))
+
+/~*
+Hu mihte hyt beon, la wynsuma leornere, +t+at binnan nigontyne wintrum wurde
+an d+ag gelytlod of +t+as monan ylde, gyf +t+at ne dyde +t+as monan $swyftnys
+lytlum and lytlum +turh +ta nigontyne gear yrnende and +t+ane saltus wyrcende?
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.165.680)
+*~/
+/*
+100 VAG^N:  100 VAG^N, 101 yrnende, 99 PTP-NOM
+100 VAG^N:  100 VAG^N, 101 yrnende, 88 PTP-NOM
+111 VAG^N:  111 VAG^N, 112 wyrcende, 105 PTP-NOM
+111 VAG^N:  111 VAG^N, 112 wyrcende, 88 PTP-NOM
+*/
+
+( (CODE <T22710048800,2.1.165>)
+  (CP-QUE (WADVP (WADV Hu))
+	  (IP-SUB (MDD mihte)
+		  (NP-NOM-x (PRO^N hyt))
+		  (BE beon)
+		  (, ,)
+		  (INTJ la)
+		  (NP-NOM-VOC (ADJ^N wynsuma) (N^N leornere))
+		  (, ,)
+		  (CP-THT-x (C +t+at)
+			    (IP-SUB (PP (P binnan)
+					(NP-DAT (NUM nigontyne) (N^D wintrum)))
+				    (BEDS wurde)
+				    (NP-NOM (NUM^N an) (N^N d+ag))
+				    (VBN gelytlod)
+				    (PP (P of)
+					(NP (NP-GEN (D^G +t+as) (N^G monan))
+					    (N ylde)))
+				    (, ,)
+				    (CP-ADV (P gyf)
+					    (C 0)
+					    (IP-SUB (NP-ACC (D^A +t+at))
+						    (NEG ne)
+						    (VBD dyde)
+						    (NP-NOM (NP-GEN (D^G +t+as) (N^G monan))
+							    (N^N $swyftnys))
+						    (QP-DAT-ADT (Q^D lytlum) (CONJ and) (Q^D lytlum))
+						    (PTP-NOM (PP (P +turh)
+								 (NP-ACC (D^A +ta) (NUM nigontyne) (N^A gear)))
+							     (PTP-NOM (VAG^N yrnende))
+							     (CONJP (CONJ and)
+								    (PTP-NOM (NP-ACC (D^A +t+ane) (FW saltus))
+									     (VAG^N wyrcende)))))))))
+	  (. ?))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:2.1.165.680))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	5/4/813
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd
+*/
+
+/~*
++t+at so+de leoht com +te onliht +alcne mannan cumendne to +disum middanearde.
+(cotempo,+ATemp:1.38.69)
+*~/
+/*
+29 VAG^A:  29 VAG^A, 30 cumendne, 28 PTP-ACC
+*/
+
+( (IP-MAT (NP-NOM (D^N +t+at)
+		  (ADJ^N so+de)
+		  (N^N leoht)
+		  (CP-REL *ICH*-1))
+	  (VBDI com)
+	  (CP-REL-1 (WNP-NOM-2 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (RP+VBPI onliht)
+			    (NP-ACC (Q^A +alcne)
+				    (N^A mannan)
+				    (PTP-ACC (VAG^A cumendne)
+					     (PP (P to)
+						 (NP-DAT (D^D +disum) (N^D middanearde)))))))
+	  (. .))
+  (ID cotempo,+ATemp:1.38.69))
+
+/~*
+An +d+ara d+ala is on +alemiddan weallende & unwunigendlic, for +d+are sunnan
+neawiste, on +dam ne earda+d nan eor+dlic man for +dam unaberendlicum bryne,
+(cotempo,+ATemp:6.24.239)
+*~/
+/*
+24 VAG^N:  24 VAG^N, 25 weallende, 17 PTP-NOM
+*/
+
+( (CODE <T03990016600,6.24>)
+  (IP-MAT (NP-NOM (NUM^N An)
+		  (NP-GEN (D^G +d+ara) (N^G d+ala))
+		  (CP-REL *ICH*-2))
+	  (BEPI is)
+	  (ADJP-NOM-PRD (PTP-NOM (PP (P on)
+				     (NP (N +alemiddan)))
+				 (VAG^N weallende))
+			(CONJP (CONJ &)
+			       (ADJP-NOM (ADJ^N unwunigendlic)
+					 (, ,)
+					 (PP (P for)
+					     (NP (NP-GEN (D^G +d+are) (N^G sunnan))
+						 (N neawiste))))))
+	  (, ,)
+	  (CP-REL-2 (WPP-1 (P on)
+			   (NP-DAT (D^D +dam)))
+		    (C 0)
+		    (IP-SUB (PP *T*-1)
+			    (NEG ne)
+			    (VBPI earda+d)
+			    (NP-NOM (NEG+Q^N nan) (ADJ^N eor+dlic) (N^N man))
+			    (PP (P for)
+				(NP-DAT (D^D +dam) (ADJ^D unaberendlicum) (N^D bryne)))))
+	  (. ,))
+  (ID cotempo,+ATemp:6.24.239))
+
+/~*
+Pliade sind gehatene +da seofon steorran +te on h+arfeste upaga+d, & ofer
+ealne winter scina+d, gangende eastan westweard.
+(cotempo,+ATemp:9.10.303)
+*~/
+/*
+56 VAG^N:  56 VAG^N, 57 gangende, 55 PTP-NOM
+*/
+
+( (CODE <T03990020900,9.10>)
+  (IP-MAT (NP-NOM-PRD (NR^N Pliade))
+	  (BEPI sind)
+	  (VBN^N gehatene)
+	  (NP-NOM (D^N +da)
+		  (NUM seofon)
+		  (N^N steorran)
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (IP-SUB (NP-NOM *T*-1)
+					  (PP (P on)
+					      (NP-DAT (N^D h+arfeste)))
+					  (RP+VBPI upaga+d))
+				  (, ,)
+				  (CONJP (CONJ &)
+					 (IP-SUB-CON (NP-NOM *T*-1)
+						     (PP (P ofer)
+							 (NP-ACC (Q^A ealne) (N^A winter)))
+						     (VBPI scina+d)
+						     (, ,)
+						     (PTP-NOM (VAG^N gangende)
+							      (ADVP-DIR (ADV^D eastan))
+							      (ADVP-DIR (ADV^D westweard))))))))
+	  (. .))
+  (ID cotempo,+ATemp:9.10.303))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	3/3/384
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	5/4/813
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	3/3/384
+whole search, hits/tokens/total
+		8/7/1360
+*/

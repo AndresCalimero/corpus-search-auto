@@ -1,0 +1,5718 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:55:46 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\whquestions\homilies_and_sermons\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd
+*/
+
+/~*
+here note well what authoryte was gyuen to Peter vpon them to conferme all the
+other of his bretheren in the stabyll waye.
+(FISHER-E1-H,1,317.62)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 17 *ICH*-2, 10 CP-QUE
+*/
+( (IP-IMP (ADVP-LOC (ADV here))
+	  (VBI note)
+	  (ADVP (ADV well))
+	  (CP-QUE (WNP-1 (WD what)
+			 (N authoryte)
+			 (IP-INF *ICH*-2))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (VAN gyuen)
+			  (PP (P to)
+			      (NP (NPR Peter)))
+			  (PP (P vpon)
+			      (NP (PRO them))))
+		  (IP-INF-2 (TO to)
+			    (VB conferme)
+			    (NP-OB1 (Q all)
+				    (D the)
+				    (OTHER other)
+				    (PP (P of)
+					(NP (PRO$ his) (NS bretheren))))
+			    (PP (P in)
+				(NP (D the) (ADJ stabyll) (N waye)))))
+	  (. .))
+  (ID FISHER-E1-H,1,317.62))
+
+/~*
+& what can be more euydent to shewe that Peter vnder christ was the heed of al
+the houshold of christ.
+(FISHER-E1-H,1,318.82)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ &)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD can)
+		  (BE be)
+		  (ADJP (QR more) (ADJ euydent))
+		  (IP-INF-PRP (TO to)
+			      (VB shewe)
+			      (CP-THT (C that)
+				      (IP-SUB (NP-SBJ (NPR Peter))
+					      (PP (P vnder)
+						  (NP (NPR christ)))
+					      (BED was)
+					      (NP-OB1 (D the)
+						      (N heed)
+						      (PP (P of)
+							  (NP (Q al)
+							      (D the)
+							      (N houshold)
+							      (PP (P of)
+								  (NP (NPR christ))))))))))
+	  (. .))
+  (ID FISHER-E1-H,1,318.82))
+
+/~*
+Paule & Andrew. & Iohan what els be they. but heedes of certayne & synguler
+people. wherby it appereth that as they were chefe euery man of the people
+that they had cure of. So saynt Peter was chefe of the vnyuersall chyrche.
+(FISHER-E1-H,1,320.109)
+*~/
+/*
+15 WNP-2:  15 WNP-2, 22 *ICH*-3, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-LFD-1 (NPR Paule) (CONJ &) (NPR Andrew) (, .) (CONJ &) (NPR Iohan))
+	  (WNP-2 (WPRO what)
+		 (ADJP (ADJ els))
+		 (PP *ICH*-3))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (BEP be)
+		  (NP-SBJ-RSP=1 (PRO they))
+		  (, .)
+		  (PP-3 (P but)
+			(NP (NS heedes)
+			    (PP (P of)
+				(NP (ADJP (ADJ certayne) (CONJ &) (ADJ synguler))
+				    (NS people)))))
+		  (, .)
+		  (CP-CAR (WPP-4 (WADV+P wherby))
+			  (C 0)
+			  (IP-SUB (PP *T*-4)
+				  (NP-SBJ-5 (PRO it))
+				  (VBP appereth)
+				  (CP-THT-5 (C that)
+					    (IP-SUB (PP (P as)
+							(CP-CMP (WADVP-6 0)
+								(C 0)
+								(IP-SUB (ADVP *T*-6)
+									(NP-SBJ (PRO they))
+									(BED were)
+									(ADJP (ADJ chefe)
+									      (PP *ICH*-7))
+									(QP (Q euery) (N man))
+									(PP-7 (P of)
+									      (NP (D the)
+										  (NS people)
+										  (CP-REL (WNP-8 0)
+											  (C that)
+											  (IP-SUB (NP-SBJ (PRO they))
+												  (HVD had)
+												  (NP-OB1 (N cure))
+												  (PP (P of)
+												      (NP *T*-8)))))))))
+						    (, .)
+						    (ADVP (ADV So))
+						    (NP-SBJ (NPR saynt) (NPR Peter))
+						    (BED was)
+						    (NP-OB1 (N chefe)
+							    (PP (P of)
+								(NP (D the) (ADJ vnyuersall) (NPR chyrche)))))))))
+	  (. .))
+  (ID FISHER-E1-H,1,320.109))
+
+/~*
+Yf all these so many testymonyes bothe of grekes and latyns shall not
+counterpease agaynst one frere. what reason is this?
+(FISHER-E1-H,1,321.124)
+*~/
+/*
+52 WNP-2:  52 WNP-2, 56 reason, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P Yf)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q all)
+				      (D these)
+				      (QP (ADV so) (Q many))
+				      (NS testymonyes)
+				      (PP (CONJ-1 bothe)
+					  (PP (P of)
+					      (NP (CONJ *ICH*-1)
+						  (NPRS grekes)
+						  (CONJ and)
+						  (NPRS latyns)))))
+			      (MD shall)
+			      (NEG not)
+			      (VB counterpease)
+			      (PP (P agaynst)
+				  (NP (ONE one) (N frere))))))
+	  (, .)
+	  (WNP-2 (WD what) (N reason))
+	  (IP-SUB (NP-SBJ *T*-2)
+		  (BEP is)
+		  (NP-OB1 (D this)))
+	  (. ?))
+  (ID FISHER-E1-H,1,321.124))
+
+/~*
+what comforte sholde hyr housbande haue vpon hyr.
+(FISHER-E1-H,1,321.132)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 comforte, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD what) (N comforte))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD sholde)
+		  (NP-SBJ (PRO$ hyr) (N housbande))
+		  (HV haue)
+		  (PP (P vpon)
+		      (NP (PRO hyr))))
+	  (. .))
+  (ID FISHER-E1-H,1,321.132))
+
+/~*
+Thus then you maye perceyue what bee the boardes of this booke, and what be
+the leaues, how it is written within, and without, howe it is lyned and
+leathered, and what bee the Letters, as well the small as the great.
+(FISHER-E1-H,1,396.149)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 what, 16 CP-QUE
+44 WNP-2:  44 WNP-2, 46 what, 43 CP-QUE
+116 WNP-5:  116 WNP-5, 118 what, 115 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Thus))
+	  (ADVP (ADV then))
+	  (NP-SBJ (PRO you))
+	  (MD maye)
+	  (VB perceyue)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP bee)
+				  (NP-OB1 (D the)
+					  (NS boardes)
+					  (PP (P of)
+					      (NP (D this) (N booke))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-2 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-SBJ *T*-2)
+					 (BEP be)
+					 (NP-OB1 (D the) (NS leaues)))))
+		  (, ,)
+		  (CONJP (CP-QUE (WADVP-3 (WADV how))
+				 (C 0)
+				 (IP-SUB (ADVP *T*-3)
+					 (NP-SBJ (PRO it))
+					 (BEP is)
+					 (VAN written)
+					 (ADVP-LOC (ADV within) (, ,) (CONJ and) (ADV without)))))
+		  (, ,)
+		  (CONJP (WADVP-4 (WADV howe))
+			 (C 0)
+			 (IP-SUB (ADVP *T*-4)
+				 (NP-SBJ (PRO it))
+				 (BEP is)
+				 (VAN (VAN lyned) (CONJ and) (VAN leathered))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-5 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-SBJ *T*-5)
+					 (BEP bee)
+					 (NP-OB1 (D the) (NS Letters))
+					 (, ,)
+					 (ADVP (ADVR as)
+					       (ADV well)
+					       (NP (D the) (ADJ small))
+					       (PP (P as)
+						   (NP (D the) (ADJ great))))))))
+	  (. .))
+  (ID FISHER-E1-H,1,396.149))
+
+/~*
+Now wee shall heare what maner of wryting is contayned in thys booke.
+(FISHER-E1-H,1,396.150)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 23 wryting, 12 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (NP-SBJ (PRO wee))
+	  (MD shall)
+	  (VB heare)
+	  (CP-QUE (WNP-1 (WD what)
+			 (N maner)
+			 (PP (P of)
+			     (NP (N wryting))))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (VAN contayned)
+			  (PP (P in)
+			      (NP (D thys) (N booke)))))
+	  (. .))
+  (ID FISHER-E1-H,1,396.150))
+
+/~*
+Now you shall heare what wrytings be contayned in thys booke,
+(FISHER-E1-H,1,396.152)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 17 wrytings, 12 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (NP-SBJ (PRO you))
+	  (MD shall)
+	  (VB heare)
+	  (CP-QUE (WNP-1 (WD what) (NS wrytings))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP be)
+			  (VAN contayned)
+			  (PP (P in)
+			      (NP (D thys) (N booke)))))
+	  (. ,))
+  (ID FISHER-E1-H,1,396.152))
+
+/~*
+beholde and vew euery part of this blessed body, what payne it endured for thy
+sake?
+(FISHER-E1-H,1,400.207)
+*~/
+/*
+27 WNP-1:  27 WNP-1, 31 payne, 26 CP-QUE
+*/
+
+( (IP-IMP (VBI (VBI beholde) (CONJ and) (VBI vew))
+	  (NP-OB1 (Q euery)
+		  (N part)
+		  (PP (P of)
+		      (NP (D this) (VAN blessed) (N body))))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WD what) (N payne))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (VBD endured)
+			  (PP (P for)
+			      (NP (PRO$ thy) (N sake)))))
+	  (. ?))
+  (ID FISHER-E1-H,1,400.207))
+
+/~*
+Alas man, heare what the King and Prophet sayth, Tota die verecundia mea
+contra me est, et confusio faciei meae cooperuit me,
+(FISHER-E1-H,1,401.236)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-IMP (INTJ Alas)
+	  (NP-VOC (N man))
+	  (, ,)
+	  (VBI heare)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D the)
+				  (N King)
+				  (CONJP (CONJ and)
+					 (NX (N Prophet))))
+			  (VBP sayth)))
+	  (, ,)
+	  (QTP (LATIN (FW Tota) (FW die) (FW verecundia) (FW mea) (FW contra) (FW me) (FW est) (, ,) (FW et) (FW confusio) (FW faciei) (FW meae) (FW cooperuit) (FW me)))
+	  (. ,))
+  (ID FISHER-E1-H,1,401.236))
+
+/~*
+If ye be ashamed of a spot in your clothes & haue no shame for many great
+blots in your soules. What shal I say but Frons meretricis facta est tibi;
+noluisti erubescere,
+(FISHER-E1-H,1,402.259)
+*~/
+/*
+67 WNP-1:  67 WNP-1, 71 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO ye))
+				      (BEP be)
+				      (ADJP (ADJ ashamed)
+					    (PP (P of)
+						(NP (D a)
+						    (N spot)
+						    (PP (P in)
+							(NP (PRO$ your) (NS clothes)))))))
+			      (CONJP (CONJ &)
+				     (IP-SUB (NP-SBJ *con*)
+					     (HVP haue)
+					     (NP-OB1 (Q no) (N shame))
+					     (PP (P for)
+						 (NP (Q many)
+						     (ADJ great)
+						     (NS blots)
+						     (PP (P in)
+							 (NP (PRO$ your) (NS soules))))))))))
+	  (, .)
+	  (WNP-1 (WPRO What)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shal)
+		  (NP-SBJ (PRO I))
+		  (VB say)
+		  (PP-2 (P but)
+			(LATIN (FW Frons) (FW meretricis) (FW facta) (FW est) (FW tibi) (, ;) (FW noluisti) (FW erubescere))))
+	  (. ,))
+  (ID FISHER-E1-H,1,402.259))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	13/11/262
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd
+*/
+
+/~*
+what is christ?
+(FISHER-E1-P1,326.67)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (NPR christ)))
+	  (. ?))
+  (ID FISHER-E1-P1,326.67))
+
+/~*
+who shall bere wytnesse or gyue euydence of this lyght?
+(FISHER-E1-P1,326.70)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB-2 (NP-SBJ *T*-1)
+		    (MD shall)
+		    (VB bere)
+		    (NP-OB1 (N wytnesse))
+		    (IP-SUB-PRN=2 (CONJ or)
+				  (VB gyue)
+				  (NP-OB1 (N euydence)))
+		    (PP (P of)
+			(NP (D this) (N lyght))))
+	  (. ?))
+  (ID FISHER-E1-P1,326.70))
+
+/~*
+what is this clennesse but the iustyfyenge of oure soules the whiche is
+promest for the workes of almes.
+(FISHER-E1-P1,329.128)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D this) (N clennesse))
+		  (PP-2 (P but)
+			(NP (D the)
+			    (N iustyfyenge)
+			    (PP (P of)
+				(NP (PRO$ oure) (NS soules)))))
+		  (CP-CAR (WNP-3 (D the) (WPRO whiche))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-3)
+				  (BEP is)
+				  (VAN promest)
+				  (PP (P for)
+				      (NP (D the)
+					  (NS workes)
+					  (PP (P of)
+					      (NP (NS almes))))))))
+	  (. .))
+  (ID FISHER-E1-P1,329.128))
+
+/~*
+What art thou but ashes, cinis es,
+(FISHER-E1-P1,392.228)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP art)
+		  (NP-SBJ (PRO thou)))
+	  (PP-2 (P but)
+		(NP (NS ashes)))
+	  (, ,)
+	  (LATIN (CODE <font>) (FW cinis) (FW es) (, ,) (CODE <$$font>)))
+  (ID FISHER-E1-P1,392.228))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	4/4/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd
+*/
+
+/~*
+Of the obseruancyes also and rytes that we vse aboute the sacramente of the
+alter to be consecrate. or elles of the sacramente of baptyme to be minystred
+whoo can expresse the reason of al those wordes. gestures. orders. questyons.
+answers that there be accustomed.
+(FISHER-E1-P2,334.29)
+*~/
+/*
+83 WNP-2:  83 WNP-2, 85 whoo, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P Of)
+	      (NP (D the)
+		  (NS obseruancyes)
+		  (ALSO also)
+		  (CONJP (CONJ and)
+			 (NX (NS rytes)))
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (VBP vse)
+				  (PP (PP (P aboute)
+					  (NP (D the)
+					      (N sacramente)
+					      (PP (P of)
+						  (IP-INF (NP-SBJ (D the) (N alter))
+							  (TO to)
+							  (BE be)
+							  (VAN consecrate)))))
+				      (, .)
+				      (CONJP (CONJ or)
+					     (ELSE elles)
+					     (PP (P of)
+						 (NP (D the)
+						     (N sacramente)
+						     (PP (P of)
+							 (IP-INF (NP-SBJ (N baptyme))
+								 (TO to)
+								 (BE be)
+								 (VAN minystred)))))))))))
+	  (WNP-2 (WPRO whoo))
+	  (IP-SUB (NP-SBJ *T*-2)
+		  (MD can)
+		  (VB expresse)
+		  (NP-OB1 (D the)
+			  (N reason)
+			  (PP (P of)
+			      (NP (Q al)
+				  (D those)
+				  (NS wordes)
+				  (, .)
+				  (CONJP (NX (NS gestures)))
+				  (, .)
+				  (CONJP (NX (NS orders)))
+				  (, .)
+				  (CONJP (NX (NS questyons)))
+				  (, .)
+				  (CONJP (NX (NS answers)))
+				  (CP-REL (WNP-3 0)
+					  (C that)
+					  (IP-SUB (NP-SBJ *T*-3)
+						  (ADVP-LOC (ADV there))
+						  (BEP be)
+						  (VAN accustomed)))))))
+	  (. .))
+  (ID FISHER-E1-P2,334.29))
+
+/~*
+Se than I saye what we haue to conferme those thynges that be taught vs by the
+chyrche.
+(FISHER-E1-P2,336.49)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-IMP (VBI Se)
+	  (ADVP (ADV than))
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (VBP saye))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (HVP haue)
+			  (IP-INF-PRP (TO to)
+				      (VB conferme)
+				      (NP-OB1 (D those)
+					      (NS thynges)
+					      (CP-REL (WNP-2 0)
+						      (C that)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (BEP be)
+							      (CODE <P_336>)
+							      (VAN taught)
+							      (NP-OB2 (PRO vs))
+							      (PP (P by)
+								  (NP (D the) (NPR chyrche)))))))))
+	  (. .))
+  (ID FISHER-E1-P2,336.49))
+
+/~*
+For who may thynke but suche a man is in the ryght way.
+(FISHER-E1-P2,339.106)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD may)
+		  (VB thynke)
+		  (CP-THT (FP but)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (SUCH suche) (D a) (N man))
+				  (BEP is)
+				  (PP (P in)
+				      (NP (D the) (ADJ ryght) (N way))))))
+	  (. .))
+  (ID FISHER-E1-P2,339.106))
+
+/~*
+what hath he tolde vs before?
+(FISHER-E1-P2,342.144)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVP hath)
+		  (NP-SBJ (PRO he))
+		  (VBN tolde)
+		  (NP-OB2 (PRO vs))
+		  (ADVP-TMP (ADV before)))
+	  (. ?))
+  (ID FISHER-E1-P2,342.144))
+
+/~*
+marke well what he saith.
+(FISHER-E1-P2,342.147)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 7 CP-QUE
+*/
+
+( (IP-IMP (VBI marke)
+	  (ADVP (ADV well))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (VBP saith)))
+	  (. .))
+  (ID FISHER-E1-P2,342.147))
+
+/~*
+And what suppose ye Martyn luther & his adherentes wolde do. yf he had the
+popes holynes & his fauourers. whom he calleth so often in derisyon papistas
+papastros. & papanos. & papenses in his daunger.
+(FISHER-E1-P2,345.178)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (VBP suppose)
+		  (NP-SBJ (PRO ye))
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NP (NPR Martyn) (NPR luther))
+					  (CONJP (CONJ &)
+						 (NP (PRO$ his) (NS adherentes))))
+				  (MD wolde)
+				  (DO do)
+				  (, .)
+				  (PP (P yf)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO he))
+						      (HVD had)
+						      (NP-OB1 (NP (NP-POS (D the) (N$ popes))
+								  (N holynes))
+							      (CONJP (CONJ &)
+								     (NP (PRO$ his)
+									 (NS fauourers)
+									 (, .)
+									 (CP-REL (WNP-2 (WPRO whom))
+										 (C 0)
+										 (IP-SUB (NP-SBJ (PRO he))
+											 (VBP calleth)
+											 (ADVP-TMP (ADVR so) (ADV often))
+											 (PP (P in)
+											     (NP (N derisyon)))
+											 (IP-SMC (NP-SBJ *T*-2)
+												 (LATIN (FW papistas) (FW papastros) (, .) (CODE <P_345>) (CONJ &) (FW papanos) (, .) (CONJ &) (FW papenses))))))))
+						      (PP (P in)
+							  (NP (PRO$ his) (N daunger)))))))))
+	  (. .))
+  (ID FISHER-E1-P2,345.178))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	6/6/208
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd
+*/
+
+/~*
+The generall doth point them out and shew what manner of men they should be.
+(HOOKER-A-E2-H,2.8)
+*~/
+/*
+28 WNP-2:  28 WNP-2, 38 men, 27 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D The) (CODE <font>) (ADJ generall) (CODE <$$font>))
+		    (DOP doth)
+		    (VB point)
+		    (NP-OB1 (PRO them))
+		    (RP out))
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB shew)
+			   (CP-QUE (WNP-2 (WD what)
+					  (N manner)
+					  (PP (P of)
+					      (NP (NS men))))
+				   (C 0)
+				   (IP-SUB (NP-OB1 *T*-2)
+					   (NP-SBJ (PRO they))
+					   (MD should)
+					   (BE be)))))
+	  (. .))
+  (ID HOOKER-A-E2-H,2.8))
+
+/~*
+who can then seeke out the things that are in heauen?
+(HOOKER-A-E2-H,5.58)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD can)
+		  (ADVP (ADV then))
+		  (VB seeke)
+		  (RP out)
+		  (NP-OB1 (D the)
+			  (NS things)
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (BEP are)
+					  (PP (P in)
+					      (NP (NPR heauen)))))))
+	  (CODE <$$font>)
+	  (. ?))
+  (ID HOOKER-A-E2-H,5.58))
+
+/~*
+Sometimes confessing with Iob the righteous, in treating of things too
+wonderfull for vs, we haue spoke~ we wist not what.
+(HOOKER-A-E2-H,5.59)
+*~/
+/*
+67 WNP:  67 WNP, 69 what, 66 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL (NP-TMP (Q+NS Sometimes))
+		  (VAG confessing)
+		  (PP (P with)
+		      (CODE <font>)
+		      (NP (NPR Iob)
+			  (CODE <$$font>)
+			  (NP-PRN (D the) (ADJ righteous)))))
+	  (, ,)
+	  (PP (P in)
+	      (IP-PPL (VAG treating)
+		      (PP (P of)
+			  (NP (NS things)
+			      (ADJP (ADVR too)
+				    (ADJ wonderfull)
+				    (PP (P for)
+					(NP (PRO vs))))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (HVP haue)
+	  (VBN spoke~)
+	  (NP-OB1 (IP-MAT-PRN (NP-SBJ (PRO we))
+			      (VBD wist)
+			      (NEG not)
+			      (CP-QUE (WNP (WPRO what)))))
+	  (. .))
+  (ID HOOKER-A-E2-H,5.59))
+
+/~*
+An instrument whether it be a pipe or harpe maketh a distinction in the times
+and sounds, which distinction is well perceived of the hearer, the instrumente
+it selfe vnderstanding not what is piped or harped.
+(HOOKER-A-E2-H,6.66)
+*~/
+/*
+96 WNP-2:  96 WNP-2, 98 what, 95 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D An) (N instrument))
+	  (CP-QUE-ADV (WQ whether)
+		      (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (BEP be)
+			      (NP-OB1 (D a)
+				      (N pipe)
+				      (CONJP (CONJ or)
+					     (NX (N harpe))))))
+	  (VBP maketh)
+	  (NP-OB1 (D a)
+		  (N distinction)
+		  (PP (P in)
+		      (NP (D the)
+			  (NS times)
+			  (CONJP (CONJ and)
+				 (NX (NS sounds))))))
+	  (, ,)
+	  (CP-CAR (WNP-1 (WD which) (N distinction))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (ADVP (ADV well))
+			  (VAN perceived)
+			  (PP (P of)
+			      (NP (D the) (N hearer)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N instrumente)
+			      (NP-PRN (PRO it) (N selfe)))
+		      (VAG vnderstanding)
+		      (NEG not)
+		      (CP-QUE (WNP-2 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-2)
+				      (BEP is)
+				      (VAN (VAN piped) (CONJ or) (VAN harped)))))
+	  (. .))
+  (ID HOOKER-A-E2-H,6.66))
+
+/~*
+Whom shall I seeke?
+(HOOKER-A-E2-H,9.107)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Whom, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Whom))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO I))
+		  (VB seeke))
+	  (. ?))
+  (ID HOOKER-A-E2-H,9.107))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	5/5/117
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd
+*/
+
+/~*
+What meane the children of this world then to tread in the courts of our God?
+(HOOKER-A-E2-P1,10.8)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP meane)
+		  (NP-SBJ (D the)
+			  (NS children)
+			  (PP (P of)
+			      (NP (D this) (N world))))
+		  (ADVP (ADV then))
+		  (IP-INF (TO to)
+			  (VB tread)
+			  (PP (P in)
+			      (NP (D the)
+				  (NS courts)
+				  (PP (P of)
+				      (NP (PRO$ our) (NPR God)))))))
+	  (. ?))
+  (ID HOOKER-A-E2-P1,10.8))
+
+/~*
+What should your bodies doe at Bethel, whose hearts are at Bethaven?
+(HOOKER-A-E2-P1,10.9)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD should)
+		  (NP-SBJ (PRO$ your)
+			  (NS bodies)
+			  (CP-REL *ICH*-2))
+		  (DO doe)
+		  (PP (P at)
+		      (NP (CODE <font>) (NPR Bethel) (CODE <$$font>)))
+		  (, ,)
+		  (CP-REL-2 (WNP-3 (WPRO$ whose) (NS hearts))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-3)
+				    (BEP are)
+				    (PP (P at)
+					(NP (CODE <font>) (NPR Bethaven) (CODE <$$font>))))))
+	  (. ?))
+  (ID HOOKER-A-E2-P1,10.9))
+
+/~*
+Albeit we $suppose that the blessed Apostles in foreshewing what manner of men
+were set out for the last daies, meant to note a calamity speciall and
+peculiar to the ages and generations which were to come.
+(HOOKER-A-E2-P1,12.43)
+*~/
+/*
+31 WNP-1:  31 WNP-1, 41 men, 30 CP-QUE
+*/
+
+( (PP (P Albeit)
+      (CP-ADV (C 0)
+	      (IP-SUB (NP-SBJ (PRO we))
+		      (VBP $suppose)
+		      (CP-THT (C that)
+			      (IP-SUB (NP-SBJ (D the) (VAN blessed) (NPRS Apostles))
+				      (PP (P in)
+					  (IP-PPL (VAG foreshewing)
+						  (CP-QUE (WNP-1 (WD what)
+								 (N manner)
+								 (PP (P of)
+								     (NP (NS men))))
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-1)
+								  (BED were)
+								  (VAN set)
+								  (RP out)
+								  (PP (P for)
+								      (NP (D the) (ADJ last) (NS daies)))))))
+				      (, ,)
+				      (VBD meant)
+				      (IP-INF (TO to)
+					      (VB note)
+					      (NP-OB1 (D a)
+						      (N calamity)
+						      (ADJP (ADJ speciall)
+							    (CONJ and)
+							    (ADJ peculiar)
+							    (PP (P to)
+								(NP (D the)
+								    (NS ages)
+								    (CONJP (CONJ and) (NS generations))
+								    (CP-REL (WNP-2 (WPRO which))
+									    (C 0)
+									    (IP-SUB (NP-SBJ *T*-2)
+										    (BED were)
+										    (IP-INF (TO to) (VB come)))))))))))))
+      (. .))
+  (ID HOOKER-A-E2-P1,12.43))
+
+/~*
+Men & brethren what shall we doe?
+(HOOKER-A-E2-P1,15.73)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 what, 1 CP-QUE
+*/
+
+( (CP-QUE (NP-VOC (CODE <font>) (NS Men) (CONJ &) (NS brethren))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO we))
+		  (DO doe))
+	  (. ?))
+  (ID HOOKER-A-E2-P1,15.73))
+
+/~*
+For your better vnderstanding, what this severing and separating of themselues
+doth meane, we must knowe, that the multitude of them which truly beleeue
+howsoever they be dispersed farre and wide each from other is all one body,
+whereof the head is Christ, one building, whereof he is the corner stone, in
+whom they as the me~bers of the body being knit, & as the stones of the
+building, being coupled, grow vp to a man of perfect stature, and rise to an
+holy te~ple in the Lord.
+(HOOKER-A-E2-P1,16.104)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 what, 14 CP-QUE
+*/
+
+( (IP-MAT (PP (P For)
+	      (NP (PRO$ your)
+		  (ADJR better)
+		  (N vnderstanding)
+		  (, ,)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D this)
+					  (N severing)
+					  (CONJP (CONJ and)
+						 (NX (N separating)))
+					  (PP (P of)
+					      (NP (PRO+N themselues))))
+				  (DOP doth)
+				  (VB meane)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD must)
+	  (VB knowe)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N multitude)
+				  (PP (P of)
+				      (NP (PRO them)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (ADVP (ADV truly))
+							  (VBP beleeue)
+							  (CODE <paren>)
+							  (ADVP (CP-FRL (WADVP-3 (WADV+ADV+ADV howsoever))
+									(C 0)
+									(IP-SUB (ADVP *T*-3)
+										(NP-SBJ (PRO they))
+										(BEP be)
+										(VAN dispersed)
+										(NP-MSR (ADJP (ADJ farre) (CONJ and) (ADJ wide)))
+										(NP-ADV (Q each)
+											(PP (P from)
+											    (NP (OTHER other))))))))))))
+			  (CODE <$$paren>)
+			  (BEP is)
+			  (Q all)
+			  (CODE <font>)
+			  (NP-OB1 (NP (ONE one)
+				      (N body)
+				      (CODE <$$font>)
+				      (, ,)
+				      (CP-REL (WPP-4 (WADV+P whereof))
+					      (C 0)
+					      (IP-SUB (NP-SBJ (D the)
+							      (N head)
+							      (PP *T*-4))
+						      (BEP is)
+						      (NP-OB1 (NPR Christ)))))
+				  (, ,)
+				  (CODE <font>)
+				  (CONJP (NP (ONE one)
+					     (N building)
+					     (CODE <$$font>)
+					     (, ,)
+					     (CP-REL (WPP-5 (WADV+P whereof))
+						     (C 0)
+						     (IP-SUB (NP-SBJ (PRO he))
+							     (BEP is)
+							     (NP-OB1 (D the)
+								     (N corner)
+								     (N stone)
+								     (PP *T*-5)
+								     (, ,)
+								     (CP-REL (WPP-6 (P in)
+										    (WNP (WPRO whom)))
+									     (C 0)
+									     (IP-SUB (IP-SUB (PP *T*-6)
+											     (NP-SBJ (PRO they))
+											     (PP (PP (P as)
+												     (NP (D the)
+													 (NS me~bers)
+													 (PP (P of)
+													     (NP (D the) (N body)))
+													 (RRC (BAG being) (VAN knit))))
+												 (, ,)
+												 (CONJP (CONJ &)
+													(PP (P as)
+													    (NP (D the)
+														(NS stones)
+														(PP (P of)
+														    (NP (D the) (N building)))
+														(, ,)
+														(RRC (BAG being) (VAN coupled))))))
+											     (, ,)
+											     (VBP grow)
+											     (RP vp)
+											     (PP (P to)
+												 (NP (D a)
+												     (N man)
+												     (PP (P of)
+													 (NP (ADJ perfect) (N stature))))))
+										     (, ,)
+										     (CONJP (CONJ and)
+											    (IP-SUB (NP-SBJ *con*)
+												    (VBP rise)
+												    (PP (P to)
+													(NP (D an)
+													    (ADJ holy)
+													    (N te~ple)
+													    (PP (P in)
+														(NP (D the) (NPR Lord)))))))))))))))))
+	  (. .))
+  (ID HOOKER-A-E2-P1,16.104))
+
+/~*
+Who be inwardly in heart the liuely members of this body, and the polished
+stones of this building, coupled and ioined to Christ, as flesh of his flesh
+and bones of his bones by the mutuall bond of his vnspeakable loue towards
+them, & their vnfained faith in him, thus linked and fastned each to other by
+a sprituall, sincere, and hartie affection of loue without any manner of
+simulation, who be Iewes within, and what their names be, none can tell, saue
+he whose eies doe behold the secret disposition of all mens harts.
+(HOOKER-A-E2-P1,17.108)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 Who, 3 CP-QUE
+216 WNP-2:  216 WNP-2, 218 who, 215 CP-QUE
+238 WNP-3:  238 WNP-3, 240 what, 237 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (CP-QUE (WNP-1 (WPRO Who))
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP be)
+				  (ADVP (ADV inwardly))
+				  (PP (P in)
+				      (NP (N heart)))
+				  (NP-OB1 (NP (D the)
+					      (ADJ liuely)
+					      (NS members)
+					      (PP (P of)
+						  (NP (D this) (N body))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (D the)
+						     (ADJ polished)
+						     (NS stones)
+						     (PP (P of)
+							 (NP (D this) (N building)))))
+					  (, ,)
+					  (RRC (VAN (VAN coupled) (CONJ and) (VAN ioined))
+					       (PP (P to)
+						   (NP (NPR Christ)))
+					       (, ,)
+					       (PP (P as)
+						   (NP (NP (N flesh)
+							   (PP (P of)
+							       (NP (PRO$ his) (N flesh))))
+						       (CONJP (CONJ and)
+							      (NP (NS bones)
+								  (PP (P of)
+								      (NP (PRO$ his) (NS bones)))))))
+					       (PP (P by)
+						   (NP (D the)
+						       (ADJ mutuall)
+						       (N bond)
+						       (PP (P of)
+							   (NP (NP (PRO$ his)
+								   (ADJ vnspeakable)
+								   (N loue)
+								   (PP (P towards)
+								       (NP (PRO them))))
+							       (, ,)
+							       (CONJP (CONJ &)
+								      (NP (PRO$ their)
+									  (ADJ vnfained)
+									  (N faith)
+									  (PP (P in)
+									      (NP (PRO him))))))))))
+					  (, ,)
+					  (RRC (ADVP (ADV thus))
+					       (VAN (VAN linked) (CONJ and) (VAN fastned))
+					       (NP-ADV (Q each)
+						       (PP (P to)
+							   (NP (OTHER other))))
+					       (PP (P by)
+						   (NP (D a)
+						       (ADJP (ADJ sprituall) (, ,) (ADJ sincere) (, ,) (CONJ and) (ADJ hartie))
+						       (N affection)
+						       (PP (P of)
+							   (NP (N loue)))
+						       (PP (P without)
+							   (NP (Q any)
+							       (N manner)
+							       (PP (P of)
+								   (NP (N simulation)))))))))))
+		  (, ,)
+		  (CONJP (CP-QUE (WNP-2 (WPRO who))
+				 (C 0)
+				 (IP-SUB (NP-SBJ *T*-2)
+					 (BEP be)
+					 (NP-OB1 (NPRS Iewes)
+						 (ADVP-LOC (ADV within))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-3 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-OB1 *T*-3)
+					 (NP-SBJ (PRO$ their) (NS names))
+					 (BEP be)))))
+	  (, ,)
+	  (NP-SBJ (Q none))
+	  (MD can)
+	  (VB tell)
+	  (, ,)
+	  (PP (P saue)
+	      (NP (PRO he)
+		  (CP-REL (WNP-4 (WPRO$ whose) (NS eies))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-4)
+				  (DOP doe)
+				  (VB behold)
+				  (NP-OB1 (D the)
+					  (ADJ secret)
+					  (N disposition)
+					  (PP (P of)
+					      (NP (NP-POS (Q all) (NS$ mens))
+						  (NS harts))))))))
+	  (. .))
+  (ID HOOKER-A-E2-P1,17.108))
+
+/~*
+If Christ be the sonne of the liuing god, if hee haue the words of eternall
+life, if he be able to bring salvation to all men that come vnto him, what
+meaneth this Apostasie and vnconstrained departure?
+(HOOKER-A-E2-P1,19.121)
+*~/
+/*
+110 WNP-2:  110 WNP-2, 112 what, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (PP (P If)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (NPR Christ))
+				  (BEP be)
+				  (NP-OB1 (D the)
+					  (N sonne)
+					  (PP (P of)
+					      (NP (D the) (VAG liuing) (NPR god)))))))
+	      (, ,)
+	      (CONJP (PP (P if)
+			 (CP-ADV (C 0)
+				 (IP-SUB (NP-SBJ (PRO hee))
+					 (HVP haue)
+					 (NP-OB1 (D the)
+						 (NS words)
+						 (PP (P of)
+						     (NP (ADJ eternall) (N life))))))))
+	      (, ,)
+	      (CONJP (PP (P if)
+			 (CP-ADV (C 0)
+				 (IP-SUB (NP-SBJ (PRO he))
+					 (BEP be)
+					 (ADJP (ADJ able)
+					       (IP-INF (TO to)
+						       (VB bring)
+						       (NP-OB1 (N salvation))
+						       (PP (P to)
+							   (NP (Q all)
+							       (NS men)
+							       (CP-REL (WNP-1 0)
+								       (C that)
+								       (IP-SUB (NP-SBJ *T*-1)
+									       (VBP come)
+									       (PP (P vnto)
+										   (NP (PRO him))))))))))))))
+	  (, ,)
+	  (WNP-2 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (VBP meaneth)
+		  (NP-SBJ (D this)
+			  (N Apostasie)
+			  (CONJP (CONJ and)
+				 (NX (ADJ vnconstrained) (N departure)))))
+	  (. ?))
+  (ID HOOKER-A-E2-P1,19.121))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	9/7/128
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd
+*/
+
+/~*
+What is that to vs, which know that Angels haue fallen from heaven?
+(HOOKER-A-E2-P2,19.6)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D that))
+		  (PP (P to)
+		      (NP (PRO vs)
+			  (, ,)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBP know)
+					  (CP-THT (C that)
+						  (IP-SUB (NP-SBJ (NS Angels))
+							  (HVP haue)
+							  (VBN fallen)
+							  (PP (P from)
+							      (NP (NPR heaven))))))))))
+	  (. ?))
+  (ID HOOKER-A-E2-P2,19.6))
+
+/~*
+For who art thou that takest vpon thee to iudge another before the time?
+(HOOKER-A-E2-P2,20.15)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP art)
+		  (NP-SBJ (PRO thou)
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBP takest)
+					  (PP (P vpon)
+					      (NP (PRO thee)))
+					  (IP-INF (TO to)
+						  (VB iudge)
+						  (NP-OB1 (D+OTHER another))
+						  (PP (P before)
+						      (NP (D the) (N time))))))))
+	  (. ?))
+  (ID HOOKER-A-E2-P2,20.15))
+
+/~*
+It is as easie a matter for the spirit within you to tell whose yee are, as
+for the eies of your body to iudge where you sit, or in what place you stand.
+(HOOKER-A-E2-P2,20.24)
+*~/
+/*
+38 WNP-2:  38 WNP-2, 40 whose, 37 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (NP-OB1 (ADJP (ADVR as) (ADJ easie))
+		  (D a)
+		  (N matter)
+		  (PP *ICH*-3))
+	  (IP-INF-1 (FOR for)
+		    (NP-SBJ (D the)
+			    (N spirit)
+			    (PP (P within)
+				(NP (PRO you))))
+		    (TO to)
+		    (VB tell)
+		    (CP-QUE (WNP-2 (WPRO$ whose))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO yee))
+				    (BEP are))))
+	  (, ,)
+	  (PP-3 (P as)
+		(CP-CMP (WNP-4 0)
+			(C 0)
+			(IP-SUB (NP-OB1 *T*-4)
+				(CODE {it_is})
+				(IP-INF (FOR for)
+					(NP-SBJ (D the)
+						(NS eies)
+						(PP (P of)
+						    (NP (PRO$ your) (N body))))
+					(TO to)
+					(VB iudge)
+					(CP-QUE (CP-QUE (WADVP-5 (WADV where))
+							(C 0)
+							(IP-SUB (ADVP-LOC *T*-5)
+								(NP-SBJ (PRO you))
+								(VBP sit)))
+						(, ,)
+						(CONJP (CONJ or)
+						       (CP-QUE (WPP-6 (P in)
+								      (WNP (WD what) (N place)))
+							       (C 0)
+							       (IP-SUB (PP *T*-6)
+								       (NP-SBJ (PRO you))
+								       (VBP stand)))))))))
+	  (. .))
+  (ID HOOKER-A-E2-P2,20.24))
+
+/~*
+For what saith the Scripture?
+(HOOKER-A-E2-P2,20.25)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP saith)
+		  (NP-SBJ (D the) (NPR Scripture)))
+	  (. ?))
+  (ID HOOKER-A-E2-P2,20.25))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	4/4/111
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd
+*/
+
+/~*
+What it should meane, I know not, except God haue set the~ on worke to provide
+sewel against that day, when the Lord Iesus shal show himselfe from heaven
+with his mighty angels in flaming fire.
+(HOOKER-B-E2-H,37.30)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 5 What, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WPRO What))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (MD should)
+			  (VB meane)))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP know)
+	  (NEG not)
+	  (, ,)
+	  (PP (P except)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR God))
+			      (HVP haue)
+			      (VBN set)
+			      (NP-OB1 (PRO the~))
+			      (PP (P on)
+				  (NP (N worke)))
+			      (IP-INF-PRP (TO to)
+					  (VB provide)
+					  (NP-OB1 (N sewel)
+						  (PP (P against)
+						      (NP (D that)
+							  (N day)
+							  (, ,)
+							  (CP-REL (WADVP-2 (WADV when))
+								  (C 0)
+								  (IP-SUB (ADVP-TMP *T*-2)
+									  (NP-SBJ (D the) (NPR Lord) (NPR Iesus))
+									  (MD shal)
+									  (VB show)
+									  (NP-OB1 (PRO+N himselfe))
+									  (PP (P from)
+									      (NP (NPR heaven)))
+									  (PP (P with)
+									      (NP (PRO$ his) (ADJ mighty) (NS angels)))
+									  (PP (P in)
+									      (NP (VAG flaming) (N fire))))))))))))
+	  (. .))
+  (ID HOOKER-B-E2-H,37.30))
+
+/~*
+What good commeth vnto the owners of these things, saith Solomon, but only the
+beholding thereof with their eies?
+(HOOKER-B-E2-H,37.31)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 good, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (N good))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP commeth)
+		  (PP (P vnto)
+		      (NP (D the)
+			  (NS owners)
+			  (PP (P of)
+			      (NP (D these) (NS things))))))
+	  (, ,)
+	  (IP-MAT-PRN (VBP saith)
+		      (CODE <font>)
+		      (NP-SBJ (NPR Solomon)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P but)
+	      (NP (FP only)
+		  (D the)
+		  (N beholding)
+		  (PP (ADV+P thereof))
+		  (PP (P with)
+		      (NP (PRO$ their) (NS eies)))))
+	  (. ?))
+  (ID HOOKER-B-E2-H,37.31))
+
+/~*
+Which of you wil gladly remaine, or abide in a mishapen, a ruinous, or a
+broken house?
+(HOOKER-B-E2-H,38.42)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 10 you, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Which)
+		 (PP (P of)
+		     (NP (PRO you))))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD wil)
+		  (ADVP (ADV gladly))
+		  (VB (VB remaine) (, ,) (CONJ or) (VB abide))
+		  (PP (P in)
+		      (NP (NP (D a) (ADJ mishapen))
+			  (, ,)
+			  (CONJP (NP (D a) (ADJ ruinous)))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (NP (D a) (VAN broken) (N house))))))
+	  (. ?))
+  (ID HOOKER-B-E2-H,38.42))
+
+/~*
+Which of you receiveth a guest, whom he honoureth, or whom he loveth, and doth
+not sweepe his chamber against his comming?
+(HOOKER-B-E2-H,38.44)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 10 you, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Which)
+		 (PP (P of)
+		     (NP (PRO you))))
+	  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+			  (VBP receiveth)
+			  (NP-OB1 (D a)
+				  (N guest)
+				  (, ,)
+				  (CP-REL (CP-REL (WNP-2 (WPRO whom))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO he))
+							  (VBP honoureth)))
+					  (, ,)
+					  (CONJP (CONJ or)
+						 (CP-REL (WNP-3 (WPRO whom))
+							 (C 0)
+							 (IP-SUB (NP-OB1 *T*-3)
+								 (NP-SBJ (PRO he))
+								 (VBP loveth)))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-SUB (NP-SBJ *T*-1)
+				 (DOP doth)
+				 (NEG not)
+				 (VB sweepe)
+				 (NP-OB1 (PRO$ his) (N chamber))
+				 (PP (P against)
+				     (NP (PRO$ his) (N comming))))))
+	  (. ?))
+  (ID HOOKER-B-E2-H,38.44))
+
+/~*
+who can heale thee?
+(HOOKER-B-E2-H,40.58)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD can)
+		  (VB heale)
+		  (NP-OB1 (PRO thee))
+		  (CODE <$$font>))
+	  (. ?))
+  (ID HOOKER-B-E2-H,40.58))
+
+/~*
+Who is it that overco~meth the world, but hee which beleeueth, that Iesus is
+the sonne of God?
+(HOOKER-B-E2-H,42.96)
+*~/
+/*
+2 WNP:  2 WNP, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO it))
+		  (CP-CLF (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP overco~meth)
+				  (NP-OB1 (D the) (N world))
+				  (, ,)
+				  (PP (P but)
+				      (NP (PRO hee)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (VBP beleeueth)
+							  (, ,)
+							  (CP-THT (C that)
+								  (IP-SUB (NP-SBJ (NPR Iesus))
+									  (BEP is)
+									  (NP-OB1 (D the)
+										  (NPR sonne)
+										  (PP (P of)
+										      (NP (NPR God)))))))))))))
+	  (. ?))
+  (ID HOOKER-B-E2-H,42.96))
+
+/~*
+That no worke of ours, no building of our selues in any thing can be available
+or profitable vnto vs, except we be edified & built in faith, what need we to
+seeke about for long proofe?
+(HOOKER-B-E2-H,44.133)
+*~/
+/*
+88 WNP-2:  88 WNP-2, 90 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CP-THT-1 (C That)
+		    (IP-SUB (NP-SBJ (NP (Q no)
+					(N worke)
+					(PP (P of)
+					    (NP (PRO$ ours))))
+				    (, ,)
+				    (CONJP (NP (Q no)
+					       (N building)
+					       (PP (P of)
+						   (NP (PRO$ our) (N selues)))
+					       (PP (P in)
+						   (NP (Q any) (N thing))))))
+			    (MD can)
+			    (BE be)
+			    (ADJP (ADJ available)
+				  (CONJ or)
+				  (ADJ profitable)
+				  (PP (P vnto)
+				      (NP (PRO vs))))
+			    (, ,)
+			    (PP (P except)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (PRO we))
+						(BEP be)
+						(VAN (VAN edified) (CONJ &) (VAN built))
+						(PP (P in)
+						    (NP (N faith))))))))
+	  (, ,)
+	  (WNP-2 (WPRO what))
+	  (IP-SUB (NP-ADV *T*-2)
+		  (VBP need)
+		  (NP-SBJ (PRO we))
+		  (IP-INF (TO to)
+			  (VB seeke)
+			  (RP about)
+			  (PP (P for)
+			      (NP (ADJ long)
+				  (N proofe)
+				  (CP-THT *ICH*-1)))))
+	  (. ?))
+  (ID HOOKER-B-E2-H,44.133))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	7/7/134
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd
+*/
+
+/~*
+Doe we not see what shift God doth make for Lot, and for his familie in the
+19. of Genesis, least the fierie destruction of the wicked should overtake him?
+(HOOKER-B-E2-P1,33.36)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 17 shift, 12 CP-QUE
+*/
+
+( (CP-QUE (IP-SUB (DOP Doe)
+		  (NP-SBJ (PRO we))
+		  (NEG not)
+		  (VB see)
+		  (CP-QUE (WNP-1 (WD what) (N shift))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR God))
+				  (DOP doth)
+				  (VB make)
+				  (PP (PP (P for)
+					  (NP (CODE <font>) (NPR Lot) (CODE <$$font>)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (PP (P for)
+						 (NP (PRO$ his) (N familie)))))))
+		  (PP (P in)
+		      (NP (D the)
+			  (NUM 19.)
+			  (PP (P of)
+			      (NP (NPR Genesis)))))
+		  (, ,)
+		  (PP (P least)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D the)
+					      (ADJ fierie)
+					      (N destruction)
+					      (PP (P of)
+						  (NP (D the) (ADJ wicked))))
+				      (MD should)
+				      (VB overtake)
+				      (NP-OB1 (PRO him))))))
+	  (. ?))
+  (ID HOOKER-B-E2-P1,33.36))
+
+/~*
+and learne, what it is to build your selues in faith.
+(HOOKER-B-E2-P1,45.80)
+*~/
+/*
+9 WNP-1:  9 WNP-1, 11 what, 8 CP-QUE
+*/
+
+( (IP-IMP (CONJ and)
+	  (VBI learne)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ-2 (PRO it))
+			  (BEP is)
+			  (IP-INF-2 (TO to)
+				    (CODE <font>)
+				    (VB build)
+				    (NP-OB1 (PRO$ your) (N selues))
+				    (PP (P in)
+					(NP (N faith)))
+				    (. .)
+				    (CODE <$$font>)))))
+  (ID HOOKER-B-E2-P1,45.80))
+
+/~*
+Who hath searched the counsell of God concerning this secret?
+(HOOKER-B-E2-P1,46.109)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (HVP hath)
+		  (VBN searched)
+		  (NP-OB1 (D the)
+			  (N counsell)
+			  (PP (P of)
+			      (NP (NPR God))))
+		  (IP-PPL (VAG concerning)
+			  (NP-OB1 (D this) (N secret))))
+	  (. ?))
+  (ID HOOKER-B-E2-P1,46.109))
+
+/~*
+and who doth not see that infidelitie doth threaten Lo-ammi vnto the Gentiles,
+as it hath brought Lo ruchama vpon the Iewes?
+(HOOKER-B-E2-P1,46.110)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (DOP doth)
+		  (NEG not)
+		  (VB see)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (CODE <font>) (N infidelitie) (CODE <$$font>))
+				  (DOP doth)
+				  (VB threaten)
+				  (NP-OB1 (CODE <font>) (FW Lo-ammi) (CODE <$$font>))
+				  (PP (P vnto)
+				      (NP (D the) (NPRS Gentiles)))
+				  (, ,)
+				  (PP (P as)
+				      (CP-ADV (WADVP-2 0)
+					      (C 0)
+					      (IP-SUB (ADVP *T*-2)
+						      (NP-SBJ (PRO it))
+						      (HVP hath)
+						      (VBN brought)
+						      (CODE <font>)
+						      (NP-OB1 (HEBREW (FW Lo) (FW ruchama)))
+						      (CODE <$$font>)
+						      (PP (P vpon)
+							  (NP (D the) (NPRS Iewes)))))))))
+	  (. ?))
+  (ID HOOKER-B-E2-P1,46.110))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	4/4/175
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd
+*/
+
+/~*
+What is the reason of this?
+(HOOKER-B-E2-P2,54.65)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D the)
+			  (N reason)
+			  (PP (P of)
+			      (NP (D this)))))
+	  (. ?))
+  (ID HOOKER-B-E2-P2,54.65))
+
+/~*
+This is no place to shew what dutie Zerubbabel or Iehoshua doth owe vnto God
+in this respect.
+(HOOKER-B-E2-P2,55.90)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 22 dutie, 17 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D This))
+	  (BEP is)
+	  (NP-OB1 (Q no)
+		  (N place)
+		  (IP-INF (TO to)
+			  (VB shew)
+			  (CP-QUE (WNP-1 (WD what) (N dutie))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (CODE <font>) (NPR Zerubbabel) (CODE <$$font>) (CONJ or) (CODE <font>) (NPR Iehoshua) (CODE <$$font>))
+					  (DOP doth)
+					  (VB owe)
+					  (PP (P vnto)
+					      (NP (NPR God)))
+					  (PP (P in)
+					      (NP (D this) (N respect)))))))
+	  (. .))
+  (ID HOOKER-B-E2-P2,55.90))
+
+/~*
+Who is their amongst you that hath take~ a survey of the house of God, as it
+was in the daies of the blessed Apostles of Iesus Christ?
+(HOOKER-B-E2-P2,55.93)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-3, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who)
+		 (CP-REL *ICH*-3))
+	  (IP-SUB (NP-2 *T*-1)
+		  (BEP is)
+		  (NP-SBJ-2 (EX their))
+		  (PP (P amongst)
+		      (NP (PRO you)))
+		  (CP-REL-3 (WNP-4 0)
+			    (C that)
+			    (IP-SUB (NP-SBJ *T*-4)
+				    (HVP hath)
+				    (VBN take~)
+				    (NP-OB1 (D a)
+					    (N survey)
+					    (PP (P of)
+						(NP (D the)
+						    (N house)
+						    (PP (P of)
+							(NP (NPR God))))))
+				    (, ,)
+				    (PP (P as)
+					(CP-ADV (WADVP-5 0)
+						(C 0)
+						(IP-SUB (ADVP *T*-5)
+							(NP-SBJ (PRO it))
+							(BED was)
+							(PP (P in)
+							    (NP (D the)
+								(NS daies)
+								(PP (P of)
+								    (NP (D the)
+									(ADJ blessed)
+									(NS Apostles)
+									(PP (P of)
+									    (NP (NPR Iesus) (NPR Christ)))))))))))))
+	  (. ?))
+  (ID HOOKER-B-E2-P2,55.93))
+
+/~*
+who is there amongst you that hath seen & con~sidred this holy temple in her
+first glory?
+(HOOKER-B-E2-P2,55.94)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-3, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who)
+		 (CP-REL *ICH*-3))
+	  (IP-SUB (NP-2 *T*-1)
+		  (BEP is)
+		  (NP-SBJ-2 (EX there))
+		  (PP (P amongst)
+		      (NP (PRO you)))
+		  (CP-REL-3 (WNP-4 0)
+			    (C that)
+			    (IP-SUB (NP-SBJ *T*-4)
+				    (HVP hath)
+				    (VBN (VBN seen) (CONJ &) (VBN con~sidred))
+				    (NP-OB1 (D this) (ADJ holy) (N temple))
+				    (PP (P in)
+					(NP (PRO$ her) (ADJ first) (N glory))))))
+	  (. ?))
+  (ID HOOKER-B-E2-P2,55.94))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	4/4/115
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd
+*/
+
+/~*
+and he alone knows what the wife shall prove, and by what dispositions and
+manners, and into what fortune that child shall enter:
+(JETAYLOR-E3-H,12.88)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO he))
+	  (ADJP-SPR (ADJ alone))
+	  (VBP knows)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D the) (N wife))
+				  (MD shall)
+				  (VB prove)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WPP-2 (WPP (P by)
+					     (WNP (WD what)
+						  (NS dispositions)
+						  (CONJP (CONJ and)
+							 (NX (NS manners)))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (WPP (P into)
+						    (WNP (WD what) (N fortune)))))
+				 (C 0)
+				 (IP-SUB (PP *T*-2)
+					 (NP-SBJ (D that) (N child))
+					 (MD shall)
+					 (VB enter)))))
+	  (. :))
+  (ID JETAYLOR-E3-H,12.88))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	1/1/394
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd
+*/
+
+/~*
+she knew not what to do with them;
+(JETAYLOR-E3-P1,37.258)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO she))
+	  (VBD knew)
+	  (NEG not)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)
+			  (PP (P with)
+			      (NP (PRO them)))))
+	  (. ;))
+  (ID JETAYLOR-E3-P1,37.258))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	1/1/287
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd
+*/
+
+/~*
+Nowe what shall we saye of these ryche citizens of London?
+(LATIMER-E1-H,22P.8)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 7 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV Nowe))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO we))
+		  (VB saye)
+		  (PP (P of)
+		      (NP (D these)
+			  (ADJ ryche)
+			  (NS citizens)
+			  (PP (P of)
+			      (NP (NPR London))))))
+	  (. ?))
+  (ID LATIMER-E1-H,22P.8))
+
+/~*
+What shall I saye of them?
+(LATIMER-E1-H,22P.9)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO I))
+		  (VB saye)
+		  (PP (P of)
+		      (NP (PRO them))))
+	  (. ?))
+  (ID LATIMER-E1-H,22P.9))
+
+/~*
+he shall lye sycke at theyr doore betwene stocke and stocke. I can not tel
+what to call it, and peryshe there for hunger,
+(LATIMER-E1-H,23P.53)
+*~/
+/*
+44 WNP-2:  44 WNP-2, 46 what, 43 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO he))
+		    (MD shall)
+		    (VB lye)
+		    (ADJP-SPR (ADJ sycke))
+		    (PP (P at)
+			(NP (PRO$ theyr) (N doore)))
+		    (PP (P betwene)
+			(NP (N stocke) (CONJ and) (N stocke)))
+		    (, .)
+		    (IP-MAT-PRN (NP-SBJ (PRO I))
+				(MD can)
+				(NEG not)
+				(VB tel)
+				(CP-QUE (WNP-2 (WPRO what))
+					(IP-INF (TO to)
+						(VB call)
+						(IP-SMC (NP-OB1 *T*-2)
+							(NP-SBJ (PRO it)))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB peryshe)
+			   (ADVP-LOC (ADV there))
+			   (PP (P for)
+			       (NP (N hunger)))))
+	  (. ,))
+  (ID LATIMER-E1-H,23P.53))
+
+/~*
+And in those dayes what dyd they whan they helped the scholers?
+(LATIMER-E1-H,23P.65)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (PP (P in)
+	      (NP (D those) (NS dayes)))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD dyd)
+		  (NP-SBJ (PRO they))
+		  (PP (P whan)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (VBD helped)
+				      (NP-OB2 (D the) (NS scholers))))))
+	  (. ?))
+  (ID LATIMER-E1-H,23P.65))
+
+/~*
+For what shall I loke for amonge thornes but prickyng and scrachinge? what
+among stones but stumblyng? What I had almost sayed among serpenttes but
+stingyng?
+(LATIMER-E1-H,24P.99)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 9 *ICH*-3, 2 CP-QUE
+44 WNP-4:  44 WNP-4, 48 *ICH*-5, 43 CP-QUE
+68 WNP-6:  68 WNP-6, 72 *ICH*-7, 67 CP-QUE
+*/
+
+( (CP-QUE (CP-QUE (CONJ For)
+		  (WNP-1 (WPRO what)
+			 (PP *ICH*-3))
+		  (IP-SUB-2 (MD shall)
+			    (NP-SBJ (PRO I))
+			    (VB loke)
+			    (PP (P for)
+				(NP *T*-1))
+			    (PP (P amonge)
+				(NP (NS thornes)))
+			    (PP-3 (P but)
+				  (IP-PPL (VAG (VAG prickyng) (CONJ and) (VAG scrachinge))))))
+	  (, ?)
+	  (CONJP (CP-QUE (WNP-4 (WPRO what)
+				(PP *ICH*-5))
+			 (IP-SUB=2 (NP *T*-4)
+				   (PP (P among)
+				       (NP (NS stones)))
+				   (PP-5 (P but)
+					 (IP-PPL (VAG stumblyng))))))
+	  (, ?)
+	  (CONJP (CP-QUE (WNP-6 (WPRO What)
+				(PP *ICH*-7))
+			 (IP-SUB=2 (NP *T*-6)
+				   (CODE <paren>)
+				   (IP-MAT-PRN (NP-SBJ (PRO I))
+					       (HVD had)
+					       (ADVP (ADV almost))
+					       (VBN sayed)
+					       (CODE <$$paren>)
+					       (PP (P among)
+						   (NP (NS serpenttes))))
+				   (PP-7 (P but)
+					 (IP-PPL (VAG stingyng))))))
+	  (. ?))
+  (ID LATIMER-E1-H,24P.99))
+
+/~*
+For what man wyll lette goe or deminishe hys priuate commoditie for a commune
+welth?
+(LATIMER-E1-H,25P.133)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 man, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WD what) (N man))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD wyll)
+		  (VB lette)
+		  (IP-INF (VB (VB goe) (CONJ or) (VB deminishe))
+			  (NP-SBJ (PRO$ hys) (ADJ priuate) (N commoditie))
+			  (PP (P for)
+			      (NP (D a) (ADJ commune) (N welth)))))
+	  (. ?))
+  (ID LATIMER-E1-H,25P.133))
+
+/~*
+and who wyll susteyne any damage for the respe`cte of a publique commoditie?
+(LATIMER-E1-H,25P.134)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD wyll)
+		  (VB susteyne)
+		  (NP-OB1 (Q any) (N damage))
+		  (PP (P for)
+		      (NP (D the)
+			  (N respe`cte)
+			  (PP (P of)
+			      (NP (D a) (ADJ publique) (N commoditie))))))
+	  (. ?))
+  (ID LATIMER-E1-H,25P.134))
+
+/~*
+But nowe for the defaulte of vnpreaching prelates me thinke I coulde gesse
+what myghte be sayed for excusynge of them:
+(LATIMER-E1-H,26P.152)
+*~/
+/*
+42 WNP-2:  42 WNP-2, 44 what, 41 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (ADVP (ADV nowe))
+	  (PP (P for)
+	      (NP (D the)
+		  (N defaulte)
+		  (PP (P of)
+		      (NP (ADJ vnpreaching) (NS prelates)))))
+	  (NP-SBJ-1 *exp*)
+	  (NP-OB2 (PRO me))
+	  (VBP thinke)
+	  (CP-THT-1 (C 0)
+		    (IP-SUB (NP-SBJ (PRO I))
+			    (MD coulde)
+			    (VB gesse)
+			    (CP-QUE (WNP-2 (WPRO what))
+				    (C 0)
+				    (IP-SUB (NP-SBJ *T*-2)
+					    (MD myghte)
+					    (BE be)
+					    (VAN sayed)
+					    (PP (P for)
+						(NP (N excusynge)
+						    (PP (P of)
+							(NP (PRO them)))))))))
+	  (. :))
+  (ID LATIMER-E1-H,26P.152))
+
+/~*
+I would fayne knowe who comptrolleth the deuyll at home at his parishe, whyle
+he comptrolleth the mynte?
+(LATIMER-E1-H,27P.166)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 who, 12 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD would)
+	  (ADVP (ADV fayne))
+	  (VB knowe)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBP comptrolleth)
+			  (NP-OB1 (D the) (NPR deuyll))
+			  (PP (P at)
+			      (NP (N home)))
+			  (PP (P at)
+			      (NP (PRO$ his) (N parishe)))
+			  (, ,)
+			  (PP (P whyle)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (VBP comptrolleth)
+					      (NP-OB1 (D the) (N mynte)))))))
+	  (. ?))
+  (ID LATIMER-E1-H,27P.166))
+
+/~*
+Who is the most diligent bishoppe and prelate in al England, that passeth al
+the reste in doinge his office
+(LATIMER-E1-H,29P.225)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (D the)
+			  (ADJP (QS most) (ADJ diligent))
+			  (N bishoppe)
+			  (CONJP (CONJ and)
+				 (NX (N prelate)))
+			  (PP (P in)
+			      (NP (Q al) (NPR England)))
+			  (, ,)
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBP passeth)
+					  (NP-OB1 (Q al) (D the) (N reste))
+					  (PP (P in)
+					      (IP-PPL (DAG doinge)
+						      (NP-OB1 (PRO$ his) (N office)))))))))
+  (ID LATIMER-E1-H,29P.225))
+
+/~*
+And $will ye knowe who it is?
+(LATIMER-E1-H,29P.231)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 who, 12 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (IP-SUB (MD $will)
+		  (NP-SBJ (PRO ye))
+		  (VB knowe)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BEP is))))
+	  (. ?))
+  (ID LATIMER-E1-H,29P.231))
+
+/~*
+what meaneth it, that god hath to do wyth the kynges stable?
+(LATIMER-E1-H,32L.239)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP meaneth)
+		  (NP-SBJ-2 (PRO it))
+		  (, ,)
+		  (CP-THT-2 (C that)
+			    (IP-SUB (NP-SBJ (NPR god))
+				    (HVP hath)
+				    (IP-INF (TO to)
+					    (DO do)
+					    (PP (P wyth)
+						(NP (NP-POS (D the) (N$ kynges))
+						    (N stable)))))))
+	  (. ?))
+  (ID LATIMER-E1-H,32L.239))
+
+/~*
+but yf he had, I knowe what woulde haue ben their aunswere.
+(LATIMER-E1-H,36L.314)
+*~/
+/*
+26 WNP-1:  26 WNP-1, 28 what, 25 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P yf)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (HVD had)
+			      (VBN *))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP knowe)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD woulde)
+			  (HV haue)
+			  (BEN ben)
+			  (NP-OB1 (PRO$ their) (N aunswere))))
+	  (. .))
+  (ID LATIMER-E1-H,36L.314))
+
+/~*
+let vs not walke after, nor leane to our owne iudgementes and procedynges of
+oure forfathers, nor seke not what they dyd, but what $they shoulde haue done,
+of which thyng scrypture admonysheth vs saying: Ne inclinemus praeceptis et
+traditionibus patrum neque faciamus quod videtur rectum in oculis nostris.
+(LATIMER-E1-H,36L.323)
+*~/
+/*
+64 WNP-1:  64 WNP-1, 66 what, 63 CP-QUE
+83 WNP-2:  83 WNP-2, 85 what, 82 CP-QUE
+*/
+
+( (IP-IMP (VBI let)
+	  (IP-INF (IP-INF (NP-SBJ (PRO vs))
+			  (NEG not)
+			  (VB walke)
+			  (ADVP-TMP (ADV after)))
+		  (, ,)
+		  (CONJP (CONJ nor)
+			 (IP-INF (NP-SBJ *con*)
+				 (VB leane)
+				 (PP (P to)
+				     (NP (PRO$ our)
+					 (ADJ owne)
+					 (NS iudgementes)
+					 (CONJP (CONJ and)
+						(NX (NS procedynges)
+						    (PP (P of)
+							(NP (PRO$ oure) (NS forfathers)))))))))
+		  (, ,)
+		  (CONJP (CONJ nor)
+			 (IP-INF (NP-SBJ *con*)
+				 (VB seke)
+				 (NEG not)
+				 (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+						 (C 0)
+						 (IP-SUB (NP-OB1 *T*-1)
+							 (NP-SBJ (PRO they))
+							 (DOD dyd)))
+					 (, ,)
+					 (CONJP (CONJ but)
+						(CP-QUE (WNP-2 (WPRO what))
+							(C 0)
+							(IP-SUB (NP-OB1 *T*-2)
+								(NP-SBJ (PRO $they))
+								(MD shoulde)
+								(HV haue)
+								(DON done))))))))
+	  (, ,)
+	  (CP-CAR (WPP-3 (P of)
+			 (WNP (WD which) (N thyng)))
+		  (C 0)
+		  (IP-SUB (PP *T*-3)
+			  (NP-SBJ (NPR scrypture))
+			  (VBP admonysheth)
+			  (NP-OB1 (PRO vs))
+			  (IP-PPL (VAG saying)
+				  (, :)
+				  (QTP (LATIN (FW Ne) (FW inclinemus) (FW praeceptis) (FW et) (FW traditionibus) (FW patrum) (FW neque) (FW faciamus) (FW quod) (FW videtur) (FW rectum) (FW in) (FW oculis) (FW nostris))))))
+	  (. .))
+  (ID LATIMER-E1-H,36L.323))
+
+/~*
+But who shal se this to much, or tell ye king of this to much.
+(LATIMER-E1-H,38L.344)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (IP-SUB-2 (NP-SBJ *T*-1)
+			    (MD shal)
+			    (VB se)
+			    (NP-OB1 (D this)
+				    (QP (ADVR to) (Q much))))
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (IP-SUB=2 (VB tell)
+				   (NP-OB2 (D ye) (N king))
+				   (PP (P of)
+				       (NP (D this)
+					   (QP (ADVR to) (Q much)))))))
+	  (. .))
+  (ID LATIMER-E1-H,38L.344))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	18/15/355
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd
+*/
+
+/~*
+The one what sede shuld be sowen in Gods field, in Goddes plough land. And the
+other who shuld be the sowers.
+(LATIMER-E1-P1,17P.7)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 12 sede, 7 CP-QUE
+*/
+
+( (NP (NP (D The) (ONE one))
+      (CP-QUE (WNP-1 (WD what) (N sede))
+	      (C 0)
+	      (IP-SUB (NP-SBJ *T*-1)
+		      (MD shuld)
+		      (BE be)
+		      (VAN sowen)
+		      (PP (P in)
+			  (NP (NPR$ Gods) (N field)))
+		      (, ,)
+		      (PP (P in)
+			  (NP (NPR$ Goddes) (N plough) (N land)))))
+      (, .)
+      (CONJP (CONJ And)
+	     (NP (D the)
+		 (OTHER other)
+		 (CP-REL (WNP-2 (WPRO who))
+			 (C 0)
+			 (IP-SUB (NP-SBJ *T*-2)
+				 (MD shuld)
+				 (BE be)
+				 (NP-OB1 (D the) (NS sowers))))))
+      (, .))
+  (ID LATIMER-E1-P1,17P.7))
+
+/~*
+That is to sai, what doctrin is to be taught in Christes church and
+congregation, and what men shoulde be the teachers and preachers of it.
+(LATIMER-E1-P1,17P.8)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 20 doctrin, 15 CP-QUE
+55 WNP-2:  55 WNP-2, 59 men, 54 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D That))
+	  (BEP is)
+	  (IP-INF (TO to)
+		  (VB sai)
+		  (, ,)
+		  (CP-QUE (CP-QUE (WNP-1 (WD what) (N doctrin))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP is)
+					  (IP-INF (TO to)
+						  (BE be)
+						  (VAN taught)
+						  (PP (P in)
+						      (NP (NPR$ Christes)
+							  (NPR church)
+							  (CONJP (CONJ and)
+								 (NX (N congregation))))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-QUE (WNP-2 (WD what) (NS men))
+					 (C 0)
+					 (IP-SUB (NP-SBJ *T*-2)
+						 (MD shoulde)
+						 (BE be)
+						 (NP-OB1 (D the)
+							 (NS teachers)
+							 (CONJP (CONJ and)
+								(NX (NS preachers)))
+							 (PP (P of)
+							     (NP (PRO it)))))))))
+	  (. .))
+  (ID LATIMER-E1-P1,17P.8))
+
+/~*
+The firste part I haue told you in the thre sermons, past in which I haue
+assaied to sette furth my plough, to proue what I coulde do.
+(LATIMER-E1-P1,17P.9)
+*~/
+/*
+74 WNP-2:  74 WNP-2, 76 what, 73 CP-QUE
+*/
+
+( (IP-MAT (NP-OB1 (D The) (ADJ firste) (N part))
+	  (NP-SBJ (PRO I))
+	  (HVP haue)
+	  (VBN told)
+	  (NP-OB2 (PRO you))
+	  (PP (P in)
+	      (NP (D the)
+		  (NUM thre)
+		  (NS sermons)
+		  (, ,)
+		  (RRC (VBN past))
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (HVP haue)
+				  (VBN assaied)
+				  (IP-INF (PP *T*-1)
+					  (TO to)
+					  (VB sette)
+					  (ADVP-DIR (ADV furth))
+					  (NP-OB1 (PRO$ my) (N plough))
+					  (, ,)
+					  (IP-INF-PRP (TO to)
+						      (VB proue)
+						      (CP-QUE (WNP-2 (WPRO what))
+							      (C 0)
+							      (IP-SUB (NP-OB1 *T*-2)
+								      (NP-SBJ (PRO I))
+								      (MD coulde)
+								      (DO do)))))))))
+	  (. .))
+  (ID LATIMER-E1-P1,17P.9))
+
+/~*
+And now I shal tel you who be the plowers,
+(LATIMER-E1-P1,17P.10)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 who, 17 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP-TMP (ADV now))
+	  (NP-SBJ (PRO I))
+	  (MD shal)
+	  (VB tel)
+	  (NP-OB2 (PRO you))
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP be)
+			  (NP-OB1 (D the) (NS plowers))))
+	  (. ,))
+  (ID LATIMER-E1-P1,17P.10))
+
+/~*
+And what had oure blessed Ladie bene the worse for thys?
+(LATIMER-E1-P1,18P.37)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-ADV *T*-1)
+		  (HVD had)
+		  (NP-SBJ (PRO$ oure) (ADJ blessed) (NPR Ladie))
+		  (BEN bene)
+		  (ADJP (D the)
+			(ADJR worse)
+			(PP (P for)
+			    (NP (D thys)))))
+	  (. ?))
+  (ID LATIMER-E1-P1,18P.37))
+
+/~*
+or what dishonour was thys to oure blessed Ladie.
+(LATIMER-E1-P1,18P.38)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ or)
+	  (WNP-1 (WD what)
+		 (N dishonour)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D thys)))
+	  (PP-2 (P to)
+		(NP (PRO$ oure) (ADJ blessed) (NPR Ladie)))
+	  (. .))
+  (ID LATIMER-E1-P1,18P.38))
+
+/~*
+and what dishonoure is thys to God?
+(LATIMER-E1-P1,19P.43)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WD what)
+		 (N dishonoure)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D thys))
+		  (PP-2 (P to)
+			(NP (NPR God))))
+	  (. ?))
+  (ID LATIMER-E1-P1,19P.43))
+
+/~*
+or what derogation is thys to heauen.
+(LATIMER-E1-P1,19P.44)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ or)
+	  (WNP-1 (WD what)
+		 (N derogation)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D thys)))
+	  (PP-2 (P to)
+		(NP (NPR heauen)))
+	  (. .))
+  (ID LATIMER-E1-P1,19P.44))
+
+/~*
+But now you wyll aske me whom I cal a prelate.
+(LATIMER-E1-P1,19P.46)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 whom, 17 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (ADVP-TMP (ADV now))
+	  (NP-SBJ (PRO you))
+	  (MD wyll)
+	  (VB aske)
+	  (NP-OB2 (PRO me))
+	  (CP-QUE (WNP-1 (WPRO whom))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (VBP cal)
+			  (IP-SMC (NP-SBJ *T*-1)
+				  (NP-OB1 (D a) (N prelate)))))
+	  (. .))
+  (ID LATIMER-E1-P1,19P.46))
+
+/~*
+Who thynke you is a wyse and a faythful seruaunt?
+(LATIMER-E1-P1,20P.69)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (VBP thynke)
+		  (NP-SBJ (PRO you))
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (NP-OB1 (NP (D a) (ADJ wyse))
+					  (CONJP (CONJ and)
+						 (NP (D a) (ADJ faythful) (N seruaunt)))))))
+	  (. ?))
+  (ID LATIMER-E1-P1,20P.69))
+
+/~*
+And what shall we in thys case do?
+(LATIMER-E1-P1,21P.87)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO we))
+		  (PP (P in)
+		      (NP (D thys) (N case)))
+		  (DO do))
+	  (. ?))
+  (ID LATIMER-E1-P1,21P.87))
+
+/~*
+O Lorde whither shall we flie from them?
+(LATIMER-E1-P1,21P.90)
+*~/
+/*
+7 WADVP-1:  7 WADVP-1, 9 whither, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJ O)
+	  (NP-VOC (NPR Lorde))
+	  (WADVP-1 (WQ whither))
+	  (IP-SUB (ADVP-DIR *T*-1)
+		  (MD shall)
+		  (NP-SBJ (PRO we))
+		  (VB flie)
+		  (PP (P from)
+		      (NP (PRO them))))
+	  (. ?))
+  (ID LATIMER-E1-P1,21P.90))
+
+/~*
+Who is able to tel his diligente preachyng? whiche eury daye and euery houre
+laboreth to sowe cockel and darnel, that he may bryng oute of forme and out of
+estimation and roume, $the $institution of the Lordes supper and Christes
+crosse,
+(LATIMER-E1-P1,31P.152)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (ADJP (ADJ able)
+			(IP-INF (TO to)
+				(VB tel)
+				(NP-OB1 (NP-POS (PRO$ his)
+						(CP-REL *ICH*-2))
+					(ADJ diligente)
+					(N preachyng)
+					(, ?)
+					(CP-REL-2 (WNP-3 (WPRO whiche))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-3)
+							  (NP-TMP (NP-TMP (Q eury) (N daye))
+								  (CONJP (CONJ and)
+									 (NP-TMP (Q euery) (N houre))))
+							  (VBP laboreth)
+							  (IP-INF-PRP (TO to)
+								      (VB sowe)
+								      (NP-OB1 (N cockel) (CONJ and) (N darnel))
+								      (, ,)
+								      (CP-ADV (C that)
+									      (IP-SUB (NP-SBJ (PRO he))
+										      (MD may)
+										      (VB bryng)
+										      (PP (PP (RP oute)
+											      (P of)
+											      (NP (N forme)))
+											  (CONJP (CONJ and)
+												 (PP (RP out)
+												     (P of)
+												     (NP (N estimation) (CONJ and) (N roume)))))
+										      (, ,)
+										      (NP-OB1 (NP (D $the)
+												  (N $institution)
+												  (PP (P of)
+												      (NP (NP-POS (D the) (NPR$ Lordes))
+													  (NPR supper))))
+											      (CONJP (CONJ and)
+												     (NP (NPR$ Christes) (NPR crosse)))))))))))))
+	  (. ,))
+  (ID LATIMER-E1-P1,31P.152))
+
+/~*
+For who can offer him but him selfe?
+(LATIMER-E1-P1,32P.168)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD can)
+		  (VB offer)
+		  (NP-OB1 (PRO him))
+		  (PP (P but)
+		      (NP (PRO him) (N selfe))))
+	  (. ?))
+  (ID LATIMER-E1-P1,32P.168))
+
+/~*
+Nowe if I shoulde preache in the contrye amonge the vnlearned, I woulde tell
+what propitiatorie, expiatorie and remissorie is:
+(LATIMER-E1-P1,33P.176)
+*~/
+/*
+47 WNP-1:  47 WNP-1, 49 what, 46 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Nowe))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (MD shoulde)
+			      (VB preache)
+			      (PP (P in)
+				  (NP (D the) (N contrye)))
+			      (PP (P amonge)
+				  (CODE <P_33P>)
+				  (NP (D the) (ADJ vnlearned))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD woulde)
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (ADJP (ADJ propitiatorie) (, ,) (ADJ expiatorie) (CONJ and) (ADJ remissorie)))
+			  (BEP is)))
+	  (. :))
+  (ID LATIMER-E1-P1,33P.176))
+
+/~*
+if Christ by his death draweth all thynges to him selfe, and draweth al men to
+saluation and to heauenlye blisse that trust in him. Then the priestes at the
+Masse at the popishe Masse I say what can thei draw when Christe draweth all,
+but landes and goodes frome the ryght heires?
+(LATIMER-E1-P1,34P.211)
+*~/
+/*
+125 WNP-4:  125 WNP-4, 129 *ICH*-5, 1 CP-QUE
+*/
+
+( (CP-QUE (PP-LFD (P if)
+		  (CP-ADV (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ (NPR Christ))
+					  (PP (P by)
+					      (NP (PRO$ his) (N death)))
+					  (VBP draweth)
+					  (NP-OB1 (Q all) (NS thynges))
+					  (PP (P to)
+					      (NP (PRO him) (N selfe))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *con*)
+						 (VBP draweth)
+						 (NP-OB1 (Q al)
+							 (NS men)
+							 (CP-REL *ICH*-1))
+						 (PP (PP (P to)
+							 (NP (N saluation)))
+						     (CONJP (CONJ and)
+							    (PP (P to)
+								(NP (ADJ heauenlye) (N blisse)))))
+						 (CP-REL-1 (WNP-2 0)
+							   (C that)
+							   (IP-SUB (NP-SBJ *T*-2)
+								   (VBP trust)
+								   (PP (P in)
+								       (NP (PRO him))))))))))
+	  (, .)
+	  (ADVP-RSP (ADV Then))
+	  (NP-LFD-3 (D the)
+		    (NS priestes)
+		    (PP (P at)
+			(NP (D the) (N Masse))))
+	  (CODE <paren>)
+	  (IP-MAT-PRN (PP (P at)
+			  (NP (D the) (ADJ popishe) (N Masse)))
+		      (NP-SBJ (PRO I))
+		      (VBP say))
+	  (CODE <$$paren>)
+	  (WNP-4 (WPRO what)
+		 (PP *ICH*-5))
+	  (IP-SUB (NP-OB1 *T*-4)
+		  (MD can)
+		  (NP-SBJ-RSP=3 (PRO thei))
+		  (VB draw)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (NPR Christe))
+				      (VBP draweth)
+				      (NP-OB1 (Q all))))))
+	  (, ,)
+	  (PP-5 (P but)
+		(NP (NS landes)
+		    (CONJ and)
+		    (NS goodes)
+		    (PP (P frome)
+			(NP (D the) (ADJ ryght) (NS heires)))))
+	  (. ?))
+  (ID LATIMER-E1-P1,34P.211))
+
+/~*
+What haue we to do then, but Epulari in domino, to eat in the Lorde at his
+Supper.
+(LATIMER-E1-P1,34P.215)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What)
+		 (PP *ICH*-2))
+	  (IP-SUB (HVP haue)
+		  (NP-SBJ (PRO we))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)
+			  (ADVP (ADV then))))
+	  (, ,)
+	  (PP-2 (P but)
+		(IP-INF (LATIN (CODE <font>) (FW Epulari) (FW in) (FW domino) (, ,) (CODE <$$font>))
+			(TO to)
+			(VB eat)
+			(PP (P in)
+			    (NP (D the) (NPR Lorde)))
+			(PP (P at)
+			    (NP (PRO$ his) (NPR Supper)))))
+	  (. .))
+  (ID LATIMER-E1-P1,34P.215))
+
+/~*
+What other seruice haue we to do to hym?
+(LATIMER-E1-P1,34P.216)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 8 seruice, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (OTHER other) (N seruice))
+	  (IP-SUB (HVP haue)
+		  (NP-SBJ (PRO we))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)
+			  (PP (P to)
+			      (NP (PRO hym)))))
+	  (. ?))
+  (ID LATIMER-E1-P1,34P.216))
+
+/~*
+and what other sacrifice haue we to offer: but the mortification of our flesh?
+(LATIMER-E1-P1,34P.217)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 12 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WD what)
+		 (OTHER other)
+		 (N sacrifice)
+		 (PP *ICH*-2))
+	  (IP-SUB (HVP haue)
+		  (NP-SBJ (PRO we))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (VB offer)))
+	  (, :)
+	  (PP-2 (P but)
+		(NP (D the)
+		    (N mortification)
+		    (PP (P of)
+			(NP (PRO$ our) (N flesh)))))
+	  (. ?))
+  (ID LATIMER-E1-P1,34P.217))
+
+/~*
+What other oblation haue we to make, but of obedience, of good liuynge, of
+good worckes, and of healpynge oure neighbours?
+(LATIMER-E1-P1,34P.218)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 10 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What)
+		 (OTHER other)
+		 (N oblation)
+		 (PP *ICH*-2))
+	  (IP-SUB (HVP haue)
+		  (NP-SBJ (PRO we))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (VB make)))
+	  (, ,)
+	  (PP-2 (PP (P but)
+		    (PP (P of)
+			(NP (N obedience))))
+		(, ,)
+		(CONJP (PP (P of)
+			   (NP (ADJ good) (N liuynge))))
+		(, ,)
+		(CONJP (PP (P of)
+			   (NP (ADJ good) (NS worckes))))
+		(, ,)
+		(CONJP (CONJ and)
+		       (PP (P of)
+			   (IP-PPL (VAG healpynge)
+				   (NP-OB2 (PRO$ oure) (NS neighbours))))))
+	  (. ?))
+  (ID LATIMER-E1-P1,34P.218))
+
+/~*
+And what a deputie must he be, trowe ye?
+(LATIMER-E1-P1,37P.285)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 deputie, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WD what) (D a) (N deputie))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD must)
+		  (NP-SBJ (PRO he))
+		  (BE be)
+		  (, ,)
+		  (CP-QUE-PRN (IP-SUB (VBP trowe)
+				      (NP-SBJ (PRO ye)))))
+	  (. ?))
+  (ID LATIMER-E1-P1,37P.285))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	22/21/336
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd
+*/
+
+/~*
+But who is worthye to vtter thys doctryne before oure moste noble kynge?
+(LATIMER-E1-P2,26L.27)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (ADJP (ADJ worthye)
+			(IP-INF (TO to)
+				(VB vtter)
+				(NP-OB1 (D thys) (N doctryne))
+				(PP (P before)
+				    (NP (PRO$ oure)
+					(ADJP (QS moste) (ADJ noble))
+					(N kynge))))))
+	  (. ?))
+  (ID LATIMER-E1-P2,26L.27))
+
+/~*
+Notwithstandyng, yet God prescrybid vnto them an order, howe $they shulde
+chose their kyng, and what manner a man he shoulde be, where he saith: when
+thou shalt come in to the lande, etc. As who should say. O ye children of
+Israel I knowe your nature ryght well, whiche is euyl, and inclined vnto al
+euyls.
+(LATIMER-E1-P2,27L.55)
+*~/
+/*
+56 WNP-2:  56 WNP-2, 65 man, 55 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Notwithstandyng))
+	  (, ,)
+	  (ADVP (ADV yet))
+	  (NP-SBJ (NPR God))
+	  (VBD prescrybid)
+	  (PP (P vnto)
+	      (NP (PRO them)))
+	  (NP-OB1 (D an)
+		  (N order)
+		  (, ,)
+		  (CP-QUE (CP-QUE (WADVP-1 (WADV howe))
+				  (C 0)
+				  (IP-SUB (ADVP *T*-1)
+					  (NP-SBJ (PRO $they))
+					  (MD shulde)
+					  (VB chose)
+					  (NP-OB1 (PRO$ their) (N kyng))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-QUE (WNP-2 (WD what)
+						(N manner)
+						(NP-COM (D a) (N man)))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-2)
+						 (NP-SBJ (PRO he))
+						 (MD shoulde)
+						 (BE be))))))
+	  (, ,)
+	  (ADVP-LOC (CP-FRL (WADVP-3 (WADV where))
+			    (C 0)
+			    (IP-SUB (ADVP-LOC *T*-3)
+				    (NP-SBJ (PRO he))
+				    (VBP saith)
+				    (, :)
+				    (IP-MAT-SPE (PP (P when)
+						    (CP-ADV-SPE (C 0)
+								(IP-SUB-SPE (NP-SBJ (PRO thou))
+									    (MD shalt)
+									    (VB come)
+									    (PP (RP in)
+										(P to)
+										(NP (D the) (N lande)))
+									    (, ,)
+									    (FW etc.)))))
+				    (PP (P As)
+					(NP (CP-FRL-SPE (WNP-4 (WPRO who))
+							(C 0)
+							(IP-SUB-SPE (NP-SBJ *T*-4)
+								    (MD should)
+								    (VB say)
+								    (, .)
+								    (IP-MAT-SPE (INTJ O)
+										(NP-VOC (PRO ye)
+											(NS children)
+											(PP (P of)
+											    (NP (NPR Israel))))
+										(NP-SBJ (PRO I))
+										(VBP knowe)
+										(NP-OB1 (PRO$ your)
+											(N nature)
+											(CP-REL-SPE *ICH*-5))
+										(ADVP (ADV ryght) (ADV well))
+										(, ,)
+										(CP-REL-SPE-5 (WNP-6 (WPRO whiche))
+											      (C 0)
+											      (IP-SUB-SPE (NP-SBJ *T*-6)
+													  (BEP is)
+													  (ADJP (ADJP (ADJ euyl))
+														(, ,)
+														(CONJP (CONJ and)
+														       (ADJP (VAN inclined)
+															     (PP (P vnto)
+																 (NP (Q al) (NS euyls))))))))))))))))
+	  (. .))
+  (ID LATIMER-E1-P2,27L.55))
+
+/~*
+Well the kynges grace hath systers, my Ladye Mary, and my Lady Elizabeth,
+whych by succession and course are inheritours to the crowne. Who yf they
+shulde mary with straungers, what should ensue God knoweth.
+(LATIMER-E1-P2,30L.110)
+*~/
+/*
+108 WNP-3:  108 WNP-3, 110 what, 107 CP-QUE
+*/
+
+( (IP-MAT (INTJP (ADV Well))
+	  (NP-SBJ (NP-POS (D the) (N$ kynges))
+		  (N grace))
+	  (HVP hath)
+	  (NP-OB1 (NS systers)
+		  (, ,)
+		  (NP-PRN (NP (PRO$ my)
+			      (N Ladye)
+			      (NP-PRN (NPR Mary)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (PRO$ my)
+				     (N Lady)
+				     (NP-PRN (NPR Elizabeth)))))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO whych))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (PP (P by)
+				      (NP (N succession) (CONJ and) (N course)))
+				  (BEP are)
+				  (NP-OB1 (NS inheritours)
+					  (PP (P to)
+					      (NP (D the) (NPR crowne))))))
+		  (, .)
+		  (CP-REL (WNP-2 (WPRO Who))
+			  (C 0)
+			  (IP-SUB (PP (P yf)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ-RSP=2 (PRO they))
+						      (MD shulde)
+						      (VB mary)
+						      (PP (P with)
+							  (NP (NS straungers))))))
+				  (, ,)
+				  (CP-QUE (WNP-3 (WPRO what))
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-3)
+						  (MD should)
+						  (VB ensue)))
+				  (NP-SBJ (NPR God))
+				  (VBP knoweth))))
+	  (. .))
+  (ID LATIMER-E1-P2,30L.110))
+
+/~*
+What his honoure meaneth ye $can $not tel.
+(LATIMER-E1-P2,39L.163)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 5 What, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WPRO What))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO$ his) (N honoure))
+			  (VBP meaneth)))
+	  (NP-SBJ (PRO ye))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:canot})
+	  (VB tel)
+	  (. .))
+  (ID LATIMER-E1-P2,39L.163))
+
+/~*
+Wel, what happened to kyng Dauid in hys childhode, by ye chylde of the deuyll?
+(LATIMER-E1-P2,57L.277)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 what, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJP (ADV Wel))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD happened)
+		  (PP (P to)
+		      (NP (NPR kyng) (NPR Dauid)))
+		  (PP (P in)
+		      (NP (PRO$ hys) (N childhode)))
+		  (, ,)
+		  (PP (P by)
+		      (NP (D ye)
+			  (N chylde)
+			  (PP (P of)
+			      (NP (D the) (NPR deuyll))))))
+	  (. ?))
+  (ID LATIMER-E1-P2,57L.277))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	5/5/295
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd
+*/
+
+/~*
+but the argume~ts which are alleaged for it, haue made mee doubtfull what to
+say in it, because it hath gone as it were vnder a protection.
+(SMITH-E2-H,B1V.5)
+*~/
+/*
+42 WNP-2:  42 WNP-2, 44 what, 41 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D the)
+		  (NS argume~ts)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (VAN alleaged)
+				  (PP (P for)
+				      (NP (PRO it))))))
+	  (, ,)
+	  (HVP haue)
+	  (VBN made)
+	  (IP-SMC (NP-SBJ (PRO mee))
+		  (ADJP (ADJ doubtfull)
+			(CP-QUE (WNP-2 (WPRO what))
+				(IP-INF (NP-OB1 *T*-2)
+					(TO to)
+					(VB say)
+					(PP (P in)
+					    (NP (PRO it)))))))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (HVP hath)
+			      (VBN gone)
+			      (PP-PRN (P as)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO it))
+						      (BED were))))
+			      (PP (P vnder)
+				  (NP (D a) (N protection))))))
+	  (. .))
+  (ID SMITH-E2-H,B1V.5))
+
+/~*
+Lastly, I will shewe you what they should doo which haue got their riches by
+Vsurie.
+(SMITH-E2-H,B3V.37)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Lastly))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD will)
+	  (VB shewe)
+	  (NP-OB2 (PRO you))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO they)
+				  (CP-REL *ICH*-2))
+			  (MD should)
+			  (DO doo)
+			  (CP-REL-2 (WNP-3 (WPRO which))
+				    (C 0)
+				    (IP-SUB (NP-SBJ *T*-3)
+					    (HV haue)
+					    (VBN got)
+					    (NP-OB1 (PRO$ their) (NS riches))
+					    (PP (P by)
+						(NP (N Vsurie)))))))
+	  (. .))
+  (ID SMITH-E2-H,B3V.37))
+
+/~*
+& who would not borrowe freely?
+(SMITH-E2-H,B5R.63)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ &)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD would)
+		  (NEG not)
+		  (VB borrowe)
+		  (ADVP (ADV freely)))
+	  (. ?))
+  (ID SMITH-E2-H,B5R.63))
+
+/~*
+Now, you haue heard what Vsurie is, and of what it is deriued, you shall heare
+the vnlawfulnes of it.
+(SMITH-E2-H,B6R.84)
+*~/
+/*
+24 WNP-2:  24 WNP-2, 26 what, 23 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Now)
+		(, ,)
+		(CP-REL (WADVP-1 0)
+			(C 0)
+			(IP-SUB (ADVP-TMP *T*-1)
+				(NP-SBJ (PRO you))
+				(HVP haue)
+				(VBN heard)
+				(CP-QUE (CP-QUE (WNP-2 (WPRO what))
+						(C 0)
+						(IP-SUB (NP-OB1 *T*-2)
+							(NP-SBJ (N Vsurie))
+							(BEP is)))
+					(, ,)
+					(CONJP (CONJ and)
+					       (CP-QUE (WPP-3 (P of)
+							      (WNP (WPRO what)))
+						       (C 0)
+						       (IP-SUB (PP *T*-3)
+							       (NP-SBJ (PRO it))
+							       (BEP is)
+							       (VAN deriued))))))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD shall)
+	  (VB heare)
+	  (NP-OB1 (D the)
+		  (N vnlawfulnes)
+		  (PP (P of)
+		      (NP (PRO it))))
+	  (. .))
+  (ID SMITH-E2-H,B6R.84))
+
+/~*
+Then, what may be thought of them which doo not take Vsurie, but giue Vsurie.
+(SMITH-E2-H,D7R.171)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV Then))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD may)
+		  (BE be)
+		  (VAN thought)
+		  (PP (P of)
+		      (NP (PRO them)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+						    (DOP doo)
+						    (NEG not)
+						    (VB take)
+						    (NP-OB1 (N Vsurie)))
+					  (, ,)
+					  (CONJP (CONJ but)
+						 (IP-SUB=3 (VB giue)
+							   (NP-OB1 (N Vsurie)))))))))
+	  (. .))
+  (ID SMITH-E2-H,D7R.171))
+
+/~*
+Lastly, what they should doo, which haue got their riches by Vsurie.
+(SMITH-E2-H,D7R.172)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 7 CP-QUE
+*/
+
+( (FRAG (ADVP (ADV Lastly))
+	(, ,)
+	(CP-QUE (WNP-1 (WPRO what))
+		(C 0)
+		(IP-SUB (NP-OB1 *T*-1)
+			(NP-SBJ (PRO they)
+				(CP-REL *ICH*-2))
+			(MD should)
+			(DO doo)
+			(, ,)
+			(CP-REL-2 (WNP-3 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-3)
+					  (HVP haue)
+					  (VBN got)
+					  (NP-OB1 (PRO$ their) (NS riches))
+					  (PP (P by)
+					      (NP (N Vsurie)))))))
+	(. .))
+  (ID SMITH-E2-H,D7R.172))
+
+/~*
+If they shall not come to heauen, whose then shall those riches be?
+(SMITH-E2-H,E1V.207)
+*~/
+/*
+28 WNP-1:  28 WNP-1, 30 whose, 1 CP-QUE
+*/
+
+( (CP-QUE (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (MD shall)
+			      (NEG not)
+			      (VB come)
+			      (PP (P to)
+				  (NP (NPR heauen))))))
+	  (, ,)
+	  (CODE <P_E1V>)
+	  (WNP-1 (WPRO$ whose))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (ADVP (ADV then))
+		  (MD shall)
+		  (NP-SBJ (D those) (NS riches))
+		  (BE be))
+	  (. ?))
+  (ID SMITH-E2-H,E1V.207))
+
+/~*
+nay, whose then shall the owner be when that day commeth?
+(SMITH-E2-H,E1V.208)
+*~/
+/*
+6 WNP-1:  6 WNP-1, 8 whose, 1 CP-QUE
+*/
+
+( (CP-QUE (INTJ nay)
+	  (, ,)
+	  (WNP-1 (WPRO$ whose))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (ADVP (ADV then))
+		  (MD shall)
+		  (NP-SBJ (D the) (N owner))
+		  (BE be)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D that) (N day))
+				      (VBP commeth)))))
+	  (. ?))
+  (ID SMITH-E2-H,E1V.208))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	8/8/338
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd
+*/
+
+/~*
+Who would haue thought that God had hid a blessing in his curse?
+(SMITH-E2-P1,8.61)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD would)
+		  (HV haue)
+		  (VBN thought)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (NPR God))
+				  (HVD had)
+				  (VBN hid)
+				  (NP-OB1 (D a) (N blessing))
+				  (PP (P in)
+				      (NP (PRO$ his) (N curse))))))
+	  (. ?))
+  (ID SMITH-E2-P1,8.61))
+
+/~*
+As Moses considered what spies he sent into Chanaan, so thou must regarde
+whome thou sendest to spie out a Wife for thee.
+(SMITH-E2-P1,27.189)
+*~/
+/*
+23 WNP-2:  23 WNP-2, 27 spies, 22 CP-QUE
+61 WNP-3:  61 WNP-3, 63 whome, 60 CP-QUE
+*/
+
+( (IP-MAT (PP (P As)
+	      (CP-CMP (WADVP-1 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-1)
+			      (CODE <font>)
+			      (NP-SBJ (NPR Moses))
+			      (CODE <$$font>)
+			      (VBD considered)
+			      (CP-QUE (WNP-2 (WD what) (NS spies))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-2)
+					      (NP-SBJ (PRO he))
+					      (VBD sent)
+					      (PP (P into)
+						  (CODE <font>)
+						  (NP (NPR Chanaan))))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (ADVP (ADV so))
+	  (NP-SBJ (PRO thou))
+	  (MD must)
+	  (VB regarde)
+	  (CP-QUE (WNP-3 (WPRO whome))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-3)
+			  (NP-SBJ (PRO thou))
+			  (VBP sendest)
+			  (IP-INF-PRP (TO to)
+				      (VB spie)
+				      (RP out)
+				      (NP-OB1 (D a) (N Wife))
+				      (PP (P for)
+					  (NP (PRO thee))))))
+	  (. .))
+  (ID SMITH-E2-P1,27.189))
+
+/~*
+What is oddes but the contrary to euen?
+(SMITH-E2-P1,31.224)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (NS oddes)
+			  (PP (P but)
+			      (NP (D the)
+				  (N contrary)
+				  (PP (P to)
+				      (NP (ADJ euen)))))))
+	  (. ?))
+  (ID SMITH-E2-P1,31.224))
+
+/~*
+for out of the abundance of the heart saith Christ the mouth speaketh: as
+though by the speach we might know what aboundeth in the heart:
+(SMITH-E2-P1,39.293)
+*~/
+/*
+75 WNP-1:  75 WNP-1, 77 what, 74 CP-QUE
+*/
+
+( (IP-MAT (CODE <font>)
+	  (CONJ for)
+	  (PP (RP out)
+	      (P of)
+	      (NP (D the)
+		  (N abundance)
+		  (PP (P of)
+		      (NP (D the) (N heart)))))
+	  (CODE <$$font>)
+	  (CODE <paren>)
+	  (IP-MAT-PRN (VBP saith)
+		      (NP-SBJ (NPR Christ)))
+	  (CODE <$$paren>)
+	  (NP-SBJ (CODE <font>) (D the) (N mouth))
+	  (VBP speaketh)
+	  (, :)
+	  (CODE <$$font>)
+	  (PP (P as)
+	      (PP (P though)
+		  (CP-ADV (C 0)
+			  (IP-SUB (PP (P by)
+				      (NP (D the) (N speach)))
+				  (NP-SBJ (PRO we))
+				  (MD might)
+				  (VB know)
+				  (CP-QUE (WNP-1 (WPRO what))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (VBP aboundeth)
+						  (PP (P in)
+						      (NP (D the) (N heart)))))))))
+	  (. :))
+  (ID SMITH-E2-P1,39.293))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	5/4/360
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd
+*/
+
+/~*
+Dauid demands who shall come to heauen?
+(SMITH-E2-P2,B1R.8)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 who, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (CODE <font>) (NPR Dauid) (CODE <$$font>))
+	  (VBP demands)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD shall)
+			  (VB come)
+			  (PP (P to)
+			      (NP (NPR heauen)))))
+	  (. ?))
+  (ID SMITH-E2-P2,B1R.8))
+
+/~*
+Now in the 112. Psalme, you shall see who is like Iacob, of whome God sayth,
+Iacob haue I loued:
+(SMITH-E2-P2,C3V.29)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 who, 24 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP (P in)
+	      (NP (D the) (NUM 112.) (NPR Psalme)))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD shall)
+	  (VB see)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (ADJP (ADJ like)
+				(NP (CODE <font>)
+				    (NPR Iacob)
+				    (CODE <$$font>)
+				    (, ,)
+				    (CP-REL (WPP-2 (P of)
+						   (WNP (WPRO whome)))
+					    (C 0)
+					    (IP-SUB (PP *T*-2)
+						    (NP-SBJ (NPR God))
+						    (VBP sayth)
+						    (, ,)
+						    (CODE <font>)
+						    (IP-MAT-SPE (NP-OB1 (NPR Iacob))
+								(HVP haue)
+								(NP-SBJ (PRO I))
+								(VBN loued))))))))
+	  (. :)
+	  (CODE <$$font>))
+  (ID SMITH-E2-P2,C3V.29))
+
+/~*
+Whome will you trust, if you doe not trust your Creator, your Father, your
+Redeemer, your Preseruer, and your Sauiour.
+(SMITH-E2-P2,C4R.40)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Whome, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Whome))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD will)
+		  (NP-SBJ (PRO you))
+		  (VB trust)
+		  (, ,)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO you))
+				      (DOP doe)
+				      (NEG not)
+				      (VB trust)
+				      (NP-OB1 (NP (PRO$ your) (N Creator))
+					      (, ,)
+					      (CONJP (NP (PRO$ your) (N Father)))
+					      (, ,)
+					      (CONJP (NP (PRO$ your) (N Redeemer)))
+					      (, ,)
+					      (CONJP (NP (PRO$ your) (N Preseruer)))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (NP (PRO$ your) (NPR Sauiour))))))))
+	  (. .))
+  (ID SMITH-E2-P2,C4R.40))
+
+/~*
+Who then is the least in the kingdome of heauen?
+(SMITH-E2-P2,C8V.117)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (ADVP (ADV then))
+		  (BEP is)
+		  (NP-OB1 (D the)
+			  (ADJS least)
+			  (PP (P in)
+			      (NP (D the)
+				  (N kingdome)
+				  (PP (P of)
+				      (NP (NPR heauen)))))))
+	  (. ?))
+  (ID SMITH-E2-P2,C8V.117))
+
+/~*
+Now, you long to heare what the Vsurer is like.
+(SMITH-E2-P2,D4V.193)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (VBP long)
+	  (IP-INF (TO to)
+		  (VB heare)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (D the) (N Vsurer))
+				  (BEP is)
+				  (ADJP (ADJ like)
+					(NP *T*-1)))))
+	  (. .))
+  (ID SMITH-E2-P2,D4V.193))
+
+/~*
+If there bee no way to liue saieth the false Steward I knowe what to doo,
+(SMITH-E2-P2,D5V.210)
+*~/
+/*
+44 WNP-2:  44 WNP-2, 46 what, 43 CP-QUE
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (EX there))
+			      (BEP bee)
+			      (NP-1 (Q no)
+				    (N way)
+				    (IP-INF (TO to) (VB liue))))))
+	  (IP-MAT-PRN (CODE <paren>)
+		      (VBP saieth)
+		      (NP-SBJ (D the) (ADJ false) (N Steward))
+		      (CODE <$$paren>))
+	  (NP-SBJ (PRO I))
+	  (VBP knowe)
+	  (CP-QUE (WNP-2 (WPRO what))
+		  (IP-INF (NP-OB1 *T*-2)
+			  (TO to)
+			  (DO doo)))
+	  (. ,))
+  (ID SMITH-E2-P2,D5V.210))
+
+/~*
+so if there bee no way to liue saieith the Vsurer I knowe what to doo,
+(SMITH-E2-P2,D5V.212)
+*~/
+/*
+45 WNP-2:  45 WNP-2, 47 what, 44 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV so))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (EX there))
+			      (BEP bee)
+			      (NP-1 (Q no)
+				    (N way)
+				    (IP-INF (TO to) (VB liue))))))
+	  (IP-MAT-PRN (CODE <paren>)
+		      (VBP saieith)
+		      (NP-SBJ (D the) (N Vsurer))
+		      (CODE <$$paren>))
+	  (NP-SBJ (PRO I))
+	  (VBP knowe)
+	  (CP-QUE (WNP-2 (WPRO what))
+		  (IP-INF (NP-OB1 *T*-2)
+			  (TO to)
+			  (DO doo)))
+	  (. ,))
+  (ID SMITH-E2-P2,D5V.212))
+
+/~*
+In deed he knoweth not what to do, which knoweth not to doo well:
+(SMITH-E2-P2,D5V.216)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (N deed)))
+	  (NP-SBJ (PRO he)
+		  (CP-REL *ICH*-2))
+	  (VBP knoweth)
+	  (NEG not)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)))
+	  (, ,)
+	  (CP-REL-2 (WNP-3 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-OB1 *T*-3)
+			    (VBP knoweth)
+			    (NEG not)
+			    (IP-INF (TO to)
+				    (DO doo)
+				    (ADVP (ADV well)))))
+	  (. :))
+  (ID SMITH-E2-P2,D5V.216))
+
+/~*
+and therefore Christ saide of his persecutors, that they knewe not what they
+did.
+(SMITH-E2-P2,D5V.217)
+*~/
+/*
+36 WNP-1:  36 WNP-1, 38 what, 35 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (ADV+P therefore))
+	  (NP-SBJ (NPR Christ))
+	  (VBD saide)
+	  (PP (P of)
+	      (NP (PRO$ his) (NS persecutors)))
+	  (, ,)
+	  (CP-THT (CODE <font>)
+		  (C that)
+		  (IP-SUB (NP-SBJ (PRO they))
+			  (VBD knewe)
+			  (NEG not)
+			  (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO they))
+					  (DOD did))))
+		  (. .)
+		  (CODE <$$font>)))
+  (ID SMITH-E2-P2,D5V.217))
+
+/~*
+What is this to set things in order, but to restore vnto euerie one his owne?
+(SMITH-E2-P2,F3V.263)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (D this)
+			  (IP-INF-PRN (TO to)
+				      (VB set)
+				      (NP-OB1 (NS things))
+				      (PP (P in)
+					  (NP (N order)))))
+		  (, ,)
+		  (PP-2 (P but)
+			(IP-INF (TO to)
+				(VB restore)
+				(PP (P vnto)
+				    (NP (Q euerie) (ONE one)))
+				(NP-OB1 (PRO$ his) (ADJ owne)))))
+	  (. ?))
+  (ID SMITH-E2-P2,F3V.263))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	10/10/278
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd
+*/
+
+/~*
+There shall come in the last days mockers, walking after their own ungodly
+lusts, sensual, not having the spirit So that we see what kind of persons they
+are who prophanely scoff at Religion, men of sensual spirits and of licentious
+lives.
+(TILLOTS-A-E3-H,419.28)
+*~/
+/*
+73 WNP-1:  73 WNP-1, 83 persons, 72 CP-QUE
+*/
+
+( (IP-MAT (CODE <font>)
+	  (NP-SBJ-1 (EX There))
+	  (MD shall)
+	  (VB come)
+	  (PP (P in)
+	      (NP (D the) (ADJ last) (N$ days)))
+	  (NP-1 (NS mockers)
+		(, ,)
+		(RRC (VAG walking)
+		     (PP (P after)
+			 (NP (PRO$ their) (ADJ own) (ADJ ungodly) (NS lusts))))
+		(, ,)
+		(ADJP (ADJ sensual))
+		(, ,)
+		(RRC (NEG not)
+		     (HAG having)
+		     (NP-OB1 (D the) (NPR spirit))))
+	  (CODE <$$font>)
+	  (PP (P So)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP see)
+			      (CP-QUE (WNP-1 (WD what)
+					     (N kind)
+					     (PP (P of)
+						 (NP (NS persons))))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO they)
+						      (CP-REL *ICH*-2)
+						      (NP-PRN *ICH*-4))
+					      (BEP are)
+					      (CP-REL-2 (WNP-3 (WPRO who))
+							(C 0)
+							(IP-SUB (NP-SBJ *T*-3)
+								(ADVP (ADV prophanely))
+								(VBP scoff)
+								(PP (P at)
+								    (NP (N Religion)))))
+					      (, ,)
+					      (NP-PRN-4 (NS men)
+							(PP (PP (P of)
+								(NP (ADJ sensual) (NS spirits)))
+							    (CONJP (CONJ and)
+								   (PP (P of)
+								       (NP (ADJ licentious) (NS lives)))))))))))
+	  (. .))
+  (ID TILLOTS-A-E3-H,419.28))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	1/1/162
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd
+*/
+
+/~*
+And what think we shall be the portion of those who have affronted God, and
+derided his word, and made a mock of every thing that is sacred and religious?
+(TILLOTS-A-E3-P1,425.92)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (VBP think)
+		  (NP-SBJ (PRO we))
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD shall)
+				  (BE be)
+				  (NP-OB1 (D the)
+					  (N portion)
+					  (PP (P of)
+					      (NP (D those)
+						  (CP-REL (WNP-2 (WPRO who))
+							  (C 0)
+							  (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+									    (HVP have)
+									    (VBN affronted)
+									    (NP-OB1 (NPR God)))
+								  (, ,)
+								  (CONJP (CONJ and)
+									 (IP-SUB=3 (VBN derided)
+										   (NP-OB1 (PRO$ his) (N word))))
+								  (, ,)
+								  (CONJP (CONJ and)
+									 (IP-SUB=3 (VBN made)
+										   (NP-OB1 (D a)
+											   (N mock)
+											   (PP (P of)
+											       (NP (Q every)
+												   (N thing)
+												   (CP-REL (WNP-4 0)
+													   (C that)
+													   (IP-SUB (NP-SBJ *T*-4)
+														   (BEP is)
+														   (ADJP (ADJ sacred) (CONJ and) (ADJ religious)))))))))))))))))
+	  (. ?))
+  (ID TILLOTS-A-E3-P1,425.92))
+
+/~*
+What can they expect but to be rejected by him whom they have renounced, and
+to feel the terrible effects of that power and Justice which they have
+despised?
+(TILLOTS-A-E3-P1,425.93)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD can)
+		  (NP-SBJ (PRO they))
+		  (VB expect)
+		  (PP (P but)
+		      (IP-INF (IP-INF (TO to)
+				      (BE be)
+				      (VAN rejected)
+				      (PP (P by)
+					  (NP (PRO him)
+					      (CP-REL (WNP-2 (WPRO whom))
+						      (C 0)
+						      (IP-SUB (NP-OB1 *T*-2)
+							      (NP-SBJ (PRO they))
+							      (HVP have)
+							      (VBN renounced))))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-INF (TO to)
+					     (VB feel)
+					     (NP-OB1 (D the)
+						     (ADJ terrible)
+						     (NS effects)
+						     (PP (P of)
+							 (NP (D that)
+							     (N power)
+							     (CONJP (CONJ and)
+								    (NX (N Justice)))
+							     (CP-REL (WNP-3 (WPRO which))
+								     (C 0)
+								     (IP-SUB (NP-OB1 *T*-3)
+									     (NP-SBJ (PRO they))
+									     (HVP have)
+									     (VBN despised)))))))))))
+	  (. ?))
+  (ID TILLOTS-A-E3-P1,425.93))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	2/2/126
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd
+*/
+
+/~*
+Fourthly, An infallible Judge, if there were one, is no certain way to end
+Controversies, and to preserve the unity of the Church; unless it were
+likewise infallibly certain, That there is such a Judge, and, Who he is.
+(TILLOTS-B-E3-H,446.22)
+*~/
+/*
+133 WNP-4:  133 WNP-4, 135 Who, 130 CP-QUE
+*/
+
+( (IP-MAT (ADVP (CODE <font>) (ADV Fourthly) (CODE <$$font>))
+	  (, ,)
+	  (NP-SBJ (D An) (ADJ infallible) (N Judge))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (EX there))
+			      (BED were)
+			      (NP-1 (ONE one)))))
+	  (, ,)
+	  (BEP is)
+	  (NP-OB1 (Q no)
+		  (ADJ certain)
+		  (N way)
+		  (IP-INF (IP-INF (TO to)
+				  (VB end)
+				  (NP-OB1 (NS Controversies)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-INF (TO to)
+					 (VB preserve)
+					 (NP-OB1 (D the)
+						 (N unity)
+						 (PP (P of)
+						     (NP (D the) (NPR Church))))))))
+	  (, ;)
+	  (PP (P unless)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-2 (PRO it))
+			      (BED were)
+			      (NP-ADV (ADJ+N likewise))
+			      (ADJP (ADV infallibly) (ADJ certain))
+			      (, ,)
+			      (CP-THT-2 (CP-THT (CODE <font>)
+						(C That)
+						(IP-SUB (NP-SBJ-3 (EX there))
+							(BEP is)
+							(NP-3 (SUCH such) (D a) (N Judge)))
+						(CODE <$$font>))
+					(, ,)
+					(CONJP (CONJ and)
+					       (, ,)
+					       (CP-QUE (CODE <font>)
+						       (WNP-4 (WPRO Who))
+						       (C 0)
+						       (IP-SUB (NP-OB1 *T*-4)
+							       (NP-SBJ (PRO he))
+							       (BEP is))
+						       (CODE <$$font>)))))))
+	  (. .))
+  (ID TILLOTS-B-E3-H,446.22))
+
+/~*
+For till men were sure of both these, there would still be a Controversy
+whether there be an infallible Judge, and who he is.
+(TILLOTS-B-E3-H,446.23)
+*~/
+/*
+69 WNP-3:  69 WNP-3, 71 who, 68 CP-QUE
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (P till)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NS men))
+			      (BED were)
+			      (ADJP (ADJ sure)
+				    (PP (P of)
+					(NP (Q both) (D these)))))))
+	  (, ,)
+	  (NP-SBJ-1 (EX there))
+	  (MD would)
+	  (ADVP-TMP (ADV still))
+	  (BE be)
+	  (NP-1 (D a)
+		(N Controversy)
+		(CP-QUE (CP-QUE (WQ whether)
+				(C 0)
+				(IP-SUB (NP-SBJ-2 (EX there))
+					(BEP be)
+					(NP-2 (D an) (ADJ infallible) (N Judge))))
+			(, ,)
+			(CONJP (CONJ and)
+			       (CP-QUE (WNP-3 (WPRO who))
+				       (C 0)
+				       (IP-SUB (NP-OB1 *T*-3)
+					       (NP-SBJ (PRO he))
+					       (BEP is))))))
+	  (. .))
+  (ID TILLOTS-B-E3-H,446.23))
+
+/~*
+And there are two Controversies actually on foot about an infallible Judg; One,
+Whether there be an infallible Judge or not? which is a Controversie between
+Us and the Church of Rome: and the other, Who this infallible Judge is? which
+is a Controversie among themselves, which could never yet $be $decided:
+(TILLOTS-B-E3-H,446.25)
+*~/
+/*
+131 WNP-5:  131 WNP-5, 133 Who, 130 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ-1 (EX there))
+	  (BEP are)
+	  (NP-1 (CODE <font>)
+		(NUM two)
+		(CODE <$$font>)
+		(NS Controversies)
+		(RRC (ADVP (ADV actually))
+		     (PP (P on)
+			 (NP (N foot)))
+		     (PP (P about)
+			 (NP (D an) (ADJ infallible) (N Judg)))))
+	  (, ;)
+	  (IP-ABS (IP-ABS (NP-SBJ (ONE One))
+			  (, ,)
+			  (CODE <font>)
+			  (CP-QUE (WQ Whether)
+				  (C 0)
+				  (IP-SUB (IP-SUB-2 (NP-SBJ-3 (EX there))
+						    (BEP be)
+						    (NP-3 (D an) (ADJ infallible) (N Judge)))
+					  (CONJP (CONJ or)
+						 (IP-SUB=2 (NEG not)))
+					  (CODE <$$font>)
+					  (, ?)
+					  (CP-CAR (WNP-4 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-4)
+							  (BEP is)
+							  (NP-OB1 (D a)
+								  (N Controversie)
+								  (PP (P between)
+								      (NP (NP (PRO Us))
+									  (CONJP (CONJ and)
+										 (NP (D the)
+										     (NPR Church)
+										     (PP (P of)
+											 (NP (NPR Rome)))))))))))))
+		  (, :)
+		  (CONJP (CONJ and)
+			 (IP-ABS (NP-SBJ (D the) (OTHER other))
+				 (, ,)
+				 (CODE <font>)
+				 (CP-QUE (WNP-5 (WPRO Who))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-5)
+						 (NP-SBJ (D this) (ADJ infallible) (N Judge))
+						 (BEP is)
+						 (CODE <$$font>)
+						 (, ?)
+						 (CP-CAR (WNP-6 (WPRO which))
+							 (C 0)
+							 (IP-SUB (NP-SBJ *T*-6)
+								 (BEP is)
+								 (NP-OB1 (D a)
+									 (N Controversie)
+									 (PP (P among)
+									     (NP (PRO+N themselves)))
+									 (, ,)
+									 (CP-REL (WNP-7 (WPRO which))
+										 (C 0)
+										 (IP-SUB (NP-SBJ *T*-7)
+											 (MD could)
+											 (ADVP-TMP (ADV never))
+											 (ADVP-TMP (ADV yet))
+											 (BE $be)
+											 (VAN $decided)))))))))))
+	  (CODE {TEXT:becided})
+	  (. :))
+  (ID TILLOTS-B-E3-H,446.25))
+
+/~*
+And if men will not be so, I $can $not tell what would be sufficient.
+(TILLOTS-B-E3-H,447.37)
+*~/
+/*
+37 WNP-1:  37 WNP-1, 39 what, 36 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NS men))
+			      (MD will)
+			      (NEG not)
+			      (BE be)
+			      (ADVP (ADV so)))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD would)
+			  (BE be)
+			  (ADJP (ADJ sufficient))))
+	  (. .))
+  (ID TILLOTS-B-E3-H,447.37))
+
+/~*
+I have often wonder'd why the People in the Church of Rome do not suspect
+their Teachers and Guides to have some ill design upon them, when they do so
+industriously debar them of the means of Knowledge, and are so very loath to
+let them understand what it is that we have to say against their Religion.
+(TILLOTS-B-E3-H,450.87)
+*~/
+/*
+148 WNP-2:  148 WNP-2, 150 what, 147 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVP have)
+	  (ADVP-TMP (ADV often))
+	  (VBN wonder'd)
+	  (CP-QUE (WADVP-1 (WADV why))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-1)
+			  (NP-SBJ (D the)
+				  (NS People)
+				  (PP (P in)
+				      (NP (D the)
+					  (NPR Church)
+					  (PP (P of)
+					      (NP (CODE <font>) (NPR Rome) (CODE <$$font>))))))
+			  (DOP do)
+			  (NEG not)
+			  (VB suspect)
+			  (IP-INF (NP-SBJ (PRO$ their)
+					  (NS Teachers)
+					  (CONJP (CONJ and)
+						 (NX (NS Guides))))
+				  (TO to)
+				  (HV have)
+				  (NP-OB1 (Q some)
+					  (ADJ ill)
+					  (N design)
+					  (PP (P upon)
+					      (NP (PRO them)))))
+			  (, ,)
+			  (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+						      (DOP do)
+						      (ADVP (ADVR so) (ADV industriously))
+						      (VB debar)
+						      (NP-OB1 (PRO them))
+						      (PP (P of)
+							  (NP (D the)
+							      (N means)
+							      (PP (P of)
+								  (NP (N Knowledge))))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB (NP-SBJ *con*)
+							     (BEP are)
+							     (ADJP (ADVP (ADVR so) (ADV very))
+								   (ADJ loath)
+								   (IP-INF (TO to)
+									   (VB let)
+									   (IP-INF (NP-SBJ (PRO them))
+										   (VB understand)
+										   (CP-QUE (WNP-2 (WPRO what))
+											   (C 0)
+											   (IP-SUB (NP-OB1 *T*-2)
+												   (NP-SBJ (PRO it))
+												   (BEP is)
+												   (CP-CLF (WNP-3 0)
+													   (C that)
+													   (IP-SUB (NP-SBJ (PRO we))
+														   (HVP have)
+														   (IP-INF (NP-OB1 *T*-3)
+															   (TO to)
+															   (VB say)
+															   (PP (P against)
+															       (NP (PRO$ their) (N Religion))))))))))))))))))
+	  (. .))
+  (ID TILLOTS-B-E3-H,450.87))
+
+/~*
+I will comprise what I have to say in a few words,
+(TILLOTS-B-E3-H,452.128)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD will)
+	  (VB comprise)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (HVP have)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (VB say)
+				  (PP (P in)
+				      (NP (D a) (Q few) (NS words))))))
+	  (. ,))
+  (ID TILLOTS-B-E3-H,452.128))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	6/6/138
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd
+*/
+
+/~*
+Because many false Prophets are gone out into the world, therefore we should
+try who are true, and who are false.
+(TILLOTS-B-E3-P1,433.22)
+*~/
+/*
+48 WNP-1:  48 WNP-1, 50 who, 47 CP-QUE
+67 WNP-2:  67 WNP-2, 69 who, 66 CP-QUE
+*/
+
+( (IP-MAT (PP-LFD (CODE <font>)
+		  (P+N Because)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (Q many) (ADJ false) (NS Prophets))
+				  (BEP are)
+				  (VBN gone)
+				  (RP out)
+				  (PP (P into)
+				      (NP (D the) (N world)))))
+		  (CODE <$$font>))
+	  (, ,)
+	  (PP-RSP (ADV+P therefore))
+	  (NP-SBJ (PRO we))
+	  (MD should)
+	  (VB try)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (ADJP (ADJ true))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-2 (WPRO who))
+				 (C 0)
+				 (IP-SUB (NP-SBJ *T*-2)
+					 (BEP are)
+					 (ADJP (ADJ false))))))
+	  (. .))
+  (ID TILLOTS-B-E3-P1,433.22))
+
+/~*
+or to use the phrase in the text, it is that whereby we are to judge what
+Spirits are of God, and what not.
+(TILLOTS-B-E3-P1,434.46)
+*~/
+/*
+52 WNP-2:  52 WNP-2, 58 Spirits, 51 CP-QUE
+79 WNP-3:  79 WNP-3, 81 what, 78 CP-QUE
+*/
+
+( (IP-MAT (CONJ or)
+	  (IP-INF-PRP (TO to)
+		      (VB use)
+		      (NP-OB1 (D the) (N phrase))
+		      (PP (P in)
+			  (NP (D the) (N text))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (NP-OB1 (D that)
+		  (CP-REL (WPP-1 (WADV+P whereby))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO we))
+				  (BEP are)
+				  (IP-INF (PP *T*-1)
+					  (TO to)
+					  (VB judge)
+					  (CP-QUE (WNP-2 (WD what) (CODE <font>) (NS Spirits))
+						  (C 0)
+						  (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+								  (BEP are)
+								  (PP (P of)
+								      (NP (NPR God))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (CP-QUE (WNP-3 (WPRO what))
+									 (C 0)
+									 (IP-SUB (NP-SBJ *T*-3)
+										 (NEG not))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID TILLOTS-B-E3-P1,434.46))
+
+/~*
+that is, by those apprehensions which men naturally have of the Divine
+perfections, and by the clear Notions of good and evil which are imprinted
+upon our Natures. Because we have no other way to judg what is worthy of God,
+and credible to be revealed by him, and what not, but by the natural notions
+which we have of God and of his essential perfections: which, because we know
+him to be immutable, we have reason to believe he will never contradict.
+(TILLOTS-B-E3-P1,435.63)
+*~/
+/*
+121 WNP-3:  121 WNP-3, 123 what, 120 CP-QUE
+168 WNP-4:  168 WNP-4, 170 what, 167 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D that))
+	  (BEP is)
+	  (, ,)
+	  (CODE <$$font>)
+	  (PP (PP (P by)
+		  (NP (D those)
+		      (NS apprehensions)
+		      (CP-REL (WNP-1 (WPRO which))
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (NP-SBJ (NS men))
+				      (ADVP (ADV naturally))
+				      (HVP have)
+				      (PP (P of)
+					  (NP (D the) (ADJ Divine) (NS perfections)))))))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (PP (P by)
+			 (NP (D the)
+			     (ADJ clear)
+			     (NS Notions)
+			     (PP (P of)
+				 (NP (N good)
+				     (CONJ and)
+				     (N evil)
+				     (CP-REL (WNP-2 (WPRO which))
+					     (C 0)
+					     (IP-SUB (NP-SBJ *T*-2)
+						     (BEP are)
+						     (VAN imprinted)
+						     (PP (P upon)
+							 (NP (PRO$ our) (NS Natures)))
+						     (, .)
+						     (PP (P+N Because)
+							 (CP-ADV (C 0)
+								 (IP-SUB (NP-SBJ (PRO we))
+									 (HVP have)
+									 (NP-OB1 (Q no)
+										 (OTHER other)
+										 (N way)
+										 (IP-INF (TO to)
+											 (VB judg)
+											 (CP-QUE (CP-QUE (WNP-3 (WPRO what))
+													 (C 0)
+													 (IP-SUB (NP-SBJ *T*-3)
+														 (BEP is)
+														 (ADJP (ADJP (ADJ worthy)
+															     (PP (P of)
+																 (NP (NPR God))))
+														       (, ,)
+														       (CONJP (CONJ and)
+															      (ADJP (ADJ credible)
+																    (IP-INF (TO to)
+																	    (BE be)
+																	    (VAN revealed)
+																	    (PP (P by)
+																		(NP (PRO him)))))))))
+												 (, ,)
+												 (CONJP (CONJ and)
+													(CP-QUE (WNP-4 (WPRO what))
+														(C 0)
+														(IP-SUB (NP-SBJ *T*-4)
+															(NEG not))))))
+										 (, ,)
+										 (PP (P but)
+										     (PP (P by)
+											 (NP (D the)
+											     (ADJ natural)
+											     (NS notions)
+											     (CP-REL (WNP-5 (WPRO which))
+												     (C 0)
+												     (IP-SUB (NP-OB1 *T*-5)
+													     (NP-SBJ (PRO we))
+													     (HVP have)
+													     (PP (PP (P of)
+														     (NP (NPR God)))
+														 (CONJP (CONJ and)
+															(PP (P of)
+															    (NP (PRO$ his) (ADJ essential) (NS perfections)))))))
+											     (, :)
+											     (CP-REL (WNP-6 (WPRO which))
+												     (, ,)
+												     (C 0)
+												     (IP-SUB (PP (P+N because)
+														 (CP-ADV (C 0)
+															 (IP-SUB (NP-SBJ (PRO we))
+																 (VBP know)
+																 (IP-INF (NP-SBJ (PRO him))
+																	 (TO to)
+																	 (BE be)
+																	 (ADJP (ADJ immutable))))))
+													     (, ,)
+													     (NP-SBJ (PRO we))
+													     (HVP have)
+													     (NP-OB1 (N reason)
+														     (IP-INF (TO to)
+															     (VB believe)
+															     (CP-THT (C 0)
+																     (IP-SUB (NP-OB1 *T*-6)
+																	     (NP-SBJ (PRO he))
+																	     (MD will)
+																	     (ADVP-TMP (ADV never))
+																	     (VB contradict))))))))))))))))))))))
+	  (. .))
+  (ID TILLOTS-B-E3-P1,435.63))
+
+/~*
+When they of the Church of Rome would perswade a Jew, or a Heathen, to become
+a Christian; or a Heretick as they are pleased to call us to come over to the
+Communion of their Church, and offer Arguments to induce them thereto; they do
+by this very thing, whether they will or no, make that man Judge which is the
+true Church, and the true Religion. Because it would be ridiculous to perswade
+a man to turn to their Religion, and to urge him with Reasons to do so, and
+yet to deny him the use of his own judgment whether their Reasons be
+sufficient to move him to make such a change.
+(TILLOTS-B-E3-P1,444.192)
+*~/
+/*
+217 WNP-4:  217 WNP-4, 219 which, 216 CP-QUE
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (IP-SUB-1 (NP-SBJ (PRO they)
+							(PP (P of)
+							    (NP (D the)
+								(NPR Church)
+								(PP (P of)
+								    (NP (CODE <font>) (NPR Rome) (CODE <$$font>))))))
+						(MD would)
+						(VB perswade)
+						(NP-OB1 (NP (D a) (CODE <font>) (NPR Jew) (CODE <$$font>))
+							(, ,)
+							(CONJP (CONJ or)
+							       (NP (D a) (CODE <font>) (N Heathen) (CODE <$$font>))))
+						(, ,)
+						(IP-INF (TO to)
+							(VB become)
+							(NP-OB1 (D a) (NPR Christian))))
+				      (, ;)
+				      (CONJP (CONJ or)
+					     (IP-SUB=1 (NP-OB1 (D a) (CODE <font>) (N Heretick) (CODE <$$font>))
+						       (CODE <paren>)
+						       (PP-PRN (P as)
+							       (CP-ADV (WNP-2 0)
+								       (C 0)
+								       (IP-SUB (NP-SBJ (PRO they))
+									       (BEP are)
+									       (VAN pleased)
+									       (IP-INF (TO to)
+										       (VB call)
+										       (IP-SMC (NP-OB1 *T*-2)
+											       (NP-SBJ (PRO us)))))))
+						       (CODE <$$paren>)
+						       (IP-INF (TO to)
+							       (VB come)
+							       (RP over)
+							       (PP (P to)
+								   (NP (D the)
+								       (N Communion)
+								       (PP (P of)
+									   (NP (PRO$ their) (NPR Church)))))))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBP offer)
+					     (NP-OB1 (NS Arguments))
+					     (IP-INF (TO to)
+						     (VB induce)
+						     (NP-OB1 (PRO them))
+						     (PP (ADV+P thereto))))))))
+	  (, ;)
+	  (NP-SBJ (PRO they))
+	  (DOP do)
+	  (PP (P by)
+	      (NP (D this) (ADJ very) (N thing)))
+	  (, ,)
+	  (CP-QUE-ADV (WQ whether)
+		      (C 0)
+		      (IP-SUB (IP-SUB-3 (NP-SBJ (PRO they))
+					(VBP will))
+			      (CONJP (CONJ or)
+				     (IP-SUB=3 (NEG no)))))
+	  (, ,)
+	  (VB make)
+	  (IP-INF (NP-SBJ (D that) (N man))
+		  (VB Judge)
+		  (CODE <font>)
+		  (CP-QUE (WNP-4 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-4)
+				  (BEP is)
+				  (NP-OB1 (NP (D the) (ADJ true) (NPR Church))
+					  (CODE <$$font>)
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (CODE <font>) (D the) (ADJ true) (N Religion)))))))
+	  (CODE <$$font>)
+	  (, .)
+	  (PP (P+N Because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-5 (PRO it))
+			      (MD would)
+			      (BE be)
+			      (ADJP (ADJ ridiculous))
+			      (IP-INF-5 (TO to)
+					(VB perswade)
+					(NP-OB1 (D a) (N man))
+					(IP-INF (IP-INF (TO to)
+							(VB turn)
+							(PP (P to)
+							    (NP (PRO$ their) (N Religion))))
+						(, ,)
+						(CONJP (CONJ and)
+						       (IP-INF (TO to)
+							       (VB urge)
+							       (NP-OB1 (PRO him))
+							       (PP (P with)
+								   (NP (NS Reasons)))
+							       (IP-INF (TO to)
+								       (DO do)
+								       (ADVP (ADV so)))))
+						(, ,)
+						(CONJP (CONJ and)
+						       (IP-INF (ADVP (ADV yet))
+							       (TO to)
+							       (VB deny)
+							       (NP-OB2 (PRO him))
+							       (NP-OB1 (D the)
+								       (N use)
+								       (PP (P of)
+									   (NP (PRO$ his)
+									       (ADJ own)
+									       (N judgment)
+									       (CP-QUE (WQ whether)
+										       (C 0)
+										       (IP-SUB (NP-SBJ (PRO$ their) (NS Reasons))
+											       (BEP be)
+											       (ADJP (ADJ sufficient)
+												     (IP-INF (TO to)
+													     (VB move)
+													     (NP-OB1 (PRO him))
+													     (IP-INF (TO to)
+														     (VB make)
+														     (NP-OB1 (SUCH such) (D a) (N change)))))))))))))))))
+	  (. .))
+  (ID TILLOTS-B-E3-P1,444.192))
+
+/~*
+But what tolerable reason can any man give, why a man should be fit to judge
+upon the whole, and yet unfit to judge upon particular Points? especially if
+it be considered, that no man can make a discreet judgment of any Religion,
+before he hath examined the particular Doctrines of it, and made a judgment
+concerning them.
+(TILLOTS-B-E3-P1,444.196)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 12 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WD what)
+		 (ADJ tolerable)
+		 (N reason)
+		 (CP-QUE *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD can)
+		  (NP-SBJ (Q any) (N man))
+		  (VB give)
+		  (, ,)
+		  (CP-QUE-2 (WADVP-3 (WADV why))
+			    (C 0)
+			    (IP-SUB (ADVP *T*-3)
+				    (NP-SBJ (D a) (N man))
+				    (MD should)
+				    (BE be)
+				    (ADJP (ADJP (ADJ fit)
+						(IP-INF (TO to)
+							(VB judge)
+							(PP (P upon)
+							    (NP (D the) (CODE <font>) (N whole) (CODE <$$font>)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (ADVP (ADV yet))
+						 (ADJP (ADJ unfit)
+						       (IP-INF (TO to)
+							       (VB judge)
+							       (PP (P upon)
+								   (NP (CODE <font>) (ADJ particular) (CODE <$$font>) (NS Points))))))))))
+	  (, ?)
+	  (PP (ADV especially)
+	      (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-4 (PRO it))
+			      (BEP be)
+			      (VAN considered)
+			      (, ,)
+			      (CP-THT-4 (C that)
+					(IP-SUB (NP-SBJ (Q no) (N man))
+						(MD can)
+						(VB make)
+						(NP-OB1 (D a)
+							(ADJ discreet)
+							(N judgment)
+							(PP (P of)
+							    (NP (Q any) (N Religion))))
+						(, ,)
+						(PP (P before)
+						    (CP-ADV (C 0)
+							    (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+									    (HVP hath)
+									    (VBN examined)
+									    (NP-OB1 (D the)
+										    (ADJ particular)
+										    (NS Doctrines)
+										    (PP (P of)
+											(NP (PRO it)))))
+								    (, ,)
+								    (CONJP (CONJ and)
+									   (IP-SUB (NP-SBJ *con*)
+										   (VBD made)
+										   (NP-OB1 (D a)
+											   (N judgment)
+											   (RRC (VAG concerning)
+												(CODE <font>)
+												(NP-OB1 (PRO them))))))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID TILLOTS-B-E3-P1,444.196))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	8/5/197
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd
+*/
+
+/~*
+He tells them what God had already done for them, and what he had promised to
+do more, if they would be faithfull to him: And on the other hand, what
+fearfull calamities he had threatned, and would certainly bring upon them, in
+case they should transgress his Covenant, and go and serve other Gods.
+(TILLOTS-C-E3-P2,455.13)
+*~/
+/*
+13 WNP-2:  13 WNP-2, 15 what, 12 CP-QUE
+43 WNP-3:  43 WNP-3, 47 *ICH*-4, 42 CP-QUE
+112 WNP-5:  112 WNP-5, 118 calamities, 111 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO He))
+		    (VBP tells)
+		    (NP-OB2 (PRO them))
+		    (CP-QUE (CP-QUE (WNP-2 (WPRO what))
+				    (C 0)
+				    (IP-SUB (NP-OB1 *T*-2)
+					    (NP-SBJ (NPR God))
+					    (HVD had)
+					    (ADVP-TMP (ADV already))
+					    (DON done)
+					    (PP (P for)
+						(NP (PRO them)))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (CP-QUE (WNP-3 (WPRO what)
+						  (NP-MSR *ICH*-4))
+					   (C 0)
+					   (IP-SUB (NP-SBJ (PRO he))
+						   (HVD had)
+						   (VBN promised)
+						   (IP-INF (NP-OB1 *T*-3)
+							   (TO to)
+							   (DO do)
+							   (NP-MSR-4 (QR more)))
+						   (, ,)
+						   (PP (P if)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (PRO they))
+								       (MD would)
+								       (BE be)
+								       (ADJP (ADJ faithfull)
+									     (PP (P to)
+										 (NP (PRO him))))))))))))
+	  (, :)
+	  (CONJP (CONJ And)
+		 (IP-MAT=1 (PP (P on)
+			       (NP (D the) (OTHER other) (N hand)))
+			   (, ,)
+			   (CP-QUE (WNP-5 (WD what) (ADJ fearfull) (NS calamities))
+				   (C 0)
+				   (IP-SUB (IP-SUB (NP-OB1 *T*-5)
+						   (NP-SBJ (PRO he))
+						   (HVD had)
+						   (VBN threatned))
+					   (, ,)
+					   (CONJP (CONJ and)
+						  (IP-SUB (NP-OB1 *T*-5)
+							  (NP-SBJ *con*)
+							  (MD would)
+							  (ADVP (ADV certainly))
+							  (VB bring)
+							  (PP (P upon)
+							      (NP (PRO them)))))
+					   (, ,)
+					   (PP (P in)
+					       (NP (N case)
+						   (CP-THT (C 0)
+							   (IP-SUB (IP-SUB-6 (NP-SBJ (PRO they))
+									     (MD should)
+									     (VB transgress)
+									     (NP-OB1 (PRO$ his) (N Covenant)))
+								   (, ,)
+								   (CONJP (CONJ and)
+									  (IP-SUB=6 (VB go)))
+								   (CONJP (CONJ and)
+									  (IP-SUB=6 (VB serve)
+										    (NP-OB2 (OTHER other) (NS Gods))))))))))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,455.13))
+
+/~*
+he had sufficiently declared before which of these was to be preferred.
+(TILLOTS-C-E3-P2,456.28)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 24 these, 15 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO he))
+	  (HVD had)
+	  (ADVP (ADV sufficiently))
+	  (VBN declared)
+	  (ADVP (ADV before))
+	  (CP-QUE (WNP-1 (WPRO which)
+			 (PP (P of)
+			     (NP (D these))))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (IP-INF (TO to) (BE be) (VAN preferred))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,456.28))
+
+/~*
+If it seem evil unto you to serve the Lord, chuse you this day whom you will
+serve; intimating, that the plain difference of the things in competition
+would direct them what to chuse.
+(TILLOTS-C-E3-P2,456.35)
+*~/
+/*
+106 WNP-3:  106 WNP-3, 108 what, 105 CP-QUE
+*/
+
+( (IP-IMP (CODE <font>)
+	  (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (VBP seem)
+			      (ADJP (ADJ evil)
+				    (PP (P unto)
+					(NP (PRO you))))
+			      (IP-INF-1 (TO to)
+					(VB serve)
+					(NP-OB1 (D the) (N Lord))))))
+	  (, ,)
+	  (VBI chuse)
+	  (NP-SBJ (PRO you))
+	  (NP-TMP (D this) (N day))
+	  (NP-OB1 (CP-FRL (WNP-2 (WPRO whom))
+			  (C 0)
+			  (IP-SUB (NP-OB2 *T*-2)
+				  (NP-SBJ (PRO you))
+				  (MD will)
+				  (VB serve))))
+	  (CODE <$$font>)
+	  (, ;)
+	  (IP-PPL (VAG intimating)
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (D the)
+					  (ADJ plain)
+					  (N difference)
+					  (PP (P of)
+					      (NP (D the)
+						  (NS things)
+						  (PP (P in)
+						      (NP (N competition))))))
+				  (MD would)
+				  (VB direct)
+				  (NP-OB1 (PRO them))
+				  (CP-QUE (WNP-3 (WPRO what))
+					  (C 0)
+					  (IP-INF (NP-OB1 *T*-3)
+						  (TO to)
+						  (VB chuse))))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,456.35))
+
+/~*
+For by declaring themselves free from all other obligations they give us fair
+warning what we are to expect at their hands, and how far we may trust them.
+(TILLOTS-C-E3-P2,458.63)
+*~/
+/*
+42 WNP-1:  42 WNP-1, 44 what, 41 CP-QUE
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (P by)
+	      (IP-PPL (VAG declaring)
+		      (IP-SMC (NP-SBJ (PRO+N themselves))
+			      (ADJP (ADJ free)
+				    (PP (P from)
+					(NP (Q all) (OTHER other) (NS obligations)))))))
+	  (NP-SBJ (PRO they))
+	  (VBP give)
+	  (NP-OB2 (PRO us))
+	  (NP-OB1 (ADJ fair)
+		  (N warning)
+		  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-SBJ (PRO we))
+					  (BEP are)
+					  (IP-INF (NP-OB1 *T*-1)
+						  (TO to)
+						  (VB expect)
+						  (PP (P at)
+						      (NP (PRO$ their) (NS hands))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-QUE (WNP-2 (WADJP (WADV how) (ADJ far)))
+					 (C 0)
+					 (IP-SUB (NP-MSR *T*-2)
+						 (NP-SBJ (PRO we))
+						 (MD may)
+						 (VB trust)
+						 (NP-OB1 (PRO them)))))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,458.63))
+
+/~*
+And what is the Reason?
+(TILLOTS-C-E3-P2,460.91)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (D the) (N Reason)))
+	  (. ?))
+  (ID TILLOTS-C-E3-P2,460.91))
+
+/~*
+What think we of the Church in Abraham's time, which for ought we know was
+confined to one Family; and one small Kingdom, that of Melchesidec King of
+Salem?
+(TILLOTS-C-E3-P2,464.145)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP think)
+		  (NP-SBJ (PRO we))
+		  (PP (P of)
+		      (NP (D the)
+			  (NPR Church)
+			  (PP (P in)
+			      (CODE <font>)
+			      (NP (NPR$ Abraham's) (CODE <$$font>) (N time)))
+			  (, ,)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (PP (P for)
+					      (NP (Q ought)
+						  (CP-REL (WNP-3 0)
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-3)
+								  (NP-SBJ (PRO we))
+								  (VBP know)))))
+					  (BED was)
+					  (VAN confined)
+					  (PP (P to)
+					      (NP (NP (ONE one) (N Family))
+						  (, ;)
+						  (CONJP (CONJ and)
+							 (NP (ONE one)
+							     (ADJ small)
+							     (N Kingdom)
+							     (, ,)
+							     (NP-PRN (D that)
+								     (PP (P of)
+									 (CODE <font>)
+									 (NP (NPR Melchesidec)
+									     (CODE <$$font>)
+									     (NP-PRN (N King)
+										     (PP (P of)
+											 (CODE <font>)
+											 (NP (NPR Salem))))))))))))))))
+	  (CODE <$$font>)
+	  (. ?))
+  (ID TILLOTS-C-E3-P2,464.145))
+
+/~*
+And what think we of the Christian Church in the height of Arianism and
+Pelagianism, when a great part of Christendom was over-run with these Errors,
+and the number of the Orthodox was inconsiderable in comparison of the
+Hereticks?
+(TILLOTS-C-E3-P2,465.148)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP think)
+		  (NP-SBJ (PRO we))
+		  (PP (P of)
+		      (NP (D the) (ADJ Christian) (NPR Church)))
+		  (PP (P in)
+		      (NP (D the)
+			  (N height)
+			  (PP (P of)
+			      (CODE <font>)
+			      (NP (N Arianism) (CODE <$$font>) (CONJ and) (CODE <font>) (N Pelagianism))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (D a)
+					      (ADJ great)
+					      (N part)
+					      (PP (P of)
+						  (CODE <font>)
+						  (NP (NPR Christendom))))
+				      (CODE <$$font>)
+				      (BED was)
+				      (VAN over-run)
+				      (PP (P with)
+					  (NP (D these) (NS Errors))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ (D the)
+						     (N number)
+						     (PP (P of)
+							 (NP (D the) (CODE <font>) (ADJ Orthodox))))
+					     (CODE <$$font>)
+					     (BED was)
+					     (ADJP (ADJ inconsiderable)
+						   (PP (P in)
+						       (NP (N comparison)
+							   (PP (P of)
+							       (NP (D the) (CODE <font>) (NS Hereticks) (CODE <$$font>)))))))))))
+	  (. ?))
+  (ID TILLOTS-C-E3-P2,465.148))
+
+/~*
+But what need I to urge these Instances? As if the Truth of a Religion were to
+be estimated and carried by the major Vote; which as it can be an Argument to
+none but Fools, so I dare say no honest and wise man ever made use of it for a
+solid proof of the truth and goodness of any Church or Religion.
+(TILLOTS-C-E3-P2,465.149)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-ADV *T*-1)
+		  (VBP need)
+		  (NP-SBJ (PRO I))
+		  (IP-INF (TO to)
+			  (VB urge)
+			  (NP-OB1 (D these) (NS Instances)))
+		  (, ?)
+		  (PP (P As)
+		      (PP (P if)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (D the)
+						  (N Truth)
+						  (PP (P of)
+						      (NP (D a) (N Religion))))
+					  (BED were)
+					  (IP-INF (TO to)
+						  (BE be)
+						  (VAN (VAN estimated) (CONJ and) (VAN carried))
+						  (PP (P by)
+						      (NP (D the)
+							  (CODE <font>)
+							  (ADJ major)
+							  (N Vote)
+							  (CODE <$$font>)
+							  (, ;)
+							  (CP-REL (WNP-2 (WPRO which))
+								  (C 0)
+								  (IP-SUB (PP (P as)
+									      (CP-CMP (WADVP-3 0)
+										      (C 0)
+										      (IP-SUB (ADVP *T*-3)
+											      (NP-SBJ-RSP=2 (PRO it))
+											      (MD can)
+											      (BE be)
+											      (NP-OB1 (D an)
+												      (N Argument)
+												      (PP (P to)
+													  (NP (Q none)
+													      (PP (P but)
+														  (NP (NS Fools)))))))))
+									  (, ,)
+									  (ADVP (ADV so))
+									  (NP-SBJ (PRO I))
+									  (MD dare)
+									  (VB say)
+									  (CP-THT (C 0)
+										  (IP-SUB (NP-SBJ (Q no)
+												  (ADJP (ADJ honest) (CONJ and) (ADJ wise))
+												  (N man))
+											  (ADVP-TMP (ADV ever))
+											  (VBD made)
+											  (NP-OB1 (N use))
+											  (PP (P of)
+											      (NP=2 (PRO it)))
+											  (PP (P for)
+											      (NP (D a)
+												  (ADJ solid)
+												  (N proof)
+												  (PP (P of)
+												      (NP (D the)
+													  (N truth)
+													  (CONJP (CONJ and)
+														 (NX (N goodness)))
+													  (PP (P of)
+													      (NP (Q any)
+														  (N Church)
+														  (CONJP (CONJ or)
+															 (NX (N Religion)))))))))))))))))))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,465.149))
+
+/~*
+But the proper Question in this Case is, Which is the true Ancient Christian
+Faith, that of the Church of Rome, or Ours?
+(TILLOTS-C-E3-P2,465.156)
+*~/
+/*
+26 WNP-1:  26 WNP-1, 28 Which, 25 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (D the)
+		  (ADJ proper)
+		  (N Question)
+		  (PP (P in)
+		      (NP (D this) (N Case))))
+	  (BEP is)
+	  (, ,)
+	  (CODE <font>)
+	  (CP-QUE (WNP-1 (WPRO Which))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (NP-OB1 (D the)
+				  (ADJ true)
+				  (ADJ Ancient)
+				  (ADJ Christian)
+				  (N Faith)
+				  (, ,)
+				  (NP-PRN (NP (D that)
+					      (PP (P of)
+						  (NP (D the)
+						      (NPR Church)
+						      (PP (P of)
+							  (CODE <$$font>)
+							  (NP (NPR Rome))))))
+					  (, ,)
+					  (CODE <font>)
+					  (CONJP (CONJ or)
+						 (NP (PRO$ Ours)))))))
+	  (CODE <$$font>)
+	  (. ?))
+  (ID TILLOTS-C-E3-P2,465.156))
+
+/~*
+And what other Answer than this could the Jews have given to the like Question,
+if it had been put to them by the ancient Idolaters of the World, Where was
+your Religion before Abraham? but the very same in substance which we now give
+to the Church of Rome? That for many Ages the Worship of the one true God had
+been corrupted, and the Worship of Idols had prevailed in a great part of the
+World: that Abraham was raised up by God to reform Religion, and to reduce the
+Worship of God to its first Institution; in the doing whereof he necessarily
+separated Himself and his Family from the Communion of those Idolaters. So
+that though the Reformation which Abraham began was new, yet his Religion was
+truly ancient; as old as that of Noah, and Enoch, and Adam. Which is the same
+in substance that we say, and with the same and equal reason.
+(TILLOTS-C-E3-P2,467.176)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 18 *ICH*-4, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WD what)
+		 (OTHER other)
+		 (N Answer)
+		 (PP (P than)
+		     (NP (D this)))
+		 (PP *ICH*-4))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD could)
+		  (NP-SBJ (D the) (CODE <font>) (NPRS Jews))
+		  (CODE <$$font>)
+		  (HV have)
+		  (VBN given)
+		  (PP (P to)
+		      (NP (D the)
+			  (ADJ like)
+			  (N Question)
+			  (CP-QUE-PRN-SPE *ICH*-2)))
+		  (, ,)
+		  (PP (P if)
+		      (CP-ADV-SPE (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO it))
+					      (HVD had)
+					      (BEN been)
+					      (VAN put)
+					      (PP (P to)
+						  (NP (PRO them)))
+					      (PP (P by)
+						  (NP (D the)
+						      (CODE <font>)
+						      (ADJ ancient)
+						      (NS Idolaters)
+						      (CODE <$$font>)
+						      (PP (P of)
+							  (NP (D the) (N World))))))))
+		  (, ,)
+		  (CODE <font>)
+		  (CP-QUE-PRN-SPE-2 (WADVP-3 (WADV Where))
+				    (IP-SUB-SPE (ADVP-LOC *T*-3)
+						(BED was)
+						(NP-SBJ (PRO$ your) (N Religion))
+						(PP (P before)
+						    (NP (NPR Abraham)))))
+		  (, ?)
+		  (CODE <$$font>)
+		  (PP-4 (P but)
+			(NP (D the)
+			    (ADJP (ADV very)
+				  (ADJ same)
+				  (PP (P in)
+				      (NP (N substance))))
+			    (CP-REL-SPE (WNP-5 (WPRO which))
+					(C 0)
+					(IP-SUB-SPE (NP-OB1 *T*-5)
+						    (NP-SBJ (PRO we))
+						    (ADVP-TMP (ADV now))
+						    (VBP give)
+						    (PP (P to)
+							(NP (D the)
+							    (NPR Church)
+							    (PP (P of)
+								(CODE <font>)
+								(NP (NPR Rome)))))))
+			    (CODE <$$font>)
+			    (, ?)
+			    (CP-THT-SPE (CP-THT-SPE (C That)
+						    (IP-SUB-SPE (IP-SUB-SPE (PP (P for)
+										(NP (Q many) (NS Ages)))
+									    (NP-SBJ (D the)
+										    (N Worship)
+										    (PP (P of)
+											(NP (D the) (ONE one) (ADJ true) (NPR God))))
+									    (HVD had)
+									    (BEN been)
+									    (VAN corrupted))
+								(, ,)
+								(CONJP (CONJ and)
+								       (IP-SUB-SPE (NP-SBJ (D the)
+											   (N Worship)
+											   (PP (P of)
+											       (NP (NS Idols))))
+										   (HVD had)
+										   (VBN prevailed)
+										   (PP (P in)
+										       (NP (D a)
+											   (ADJ great)
+											   (N part)
+											   (PP (P of)
+											       (NP (D the) (N World)))))))))
+					(, :)
+					(CONJP (CP-THT-SPE (C that)
+							   (CODE <font>)
+							   (IP-SUB-SPE (NP-SBJ (NPR Abraham))
+								       (CODE <$$font>)
+								       (BED was)
+								       (VAN raised)
+								       (RP up)
+								       (PP (P by)
+									   (NP (NPR God)))
+								       (IP-INF-PRP-SPE (IP-INF-SPE (TO to)
+												   (VB reform)
+												   (NP-OB1 (N Religion)))
+										       (, ,)
+										       (CONJP (CONJ and)
+											      (IP-INF-SPE (TO to)
+													  (VB reduce)
+													  (NP-OB1 (D the)
+														  (N Worship)
+														  (PP (P of)
+														      (NP (NPR God))))
+													  (PP (P to)
+													      (NP (PRO$ its) (ADJ first) (N Institution))))))
+								       (, ;)
+								       (CP-CAR-SPE (WPP-6 (P in)
+											  (WNP (D the)
+											       (N doing)
+											       (WPP (WADV+P whereof))))
+										   (C 0)
+										   (IP-SUB-SPE (PP *T*-6)
+											       (NP-SBJ (PRO he))
+											       (ADVP (ADV necessarily))
+											       (VBD separated)
+											       (NP-OB1 (NP (PRO+N Himself))
+												       (CONJP (CONJ and)
+													      (NP (PRO$ his) (N Family))))
+											       (PP (P from)
+												   (NP (D the)
+												       (N Communion)
+												       (PP (P of)
+													   (NP (D those) (NS Idolaters)))))
+											       (, .)
+											       (PP (P So)
+												   (CP-ADV-SPE (C that)
+													       (IP-SUB-SPE (PP-LFD (P though)
+																   (CP-ADV-SPE (C 0)
+																	       (IP-SUB-SPE (NP-SBJ (D the)
+																				   (CODE <font>)
+																				   (NPR Reformation)
+																				   (CODE <$$font>)
+																				   (CP-REL-SPE (WNP-7 (WPRO which))
+																					       (C 0)
+																					       (IP-SUB-SPE (NP-OB1 *T*-7)
+																							   (NP-SBJ (CODE <font>) (NPR Abraham) (CODE <$$font>))
+																							   (VBD began))))
+																			   (BED was)
+																			   (ADJP (ADJ new)))))
+															   (, ,)
+															   (ADVP-RSP (ADV yet))
+															   (NP-SBJ (PRO$ his) (CODE <font>) (N Religion) (CODE <$$font>))
+															   (BED was)
+															   (ADJP (ADJP (ADV truly) (ADJ ancient))
+																 (, ;)
+																 (CONJP (ADJP (ADVR as)
+																	      (ADJ old)
+																	      (PP (P as)
+																		  (NP (D that)
+																		      (PP (P of)
+																			  (NP (CODE <font>) (NPR Noah) (CODE <$$font>) (, ,) (CONJ and) (CODE <font>) (NPR Enoch) (CODE <$$font>) (, ,) (CONJ and) (CODE <font>) (NPR Adam) (CODE <$$font>)))))))))))))))))))
+		  (, .)
+		  (CP-CAR-SPE (WNP-8 (WPRO Which))
+			      (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE-9 (NP-SBJ *T*-8)
+							(BEP is)
+							(NP-OB1 (D the)
+								(ADJ same)
+								(PP (P in)
+								    (NP (N substance)))
+								(PP (P *)
+								    (NP (CP-FRL-SPE (WNP-10 0)
+										    (C that)
+										    (IP-SUB-SPE (NP-OB1 *T*-10)
+												(NP-SBJ (PRO we))
+												(VBP say)))))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE=9 (PP (P with)
+								   (NP (D the)
+								       (ADJP (ADJ same) (CONJ and) (ADJ equal))
+								       (N reason))))))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,467.176))
+
+/~*
+You see what are the Exceptions which Idolatry and Superstition have always
+made, and do at this day still make, against the true Religion; and how slight
+and insufficient they are.
+(TILLOTS-C-E3-P2,468.200)
+*~/
+/*
+9 WNP-1:  9 WNP-1, 11 what, 8 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO You))
+	  (VBP see)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (NP-OB1 (D the)
+					  (CODE <font>)
+					  (NS Exceptions)
+					  (CODE <$$font>)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB-3 (NP-OB1 *T*-2)
+							    (NP-SBJ (N Idolatry) (CONJ and) (N Superstition))
+							    (HVP have)
+							    (ADVP-TMP (ADV always))
+							    (VBN made)
+							    (, ,)
+							    (IP-SUB-PRN=3 (CONJ and)
+									  (DOP do)
+									  (PP (P at)
+									      (NP (D this) (N day)))
+									  (ADVP-TMP (ADV still))
+									  (VB make))
+							    (, ,)
+							    (PP (P against)
+								(NP (D the) (ADJ true) (N Religion))))))))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WADJP-4 (WADV how)
+					  (ADJ slight)
+					  (CONJP (CONJ and)
+						 (ADJX (ADJ insufficient))))
+				 (C 0)
+				 (IP-SUB (ADJP *T*-4)
+					 (NP-SBJ (PRO they))
+					 (BEP are)))))
+	  (. .))
+  (ID TILLOTS-C-E3-P2,468.200))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	13/11/235
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	13/11/262
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	4/4/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	6/6/208
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	5/5/117
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	9/7/128
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	4/4/111
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	7/7/134
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	4/4/175
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	4/4/115
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	1/1/394
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	1/1/287
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	18/15/355
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	22/21/336
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	5/5/295
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	8/8/338
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	5/4/360
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	10/10/278
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	1/1/162
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	2/2/126
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	6/6/138
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	8/5/197
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	13/11/235
+whole search, hits/tokens/total
+		156/142/5062
+*/

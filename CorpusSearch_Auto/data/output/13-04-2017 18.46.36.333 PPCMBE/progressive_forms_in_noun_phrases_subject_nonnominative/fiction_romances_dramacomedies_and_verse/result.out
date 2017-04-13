@@ -1,0 +1,2657 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:37 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_noun_phrases_subject_nonnominative\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd
+*/
+
+/~*
+who $could $n't tell at a glance that the beautifying influence of a wife made
+this home a very nest of comfort and happiness?
+(BROUGHAM-1861,14.511)
+*~/
+/*
+31 VAG:  31 VAG, 32 beautifying, 28 NP-SBJ
+*/
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD $could)
+		  (NEG $n't)
+		  (CODE {TEXT:couldn't})
+		  (VB tell)
+		  (PP (P at)
+		      (NP (D a) (N glance)))
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (D the)
+					  (VAG beautifying)
+					  (N influence)
+					  (PP (P of)
+					      (NP (D a) (N wife))))
+				  (VBD made)
+				  (IP-SMC (NP-SBJ (D this) (N home))
+					  (NP-OB1 (D a)
+						  (ADJ very)
+						  (N nest)
+						  (PP (P of)
+						      (NP (N comfort) (CONJ and) (N happiness))))))))
+	  (. ?))
+  (ID BROUGHAM-1861,14.511))
+
+/~*
+Mrs. H. I know as well as you do, Doctor, the duties and proprieties which
+should distinguish either sex - that to men is given the power of revealing
+the dearest tenderest thoughts without reproach, which women should preserve
+unspoken -
+(BROUGHAM-1861,29.1080)
+*~/
+/*
+97 VAG:  97 VAG, 98 revealing, 88 NP-SBJ
+*/
+
+( (IP-MAT (META (NP (NPR Mrs.) (NPR H.)))
+	  (NP-SBJ (PRO I))
+	  (VBP know)
+	  (ADVP (ADVR as)
+		(ADV well)
+		(PP (P as)
+		    (CP-CMP (WADVP-1 0)
+			    (C 0)
+			    (IP-SUB (ADVP *T*-1)
+				    (NP-SBJ (PRO you))
+				    (DOP do)
+				    (VB *)))))
+	  (, ,)
+	  (NP-VOC (N Doctor))
+	  (, ,)
+	  (NP-OB1 (D the)
+		  (NS duties)
+		  (CONJP (CONJ and)
+			 (NX (NS proprieties)))
+		  (CP-REL (WNP-2 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (MD should)
+				  (VB distinguish)
+				  (NP-OB1 (Q either) (N sex))))
+		  (, -)
+		  (CP-THT-PRN (C that)
+			      (IP-SUB (PP (P to)
+					  (NP (NS men)))
+				      (BEP is)
+				      (VAN given)
+				      (NP-SBJ (D the)
+					      (N power)
+					      (PP (P of)
+						  (IP-PPL (VAG revealing)
+							  (NP-OB1 (D the)
+								  (ADJS dearest)
+								  (ADJS tenderest)
+								  (NS thoughts)
+								  (CP-REL *ICH*-3))
+							  (PP (P without)
+							      (NP (N reproach)))
+							  (, ,)
+							  (CP-REL-3 (WNP-4 (WPRO which))
+								    (C 0)
+								    (IP-SUB (NP-OB1 *T*-4)
+									    (NP-SBJ (NS women))
+									    (MD should)
+									    (VB preserve)
+									    (ADJP-SPR (ADJ unspoken))))))))))
+	  (. -))
+  (ID BROUGHAM-1861,29.1080))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	2/2/1202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd
+*/
+
+/~*
+the knowing ones were convinced all was right.
+(COLLIER-1835,13.356)
+*~/
+/*
+5 VAG:  5 VAG, 6 knowing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D the) (VAG knowing) (ONES ones))
+	  (BED were)
+	  (VAN convinced)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (Q all))
+			  (BED was)
+			  (ADJP (ADJ right))))
+	  (. .))
+  (ID COLLIER-1835,13.356))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	1/1/1122
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd
+*/
+
+/~*
+the constant habit of ruining one another, teaches us temper.
+(COLMAN-1805,21.102)
+*~/
+/*
+13 VAG:  13 VAG, 14 ruining, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D the)
+		  (ADJ constant)
+		  (N habit)
+		  (PP (P of)
+		      (IP-PPL (VAG ruining)
+			      (NP-OB1 (ONE one) (D+OTHER another)))))
+	  (, ,)
+	  (VBP teaches)
+	  (NP-OB2 (PRO us))
+	  (NP-OB1 (N temper))
+	  (. .))
+  (ID COLMAN-1805,21.102))
+
+/~*
+The rising generation wants a new dictionary, damnably.
+(COLMAN-1805,22.120)
+*~/
+/*
+5 VAG:  5 VAG, 6 rising, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The) (VAG rising) (N generation))
+	  (VBP wants)
+	  (NP-OB1 (D a) (ADJ new) (N dictionary))
+	  (, ,)
+	  (ADVP (ADV damnably))
+	  (. .))
+  (ID COLMAN-1805,22.120))
+
+/~*
+Lady Car. This settling a marriage is a strange business!
+(COLMAN-1805,48.930)
+*~/
+/*
+16 VAG:  16 VAG, 17 settling, 12 NP-SBJ
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lady) (NPR Car.))
+		(CODE <$$font>))
+	  (NP-SBJ (D This)
+		  (IP-PPL (VAG settling)
+			  (NP-OB1 (D a) (N marriage))))
+	  (BEP is)
+	  (NP-OB1 (D a) (ADJ strange) (N business))
+	  (. !))
+  (ID COLMAN-1805,48.930))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	3/3/1185
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	0/0/946
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd
+*/
+
+/~*
+The ill Manners of turning up their bare Back-sides to us, gave us no great
+Offence;
+(DEFOE-1719,194.22)
+*~/
+/*
+13 VAG:  13 VAG, 14 turning, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ ill)
+		  (NS Manners)
+		  (PP (P of)
+		      (IP-PPL (VAG turning)
+			      (RP up)
+			      (NP-OB1 (PRO$ their) (ADJ bare) (N+NS Back-sides))
+			      (PP (P to)
+				  (NP (PRO us))))))
+	  (, ,)
+	  (VBD gave)
+	  (NP-OB2 (PRO us))
+	  (NP-OB1 (Q no) (ADJ great) (N Offence))
+	  (. ;))
+  (ID DEFOE-1719,194.22))
+
+/~*
+I had no more Business to go to the East-Indies, than a Man at full Liberty,
+and having committed no Crime, has to go to the Turn-key at Newgate, and
+desire him to lock him up among the Prisoners there, and starve him.
+(DEFOE-1719,200.130)
+*~/
+/*
+65 HAG:  65 HAG, 66 having, 45 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVD had)
+	  (NP-OB1 (NP-MSR (Q no) (QR more))
+		  (N Business)
+		  (IP-INF (TO to)
+			  (VB go)
+			  (PP (P to)
+			      (NP (D the) (CODE <font>) (NPR+NPRS East-Indies))))
+		  (CODE <$$font>)
+		  (, ,)
+		  (PP (P than)
+		      (CP-CMP (WNP-1 0)
+			      (C 0)
+			      (IP-SUB (NP-MSR *T*-1)
+				      (NP-SBJ (D a)
+					      (N Man)
+					      (PP (PP (P at)
+						      (NP (ADJ full) (N Liberty)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (RRC (HAG having)
+							      (VBN committed)
+							      (NP-OB1 (Q no) (N Crime))))))
+				      (, ,)
+				      (HVP has)
+				      (NP-OB1 (N *)
+					      (IP-INF (IP-INF (TO to)
+							      (VB go)
+							      (PP (P to)
+								  (NP (D the)
+								      (N+N Turn-key)
+								      (PP (P at)
+									  (CODE <font>)
+									  (NP (NPR Newgate))))))
+						      (CODE <$$font>)
+						      (, ,)
+						      (CONJP (CONJ and)
+							     (IP-INF (TO *)
+								     (VB desire)
+								     (NP-OB1 (PRO him))
+								     (IP-INF (IP-INF (TO to)
+										     (VB lock)
+										     (NP-OB1 (PRO him))
+										     (PP (RP up)
+											 (P among)
+											 (NP (D the)
+											     (NS Prisoners)
+											     (ADVP (ADV there)))))
+									     (, ,)
+									     (CONJP (CONJ and)
+										    (IP-INF (TO *)
+											    (VB starve)
+											    (NP-OB1 (PRO him)))))))))))))
+	  (. .))
+  (ID DEFOE-1719,200.130))
+
+/~*
+and behold, to our Astonishment, three Women naked, and crying in a most
+dreadful Manner, come flying, as if they had indeed had Wings, and after them
+sixteen or seventeen Men, Natives, in the same Terror and Consternation, with
+three of our English Butchers, for I can call them no better, in their Rear,
+who, when they could not overtake them, fired in among them,
+(DEFOE-1719,218.427)
+*~/
+/*
+35 VAG:  35 VAG, 36 crying, 20 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ and)
+		    (IP-IMP-PRN (VBI behold))
+		    (, ,)
+		    (PP (P to)
+			(NP (PRO$ our) (N Astonishment)))
+		    (, ,)
+		    (NP-SBJ (NUM three)
+			    (NS Women)
+			    (ADJP (ADJP (ADJ naked))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (RRC (VAG crying)
+					      (PP (P in)
+						  (NP (D a)
+						      (ADJP (QS most) (ADJ dreadful))
+						      (N Manner)))))))
+		    (, ,)
+		    (VBD come)
+		    (IP-PPL (VAG flying))
+		    (, ,)
+		    (PP (P as)
+			(PP (P if)
+			    (CP-ADV (C 0)
+				    (IP-SUB (NP-SBJ (PRO they))
+					    (HVD had)
+					    (PP (P+N indeed))
+					    (HVN had)
+					    (NP-OB1 (NS Wings)))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (PP (P after)
+			       (NP (PRO them)))
+			   (NP-SBJ (NUMP (NUM sixteen) (CONJ or) (NUM seventeen))
+				   (NS Men)
+				   (, ,)
+				   (NP-PRN (NS Natives)))
+			   (, ,)
+			   (PP (P in)
+			       (NP (D the)
+				   (ADJ same)
+				   (N Terror)
+				   (CONJP (CONJ and)
+					  (NX (N Consternation)))))
+			   (, ,)
+			   (PP (P with)
+			       (IP-SMC (NP-SBJ (NUM three)
+					       (CODE <P_218>)
+					       (PP (P of)
+						   (NP (PRO$ our)
+						       (CODE <font>)
+						       (ADJ English)
+						       (CODE <$$font>)
+						       (NS Butchers)
+						       (, ,)
+						       (IP-MAT-PRN (CONJ for)
+								   (NP-SBJ (PRO I))
+								   (MD can)
+								   (VB call)
+								   (IP-SMC (NP-SBJ (PRO them))
+									   (ADJP (Q no) (ADJR better))))))
+					       (CP-REL *ICH*-2))
+				       (, ,)
+				       (PP (P in)
+					   (NP (PRO$ their) (N Rear)))
+				       (, ,)
+				       (CP-REL-2 (WNP-3 (WPRO who))
+						 (, ,)
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-3)
+							 (PP (P when)
+							     (CP-ADV (C 0)
+								     (IP-SUB (NP-SBJ (PRO they))
+									     (MD could)
+									     (NEG not)
+									     (VB overtake)
+									     (NP-OB1 (PRO them)))))
+							 (, ,)
+							 (VBD fired)
+							 (PP (RP in)
+							     (P among)
+							     (NP (PRO them)))))))))
+	  (. ,))
+  (ID DEFOE-1719,218.427))
+
+/~*
+However, we took some Ways to let the poor flying Creatures know, that we
+would not hurt them,
+(DEFOE-1719,218.434)
+*~/
+/*
+28 VAG:  28 VAG, 29 flying, 23 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (WADV+ADV However))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD took)
+	  (NP-OB1 (Q some)
+		  (NS Ways)
+		  (IP-INF (TO to)
+			  (VB let)
+			  (IP-INF (NP-SBJ (D the) (ADJ poor) (VAG flying) (NS Creatures))
+				  (VB know)
+				  (, ,)
+				  (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (PRO we))
+						  (MD would)
+						  (NEG not)
+						  (VB hurt)
+						  (NP-OB1 (PRO them)))))))
+	  (. ,))
+  (ID DEFOE-1719,218.434))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	4/4/495
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd
+*/
+
+/~*
+Here, four or five great hulking fellows, just visible through a cloud of
+tobacco-smoke, were engaged in noisy and riotous conversation over
+half-emptied pots of beer, or playing at all-fours with a very greasy pack of
+cards.
+(DICKENS-1837,546.63)
+*~/
+/*
+18 VAG:  18 VAG, 19 hulking, 8 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (ADVP-LOC (ADV Here))
+		    (, ,)
+		    (NP-SBJ (NUMP (NUM four) (CONJ or) (NUM five))
+			    (ADJ great)
+			    (VAG hulking)
+			    (NS fellows)
+			    (, ,)
+			    (ADJP (ADV just)
+				  (ADJ visible)
+				  (PP (P through)
+				      (NP (D a)
+					  (N cloud)
+					  (PP (P of)
+					      (NP (N+N tobacco-smoke)))))))
+		    (, ,)
+		    (BED were)
+		    (VAN engaged)
+		    (PP (P in)
+			(NP (ADJP (ADJ noisy) (CONJ and) (ADJ riotous))
+			    (N conversation)))
+		    (PP (P over)
+			(NP (Q+VAN half-emptied)
+			    (NS pots)
+			    (PP (P of)
+				(NP (N beer))))))
+	  (, ,)
+	  (CONJP (CONJ or)
+		 (IP-MAT=1 (VAG playing)
+			   (PP (P at)
+			       (NP (Q+NS all-fours)))
+			   (PP (P with)
+			       (NP (D a)
+				   (ADJP (ADV very) (ADJ greasy))
+				   (N pack)
+				   (PP (P of)
+				       (NP (NS cards)))))))
+	  (. .))
+  (ID DICKENS-1837,546.63))
+
+/~*
+He was a tall fellow, with an olive complexion, long dark hair, and very thick
+bushy whiskers meeting under his chin.
+(DICKENS-1837,551.187)
+*~/
+/*
+55 VAG:  55 VAG, 56 meeting, 42 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (BED was)
+	  (NP-OB1 (D a) (ADJ tall) (N fellow))
+	  (, ,)
+	  (PP (P with)
+	      (NP (NP (D an) (ADJ olive) (N complexion))
+		  (, ,)
+		  (CONJP (NP (ADJ long) (ADJ dark) (N hair)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP-SBJ (ADJP (ADV very)
+				       (ADJ thick)
+				       (CONJP (ADJX (ADJ bushy))))
+				 (NS whiskers)
+				 (RRC (VAG meeting)
+				      (PP (P under)
+					  (NP (PRO$ his) (N chin))))))))
+	  (. .))
+  (ID DICKENS-1837,551.187))
+
+/~*
+His legs, which, being long, were afflicted with weakness, graced a pair of
+Oxford-mixture trousers, made to show the full symmetry of the limbs.
+(DICKENS-1837,551.191)
+*~/
+/*
+21 BAG:  21 BAG, 22 being, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ His)
+		  (NS legs)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (, ,)
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (IP-PPL (BAG being)
+					  (ADJP (ADJ long)))
+				  (, ,)
+				  (BED were)
+				  (VAN afflicted)
+				  (PP (P with)
+				      (NP (N weakness))))))
+	  (, ,)
+	  (VBD graced)
+	  (NP-OB1 (D a)
+		  (N pair)
+		  (PP (P of)
+		      (NP (NPR+N Oxford-mixture)
+			  (NS trousers)
+			  (, ,)
+			  (RRC (VAN made)
+			       (IP-INF-PRP (TO to)
+					   (VB show)
+					   (NP-OB1 (D the)
+						   (ADJ full)
+						   (N symmetry)
+						   (PP (P of)
+						       (NP (D the) (NS limbs)))))))))
+	  (. .))
+  (ID DICKENS-1837,551.191))
+
+/~*
+This speech was accompanied with such a very expressive look at that
+particular portion of Mr Smangle's attire, by the appearance of which the
+skill of laundresses in getting up gentlemen's linen is generally tested, that
+he was fain to turn upon his heel, and, for the present at any rate, to give
+up all design on Mr Pickwick's purse and wardrobe.
+(DICKENS-1837,559.366)
+*~/
+/*
+89 VAG:  89 VAG, 90 getting, 72 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D This) (N speech))
+	  (BED was)
+	  (VAN accompanied)
+	  (PP (P with)
+	      (NP (ADJP (SUCH such)
+			(CP-DEG *ICH*-2))
+		  (D a)
+		  (ADJP (ADV very) (ADJ expressive))
+		  (N look)
+		  (PP (P at)
+		      (NP (D that)
+			  (ADJ particular)
+			  (N portion)
+			  (PP (P of)
+			      (NP (NP-POS (NPR Mr) (NPR$ Smangle's))
+				  (N attire)
+				  (, ,)
+				  (CP-REL (WPP-1 (P by)
+						 (WNP (D the)
+						      (N appearance)
+						      (WPP (P of)
+							   (WNP (WPRO which)))))
+					  (C 0)
+					  (IP-SUB (PP *T*-1)
+						  (NP-SBJ (D the)
+							  (CODE <P_559>)
+							  (N skill)
+							  (PP (P of)
+							      (NP (NS laundresses)))
+							  (PP (P in)
+							      (IP-PPL (VAG getting)
+								      (RP up)
+								      (NP-OB1 (ADJ+NS$ gentlemen's) (N linen)))))
+						  (BEP is)
+						  (ADVP (ADV generally))
+						  (VAN tested)))))))
+		  (, ,)
+		  (CP-DEG-2 (C that)
+			    (IP-SUB (NP-SBJ (PRO he))
+				    (BED was)
+				    (ADJP (ADJ fain)
+					  (IP-INF (IP-INF (TO to)
+							  (VB turn)
+							  (PP (P upon)
+							      (NP (PRO$ his) (N heel))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (, ,)
+							 (IP-INF (PP (P for)
+								     (NP (D the) (ADJ present)))
+								 (PP (P at)
+								     (NP (Q any) (N rate)))
+								 (, ,)
+								 (TO to)
+								 (VB give)
+								 (RP up)
+								 (NP-OB1 (Q all) (N design))
+								 (PP (P on)
+								     (NP (NP-POS (NPR Mr) (NPR$ Pickwick's))
+									 (N purse)
+									 (CONJP (CONJ and)
+										(NX (N wardrobe)))))))))))))
+	  (. .))
+  (ID DICKENS-1837,559.366))
+
+/~*
+'Why him in twenty-seven in the third, that this $gentleman $'s going to be
+chummed on.'
+(DICKENS-1837,560.401)
+*~/
+/*
+41 VAG:  41 VAG, 42 going, 7 NP-SBJ
+*/
+
+( (FRAG (' ')
+	(INTJP (WADV Why))
+	(NP-SBJ (PRO him)
+		(PP (P in)
+		    (NP (NUM twenty-seven)
+			(PP (P in)
+			    (NP (D the) (ADJ third)))))
+		(, ,)
+		(CP-REL-SPE (WNP-1 0)
+			    (C that)
+			    (IP-SUB-SPE (NP-SBJ (D this) (ADJ+N $gentleman))
+					(BEP $'s)
+					(CODE {TEXT:gentleman's})
+					(VAG going)
+					(IP-INF-SPE (TO to)
+						    (BE be)
+						    (VAN chummed)
+						    (PP (P on)
+							(NP *T*-1))))))
+	(. .)
+	(' '))
+  (ID DICKENS-1837,560.401))
+
+/~*
+As neither speaking, coughing, sneezing, knocking, nor any other ordinary mode
+of attracting attention, made this person aware of the presence of a visiter,
+Mr Pickwick, after some delay, stepped up to the window,
+(DICKENS-1837,561.419)
+*~/
+/*
+51 VAG:  51 VAG, 52 attracting, 9 NP-SBJ
+*/
+
+( (IP-MAT (PP (P As)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (CONJ neither)
+				      (NP (N speaking))
+				      (, ,)
+				      (CONJP (NP (N coughing)))
+				      (, ,)
+				      (CONJP (NP (N sneezing)))
+				      (, ,)
+				      (CONJP (NP (N knocking)))
+				      (, ,)
+				      (CONJP (CONJ nor)
+					     (NP (Q any)
+						 (OTHER other)
+						 (ADJ ordinary)
+						 (N mode)
+						 (PP (P of)
+						     (IP-PPL (VAG attracting)
+							     (NP-OB1 (N attention)))))))
+			      (, ,)
+			      (VBD made)
+			      (IP-SMC (NP-SBJ (D this) (N person))
+				      (ADJP (ADJ aware)
+					    (PP (P of)
+						(NP (D the)
+						    (N presence)
+						    (PP (P of)
+							(NP (D a) (N visiter))))))))))
+	  (CODE {COM:sic})
+	  (, ,)
+	  (NP-SBJ (NPR Mr) (NPR Pickwick))
+	  (, ,)
+	  (PP (P after)
+	      (NP (Q some) (N delay)))
+	  (, ,)
+	  (VBD stepped)
+	  (PP (RP up)
+	      (P to)
+	      (NP (D the) (N window)))
+	  (. ,))
+  (ID DICKENS-1837,561.419))
+
+/~*
+'So would I,' added the sporting one, solemnly.
+(DICKENS-1837,563.478)
+*~/
+/*
+22 VAG:  22 VAG, 23 sporting, 19 NP-SBJ
+*/
+
+( (IP-MAT (' ')
+	  (IP-MAT-SPE (ADVP (ADV So))
+		      (MD would)
+		      (NP-SBJ (PRO I)))
+	  (, ,)
+	  (' ')
+	  (VBD added)
+	  (NP-SBJ (D the) (VAG sporting) (ONE one))
+	  (, ,)
+	  (ADVP (ADV solemnly))
+	  (. .))
+  (ID DICKENS-1837,563.478))
+
+/~*
+'Why, yes,' said Mr Pickwick, who had been musing deeply for some time.
+(DICKENS-1837,564.527)
+*~/
+/*
+38 VAG:  38 VAG, 39 musing, 18 NP-SBJ
+*/
+
+( (IP-MAT (' ')
+	  (QTP (INTJP (WADV Why))
+	       (, ,)
+	       (INTJ yes))
+	  (, ,)
+	  (' ')
+	  (VBD said)
+	  (NP-SBJ (NPR Mr)
+		  (NPR Pickwick)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (HVD had)
+				  (BEN been)
+				  (VAG musing)
+				  (ADVP (ADV deeply))
+				  (PP (P for)
+				      (NP (Q some) (N time))))))
+	  (. .))
+  (ID DICKENS-1837,564.527))
+
+/~*
+A prisoner having declared upon the poor side, pays neither rent nor chummage.
+(DICKENS-1837,565.544)
+*~/
+/*
+8 HAG:  8 HAG, 9 having, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (N prisoner)
+		  (RRC (HAG having)
+		       (VBN declared)
+		       (PP (P upon)
+			   (NP (D the) (ADJ poor) (N side)))))
+	  (, ,)
+	  (VBP pays)
+	  (NP-OB1 (CONJ neither) (N rent) (CONJ nor) (N chummage))
+	  (. .))
+  (ID DICKENS-1837,565.544))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	9/9/566
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd
+*/
+
+/~*
+For as to Jones, though Love had now gotten entire Possession of his Heart,
+yet the pleasing Reflection on Mr. Allworthy 's Recovery, and the Presence of
+his Mistress, joined to some tender Looks which she now and then could not
+refrain from giving him, so elevated our Heroe, that he joined the Mirth of
+the other three, who were perhaps as good-humoured People as any in the World.
+(FIELDING-1749,2,6.96)
+*~/
+/*
+58 VAG:  58 VAG, 59 pleasing, 54 NP-SBJ
+141 VAG:  141 VAG, 142 giving, 54 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (P as)
+	      (PP (P to)
+		  (CODE <font>)
+		  (NP (NPR Jones))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP-LFD (P though)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (N Love))
+				  (HVD had)
+				  (ADVP-TMP (ADV now))
+				  (VBN gotten)
+				  (NP-OB1 (ADJ entire)
+					  (N Possession)
+					  (PP (P of)
+					      (NP (PRO$ his) (N Heart)))))))
+	  (, ,)
+	  (ADVP-RSP (ADV yet))
+	  (NP-SBJ (NP (D the)
+		      (VAG pleasing)
+		      (N Reflection)
+		      (PP (P on)
+			  (NP (NP-POS (NPR Mr.) (CODE <font>) (NPR Allworthy) (CODE <$$font>) ($ 's))
+			      (N Recovery))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (N Presence)
+			     (PP (P of)
+				 (NP (PRO$ his) (N Mistress)))
+			     (, ,)
+			     (RRC (VAN joined)
+				  (PP (P to)
+				      (NP (Q some)
+					  (ADJ tender)
+					  (NS Looks)
+					  (CP-REL (WNP-1 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ (PRO she))
+							  (ADVP-TMP (ADV now) (CONJ and) (ADV then))
+							  (MD could)
+							  (NEG not)
+							  (VB refrain)
+							  (PP (P from)
+							      (IP-PPL (NP-OB1 *T*-1)
+								      (VAG giving)
+								      (NP-OB2 (PRO him))))))))))))
+	  (, ,)
+	  (ADVP (ADVR so)
+		(CP-DEG *ICH*-2))
+	  (VBD elevated)
+	  (NP-OB1 (PRO$ our) (N Heroe))
+	  (, ,)
+	  (CP-DEG-2 (C that)
+		    (IP-SUB (NP-SBJ (PRO he))
+			    (VBD joined)
+			    (NP-OB1 (D the)
+				    (N Mirth)
+				    (PP (P of)
+					(NP (D the)
+					    (OTHER other)
+					    (NUM three)
+					    (, ,)
+					    (CP-REL (WNP-3 (WPRO who))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-3)
+							    (BED were)
+							    (ADVP (ADV perhaps))
+							    (NP-OB1 (ADJP (ADVR as) (ADJ good-humoured))
+								    (NS People)
+								    (PP (P as)
+									(NP (Q any)
+									    (PP (P in)
+										(NP (D the) (N World)))))))))))))
+	  (. .))
+  (ID FIELDING-1749,2,6.96))
+
+/~*
+Now the little trembling Hare, which the Dread of all her numerous Enemies,
+and chiefly of that cunning, cruel, carnivorous Animal Man, had confined all
+the Day to her Lurking-place, sports wantonly o'er the Lawns:
+(FIELDING-1749,3,5.328)
+*~/
+/*
+10 VAG:  10 VAG, 11 trembling, 5 NP-SBJ
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (NP-SBJ (D the)
+		  (ADJ little)
+		  (VAG trembling)
+		  (N Hare)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB-2 (NP-OB1 *T*-1)
+				    (NP-SBJ (D the)
+					    (N Dread)
+					    (PP (P of)
+						(NP (Q all) (PRO$ her) (ADJ numerous) (NS Enemies))))
+				    (, ,)
+				    (IP-SUB-PRN=2 (CONJ and)
+						  (ADVP (ADV chiefly))
+						  (PP (P of)
+						      (NP (D that)
+							  (ADJP (ADJ cunning) (, ,) (ADJ cruel) (, ,) (ADJ carnivorous))
+							  (N Animal)
+							  (NP-PRN-ELAB (N Man)))))
+				    (, ,)
+				    (HVD had)
+				    (VBN confined)
+				    (NP-MSR (Q all) (D the) (N Day))
+				    (PP (P to)
+					(NP (PRO$ her) (N+N Lurking-place))))))
+	  (, ,)
+	  (VBP sports)
+	  (ADVP (ADV wantonly))
+	  (PP (P o'er)
+	      (NP (D the) (NS Lawns)))
+	  (. :))
+  (ID FIELDING-1749,3,5.328))
+
+/~*
+He had no sooner recovered his Legs, than forth from the Bed, upon his Legs
+likewise, appeared - with Shame and Sorrow are we obliged to proceed - our
+Heroe himself, who, with a menacing Voice, demanded of the Gentleman who he
+was, and what he meant by daring to burst open his Chamber in that outrageous
+Manner.
+(FIELDING-1749,3,7.355)
+*~/
+/*
+117 VAG:  117 VAG, 118 menacing, 90 NP-SBJ
+171 VAG:  171 VAG, 172 daring, 90 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (HVD had)
+	  (ADVP-TMP (Q no)
+		    (ADVR sooner)
+		    (PP *ICH*-1))
+	  (VBN recovered)
+	  (NP-OB1 (PRO$ his) (NS Legs))
+	  (, ,)
+	  (PP-1 (P than)
+		(CP-CMP (WADVP-2 0)
+			(C 0)
+			(IP-SUB (ADVP-TMP *T*-2)
+				(PP (ADV forth)
+				    (P from)
+				    (NP (D the) (N Bed)))
+				(, ,)
+				(PP (P upon)
+				    (NP (PRO$ his) (NS Legs)))
+				(NP-ADV (ADJ+N likewise))
+				(, ,)
+				(VBD appeared)
+				(, -)
+				(IP-MAT-PRN (PP-TPC-3 (P with)
+						      (NP (N Shame) (CONJ and) (N Sorrow)))
+					    (BEP are)
+					    (NP-SBJ (PRO we))
+					    (VAN obliged)
+					    (IP-INF (PP *T*-3)
+						    (TO to)
+						    (VB proceed)))
+				(, -)
+				(NP-SBJ (PRO$ our)
+					(N Heroe)
+					(NP-PRN (PRO+N himself))
+					(, ,)
+					(CP-REL (WNP-4 (WPRO who))
+						(, ,)
+						(C 0)
+						(IP-SUB (NP-SBJ *T*-4)
+							(PP (P with)
+							    (NP (D a) (VAG menacing) (N Voice)))
+							(, ,)
+							(VBD demanded)
+							(PP (P of)
+							    (NP (D the) (ADJ+N Gentleman)))
+							(CP-QUE (CP-QUE (WNP-5 (WPRO who))
+									(C 0)
+									(IP-SUB (NP-OB1 *T*-5)
+										(NP-SBJ (PRO he))
+										(BED was)))
+								(, ,)
+								(CONJP (CONJ and)
+								       (CP-QUE (WNP-6 (WPRO what))
+									       (C 0)
+									       (IP-SUB (NP-OB1 *T*-6)
+										       (NP-SBJ (PRO he))
+										       (VBD meant)
+										       (PP (P by)
+											   (IP-PPL (VAG daring)
+												   (IP-INF (TO to)
+													   (VB burst)
+													   (ADJP-SPR (ADJ open))
+													   (NP-OB1 (PRO$ his) (N Chamber))
+													   (PP (P in)
+													       (NP (D that) (ADJ outrageous) (N Manner))))))))))))))))
+	  (. .))
+  (ID FIELDING-1749,3,7.355))
+
+/~*
+and $do $n't I see that the Lady, whom the Gentleman who stands here in his
+Shirt is lying in Bed with, is none of her? '
+(FIELDING-1749,3,9.376)
+*~/
+/*
+63 VAG:  63 VAG, 64 lying, 20 NP-SBJ
+*/
+
+( (CP-QUE-SPE (CONJ and)
+	      (IP-SUB-SPE (DOP $do)
+			  (NEG $n't)
+			  (CODE {TEXT:don't})
+			  (NP-SBJ (PRO I))
+			  (VB see)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (D the)
+							  (N Lady)
+							  (, ,)
+							  (CP-REL-SPE (WNP-1 (WPRO whom))
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ (D the)
+											  (ADJ+N Gentleman)
+											  (CP-REL-SPE (WNP-2 (WPRO who))
+												      (C 0)
+												      (IP-SUB-SPE (NP-SBJ *T*-2)
+														  (VBP stands)
+														  (ADVP-LOC (ADV here))
+														  (PP (P in)
+														      (NP (PRO$ his) (N Shirt))))))
+										  (BEP is)
+										  (VAG lying)
+										  (PP (P in)
+										      (NP (N Bed)))
+										  (PP (P with)
+										      (NP *T*-1)))))
+						  (, ,)
+						  (BEP is)
+						  (NP-OB1 (Q none)
+							  (PP (P of)
+							      (NP (PRO her)))))))
+	      (. ?)
+	      (' '))
+  (ID FIELDING-1749,3,9.376))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	6/4/486
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd
+*/
+
+/~*
+The proper topic of the narrative I am writing is the record of my errors.
+(GODWIN-1805,59.5)
+*~/
+/*
+30 VAG:  30 VAG, 31 writing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ proper)
+		  (N topic)
+		  (PP (P of)
+		      (NP (D the)
+			  (N narrative)
+			  (CP-REL (WNP-1 0)
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO I))
+					  (BEP am)
+					  (VAG writing))))))
+	  (BEP is)
+	  (NP-OB1 (D the)
+		  (N record)
+		  (PP (P of)
+		      (NP (PRO$ my) (NS errors))))
+	  (. .))
+  (ID GODWIN-1805,59.5))
+
+/~*
+The scents that surrounded me, the steaming earth, the fresh and invigorating
+air, the hay and the flowers, constituted, so to express myself, an olfactory
+concert, infinitely more ravishing than all the concords of harmonious sound
+that human art ever produced.
+(GODWIN-1805,61.58)
+*~/
+/*
+27 VAG:  27 VAG, 28 steaming, 2 NP-SBJ
+42 VAG:  42 VAG, 43 invigorating, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (D The)
+		      (NS scents)
+		      (CP-REL (WNP-1 0)
+			      (C that)
+			      (IP-SUB (NP-SBJ *T*-1)
+				      (VBD surrounded)
+				      (NP-OB1 (PRO me)))))
+		  (, ,)
+		  (CONJP (NP (D the) (VAG steaming) (N earth)))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (ADJP (ADJ fresh) (CONJ and) (VAG invigorating))
+			     (N air)))
+		  (, ,)
+		  (CONJP (NP (D the) (N hay)))
+		  (CONJP (CONJ and)
+			 (NP (D the) (NS flowers))))
+	  (, ,)
+	  (VBD constituted)
+	  (, ,)
+	  (IP-INF-ADT-PRN (ADVP (ADV so))
+			  (TO to)
+			  (VB express)
+			  (NP-OB1 (PRO$+N myself)))
+	  (, ,)
+	  (NP-OB1 (D an)
+		  (ADJ olfactory)
+		  (N concert)
+		  (, ,)
+		  (ADJP (ADV infinitely)
+			(QR more)
+			(VAG ravishing)
+			(PP (P than)
+			    (NP (Q all)
+				(D the)
+				(NS concords)
+				(PP (P of)
+				    (NP (ADJ harmonious) (N sound)))
+				(CP-REL (WNP-2 0)
+					(C that)
+					(IP-SUB (NP-OB1 *T*-2)
+						(NP-SBJ (ADJ human) (N art))
+						(ADVP-TMP (ADV ever))
+						(VBD produced)))))))
+	  (. .))
+  (ID GODWIN-1805,61.58))
+
+/~*
+the blooming maid rubbed his temples;
+(GODWIN-1805,63.123)
+*~/
+/*
+5 VAG:  5 VAG, 6 blooming, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D the) (VAG blooming) (N maid))
+	  (VBD rubbed)
+	  (NP-OB1 (PRO$ his) (NS temples))
+	  (. ;))
+  (ID GODWIN-1805,63.123))
+
+/~*
+In the train of these came my visions, my beloved and variegated inventions,
+the records, which to me appeared voluminous and momentous, of my past life,
+the plans of my future, the republics I formed, the seminaries of education
+for which I constructed laws, the figure I proposed hereafter to exhibit in
+the eyes of a wondering world.
+(GODWIN-1805,65.176)
+*~/
+/*
+201 VAG:  201 VAG, 202 wondering, 18 NP-SBJ
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the)
+		  (N train)
+		  (PP (P of)
+		      (NP (D these)))))
+	  (VBD came)
+	  (NP-SBJ (NP (PRO$ my) (NS visions))
+		  (, ,)
+		  (CONJP (NP (PRO$ my)
+			     (ADJP (ADJ beloved) (CONJ and) (VAN variegated))
+			     (NS inventions)))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (NS records)
+			     (, ,)
+			     (CP-REL (WNP-1 (WPRO which))
+				     (C 0)
+				     (IP-SUB (NP-SBJ *T*-1)
+					     (PP (P to)
+						 (NP (PRO me)))
+					     (CODE <P_65>)
+					     (VBD appeared)
+					     (ADJP (ADJ voluminous) (CONJ and) (ADJ momentous))))
+			     (, ,)
+			     (PP (P of)
+				 (NP (PRO$ my) (VBN past) (N life)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (NS plans)
+			     (PP (P of)
+				 (NP (PRO$ my) (ADJ future)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (NS republics)
+			     (CP-REL (WNP-2 0)
+				     (C 0)
+				     (IP-SUB (NP-OB1 *T*-2)
+					     (NP-SBJ (PRO I))
+					     (VBD formed)))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (NS seminaries)
+			     (PP (P of)
+				 (NP (N education)))
+			     (CP-REL (WPP-3 (P for)
+					    (WNP (WPRO which)))
+				     (C 0)
+				     (IP-SUB (PP *T*-3)
+					     (NP-SBJ (PRO I))
+					     (VBD constructed)
+					     (NP-OB1 (NS laws))))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (N figure)
+			     (CP-REL (WNP-4 0)
+				     (C 0)
+				     (IP-SUB (NP-SBJ (PRO I))
+					     (VBD proposed)
+					     (IP-INF (NP-OB1 *T*-4)
+						     (PP (ADV+P hereafter))
+						     (TO to)
+						     (VB exhibit)
+						     (PP (P in)
+							 (NP (D the)
+							     (NS eyes)
+							     (PP (P of)
+								 (NP (D a) (VAG wondering) (N world)))))))))))
+	  (. .))
+  (ID GODWIN-1805,65.176))
+
+/~*
+and he, who seemed to have at least as much skill as my tutor in discerning
+what passed in my mind, crept along the turf toward the spot which supported
+my head, with pleading and most diffident advances.
+(GODWIN-1805,68.262)
+*~/
+/*
+51 VAG:  51 VAG, 52 discerning, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO he)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD seemed)
+				  (IP-INF (TO to)
+					  (HV have)
+					  (NP-OB1 (QP (PP (P at)
+							  (QP (QS least)))
+						      (ADVR as)
+						      (Q much))
+						  (N skill)
+						  (PP (P as)
+						      (NP (PRO$ my) (N tutor))))
+					  (PP (P in)
+					      (IP-PPL (VAG discerning)
+						      (CP-QUE (WNP-2 (WPRO what))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-2)
+								      (VBD passed)
+								      (PP (P in)
+									  (NP (PRO$ my) (N mind)))))))))))
+	  (, ,)
+	  (VBD crept)
+	  (PP (P along)
+	      (NP (D the) (N turf)))
+	  (PP (P toward)
+	      (NP (D the)
+		  (N spot)
+		  (CP-REL (WNP-3 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-3)
+				  (VBD supported)
+				  (NP-OB1 (PRO$ my) (N head))))))
+	  (, ,)
+	  (PP (P with)
+	      (NP (ADJP (ADJP (VAG pleading))
+			(CONJP (CONJ and)
+			       (ADJP (QS most) (ADJ diffident))))
+		  (NS advances)))
+	  (. .))
+  (ID GODWIN-1805,68.262))
+
+/~*
+and the dogs of the caustic hunt let go their hold of the bleeding game.
+(GODWIN-1805,74.397)
+*~/
+/*
+35 VAG:  35 VAG, 36 bleeding, 24 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (NS dogs)
+		  (PP (P of)
+		      (NP (D the) (ADJ caustic) (N hunt))))
+	  (VBD let)
+	  (IP-INF (VB go)
+		  (NP-SBJ (PRO$ their)
+			  (N hold)
+			  (PP (P of)
+			      (NP (D the) (VAG bleeding) (N game)))))
+	  (. .))
+  (ID GODWIN-1805,74.397))
+
+/~*
+his black, coarse, shining hair, parted on the forehead, was every where of
+equal length,
+(GODWIN-1805,75.413)
+*~/
+/*
+14 VAG:  14 VAG, 15 shining, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ his)
+		  (ADJP (ADJ black) (, ,) (ADJ coarse) (, ,) (VAG shining))
+		  (N hair)
+		  (, ,)
+		  (RRC (VAN parted)
+		       (PP (P on)
+			   (NP (D the) (N forehead)))))
+	  (, ,)
+	  (BED was)
+	  (ADVP-LOC (Q every) (WADV where))
+	  (PP (P of)
+	      (NP (ADJ equal) (N length)))
+	  (. ,))
+  (ID GODWIN-1805,75.413))
+
+/~*
+and then a mighty rushing sound is heard of the river leaving its ancient
+bounds, and pouring its tide through the noisome and infectious walls.
+(GODWIN-1805,76.436)
+*~/
+/*
+12 VAG:  12 VAG, 13 rushing, 7 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP-TMP (ADV then))
+	  (NP-SBJ (D a)
+		  (ADJ mighty)
+		  (VAG rushing)
+		  (N sound)
+		  (PP *ICH*-1))
+	  (BEP is)
+	  (VAN heard)
+	  (PP-1 (P of)
+		(IP-PPL (IP-PPL (NP-SBJ (D the) (N river))
+				(VAG leaving)
+				(NP-OB1 (PRO$ its) (ADJ ancient) (NS bounds)))
+			(, ,)
+			(CONJP (CONJ and)
+			       (IP-PPL (NP-SBJ *con*)
+				       (VAG pouring)
+				       (NP-OB1 (PRO$ its) (N tide))
+				       (PP (P through)
+					   (NP (D the)
+					       (ADJP (ADJ noisome) (CONJ and) (ADJ infectious))
+					       (NS walls)))))))
+	  (. .))
+  (ID GODWIN-1805,76.436))
+
+/~*
+a more bungling and imperfect apology was tendered;
+(GODWIN-1805,84.557)
+*~/
+/*
+8 VAG:  8 VAG, 9 bungling, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D a)
+		  (ADJP (QR more)
+			(VAG bungling)
+			(CONJP (CONJ and)
+			       (ADJP (ADJ imperfect))))
+		  (CODE <P_84>)
+		  (N apology))
+	  (BED was)
+	  (VAN tendered)
+	  (. ;))
+  (ID GODWIN-1805,84.557))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	10/9/593
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd
+*/
+
+/~*
+This stammer in my address, and this awkward prepossessing visage of mine, can
+never permit me to soar above the reach of a milliner's 'prentice, or one of
+the duchesses of Drury-lane.
+(GOLDSMITH-1773,22.129)
+*~/
+/*
+26 VAG:  26 VAG, 27 prepossessing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (D This)
+		      (N stammer)
+		      (PP (P in)
+			  (NP (PRO$ my) (N address))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D this)
+			     (ADJ awkward)
+			     (VAG prepossessing)
+			     (N visage)
+			     (PP (P of)
+				 (NP (PRO$ mine))))))
+	  (, ,)
+	  (MD can)
+	  (ADVP-TMP (ADV never))
+	  (VB permit)
+	  (NP-OB1 (PRO me))
+	  (IP-INF (TO to)
+		  (VB soar)
+		  (PP (P above)
+		      (NP (D the)
+			  (N reach)
+			  (PP (P of)
+			      (NP (NP (NP-POS (D a) (N$ milliner's))
+				      (N 'prentice))
+				  (, ,)
+				  (CONJP (CONJ or)
+					 (NP (ONE one)
+					     (PP (P of)
+						 (NP (D the)
+						     (NS duchesses)
+						     (PP (P of)
+							 (NP (NPR+NPR Drury-lane))))))))))))
+	  (. .))
+  (ID GOLDSMITH-1773,22.129))
+
+/~*
+I believe our being here will but embarrass the interview.
+(GOLDSMITH-1773,35.415)
+*~/
+/*
+15 BAG:  15 BAG, 16 being, 11 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP believe)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO$ our)
+				  (IP-PPL (BAG being)
+					  (ADVP-LOC (ADV here))))
+			  (MD will)
+			  (FP but)
+			  (VB embarrass)
+			  (NP-OB1 (D the) (N interview))))
+	  (. .))
+  (ID GOLDSMITH-1773,35.415))
+
+/~*
+singing We are the boys That fears no noise Where the thundering cannons roar.
+(GOLDSMITH-1773,46.652)
+*~/
+/*
+54 VAG:  54 VAG, 55 thundering, 51 NP-SBJ
+*/
+
+( (IP-MAT (META (CODE <paren>)
+		(CODE <font>)
+		(IP-PPL (VAG singing))
+		(CODE <$$font>)
+		(CODE <$$paren>)
+		(CODE <font>))
+	  (NP-SBJ (PRO We))
+	  (BEP are)
+	  (NP-OB1 (D the)
+		  (NS boys)
+		  (CP-REL (WNP-1 0)
+			  (C That)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP fears)
+				  (NP-OB1 (Q no) (N noise))
+				  (ADVP-LOC (CP-FRL (WADVP-2 (WADV Where))
+						    (C 0)
+						    (IP-SUB (ADVP-LOC *T*-2)
+							    (NP-SBJ (D the) (VAG thundering) (NS cannons))
+							    (VBP roar)))))))
+	  (. .)
+	  (CODE <$$font>)
+	  (CODE <bracket>))
+  (ID GOLDSMITH-1773,46.652))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	3/3/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd
+*/
+
+/~*
+Such are the petty accidents affecting circumstances.
+(MEREDITH-1895,19,142.187)
+*~/
+/*
+15 VAG:  15 VAG, 16 affecting, 7 NP-SBJ
+*/
+
+( (IP-MAT (ADJP (SUCH Such))
+	  (BEP are)
+	  (NP-SBJ (D the)
+		  (ADJ petty)
+		  (NS accidents)
+		  (RRC (VAG affecting)
+		       (NP-OB1 (NS circumstances))))
+	  (. .))
+  (ID MEREDITH-1895,19,142.187))
+
+/~*
+And thus we see how a pair of lovers, blind with the one object of lovers in
+view; and a miserly uncle, all on edge to save himself the expense of
+supporting his niece; and an idolatrous old admiral, on his back with gout;
+conduced in turn and together to the marriage gradually exciting the world's
+wonder, till it eclipsed the story of the Old Buccaneer and Countess Fanny,
+which it caused to be discussed afresh.
+(MEREDITH-1895,19,145.230)
+*~/
+/*
+101 VAG:  101 VAG, 102 supporting, 21 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV thus))
+	  (NP-SBJ (PRO we))
+	  (VBP see)
+	  (CP-QUE (WADVP-1 (WADV how))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-1)
+			  (NP-SBJ (NP (D a)
+				      (N pair)
+				      (PP (P of)
+					  (NP (NS lovers)))
+				      (, ,)
+				      (ADJP (ADJ blind)
+					    (PP (P with)
+						(IP-SMC (NP-SBJ (D the)
+								(ONE one)
+								(N object)
+								(PP (P of)
+								    (NP (NS lovers))))
+							(PP (P in)
+							    (NP (N view)))))))
+				  (, ;)
+				  (CONJP (CONJ and)
+					 (NP (D a)
+					     (ADJ miserly)
+					     (N uncle)
+					     (, ,)
+					     (RRC (PP (Q all)
+						      (P on)
+						      (NP (N edge)))
+						  (IP-INF-PRP (TO to)
+							      (VB save)
+							      (NP-OB2 (PRO+N himself))
+							      (NP-OB1 (D the)
+								      (N expense)
+								      (PP (P of)
+									  (IP-PPL (VAG supporting)
+										  (NP-OB1 (PRO$ his) (N niece)))))))))
+				  (, ;)
+				  (CONJP (CONJ and)
+					 (NP (D an)
+					     (ADJ idolatrous)
+					     (ADJ old)
+					     (N admiral)
+					     (, ,)
+					     (RRC (PP (P on)
+						      (NP (PRO$ his) (N back)))
+						  (PP (P with)
+						      (NP (N gout)))))))
+			  (, ;)
+			  (VBD conduced)
+			  (PP (PP (P in)
+				  (NP (N turn)))
+			      (CONJP (CONJ and)
+				     (ADVP (ADV together))))
+			  (PP (P to)
+			      (NP (D the)
+				  (N marriage)
+				  (RRC (ADVP (ADV gradually))
+				       (VAG exciting)
+				       (NP-OB1 (NP-POS (D the) (N$ world's))
+					       (N wonder))
+				       (, ,)
+				       (PP (P till)
+					   (CP-ADV (C 0)
+						   (IP-SUB (NP-SBJ (PRO it))
+							   (VBD eclipsed)
+							   (NP-OB1 (D the)
+								   (N story)
+								   (PP (P of)
+								       (NP (NP (D the) (ADJ Old) (N Buccaneer))
+									   (CONJP (CONJ and)
+										  (NP (NPR Countess) (NPR Fanny)))))
+								   (, ,)
+								   (CP-REL (WNP-2 (WPRO which))
+									   (C 0)
+									   (IP-SUB (NP-SBJ (PRO it))
+										   (VBD caused)
+										   (IP-INF (NP-SBJ *T*-2)
+											   (TO to)
+											   (BE be)
+											   (VAN discussed)
+											   (ADVP (P+ADJ afresh))))))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,145.230))
+
+/~*
+A day having the gale in its breast, sweeping the whole country and bending
+the trees for the twigs to hiss like spray of the billows around our island,
+was a day of golden splendour to the young bride of the Earl of Fleetwood,
+though he scarcely addressed one syllable to her, and they sat side by side
+all but dumb, he like a coachman driving an unknown lady fare, on a morning
+after a night when his wife's tongue may have soured him for the sex.
+(MEREDITH-1895,19,145.238)
+*~/
+/*
+9 HAG:  9 HAG, 10 having, 2 NP-SBJ
+28 VAG:  28 VAG, 29 sweeping, 2 NP-SBJ
+41 VAG:  41 VAG, 42 bending, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (N day)
+		  (RRC (RRC (HAG having)
+			    (NP-OB1 (D the) (N gale))
+			    (PP (P in)
+				(NP (PRO$ its) (N breast))))
+		       (, ,)
+		       (CONJP (RRC (VAG sweeping)
+				   (NP-OB1 (D the) (ADJ whole) (N country))))
+		       (CONJP (CONJ and)
+			      (RRC (VAG bending)
+				   (NP-OB1 (D the) (NS trees))
+				   (IP-INF-PRP (FOR for)
+					       (NP-SBJ (D the) (NS twigs))
+					       (TO to)
+					       (VB hiss)
+					       (ADJP-SPR (ADJ like)
+							 (NP (N spray)
+							     (PP (P of)
+								 (NP (D the) (NS billows)))))
+					       (PP (P around)
+						   (NP (PRO$ our) (N island))))))))
+	  (, ,)
+	  (BED was)
+	  (NP-OB1 (D a)
+		  (N day)
+		  (PP (P of)
+		      (NP (ADJ golden) (N splendour))))
+	  (PP (P to)
+	      (NP (D the)
+		  (ADJ young)
+		  (N bride)
+		  (PP (P of)
+		      (NP (D the)
+			  (N Earl)
+			  (PP (P of)
+			      (NP (NPR Fleetwood)))))))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+				      (ADVP (ADV scarcely))
+				      (VBD addressed)
+				      (NP-OB1 (ONE one) (N syllable))
+				      (PP (P to)
+					  (NP (PRO her))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (IP-SUB-1 (NP-SBJ (PRO they))
+						       (VBD sat)
+						       (NP-ADV (N side)
+							       (PP (P by)
+								   (NP (N side))))
+						       (ADJP-SPR (NP-MSR (Q all)
+									 (PP (P but)))
+								 (ADJ dumb)))
+					     (, ,)
+					     (CONJP (IP-SUB=1 (NP-SBJ (PRO he))
+							      (ADJP-SPR (ADJ like)
+									(NP (D a)
+									    (N+N coachman)
+									    (RRC (VAG driving)
+										 (NP-OB1 (D an) (ADJ unknown) (N lady) (N fare))
+										 (, ,)
+										 (PP (P on)
+										     (NP (D a)
+											 (N morning)
+											 (PP (P after)
+											     (NP (D a)
+												 (N night)
+												 (CP-REL (WADVP-2 (WADV when))
+													 (C 0)
+													 (IP-SUB (ADVP-TMP *T*-2)
+														 (NP-SBJ (NP-POS (PRO$ his) (N$ wife's))
+															 (N tongue))
+														 (MD may)
+														 (HV have)
+														 (VBN soured)
+														 (NP-OB1 (PRO him))
+														 (PP (P for)
+														     (NP (D the) (N sex)))))))))))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,145.238))
+
+/~*
+Speculations regarding the chances of a fall of rain followed the coach until
+it sank
+(MEREDITH-1895,19,148.292)
+*~/
+/*
+6 VAG:  6 VAG, 7 regarding, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NS Speculations)
+		  (RRC (VAG regarding)
+		       (NP-OB1 (D the)
+			       (NS chances)
+			       (PP (P of)
+				   (NP (D a)
+				       (N fall)
+				       (PP (P of)
+					   (NP (N rain))))))))
+	  (VBD followed)
+	  (NP-OB1 (D the) (N coach))
+	  (PP (P until)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (VBP sank)))))
+  (ID MEREDITH-1895,19,148.292))
+
+/~*
+A famous maxim in the book of the Old Buccaneer, treating of Precaution, as '
+The brave man's clean conscience,' with sound counsel to the adventurous, has
+it: - 'Then you sail away into the tornado, happy as a sealed bottle of ripe
+wine.'
+(MEREDITH-1895,19,149.300)
+*~/
+/*
+30 VAG:  30 VAG, 31 treating, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (ADJ famous)
+		  (N maxim)
+		  (PP (P in)
+		      (NP (D the)
+			  (N book)
+			  (PP (P of)
+			      (NP (D the) (ADJ Old) (N Buccaneer)))))
+		  (, ,)
+		  (RRC (VAG treating)
+		       (PP (P of)
+			   (NP (N Precaution)))
+		       (, ,)
+		       (PP (P as)
+			   (CODE <font>)
+			   (' ')
+			   (NP (NP-POS (D The) (ADJ brave) (N$ man's))
+			       (ADJ clean)
+			       (N conscience)))
+		       (, ,)
+		       (' ')
+		       (CODE <$$font>)
+		       (PP (P with)
+			   (NP (ADJ sound)
+			       (N counsel)
+			       (PP (P to)
+				   (NP (D the) (ADJ adventurous)))))))
+	  (, ,)
+	  (HVP has)
+	  (NP-OB1-1 (PRO it))
+	  (, :)
+	  (, -)
+	  (CODE <font>)
+	  (' ')
+	  (IP-MAT-SPE-1 (ADVP-TMP (ADV Then))
+			(NP-SBJ (PRO you))
+			(VBP sail)
+			(ADVP-DIR (ADV away))
+			(PP (P into)
+			    (NP (D the) (N tornado)))
+			(, ,)
+			(ADJP-SPR (ADJ happy)
+				  (PP (P as)
+				      (NP (D a)
+					  (VAN sealed)
+					  (N bottle)
+					  (PP (P of)
+					      (NP (ADJ ripe) (N wine)))))))
+	  (. .)
+	  (' ')
+	  (CODE <$$font>))
+  (ID MEREDITH-1895,19,149.300))
+
+/~*
+It should mean, that brave men entering the jaws of hurricanes are found to
+have cheerful hearts in them when they know they have done their best.
+(MEREDITH-1895,19,149.301)
+*~/
+/*
+21 VAG:  21 VAG, 22 entering, 15 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (MD should)
+	  (VB mean)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (ADJ brave)
+				  (NS men)
+				  (RRC (VAG entering)
+				       (NP-OB1 (D the)
+					       (NS jaws)
+					       (PP (P of)
+						   (NP (NS hurricanes))))))
+			  (BEP are)
+			  (VAN found)
+			  (IP-INF (TO to)
+				  (HV have)
+				  (NP-OB1 (ADJ cheerful) (NS hearts))
+				  (PP (P in)
+				      (NP (PRO them))))
+			  (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (VBP know)
+					      (CP-THT (C 0)
+						      (IP-SUB (NP-SBJ (PRO they))
+							      (HVP have)
+							      (DON done)
+							      (NP-OB1 (PRO$ their) (ADJS best)))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,149.301))
+
+/~*
+His not speaking to her was accepted.
+(MEREDITH-1895,19,149.306)
+*~/
+/*
+8 VAG:  8 VAG, 9 speaking, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ His)
+		  (IP-PPL (NEG not)
+			  (VAG speaking)
+			  (PP (P to)
+			      (NP (PRO her)))))
+	  (BED was)
+	  (VAN accepted)
+	  (. .))
+  (ID MEREDITH-1895,19,149.306))
+
+/~*
+and the humming rush of the pace, the smooth torrent of the brown heath-knolls
+and reddish pits and hedge-lines and grass-flats and copses pouring the
+counter-way of her advance, belonged to his wizardry.
+(MEREDITH-1895,19,150.317)
+*~/
+/*
+8 VAG:  8 VAG, 9 humming, 4 NP-SBJ
+67 VAG:  67 VAG, 68 pouring, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NP (D the)
+		      (VAG humming)
+		      (N rush)
+		      (PP (P of)
+			  (NP (D the) (N pace))))
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (ADJ smooth)
+			     (N torrent)
+			     (PP (P of)
+				 (NP (D the)
+				     (ADJ brown)
+				     (NS heath-knolls)
+				     (CONJP (CONJ and)
+					    (NX (ADJ reddish) (NS pits)))
+				     (CONJP (CONJ and)
+					    (NX (N+NS hedge-lines)))
+				     (CONJP (CONJ and)
+					    (NX (N+NS grass-flats)))
+				     (CONJP (CONJ and)
+					    (NX (NS copses)))))
+			     (RRC (VAG pouring)
+				  (NP-OB1 (D the)
+					  (N+N counter-way)
+					  (PP (P of)
+					      (NP (PRO$ her) (N advance))))))))
+	  (, ,)
+	  (VBD belonged)
+	  (PP (P to)
+	      (NP (PRO$ his) (N wizardry)))
+	  (. .))
+  (ID MEREDITH-1895,19,150.317))
+
+/~*
+heaven and the yawning pit were the contrast!
+(MEREDITH-1895,19,152.367)
+*~/
+/*
+12 VAG:  12 VAG, 13 yawning, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (NPR heaven))
+		  (CONJP (CONJ and)
+			 (NP (D the) (VAG yawning) (N pit))))
+	  (BED were)
+	  (NP-OB1 (D the) (N contrast))
+	  (. !))
+  (ID MEREDITH-1895,19,152.367))
+
+/~*
+English scenery, animating air; a rouse to the blood and the mind.
+(MEREDITH-1895,19,155.450)
+*~/
+/*
+12 VAG:  12 VAG, 13 animating, 2 NP-SBJ
+*/
+
+( (IP-ABS (NP-SBJ (NP (ADJ English) (N scenery))
+		  (, ,)
+		  (CONJP (NP (VAG animating) (N air))))
+	  (, ;)
+	  (NP-OB1 (D a)
+		  (N rouse)
+		  (PP (P to)
+		      (NP (NP (D the) (N blood))
+			  (CONJP (CONJ and)
+				 (NP (D the) (N mind))))))
+	  (. .))
+  (ID MEREDITH-1895,19,155.450))
+
+/~*
+At the same time, a curious intimation, gathered she knew not whence, of the
+word 'husband' on a young wife's lips as being a foreign sound in England,
+advised her to withhold it.
+(MEREDITH-1895,19,155.458)
+*~/
+/*
+73 BAG:  73 BAG, 74 being, 14 NP-SBJ
+*/
+
+( (IP-MAT (PP (P At)
+	      (NP (D the) (ADJ same) (N time)))
+	  (, ,)
+	  (NP-SBJ (D a)
+		  (ADJ curious)
+		  (N intimation)
+		  (, ,)
+		  (RRC (VAN gathered)
+		       (NP-LOC (IP-MAT-PRN (NP-SBJ (PRO she))
+					   (VBD knew)
+					   (NEG not)
+					   (CP-QUE (WADVP (WADV whence))))))
+		  (, ,)
+		  (PP (P of)
+		      (NP (D the)
+			  (N word)
+			  (' ')
+			  (QTP (N husband))
+			  (' ')
+			  (PP (P on)
+			      (NP (NP-POS (D a) (ADJ young) (N$ wife's))
+				  (NS lips)))
+			  (PP (P as)
+			      (IP-PPL (BAG being)
+				      (NP-OB1 (D a) (ADJ foreign) (N sound))
+				      (PP (P in)
+					  (NP (NPR England))))))))
+	  (, ,)
+	  (VBD advised)
+	  (NP-OB1 (PRO her))
+	  (IP-INF (TO to)
+		  (VB withhold)
+		  (NP-OB1 (PRO it)))
+	  (. .))
+  (ID MEREDITH-1895,19,155.458))
+
+/~*
+a singularly cutting smile was on his tight lips, in memory of a desire he had
+as a boy to join hands with an Amazonian damsel and be out over the world for
+adventures, comrade and bride as one.
+(MEREDITH-1895,19,158.537)
+*~/
+/*
+8 VAG:  8 VAG, 9 cutting, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D a)
+		  (ADJP (ADV singularly) (VAG cutting))
+		  (N smile))
+	  (BED was)
+	  (PP (P on)
+	      (NP (PRO$ his) (ADJ tight) (NS lips)))
+	  (, ,)
+	  (PP (P in)
+	      (NP (N memory)
+		  (PP (P of)
+		      (NP (D a)
+			  (N desire)
+			  (CP-REL (WNP-1 0)
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (HVD had)
+					  (PP (P as)
+					      (NP (D a) (N boy)))))
+			  (IP-INF (IP-INF (TO to)
+					  (VB join)
+					  (NP-OB1 (NS hands))
+					  (PP (P with)
+					      (NP (D an) (ADJ Amazonian) (N damsel))))
+				  (CONJP (CONJ and)
+					 (IP-INF (TO *)
+						 (BE be)
+						 (PP (RP out)
+						     (P over)
+						     (NP (D the) (N world)))
+						 (PP (P for)
+						     (NP (NS adventures)))
+						 (, ,)
+						 (NP-ADV (N comrade)
+							 (CONJP (CONJ and)
+								(NP (N bride)))
+							 (PP (P as)
+							     (NP (ONE one)))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,158.537))
+
+/~*
+The devil possessing him gnawed so furiously that a partial mitigation of the
+pain was afforded by sight of waving hats on a hill-rise of the road.
+(MEREDITH-1895,19,158.541)
+*~/
+/*
+8 VAG:  8 VAG, 9 possessing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N devil)
+		  (RRC (VAG possessing)
+		       (NP-OB1 (PRO him))))
+	  (VBD gnawed)
+	  (ADVP (ADVR so)
+		(ADV furiously)
+		(CP-DEG (C that)
+			(IP-SUB (NP-SBJ (D a)
+					(ADJ partial)
+					(N mitigation)
+					(PP (P of)
+					    (NP (D the) (N pain))))
+				(BED was)
+				(VAN afforded)
+				(PP (P by)
+				    (NP (N sight)
+					(PP (P of)
+					    (NP (VAG waving) (NS hats)))
+					(PP (P on)
+					    (NP (D a)
+						(N+N hill-rise)
+						(PP (P of)
+						    (NP (D the) (N road))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,158.541))
+
+/~*
+'Went into it puffy, came out of it bunged,' the chronicle resounding over
+England ran.
+(MEREDITH-1895,19,160.596)
+*~/
+/*
+48 VAG:  48 VAG, 49 resounding, 42 NP-SBJ
+*/
+
+( (IP-MAT (' ')
+	  (IP-MAT-SPE (IP-MAT-SPE (NP-SBJ *pro*)
+				  (VBD Went)
+				  (PP (P into)
+				      (NP (PRO it)))
+				  (ADJP-SPR (ADJ puffy)))
+		      (, ,)
+		      (CONJP (IP-MAT-SPE (NP-SBJ *pro*)
+					 (VBD came)
+					 (PP (RP out)
+					     (P of)
+					     (NP (PRO it)))
+					 (ADJP-SPR (VAN bunged)))))
+	  (, ,)
+	  (' ')
+	  (NP-SBJ (D the)
+		  (N chronicle)
+		  (RRC (VAG resounding)
+		       (PP (P over)
+			   (NP (NPR England)))))
+	  (VBD ran)
+	  (. .))
+  (ID MEREDITH-1895,19,160.596))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	17/14/652
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd
+*/
+
+/~*
+The images that impressed his sleeping fancy remained strongly on his mind
+waking;
+(REEVE-1777,10.235)
+*~/
+/*
+20 VAG:  20 VAG, 21 sleeping, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (NS images)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD impressed)
+				  (NP-OB1 (PRO$ his) (VAG sleeping) (N fancy)))))
+	  (VBD remained)
+	  (ADVP (ADV strongly))
+	  (PP (P on)
+	      (NP (PRO$ his) (N mind)))
+	  (IP-PPL (VAG waking))
+	  (. ;))
+  (ID REEVE-1777,10.235))
+
+/~*
+The following incidents are clear enough to be transcribed,
+(REEVE-1777,28.603)
+*~/
+/*
+7 VAG:  7 VAG, 8 following, 4 NP-SBJ
+*/
+
+( (IP-MAT (CODE <paren>)
+	  (NP-SBJ (D The) (VAG following) (NS incidents))
+	  (BEP are)
+	  (ADJP (ADJ clear)
+		(ADVP (ADVR enough))
+		(IP-INF-DEG (TO to) (BE be) (VAN transcribed)))
+	  (. ,))
+  (ID REEVE-1777,28.603))
+
+/~*
+but the beginning of the next succeeding pages, is obliterated;
+(REEVE-1777,28.604)
+*~/
+/*
+18 VAG:  18 VAG, 19 succeeding, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D the)
+		  (N beginning)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJP (ADVS next) (VAG succeeding))
+			  (NS pages))))
+	  (, ,)
+	  (BEP is)
+	  (VAN obliterated)
+	  (. ;))
+  (ID REEVE-1777,28.604))
+
+/~*
+The duke of York whose pride of birth equalled any man living or dead,
+sheathed his sword immediately.
+(REEVE-1777,32.690)
+*~/
+/*
+38 VAG:  38 VAG, 39 living, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N duke)
+		  (PP (P of)
+		      (NP (NPR York)))
+		  (CP-REL (WNP-1 (WPRO$ whose)
+				 (N pride)
+				 (PP (P of)
+				     (NP (N birth))))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD equalled)
+				  (NP-OB1 (Q any)
+					  (N man)
+					  (ADJP (VAG living) (CONJ or) (ADJ dead))))))
+	  (, ,)
+	  (VBD sheathed)
+	  (NP-OB1 (PRO$ his) (N sword))
+	  (ADVP-TMP (ADV immediately))
+	  (. .))
+  (ID REEVE-1777,32.690))
+
+/~*
+One day, as they were walking in a wood near the castle, Edmund asked the
+father what meant the preparations for building, the cutting down trees and
+burning of bricks.
+(REEVE-1777,35.741)
+*~/
+/*
+77 VAG:  77 VAG, 78 cutting, 60 NP-SBJ
+*/
+
+( (IP-MAT (NP-TMP (ONE One) (N day))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BED were)
+			      (VAG walking)
+			      (PP (P in)
+				  (NP (D a) (N wood)))
+			      (ADJP-LOC (ADJ near)
+					(NP (D the) (N castle))))))
+	  (, ,)
+	  (NP-SBJ (NPR Edmund))
+	  (VBD asked)
+	  (NP-OB2 (D the) (N father))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (VBD meant)
+			  (NP-SBJ (D the)
+				  (NS preparations)
+				  (PP (P for)
+				      (NP (N building)))
+				  (, ,)
+				  (NP-PRN (D the)
+					  (IP-PPL (VAG cutting)
+						  (RP down)
+						  (NP-OB1 (NS trees)))
+					  (CONJP (CONJ and)
+						 (NX (N burning)
+						     (PP (P of)
+							 (NP (NS bricks)))))))))
+	  (. .))
+  (ID REEVE-1777,35.741))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	5/5/751
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd
+*/
+
+/~*
+and the Knowledge you already have of them, and the intimate Friendship they
+know is subsisting between us, are Motives strong enough to introduce you;
+(STEVENS-1745,41.601)
+*~/
+/*
+63 VAG:  63 VAG, 64 subsisting, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NP (D the)
+		      (N Knowledge)
+		      (CP-REL (WNP-1 0)
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (NP-SBJ (PRO you))
+				      (ADVP (ADV already))
+				      (HVP have)))
+		      (PP (P of)
+			  (NP (PRO them))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (ADJ intimate)
+			     (N Friendship)
+			     (CP-REL (WNP-2 0)
+				     (C 0)
+				     (IP-SUB (NP-SBJ (PRO they))
+					     (VBP know)
+					     (CP-THT (C 0)
+						     (IP-SUB (NP-SBJ *T*-2)
+							     (BEP is)
+							     (VAG subsisting)
+							     (PP (P between)
+								 (NP (PRO us))))))))))
+	  (, ,)
+	  (BEP are)
+	  (NP-OB1 (NS Motives)
+		  (ADJP (ADJ strong)
+			(ADVP (ADVR enough)
+			      (IP-INF-DEG (TO to)
+					  (VB introduce)
+					  (NP-OB1 (PRO you))))))
+	  (. ;))
+  (ID STEVENS-1745,41.601))
+
+/~*
+and the Person seeing me, ask'd my Business, and, who I belong'd to;
+(STEVENS-1745,46.750)
+*~/
+/*
+10 VAG:  10 VAG, 11 seeing, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (N Person)
+		  (RRC (VAG seeing)
+		       (NP-OB1 (PRO me))))
+	  (, ,)
+	  (VBD ask'd)
+	  (NP-OB1 (NP (PRO$ my) (N Business))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (, ,)
+			 (CP-QUE (WNP-1 (WPRO who))
+				 (C 0)
+				 (IP-SUB (NP-SBJ (PRO I))
+					 (VBD belong'd)
+					 (PP (P to)
+					     (NP *T*-1))))))
+	  (. ;))
+  (ID STEVENS-1745,46.750))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	2/2/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd
+*/
+
+/~*
+What they are making of us are false idols merely.
+(WILDE-1895,71.869)
+*~/
+/*
+17 VAG:  17 VAG, 18 making, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (CP-FRL (WNP-1 (WPRO What))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO they))
+				  (BEP are)
+				  (VAG making)
+				  (PP (P of)
+				      (NP (PRO us))))))
+	  (BEP are)
+	  (NP-OB1 (ADJ false) (NS idols))
+	  (ADVP (ADV merely))
+	  (. .))
+  (ID WILDE-1895,71.869))
+
+/~*
+On the right is the door leading into the hall. On the left, the door of the
+smoking-room.
+(WILDE-1895,72.899)
+*~/
+/*
+20 VAG:  20 VAG, 21 leading, 14 NP-SBJ
+*/
+
+( (META (IP-MAT (IP-MAT-1 (PP (P On)
+			      (NP (D the) (ADJ right)))
+			  (BEP is)
+			  (NP-SBJ (D the)
+				  (N door)
+				  (RRC (VAG leading)
+				       (PP (P into)
+					   (NP (D the) (N hall))))))
+		(, .)
+		(CONJP (IP-MAT=1 (PP (P On)
+				     (NP (D the) (ADJ left)))
+				 (, ,)
+				 (NP-SBJ (D the)
+					 (N door)
+					 (PP (P of)
+					     (NP (D the) (N+N smoking-room))))))
+		(. .)))
+  (ID WILDE-1895,72.899))
+
+/~*
+A pair of folding doors at the back open into the drawing-room.
+(WILDE-1895,72.900)
+*~/
+/*
+12 VAG:  12 VAG, 13 folding, 3 NP-SBJ
+*/
+
+( (META (IP-MAT (NP-SBJ (D A)
+			(N pair)
+			(PP (P of)
+			    (NP (VAG folding) (NS doors)))
+			(PP (P at)
+			    (NP (D the) (N back))))
+		(VBP open)
+		(PP (P into)
+		    (NP (D the) (N+N drawing-room)))
+		(. .)))
+  (ID WILDE-1895,72.900))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	3/3/996
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd
+*/
+
+/~*
+and what is the use of making a secret of what even Violetta knows? "
+(YONGE-1865,166.199)
+*~/
+/*
+21 VAG:  21 VAG, 22 making, 12 NP-SBJ
+*/
+
+( (CP-QUE-SPE (CONJ and)
+	      (WNP-1 (WPRO what))
+	      (IP-SUB-SPE (NP-OB1 *T*-1)
+			  (BEP is)
+			  (NP-SBJ (D the)
+				  (N use)
+				  (PP (P of)
+				      (IP-PPL-SPE (VAG making)
+						  (NP-OB1 (D a) (N secret))
+						  (PP (P of)
+						      (NP (CP-FRL-SPE (WNP-2 (WPRO what))
+								      (C 0)
+								      (IP-SUB-SPE (NP-OB1 *T*-2)
+										  (NP-SBJ (FP even) (NPR Violetta))
+										  (VBP knows)))))))))
+	      (. ?)
+	      (" "))
+  (ID YONGE-1865,166.199))
+
+/~*
+The Colonel had a turn for geology, though a wandering life even with an
+Indian baggage-train had saved him from incurring her contempt for collectors;
+(YONGE-1865,173.374)
+*~/
+/*
+32 VAG:  32 VAG, 33 wandering, 29 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N Colonel))
+	  (HVD had)
+	  (NP-OB1 (D a) (N turn))
+	  (PP (P for)
+	      (NP (N geology)))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D a)
+				      (VAG wandering)
+				      (N life)
+				      (PP (FP even)
+					  (P with)
+					  (NP (D an) (ADJ Indian) (N+N baggage-train))))
+			      (HVD had)
+			      (VBN saved)
+			      (NP-OB1 (PRO him))
+			      (PP (P from)
+				  (IP-PPL (VAG incurring)
+					  (NP-OB1 (PRO$ her)
+						  (N contempt)
+						  (PP (P for)
+						      (NP (NS collectors)))))))))
+	  (. ;))
+  (ID YONGE-1865,173.374))
+
+/~*
+Perhaps clever men, of a profession not necessarily requiring constant brain
+work, are not so much inclined to rest the mind with feminine empty chatter,
+as are those whose intellect is more on the strain.
+(YONGE-1865,174.396)
+*~/
+/*
+26 VAG:  26 VAG, 27 requiring, 5 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (ADV Perhaps))
+	  (NP-SBJ (ADJ clever)
+		  (NS men)
+		  (, ,)
+		  (PP (P of)
+		      (NP (D a)
+			  (N profession)
+			  (RRC (NEG not)
+			       (ADVP (ADV necessarily))
+			       (VAG requiring)
+			       (NP-OB1 (ADJ constant) (N brain) (N work))))))
+	  (, ,)
+	  (BEP are)
+	  (NEG not)
+	  (NP-MSR (QP (ADVR so) (Q much))
+		  (PP *ICH*-1))
+	  (VAN inclined)
+	  (IP-INF (TO to)
+		  (VB rest)
+		  (NP-OB1 (D the) (N mind))
+		  (PP (P with)
+		      (NP (ADJP (ADJ feminine) (ADJ empty))
+			  (N chatter))))
+	  (, ,)
+	  (PP-1 (P as)
+		(CP-CMP (WNP-2 0)
+			(C 0)
+			(IP-SUB (NP-MSR *T*-2)
+				(BEP are)
+				(NP-SBJ (D those)
+					(CP-REL (WNP-3 (WPRO$ whose) (N intellect))
+						(C 0)
+						(IP-SUB (NP-SBJ *T*-3)
+							(BEP is)
+							(PP (NP-MSR (QR more))
+							    (P on)
+							    (NP (D the) (N strain)))))))))
+	  (. .))
+  (ID YONGE-1865,174.396))
+
+/~*
+but at that moment something many-legged and tickling flitted into the light,
+(YONGE-1865,181.565)
+*~/
+/*
+20 VAG:  20 VAG, 21 tickling, 12 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P at)
+	      (NP (D that) (N moment)))
+	  (NP-SBJ (Q+N something)
+		  (ADJP (ADJ many-legged) (CONJ and) (VAG tickling)))
+	  (VBD flitted)
+	  (PP (P into)
+	      (NP (D the) (N light)))
+	  (. ,))
+  (ID YONGE-1865,181.565))
+
+/~*
+That pensive simplicity, with the smile of heartfelt satisfaction at giving
+pleasure to anybody, were more and more engaging as her spirits recovered
+their tone,
+(YONGE-1865,183.617)
+*~/
+/*
+31 VAG:  31 VAG, 32 giving, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D That)
+		  (ADJ pensive)
+		  (N simplicity)
+		  (, ,)
+		  (PP (P with)
+		      (NP (D the)
+			  (N smile)
+			  (PP (P of)
+			      (NP (ADJ heartfelt)
+				  (N satisfaction)
+				  (PP (P at)
+				      (IP-PPL (VAG giving)
+					      (NP-OB1 (N pleasure))
+					      (PP (P to)
+						  (NP (Q+N anybody))))))))))
+	  (, ,)
+	  (BED were)
+	  (ADJP (NP-MSR (QR more) (CONJ and) (QR more))
+		(VAG engaging))
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO$ her) (NS spirits))
+			      (VBD recovered)
+			      (NP-OB1 (PRO$ their) (N tone)))))
+	  (. ,))
+  (ID YONGE-1865,183.617))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	5/5/629
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	2/2/1202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	1/1/1122
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	3/3/1185
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	0/0/946
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	4/4/495
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	9/9/566
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	6/4/486
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	10/9/593
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	3/3/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	17/14/652
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	5/5/751
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	2/2/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	3/3/996
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	5/5/629
+whole search, hits/tokens/total
+		70/64/11753
+*/

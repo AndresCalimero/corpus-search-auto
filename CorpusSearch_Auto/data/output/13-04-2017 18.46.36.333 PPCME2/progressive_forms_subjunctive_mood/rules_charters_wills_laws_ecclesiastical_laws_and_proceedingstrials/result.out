@@ -1,0 +1,2760 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:51 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_subjunctive_mood.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_subjunctive_mood\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   IP-SUB|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (IP-SUB Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
+Nou let heere here and vnderstonde ententyflyche myne wordes, what euere heo
+be +tat ha+t fursake +tis wordle and ychose solytarye lyf, desyryngge to ben
+yhud and not yseye, and wyllyngge, as a deed body to +tis wordle, wy+t Crist
+to be buryed in a caue.
+(CMAELR3,26.5)
+*~/
+/*
+80 VAG:  80 VAG, 81 desyryngge, 52 IP-SUB
+104 VAG:  104 VAG, 105 wyllyngge, 52 IP-SUB
+*/
+( (IP-IMP (ADVP-TMP (ADV Nou))
+	  (VBI let)
+	  (IP-INF (NP-SBJ (PRO heere)
+			  (CP-REL *ICH*-2))
+		  (VB (VB here) (CONJ and) (VB vnderstonde))
+		  (ADVP (ADV ententyflyche))
+		  (NP-OB1 (PRO$ myne) (NS wordes))
+		  (, ,)
+		  (NP-ADV (CP-FRL (WNP-1 (WPRO what) (ADV euere))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO heo))
+					  (BEP be))))
+		  (CP-REL-2 (WNP-3 0)
+			    (C +tat)
+			    (IP-SUB (IP-SUB-4 (NP-SBJ *T*-3)
+					      (HVP ha+t)
+					      (VBN fursake)
+					      (NP-OB1 (D +tis) (N wordle)))
+				    (CONJP (CONJ and)
+					   (IP-SUB=4 (VBN ychose)
+						     (NP-OB1 (ADJ solytarye) (N lyf))
+						     (, ,)
+						     (IP-PPL (IP-PPL (VAG desyryngge)
+								     (IP-INF (IP-INF-5 (TO to) (BE ben) (VAN yhud))
+									     (CONJP (CONJ and)
+										    (IP-INF=5 (NEG not) (VAN yseye)))))
+							     (, ,)
+							     (CONJP (CONJ and)
+								    (IP-PPL (VAG wyllyngge)
+									    (, ,)
+									    (PP (P as)
+										(NP (D a)
+										    (ADJ deed)
+										    (N body)
+										    (PP (P to)
+											(NP (D +tis) (N wordle)))))
+									    (, ,)
+									    (IP-INF (PP (P wy+t)
+											(NP (NPR Crist)))
+										    (TO to)
+										    (BE be)
+										    (VAN buryed)
+										    (PP (P in)
+											(NP (D a) (N caue))))))))))))
+	  (. .))
+  (ID CMAELR3,26.5))
+
+/~*
+I dar seye baldeliche: hym-self, and al +tat euere is his. Wherfore +te
+swetnesse of +ty maydenhood, al vp to heuene smytyngge is swete sauour, mak+t
++tat vre verrey kyng ha+t coueytise of +ty fayrnesse:
+(CMAELR3,26.18)
+*~/
+/*
+80 VAG:  80 VAG, 81 smytyngge, 51 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD dar)
+	  (VB seye)
+	  (ADVP (ADV baldeliche))
+	  (, :)
+	  (QTP (NP (NP (PRO+N hym-self))
+		   (, ,)
+		   (CONJP (CONJ and)
+			  (NP (Q al)
+			      (CP-REL (WNP-1 0)
+				      (C +tat)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (ADVP-TMP (ADV euere))
+					      (BEP is)
+					      (NP-OB1 (PRO$ his))))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (WADV+P Wherfore))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (D +te)
+				  (N swetnesse)
+				  (PP (P of)
+				      (NP (PRO$ +ty) (N maydenhood))))
+			  (, ,)
+			  (IP-PPL (PP (Q al)
+				      (RP vp)
+				      (P to)
+				      (NP (NPR heuene)))
+				  (VAG smytyngge)
+				  (NP-OB1 (PRO$ is) (ADJ swete) (N sauour)))
+			  (, ,)
+			  (VBP mak+t)
+			  (CP-THT (C +tat)
+				  (IP-SUB (NP-SBJ (PRO$ vre) (ADJ verrey) (N kyng))
+					  (HVP ha+t)
+					  (NP-OB1 (N coueytise)
+						  (PP (P of)
+						      (NP (PRO$ +ty) (N fayrnesse))))))))
+	  (. :))
+  (ID CMAELR3,26.18))
+
+/~*
+Loke +tat sche be-hoolde blessede Marie wit +te tympane of chastete, ledyng as
+hit were +te daunce of holy virgynys, and syngyngge +tat swete song +tat noon
+may synge bote clene maydenes, as wel men as wymmen, off whom hit is iwryte:
+Hii sunt qui cum mulieribus non sunt coinquinati, et secuntur agnum quocumque
+ierit -
+(CMAELR3,27.41)
+*~/
+/*
+36 VAG:  36 VAG, 37 ledyng, 7 IP-SUB
+69 VAG:  69 VAG, 70 syngyngge, 7 IP-SUB
+*/
+
+( (IP-IMP (VBI Loke)
+	  (CP-THT (C +tat)
+		  (IP-SUB (NP-SBJ (PRO sche))
+			  (VBP be-hoolde)
+			  (NP-OB1 (VAN blessede) (NPR Marie))
+			  (PP (P wit)
+			      (NP (D +te)
+				  (N tympane)
+				  (PP (P of)
+				      (NP (N chastete)))))
+			  (, ,)
+			  (IP-PPL (IP-PPL (VAG ledyng)
+					  (PP (P as)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO hit))
+							      (BED were))))
+					  (NP-OB1 (D +te)
+						  (N daunce)
+						  (PP (P of)
+						      (NP (ADJ holy) (NS virgynys)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-PPL (VAG syngyngge)
+						 (NP-OB1 (D +tat)
+							 (ADJ swete)
+							 (N song)
+							 (CP-REL (WNP-1 0)
+								 (C +tat)
+								 (IP-SUB (NP-OB1 *T*-1)
+									 (NP-SBJ (Q noon)
+										 (PP *ICH*-2))
+									 (MD may)
+									 (VB synge)
+									 (PP-2 (P bote)
+									       (NP (ADJ clene) (NS maydenes)))
+									 (, ,)
+									 (NP-PRN (ADVP (ADVR as)
+										       (ADV wel)
+										       (PP *ICH*-3))
+										 (NS men)
+										 (PP-3 (P as)
+										       (NP (N wymmen)))
+										 (, ,)
+										 (CP-REL (WPP-4 (P off)
+												(WNP (WPRO whom)))
+											 (C 0)
+											 (IP-SUB (PP *T*-4)
+												 (NP-SBJ (PRO hit))
+												 (BEP is)
+												 (VAN iwryte)
+												 (, :)
+												 (QTP (LATIN (FW Hii) (FW sunt) (FW qui) (FW cum) (FW mulieribus) (FW non) (FW sunt) (FW coinquinati) (, ,) (FW et) (FW secuntur) (FW agnum) (FW quocumque) (FW ierit))))))))))))))
+	  (. -))
+  (ID CMAELR3,27.41))
+
+/~*
+and chastete is defoyled, whan hit so is +tat greet brennyngge temptacioun
+drawe+t to hym fuul wyl, ant rauesce+t menbres to vuel asent. Wherfore hit
+behoue+t gretliche +tat an holy mayde be-+tenke heore +tat alle heore menbres
+be+t halwed to God, incorporat to Crist and dedyed to +te Holy Gost.
+(CMAELR3,27.47)
+*~/
+/*
+36 VAG:  36 VAG, 37 brennyngge, 32 IP-SUB
+36 VAG:  36 VAG, 37 brennyngge, 31 IP-SUB
+36 VAG:  36 VAG, 37 brennyngge, 19 IP-SUB
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (N chastete))
+	  (BEP is)
+	  (VAN defoyled)
+	  (, ,)
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO hit))
+			      (ADVP (ADV so))
+			      (BEP is)
+			      (CP-THT-1 (C +tat)
+					(IP-SUB (IP-SUB (NP-SBJ (ADJ greet) (VAG brennyngge) (N temptacioun))
+							(VBP drawe+t)
+							(PP (P to)
+							    (NP (PRO hym)))
+							(ADVP (ADV fuul) (ADV wyl)))
+						(, ,)
+						(CONJP (CONJ ant)
+						       (IP-SUB (NP-SBJ *con*)
+							       (VBP rauesce+t)
+							       (NP-OB1 (N menbres))
+							       (PP (P to)
+								   (NP (ADJ vuel) (N asent))))))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (WADV+P Wherfore))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ-3 (PRO hit))
+			  (VBP behoue+t)
+			  (ADVP (ADV gretliche))
+			  (CP-THT-3 (C +tat)
+				    (IP-SUB (NP-SBJ (D an) (ADJ holy) (N mayde))
+					    (VBP be-+tenke)
+					    (NP-OB2 (PRO heore))
+					    (CP-THT (C +tat)
+						    (IP-SUB (IP-SUB-4 (NP-SBJ (Q alle) (PRO$ heore) (NS menbres))
+								      (BEP be+t)
+								      (VAN halwed)
+								      (PP (P to)
+									  (NP (NPR God))))
+							    (, ,)
+							    (CONJP (IP-SUB=4 (VAN incorporat)
+									     (PP (P to)
+										 (NP (NPR Crist)))))
+							    (CONJP (CONJ and)
+								   (IP-SUB=4 (VAN dedyed)
+									     (PP (P to)
+										 (NP (D +te) (NPR Holy) (NPR Gost)))))))))))
+	  (. .))
+  (ID CMAELR3,27.47))
+
+/~*
+and +ter-aboute spende al here +tou+gt, +tat sche, as it were beyngge
+anhungred aftur +te parfeccioun of +tis vertu, take hunger as gret delys, and
+pouerte as most rychesse.
+(CMAELR3,27.50)
+*~/
+/*
+41 BAG:  41 BAG, 42 beyngge, 21 IP-SUB
+*/
+
+( (IP-IMP (CONJ and)
+	  (NP-SBJ (ADV+P +ter-aboute))
+	  (VBI spende)
+	  (NP-OB1 (Q al) (PRO$ here) (N +tou+gt))
+	  (, ,)
+	  (CP-ADV (C +tat)
+		  (IP-SUB (IP-SUB-1 (NP-SBJ (PRO sche))
+				    (, ,)
+				    (PP-PRN (P as)
+					    (CP-ADV (C 0)
+						    (IP-SUB (NP-SBJ (PRO it))
+							    (BED were))))
+				    (IP-PPL (BAG beyngge)
+					    (VAN anhungred)
+					    (PP (P aftur)
+						(NP (D +te)
+						    (N parfeccioun)
+						    (PP (P of)
+							(NP (D +tis) (N vertu))))))
+				    (, ,)
+				    (VBP take)
+				    (NP-OB1 (N hunger))
+				    (PP (P as)
+					(NP (ADJ gret) (N delys))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (NP-OB1 (N pouerte))
+					   (PP (P as)
+					       (NP (QS most) (N rychesse)))))))
+	  (. .))
+  (ID CMAELR3,27.50))
+
+/~*
++Tenk how +tilke blessede Agnete gold and seluer, precious closes and vertuous
+stones, and al +te pompe off wordliche blisse despysede as styngynge dunge.
+(CMAELR3,28.69)
+*~/
+/*
+71 VAG:  71 VAG, 72 styngynge, 10 IP-SUB
+*/
+
+( (IP-IMP (VBI +Tenk)
+	  (CP-QUE (WADVP-1 (WADV how))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-1)
+			  (NP-SBJ (D+ADJ +tilke) (VAN blessede) (NPR Agnete))
+			  (NP-OB1 (NP (N gold) (CONJ and) (N seluer))
+				  (, ,)
+				  (CONJP (NP (NP (ADJ precious) (NS closes))
+					     (CONJP (CONJ and)
+						    (NP (ADJ vertuous) (N stones)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (NP (Q al)
+					     (D +te)
+					     (N pompe)
+					     (PP (P off)
+						 (NP (ADJ wordliche) (N blisse))))))
+			  (VBD despysede)
+			  (PP (P as)
+			      (NP (VAG styngynge) (N dunge)))))
+	  (. .))
+  (ID CMAELR3,28.69))
+
+/~*
+A blessed mayden, +tat turnde an hoore-hows in-to an oratorie, wit wham an
+angel, entryngge in-to prysoun, turnede derknesse in-to li+gt, and slow wit
+sodeyn de+t here pursuour of here maydenhood.
+(CMAELR3,28.75)
+*~/
+/*
+56 VAG:  56 VAG, 57 entryngge, 45 IP-SUB
+56 VAG:  56 VAG, 57 entryngge, 44 IP-SUB
+*/
+
+( (NP (D A)
+      (VAN blessed)
+      (N mayden)
+      (, ,)
+      (CP-REL (WNP-1 0)
+	      (C +tat)
+	      (IP-SUB (NP-SBJ *T*-1)
+		      (VBD turnde)
+		      (NP-OB1 (D an) (N+N hoore-hows))
+		      (PP (P in-to)
+			  (NP (D an) (N oratorie)))))
+      (, ,)
+      (CP-REL (WPP-2 (P wit)
+		     (WNP (WPRO wham)))
+	      (C 0)
+	      (IP-SUB (IP-SUB (PP *T*-2)
+			      (NP-SBJ (D an) (N angel))
+			      (, ,)
+			      (IP-PPL (VAG entryngge)
+				      (PP (P in-to)
+					  (NP (N prysoun))))
+			      (, ,)
+			      (VBD turnede)
+			      (NP-OB1 (N derknesse))
+			      (PP (P in-to)
+				  (NP (N li+gt))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-SUB (PP *T*-2)
+				     (NP-SBJ *con*)
+				     (VBD slow)
+				     (PP (P wit)
+					 (NP (ADJ sodeyn) (N de+t)))
+				     (NP-OB1 (PRO$ here)
+					     (N pursuour)
+					     (PP (P of)
+						 (NP (PRO$ here) (N maydenhood))))))))
+      (. .))
+  (ID CMAELR3,28.75))
+
+/~*
+As ofte as eny brennyngge temptacioun come+t vp-on +te, as ofte as +te wyckede
+spyryt put to +te vnlifful lustes, wite it wel +tat he is present +tat
+ascherche+t entrayles of +tyn herte,
+(CMAELR3,29.78)
+*~/
+/*
+21 VAG:  21 VAG, 22 brennyngge, 15 IP-SUB
+*/
+
+( (IP-IMP (ADVP-TMP (ADVR As)
+		    (ADV ofte)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-1)
+					(NP-SBJ (Q eny) (VAG brennyngge) (N temptacioun))
+					(VBP come+t)
+					(PP (P vp-on)
+					    (NP (PRO +te)))))))
+	  (, ,)
+	  (ADVP-TMP (ADVR as)
+		    (ADV ofte)
+		    (PP (P as)
+			(CP-CMP (WADVP-2 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-2)
+					(NP-SBJ (D +te) (ADJ wyckede) (N spyryt))
+					(VBP put)
+					(PP (P to)
+					    (NP (PRO +te)))
+					(NP-OB1 (ADJ vnlifful) (NS lustes))))))
+	  (, ,)
+	  (VBI wite)
+	  (NP-OB1=3 (PRO it))
+	  (ADVP (ADV wel))
+	  (CP-THT-3 (C +tat)
+		    (IP-SUB (NP-SBJ (PRO he)
+				    (CP-REL *ICH*-4))
+			    (BEP is)
+			    (ADJP (ADJ present))
+			    (CP-REL-4 (WNP-5 0)
+				      (C +tat)
+				      (IP-SUB (NP-SBJ *T*-5)
+					      (VBP ascherche+t)
+					      (NP-OB1 (NS entrayles)
+						      (PP (P of)
+							  (CODE <P_29>)
+							  (NP (PRO$ +tyn) (N herte))))))))
+	  (. ,))
+  (ID CMAELR3,29.78))
+
+/~*
+For al+tou+g castete be a special +gift of God, and no-body may be continent
+of his owne merytis, bote onlyche of +te liberal +gyft of +te grace of God,
+na+teles almyty God halt hem vnwor+ty +tis +gifte +tat nulle not bysylyche
+trauayle to come +ter-to, willyngge and wenyngge forto be chast among delices,
+continent among delauey festes, to dwellen among nyce wommen and nou+gt be
+tempted, in glotonye and drunkeschipe be ful of stynkynde humours and nou+gt
+be defoyled, to bere leyt of fuir in here bosum and nou+gt be brend.
+(CMAELR3,29.92)
+*~/
+/*
+142 VAG:  142 VAG, 143 willyngge, 118 IP-SUB
+146 VAG:  146 VAG, 147 wenyngge, 118 IP-SUB
+242 VAG:  242 VAG, 243 stynkynde, 118 IP-SUB
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (P al+tou+g)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (N castete))
+				      (BEP be)
+				      (NP-OB1 (D a)
+					      (ADJ special)
+					      (N +gift)
+					      (PP (P of)
+						  (NP (NPR God)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ (Q+N no-body))
+					     (MD may)
+					     (BE be)
+					     (VAN continent)
+					     (PP (PP (P of)
+						     (NP (PRO$ his) (ADJ owne) (NS merytis)))
+						 (, ,)
+						 (CONJP (CONJ bote)
+							(PP (FP onlyche)
+							    (P of)
+							    (NP (D +te)
+								(ADJ liberal)
+								(N +gyft)
+								(PP (P of)
+								    (NP (D +te)
+									(N grace)
+									(PP (P of)
+									    (NP (NPR God))))))))))))))
+	  (, ,)
+	  (ADVP (ADV na+teles))
+	  (NP-SBJ (ADJ almyty) (NPR God))
+	  (VBP halt)
+	  (IP-SMC (NP-SBJ (PRO hem)
+			  (CP-REL *ICH*-1))
+		  (ADJP (ADJ vnwor+ty)
+			(NP (D +tis) (N +gifte)))
+		  (CP-REL-1 (WNP-2 0)
+			    (C +tat)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (NEG+MD nulle)
+				    (NEG not)
+				    (ADVP (ADV bysylyche))
+				    (VB trauayle)
+				    (IP-INF-PRP (TO to)
+						(VB come)
+						(PP (ADV+P +ter-to)))
+				    (, ,)
+				    (IP-PPL (VAG (VAG willyngge) (CONJ and) (VAG wenyngge))
+					    (IP-INF (IP-INF (FOR+TO forto)
+							    (BE be)
+							    (ADJP (ADJP (ADJ chast)
+									(PP (P among)
+									    (NP (NS delices))))
+								  (, ,)
+								  (CONJP (ADJP (ADJ continent)
+									       (PP (P among)
+										   (NP (ADJ delauey) (NS festes)))))))
+						    (, ,)
+						    (CONJP (IP-INF (IP-INF (FOR *)
+									   (TO to)
+									   (VB dwellen)
+									   (PP (P among)
+									       (NP (ADJ nyce) (NS wommen))))
+								   (CONJP (CONJ and)
+									  (IP-INF (NEG nou+gt)
+										  (FOR *)
+										  (TO *)
+										  (BE be)
+										  (VAN tempted)))))
+						    (, ,)
+						    (CONJP (IP-INF (IP-INF (PP (PP (P in)
+										   (NP (N glotonye)))
+									       (CONJP (CONJ and)
+										      (NP (N drunkeschipe))))
+									   (FOR *)
+									   (TO *)
+									   (BE be)
+									   (ADJP (ADJ ful)
+										 (PP (P of)
+										     (NP (VAG stynkynde) (NS humours)))))
+								   (CONJP (CONJ and)
+									  (IP-INF (NEG nou+gt)
+										  (FOR *)
+										  (TO *)
+										  (BE be)
+										  (VAN defoyled)))))
+						    (, ,)
+						    (CONJP (IP-INF (IP-INF (FOR *)
+									   (TO to)
+									   (VB bere)
+									   (NP-OB1 (N leyt)
+										   (PP (P of)
+										       (NP (N fuir))))
+									   (PP (P in)
+									       (NP (PRO$ here) (N bosum))))
+								   (CONJP (CONJ and)
+									  (IP-INF (NEG nou+gt)
+										  (FOR *)
+										  (TO *)
+										  (BE be)
+										  (VAN brend))))))))))
+	  (. .))
+  (ID CMAELR3,29.92))
+
+/~*
+I knew sum-tyme a monke, whic in +te bygynnyngge of his conuersioun, what
++torou+g steryngge of naturel complexioun, what for violence of vicious vs and
+custum, what also +torou+g suggestioun of +te wyckede temptour, he, dredyngge
+his clennesse be persced and spild, areysede hym-self a+gens hym-self, and,
+$conceyuyngge a wondur gret hate a+gens his owne flehs, he coueytede no-+tyng
+more +tan +tat +tat my+gte do his body turment and disese.
+(CMAELR3,29.98)
+*~/
+/*
+116 VAG:  116 VAG, 117 dredyngge, 24 IP-SUB
+116 VAG:  116 VAG, 117 dredyngge, 23 IP-SUB
+158 VAG:  158 VAG, 159 $conceyuyngge, 156 IP-SUB
+158 VAG:  158 VAG, 159 $conceyuyngge, 23 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBD knew)
+	  (NP-TMP (Q+N sum-tyme))
+	  (NP-OB1 (D a)
+		  (N monke)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO whic))
+			  (C 0)
+			  (IP-SUB (IP-SUB (PP (P in)
+					      (NP (D +te)
+						  (N bygynnyngge)
+						  (PP (P of)
+						      (NP (PRO$ his) (N conuersioun)))))
+					  (, ,)
+					  (PP (PP (X what)
+						  (P +torou+g)
+						  (NP (N steryngge)
+						      (PP (P of)
+							  (NP (ADJ naturel) (N complexioun)))))
+					      (, ,)
+					      (CONJP (PP (X what)
+							 (P for)
+							 (NP (N violence)
+							     (PP (P of)
+								 (NP (ADJ vicious)
+								     (N vs)
+								     (CONJP (CONJ and)
+									    (NX (N custum))))))))
+					      (, ,)
+					      (CONJP (PP (X what)
+							 (ALSO also)
+							 (P +torou+g)
+							 (NP (N suggestioun)
+							     (PP (P of)
+								 (NP (D +te) (ADJ wyckede) (N temptour)))))))
+					  (, ,)
+					  (NP-SBJ-RSP-1 (PRO he))
+					  (, ,)
+					  (IP-PPL (VAG dredyngge)
+						  (CP-THT (C 0)
+							  (IP-SUB (NP-SBJ (PRO$ his) (N clennesse))
+								  (BEP be)
+								  (VAN (VAN persced) (CONJ and) (VAN spild)))))
+					  (, ,)
+					  (VBD areysede)
+					  (NP-OB1 (PRO+N hym-self))
+					  (PP (P a+gens)
+					      (NP (PRO+N hym-self))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (, ,)
+					 (IP-SUB (IP-PPL (VAG $conceyuyngge)
+							 (NP-OB1 (D a)
+								 (ADJP (ADV wondur) (ADJ gret))
+								 (N hate))
+							 (PP (P a+gens)
+							     (NP (PRO$ his) (ADJ owne) (N flehs))))
+						 (, ,)
+						 (NP-SBJ-RSP-1 (PRO he))
+						 (VBD coueytede)
+						 (NP-OB1 (Q+N no-+tyng))
+						 (NP-MSR (QR more)
+							 (PP (P +tan)
+							     (NP (D +tat)
+								 (CP-REL (WNP-2 0)
+									 (C +tat)
+									 (IP-SUB (NP-SBJ *T*-2)
+										 (MD my+gte)
+										 (DO do)
+										 (NP-OB2 (PRO$ his) (N body))
+										 (NP-OB1 (N turment) (CONJ and) (N disese))))))))))))
+	  (. .))
+  (ID CMAELR3,29.98))
+
+/~*
+And what dude he +tanne bote sum-tyme caste hym-self in cold fresyngge water,
+(CMAELR3,29.102)
+*~/
+/*
+41 VAG:  41 VAG, 42 fresyngge, 24 IP-SUB
+41 VAG:  41 VAG, 42 fresyngge, 7 IP-SUB
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD dude)
+		  (NP-SBJ (PRO he))
+		  (ADVP-TMP (ADV +tanne))
+		  (PP (P bote)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ *pro*)
+				      (NP-TMP (Q+N sum-tyme))
+				      (VBD caste)
+				      (NP-OB1 (PRO+N hym-self))
+				      (PP (P in)
+					  (NP (ADJ cold) (VAG fresyngge) (N water)))))))
+	  (. ,))
+  (ID CMAELR3,29.102))
+
+/~*
++Terfore hit is gret schame of manye mannes woodschype, $whyce +tat whanne
++tey haue lyued al here lyf in $stynkynde ful+te, +git in here oolde age +tey
+nulle+t not wit-drawe hem fro +te companye of suspekt persones, bote seyn +tat
++tey ben siker ynow of hem-self, for +tat +tey vele+t here body sumdel akeled;
+(CMAELR3,30.119)
+*~/
+/*
+61 VAG:  61 VAG, 62 $stynkynde, 42 IP-SUB
+61 VAG:  61 VAG, 62 $stynkynde, 35 IP-SUB
+61 VAG:  61 VAG, 62 $stynkynde, 34 IP-SUB
+*/
+
+( (IP-MAT (PP (ADV+P +Terfore))
+	  (NP-SBJ-1 (PRO hit))
+	  (BEP is)
+	  (NP-1 (ADJ gret)
+		(N schame)
+		(PP (P of)
+		    (NP (NP-POS (Q manye) (NS$ mannes))
+			(N woodschype)
+			(, ,)
+			(CP-REL (WNP-2 (WPRO $whyce))
+				(C +tat)
+				(IP-SUB (IP-SUB (PP (P whanne)
+						    (CP-ADV (C 0)
+							    (IP-SUB (NP-SBJ (PRO +tey))
+								    (HVP haue)
+								    (VBN lyued)
+								    (NP-OB1 (Q al) (PRO$ here) (N lyf))
+								    (PP (P in)
+									(NP (VAG $stynkynde) (N ful+te))))))
+						(, ,)
+						(ADVP (ADV +git))
+						(PP (P in)
+						    (NP (PRO$ here) (ADJ oolde) (N age)))
+						(NP-SBJ-RSP-2 (PRO +tey))
+						(NEG+MD nulle+t)
+						(NEG not)
+						(VB wit-drawe)
+						(NP-OB1 (PRO hem))
+						(PP (P fro)
+						    (NP (D +te)
+							(N companye)
+							(PP (P of)
+							    (NP (ADJ suspekt) (NS persones))))))
+					(, ,)
+					(CONJP (CONJ bote)
+					       (IP-SUB (NP-SBJ *con*)
+						       (VBP seyn)
+						       (CP-THT (C +tat)
+							       (IP-SUB (NP-SBJ (PRO +tey))
+								       (BEP ben)
+								       (ADJP (ADJ siker)
+									     (ADV ynow)
+									     (PP (P of)
+										 (NP (PRO+N hem-self))))
+								       (, ,)
+								       (PP (P for)
+									   (CP-ADV (C +tat)
+										   (IP-SUB (NP-SBJ (PRO +tey))
+											   (VBP vele+t)
+											   (IP-SMC (NP-SBJ (PRO$ here) (N body))
+												   (ADJP (NP-ADV (Q+N sumdel))
+													 (VAN akeled)))))))))))))))
+	  (. ;))
+  (ID CMAELR3,30.119))
+
+/~*
+I answere +tat certeynly, +gif +te flesh be mornyngge, syk and feble, +gif +te
+stomac be vnsauery and drye, alle +te delites +tat +tu my+gt schewen hym be+t
+ra+tere to heuynesse of hym +tan to fowl lustes.
+(CMAELR3,31.150)
+*~/
+/*
+31 VAG:  31 VAG, 32 mornyngge, 22 IP-SUB
+31 VAG:  31 VAG, 32 mornyngge, 10 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP answere)
+	  (CP-THT (C +tat)
+		  (IP-SUB (ADVP (ADV certeynly))
+			  (, ,)
+			  (PP (P +gif)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (D +te) (N flesh))
+					      (BEP be)
+					      (ADJP (VAG mornyngge) (, ,) (ADJ syk) (CONJ and) (ADJ feble)))))
+			  (, ,)
+			  (PP (P +gif)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (D +te) (N stomac))
+					      (BEP be)
+					      (ADJP (ADJ vnsauery) (CONJ and) (ADJ drye)))))
+			  (, ,)
+			  (NP-SBJ (Q alle)
+				  (D +te)
+				  (NS delites)
+				  (CP-REL (WNP-1 0)
+					  (C +tat)
+					  (IP-SUB (NP-OB1 *T*-1)
+						  (NP-SBJ (PRO +tu))
+						  (MD my+gt)
+						  (VB schewen)
+						  (NP-OB2 (PRO hym)))))
+			  (BEP be+t)
+			  (ADVP (ADV ra+tere)
+				(PP *ICH*-2))
+			  (PP (P to)
+			      (NP (N heuynesse)
+				  (PP (P of)
+				      (NP (PRO hym)))))
+			  (PP-2 (P +tan)
+				(PP (P to)
+				    (NP (ADJ fowl) (NS lustes))))))
+	  (. .))
+  (ID CMAELR3,31.150))
+
+/~*
++ter he hadde ibe blaberynge and chaterynge, he took hym to silence.
+(CMAELR3,32.159)
+*~/
+/*
+20 VAG:  20 VAG, 21 blaberynge, 9 IP-SUB
+24 VAG:  24 VAG, 25 chaterynge, 9 IP-SUB
+*/
+
+( (IP-MAT (ADVP-LOC (CP-FRL (WADVP-1 (ADV +ter))
+			    (C 0)
+			    (IP-SUB (ADVP-LOC *T*-1)
+				    (NP-SBJ (PRO he))
+				    (HVD hadde)
+				    (BEN ibe)
+				    (VAG (VAG blaberynge) (CONJ and) (VAG chaterynge)))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD took)
+	  (NP-OB1 (PRO hym))
+	  (PP (P to)
+	      (NP (N silence)))
+	  (. .))
+  (ID CMAELR3,32.159))
+
+/~*
+Wy+t so euy chiere, wi+t +te e+gen icast adoun, he saat, he wente and stood,
++tat tremlyngge and quakyngge hit semede +tat he stood to-forn his dredful
+domesman at +te day of dome.
+(CMAELR3,32.165)
+*~/
+/*
+59 VAG:  59 VAG, 60 tremlyngge, 56 IP-SUB
+63 VAG:  63 VAG, 64 quakyngge, 56 IP-SUB
+*/
+
+( (IP-MAT-1 (PP (P Wy+t)
+		(NP (ADJP (ADVR so)
+			  (ADJ euy)
+			  (CP-DEG *ICH*-2))
+		    (N chiere)))
+	    (, ,)
+	    (PP (P wi+t)
+		(NP (D +te)
+		    (NS e+gen)
+		    (RRC (VAN icast)
+			 (PP (P+RP adoun)))))
+	    (, ,)
+	    (NP-SBJ (PRO he))
+	    (VBD saat)
+	    (, ,)
+	    (IP-MAT-PRN=1 (NP-SBJ (PRO he))
+			  (VBD (VBD wente) (CONJ and) (VBD stood)))
+	    (, ,)
+	    (CP-DEG-2 (C +tat)
+		      (IP-SUB (IP-PPL (VAG (VAG tremlyngge) (CONJ and) (VAG quakyngge)))
+			      (NP-SBJ-3 (PRO hit))
+			      (VBD semede)
+			      (CP-THT-3 (C +tat)
+					(IP-SUB (NP-SBJ (PRO he))
+						(VBD stood)
+						(PP (P to-forn)
+						    (NP (PRO$ his) (ADJ dredful) (N$+N domesman)))
+						(PP (P at)
+						    (NP (D +te)
+							(N day)
+							(PP (P of)
+							    (NP (N dome)))))))))
+	    (. .))
+  (ID CMAELR3,32.165))
+
+/~*
+Is hit a gret woundour +tat +tu hast forsake styngyngge lust of body for +te
+swete sauour of maydenhood?
+(CMAELR3,33.196)
+*~/
+/*
+27 VAG:  27 VAG, 28 styngyngge, 18 IP-SUB
+27 VAG:  27 VAG, 28 styngyngge, 2 IP-SUB
+*/
+
+( (CP-QUE (IP-SUB (BEP Is)
+		  (NP-SBJ-1 (PRO hit))
+		  (NP-OB1 (D a) (ADJ gret) (N woundour))
+		  (CP-THT-1 (C +tat)
+			    (IP-SUB (NP-SBJ (PRO +tu))
+				    (HVP hast)
+				    (VBN forsake)
+				    (NP-OB1 (VAG styngyngge)
+					    (N lust)
+					    (PP (P of)
+						(NP (N body))))
+				    (PP (P for)
+					(NP (D +te)
+					    (ADJ swete)
+					    (N sauour)
+					    (PP (P of)
+						(NP (N maydenhood))))))))
+	  (. ?))
+  (ID CMAELR3,33.196))
+
+/~*
+Let hem haue swych aray +tat, noon or litul ioye hauyngge wit-ynne, sechy+t al
+here ioye wit-oute.
+(CMAELR3,33.203)
+*~/
+/*
+38 HAG:  38 HAG, 39 hauyngge, 24 IP-SUB
+*/
+
+( (IP-IMP (VBI Let)
+	  (IP-INF (NP-SBJ (PRO hem)
+			  (CP-REL *ICH*-1))
+		  (HV haue)
+		  (NP-OB1 (SUCH swych) (N aray))
+		  (CP-REL-1 (WNP-2 0)
+			    (C +tat)
+			    (, ,)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (IP-PPL (NP-OB1 (QP (Q noon) (CONJ or) (Q litul))
+						    (N ioye))
+					    (HAG hauyngge)
+					    (ADVP-LOC (ADV wit-ynne)))
+				    (, ,)
+				    (VBP sechy+t)
+				    (NP-OB1 (Q al) (PRO$ here) (N ioye))
+				    (ADVP-LOC (ADV wit-oute)))))
+	  (. .))
+  (ID CMAELR3,33.203))
+
+/~*
+and so we, after +tat we be+t icristned, it be-houe+t +tat oure body by
+abstinence be ymaad drye fro stynkynde humores of vnclennesse.
+(CMAELR3,34.247)
+*~/
+/*
+62 VAG:  62 VAG, 63 stynkynde, 36 IP-SUB
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV so))
+	  (NP-LFD (PRO we))
+	  (, ,)
+	  (PP (P after)
+	      (CP-ADV (C +tat)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (BEP be+t)
+			      (VAN icristned))))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (VBP be-houe+t)
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ-RSP-2 (PRO$ oure) (N body))
+			    (PP (P by)
+				(NP (N abstinence)))
+			    (BEP be)
+			    (VAN ymaad)
+			    (IP-SMC (NP-SBJ *-2)
+				    (ADJP (ADJ drye)
+					  (PP (P fro)
+					      (NP (VAG stynkynde)
+						  (NS humores)
+						  (PP (P of)
+						      (NP (N vnclennesse)))))))))
+	  (. .))
+  (ID CMAELR3,34.247))
+
+/~*
+And, +gif it be lykynde to +te, to commende +te grete excellence of virginite,
+let +tilke blessede mayden and moder in o syde, and +tilke diere deciple Ihon,
+a mayde also, in +tat o+ter syde of +te cros be ihad in here ymages, +tat +tu
+mowe +tenke her-by hou plesaunt to God is chastete bo+te of man and womman,
+which he halewode so preciously in his moder and his lieue deciple, seynt Ihon;
+(CMAELR3,35.262)
+*~/
+/*
+18 VAG:  18 VAG, 19 lykynde, 12 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (, ,)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (BEP be)
+			      (VAG lykynde)
+			      (PP (P to)
+				  (NP (PRO +te)))
+			      (, ,)
+			      (IP-INF-1 (TO to)
+					(VB commende)
+					(NP-OB1 (D +te)
+						(ADJ grete)
+						(N excellence)
+						(PP (P of)
+						    (NP (N virginite))))))))
+	  (, ,)
+	  (VBI let)
+	  (IP-INF-2 (NP-SBJ (D+ADJ +tilke)
+			    (VAN blessede)
+			    (N mayden)
+			    (CONJP (CONJ and)
+				   (NX (N moder))))
+		    (PP (P in)
+			(NP (ONE o) (N syde)))
+		    (, ,)
+		    (IP-INF-PRN=2 (CONJ and)
+				  (NP-SBJ (D+ADJ +tilke)
+					  (ADJ diere)
+					  (N deciple)
+					  (NP-PRN (NPR Ihon))
+					  (, ,)
+					  (NP-PRN (D a) (N mayde) (ALSO also)))
+				  (, ,)
+				  (PP (P in)
+				      (NP (D +tat)
+					  (OTHER o+ter)
+					  (N syde)
+					  (PP (P of)
+					      (NP (D +te) (NPR cros))))))
+		    (BE be)
+		    (HAN ihad)
+		    (PP (P in)
+			(NP (PRO$ here) (N ymages))))
+	  (, ,)
+	  (CP-ADV (C +tat)
+		  (IP-SUB (NP-SBJ (PRO +tu))
+			  (MD mowe)
+			  (VB +tenke)
+			  (PP (ADV+P her-by))
+			  (CP-QUE (WADJP-3 (WADV hou)
+					   (ADJ plesaunt)
+					   (PP (P to)
+					       (NP (NPR God)
+						   (CP-REL *ICH*-5))))
+				  (IP-SUB (ADJP *T*-3)
+					  (BEP is)
+					  (NP-SBJ (N chastete)
+						  (CONJ-4 bo+te)
+						  (PP (P of)
+						      (NP (CONJ *-4)
+							  (N man)
+							  (CONJ and)
+							  (N womman))))
+					  (, ,)
+					  (CP-REL-5 (WNP-6 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-OB1 *T*-6)
+							    (NP-SBJ (PRO he))
+							    (VBD halewode)
+							    (ADVP (ADVR so) (ADV preciously))
+							    (PP (P in)
+								(NP (NP (PRO$ his) (N moder))
+								    (CONJP (CONJ and)
+									   (NP (PRO$ his)
+									       (ADJ lieue)
+									       (N deciple)
+									       (, ,)
+									       (NP-PRN (NPR seynt) (NPR Ihon))))))))))))
+	  (. ;))
+  (ID CMAELR3,35.262))
+
+/~*
++Tis weddyng-garnement, suttylly yveue wit diuers vertus, it bihoue+t +tat it
+be be-goon aboute wit swiche goldene hemmes +tat is to seyn wit +te
+bri+gtnesse of charite, +te wyche mowen conteyne and bynde alle vertus in oon
+and make oon of manye, departyngge to alle here clernesse, and so cleuyngge to
+alle vertus +tat as it were +tey alle bete not manye, bote oon.
+(CMAELR3,36.277)
+*~/
+/*
+131 VAG:  131 VAG, 132 departyngge, 88 IP-SUB
+131 VAG:  131 VAG, 132 departyngge, 33 IP-SUB
+155 VAG:  155 VAG, 156 cleuyngge, 88 IP-SUB
+155 VAG:  155 VAG, 156 cleuyngge, 33 IP-SUB
+*/
+
+( (IP-MAT (NP-LFD (D +Tis)
+		  (N+N weddyng-garnement)
+		  (, ,)
+		  (RRC (ADVP (ADV suttylly))
+		       (VAN yveue)
+		       (PP (P wit)
+			   (NP (ADJ diuers) (NS vertus)))))
+	  (, ,)
+	  (NP-SBJ-RSP=1 (PRO it))
+	  (VBP bihoue+t)
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ-RSP (PRO it))
+			    (BEP be)
+			    (VAN be-goon)
+			    (RP aboute)
+			    (PP (P wit)
+				(NP (SUCH swiche) (ADJ goldene) (NS hemmes))
+				(IP-MAT-PRN (NP-SBJ (D +tat))
+					    (BEP is)
+					    (IP-INF (TO to)
+						    (VB seyn)
+						    (PP (P wit)
+							(NP (D +te)
+							    (N bri+gtnesse)
+							    (PP (P of)
+								(NP (N charite)
+								    (, ,)
+								    (CP-REL (WNP-2 (D +te) (WPRO wyche))
+									    (C 0)
+									    (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+											      (MD mowen)
+											      (VB (VB conteyne) (CONJ and) (VB bynde))
+											      (NP-OB1 (Q alle) (NS vertus))
+											      (PP (P in)
+												  (NP (ONE oon))))
+										    (CONJP (CONJ and)
+											   (IP-SUB=3 (VB make)
+												     (NP-OB1 (ONE oon)
+													     (PP (P of)
+														 (NP (Q manye))))
+												     (, ,)
+												     (IP-PPL (IP-PPL (VAG departyngge)
+														     (PP (P to)
+															 (NP (Q alle)))
+														     (NP-OB1 (PRO$ here) (N clernesse)))
+													     (, ,)
+													     (CONJP (CONJ and)
+														    (IP-PPL (ADVP (ADVR so)
+																  (CP-DEG *ICH*-4))
+															    (VAG cleuyngge)
+															    (PP (P to)
+																(NP (Q alle) (NS vertus)))
+															    (CP-DEG-4 (C +tat)
+																      (IP-SUB (PP (P as)
+																		  (CP-ADV (C 0)
+																			  (IP-SUB (NP-SBJ (PRO it))
+																				  (BED were))))
+																	      (NP-SBJ (PRO +tey)
+																		      (QP (Q alle)))
+																	      (VBP bete)
+																	      (NP-OB1 (NP (QP (NEG not) (Q manye)))
+																		      (, ,)
+																		      (CONJP (CONJ bote)
+																			     (NP (ONE oon))))))))))))))))))))))
+	  (. .))
+  (ID CMAELR3,36.277))
+
+/~*
+for +tey be+t +tilke oxen +tat +te book speke+t of: Quorum piger stercoribus
+lapidetur - Among +te whiche he +tat is slow schal be stened to de+te wit
+stynkynde dung.
+(CMAELR3,37.336)
+*~/
+/*
+92 VAG:  92 VAG, 93 stynkynde, 57 IP-SUB
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tey))
+	  (BEP be+t)
+	  (NP-OB1 (D+ADJ +tilke)
+		  (NS oxen)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ (D +te) (N book))
+				  (VBP speke+t)
+				  (PP (P of)
+				      (NP *T*-1))
+				  (, :)
+				  (QTP (LATIN (FW Quorum) (FW piger) (FW stercoribus) (FW lapidetur)))))
+		  (, -)
+		  (CP-REL (WPP-2 (P Among)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (PP *T*-2)
+				  (NP-SBJ (PRO he)
+					  (CP-REL (WNP-3 0)
+						  (C +tat)
+						  (IP-SUB (NP-SBJ *T*-3)
+							  (BEP is)
+							  (NP-OB1 (ADJ slow)))))
+				  (MD schal)
+				  (BE be)
+				  (VAN stened)
+				  (PP (P to)
+				      (NP (N de+te)))
+				  (PP (P wit)
+				      (NP (VAG stynkynde) (N dung))))))
+	  (. .))
+  (ID CMAELR3,37.336))
+
+/~*
+Wherfore, dire suster, +tat +te swete affeccioun of loue of swete Ihesu mowe
+wexe in +tyn herte, +tu most haue +tre maner meditacioun: +tat is to seyn of
++tyngges +tat ben apassed, of +tingges +tat be+t present, of +tyngges +tat
+be+t comyngge.
+(CMAELR3,39.394)
+*~/
+/*
+146 VAG:  146 VAG, 147 comyngge, 141 IP-SUB
+146 VAG:  146 VAG, 147 comyngge, 9 IP-SUB
+*/
+
+( (CP-CAR (WPP-1 (WADV+P Wherfore))
+	  (C 0)
+	  (, ,)
+	  (IP-SUB (PP *T*-1)
+		  (NP-VOC (ADJ dire) (N suster))
+		  (, ,)
+		  (CP-ADV (C +tat)
+			  (IP-SUB (NP-SBJ (D +te)
+					  (ADJ swete)
+					  (N affeccioun)
+					  (PP (P of)
+					      (NP (N loue)
+						  (PP (P of)
+						      (NP (ADJ swete) (NPR Ihesu))))))
+				  (MD mowe)
+				  (VB wexe)
+				  (PP (P in)
+				      (NP (PRO$ +tyn) (N herte)))))
+		  (, ,)
+		  (NP-SBJ (PRO +tu))
+		  (MD most)
+		  (HV haue)
+		  (NP-OB1 (NUM +tre)
+			  (N maner)
+			  (NP-COM (N meditacioun))
+			  (, :)
+			  (IP-MAT-PRN (NP-SBJ (D +tat))
+				      (BEP is)
+				      (IP-INF (TO to)
+					      (VB seyn)
+					      (PP (PP (P of)
+						      (NP (NS +tyngges)
+							  (CP-REL (WNP-2 0)
+								  (C +tat)
+								  (IP-SUB (NP-SBJ *T*-2)
+									  (BEP ben)
+									  (VAN apassed)))))
+						  (, ,)
+						  (CONJP (PP (P of)
+							     (NP (NS +tingges)
+								 (CP-REL (WNP-3 0)
+									 (C +tat)
+									 (IP-SUB (NP-SBJ *T*-3)
+										 (BEP be+t)
+										 (ADJP (ADJ present)))))))
+						  (, ,)
+						  (CONJP (PP (P of)
+							     (NP (NS +tyngges)
+								 (CP-REL (WNP-4 0)
+									 (C +tat)
+									 (IP-SUB (NP-SBJ *T*-4)
+										 (BEP be+t)
+										 (VAG comyngge)))))))))))
+	  (. .))
+  (ID CMAELR3,39.394))
+
+/~*
+and hir take heede, suster, of +te maner of gretyngge in +te whiche Ihon
+Baptiste in his moder wombe, hoppyngge for ioye, knew and saluede as a
+seruaunt his lord, as a criour his verray iustyse, as a kni+gt is verrey kynge.
+(CMAELR3,40.406)
+*~/
+/*
+68 VAG:  68 VAG, 69 hoppyngge, 44 IP-SUB
+*/
+
+( (IP-IMP (CONJ and)
+	  (ADVP-LOC (ADV hir))
+	  (VBI take)
+	  (NP-OB1 (N heede))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (PP (P of)
+	      (NP (D +te)
+		  (N maner)
+		  (PP (P of)
+		      (NP (N gretyngge)))
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB-2 (PP *T*-1)
+					    (NP-SBJ (NPR Ihon)
+						    (NP-PRN (N Baptiste)))
+					    (PP (P in)
+						(NP (NP-POS (PRO$ his) (N$ moder))
+						    (N wombe)))
+					    (, ,)
+					    (IP-PPL (VAG hoppyngge)
+						    (PP (P for)
+							(NP (N ioye))))
+					    (, ,)
+					    (VBD (VBD knew) (CONJ and) (VBD saluede))
+					    (PP (P as)
+						(NP (D a) (N seruaunt)))
+					    (NP-OB1 (PRO$ his) (NPR lord)))
+				  (, ,)
+				  (CONJP (IP-SUB=2 (PP (P as)
+						       (NP (D a) (N criour)))
+						   (NP-OB1 (PRO$ his) (ADJ verray) (N iustyse))))
+				  (, ,)
+				  (CONJP (IP-SUB=2 (PP (P as)
+						       (NP (D a) (N kni+gt)))
+						   (NP-OB1 (PRO$ is) (ADJ verrey) (N kynge))))))))
+	  (. .))
+  (ID CMAELR3,40.406))
+
+/~*
+Suster, it is iseyd +tat +tis was +tilke +tef +tat hynge on Cristes ri+gt syde,
+wiche vndernam +tat o+ter +tat hynge on his left syde, seyingge to hym, as it
+is iwryten in +te gospel, in +tis wyse:
+(CMAELR3,41.448)
+*~/
+/*
+89 VAG:  89 VAG, 90 seyingge, 56 IP-SUB
+89 VAG:  89 VAG, 90 seyingge, 17 IP-SUB
+*/
+
+( (IP-MAT (NP-VOC (N Suster))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (VAN iseyd)
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ (D +tis))
+			    (BED was)
+			    (NP-OB1 (D+ADJ +tilke)
+				    (N +tef)
+				    (CP-REL (WNP-2 0)
+					    (C +tat)
+					    (IP-SUB (NP-SBJ *T*-2)
+						    (VBD hynge)
+						    (PP (P on)
+							(NP (NPR$ Cristes) (ADJ ri+gt) (N syde)))))
+				    (, ,)
+				    (CP-REL (WNP-3 (WPRO wiche))
+					    (C 0)
+					    (IP-SUB (NP-SBJ *T*-3)
+						    (VBD vndernam)
+						    (NP-OB1 (D +tat)
+							    (OTHER o+ter)
+							    (CP-REL (WNP-4 0)
+								    (C +tat)
+								    (IP-SUB (NP-SBJ *T*-4)
+									    (VBD hynge)
+									    (PP (P on)
+										(NP (PRO$ his) (ADJ left) (N syde))))))
+						    (, ,)
+						    (IP-PPL (VAG seyingge)
+							    (PP (P to)
+								(NP (PRO hym)))
+							    (, ,)
+							    (PP-PRN (P as)
+								    (CP-ADV (WNP-5 0)
+									    (C 0)
+									    (IP-SUB (NP-SBJ-RSP-5 (PRO it))
+										    (BEP is)
+										    (VAN iwryten)
+										    (PP (P in)
+											(NP (D +te) (NPR gospel))))))
+							    (, ,)
+							    (PP (P in)
+								(NP (D +tis) (N wyse)))))))))
+	  (. :))
+  (ID CMAELR3,41.448))
+
+/~*
+And, suster, wanne after +tat he is twelf +ger old, and go+t to Ierusalem
+in-to +te temple wit his fadur and his moder and, hem vnwytyngge, leue+t in
++te citee +tre dayes be-hynde, as +te gospel sey+t; +gif +tu wilt bysyly seke
+hym +tyse +tre dayes, gode suster, what sorwe schalt +tu haue?
+(CMAELR3,41.460)
+*~/
+/*
+89 VAG:  89 VAG, 90 vnwytyngge, 84 IP-SUB
+89 VAG:  89 VAG, 90 vnwytyngge, 43 IP-SUB
+89 VAG:  89 VAG, 90 vnwytyngge, 17 IP-SUB
+*/
+
+( (CP-QUE (CONJ And)
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (PP (P wanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (PP (P after)
+					  (NP (D +tat)))
+				      (NP-SBJ (PRO he))
+				      (BEP is)
+				      (ADJP (NP-MSR (NUM twelf) (N +ger))
+					    (ADJ old)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBP go+t)
+					     (PP (P to)
+						 (NP (NPR Ierusalem)))
+					     (PP (P in-to)
+						 (NP (D +te) (N temple)))
+					     (PP (P wit)
+						 (NP (NP (PRO$ his) (N fadur))
+						     (CONJP (CONJ and)
+							    (NP (PRO$ his) (N moder)))))
+					     (CONJP (CONJ and)
+						    (, ,)
+						    (IP-SUB (IP-ABS (NP-SBJ (PRO hem))
+								    (VAG vnwytyngge))
+							    (, ,)
+							    (NP-SBJ *con*)
+							    (VBP leue+t)
+							    (PP (P in)
+								(NP (D +te) (N citee)))
+							    (NP-MSR (NUM +tre) (NS dayes))
+							    (ADVP-LOC (ADV be-hynde))
+							    (, ,)
+							    (PP-PRN (P as)
+								    (CP-ADV (WNP-1 0)
+									    (C 0)
+									    (IP-SUB (NP-OB1 *T*-1)
+										    (NP-SBJ (D +te) (NPR gospel))
+										    (VBP sey+t)))))))))))
+	  (, ;)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tu))
+			      (MD wilt)
+			      (ADVP (ADV bysyly))
+			      (VB seke)
+			      (NP-OB1 (PRO hym))
+			      (NP-MSR (D +tyse) (NUM +tre) (NS dayes))
+			      (, ,)
+			      (NP-VOC (ADJ gode) (N suster)))))
+	  (, ,)
+	  (WNP-2 (WD what) (N sorwe))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (MD schalt)
+		  (NP-SBJ (PRO +tu))
+		  (HV haue))
+	  (. ?))
+  (ID CMAELR3,41.460))
+
+/~*
+And after, whan she hadde ifounde hym syttyngge among +te doctoures in +te
+temple, how pytously sche smot hym, as hit were, wit +tis mornful
+vndernymyngge: Fili, quid fecisti nobis sic? Ecce pater tuus et ego dolentes
+querebamus te.
+(CMAELR3,42.462)
+*~/
+/*
+27 VAG:  27 VAG, 28 syttyngge, 15 IP-SUB
+*/
+
+( (CP-EXL (CONJ And)
+	  (ADVP-TMP (ADV after))
+	  (, ,)
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO she))
+			      (HVD hadde)
+			      (VBN ifounde)
+			      (NP-OB1 (PRO hym))
+			      (IP-PPL (VAG syttyngge)
+				      (PP (P among)
+					  (NP (D +te)
+					      (NS doctoures)
+					      (PP (P in)
+						  (NP (D +te) (N temple)))))))))
+	  (, ,)
+	  (WADVP-1 (WADV how) (ADV pytously))
+	  (C 0)
+	  (IP-SUB (ADVP *T*-1)
+		  (NP-SBJ (PRO sche))
+		  (VBD smot)
+		  (CODE <P_42>)
+		  (NP-OB1 (PRO hym))
+		  (, ,)
+		  (PP (P as)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO hit))
+				      (BED were))))
+		  (, ,)
+		  (PP (P wit)
+		      (NP (D +tis)
+			  (ADJ mornful)
+			  (N vndernymyngge)
+			  (, :)
+			  (LATIN (FW Fili) (, ,) (FW quid) (FW fecisti) (FW nobis) (FW sic) (, ?) (FW Ecce) (FW pater) (FW tuus) (FW et) (FW ego) (FW dolentes) (FW querebamus) (FW te)))))
+	  (. .))
+  (ID CMAELR3,42.462))
+
+/~*
+And +gif I schal seye hit, iblessyd was +tis wumman +tat was +tus founden in
+swhich avoutrye, +te which was asoyled of Crist of sennes +tat where apassed,
+and ymaad syker of tyme to-comyngge.
+(CMAELR3,42.478)
+*~/
+/*
+118 VAG:  118 VAG, 119 to-comyngge, 65 IP-SUB
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (MD schal)
+			      (VB seye)
+			      (NP-OB1 (PRO hit)))))
+	  (, ,)
+	  (VAN iblessyd)
+	  (BED was)
+	  (NP-SBJ (D +tis)
+		  (N wumman)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (ADVP (ADV +tus))
+				  (VAN founden)
+				  (PP (P in)
+				      (NP (SUCH swhich) (N avoutrye)))))
+		  (, ,)
+		  (CP-REL (WNP-2 (D +te) (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+					    (BED was)
+					    (VAN asoyled)
+					    (PP (P of)
+						(NP (NPR Crist)))
+					    (PP (P of)
+						(NP (NS sennes)
+						    (CP-REL (WNP-4 0)
+							    (C +tat)
+							    (IP-SUB (NP-SBJ *T*-4)
+								    (BED where)
+								    (VAN apassed))))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=3 (VAN ymaad)
+						   (IP-SMC (NP-SBJ *)
+							   (ADJP (ADJ syker)
+								 (PP (P of)
+								     (NP (N tyme)
+									 (RRC (VAG to-comyngge)))))))))))
+	  (. .))
+  (ID CMAELR3,42.478))
+
+/~*
+Certes, +tat +tu mowe folwe +ty meke husbonde, hym +tat is Lord of heuene and
+ir+te, sittyngge so homly vp an asse;
+(CMAELR3,45.570)
+*~/
+/*
+57 VAG:  57 VAG, 58 sittyngge, 35 IP-SUB
+57 VAG:  57 VAG, 58 sittyngge, 10 IP-SUB
+*/
+
+( (FRAG (ADVP (ADV Certes))
+	(, ,)
+	(CP-THT (C +tat)
+		(IP-SUB (NP-SBJ (PRO +tu))
+			(MD mowe)
+			(VB folwe)
+			(NP-OB1 (PRO$ +ty)
+				(ADJ meke)
+				(N husbonde)
+				(, ,)
+				(NP-PRN (PRO hym)
+					(CP-REL (WNP-1 0)
+						(C +tat)
+						(IP-SUB (NP-SBJ *T*-1)
+							(BEP is)
+							(NP-OB1 (NPR Lord))
+							(PP (P of)
+							    (NP (NPR heuene) (CONJ and) (NPR ir+te)))
+							(, ,)
+							(IP-PPL (IP-PPL (VAG sittyngge)
+									(ADVP (ADVR so) (ADV homly))
+									(PP (P vp)
+									    (NP (D an) (N asse)))))))))))
+	(, ;))
+  (ID CMAELR3,45.570))
+
+/~*
+And whanne Crist aryst fro +te soper, gurdyngge hymself aboute wit a lynnene
+clo+t, and put water into a basyn, be+tenk how wondurful was +tat mageste of
+God, +tat wyste and also wypede so ententily synneful mennes feet, and how
+gret a benignyte it was to handlen wit his holy handys +te feet of Iudas, his
+cursede traytour.
+(CMAELR3,45.580)
+*~/
+/*
+28 VAG:  28 VAG, 29 gurdyngge, 11 IP-SUB
+28 VAG:  28 VAG, 29 gurdyngge, 10 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (PP (P whanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (NPR Crist))
+				      (VBD aryst)
+				      (PP (P fro)
+					  (NP (D +te) (N soper) (, ,)))
+				      (IP-PPL (VAG gurdyngge)
+					      (NP-OB1 (PRO+N hymself))
+					      (RP aboute)
+					      (PP (P wit)
+						  (NP (D a) (ADJ lynnene) (N clo+t)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBD put)
+					     (NP-OB1 (N water))
+					     (PP (P into)
+						 (NP (D a) (N basyn))))))))
+	  (, ,)
+	  (VBI be+tenk)
+	  (CP-QUE (CP-QUE (WADJP-1 (WADV how) (ADJ wondurful))
+			  (C 0)
+			  (IP-SUB (ADJP *T*-1)
+				  (BED was)
+				  (NP-SBJ (D +tat)
+					  (N mageste)
+					  (PP (P of)
+					      (NP (NPR God)
+						  (, ,)
+						  (CP-REL (WNP-2 0)
+							  (C +tat)
+							  (IP-SUB (NP-SBJ *T*-2)
+								  (VBD (VBD wyste) (CONJ and) (ALSO also) (VBD wypede))
+								  (ADVP (ADVR so) (ADV ententily))
+								  (NP-OB1 (NP-POS (ADJ synneful) (NS$ mennes))
+									  (NS feet)))))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-3 (WADJP (WADV how) (ADJ gret))
+					(D a)
+					(N benignyte))
+				 (C 0)
+				 (IP-SUB (NP-OB1 *T*-3)
+					 (NP-SBJ-4 (PRO it))
+					 (BED was)
+					 (IP-INF-4 (TO to)
+						   (VB handlen)
+						   (PP (P wit)
+						       (NP (PRO$ his) (ADJ holy) (NS handys)))
+						   (NP-OB1 (D +te)
+							   (NS feet)
+							   (PP (P of)
+							       (NP (NPR Iudas)
+								   (, ,)
+								   (NP-PRN (PRO$ his) (VAN cursede) (N traytour))))))))))
+	  (. .))
+  (ID CMAELR3,45.580))
+
+/~*
+and +terof suk out melke, +tat +tu mowe gostly be fed in +tenkyngge what he
+dude for vs in vre flehs.
+(CMAELR3,46.606)
+*~/
+/*
+36 VAG:  36 VAG, 37 +tenkyngge, 19 IP-SUB
+*/
+
+( (IP-IMP (CONJ and)
+	  (PP (ADV+P +terof))
+	  (VBI suk)
+	  (RP out)
+	  (NP-OB1 (N melke))
+	  (, ,)
+	  (CP-ADV (C +tat)
+		  (IP-SUB (NP-SBJ (PRO +tu))
+			  (MD mowe)
+			  (ADVP (ADV gostly))
+			  (BE be)
+			  (VAN fed)
+			  (PP (P in)
+			      (IP-PPL (VAG +tenkyngge)
+				      (CP-QUE (WNP-1 (WPRO what))
+					      (C 0)
+					      (IP-SUB (NP-OB1 *T*-1)
+						      (NP-SBJ (PRO he))
+						      (DOD dude)
+						      (PP (P for)
+							  (NP (PRO vs)))
+						      (PP (P in)
+							  (NP (PRO$ vre) (N flehs)))))))))
+	  (. .))
+  (ID CMAELR3,46.606))
+
+/~*
+Hit seme+t +tat +tu hast so greet conpassioun of me, +tat +tu louest me so
+muche, by-comyngge man for me, +tat as hit were +tu hast for+gyte +tat +tu art
+verrey God.
+(CMAELR3,46.614)
+*~/
+/*
+55 VAG:  55 VAG, 56 by-comyngge, 37 IP-SUB
+55 VAG:  55 VAG, 56 by-comyngge, 10 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO Hit))
+	  (VBP seme+t)
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ (PRO +tu))
+			    (HVP hast)
+			    (NP-OB1 (ADJP (ADVR so)
+					  (ADJ greet)
+					  (CP-DEG *ICH*-2))
+				    (N conpassioun))
+			    (PP (P of)
+				(NP (PRO me)))
+			    (, ,)
+			    (CP-DEG-2 (C +tat)
+				      (IP-SUB (NP-SBJ (PRO +tu))
+					      (VBP louest)
+					      (NP-OB1 (PRO me))
+					      (NP-MSR (QP (ADVR so) (Q muche)))
+					      (, ,)
+					      (IP-PPL (VAG by-comyngge)
+						      (NP-OB1 (N man))
+						      (PP (P for)
+							  (NP (PRO me))))
+					      (, ,)
+					      (CP-ADV (C +tat)
+						      (IP-SUB (PP (P as)
+								  (CP-ADV (C 0)
+									  (IP-SUB (NP-SBJ (PRO hit))
+										  (BED were))))
+							      (NP-SBJ (PRO +tu))
+							      (HVP hast)
+							      (VBN for+gyte)
+							      (CP-THT (C +tat)
+								      (IP-SUB (NP-SBJ (PRO +tu))
+									      (BEP art)
+									      (NP-OB1 (ADJ verrey) (NPR God))))))))))
+	  (. .))
+  (ID CMAELR3,46.614))
+
+/~*
+and also for anguyssche +tu swast so grevously +tat it seme+t dropes of blood
+rennyngge doun on +te ir+te.
+(CMAELR3,46.617)
+*~/
+/*
+41 VAG:  41 VAG, 42 rennyngge, 25 IP-SUB
+*/
+
+( (IP-MAT (CONJ and)
+	  (ALSO also)
+	  (PP (P for)
+	      (NP (N anguyssche)))
+	  (NP-SBJ (PRO +tu))
+	  (VBP swast)
+	  (ADVP (ADVR so)
+		(ADV grevously)
+		(CP-DEG (C +tat)
+			(IP-SUB (NP-SBJ-1 (PRO it))
+				(VBP seme+t)
+				(NP-1 (NS dropes)
+				      (PP (P of)
+					  (NP (N blood)))
+				      (RRC (VAG rennyngge)
+					   (PP (RP doun)
+					       (P on)
+					       (NP (D +te) (N ir+te))))))))
+	  (. .))
+  (ID CMAELR3,46.617))
+
+/~*
+Bote now abid what +tilke noble kny+gt come, Ioseph ab-Arimathie, and vnlace+t
+Cristes handes and feet, softly drawyngge out +te nayles.
+(CMAELR3,49.736)
+*~/
+/*
+62 VAG:  62 VAG, 63 drawyngge, 40 IP-SUB
+62 VAG:  62 VAG, 63 drawyngge, 15 IP-SUB
+*/
+
+( (IP-IMP (CONJ Bote)
+	  (ADVP-TMP (ADV now))
+	  (VBI abid)
+	  (PP (P what)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (D+ADJ +tilke)
+					      (ADJ noble)
+					      (N kny+gt)
+					      (NP-PRN *ICH*-1))
+				      (VBP come)
+				      (, ,)
+				      (NP-PRN-1 (NPR Ioseph) (NPR ab-Arimathie)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBP vnlace+t)
+					     (NP-OB1 (NPR$ Cristes)
+						     (NS handes)
+						     (CONJP (CONJ and)
+							    (NX (NS feet))))
+					     (, ,)
+					     (IP-PPL (ADVP (ADV softly))
+						     (VAG drawyngge)
+						     (RP out)
+						     (NP-OB1 (D +te) (NS nayles))))))))
+	  (. .))
+  (ID CMAELR3,49.736))
+
+/~*
+bote whan sche go+t to Cristes sepulcre wit here swete smyllyngge baaumes to
+anoynte Cristes menbrys, loke +tu go after.
+(CMAELR3,49.746)
+*~/
+/*
+32 VAG:  32 VAG, 33 smyllyngge, 10 IP-SUB
+*/
+
+( (IP-IMP (CONJ bote)
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO sche))
+			      (VBP go+t)
+			      (PP (P to)
+				  (NP (NPR$ Cristes) (N sepulcre)))
+			      (PP (P wit)
+				  (NP (PRO$ here) (ADJ swete) (VAG smyllyngge) (NS baaumes)))
+			      (IP-INF-PRP (TO to)
+					  (VB anoynte)
+					  (NP-OB1 (NPR$ Cristes) (NS menbrys))))))
+	  (, ,)
+	  (VBI loke)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO +tu))
+			  (VBP go)
+			  (ADVP-LOC (ADV after))))
+	  (. .))
+  (ID CMAELR3,49.746))
+
+/~*
+now Ihesu lokyngge wit a gladly e+ge vp-on Marye Magdeleyne, +tat was sory and
+wepyngge for Cristes de+t,
+(CMAELR3,50.751)
+*~/
+/*
+46 VAG:  46 VAG, 47 wepyngge, 36 IP-SUB
+*/
+
+( (FRAG (ADVP-TMP (ADV now))
+	(NP (NPR Ihesu))
+	(IP-PPL (VAG lokyngge)
+		(PP (P wit)
+		    (NP (D a) (ADJ gladly) (N e+ge)))
+		(PP (P vp-on)
+		    (NP (NPR Marye)
+			(NPR Magdeleyne)
+			(, ,)
+			(CP-REL (WNP-1 0)
+				(C +tat)
+				(IP-SUB (NP-SBJ *T*-1)
+					(BED was)
+					(ADJP (ADJ sory)
+					      (CONJ and)
+					      (VAG wepyngge)
+					      (PP (P for)
+						  (NP (NPR$ Cristes) (N de+t)))))))))
+	(. ,))
+  (ID CMAELR3,50.751))
+
+/~*
+Be-+tenk +te, as I seyde, of my foule corupcions, whanne +te cloudes of
+vnclennesse smokede vp in me of +te ir+ti and stynkynde concupiscence of flehs
+and of owtrage styrynge of childhood,
+(CMAELR3,52.848)
+*~/
+/*
+78 VAG:  78 VAG, 79 stynkynde, 45 IP-SUB
+99 VAG:  99 VAG, 100 styrynge, 45 IP-SUB
+*/
+
+( (IP-IMP (VBI Be-+tenk)
+	  (NP-OB2 (PRO +te))
+	  (, ,)
+	  (PP-PRN (P as)
+		  (CP-ADV (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (VBD seyde))))
+	  (, ,)
+	  (PP (P of)
+	      (NP (PRO$ my) (ADJ foule) (NS corupcions)))
+	  (, ,)
+	  (PP (P whanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D +te)
+				      (NS cloudes)
+				      (PP (P of)
+					  (NP (N vnclennesse))))
+			      (VBD smokede)
+			      (RP vp)
+			      (PP (P in)
+				  (NP (PRO me)))
+			      (PP (P of)
+				  (NP (D +te)
+				      (ADJP (ADJ ir+ti) (CONJ and) (VAG stynkynde))
+				      (N concupiscence)
+				      (PP (PP (P of)
+					      (NP (N flehs)))
+					  (CONJP (CONJ and)
+						 (PP (P of)
+						     (NP (N owtrage)))))
+				      (RRC (VAG styrynge)
+					   (PP (P of)
+					       (NP (N childhood)))))))))
+	  (. ,))
+  (ID CMAELR3,52.848))
+
+/~*
+A, suster, where is he mor fortunat +tat wit esy and softe wedur brynkt his
+schip saaf and sound to +te hauene, ful of marchaundise and of richesse, or
+elles he +tat in wylde wawes and in greet tempest alto-breket his vessel, and
+vnne+te naked and quakynge asschape+t to lond alyve?
+(CMAELR3,54.883)
+*~/
+/*
+158 VAG:  158 VAG, 159 quakynge, 147 IP-SUB
+158 VAG:  158 VAG, 159 quakynge, 111 IP-SUB
+158 VAG:  158 VAG, 159 quakynge, 14 IP-SUB
+*/
+
+( (CP-QUE (INTJ A)
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (WADVP-1 (WADV where))
+	  (IP-SUB (ADVP-LOC *T*-1)
+		  (BEP is)
+		  (NP-SBJ (NP (PRO he)
+			      (CP-REL *ICH*-2))
+			  (CONJP *ICH*-4))
+		  (ADJP (QR mor) (ADJ fortunat))
+		  (CP-REL-2 (WNP-3 0)
+			    (C +tat)
+			    (IP-SUB (NP-SBJ *T*-3)
+				    (PP (P wit)
+					(NP (ADJP (ADJ esy) (CONJ and) (ADJ softe))
+					    (N wedur)))
+				    (VBP brynkt)
+				    (NP-OB1 (PRO$ his) (N schip))
+				    (ADVP (ADV saaf) (CONJ and) (ADV sound))
+				    (PP (P to)
+					(NP (D +te) (N hauene)))
+				    (, ,)
+				    (ADJP-SPR (ADJ ful)
+					      (PP (PP (P of)
+						      (NP (N marchaundise)))
+						  (CONJP (CONJ and)
+							 (PP (P of)
+							     (NP (N richesse))))))))
+		  (, ,)
+		  (CONJP-4 (CONJ or)
+			   (ELSE elles)
+			   (NP (PRO he)
+			       (CP-REL (WNP-5 0)
+				       (C +tat)
+				       (IP-SUB (IP-SUB (NP-SBJ *T*-5)
+						       (PP (PP (P in)
+							       (NP (ADJ wylde) (NS wawes)))
+							   (CONJP (CONJ and)
+								  (PP (P in)
+								      (NP (ADJ greet) (N tempest)))))
+						       (Q+VBP alto-breket)
+						       (NP-OB1 (PRO$ his) (N vessel)))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (IP-SUB (NP-SBJ *T*-5)
+							      (ADVP (ADV vnne+te))
+							      (ADJP-SPR (ADJ naked) (CONJ and) (VAG quakynge))
+							      (VBP asschape+t)
+							      (PP (P to)
+								  (NP (N lond)))
+							      (PP (P+N alyve)))))))))
+	  (. ?))
+  (ID CMAELR3,54.883))
+
+/~*
++gif +tu were dowtyngge or flecchyngge, he ha+t confermed +te in good purpos.
+(CMAELR3,54.899)
+*~/
+/*
+15 VAG:  15 VAG, 16 dowtyngge, 8 IP-SUB
+19 VAG:  19 VAG, 20 flecchyngge, 8 IP-SUB
+*/
+
+( (IP-MAT (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tu))
+			      (BED were)
+			      (VAG (VAG dowtyngge) (CONJ or) (VAG flecchyngge)))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (HVP ha+t)
+	  (VBN confermed)
+	  (NP-OB1 (PRO +te))
+	  (PP (P in)
+	      (NP (ADJ good) (N purpos)))
+	  (. .))
+  (ID CMAELR3,54.899))
+
+/~*
+How ofte, suster, whan +tu hast be asadded and dul or wery of +ty lyfe, ha+t
+he be a pytous confortour to +te; +gif +tu $were longynge in brennyngge loue
+after hym, ha+t ilept in-to +tyn herte; +gif +tu hast yrad or ystotid on holy
+scripture, ha+t yli+gted +ty soule wit li+gt of spiritual vnderstondynge?
+(CMAELR3,54.900)
+*~/
+/*
+91 VAG:  91 VAG, 92 longynge, 85 IP-SUB
+91 VAG:  91 VAG, 92 longynge, 9 IP-SUB
+97 VAG:  97 VAG, 98 brennyngge, 85 IP-SUB
+97 VAG:  97 VAG, 98 brennyngge, 9 IP-SUB
+*/
+
+( (CP-QUE (WADVP-1 (WADV How) (ADV ofte))
+	  (, ,)
+	  (IP-SUB (IP-SUB-2 (ADVP-TMP *T*-1)
+			    (NP-VOC (N suster))
+			    (, ,)
+			    (PP (P whan)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (PRO +tu))
+						(HVP hast)
+						(BEN be)
+						(ADJP (ADJP (VAN asadded) (CONJ and) (ADJ dul))
+						      (CONJP (CONJ or)
+							     (ADJP (ADJ wery)
+								   (PP (P of)
+								       (NP (PRO$ +ty) (N lyfe)))))))))
+			    (, ,)
+			    (HVP ha+t)
+			    (NP-SBJ (PRO he))
+			    (BEN be)
+			    (NP-OB1 (D a) (ADJ pytous) (N confortour))
+			    (PP (P to)
+				(NP (PRO +te))))
+		  (, ;)
+		  (IP-SUB=2 (PP (P +gif)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (PRO +tu))
+						(BED $were)
+						(VAG longynge)
+						(PP (P in)
+						    (NP (VAG brennyngge) (N loue)))
+						(PP (P after)
+						    (NP (PRO hym))))))
+			    (, ,)
+			    (HVP ha+t)
+			    (VBN ilept)
+			    (PP (P in-to)
+				(NP (PRO$ +tyn) (N herte))))
+		  (, ;)
+		  (IP-SUB=2 (PP (P +gif)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (PRO +tu))
+						(HVP hast)
+						(VBN (VBN yrad) (CONJ or) (VBN ystotid))
+						(PP (P on)
+						    (NP (ADJ holy) (NPR scripture))))))
+			    (, ,)
+			    (HVP ha+t)
+			    (VBN yli+gted)
+			    (NP-OB1 (PRO$ +ty) (N soule))
+			    (PP (P wit)
+				(NP (N li+gt)
+				    (PP (P of)
+					(NP (ADJ spiritual) (N vnderstondynge)))))))
+	  (. ?))
+  (ID CMAELR3,54.900))
+
+/~*
+And +tis poynt +torow +te +giftes of God he may at sum tyme haue experience of,
++tat after sykyngge and mornynge for wrecched seruitute of +tis wordle, is so
+ileft vp in-to hei+g clennesse of conscience and holy contemplacioun +tat he
+ha+t in a maner for+gyten al +tis wordle.
+(CMAELR3,56.937)
+*~/
+/*
+63 VAG:  63 VAG, 64 sykyngge, 55 IP-SUB
+67 VAG:  67 VAG, 68 mornynge, 55 IP-SUB
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-1 (D +tis) (N poynt))
+	  (PP (P +torow)
+	      (NP (D +te)
+		  (NS +giftes)
+		  (PP (P of)
+		      (NP (NPR God)))))
+	  (NP-SBJ (PRO he)
+		  (CP-REL *ICH*-2))
+	  (MD may)
+	  (PP (P at)
+	      (NP (Q sum) (N tyme)))
+	  (HV haue)
+	  (NP-OB1 (N experience)
+		  (PP (P of)
+		      (NP *ICH*-1)))
+	  (, ,)
+	  (CP-REL-2 (WNP-3 0)
+		    (C +tat)
+		    (IP-SUB (NP-SBJ *T*-3)
+			    (PP (P after)
+				(IP-PPL (VAG (VAG sykyngge) (CONJ and) (VAG mornynge))
+					(PP (P for)
+					    (NP (ADJ wrecched)
+						(N seruitute)
+						(PP (P of)
+						    (NP (D +tis) (N wordle)))))))
+			    (, ,)
+			    (BEP is)
+			    (ADVP (ADVR so)
+				  (CP-DEG *ICH*-4))
+			    (VAN ileft)
+			    (PP (RP vp)
+				(P in-to)
+				(NP (ADJ hei+g)
+				    (N clennesse)
+				    (PP (P of)
+					(NP (NP (N conscience))
+					    (CONJP (CONJ and)
+						   (NP (ADJ holy) (N contemplacioun)))))))
+			    (CP-DEG-4 (C +tat)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (HVP ha+t)
+					      (PP (P in)
+						  (NP (D a) (N maner)))
+					      (VBN for+gyten)
+					      (NP-OB1 (Q al) (D +tis) (N wordle))))))
+	  (. .))
+  (ID CMAELR3,56.937))
+
+/~*
+Wherfore +te prophete, discryvyngge +te dee+t of Godes derlyngges fro +te
+dee+t of +too +tat be+t acursed and schulle be dampned, sei+t on +tis wyse:
+(CMAELR3,56.943)
+*~/
+/*
+18 VAG:  18 VAG, 19 discryvyngge, 7 IP-SUB
+*/
+
+( (CP-CAR (WPP-1 (WADV+P Wherfore))
+	  (C 0)
+	  (IP-SUB (PP *T*-1)
+		  (NP-SBJ (D +te) (N prophete))
+		  (, ,)
+		  (IP-PPL (VAG discryvyngge)
+			  (NP-OB1 (D +te)
+				  (N dee+t)
+				  (PP (P of)
+				      (NP (NPR$ Godes) (NS derlyngges))))
+			  (PP (P fro)
+			      (NP (D +te)
+				  (N dee+t)
+				  (PP (P of)
+				      (NP (D +too)
+					  (CP-REL (WNP-2 0)
+						  (C +tat)
+						  (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+								  (BEP be+t)
+								  (VAN acursed))
+							  (CONJP (CONJ and)
+								 (IP-SUB (NP-SBJ *T*-2)
+									 (MD schulle)
+									 (BE be)
+									 (VAN dampned))))))))))
+		  (, ,)
+		  (VBP sei+t)
+		  (PP (P on)
+		      (NP (D +tis) (N wyse))))
+	  (. :))
+  (ID CMAELR3,56.943))
+
+/~*
+And certes, he is a glorious kyng and deye+t in ioye, what so euere he be, to
+whos dee+t be+t angeles present, to whos laste slep holy halwen hi+get+t to
+and, +gyvyngge help as to here cyteseyn of heuene and mynystryngge hertly
+confort, fi+gte+t for hym a+gens his enemys, caste+t adoun his wi+tstonderes
+and scharply conuicte+t his accousours, bryngyngge his soule euene to
+Abrahames bosum and to +te si+gt of God, +ter +tat he schal abyden in reste,
+pees and li+gt.
+(CMAELR3,56.948)
+*~/
+/*
+124 VAG:  124 VAG, 125 +gyvyngge, 117 IP-SUB
+124 VAG:  124 VAG, 125 +gyvyngge, 98 IP-SUB
+150 VAG:  150 VAG, 151 mynystryngge, 117 IP-SUB
+150 VAG:  150 VAG, 151 mynystryngge, 98 IP-SUB
+210 VAG:  210 VAG, 211 bryngyngge, 194 IP-SUB
+210 VAG:  210 VAG, 211 bryngyngge, 98 IP-SUB
+*/
+
+( (IP-MAT-1 (CONJ And)
+	    (ADVP (ADV certes))
+	    (, ,)
+	    (NP-SBJ (PRO he)
+		    (CP-REL *ICH*-3)
+		    (CP-REL *ICH*-6))
+	    (BEP is)
+	    (NP-OB1 (D a) (ADJ glorious) (N kyng))
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (VBP deye+t)
+			  (PP (P in)
+			      (NP (N ioye))))
+	    (, ,)
+	    (NP-ADV (CP-FRL (WNP-2 (WPRO what) (ADV so) (ADV euere))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO he))
+				    (BEP be))))
+	    (, ,)
+	    (CP-REL-3 (WPP-4 (P to)
+			     (WNP (WPRO$ whos) (N dee+t)))
+		      (C 0)
+		      (IP-SUB (PP *T*-4)
+			      (NP-SBJ-5 *exp*)
+			      (BEP be+t)
+			      (NP-5 (NS angeles))
+			      (ADJP (ADJ present))))
+	    (, ,)
+	    (CP-REL-6 (WPP-7 (P to)
+			     (WNP (WPRO$ whos) (ADJ laste) (N slep)))
+		      (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (ADJ holy) (NS halwen))
+				      (VBP hi+get+t)
+				      (PP (P to)
+					  (PP *T*-7)))
+			      (CONJP (CONJ and)
+				     (, ,)
+				     (IP-SUB (PP *T*-7)
+					     (NP-SBJ *con*)
+					     (IP-PPL (IP-PPL (VAG +gyvyngge)
+							     (NP-OB1 (N help))
+							     (PP (P as)
+								 (PP (P to)
+								     (NP (PRO$ here)
+									 (N cyteseyn)
+									 (PP (P of)
+									     (NP (NPR heuene)))))))
+						     (CONJP (CONJ and)
+							    (IP-PPL (VAG mynystryngge)
+								    (NP-OB1 (ADJ hertly) (N confort)))))
+					     (, ,)
+					     (VBP fi+gte+t)
+					     (PP (P for)
+						 (NP (PRO hym)))
+					     (PP (P a+gens)
+						 (NP (PRO$ his) (NS enemys)))))
+			      (, ,)
+			      (CONJP (IP-SUB (NP-SBJ *con*)
+					     (VBP caste+t)
+					     (PP (P+RP adoun))
+					     (NP-OB1 (PRO$ his) (NS wi+tstonderes))))
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (ADVP (ADV scharply))
+					     (VBP conuicte+t)
+					     (NP-OB1 (PRO$ his) (NS accousours))
+					     (, ,)
+					     (IP-PPL (VAG bryngyngge)
+						     (NP-OB1 (PRO$ his) (N soule))
+						     (PP (PP (FP euene)
+							     (P to)
+							     (NP (NPR$ Abrahames) (N bosum)))
+							 (CONJP (CONJ and)
+								(PP (P to)
+								    (NP (D +te)
+									(N si+gt)
+									(PP (P of)
+									    (NP (NPR God))))))
+							 (, ,)
+							 (CP-REL (WADVP-8 (ADV +ter))
+								 (C +tat)
+								 (IP-SUB (ADVP-LOC *T*-8)
+									 (NP-SBJ (PRO he))
+									 (MD schal)
+									 (VB abyden)
+									 (PP (P in)
+									     (NP (N reste) (, ,) (N pees) (CONJ and) (N li+gt)))))))))))
+	    (. .))
+  (ID CMAELR3,56.948))
+
+/~*
+his wra+t+te schal brenne as eny fuyr, his chaar +tat be terrible as eny
+tempest forto take veniaunce in gret ire, and to destruye his enemys in
+leytyngge fuyr.
+(CMAELR3,57.969)
+*~/
+/*
+85 VAG:  85 VAG, 86 leytyngge, 33 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ his)
+		  (N wra+t+te)
+		  (NP-PRN *ICH*-1))
+	  (MD schal)
+	  (VB brenne)
+	  (PP (P as)
+	      (NP (Q eny) (N fuyr)))
+	  (, ,)
+	  (NP-PRN-1 (PRO$ his)
+		    (N chaar)
+		    (CP-REL (WNP-2 0)
+			    (C +tat)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (BEP be)
+				    (ADJP (ADJ terrible)
+					  (PP (P as)
+					      (NP (Q eny) (N tempest)))
+					  (IP-INF (IP-INF (FOR+TO forto)
+							  (VB take)
+							  (NP-OB1 (N veniaunce))
+							  (PP (P in)
+							      (NP (ADJ gret) (N ire))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-INF (TO to)
+								 (VB destruye)
+								 (NP-OB1 (PRO$ his) (NS enemys))
+								 (PP (P in)
+								     (NP (VAG leytyngge) (N fuyr))))))))))
+	  (. .))
+  (ID CMAELR3,57.969))
+
+/~*
+Now, suster, +gif +tu woldest stonde in +te myddul of +tyse two companyes, not
+wetyngge as it were to wyche partye +te sentence of +te domesman wyle put +te
+too, lord, how hard schulde +tis abydyng be to +te!
+(CMAELR3,58.1001)
+*~/
+/*
+49 VAG:  49 VAG, 50 wetyngge, 18 IP-SUB
+*/
+
+( (CP-QUE (ADVP-TMP (ADV Now))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tu))
+			      (MD woldest)
+			      (VB stonde)
+			      (PP (P in)
+				  (NP (D +te)
+				      (N myddul)
+				      (PP (P of)
+					  (NP (D +tyse) (NUM two) (NS companyes)))))
+			      (, ,)
+			      (IP-PPL (NEG not)
+				      (VAG wetyngge)
+				      (PP (P as)
+					  (CP-ADV (C 0)
+						  (IP-SUB (NP-SBJ (PRO it))
+							  (BED were))))
+				      (CP-QUE (WPP-1 (P to)
+						     (WNP (WD wyche) (N partye)))
+					      (C 0)
+					      (IP-SUB (NP-SBJ (D +te)
+							      (N sentence)
+							      (PP (P of)
+								  (NP (D +te) (N+N domesman))))
+						      (MD wyle)
+						      (VB put)
+						      (NP-OB1 (PRO +te))
+						      (PP (P too)
+							  (PP *T*-1))))))))
+	  (, ,)
+	  (INTJP (NPR lord))
+	  (, ,)
+	  (WADJP-2 (WADV how) (ADJ hard))
+	  (IP-SUB (ADJP *T*-2)
+		  (MD schulde)
+		  (NP-SBJ (D +tis) (N abydyng))
+		  (BE be)
+		  (PP (P to)
+		      (NP (PRO +te))))
+	  (. !))
+  (ID CMAELR3,58.1001))
+
+/~*
+And +terfore now a Godes half ymagyne as +tey +tu were ioyned to +tat ioyful
+and holy felauschip, heryngge +tilke precious decree of his swete voys:
+(CMAELR3,58.1007)
+*~/
+/*
+55 VAG:  55 VAG, 56 heryngge, 29 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (PP (ADV+P +terfore))
+	  (ADVP-TMP (ADV now))
+	  (PP (P a)
+	      (NP (NPR$ Godes) (N half)))
+	  (VBI ymagyne)
+	  (PP (P as)
+	      (PP (P +tey)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (PRO +tu))
+				  (BED were)
+				  (VAN ioyned)
+				  (PP (P to)
+				      (NP (D +tat)
+					  (ADJP (ADJ ioyful) (CONJ and) (ADJ holy))
+					  (N felauschip)))
+				  (, ,)
+				  (IP-PPL (VAG heryngge)
+					  (NP-OB1 (D+ADJ +tilke)
+						  (ADJ precious)
+						  (N decree)
+						  (PP (P of)
+						      (NP (PRO$ his) (ADJ swete) (NS voys)))))))))
+	  (. :))
+  (ID CMAELR3,58.1007))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	59/45/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+
+/~*
+& for ty hauis +tou no mede of +tat +ting +tat tu dos gruchande;
+(CMBENRUL,10.343)
+*~/
+/*
+42 VAG:  42 VAG, 43 gruchande, 33 IP-SUB
+*/
+
+( (IP-MAT (CONJ &)
+	  (PP (P for)
+	      (NP (D ty)))
+	  (HVP hauis)
+	  (NP-SBJ (PRO +tou))
+	  (NP-OB1 (Q no) (N mede))
+	  (PP (P of)
+	      (NP (D +tat)
+		  (N +ting)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO tu))
+				  (DOP dos)
+				  (IP-PPL (VAG gruchande))))))
+	  (. ;))
+  (ID CMBENRUL,10.343))
+
+/~*
+And make yure stize to he heuin wid yure gode dedis, +tat iacob saz slapande:
+(CMBENRUL,11.378)
+*~/
+/*
+47 VAG:  47 VAG, 48 slapande, 38 IP-SUB
+*/
+
+( (IP-IMP (CONJ And)
+	  (VBI make)
+	  (NP-OB1 (PRO$ yure)
+		  (N stize)
+		  (CP-REL *ICH*-1))
+	  (PP (P to)
+	      (NP (ADJ he) (NPR heuin)))
+	  (PP (P wid)
+	      (NP (PRO$ yure) (ADJ gode) (NS dedis)))
+	  (, ,)
+	  (CP-REL-1 (WNP-2 0)
+		    (C +tat)
+		    (IP-SUB (NP-OB1 *T*-2)
+			    (NP-SBJ (NPR iacob))
+			    (VBP saz)
+			    (IP-PPL (VAG slapande))))
+	  (. :))
+  (ID CMBENRUL,11.378))
+
+/~*
+IN +te sunendais es for to ryse arliker, And halde yure mesur o waking; +tat
+es +tat ye syng +te sexe salmis and te vers, als is ordainde by-fore, sitande
+alle wid ordir,
+(CMBENRUL,16.568)
+*~/
+/*
+104 VAG:  104 VAG, 105 sitande, 59 IP-SUB
+*/
+
+( (IP-MAT (NP-SBJ-1 *exp*)
+	  (PP (P IN)
+	      (NP (D +te) (NPRS sunendais)))
+	  (BEP es)
+	  (IP-INF-1 (IP-INF (FOR for)
+			    (TO to)
+			    (VB ryse)
+			    (ADVP-TMP (ADVR arliker)))
+		    (, ,)
+		    (CONJP (CONJ And)
+			   (IP-INF (FOR *)
+				   (TO *)
+				   (VB halde)
+				   (NP-OB1 (PRO$ yure) (N mesur))
+				   (PP (P o)
+				       (NP (N waking))))))
+	  (, ;)
+	  (IP-MAT-PRN (NP-SBJ (D +tat))
+		      (BEP es)
+		      (CP-THT (C +tat)
+			      (IP-SUB (NP-SBJ (PRO ye))
+				      (VBP syng)
+				      (NP-OB1 (NP (D +te) (NUM sexe) (NS salmis))
+					      (CONJP (CONJ and)
+						     (NP (D te) (N vers))))
+				      (, ,)
+				      (PP-PRN (P als)
+					      (CP-ADV (WNP-2 0)
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (BEP is)
+							      (VAN ordainde)
+							      (ADVP-TMP (ADV by-fore)))))
+				      (, ,)
+				      (IP-ABS (VAG sitande)
+					      (NP-SBJ (Q alle))
+					      (PP (P wid)
+						  (NP (N ordir)))))))
+	  (. ,))
+  (ID CMBENRUL,16.568))
+
+/~*
+& +tat ye haue liht al +te nyht brinnande.
+(CMBENRUL,20.696)
+*~/
+/*
+23 VAG:  23 VAG, 24 brinnande, 6 IP-SUB
+*/
+
+( (CP-THT (CONJ &)
+	  (C +tat)
+	  (IP-SUB (NP-SBJ (PRO ye))
+		  (HVP haue)
+		  (NP-OB1 (N liht))
+		  (NP-MSR (Q al) (D +te) (N nyht))
+		  (IP-PPL (VAG brinnande)))
+	  (. .))
+  (ID CMBENRUL,20.696))
+
+/~*
+Yef any be of grete herte and wyl noht be buxum, ou+tir prud, ou+tir ani
+greuching make aigain haly religuin, ou+tir +te cumandement hauis in despit,
++ta +tat ere of suilke dedis, Priuelike man sal amoneste, +tat tay amende
++taim.
+(CMBENRUL,20.709)
+*~/
+/*
+54 VAG:  54 VAG, 55 greuching, 8 IP-SUB
+*/
+
+( (IP-MAT (PP (P Yef)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (Q any))
+					(BEP be)
+					(PP (P of)
+					    (NP (ADJ grete) (N herte))))
+			      (CONJP (CONJ and)
+				     (IP-SUB=1 (MD wyl)
+					       (NEG noht)
+					       (BE be)
+					       (ADJP (ADJ buxum))))
+			      (, ,)
+			      (CONJP (CONJ ou+tir)
+				     (IP-SUB=1 (ADJP (ADJ prud))))
+			      (, ,)
+			      (CONJP (CONJ ou+tir)
+				     (IP-SUB=1 (NP-OB1 (Q ani)
+						       (VAG greuching)
+						       (PP *ICH*-2))
+					       (VBP make)
+					       (PP-2 (P aigain)
+						     (NP (ADJ haly) (N religuin)))))
+			      (, ,)
+			      (CONJP (CONJ ou+tir)
+				     (IP-SUB=1 (NP-OB1 (D +te) (N cumandement))
+					       (HVP hauis)
+					       (PP (P in)
+						   (NP (N despit))))))))
+	  (, ,)
+	  (NP-OB1 (D +ta)
+		  (CP-REL (WNP-3 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-3)
+				  (BEP ere)
+				  (PP (P of)
+				      (NP (SUCH suilke) (NS dedis))))))
+	  (, ,)
+	  (ADVP (ADV Priuelike))
+	  (NP-SBJ (MAN man))
+	  (MD sal)
+	  (VB amoneste)
+	  (, ,)
+	  (CP-ADV (C +tat)
+		  (IP-SUB (NP-SBJ (PRO tay))
+			  (VBP amende)
+			  (NP-OB1 (PRO +taim))))
+	  (. .))
+  (ID CMBENRUL,20.709))
+
+/~*
+yef sho be a fole & ful of iuil, and mas na force of +te cursing, sho sal be
+berid ful wel, and do hir a-mende it sua.
+(CMBENRUL,21.712)
+*~/
+/*
+55 VAG:  55 VAG, 56 cursing, 39 IP-SUB
+55 VAG:  55 VAG, 56 cursing, 9 IP-SUB
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P yef)
+			(CP-ADV (C 0)
+				(IP-SUB (IP-SUB (NP-SBJ (PRO sho))
+						(BEP be)
+						(NP-OB1 (NP (D a) (N fole))
+							(CONJP (CONJ &)
+							       (ADJP (ADJ ful)
+								     (PP (P of)
+									 (NP (N iuil)))))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (IP-SUB (NP-SBJ *con*)
+						       (VBP mas)
+						       (NP-OB1 (Q na)
+							       (N force)
+							       (PP (P of)
+								   (NP (D +te) (VAG cursing)))))))))
+		    (, ,)
+		    (NP-SBJ (PRO sho))
+		    (MD sal)
+		    (BE be)
+		    (VAN berid)
+		    (ADVP (ADV ful) (ADV wel)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (DO do)
+			   (IP-INF (NP-SBJ (PRO hir))
+				   (VB a-mende)
+				   (NP-OB1 (PRO it))
+				   (ADVP (ADV sua)))))
+	  (. .))
+  (ID CMBENRUL,21.712))
+
+/~*
+bot si+tin wite sho wel es tare na cuming a-gain.
+(CMBENRUL,23.788)
+*~/
+/*
+27 VAG:  27 VAG, 28 cuming, 18 IP-SUB
+*/
+
+( (IP-MAT (CONJ bot)
+	  (ADVP-TMP (ADV si+tin))
+	  (VBP wite)
+	  (NP-SBJ (PRO sho))
+	  (ADVP (ADV wel))
+	  (CP-THT (C 0)
+		  (IP-SUB (BEP es)
+			  (NP-SBJ-1 (EX tare))
+			  (NP-1 (Q na) (VAG cuming) (ADV a-gain))))
+	  (. .))
+  (ID CMBENRUL,23.788))
+
+/~*
+In +tis sentence sais sain benet +tat te celeresse sal be chosin of +te cuuent,
++tat sho be meke, and sobur, and noht of mekil mete, ne prude, ne noius, ne
+wrangdoande, ne latte, ne wastande, Bod god dutande;
+(CMBENRUL,23.800)
+*~/
+/*
+118 VAG:  118 VAG, 119 wastande, 47 IP-SUB
+128 VAG:  128 VAG, 129 dutande, 47 IP-SUB
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D +tis) (N sentence)))
+	  (VBP sais)
+	  (NP-SBJ (NPR sain) (NPR benet))
+	  (CP-THT (CP-THT (C +tat)
+			  (IP-SUB (NP-SBJ (D te) (N celeresse))
+				  (MD sal)
+				  (BE be)
+				  (VAN chosin)
+				  (PP (P of)
+				      (NP (D +te) (N cuuent)))))
+		  (, ,)
+		  (CONJP (CP-THT (C +tat)
+				 (IP-SUB (NP-SBJ (PRO sho))
+					 (BEP be)
+					 (ADJP (ADJP (ADJ meke))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (ADJP (ADJ sobur)))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (PP (NEG noht)
+							  (P of)
+							  (NP (Q mekil) (N mete))))
+					       (, ,)
+					       (CONJP (CONJ ne)
+						      (ADJP (ADJ prude)))
+					       (, ,)
+					       (CONJP (CONJ ne)
+						      (ADJP (ADJ noius)))
+					       (, ,)
+					       (CONJP (CONJ ne)
+						      (ADJP (N+DAG wrangdoande)))
+					       (, ,)
+					       (CONJP (CONJ ne)
+						      (ADJP (VAN latte)))
+					       (, ,)
+					       (CONJP (CONJ ne)
+						      (ADJP (VAG wastande)))
+					       (, ,)
+					       (CONJP (CONJ Bod)
+						      (ADJP (NPR god) (VAG dutande))))))))
+	  (. ;))
+  (ID CMBENRUL,23.800))
+
+/~*
+Ouir alle +tinges loke ye ne be noht gruchande of na +ting.
+(CMBENRUL,29.958)
+*~/
+/*
+27 VAG:  27 VAG, 28 gruchande, 15 IP-SUB
+*/
+
+( (IP-IMP (PP (P Ouir)
+	      (NP (Q alle) (NS +tinges)))
+	  (VBI loke)
+	  (CP-DEG (C 0)
+		  (IP-SUB (NP-SBJ (PRO ye))
+			  (CODE <P_29>)
+			  (NEG ne)
+			  (BEP be)
+			  (NEG noht)
+			  (VAG gruchande)
+			  (PP (P of)
+			      (NP (Q na) (N +ting)))))
+	  (. .))
+  (ID CMBENRUL,29.958))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	10/9/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	59/45/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	10/9/1454
+whole search, hits/tokens/total
+		69/54/2508
+*/

@@ -1,0 +1,136 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:52 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_nonverbal_predicates\science_astronomy_geography\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	0/0/843
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	0/0/484
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	0/0/731
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	0/0/303
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	0/0/318
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd
+*/
+
+/~*
+In many books you will find descriptions of three bodies in contact, and a
+statement of the law of the angles at which they meet; that the sides of a
+triangle, drawn parallel to the three intersecting surfaces, must be in
+proportion to the three tensions.
+(STRUTT-1890,3,354.352)
+*~/
+/*
+113 VAG:  113 VAG, 114 intersecting, 102 ADJP-SPR
+*/
+( (IP-MAT (PP (P In)
+	      (NP (Q many) (NS books)))
+	  (NP-SBJ (PRO you))
+	  (MD will)
+	  (VB find)
+	  (NP-OB1 (NP (NS descriptions)
+		      (PP (P of)
+			  (NP (NUM three)
+			      (NS bodies)
+			      (PP (P in)
+				  (NP (N contact))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D a)
+			     (N statement)
+			     (PP (P of)
+				 (NP (D the)
+				     (N law)
+				     (PP (P of)
+					 (NP (D the)
+					     (NS angles)
+					     (CP-REL (WPP-1 (P at)
+							    (WNP (WPRO which)))
+						     (C 0)
+						     (IP-SUB (PP *T*-1)
+							     (NP-SBJ (PRO they))
+							     (VBP meet)))))
+				     (, ;)
+				     (CP-THT-PRN (C that)
+						 (IP-SUB (NP-SBJ (D the)
+								 (NS sides)
+								 (PP (P of)
+								     (NP (D a) (N triangle)))
+								 (, ,)
+								 (RRC (VAN drawn)
+								      (ADJP-SPR (ADJ parallel)
+										(PP (P to)
+										    (NP (D the) (NUM three) (VAG intersecting) (NS surfaces))))))
+							 (, ,)
+							 (MD must)
+							 (BE be)
+							 (PP (P in)
+							     (NP (N proportion)
+								 (PP (P to)
+								     (NP (D the) (NUM three) (NS tensions))))))))))))
+	  (. .))
+  (ID STRUTT-1890,3,354.352))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	1/1/468
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	0/0/843
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	0/0/484
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	0/0/731
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	0/0/303
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	0/0/318
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	1/1/468
+whole search, hits/tokens/total
+		1/1/3147
+*/

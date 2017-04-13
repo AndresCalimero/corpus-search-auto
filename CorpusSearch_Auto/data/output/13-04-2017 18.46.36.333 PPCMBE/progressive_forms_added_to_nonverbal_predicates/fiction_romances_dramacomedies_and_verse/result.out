@@ -1,0 +1,675 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:49 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_nonverbal_predicates\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	0/0/1202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	0/0/1122
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd
+*/
+
+/~*
+Had you come to me, almost broken-hearted, and not looking like one quite
+abandon'd to wickedness, I should have thought on your misery, and forgot that
+it might have been brought on by your faults.
+(COLMAN-1805,55.1134)
+*~/
+/*
+36 VAG:  36 VAG, 37 looking, 22 ADJP-SPR
+*/
+( (IP-MAT (IP-MAT-1 (CP-ADV (C 0)
+			    (IP-SUB (HVD Had)
+				    (NP-SBJ (PRO you))
+				    (VBN come)
+				    (PP (P to)
+					(NP (PRO me)))
+				    (, ,)
+				    (ADJP-SPR (ADJP (ADV almost) (ADJ broken-hearted))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-PPL (NEG not)
+							     (VAG looking)
+							     (ADJP (ADJ like)
+								   (NP (ONE one)
+								       (ADJP (ADV quite))
+								       (VAN abandon'd)
+								       (PP (P to)
+									   (NP (N wickedness))))))))))
+		    (, ,)
+		    (NP-SBJ (PRO I))
+		    (MD should)
+		    (HV have)
+		    (VBN thought)
+		    (PP (P on)
+			(NP (PRO$ your) (N misery))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VBN forgot)
+			   (CP-THT (C that)
+				   (IP-SUB (NP-SBJ (PRO it))
+					   (MD might)
+					   (HV have)
+					   (BEN been)
+					   (VAN brought)
+					   (RP on)
+					   (PP (P by)
+					       (NP (PRO$ your) (NS faults)))))))
+	  (. .))
+  (ID COLMAN-1805,55.1134))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	1/1/1185
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd
+*/
+
+/~*
+$I $'d make 'em a Boul of Punch should send 'em Home so chirping merry, they
+should remember me 'till I came again;
+(DAVYS-1716,29.186)
+*~/
+/*
+46 VAG:  46 VAG, 47 chirping, 43 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ (PRO $I))
+	  (MD $'d)
+	  (CODE {TEXT:I'd})
+	  (VB make)
+	  (NP-OB2 (PRO 'em))
+	  (NP-OB1 (D a)
+		  (N Boul)
+		  (PP (P of)
+		      (NP (N Punch)))
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD should)
+				  (VB send)
+				  (NP-OB1 (PRO 'em))
+				  (NP-DIR (N Home))
+				  (ADJP-SPR (ADVR so)
+					    (VAG chirping)
+					    (ADJ merry)
+					    (, ,)
+					    (CP-DEG (C 0)
+						    (IP-SUB (NP-SBJ (PRO they))
+							    (MD should)
+							    (VB remember)
+							    (NP-OB1 (PRO me))
+							    (PP (P 'till)
+								(CP-ADV (C 0)
+									(IP-SUB (NP-SBJ (PRO I))
+										(VBD came)
+										(ADVP (ADV again)))))))))))
+	  (. ;))
+  (ID DAVYS-1716,29.186))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	1/1/946
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	0/0/495
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd
+*/
+
+/~*
+for, so far from Mr Smangle being any the worse for it, he was something the
+better, inasmuch as to qualify himself for the place, he had attained
+gratuitous possession of certain articles of jewellery, which, long before
+that, had found their way to the pawnbroker's.
+(DICKENS-1837,555.271)
+*~/
+/*
+22 BAG:  22 BAG, 23 being, 6 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ for)
+	  (, ,)
+	  (ADJP-SPR (ADVR so)
+		    (ADJ far)
+		    (PP (P from)
+			(CODE <P_555>)
+			(IP-PPL (NP-SBJ (NPR Mr) (NPR Smangle))
+				(BAG being)
+				(ADJP (QP (Q any))
+				      (D the)
+				      (ADJR worse))
+				(PP (P for)
+				    (NP (PRO it))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (BED was)
+	  (ADJP (NP-MSR (Q+N something))
+		(D the)
+		(ADJR better))
+	  (, ,)
+	  (PP (P+ADVR+Q inasmuch)
+	      (PP (P as)
+		  (CP-ADV (C 0)
+			  (IP-SUB (IP-INF-PRP (TO to)
+					      (VB qualify)
+					      (NP-OB1 (PRO+N himself))
+					      (PP (P for)
+						  (NP (D the) (N place))))
+				  (, ,)
+				  (NP-SBJ (PRO he))
+				  (HVD had)
+				  (VBN attained)
+				  (NP-OB1 (ADJ gratuitous)
+					  (N possession)
+					  (PP (P of)
+					      (NP (ADJ certain)
+						  (NS articles)
+						  (PP (P of)
+						      (NP (N jewellery)))
+						  (, ,)
+						  (CP-REL (WNP-1 (WPRO which))
+							  (, ,)
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-1)
+								  (PP (NP-MSR (ADJ long))
+								      (P before)
+								      (NP (D that)))
+								  (, ,)
+								  (HVD had)
+								  (VBN found)
+								  (NP-OB1 (PRO$ their)
+									  (N way)
+									  (PP (P to)
+									      (NP (NP-POS (D the) (N+N$ pawnbroker's))))))))))))))
+	  (. .))
+  (ID DICKENS-1837,555.271))
+
+/~*
+Illustrative, like the preceding one, of the old Proverb, that Adversity
+brings a Man acquainted with strange Bed-fellows.
+(DICKENS-1837,557.316)
+*~/
+/*
+14 VAG:  14 VAG, 15 preceding, 8 ADJP-SPR
+*/
+
+( (ADJP (CODE <font>)
+	(ADJ Illustrative)
+	(, ,)
+	(ADJP-SPR (ADJ like)
+		  (NP (D the) (VAG preceding) (ONE one)))
+	(, ,)
+	(PP (P of)
+	    (NP (D the)
+		(ADJ old)
+		(N Proverb)
+		(, ,)
+		(CP-THT (C that)
+			(IP-SUB (NP-SBJ (N Adversity))
+				(VBP brings)
+				(IP-SMC (NP-SBJ (D a) (N Man))
+					(VAN acquainted)
+					(PP (P with)
+					    (NP (ADJ strange) (N+NS Bed-fellows))))))))
+	(. .))
+  (ID DICKENS-1837,557.316))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	2/2/566
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	0/0/486
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	0/0/593
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	0/0/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd
+*/
+
+/~*
+For it chanced, that the young earl, after a period of refuge at his Welsh
+castle, supposing, as he well might, that his latest mad freak of the proposal
+of his hand and title to the strange girl in a quadrille at a foreign castle
+had been forgotten by her, and the risks of annoyance on the subject had quite
+blown over, returned to town, happy in having done the penance for his
+impulsiveness, and got clean again - that is to say, struck off his fetters
+and escaped from importunities - the very morning of the day when Lord
+Levellier sprang upon him!
+(MEREDITH-1895,19,136.65)
+*~/
+/*
+208 HAG:  208 HAG, 209 having, 201 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ-1 (PRO it))
+	  (VBD chanced)
+	  (, ,)
+	  (CP-THT-1 (C that)
+		    (IP-SUB (IP-SUB (NP-SBJ (D the) (ADJ young) (N earl))
+				    (, ,)
+				    (PP (P after)
+					(NP (D a)
+					    (N period)
+					    (PP (P of)
+						(CODE <P_19,136>)
+						(NP (N refuge)))
+					    (PP (P at)
+						(NP (PRO$ his) (ADJ Welsh) (N castle)))))
+				    (, ,)
+				    (IP-PPL (VAG supposing)
+					    (, ,)
+					    (PP (P as)
+						(CP-ADV (WADVP-2 0)
+							(C 0)
+							(IP-SUB (ADVP *T*-2)
+								(NP-SBJ (PRO he))
+								(ADVP (ADV well))
+								(MD might))))
+					    (, ,)
+					    (CP-THT (C that)
+						    (IP-SUB (IP-SUB (NP-SBJ (PRO$ his)
+									    (ADJS latest)
+									    (ADJ mad)
+									    (N freak)
+									    (PP (P of)
+										(NP (D the)
+										    (N proposal)
+										    (PP (P of)
+											(NP (PRO$ his)
+											    (N hand)
+											    (CONJP (CONJ and)
+												   (NX (N title))))))))
+								    (PP (P to)
+									(NP (D the) (ADJ strange) (N girl)))
+								    (PP (P in)
+									(NP (D a) (N quadrille)))
+								    (PP (P at)
+									(NP (D a) (ADJ foreign) (N castle)))
+								    (HVD had)
+								    (BEN been)
+								    (VAN forgotten)
+								    (PP (P by)
+									(NP (PRO her))))
+							    (, ,)
+							    (CONJP (CONJ and)
+								   (IP-SUB (NP-SBJ (D the)
+										   (NS risks)
+										   (PP (P of)
+										       (NP (N annoyance)
+											   (PP (P on)
+											       (NP (D the) (N subject))))))
+									   (HVD had)
+									   (ADVP (ADV quite))
+									   (VBN blown)
+									   (RP over))))))
+				    (, ,)
+				    (VBD returned)
+				    (PP (P to)
+					(NP (N town)))
+				    (, ,)
+				    (ADJP-SPR (ADJ happy)
+					      (PP (P in)
+						  (IP-PPL (HAG having)
+							  (DON done)
+							  (NP-OB1 (D the)
+								  (N penance)
+								  (PP (P for)
+								      (NP (PRO$ his) (N impulsiveness))))))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (IP-SUB (NP-SBJ *con*)
+					   (VBD got)
+					   (ADJP (ADJ clean))
+					   (ADVP (ADV again))
+					   (, -)
+					   (IP-MAT-PRN (NP-SBJ (D that))
+						       (BEP is)
+						       (IP-INF (TO to)
+							       (VB say)
+							       (, ,)
+							       (IP-MAT (IP-MAT (NP-SBJ *pro*)
+									       (VBD struck)
+									       (RP off)
+									       (NP-OB1 (PRO$ his) (NS fetters)))
+								       (CONJP (CONJ and)
+									      (IP-MAT (NP-SBJ *con*)
+										      (VBD escaped)
+										      (PP (P from)
+											  (NP (NS importunities))))))))
+					   (, -)
+					   (NP-TMP (D the)
+						   (ADJ very)
+						   (N morning)
+						   (PP (P of)
+						       (NP (D the)
+							   (N day)
+							   (CP-REL (WADVP-3 (WADV when))
+								   (C 0)
+								   (IP-SUB (ADVP-TMP *T*-3)
+									   (NP-SBJ (NPR Lord) (NPR Levellier))
+									   (VBD sprang)
+									   (PP (P upon)
+									       (NP (PRO him))))))))))))
+	  (. !))
+  (ID MEREDITH-1895,19,136.65))
+
+/~*
+and lengthened the admiral's chaps with another proposal; easy, deliberate,
+precise, quite the respectful bandit, if you please, determined on having his
+daughter by all means, only much preferring the legal, formal, and friendly.
+(MEREDITH-1895,19,137.84)
+*~/
+/*
+71 HAG:  71 HAG, 72 having, 39 NP-SPR
+97 VAG:  97 VAG, 98 preferring, 39 NP-SPR
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD lengthened)
+	  (NP-OB1 (NP-POS (D the) (N$ admiral's))
+		  (NS chaps))
+	  (PP (P with)
+	      (NP (D+OTHER another)
+		  (N proposal)
+		  (, ;)
+		  (ADJP (ADJ easy) (, ,) (ADJ deliberate) (, ,) (ADJ precise))))
+	  (, ,)
+	  (NP-SPR (ADV quite)
+		  (D the)
+		  (ADJ respectful)
+		  (N bandit)
+		  (, ,)
+		  (PP-PRN (P if)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (PRO you))
+					  (VBP please))))
+		  (, ,)
+		  (ADJP (VAN determined)
+			(PP (P on)
+			    (IP-PPL (HAG having)
+				    (CODE <P_19,137>)
+				    (NP-OB1 (PRO$ his) (N daughter))
+				    (PP (P by)
+					(NP (Q all) (N means)))
+				    (, ,)
+				    (IP-PPL (NP-MSR (QP (FP only) (Q much)))
+					    (VAG preferring)
+					    (NP-OB1 (D the)
+						    (ADJP (ADJ legal) (, ,) (ADJ formal) (, ,) (CONJ and) (ADJ friendly))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,137.84))
+
+/~*
+A day having the gale in its breast, sweeping the whole country and bending
+the trees for the twigs to hiss like spray of the billows around our island,
+was a day of golden splendour to the young bride of the Earl of Fleetwood,
+though he scarcely addressed one syllable to her, and they sat side by side
+all but dumb, he like a coachman driving an unknown lady fare, on a morning
+after a night when his wife's tongue may have soured him for the sex.
+(MEREDITH-1895,19,145.238)
+*~/
+/*
+198 VAG:  198 VAG, 199 driving, 189 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (N day)
+		  (RRC (RRC (HAG having)
+			    (NP-OB1 (D the) (N gale))
+			    (PP (P in)
+				(NP (PRO$ its) (N breast))))
+		       (, ,)
+		       (CONJP (RRC (VAG sweeping)
+				   (NP-OB1 (D the) (ADJ whole) (N country))))
+		       (CONJP (CONJ and)
+			      (RRC (VAG bending)
+				   (NP-OB1 (D the) (NS trees))
+				   (IP-INF-PRP (FOR for)
+					       (NP-SBJ (D the) (NS twigs))
+					       (TO to)
+					       (VB hiss)
+					       (ADJP-SPR (ADJ like)
+							 (NP (N spray)
+							     (PP (P of)
+								 (NP (D the) (NS billows)))))
+					       (PP (P around)
+						   (NP (PRO$ our) (N island))))))))
+	  (, ,)
+	  (BED was)
+	  (NP-OB1 (D a)
+		  (N day)
+		  (PP (P of)
+		      (NP (ADJ golden) (N splendour))))
+	  (PP (P to)
+	      (NP (D the)
+		  (ADJ young)
+		  (N bride)
+		  (PP (P of)
+		      (NP (D the)
+			  (N Earl)
+			  (PP (P of)
+			      (NP (NPR Fleetwood)))))))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+				      (ADVP (ADV scarcely))
+				      (VBD addressed)
+				      (NP-OB1 (ONE one) (N syllable))
+				      (PP (P to)
+					  (NP (PRO her))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (IP-SUB-1 (NP-SBJ (PRO they))
+						       (VBD sat)
+						       (NP-ADV (N side)
+							       (PP (P by)
+								   (NP (N side))))
+						       (ADJP-SPR (NP-MSR (Q all)
+									 (PP (P but)))
+								 (ADJ dumb)))
+					     (, ,)
+					     (CONJP (IP-SUB=1 (NP-SBJ (PRO he))
+							      (ADJP-SPR (ADJ like)
+									(NP (D a)
+									    (N+N coachman)
+									    (RRC (VAG driving)
+										 (NP-OB1 (D an) (ADJ unknown) (N lady) (N fare))
+										 (, ,)
+										 (PP (P on)
+										     (NP (D a)
+											 (N morning)
+											 (PP (P after)
+											     (NP (D a)
+												 (N night)
+												 (CP-REL (WADVP-2 (WADV when))
+													 (C 0)
+													 (IP-SUB (ADVP-TMP *T*-2)
+														 (NP-SBJ (NP-POS (PRO$ his) (N$ wife's))
+															 (N tongue))
+														 (MD may)
+														 (HV have)
+														 (VBN soured)
+														 (NP-OB1 (PRO him))
+														 (PP (P for)
+														     (NP (D the) (N sex)))))))))))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,145.238))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	4/3/652
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	0/0/751
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	0/0/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	0/0/996
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd
+*/
+
+/~*
+and had been disappointed that Alison, so far from completing the confidence,
+had become more reserved than ever, leaving her to wonder whether he were
+indeed the same, or whether his constancy had survived the change of
+circumstances.
+(YONGE-1865,177.472)
+*~/
+/*
+30 VAG:  30 VAG, 31 completing, 21 ADJP-SPR
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (HVD had)
+	  (BEN been)
+	  (VAN disappointed)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (NPR Alison))
+			  (, ,)
+			  (ADJP-SPR (ADVR so)
+				    (ADJ far)
+				    (PP (P from)
+					(IP-PPL (VAG completing)
+						(NP-OB1 (D the) (N confidence)))))
+			  (, ,)
+			  (HVD had)
+			  (VBN become)
+			  (ADJP (QR more)
+				(ADJ reserved)
+				(PP (P than)
+				    (ADVP (ADV ever))))
+			  (, ,)
+			  (IP-PPL (VAG leaving)
+				  (NP-OB1 (PRO her))
+				  (IP-INF (TO to)
+					  (VB wonder)
+					  (CP-QUE (CP-QUE (WQ whether)
+							  (C 0)
+							  (IP-SUB (NP-SBJ (PRO he))
+								  (BED were)
+								  (PP (P+N indeed))
+								  (NP-OB1 (D the) (ADJ same))))
+						  (, ,)
+						  (CONJP (CONJ or)
+							 (CP-QUE (WQ whether)
+								 (C 0)
+								 (IP-SUB (NP-SBJ (PRO$ his) (N constancy))
+									 (HVD had)
+									 (VBN survived)
+									 (NP-OB1 (D the)
+										 (N change)
+										 (PP (P of)
+										     (NP (NS circumstances))))))))))))
+	  (. .))
+  (ID YONGE-1865,177.472))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	1/1/629
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	0/0/1202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	0/0/1122
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	1/1/1185
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	1/1/946
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	0/0/495
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	2/2/566
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	0/0/486
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	0/0/593
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	0/0/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	4/3/652
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	0/0/751
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	0/0/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	0/0/996
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	1/1/629
+whole search, hits/tokens/total
+		9/8/11753
+*/

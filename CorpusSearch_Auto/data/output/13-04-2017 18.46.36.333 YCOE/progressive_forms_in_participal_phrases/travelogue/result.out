@@ -1,0 +1,156 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:29 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_participal_phrases.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_participal_phrases\travelogue\result.out
+
+node:   PTP*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (PTP* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd
+*/
+
+/~*
+& ic efne gefeonde in minum mode geornlicor +da lond sceawigean wolde.
+(coalex,Alex:9.3.65)
+*~/
+/*
+11 VAG^N:  11 VAG^N, 12 gefeonde, 10 PTP-NOM
+*/
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM (PRO^N ic))
+	      (ADVP (ADV efne))
+	      (PTP-NOM (VAG^N gefeonde)
+		       (PP (P in)
+			   (NP-DAT (PRO$^D minum) (N^D mode))))
+	      (ADVP (ADVR geornlicor))
+	      (NP-ACC (D^A +da) (N^A lond))
+	      (VB sceawigean)
+	      (MDD wolde)
+	      (. .))
+  (ID coalex,Alex:9.3.65))
+
+/~*
+Ac hw+a+tre ma ic wolde +t+am frecnan wege & si+dfatum foeran +donne +t+am
+gehyldrum wegum, to +don +t+at +done fleondon Porrum of +t+am gefeohte +t+at
+ic hine gemette +ar he on +ta westenu middangeardes gefluge.
+(coalex,Alex:9.8.69)
+*~/
+/*
+66 VAG^A:  66 VAG^A, 67 fleondon, 65 PTP-ACC
+*/
+
+( (CODE <T23000005000,9.8>)
+  (IP-MAT-SPE-0 (CONJ Ac)
+		(ADVP (ADV hw+a+tre))
+		(QP-ADT (QR ma)
+			(PP *ICH*-1))
+		(NP-NOM (PRO^N ic))
+		(MDD wolde)
+		(NP-DAT (D^D +t+am)
+			(ADJ^D frecnan)
+			(N^D wege)
+			(CONJP (CONJ &)
+			       (NX-DAT (N^D si+dfatum))))
+		(VB foeran)
+		(PP-1 (P +donne)
+		      (CP-CMP-SPE (WQP-2 0)
+				  (C 0)
+				  (IPX-SUB-SPE=0 (QP *T*-2)
+						 (NP-DAT (D^D +t+am) (ADJR^D gehyldrum) (N^D wegum)))))
+		(, ,)
+		(CP-ADV-SPE (P to)
+			    (D^I +don)
+			    (C +t+at)
+			    (CP-THT-SPE (NP-ACC-LFD-4 (D^A +done)
+						      (PTP-ACC (VAG^A fleondon)
+							       (PP *ICH*-3))
+						      (NR^A Porrum)
+						      (PP-3 (P of)
+							    (NP-DAT (D^D +t+am) (N^D gefeohte))))
+					(C +t+at)
+					(IP-SUB-SPE (NP-ACC-LFD *ICH*-4)
+						    (NP-NOM (PRO^N ic))
+						    (NP-ACC-RSP (PRO^A hine))
+						    (VBD gemette)
+						    (CP-ADV-SPE (P +ar)
+								(C 0)
+								(IP-SUB-SPE (NP-NOM (PRO^N he))
+									    (PP (P on)
+										(NP-ACC (D^A +ta)
+											(N^A westenu)
+											(NP-GEN (N^G middangeardes))))
+									    (VBDS gefluge))))))
+		(. .))
+  (ID coalex,Alex:9.8.69))
+
+/~*
+& hie ealle swi+de grymetende ferdon.
+(coalex,Alex:19.2.217)
+*~/
+/*
+13 VAG^N:  13 VAG^N, 14 grymetende, 9 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM (PRO^N hie)
+		      (Q^N ealle)
+		      (PTP-NOM (ADVP (ADV swi+de))
+			       (VAG^N grymetende)))
+	      (VBDI ferdon)
+	      (. .))
+  (ID coalex,Alex:19.2.217))
+
+/~*
++Ta w+as he sona swi+de gl+ad & gefeonde +tara minra ondswaro & worda, for
++ton ic him s+ade +t+at he swa forealdod w+are.
+(coalex,Alex:24.13.285)
+*~/
+/*
+25 VAG^N:  25 VAG^N, 26 gefeonde, 24 PTP-NOM
+*/
+
+( (CODE <T23000017300,24.13>)
+  (IP-MAT-SPE (ADVP-TMP (ADV^T +Ta))
+	      (BEDI w+as)
+	      (NP-NOM (PRO^N he))
+	      (ADVP-TMP (ADV^T sona))
+	      (ADJP-NOM-PRD (ADJP-NOM (ADV swi+de) (ADJ^N gl+ad))
+			    (CONJP (CONJ &)
+				   (PTP-NOM (VAG^N gefeonde)
+					    (NP-GEN (D^G +tara)
+						    (PRO$^G minra)
+						    (N^G ondswaro)
+						    (CONJP (CONJ &)
+							   (NX-GEN (N^G worda)))))))
+	      (, ,)
+	      (CP-ADV-SPE (P for)
+			  (D^I +ton)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (NP-DAT (PRO^D him))
+				      (VBD s+ade)
+				      (CP-THT-SPE (C +t+at)
+						  (IP-SUB-SPE (NP-NOM (PRO^N he))
+							      (ADVP (ADV swa))
+							      (VBN forealdod)
+							      (BEDS w+are)))))
+	      (. .))
+  (ID coalex,Alex:24.13.285))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	4/4/531
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	4/4/531
+whole search, hits/tokens/total
+		4/4/531
+*/

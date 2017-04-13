@@ -1,0 +1,5414 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:47:44 BST 2017
+
+command file:     data\searches\queries\YCOE\other_adverbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\other_adverbs\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   ADVP-DIR*|ADV^D*|ADVX*|ADV+P*|ADV21*|ADV22*|NEG+ADV^D*|RP^D*
+query:  (ADVP-DIR*|ADV^D*|ADVX*|ADV+P*|ADV21*|ADV22*|NEG+ADV^D*|RP^D* Dominates 
+   !ADVP-DIR*|ADV^D*|ADVX*|ADV+P*|ADV21*|ADV22*|NEG+ADV^D*|RP^D*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd
+*/
+
+/~*
+Ac ealswa hit gerise+d, +t+at +ta geongran +tam yldrum hyren, swa eac gerise+t,
++t+at se ealdor, +t+at is se abbud, swi+de rihtlice and fore+tanclice eal and
+gesette, +t+at him gem+ane bi+d.
+(cobenrul,BenR:3.15.16.226)
+*~/
+/*
+87 ADVX:  87 ADVX, 89 fore+tanclice
+*/
+( (CODE <T06980014600,3.15.16>)
+  (IP-MAT (CONJ Ac)
+	  (PP (P ealswa)
+	      (CP-CMP (WADVP-3 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-3)
+			      (NP-NOM-x (PRO^N hit))
+			      (VBPI gerise+d)
+			      (, ,)
+			      (CP-THT-x (C +t+at)
+					(IP-SUB (NP-NOM (D^N +ta) (N^N geongran))
+						(NP-DAT (D^D +tam) (N^D yldrum))
+						(VBPS hyren))))))
+	  (, ,)
+	  (NP-NOM-x *exp*)
+	  (ADVP (ADV swa))
+	  (ADVP (ADV eac))
+	  (VBPI gerise+t)
+	  (, ,)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (D^N se)
+				    (N^N ealdor)
+				    (, ,)
+				    (IP-MAT-PRN (NP-NOM (D^N +t+at))
+						(BEPI is)
+						(XP (NP-NOM (D^N se) (N^N abbud)))))
+			    (, ,)
+			    (ADVP (ADV swi+de)
+				  (ADV rihtlice)
+				  (CONJP (CONJ and)
+					 (ADVX (ADV fore+tanclice))))
+			    (NP-ACC (Q^A eal)
+				    (CP-REL *ICH*-1))
+			    (VBPS (CONJ and) (VBPS gesette))
+			    (, ,)
+			    (CP-REL-1 (WNP-NOM-2 (D^N +t+at))
+				      (C 0)
+				      (IP-SUB (NP-NOM *T*-2)
+					      (NP-DAT (PRO^D him))
+					      (ADJP-NOM-PRD (ADJ^N gem+ane))
+					      (BEPI bi+d)))))
+	  (. .))
+  (ID cobenrul,BenR:3.15.16.226))
+
+/~*
+Ne com ic to+ti, +t+at ic minne agenne willan worhte, ac +t+as, +te me hider
+s+ande.
+(cobenrul,BenR:5.20.14.308)
+*~/
+/*
+55 ADV^D:  55 ADV^D, 56 hider
+*/
+
+( (IP-MAT-SPE (NEG Ne)
+	      (VBDI com)
+	      (NP-NOM (PRO^N ic))
+	      (CP-ADV-SPE (P to+ti)
+			  (, ,)
+			  (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (NP-ACC (NP-ACC (PRO$^A minne) (ADJ^A agenne) (N^A willan))
+					      (CONJP *ICH*-2))
+				      (VBD worhte)
+				      (, ,)
+				      (CONJP-2 (CONJ ac)
+					       (NP (NP-GEN (D^G +t+as)
+							   (, ,)
+							   (CP-REL-SPE (WNP-NOM-1 0)
+								       (C +te)
+								       (IP-SUB-SPE (NP-NOM *T*-1)
+										   (NP (PRO me))
+										   (ADVP-DIR (ADV^D hider))
+										   (VBD s+ande))))))))
+	      (. .))
+  (ID cobenrul,BenR:5.20.14.308))
+
+/~*
+Ne he on +dam fur+tor ne sprece, +tonne hit framige;
+(cobenrul,BenR:6.22.3.329)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 19 *ICH*-1
+*/
+
+( (CODE <T06980019200,6.22.3>)
+  (IP-MAT (NEG+CONJ Ne)
+	  (NP-NOM (PRO^N he))
+	  (PP (P on)
+	      (NP-DAT (D^D +dam)))
+	  (ADVP-DIR (ADVR fur+tor)
+		    (PP *ICH*-1))
+	  (NEG ne)
+	  (VBPS sprece)
+	  (, ,)
+	  (PP-1 (P +tonne)
+		(CP-CMP (WADVP-2 0)
+			(C 0)
+			(IP-SUB (CPX-x (ADVP *T*-2))
+				(NP-NOM-x (PRO^N hit))
+				(VBPS framige))))
+	  (. ;))
+  (ID cobenrul,BenR:6.22.3.329))
+
+/~*
+eft he cwy+d: Drihten, +tu angete mine ge+tohtas feorrene, and: Mannes ge+tanc
++te geandet.
+(cobenrul,BenR:7.24.11.359)
+*~/
+/*
+30 ADV^D:  30 ADV^D, 31 feorrene
+*/
+
+( (IP-MAT (IP-MAT-0 (ADVP-TMP (ADV^T eft))
+		    (NP-NOM (PRO^N he))
+		    (VBPI cwy+d)
+		    (, :)
+		    (IP-MAT-SPE (NP-NOM-VOC (NR^N Drihten))
+				(, ,)
+				(NP-NOM (PRO^N +tu))
+				(VBD angete)
+				(NP-ACC (PRO$^A mine) (N^A ge+tohtas))
+				(ADVP-DIR (ADV^D feorrene))
+				(, ,)))
+	  (CONJP (CONJ and)
+		 (, :)
+		 (IPX-MAT-SPE=0 (IP-MAT-SPE (NP-NOM (NP-GEN (NR^G Mannes))
+						    (N^N ge+tanc))
+					    (NP (PRO +te))
+					    (VBPI geandet))))
+	  (. .))
+  (ID cobenrul,BenR:7.24.11.359))
+
+/~*
+Ne com ic to+ty, +t+at ic minne willan worhte, ac +t+as +te me hider as+ande,
++t+at is mines heofonlican f+ader.
+(cobenrul,BenR:7.26.4.378)
+*~/
+/*
+51 ADV^D:  51 ADV^D, 52 hider
+*/
+
+( (IP-MAT-SPE (NEG Ne)
+	      (VBDI com)
+	      (NP-NOM (PRO^N ic))
+	      (CP-ADV-SPE (P to+ty)
+			  (, ,)
+			  (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (NP-ACC (NP-ACC (PRO$^A minne) (N^A willan))
+					      (CONJP *ICH*-1))
+				      (VBD worhte)
+				      (, ,)
+				      (CONJP-1 (CONJ ac)
+					       (NP (NP-GEN (D^G +t+as)
+							   (CP-REL-SPE (WNP-NOM-2 0)
+								       (C +te)
+								       (IP-SUB-SPE (NP-NOM *T*-2)
+										   (NP (PRO me))
+										   (ADVP-DIR (ADV^D hider))
+										   (VBD as+ande))))
+						   (, ,)
+						   (-PRN (NP-NOM (D^N +t+at))
+							 (BEPI is)
+							 (XP (NP-GEN (PRO$^G mines) (ADJ^G heofonlican) (N^G f+ader))))))))
+	      (. .))
+  (ID cobenrul,BenR:7.26.4.378))
+
+/~*
+On +tam uhtsange mon sceal healdan +t+at ylce gemet, +te we herbufan gecw+adon,
++t+at is be twelf sealmum;
+(cobenrul,BenR:11.35.5.477)
+*~/
+/*
+40 ADV+P:  40 ADV+P, 41 herbufan
+*/
+
+( (CODE <T06980026800,11.35.5>)
+  (IP-MAT (PP (P On)
+	      (NP-DAT (D^D +tam) (N^D uhtsange)))
+	  (NP-NOM (MAN^N mon))
+	  (MDPI sceal)
+	  (VB healdan)
+	  (NP-ACC (D^A +t+at)
+		  (ADJ^A ylce)
+		  (N^A gemet)
+		  (, ,)
+		  (CP-REL (WNP-1 0)
+			  (C +te)
+			  (IP-SUB (NP *T*-1)
+				  (NP-NOM (PRO^N we))
+				  (PP (ADV+P herbufan))
+				  (VBDI gecw+adon)))
+		  (, ,)
+		  (IP-MAT-PRN (NP-NOM (D^N +t+at))
+			      (BEPI is)
+			      (XP (PP (P be)
+				      (NP-DAT (NUM twelf) (N^D sealmum))))))
+	  (. ;))
+  (ID cobenrul,BenR:11.35.5.477))
+
+/~*
+Sy +t+anne healic swige +at +t+am gereorde, +t+at nanes mannes stefn o+d+te
+reonung +t+arinne gehyred ne sy, butan +t+as r+aderes anes.
+(cobenrul,BenR:38.62.13.770)
+*~/
+/*
+43 ADV+P:  43 ADV+P, 44 +t+arinne
+*/
+
+( (CODE <T06980043200,38.62.13>)
+  (IP-MAT (BEPS Sy)
+	  (ADVP-TMP (ADV^T +t+anne))
+	  (NP-NOM (ADJ^N healic) (N^N swige))
+	  (PP (P +at)
+	      (NP-DAT (D^D +t+am) (N^D gereorde)))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB-0 (NP-NOM (NP-GEN (NEG+Q^G nanes) (N^G mannes))
+				    (N^N stefn)
+				    (CONJP (CONJ o+d+te)
+					   (NX-NOM (N^N reonung))))
+			    (PP (ADV+P +t+arinne))
+			    (VBN gehyred)
+			    (NEG ne)
+			    (BEPS sy)
+			    (, ,)
+			    (CP-ADV (P butan)
+				    (C 0)
+				    (IPX-SUB=0 (NP-GEN (D^G +t+as) (N^G r+aderes) (NUM^G anes))))))
+	  (. .))
+  (ID cobenrul,BenR:38.62.13.770))
+
+/~*
+Ne fur+ton hyra nan ne gedyrstl+ace, +t+at he be +t+are sylfan r+adinge
++t+arinne +anig +ding ahsige, o+d+te be +anigum o+d+trum +tingum, +tel+as +te
++anig incca geseald sy, butan hit +t+at sy, +t+at se ealder hw+at scortlice of
++t+are r+adinge to hyra gastlican getimbrunge gereccan wille.
+(cobenrul,BenR:38.62.17.772)
+*~/
+/*
+41 ADV+P:  41 ADV+P, 42 +t+arinne
+*/
+
+( (CODE <T06980043400,38.62.17>)
+  (IP-MAT (NEG+CONJ Ne)
+	  (FP fur+ton)
+	  (NP-NOM (NP-GEN (PRO^G hyra))
+		  (NEG+Q^N nan))
+	  (NEG ne)
+	  (VBPS gedyrstl+ace)
+	  (, ,)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (PP (PP (P be)
+				  (NP-DAT (D^D +t+are) (ADJ^D sylfan) (N^D r+adinge)))
+			      (CONJP *ICH*-1))
+			  (PP (ADV+P +t+arinne))
+			  (NP-ACC (Q^A +anig) (N^A +ding))
+			  (VBPS ahsige)
+			  (, ,)
+			  (CONJP-1 (CONJ o+d+te)
+				   (PP (P be)
+				       (NP-DAT (Q^D +anigum) (ADJ^D o+d+trum) (N^D +tingum))))
+			  (, ,)
+			  (CP-ADV (P +tel+as)
+				  (C +te)
+				  (IP-SUB (NP-NOM (Q^N +anig) (N^N incca))
+					  (VBN geseald)
+					  (BEPS sy)))
+			  (, ,)
+			  (CP-ADV (P butan)
+				  (C 0)
+				  (IP-SUB (NP-NOM (PRO^N hit))
+					  (NP-NOM-PRD (D^N +t+at)
+						      (CP-THT-PRN *ICH*-2))
+					  (BEPS sy)
+					  (, ,)
+					  (CP-THT-PRN-2 (C +t+at)
+							(IP-SUB (NP-NOM (D^N se) (N^N ealder))
+								(NP-ACC (Q^A hw+at))
+								(ADVP (ADV scortlice))
+								(PP (P of)
+								    (NP-DAT (D^D +t+are) (N^D r+adinge)))
+								(PP (P to)
+								    (NP (PRO$ hyra) (ADJ gastlican) (N getimbrunge)))
+								(VB gereccan)
+								(MDP wille)))))))
+	  (. .))
+  (ID cobenrul,BenR:38.62.17.772))
+
+/~*
+Eornestlice, +ta +de +tyllic weorc +t+arinne wyrcan nella+d, ne sy him nan
+wunung +t+arinne ge+tafod +after +t+as tidsanges geendunge, +tyl+as +te +ta
+geremmede synd, +te +ta synderlican gebeda lufia+d.
+(cobenrul,BenR:52.81.12.935)
+*~/
+/*
+26 ADV+P:  26 ADV+P, 27 +t+arinne
+47 ADV+P:  47 ADV+P, 48 +t+arinne
+*/
+
+( (CODE <T06980053700,52.81.12>)
+  (IP-MAT (ADVP (ADV Eornestlice))
+	  (, ,)
+	  (NP-NOM-LFD (D^N +ta)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +de)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (NP-ACC (ADJ^A +tyllic) (N^A weorc))
+				      (PP (ADV+P +t+arinne))
+				      (VB wyrcan)
+				      (NEG+MDPI nella+d))))
+	  (, ,)
+	  (NEG ne)
+	  (BEPS sy)
+	  (NP-DAT-RSP (PRO^D him))
+	  (NP-NOM (NEG+Q^N nan) (N^N wunung))
+	  (PP (ADV+P +t+arinne))
+	  (VBN ge+tafod)
+	  (PP (P +after)
+	      (NP (NP-GEN (D^G +t+as) (N^G tidsanges))
+		  (N geendunge)))
+	  (, ,)
+	  (CP-ADV (P +tyl+as)
+		  (C +te)
+		  (IP-SUB (NP-NOM (D^N +ta)
+				  (CP-REL *ICH*-2))
+			  (VBN^N geremmede)
+			  (BEPI synd)
+			  (, ,)
+			  (CP-REL-2 (WNP-NOM-3 0)
+				    (C +te)
+				    (IP-SUB (NP-NOM *T*-3)
+					    (NP-ACC (D^A +ta) (ADJ^A synderlican) (N^A gebeda))
+					    (VBPI lufia+d)))))
+	  (. .))
+  (ID cobenrul,BenR:52.81.12.935))
+
+/~*
++Da +ta on ytinge ahwyder fara+d, niman him brec of hr+agelhuse,
+(cobenrul,BenR:55.91.8.1001)
+*~/
+/*
+23 ADV^D:  23 ADV^D, 24 ahwyder
+*/
+
+( (CODE <T06980056800,55.91.8>)
+  (IP-MAT (NP-NOM (D^N +Da)
+		  (CP-REL (WNP-NOM-1 (D^N +ta))
+			  (C 0)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (PP (P on)
+				      (NP (N ytinge)))
+				  (ADVP-DIR (ADV^D ahwyder))
+				  (VBPI fara+d))))
+	  (, ,)
+	  (VBPS niman)
+	  (NP-DAT-RFL-ADT (PRO^D him))
+	  (NP-ACC (N^A brec))
+	  (PP (P of)
+	      (NP-DAT (N^D hr+agelhuse)))
+	  (. ,))
+  (ID cobenrul,BenR:55.91.8.1001))
+
+/~*
+eft swa hy ham cumen of +tam f+arelde, bet+acan him gewaxene.
+(cobenrul,BenR:55.91.8.1002)
+*~/
+/*
+15 ADV^D:  15 ADV^D, 16 ham
+*/
+
+( (IP-MAT (ADVP-TMP (ADV^T eft))
+	  (CP-ADV (P swa)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N hy))
+			  (ADVP-DIR (ADV^D ham))
+			  (VBPS cumen)
+			  (PP (P of)
+			      (NP-DAT (D^D +tam) (N^D f+arelde)))))
+	  (, ,)
+	  (NP-NOM *con*)
+	  (VBPS bet+acan)
+	  (NP-DAT-RFL (PRO^D him))
+	  (NP-ACC (VBN^A gewaxene))
+	  (. .))
+  (ID cobenrul,BenR:55.91.8.1002))
+
+/~*
+and +ta eft +tam hr+agel+tene bet+acen, swa hy ham cumen.
+(cobenrul,BenR:55.91.10.1005)
+*~/
+/*
+31 ADV^D:  31 ADV^D, 32 ham
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (NP-ACC (D^A +ta))
+	  (ADVP-TMP (ADV^T eft))
+	  (NP-DAT (D^D +tam) (N^D hr+agel+tene))
+	  (VBPS bet+acen)
+	  (, ,)
+	  (CP-ADV (P swa)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N hy))
+			  (ADVP-DIR (ADV^D ham))
+			  (VBPS cumen)))
+	  (. .))
+  (ID cobenrul,BenR:55.91.10.1005))
+
+/~*
+gif +te ne onhagige, far +de freoh, +tider +tu wille.
+(cobenrul,BenR:58.97.20.1042)
+*~/
+/*
+31 ADV^D:  31 ADV^D, 32 +tider
+36 ADVP-DIR:  36 ADVP-DIR, 37 *T*-1
+*/
+
+( (IP-MAT-SPE (CP-ADV-SPE (P gif)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM *exp*)
+				      (NP (PRO +te))
+				      (NEG ne)
+				      (VBPS onhagige)))
+	      (, ,)
+	      (VBI far)
+	      (NP-RFL-ADT (PRO +de))
+	      (ADJP-NOM (ADJ^N freoh))
+	      (, ,)
+	      (CP-FRL-DIR-SPE (WADVP-DIR-1 (ADV^D +tider))
+			      (C 0)
+			      (IP-SUB-SPE (ADVP-DIR *T*-1)
+					  (NP-NOM (PRO^N +tu))
+					  (MDPS wille)))
+	      (. .))
+  (ID cobenrul,BenR:58.97.20.1042))
+
+/~*
++T+at ylece fers he sceal +triwa cwe+tan and eal geferr+aden +triwa mid +tam
+ylecan ferse andswarian and +t+arto ge+teoden Gloria Patri.
+(cobenrul,BenR:58.101.13.1061)
+*~/
+/*
+51 ADV+P:  51 ADV+P, 52 +t+arto
+*/
+
+( (CODE <T06980060200,58.101.13>)
+  (IP-MAT (IP-MAT-0 (NP-ACC (D^A +T+at) (ADJ^A ylece) (N^A fers))
+		    (NP-NOM (PRO^N he))
+		    (MDPI sceal)
+		    (ADVP-TMP (ADV^T +triwa))
+		    (VB cwe+tan))
+	  (CONJP (CONJ and)
+		 (IPX-MAT=0 (NP-ACC (Q^A eal) (N^A geferr+aden))
+			    (ADVP-TMP (ADV^T +triwa))
+			    (PP (P mid)
+				(NP-DAT (D^D +tam) (ADJ^D ylecan) (N^D ferse)))
+			    (VB andswarian)))
+	  (CONJP (CONJ and)
+		 (IPX-MAT=0 (PP (ADV+P +t+arto))
+			    (VB ge+teoden)
+			    (NP (FW Gloria) (FW Patri))))
+	  (. .))
+  (ID cobenrul,BenR:58.101.13.1061))
+
+/~*
+and swa mid wegneste ham cyrren, gif hi +t+as wilnien.
+(cobenrul,BenR:59.103.19.1080)
+*~/
+/*
+16 ADV^D:  16 ADV^D, 17 ham
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *pro*)
+	  (ADVP (ADV swa))
+	  (PP (P mid)
+	      (NP-DAT (N^D wegneste)))
+	  (ADVP-DIR (ADV^D ham))
+	  (VBPS cyrren)
+	  (, ,)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N hi))
+			  (NP-GEN (D^G +t+as))
+			  (VBPS wilnien)))
+	  (. .))
+  (ID cobenrul,BenR:59.103.19.1080))
+
+/~*
+and smeage on his ge+tance, +t+at hine God +tider asende, +t+at seo stow +turh
+hine gegodod and geriht w+are.
+(cobenrul,BenR:61.109.8.1104)
+*~/
+/*
+29 ADV^D:  29 ADV^D, 30 +tider
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBPS smeage)
+	  (PP (P on)
+	      (NP-DAT (PRO$ his) (N^D ge+tance)))
+	  (, ,)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-ACC (PRO^A hine))
+			  (NP-NOM (NR^N God))
+			  (ADVP-DIR (ADV^D +tider))
+			  (VBD asende)
+			  (, ,)
+			  (CP-ADV (C +t+at)
+				  (IP-SUB (NP-NOM (D^N seo) (N^N stow))
+					  (PP (P +turh)
+					      (NP-ACC (PRO^A hine)))
+					  (VBN (VBN gegodod) (CONJ and) (VBN geriht))
+					  (BEDS w+are)))))
+	  (. .))
+  (ID cobenrul,BenR:61.109.8.1104))
+
+/~*
+ac him mon secge mid arweor+dnesse, +t+at he +tanon gewite, +tel+as +te he mid
+his yrm+de o+tre geleahtrige.
+(cobenrul,BenR:61.109.16.1107)
+*~/
+/*
+28 ADV^D:  28 ADV^D, 29 +tanon
+*/
+
+( (IP-MAT (CONJ ac)
+	  (NP-DAT (PRO^D him))
+	  (NP-NOM (MAN^N mon))
+	  (VBPS secge)
+	  (PP (P mid)
+	      (NP (N arweor+dnesse)))
+	  (, ,)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (ADVP-DIR (ADV^D +tanon))
+			  (VBPS gewite)
+			  (, ,)
+			  (CP-ADV (P +tel+as)
+				  (C +te)
+				  (IP-SUB (NP-NOM (PRO^N he))
+					  (PP (P mid)
+					      (NP (PRO$ his) (N yrm+de)))
+					  (NP-ACC (ADJ^A o+tre))
+					  (VBPS geleahtrige)))))
+	  (. .))
+  (ID cobenrul,BenR:61.109.16.1107))
+
+/~*
++Dy forman d+age, +te hy ham cyrra+d and to mynstre cuma+d, astreccen hi +at
++alces tidsanges ende on hyra gebedhuse,
+(cobenrul,BenR:67.127.17.1228)
+*~/
+/*
+26 ADV^D:  26 ADV^D, 27 ham
+*/
+
+( (CODE <T06980069800,67.127.17>)
+  (IP-MAT (NP-DAT-TMP (D^I +Dy)
+		      (ADJ^D forman)
+		      (N^D d+age)
+		      (, ,)
+		      (CP-REL (WADVP-TMP-1 0)
+			      (C +te)
+			      (IP-SUB (IP-SUB (ADVP-TMP *T*-1)
+					      (NP-NOM (PRO^N hy))
+					      (ADVP-DIR (ADV^D ham))
+					      (VBPI cyrra+d))
+				      (CONJP (CONJ and)
+					     (IP-SUB-CON (ADVP-TMP *T*-1)
+							 (NP-NOM *con*)
+							 (PP (P to)
+							     (NP-DAT (N^D mynstre)))
+							 (VBPI cuma+d))))))
+	  (, ,)
+	  (NP-NOM *pro*)
+	  (VBPS astreccen)
+	  (NP-ACC-RFL (PRO^A hi))
+	  (PP (P +at)
+	      (NP (NP-GEN (Q^G +alces) (N^G tidsanges))
+		  (N ende)))
+	  (PP (P on)
+	      (NP-DAT (PRO$ hyra) (N^D gebedhuse)))
+	  (. ,))
+  (ID cobenrul,BenR:67.127.17.1228))
+
+/~*
+Ne sy +tis on nanum gemete gedyrstl+aht fram munuchades mannum, for+di +tanun
+m+ag aspringan seo m+aste sacu and se m+asta swice ealra unge+tw+arnessa.
+(cobenrul,BenR:69.129.6.1241)
+*~/
+/*
+39 ADV^D:  39 ADV^D, 40 +tanun
+*/
+
+( (CODE <T06980070700,69.129.6>)
+  (IP-MAT (NEG Ne)
+	  (BEPS sy)
+	  (NP-NOM (D^N +tis))
+	  (PP (P on)
+	      (NP-DAT (NEG+Q^D nanum) (N^D gemete)))
+	  (VBN gedyrstl+aht)
+	  (PP (P fram)
+	      (NP-DAT (NP-GEN (N^G munuchades))
+		      (N^D mannum)))
+	  (, ,)
+	  (CP-ADV (P for+di)
+		  (C 0)
+		  (IP-SUB (ADVP-DIR (ADV^D +tanun))
+			  (MDPI m+ag)
+			  (VB aspringan)
+			  (NP-NOM (NP-NOM (D^N seo) (QS^N m+aste) (N^N sacu))
+				  (CONJP (CONJ and)
+					 (NP-NOM (D^N se) (QS^N m+asta) (N^N swice)))
+				  (NP-GEN (Q^G ealra) (N^G unge+tw+arnessa)))))
+	  (. .))
+  (ID cobenrul,BenR:69.129.6.1241))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd	21/19/1288
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd
+*/
+
+/~*
+And we l+ara+d +t+at man into circan +anig +tingc ne logige +t+as +te +tarto
+ungedafenlic sy.
+(cocanedgD,WCan_1.1.1_[Fowler]:27.30)
+*~/
+/*
+47 ADV+P:  47 ADV+P, 48 +tarto
+*/
+
+( (CODE <T09090002800,27>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM (PRO^N we))
+	  (VBPI l+ara+d)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (MAN^N man))
+			  (PP (P into)
+			      (NP (N circan)))
+			  (NP-ACC (Q^A +anig)
+				  (N^A +tingc)
+				  (NP-GEN *ICH*-2))
+			  (NEG ne)
+			  (VBPS logige)
+			  (NP-GEN-2 (D^G +t+as)
+				    (CP-REL (WNP-NOM-1 0)
+					    (C +te)
+					    (IP-SUB (NP-NOM *T*-1)
+						    (PP (ADV+P +tarto))
+						    (ADJP-NOM-PRD (ADJ^N ungedafenlic))
+						    (BEPS sy))))))
+	  (. .))
+  (ID cocanedgD,WCan_1.1.1_[Fowler]:27.30))
+
+/~*
+And we l+ara+d +t+at ealle +ta +tingc +te weofode neah beon and to circan
+gebirgan beon swi+de cl+anlice and wur+dlice behworfene, and +tar +anig +tingc
+neah ne cume, ac geloge man +tone haligdom swi+de arwur+dlice;
+(cocanedgD,WCan_1.1.1_[Fowler]:42.51)
+*~/
+/*
+64 ADVX:  64 ADVX, 66 wur+dlice
+*/
+
+( (CODE <T09090004300,42>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM (PRO^N we))
+	  (VBPI l+ara+d)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (IP-SUB (NP-NOM (Q^N ealle)
+					  (D^N +ta)
+					  (N^N +tingc)
+					  (CP-REL (WNP-NOM-1 0)
+						  (C +te)
+						  (IP-SUB (IP-SUB (NP-NOM *T*-1)
+								  (ADVP-LOC (NP-DAT (N^D weofode))
+									    (ADV^L neah))
+								  (BEPS beon))
+							  (CONJP (CONJ and)
+								 (IP-SUB-CON (NP-NOM *T*-1)
+									     (PP (P to)
+										 (NP (N circan)))
+									     (VBPS gebirgan))))))
+				  (BEPS beon)
+				  (ADVP (ADV swi+de)
+					(ADV cl+anlice)
+					(CONJP (CONJ and)
+					       (ADVX (ADV wur+dlice))))
+				  (VBN^N behworfene))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB-CON (ADVP-LOC (ADV^L +tar))
+					     (NP-NOM (Q^N +anig) (N^N +tingc))
+					     (ADVP-LOC (ADV^L neah))
+					     (NEG ne)
+					     (VBPS cume)))
+			  (, ,)
+			  (CONJP (CONJ ac)
+				 (IP-SUB-CON (VBPS geloge)
+					     (NP-NOM (MAN^N man))
+					     (NP-ACC (D^A +tone) (N^A haligdom))
+					     (ADVP (ADV swi+de) (ADV arwur+dlice))))))
+	  (. ;))
+  (ID cocanedgD,WCan_1.1.1_[Fowler]:42.51))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd	2/2/79
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd
+*/
+
+/~*
+And riht is +t+at man into cyrican +anig +ting ne logie +t+as +te +t+arto
+ungedafenlic sy.
+(cocanedgX,WCan_1.1.2_[Fowler]:27.25)
+*~/
+/*
+49 ADV+P:  49 ADV+P, 50 +t+arto
+*/
+
+( (CODE <T09100002400,27>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM-x *exp*)
+	  (ADJP-NOM-PRD (ADJ^N riht))
+	  (BEPI is)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (MAN^N man))
+			    (PP (P into)
+				(NP (N cyrican)))
+			    (NP-ACC (Q^A +anig)
+				    (N^A +ting)
+				    (NP-GEN *ICH*-1))
+			    (NEG ne)
+			    (VBPS logie)
+			    (NP-GEN-1 (D^G +t+as)
+				      (CP-REL (WNP-NOM-2 0)
+					      (C +te)
+					      (IP-SUB (NP-NOM *T*-2)
+						      (PP (ADV+P +t+arto))
+						      (ADJP-NOM-PRD (ADJ^N ungedafenlic))
+						      (BEPS sy))))))
+	  (. .))
+  (ID cocanedgX,WCan_1.1.2_[Fowler]:27.25))
+
+/~*
+And riht is +t+at ealle +ta +ding +te weofode neah beon and to cyrcan gebyrian
+beon swy+de cl+anlice and wur+dlice behworfene, and +d+ar +anig +ting fules
+neah ne cume, ac gelogige man +tone haligdom swy+de arwur+dlice.
+(cocanedgX,WCan_1.1.2_[Fowler]:42.46)
+*~/
+/*
+66 ADVX:  66 ADVX, 68 wur+dlice
+*/
+
+( (CODE <T09100004200,42>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM-x *exp*)
+	  (ADJP-NOM-PRD (ADJ^N riht))
+	  (BEPI is)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (Q^N ealle)
+				    (D^N +ta)
+				    (N^N +ding)
+				    (CP-REL (WNP-NOM-1 0)
+					    (C +te)
+					    (IP-SUB (IP-SUB (NP-NOM *T*-1)
+							    (ADVP-LOC (NP-DAT (N^D weofode))
+								      (ADV^L neah))
+							    (BEPS beon))
+						    (CONJP (CONJ and)
+							   (IP-SUB-CON (NP-NOM *T*-1)
+								       (PP (P to)
+									   (NP (N cyrcan)))
+								       (VBPS gebyrian))))))
+			    (BEPS beon)
+			    (ADVP (ADVP (ADV swy+de) (ADV cl+anlice))
+				  (CONJP (CONJ and)
+					 (ADVX (ADV wur+dlice))))
+			    (VBN^N behworfene)
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (IP-SUB-CON (ADVP-LOC (ADV^L +d+ar))
+					       (NP-NOM (Q^N +anig)
+						       (N^N +ting)
+						       (ADJP-GEN (ADJ^G fules)))
+					       (ADVP-LOC (ADV^L neah))
+					       (NEG ne)
+					       (VBPS cume)))
+			    (, ,)
+			    (CONJP (CONJ ac)
+				   (IP-SUB-CON (VBPS gelogige)
+					       (NP-NOM (MAN^N man))
+					       (NP-ACC (D^A +tone) (N^A haligdom))
+					       (ADVP (ADV swy+de) (ADV arwur+dlice))))))
+	  (. .))
+  (ID cocanedgX,WCan_1.1.2_[Fowler]:42.46))
+
+/~*
+and +t+ar+at gefare swa swa God r+ade.
+(cocanedgX,WCan_1.1.2_[Fowler]:68.102)
+*~/
+/*
+7 ADV+P:  7 ADV+P, 8 +t+ar+at
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (PP (ADV+P +t+ar+at))
+	  (VBPS gefare)
+	  (PP (ADV swa)
+	      (P swa)
+	      (CPX-CMP (IPX-SUB (NP-NOM (NR^N God))
+				(VBPS r+ade))))
+	  (. .))
+  (ID cocanedgX,WCan_1.1.2_[Fowler]:68.102))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd	3/3/105
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd
+*/
+
+/~*
+Be +tam +t+at nan m+assepreost ne beo gesett to nare cyrcan buton biscopes
+leafe, ne eft +tanon adryfen butan his leafe.
+(cochdrul,ChrodR_1:76.81)
+*~/
+/*
+52 ADV^D:  52 ADV^D, 53 +tanon
+*/
+
+( (CODE <T07030008000,76>)
+  (PP (P Be)
+      (NP-DAT (D^D +tam)
+	      (CP-THT-PRN (C +t+at)
+			  (IP-SUB (IP-SUB-0 (NP-NOM (NEG+Q^N nan) (N^N m+assepreost))
+					    (NEG ne)
+					    (BEPS beo)
+					    (VBN gesett)
+					    (PP (P to)
+						(NP-DAT (NEG+Q^D nare) (N^D cyrcan)))
+					    (PP (P buton)
+						(NP (NP-GEN (N^G biscopes))
+						    (N leafe))))
+				  (, ,)
+				  (CONJP (NEG+CONJ ne)
+					 (IPX-SUB-CON=0 (ADVP-TMP (ADV^T eft))
+							(ADVP-DIR (ADV^D +tanon))
+							(VBN adryfen)
+							(PP (P butan)
+							    (NP (PRO$ his) (N leafe))))))))
+      (. .))
+  (ID cochdrul,ChrodR_1:76.81))
+
+/~*
+& si+d+dan ice +t+arto his hades wur+dunge: +tissum gemete, swylce man cwe+de,
+Leofwine prauost, Wulfstan cantor, Byrhtelm diacon, Cynewerd cyrcwerd,
++Alfno+d cild, & swa be eallum.
+(cochdrul,ChrodR_1:2.10.114)
+*~/
+/*
+12 ADV+P:  12 ADV+P, 13 +t+arto
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP-TMP (ADV^T si+d+dan))
+	  (VBPS ice)
+	  (PP (ADV+P +t+arto))
+	  (NP (NP-GEN (PRO$ his) (N^G hades))
+	      (N wur+dunge))
+	  (, :)
+	  (NP-DAT-ADT (D^D +tissum) (N^D gemete))
+	  (, ,)
+	  (PP (P swylce)
+	      (CP-CMP (WADVP-1 0)
+		      (C 0)
+		      (IP-SUB (IP-SUB-0 (ADVP *T*-1)
+					(NP-NOM (MAN^N man))
+					(VBPS cwe+de)
+					(, ,)
+					(QTP (NP-NOM (NP-NOM (NR^N Leofwine) (N^N prauost))
+						     (, ,)
+						     (CONJP (NP-NOM (NR^N Wulfstan) (N^N cantor)))
+						     (, ,)
+						     (CONJP (NP-NOM (NR^N Byrhtelm) (N^N diacon)))
+						     (, ,)
+						     (CONJP (NP-NOM (NR^N Cynewerd) (N^N cyrcwerd)))
+						     (, ,)
+						     (CONJP (NP-NOM (NR^N +Alfno+d) (N^N cild))))))
+			      (, ,)
+			      (CONJP (CONJ &)
+				     (IPX-SUB-CON-SPE=0 (ADVP (ADV swa))
+							(PP (P be)
+							    (NP-DAT (Q^D eallum))))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:2.10.114))
+
+/~*
++Tanon +tonne is preostum micel neod & +tearf +t+at hi on +t+are n+ame +t+are
+cyrcan +ahte forbugon heora agen forwyrd.
+(cochdrul,ChrodR_1:4.9.137)
+*~/
+/*
+7 ADV^D:  7 ADV^D, 8 +Tanon
+*/
+
+( (CODE <T07030011700,4.9>)
+  (IP-MAT (NP-NOM-x *exp*)
+	  (ADVP-DIR (ADV^D +Tanon))
+	  (ADVP-TMP (ADV^T +tonne))
+	  (BEPI is)
+	  (NP-DAT (N^D preostum))
+	  (NP-NOM-PRD (Q^N micel)
+		      (N^N neod)
+		      (CONJP (CONJ &)
+			     (NX-NOM (N^N +tearf))))
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (PRO^N hi))
+			    (PP (P on)
+				(NP-DAT (D^D +t+are)
+					(N^D n+ame)
+					(NP-GEN (NP-GEN (D^G +t+are) (N^G cyrcan))
+						(N^G +ahte))))
+			    (VBPS forbugon)
+			    (NP-ACC (PRO$ heora) (ADJ^A agen) (N^A forwyrd))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:4.9.137))
+
+/~*
+& h+abbe ma +afre on preosta mynstre wynsume wirtunas +t+at man mage +t+arof
++afre toeacan o+drum +tingum sumne smealicne est findan him betwynan.
+(cochdrul,ChrodR_1:6.41.175)
+*~/
+/*
+38 ADV+P:  38 ADV+P, 39 +t+arof
+*/
+
+( (CODE <T07030014500,6.41>)
+  (IP-MAT (CONJ &)
+	  (HVPS h+abbe)
+	  (NP-NOM (MAN^N ma))
+	  (ADVP (ADV^T +afre))
+	  (PP (P on)
+	      (NP-DAT (NP-GEN (N^G preosta))
+		      (N^D mynstre)))
+	  (NP-ACC (ADJ^A wynsume) (N^A wirtunas))
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (NP-NOM (MAN^N man))
+			  (MDPS mage)
+			  (PP (ADV+P +t+arof))
+			  (ADVP-TMP (ADV^T +afre))
+			  (PP (P toeacan)
+			      (NP-DAT (ADJ^D o+drum) (N^D +tingum)))
+			  (NP-ACC (Q^A sumne) (ADJ^A smealicne) (N^A est))
+			  (VB findan)
+			  (PP (NP-DAT-RFL (PRO^D him))
+			      (P betwynan))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:6.41.175))
+
+/~*
+In preosta geferr+addene hyre swa +alc o+drum, +t+at nan ne beo aspelod +at
+his wucan of kycenan to +tenienne, butan hwa for unh+ale o+d+de for miclum
+bysgum ne mage; for +tan +tanon cym+d seo m+aste med & lufu.
+(cochdrul,ChrodR_1:7.1.177)
+*~/
+/*
+102 ADV^D:  102 ADV^D, 103 +tanon
+*/
+
+( (CODE <T07030014700,7.1>)
+  (IP-MAT (PP (P In)
+	      (NP (NP-GEN (N^G preosta))
+		  (N geferr+addene)))
+	  (VBPS hyre)
+	  (ADVP (ADV swa))
+	  (NP-NOM (Q^N +alc))
+	  (NP-DAT (ADJ^D o+drum))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB-0 (NP-NOM (NEG+Q^N nan))
+			    (NEG ne)
+			    (BEPS beo)
+			    (VBN aspelod)
+			    (PP (P +at)
+				(NP (PRO$ his) (N wucan)))
+			    (PP (P of)
+				(IP-INF (NP (N kycenan))
+					(TO to)
+					(VB^D +tenienne)))
+			    (, ,)
+			    (CP-ADV (P butan)
+				    (C 0)
+				    (IPX-SUB=0 (NP-NOM (Q^N hwa))
+					       (PP (PP (P for)
+						       (NP (N unh+ale)))
+						   (CONJP (CONJ o+d+de)
+							  (PP (P for)
+							      (NP-DAT (Q^D miclum) (N^D bysgum)))))
+					       (NEG ne)
+					       (MDPS mage)))
+			    (, ;)
+			    (CP-ADV (P for)
+				    (D^I +tan)
+				    (C 0)
+				    (IP-SUB (ADVP-DIR (ADV^D +tanon))
+					    (VBPI cym+d)
+					    (NP-NOM (D^N seo)
+						    (QS^N m+aste)
+						    (N^N med)
+						    (CONJP (CONJ &)
+							   (NX-NOM (N^N lufu))))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:7.1.177))
+
+/~*
+Sy simle +t+ara ealdra gymen +t+at hi heora under+teodra mod mid haligra
+gewrita r+adingum syngalice trymmon, +t+at se ungesewena wulf inf+ar ne gemete,
+hwanon he in to Godes eowde cume & +t+ar +anig scep of abrede.
+(cochdrul,ChrodR_1:11.1.232)
+*~/
+/*
+82 ADVP-DIR:  82 ADVP-DIR, 83 *T*-2
+104 ADVP-DIR:  104 ADVP-DIR, 105 *T*-2
+*/
+
+( (CODE <T07030017900,11.1>)
+  (IP-MAT (NP-NOM-x *exp*)
+	  (BEPS Sy)
+	  (ADVP-TMP (ADV^T simle))
+	  (NP-NOM-PRD (NP-GEN (D^G +t+ara) (N^G ealdra))
+		      (N^N gymen))
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (PRO^N hi))
+			    (NP-ACC (NP-GEN (PRO$ heora) (RP+VBN^G under+teodra))
+				    (N^A mod))
+			    (PP (P mid)
+				(NP-DAT (NP-GEN (ADJ^G haligra) (N^G gewrita))
+					(N^D r+adingum)))
+			    (ADVP (ADV syngalice))
+			    (VBPS trymmon)
+			    (, ,)
+			    (CP-ADV (C +t+at)
+				    (IP-SUB (NP-NOM (D^N se) (ADJ^N ungesewena) (N^N wulf))
+					    (NP-ACC (N^A inf+ar)
+						    (CP-REL *ICH*-1))
+					    (NEG ne)
+					    (VBPS gemete)
+					    (, ,)
+					    (CP-REL-1 (WADVP-DIR-2 (WADV^D hwanon))
+						      (C 0)
+						      (IP-SUB (IP-SUB (ADVP-DIR *T*-2)
+								      (NP-NOM (PRO^N he))
+								      (PP (RP in)
+									  (P to)
+									  (NP (NP-GEN (NR^G Godes))
+									      (N eowde)))
+								      (VBPS cume))
+							      (CONJP (CONJ &)
+								     (IP-SUB-CON (ADVP-DIR *T*-2)
+										 (NP-NOM *con*)
+										 (ADVP-LOC-3 (ADV^L +t+ar))
+										 (NP-ACC (Q^A +anig) (N^A scep))
+										 (PP (ADVP-LOC *ICH*-3)
+										     (P of))
+										 (VBPS abrede)))))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:11.1.232))
+
+/~*
+& gif hit neod beo +t+at l+awede men for worces +tingan +t+ader in gangon, swa
+hi gedon h+abbon, swa beon hi on ofeste utweard.
+(cochdrul,ChrodR_1:11.17.239)
+*~/
+/*
+39 ADV^D:  39 ADV^D, 40 +t+ader
+*/
+
+( (CODE <T07030018500,11.17>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (NP-NOM-x (PRO^N hit))
+			  (NP-NOM-PRD (N^N neod))
+			  (BEPS beo)
+			  (CP-THT-x (C +t+at)
+				    (IP-SUB (NP-NOM (ADJ^N l+awede) (N^N men))
+					    (PP (P for)
+						(NP (NP-GEN (N^G worces))
+						    (N +tingan)))
+					    (ADVP-DIR (ADV^D +t+ader))
+					    (RP in)
+					    (VBPS gangon)))))
+	  (, ,)
+	  (PP (P swa)
+	      (CP-CMP (WADVP-1 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-1)
+			      (NP-NOM (PRO^N hi))
+			      (VBN gedon)
+			      (HVPS h+abbon))))
+	  (, ,)
+	  (ADVP (ADV swa))
+	  (BEPS beon)
+	  (NP-NOM (PRO^N hi))
+	  (PP (P on)
+	      (NP (N ofeste)))
+	  (ADJP-NOM-PRD (ADJ^N utweard))
+	  (. .))
+  (ID cochdrul,ChrodR_1:11.17.239))
+
+/~*
+& gif man preosthades cocas n+abbe, & hit neod beo +t+at l+awede cocas +t+ader
+in gan, swa ra+de swa hi ge+tenod h+abbon, swa beon hi ofstlice utweard.
+(cochdrul,ChrodR_1:11.19.240)
+*~/
+/*
+49 ADV^D:  49 ADV^D, 50 +t+ader
+*/
+
+( (CODE <T07030018600,11.19>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (MAN^N man))
+				  (NP-ACC (NP-GEN (N^G preosthades))
+					  (N^A cocas))
+				  (NEG+HVPS n+abbe))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM-x (PRO^N hit))
+					     (NP-NOM-PRD (N^N neod))
+					     (BEPS beo)
+					     (CP-THT-x (C +t+at)
+						       (IP-SUB (NP-NOM (ADJ^N l+awede) (N^N cocas))
+							       (PP (ADVP-DIR (ADV^D +t+ader))
+								   (P in))
+							       (VBPS gan)))))))
+	  (, ,)
+	  (ADVP (ADV swa)
+		(ADV ra+de)
+		(PP (P swa)
+		    (CP-CMP (WADVP-1 0)
+			    (C 0)
+			    (IP-SUB (ADVP *T*-1)
+				    (NP-NOM (PRO^N hi))
+				    (VBN ge+tenod)
+				    (HVPS h+abbon)))))
+	  (, ,)
+	  (ADVP (ADV swa))
+	  (BEPS beon)
+	  (NP-NOM (PRO^N hi))
+	  (ADVP (ADV ofstlice))
+	  (ADJP-NOM-PRD (ADJ^N utweard))
+	  (. .))
+  (ID cochdrul,ChrodR_1:11.19.240))
+
+/~*
+& w+arlice tredon +t+at, +te l+as heora reaf wur+don +t+arof fule, +tonne hi
+on gebedum licgea+d.
+(cochdrul,ChrodR_1:12.20.256)
+*~/
+/*
+32 ADV+P:  32 ADV+P, 33 +t+arof
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *pro*)
+	  (ADVP (ADV w+arlice))
+	  (VBPS tredon)
+	  (NP-ACC (D^A +t+at))
+	  (, ,)
+	  (CP-ADV (D^I +te)
+		  (P l+as)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO$ heora) (N^N reaf))
+			  (BEPS wur+don)
+			  (PP (ADV+P +t+arof))
+			  (ADJP-NOM-PRD (ADJ^N fule))
+			  (, ,)
+			  (CP-ADV (P +tonne)
+				  (C 0)
+				  (IP-SUB (NP-NOM (PRO^N hi))
+					  (PP (P on)
+					      (NP-DAT (N^D gebedum)))
+					  (VBPI licgea+d)))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:12.20.256))
+
+/~*
+& +tam +te forgifnysse bidde, swa he eadmodra beo, & his gyltes ge+tafera, swa
+micle mildelicor & leohtlicor him ma deme.
+(cochdrul,ChrodR_1:16.38.323)
+*~/
+/*
+69 ADVX:  69 ADVX, 71 leohtlicor
+*/
+
+( (CODE <T07030024500,16.38>)
+  (IP-MAT (CONJ &)
+	  (NP-DAT-LFD (D^D +tam)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +te)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (NP (N forgifnysse))
+				      (VBPS bidde))))
+	  (, ,)
+	  (CP-CMP (WQP-3 0)
+		  (C swa)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (ADJP-NOM-PRD (ADJP-NOM (QP-EXT *T*-3)
+						  (ADJR^N eadmodra))
+					(CONJP *ICH*-2))
+			  (BEPS beo)
+			  (, ,)
+			  (CONJP-2 (CONJ &)
+				   (ADJP-NOM (NP-GEN (PRO$ his) (N^G gyltes))
+					     (ADJR^N ge+tafera)))))
+	  (, ,)
+	  (ADVP (QP-DAT-EXT (ADV swa) (Q^I micle))
+		(ADVR mildelicor)
+		(CONJP (CONJ &)
+		       (ADVX (ADVR leohtlicor))))
+	  (NP-DAT-RSP (PRO^D him))
+	  (NP-NOM (MAN^N ma))
+	  (VBPS deme)
+	  (. .))
+  (ID cochdrul,ChrodR_1:16.38.323))
+
+/~*
+& +tonne he +t+ader geclypod cume to frefrunge +atforan +tam bisceope & +tam
+preosthirede, +tonne astrecce he hine eadmodlice eallum lichaman an eor+dan
++atforan +tam r+adinggrade,
+(cochdrul,ChrodR_1:28.4.429)
+*~/
+/*
+15 ADV^D:  15 ADV^D, 16 +t+ader
+*/
+
+( (IP-MAT (CONJ &)
+	  (CP-ADV (P +tonne)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he)
+				  (PTP-NOM (ADVP-DIR (ADV^D +t+ader))
+					   (VBN^N geclypod)))
+			  (VBPS cume)
+			  (PP (P to)
+			      (NP (N frefrunge)))
+			  (PP (P +atforan)
+			      (NP-DAT (NP-DAT (D^D +tam) (N^D bisceope))
+				      (CONJP (CONJ &)
+					     (NP-DAT (D^D +tam) (N^D preosthirede)))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (VBPS astrecce)
+	  (NP-NOM (PRO^N he))
+	  (NP-ACC-RFL (PRO^A hine))
+	  (ADVP (ADV eadmodlice))
+	  (NP-DAT-ADT (Q^D eallum) (N^D lichaman))
+	  (PP (P an)
+	      (NP (N eor+dan)))
+	  (PP (P +atforan)
+	      (NP-DAT (D^D +tam) (N^D r+adinggrade)))
+	  (. ,))
+  (ID cochdrul,ChrodR_1:28.4.429))
+
+/~*
+& ne sceamie +te, for +tam +tanon cym+d forgyfnys, & butan andetnysse nis nan
+forgyfnes.
+(cochdrul,ChrodR_1:30.7.456)
+*~/
+/*
+25 ADV^D:  25 ADV^D, 26 +tanon
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (NEG ne)
+	  (VBPS sceamie)
+	  (NP-RFL (PRO +te))
+	  (, ,)
+	  (CP-ADV (P for)
+		  (D^D +tam)
+		  (C 0)
+		  (IP-SUB (IP-SUB (ADVP-DIR (ADV^D +tanon))
+				  (VBPI cym+d)
+				  (NP-NOM (N^N forgyfnys)))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (PP (P butan)
+						 (NP (N andetnysse)))
+					     (NEG+BEPI nis)
+					     (NP-NOM (NEG+Q^N nan) (N^N forgyfnes))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:30.7.456))
+
+/~*
+& si an preost +t+arto gesett +te Godes ege h+abbe, +te micle gymene h+abbe
+ymb +tone seocan & ymbe ealle his neoda;
+(cochdrul,ChrodR_1:38.5.539)
+*~/
+/*
+18 ADV+P:  18 ADV+P, 19 +t+arto
+*/
+
+( (CODE <T07030038200,38.5>)
+  (IP-MAT (CONJ &)
+	  (BEPS si)
+	  (NP-NOM (NUM^N an)
+		  (N^N preost)
+		  (CP-REL *ICH*-1)
+		  (CP-REL *ICH*-3))
+	  (PP (ADV+P +t+arto))
+	  (VBN gesett)
+	  (CP-REL-1 (WNP-NOM-2 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (NP (NP-GEN (NR^G Godes))
+				(N ege))
+			    (HVPS h+abbe)))
+	  (, ,)
+	  (CP-REL-3 (WNP-NOM-4 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-4)
+			    (NP-ACC (Q^A micle) (N^A gymene))
+			    (HVPS h+abbe)
+			    (PP (PP (P ymb)
+				    (NP-ACC (D^A +tone) (ADJ^A seocan)))
+				(CONJP (CONJ &)
+				       (PP (P ymbe)
+					   (NP-ACC (Q^A ealle) (PRO$ his) (N^A neoda)))))))
+	  (. ;))
+  (ID cochdrul,ChrodR_1:38.5.539))
+
+/~*
+We talia+d +t+at hit hefitime sy +t+at +ta hefian byr+tena micelra synna
+m+assepreostas ane aberan, for +tam ea+d magon manege Godes mildheortnysse
+begytan +tonne an, for +tan +alc h+af+d on his agenum inge+tance +t+at he him
+sylfum adr+ade,
+(cochdrul,ChrodR_1:41.1.561)
+*~/
+/*
+54 ADVP-DIR:  54 ADVP-DIR, 58 *ICH*-2
+*/
+
+( (CODE <T07030039600,41.1>)
+  (IP-MAT (NP-NOM (PRO^N We))
+	  (VBPI talia+d)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM-x (PRO^N hit))
+			  (ADJP-NOM-PRD (ADJ^N hefitime))
+			  (BEPS sy)
+			  (CP-THT-x (C +t+at)
+				    (IP-SUB (NP-ACC (D^A +ta)
+						    (ADJ^A hefian)
+						    (N^A byr+tena)
+						    (NP-GEN (Q^G micelra) (N^G synna)))
+					    (NP-NOM (N^N m+assepreostas) (NUM^N ane))
+					    (VBPS aberan)))))
+	  (, ,)
+	  (CP-ADV (P for)
+		  (D^D +tam)
+		  (C 0)
+		  (IP-SUB-0 (ADVP-DIR (ADVR ea+d)
+				      (PP *ICH*-2))
+			    (MDPI magon)
+			    (NP-NOM (Q^N manege))
+			    (NP (NP-GEN (NR^G Godes))
+				(N mildheortnysse))
+			    (VB begytan)
+			    (PP-2 (P +tonne)
+				  (CP-CMP (WADVP-1 0)
+					  (C 0)
+					  (IPX-SUB=0 (ADVP *T*-1)
+						     (NP-NOM (NUM^N an)))))
+			    (, ,)
+			    (CP-ADV (P for)
+				    (D^I +tan)
+				    (C 0)
+				    (IP-SUB (NP-NOM (Q^N +alc))
+					    (HVPI h+af+d)
+					    (PP (P on)
+						(NP-DAT (PRO$ his) (ADJ^D agenum) (N^D inge+tance)))
+					    (CP-FRL (WNP-ACC-3 (D^A +t+at))
+						    (C 0)
+						    (IP-SUB (NP-ACC *T*-3)
+							    (NP-NOM (PRO^N he))
+							    (NP-DAT-RFL (PRO^D him)
+									(ADJP-DAT (ADJ^D sylfum)))
+							    (VBPS adr+ade)))))))
+	  (. ,))
+  (ID cochdrul,ChrodR_1:41.1.561))
+
+/~*
+For +ti +tonne hit gerist +t+at +t+as mynstres ealdras gyman haligra f+adera
+bysna, & gegearcion sum hus +t+at +ta +tearfan inne magon beon gesomnode, & of
+mynstres +tingon swa micel +t+arto don +t+at hi magon +t+ar +tearfe habban, be
++tam +te +t+as mynstres mihta beon;
+(cochdrul,ChrodR_1:43.4.572)
+*~/
+/*
+104 ADV+P:  104 ADV+P, 105 +t+arto
+*/
+
+( (CODE <T07030040400,43.4>)
+  (IP-MAT (PP (P For)
+	      (NP-DAT (D^I +ti)))
+	  (ADVP-TMP (ADV^T +tonne))
+	  (NP-NOM-x (PRO^N hit))
+	  (VBPI gerist)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (IP-SUB (NP-NOM (NP-GEN (D^G +t+as) (N^G mynstres))
+					    (N^N ealdras))
+				    (VBPS gyman)
+				    (NP-GEN (NP-GEN (ADJ^G haligra) (N^G f+adera))
+					    (N^G bysna)))
+			    (, ,)
+			    (CONJP (CONJ &)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (VBPS gegearcion)
+					       (NP-ACC (Q^A sum)
+						       (N^A hus)
+						       (CP-REL (WADVP-LOC-1 0)
+							       (C +t+at)
+							       (IP-SUB (ADVP-LOC *T*-1)
+								       (NP-NOM (D^N +ta) (ADJ^N +tearfan))
+								       (ADVP-LOC (ADV^L inne))
+								       (MDPI magon)
+								       (BE beon)
+								       (VBN^N gesomnode))))))
+			    (, ,)
+			    (CONJP (CONJ &)
+				   (IP-SUB-CON (NP-NOM *con*)
+					       (PP (P of)
+						   (NP-DAT (NP-GEN (N^G mynstres))
+							   (N^D +tingon)))
+					       (NP-ACC (QP-ACC (ADV swa)
+							       (Q^A micel)
+							       (CP-DEG *ICH*-2)))
+					       (PP (ADV+P +t+arto))
+					       (VBPS don)
+					       (CP-DEG-2 (C +t+at)
+							 (IP-SUB (NP-NOM (PRO^N hi))
+								 (MDPI magon)
+								 (ADVP-LOC (ADV^L +t+ar))
+								 (NP (N +tearfe))
+								 (HV habban)
+								 (, ,)
+								 (CP-ADV (P be)
+									 (D^D +tam)
+									 (C +te)
+									 (IP-SUB (NP-NOM (NP-GEN (D^G +t+as) (N^G mynstres))
+											 (N^N mihta))
+										 (BEPS beon)))))))))
+	  (. ;))
+  (ID cochdrul,ChrodR_1:43.4.572))
+
+/~*
+& butan +tam do ma +t+ara tuna teo+dunga +t+ader +te to mynstre hyra+d.
+(cochdrul,ChrodR_1:43.4.573)
+*~/
+/*
+26 ADV^D:  26 ADV^D, 27 +t+ader
+*/
+
+( (IP-MAT (CONJ &)
+	  (PP (P butan)
+	      (NP-DAT (D^D +tam)))
+	  (VBPS do)
+	  (NP-NOM (MAN^N ma))
+	  (NP-ACC (NP-GEN (D^G +t+ara) (N^G tuna))
+		  (N^A teo+dunga)
+		  (CP-REL *ICH*-1))
+	  (ADVP-DIR (ADV^D +t+ader))
+	  (CP-REL-1 (WNP-NOM-2 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (PP (P to)
+				(NP-DAT (N^D mynstre)))
+			    (VBPI hyra+d)))
+	  (. .))
+  (ID cochdrul,ChrodR_1:43.4.573))
+
+/~*
+And +alc preost of his w+astmum & of +tam cyrclican +almessan to +t+ara
++tearfena neode +t+ader lustlice his teo+dunga do.
+(cochdrul,ChrodR_1:43.9.574)
+*~/
+/*
+45 ADV^D:  45 ADV^D, 46 +t+ader
+*/
+
+( (CODE <T07030040500,43.9>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM (Q^N +alc) (N^N preost))
+	  (PP (PP (P of)
+		  (NP-DAT (PRO$ his) (N^D w+astmum)))
+	      (CONJP (CONJ &)
+		     (PP (P of)
+			 (NP-DAT (D^D +tam) (ADJ^D cyrclican) (N^D +almessan)))))
+	  (PP (P to)
+	      (NP (NP-GEN (D^G +t+ara) (N^G +tearfena))
+		  (N neode)))
+	  (ADVP-DIR (ADV^D +t+ader))
+	  (ADVP (ADV lustlice))
+	  (NP-ACC (PRO$ his) (N^A teo+dunga))
+	  (VBPS do)
+	  (. .))
+  (ID cochdrul,ChrodR_1:43.9.574))
+
+/~*
+& sette ma +t+arto getrywne bro+dor +te +ta cuman & +ta w+adlan & +ta
++al+teodigan mid swylcre arwur+dnesse underfo, swylce Crist sylfa +t+ar come,
+(cochdrul,ChrodR_1:43.11.575)
+*~/
+/*
+12 ADV+P:  12 ADV+P, 13 +t+arto
+*/
+
+( (CODE <T07030040600,43.11>)
+  (IP-MAT (CONJ &)
+	  (VBPS sette)
+	  (NP-NOM (MAN^N ma))
+	  (PP (ADV+P +t+arto))
+	  (NP-ACC (ADJ^A getrywne)
+		  (N^A bro+dor)
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (NP-ACC (NP-ACC (D^A +ta) (N^A cuman))
+					  (CONJP (CONJ &)
+						 (NP-ACC (D^A +ta) (ADJ^A w+adlan)))
+					  (CONJP (CONJ &)
+						 (NP-ACC (D^A +ta) (ADJ^A +al+teodigan))))
+				  (PP (P mid)
+				      (NP-DAT (ADJ^D swylcre) (N^D arwur+dnesse)))
+				  (RP+VBPS underfo)
+				  (, ,)
+				  (PP (P swylce)
+				      (CP-CMP (WADVP-2 0)
+					      (C 0)
+					      (IP-SUB (ADVP *T*-2)
+						      (NP-NOM (NR^N Crist) (ADJ^N sylfa))
+						      (ADVP-LOC (ADV^L +t+ar))
+						      (VBDS come)))))))
+	  (. ,))
+  (ID cochdrul,ChrodR_1:43.11.575))
+
+/~*
+Ne sint hi to settenne +t+arto be hades wur+dmynte ne be +t+are endebyrdnysse
++te hig to geferr+adene comon, ac +after heora lifes geearnunge, & +after
+sinderlicum & gastlicum gyfum.
+(cochdrul,ChrodR_1:45.6.594)
+*~/
+/*
+19 ADV+P:  19 ADV+P, 20 +t+arto
+*/
+
+( (CODE <T07030042200,45.6>)
+  (IP-MAT (NEG Ne)
+	  (BEPI sint)
+	  (NP-NOM-1 (PRO^N hi))
+	  (IP-INF (NP *-1)
+		  (TO to)
+		  (VB^D settenne)
+		  (PP (ADV+P +t+arto)))
+	  (PP (PP (P be)
+		  (NP-DAT (NP-GEN (N^G hades))
+			  (N^D wur+dmynte)))
+	      (CONJP (NEG+CONJ ne)
+		     (PP (P be)
+			 (NP-DAT (D^D +t+are)
+				 (N^D endebyrdnysse)
+				 (CP-REL (WPP-2 0)
+					 (C +te)
+					 (IP-SUB (PP *T*-2)
+						 (NP-NOM (PRO^N hig))
+						 (PP (P to)
+						     (NP (N geferr+adene)))
+						 (VBDI comon))))))
+	      (, ,)
+	      (CONJP (CONJ ac)
+		     (PP (P +after)
+			 (NP (NP-GEN (PRO$ heora) (N^G lifes))
+			     (N geearnunge))))
+	      (, ,)
+	      (CONJP (CONJ &)
+		     (PP (P +after)
+			 (NP-DAT (ADJP-DAT (ADJ^D sinderlicum) (CONJ &) (ADJ^D gastlicum))
+				 (N^D gyfum))))
+	      (. .)))
+  (ID cochdrul,ChrodR_1:45.6.594))
+
+/~*
+& sette +ta +t+arto +te caflice +tone wur+dmynt gefyllan magon.
+(cochdrul,ChrodR_1:45.14.599)
+*~/
+/*
+14 ADV+P:  14 ADV+P, 15 +t+arto
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBPS sette)
+	  (NP-ACC (D^A +ta)
+		  (CP-REL *ICH*-1))
+	  (PP (ADV+P +t+arto))
+	  (CP-REL-1 (WNP-NOM-2 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (ADVP (ADV caflice))
+			    (NP-ACC (D^A +tone) (N^A wur+dmynt))
+			    (VB gefyllan)
+			    (MDPI magon)))
+	  (. .))
+  (ID cochdrul,ChrodR_1:45.14.599))
+
+/~*
+Se +te his ealdres word forhogie, myngige ma hine mid swinglum, +t+at he +turh
+ege to +tam godan gewilnungum cume, +te +t+ader +turh meda gela+dod n+as.
+(cochdrul,ChrodR_1:50.42.655)
+*~/
+/*
+79 ADV^D:  79 ADV^D, 80 +t+ader
+*/
+
+( (IP-MAT-SPE (NP-NOM-LFD (D^N Se)
+			  (CP-REL-SPE (WNP-NOM-1 0)
+				      (C +te)
+				      (IP-SUB-SPE (NP-NOM *T*-1)
+						  (NP-ACC (NP-GEN (PRO$ his) (N^G ealdres))
+							  (N^A word))
+						  (VBPS forhogie))))
+	      (, ,)
+	      (VBPS myngige)
+	      (NP-NOM (MAN^N ma))
+	      (NP-ACC-RSP (PRO^A hine))
+	      (PP (P mid)
+		  (NP-DAT (N^D swinglum)))
+	      (, ,)
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N he)
+					      (CP-REL-SPE *ICH*-2))
+				      (PP (P +turh)
+					  (NP (N ege)))
+				      (PP (P to)
+					  (NP-DAT (D^D +tam) (ADJ^D godan) (N^D gewilnungum)))
+				      (VBPS cume)
+				      (, ,)
+				      (CP-REL-SPE-2 (WNP-NOM-3 0)
+						    (C +te)
+						    (IP-SUB-SPE (NP-NOM *T*-3)
+								(ADVP-DIR (ADV^D +t+ader))
+								(PP (P +turh)
+								    (NP-ACC (N^A meda)))
+								(VBN gela+dod)
+								(NEG+BEDI n+as)))))
+	      (. .))
+  (ID cochdrul,ChrodR_1:50.42.655))
+
+/~*
++Tanon +tonne him is miclum worce to gymenne, swa hit beforan s+ag+d, +t+at be
++t+ara gylta & be +t+ara hada & be +t+ara ylda m+a+de seo steor beo funden,
++t+at na+der ne se gylt for sl+aw+de ne rixie, ne eac +t+at seo +treaung +ta
+mildheortnisse oferswi+de, swa Sanctus Maximus cw+a+d, Ne sceal swa li+de
+mildnes beon +t+at ne forh+abbe +ta syngunge, ne eft swa strec re+dnis +t+at
+of his slyde ne cyrre +tone gyltendan.
+(cochdrul,ChrodR_1:50.72.663)
+*~/
+/*
+7 ADV^D:  7 ADV^D, 8 +Tanon
+*/
+
+( (CODE <T07030047200,50.72>)
+  (IP-MAT (NP-NOM-x-1 *exp*)
+	  (ADVP-DIR (ADV^D +Tanon))
+	  (ADVP-TMP (ADV^T +tonne))
+	  (NP-DAT (PRO^D him))
+	  (BEPI is)
+	  (IP-INF (NP-x *-1)
+		  (NP-DAT-ADT (Q^D miclum) (N^D worce))
+		  (TO to)
+		  (VB^D gymenne))
+	  (, ,)
+	  (PP (P swa)
+	      (CPX-CMP (IPX-SUB (NP-NOM (PRO^N hit))
+				(ADVP-TMP (ADV^T beforan))
+				(VBPI s+ag+d))))
+	  (, ,)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (PP (PP (P be)
+				    (NP (NP-GEN (D^G +t+ara) (N^G gylta))))
+				(CONJP (CONJ &)
+				       (PP (P be)
+					   (NP (NP-GEN (D^G +t+ara) (N^G hada)))))
+				(CONJP (CONJ &)
+				       (PP (P be)
+					   (NP (NP-GEN (D^G +t+ara) (ADJ^G ylda))
+					       (N m+a+de)))))
+			    (NP-NOM (D^N seo) (N^N steor))
+			    (BEPS beo)
+			    (VBN funden)
+			    (, ,)
+			    (CP-ADV (CP-ADV (C +t+at)
+					    (IP-SUB (NEG+CONJ na+der)
+						    (NEG+CONJ ne)
+						    (NP-NOM (D^N se) (N^N gylt))
+						    (PP (P for)
+							(NP (N sl+aw+de)))
+						    (NEG ne)
+						    (VBPS rixie)))
+				    (, ,)
+				    (CONJP (NEG+CONJ ne)
+					   (ADV eac)
+					   (CP-ADV (C +t+at)
+						   (IP-SUB (NP-NOM (D^N seo) (N^N +treaung))
+							   (NP-ACC (D^A +ta) (N^A mildheortnisse))
+							   (RP+VBPS oferswi+de)))))))
+	  (, ,)
+	  (PP (P swa)
+	      (CP-CMP (WADVP-2 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-2)
+			      (NP-NOM (NR Sanctus) (NR^N Maximus))
+			      (VBDI cw+a+d)
+			      (, ,)
+			      (IP-MAT-SPE (NEG Ne)
+					  (MDPI sceal)
+					  (NP-NOM (NP-NOM (ADJP-NOM (ADV swa) (ADJ^N li+de))
+							  (N^N mildnes)
+							  (CP-REL-SPE *ICH*-3))
+						  (CONJP *ICH*-5))
+					  (BE beon)
+					  (CP-REL-SPE-3 (WNP-NOM-4 (D^N +t+at))
+							(C 0)
+							(IP-SUB-SPE (NP-NOM *T*-4)
+								    (NEG ne)
+								    (VBPS forh+abbe)
+								    (NP-ACC (D^A +ta) (N^A syngunge))))
+					  (, ,)
+					  (CONJP-5 (NEG+CONJ ne)
+						   (ADV^T eft)
+						   (NP-NOM (ADJP-NOM (ADV swa) (ADJ^N strec))
+							   (N^N re+dnis)
+							   (CP-REL-SPE (WNP-NOM-6 (D^N +t+at))
+								       (C 0)
+								       (IP-SUB-SPE (NP-NOM *T*-6)
+										   (PP (P of)
+										       (NP (PRO$ his) (N slyde)))
+										   (NEG ne)
+										   (VBPS cyrre)
+										   (NP-ACC (D^A +tone) (VAG^A gyltendan))))))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:50.72.663))
+
+/~*
+for +tam gif +t+aran syn n+are, nateshwon ure Drihten Iohannem herian wolde be
+his reafes stearcnysse.
+(cochdrul,ChrodR_1:52.11.686)
+*~/
+/*
+15 ADV+P:  15 ADV+P, 16 +t+aran
+*/
+
+( (IP-MAT (PP (P for)
+	      (NP-DAT (D^D +tam)))
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (PP (ADV+P +t+aran))
+			  (NP-NOM (N^N syn))
+			  (NEG+BEDS n+are)))
+	  (, ,)
+	  (QP-ADT (NEG+Q nateshwon))
+	  (NP-NOM (PRO$^N ure) (NR^N Drihten))
+	  (NP-ACC (NR^A Iohannem))
+	  (VB herian)
+	  (MDD wolde)
+	  (PP (P be)
+	      (NP (NP-GEN (PRO$ his) (N^G reafes))
+		  (N stearcnysse)))
+	  (. .))
+  (ID cochdrul,ChrodR_1:52.11.686))
+
+/~*
+& +tanon weor+da+d preostas talfulle.
+(cochdrul,ChrodR_1:54.1.710)
+*~/
+/*
+5 ADV^D:  5 ADV^D, 6 +tanon
+*/
+
+( (IP-MAT (CONJ &)
+	  (ADVP-DIR (ADV^D +tanon))
+	  (BEPI weor+da+d)
+	  (NP-NOM (N^N preostas))
+	  (ADJP-NOM-PRD (ADJ^N talfulle))
+	  (. .))
+  (ID cochdrul,ChrodR_1:54.1.710))
+
+/~*
+& +afre +t+arinne o+d+de hine ma gebidde,
+(cochdrul,ChrodR_1:56.14.749)
+*~/
+/*
+8 ADV+P:  8 ADV+P, 9 +t+arinne
+*/
+
+( (IP-MAT (CONJ &)
+	  (ADVP-TMP (ADV^T +afre))
+	  (PP (ADV+P +t+arinne))
+	  (CONJ o+d+de)
+	  (NP-ACC-RFL (PRO^A hine))
+	  (NP-NOM (MAN^N ma))
+	  (VBPS gebidde)
+	  (. ,))
+  (ID cochdrul,ChrodR_1:56.14.749))
+
+/~*
+& +tanon hi heora under+teoddan mihton gebetan, +tanon hi wundia+d hi.
+(cochdrul,ChrodR_1:57.1.757)
+*~/
+/*
+6 ADV^D:  6 ADV^D, 7 +tanon
+11 ADVP-DIR:  11 ADVP-DIR, 12 *T*-1
+28 ADV^D:  28 ADV^D, 29 +tanon
+*/
+
+( (IP-MAT (CONJ &)
+	  (CP-FRL-DIR (WADVP-DIR-1 (ADV^D +tanon))
+		      (C 0)
+		      (IP-SUB (ADVP-DIR *T*-1)
+			      (NP-NOM (PRO^N hi))
+			      (NP (PRO$ heora) (RP+VBN under+teoddan))
+			      (MDDI mihton)
+			      (VB gebetan)))
+	  (, ,)
+	  (ADVP-DIR (ADV^D +tanon))
+	  (NP-NOM (PRO^N hi))
+	  (VBPI wundia+d)
+	  (NP-ACC (PRO^A hi))
+	  (. .))
+  (ID cochdrul,ChrodR_1:57.1.757))
+
+/~*
++Tanon cwy+d +t+at halige gewrit, Se +de gede+d +t+at ma innan cyrcan h+af+d
+gehlyd, he sceal strang gescead for hine sylfne & for o+dre agyldan an domes
+d+age.
+(cochdrul,ChrodR_1:59.9.779)
+*~/
+/*
+5 ADV^D:  5 ADV^D, 6 +Tanon
+*/
+
+( (CODE <T07030055800,59.9>)
+  (IP-MAT (ADVP-DIR (ADV^D +Tanon))
+	  (VBPI cwy+d)
+	  (NP-NOM (D^N +t+at) (ADJ^N halige) (N^N gewrit))
+	  (, ,)
+	  (IP-MAT-SPE (NP-NOM-LFD (D^N Se)
+				  (CP-REL-SPE (WNP-NOM-1 0)
+					      (C +de)
+					      (IP-SUB-SPE (NP-NOM *T*-1)
+							  (VBPI gede+d)
+							  (CP-THT-SPE (C +t+at)
+								      (IP-SUB-SPE (NP-NOM (MAN^N ma))
+										  (PP (P innan)
+										      (NP (N cyrcan)))
+										  (HVPI h+af+d)
+										  (NP-ACC (N^A gehlyd)))))))
+		      (, ,)
+		      (NP-NOM-RSP (PRO^N he))
+		      (MDPI sceal)
+		      (NP-ACC (ADJ^A strang) (N^A gescead))
+		      (PP (PP (P for)
+			      (NP-ACC-RFL (PRO^A hine)
+					  (ADJP-ACC (ADJ^A sylfne))))
+			  (CONJP (CONJ &)
+				 (PP (P for)
+				     (NP-ACC (ADJ^A o+dre)))))
+		      (VB agyldan)
+		      (PP (P an)
+			  (NP-DAT (NP-GEN (N^G domes))
+				  (N^D d+age)))
+		      (. .)))
+  (ID cochdrul,ChrodR_1:59.9.779))
+
+/~*
+And gif +tonne gyt lencg ge+tristl+ace hit to abrecenne, do him ma swinglan
+steore, +t+at o+dre him +tanon adr+adon.
+(cochdrul,ChrodR_1:59.21.787)
+*~/
+/*
+62 ADV^D:  62 ADV^D, 63 +tanon
+*/
+
+( (CODE <T07030056500,59.21>)
+  (IP-MAT (CONJ And)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (NP-NOM *pro*)
+			  (ADVP-TMP (ADV^T +tonne))
+			  (ADVP-TMP (ADV^T gyt))
+			  (ADVP-TMP (ADVR^T lencg))
+			  (VBPS ge+tristl+ace)
+			  (IP-INF (NP-ACC (PRO^A hit))
+				  (TO to)
+				  (VB^D abrecenne))))
+	  (, ,)
+	  (VBPS do)
+	  (NP-DAT (PRO^D him))
+	  (NP-NOM (MAN^N ma))
+	  (NP (NP-GEN (N^G swinglan))
+	      (N steore))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (NP-NOM (ADJ^N o+dre))
+			  (NP-DAT (PRO^D him))
+			  (ADVP-DIR (ADV^D +tanon))
+			  (VBPS adr+adon)))
+	  (. .))
+  (ID cochdrul,ChrodR_1:59.21.787))
+
+/~*
++tanon eac yrfeweardnys an Crecisc cleronomia hatte,
+(cochdrul,ChrodR_1:61.7.837)
+*~/
+/*
+3 ADV^D:  3 ADV^D, 4 +tanon
+*/
+
+( (IP-MAT (ADVP-DIR (ADV^D +tanon))
+	  (ADVP (ADV eac))
+	  (NP-NOM (N^N yrfeweardnys))
+	  (PP (P an)
+	      (NP-ACC (ADJ^A Crecisc)))
+	  (NP-PRD (FW cleronomia))
+	  (VBD hatte)
+	  (. ,))
+  (ID cochdrul,ChrodR_1:61.7.837))
+
+/~*
+Be +tam +t+at nan m+assepreost ne beo geset to nare cyrcan butan biscopes
+leafe, ne eft +tanon adryfen butan his leafe.
+(cochdrul,ChrodR_1:76.0.933)
+*~/
+/*
+52 ADV^D:  52 ADV^D, 53 +tanon
+*/
+
+( (CODE <T07030066700,76.0>)
+  (PP (P Be)
+      (NP-DAT (D^D +tam)
+	      (CP-THT-PRN (C +t+at)
+			  (IP-SUB (IP-SUB-0 (NP-NOM (NEG+Q^N nan) (N^N m+assepreost))
+					    (NEG ne)
+					    (BEPS beo)
+					    (VBN geset)
+					    (PP (P to)
+						(NP-DAT (NEG+Q^D nare) (N^D cyrcan)))
+					    (PP (P butan)
+						(NP (NP-GEN (N^G biscopes))
+						    (N leafe))))
+				  (, ,)
+				  (CONJP (NEG+CONJ ne)
+					 (IPX-SUB-CON=0 (ADVP-TMP (ADV^T eft))
+							(ADVP-DIR (ADV^D +tanon))
+							(VBN adryfen)
+							(PP (P butan)
+							    (NP (PRO$ his) (N leafe))))))))
+      (. .))
+  (ID cochdrul,ChrodR_1:76.0.933))
+
+/~*
+We habba+d gesett +t+at ma ne sceal m+assepreostas to nanre cyrcan gesettan,
+ne eft +tanon don butan +t+as bisceopes leafan & dihte.
+(cochdrul,ChrodR_1:76.1.934)
+*~/
+/*
+44 ADV^D:  44 ADV^D, 45 +tanon
+*/
+
+( (CODE <T07030066800,76.1>)
+  (IP-MAT (NP-NOM (PRO^N We))
+	  (HVPI habba+d)
+	  (VBN gesett)
+	  (CP-THT (C +t+at)
+		  (IP-SUB-0 (NP-NOM (MAN^N ma))
+			    (NEG ne)
+			    (MDPI sceal)
+			    (NP-ACC (N^A m+assepreostas))
+			    (PP (P to)
+				(NP-DAT (NEG+Q^D nanre) (N^D cyrcan)))
+			    (VB gesettan)
+			    (, ,)
+			    (IPX-SUB-PRN=0 (NEG+CONJ ne)
+					   (ADVP-TMP (ADV^T eft))
+					   (ADVP-DIR (ADV^D +tanon))
+					   (VB don))
+			    (PP (P butan)
+				(NP-DAT (NP-GEN (D^G +t+as) (N^G bisceopes))
+					(N^D leafan)
+					(CONJP (CONJ &)
+					       (NX-DAT (N^D dihte)))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:76.1.934))
+
+/~*
+Gif +tonne ofer +tas gesetnysse biscopa hwilc o+d+de l+awedra manna o+dre
+cyrcan preost underfeh+d, butan he hine mid gesceade betelle, us lica+d +t+at
+ma amansumige +ag+der ge +tone +te hine underfeh+d, ge +tone +te +t+ar
+underfancgen bi+d, o+d +t+at he gedo +t+at se preost ham fare to his agenre
+cyrcan.
+(cochdrul,ChrodR_1:78.5.942)
+*~/
+/*
+157 ADV^D:  157 ADV^D, 158 ham
+*/
+
+( (CODE <T07030067600,78.5>)
+  (IP-MAT (CP-ADV (P Gif)
+		  (C 0)
+		  (IP-SUB (ADVP-TMP (ADV^T +tonne))
+			  (PP (P ofer)
+			      (NP-ACC (D^A +tas) (N^A gesetnysse)))
+			  (NP-NOM (NP-GEN (NP-GEN (N^G biscopa))
+					  (NP-GEN *ICH*-1))
+				  (Q^N hwilc)
+				  (NP-GEN-1 (CONJ o+d+de)
+					    (NP-GEN (ADJ^G l+awedra) (N^G manna))))
+			  (NP-ACC (NP-GEN (ADJ^G o+dre) (N^G cyrcan))
+				  (N^A preost))
+			  (RP+VBPI underfeh+d)))
+	  (, ,)
+	  (CP-ADV (P butan)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (NP-ACC (PRO^A hine))
+			  (PP (P mid)
+			      (NP-DAT (N^D gesceade)))
+			  (VBPS betelle)))
+	  (, ,)
+	  (NP-NOM-x *exp*)
+	  (NP (PRO us))
+	  (VBPI lica+d)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (MAN^N ma))
+			    (VBPS amansumige)
+			    (NP-ACC (CONJ +ag+der)
+				    (CONJ ge)
+				    (NP-ACC (D^A +tone)
+					    (CP-REL (WNP-NOM-2 0)
+						    (C +te)
+						    (IP-SUB (NP-NOM *T*-2)
+							    (NP-ACC (PRO^A hine))
+							    (RP+VBPI underfeh+d))))
+				    (, ,)
+				    (CONJP (CONJ ge)
+					   (NP-ACC (D^A +tone)
+						   (CP-REL (WNP-NOM-3 0)
+							   (C +te)
+							   (IP-SUB (NP-NOM *T*-3)
+								   (ADVP-LOC (ADV^L +t+ar))
+								   (RP+VBN underfancgen)
+								   (BEPI bi+d))))))
+			    (, ,)
+			    (CP-ADV (P o+d)
+				    (D^A +t+at)
+				    (C 0)
+				    (IP-SUB (NP-NOM (PRO^N he))
+					    (VBPS gedo)
+					    (CP-THT (C +t+at)
+						    (IP-SUB (NP-NOM (D^N se) (N^N preost))
+							    (ADVP-DIR (ADV^D ham))
+							    (VBPS fare)
+							    (PP (P to)
+								(NP-DAT (PRO$ his) (ADJ^D agenre) (N^D cyrcan)))))))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:78.5.942))
+
+/~*
+& hwanon syn men butan of moldan?
+(cochdrul,ChrodR_1:79.17.951)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 11 *T*-1
+*/
+
+( (CODE <T07030068500,79.17>)
+  (CP-QUE (CONJ &)
+	  (WADVP-DIR-1 (WADV^D hwanon))
+	  (IP-SUB-0 (ADVP-DIR *T*-1)
+		    (BEPS syn)
+		    (NP-NOM (N^N men))
+		    (CP-ADV (P butan)
+			    (C 0)
+			    (IPX-SUB=0 (PP (P of)
+					   (NP (N moldan))))))
+	  (. ?))
+  (ID cochdrul,ChrodR_1:79.17.951))
+
+/~*
+& swa hwyder swa +tu fare, faron +afre mid +te preostas +te fullice gefyllon
++tone godcundan +teowdom, & +ta beon syfre & na druncengeorne, +t+at heora
+lifes arwur+dnys sy o+derum to lifes bysne.
+(cochdrul,ChrodR_1:80.45.1037)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 16 *T*-1
+*/
+
+( (CODE <T07030074200,80.45>)
+  (IP-MAT (CONJ &)
+	  (CP-FRL-DIR (WADVP-DIR-1 (ADV swa) (WADV^D hwyder))
+		      (C swa)
+		      (IP-SUB (ADVP-DIR *T*-1)
+			      (NP-NOM (PRO^N +tu))
+			      (VBPS fare)))
+	  (, ,)
+	  (VBPS faron)
+	  (ADVP-TMP (ADV^T +afre))
+	  (PP (P mid)
+	      (NP (PRO +te)))
+	  (NP-NOM (N^N preostas)
+		  (CP-REL (CP-REL (WNP-NOM-2 0)
+				  (C +te)
+				  (IP-SUB (NP-NOM *T*-2)
+					  (ADVP (ADV fullice))
+					  (VBPS gefyllon)
+					  (NP-ACC (D^A +tone) (ADJ^A godcundan) (N^A +teowdom))))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (CP-REL (WNP-NOM-3 (D^N +ta))
+					 (C 0)
+					 (IP-SUB (NP-NOM *T*-3)
+						 (BEPS beon)
+						 (ADJP-NOM-PRD (ADJP-NOM (ADJ^N syfre))
+							       (CONJP (CONJ &)
+								      (ADJP-NOM (NEG+ADV na) (ADJ^N druncengeorne)))))))))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (NP-NOM (NP-GEN (PRO$ heora) (N^G lifes))
+				  (N^N arwur+dnys))
+			  (BEPS sy)
+			  (NP-DAT (ADJ^D o+derum))
+			  (PP (P to)
+			      (NP (NP-GEN (N^G lifes))
+				  (N bysne)))))
+	  (. .))
+  (ID cochdrul,ChrodR_1:80.45.1037))
+
+/~*
+& +tanon senda+d +twurlice stemna agean so+df+astnysse,
+(cochdrul,ChrodR_1:81.46.1086)
+*~/
+/*
+7 ADV^D:  7 ADV^D, 8 +tanon
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP-DIR (ADV^D +tanon))
+	  (VBPI senda+d)
+	  (NP-ACC (ADJ^A +twurlice) (N^A stemna))
+	  (PP (P agean)
+	      (NP (N so+df+astnysse)))
+	  (. ,))
+  (ID cochdrul,ChrodR_1:81.46.1086))
+
+/~*
+& gif him deoflu hw+at on heora ge+tance l+are, hwanon hi modigian magon
+o+d+de prutian, ne ge+tw+arion hig +tam,
+(cochdrul,ChrodR_1:84.8.1101)
+*~/
+/*
+42 ADVP-DIR:  42 ADVP-DIR, 43 *T*-3
+*/
+
+( (CODE <T07030078300,84.8>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (NP-DAT (PRO^D him))
+			  (NP-NOM (N^N deoflu))
+			  (NP-ACC (Q^A hw+at)
+				  (CP-REL *ICH*-2))
+			  (PP (P on)
+			      (NP-DAT (PRO$ heora) (N^D ge+tance)))
+			  (VBPS l+are)
+			  (, ,)
+			  (CP-REL-2 (WADVP-DIR-3 (WADV^D hwanon))
+				    (C 0)
+				    (IP-SUB (ADVP-DIR *T*-3)
+					    (NP-NOM (PRO^N hi))
+					    (VB (VB modigian)
+						(CONJP *ICH*-1))
+					    (MDPI magon)
+					    (CONJP-1 (CONJ o+d+de) (VB prutian))))))
+	  (, ,)
+	  (NEG ne)
+	  (VBPS ge+tw+arion)
+	  (NP-NOM (PRO^N hig))
+	  (NP-DAT (D^D +tam))
+	  (. ,))
+  (ID cochdrul,ChrodR_1:84.8.1101))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd	39/36/1132
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd
+*/
+
+/~*
+& agefe +der+at feower +dusenda,
+(codocu1,Ch_1482_[HarmD_2:36.37)
+*~/
+/*
+9 ADV+P:  9 ADV+P, 10 +der+at
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBPS agefe)
+	  (PP (ADV+P +der+at))
+	  (NP-ACC (NUMP-ACC (NUM feower) (NUM^A +dusenda)))
+	  (. ,))
+  (ID codocu1,Ch_1482_[HarmD_2:36.37))
+
+/~*
+& him mon forgefe +deran +dreotene hund pending.
+(codocu1,Ch_1482_[HarmD_2:36.38)
+*~/
+/*
+13 ADV+P:  13 ADV+P, 14 +deran
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-DAT (PRO^D him))
+	  (NP-NOM (MAN^N mon))
+	  (VBPS forgefe)
+	  (PP (ADV+P +deran))
+	  (NP-ACC (NUMP (NUM +dreotene) (NUM hund))
+		  (N^A pending))
+	  (. .))
+  (ID codocu1,Ch_1482_[HarmD_2:36.38))
+
+/~*
+An +das redenne ic hit +dider selle, +de se monn se +de Kristes cirican
+hlaford sie, se min & minra erfewearda forespreoca & mundbora, & an his
+hlaforddome we bian moten.
+(codocu1,Ch_1482_[HarmD_2:46.44)
+*~/
+/*
+22 ADV^D:  22 ADV^D, 23 +dider
+*/
+
+( (CODE <T13420001600,46>)
+  (N (IP-MAT (PP (P An)
+		 (NP-ACC (D^A +das)
+			 (N^A redenne)
+			 (CP-THT-PRN *ICH*-1)))
+	     (NP-NOM (PRO^N ic))
+	     (NP-ACC (PRO^A hit))
+	     (ADVP-DIR (ADV^D +dider))
+	     (VBP selle)
+	     (, ,)
+	     (CP-THT-PRN-1 (C +de)
+			   (IP-SUB (IP-SUB (NP-NOM (D^N se)
+						   (N^N monn)
+						   (CP-REL (WNP-NOM-2 (D^N se))
+							   (C +de)
+							   (IP-SUB (NP-NOM *T*-2)
+								   (NP-NOM-PRD (NP-GEN (NP-GEN (NR^G Kristes))
+										       (N^G cirican))
+									       (N^N hlaford))
+								   (BEPS sie))))
+					   (, ,)
+					   (BEPS se)
+					   (NP-NOM-PRD (NP-GEN (NP-GEN (PRO^G min))
+							       (CONJP (CONJ &)
+								      (NP-GEN (PRO$^G minra) (N^G erfewearda))))
+						       (N^N forespreoca)
+						       (CONJP (CONJ &)
+							      (NX-NOM (N^N mundbora)))))
+				   (, ,)
+				   (CONJP (CONJ &)
+					  (IP-SUB-CON (PP (P an)
+							  (NP-DAT (PRO$ his) (N^D hlaforddome)))
+						      (NP-NOM (PRO^N we))
+						      (BE bian)
+						      (MDPS moten)))))
+	     (. .)))
+  (ID codocu1,Ch_1482_[HarmD_2:46.44))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd	3/3/90
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd	0/0/11
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd
+*/
+
+/~*
++da w+as ic +dara monna sum +de +d+arto genemned w+aran, & Wihtbord & +Alfric,
+w+as +da hr+al+den, & Byrhthelm & Wulfhun +des blaca +at Sumortune & Strica &
+Ubba & ma monna +donne ic nu genemnan m+age.
+(codocu2,Ch_1445_[HarmD_18]:10.35)
+*~/
+/*
+30 ADV+P:  30 ADV+P, 31 +d+arto
+*/
+
+( (IP-MAT (ADVP-TMP (ADV^T +da))
+	  (BEDI w+as)
+	  (NP-NOM (NP-NOM (PRO^N ic))
+		  (CONJP *ICH*-3))
+	  (NP-NOM-PRD (NP-GEN (D^G +dara) (N^G monna))
+		      (Q^N sum)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +de)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (PP (ADV+P +d+arto))
+				      (VBN genemned)
+				      (BEDI w+aran))))
+	  (, ,)
+	  (CONJP-3 (CONJ &)
+		   (NP-NOM (NP-NOM (NR^N Wihtbord))
+			   (CONJP (CONJ &)
+				  (NP-NOM (NR^N +Alfric)
+					  (, ,)
+					  (IP-MAT-PRN (NP-NOM *pro*)
+						      (BEDI w+as)
+						      (ADVP-TMP (ADV^T +da))
+						      (NP-NOM-PRD (N^N hr+al+den)))))
+			   (, ,)
+			   (CONJP (CONJ &)
+				  (NP-NOM (NR^N Byrhthelm)))
+			   (CONJP (CONJ &)
+				  (NP-NOM (NR^N Wulfhun)
+					  (NP-NOM-PRN (D^N +des) (ADJ^N blaca))
+					  (PP (P +at)
+					      (NP-DAT (NR^D Sumortune)))))
+			   (CONJP (CONJ &)
+				  (NP-NOM (NR^N Strica)))
+			   (CONJP (CONJ &)
+				  (NP-NOM (NR^N Ubba)))
+			   (CONJP (CONJ &)
+				  (NP (QR ma)
+				      (NP-GEN (N^G monna))
+				      (PP (P +donne)
+					  (CP-CMP (WNP-2 0)
+						  (C 0)
+						  (IP-SUB (NP *T*-2)
+							  (NP-NOM (PRO^N ic))
+							  (ADVP-TMP (ADV^T nu))
+							  (VB genemnan)
+							  (MDPS m+age))))))))
+	  (. .))
+  (ID codocu2,Ch_1445_[HarmD_18]:10.35))
+
+/~*
++da stod seo hondseten eal +d+aron.
+(codocu2,Ch_1445_[HarmD_18]:22.42)
+*~/
+/*
+16 ADV+P:  16 ADV+P, 17 +d+aron
+*/
+
+( (IP-MAT (ADVP-TMP (ADV^T +da))
+	  (VBDI stod)
+	  (NP-NOM (D^N seo) (N^N hondseten))
+	  (QP (Q eal))
+	  (PP (ADV+P +d+aron))
+	  (. .))
+  (ID codocu2,Ch_1445_[HarmD_18]:22.42))
+
+/~*
+& +A+delm stod self +d+arinne mid.
+(codocu2,Ch_1445_[HarmD_18]:27.45)
+*~/
+/*
+15 ADV+P:  15 ADV+P, 16 +d+arinne
+*/
+
+( (CODE <T13090001300,27>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (NR^N +A+delm))
+	  (VBDI stod)
+	  (ADJP-NOM (ADJ^N self))
+	  (PP (ADV+P +d+arinne))
+	  (RPX mid)
+	  (. .))
+  (ID codocu2,Ch_1445_[HarmD_18]:27.45))
+
+/~*
+& Byrhthelm rad +dider mid +A+delme.
+(codocu2,Ch_1445_[HarmD_18]:39.60)
+*~/
+/*
+10 ADV^D:  10 ADV^D, 11 +dider
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM (NR^N Byrhthelm))
+	  (VBDI rad)
+	  (ADVP-DIR (ADV^D +dider))
+	  (PP (P mid)
+	      (NP-DAT (NR^D +A+delme)))
+	  (. .))
+  (ID codocu2,Ch_1445_[HarmD_18]:39.60))
+
+/~*
+& hine mon +d+ar+at aparade.
+(codocu2,Ch_1445_[HarmD_18]:51.69)
+*~/
+/*
+13 ADV+P:  13 ADV+P, 14 +d+ar+at
+*/
+
+( (CODE <T13090003000,51>)
+  (IP-MAT (CONJ &)
+	  (NP-ACC (PRO^A hine))
+	  (NP-NOM (MAN^N mon))
+	  (PP (ADV+P +d+ar+at))
+	  (VBD aparade)
+	  (. .))
+  (ID codocu2,Ch_1445_[HarmD_18]:51.69))
+
+/~*
+& heo tilige uncer begea sawla +tearfe gem+anelice +d+aron
+(codocu2,Ch_1533_[Rob_26]:2.108)
+*~/
+/*
+26 ADV+P:  26 ADV+P, 27 +d+aron
+*/
+
+( (CODE <T13870000200,2>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N heo))
+	  (VBPS tilige)
+	  (NP (NP-GEN (NP-GEN (PRO^G uncer) (Q^G begea))
+		      (N^G sawla))
+	      (N +tearfe))
+	  (ADVP (ADV gem+anelice))
+	  (PP (ADV+P +d+aron)))
+  (ID codocu2,Ch_1533_[Rob_26]:2.108))
+
+/~*
++Tonne an ic +t+as landes +at Cr+aft ofer minne d+ag Wynsige & +Alfsige &
+ealles +t+as +te ic +t+aron begite.
+(codocu2,Ch_1533_[Rob_26]:15.114)
+*~/
+/*
+61 ADV+P:  61 ADV+P, 62 +t+aron
+*/
+
+( (CODE <T13870000600,15>)
+  (IP-MAT (ADVP-TMP (ADV^T +Tonne))
+	  (VBPI an)
+	  (NP-NOM (PRO^N ic))
+	  (NP-GEN (NP-GEN (D^G +t+as) (N^G landes))
+		  (CONJP *ICH*-1))
+	  (PP (P +at)
+	      (NP (NR Cr+aft)))
+	  (PP (P ofer)
+	      (NP-ACC (PRO$^A minne) (N^A d+ag)))
+	  (NP-DAT (NR^D Wynsige) (CONJ &) (NR^D +Alfsige))
+	  (CONJP-1 (CONJ &)
+		   (NP-GEN (Q^G ealles)
+			   (D^G +t+as)
+			   (CP-REL (WNP-2 0)
+				   (C +te)
+				   (IP-SUB (NP *T*-2)
+					   (NP-NOM (PRO^N ic))
+					   (PP (ADV+P +t+aron))
+					   (VBP begite)))))
+	  (. .))
+  (ID codocu2,Ch_1533_[Rob_26]:15.114))
+
+/~*
+& heo tilige +t+aron uncer begea sawla +tearfe
+(codocu2,Ch_1533_[Rob_26]:27.120)
+*~/
+/*
+12 ADV+P:  12 ADV+P, 13 +t+aron
+*/
+
+( (CODE <T13870001200,27>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N heo))
+	  (VBPS tilige)
+	  (PP (ADV+P +t+aron))
+	  (NP (NP-GEN (NP-GEN (PRO^G uncer) (Q^G begea))
+		      (N^G sawla))
+	      (N +tearfe)))
+  (ID codocu2,Ch_1533_[Rob_26]:27.120))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd	8/8/123
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd
+*/
+
+/~*
+In usses Dryhtnes noman h+alendes Cristes ic +A+delbald Myrcna cincg w+as
+beden from +t+am arfullan bisceope Milrede +t+att ic him alefde & his +t+am
+halegan hirede alle nedbade tuegra sceopa +te +t+arto limpende beo+d, +tett ic
+him forgefe +ta +t+am eadgan Petre apostola aldormen in +t+am mynstre
++teowia+d +t+at is geseted in Huicca m+ag+de in +t+are stowe +te mon hate+d
+Weogernacester.
+(codocu3,Ch_98_[Rob_1]:1.25)
+*~/
+/*
+101 ADV+P:  101 ADV+P, 102 +t+arto
+*/
+
+( (CODE <T09970000100,1>)
+  (IP-MAT (PP (P In)
+	      (NP (NP-GEN (PRO$^G usses)
+			  (NR^G Dryhtnes)
+			  (NP-GEN-PRN *ICH*-1)
+			  (NP-GEN-PRN *ICH*-9))
+		  (N noman)
+		  (NP-GEN-PRN-1 (N^G h+alendes))
+		  (NP-GEN-PRN-9 (NR^G Cristes))))
+	  (NP-NOM (PRO^N ic)
+		  (NP-NOM-PRN (NR^N +A+delbald))
+		  (NP-NOM-PRN (NP-GEN (NR^G Myrcna))
+			      (N^N cincg)))
+	  (BEDI w+as)
+	  (VBN beden)
+	  (PP (P from)
+	      (NP-DAT (D^D +t+am)
+		      (ADJ^D arfullan)
+		      (N^D bisceope)
+		      (NP-DAT-PRN (NR^D Milrede))))
+	  (CP-THT (CP-THT (C +t+att)
+			  (IP-SUB (NP-NOM (PRO^N ic))
+				  (NP-DAT (NP-DAT (PRO^D him))
+					  (CONJP *ICH*-2))
+				  (VBD alefde)
+				  (CONJP-2 (CONJ &)
+					   (NP-DAT (PRO$ his) (D^D +t+am) (ADJ^D halegan) (N^D hirede)))
+				  (NP-ACC (Q^A alle)
+					  (N^A nedbade)
+					  (NP-GEN (NUM^G tuegra)
+						  (N^G sceopa)
+						  (CP-REL (WNP-NOM-3 0)
+							  (C +te)
+							  (IP-SUB (NP-NOM *T*-3)
+								  (PP (ADV+P +t+arto))
+								  (VAG limpende)
+								  (BEPI beo+d)))))))
+		  (, ,)
+		  (CONJP (CP-THT (C +tett)
+				 (IP-SUB (NP-NOM (PRO^N ic))
+					 (NP-DAT (PRO^D him)
+						 (CP-REL *ICH*-4))
+					 (VBP forgefe)
+					 (CP-REL-4 (WNP-NOM-8 (D^N +ta))
+						   (C 0)
+						   (IP-SUB (NP-NOM *T*-8)
+							   (NP-DAT (D^D +t+am)
+								   (ADJ^D eadgan)
+								   (NR^D Petre)
+								   (NP-DAT-PRN (NP-GEN (N^G apostola))
+									       (N^D aldormen)))
+							   (PP (P in)
+							       (NP-DAT (D^D +t+am)
+								       (N^D mynstre)
+								       (CP-REL *ICH*-5)))
+							   (VBPI +teowia+d)
+							   (CP-REL-5 (WNP-NOM-6 (D^N +t+at))
+								     (C 0)
+								     (IP-SUB (NP-NOM *T*-6)
+									     (BEPI is)
+									     (VBN geseted)
+									     (PP (P in)
+										 (NP (NP-GEN (NR^G Huicca))
+										     (N m+ag+de)))
+									     (PP (P in)
+										 (NP-DAT (D^D +t+are)
+											 (N^D stowe)
+											 (CP-REL (WNP-7 0)
+												 (C +te)
+												 (IP-SUB (NP-NOM (MAN^N mon))
+													 (VBPI hate+d)
+													 (IP-SMC (NP-SBJ *T*-7)
+														 (NP-PRD (NR Weogernacester)))))))))))))))
+	  (. .))
+  (ID codocu3,Ch_98_[Rob_1]:1.25))
+
+/~*
+Milred bisceop +tare halegan rode tacen he heron gef+astnode.
+(codocu3,Ch_98_[Rob_1]:19.32)
+*~/
+/*
+23 ADV+P:  23 ADV+P, 24 heron
+*/
+
+( (CODE <T09970000700,19>)
+  (IP-MAT (NP-NOM-LFD (NR^N Milred) (N^N bisceop))
+	  (NP-ACC (NP-GEN (D^G +tare) (ADJ^G halegan) (N^G rode))
+		  (N^A tacen))
+	  (NP-NOM-RSP (PRO^N he))
+	  (PP (ADV+P heron))
+	  (VBD gef+astnode)
+	  (. .))
+  (ID codocu3,Ch_98_[Rob_1]:19.32))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd	2/2/35
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd
+*/
+
+/~*
+& Sigeric arcebiscop sende his swutelunga +t+arto & Ordbyrht biscop his.
+(codocu3,Ch_1454_[Rob_66]:14.112)
+*~/
+/*
+20 ADV+P:  20 ADV+P, 21 +t+arto
+*/
+
+( (CODE <T13160000700,14>)
+  (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM (NR^N Sigeric) (N^N arcebiscop))
+		    (VBD sende)
+		    (NP-ACC (PRO$ his) (N^A swutelunga))
+		    (PP (ADV+P +t+arto)))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-NOM (NR^N Ordbyrht) (N^N biscop))
+			    (NP (PRO$ his))))
+	  (. .))
+  (ID codocu3,Ch_1454_[Rob_66]:14.112))
+
+/~*
+& sealde +A+telsige biscope unbesacen land on hand +t+at he +tanon for+d
+sy+t+tan +t+aron ne spr+ace.
+(codocu3,Ch_1454_[Rob_66]:29.118)
+*~/
+/*
+40 ADV+P:  40 ADV+P, 41 +t+aron
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBD sealde)
+	  (NP-DAT (NR^D +A+telsige) (N^D biscope))
+	  (NP-ACC (ADJ^A unbesacen) (N^A land))
+	  (PP (P on)
+	      (NP-ACC (N^A hand)))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (ADVP-TMP (ADV^T +tanon))
+			  (RP for+d)
+			  (ADVP-TMP (ADV^T sy+t+tan))
+			  (PP (ADV+P +t+aron))
+			  (NEG ne)
+			  (VBDS spr+ace)))
+	  (. .))
+  (ID codocu3,Ch_1454_[Rob_66]:29.118))
+
+/~*
+& Se cyng het +tone arcebisceop Wulfstan +t+arto boc settan & +A+telstane
+bisceope boc & land bet+acan unnendere heortan.
+(codocu3,Ch_1460_[Rob_83]:8.126)
+*~/
+/*
+24 ADV+P:  24 ADV+P, 25 +t+arto
+*/
+
+( (CODE <T13220000200,8>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (D^N Se) (N^N cyng))
+	  (VBDI het)
+	  (IP-INF (IP-INF (NP-ACC-SBJ (D^A +tone)
+				      (N^A arcebisceop)
+				      (NP-ACC-PRN (NR^A Wulfstan)))
+			  (PP (ADV+P +t+arto))
+			  (NP-ACC (N^A boc))
+			  (VB settan))
+		  (CONJP (CONJ &)
+			 (IP-INF (NP-SBJ *con*)
+				 (NP-DAT (NR^D +A+telstane) (N^D bisceope))
+				 (NP-ACC (N^A boc) (CONJ &) (N^A land))
+				 (VB bet+acan)
+				 (NP-DAT-ADT (ADJ^D unnendere) (N^D heortan)))))
+	  (. .))
+  (ID codocu3,Ch_1460_[Rob_83]:8.126))
+
+/~*
++Ta com se bisceop +t+arto & se +te him land sealde & +ta +te him +ar to
+$gewitnesse w+aron.
+(codocu3,Ch_1460_[Rob_83]:18.132)
+*~/
+/*
+18 ADV+P:  18 ADV+P, 19 +t+arto
+*/
+
+( (CODE <T13220000600,18>)
+  (IP-MAT (ADVP-TMP (ADV^T +Ta))
+	  (VBDI com)
+	  (NP-NOM (NP-NOM (D^N se) (N^N bisceop))
+		  (CONJP *ICH*-3))
+	  (PP (ADV+P +t+arto))
+	  (CONJP-3 (CONJ &)
+		   (NP-NOM (NP-NOM (D^N se)
+				   (CP-REL (WNP-NOM-1 0)
+					   (C +te)
+					   (IP-SUB (NP-NOM *T*-1)
+						   (NP-DAT (PRO^D him))
+						   (NP-ACC (N^A land))
+						   (VBD sealde))))
+			   (CONJP (CONJ &)
+				  (NP-NOM (D^N +ta)
+					  (CP-REL (WNP-NOM-2 0)
+						  (C +te)
+						  (IP-SUB (NP-NOM *T*-2)
+							  (NP-DAT (PRO^D him))
+							  (ADVP-TMP (ADV^T +ar))
+							  (PP (P to)
+							      (NP (N $gewitnesse)))
+							  (BEDI w+aron)))))))
+	  (. .))
+  (ID codocu3,Ch_1460_[Rob_83]:18.132))
+
+/~*
+& s+adon +tam kinge +t+at he h+afde swy+de agylt wi+d Crist +t+at he +afre
+sceolde niman +anig +ting of Cristes cyrcean +te his foragengceon dydon
++tiderinn.
+(codocu3,Ch_1467_[Rob_91]:15.160)
+*~/
+/*
+79 ADV+P:  79 ADV+P, 80 +tiderinn
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBDI s+adon)
+	  (NP-DAT (D^D +tam) (N^D kinge))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (HVD h+afde)
+			  (ADVP (ADV swy+de))
+			  (VBN agylt)
+			  (PP (P wi+d)
+			      (NP-ACC (NR^A Crist)))
+			  (CP-THT (C +t+at)
+				  (IP-SUB (NP-NOM (PRO^N he))
+					  (ADVP-TMP (ADV^T +afre))
+					  (MDD sceolde)
+					  (VB niman)
+					  (NP-ACC (Q^A +anig)
+						  (N^A +ting)
+						  (CP-REL *ICH*-1))
+					  (PP (P of)
+					      (NP (NP-GEN (NR^G Cristes))
+						  (N cyrcean)))
+					  (CP-REL-1 (WNP-2 0)
+						    (C +te)
+						    (IP-SUB (NP *T*-2)
+							    (NP-NOM (PRO$ his) (N^N foragengceon))
+							    (VBDI dydon)
+							    (PP (ADV+P +tiderinn))))))))
+	  (. .))
+  (ID codocu3,Ch_1467_[Rob_91]:15.160))
+
+/~*
+& swor sy+t+tan under God +almihtine & under ealle halgan +tarto +t+at hit
+n+afre n+as na his r+ad na his d+ad +t+at man sceolde +afre Sandwic don ut of
+Cristes cyrcean.
+(codocu3,Ch_1467_[Rob_91]:20.164)
+*~/
+/*
+32 ADV+P:  32 ADV+P, 33 +tarto
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBDI swor)
+	  (ADVP-TMP (ADV^T sy+t+tan))
+	  (PP (PP (P under)
+		  (NP-ACC (NR^A God) (ADJ^A +almihtine)))
+	      (CONJP (CONJ &)
+		     (PP (P under)
+			 (NP-ACC (Q^A ealle) (N^A halgan)))))
+	  (PP (ADV+P +tarto))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM-x (PRO^N hit))
+			  (ADVP-TMP (NEG+ADV^T n+afre))
+			  (NEG+BEDI n+as)
+			  (ADVP (NEG+ADV na))
+			  (NP-NOM-PRD (NP-NOM (PRO$ his) (N^N r+ad))
+				      (CONJP (NEG+CONJ na)
+					     (NP-NOM (PRO$ his) (N^N d+ad))))
+			  (CP-THT-x (C +t+at)
+				    (IP-SUB (NP-NOM (MAN^N man))
+					    (MDD sceolde)
+					    (ADVP-TMP (ADV^T +afre))
+					    (NP (NR Sandwic))
+					    (VB don)
+					    (PP (RP ut)
+						(P of)
+						(NP (NP-GEN (NR^G Cristes))
+						    (N cyrcean)))))))
+	  (. .))
+  (ID codocu3,Ch_1467_[Rob_91]:20.164))
+
+/~*
+& +ta he ne mihte na for+d hermid +ta gyrnde he +t+at he moste macian fornan
+gen Mildry+te +aker +anne hwerf wi+d +tone wodan to werianne.
+(codocu3,Ch_1467_[Rob_91]:39.176)
+*~/
+/*
+25 ADV+P:  25 ADV+P, 26 hermid
+*/
+
+( (CODE <T13280001300,39>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P +ta)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (NEG ne)
+			  (MDD mihte)
+			  (ADVP (NEG+ADV na))
+			  (RP for+d)
+			  (PP (ADV+P hermid))))
+	  (ADVP-TMP (ADV^T +ta))
+	  (VBD gyrnde)
+	  (NP-NOM (PRO^N he))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (MDD moste)
+			  (VB macian)
+			  (ADVP-LOC (ADV^L fornan))
+			  (PP (P gen)
+			      (NP-ACC (NP-GEN (NR^G Mildry+te))
+				      (N^A +aker)))
+			  (NP-ACC (NUM^A +anne) (N^A hwerf))
+			  (IP-INF-NCO (PP (P wi+d)
+					  (NP-ACC (D^A +tone) (N^A wodan)))
+				      (TO to)
+				      (VB^D werianne))))
+	  (. .))
+  (ID codocu3,Ch_1467_[Rob_91]:39.176))
+
+/~*
+& wolde +t+at scipryne sceolde +t+arinne licgean eallswa hig dydon on Sandwic.
+(codocu3,Ch_1467_[Rob_91]:43.181)
+*~/
+/*
+18 ADV+P:  18 ADV+P, 19 +t+arinne
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (MDD wolde)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (N^N scipryne))
+			  (MDD sceolde)
+			  (PP (ADV+P +t+arinne))
+			  (VB licgean)
+			  (PP (P eallswa)
+			      (CP-CMP (WADVP-1 0)
+				      (C 0)
+				      (IP-SUB (ADVP *T*-1)
+					      (NP-NOM (PRO^N hig))
+					      (VBDI dydon)
+					      (PP (P on)
+						  (NP (NR Sandwic))))))))
+	  (. .))
+  (ID codocu3,Ch_1467_[Rob_91]:43.181))
+
+/~*
+Ac him na speow nan +tingc +t+aron for+tam he swing+d eall on idel +te swinc+d
+ongean Cristes willan.
+(codocu3,Ch_1467_[Rob_91]:46.182)
+*~/
+/*
+20 ADV+P:  20 ADV+P, 21 +t+aron
+*/
+
+( (CODE <T13280001600,46>)
+  (IP-MAT (CONJ Ac)
+	  (NP-DAT (PRO^D him))
+	  (ADVP (NEG+ADV na))
+	  (VBDI speow)
+	  (NP-NOM (NEG+Q^N nan) (N^N +tingc))
+	  (PP (ADV+P +t+aron))
+	  (CP-ADV (P for+tam)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he)
+				  (CP-REL *ICH*-1))
+			  (VBPI swing+d)
+			  (QP (Q eall))
+			  (PP (P on)
+			      (NP-ACC (N^A idel)))
+			  (CP-REL-1 (WNP-NOM-2 0)
+				    (C +te)
+				    (IP-SUB (NP-NOM *T*-2)
+					    (VBPI swinc+d)
+					    (PP (P ongean)
+						(NP (NP-GEN (NR^G Cristes))
+						    (N willan)))))))
+	  (. .))
+  (ID codocu3,Ch_1467_[Rob_91]:46.182))
+
+/~*
+& sy+d+dan heora begra d+ag agan si, +Agelrices & +t+as arcebisceopes Eadsiges,
++t+anne ga +tis foresprecene land into Cristes cyricean mid mete & mid mannan
+eal swa hit stande for +Agelrices sawle & for Eadsiges arcebisceopes +tam
+Godes +teowan to fostre & to scrude +te +t+arinne Godes lof dreogan sceolan
+d+ages & nihtes.
+(codocu3,Ch_1471_[Rob_101]:8.201)
+*~/
+/*
+158 ADV+P:  158 ADV+P, 159 +t+arinne
+*/
+
+( (CODE <T13320000300,8>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P sy+d+dan)
+		  (C 0)
+		  (IP-SUB (NP-NOM (NP-GEN (PRO^G heora)
+					  (Q^G begra)
+					  (NP-GEN-PRN *ICH*-1))
+				  (N^N d+ag))
+			  (VBN agan)
+			  (BEPS si)
+			  (, ,)
+			  (NP-GEN-PRN-1 (NP-GEN (NR^G +Agelrices))
+					(CONJP (CONJ &)
+					       (NP-GEN (D^G +t+as)
+						       (N^G arcebisceopes)
+						       (NP-GEN-PRN (NR^G Eadsiges)))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +t+anne))
+	  (VBPS ga)
+	  (NP-NOM (D^N +tis) (RP+VBN^N foresprecene) (N^N land))
+	  (PP (P into)
+	      (NP (NP-GEN (NR^G Cristes))
+		  (N cyricean)))
+	  (PP (PP (P mid)
+		  (NP (N mete)))
+	      (CONJP (CONJ &)
+		     (PP (P mid)
+			 (NP (N mannan)))))
+	  (QP (Q eal))
+	  (PP (P swa)
+	      (CP-CMP (WADVP-2 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-2)
+			      (NP-NOM (PRO^N hit))
+			      (VBPS stande))))
+	  (PP (PP (P for)
+		  (NP (NP-GEN (NR^G +Agelrices))
+		      (N sawle)))
+	      (CONJP (CONJ &)
+		     (PP (P for)
+			 (NP (NP-GEN (NR^G Eadsiges) (N^G arcebisceopes))))))
+	  (NP-DAT-ADT (D^D +tam)
+		      (NP-GEN (NR^G Godes))
+		      (N^D +teowan)
+		      (CP-REL *ICH*-3))
+	  (PP (PP (P to)
+		  (NP-DAT (N^D fostre)))
+	      (CONJP (CONJ &)
+		     (PP (P to)
+			 (NP-DAT (N^D scrude)))))
+	  (CP-REL-3 (WNP-NOM-4 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-4)
+			    (PP (ADV+P +t+arinne))
+			    (NP-ACC (NP-GEN (NR^G Godes))
+				    (N^A lof))
+			    (VB dreogan)
+			    (MDPI sceolan)
+			    (NP-GEN-TMP (N^G d+ages) (CONJ &) (N^G nihtes))))
+	  (. .))
+  (ID codocu3,Ch_1471_[Rob_101]:8.201))
+
+/~*
+& +Agelric gif+d +ta landboc +te +t+arto gebyre+d on his life Criste & +tam
+hirede him to ecere +almessan
+(codocu3,Ch_1471_[Rob_101]:13.202)
+*~/
+/*
+25 ADV+P:  25 ADV+P, 26 +t+arto
+*/
+
+( (CODE <T13320000400,13>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (NR^N +Agelric))
+	  (VBPI gif+d)
+	  (NP-ACC (D^A +ta)
+		  (N^A landboc)
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (PP (ADV+P +t+arto))
+				  (VBPI gebyre+d))))
+	  (PP (P on)
+	      (NP-DAT (PRO$ his) (N^D life)))
+	  (NP-DAT (NP-DAT (NR^D Criste))
+		  (CONJP (CONJ &)
+			 (NP-DAT (D^D +tam) (N^D hirede))))
+	  (NP-DAT-RFL-ADT (PRO^D him))
+	  (PP (P to)
+	      (NP-DAT (ADJ^D ecere) (N^D +almessan))))
+  (ID codocu3,Ch_1471_[Rob_101]:13.202))
+
+/~*
+& +after heora twegra d+age fo se arcebisceop Eadsige +t+arto gyf he leng
+libbe +t+anne hi o+d+de loc hwa his +aftergencga +t+anne beo butan sum heora
+freonda +ta land fur+tor on +t+as arcebisceopes gemede ofgan mage to rihtan
+gafole o+d+de to o+tran forewyrdan swa hit man +t+anne findan mage wi+d +tone
+arcebisceop +te +tanne libbe.
+(codocu3,Ch_1471_[Rob_101]:18.204)
+*~/
+/*
+31 ADV+P:  31 ADV+P, 32 +t+arto
+*/
+
+( (CODE <T13320000500,18>)
+  (IP-MAT (CONJ &)
+	  (PP (P +after)
+	      (NP-DAT (NP-GEN (PRO^G heora) (NUM^G twegra))
+		      (N^D d+age)))
+	  (VBPS fo)
+	  (NP-NOM (NP-NOM (D^N se)
+			  (N^N arcebisceop)
+			  (NP-NOM-PRN (NR^N Eadsige)))
+		  (CONJP *ICH*-3))
+	  (PP (ADV+P +t+arto))
+	  (CP-ADV (P gyf)
+		  (C 0)
+		  (IP-SUB-0 (NP-NOM (PRO^N he))
+			    (ADVP-TMP (ADVR^T leng)
+				      (PP *ICH*-1))
+			    (VBPS libbe)
+			    (PP-1 (P +t+anne)
+				  (CP-CMP (WADVP-TMP-2 0)
+					  (C 0)
+					  (IPX-SUB=0 (ADVP-TMP *T*-2)
+						     (NP-NOM (PRO^N hi)))))))
+	  (CONJP-3 (CONJ o+d+de)
+		   (CP-FRL (WNP-NOM-4 (ADV loc) (WPRO^N hwa))
+			   (C 0)
+			   (IP-SUB (NP-NOM-PRD *T*-4)
+				   (NP-NOM (PRO$ his) (N^N +aftergencga))
+				   (ADVP-TMP (ADV^T +t+anne))
+				   (BEPS beo)
+				   (CP-ADV (P butan)
+					   (C 0)
+					   (IP-SUB (NP-NOM (Q^N sum)
+							   (NP-GEN (PRO$ heora) (N^G freonda)))
+						   (NP-ACC (D^A +ta) (N^A land))
+						   (ADVP (ADVR fur+tor))
+						   (PP (P on)
+						       (NP (NP-GEN (D^G +t+as) (N^G arcebisceopes))
+							   (N gemede)))
+						   (RP+VB ofgan)
+						   (MDPS mage)
+						   (PP (PP (P to)
+							   (NP-DAT (ADJ^D rihtan) (N^D gafole)))
+						       (CONJP (CONJ o+d+de)
+							      (PP (P to)
+								  (NP (ADJ o+tran) (N forewyrdan)))))
+						   (PP (P swa)
+						       (CP-CMP (WADVP-5 0)
+							       (C 0)
+							       (IP-SUB (ADVP *T*-5)
+								       (NP-ACC (PRO^A hit))
+								       (NP-NOM (MAN^N man))
+								       (ADVP-TMP (ADV^T +t+anne))
+								       (VB findan)
+								       (MDPS mage)
+								       (PP (P wi+d)
+									   (NP-ACC (D^A +tone)
+										   (N^A arcebisceop)
+										   (CP-REL (WNP-NOM-6 0)
+											   (C +te)
+											   (IP-SUB (NP-NOM *T*-6)
+												   (ADVP-TMP (ADV^T +tanne))
+												   (VBPS libbe)))))))))))))
+	  (. .))
+  (ID codocu3,Ch_1471_[Rob_101]:18.204))
+
+/~*
+& +tises is to gewitnesse, Eadweard cyncg & +Alfgyfu seo hl+afdige & +Alfwine
+biscop & Stigand biscop & Godwine biscop & Godric decanus & eal se hired +at
+Cristes cyricean & Wulfric abbud & eal se hired +at Sancte Augustine &
++Alfwine abbud & Siweard abbud & Wulfno+d abbot & Godwine eorl & Leofric eorl
+& Atsur roda & +Alfstan steall+are & Eadm+ar +at Burhham & Godric +at Burnan &
++Alfwine se reada & m+anig man +t+artoeacan ge gehadude ge l+awede binnan
+burgan & butan.
+(codocu3,Ch_1471_[Rob_101]:24.205)
+*~/
+/*
+215 ADV+P:  215 ADV+P, 216 +t+artoeacan
+*/
+
+( (CODE <T13320000600,24>)
+  (IP-MAT (CONJ &)
+	  (NP-GEN-1 (D^G +tises))
+	  (BEPI is)
+	  (PP (P to)
+	      (NP (NP-GEN *ICH*-1)
+		  (N gewitnesse)))
+	  (, ,)
+	  (NP-NOM (NP-NOM (NR^N Eadweard) (N^N cyncg))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Alfgyfu)
+				 (NP-NOM-PRN (D^N seo) (N^N hl+afdige))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Alfwine) (N^N biscop)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Stigand) (N^N biscop)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godwine) (N^N biscop)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godric) (N^N decanus)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N eal)
+				 (D^N se)
+				 (N^N hired)
+				 (PP (P +at)
+				     (NP (NP-GEN (NR^G Cristes))
+					 (N cyricean)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Wulfric) (N^N abbud)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N eal)
+				 (D^N se)
+				 (N^N hired)
+				 (PP (P +at)
+				     (NP (NR Sancte) (NR Augustine)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Alfwine) (N^N abbud)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Siweard) (N^N abbud)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Wulfno+d) (N^N abbot)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godwine) (N^N eorl)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Leofric) (N^N eorl)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Atsur) (ADJ^N roda)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Alfstan) (N^N steall+are)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Eadm+ar)
+				 (PP (P +at)
+				     (NP (NR Burhham)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godric)
+				 (PP (P +at)
+				     (NP (NR Burnan)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Alfwine)
+				 (NP-NOM-PRN (D^N se) (ADJ^N reada))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N m+anig)
+				 (N^N man)
+				 (PP (ADV+P +t+artoeacan))
+				 (NP-NOM-PRN (CONJ ge)
+					     (NP-NOM (VBN^N gehadude))
+					     (CONJP (CONJ ge)
+						    (NP-NOM (ADJ^N l+awede))))
+				 (PP (PP (P binnan)
+					 (NP-DAT (N^D burgan)))
+				     (CONJP (CONJ &)
+					    (PP (P butan)
+						(NP *)))))))
+	  (. .))
+  (ID codocu3,Ch_1471_[Rob_101]:24.205))
+
+/~*
++Tises is to gewitnesse, Eadsige arcebiscop & Siward biscop & Godric decanus &
+eall se hired +at Cristes cyricean & Wulfric abbod & se hired +at Sancte
+Augustine & +Agelric bygga & +Turgar +Alfgares sunu & Eadric +Alfrices sunu &
+Osweard +at Hergeardesham & Leofwine preost & Godric portgerefa & Wulfsige
++t+as cynges gerefa & manig god mann +tarto.
+(codocu3,Ch_1473_[Rob_103]:5.215)
+*~/
+/*
+169 ADV+P:  169 ADV+P, 170 +tarto
+*/
+
+( (CODE <T13340000400,5>)
+  (IP-MAT (NP-GEN-1 (D^G +Tises))
+	  (BEPI is)
+	  (PP (P to)
+	      (NP (NP-GEN *ICH*-1)
+		  (N gewitnesse)))
+	  (, ,)
+	  (NP-NOM (NP-NOM (NR^N Eadsige) (N^N arcebiscop))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Siward) (N^N biscop)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godric) (N^N decanus)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N eall)
+				 (D^N se)
+				 (N^N hired)
+				 (PP (P +at)
+				     (NP (NP-GEN (NR^G Cristes))
+					 (N cyricean)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Wulfric) (N^N abbod)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (D^N se)
+				 (N^N hired)
+				 (PP (P +at)
+				     (NP (NR Sancte) (NR Augustine)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Agelric) (N^N bygga)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N +Turgar)
+				 (NP-NOM-PRN (NP-GEN (NR^G +Alfgares))
+					     (N^N sunu))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Eadric)
+				 (NP-NOM-PRN (NP-GEN (NR^G +Alfrices))
+					     (N^N sunu))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Osweard)
+				 (PP (P +at)
+				     (NP (NR Hergeardesham)))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Leofwine) (N^N preost)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Godric) (N^N portgerefa)))
+		  (CONJP (CONJ &)
+			 (NP-NOM (NR^N Wulfsige)
+				 (NP-NOM-PRN (NP-GEN (D^G +t+as) (N^G cynges))
+					     (N^N gerefa))))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N manig)
+				 (ADJ^N god)
+				 (N^N mann)
+				 (PP (ADV+P +tarto)))))
+	  (. .))
+  (ID codocu3,Ch_1473_[Rob_103]:5.215))
+
+/~*
+& ic gean +t+as landes +at Brycandune into Sancte Petre to Westmenstre buton
+ic wylle +t+at man m+aste minum wiue twa hund swyna +t+anne +t+ar m+asten sy
++tider hire leouest sy.
+(codocu3,Ch_1487_[Whitelock_13]:7.223)
+*~/
+/*
+86 ADV^D:  86 ADV^D, 87 +tider
+91 ADVP-DIR:  91 ADVP-DIR, 92 *T*-1
+*/
+
+( (CODE <T13470000400,7>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N ic))
+	  (VBPI gean)
+	  (NP-GEN (D^G +t+as)
+		  (N^G landes)
+		  (PP (P +at)
+		      (NP (NR Brycandune))))
+	  (PP (P into)
+	      (NP-DAT (NR Sancte)
+		      (NR^D Petre)
+		      (PP (P to)
+			  (NP-DAT (NR^D Westmenstre)))))
+	  (CP-ADV (P buton)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N ic))
+			  (MDP wylle)
+			  (CP-THT (C +t+at)
+				  (IP-SUB (NP-NOM (MAN^N man))
+					  (VBPS m+aste)
+					  (NP-DAT-ADT (PRO$^D minum) (N^D wiue))
+					  (NP (NUMP (NUM twa) (NUM hund))
+					      (NP-GEN (N^G swyna)))
+					  (CP-ADV (P +t+anne)
+						  (C 0)
+						  (IP-SUB (ADVP-LOC (ADV^L +t+ar))
+							  (NP-NOM (N^N m+asten))
+							  (BEPS sy)))
+					  (CP-FRL-DIR (WADVP-DIR-1 (ADV^D +tider))
+						      (C 0)
+						      (IP-SUB (ADVP-DIR *T*-1)
+							      (NP-NOM *exp*)
+							      (NP-DAT (PRO^D hire))
+							      (ADJP-NOM-PRD (ADJS^N leouest))
+							      (BEPS sy)))))))
+	  (. .))
+  (ID codocu3,Ch_1487_[Whitelock_13]:7.223))
+
+/~*
+& +after his d+age ga hyt for uncra begra sawle +tider him leouest sy.
+(codocu3,Ch_1487_[Whitelock_13]:9.225)
+*~/
+/*
+30 ADV^D:  30 ADV^D, 31 +tider
+35 ADVP-DIR:  35 ADVP-DIR, 36 *T*-1
+*/
+
+( (IP-MAT (CONJ &)
+	  (PP (P +after)
+	      (NP-DAT (PRO$ his) (N^D d+age)))
+	  (VBPS ga)
+	  (NP-NOM (PRO^N hyt))
+	  (PP (P for)
+	      (NP (NP-GEN (PRO^G uncra) (Q^G begra))
+		  (N sawle)))
+	  (CP-FRL-DIR (WADVP-DIR-1 (ADV^D +tider))
+		      (C 0)
+		      (IP-SUB (ADVP-DIR *T*-1)
+			      (NP-NOM *exp*)
+			      (NP-DAT (PRO^D him))
+			      (ADJP-NOM-PRD (ADJS^N leouest))
+			      (BEPS sy)))
+	  (. .))
+  (ID codocu3,Ch_1487_[Whitelock_13]:9.225))
+
+/~*
+& ic gef hire +ta wyt +arest tog+adere comon +ta twa hyda +at Wilburgeham &
++at Hr+agenan & +t+at +t+arto li+d.
+(codocu3,Ch_1487_[Whitelock_13]:14.227)
+*~/
+/*
+68 ADV+P:  68 ADV+P, 69 +t+arto
+*/
+
+( (CODE <T13470000700,14>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N ic))
+	  (VBDI gef)
+	  (NP-DAT (PRO^D hire))
+	  (CP-ADV (P +ta)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N wyt))
+			  (ADVP-TMP (ADVS^T +arest))
+			  (ADVP (ADV tog+adere))
+			  (VBDI comon)))
+	  (NP-ACC (NP-ACC (D^A +ta)
+			  (NUM^A twa)
+			  (N^A hyda)
+			  (PP (PP (P +at)
+				  (NP (NR Wilburgeham)))
+			      (CONJP (CONJ &)
+				     (PP (P +at)
+					 (NP (NR Hr+agenan))))))
+		  (CONJP (CONJ &)
+			 (CP-FRL (WNP-NOM-1 (D^N +t+at))
+				 (C 0)
+				 (IP-SUB (NP-NOM *T*-1)
+					 (PP (ADV+P +t+arto))
+					 (VBPI li+d)))))
+	  (. .))
+  (ID codocu3,Ch_1487_[Whitelock_13]:14.227))
+
+/~*
+& ic gean hire +t+as heauodbotles +at Gyrstlinga+torpe & ealra +tara +ahta +te
++t+aron standa+d mid mete & mid mannum buton ic gean Godrice & minre dehter
+healues +t+as landes be wuda & be felda buton +tam +te ic minum preoste gean.
+(codocu3,Ch_1487_[Whitelock_13]:16.229)
+*~/
+/*
+43 ADV+P:  43 ADV+P, 44 +t+aron
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N ic))
+	  (VBPI gean)
+	  (NP-DAT (PRO^D hire))
+	  (NP-GEN (NP-GEN (D^G +t+as)
+			  (N^G heauodbotles)
+			  (PP (P +at)
+			      (NP-DAT (NR^D Gyrstlinga+torpe))))
+		  (CONJP (CONJ &)
+			 (NP-GEN (Q^G ealra)
+				 (D^G +tara)
+				 (N^G +ahta)
+				 (CP-REL (WNP-NOM-1 0)
+					 (C +te)
+					 (IP-SUB (NP-NOM *T*-1)
+						 (PP (ADV+P +t+aron))
+						 (VBPI standa+d)))
+				 (PP (PP (P mid)
+					 (NP (N mete)))
+				     (CONJP (CONJ &)
+					    (PP (P mid)
+						(NP-DAT (N^D mannum))))))))
+	  (CP-ADV (P buton)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N ic))
+			  (VBPI gean)
+			  (NP-DAT (NP-DAT (NR^D Godrice))
+				  (CONJP (CONJ &)
+					 (NP-DAT (PRO$^D minre) (N^D dehter))))
+			  (NP-GEN (NUM^G healues) (D^G +t+as) (N^G landes))
+			  (PP (PP (P be)
+				  (NP (N wuda)))
+			      (CONJP (CONJ &)
+				     (PP (P be)
+					 (NP (N felda)))))
+			  (PP (P buton)
+			      (NP-DAT (D^D +tam)
+				      (CP-REL (WNP-2 0)
+					      (C +te)
+					      (IP-SUB (NP *T*-2)
+						      (NP-NOM (PRO^N ic))
+						      (NP-DAT (PRO$^D minum) (N^D preoste))
+						      (VBPI gean)))))))
+	  (. .))
+  (ID codocu3,Ch_1487_[Whitelock_13]:16.229))
+
+/~*
+& God & ealle his halgan gehealde +acne +tara +te +t+arto gefyr+tryge +t+at he
+standan mote.
+(codocu3,Ch_1487_[Whitelock_13]:48.248)
+*~/
+/*
+37 ADV+P:  37 ADV+P, 38 +t+arto
+*/
+
+( (CODE <T13470002300,48>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (NP-NOM (NR^N God))
+		  (CONJP (CONJ &)
+			 (NP-NOM (Q^N ealle) (PRO$ his) (N^N halgan))))
+	  (VBPS gehealde)
+	  (NP-ACC (Q^A +acne)
+		  (NP-GEN (D^G +tara))
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (PP (ADV+P +t+arto))
+				  (VBPS gefyr+tryge)
+				  (CP-THT (C +t+at)
+					  (IP-SUB (NP-NOM (PRO^N he))
+						  (VB standan)
+						  (MDPS mote))))))
+	  (. .))
+  (ID codocu3,Ch_1487_[Whitelock_13]:48.248))
+
+/~*
+& +t+a, leof, +aadmodlice bidde for Godes luuan & for mines hlaford+as sawle
+lufan & for minr+a swystor sawl+a lufan +t+at +tu amundie +ta halgan stow+a et
+Stoc+a +t+a mine yldran on resta+t & +ta are +t+a hi +tiderin s+aadon a to
+freogon God+as rihte,
+(codocu3,Ch_1486_[Whitelock_15]:7.284)
+*~/
+/*
+128 ADV+P:  128 ADV+P, 129 +tiderin
+*/
+
+( (CODE <T13460000300,7>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (NP (PRO +t+a))
+	  (, ,)
+	  (NP-NOM-VOC (ADJ^N leof))
+	  (, ,)
+	  (ADVP (ADV +aadmodlice))
+	  (VBP bidde)
+	  (PP (PP (P for)
+		  (NP (NP-GEN (NR^G Godes))
+		      (N luuan)))
+	      (CONJP (CONJ &)
+		     (PP (P for)
+			 (NP (NP-GEN (NP-GEN (PRO$^G mines) (N^G hlaford+as))
+				     (N^G sawle))
+			     (N lufan))))
+	      (CONJP (CONJ &)
+		     (PP (P for)
+			 (NP (NP-GEN (NP-GEN (PRO$^G minr+a) (N^G swystor))
+				     (N^G sawl+a))
+			     (N lufan)))))
+	  (CP-THT (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N +tu))
+			  (VBPS amundie)
+			  (NP-ACC (NP-ACC (D^A +ta)
+					  (ADJ^A halgan)
+					  (N^A stow+a)
+					  (PP (P et)
+					      (NP (NR Stoc+a)))
+					  (CP-REL (WNP-1 0)
+						  (C +t+a)
+						  (IP-SUB (NP-NOM (PRO$^N mine) (N^N yldran))
+							  (PP (NP *T*-1)
+							      (P on))
+							  (VBPI resta+t))))
+				  (CONJP (CONJ &)
+					 (NP-ACC (D^A +ta)
+						 (N^A are)
+						 (CP-REL (WNP-2 0)
+							 (C +t+a)
+							 (IP-SUB (NP *T*-2)
+								 (NP-NOM (PRO^N hi))
+								 (PP (ADV+P +tiderin))
+								 (VBDI s+aadon)
+								 (ADVP-TMP (ADV^T a))
+								 (PP (P to)
+								     (NP-DAT (ADJ^D freogon)
+									     (NP-GEN (NR^G God+as))
+									     (N^D rihte))))))))))
+	  (. ,))
+  (ID codocu3,Ch_1486_[Whitelock_15]:7.284))
+
+/~*
++Tonne synd +tis +ta land +t+a min+a yldran +t+arto b+acw+adon of+ar minre
+swystor d+ag & of+ar minne, +t+at is +donne Stredford+a & Fresantun &
+Wiswy+tetun & Lauanham & Byliesdyne & Polstyde & Wif+armyrsc & Gr+anstyd+a &
+Peltandune & Myr+aseg+a & +t+at wud+aland +at Totham +t+a min f+ader geu+t+a
+into Myresi+a & Colne & Tigan.
+(codocu3,Ch_1486_[Whitelock_15]:14.286)
+*~/
+/*
+33 ADV+P:  33 ADV+P, 34 +t+arto
+*/
+
+( (CODE <T13460000400,14>)
+  (IP-MAT (ADVP-TMP (ADV^T +Tonne))
+	  (BEPI synd)
+	  (NP-NOM (D^N +tis)
+		  (IP-MAT-PRN *ICH*-2))
+	  (NP-NOM-PRD (D^N +ta)
+		      (N^N land)
+		      (CP-REL (WNP-1 0)
+			      (C +t+a)
+			      (IP-SUB (NP *T*-1)
+				      (NP-NOM (PRO$^N min+a) (N^N yldran))
+				      (PP (ADV+P +t+arto))
+				      (VBDI b+acw+adon)
+				      (PP (PP (P of+ar)
+					      (NP-ACC (NP-GEN (PRO$^G minre) (N^G swystor))
+						      (N^A d+ag)))
+					  (CONJP (CONJ &)
+						 (PP (P of+ar)
+						     (NP-ACC (PRO$^A minne))))))))
+	  (, ,)
+	  (IP-MAT-PRN-2 (NP-NOM (D^N +t+at))
+			(BEPI is)
+			(ADVP-TMP (ADV^T +donne))
+			(XP (NP-NOM (NP-NOM (NR^N Stredford+a))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Fresantun)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Wiswy+tetun)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Lauanham)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Byliesdyne)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Polstyde)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Wif+armyrsc)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Gr+anstyd+a)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Peltandune)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NR^N Myr+aseg+a)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (D^N +t+at)
+						   (N^N wud+aland)
+						   (PP (P +at)
+						       (NP (NR Totham)))
+						   (CP-REL (WNP-3 0)
+							   (C +t+a)
+							   (IP-SUB (NP *T*-3)
+								   (NP-NOM (PRO$^N min) (N^N f+ader))
+								   (VBD geu+t+a)
+								   (PP (P into)
+								       (NP (NR Myresi+a) (CONJ &) (NR Colne) (CONJ &) (NR^N Tigan))))))))))
+	  (. .))
+  (ID codocu3,Ch_1486_[Whitelock_15]:14.286))
+
+/~*
++T+at is +arest sona minum hlaforde syxti mancusa goldes & mines swyrdes mid
+fetele & +tarto twa hors & twa targan & twegen francan.
+(codocu3,Ch_1501_[Whitelock_16.1]:2.324)
+*~/
+/*
+49 ADV+P:  49 ADV+P, 50 +tarto
+*/
+
+( (CODE <T13600000200,2>)
+  (IP-MAT (NP-NOM (D^N +T+at))
+	  (BEPI is)
+	  (ADVP-TMP (ADVS^T +arest))
+	  (ADVP-TMP (ADV^T sona))
+	  (NP-DAT (PRO$^D minum) (N^D hlaforde))
+	  (NP-PRD (NP (NUM syxti)
+		      (NP-GEN (N^G mancusa)
+			      (NP-GEN (N^G goldes))))
+		  (CONJP (CONJ &)
+			 (NP-GEN (PRO$^G mines)
+				 (N^G swyrdes)
+				 (PP (P mid)
+				     (NP-DAT (N^D fetele)))))
+		  (CONJP (CONJ &)
+			 (NP-ACC (PP (ADV+P +tarto))
+				 (NUM^A twa)
+				 (N^A hors)))
+		  (CONJP (CONJ &)
+			 (NP-ACC (NUM^A twa) (N^A targan)))
+		  (CONJP (CONJ &)
+			 (NP-ACC (NUM^A twegen) (N^A francan))))
+	  (. .))
+  (ID codocu3,Ch_1501_[Whitelock_16.1]:2.324))
+
+/~*
+& ic geann +tarto twegra hida +te Eadric gafela+t +alce geare mid healfum
+punde & mid anre garan.
+(codocu3,Ch_1501_[Whitelock_16.1]:11.328)
+*~/
+/*
+12 ADV+P:  12 ADV+P, 13 +tarto
+*/
+
+( (CODE <T13600000500,11>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N ic))
+	  (VBPI geann)
+	  (PP (ADV+P +tarto))
+	  (NP-GEN (NUM^G twegra)
+		  (N^G hida)
+		  (CP-REL (WNP-1 0)
+			  (C +te)
+			  (IP-SUB (NP *T*-1)
+				  (NP-NOM (NR^N Eadric))
+				  (VBPI gafela+t)
+				  (NP-DAT-TMP (Q^I +alce) (N^D geare))
+				  (PP (PP (P mid)
+					  (NP-DAT (NUM^D healfum) (N^D punde)))
+				      (CONJP (CONJ &)
+					     (PP (P mid)
+						 (NP-DAT (NUM^D anre) (N^D garan))))))))
+	  (. .))
+  (ID codocu3,Ch_1501_[Whitelock_16.1]:11.328))
+
+/~*
+& ic geann into Cristes cyrican on Cantwarabyrig +t+as landes +at
+Holungaburnan & +t+as +te +t+arto hyr+d buton +t+are anre sulunge +te ic
+Sifer+de geunnen h+abbe & +t+as landes +at Garwaldintune.
+(codocu3,Ch_1503_[Whitelock_20]:20.360)
+*~/
+/*
+53 ADV+P:  53 ADV+P, 54 +t+arto
+*/
+
+( (CODE <T13610000900,20>)
+  (IP-MAT (CONJ &)
+	  (NP-NOM (PRO^N ic))
+	  (VBPI geann)
+	  (PP (P into)
+	      (NP (NP-GEN (NR^G Cristes))
+		  (N cyrican)))
+	  (PP (P on)
+	      (NP-DAT (NR^D Cantwarabyrig)))
+	  (NP-GEN (NP-GEN (D^G +t+as)
+			  (N^G landes)
+			  (PP (P +at)
+			      (NP (NR Holungaburnan))))
+		  (CONJP (CONJ &)
+			 (NP-GEN (D^G +t+as)
+				 (CP-REL (WNP-NOM-1 0)
+					 (C +te)
+					 (IP-SUB (NP-NOM *T*-1)
+						 (PP (ADV+P +t+arto))
+						 (VBPI hyr+d)))
+				 (PP (P buton)
+				     (NP-DAT (D^D +t+are)
+					     (NUM^D anre)
+					     (N^D sulunge)
+					     (CP-REL (WNP-2 0)
+						     (C +te)
+						     (IP-SUB (NP *T*-2)
+							     (NP-NOM (PRO^N ic))
+							     (NP-DAT (NR^D Sifer+de))
+							     (VBN geunnen)
+							     (HVP h+abbe)))))))
+		  (CONJP (CONJ &)
+			 (NP-GEN (D^G +t+as)
+				 (N^G landes)
+				 (PP (P +at)
+				     (NP-DAT (NR^D Garwaldintune))))))
+	  (. .))
+  (ID codocu3,Ch_1503_[Whitelock_20]:20.360))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd	26/24/401
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd	0/0/23
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd
+*/
+
+/~*
+and se +te to circan wur+de gehadod, nage hine +anig man, +te Godes lage recce,
++tanan to donne, buton he hi mid heafodgilte fullice forwyrce.
+(coinspolD,WPol_2.1.2_[Jost]:105.148)
+*~/
+/*
+61 ADV^D:  61 ADV^D, 62 +tanan
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM-LFD (D^N se)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +te)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (PP (P to)
+					  (NP (N circan)))
+				      (BEPS wur+de)
+				      (VBN gehadod))))
+	  (, ,)
+	  (NEG+MDPS nage)
+	  (NP-ACC-RSP-3 (PRO^A hine))
+	  (NP-NOM (Q^N +anig)
+		  (N^N man)
+		  (, ,)
+		  (CP-REL (WNP-NOM-2 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-2)
+				  (NP (NP-GEN (NR^G Godes))
+				      (N lage))
+				  (VBPS recce))))
+	  (, ,)
+	  (IP-INF (NP-ACC-RSP *ICH*-3)
+		  (ADVP-DIR (ADV^D +tanan))
+		  (TO to)
+		  (VB^D donne))
+	  (, ,)
+	  (CP-ADV (P buton)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (NP-ACC (PRO^A hi))
+			  (PP (P mid)
+			      (NP-DAT (N^D heafodgilte)))
+			  (ADVP (ADV fullice))
+			  (VBPS forwyrce)))
+	  (. .))
+  (ID coinspolD,WPol_2.1.2_[Jost]:105.148))
+
+/~*
++T+at is +tonne +arest, +t+at +t+at man behate+d, +tonne man fulluhtes girne+d,
++t+at man aa wille deofol ascunian and his unlara georne forbugan and ealle
+his unlaga symle awurpan and ecelice wi+dsacan ealles his gemanan; And
+manysi+tes sona +tar+after mid rihtan geleafan so+dlice swutela+d, +t+at man
++tanonfor+d aa wile on ende God +afre lufian and ofer ealle o+dre +dingc hine
+a lufian and +afre his larum geornlice filigan and his agene beboda rihtlice
+healdan.
+(coinspolD,WPol_2.1.2_[Jost]:121.164)
+*~/
+/*
+133 ADV+P:  133 ADV+P, 134 +tar+after
+*/
+
+( (CODE <T09130012100,121>)
+  (IP-MAT (NP-NOM (D^N +T+at)
+		  (NP-NOM-PRN *ICH*-2))
+	  (BEPI is)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (ADVP-TMP (ADVS^T +arest))
+	  (, ,)
+	  (NP-NOM-PRN-2 (D^N +t+at)
+			(CP-REL (WNP-ACC-1 (D^A +t+at))
+				(C 0)
+				(IP-SUB (NP-ACC *T*-1)
+					(NP-NOM (MAN^N man))
+					(VBPI behate+d)
+					(, ,)
+					(CP-ADV (P +tonne)
+						(C 0)
+						(IP-SUB (NP-NOM (MAN^N man))
+							(NP-GEN (N^G fulluhtes))
+							(VBPI girne+d))))))
+	  (, ,)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (IP-SUB-0 (NP-NOM (MAN^N man))
+				    (ADVP-TMP (ADV^T aa))
+				    (MDP wille)
+				    (NP-ACC (N^A deofol))
+				    (VB ascunian))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (NP-ACC (PRO$ his) (N^A unlara))
+						(ADVP (ADV georne))
+						(VB forbugan)))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (NP-ACC (Q^A ealle) (PRO$ his) (N^A unlaga))
+						(ADVP-TMP (ADV^T symle))
+						(VB awurpan)))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (ADVP (ADV ecelice))
+						(RP+VB wi+dsacan)
+						(NP-GEN (Q^G ealles) (PRO$ his) (N^G gemanan))))
+			  (, ;)
+			  (CONJP (CONJ And)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-GEN-TMP (N^G manysi+tes))
+					     (PP (ADVP-TMP (ADV^T sona))
+						 (ADV+P +tar+after))
+					     (PP (P mid)
+						 (NP-DAT (ADJ^D rihtan) (N^D geleafan)))
+					     (ADVP (ADV so+dlice))
+					     (VBPI swutela+d)
+					     (, ,)
+					     (CP-THT (C +t+at)
+						     (IP-SUB (IP-SUB-00 (NP-NOM (MAN^N man))
+									(ADVP-TMP (ADV^T +tanonfor+d))
+									(ADVP-TMP (ADV^T aa))
+									(MDP wile)
+									(PP (P on)
+									    (NP (N ende)))
+									(NP-ACC (NR^A God))
+									(ADVP-TMP (ADV^T +afre))
+									(VB lufian))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (PP (P ofer)
+											(NP-ACC (Q^A ealle) (ADJ^A o+dre) (N^A +dingc)))
+										    (NP-ACC (PRO^A hine))
+										    (ADVP-TMP (ADV^T a))
+										    (VB lufian)))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (ADVP-TMP (ADV^T +afre))
+										    (NP-DAT (PRO$ his) (N^D larum))
+										    (ADVP (ADV geornlice))
+										    (VB filigan)))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (NP-ACC (PRO$ his) (ADJ^A agene) (N^A beboda))
+										    (ADVP (ADV rihtlice))
+										    (VB healdan)))))))))
+	  (. .))
+  (ID coinspolD,WPol_2.1.2_[Jost]:121.164))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd	2/2/169
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd
+*/
+
+/~*
+And +tanan him sceal swy+dost +afre arisan word and weor+dscipe +ag+der ge on
+life ge +after life, +t+at he Godes riht lufie and unriht ascunie and godcunde
+lare georne gehyre oft and gelome him sylfum to +tearfe.
+(coinspolX,WPol_2.1.1_[Jost]:20.28)
+*~/
+/*
+7 ADV^D:  7 ADV^D, 8 +tanan
+*/
+
+( (CODE <T09120002200,20>)
+  (IP-MAT (CONJ And)
+	  (ADVP-DIR (ADV^D +tanan))
+	  (NP-DAT-ADT (PRO^D him))
+	  (MDPI sceal)
+	  (ADVP (ADVS swy+dost))
+	  (ADVP-TMP (ADV^T +afre))
+	  (VB arisan)
+	  (NP-NOM (N^N word) (CONJ and) (N^N weor+dscipe))
+	  (PP (CONJ +ag+der)
+	      (CONJ ge)
+	      (PP (P on)
+		  (NP-DAT (N^D life)))
+	      (CONJP (CONJ ge)
+		     (PP (P +after)
+			 (NP-DAT (N^D life)))))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (IP-SUB (NP-NOM (PRO^N he))
+				  (NP-ACC (NP-GEN (NR^G Godes))
+					  (N^A riht))
+				  (VBPS lufie))
+			  (CONJP (CONJ and)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-ACC (N^A unriht))
+					     (VBPS ascunie)))
+			  (CONJP (CONJ and)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-ACC (ADJ^A godcunde) (N^A lare))
+					     (ADVP (ADV georne))
+					     (VBPS gehyre)
+					     (ADVP-TMP (ADV^T oft) (CONJ and) (ADV^T gelome))
+					     (NP-DAT-RFL-ADT (PRO^D him)
+							     (ADJP-DAT (ADJ^D sylfum)))
+					     (PP (P to)
+						 (NP (N +tearfe)))))))
+	  (. .))
+  (ID coinspolX,WPol_2.1.1_[Jost]:20.28))
+
+/~*
+And +teh Godes bydel misdo, ne beseo man na +t+arto,
+(coinspolX,WPol_2.1.1_[Jost]:53.76)
+*~/
+/*
+33 ADV+P:  33 ADV+P, 34 +t+arto
+*/
+
+( (CODE <T09120005800,53>)
+  (IP-MAT (CONJ And)
+	  (CP-ADV (P +teh)
+		  (C 0)
+		  (IP-SUB (NP-NOM (NP-GEN (NR^G Godes))
+				  (N^N bydel))
+			  (VBPS misdo)))
+	  (, ,)
+	  (NEG ne)
+	  (VBPS beseo)
+	  (NP-NOM (MAN^N man))
+	  (ADVP (NEG+ADV na))
+	  (PP (ADV+P +t+arto))
+	  (. ,))
+  (ID coinspolX,WPol_2.1.1_[Jost]:53.76))
+
+/~*
+Item. Bisceopes d+agweorc, +d+at bi+d mid rihte his gebedu +arest and +donne
+his bocweorc, r+ading o+d+don rihting, lar o+d+don leornung. And his cyrictida
+on rihtlicne timan a be +tam +tingum, +te +t+arto gebyrige. And +tearfena
+fot+tweal and his +almesgedal and weorcwisung, be +dam +te hit neod sy.
+(coinspolX,WPol_2.1.1_[Jost]:77.109)
+*~/
+/*
+111 ADV+P:  111 ADV+P, 112 +t+arto
+*/
+
+( (CODE <T09120007900,77>)
+  (IP-MAT (IP-MAT-0 (FW Item)
+		    (, .)
+		    (NP-NOM-LFD (NP-GEN (N^G Bisceopes))
+				(N^N d+agweorc))
+		    (, ,)
+		    (NP-NOM-RSP (D^N +d+at))
+		    (BEPI bi+d)
+		    (PP (P mid)
+			(NP-DAT (N^D rihte)))
+		    (NP-NOM-PRD (PRO$ his) (N^N gebedu))
+		    (ADVP-TMP (ADVS^T +arest)))
+	  (CONJP (CONJ and)
+		 (IPX-MAT=0 (ADVP-TMP (ADV^T +donne))
+			    (NP-NOM-PRD (PRO$ his)
+					(N^N bocweorc)
+					(, ,)
+					(NP-NOM-PRN (NP-NOM (N^N r+ading) (CONJ o+d+don) (N^N rihting))
+						    (, ,)
+						    (CONJP (NP-NOM (N^N lar) (CONJ o+d+don) (N^N leornung)))))))
+	  (, .)
+	  (CODE <T09120008000,78>)
+	  (CONJP (CONJ And)
+		 (IPX-MAT=0 (NP-NOM-PRD (PRO$ his)
+					(N^N cyrictida)
+					(PP (P on)
+					    (NP-ACC (ADJ^A rihtlicne) (N^A timan))))
+			    (ADVP-TMP (ADV^T a)
+				      (PP (P be)
+					  (NP-DAT (D^D +tam)
+						  (N^D +tingum)
+						  (, ,)
+						  (CP-REL (WNP-NOM-1 0)
+							  (C +te)
+							  (IP-SUB (NP-NOM *T*-1)
+								  (PP (ADV+P +t+arto))
+								  (VBPS gebyrige))))))))
+	  (, .)
+	  (CODE <T09120008100,79>)
+	  (CONJP (CONJ And)
+		 (IPX-MAT=0 (NP-NOM-PRD (NP-NOM (NP-GEN (N^G +tearfena))
+						(N^N fot+tweal))
+					(CONJP (CONJ and)
+					       (NP-NOM (PRO$ his)
+						       (N^N +almesgedal)
+						       (CONJP (CONJ and)
+							      (NX-NOM (N^N weorcwisung))))))
+			    (, ,)
+			    (CP-ADV (P be)
+				    (D^D +dam)
+				    (C +te)
+				    (IP-SUB (NP-NOM (PRO^N hit))
+					    (NP-NOM-PRD (N^N neod))
+					    (BEPS sy)))))
+	  (. .))
+  (ID coinspolX,WPol_2.1.1_[Jost]:77.109))
+
+/~*
+And folc ah eac mycele +tearfe, +t+at hi w+are beon +t+as cwydes +te
++t+ar+after gecweden is;
+(coinspolX,WPol_2.1.1_[Jost]:140.196)
+*~/
+/*
+49 ADV+P:  49 ADV+P, 50 +t+ar+after
+*/
+
+( (CODE <T09120014400,140>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM (N^N folc))
+	  (VBPI ah)
+	  (ADVP (ADV eac))
+	  (NP-ACC (Q^A mycele)
+		  (N^A +tearfe)
+		  (, ,)
+		  (CP-THT (C +t+at)
+			  (IP-SUB (NP-NOM (PRO^N hi))
+				  (ADJP-NOM-PRD (ADJ^N w+are)
+						(NP-GEN *ICH*-1))
+				  (BEPS beon)
+				  (NP-GEN-1 (D^G +t+as)
+					    (N^G cwydes)
+					    (CP-REL (WNP-NOM-2 0)
+						    (C +te)
+						    (IP-SUB (NP-NOM *T*-2)
+							    (PP (ADV+P +t+ar+after))
+							    (VBN gecweden)
+							    (BEPI is)))))))
+	  (. ;))
+  (ID coinspolX,WPol_2.1.1_[Jost]:140.196))
+
+/~*
+Ac +ta canones forbeoda+t +ta bletsunge +t+arto, +te to frumwifunge gesette
+syn.
+(coinspolX,WPol_2.1.1_[Jost]:191.274)
+*~/
+/*
+21 ADV+P:  21 ADV+P, 22 +t+arto
+*/
+
+( (CODE <T09120020100,191>)
+  (IP-MAT (CONJ Ac)
+	  (NP-NOM (D^N +ta) (N^N canones))
+	  (VBPI forbeoda+t)
+	  (NP-ACC (D^A +ta)
+		  (N^A bletsunge)
+		  (CP-REL *ICH*-1))
+	  (PP (ADV+P +t+arto))
+	  (, ,)
+	  (CP-REL-1 (WNP-NOM-2 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-2)
+			    (PP (P to)
+				(NP (N frumwifunge)))
+			    (VBN^N gesette)
+			    (BEPS syn)))
+	  (. .))
+  (ID coinspolX,WPol_2.1.1_[Jost]:191.274))
+
+/~*
+and se +de to cyrican weor+de gehadod, nage hine +anig man, +de Godes lage
+recce, +tanon to donne, butan he $hi mid heafodgylte fullice forwyrce.
+(coinspolX,WPol_2.1.1_[Jost]:210.302)
+*~/
+/*
+61 ADV^D:  61 ADV^D, 62 +tanon
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM-LFD (D^N se)
+		      (CP-REL (WNP-NOM-1 0)
+			      (C +de)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (PP (P to)
+					  (NP (N cyrican)))
+				      (BEPS weor+de)
+				      (VBN gehadod))))
+	  (, ,)
+	  (NEG+MDPS nage)
+	  (NP-ACC-RSP-3 (PRO^A hine))
+	  (NP-NOM (Q^N +anig)
+		  (N^N man)
+		  (, ,)
+		  (CP-REL (WNP-NOM-2 0)
+			  (C +de)
+			  (IP-SUB (NP-NOM *T*-2)
+				  (NP (NP-GEN (NR^G Godes))
+				      (N lage))
+				  (VBPS recce))))
+	  (, ,)
+	  (IP-INF (NP-ACC-RSP *ICH*-3)
+		  (ADVP-DIR (ADV^D +tanon))
+		  (TO to)
+		  (VB^D donne))
+	  (, ,)
+	  (CP-ADV (P butan)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (NP-ACC (PRO^A $hi))
+			  (PP (P mid)
+			      (NP-DAT (N^D heafodgylte)))
+			  (ADVP (ADV fullice))
+			  (VBPS forwyrce)))
+	  (. .))
+  (ID coinspolX,WPol_2.1.1_[Jost]:210.302))
+
+/~*
++D+at is +donne +arest, +t+at +t+at man behate+t, +tonne man fulluhtes gyrn+d,
++t+at man a wile deofol ascunian and his unlare georne forbugan and ealle his
+unlaga symble awyrpan and ecelice wi+dsacan $ealles his gemanan. And
+manisi+des sona +t+arafter mid rihtan geleafan so+dlice swytela+d, +t+at man
++tananfor+d aa wile on +anne God +afre gelyfan and ofer ealle o+dre +ting hine
+a lufian and +afre his larum geornlice fylgean and his agene beboda rihtlice
+healdan.
+(coinspolX,WPol_2.1.1_[Jost]:227.320)
+*~/
+/*
+135 ADV+P:  135 ADV+P, 136 +t+arafter
+*/
+
+( (CODE <T09120023900,227>)
+  (IP-MAT (NP-NOM (D^N +D+at)
+		  (NP-NOM-PRN *ICH*-1))
+	  (BEPI is)
+	  (ADVP-TMP (ADV^T +donne))
+	  (ADVP-TMP (ADVS^T +arest))
+	  (, ,)
+	  (NP-NOM-PRN-1 (D^N +t+at)
+			(CP-REL (WNP-ACC-2 (D^A +t+at))
+				(C 0)
+				(IP-SUB (NP-ACC *T*-2)
+					(NP-NOM (MAN^N man))
+					(VBPI behate+t)
+					(, ,)
+					(CP-ADV (P +tonne)
+						(C 0)
+						(IP-SUB (NP-NOM (MAN^N man))
+							(NP-GEN (N^G fulluhtes))
+							(VBPI gyrn+d))))))
+	  (, ,)
+	  (CP-THT (C +t+at)
+		  (IP-SUB (IP-SUB-0 (NP-NOM (MAN^N man))
+				    (ADVP-TMP (ADV^T a))
+				    (MDP wile)
+				    (NP-ACC (N^A deofol))
+				    (VB ascunian))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (NP (PRO$ his) (N unlare))
+						(ADVP (ADV georne))
+						(VB forbugan)))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (NP-ACC (Q^A ealle) (PRO$ his) (N^A unlaga))
+						(ADVP-TMP (ADV^T symble))
+						(VB awyrpan)))
+			  (CONJP (CONJ and)
+				 (IPX-SUB-CON=0 (ADVP (ADV ecelice))
+						(RP+VB wi+dsacan)
+						(NP-GEN (Q^G $ealles) (PRO$ his) (N^G gemanan))))
+			  (, .)
+			  (CODE <T09120024000,228>)
+			  (CONJP (CONJ And)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-GEN-TMP (N^G manisi+des))
+					     (PP (ADVP-TMP (ADV^T sona))
+						 (ADV+P +t+arafter))
+					     (PP (P mid)
+						 (NP-DAT (ADJ^D rihtan) (N^D geleafan)))
+					     (ADVP (ADV so+dlice))
+					     (VBPI swytela+d)
+					     (, ,)
+					     (CP-THT (C +t+at)
+						     (IP-SUB (IP-SUB-00 (NP-NOM (MAN^N man))
+									(ADVP-TMP (ADV^T +tananfor+d))
+									(ADVP-TMP (ADV^T aa))
+									(MDP wile)
+									(PP (P on)
+									    (NP-ACC (NUM^A +anne) (NR^A God)))
+									(ADVP-TMP (ADV^T +afre))
+									(VB gelyfan))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (PP (P ofer)
+											(NP-ACC (Q^A ealle) (ADJ^A o+dre) (N^A +ting)))
+										    (NP-ACC (PRO^A hine))
+										    (ADVP-TMP (ADV^T a))
+										    (VB lufian)))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (ADVP-TMP (ADV^T +afre))
+										    (NP-DAT (PRO$ his) (N^D larum))
+										    (ADVP (ADV geornlice))
+										    (VB fylgean)))
+							     (CONJP (CONJ and)
+								    (IPX-SUB-CON=00 (NP-ACC (PRO$ his) (ADJ^A agene) (N^A beboda))
+										    (ADVP (ADV rihtlice))
+										    (VB healdan)))))))))
+	  (. .))
+  (ID coinspolX,WPol_2.1.1_[Jost]:227.320))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd	7/7/327
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd
+*/
+
+/~*
+& ehte his +alc +t+ara +te Godes freond sig, butan +t+at geweor+de, +t+at he
++tanon +atberste & swa deope fri+dsocne gesece, +t+at se cyningc him +turh
++d+at feores geunne, wi+t fulre bote ge wi+d God ge wi+d menn.
+(colaw1cn,LawICn:2.3.10)
+*~/
+/*
+57 ADV^D:  57 ADV^D, 58 +tanon
+*/
+
+( (IP-MAT (CONJ &)
+	  (VBPS ehte)
+	  (NP-GEN (PRO^G his))
+	  (NP-NOM (Q^N +alc)
+		  (NP-GEN (D^G +t+ara))
+		  (CP-REL (WNP-NOM-1 0)
+			  (C +te)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (NP-NOM-PRD (NP-GEN (NR^G Godes))
+					      (N^N freond))
+				  (BEPS sig))))
+	  (, ,)
+	  (CP-ADV (P butan)
+		  (C 0)
+		  (IP-SUB (NP-NOM (D^N +t+at)
+				  (CP-THT-PRN *ICH*-2))
+			  (BEPS geweor+de)
+			  (, ,)
+			  (CP-THT-PRN-2 (C +t+at)
+					(IP-SUB (IP-SUB (NP-NOM (PRO^N he))
+							(ADVP-DIR (ADV^D +tanon))
+							(VBPS +atberste))
+						(CONJP (CONJ &)
+						       (IP-SUB-CON (NP-NOM *con*)
+								   (NP-ACC (ADJP-ACC (ADV swa)
+										     (ADJ^A deope)
+										     (CP-DEG *ICH*-3))
+									   (N^A fri+dsocne))
+								   (VBPS gesece)
+								   (, ,)
+								   (CP-DEG-3 (C +t+at)
+									     (IP-SUB (NP-NOM (D^N se) (N^N cyningc))
+										     (NP-DAT (PRO^D him))
+										     (PP (P +turh)
+											 (NP-ACC (D^A +d+at)))
+										     (NP-GEN (N^G feores))
+										     (VBPS geunne)
+										     (, ,)
+										     (PP (P wi+t)
+											 (NP-DAT (ADJ^D fulre) (N^D bote)))
+										     (PP (CONJ ge)
+											 (PP (P wi+d)
+											     (NP-ACC (NR^A God)))
+											 (CONJP (CONJ ge)
+												(PP (P wi+d)
+												    (NP-ACC (N^A menn)))))))))))))
+	  (. .))
+  (ID colaw1cn,LawICn:2.3.10))
+
+/~*
+& +ta $mynstercl+ansunge begyte, swa +t+arto gebyrige,
+(colaw1cn,LawICn:2.5.13)
+*~/
+/*
+21 ADV+P:  21 ADV+P, 22 +t+arto
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (NP-ACC (D^A +ta) (N^A $mynstercl+ansunge))
+	  (VBPS begyte)
+	  (, ,)
+	  (PP (P swa)
+	      (CPX-CMP (IPX-SUB (PP (ADV+P +t+arto))
+				(VBPS gebyrige))))
+	  (. ,))
+  (ID colaw1cn,LawICn:2.5.13))
+
+/~*
+& +t+ar+at gefare, swa swa God r+ade.
+(colaw1cn,LawICn:5.2c.44)
+*~/
+/*
+7 ADV+P:  7 ADV+P, 8 +t+ar+at
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (PP (ADV+P +t+ar+at))
+	  (VBPS gefare)
+	  (, ,)
+	  (PP (ADV swa)
+	      (P swa)
+	      (CPX-CMP (IPX-SUB (NP-NOM (NR^N God))
+				(VBPS r+ade))))
+	  (. .))
+  (ID colaw1cn,LawICn:5.2c.44))
+
+/~*
+& se +de ofer +t+ane d+ag hit healde, agyfe +tam bisceope +t+ane penig &
++t+arto XXX & +tam cingce CXX scyllinga.
+(colaw1cn,LawICn:9.74)
+*~/
+/*
+48 ADV+P:  48 ADV+P, 49 +t+arto
+*/
+
+( (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM (D^N se)
+			    (CP-REL (WNP-NOM-1 0)
+				    (C +de)
+				    (IP-SUB (NP-NOM *T*-1)
+					    (PP (P ofer)
+						(NP-ACC (D^A +t+ane) (N^A d+ag)))
+					    (NP-ACC (PRO^A hit))
+					    (VBPS healde))))
+		    (, ,)
+		    (VBPS agyfe)
+		    (NP-DAT (D^D +tam) (N^D bisceope))
+		    (NP-ACC (D^A +t+ane) (N^A penig)))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (PP (ADV+P +t+arto))
+			    (NP (NUM XXX))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-DAT (D^D +tam) (N^D cingce))
+			    (NP (NUM CXX)
+				(NP-GEN (N^G scyllinga)))))
+	  (. .))
+  (ID colaw1cn,LawICn:9.74))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd	4/4/146
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd
+*/
+
+/~*
+Gyf se +tonne berste, nime +tonne leafe +ag+ter ge heonon ge +tanan, +t+at he
+mote hentan +after his agenan.
+(colaw2cn,LawIICn:19.2.54)
+*~/
+/*
+35 ADV^D:  35 ADV^D, 36 heonon
+39 ADV^D:  39 ADV^D, 40 +tanan
+*/
+
+( (CODE <T09640004200,19.2>)
+  (IP-MAT (CP-ADV (P Gyf)
+		  (C 0)
+		  (IP-SUB (NP-NOM (D^N se))
+			  (ADVP-TMP (ADV^T +tonne))
+			  (VBPS berste)))
+	  (, ,)
+	  (NP-NOM *pro*)
+	  (VBPS nime)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (NP (N leafe))
+	  (ADVP-DIR (CONJ +ag+ter) (CONJ ge) (ADV^D heonon) (CONJ ge) (ADV^D +tanan))
+	  (, ,)
+	  (CP-ADV (C +t+at)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (MDPS mote)
+			  (VB hentan)
+			  (PP (P +after)
+			      (NP (PRO$ his) (ADJ agenan)))))
+	  (. .))
+  (ID colaw2cn,LawIICn:19.2.54))
+
+/~*
+& ne beo +anig man +aniges teames wyr+de, butan he getrywe witnesse h+abbe,
+hwanan him come +t+at him man +at befeh+t.
+(colaw2cn,LawIICn:23.71)
+*~/
+/*
+52 ADVP-DIR:  52 ADVP-DIR, 53 *T*-2
+*/
+
+( (CODE <T09640005200,23>)
+  (IP-MAT (CONJ &)
+	  (NEG ne)
+	  (BEPS beo)
+	  (NP-NOM (Q^N +anig) (N^N man))
+	  (ADJP-NOM-PRD (NP-GEN (Q^G +aniges) (N^G teames))
+			(ADJ^N wyr+de))
+	  (, ,)
+	  (CP-ADV (P butan)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N he))
+			  (NP-ACC (ADJ^A getrywe)
+				  (N^A witnesse)
+				  (CP-QUE *ICH*-1))
+			  (HVPS h+abbe)
+			  (, ,)
+			  (CP-QUE-1 (WADVP-DIR-2 (WADV^D hwanan))
+				    (C 0)
+				    (IP-SUB (ADVP-DIR *T*-2)
+					    (NP-DAT (PRO^D him))
+					    (VBDS come)
+					    (CP-FRL-SBJ (WNP-ACC-3 (D^A +t+at))
+							(C 0)
+							(IP-SUB (NP-ACC *T*-3)
+								(NP-DAT-4 (PRO^D him))
+								(NP-NOM (MAN^N man))
+								(PP (NP-DAT *ICH*-4)
+								    (P +at))
+								(VBPI befeh+t)))))))
+	  (. .))
+  (ID colaw2cn,LawIICn:23.71))
+
+/~*
+swa hwylc +tyssa swa man +tonne ger+ade, +da +te +d+arto r+adan sceolon: swa
+man m+ag styran & eac +t+are sawle beorgan.
+(colaw2cn,LawIICn:30.5.111)
+*~/
+/*
+39 ADV+P:  39 ADV+P, 40 +d+arto
+*/
+
+( (IP-MAT (IP-MAT-0 (CP-FRL-ADT (WNP-ACC-1 (ADV swa)
+					   (WADJ^A hwylc)
+					   (NP-GEN (D^G +tyssa)))
+				(C swa)
+				(IP-SUB (NP-ACC *T*-1)
+					(NP-NOM (MAN^N man)
+						(CP-REL *ICH*-2))
+					(ADVP-TMP (ADV^T +tonne))
+					(VBPS ger+ade)
+					(, ,)
+					(CP-REL-2 (WNP-NOM-3 (D^N +da))
+						  (C +te)
+						  (IP-SUB (NP-NOM *T*-3)
+							  (PP (ADV+P +d+arto))
+							  (VB r+adan)
+							  (MDPI sceolon)))))
+		    (, :)
+		    (ADVP (ADV swa))
+		    (NP-NOM (MAN^N man))
+		    (MDPI m+ag)
+		    (VB styran))
+	  (CONJP (CONJ &)
+		 (IPX-SUB-CON=0 (ADVP (ADV eac))
+				(NP (D +t+are) (N sawle))
+				(VB beorgan)))
+	  (. .))
+  (ID colaw2cn,LawIICn:30.5.111))
+
+/~*
+eorles swa +d+arto gebyrige, +t+at syndon viii hors, iiii gesadelode & iiii
+unsadelode, & iiii helmas & iiii byrnan & viii spera & eallswa fela scylda &
+iiii swurd & twa hund mances goldes. & sy+d+dan cingces +tegnas, +te him
+nyhste syndan: IIII hors, II gesadelode & II unsadelode, & II swurd & IIII
+spera & swa feala scylda & helm & byrnan & L mances goldes. & medemra +tegna:
+hors & his ger+ada & his w+apn o+d+de his healsfang on Wessexan; & on Myrcan
+ii pund & on Eastenglan ii pund. And cingces +tegnes heregeata inne mid Denum,
++te his socne h+abbe: iiii pund. & gif he to +tam cingce fur+dor cy+d+de
+h+abbe: II hors, I gesadelod & o+der unsadelod, & swurd & II spera & II
+scyldas & L mances goldes. & se +de l+asse mage si: ii pund.
+(colaw2cn,LawIICn:71a.249)
+*~/
+/*
+14 ADV+P:  14 ADV+P, 15 +d+arto
+*/
+
+( (CODE <T09640016800,71a>)
+  (IP-MAT (IP-MAT-0 (NP-GEN-ADT (N^G eorles))
+		    (PP (P swa)
+			(CPX-CMP (IPX-SUB (PP (ADV+P +d+arto))
+					  (VBPS gebyrige))))
+		    (, ,)
+		    (NP-NOM (D^N +t+at))
+		    (BEPI syndon)
+		    (NP-NOM-PRD (NP-NOM (NUM viii)
+					(N^N hors)
+					(, ,)
+					(NP-NOM-PRN (NP-NOM (NUM iiii) (VBN^N gesadelode))
+						    (CONJP (CONJ &)
+							   (NP-NOM (NUM iiii) (ADJ^N unsadelode)))))
+				(, ,)
+				(CONJP (CONJ &)
+				       (NP-NOM (NUM iiii) (N^N helmas)))
+				(CONJP (CONJ &)
+				       (NP-NOM (NUM iiii) (N^N byrnan)))
+				(CONJP (CONJ &)
+				       (NP-NOM (NUM viii) (N^N spera)))
+				(CONJP (CONJ &)
+				       (NP (QP (ADV eallswa) (Q fela))
+					   (NP-GEN (N^G scylda))))
+				(CONJP (CONJ &)
+				       (NP-NOM (NUM iiii) (N^N swurd)))
+				(CONJP (CONJ &)
+				       (NP (NUMP (NUM twa) (NUM hund))
+					   (NP-GEN (N^G mances)
+						   (NP-GEN (N^G goldes)))))))
+	  (, .)
+	  (CODE <T09640016900,71.1>)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (ADVP-TMP (ADV^T sy+d+dan))
+			    (NP-ADT (NP-GEN (N^G cingces))
+				    (N +tegnas)
+				    (, ,)
+				    (CP-REL (WNP-NOM-1 0)
+					    (C +te)
+					    (IP-SUB (NP-NOM *T*-1)
+						    (NP-DAT (PRO^D him))
+						    (ADJP-NOM-PRD (ADJS^N nyhste))
+						    (BEPI syndan))))
+			    (, :)
+			    (NP-NOM (NP-NOM (NUM IIII)
+					    (N^N hors)
+					    (, ,)
+					    (NP-NOM-PRN (NP-NOM (NUM II) (VBN^N gesadelode))
+							(CONJP (CONJ &)
+							       (NP-NOM (NUM II) (ADJ^N unsadelode)))))
+				    (, ,)
+				    (CONJP (CONJ &)
+					   (NP-NOM (NUM II) (N^N swurd)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NUM IIII) (N^N spera)))
+				    (CONJP (CONJ &)
+					   (NP (QP (ADV swa) (Q feala))
+					       (NP-GEN (N^G scylda))))
+				    (CONJP (CONJ &)
+					   (NP-NOM (N^N helm)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (N^N byrnan)))
+				    (CONJP (CONJ &)
+					   (NP (NUM L)
+					       (NP-GEN (N^G mances)
+						       (NP-GEN (N^G goldes))))))))
+	  (, .)
+	  (CODE <T09640017000,71.2>)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-GEN-ADT (ADJ^G medemra) (N^G +tegna))
+			    (, :)
+			    (NP-NOM (NP-NOM (N^N hors))
+				    (CONJP (CONJ &)
+					   (NP-NOM (PRO$ his) (N^N ger+ada)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (PRO$ his) (N^N w+apn)))
+				    (CONJP (CONJ o+d+de)
+					   (NP-NOM (PRO$ his) (N^N healsfang))))
+			    (PP (P on)
+				(NP (NR Wessexan)))))
+	  (, ;)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (PP (P on)
+				(NP (NR Myrcan)))
+			    (NP-NOM (NUM ii) (N^N pund))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (PP (P on)
+				(NP (NR Eastenglan)))
+			    (NP-NOM (NUM ii) (N^N pund))))
+	  (, .)
+	  (CODE <T09640017100,71.3>)
+	  (CONJP (CONJ And)
+		 (IPX-MAT=0 (NP-GEN-ADT (NP-GEN (NP-GEN (N^G cingces))
+						(N^G +tegnes)
+						(CP-REL *ICH*-3))
+					(N^G heregeata))
+			    (ADVP-LOC (ADV^L inne))
+			    (PP (P mid)
+				(NP-DAT (NR^D Denum)))
+			    (, ,)
+			    (CP-REL-3 (WNP-NOM-2 0)
+				      (C +te)
+				      (IP-SUB (NP-NOM *T*-2)
+					      (NP (PRO$ his) (N socne))
+					      (HVPS h+abbe)))
+			    (, :)
+			    (NP-NOM (NUM iiii) (N^N pund))))
+	  (, .)
+	  (CODE <T09640017200,71.4>)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (CP-ADV (P gif)
+				    (C 0)
+				    (IP-SUB (NP-NOM (PRO^N he))
+					    (PP (P to)
+						(NP-DAT (D^D +tam) (N^D cingce)))
+					    (ADVP (ADVR fur+dor))
+					    (NP (N cy+d+de))
+					    (HVPS h+abbe)))
+			    (, :)
+			    (NP-NOM (NP-NOM (NUM II)
+					    (N^N hors)
+					    (, ,)
+					    (NP-NOM-PRN (ADJP-NOM (NUM I) (VBN^N gesadelod))
+							(CONJP (CONJ &)
+							       (ADJP-NOM (ADJ^N o+der) (ADJ^N unsadelod)))))
+				    (, ,)
+				    (CONJP (CONJ &)
+					   (NP-NOM (N^N swurd)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NUM II) (N^N spera)))
+				    (CONJP (CONJ &)
+					   (NP-NOM (NUM II) (N^N scyldas))
+					   (CONJP (CONJ &)
+						  (NP (NUM L)
+						      (NP-GEN (N^G mances)
+							      (NP-GEN (N^G goldes)))))))))
+	  (, .)
+	  (CODE <T09640017300,71.5>)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-NOM-ADT (D^N se)
+					(CP-REL (WNP-NOM-4 0)
+						(C +de)
+						(IP-SUB (NP-NOM *T*-4)
+							(NP-NOM-PRD (QR^N l+asse) (N^N mage))
+							(BEPS si))))
+			    (, :)
+			    (NP-NOM (NUM ii) (N^N pund))))
+	  (. .))
+  (ID colaw2cn,LawIICn:71a.249))
+
+/~*
+& +teah heo nydnumen weor+de, +tolige +t+ara +ahta, butan heo from +tam ceorle
+wylle eft ham ongean & n+afre heo eft his ne weor+de.
+(colaw2cn,LawIICn:73.2.257)
+*~/
+/*
+56 ADV^D:  56 ADV^D, 57 ham
+*/
+
+( (CODE <T09640017900,73.2>)
+  (IP-MAT (CONJ &)
+	  (CP-ADV (P +teah)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N heo))
+			  (VBN nydnumen)
+			  (BEPS weor+de)))
+	  (, ,)
+	  (NP-NOM *pro*)
+	  (VBPS +tolige)
+	  (NP-GEN (D^G +t+ara) (N^G +ahta))
+	  (, ,)
+	  (CP-ADV (P butan)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (PRO^N heo))
+				  (PP (P from)
+				      (NP-DAT (D^D +tam) (N^D ceorle)))
+				  (MDP wylle)
+				  (ADVP-TMP (ADV^T eft))
+				  (ADVP-DIR (ADV^D ham))
+				  (RP ongean))
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (ADVP-TMP (NEG+ADV^T n+afre))
+					     (NP-NOM (PRO^N heo))
+					     (ADVP-TMP (ADV^T eft))
+					     (NP-GEN-PRD (PRO^G his))
+					     (NEG ne)
+					     (BEPS weor+de)))))
+	  (. .))
+  (ID colaw2cn,LawIICn:73.2.257))
+
+/~*
+And ic l+ate riht, $+teah hwa his spere sette to o+dres mannes huses dura, &
+he +tiderinn +arende h+abbe,
+(colaw2cn,LawIICn:75.262)
+*~/
+/*
+57 ADV+P:  57 ADV+P, 58 +tiderinn
+*/
+
+( (CODE <T09640018300,75>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM (PRO^N ic))
+	  (VBP l+ate)
+	  (NP-ACC (N^A riht))
+	  (, ,)
+	  (CP-ADV (P $+teah)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (Q^N hwa))
+				  (NP (PRO$ his) (N spere))
+				  (VBPS sette)
+				  (PP (P to)
+				      (NP (NP-GEN (NP-GEN (ADJ^G o+dres) (N^G mannes))
+						  (N^G huses))
+					  (N dura))))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM (PRO^N he))
+					     (PP (ADV+P +tiderinn))
+					     (NP (N +arende))
+					     (HVPS h+abbe)))))
+	  (. ,))
+  (ID colaw2cn,LawIICn:75.262))
+
+/~*
+o+d+don gif mon o+der w+apne gedreohlice lecgce, +t+ar hig stille mihtan beon,
+gif hi moston. & hwylc man +donne +t+at w+apn gel+acce & hwylcne hearm
++t+armid gewyrce, +tonne is +t+at riht, +t+at se +de +tone hearm geworhte,
++t+at se +tone hearm gebete.
+(colaw2cn,LawIICn:75.263)
+*~/
+/*
+93 ADV+P:  93 ADV+P, 94 +t+armid
+*/
+
+( (IP-MAT (CONJ o+d+don)
+	  (CP-ADV (P gif)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (MAN^N mon))
+				  (NP-ACC (ADJ^A o+der) (N^A w+apne))
+				  (ADVP (ADV gedreohlice))
+				  (VBPS lecgce)
+				  (, ,)
+				  (CP-FRL-LOC (WADVP-LOC-1 (ADV^L +t+ar))
+					      (C 0)
+					      (IP-SUB-0 (ADVP-LOC *T*-1)
+							(NP-NOM (PRO^N hig))
+							(ADJP-NOM-PRD (ADJ^N stille))
+							(MDDI mihtan)
+							(BE beon)
+							(, ,)
+							(CP-ADV (P gif)
+								(C 0)
+								(IPX-SUB=0 (NP-NOM (PRO^N hi))
+									   (MDDI moston))))))
+			  (, .)
+			  (CODE <T09640018400,75>)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM (Q^N hwylc) (N^N man))
+					     (ADVP-TMP (ADV^T +donne))
+					     (NP-ACC (D^A +t+at) (N^A w+apn))
+					     (VBPS gel+acce)))
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (NP-ACC (Q^A hwylcne) (N^A hearm))
+					     (PP (ADV+P +t+armid))
+					     (VBPS gewyrce)))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (BEPI is)
+	  (NP-NOM (D^N +t+at)
+		  (CP-THT-PRN *ICH*-4))
+	  (ADJP-NOM-PRD (ADJ^N riht))
+	  (, ,)
+	  (CP-THT-PRN-4 (C +t+at)
+			(CP-THT (NP-NOM-LFD-3 (D^N se)
+					      (CP-REL (WNP-NOM-2 0)
+						      (C +de)
+						      (IP-SUB (NP-NOM *T*-2)
+							      (NP-ACC (D^A +tone) (N^A hearm))
+							      (VBD geworhte))))
+				(, ,)
+				(C +t+at)
+				(IP-SUB (NP-NOM-LFD *ICH*-3)
+					(NP-NOM-RSP (D^N se))
+					(NP-ACC (D^A +tone) (N^A hearm))
+					(VBPS gebete))))
+	  (. .))
+  (ID colaw2cn,LawIICn:75.263))
+
+/~*
+And gyf hwylc man forstolen +tingc ham to his cotan bringe & he arasod wur+de,
+riht is, +t+at he h+abbe +t+at he +aftereode.
+(colaw2cn,LawIICn:76.267)
+*~/
+/*
+24 ADV^D:  24 ADV^D, 25 ham
+*/
+
+( (CODE <T09640018700,76>)
+  (IP-MAT (CONJ And)
+	  (CP-ADV (P gyf)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (Q^N hwylc) (N^N man))
+				  (NP-ACC (VBN^A forstolen) (N^A +tingc))
+				  (ADVP-DIR (ADV^D ham))
+				  (PP (P to)
+				      (NP (PRO$ his) (N cotan)))
+				  (VBPS bringe))
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM (PRO^N he))
+					     (VBN arasod)
+					     (BEPS wur+de)))))
+	  (, ,)
+	  (NP-NOM-x *exp*)
+	  (ADJP-NOM-PRD (ADJ^N riht))
+	  (BEPI is)
+	  (, ,)
+	  (CP-THT-x (C +t+at)
+		    (IP-SUB (NP-NOM (PRO^N he))
+			    (HVPS h+abbe)
+			    (CP-FRL (WNP-ACC-1 (D^A +t+at))
+				    (C 0)
+				    (IP-SUB (NP-ACC *T*-1)
+					    (NP-NOM (PRO^N he))
+					    (RP+VBD +aftereode)))))
+	  (. .))
+  (ID colaw2cn,LawIICn:76.267))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd	9/8/304
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd
+*/
+
+/~*
+& se +de +t+as geswican wille & cl+annesse healdan, h+abbe he Godes miltse, &
++t+artoeacan to woroldweor+dscype, +t+at he sy +tegenweres & +tegenrihtes
+wyr+de, ge on life ge on legere.
+(colaw5atr,LawVAtr:9.1.28)
+*~/
+/*
+55 ADV+P:  55 ADV+P, 56 +t+artoeacan
+*/
+
+( (CODE <T09540001600,9.1>)
+  (IP-MAT (IP-MAT-0 (CONJ &)
+		    (NP-NOM-LFD (D^N se)
+				(CP-REL (WNP-NOM-1 0)
+					(C +de)
+					(IP-SUB (IP-SUB-0 (NP-NOM *T*-1)
+							  (NP-GEN (D^G +t+as))
+							  (VB geswican)
+							  (MDP wille))
+						(CONJP (CONJ &)
+						       (IPX-SUB-CON=0 (NP (N cl+annesse))
+								      (VB healdan))))))
+		    (, ,)
+		    (HVPS h+abbe)
+		    (NP-NOM-RSP (PRO^N he))
+		    (NP (NP-GEN (NR^G Godes))
+			(N miltse)))
+	  (, ,)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (PP (ADV+P +t+artoeacan))
+			    (PP (P to)
+				(NP (N woroldweor+dscype)))
+			    (, ,)
+			    (CP-THT (C +t+at)
+				    (IP-SUB (NP-NOM (PRO^N he))
+					    (BEPS sy)
+					    (ADJP-NOM-PRD (NP-GEN (N^G +tegenweres) (CONJ &) (N^G +tegenrihtes))
+							  (ADJ^N wyr+de))
+					    (, ,)
+					    (PP (CONJ ge)
+						(PP (P on)
+						    (NP-DAT (N^D life)))
+						(CONJP (CONJ ge)
+						       (PP (P on)
+							   (NP-DAT (N^D legere)))))))))
+	  (. .))
+  (ID colaw5atr,LawVAtr:9.1.28))
+
+/~*
+Sunnand+ages freols healde man georne, swa +t+arto gebyrige.
+(colaw5atr,LawVAtr:13.41)
+*~/
+/*
+26 ADV+P:  26 ADV+P, 27 +t+arto
+*/
+
+( (CODE <T09540002700,13>)
+  (IP-MAT (NP-ACC (NP-GEN (NR^G Sunnand+ages))
+		  (N^A freols))
+	  (VBPS healde)
+	  (NP-NOM (MAN^N man))
+	  (ADVP (ADV georne))
+	  (, ,)
+	  (PP (P swa)
+	      (CPX-CMP (IPX-SUB (PP (ADV+P +t+arto))
+				(VBPS gebyrige))))
+	  (. .))
+  (ID colaw5atr,LawVAtr:13.41))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd	2/2/79
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd
+*/
+
+/~*
+& se +de +t+as geswican wille & cl+annesse healdan, h+abbe he Godes miltse, &
++t+artoeacan to woroldweor+dscipe, +t+at he sy +tegenweres & +tegenrihtes
+wyr+te ge on life ge on legere.
+(colaw6atr,LawVIAtr:5.3.22)
+*~/
+/*
+55 ADV+P:  55 ADV+P, 56 +t+artoeacan
+*/
+
+( (CODE <T09560001500,5.3>)
+  (IP-MAT (IP-MAT-00 (CONJ &)
+		     (NP-NOM-LFD (D^N se)
+				 (CP-REL (WNP-NOM-1 0)
+					 (C +de)
+					 (IP-SUB (IP-SUB-0 (NP-NOM *T*-1)
+							   (NP-GEN (D^G +t+as))
+							   (VB geswican)
+							   (MDP wille))
+						 (CONJP (CONJ &)
+							(IPX-SUB-CON=0 (NP (N cl+annesse))
+								       (VB healdan))))))
+		     (, ,)
+		     (HVPS h+abbe)
+		     (NP-NOM-RSP (PRO^N he))
+		     (NP (NP-GEN (NR^G Godes))
+			 (N miltse)))
+	  (, ,)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=00 (PP (ADV+P +t+artoeacan))
+			     (PP (P to)
+				 (NP (N woroldweor+dscipe)))
+			     (, ,)
+			     (CP-THT (C +t+at)
+				     (IP-SUB (NP-NOM (PRO^N he))
+					     (BEPS sy)
+					     (ADJP-NOM-PRD (NP-GEN (N^G +tegenweres) (CONJ &) (N^G +tegenrihtes))
+							   (ADJ^N wyr+te))
+					     (PP (CONJ ge)
+						 (PP (P on)
+						     (NP-DAT (N^D life)))
+						 (CONJP (CONJ ge)
+							(PP (P on)
+							    (NP-DAT (N^D legere)))))))))
+	  (. .))
+  (ID colaw6atr,LawVIAtr:5.3.22))
+
+/~*
+Sunnand+ages freols healde man georne, swa +t+arto gebyrige;
+(colaw6atr,LawVIAtr:22.1.53)
+*~/
+/*
+26 ADV+P:  26 ADV+P, 27 +t+arto
+*/
+
+( (CODE <T09560003600,22.1>)
+  (IP-MAT (NP-ACC (NP-GEN (NR^G Sunnand+ages))
+		  (N^A freols))
+	  (VBPS healde)
+	  (NP-NOM (MAN^N man))
+	  (ADVP (ADV georne))
+	  (, ,)
+	  (PP (P swa)
+	      (CPX-CMP (IPX-SUB (PP (ADV+P +t+arto))
+				(VBPS gebyrige))))
+	  (. ;))
+  (ID colaw6atr,LawVIAtr:22.1.53))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd	2/2/111
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd	0/0/210
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd
+*/
+
+/~*
+Ac +da +de ic gemette aw+der o+d+de on Ines d+age, mines m+ages, o+d+de on
+Offan Mercna cyninges o+d+de on +A+telbryhtes, +te +arest fulluhte onfeng on
+Angelcynne, +ta +de me ryhtoste +duhton, ic +ta heron gegaderode,
+(colawafint,LawAfEl:49.9.143)
+*~/
+/*
+129 ADV+P:  129 ADV+P, 130 heron
+*/
+
+( (CODE <T09280009500,49.9>)
+  (IP-MAT-SPE (CONJ Ac)
+	      (NP-LFD (NP (D +da)
+			  (CP-REL-SPE (WNP-1 0)
+				      (C +de)
+				      (IP-SUB-SPE (NP *T*-1)
+						  (NP-NOM (PRO^N ic))
+						  (VBD gemette)
+						  (PP (CONJ aw+der)
+						      (CONJ o+d+de)
+						      (PP (P on)
+							  (NP-DAT (NP-GEN (NR^G Ines)
+									  (NP-GEN-PRN *ICH*-2))
+								  (N^D d+age)
+								  (, ,)
+								  (NP-GEN-PRN-2 (PRO$^G mines) (N^G m+ages))))
+						      (, ,)
+						      (CONJP (CONJ o+d+de)
+							     (PP (P on)
+								 (NP (NP-GEN (NR^G Offan)
+									     (NP-GEN-PRN (NP-GEN (NR^G Mercna))
+											 (N^G cyninges))))))
+						      (CONJP (CONJ o+d+de)
+							     (PP (P on)
+								 (NP (NP-GEN (NR^G +A+telbryhtes)
+									     (, ,)
+									     (CP-REL-SPE (WNP-NOM-3 0)
+											 (C +te)
+											 (IP-SUB-SPE (NP-NOM *T*-3)
+												     (ADVP-TMP (ADVS^T +arest))
+												     (NP (N fulluhte))
+												     (RP+VBDI onfeng)
+												     (PP (P on)
+													 (NP-DAT (NR^D Angelcynne)))))))))))))
+		      (, ,)
+		      (CONJP (NP (D +ta)
+				 (CP-REL-SPE (WNP-NOM-4 0)
+					     (C +de)
+					     (IP-SUB-SPE (NP-NOM *T*-4)
+							 (NP-DAT (PRO^D me))
+							 (ADJP-NOM-PRD (ADJS^N ryhtoste))
+							 (VBDI +duhton))))))
+	      (, ,)
+	      (NP-NOM (PRO^N ic))
+	      (NP-ACC-RSP (D^A +ta))
+	      (PP (ADV+P heron))
+	      (VBD gegaderode)
+	      (. ,))
+  (ID colawafint,LawAfEl:49.9.143))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd	1/1/146
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd
+*/
+
+/~*
+Me m+aig in Maio & Iunio & Iulio on sumera fealgian, myxendincgan ut dragan,
+lochyrdla tilian, sceap scyran, bytlian, boteatan, tynan, tymbrian, wudian,
+weodian, faldian, fiscwer & mylne macian. On h+arfeste ripan, in Agusto &
+Septembri & Octobri mawan, wad spittan, fela til+da ham g+aderian, +dacian,
++decgan & fald weoxian, scipena behweorfan & hlosan eac swa, +ar to tune to
+sti+d winter cume, & eac yr+de georne for+dian. On wintra erian & in miclum
+gefyrstum timber cleofan, orceard r+aran & m+anige inweorc wyrcean, +derhsan,
+wudu cleofan, hry+deran styllan, swyn stigian, on odene cylne macian ofn &
+aste & fela +dinga sceal to tune ge eac henna hrost. On l+angtene eregian &
+impian, beana sawan, wingeard settan, dician, deorhege heawan & ra+de +after
++dam, gif hit mot gewiderian, mederan settan, linsed sawan, wads+ad eac swa,
+wyrtun plantian & fela +dinga;
+(colawger,LawGer:9.23)
+*~/
+/*
+156 ADV^D:  156 ADV^D, 157 ham
+*/
+
+( (CODE <T09820001400,9>)
+  (IP-MAT (IP-MAT-0 (NP-NOM (MAN^N Me))
+		    (MDPI m+aig)
+		    (PP (P in)
+			(NP (NR Maio) (CONJ &) (NR Iunio) (CONJ &) (NR Iulio)))
+		    (PP (P on)
+			(NP-DAT (N^D sumera)))
+		    (VB fealgian))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N myxendincgan))
+		     (RP ut)
+		     (VB dragan))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N lochyrdla))
+		     (VB tilian))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A sceap))
+		     (VB scyran))
+	  (, ,)
+	  (IPX-MAT=0 (VB (VB bytlian)
+			 (, ,)
+			 (CONJP (VB boteatan))
+			 (, ,)
+			 (CONJP (VB tynan))
+			 (, ,)
+			 (CONJP (VB tymbrian))
+			 (, ,)
+			 (CONJP (VB wudian))
+			 (, ,)
+			 (CONJP (VB weodian))
+			 (, ,)
+			 (CONJP (VB faldian))))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A fiscwer) (CONJ &) (N^A mylne))
+		     (VB macian))
+	  (, .)
+	  (CODE <T09820001500,10>)
+	  (IPX-MAT=0 (PP (P On)
+			 (NP-DAT (N^D h+arfeste)))
+		     (VB ripan))
+	  (, ,)
+	  (IPX-MAT=0 (PP (P in)
+			 (NP (NR Agusto) (CONJ &) (NR Septembri) (CONJ &) (NR Octobri)))
+		     (VB mawan))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A wad))
+		     (VB spittan))
+	  (, ,)
+	  (IPX-MAT=0 (NP (Q fela)
+			 (NP-GEN (N^G til+da)))
+		     (ADVP-DIR (ADV^D ham))
+		     (VB g+aderian))
+	  (, ,)
+	  (IPX-MAT=0 (VB (VB +dacian)
+			 (, ,)
+			 (CONJP (VB +decgan))))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-ACC (N^A fald))
+			    (VB weoxian)))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N scipena))
+		     (VB behweorfan)
+		     (IPX-MAT-PRN=0 (CONJ &)
+				    (NP (N hlosan))
+				    (ADVP (ADV eac))
+				    (ADVP (ADV swa)))
+		     (, ,)
+		     (CP-ADV (P +ar)
+			     (C 0)
+			     (IP-SUB (PP (P to)
+					 (NP-DAT (N^D tune)))
+				     (NP-NOM (ADJP-NOM (ADV to) (ADJ^N sti+d))
+					     (N^N winter))
+				     (VBPS cume))))
+	  (, ,)
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (ADVP (ADV eac))
+			    (NP (N yr+de))
+			    (ADVP (ADV georne))
+			    (VB for+dian)))
+	  (, .)
+	  (CODE <T09820001600,11>)
+	  (IPX-MAT=0 (PP (P On)
+			 (NP-DAT (N^D wintra)))
+		     (VB erian))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (PP (P in)
+				(NP-DAT (Q^D miclum) (N^D gefyrstum)))
+			    (NP-ACC (N^A timber))
+			    (VB cleofan)))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A orceard))
+		     (VB r+aran))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (NP-ACC (Q^A m+anige) (N^A inweorc))
+			    (VB wyrcean)))
+	  (, ,)
+	  (IPX-MAT=0 (VB +derhsan))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A wudu))
+		     (VB cleofan))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N hry+deran))
+		     (VB styllan))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A swyn))
+		     (VB stigian))
+	  (, ,)
+	  (IPX-MAT=0 (PP (P on)
+			 (NP (N odene)))
+		     (NP-ACC (NP-ACC (N^A cylne))
+			     (CONJP *ICH*-1))
+		     (VB macian)
+		     (IP-MAT-PRN (NP-NOM (NP-NOM (N^N ofn))
+					 (CONJP (CONJ &)
+						(NP-NOM (N^N aste)))
+					 (CONJP (CONJ &)
+						(NP (Q fela)
+						    (NP-GEN (N^G +dinga)))))
+				 (MDPI sceal)
+				 (PP (P to)
+				     (NP-DAT (N^D tune))))
+		     (CONJP-1 (CONJ ge)
+			      (ADV eac)
+			      (NP-ACC (NP-GEN (N^G henna))
+				      (N^A hrost))))
+	  (, .)
+	  (CODE <T09820001700,12>)
+	  (IPX-MAT=0 (PP (P On)
+			 (NP-DAT (N^D l+angtene)))
+		     (VB (VB eregian) (CONJ &) (VB impian)))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N beana))
+		     (VB sawan))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A wingeard))
+		     (VB settan))
+	  (, ,)
+	  (IPX-MAT=0 (VB dician))
+	  (, ,)
+	  (IPX-MAT=0 (NP (N deorhege))
+		     (VB heawan))
+	  (CONJP (CONJ &)
+		 (IPX-MAT=0 (ADVP (ADV ra+de))
+			    (PP (P +after)
+				(NP-DAT (D^D +dam)))
+			    (, ,)
+			    (CP-ADV (P gif)
+				    (C 0)
+				    (IP-SUB (NP-NOM (PRO^N hit))
+					    (MDPI mot)
+					    (VB gewiderian)))
+			    (, ,)
+			    (NP (N mederan))
+			    (VB settan)))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A linsed))
+		     (VB sawan))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (N^A wads+ad))
+		     (ADVP (ADV eac))
+		     (ADVP (ADV swa)))
+	  (, ,)
+	  (IPX-MAT=0 (NP-ACC (NP-ACC (N^A wyrtun))
+			     (CONJP *ICH*-2))
+		     (VB plantian)
+		     (CONJP-2 (CONJ &)
+			      (NP (Q fela)
+				  (NP-GEN (N^G +dinga)))))
+	  (. ;))
+  (ID colawger,LawGer:9.23))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd	1/1/35
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd
+*/
+
+/~*
+Gif ceorl ceap forstil+d & bire+d into his +arne, & befeh+d +t+arinne mon,
++tonne bi+d se his d+al synnig butan +tam wife anum, for+don hio sceal hire
+ealdore hieran:
+(colawine,LawIne:57.153)
+*~/
+/*
+43 ADV+P:  43 ADV+P, 44 +t+arinne
+*/
+
+( (CODE <T09300009800,57>)
+  (IP-MAT (CP-ADV (P Gif)
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-NOM (N^N ceorl))
+				  (NP-ACC (N^A ceap))
+				  (VBPI (VBPI forstil+d) (CONJ &) (VBPI bire+d))
+				  (PP (P into)
+				      (NP-DAT (PRO$ his) (N^D +arne))))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (IP-SUB-CON (NP-NOM *con*)
+					     (VBPI befeh+d)
+					     (PP (ADV+P +t+arinne))
+					     (NP-ACC (N^A mon))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +tonne))
+	  (BEPI bi+d)
+	  (NP-NOM (D^N se) (PRO$ his) (N^N d+al))
+	  (ADJP-NOM-PRD (ADJ^N synnig))
+	  (PP (P butan)
+	      (NP-DAT (D^D +tam) (N^D wife) (NUM^D anum)))
+	  (, ,)
+	  (CP-ADV (P for+don)
+		  (C 0)
+		  (IP-SUB (NP-NOM (PRO^N hio))
+			  (MDPI sceal)
+			  (NP-DAT (PRO$ hire) (N^D ealdore))
+			  (VB hieran)))
+	  (. :))
+  (ID colawine,LawIne:57.153))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd	1/1/192
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd
+*/
+
+/~*
+& +tartoeacan +tone gilt gebete, +de hit +ar geworhte.
+(colawnorthu,LawNorthu:3.12)
+*~/
+/*
+5 ADV+P:  5 ADV+P, 6 +tartoeacan
+*/
+
+( (IP-MAT (CONJ &)
+	  (PP (ADV+P +tartoeacan))
+	  (NP-ACC (D^A +tone) (N^A gilt))
+	  (VBPS gebete)
+	  (, ,)
+	  (CP-FRL-SBJ (WNP-NOM-1 0)
+		      (C +de)
+		      (IP-SUB (NP-NOM *T*-1)
+			      (NP-ACC (PRO^A hit))
+			      (ADVP-TMP (ADV^T +ar))
+			      (VBD geworhte)))
+	  (. .))
+  (ID colawnorthu,LawNorthu:3.12))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd	1/1/98
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd	0/0/14
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd	21/19/1288
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd	2/2/79
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd	3/3/105
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd	39/36/1132
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd	3/3/90
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd	0/0/11
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd	8/8/123
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd	2/2/35
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd	26/24/401
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd	0/0/23
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd	2/2/169
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd	7/7/327
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd	4/4/146
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd	9/8/304
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd	2/2/79
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd	2/2/111
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd	0/0/210
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd	1/1/146
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd	1/1/35
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd	1/1/192
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd	1/1/98
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd	0/0/14
+whole search, hits/tokens/total
+		134/126/5118
+*/

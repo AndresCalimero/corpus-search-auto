@@ -1,0 +1,96 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:36 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_an_appositive_or_parenthetical_constituent.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_an_appositive_or_parenthetical_constituent\philosophy\result.out
+
+node:   *PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd
+*/
+
+/~*
+And the thinges eek that men wenen ne haven none soules, ne desire thei nat,
+iche of hem, by semblable resoun to kepyn that that is hirs that is to seyn,
+that is accordynge to hir nature in conservacioun of hir beynge and endurynge?
+(CMBOETH,435.C2.295)
+*~/
+/*
+117 VAG:  117 VAG, 118 accordynge, 94 IP-MAT-PRN-SPE
+*/
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (D the)
+		      (NS thinges)
+		      (ALSO eek)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ (NS men))
+					      (VBP wenen)
+					      (CP-THT-SPE (C 0)
+							  (IP-SUB-SPE (NP-SBJ *T*-1)
+								      (NEG ne)
+								      (HVP haven)
+								      (NP-OB1 (Q none) (NS soules)))))))
+	      (, ,)
+	      (NEG ne)
+	      (VBP desire)
+	      (NP-SBJ (PRO thei))
+	      (NEG nat)
+	      (, ,)
+	      (NP-ADV (Q iche)
+		      (PP (P of)
+			  (NP (PRO hem))))
+	      (, ,)
+	      (PP (P by)
+		  (NP (ADJ semblable) (N resoun)))
+	      (IP-INF-SPE (TO to)
+			  (VB kepyn)
+			  (NP-OB1 (D that)
+				  (CP-REL-SPE (WNP-2 0)
+					      (C that)
+					      (IP-SUB-SPE (NP-SBJ *T*-2)
+							  (BEP is)
+							  (NP-OB1 (PRO$ hirs)))
+					      (CODE <paren>)
+					      (CODE <font>)
+					      (IP-MAT-PRN-SPE (NP-SBJ (D that))
+							      (BEP is)
+							      (IP-INF-SPE (TO to)
+									  (VB seyn)
+									  (, ,)
+									  (CP-REL-SPE (WNP-3 0)
+										      (C that)
+										      (IP-SUB-SPE (NP-SBJ *T*-3)
+												  (BEP is)
+												  (VAG accordynge)
+												  (PP (P to)
+												      (NP (PRO$ hir) (N nature)))
+												  (PP (P in)
+												      (NP (N conservacioun)
+													  (PP (P of)
+													      (NP (PRO$ hir)
+														  (N beynge)
+														  (CONJP (CONJ and)
+															 (NX (N endurynge))))))))))))))
+	      (CODE <$$font>)
+	      (CODE <$$paren>)
+	      (. ?))
+  (ID CMBOETH,435.C2.295))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	1/1/566
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	1/1/566
+whole search, hits/tokens/total
+		1/1/566
+*/

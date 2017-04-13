@@ -1,0 +1,866 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:21 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\stranded_prepositions\biography_and_diaries\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd
+*/
+
+/~*
+Then H. W. paid me a call: a nice boy, full of anxiety and good feeling: in
+the midst of Sturm und Drang, finding what he calls his "dearest convictions"
+failing him: very pathetic in one way, and rather sadly amusing in the other.
+His admiration of and confidence in my literary powers and oracularity of
+speech rather embarrassing.
+(BENSON-190X,113.250)
+*~/
+/*
+169 P:  169 P, 170 in, 168 PP
+*/
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (NPR H.)
+		  (NPR W.)
+		  (NP-PRN *ICH*-1))
+	  (VBD paid)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (D a) (N call))
+	  (, :)
+	  (NP-PRN-1 (D a)
+		    (ADJ nice)
+		    (N boy)
+		    (, ,)
+		    (ADJP (ADJ full)
+			  (PP (P of)
+			      (NP (NP (N anxiety))
+				  (CONJP (CONJ and)
+					 (NP (ADJ good) (N feeling))))))
+		    (, :)
+		    (PP (P in)
+			(NP (D the)
+			    (N midst)
+			    (PP (P of)
+				(CODE <font>)
+				(NP (GERMAN (FW Sturm) (FW und) (FW Drang))))))
+		    (CODE <$$font>)
+		    (, ,)
+		    (IP-PPL (VAG finding)
+			    (IP-PPL-OB1 (NP-SBJ (CP-FRL (WNP-2 (WPRO what))
+							(C 0)
+							(IP-SUB (NP-SBJ (PRO he))
+								(VBP calls)
+								(IP-SMC (NP-SBJ *T*-2)
+									(NP-OB1 (PRO$ his) (" ") (ADJS dearest) (NS convictions))))))
+					(" ")
+					(VAG failing)
+					(NP-OB1 (PRO him))))
+		    (, :)
+		    (ADJP (ADJP (ADV very)
+				(ADJ pathetic)
+				(PP (P in)
+				    (NP (ONE one) (N way))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (ADJP (ADVP (ADVR rather) (ADV sadly))
+				       (VAG amusing)
+				       (PP (P in)
+					   (NP (D the) (OTHER other)))))))
+	  (, .)
+	  (IP-ABS (NP-SBJ-3 (PRO$ His)
+			    (N admiration)
+			    (PP (P of)
+				(NP-PRN=3 (CONJ and)
+					  (NP (N confidence)
+					      (PP (P in))))
+				(NP (PRO$ my)
+				    (ADJ literary)
+				    (NS powers)
+				    (CONJP (CONJ and)
+					   (NX (N oracularity)
+					       (PP (P of)
+						   (NP (N speech))))))))
+		  (ADJP (ADVR rather) (VAG embarrassing)))
+	  (. .))
+  (ID BENSON-190X,113.250))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	1/1/930
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd
+*/
+
+/~*
+I say into because it was truly a refuge.
+(BOSWELL-1776,39.96)
+*~/
+/*
+10 P:  10 P, 11 into, 9 QTP
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP say)
+	  (CODE <font>)
+	  (QTP (P into))
+	  (CODE <$$font>)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (BED was)
+			      (ADVP (ADV truly))
+			      (NP-OB1 (D a) (CODE <font>) (N refuge)))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID BOSWELL-1776,39.96))
+
+/~*
+so I resolved not to wait, but to leave a letter for Miss Macredie to send an
+express to me to Douglas Castle if a change should happen on or before Tuesday,
+and if not, to write to me at Edinburgh.
+(BOSWELL-1776,46.351)
+*~/
+/*
+87 P:  87 P, 88 before, 82 P
+*/
+
+( (IP-MAT (ADVP (ADV so))
+	  (NP-SBJ (PRO I))
+	  (VBD resolved)
+	  (IP-INF (IP-INF (NEG not) (TO to) (VB wait))
+		  (, ,)
+		  (CONJP (CONJ but)
+			 (IP-INF (TO to)
+				 (VB leave)
+				 (NP-OB1 (D a) (N letter))
+				 (IP-INF-ADT (IP-INF (FOR for)
+						     (NP-SBJ (NPR Miss) (NPR Macredie))
+						     (TO to)
+						     (VB send)
+						     (NP-OB1 (D an) (N express))
+						     (PP (P to)
+							 (NP (PRO me)))
+						     (PP (P to)
+							 (NP (NPR Douglas) (NPR Castle)))
+						     (PP (P if)
+							 (CP-ADV (C 0)
+								 (IP-SUB (NP-SBJ (D a) (N change))
+									 (MD should)
+									 (VB happen)
+									 (PP (P (P on) (CONJ or) (P before))
+									     (NP (NPR Tuesday)))))))
+					     (, ,)
+					     (CONJP (CONJ and)
+						    (IP-INF (PP (P if)
+								(FRAG (NEG not)))
+							    (, ,)
+							    (TO to)
+							    (VB write)
+							    (PP (P to)
+								(NP (PRO me)))
+							    (PP (P at)
+								(NP (NPR Edinburgh)))))))))
+	  (. .))
+  (ID BOSWELL-1776,46.351))
+
+/~*
+It was agreeable to drive all the way to Boghead upon or close by our own
+lands all the way.
+(BOSWELL-1776,47.370)
+*~/
+/*
+36 P:  36 P, 37 by, 31 FRAG
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BED was)
+	  (ADJP (ADJ agreeable))
+	  (IP-INF-1 (TO to)
+		    (VB drive)
+		    (PP (NP-MSR (Q all) (D the) (N way))
+			(P to)
+			(NP (NPR Boghead)))
+		    (PP-2 (P upon)
+			  (FRAG (CONJ or) (ADJ close) (P by))
+			  (NP (PRO$ our) (ADJ own) (NS lands)))
+		    (NP-MSR (Q all) (D the) (N way)))
+	  (. .))
+  (ID BOSWELL-1776,47.370))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	3/3/882
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd
+*/
+
+/~*
+In this she found Strength to combat, and struggle through more Difficulties,
+and dangerous Conspiracies, than ever English Monarch had to cope with.
+(CIBBER-1740,40.86)
+*~/
+/*
+34 P:  34 P, 35 through, 33 PP
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D this)))
+	  (NP-SBJ (PRO she))
+	  (VBD found)
+	  (NP-OB1 (N Strength)
+		  (CP-EOP (WNP-1 0)
+			  (IP-INF-2 (NP-SBJ *T*-1)
+				    (TO to)
+				    (VB combat)
+				    (, ,)
+				    (IP-INF-PRN=2 (CONJ and)
+						  (VB struggle)
+						  (PP (P through)))
+				    (NP-OB1 (QR more)
+					    (NS Difficulties)
+					    (, ,)
+					    (CONJP (CONJ and)
+						   (NX (ADJ dangerous) (NS Conspiracies)))
+					    (, ,)
+					    (PP (P than)
+						(CP-CMP (WNP-3 0)
+							(C 0)
+							(IP-SUB (ADVP-TMP (ADV ever))
+								(CODE <font>)
+								(NP-SBJ (ADJ English) (CODE <$$font>) (N Monarch))
+								(HVD had)
+								(IP-INF (TO to)
+									(VB cope)
+									(PP (P with)
+									    (NP *T*-3))))))))))
+	  (. .))
+  (ID CIBBER-1740,40.86))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	1/1/344
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd
+*/
+
+/~*
+Yet, at the same Time, he gave me full Liberty to communicate it to whomsoever
+I should in my Conscience judge it might be useful to do it, whether before,
+or after his Death.
+(DODDRIDGE-1747,29.235)
+*~/
+/*
+103 P:  103 P, 104 after, 96 P
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Yet))
+	  (, ,)
+	  (PP (P at)
+	      (NP (D the) (ADJ same) (N Time)))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD gave)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (ADJ full)
+		  (N Liberty)
+		  (IP-INF (TO to)
+			  (VB communicate)
+			  (NP-OB1 (PRO it))
+			  (PP (P to)
+			      (NP (CP-FRL (WNP-1 (WPRO+ADV+ADV whomsoever))
+					  (C 0)
+					  (IP-SUB (NP-SBJ (PRO I))
+						  (MD should)
+						  (PP (P in)
+						      (NP (PRO$ my) (N Conscience)))
+						  (VB judge)
+						  (CP-THT (C 0)
+							  (IP-SUB (NP-SBJ-2 (PRO it))
+								  (MD might)
+								  (BE be)
+								  (ADJP (ADJ useful))
+								  (IP-INF-2 (NP-OB2 *T*-1)
+									    (TO to)
+									    (DO do)
+									    (NP-OB1 (PRO it)))
+								  (, ,)
+								  (CP-QUE-ADV (WQ whether)
+									      (PP (P (P before) (, ,) (CONJ or) (P after))
+										  (NP (PRO$ his) (N Death))))))))))))
+	  (. .))
+  (ID DODDRIDGE-1747,29.235))
+
+/~*
+And indeed, when I consider how habitual all those criminal Indulgences were
+grown to him, and that he was now in the Prime of Life, and all this while in
+high Health too, I $can $not but be astonished to reflect upon it, that he
+should be so wonderfully sanctified in Body, as well as in Soul and Spirit, as
+that, for all the future Years of his Life, he, from that Hour should find so
+constant a Disinclination to, and Abhorrence of, those criminal Sensualities,
+to which he fancied he was before so invincibly impelled by his very
+Constitution, that he was used strangely to think, and to say, that
+Omnipotence itself could not reform him, without destroying that Body, and
+giving him another.
+(DODDRIDGE-1747,41.313)
+*~/
+/*
+266 P:  266 P, 267 of, 265 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P+N indeed))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBP consider)
+			      (CP-QUE (CP-QUE (WADJP-1 (WADV how) (ADJ habitual))
+					      (C 0)
+					      (IP-SUB (ADJP *T*-1)
+						      (NP-SBJ (Q all) (D those) (ADJ criminal) (NS Indulgences))
+						      (BED were)
+						      (VBN grown)
+						      (PP (P to)
+							  (NP (PRO him)))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (CP-THT (C that)
+						     (IP-SUB (IP-SUB-2 (NP-SBJ (PRO he))
+								       (BED was)
+								       (ADVP-TMP (ADV now))
+								       (PP (P in)
+									   (NP (D the)
+									       (N Prime)
+									       (PP (P of)
+										   (NP (N Life))))))
+							     (, ,)
+							     (CONJP (CONJ and)
+								    (IP-SUB=2 (NP-MSR (Q all) (D this) (N while))
+									      (PP (P in)
+										  (NP (ADJ high) (N Health)))
+									      (ADVP (ADV too)))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (FP but)
+	  (BE be)
+	  (VAN astonished)
+	  (IP-INF (TO to)
+		  (VB reflect)
+		  (PP (P upon)
+		      (NP (PRO it)
+			  (, ,)
+			  (CP-THT-PRN (C that)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (MD should)
+					      (BE be)
+					      (ADVP (ADVR so)
+						    (ADV wonderfully)
+						    (PP *ICH*-3))
+					      (CODE <font>)
+					      (VAN sanctified)
+					      (PP (P in)
+						  (NP (N Body)))
+					      (CODE <$$font>)
+					      (, ,)
+					      (ADVP (ADVR as)
+						    (ADV well)
+						    (PP (P as)
+							(CODE <font>)
+							(PP (P in)
+							    (NP (N Soul) (CONJ and) (N Spirit)))))
+					      (CODE <$$font>)
+					      (, ,)
+					      (PP-3 (P as)
+						    (CP-ADV (C that)
+							    (, ,)
+							    (IP-SUB (PP (P for)
+									(NP (Q all)
+									    (D the)
+									    (ADJ future)
+									    (NS Years)
+									    (PP (P of)
+										(NP (PRO$ his) (N Life)))))
+								    (, ,)
+								    (NP-SBJ (PRO he))
+								    (, ,)
+								    (PP (P from)
+									(NP (D that) (N Hour)))
+								    (MD should)
+								    (VB find)
+								    (NP-OB1-4 (ADJP (ADVR so) (ADJ constant))
+									      (CODE <P_41>)
+									      (D a)
+									      (N Disinclination)
+									      (PP (P to)
+										  (, ,)
+										  (NP-PRN=4 (CONJ and)
+											    (NP (N Abhorrence)
+												(PP (P of))))
+										  (, ,)
+										  (NP (D those)
+										      (ADJ criminal)
+										      (NS Sensualities)
+										      (, ,)
+										      (CP-REL (WPP-5 (P to)
+												     (WNP (WPRO which)))
+											      (C 0)
+											      (IP-SUB (NP-SBJ (PRO he))
+												      (VBD fancied)
+												      (CP-THT (C 0)
+													      (IP-SUB (PP *T*-5)
+														      (NP-SBJ (PRO he))
+														      (BED was)
+														      (ADVP-TMP (ADV before))
+														      (ADVP (ADVR so)
+															    (ADV invincibly)
+															    (CP-DEG *ICH*-6))
+														      (VAN impelled)
+														      (PP (P by)
+															  (NP (PRO$ his) (ADJ very) (N Constitution)))
+														      (, ,)
+														      (CP-DEG-6 (C that)
+																(IP-SUB (NP-SBJ (PRO he))
+																	(BED was)
+																	(ADJP (VAN used)
+																	      (IP-INF-7 (ADVP (ADV strangely))
+																			(TO to)
+																			(VB think)
+																			(, ,)
+																			(IP-INF-PRN=7 (CONJ and) (TO to) (VB say))
+																			(, ,)
+																			(CP-THT (C that)
+																				(IP-SUB (NP-SBJ (N Omnipotence)
+																						(NP-PRN (PRO+N itself)))
+																					(MD could)
+																					(NEG not)
+																					(VB reform)
+																					(NP-OB1 (PRO him))
+																					(, ,)
+																					(PP (P without)
+																					    (IP-PPL (IP-PPL (VAG destroying)
+																							    (NP-OB1 (D that) (N Body)))
+																						    (, ,)
+																						    (CONJP (CONJ and)
+																							   (IP-PPL (VAG giving)
+																								   (NP-OB2 (PRO him))
+																								   (NP-OB1 (D+OTHER another)))))))))))))))))))))))))))
+	  (CODE {COM:footnote_omitted})
+	  (. .))
+  (ID DODDRIDGE-1747,41.313))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	2/2/359
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	0/0/606
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	0/0/927
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	0/0/534
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd
+*/
+
+/~*
+Sometimes the amianthus is found twisted among and adhering to the crystals of
+quartz, then forming very beautiful specimens.
+(RUSKIN-1835,1,17.446)
+*~/
+/*
+29 P:  29 P, 30 to, 28 PP
+*/
+
+( (IP-MAT (NP-TMP (Q+NS Sometimes))
+	  (NP-SBJ-1 (D the) (N amianthus))
+	  (BEP is)
+	  (VAN found)
+	  (IP-SMC (IP-SMC-2 (NP-SBJ *-1)
+			    (VAN twisted)
+			    (PP (P among)
+				(IP-PPL-PRN=2 (CONJ and)
+					      (VAG adhering)
+					      (PP (P to)))
+				(NP (D the)
+				    (NS crystals)
+				    (PP (P of)
+					(NP (N quartz))))))
+		  (, ,)
+		  (CONJP (IP-PPL (NP-SBJ *-1)
+				 (ADVP-TMP (ADV then))
+				 (VAG forming)
+				 (NP-OB1 (ADJP (ADV very) (ADJ beautiful))
+					 (NS specimens)))))
+	  (. .))
+  (ID RUSKIN-1835,1,17.446))
+
+/~*
+These, it will be observed, are not only curved but bent completely round upon
+themselves at a, being perfectly straight both before and after this singular
+bend, and the rest of the mountain bearing no traces of contortion.
+(RUSKIN-1835,1,23.584)
+*~/
+/*
+82 P:  82 P, 83 after, 75 P
+*/
+
+( (IP-MAT (NP-TPC-1 (D These))
+	  (, ,)
+	  (NP-SBJ-2 (PRO it))
+	  (MD will)
+	  (BE be)
+	  (VAN observed)
+	  (, ,)
+	  (CP-THT-2 (C 0)
+		    (IP-SUB (NP-SBJ *T*-1)
+			    (BEP are)
+			    (ADJP (ADJP (NEG not) (FP only) (ADJ curved))
+				  (CONJP (CONJ but)
+					 (RRC (VAN bent)
+					      (ADVP (ADV completely))
+					      (PP (ADV round)
+						  (P upon)
+						  (NP (PRO+N themselves)))
+					      (CODE {COM:picture_omitted})
+					      (PP (P at)
+						  (CODE <font>)
+						  (NP (N a))))))
+			    (, ,)
+			    (CODE <$$font>)
+			    (IP-PPL (IP-PPL (BAG being)
+					    (ADVP (ADV perfectly) (ADV straight))
+					    (PP (P (CONJ both) (P before) (CONJ and) (P after))
+						(NP (D this) (ADJ singular) (N bend))))
+				    (, ,)
+				    (CONJP (CONJ and)
+					   (IP-PPL (NP-SBJ (D the)
+							   (N rest)
+							   (PP (P of)
+							       (NP (D the) (N mountain))))
+						   (VAG bearing)
+						   (NP-OB1 (Q no)
+							   (NS traces)
+							   (PP (P of)
+							       (NP (N contortion)))))))))
+	  (. .))
+  (ID RUSKIN-1835,1,23.584))
+
+/~*
+When we were at the Hospice middle of July, remember the masses of snow around
+and beneath the hospice were universal and large,
+(RUSKIN-1835,1,26.644)
+*~/
+/*
+64 P:  64 P, 65 beneath, 59 P
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (BED were)
+			      (PP (P at)
+				  (NP (D the) (N Hospice)))
+			      (CODE <paren>)
+			      (NP-TMP (N middle)
+				      (PP (P of)
+					  (NP (NPR July)))))))
+	  (, ,)
+	  (CODE <P_1,26>)
+	  (NP-SBJ *pro*)
+	  (VBP remember)
+	  (CODE <$$paren>)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (D the)
+				  (NS masses)
+				  (PP (P of)
+				      (NP (N snow)))
+				  (PP (P (P around) (CONJ and) (P beneath))
+				      (NP (D the) (N hospice))))
+			  (BED were)
+			  (ADJP (ADJ universal) (CONJ and) (ADJ large))))
+	  (. ,))
+  (ID RUSKIN-1835,1,26.644))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	3/3/645
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	0/0/689
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd
+*/
+
+/~*
+The English were actively employed in refitting their own ships, securing the
+prizes, and distributing the prisoners; the Danes, in carrying on shore and
+disposing of the wounded and the dead.
+(SOUTHEY-1813,200.547)
+*~/
+/*
+82 P:  82 P, 83 of, 81 PP
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D The) (ADJ English))
+		    (BED were)
+		    (ADVP (ADV actively))
+		    (VAN employed)
+		    (PP (P in)
+			(IP-PPL (IP-PPL (VAG refitting)
+					(NP-OB1 (PRO$ their) (ADJ own) (NS ships)))
+				(, ,)
+				(CONJP (IP-PPL (VAG securing)
+					       (NP-OB1 (D the) (NS prizes))))
+				(, ,)
+				(CONJP (CONJ and)
+				       (IP-PPL (VAG distributing)
+					       (NP-OB1 (D the) (NS prisoners)))))))
+	  (, ;)
+	  (CONJP (IP-MAT=1 (NP-SBJ (D the) (NPRS Danes))
+			   (, ,)
+			   (PP (P in)
+			       (IP-PPL-2 (VAG carrying)
+					 (PP (P on)
+					     (NP (N shore)))
+					 (IP-PPL-PRN=2 (CONJ and)
+						       (VAG disposing)
+						       (PP (P of)))
+					 (NP-OB1 (NP (D the) (VAN wounded))
+						 (CONJP (CONJ and)
+							(NP (D the) (ADJ dead))))))))
+	  (. .))
+  (ID SOUTHEY-1813,200.547))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	1/1/592
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd
+*/
+
+/~*
+How could I value the training part rightly? How direct, sympathise with, and
+rightly honour masters without this experience? ...
+(THRING-187X,218.63)
+*~/
+/*
+44 P:  44 P, 45 with, 43 PP
+*/
+
+( (CP-QUE (CP-QUE (WADVP-1 (WADV How))
+		  (IP-SUB-2 (ADVP *T*-1)
+			    (MD could)
+			    (NP-SBJ (PRO I))
+			    (VB value)
+			    (NP-OB1 (D the) (N training) (N part))
+			    (ADVP (ADV rightly))))
+	  (, ?)
+	  (CONJP (CP-QUE (WADVP-3 (WADV How))
+			 (IP-SUB=2 (ADVP *T*-3)
+				   (VB direct)
+				   (, ,)
+				   (IP-SUB-PRN=2 (VB sympathise)
+						 (PP (P with)))
+				   (, ,)
+				   (IP-SUB-PRN=2 (CONJ and)
+						 (ADVP (ADV rightly))
+						 (VB honour))
+				   (NP-OB1 (NS masters))
+				   (PP (P without)
+				       (NP (D this) (N experience))))))
+	  (, ?)
+	  (. ...))
+  (ID THRING-187X,218.63))
+
+/~*
+- To-day two parents came to inspect; a Mr. P -, an Irish barrister of
+eminence, and a Mr. C-, a clergyman.
+(THRING-187X,224.244)
+*~/
+/*
+30 P:  30 P, 29 NPR
+*/
+
+( (IP-MAT (, -)
+	  (NP-TMP (N To-day))
+	  (NP-SBJ (NUM two)
+		  (NS parents)
+		  (NP-PRN *ICH*-1))
+	  (VBD came)
+	  (IP-INF-PRP (TO to) (VB inspect))
+	  (, ;)
+	  (NP-PRN-1 (NP (D a)
+			(NPR Mr.)
+			(NPR P)
+			(, -)
+			(, ,)
+			(NP-PRN (D an)
+				(ADJ Irish)
+				(N barrister)
+				(PP (P of)
+				    (NP (N eminence)))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (NP (D a)
+			       (NPR Mr.)
+			       (NPR C-)
+			       (, ,)
+			       (NP-PRN (D a) (N clergyman)))))
+	  (. .))
+  (ID THRING-187X,224.244))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	2/2/784
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	0/0/563
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd
+*/
+
+/~*
+And this I apprehend is a sufficient Call for, and Rule of Self-denial.
+(WESLEY-174X,33.543)
+*~/
+/*
+39 P:  39 P, 40 of, 38 PP
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-TPC-1 (D this))
+	      (NP-SBJ (PRO I))
+	      (VBP apprehend)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (NP-SBJ *T*-1)
+				      (BEP is)
+				      (NP-OB1-2 (D a)
+						(ADJ sufficient)
+						(N Call)
+						(PP (P for)
+						    (, ,)
+						    (NP-PRN=2 (CONJ and)
+							      (NP (N Rule)
+								  (PP (P of))))
+						    (NP (N+N Self-denial))))))
+	      (. .))
+  (ID WESLEY-174X,33.543))
+
+/~*
+In her last Sickness having been deeply serious in her Behaviour for several
+Months before she spent all the Intervals of her Convulsions, in speaking of,
+or to God.
+(WESLEY-174X,37.654)
+*~/
+/*
+81 P:  81 P, 82 to, 74 P
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (PRO$ her) (ADJ last) (N Sickness)))
+	  (CODE <paren>)
+	  (IP-PPL (HAG having)
+		  (BEN been)
+		  (ADJP (ADV deeply)
+			(ADJ serious)
+			(PP (P in)
+			    (NP (PRO$ her) (N Behaviour))))
+		  (PP (P for)
+		      (NP (Q several)
+			  (NS Months)
+			  (ADVP (ADV before)))))
+	  (CODE <$$paren>)
+	  (NP-SBJ (PRO she))
+	  (VBD spent)
+	  (NP-OB1 (Q all)
+		  (D the)
+		  (NS Intervals)
+		  (PP (P of)
+		      (NP (PRO$ her) (NS Convulsions))))
+	  (, ,)
+	  (PP (P in)
+	      (IP-PPL (VAG speaking)
+		      (PP (P (P of) (, ,) (CONJ or) (P to))
+			  (NP (NPR God)))))
+	  (. .))
+  (ID WESLEY-174X,37.654))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	2/2/727
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	1/1/930
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	3/3/882
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	1/1/344
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	2/2/359
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	0/0/606
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	0/0/927
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	0/0/534
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	3/3/645
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	0/0/689
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	1/1/592
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	2/2/784
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	0/0/563
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	2/2/727
+whole search, hits/tokens/total
+		15/15/8582
+*/

@@ -1,0 +1,475 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:07 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_adjunts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_adjunts\biography_and_diaries\result.out
+
+node:   NP-*ADT*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*ADT* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd
+*/
+
+/~*
+and gel+adde hine on mergen for+d swi+de f+agres hiwes, buton +alcum womme and
+wel sprecande.
+(coaelive,+ALS_[Basil]:483.801)
+*~/
+/*
+45 VAG^A:  45 VAG^A, 46 sprecande, 19 NP-GEN-ADT
+*/
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBD gel+adde)
+	  (NP-ACC (PRO^A hine))
+	  (PP (P on)
+	      (NP-ACC (N^A mergen)))
+	  (RP for+d)
+	  (NP-GEN-ADT (NP-GEN (ADJP-GEN (ADV swi+de) (ADJ^G f+agres))
+			      (N^G hiwes)
+			      (, ,)
+			      (PP (P buton)
+				  (NP-DAT (Q^D +alcum) (N^D womme))))
+		      (CONJP (CONJ and)
+			     (PTP-ACC (ADVP (ADV wel))
+				      (VAG^A sprecande))))
+	  (. .))
+  (ID coaelive,+ALS_[Basil]:483.801))
+
+/~*
++Ta +ta Maximus s+ade swa so+dlice +das word weopendum eagum, +te gewendon +ta
+h+a+tenan manega to geleafan fram heora leasum godum.
+(coaelive,+ALS_[Cecilia]:274.7274)
+*~/
+/*
+28 VAG^D:  28 VAG^D, 29 weopendum, 27 NP-DAT-ADT
+*/
+
+( (CODE <T03320007800,274>)
+  (IP-MAT (CP-ADV (ADV^T +Ta)
+		  (P +ta)
+		  (C 0)
+		  (IP-SUB (NP-NOM (NR^N Maximus))
+			  (VBD s+ade)
+			  (ADVP (ADV swa) (ADV so+dlice))
+			  (NP-ACC (D^A +das) (N^A word))
+			  (NP-DAT-ADT (VAG^D weopendum) (N^D eagum))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +te))
+	  (VBDI gewendon)
+	  (NP-NOM (D^N +ta) (N^N h+a+tenan) (Q^N manega))
+	  (PP (P to)
+	      (NP (N geleafan)))
+	  (PP (P fram)
+	      (NP-DAT (PRO$ heora) (ADJ^D leasum) (N^D godum)))
+	  (. .))
+  (ID coaelive,+ALS_[Cecilia]:274.7274))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd	2/2/7969
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd	0/0/156
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd	0/0/91
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd	0/0/351
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd	0/0/492
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd
+*/
+
+/~*
+& genemde +turh hine sylfne +tone antefn, +te hi be him sylfum singan sceoldon
++tysum naman: aperite mihi portas iustitie, +t+at is on englisc ge+teoda:
+ontyna+d me rihtwisnesse gatu, +t+at ic in gangende +turh +ta anddette minum
+Drihtne & hine herge;
+(cogregdC,GDPref_and_4_[C]:36.312.21.4665)
+*~/
+/*
+113 VAG^N:  113 VAG^N, 114 gangende, 48 NP-DAT-ADT
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBD genemde)
+	  (PP (P +turh)
+	      (NP-ACC-RFL (PRO^A hine)
+			  (ADJP-ACC (ADJ^A sylfne))))
+	  (NP-ACC (D^A +tone)
+		  (N^A antefn)
+		  (, ,)
+		  (CP-REL (WNP-1 0)
+			  (C +te)
+			  (IP-SUB (NP *T*-1)
+				  (NP-NOM (PRO^N hi))
+				  (PP (P be)
+				      (NP-DAT-RFL (PRO^D him)
+						  (ADJP-DAT (ADJ^D sylfum))))
+				  (VB singan)
+				  (MDDI sceoldon))))
+	  (NP-DAT-ADT (D^D +tysum)
+		      (N^D naman)
+		      (, :)
+		      (XP-PRN (FW aperite)
+			      (FW mihi)
+			      (FW portas)
+			      (FW iustitie)
+			      (, ,)
+			      (CP-REL (WNP-NOM-2 (D^N +t+at))
+				      (C 0)
+				      (IP-SUB (NP-NOM *T*-2)
+					      (BEPI is)
+					      (PP (P on)
+						  (NP-ACC (ADJ^A englisc) (N^A ge+teoda)))
+					      (, :)
+					      (XP-PRD (IP-MAT (RP+VBPI ontyna+d)
+							      (NP (PRO me))
+							      (NP-NOM (NP-GEN (N^G rihtwisnesse))
+								      (N^N gatu))
+							      (, ,)
+							      (CP-ADV (C +t+at)
+								      (IP-SUB (IP-SUB (NP-NOM (PRO^N ic)
+											      (PTP-NOM (RP in)
+												       (VAG^N gangende)
+												       (PP (P +turh)
+													   (NP-ACC (D^A +ta)))))
+										      (VBP anddette)
+										      (NP-DAT (PRO$^D minum) (NR^D Drihtne)))
+									      (CONJP (CONJ &)
+										     (IP-SUB-CON (NP-NOM *con*)
+												 (NP-ACC (PRO^A hine))
+												 (VBP herge)))))))))))
+	  (. ;))
+  (ID cogregdC,GDPref_and_4_[C]:36.312.21.4665))
+
+/~*
+Witodlice +t+at +t+at he cy+dde +at his for+dfore, +t+at he sceolde beon
+gel+aded to Sicilialande, hu m+ag +t+at beon elles ongyten, buton +t+at in
+Siciliaea ofer ealle o+dru land geonia+d +ta sea+das +tara tintregena upp
+weallendum fyre?
+(cogregdC,GDPref_and_4_[C]:36.314.29.4718)
+*~/
+/*
+121 VAG^D:  121 VAG^D, 122 weallendum, 117 NP-DAT-ADT
+*/
+
+( (CODE <T06760054200,36.314.29>)
+  (CP-QUE (ADVP-3 (ADV Witodlice))
+	  (NP-NOM-LFD-4 (D^N +t+at)
+			(CP-REL (WNP-ACC-1 (D^A +t+at))
+				(C 0)
+				(IP-SUB (NP-ACC *T*-1)
+					(NP-NOM (PRO^N he))
+					(VBD cy+dde)
+					(PP (P +at)
+					    (NP (PRO$ his) (N for+dfore)))))
+			(, ,)
+			(CP-THT-PRN (C +t+at)
+				    (IP-SUB (NP-NOM (PRO^N he))
+					    (MDD sceolde)
+					    (BE beon)
+					    (VBN gel+aded)
+					    (PP (P to)
+						(NP-DAT (NR^D Sicilialande))))))
+	  (, ,)
+	  (WADVP-2 (WADV hu))
+	  (IP-SUB-0 (ADVP *T*-2)
+		    (ADVP *ICH*-3)
+		    (NP-NOM-LFD *ICH*-4)
+		    (MDPI m+ag)
+		    (NP-NOM-RSP (D^N +t+at))
+		    (BE beon)
+		    (ADVP (ADV elles))
+		    (VBN ongyten)
+		    (, ,)
+		    (CP-ADV (P buton)
+			    (C 0)
+			    (IPX-SUB=0 (CP-THT (C +t+at)
+					       (IP-SUB (PP (P in)
+							   (NP (NR Siciliaea)))
+						       (PP (P ofer)
+							   (NP-ACC (Q^A ealle) (ADJ^A o+dru) (N^A land)))
+						       (VBPI geonia+d)
+						       (NP-NOM (D^N +ta)
+							       (N^N sea+das)
+							       (NP-GEN (D^G +tara) (N^G tintregena)))
+						       (NP-DAT-ADT (PTP-DAT (RP upp) (VAG^D weallendum))
+								   (N^D fyre)))))))
+	  (. ?))
+  (ID cogregdC,GDPref_and_4_[C]:36.314.29.4718))
+
+/~*
+& ongan +t+ancan +ag+ter ge hw+at mihte beon gedon to cl+ansunge +tam
+sweltendan bre+der, ge eac hw+at ic mihte settan to bysene +tam lifgendum
+bro+trum.
+(cogregdC,GDPref_and_4_[C]:57.344.19.5241)
+*~/
+/*
+39 VAG^D:  39 VAG^D, 40 sweltendan, 36 NP-DAT-ADT
+75 VAG^D:  75 VAG^D, 76 lifgendum, 72 NP-DAT-ADT
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (AXDI ongan)
+	  (VB +t+ancan)
+	  (CP-QUE (CP-QUE (CONJ +ag+ter)
+			  (CONJ ge)
+			  (WNP-NOM-1 (WPRO^N hw+at))
+			  (C 0)
+			  (IP-SUB (NP-NOM *T*-1)
+				  (MDD mihte)
+				  (BE beon)
+				  (VBN gedon)
+				  (PP (P to)
+				      (NP (N cl+ansunge)))
+				  (NP-DAT-ADT (D^D +tam) (VAG^D sweltendan) (N^D bre+der))))
+		  (, ,)
+		  (CONJP (CONJ ge)
+			 (ADV eac)
+			 (CP-QUE (WNP-ACC-2 (WPRO^A hw+at))
+				 (C 0)
+				 (IP-SUB (NP-ACC *T*-2)
+					 (NP-NOM (PRO^N ic))
+					 (MDD mihte)
+					 (VB settan)
+					 (PP (P to)
+					     (NP (N bysene)))
+					 (NP-DAT-ADT (D^D +tam) (VAG^D lifgendum) (N^D bro+trum))))))
+	  (. .))
+  (ID cogregdC,GDPref_and_4_[C]:57.344.19.5241))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd	4/3/5373
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd	0/0/1638
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd	0/0/135
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd	0/0/368
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd	0/0/323
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd	0/0/115
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd	0/0/359
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd
+*/
+
+/~*
+ond he w+as eft on his biscopdome on swa micelre fullfremednesse +t+at he
+h+alde laman mid his gebedum ond dumbe m+an ond sweltendum monnum heora lif
+geedneowade.
+(comart3,Mart_5_[Kotzor]:Jy29,A.3.1300)
+*~/
+/*
+72 VAG^D:  72 VAG^D, 73 sweltendum, 71 NP-DAT-ADT
+*/
+
+( (IP-MAT (CONJ ond)
+	  (NP-NOM (PRO^N he))
+	  (BEDI w+as)
+	  (ADVP-TMP (ADV^T eft))
+	  (PP (P on)
+	      (NP-DAT (PRO$ his) (N^D biscopdome)))
+	  (PP (P on)
+	      (NP-DAT (QP-DAT (ADV swa)
+			      (Q^D micelre)
+			      (CP-DEG *ICH*-2))
+		      (N^D fullfremednesse)
+		      (CP-DEG-2 (C +t+at)
+				(IP-SUB (IP-SUB (NP-NOM (PRO^N he))
+						(VBD h+alde)
+						(NP-ACC (NP-ACC (ADJ^A laman))
+							(CONJP *ICH*-1))
+						(PP (P mid)
+						    (NP-DAT (PRO$ his) (N^D gebedum)))
+						(CONJP-1 (CONJ ond)
+							 (NP-ACC (ADJ^A dumbe) (N^A m+an))))
+					(CONJP (CONJ ond)
+					       (IP-SUB-CON (NP-NOM *con*)
+							   (NP-DAT-ADT (VAG^D sweltendum) (N^D monnum))
+							   (NP-ACC (PRO$ heora) (N^A lif))
+							   (VBD geedneowade)))))))
+	  (. .))
+  (ID comart3,Mart_5_[Kotzor]:Jy29,A.3.1300))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd	1/1/2153
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd
+*/
+
+/~*
++Dysum +tus $gecwedenum wordum fram +tam abbode, Zosimus his cneowa gebigde,
+(comary,LS_23_[MaryofEgypt]:82.54)
+*~/
+/*
+11 VAG^D:  11 VAG^D, 12 $gecwedenum, 4 NP-DAT-ADT
+*/
+
+( (CODE <T05090003100,82>)
+  (IP-MAT (NP-DAT-ADT (D^D +Dysum)
+		      (PTP-DAT (ADVP (ADV +tus))
+			       (VAG^D $gecwedenum)
+			       (PP *ICH*-1))
+		      (N^D wordum)
+		      (PP-1 (P fram)
+			    (NP-DAT (D^D +tam) (N^D abbode))))
+	  (, ,)
+	  (NP-NOM (NR^N Zosimus))
+	  (NP-ACC (PRO$ his) (N^A cneowa))
+	  (VBD gebigde)
+	  (. ,))
+  (ID comary,LS_23_[MaryofEgypt]:82.54))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd	1/1/547
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd	0/0/163
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd	0/0/591
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd	0/0/604
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd	0/0/47
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coaelive.o3.psd	2/2/7969
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochad.o24.psd	0/0/156
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cochristoph.psd	0/0/91
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeuphr.psd	0/0/351
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coeust.psd	0/0/492
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdC.o24.psd	4/3/5373
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cogregdH.o23.psd	0/0/1638
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cojames.psd	0/0/135
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaC.o34.psd	0/0/368
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comargaT.psd	0/0/323
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart1.psd	0/0/115
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart2.psd	0/0/359
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comart3.o23.psd	1/1/2153
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\comary.psd	1/1/547
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\coneot.psd	0/0/163
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\corood.psd	0/0/591
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\cosevensl.psd	0/0/604
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\biography_and_diaries\covinceB.psd	0/0/47
+whole search, hits/tokens/total
+		8/7/21475
+*/

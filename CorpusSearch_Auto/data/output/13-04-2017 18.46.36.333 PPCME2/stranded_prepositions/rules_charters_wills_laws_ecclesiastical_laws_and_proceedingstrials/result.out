@@ -1,0 +1,227 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:55 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\stranded_prepositions\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
+For +ter is no+tyng +tat so put awey wyckede and vnclene +tou+gtes as doo+t
+good ocupa-cioun in holy scripture, to +te whyche a good womman, and specially
+a mayde, schulde so vse al here herte and wit +tat, +tei+g sche wolde, sche
+mowe not +tenke bote on Godes lawe.
+(CMAELR3,31.132)
+*~/
+/*
+128 P:  128 P, 129 wit, 127 NX
+*/
+( (IP-MAT (CONJ For)
+	  (NP-SBJ-1 (EX +ter))
+	  (BEP is)
+	  (NP-1 (Q+N no+tyng)
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ *T*-2)
+				(ADVP (ADVR so)
+				      (PP *ICH*-3))
+				(VBP put)
+				(ADVP-DIR (ADV awey))
+				(NP-OB1 (ADJP (ADJ wyckede) (CONJ and) (ADJ vnclene))
+					(NS +tou+gtes))
+				(PP-3 (P as)
+				      (CP-CMP (WADVP-4 0)
+					      (C 0)
+					      (IP-SUB (ADVP *T*-4)
+						      (DOP doo+t)
+						      (NP-SBJ (ADJ good) (CODE <P_31>) (N ocupa-cioun))
+						      (PP (P in)
+							  (NP (ADJ holy) (NPR scripture))))))
+				(, ,)
+				(CP-REL (WPP-5 (P to)
+					       (WNP (D +te) (WPRO whyche)))
+					(C 0)
+					(IP-SUB (IP-SUB-6 (PP *T*-5)
+							  (NP-SBJ (NP (D a) (ADJ good) (N womman)))
+							  (, ,)
+							  (IP-SUB-PRN=6 (CONJ and)
+									(ADVP (ADV specially))
+									(NP-SBJ (D a) (N mayde)))
+							  (, ,)
+							  (MD schulde)
+							  (ADVP (ADVR so)
+								(CP-DEG *ICH*-7))
+							  (VB vse)
+							  (NP-OB1 (Q al)
+								  (PRO$ here)
+								  (N herte)
+								  (CONJP (CONJ and)
+									 (NX (P wit))))
+							  (CP-DEG-7 (C +tat)
+								    (, ,)
+								    (IP-SUB (PP (P +tei+g)
+										(CP-ADV (C 0)
+											(IP-SUB (NP-SBJ (PRO sche))
+												(VBD wolde))))
+									    (, ,)
+									    (NP-SBJ (PRO sche))
+									    (MD mowe)
+									    (LB |)
+									    (NEG not)
+									    (VB +tenke)
+									    (PP (P bote)
+										(PP (P on)
+										    (NP (NPR$ Godes) (N lawe))))))))))))
+	  (. .))
+  (ID CMAELR3,31.132))
+
+/~*
+We halde+t vs alle wyse, alle discret, alle auyse;
+(CMAELR3,31.144)
+*~/
+/*
+3 P:  3 P, 4 We, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (P We))
+	  (VBP halde+t)
+	  (IP-SMC (NP-SBJ (PRO vs))
+		  (ADJP (ADJP (ADVP (Q alle))
+			      (ADJ wyse))
+			(, ,)
+			(CONJP (ADJP (ADVP (Q alle))
+				     (ADJ discret)))
+			(, ,)
+			(CONJP (ADJP (ADJP (ADVP (Q alle))
+					   (ADJ auyse))))))
+	  (. ;))
+  (ID CMAELR3,31.144))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	2/2/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+
+/~*
++Tan ure force es gane us fra, we pray ure lauerd be ure help for his mikill
+miht.
+(CMBENRUL,3.80)
+*~/
+/*
+22 P:  22 P, 23 fra, 18 PP
+*/
+
+( (IP-MAT (PP (P +Tan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO$ ure) (N force))
+			      (BEP es)
+			      (VBN gane)
+			      (PP (NP (PRO us))
+				  (P fra)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBP pray)
+	  (NP-OB2 (PRO$ ure) (NPR lauerd))
+	  (IP-INF (BE be)
+		  (NP-OB1 (PRO$ ure) (N help))
+		  (PP (P for)
+		      (NP (PRO$ his) (ADJ mikill) (N miht))))
+	  (. .))
+  (ID CMBENRUL,3.80))
+
+/~*
++tare may help +te here to.
+(CMBENRUL,4.83)
+*~/
+/*
+16 P:  16 P, 17 to, 12 PP
+*/
+
+( (IP-MAT (NP-SBJ (D +tare))
+	  (MD may)
+	  (VB help)
+	  (NP-OB2 (PRO +te))
+	  (PP (ADVP (ADV here))
+	      (P to))
+	  (. .))
+  (ID CMBENRUL,4.83))
+
+/~*
+yef sho be stabil in hir asking, And haitis for to suffir alle +te uiltez +tat
+man wille put hir to, Eftir +te fifte day sal sho be recaiuid in-til +te howse,
+And don in-til +te celle with +te nouices.
+(CMBENRUL,38.1215)
+*~/
+/*
+70 P:  70 P, 71 to, 66 PP
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P yef)
+			(CP-ADV (C 0)
+				(IP-SUB (IP-SUB (NP-SBJ (PRO sho))
+						(BEP be)
+						(ADJP (ADJ stabil))
+						(PP (P in)
+						    (NP (PRO$ hir) (N asking))))
+					(, ,)
+					(CONJP (CONJ And)
+					       (IP-SUB (NP-SBJ *con*)
+						       (VBP haitis)
+						       (IP-INF (FOR for)
+							       (TO to)
+							       (VB suffir)
+							       (NP-OB1 (Q alle)
+								       (D +te)
+								       (NS uiltez)
+								       (CP-REL (WNP-2 0)
+									       (C +tat)
+									       (IP-SUB (NP-OB1 *T*-2)
+										       (NP-SBJ (MAN man))
+										       (MD wille)
+										       (VB put)
+										       (PP (NP (PRO hir))
+											   (P to)))))))))))
+		    (, ,)
+		    (PP (P Eftir)
+			(NP (D +te) (ADJ fifte) (N day)))
+		    (MD sal)
+		    (NP-SBJ (PRO sho))
+		    (BE be)
+		    (VAN recaiuid)
+		    (PP (P in-til)
+			(NP (D +te) (N howse))))
+	  (, ,)
+	  (CONJP (CONJ And)
+		 (IP-MAT=1 (DAN don)
+			   (PP (P in-til)
+			       (NP (D +te) (N celle)))
+			   (PP (P with)
+			       (NP (D +te) (NS nouices)))))
+	  (. .))
+  (ID CMBENRUL,38.1215))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	3/3/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	2/2/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	3/3/1454
+whole search, hits/tokens/total
+		5/5/2508
+*/

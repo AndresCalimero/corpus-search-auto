@@ -1,0 +1,961 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:33 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_participal_phrases.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_participal_phrases\philosophy\result.out
+
+node:   PTP*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (PTP* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd
+*/
+
+/~*
+Hu Boetius hine singende geb+ad, & his earfo+du to Gode m+ande.
+(coboeth,BoHead:4.5)
+*~/
+/*
+20 VAG^N:  20 VAG^N, 21 singende, 19 PTP-NOM
+*/
+( (CODE <T06650000400,4>)
+  (CP-QUE (WADVP-1 (WADV Hu))
+	  (C 0)
+	  (IP-SUB (IP-SUB (ADVP *T*-1)
+			  (NP-NOM (NR^N Boetius))
+			  (NP-ACC-RFL (PRO^A hine))
+			  (PTP-NOM (VAG^N singende))
+			  (VBDI geb+ad))
+		  (, ,)
+		  (CONJP (CONJ &)
+			 (IP-SUB-CON (ADVP *T*-1)
+				     (NP-NOM *con*)
+				     (NP-ACC (PRO$ his) (N^A earfo+du))
+				     (PP (P to)
+					 (NP-DAT (NR^D Gode)))
+				     (VBD m+ande))))
+	  (. .))
+  (ID coboeth,BoHead:4.5))
+
+/~*
+& +tus singend cw+a+d:
+(coboeth,Bo:1.8.2.73)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singend, 9 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP (ADV +tus))
+	  (PTP-NOM (VAG^N singend))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:1.8.2.73))
+
+/~*
++da lio+d +te ic wrecca geo lustb+arlice song ic sceal nu heofiende singan, &
+mid swi+te ungeradum wordum gesettan, +teah ic geo hwilum gecoplice funde;
+(coboeth,Bo:1.8.2.74)
+*~/
+/*
+39 VAG^N:  39 VAG^N, 40 heofiende, 38 PTP-NOM
+*/
+
+( (IP-MAT-SPE (IP-MAT-SPE-0 (NP-ACC (D^A +da)
+				    (N^A lio+d)
+				    (CP-REL-SPE (WNP-1 0)
+						(C +te)
+						(IP-SUB-SPE (NP *T*-1)
+							    (NP-NOM (PRO^N ic)
+								    (NP-NOM-PRN (N^N wrecca)))
+							    (ADVP-TMP (ADV^T geo))
+							    (ADVP (ADV lustb+arlice))
+							    (VBDI song))))
+			    (NP-NOM (PRO^N ic))
+			    (MDPI sceal)
+			    (ADVP-TMP (ADV^T nu))
+			    (PTP-NOM (VAG^N heofiende))
+			    (VB singan))
+	      (, ,)
+	      (CONJP (CONJ &)
+		     (IPX-MAT-SPE=0 (PP (P mid)
+					(NP-DAT (ADJP-DAT (ADV swi+te) (ADJ^D ungeradum))
+						(N^D wordum)))
+				    (VB gesettan)
+				    (, ,)
+				    (CP-ADV-SPE (P +teah)
+						(C 0)
+						(IP-SUB-SPE (NP-NOM (PRO^N ic))
+							    (ADVP-TMP (ADV^T geo))
+							    (ADVP-TMP (ADV^T hwilum))
+							    (ADVP (ADV gecoplice))
+							    (VBD funde)))))
+	      (. ;))
+  (ID coboeth,Bo:1.8.2.74))
+
+/~*
+ac ic nu wepende & gisciende ofgeradra worda misfo.
+(coboeth,Bo:1.8.2.75)
+*~/
+/*
+12 VAG^N:  12 VAG^N, 13 wepende, 10 PTP-NOM
+16 VAG^N:  16 VAG^N, 17 gisciende, 10 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ ac)
+	      (NP-NOM (PRO^N ic))
+	      (ADVP-TMP (ADV^T nu))
+	      (PTP-NOM (VAG^N (VAG^N wepende) (CONJ &) (VAG^N gisciende)))
+	      (NP-GEN (ADJ^G ofgeradra) (N^G worda))
+	      (VBP misfo)
+	      (. .))
+  (ID coboeth,Bo:1.8.2.75))
+
+/~*
++Ta ic +ta +tis leo+d, cw+a+d Boetius, geomriende asungen h+afde, +ta com
++t+ar gan in to me heofencund Wisdom,
+(coboeth,Bo:3.8.15.82)
+*~/
+/*
+32 VAG^N:  32 VAG^N, 33 geomriende, 31 PTP-NOM
+*/
+
+( (CODE <T06660001800,3.8.15>)
+  (IP-MAT-SPE (CP-ADV-SPE (P +Ta)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (ADVP-TMP (ADV^T +ta))
+				      (NP-ACC (D^A +tis) (N^A leo+d))
+				      (, ,)
+				      (-PRN (VBDI cw+a+d)
+					    (NP-NOM (NR^N Boetius)))
+				      (, ,)
+				      (PTP-NOM (VAG^N geomriende))
+				      (VBN asungen)
+				      (HVD h+afde)))
+	      (, ,)
+	      (ADVP-TMP (ADV^T +ta))
+	      (AXDI com)
+	      (ADVP-LOC (ADV^L +t+ar))
+	      (VB gan)
+	      (PP (RP in)
+		  (P to)
+		  (NP (PRO me)))
+	      (NP-NOM (ADJ^N heofencund) (N^N Wisdom))
+	      (. ,))
+  (ID coboeth,Bo:3.8.15.82))
+
+/~*
+& +tus singende cw+a+d:
+(coboeth,Bo:3.9.29.117)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singende, 9 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP (ADV +tus))
+	  (PTP-NOM (VAG^N singende))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:3.9.29.117))
+
+/~*
+ac cw+a+d to +tam Mode: Sona swa ic +te +arest on +tisse unrotnesse geseah
++tus murciende ic ongeat +t+at +tu w+are ut afaren of +tines f+ader e+dele,
++t+at is for minum larum.
+(coboeth,Bo:5.11.1.139)
+*~/
+/*
+52 VAG:  52 VAG, 53 murciende, 48 PTP-1
+*/
+
+( (IP-MAT (CONJ ac)
+	  (NP-NOM *con*)
+	  (VBDI cw+a+d)
+	  (PP (P to)
+	      (NP-DAT (D^D +tam) (N^D Mode)))
+	  (, :)
+	  (IP-MAT-SPE (CP-ADV-SPE (ADV^T Sona)
+				  (P swa)
+				  (C 0)
+				  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+					      (NP (PRO +te)
+						  (PTP *ICH*-1))
+					      (ADVP-TMP (ADVS^T +arest))
+					      (PP (P on)
+						  (NP-DAT (D^D +tisse) (N^D unrotnesse)))
+					      (VBDI geseah)
+					      (PTP-1 (ADVP (ADV +tus))
+						     (VAG murciende))))
+		      (NP-NOM (PRO^N ic))
+		      (VBDI ongeat)
+		      (CP-THT-SPE (C +t+at)
+				  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+					      (BEDS w+are)
+					      (RP ut)
+					      (VBN afaren)
+					      (PP (P of)
+						  (NP-DAT (NP-GEN (PRO$^G +tines) (N^G f+ader))
+							  (N^D e+dele)
+							  (, ,)
+							  (-PRN (NP-NOM (D^N +t+at))
+								(BEPI is)
+								(XP (PP (P for)
+									(NP-DAT (PRO$^D minum) (N^D larum))))))))))
+	  (. .))
+  (ID coboeth,Bo:5.11.1.139))
+
+/~*
+Hw+at, eac se broc, +teah he swife of his rihtryne, +donne +t+ar micel stan
+wealwiende of +tam heohan munte oninnan feal+d & hine tod+al+d & him his
+rihtrynes wi+dstent.
+(coboeth,Bo:6.14.14.215)
+*~/
+/*
+56 VAG^N:  56 VAG^N, 57 wealwiende, 55 PTP-NOM
+*/
+
+( (CODE <T06660009900,6.14.14>)
+  (QTP (INTJP (WPRO Hw+at))
+       (, ,)
+       (ADVP (ADV eac))
+       (NP-NOM (D^N se) (N^N broc))
+       (, ,)
+       (CP-ADV-SPE (P +teah)
+		   (C 0)
+		   (IP-SUB-SPE (NP-NOM (PRO^N he))
+			       (VBPS swife)
+			       (PP (P of)
+				   (NP (PRO$ his) (N rihtryne)))))
+       (, ,)
+       (CP-ADV-SPE (P +donne)
+		   (C 0)
+		   (IP-SUB-SPE (IP-SUB-SPE (ADVP-LOC (ADV^L +t+ar))
+					   (NP-NOM (Q^N micel)
+						   (N^N stan)
+						   (PTP-NOM (VAG^N wealwiende)))
+					   (PP (P of)
+					       (NP-DAT (D^D +tam) (ADJ^D heohan) (N^D munte)))
+					   (ADVP-LOC (ADV^L oninnan))
+					   (VBPI feal+d))
+			       (CONJP (CONJ &)
+				      (IP-SUB-CON-SPE (NP-NOM *con*)
+						      (NP-ACC (PRO^A hine))
+						      (RP+VBPI tod+al+d)))
+			       (CONJP (CONJ &)
+				      (IP-SUB-CON-SPE (NP-NOM *con*)
+						      (NP-DAT (PRO^D him))
+						      (NP-GEN (PRO$ his) (N^G rihtrynes))
+						      (RP+VBPI wi+dstent)))))
+       (. .))
+  (ID coboeth,Bo:6.14.14.215))
+
+/~*
+& +te +ta snyttro on gebrohte, +te +tu +ta woruld are mid begeate, +te +tu nu
+sorgiende anforlete.
+(coboeth,Bo:7.17.11.268)
+*~/
+/*
+67 VAG^N:  67 VAG^N, 68 sorgiende, 66 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM *con*)
+	      (NP-1 (PRO +te))
+	      (NP-ACC (D^A +ta)
+		      (N^A snyttro)
+		      (CP-REL-SPE *ICH*-2))
+	      (PP (NP *ICH*-1)
+		  (P on))
+	      (VBD gebrohte)
+	      (, ,)
+	      (CP-REL-SPE-2 (WNP-3 0)
+			    (C +te)
+			    (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+					(NP-ACC (D^A +ta)
+						(N woruld)
+						(N^A are)
+						(CP-REL-SPE *ICH*-4))
+					(PP (NP *T*-3)
+					    (P mid))
+					(VBD begeate)
+					(, ,)
+					(CP-REL-SPE-4 (WNP-5 0)
+						      (C +te)
+						      (IP-SUB-SPE (NP *T*-5)
+								  (NP-NOM (PRO^N +tu))
+								  (ADVP-TMP (ADV^T nu))
+								  (PTP-NOM (VAG^N sorgiende))
+								  (VBD anforlete)))))
+	      (. .))
+  (ID coboeth,Bo:7.17.11.268))
+
+/~*
+Gesege, la Mod, hw+a+der +te betere +tince, nu nanwuht woruldlices f+astes &
+$unhwearfiendes bion ne m+ag? Hw+a+der +de +du hi forseo, & +tines agnes
++tonces hi forlete buton sare, +te +tu gebide hwonne hi +de sorgiendne
+forl+aten?
+(coboeth,Bo:8.20.28.339)
+*~/
+/*
+135 VAG^A:  135 VAG^A, 136 sorgiendne, 134 PTP-ACC
+*/
+
+( (CODE <T06660019000,8.20.28>)
+  (IP-MAT-SPE (VBI Gesege)
+	      (, ,)
+	      (INTJ la)
+	      (NP-NOM-VOC (N^N Mod))
+	      (, ,)
+	      (CP-QUE-SPE (CP-QUE-SPE (WQ hw+a+der)
+				      (C 0)
+				      (IP-SUB-SPE (NP-NOM *exp*)
+						  (NP-DAT (PRO^D +te))
+						  (ADJP-NOM-PRD (ADJR^N betere))
+						  (VBPS +tince)
+						  (, ,)
+						  (CP-ADV-SPE (P nu)
+							      (C 0)
+							      (IP-SUB-SPE (NP-NOM (NEG+Q^N nanwuht)
+										  (NP-GEN (ADJP-GEN (ADJ^G woruldlices)
+												    (CONJP *ICH*-1))
+											  (N^G f+astes)
+											  (CONJP-1 (CONJ &) (ADJ^G $unhwearfiendes))))
+									  (BE bion)
+									  (NEG ne)
+									  (MDPI m+ag)))))
+			  (, ?)
+			  (CODE <T06660019100,8.20.30>)
+			  (CONJP (CP-QUE-SPE (WQ Hw+a+der)
+					     (C +de)
+					     (IP-SUB-SPE (IP-SUB-SPE (NP-NOM (PRO^N +du))
+								     (NP-ACC (PRO^A hi))
+								     (VBPS forseo))
+							 (, ,)
+							 (CONJP (CONJ &)
+								(IP-SUB-CON-SPE (NP-NOM *con*)
+										(NP-GEN-ADT (PRO$^G +tines) (ADJ^G agnes) (N^G +tonces))
+										(NP-ACC (PRO^A hi))
+										(VBPS forlete)
+										(PP (P buton)
+										    (NP-DAT (N^D sare)))
+										(, ,)
+										(CP-ADV-SPE (C +te)
+											    (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+													(VBPS gebide)
+													(CP-FRL-TMP-SPE (WADVP-TMP-2 (WADV^T hwonne))
+															(C 0)
+															(IP-SUB-SPE (ADVP-TMP *T*-2)
+																    (NP-NOM (PRO^N hi))
+																    (NP-ACC (PRO^A +de)
+																	    (PTP-ACC (VAG^A sorgiendne)))
+																    (VBPS forl+aten)))))))))))
+	      (. ?))
+  (ID coboeth,Bo:8.20.28.339))
+
+/~*
+Eala +t+at nanwuht nis f+aste stondendes weorces a wuniende on worulde.
+(coboeth,Bo:9.21.8.346)
+*~/
+/*
+22 VAG^G:  22 VAG^G, 23 stondendes, 18 PTP-GEN
+*/
+
+( (CODE <T06660019400,9.21.8>)
+  (INTJP (INTJ Eala)
+	 (CP-THT (C +t+at)
+		 (IP-SUB (NP-NOM (NEG+Q^N nanwuht)
+				 (NP-GEN *ICH*-1))
+			 (NEG+BEPI nis)
+			 (NP-GEN-1 (PTP-GEN (ADVP (ADV f+aste))
+					    (VAG^G stondendes))
+				   (N^G weorces))
+			 (ADVP-TMP (ADV^T a))
+			 (VAG wuniende)
+			 (PP (P on)
+			     (NP (N worulde)))))
+	 (. .))
+  (ID coboeth,Bo:9.21.8.346))
+
+/~*
+for+tam sint swi+de tedre & swi+dre hreosende +tas ges+al+ta.
+(coboeth,Bo:11.25.28.437)
+*~/
+/*
+20 VAG^N:  20 VAG^N, 21 hreosende, 16 PTP-NOM
+*/
+
+( (IP-MAT-SPE (ADVP (ADV for+tam))
+	      (BEPI sint)
+	      (ADJP-NOM-PRD (ADJP-NOM (ADV swi+de) (ADJ^N tedre))
+			    (CONJP (CONJ &)
+				   (PTP-NOM (ADVP (ADV swi+dre))
+					    (VAG^N hreosende))))
+	      (NP-NOM (D^N +tas) (N^N ges+al+ta))
+	      (. .))
+  (ID coboeth,Bo:11.25.28.437))
+
+/~*
+For+tam simle se wisa mon eall his lif l+at on gefean unonwendendlice & orsorg,
++tonne he forsih+t +ag+der ge +tas eor+dlican god ge eac +ta yflu, & hopa+d to
++tam toweardan; +t+at sint +ta ecan. $For+tam +te God hine gehelt +aghwonan
+singallice wuniendne on his modes ges+al+dum, +deah +te se wind +tara earfo+ta
+& seo singale gemen +tissa worulds+al+da him on blawe.
+(coboeth,Bo:12.27.8.460)
+*~/
+/*
+141 VAG^A:  141 VAG^A, 142 wuniendne, 137 PTP-ACC
+*/
+
+( (CODE <T06660027000,12.27.8>)
+  (IP-MAT-SPE (ADVP (ADV For+tam))
+	      (ADVP-TMP (ADV^T simle))
+	      (NP-NOM (D^N se) (ADJ^N wisa) (N^N mon))
+	      (NP-ACC (Q^A eall) (PRO$ his) (N^A lif))
+	      (VBPI l+at)
+	      (PP (P on)
+		  (NP (N gefean)))
+	      (ADVP (ADVP (ADV unonwendendlice))
+		    (CONJP (CONJ &)
+			   (ADJP-NOM (ADJ^N orsorg))))
+	      (, ,)
+	      (CP-ADV-SPE (P +tonne)
+			  (C 0)
+			  (IP-SUB-SPE (IP-SUB-SPE (NP-NOM (PRO^N he))
+						  (VBPI forsih+t)
+						  (NP-ACC (CONJ +ag+der)
+							  (CONJ ge)
+							  (NP-ACC (D^A +tas) (ADJ^A eor+dlican) (N^A god))
+							  (CONJP (CONJ ge)
+								 (ADV eac)
+								 (NP-ACC (D^A +ta) (N^A yflu)))))
+				      (, ,)
+				      (CONJP (CONJ &)
+					     (IP-SUB-CON-SPE (NP-NOM *con*)
+							     (VBPI hopa+d)
+							     (PP (P to)
+								 (NP-DAT (D^D +tam)
+									 (ADJ^D toweardan)
+									 (, ;)
+									 (CP-REL-SPE (WNP-NOM-1 (D^N +t+at))
+										     (C 0)
+										     (IP-SUB-SPE (NP-NOM *T*-1)
+												 (BEPI sint)
+												 (NP-NOM-PRD (D^N +ta) (ADJ^N ecan))))))))))
+	      (, .)
+	      (CODE <T06660027100,12.27.11>)
+	      (CP-ADV-SPE (P $For+tam)
+			  (C +te)
+			  (CODE <TEXT:For+tam+te>)
+			  (IP-SUB-SPE (NP-NOM (NR^N God))
+				      (NP-ACC (PRO^A hine))
+				      (VBPI gehelt)
+				      (ADVP-DIR (ADV^D +aghwonan))
+				      (PTP-ACC (ADVP (ADV singallice))
+					       (VAG^A wuniendne)
+					       (PP (P on)
+						   (NP-DAT (NP-GEN (PRO$ his) (N^G modes))
+							   (N^D ges+al+dum))))
+				      (, ,)
+				      (CP-ADV-SPE (P +deah)
+						  (C +te)
+						  (IP-SUB-SPE (NP-NOM (NP-NOM (D^N se)
+									      (N^N wind)
+									      (NP-GEN (D^G +tara) (N^G earfo+ta)))
+								      (CONJP (CONJ &)
+									     (NP-NOM (D^N seo)
+										     (ADJ^N singale)
+										     (N^N gemen)
+										     (NP-GEN (D^G +tissa) (N^G worulds+al+da)))))
+							      (PP (NP-DAT (PRO^D him))
+								  (P on))
+							      (VBPS blawe)))))
+	      (. .))
+  (ID coboeth,Bo:12.27.8.460))
+
+/~*
+ac meahtes +te gan singende $+tone ealdan cwide +te mon gefyrn $sang, +t+at se
+nacoda wegferend him $nanwuht ne ondrede.
+(coboeth,Bo:14.33.11.592)
+*~/
+/*
+14 VAG^N:  14 VAG^N, 15 singende, 13 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ ac)
+	      (NP-NOM *con*)
+	      (MDDI meahtes)
+	      (NP-RFL-ADT (PRO +te))
+	      (VB gan)
+	      (PTP-NOM (VAG^N singende)
+		       (NP-ACC (D^A $+tone)
+			       (ADJ^A ealdan)
+			       (N^A cwide)
+			       (CP-REL-SPE (WNP-1 0)
+					   (C +te)
+					   (IP-SUB-SPE (NP *T*-1)
+						       (NP-NOM (MAN^N mon))
+						       (ADVP-TMP (ADV^T gefyrn))
+						       (VBDI $sang)))
+			       (, ,)
+			       (CP-THT-PRN-SPE (C +t+at)
+					       (IP-SUB-SPE (NP-NOM (D^N se) (ADJ^N nacoda) (N^N wegferend))
+							   (NP-DAT-RFL (PRO^D him))
+							   (NP-ACC (NEG+Q^A $nanwuht))
+							   (NEG ne)
+							   (VBPS ondrede)))))
+	      (. .))
+  (ID coboeth,Bo:14.33.11.592))
+
+/~*
+& +dus singende cw+a+d:
+(coboeth,Bo:19.46.1.820)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singende, 6 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (PTP-NOM (ADVP (ADV +dus))
+		   (VAG^N singende))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:19.46.1.820))
+
+/~*
+& +tus singende $cw+a+d:
+(coboeth,Bo:21.48.21.876)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singende, 6 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (PTP-NOM (ADVP (ADV +tus))
+		   (VAG^N singende))
+	  (VBDI $cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:21.48.21.876))
+
+/~*
+& +tus singende cw+a+d:
+(coboeth,Bo:26.60.26.1126)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singende, 6 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (PTP-NOM (ADVP (ADV +tus))
+		   (VAG^N singende))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:26.60.26.1126))
+
+/~*
+& +tus singende cw+a+d:
+(coboeth,Bo:31.71.3.1318)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singende, 9 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP (ADV +tus))
+	  (PTP-NOM (VAG^N singende))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:31.71.3.1318))
+
+/~*
+Se wlite +t+as lichoman is swi+de $flionde & swi+de tedre & swi+de anlic
+eor+dan blostmum.
+(coboeth,Bo:32.72.28.1349)
+*~/
+/*
+21 VAG^N:  21 VAG^N, 22 $flionde, 17 PTP-NOM
+*/
+
+( (CODE <T06660087900,32.72.28>)
+  (IP-MAT-SPE (NP-NOM (D^N Se)
+		      (N^N wlite)
+		      (NP-GEN (D^G +t+as) (N^G lichoman)))
+	      (BEPI is)
+	      (ADJP-NOM-PRD (PTP-NOM (ADVP (ADV swi+de))
+				     (VAG^N $flionde))
+			    (CONJP (CONJ &)
+				   (ADJP-NOM (ADV swi+de) (ADJ^N tedre)))
+			    (CONJP (CONJ &)
+				   (ADJP-NOM (ADV swi+de)
+					     (ADJ^N anlic)
+					     (NP-DAT (NP-GEN (N^G eor+dan))
+						     (N^D blostmum)))))
+	      (. .))
+  (ID coboeth,Bo:32.72.28.1349))
+
+/~*
+& +tus singinde cw+a+d:
+(coboeth,Bo:32.73.21.1360)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 singinde, 9 PTP-NOM
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (ADVP (ADV +tus))
+	  (PTP-NOM (VAG^N singinde))
+	  (VBDI cw+a+d)
+	  (. :))
+  (ID coboeth,Bo:32.73.21.1360))
+
+/~*
+& cw+a+d: Genog sweotol hit is +t+atte God is anfeald & untod+alendlic, +teah
+hine dysige men on m+anig tod+alen, $+tonne hi dwoliende seca+d +t+at hehste
+god on +da s+amran gesceafta.
+(coboeth,Bo:33.74.28.1389)
+*~/
+/*
+73 VAG^N:  73 VAG^N, 74 dwoliende, 72 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM *con*)
+	      (VBDI cw+a+d)
+	      (, :)
+	      (IP-MAT-SPE (ADJP-NOM-PRD (ADV Genog) (ADJ^N sweotol))
+			  (NP-NOM-x (PRO^N hit))
+			  (BEPI is)
+			  (CP-THT-SPE-x (C +t+atte)
+					(IP-SUB-SPE (NP-NOM (NR^N God))
+						    (BEPI is)
+						    (ADJP-NOM-PRD (ADJ^N anfeald) (CONJ &) (ADJ^N untod+alendlic))))
+			  (, ,)
+			  (CP-ADV-SPE (P +teah)
+				      (C 0)
+				      (IP-SUB-SPE (NP-ACC (PRO^A hine))
+						  (NP-NOM (ADJ^N dysige) (N^N men))
+						  (PP (P on)
+						      (NP-ACC (Q^A m+anig)))
+						  (RP+VBPS tod+alen)
+						  (, ,)
+						  (CP-ADV-SPE (P $+tonne)
+							      (C 0)
+							      (IP-SUB-SPE (NP-NOM (PRO^N hi)
+										  (PTP-NOM (VAG^N dwoliende)))
+									  (VBPI seca+d)
+									  (NP-ACC (D^A +t+at) (ADJS^A hehste) (N^A god))
+									  (PP (P on)
+									      (NP-ACC (D^A +da) (ADJR^A s+amran) (N^A gesceafta))))))))
+	      (. .))
+  (ID coboeth,Bo:33.74.28.1389))
+
+/~*
+Ne mihte nanwuht libbendes +t+are eor+tan brucan ne +t+as w+ateres, ne on
+nau+drum eardigan for cile, gif +tu hi hw+athwegununga wi+d fir ne gemengdest.
+(coboeth,Bo:33.80.19.1518)
+*~/
+/*
+12 VAG^G:  12 VAG^G, 13 libbendes, 11 PTP-GEN
+*/
+
+( (CODE <T06660099000,33.80.19>)
+  (IP-MAT-SPE-0 (NEG Ne)
+		(MDD mihte)
+		(NP-NOM (NEG+Q^N nanwuht)
+			(PTP-GEN (VAG^G libbendes)))
+		(NP-GEN (NP-GEN (D^G +t+are) (N^G eor+tan))
+			(CONJP *ICH*-1))
+		(VB brucan)
+		(CONJP-1 (NEG+CONJ ne)
+			 (NP-GEN (D^G +t+as) (N^G w+ateres)))
+		(, ,)
+		(IPX-MAT-PRN-SPE=0 (NEG+CONJ ne)
+				   (PP (P on)
+				       (NP-DAT (NEG+Q^D nau+drum)))
+				   (VB eardigan)
+				   (PP (P for)
+				       (NP (N cile))))
+		(, ,)
+		(CP-ADV-SPE (P gif)
+			    (C 0)
+			    (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+					(NP-ACC (PRO^A hi))
+					(ADVP (ADV hw+athwegununga))
+					(PP (P wi+d)
+					    (NP-DAT (N^D fir)))
+					(NEG ne)
+					(VBDI gemengdest)))
+		(. .))
+  (ID coboeth,Bo:33.80.19.1518))
+
+/~*
+Swa +du gesceope +ta saule +t+at hio sceolde ealne weg hwearfian on hire
+selfre, swa swa eall +tes rodor hwerf+d, o+d+de swa swa hweol onhwerf+d,
+smeagende ymb hire sceoppend, o+d+de ymbe hi selfe, o+d+de ymbe +tas
+eor+dlican gesceafta.
+(coboeth,Bo:33.81.25.1548)
+*~/
+/*
+93 VAG^N:  93 VAG^N, 94 smeagende, 92 PTP-NOM
+*/
+
+( (CODE <T06660100900,33.81.25>)
+  (IP-MAT-SPE (ADVP (ADV Swa))
+	      (NP-NOM (PRO^N +du))
+	      (VBD gesceope)
+	      (NP-ACC (D^A +ta) (N^A saule))
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N hio))
+				      (MDD sceolde)
+				      (NP-ACC-TMP (Q^A ealne) (N^A weg))
+				      (VB hwearfian)
+				      (PP (P on)
+					  (NP-DAT-RFL (PRO^D hire)
+						      (ADJP-DAT (ADJ^D selfre))))
+				      (, ,)
+				      (PP (PP (ADV swa)
+					      (P swa)
+					      (CP-CMP-SPE (WADVP-1 0)
+							  (C 0)
+							  (IP-SUB-SPE (ADVP *T*-1)
+								      (NP-NOM (Q^N eall) (D^N +tes) (N^N rodor))
+								      (VBPI hwerf+d))))
+					  (, ,)
+					  (CONJP (CONJ o+d+de)
+						 (PP (ADV swa)
+						     (P swa)
+						     (CP-CMP-SPE (WADVP-2 0)
+								 (C 0)
+								 (IP-SUB-SPE (ADVP *T*-2)
+									     (NP-NOM (N^N hweol))
+									     (RP+VBPI onhwerf+d))))))
+				      (, ,)
+				      (PTP-NOM (VAG^N smeagende)
+					       (PP (PP (P ymb)
+						       (NP-ACC (PRO$ hire) (N^A sceoppend)))
+						   (, ,)
+						   (CONJP (CONJ o+d+de)
+							  (PP (P ymbe)
+							      (NP-ACC-RFL (PRO^A hi)
+									  (ADJP-ACC (ADJ^A selfe)))))
+						   (, ,)
+						   (CONJP (CONJ o+d+de)
+							  (PP (P ymbe)
+							      (NP-ACC (D^A +tas) (ADJ^A eor+dlican) (N^A gesceafta))))))))
+	      (. .))
+  (ID coboeth,Bo:33.81.25.1548))
+
+/~*
+irna+d hidres +didres dwoligende under +t+am hrofe eallra gesceafta;
+(coboeth,Bo:36.108.14.2120)
+*~/
+/*
+14 VAG^N:  14 VAG^N, 15 dwoligende, 13 PTP-NOM
+*/
+
+( (CODE <T06660138800,36.108.14>)
+  (IP-MAT-SPE (NP-NOM *con*)
+	      (VBPI irna+d)
+	      (ADVP-DIR (ADV^D hidres) (ADV^D +didres))
+	      (PTP-NOM (VAG^N dwoligende))
+	      (PP (P under)
+		  (NP-DAT (D^D +t+am)
+			  (N^D hrofe)
+			  (NP-GEN (Q^G eallra) (N^G gesceafta))))
+	      (. ;))
+  (ID coboeth,Bo:36.108.14.2120))
+
+/~*
++t+at dysi is anlicost +te sum cild sie full hal & ful +alt+awe geboren, & swa
+fullice +dionde on eallum cystum & cr+aftum +ta hwile +te hit on cnihthade
+bi+d. & swa for+d eallne giogo+dhad, o+d he wyr+d +alces cr+aftes medeme, &
++donne lytle +ar his midferh+de weor+de b+am eagum blind, & eac +t+as modes
+eagan weor+dan swa ablende +t+at he nanwuht ne gemune +t+as +de $he +afre +ar
+geseah o+d+de geherde, & wene +teah +d+at he sie +alces +tinges swa medeme swa
+he +afre medomest w+are, & wen+d +t+at +alcum men sie swa swa him si, & +alcum
+men +dince swa swa him +tinc+d.
+(coboeth,Bo:38.122.1.2428)
+*~/
+/*
+55 VAG^N:  55 VAG^N, 56 +dionde, 49 PTP-NOM
+*/
+
+( (CODE <T06660158000,38.122.1>)
+  (IP-MAT-SPE (NP-NOM (D^N +t+at) (N^N dysi))
+	      (BEPI is)
+	      (ADJP-NOM-PRD (ADJS^N anlicost)
+			    (CP-THT-SPE (C +te)
+					(IP-SUB-SPE (IP-SUB-SPE-0 (NP-NOM (Q^N sum) (N^N cild))
+								  (BEPS sie)
+								  (ADJP-NOM-PRD (ADJP-NOM (ADV full) (ADJ^N hal))
+										(CONJP (CONJ &)
+										       (ADJP-NOM (ADV ful) (ADJ^N +alt+awe)))
+										(CONJP *ICH*-1))
+								  (VBN geboren)
+								  (, ,)
+								  (CONJP-1 (CONJ &)
+									   (PTP-NOM (ADVP (ADV swa) (ADV fullice))
+										    (VAG^N +dionde)
+										    (PP (P on)
+											(NP-DAT (Q^D eallum)
+												(N^D cystum)
+												(CONJP (CONJ &)
+												       (NX-DAT (N^D cr+aftum)))))))
+								  (NP-ACC-TMP (D^A +ta)
+									      (N^A hwile)
+									      (CP-REL-SPE (WADVP-TMP-2 0)
+											  (C +te)
+											  (IP-SUB-SPE (ADVP-TMP *T*-2)
+												      (NP-NOM (PRO^N hit))
+												      (PP (P on)
+													  (NP-DAT (N^D cnihthade)))
+												      (BEPI bi+d)))))
+						    (, .)
+						    (CODE <T06660158100,38.122.4>)
+						    (CONJP (CONJ &)
+							   (IPX-SUB-CON-SPE=0 (ADVP (ADV swa))
+									      (RP for+d)
+									      (NP-ACC-TMP (Q^A eallne) (N^A giogo+dhad))
+									      (, ,)
+									      (CP-ADV-SPE (P o+d)
+											  (C 0)
+											  (IP-SUB-SPE (NP-NOM (PRO^N he))
+												      (BEPI wyr+d)
+												      (ADJP-NOM-PRD (NP-GEN (Q^G +alces) (N^G cr+aftes))
+														    (ADJ^N medeme))))))
+						    (, ,)
+						    (CONJP (CONJ &)
+							   (IP-SUB-CON-SPE (NP-NOM *con*)
+									   (ADVP-TMP (ADV^T +donne))
+									   (PP (NP-DAT-EXT (Q^I lytle))
+									       (P +ar)
+									       (NP-DAT (PRO$ his) (N^D midferh+de)))
+									   (BEPS weor+de)
+									   (NP-DAT (Q^D b+am) (N^D eagum))
+									   (ADJP-NOM-PRD (ADJ^N blind))))
+						    (, ,)
+						    (CONJP (CONJ &)
+							   (IP-SUB-CON-SPE (ADVP (ADV eac))
+									   (NP-NOM (NP-GEN (D^G +t+as) (N^G modes))
+										   (N^N eagan))
+									   (BEPS weor+dan)
+									   (ADVP (ADV swa))
+									   (VBN^N ablende)
+									   (CP-ADV-SPE (C +t+at)
+										       (IP-SUB-SPE (IP-SUB-SPE (NP-NOM (PRO^N he))
+													       (QP-ADT (NEG+Q nanwuht))
+													       (NEG ne)
+													       (VBPS gemune)
+													       (NP-GEN (D^G +t+as)
+														       (CP-REL-SPE (WNP-4 0)
+																   (C +de)
+																   (IP-SUB-SPE (NP *T*-4)
+																	       (NP-NOM (PRO^N $he))
+																	       (ADVP-TMP (ADV^T +afre))
+																	       (ADVP-TMP (ADV^T +ar))
+																	       (VBDI (VBDI geseah) (CONJ o+d+de) (VBD geherde))))))
+												   (, ,)
+												   (CONJP (CONJ &)
+													  (IP-SUB-CON-SPE (NP-NOM *con*)
+															  (VBPS wene)
+															  (ADVP (ADV +teah))
+															  (CP-THT-SPE (C +d+at)
+																      (IP-SUB-SPE (NP-NOM (PRO^N he))
+																		  (BEPS sie)
+																		  (ADJP-NOM-PRD (NP-GEN (Q^G +alces) (N^G +tinges))
+																				(ADV swa)
+																				(ADJ^N medeme)
+																				(PP (P swa)
+																				    (CP-CMP-SPE (WADJP-5 0)
+																						(C 0)
+																						(IP-SUB-SPE (ADJP-PRD *T*-5)
+																							    (NP-NOM (PRO^N he))
+																							    (ADVP-TMP (ADV^T +afre))
+																							    (ADJP-NOM (ADJS^N medomest))
+																							    (BEDS w+are)))))))))
+												   (, ,)
+												   (CONJP (CONJ &)
+													  (IP-SUB-CON-SPE (NP-NOM *con*)
+															  (VBPI wen+d)
+															  (CP-THT-SPE (C +t+at)
+																      (IP-SUB-SPE (IP-SUB-SPE (NP-NOM *exp*)
+																			      (NP-DAT (Q^D +alcum) (N^D men))
+																			      (BEPS sie)
+																			      (PP (ADV swa)
+																				  (P swa)
+																				  (CP-CMP-SPE (WADVP-6 0)
+																					      (C 0)
+																					      (IP-SUB-SPE (ADVP *T*-6)
+																							  (NP-NOM *exp*)
+																							  (NP-DAT (PRO^D him))
+																							  (BEPS si)))))
+																		  (, ,)
+																		  (CONJP (CONJ &)
+																			 (IP-SUB-CON-SPE (NP-NOM *exp*)
+																					 (NP-DAT (Q^D +alcum) (N^D men))
+																					 (VBPS +dince)
+																					 (PP (ADV swa)
+																					     (P swa)
+																					     (CP-CMP-SPE (WADVP-7 0)
+																							 (C 0)
+																							 (IP-SUB-SPE (ADVP *T*-7)
+																								     (NP-NOM *exp*)
+																								     (NP-DAT (PRO^D him))
+																								     (VBPI +tinc+d)))))))))))))))))
+	      (. .))
+  (ID coboeth,Bo:38.122.1.2428))
+
+/~*
+& swa smuhende fara+d +t+at him nau+ter ne fet ne fi+deras ne fultuma+d.
+(coboeth,Bo:41.147.4.2932)
+*~/
+/*
+10 VAG^N:  10 VAG^N, 11 smuhende, 9 PTP-NOM
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM *con*)
+	      (ADVP (ADV swa))
+	      (PTP-NOM (VAG^N smuhende))
+	      (VBPI fara+d)
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-DAT (PRO^D him))
+				      (NP-NOM (NEG+CONJ nau+ter) (NEG+CONJ ne) (N^N fet) (NEG+CONJ ne) (N^N fi+deras))
+				      (NEG ne)
+				      (VBPI fultuma+d)))
+	      (. .))
+  (ID coboeth,Bo:41.147.4.2932))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd	27/26/3007
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd	0/0/179
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\coboeth.o2.psd	27/26/3007
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\philosophy\codicts.o34.psd	0/0/179
+whole search, hits/tokens/total
+		27/26/3186
+*/

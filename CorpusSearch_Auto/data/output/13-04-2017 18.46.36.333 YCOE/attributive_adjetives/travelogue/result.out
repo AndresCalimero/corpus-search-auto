@@ -1,0 +1,93 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:46:59 BST 2017
+
+command file:     data\searches\queries\YCOE\attributive_adjetives.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\attributive_adjetives\travelogue\result.out
+
+node:   $ROOT|ADJ|ADJR|ADJS|ADJX
+query:  (ADJ|ADJR|ADJS|ADJX Dominates  !ADJ|ADJR|ADJS|ADJX) 
+  AND  (ADJ|ADJR|ADJS|ADJX Precedes  N|NR|NX) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd
+*/
+
+/~*
+Ond +da on gehliuran dene & on wearmran we gewicodan.
+(coalex,Alex:30.7.370)
+*~/
+/*
+14 ADJR:  14 ADJR, 15 gehliuran, 16 N
+*/
+( (CODE <T23000021500,30.7>)
+  (IP-MAT-SPE (CONJ Ond)
+	      (ADVP-TMP (ADV^T +da))
+	      (PP (PP (P on)
+		      (NP (ADJR gehliuran) (N dene)))
+		  (CONJP (CONJ &)
+			 (PP (P on)
+			     (NP (ADJR wearmran)))))
+	      (NP-NOM (PRO^N we))
+	      (VBDI gewicodan)
+	      (. .))
+  (ID coalex,Alex:30.7.370))
+
+/~*
+ac mec het +t+at ic me to +tara triowa fotum geb+ade, +t+at sunna & mone me
+so+tre ondsware geondwyrdum +tara +tinga +de ic frune $sio+d+dan +tas +ting
++tus gedon w+aron.
+(coalex,Alex:36.13.462)
+*~/
+/*
+51 ADJ:  51 ADJ, 52 so+tre, 53 N
+*/
+
+( (IP-MAT-SPE (CONJ ac)
+	      (NP-NOM *con*)
+	      (NP (PRO mec))
+	      (VBDI het)
+	      (CP-THT-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (NP-RFL (PRO me))
+				      (PP (P to)
+					  (NP-DAT (NP-GEN (D^G +tara) (N^G triowa))
+						  (N^D fotum)))
+				      (VBDS geb+ade)
+				      (, ,)
+				      (CP-THT-SPE (C +t+at)
+						  (IP-SUB-SPE (NP-NOM (N^N sunna) (CONJ &) (N^N mone))
+							      (NP (PRO me))
+							      (NP (ADJ so+tre)
+								  (N ondsware)
+								  (NP-GEN *ICH*-1))
+							      (VBDI geondwyrdum)
+							      (NP-GEN-1 (D^G +tara)
+									(N^G +tinga)
+									(CP-REL-SPE (WNP-2 0)
+										    (C +de)
+										    (IP-SUB-SPE (NP *T*-2)
+												(NP-NOM (PRO^N ic))
+												(VBDS frune))))
+							      (CP-ADV-SPE (P $sio+d+dan)
+									  (C 0)
+									  (IP-SUB-SPE (NP-NOM (D^N +tas) (N^N +ting))
+										      (ADVP (ADV +tus))
+										      (VBN gedon)
+										      (BEDI w+aron)))))))
+	      (. .))
+  (ID coalex,Alex:36.13.462))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	2/2/531
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	2/2/531
+whole search, hits/tokens/total
+		2/2/531
+*/

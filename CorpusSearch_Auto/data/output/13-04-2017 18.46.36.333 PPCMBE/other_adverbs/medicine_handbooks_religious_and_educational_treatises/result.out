@@ -1,0 +1,6124 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:05 BST 2017
+
+command file:     data\searches\queries\PENN\other_adverbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\other_adverbs\medicine_handbooks_religious_and_educational_treatises\result.out
+
+node:   ADVP-DIR*|ADVX*|RP^DIR*
+query:  (ADVP-DIR*|*DVX*|RP^DIR* Dominates  !ADVP-DIR*|ADVX*|RP^DIR*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd
+*/
+
+/~*
+I am perswaded, they might be learn'd after some other manner, more easily,
+quickly and perfectly;
+(ANON-1711,4.15)
+*~/
+/*
+46 ADVX:  46 ADVX, 48 quickly
+52 ADVX:  52 ADVX, 54 perfectly
+*/
+( (IP-MAT (NP-SBJ (PRO I))
+	  (BEP am)
+	  (VAN perswaded)
+	  (CODE {COM:sic_here_and_passim})
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO they))
+			  (MD might)
+			  (BE be)
+			  (VAN learn'd)
+			  (PP (P after)
+			      (NP (Q some) (OTHER other) (N manner)))
+			  (, ,)
+			  (ADVP (QR more)
+				(ADV easily)
+				(, ,)
+				(CONJP (ADVX (ADV quickly)))
+				(CONJP (CONJ and)
+				       (ADVX (ADV perfectly))))))
+	  (. ;))
+  (ID ANON-1711,4.15))
+
+/~*
+and therefore, if we hear nothing but Latin talk'd to us at first, we shou'd
+as easily and perfectly learn it as we do English.
+(ANON-1711,8.70)
+*~/
+/*
+66 ADVX:  66 ADVX, 68 perfectly
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (ADV+P therefore))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP hear)
+			      (IP-SMC (NP-SBJ (Q+N nothing)
+					      (CODE <P_8>)
+					      (PP (P but)
+						  (CODE <font>)
+						  (NP (NPR Latin))))
+				      (CODE <$$font>)
+				      (VAN talk'd)
+				      (PP (P to)
+					  (NP (PRO us)))
+				      (PP (P at)
+					  (ADVP (ADV first)))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD shou'd)
+	  (ADVP (ADVR as)
+		(ADV easily)
+		(CONJP (CONJ and)
+		       (ADVX (ADV perfectly)))
+		(PP *ICH*-1))
+	  (VB learn)
+	  (NP-OB1 (PRO it))
+	  (PP-1 (P as)
+		(CP-CMP (WADVP-2 0)
+			(C 0)
+			(IP-SUB (ADVP *T*-2)
+				(NP-SBJ (PRO we))
+				(DOP do)
+				(VB *)
+				(CODE <font>)
+				(NP-OB1 (NPR English)))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID ANON-1711,8.70))
+
+/~*
+for when he comes Abroad into the World, and hears all other Persons talk
+English, he $can $not fail of Learning it.
+(ANON-1711,8.79)
+*~/
+/*
+17 ADVP-DIR:  17 ADVP-DIR, 19 Abroad
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+				      (VBP comes)
+				      (ADVP-DIR (ADV Abroad))
+				      (PP (P into)
+					  (NP (D the) (N World))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBP hears)
+					     (IP-INF (NP-SBJ (Q all) (OTHER other) (NS Persons))
+						     (VB talk)
+						     (CODE <font>)
+						     (NP-OB1 (NPR English))))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB fail)
+	  (PP (P of)
+	      (IP-PPL (VAG Learning)
+		      (NP-OB1 (PRO it))))
+	  (. .))
+  (ID ANON-1711,8.79))
+
+/~*
+And I do not in the least question, but such as are Educated after this Method,
+wou'd talk English as Fluently and Elegantly, as if they had been taught it by
+their Mother.
+(ANON-1711,8.84)
+*~/
+/*
+76 ADVX:  76 ADVX, 78 Elegantly
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO I))
+	  (DOP do)
+	  (NEG not)
+	  (PP (P in)
+	      (NP (D the) (QS least)))
+	  (VB question)
+	  (, ,)
+	  (CP-THT (FP but)
+		  (C 0)
+		  (IP-SUB (NP-SBJ (SUCH such)
+				  (PP (P as)
+				      (CP-CMP (WNP-1 0)
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (BEP are)
+						      (VAN Educated)
+						      (PP (P after)
+							  (NP (D this) (N Method)))))))
+			  (, ,)
+			  (MD wou'd)
+			  (VB talk)
+			  (CODE <font>)
+			  (NP-OB1 (NPR English))
+			  (CODE <$$font>)
+			  (ADVP (ADVR as)
+				(ADV Fluently)
+				(CONJP (CONJ and)
+				       (ADVX (ADV Elegantly)))
+				(, ,)
+				(PP (P as)
+				    (PP (P if)
+					(CP-ADV (C 0)
+						(IP-SUB (NP-SBJ (PRO they))
+							(HVD had)
+							(BEN been)
+							(VAN taught)
+							(NP-OB1 (PRO it))
+							(PP (P by)
+							    (NP (PRO$ their) (N Mother))))))))))
+	  (. .))
+  (ID ANON-1711,8.84))
+
+/~*
+For in Prose, the Words are generally easy, and plac'd in a Natural Order;
+whereas, in Poetry they are study'd, and plac'd more Perplexedly, and
+Confusedly.
+(ANON-1711,22.226)
+*~/
+/*
+84 ADVX:  84 ADVX, 86 Confusedly
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ For)
+		    (PP (P in)
+			(NP (N Prose)))
+		    (, ,)
+		    (NP-SBJ (D the) (NS Words))
+		    (BEP are)
+		    (ADJP (ADV generally) (ADJ easy)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VAN plac'd)
+			   (PP (P in)
+			       (NP (D a) (ADJ Natural) (N Order)))
+			   (, ;)
+			   (PP (WADV+P whereas)
+			       (, ,)
+			       (CP-ADV (C 0)
+				       (IP-SUB (PP (P in)
+						   (NP (N Poetry)))
+					       (NP-SBJ (PRO they))
+					       (BEP are)
+					       (VAN (VAN study'd) (, ,) (CONJ and) (VAN plac'd))
+					       (ADVP (QR more)
+						     (ADV Perplexedly)
+						     (, ,)
+						     (CONJP (CONJ and)
+							    (ADVX (ADV Confusedly)))))))))
+	  (. .))
+  (ID ANON-1711,22.226))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	6/5/241
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd
+*/
+
+/~*
+They get over the undeniable fact, that we no longer employ these languages,
+as languages, by bringing forward a number of uses that never occurred to
+Erasmus, Casaubon or Milton.
+(BAIN-1878,359.11)
+*~/
+/*
+54 ADVP-DIR:  54 ADVP-DIR, 56 forward
+*/
+
+( (IP-MAT (NP-SBJ (PRO They))
+	  (VBP get)
+	  (PP (P over)
+	      (NP (D the)
+		  (ADJ undeniable)
+		  (N fact)
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (PRO we))
+				  (NP-MSR (Q no) (ADJR longer))
+				  (VBP employ)
+				  (NP-OB1 (D these) (NS languages))
+				  (, ,)
+				  (PP (P as)
+				      (NP (NS languages)))))))
+	  (, ,)
+	  (PP (P by)
+	      (IP-PPL (VAG bringing)
+		      (ADVP-DIR (ADV+WARD forward))
+		      (NP-OB1 (D a)
+			      (N number)
+			      (PP (P of)
+				  (NP (NS uses)
+				      (CP-REL (WNP-1 0)
+					      (C that)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (ADVP-TMP (ADV never))
+						      (VBD occurred)
+						      (PP (P to)
+							  (NP (NPR Erasmus) (, ,) (NPR Casaubon) (CONJ or) (NPR Milton))))))))))
+	  (. .))
+  (ID BAIN-1878,359.11))
+
+/~*
+In the meantime, however, other advantages have been put forward that are
+considered sufficient to make up for the loss of value brought about by the
+causes now mentioned.
+(BAIN-1878,361.37)
+*~/
+/*
+30 ADVP-DIR:  30 ADVP-DIR, 32 forward
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (ADJ+N meantime)))
+	  (, ,)
+	  (ADVP (WADV+ADV however))
+	  (, ,)
+	  (NP-SBJ (OTHER other)
+		  (NS advantages)
+		  (CP-REL *ICH*-1))
+	  (HVP have)
+	  (BEN been)
+	  (VAN put)
+	  (ADVP-DIR (ADV+WARD forward))
+	  (CP-REL-1 (WNP-2 0)
+		    (C that)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (BEP are)
+			    (VAN considered)
+			    (IP-SMC (NP-SBJ *-2)
+				    (ADJP (ADJ sufficient)
+					  (IP-INF (TO to)
+						  (VB make)
+						  (RP up)
+						  (PP (P for)
+						      (NP (D the)
+							  (N loss)
+							  (PP (P of)
+							      (NP (N value)))
+							  (RRC (VAN brought)
+							       (RP about)
+							       (PP (P by)
+								   (NP (D the)
+								       (NS causes)
+								       (RRC (ADVP-TMP (ADV now))
+									    (VAN mentioned))))))))))))
+	  (. .))
+  (ID BAIN-1878,361.37))
+
+/~*
+It is, moreover, generally admitted that the use of 'cribs' does away with the
+good of the situation, as regards translating into English.
+(BAIN-1878,370.180)
+*~/
+/*
+40 ADVP-DIR:  40 ADVP-DIR, 42 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (BEP is)
+	  (, ,)
+	  (ADVP (ADV moreover))
+	  (, ,)
+	  (ADVP (ADV generally))
+	  (VAN admitted)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N use)
+				  (PP (P of)
+				      (' ')
+				      (NP (NS cribs))))
+			  (' ')
+			  (DOP does)
+			  (ADVP-DIR (ADV away))
+			  (PP (P with)
+			      (NP (D the)
+				  (N good)
+				  (PP (P of)
+				      (NP (D the) (N situation)))))))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ *exp*)
+			      (VBP regards)
+			      (NP-OB1 (N translating)
+				      (PP (P into)
+					  (NP (NPR English)))))))
+	  (. .))
+  (ID BAIN-1878,370.180))
+
+/~*
+Again, from the exclusion of the distractions of the external senses, from the
+simplicity and definiteness of the classification which the student has to
+apply, from the distinctness and obviousness of the points that he is called
+on to observe, it seems probable that this study calls forth especially in
+young boys a more concentrated exercise of the faculties it does develop than
+any other could easily do.
+(BAIN-1878,373.212)
+*~/
+/*
+151 ADVP-DIR:  151 ADVP-DIR, 153 forth
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Again))
+	      (, ,)
+	      (PP (PP (P from)
+		      (NP (D the)
+			  (N exclusion)
+			  (PP (P of)
+			      (NP (D the)
+				  (NS distractions)
+				  (PP (P of)
+				      (NP (D the) (ADJ external) (NS senses)))))))
+		  (, ,)
+		  (CONJP (PP (P from)
+			     (NP (D the)
+				 (N simplicity)
+				 (CONJP (CONJ and)
+					(NX (N definiteness)))
+				 (PP (P of)
+				     (NP (D the)
+					 (N classification)
+					 (CP-REL-SPE (WNP-1 (WPRO which))
+						     (C 0)
+						     (IP-SUB-SPE (NP-SBJ (D the) (N student))
+								 (HVP has)
+								 (IP-INF-SPE (NP-OB1 *T*-1)
+									     (TO to)
+									     (VB apply)))))))))
+		  (, ,)
+		  (CONJP (PP (P from)
+			     (NP (D the)
+				 (N distinctness)
+				 (CONJP (CONJ and)
+					(NX (N obviousness)))
+				 (PP (P of)
+				     (NP (D the)
+					 (NS points)
+					 (CP-REL-SPE (WNP-2 0)
+						     (C that)
+						     (IP-SUB-SPE (NP-SBJ-3 (PRO he))
+								 (BEP is)
+								 (VAN called)
+								 (PP (P on)
+								     (NP *-3))
+								 (IP-INF-SPE (NP-OB1 *T*-2)
+									     (TO to)
+									     (VB observe))))))))))
+	      (, ,)
+	      (NP-SBJ-4 (PRO it))
+	      (VBP seems)
+	      (ADJP (ADJ probable))
+	      (CP-THT-SPE-4 (C that)
+			    (IP-SUB-SPE-5 (NP-SBJ (D this) (N study))
+					  (VBP calls)
+					  (ADVP-DIR (ADV forth))
+					  (CODE <paren>)
+					  (IP-SUB-PRN-SPE=5 (ADVP (ADV especially))
+							    (PP (P in)
+								(NP (ADJ young) (NS boys))))
+					  (CODE <$$paren>)
+					  (NP-OB1 (D a)
+						  (ADJP (QR more) (VAN concentrated))
+						  (N exercise)
+						  (PP (P of)
+						      (NP (D the)
+							  (NS faculties)
+							  (CP-REL-SPE (WNP-6 0)
+								      (C 0)
+								      (IP-SUB-SPE (NP-OB1 *T*-6)
+										  (NP-SBJ (PRO it))
+										  (DOP does)
+										  (VB develop)))))
+						  (PP (P than)
+						      (CP-CMP-SPE (WNP-7 0)
+								  (C 0)
+								  (IP-SUB-SPE (NP-OB1 *T*-7)
+									      (NP-SBJ (Q any) (OTHER other))
+									      (MD could)
+									      (ADVP (ADV easily))
+									      (DO do)))))))
+	      (. .))
+  (ID BAIN-1878,373.212))
+
+/~*
+The roots actually employed in the language are separated and presented apart,
+and their derivatives set forth;
+(BAIN-1878,377.264)
+*~/
+/*
+49 ADVP-DIR:  49 ADVP-DIR, 51 forth
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D The)
+			    (NS roots)
+			    (RRC (ADVP (ADV actually))
+				 (VAN employed)
+				 (PP (P in)
+				     (NP (D the) (N language)))))
+		    (CODE <P_377>)
+		    (BEP are)
+		    (VAN (VAN separated) (CONJ and) (VAN presented))
+		    (ADVP (ADV apart)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-SBJ (PRO$ their) (NS derivatives))
+			   (VAN set)
+			   (ADVP-DIR (ADV forth))))
+	  (. ;))
+  (ID BAIN-1878,377.264))
+
+/~*
+Moreover, the system as practised, throws away the best known device for
+accelerating lingual study; namely, allowing a familiarity with the subject
+matter of the several authors to be attained in advance.
+(BAIN-1878,382.336)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 24 away
+*/
+
+( (IP-MAT (ADVP (ADV Moreover))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (N system)
+		  (PP (P as)
+		      (IP-PPL (VAN practised))))
+	  (, ,)
+	  (VBP throws)
+	  (ADVP-DIR (ADV away))
+	  (NP-OB1 (D the)
+		  (ADJP (ADVS best) (VAN known))
+		  (N device)
+		  (PP (P for)
+		      (IP-PPL (VAG accelerating)
+			      (NP-OB1 (ADJ lingual) (N study))))
+		  (, ;)
+		  (IP-PPL-PRN (ADVP (ADV namely))
+			      (, ,)
+			      (VAG allowing)
+			      (IP-INF (NP-SBJ (D a)
+					      (N familiarity)
+					      (PP (P with)
+						  (NP (D the)
+						      (N subject)
+						      (N matter)
+						      (PP (P of)
+							  (NP (D the) (Q several) (NS authors))))))
+				      (TO to)
+				      (BE be)
+				      (VAN attained)
+				      (PP (P in)
+					  (NP (N advance))))))
+	  (. .))
+  (ID BAIN-1878,382.336))
+
+/~*
+It is not merely that the way to carry the mind forward in the several
+departments is, to keep it continuously fixed on each for a certain duration;
+(BAIN-1878,384.363)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 33 forward
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (BEP is)
+	  (NEG not)
+	  (ADVP (ADV merely))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N way)
+				  (IP-INF (TO to)
+					  (VB carry)
+					  (NP-OB1 (D the) (N mind))
+					  (ADVP-DIR (ADV+WARD forward))
+					  (PP (P in)
+					      (NP (D the) (Q several) (NS departments)))))
+			  (BEP is)
+			  (, ,)
+			  (IP-INF-OB1 (TO to)
+				      (VB keep)
+				      (NP-OB1 (PRO it))
+				      (ADJP-SPR (ADV continuously)
+						(VAN fixed)
+						(PP (P on)
+						    (NP (Q each))))
+				      (PP (P for)
+					  (NP (D a) (ADJ certain) (N duration))))))
+	  (. ;))
+  (ID BAIN-1878,384.363))
+
+/~*
+The study of fine Literary effects $can $not be carried on in connection with
+Latin and Greek, not only because of the distraction of the mind with other
+things, but because of the random, uncertain, inconsecutive way that the
+examples are brought forward.
+(BAIN-1878,384.368)
+*~/
+/*
+124 ADVP-DIR:  124 ADVP-DIR, 126 forward
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N study)
+		  (PP (P of)
+		      (NP (ADJP (ADJ fine) (ADJ Literary))
+			  (NS effects))))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (BE be)
+	  (VAN carried)
+	  (RP on)
+	  (PP (P in)
+	      (NP (N connection)
+		  (PP (P with)
+		      (NP (NPR Latin) (CONJ and) (NPR Greek)))))
+	  (, ,)
+	  (PP (PP (NEG not)
+		  (FP only)
+		  (P+N because)
+		  (PP (P of)
+		      (NP (D the)
+			  (N distraction)
+			  (PP (P of)
+			      (NP (D the) (N mind)))
+			  (PP (P with)
+			      (NP (OTHER other) (NS things))))))
+	      (, ,)
+	      (CONJP (CONJ but)
+		     (PP (P+N because)
+			 (PP (P of)
+			     (NP (D the)
+				 (ADJP (ADJ random) (, ,) (ADJ uncertain) (, ,) (ADJ inconsecutive))
+				 (N way)
+				 (CP-REL (WADVP-1 0)
+					 (C that)
+					 (IP-SUB (ADVP *T*-1)
+						 (NP-SBJ (D the) (NS examples))
+						 (BEP are)
+						 (VAN brought)
+						 (ADVP-DIR (ADV+WARD forward)))))))))
+	  (. .))
+  (ID BAIN-1878,384.368))
+
+/~*
+The essentials of a curriculum of the Higher Education may be summed up under
+three heads: - I. Science, including the Primary Sciences, as already set
+forth; some one or more of the Natural History Sciences - Mineralogy, Botany,
+Zoology, Geology; to which may be added Geography.
+(BAIN-1878,390.460)
+*~/
+/*
+77 ADVP-DIR:  77 ADVP-DIR, 79 forth
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (NS essentials)
+		  (PP (P of)
+		      (NP (D a)
+			  (N curriculum)
+			  (PP (P of)
+			      (NP (D the) (ADJR Higher) (N Education))))))
+	  (MD may)
+	  (BE be)
+	  (VAN summed)
+	  (RP up)
+	  (PP (P under)
+	      (NP (NUM three)
+		  (NS heads)
+		  (, :)
+		  (, -)
+		  (NP-PRN (LS (NUM I))
+			  (, .)
+			  (N Science)
+			  (, ,)
+			  (RRC (VAG including)
+			       (NP-OB1 (NP (D the)
+					   (ADJ Primary)
+					   (NS Sciences)
+					   (, ,)
+					   (PP (P as)
+					       (IP-PPL (ADVP-TMP (ADV already))
+						       (VAN set)
+						       (ADVP-DIR (ADV forth)))))
+				       (, ;)
+				       (CONJP (NP (Q some)
+						  (ONE one)
+						  (CONJP (CONJ or)
+							 (NX (QR more)))
+						  (PP (P of)
+						      (NP (D the)
+							  (ADJ Natural)
+							  (N History)
+							  (NS Sciences)
+							  (, -)
+							  (NP-PRN (N Mineralogy)
+								  (, ,)
+								  (CONJP (N Botany))
+								  (, ,)
+								  (CONJP (N Zoology))
+								  (, ,)
+								  (CONJP (N Geology)))
+							  (, ;)
+							  (CP-REL (WPP-1 (P to)
+									 (WNP (WPRO which)))
+								  (C 0)
+								  (IP-SUB (PP *T*-1)
+									  (MD may)
+									  (BE be)
+									  (VAN added)
+									  (NP-SBJ (N Geography)))))))))))))
+	  (. .))
+  (ID BAIN-1878,390.460))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	9/9/488
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd
+*/
+
+/~*
+Others prefer the private manner of instruction, as the best school for virtue,
+where children may be taught a due balance of the passions, and such a regard
+to religion and virtue as afterwards influences the whole of their behaviour.
+(BARCLAY-1743,10.11)
+*~/
+/*
+107 ADVP-DIR:  107 ADVP-DIR, 109 afterwards
+*/
+
+( (IP-MAT (NP-SBJ (OTHERS Others))
+	  (VBP prefer)
+	  (NP-OB1 (D the)
+		  (ADJ private)
+		  (N manner)
+		  (PP (P of)
+		      (NP (N instruction)))
+		  (, ,)
+		  (PP (P as)
+		      (NP (D the)
+			  (ADJS best)
+			  (N school)
+			  (PP (P for)
+			      (NP (N virtue)))
+			  (, ,)
+			  (CP-REL (WADVP-1 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-1)
+					  (NP-SBJ (NS children))
+					  (MD may)
+					  (BE be)
+					  (VAN taught)
+					  (NP-OB1 (NP (D a)
+						      (ADJ due)
+						      (N balance)
+						      (PP (P of)
+							  (NP (D the) (NS passions))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (NP (SUCH such)
+							     (D a)
+							     (N regard)
+							     (PP (P to)
+								 (NP (N religion) (CONJ and) (N virtue)))
+							     (PP (P as)
+								 (CP-CMP (WNP-2 0)
+									 (C 0)
+									 (IP-SUB (NP-SBJ *T*-2)
+										 (ADVP-DIR (ADV+WARD afterwards))
+										 (VBP influences)
+										 (NP-OB1 (D the)
+											 (ADJ whole)
+											 (PP (P of)
+											     (NP (PRO$ their) (N behaviour)))))))))))))))
+	  (. .))
+  (ID BARCLAY-1743,10.11))
+
+/~*
+They are hurried away by the violence of passion,
+(BARCLAY-1743,11.21)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO They))
+	  (BEP are)
+	  (VAN hurried)
+	  (ADVP-DIR (ADV away))
+	  (PP (P by)
+	      (NP (D the)
+		  (N violence)
+		  (PP (P of)
+		      (NP (N passion)))))
+	  (. ,))
+  (ID BARCLAY-1743,11.21))
+
+/~*
+and a little pains soon brings them where we wish.
+(BARCLAY-1743,20.93)
+*~/
+/*
+28 ADVP-DIR:  28 ADVP-DIR, 29 *T*-1
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NP-MSR (D a) (ADJ little))
+		  (NS pains))
+	  (ADVP-TMP (ADV soon))
+	  (VBP brings)
+	  (NP-OB1 (PRO them))
+	  (NP-DIR (CP-FRL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-DIR *T*-1)
+				  (NP-SBJ (PRO we))
+				  (VBP wish))))
+	  (. .))
+  (ID BARCLAY-1743,20.93))
+
+/~*
+or they pine away,
+(BARCLAY-1743,27.163)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 away
+*/
+
+( (IP-MAT (CONJ or)
+	  (NP-SBJ (PRO they))
+	  (VBP pine)
+	  (ADVP-DIR (ADV away))
+	  (. ,))
+  (ID BARCLAY-1743,27.163))
+
+/~*
+The poor young creatures, for an appearance only of life in the morning, are
+sure to sleep away the forenoon, and look after dinner so fatigued and pale,
+that it were pity to add the labour of a book: Besides the further
+disadvantage of this early hour, in the time generally lost before they
+conveen.
+(BARCLAY-1743,38.274)
+*~/
+/*
+51 ADVP-DIR:  51 ADVP-DIR, 53 away
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJP (ADJ poor) (ADJ young))
+		  (NS creatures))
+	  (, ,)
+	  (PP (P for)
+	      (NP (D an)
+		  (N appearance)
+		  (FP only)
+		  (PP (P of)
+		      (NP (N life)
+			  (PP (P in)
+			      (NP (D the) (N morning)))))))
+	  (, ,)
+	  (BEP are)
+	  (ADJP (ADJ sure)
+		(IP-INF (IP-INF (TO to)
+				(VB sleep)
+				(ADVP-DIR (ADV away))
+				(NP-OB1 (D the) (N forenoon)))
+			(, ,)
+			(CONJP (CONJ and)
+			       (IP-INF (TO *)
+				       (VB look)
+				       (PP (P after)
+					   (NP (N dinner)))
+				       (ADJP (ADVR so)
+					     (VAN fatigued)
+					     (CONJP (CONJ and)
+						    (ADJX (ADJ pale)))
+					     (, ,)
+					     (CP-DEG (C that)
+						     (IP-SUB (NP-SBJ-1 (PRO it))
+							     (BED were)
+							     (NP-OB1 (N pity))
+							     (IP-INF-1 (TO to)
+								       (VB add)
+								       (NP-OB1 (D the)
+									       (N labour)
+									       (PP (P of)
+										   (NP (D a) (N book))))))))))))
+	  (, :)
+	  (PP (P Besides)
+	      (NP (D the)
+		  (ADJR further)
+		  (N disadvantage)
+		  (PP (P of)
+		      (NP (D this) (ADJ early) (N hour)))
+		  (, ,)
+		  (PP (P in)
+		      (NP (D the)
+			  (N time)
+			  (RRC (ADVP (ADV generally))
+			       (VAN lost)
+			       (PP (P before)
+				   (CP-ADV (C 0)
+					   (IP-SUB (NP-SBJ (PRO they))
+						   (VBP conveen)))))))))
+	  (CODE {COM:sic})
+	  (. .))
+  (ID BARCLAY-1743,38.274))
+
+/~*
+Hence it is, that a great many of our countrymen, when they would appear in
+Latin, instead of writing that language, do more properly write English in
+Latin words.
+(BARCLAY-1743,101.334)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 19 *T*-1
+*/
+
+( (IP-MAT (ADVP (ADV Hence))
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (, ,)
+	  (CP-CLF (WADVP-1 0)
+		  (C that)
+		  (IP-SUB (ADVP-DIR *T*-1)
+			  (NP-SBJ (QP (D a) (ADJ great) (Q many))
+				  (PP (P of)
+				      (NP (PRO$ our) (N+NS countrymen))))
+			  (, ,)
+			  (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (MD would)
+					      (VB appear)
+					      (PP (P in)
+						  (CODE <font>)
+						  (NP (NPR Latin))))))
+			  (CODE <$$font>)
+			  (, ,)
+			  (PP (P+N instead)
+			      (PP (P of)
+				  (IP-PPL (VAG writing)
+					  (NP-OB1 (D that) (N language)))))
+			  (, ,)
+			  (DOP do)
+			  (ADVP (QR more) (ADV properly))
+			  (VB write)
+			  (CODE <font>)
+			  (NP-OB1 (NPR English))
+			  (CODE <$$font>)
+			  (PP (P in)
+			      (CODE <font>)
+			      (NP (ADJ Latin) (CODE <$$font>) (NS words)))))
+	  (. .))
+  (ID BARCLAY-1743,101.334))
+
+/~*
+and $can $not, though they have explained the moment before, answer one word
+of the lesson, either English or Latin, if you take away the book.
+(BARCLAY-1743,108.389)
+*~/
+/*
+86 ADVP-DIR:  86 ADVP-DIR, 88 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVP have)
+			      (VBN explained)
+			      (NP-TMP (D the)
+				      (N moment)
+				      (ADVP (ADV before))))))
+	  (, ,)
+	  (VB answer)
+	  (NP-OB1 (ONE one)
+		  (N word)
+		  (PP (P of)
+		      (NP (D the) (N lesson)))
+		  (, ,)
+		  (ADJP (CONJ either) (CODE <font>) (ADJ English) (CODE <$$font>) (CONJ or) (CODE <font>) (ADJ Latin)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBP take)
+			      (ADVP-DIR (ADV away))
+			      (NP-OB1 (D the) (N book)))))
+	  (. .))
+  (ID BARCLAY-1743,108.389))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	7/7/475
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd
+*/
+
+/~*
+but it was in conjunction with the topical applications of vapour that its
+effects were more powerfully and beneficially exerted.
+(BARDSLEY-1807,8.64)
+*~/
+/*
+54 ADVX:  54 ADVX, 56 beneficially
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO it))
+	  (BED was)
+	  (PP (P in)
+	      (NP (N conjunction)
+		  (PP (P with)
+		      (NP (D the)
+			  (ADJ topical)
+			  (NS applications)
+			  (PP (P of)
+			      (NP (N vapour)))))))
+	  (CP-CLF (WPP-1 0)
+		  (C that)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO$ its) (NS effects))
+			  (BED were)
+			  (ADVP (QR more)
+				(ADV powerfully)
+				(CONJP (CONJ and)
+				       (ADVX (ADV beneficially))))
+			  (VAN exerted)))
+	  (. .))
+  (ID BARDSLEY-1807,8.64))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	1/1/422
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd
+*/
+
+/~*
+and the result should be that the boys should not only feel that they have put
+away some definite knowledge under lock and key, but also that they have been
+in contact with a lively and more mature mind.
+(BENSON-1908,35.29)
+*~/
+/*
+42 ADVP-DIR:  42 ADVP-DIR, 44 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the) (N result))
+	  (MD should)
+	  (BE be)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the) (NS boys))
+			  (MD should)
+			  (NEG not)
+			  (FP only)
+			  (VB feel)
+			  (CP-THT (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (PRO they))
+						  (HVP have)
+						  (VBN put)
+						  (ADVP-DIR (ADV away))
+						  (NP-OB1 (Q some) (ADJ definite) (N knowledge))
+						  (PP (P under)
+						      (NP (N lock) (CONJ and) (N key)))))
+				  (, ,)
+				  (CONJP (CONJ but)
+					 (ALSO also)
+					 (CP-THT (C that)
+						 (IP-SUB (NP-SBJ (PRO they))
+							 (HVP have)
+							 (BEN been)
+							 (PP (P in)
+							     (NP (N contact)
+								 (PP (P with)
+								     (NP (D a)
+									 (ADJP (ADJP (ADJ lively))
+									       (CONJP (CONJ and)
+										      (ADJP (QR more) (ADJ mature))))
+									 (N mind)))))))))))
+	  (. .))
+  (ID BENSON-1908,35.29))
+
+/~*
+and was obliged in order to save the situation to give the happy practice away.
+(BENSON-1908,39.57)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (VAN obliged)
+	  (IP-INF (PP (P in)
+		      (NP (N order)
+			  (IP-INF (TO to)
+				  (VB save)
+				  (NP-OB1 (D the) (N situation)))))
+		  (TO to)
+		  (VB give)
+		  (NP-OB1 (D the) (ADJ happy) (N practice))
+		  (ADVP-DIR (ADV away)))
+	  (. .))
+  (ID BENSON-1908,39.57))
+
+/~*
+It is as well, I think, to say to a boy that this is the reason why honest
+work is expected of him, and that this is a good reason for doing it; but that
+if it is not a sufficient reason, it will be necessary to fall back on the
+simple though not so intelligent reason, that it is at all events a master's
+business to require it.
+(BENSON-1908,44.94)
+*~/
+/*
+151 ADVP-DIR:  151 ADVP-DIR, 153 back
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (ADVP (ADVR as) (ADV well))
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (VBP think))
+	  (, ,)
+	  (IP-INF-1 (TO to)
+		    (VB say)
+		    (PP (P to)
+			(NP (D a) (N boy)))
+		    (CP-THT (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (D this))
+					    (BEP is)
+					    (NP-OB1 (D the)
+						    (N reason)
+						    (CP-REL (WADVP-2 (WADV why))
+							    (C 0)
+							    (IP-SUB (ADVP *T*-2)
+								    (NP-SBJ (ADJ honest) (N work))
+								    (BEP is)
+								    (VAN expected)
+								    (PP (P of)
+									(NP (PRO him))))))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (CP-THT (C that)
+					   (IP-SUB (NP-SBJ (D this))
+						   (BEP is)
+						   (NP-OB1 (D a)
+							   (ADJ good)
+							   (N reason)
+							   (PP (P for)
+							       (IP-PPL (DAG doing)
+								       (NP-OB1 (PRO it))))))))
+			    (, ;)
+			    (CONJP (CONJ but)
+				   (CP-THT (C that)
+					   (IP-SUB (PP (P if)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (PRO it))
+								       (BEP is)
+								       (NEG not)
+								       (NP-OB1 (D a) (ADJ sufficient) (N reason)))))
+						   (, ,)
+						   (NP-SBJ-3 (PRO it))
+						   (MD will)
+						   (BE be)
+						   (ADJP (ADJ necessary))
+						   (IP-INF-3 (TO to)
+							     (VB fall)
+							     (ADVP-DIR (ADV back))
+							     (PP (P on)
+								 (NP (D the)
+								     (ADJP (ADJ simple)
+									   (PP (P though)
+									       (ADJP (NEG not) (ADVR so) (ADJ intelligent))))
+								     (N reason)
+								     (, ,)
+								     (CP-THT (C that)
+									     (IP-SUB (NP-SBJ-4 (PRO it))
+										     (BEP is)
+										     (PP (P at)
+											 (NP (Q all) (NS events)))
+										     (NP-OB1 (NP-POS (D a) (N$ master's))
+											     (N business))
+										     (IP-INF-4 (TO to)
+											       (VB require)
+											       (NP-OB1 (PRO it)))))))))))))
+	  (. .))
+  (ID BENSON-1908,44.94))
+
+/~*
+For instance, it is the way in many schools to let the boys do a written
+exercise in school, for the master to take it away, and then perhaps some days
+after to return the exercise underlined and to go through it.
+(BENSON-1908,48.123)
+*~/
+/*
+73 ADVP-DIR:  73 ADVP-DIR, 75 away
+*/
+
+( (IP-MAT (PP (P For)
+	      (NP (N instance)))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (NP-OB1 (D the) (N way))
+	  (PP (P in)
+	      (NP (Q many) (NS schools)))
+	  (IP-INF-1 (IP-INF (TO to)
+			    (VB let)
+			    (IP-INF (NP-SBJ (D the) (NS boys))
+				    (DO do)
+				    (NP-OB1 (D a) (VAN written) (N exercise))
+				    (PP (P in)
+					(NP (N school)))))
+		    (, ,)
+		    (CONJP (IP-INF (FOR for)
+				   (NP-SBJ (D the) (N master))
+				   (TO to)
+				   (VB take)
+				   (NP-OB1 (PRO it))
+				   (ADVP-DIR (ADV away))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (IP-INF (NP-SBJ *con*)
+				   (ADVP-TMP (ADV then))
+				   (ADVP (ADV perhaps))
+				   (ADVP-TMP (NP-MSR (Q some) (NS days))
+					     (ADV after))
+				   (TO to)
+				   (VB return)
+				   (NP-OB1 (D the) (N exercise))
+				   (ADJP-SPR (VAN underlined))))
+		    (CONJP (CONJ and)
+			   (IP-INF (TO to)
+				   (VB go)
+				   (PP (P through)
+				       (NP (PRO it))))))
+	  (. .))
+  (ID BENSON-1908,48.123))
+
+/~*
+And here comes the difficulty.
+(BENSON-1908,70.296)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 here
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP-DIR (ADV here))
+	  (VBP comes)
+	  (NP-SBJ (D the) (N difficulty))
+	  (. .))
+  (ID BENSON-1908,70.296))
+
+/~*
+but there is very little of the feeding in green pastures and leading forth
+beside the waters of comfort,
+(BENSON-1908,73.318)
+*~/
+/*
+37 ADVP-DIR:  37 ADVP-DIR, 39 forth
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ-1 (EX there))
+	  (BEP is)
+	  (NP-1 (QP (ADV very) (Q little))
+		(PP (P of)
+		    (NP (D the)
+			(N feeding)
+			(PP (P in)
+			    (NP (ADJ green) (NS pastures)))
+			(CONJP (CONJ and)
+			       (IP-PPL (VAG leading)
+				       (ADVP-DIR (ADV forth))
+				       (PP (P beside)
+					   (NP (D the)
+					       (NS waters)
+					       (PP (P of)
+						   (NP (N comfort))))))))))
+	  (. ,))
+  (ID BENSON-1908,73.318))
+
+/~*
+the thing is made comparatively easy at my own school, where the boys have
+separate rooms and where it is the custom for the housemaster to go round
+after prayers to see the boys until the lights are out.
+(BENSON-1908,82.397)
+*~/
+/*
+87 ADVP-DIR:  87 ADVP-DIR, 89 round
+*/
+
+( (IP-MAT (NP-SBJ-1 (D the) (N thing))
+	  (BEP is)
+	  (VAN made)
+	  (IP-SMC (NP-SBJ *-1)
+		  (ADJP (ADV comparatively) (ADJ easy)))
+	  (PP (P at)
+	      (NP (PRO$ my)
+		  (ADJ own)
+		  (N school)
+		  (, ,)
+		  (CP-REL (CP-REL (WADVP-2 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-2)
+					  (NP-SBJ (D the) (NS boys))
+					  (HVP have)
+					  (NP-OB1 (ADJ separate) (NS rooms))))
+			  (CONJP (CONJ and)
+				 (CP-REL (WADVP-3 (WADV where))
+					 (C 0)
+					 (IP-SUB (ADVP-LOC *T*-3)
+						 (NP-SBJ-4 (PRO it))
+						 (BEP is)
+						 (NP-OB1 (D the) (N custom))
+						 (IP-INF-4 (FOR for)
+							   (NP-SBJ (D the) (N housemaster))
+							   (TO to)
+							   (VB go)
+							   (ADVP-DIR (ADV round))
+							   (PP (P after)
+							       (NP (NS prayers)))
+							   (IP-INF-PRP (TO to)
+								       (VB see)
+								       (NP-OB1 (D the) (NS boys)))
+							   (PP (P until)
+							       (CP-ADV (C 0)
+								       (IP-SUB (NP-SBJ (D the) (NS lights))
+									       (BEP are)
+									       (RP out)))))))))))
+	  (. .))
+  (ID BENSON-1908,82.397))
+
+/~*
+and is never thrown away.
+(BENSON-1908,87.456)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BEP is)
+	  (ADVP-TMP (ADV never))
+	  (VAN thrown)
+	  (ADVP-DIR (ADV away))
+	  (. .))
+  (ID BENSON-1908,87.456))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	8/8/458
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd
+*/
+
+/~*
+The 'foremention'd Cicero, when advanc'd to the Consulship, was so far from
+neglecting his Mother-Tongue, that in the heat of Civil War between Caesar and
+Pompey, when he knew not whither to send Wife or Children, nor where to hide
+his own Head, he importunes his Friend Atticus in a Letter of State-matters to
+satisfie him, whether he ought to write ad Piraeum, in Piraea, in Piraeum, or
+Piraeum without a Preposition;
+(BRIGHTLAND-1711,4.24)
+*~/
+/*
+111 ADVP-DIR:  111 ADVP-DIR, 112 *T*-1
+*/
+
+( (IP-MAT (NP-SBJ (D The) (ADV+VAN 'foremention'd) (CODE <font>) (NPR Cicero))
+	  (, ,)
+	  (CODE <$$font>)
+	  (PP (P when)
+	      (IP-PPL (VAN advanc'd)
+		      (PP (P to)
+			  (NP (D the) (N Consulship)))))
+	  (, ,)
+	  (BED was)
+	  (ADJP-LOC (ADVR so)
+		    (ADJ far)
+		    (PP (P from)
+			(IP-PPL (VAG neglecting)
+				(NP-OB1 (PRO$ his) (N+N Mother-Tongue))))
+		    (, ,)
+		    (CP-DEG (C that)
+			    (IP-SUB (PP (P in)
+					(NP (D the)
+					    (N heat)
+					    (PP (P of)
+						(NP (ADJ Civil)
+						    (N War)
+						    (PP (P between)
+							(CODE <font>)
+							(NP (NPR Caesar) (CODE <$$font>) (CONJ and) (CODE <font>) (NPR Pompey)))))))
+				    (, ,)
+				    (CODE <$$font>)
+				    (PP (P when)
+					(CP-ADV (C 0)
+						(IP-SUB (NP-SBJ (PRO he))
+							(VBD knew)
+							(NEG not)
+							(CP-QUE (CP-QUE (WADVP-1 (WADV whither))
+									(IP-INF (ADVP-DIR *T*-1)
+										(TO to)
+										(VB send)
+										(NP-OB1 (N Wife) (CONJ or) (NS Children))))
+								(, ,)
+								(CONJP (CONJ nor)
+								       (CP-QUE (WADVP-2 (WADV where))
+									       (IP-INF (ADVP-LOC *T*-2)
+										       (TO to)
+										       (VB hide)
+										       (NP-OB1 (PRO$ his) (ADJ own) (N Head)))))))))
+				    (, ,)
+				    (NP-SBJ (PRO he))
+				    (VBP importunes)
+				    (NP-OB1 (PRO$ his)
+					    (N Friend)
+					    (CODE <font>)
+					    (NP-PRN (NPR Atticus)))
+				    (CODE <$$font>)
+				    (CODE <paren>)
+				    (PP (P in)
+					(NP (D a)
+					    (N Letter)
+					    (PP (P of)
+						(NP (N+NS State-matters)))))
+				    (CODE <$$paren>)
+				    (IP-INF (TO to)
+					    (VB satisfie)
+					    (NP-OB1 (PRO him))
+					    (, ,)
+					    (CP-QUE (WQ whether)
+						    (C 0)
+						    (IP-SUB (NP-SBJ (PRO he))
+							    (MD ought)
+							    (TO to)
+							    (VB write)
+							    (CODE <font>)
+							    (NP-OB1 (NP (LATIN (FW ad) (FW Piraeum) (, ,) (FW in) (FW Piraea) (, ,) (FW in) (FW Piraeum)))
+								    (, ,)
+								    (CODE <$$font>)
+								    (CONJP (CONJ or)
+									   (CODE <font>)
+									   (NP (LATIN (FW Piraeum))
+									       (CODE <$$font>)
+									       (PP (P without)
+										   (NP (D a) (N Preposition))))))))))))
+	  (. ;))
+  (ID BRIGHTLAND-1711,4.24))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	1/1/49
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd
+*/
+
+/~*
+If he gets money from his relations or friends, which they design, through a
+fond but mistaken affection, as an expression of their regard or esteem, he is
+often permitted, or rather encouraged, to throw it away in purchasing those
+things which will sow the seeds of luxury and profusion in his tender mind.
+(CHAPMAN-1774,25.33)
+*~/
+/*
+124 ADVP-DIR:  124 ADVP-DIR, 126 away
+*/
+
+( (IP-MAT-1 (PP (P If)
+		(CP-ADV (C 0)
+			(IP-SUB (NP-SBJ (PRO he))
+				(VBP gets)
+				(NP-OB1 (N money)
+					(CP-REL *ICH*-2))
+				(PP (P from)
+				    (NP (PRO$ his)
+					(NS relations)
+					(CONJP (CONJ or)
+					       (NX (NS friends)))))
+				(, ,)
+				(CP-REL-2 (WNP-3 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-3)
+						  (NP-SBJ (PRO they))
+						  (VBP design)
+						  (, ,)
+						  (PP (P through)
+						      (NP (D a)
+							  (ADJP (ADJ fond) (CONJ but) (VAN mistaken))
+							  (N affection)))
+						  (, ,)
+						  (PP (P as)
+						      (NP (D an)
+							  (N expression)
+							  (PP (P of)
+							      (NP (PRO$ their)
+								  (N regard)
+								  (CONJP (CONJ or)
+									 (NX (N esteem))))))))))))
+	    (, ,)
+	    (NP-SBJ (PRO he))
+	    (BEP is)
+	    (ADVP-TMP (ADV often))
+	    (VAN permitted)
+	    (, ,)
+	    (CODE <P_25>)
+	    (IP-MAT-PRN=1 (CONJ or)
+			  (ADVP (ADVR rather))
+			  (VAN encouraged))
+	    (, ,)
+	    (IP-INF (TO to)
+		    (VB throw)
+		    (NP-OB1 (PRO it))
+		    (ADVP-DIR (ADV away))
+		    (PP (P in)
+			(IP-PPL (VAG purchasing)
+				(NP-OB1 (D those)
+					(NS things)
+					(CP-REL (WNP-4 (WPRO which))
+						(C 0)
+						(IP-SUB (NP-SBJ *T*-4)
+							(MD will)
+							(VB sow)
+							(NP-OB1 (D the)
+								(NS seeds)
+								(PP (P of)
+								    (NP (N luxury) (CONJ and) (N profusion))))
+							(PP (P in)
+							    (NP (PRO$ his) (ADJ tender) (N mind)))))))))
+	    (. .))
+  (ID CHAPMAN-1774,25.33))
+
+/~*
+How can we expect to be happy ourselves, or to perform our duty to those who
+are under our care, if we be hurried away by the violence of our passions?
+(CHAPMAN-1774,32.64)
+*~/
+/*
+83 ADVP-DIR:  83 ADVP-DIR, 85 away
+*/
+
+( (CP-QUE (WADVP-1 (WADV How))
+	  (IP-SUB (ADVP *T*-1)
+		  (MD can)
+		  (NP-SBJ (PRO we))
+		  (VB expect)
+		  (IP-INF (IP-INF (TO to)
+				  (BE be)
+				  (ADJP (ADJ happy))
+				  (NP-PRN (PRO$+N ourselves)))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (IP-INF (TO to)
+					 (VB perform)
+					 (NP-OB1 (PRO$ our)
+						 (N duty)
+						 (PP (P to)
+						     (NP (D those)
+							 (CP-REL (WNP-2 (WPRO who))
+								 (C 0)
+								 (IP-SUB (NP-SBJ *T*-2)
+									 (BEP are)
+									 (PP (P under)
+									     (NP (PRO$ our) (N care)))))))))))
+		  (, ,)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO we))
+				      (BEP be)
+				      (VAN hurried)
+				      (ADVP-DIR (ADV away))
+				      (PP (P by)
+					  (NP (D the)
+					      (N violence)
+					      (PP (P of)
+						  (NP (PRO$ our) (NS passions)))))))))
+	  (. ?))
+  (ID CHAPMAN-1774,32.64))
+
+/~*
+but is it not also natural, since we are endued with moral feelings, and with
+reason as well as with passions, to set proper bounds to our resentments,
+rather than allow them to hurry us away blindly into violence and bloodshed?
+(CHAPMAN-1774,33.72)
+*~/
+/*
+111 ADVP-DIR:  111 ADVP-DIR, 113 away
+*/
+
+( (CP-QUE (CONJ but)
+	  (IP-SUB (BEP is)
+		  (NP-SBJ-1 (PRO it))
+		  (NEG not)
+		  (ALSO also)
+		  (ADJP (ADJ natural))
+		  (, ,)
+		  (PP (P since)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO we))
+				      (BEP are)
+				      (VAN endued)
+				      (PP (PP (P with)
+					      (NP (ADJ moral) (NS feelings)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (PP (P with)
+						     (NP (N reason)))))
+				      (ADVP (ADVR as)
+					    (ADV well)
+					    (PP (P as)
+						(PP (P with)
+						    (NP (NS passions))))))))
+		  (, ,)
+		  (IP-INF-1 (TO to)
+			    (VB set)
+			    (NP-OB1 (ADJ proper) (NS bounds))
+			    (PP (P to)
+				(NP (PRO$ our) (NS resentments)))
+			    (, ,)
+			    (ADVP (ADVR rather)
+				  (PP (P than)
+				      (IP-INF (TO *)
+					      (VB allow)
+					      (IP-INF (NP-SBJ (PRO them))
+						      (TO to)
+						      (VB hurry)
+						      (NP-OB1 (PRO us))
+						      (ADVP-DIR (ADV away))
+						      (ADVP (ADV blindly))
+						      (PP (P into)
+							  (NP (N violence) (CONJ and) (N bloodshed)))))))))
+	  (. ?))
+  (ID CHAPMAN-1774,33.72))
+
+/~*
+For though society justly punishes the breach of its laws, in order to bring
+us back to our duty, or to deter others from the like practice; yet it appears,
+that, in many instances, mistaken views are the occasion of vice, and that the
+folly of the transgressor is often greater than his guilt.
+(CHAPMAN-1774,37.90)
+*~/
+/*
+51 ADVP-DIR:  51 ADVP-DIR, 53 back
+*/
+
+( (IP-MAT (CONJ For)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (N society))
+			      (ADVP (ADV justly))
+			      (VBP punishes)
+			      (NP-OB1 (D the)
+				      (N breach)
+				      (PP (P of)
+					  (NP (PRO$ its) (NS laws))))
+			      (, ,)
+			      (PP (P in)
+				  (CODE <P_37>)
+				  (NP (N order)
+				      (IP-INF (IP-INF (TO to)
+						      (VB bring)
+						      (NP-OB1 (PRO us))
+						      (ADVP-DIR (ADV back))
+						      (PP (P to)
+							  (NP (PRO$ our) (N duty))))
+					      (, ,)
+					      (CONJP (CONJ or)
+						     (IP-INF (TO to)
+							     (VB deter)
+							     (NP-OB1 (OTHERS others))
+							     (PP (P from)
+								 (NP (D the) (ADJ like) (N practice)))))))))))
+	  (, ;)
+	  (ADVP-TMP (ADV yet))
+	  (NP-SBJ-1 (PRO it))
+	  (VBP appears)
+	  (, ,)
+	  (CP-THT-1 (CP-THT (C that)
+			    (, ,)
+			    (IP-SUB (PP (P in)
+					(NP (Q many) (NS instances)))
+				    (, ,)
+				    (NP-SBJ (VAN mistaken) (NS views))
+				    (BEP are)
+				    (NP-OB1 (D the)
+					    (N occasion)
+					    (PP (P of)
+						(NP (N vice))))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (CP-THT (C that)
+				   (IP-SUB (NP-SBJ (D the)
+						   (N folly)
+						   (PP (P of)
+						       (NP (D the) (N transgressor))))
+					   (BEP is)
+					   (ADVP-TMP (ADV often))
+					   (ADJP (ADJR greater)
+						 (PP (P than)
+						     (NP (PRO$ his) (N guilt))))))))
+	  (. .))
+  (ID CHAPMAN-1774,37.90))
+
+/~*
+Then he is carried forward to the adjectives; which are taught with the like
+care, and their degrees of comparison explained.
+(CHAPMAN-1774,180.149)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 forward
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (VAN carried)
+	  (ADVP-DIR (ADV+WARD forward))
+	  (PP (P to)
+	      (NP (D the)
+		  (NS adjectives)
+		  (, ;)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB-2 (NP-SBJ *T*-1)
+					    (BEP are)
+					    (VAN taught)
+					    (PP (P with)
+						(NP (D the) (ADJ like) (N care))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=2 (NP-SBJ-RSP=1 (PRO$ their)
+								 (NS degrees)
+								 (PP (P of)
+								     (NP (N comparison))))
+						   (VAN explained)))))))
+	  (. .))
+  (ID CHAPMAN-1774,180.149))
+
+/~*
+When, by repeated exercises, he is pretty much master of amo, and two or three
+other verbs taken from his vocabulary, as, voco, do, veto, he is carried
+forward to the second conjugation;
+(CHAPMAN-1774,183.159)
+*~/
+/*
+107 ADVP-DIR:  107 ADVP-DIR, 109 forward
+*/
+
+( (IP-MAT (PP (P When)
+	      (, ,)
+	      (CP-ADV (C 0)
+		      (IP-SUB (PP (P by)
+				  (NP (VAN repeated) (NS exercises)))
+			      (, ,)
+			      (NP-SBJ (PRO he))
+			      (BEP is)
+			      (NP-OB1 (QP (ADV pretty) (Q much))
+				      (N master)
+				      (PP (P of)
+					  (CODE <font>)
+					  (NP (NP (FW amo))
+					      (, ,)
+					      (CODE <$$font>)
+					      (CONJP (CONJ and)
+						     (CODE <P_183>)
+						     (NP (NUMP (NUM two) (CONJ or) (NUM three))
+							 (OTHER other)
+							 (NS verbs)
+							 (RRC (VAN taken)
+							      (PP (P from)
+								  (NP (PRO$ his) (N vocabulary))))
+							 (, ,)
+							 (PP (P as)
+							     (, ,)
+							     (CODE <font>)
+							     (NP (LATIN (FW voco) (, ,) (FW do) (, ,) (FW veto))))))))))))
+	  (, ,)
+	  (CODE <$$font>)
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (VAN carried)
+	  (ADVP-DIR (ADV+WARD forward))
+	  (PP (P to)
+	      (NP (D the) (ADJ second) (N conjugation)))
+	  (. ;))
+  (ID CHAPMAN-1774,183.159))
+
+/~*
+But it is thought necessary, in the first place, to inculcate these with the
+greatest exactness, as the most solid foundation of the progress they are
+afterwards to make in science or learning of any kind: so that this great
+expence of time and labour, though bestowed, as it were, upon the elements of
+one language, is by no means thrown away;
+(CHAPMAN-1774,191.206)
+*~/
+/*
+191 ADVP-DIR:  191 ADVP-DIR, 193 away
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (VAN thought)
+	  (IP-SMC (NP-SBJ *-1)
+		  (ADJP (ADJ necessary)))
+	  (, ,)
+	  (PP (P in)
+	      (NP (D the) (ADJ first) (N place)))
+	  (, ,)
+	  (IP-INF-1 (TO to)
+		    (VB inculcate)
+		    (NP-OB1 (D these))
+		    (PP (P with)
+			(NP (D the) (ADJS greatest) (N exactness)))
+		    (, ,)
+		    (PP (P as)
+			(NP (D the)
+			    (ADJP (QS most) (ADJ solid))
+			    (N foundation)
+			    (PP (P of)
+				(NP (D the)
+				    (N progress)
+				    (CP-REL (WNP-2 0)
+					    (C 0)
+					    (IP-SUB (NP-SBJ (PRO they))
+						    (BEP are)
+						    (ADVP-TMP (ADV+WARD afterwards))
+						    (IP-INF (NP-OB1 *T*-2)
+							    (TO to)
+							    (VB make))))
+				    (PP (P in)
+					(NP (N science)
+					    (CONJ or)
+					    (N learning)
+					    (PP (P of)
+						(NP (Q any) (N kind))))))))))
+	  (, :)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (D this)
+				      (ADJ great)
+				      (N expence)
+				      (PP (P of)
+					  (NP (N time) (CONJ and) (N labour))))
+			      (, ,)
+			      (PP (P though)
+				  (IP-PPL (VAN bestowed)
+					  (, ,)
+					  (PP-PRN (P as)
+						  (CP-ADV (C 0)
+							  (IP-SUB (NP-SBJ (PRO it))
+								  (BED were))))
+					  (, ,)
+					  (PP (P upon)
+					      (NP (D the)
+						  (NS elements)
+						  (PP (P of)
+						      (NP (ONE one) (N language)))))))
+			      (, ,)
+			      (BEP is)
+			      (PP (P by)
+				  (NP (Q no) (N means)))
+			      (VAN thrown)
+			      (ADVP-DIR (ADV away)))))
+	  (. ;))
+  (ID CHAPMAN-1774,191.206))
+
+/~*
+On these the nature of language, and the elegancies of diction, will make but
+a faint impression during that period which is commonly assigned for a
+school-education, though they are sometimes found to make afterwards great
+proficiency in knowledge, and are frequently observed to be very successful in
+business.
+(CHAPMAN-1774,210.315)
+*~/
+/*
+110 ADVP-DIR:  110 ADVP-DIR, 112 afterwards
+*/
+
+( (IP-MAT (PP (P On)
+	      (NP (D these)))
+	  (NP-SBJ (NP (D the)
+		      (CODE <P_210>)
+		      (N nature)
+		      (PP (P of)
+			  (NP (N language))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (NS elegancies)
+			     (PP (P of)
+				 (NP (N diction))))))
+	  (, ,)
+	  (MD will)
+	  (VB make)
+	  (NP-OB1 (FP but) (D a) (ADJ faint) (N impression))
+	  (PP (P during)
+	      (NP (D that)
+		  (N period)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (ADVP (ADV commonly))
+				  (VAN assigned)
+				  (PP (P for)
+				      (NP (D a) (N+N school-education)))))))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+				      (BEP are)
+				      (NP-TMP (Q+NS sometimes))
+				      (VAN found)
+				      (IP-INF (TO to)
+					      (VB make)
+					      (ADVP-DIR (ADV+WARD afterwards))
+					      (NP-OB1 (ADJ great)
+						      (N proficiency)
+						      (PP (P in)
+							  (NP (N knowledge))))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (BEP are)
+					     (ADVP (ADV frequently))
+					     (VAN observed)
+					     (IP-INF (TO to)
+						     (BE be)
+						     (ADJP (ADV very)
+							   (ADJ successful)
+							   (PP (P in)
+							       (NP (N business))))))))))
+	  (. .))
+  (ID CHAPMAN-1774,210.315))
+
+/~*
+If we look back but a few years, they who acted on the theatre of human life
+are now no more.
+(CHAPMAN-1774,216.360)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 back
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP look)
+			      (ADVP-DIR (ADV back))
+			      (NP-MSR (FP but)
+				      (QP (D a) (Q few))
+				      (NS years)))))
+	  (, ,)
+	  (NP-SBJ (PRO they)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD acted)
+				  (PP (P on)
+				      (NP (D the)
+					  (N theatre)
+					  (PP (P of)
+					      (NP (ADJ human) (N life))))))))
+	  (BEP are)
+	  (ADVP-TMP (ADV now))
+	  (NP-MSR (QP (Q no) (QR more)))
+	  (. .))
+  (ID CHAPMAN-1774,216.360))
+
+/~*
+If we look forward but one century into futurity, where are we ourselves?
+(CHAPMAN-1774,217.363)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 forward
+*/
+
+( (CP-QUE (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP look)
+			      (ADVP-DIR (ADV+WARD forward))
+			      (NP-MSR (FP but) (ONE one) (N century))
+			      (PP (P into)
+				  (NP (N futurity))))))
+	  (, ,)
+	  (WADVP-1 (WADV where))
+	  (IP-SUB (ADVP-LOC *T*-1)
+		  (BEP are)
+		  (NP-SBJ (PRO we)
+			  (NP-PRN (PRO$+N ourselves))))
+	  (. ?))
+  (ID CHAPMAN-1774,217.363))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	10/10/383
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd
+*/
+
+/~*
+and in regard, the Money is lost, if the Ship be cast away, there is a
+valuable Consideration above the common Interest or Exchange.
+(DRUMMOND-1718,12.130)
+*~/
+/*
+43 ADVP-DIR:  43 ADVP-DIR, 45 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (CP-ADV (C 0)
+		  (IP-SUB (PP (P in)
+			      (NP (N regard)))
+			  (, ,)
+			  (NP-SBJ (D the) (N Money))
+			  (BEP is)
+			  (VAN lost)
+			  (, ,)
+			  (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (D the) (N Ship))
+					      (BEP be)
+					      (VAN cast)
+					      (ADVP-DIR (ADV away)))))))
+	  (, ,)
+	  (NP-SBJ-1 (EX there))
+	  (BEP is)
+	  (NP-1 (D a) (ADJ valuable) (N Consideration))
+	  (PP (P above)
+	      (NP (D the)
+		  (ADJ common)
+		  (N Interest)
+		  (CONJP (CONJ or)
+			 (NX (N Exchange)))))
+	  (. .))
+  (ID DRUMMOND-1718,12.130))
+
+/~*
+If the Ship arrive safe, it is Creditor by Cash or Goods, when I am paid upon
+her Arrival; and by Gain and Loss, if she is cast away.
+(DRUMMOND-1718,12.133)
+*~/
+/*
+117 ADVP-DIR:  117 ADVP-DIR, 119 away
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P If)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (D the) (N Ship))
+					(VBP arrive)
+					(ADJP-SPR (ADJ safe)))))
+		    (, ,)
+		    (NP-SBJ (PRO it))
+		    (BEP is)
+		    (CODE <font>)
+		    (NP-OB1 (N Creditor))
+		    (CODE <$$font>)
+		    (PP (P by)
+			(CODE <font>)
+			(NP (N Cash)
+			    (CODE <$$font>)
+			    (CONJP (CONJ or) (CODE <font>) (NS Goods))))
+		    (CODE <$$font>)
+		    (, ,)
+		    (PP (P when)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (PRO I))
+					(BEP am)
+					(VAN paid)
+					(PP (P upon)
+					    (NP (PRO$ her) (N Arrival)))))))
+	  (, ;)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (PP (P by)
+			       (CODE <font>)
+			       (NP (N Gain) (CODE <$$font>) (CONJ and) (CODE <font>) (N Loss)))
+			   (CODE <$$font>)
+			   (, ,)
+			   (PP (P if)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO she))
+					       (BEP is)
+					       (VAN cast)
+					       (ADVP-DIR (ADV away)))))))
+	  (. .))
+  (ID DRUMMOND-1718,12.133))
+
+/~*
+If the Ship is cast away, you have usually a Rebate for Payment of the Money,
+Value of which was insured on her.
+(DRUMMOND-1718,14.150)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 away
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N Ship))
+			      (BEP is)
+			      (VAN cast)
+			      (ADVP-DIR (ADV away)))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (HVP have)
+	  (ADVP (ADV usually))
+	  (NP-OB1 (D a)
+		  (N Rebate)
+		  (PP (P for)
+		      (NP (N Payment)
+			  (PP (P of)
+			      (NP (D the) (N Money)))
+			  (, ,)
+			  (CP-REL (WNP-1 (N Value)
+					 (WPP (P of)
+					      (WNP (WPRO which))))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BED was)
+					  (VAN insured)
+					  (PP (P on)
+					      (NP (PRO her))))))))
+	  (. .))
+  (ID DRUMMOND-1718,14.150))
+
+/~*
+he throws away the Bone so far,
+(DRUMMOND-1718,29.286)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO he))
+	  (VBP throws)
+	  (ADVP-DIR (ADV away))
+	  (NP-OB1 (D the) (N Bone))
+	  (NP-MSR (ADJP (ADVR so) (ADJ far)))
+	  (. ,))
+  (ID DRUMMOND-1718,29.286))
+
+/~*
+The Dutch throw all the Herrings away which are not gipped against Mid-day, as
+being good for nothing but to spoil the rest.
+(DRUMMOND-1718,32.349)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 24 away
+*/
+
+( (IP-MAT (NP-SBJ (D The) (CODE <font>) (ADJ Dutch))
+	  (CODE <$$font>)
+	  (VBP throw)
+	  (NP-OB1 (Q all)
+		  (D the)
+		  (NS Herrings)
+		  (CP-REL *ICH*-1))
+	  (ADVP-DIR (ADV away))
+	  (CP-REL-1 (WNP-2 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (BEP are)
+			    (NEG not)
+			    (VAN gipped)
+			    (PP (P against)
+				(NP (N Mid-day)))))
+	  (, ,)
+	  (PP (P as)
+	      (IP-PPL (BAG being)
+		      (ADJP (ADJ good)
+			    (PP (P for)
+				(NP (Q+N nothing)
+				    (PP (P but)
+					(IP-INF (TO to)
+						(VB spoil)
+						(NP-OB1 (D the) (N rest)))))))))
+	  (. .))
+  (ID DRUMMOND-1718,32.349))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	5/5/436
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	0/0/522
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd
+*/
+
+/~*
+As soon as they are taken from the trees, to keep them from drying, and to
+preserve them from the frost, they should be laid in the ground with the cuts
+downwards, burying them half their length, or more, and covering the tops with
+dry stubble.
+(GRAFTING-1780,9.56)
+*~/
+/*
+99 ADVP-DIR:  99 ADVP-DIR, 101 downwards
+*/
+
+( (IP-MAT (ADVP-TMP (ADVR As)
+		    (ADV soon)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP *T*-1)
+					(NP-SBJ (PRO they))
+					(BEP are)
+					(VAN taken)
+					(PP (P from)
+					    (NP (D the) (NS trees)))))))
+	  (, ,)
+	  (IP-INF-PRP (IP-INF (TO to)
+			      (VB keep)
+			      (NP-OB1 (PRO them))
+			      (PP (P from)
+				  (NP (N drying))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-INF (TO to)
+				     (VB preserve)
+				     (NP-OB1 (PRO them))
+				     (PP (P from)
+					 (NP (D the) (N frost))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (MD should)
+	  (BE be)
+	  (VAN laid)
+	  (PP (P in)
+	      (NP (D the) (N ground)))
+	  (PP (P with)
+	      (IP-SMC (NP-SBJ (D the) (NS cuts))
+		      (ADVP-DIR (RP+WARD downwards))))
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG burying)
+			  (NP-OB1 (PRO them))
+			  (NP-MSR (NP (Q half) (PRO$ their) (N length))
+				  (, ,)
+				  (CONJP (CONJ or)
+					 (NP (QR more)))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (VAG covering)
+				 (CODE <P_9>)
+				 (NP-OB1 (D the) (NS tops))
+				 (PP (P with)
+				     (NP (ADJ dry) (N stubble))))))
+	  (. .))
+  (ID GRAFTING-1780,9.56))
+
+/~*
+Your cion being thus prepared, to receive the same, you must make a slit in
+the rind of the stock, about two inches in length, drawing your knife
+downwards;
+(GRAFTING-1780,10.71)
+*~/
+/*
+85 ADVP-DIR:  85 ADVP-DIR, 87 downwards
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (PRO$ Your) (N cion))
+		      (BAG being)
+		      (ADVP (ADV thus))
+		      (VAN prepared)
+		      (, ,)
+		      (IP-INF (TO to)
+			      (VB receive)
+			      (NP-OB1 (D the) (ADJ same))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD must)
+	  (VB make)
+	  (NP-OB1 (D a)
+		  (N slit)
+		  (NP-MSR *ICH*-1))
+	  (PP (P in)
+	      (NP (D the)
+		  (N rind)
+		  (PP (P of)
+		      (NP (D the) (N stock)))))
+	  (, ,)
+	  (NP-MSR-1 (NUMP (ADV about) (NUM two))
+		    (NS inches)
+		    (PP (P in)
+			(NP (N length))))
+	  (, ,)
+	  (IP-PPL (VAG drawing)
+		  (NP-OB1 (PRO$ your) (N knife))
+		  (ADVP-DIR (RP+WARD downwards)))
+	  (. ;))
+  (ID GRAFTING-1780,10.71))
+
+/~*
+Thus having exactly fitted the one to the other, bind them closely round with
+bass mats, woollen yarn, or some such thing, beginning at the lower part, and
+so proceeding to the top.
+(GRAFTING-1780,11.79)
+*~/
+/*
+36 ADVP-DIR:  36 ADVP-DIR, 38 round
+*/
+
+( (IP-IMP (IP-PPL (ADVP (ADV Thus))
+		  (HAG having)
+		  (ADVP (ADV exactly))
+		  (VBN fitted)
+		  (NP-OB1 (D the) (ONE one))
+		  (PP (P to)
+		      (NP (D the) (OTHER other))))
+	  (, ,)
+	  (VBI bind)
+	  (NP-OB1 (PRO them))
+	  (ADVP (ADV closely))
+	  (ADVP-DIR (ADV round))
+	  (PP (P with)
+	      (NP (NP (N bass) (NS mats))
+		  (, ,)
+		  (CONJP (NP (ADJ woollen) (N yarn)))
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (NP (Q some) (SUCH such) (N thing)))))
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG beginning)
+			  (PP (P at)
+			      (NP (D the) (ADJR lower) (N part))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (ADVP (ADV so))
+				 (VAG proceeding)
+				 (PP (P to)
+				     (NP (D the) (N top))))))
+	  (. .))
+  (ID GRAFTING-1780,11.79))
+
+/~*
+The head of the stock is first cut off with a sharp knife, or saw, as smooth
+and even as possible:
+(GRAFTING-1780,12.93)
+*~/
+/*
+52 ADVX:  52 ADVX, 54 even
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N head)
+		  (PP (P of)
+		      (NP (D the) (N stock))))
+	  (BEP is)
+	  (ADVP-TMP (ADV first))
+	  (VAN cut)
+	  (RP off)
+	  (PP (P with)
+	      (NP (D a)
+		  (ADJ sharp)
+		  (N knife)
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (NX (N saw)))))
+	  (, ,)
+	  (ADVP (ADVR as)
+		(ADV smooth)
+		(CONJP (CONJ and)
+		       (ADVX (ADV even)))
+		(PP (P as)
+		    (ADJP (ADJ possible))))
+	  (. :))
+  (ID GRAFTING-1780,12.93))
+
+/~*
+After the cions are properly inserted, bind them well round with bass matting,
+(GRAFTING-1780,13.99)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 33 round
+*/
+
+( (IP-IMP (PP (P After)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (NS cions))
+			      (BEP are)
+			      (ADVP (ADV properly))
+			      (VAN inserted))))
+	  (, ,)
+	  (VBI bind)
+	  (NP-OB1 (PRO them))
+	  (ADVP (ADV well))
+	  (ADVP-DIR (ADV round))
+	  (PP (P with)
+	      (NP (N bass) (N matting)))
+	  (. ,))
+  (ID GRAFTING-1780,13.99))
+
+/~*
+This method is improved by what we call tipping, or tonguing, which is to make
+a slit with a knife in the bare place of the stock downward, beginning towards
+the top of the slope, and so slitting it a little way, and doing the like in
+the sloped part of the cion;
+(GRAFTING-1780,14.103)
+*~/
+/*
+94 ADVP-DIR:  94 ADVP-DIR, 96 downward
+*/
+
+( (IP-MAT (NP-SBJ (D This) (N method))
+	  (BEP is)
+	  (VAN improved)
+	  (PP (P by)
+	      (NP (CP-FRL (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO we))
+				  (VBP call)
+				  (CODE <font>)
+				  (IP-SMC (NP-SBJ *T*-1)
+					  (NP-OB1 (N tipping)
+						  (, ,)
+						  (CODE <$$font>)
+						  (CONJ or)
+						  (N tonguing)
+						  (, ,)
+						  (CP-REL (WNP-2 (WPRO which))
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-2)
+								  (BEP is)
+								  (IP-INF (TO to)
+									  (VB make)
+									  (NP-OB1 (D a) (N slit))
+									  (PP (P with)
+									      (NP (D a) (N knife)))
+									  (PP (P in)
+									      (NP (D the)
+										  (ADJ bare)
+										  (N place)
+										  (PP (P of)
+										      (NP (D the) (N stock)))))
+									  (CODE <P_14>)
+									  (ADVP-DIR (RP+WARD downward))
+									  (, ,)
+									  (IP-PPL (IP-PPL (VAG beginning)
+											  (PP (P towards)
+											      (NP (D the)
+												  (N top)
+												  (PP (P of)
+												      (NP (D the) (N slope))))))
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (IP-PPL (ADVP (ADV so))
+												 (VAG slitting)
+												 (NP-OB1 (PRO it))
+												 (NP-MSR (NP-MSR (D a) (ADJ little))
+													 (N way))))
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (IP-PPL (DAG doing)
+												 (NP-OB1 (D the) (ADJ like))
+												 (PP (P in)
+												     (NP (D the)
+													 (VAN sloped)
+													 (N part)
+													 (PP (P of)
+													     (NP (D the) (N cion)))))))))))))))))
+	  (. ;))
+  (ID GRAFTING-1780,14.103))
+
+/~*
+and carry it upward.
+(GRAFTING-1780,14.105)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 upward
+*/
+
+( (IP-IMP (CONJ and)
+	  (VBI carry)
+	  (NP-OB1 (PRO it))
+	  (ADVP-DIR (RP+WARD upward))
+	  (. .))
+  (ID GRAFTING-1780,14.105))
+
+/~*
+and from the middle of that cut make a slit downwards, about two inches in
+length, so that it may be in the form of a great T;
+(GRAFTING-1780,15.118)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 31 downwards
+*/
+
+( (IP-IMP (CONJ and)
+	  (PP (P from)
+	      (NP (D the)
+		  (N middle)
+		  (PP (P of)
+		      (NP (D that) (N cut)))))
+	  (VBI make)
+	  (NP-OB1 (D a)
+		  (N slit)
+		  (NP-MSR *ICH*-1))
+	  (ADVP-DIR (RP+WARD downwards))
+	  (, ,)
+	  (NP-MSR-1 (NUMP (ADV about) (NUM two))
+		    (NS inches)
+		    (PP (P in)
+			(NP (N length))))
+	  (, ,)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (MD may)
+			      (BE be)
+			      (PP (P in)
+				  (NP (D the)
+				      (N form)
+				      (PP (P of)
+					  (NP (D a) (ADJ great) (N T))))))))
+	  (. ;))
+  (ID GRAFTING-1780,15.118))
+
+/~*
+then bind them round,
+(GRAFTING-1780,15.120)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 round
+*/
+
+( (IP-IMP (ADVP-TMP (ADV then))
+	  (VBI bind)
+	  (NP-OB1 (PRO them))
+	  (ADVP-DIR (ADV round))
+	  (. ,))
+  (ID GRAFTING-1780,15.120))
+
+/~*
+nor should the wind blow very bleak or strong when this operation is performed;
+(GRAFTING-1780,16.131)
+*~/
+/*
+21 ADVX:  21 ADVX, 23 strong
+*/
+
+( (IP-MAT (CONJ nor)
+	  (MD should)
+	  (NP-SBJ (D the) (N wind))
+	  (VB blow)
+	  (ADVP (ADV very)
+		(ADV bleak)
+		(CONJP (CONJ or)
+		       (ADVX (ADV strong))))
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D this) (N operation))
+			      (BEP is)
+			      (VAN performed))))
+	  (. ;))
+  (ID GRAFTING-1780,16.131))
+
+/~*
+but where they are inclined to shoot downward, the tap root must be shortened,
+in order to force out horizontal shoots.
+(GRAFTING-1780,20.170)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 downward
+*/
+
+( (IP-MAT (CONJ but)
+	  (ADVP-LOC (CP-FRL (WADVP-1 (WADV where))
+			    (C 0)
+			    (IP-SUB (ADVP-LOC *T*-1)
+				    (NP-SBJ (PRO they))
+				    (BEP are)
+				    (VAN inclined)
+				    (IP-INF (TO to)
+					    (VB shoot)
+					    (ADVP-DIR (RP+WARD downward))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N tap) (N root))
+	  (MD must)
+	  (BE be)
+	  (VAN shortened)
+	  (, ,)
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB force)
+			  (RP out)
+			  (NP-OB1 (ADJ horizontal) (NS shoots)))))
+	  (. .))
+  (ID GRAFTING-1780,20.170))
+
+/~*
+and put forth two or three long shoots.
+(GRAFTING-1780,24.212)
+*~/
+/*
+8 ADVP-DIR:  8 ADVP-DIR, 10 forth
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD put)
+	  (ADVP-DIR (ADV forth))
+	  (NP-OB1 (NUMP (NUM two) (CONJ or) (NUM three))
+		  (ADJ long)
+		  (NS shoots))
+	  (. .))
+  (ID GRAFTING-1780,24.212))
+
+/~*
+for being grafted upon stocks of the same sort that are hardy, the grafts are
+rendered more capable of enduring the cold, as has been experienced of most of
+our valuable fruits now in England, which were formerly transplanted here from
+more southerly climates.
+(GRAFTING-1780,26.224)
+*~/
+/*
+131 ADVP-DIR:  131 ADVP-DIR, 133 here
+*/
+
+( (IP-MAT (CONJ for)
+	  (IP-PPL (BAG being)
+		  (VAN grafted)
+		  (PP (P upon)
+		      (NP (NS stocks)
+			  (PP (P of)
+			      (NP (D the) (ADJ same) (N sort)))
+			  (CP-REL (WNP-1 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP are)
+					  (ADJP (ADJ hardy)))))))
+	  (, ,)
+	  (NP-SBJ-2 (D the) (NS grafts))
+	  (BEP are)
+	  (VAN rendered)
+	  (IP-SMC (NP-SBJ *-2)
+		  (ADJP (QR more)
+			(ADJ capable)
+			(PP (P of)
+			    (IP-PPL (VAG enduring)
+				    (NP-OB1 (D the) (N cold))))))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (WNP-3 0)
+		      (C 0)
+		      (IP-SUB (NP-SBJ *T*-3)
+			      (HVP has)
+			      (BEN been)
+			      (VAN experienced)
+			      (PP (P of)
+				  (NP (QS most)
+				      (PP (P of)
+					  (NP (PRO$ our)
+					      (ADJ valuable)
+					      (NS fruits)
+					      (RRC (ADVP-TMP (ADV now))
+						   (PP (P in)
+						       (NP (NPR England))))
+					      (, ,)
+					      (CP-REL (WNP-4 (WPRO which))
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-4)
+							      (BED were)
+							      (ADVP-TMP (ADV formerly))
+							      (VAN transplanted)
+							      (ADVP-DIR (ADV here))
+							      (PP (P from)
+								  (NP (ADJP (QR more) (ADJ southerly))
+								      (NS climates))))))))))))
+	  (. .))
+  (ID GRAFTING-1780,26.224))
+
+/~*
+The binding of grafts should be loosened when the cions have pushed forth
+about an inch and a half, or two inches;
+(GRAFTING-1780,31.259)
+*~/
+/*
+35 ADVP-DIR:  35 ADVP-DIR, 37 forth
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N binding)
+		  (PP (P of)
+		      (NP (NS grafts))))
+	  (MD should)
+	  (BE be)
+	  (VAN loosened)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (NS cions))
+			      (HVP have)
+			      (VBN pushed)
+			      (ADVP-DIR (ADV forth))
+			      (NP-MSR (NP (NP (ADV about) (CODE <P_31>) (D an) (N inch))
+					  (CONJP (CONJ and)
+						 (NP (D a) (NUM half))))
+				      (, ,)
+				      (CONJP (CONJ or)
+					     (NP (NUM two) (NS inches)))))))
+	  (. ;))
+  (ID GRAFTING-1780,31.259))
+
+/~*
+as a substitute in this case, if the cion is so ordered in cutting, that an
+eye be left against the place of junction, between the stock and graft, there
+is a probability of the buds putting forth after the damage has so happened,
+provided it is broke off above it,
+(GRAFTING-1780,31.261)
+*~/
+/*
+123 ADVP-DIR:  123 ADVP-DIR, 125 forth
+*/
+
+( (IP-MAT (PP (P as)
+	      (NP (D a)
+		  (N substitute)
+		  (PP (P in)
+		      (NP (D this) (N case)))))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N cion))
+			      (BEP is)
+			      (ADVP (ADVR so)
+				    (CP-DEG *ICH*-1))
+			      (VAN ordered)
+			      (PP (P in)
+				  (NP (N cutting)))
+			      (, ,)
+			      (CP-DEG-1 (C that)
+					(IP-SUB (NP-SBJ (D an) (CODE <font>) (N eye))
+						(CODE <$$font>)
+						(BEP be)
+						(VAN left)
+						(PP (P against)
+						    (NP (D the)
+							(N place)
+							(PP (P of)
+							    (CODE <font>)
+							    (NP (N junction)))))
+						(, ,)
+						(CODE <$$font>)
+						(PP (P between)
+						    (NP (D the)
+							(N stock)
+							(CONJP (CONJ and)
+							       (NX (N graft))))))))))
+	  (, ,)
+	  (NP-SBJ-2 (EX there))
+	  (BEP is)
+	  (NP-2 (D a)
+		(N probability)
+		(PP (P of)
+		    (IP-PPL (NP-SBJ (D the) (NS buds))
+			    (VAG putting)
+			    (ADVP-DIR (ADV forth))
+			    (PP (P after)
+				(CP-ADV (C 0)
+					(IP-SUB (NP-SBJ (D the) (N damage))
+						(HVP has)
+						(ADVP (ADV so))
+						(VBN happened))))
+			    (, ,)
+			    (IP-PPL (VAN provided)
+				    (CP-THT (C 0)
+					    (IP-SUB (NP-SBJ (PRO it))
+						    (BEP is)
+						    (VAN broke)
+						    (RP off)
+						    (PP (P above)
+							(NP (PRO it)))))))))
+	  (. ,))
+  (ID GRAFTING-1780,31.261))
+
+/~*
+A little tongue is then cut upwards in the graft,
+(GRAFTING-1780,32.270)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 upwards
+*/
+
+( (IP-MAT (NP-SBJ (D A) (ADJ little) (N tongue))
+	  (BEP is)
+	  (ADVP-TMP (ADV then))
+	  (VAN cut)
+	  (ADVP-DIR (RP+WARD upwards))
+	  (PP (P in)
+	      (NP (D the) (N graft)))
+	  (. ,))
+  (ID GRAFTING-1780,32.270))
+
+/~*
+If the reader please to look back in the preceding pages, he will find I have
+already mentioned how it is performed;
+(GRAFTING-1780,34.285)
+*~/
+/*
+21 ADVP-DIR:  21 ADVP-DIR, 23 back
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N reader))
+			      (VBP please)
+			      (IP-INF (TO to)
+				      (VB look)
+				      (ADVP-DIR (ADV back))
+				      (PP (P in)
+					  (NP (D the) (VAG preceding) (NS pages)))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (MD will)
+	  (VB find)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (HVP have)
+			  (ADVP-TMP (ADV already))
+			  (VBN mentioned)
+			  (NP-OB1 (CP-FRL (WADVP-1 (WADV how))
+					  (C 0)
+					  (IP-SUB (ADVP *T*-1)
+						  (NP-SBJ (PRO it))
+						  (BEP is)
+						  (VAN performed))))))
+	  (. ;))
+  (ID GRAFTING-1780,34.285))
+
+/~*
+and from the middle of that cut make a slit downwards, about two inches in
+length, so that it may be in the form of a T;
+(GRAFTING-1780,36.300)
+*~/
+/*
+27 ADVP-DIR:  27 ADVP-DIR, 29 downwards
+*/
+
+( (IP-IMP (CONJ and)
+	  (PP (P from)
+	      (NP (D the)
+		  (N middle)
+		  (PP (P of)
+		      (NP (D that) (N cut)))))
+	  (VBI make)
+	  (NP-OB1 (D a) (N slit))
+	  (ADVP-DIR (RP+WARD downwards))
+	  (, ,)
+	  (NP-MSR (NUMP (ADV about) (CODE <font>) (NUM two))
+		  (CODE <$$font>)
+		  (NS inches)
+		  (PP (P in)
+		      (NP (N length))))
+	  (, ,)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (MD may)
+			      (BE be)
+			      (PP (P in)
+				  (NP (D the)
+				      (N form)
+				      (PP (P of)
+					  (NP (D a) (N T))))))))
+	  (. ;))
+  (ID GRAFTING-1780,36.300))
+
+/~*
+and so having exactly fitted the bud to the stock, tie them closely round with
+bass mats, beginning at the lower part of the slit, and so proceeding to the
+top, taking care not to bind round the eye of the bud, which must be left open.
+(GRAFTING-1780,37.307)
+*~/
+/*
+46 ADVP-DIR:  46 ADVP-DIR, 48 round
+*/
+
+( (IP-IMP (CONJ and)
+	  (IP-PPL (ADVP (ADV so))
+		  (HAG having)
+		  (CODE <font>)
+		  (ADVP (ADV exactly))
+		  (CODE <$$font>)
+		  (VBN fitted)
+		  (NP-OB1 (D the) (N bud))
+		  (PP (P to)
+		      (NP (D the) (N stock))))
+	  (, ,)
+	  (VBI tie)
+	  (NP-OB1 (PRO them))
+	  (CODE <font>)
+	  (ADVP (ADV closely))
+	  (CODE <$$font>)
+	  (ADVP-DIR (ADV round))
+	  (PP (P with)
+	      (NP (N bass) (NS mats)))
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG beginning)
+			  (PP (P at)
+			      (NP (D the)
+				  (ADJR lower)
+				  (N part)
+				  (PP (P of)
+				      (NP (D the) (N slit))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (ADVP (ADV so))
+				 (VAG proceeding)
+				 (PP (P to)
+				     (NP (D the) (N top))))))
+	  (, ,)
+	  (IP-PPL (VAG taking)
+		  (NP-OB1 (N care))
+		  (IP-INF (NEG not)
+			  (TO to)
+			  (VB bind)
+			  (PP (P round)
+			      (NP (D the)
+				  (CODE <font>)
+				  (N eye)
+				  (CODE <$$font>)
+				  (PP (P of)
+				      (NP (D the) (N bud)))
+				  (, ,)
+				  (CP-REL (WNP-1 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (MD must)
+						  (BE be)
+						  (VAN left)
+						  (CODE <font>)
+						  (ADJP-SPR (ADJ open))))))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID GRAFTING-1780,37.307))
+
+/~*
+Others make a cut downward in the bark about two inches long, and another
+across the middle of that;
+(GRAFTING-1780,37.310)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 downward
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (OTHERS Others))
+		    (VBP make)
+		    (NP-OB1 (D a)
+			    (N cut)
+			    (ADJP *ICH*-2))
+		    (ADVP-DIR (RP+WARD downward))
+		    (PP (P in)
+			(NP (D the) (N bark)))
+		    (ADJP-2 (NP-MSR (NUMP (ADV about) (NUM two))
+				    (NS inches))
+			    (ADJ long)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-OB1 (D+OTHER another))
+			   (PP (P across)
+			       (NP (D the)
+				   (N middle)
+				   (PP (P of)
+				       (NP (D that)))))))
+	  (. ;))
+  (ID GRAFTING-1780,37.310))
+
+/~*
+Another method practised by some is, to make a cut downward as before, and
+another horizontal one at the bottom of that;
+(GRAFTING-1780,37.312)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 33 downward
+*/
+
+( (IP-MAT (NP-SBJ (D+OTHER Another)
+		  (N method)
+		  (RRC (VAN practised)
+		       (PP (P by)
+			   (NP (Q some)))))
+	  (BEP is)
+	  (, ,)
+	  (IP-INF (IP-INF-1 (TO to)
+			    (VB make)
+			    (NP-OB1 (D a) (N cut))
+			    (ADVP-DIR (RP+WARD downward))
+			    (PP (P as)
+				(ADVP (ADV before))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF=1 (NP-OB1 (D+OTHER another) (ADJ horizontal) (ONE one))
+				   (PP (P at)
+				       (NP (D the)
+					   (N bottom)
+					   (PP (P of)
+					       (NP (D that))))))))
+	  (. ;))
+  (ID GRAFTING-1780,37.312))
+
+/~*
+Thus, for instance, we commonly inoculate a fruitful bud or cion of an apricot
+or peach into a plum stock, whose thriving, budding, putting forth branches,
+&c. are in fact nothing more than the evident indexes of the action of the
+seminal principles of those inoculated buds, which being set into motion, by
+requisites duly concurring admit of the juice or sap of the bole, and becomes
+fermental, dashing the preconceived seminal tincture of the stock, whereby it
+was disposed to the putting on the form of a plum tree transmutes that juice
+into its own nature, and so from the intestine strugglings of the said seminal
+principles of the inoculated bud, proceeds the vegetation and growth of the
+whole, clothing itself with all those natural liveries peculiar to the texture
+of such seminal prolific principles.
+(GRAFTING-1780,44.359)
+*~/
+/*
+84 ADVP-DIR:  84 ADVP-DIR, 86 forth
+*/
+
+( (IP-MAT (ADVP (ADV Thus))
+	  (, ,)
+	  (PP (P for)
+	      (NP (N instance)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (ADVP (ADV commonly))
+	  (VBP inoculate)
+	  (NP-OB1 (D a)
+		  (ADJ fruitful)
+		  (N bud)
+		  (CONJP (CONJ or)
+			 (NX (N cion)))
+		  (PP (P of)
+		      (NP (D an)
+			  (N apricot)
+			  (CONJP (CONJ or)
+				 (NX (N peach))))))
+	  (PP (P into)
+	      (NP (D a)
+		  (CODE <font>)
+		  (N plum)
+		  (N stock)
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO$ whose)
+				 (N thriving)
+				 (, ,)
+				 (CONJP (NX (N budding)))
+				 (, ,)
+				 (CONJP (IP-PPL (VAG putting)
+						(ADVP-DIR (ADV forth))
+						(NP-OB1 (NS branches))))
+				 (, ,)
+				 (FW &c.))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (PP (P in)
+				      (NP (N fact)))
+				  (NP-OB1 (Q+N nothing)
+					  (QP (QR more)
+					      (PP (P than)
+						  (NP (D the)
+						      (ADJ evident)
+						      (CODE <font>)
+						      (NS indexes)
+						      (CODE <$$font>)
+						      (PP (P of)
+							  (NP (D the)
+							      (N action)
+							      (PP (P of)
+								  (NP (D the)
+								      (ADJ seminal)
+								      (NS principles)
+								      (PP (P of)
+									  (NP (D those) (VAN inoculated) (NS buds)))))
+							      (, ,)
+							      (CP-REL (WNP-2 (WPRO which))
+								      (CODE <P_44>)
+								      (C 0)
+								      (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+										      (IP-PPL (BAG being)
+											      (VAN set)
+											      (PP (P into)
+												  (NP (N motion)))
+											      (, ,)
+											      (CODE <paren>)
+											      (PP (P by)
+												  (NP (NS requisites)
+												      (ADJP (ADV duly) (VAG concurring)))))
+										      (CODE <$$paren>)
+										      (VBP admit)
+										      (PP (P of)
+											  (NP (D the)
+											      (N juice)
+											      (CONJP (CONJ or)
+												     (NX (N sap)))
+											      (PP (P of)
+												  (NP (D the) (N bole))))))
+									      (, ,)
+									      (CONJP (CONJ and)
+										     (IP-SUB (NP-SBJ *con*)
+											     (VBP becomes)
+											     (ADJP (ADJ fermental))
+											     (, ,)
+											     (IP-PPL (VAG dashing)
+												     (NP-OB1 (D the)
+													     (VAN preconceived)
+													     (ADJ seminal)
+													     (N tincture)
+													     (PP (P of)
+														 (NP (D the) (N stock)))
+													     (, ,)
+													     (CODE <paren>)
+													     (CP-REL (WPP-3 (WADV+P whereby))
+														     (C 0)
+														     (IP-SUB (PP *T*-3)
+															     (NP-SBJ (PRO it))
+															     (BED was)
+															     (VAN disposed)
+															     (PP (P to)
+																 (NP (D the)
+																     (IP-PPL (VAG putting)
+																	     (RP on)
+																	     (NP-OB1 (D the)
+																		     (N form)
+																		     (PP (P of)
+																			 (NP (D a) (N plum) (N tree)))))))))))))
+									      (CODE <$$paren>)
+									      (CONJP (IP-SUB (NP-SBJ *con*)
+											     (VBP transmutes)
+											     (NP-OB1 (D that) (N juice))
+											     (PP (P into)
+												 (NP (PRO$ its) (ADJ own) (N nature)))))
+									      (, ,)
+									      (CONJP (CONJ and)
+										     (IP-SUB (NP-SBJ *con*)
+											     (ADVP (ADV so))
+											     (PP (P from)
+												 (NP (D the)
+												     (CODE <font>)
+												     (ADJ intestine)
+												     (NS strugglings)
+												     (CODE <$$font>)
+												     (PP (P of)
+													 (NP (D the)
+													     (VAN said)
+													     (ADJ seminal)
+													     (NS principles)
+													     (PP (P of)
+														 (NP (D the) (CODE <font>) (VAN inoculated) (N bud)))))))
+											     (CODE <$$font>)
+											     (, ,)
+											     (VBP proceeds)
+											     (NP-OB1 (D the)
+												     (N vegetation)
+												     (CONJP (CONJ and)
+													    (NX (N growth)))
+												     (PP (P of)
+													 (NP (D the) (ADJ whole))))
+											     (, ,)
+											     (IP-PPL (VAG clothing)
+												     (NP-RFL (PRO+N itself))
+												     (PP (P with)
+													 (NP (Q all)
+													     (D those)
+													     (ADJ natural)
+													     (NS liveries)
+													     (ADJP (ADJ peculiar)
+														   (PP (P to)
+														       (NP (D the)
+															   (N texture)
+															   (PP (P of)
+															       (NP (SUCH such)
+																   (ADJP (ADJ seminal) (ADJ prolific))
+																   (NS principles)))))))))))))))))))))))
+	  (. .))
+  (ID GRAFTING-1780,44.359))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	22/22/423
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	0/0/548
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd
+*/
+
+/~*
+When the legs are swelled and oedematous, gentle frictions are to be used at
+first, with warm flannel, or woollen cloths charged with the fumes of benzoin.
+and amber, or any other of the aromatic gums; provided the swelling be small,
+soft, and not very painful; rolling up afterwards with an easy bandage from
+below upwards.
+(LIND-1753,250.83)
+*~/
+/*
+169 ADVP-DIR:  169 ADVP-DIR, 177 upwards
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (NS legs))
+			      (BEP are)
+			      (ADJP (ADJ swelled) (CONJ and) (ADJ oedematous)))))
+	  (, ,)
+	  (NP-SBJ (ADJ gentle) (NS frictions))
+	  (BEP are)
+	  (IP-INF (TO to)
+		  (BE be)
+		  (VAN used)
+		  (PP (P at)
+		      (ADVP (ADV first)))
+		  (, ,)
+		  (PP (P with)
+		      (NP (NP (ADJ warm) (N flannel))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (NP (ADJ woollen) (NS cloths)))
+			  (RRC (VAN charged)
+			       (PP (P with)
+				   (NP (NP (D the)
+					   (NS fumes)
+					   (PP (P of)
+					       (CODE <font>)
+					       (NP (FW benzoin.) (CODE <$$font>) (CONJ and) (N amber))))
+				       (, ,)
+				       (CONJP (CONJ or)
+					      (NP (Q any)
+						  (OTHER other)
+						  (PP (P of)
+						      (NP (D the) (ADJ aromatic) (NS gums)))))))))))
+	  (, ;)
+	  (IP-PPL (VAN provided)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (D the) (N swelling))
+				  (BEP be)
+				  (ADJP (ADJP (ADJ small) (, ,) (ADJ soft))
+					(, ,)
+					(CONJP (CONJ and)
+					       (ADJP (NEG not) (ADV very) (ADJ painful))))
+				  (, ;)
+				  (IP-PPL (VAG rolling)
+					  (RP up)
+					  (ADVP-TMP (ADV+WARD afterwards))
+					  (PP (P with)
+					      (IP-SMC (NP-SBJ (D an) (ADJ easy) (N bandage))
+						      (ADVP-DIR (PP (P from)
+								    (ADVP (ADV below)))
+								(RP+WARD upwards))))))))
+	  (. .))
+  (ID LIND-1753,250.83))
+
+/~*
+or what I have found preferable, is the steam of the fomentation received by
+the member well covered round with a blanket or cloths.
+(LIND-1753,251.85)
+*~/
+/*
+59 ADVP-DIR:  59 ADVP-DIR, 61 round
+*/
+
+( (IP-MAT (CONJ or)
+	  (NP-SBJ (CP-FRL (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (HVP have)
+				  (VBN found)
+				  (IP-SMC (NP-SBJ *T*-1)
+					  (ADJP (ADJ preferable))))))
+	  (, ,)
+	  (BEP is)
+	  (NP-OB1 (D the)
+		  (N steam)
+		  (PP (P of)
+		      (NP (D the) (N fomentation)))
+		  (RRC (VAN received)
+		       (PP (P by)
+			   (NP (D the)
+			       (N member)
+			       (RRC (ADVP (ADV well))
+				    (VAN covered)
+				    (ADVP-DIR (ADV round))
+				    (PP (P with)
+					(NP (NP (D a) (N blanket))
+					    (CONJP (CONJ or)
+						   (NP (NS cloths))))))))))
+	  (. .))
+  (ID LIND-1753,251.85))
+
+/~*
+In dangerous hemorrhages from these ulcers, or from the gums, nose, &c. the
+mineral acids, viz. sp. or el. vitriol. are to be given, and often repeated,
+in small quantities at a time, so that they may more certainly and easily
+enter the lacteals, and get into the blood; together with small doses of the
+cort. peruv. when it agrees with the stomach.
+(LIND-1753,252.93)
+*~/
+/*
+139 ADVX:  139 ADVX, 141 easily
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P In)
+			(NP (ADJ dangerous)
+			    (NS hemorrhages)
+			    (PP (PP (P from)
+				    (NP (D these) (NS ulcers)))
+				(, ,)
+				(CONJP (CONJ or)
+				       (PP (P from)
+					   (NP (D the)
+					       (NS gums)
+					       (, ,)
+					       (CONJP (NX (N nose)))
+					       (, ,)
+					       (CODE <font>)
+					       (FW &c.)))))))
+		    (CODE <$$font>)
+		    (NP-SBJ (D the)
+			    (ADJ mineral)
+			    (CODE <P_252>)
+			    (NS acids)
+			    (, ,)
+			    (CODE <font>)
+			    (NP-PRN (LATIN (FW viz.) (FW sp.) (CODE <$$font>) (CONJ or) (CODE <font>) (FW el.) (FW vitriol.))))
+		    (CODE <$$font>)
+		    (BEP are)
+		    (IP-INF (TO to) (BE be) (VAN given)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (ADVP-TMP (ADV often))
+			   (VAN repeated)
+			   (, ,)
+			   (PP (P in)
+			       (NP (ADJ small)
+				   (NS quantities)
+				   (PP (P at)
+				       (NP (D a) (N time)))))
+			   (, ,)
+			   (PP (P so)
+			       (CP-ADV (C that)
+				       (IP-SUB (IP-SUB-2 (NP-SBJ (PRO they))
+							 (MD may)
+							 (ADVP (QR more)
+							       (ADV certainly)
+							       (CONJP (CONJ and)
+								      (ADVX (ADV easily))))
+							 (VB enter)
+							 (NP-OB1 (D the) (NS lacteals)))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (IP-SUB=2 (VB get)
+								(PP (P into)
+								    (NP (D the) (N blood))))))))
+			   (, ;)
+			   (PP (ADV together)
+			       (P with)
+			       (NP (ADJ small)
+				   (NS doses)
+				   (PP (P of)
+				       (NP (D the) (CODE <font>) (FW cort.) (FW peruv.)))))
+			   (CODE <$$font>)
+			   (PP (P when)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO it))
+					       (VBP agrees)
+					       (PP (P with)
+						   (NP (D the) (N stomach))))))))
+	  (. .))
+  (ID LIND-1753,252.93))
+
+/~*
+It would seem, that, by the urinary passages, the rancescent oils and the
+acrid salts of the blood, together with the earthy recrements broke off from
+the solids, are daily washed away, and expelled out of the body.
+(LIND-1753,274.212)
+*~/
+/*
+92 ADVP-DIR:  92 ADVP-DIR, 94 away
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (MD would)
+	  (VB seem)
+	  (, ,)
+	  (CP-THT-1 (C that)
+		    (, ,)
+		    (IP-SUB (IP-SUB-2 (PP (P by)
+					  (NP (D the) (ADJ urinary) (NS passages)))
+				      (, ,)
+				      (NP-SBJ (NP (D the) (ADJ rancescent) (NS oils))
+					      (CONJP (CONJ and)
+						     (NP (D the)
+							 (ADJ acrid)
+							 (NS salts)
+							 (PP (P of)
+							     (NP (D the) (N blood))))))
+				      (, ,)
+				      (PP (ADV together)
+					  (P with)
+					  (NP (D the)
+					      (ADJ earthy)
+					      (NS recrements)
+					      (RRC (VAN broke)
+						   (RP off)
+						   (PP (P from)
+						       (NP (D the) (NS solids))))))
+				      (, ,)
+				      (BEP are)
+				      (ADVP (ADV daily))
+				      (VAN washed)
+				      (ADVP-DIR (ADV away)))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (IP-SUB=2 (VAN expelled)
+					     (PP (RP out)
+						 (P of)
+						 (NP (D the) (N body)))))))
+	  (. .))
+  (ID LIND-1753,274.212))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	4/4/294
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd
+*/
+
+/~*
+and hence it is, that, according to his Notion, the Sovereign being a Female,
+and all the Working-Bees her Female Subjects, carrying Arms for the Defence of
+their Queen, and her Government, he calls it the Amazonian Government; the
+Drones, called by him the Males, having no Sting.
+(MAXWELL-1747,10.22)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 23 *T*-1
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV hence))
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (, ,)
+	  (CP-CLF (WADVP-1 0)
+		  (C that)
+		  (, ,)
+		  (IP-SUB (ADVP-DIR *T*-1)
+			  (IP-PPL (VAG according)
+				  (PP (P to)
+				      (NP (PRO$ his) (N Notion))))
+			  (, ,)
+			  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (N Sovereign))
+					      (BAG being)
+					      (NP-OB1 (D a) (N Female)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-PPL (NP-SBJ (Q all) (D the) (CODE <font>) (VAG+NS Working-Bees))
+						     (CODE <$$font>)
+						     (NP-OB1 (PRO$ her)
+							     (ADJ Female)
+							     (NS Subjects)
+							     (, ,)
+							     (RRC (VAG carrying)
+								  (NP-OB1 (NS Arms))
+								  (PP (P for)
+								      (NP (D the)
+									  (N Defence)
+									  (PP (P of)
+									      (NP (NP (PRO$ their) (CODE <font>) (N Queen))
+										  (CODE <$$font>)
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (NP (PRO$ her) (N Government))))))))))))
+			  (, ,)
+			  (NP-SBJ (PRO he))
+			  (VBP calls)
+			  (IP-SMC (NP-SBJ (PRO it))
+				  (NP-OB1 (D the) (CODE <font>) (ADJ Amazonian) (CODE <$$font>) (N Government)))
+			  (, ;)
+			  (IP-PPL-ABS (NP-SBJ (D the)
+					      (CODE <font>)
+					      (NS Drones)
+					      (CODE <$$font>)
+					      (, ,)
+					      (RRC (VAN called)
+						   (PP (P by)
+						       (NP (PRO him)))
+						   (IP-SMC (NP-SBJ *)
+							   (NP-OB1 (D the) (NS Males)))))
+				      (, ,)
+				      (HAG having)
+				      (NP-OB1 (Q no) (N Sting)))))
+	  (. .))
+  (ID MAXWELL-1747,10.22))
+
+/~*
+18. Thus I have known them all gradually die away, and yet leave a
+considerable Deal of Honey, which accounts for Bees their forsaking their
+Hives, without being any Way disobliged, so far as can be understood, and yet
+leaving Plenty of Provision behind them, which frequently happens,
+(MAXWELL-1747,13.57)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 33 away
+*/
+
+( (IP-MAT (LS (NUM 18))
+	  (, .)
+	  (ADVP (ADV Thus))
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN known)
+	  (IP-INF (IP-INF (NP-SBJ (PRO them))
+			  (Q all)
+			  (CODE {COM:no_to})
+			  (ADVP (ADV gradually))
+			  (VB die)
+			  (ADVP-DIR (ADV away)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (NP-SBJ *con*)
+				 (ADVP-TMP (ADV yet))
+				 (VB leave)
+				 (NP-OB1 (D a)
+					 (ADJ considerable)
+					 (N Deal)
+					 (PP (P of)
+					     (NP (N Honey))))
+				 (, ,)
+				 (CP-CAR (WNP-1 (WPRO which))
+					 (C 0)
+					 (IP-SUB (NP-SBJ *T*-1)
+						 (VBP accounts)
+						 (PP (P for)
+						     (NP (NP-POS (NS Bees) ($ their))
+							 (IP-PPL (IP-PPL (VAG forsaking)
+									 (NP-OB1 (PRO$ their) (NS Hives))
+									 (, ,)
+									 (PP (P without)
+									     (IP-PPL (BAG being)
+										     (NP-ADV (Q any) (N Way))
+										     (VAN disobliged)
+										     (, ,)
+										     (NP-MSR (ADJP (ADVR so) (ADJ far))
+											     (PP (P as)
+												 (CP-CMP (WNP-2 0)
+													 (C 0)
+													 (IP-SUB (NP-MSR *T*-2)
+														 (NP-SBJ *exp*)
+														 (MD can)
+														 (BE be)
+														 (VAN understood))))))))
+								 (, ,)
+								 (CONJP (CONJ and)
+									(IP-PPL (ADVP-TMP (ADV yet))
+										(VAG leaving)
+										(NP-OB1 (N Plenty)
+											(PP (P of)
+											    (NP (N Provision))))
+										(PP (P behind)
+										    (NP (PRO them)))
+										(, ,)
+										(CP-CAR (WNP-3 (WPRO which))
+											(C 0)
+											(IP-SUB (NP-SBJ *T*-3)
+												(ADVP (ADV frequently))
+												(VBP happens)))))))))))))
+	  (. ,))
+  (ID MAXWELL-1747,13.57))
+
+/~*
+then they will come abroad in great Numbers, and fly about, making a buzzing
+Noise;
+(MAXWELL-1747,15.96)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 abroad
+*/
+
+( (IP-MAT (IP-MAT-1 (ADVP-TMP (ADV then))
+		    (NP-SBJ (PRO they))
+		    (MD will)
+		    (VB come)
+		    (ADVP-DIR (ADV abroad))
+		    (PP (P in)
+			(NP (ADJ great) (NS Numbers))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB fly)
+			   (RP about)
+			   (, ,)
+			   (IP-PPL (VAG making)
+				   (NP-OB1 (D a) (VAG buzzing) (N Noise)))))
+	  (. ;))
+  (ID MAXWELL-1747,15.96))
+
+/~*
+for there being but one in an Hive, and he coming seldom abroad, it is
+difficult to nick the Opportunity of seeing him, tho' it is no Rarity to get a
+Sight of him when dead;
+(MAXWELL-1747,15.98)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 abroad
+*/
+
+( (IP-MAT (CONJ for)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ-1 (EX there))
+			      (BAG being)
+			      (NP-1 (FP but) (ONE one))
+			      (PP (P in)
+				  (NP (D an) (N Hive))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (PRO he))
+				     (VAG coming)
+				     (ADVP-TMP (ADV seldom))
+				     (ADVP-DIR (ADV abroad)))))
+	  (, ,)
+	  (NP-SBJ-2 (PRO it))
+	  (BEP is)
+	  (ADJP (ADJ difficult))
+	  (IP-INF-2 (TO to)
+		    (VB nick)
+		    (NP-OB1 (D the)
+			    (N Opportunity)
+			    (PP (P of)
+				(IP-PPL (VAG seeing)
+					(NP-OB1 (PRO him))))))
+	  (, ,)
+	  (PP (P tho')
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-3 (PRO it))
+			      (BEP is)
+			      (NP-OB1 (Q no) (N Rarity))
+			      (IP-INF-3 (TO to)
+					(VB get)
+					(NP-OB1 (D a)
+						(N Sight)
+						(PP (P of)
+						    (NP (PRO him)
+							(PP (P when)
+							    (ADJP (ADJ dead))))))))))
+	  (. ;))
+  (ID MAXWELL-1747,15.98))
+
+/~*
+and then if the Weather is so bad in May, that the Bees $can $not go abroad
+for a Recruit, their Provision falls short, their Family being so numerous,
+(MAXWELL-1747,17.122)
+*~/
+/*
+57 ADVP-DIR:  57 ADVP-DIR, 59 abroad
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP-TMP (ADV then))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N Weather))
+			      (BEP is)
+			      (ADJP (ADVR so)
+				    (ADJ bad)
+				    (CP-DEG *ICH*-1))
+			      (PP (P in)
+				  (CODE <font>)
+				  (NP (NPR May)))
+			      (CODE <$$font>)
+			      (, ,)
+			      (CP-DEG-1 (C that)
+					(IP-SUB (NP-SBJ (D the) (NS Bees))
+						(MD $can)
+						(NEG $not)
+						(CODE {TEXT:cannot})
+						(VB go)
+						(ADVP-DIR (ADV abroad))
+						(PP (P for)
+						    (NP (D a) (N Recruit))))))))
+	  (, ,)
+	  (NP-SBJ (PRO$ their) (N Provision))
+	  (VBP falls)
+	  (ADJP (ADJ short))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ their) (N Family))
+		      (BAG being)
+		      (ADJP (ADVR so) (ADJ numerous)))
+	  (. ,))
+  (ID MAXWELL-1747,17.122))
+
+/~*
+and when you have carried it back again, you may weigh the Board separately,
+to know how much you are to discount for the Weight of it.
+(MAXWELL-1747,18.145)
+*~/
+/*
+21 ADVP-DIR:  21 ADVP-DIR, 25 again
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (HVP have)
+			      (VBN carried)
+			      (NP-OB1 (PRO it))
+			      (ADVP-DIR (ADV back) (ADV again)))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD may)
+	  (VB weigh)
+	  (NP-OB1 (D the) (N Board))
+	  (ADVP (ADV separately))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB know)
+		      (CP-QUE (WNP-1 (WQP (WADV how) (Q much)))
+			      (C 0)
+			      (IP-SUB (NP-SBJ (PRO you))
+				      (BEP are)
+				      (IP-INF (NP-OB1 *T*-1)
+					      (TO to)
+					      (VB discount)
+					      (PP (P for)
+						  (NP (D the)
+						      (N Weight)
+						      (PP (P of)
+							  (NP (PRO it)))))))))
+	  (. .))
+  (ID MAXWELL-1747,18.145))
+
+/~*
+for when they are taken to a strange Place, they go abroad,
+(MAXWELL-1747,18.147)
+*~/
+/*
+35 ADVP-DIR:  35 ADVP-DIR, 37 abroad
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BEP are)
+			      (VAN taken)
+			      (PP (P to)
+				  (NP (D a) (ADJ strange) (N Place))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBP go)
+	  (ADVP-DIR (ADV abroad))
+	  (. ,))
+  (ID MAXWELL-1747,18.147))
+
+/~*
+for it does them much Mischief, if they are then disquited, especially if they
+are provoked to crawl abroad,
+(MAXWELL-1747,18.151)
+*~/
+/*
+59 ADVP-DIR:  59 ADVP-DIR, 61 abroad
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO it))
+	  (DOP does)
+	  (NP-OB2 (PRO them))
+	  (NP-OB1 (Q much) (N Mischief))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BEP are)
+			      (ADVP-TMP (ADV then))
+			      (VAN disquited))))
+	  (, ,)
+	  (PP (ADV especially)
+	      (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BEP are)
+			      (VAN provoked)
+			      (IP-INF (TO to)
+				      (VB crawl)
+				      (ADVP-DIR (ADV abroad))))))
+	  (. ,))
+  (ID MAXWELL-1747,18.151))
+
+/~*
+and gradually pine away.
+(MAXWELL-1747,18.155)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (ADVP (ADV gradually))
+	  (VBP pine)
+	  (ADVP-DIR (ADV away))
+	  (. .))
+  (ID MAXWELL-1747,18.155))
+
+/~*
+for if bad Weather returns, many of them die, being unable to get back, if the
+Change be sudden,
+(MAXWELL-1747,18.158)
+*~/
+/*
+44 ADVP-DIR:  44 ADVP-DIR, 46 back
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (ADJ bad) (N Weather))
+			      (VBP returns))))
+	  (, ,)
+	  (NP-SBJ (Q many)
+		  (PP (P of)
+		      (NP (PRO them))))
+	  (VBP die)
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (ADJP (ADJ unable)
+			(IP-INF (TO to)
+				(VB get)
+				(ADVP-DIR (ADV back)))))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N Change))
+			      (BEP be)
+			      (ADJP (ADJ sudden)))))
+	  (. ,))
+  (ID MAXWELL-1747,18.158))
+
+/~*
+41. Here, for the following Reason, it is proper to take Notice, likewise,
+that they ought not to be suffered to come abroad in Time of Snow, tho' the
+shining Sun may invite and tempt them.
+(MAXWELL-1747,19.163)
+*~/
+/*
+69 ADVP-DIR:  69 ADVP-DIR, 71 abroad
+*/
+
+( (IP-MAT (LS (NUM 41))
+	  (, .)
+	  (ADVP-LOC (ADV Here))
+	  (, ,)
+	  (PP (P for)
+	      (NP (D the) (VAG following) (N Reason)))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (ADJP (ADJ proper))
+	  (IP-INF-1 (TO to)
+		    (VB take)
+		    (NP-OB1 (N Notice))
+		    (, ,)
+		    (NP-ADV (ADJ+N likewise))
+		    (, ,)
+		    (CP-THT (C that)
+			    (IP-SUB (NP-SBJ (PRO they))
+				    (MD ought)
+				    (NEG not)
+				    (TO to)
+				    (BE be)
+				    (VAN suffered)
+				    (IP-INF (TO to)
+					    (VB come)
+					    (ADVP-DIR (ADV abroad))
+					    (PP (P in)
+						(NP (N Time)
+						    (PP (P of)
+							(NP (N Snow))))))
+				    (, ,)
+				    (PP (P tho')
+					(CP-ADV (C 0)
+						(IP-SUB (NP-SBJ (D the) (VAG shining) (N Sun))
+							(MD may)
+							(VB (VB invite) (CONJ and) (VB tempt))
+							(NP-OB1 (PRO them))))))))
+	  (. .))
+  (ID MAXWELL-1747,19.163))
+
+/~*
+but, as I have seen none, that are better than these mentioned; I pass forward
+to give some few Directions to such as use, or incline to use any of these
+described.
+(MAXWELL-1747,21.202)
+*~/
+/*
+54 ADVP-DIR:  54 ADVP-DIR, 56 forward
+*/
+
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (HVP have)
+			      (VBN seen)
+			      (NP-OB1 (Q none)
+				      (, ,)
+				      (CP-REL (WNP-1 0)
+					      (C that)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (BEP are)
+						      (ADJP (ADJR better)
+							    (PP (P than)
+								(NP (D these)
+								    (RRC (VAN mentioned)))))))))))
+	  (, ;)
+	  (NP-SBJ (PRO I))
+	  (VBP pass)
+	  (ADVP-DIR (ADV+WARD forward))
+	  (IP-INF-PRP (TO to)
+		      (VB give)
+		      (NP-OB1 (Q some) (Q few) (NS Directions))
+		      (PP (P to)
+			  (NP (SUCH such)
+			      (PP (P as)
+				  (CP-CMP (WNP-2 0)
+					  (C 0)
+					  (IP-SUB-3 (NP-SBJ *T*-2)
+						    (VBP use)
+						    (, ,)
+						    (IP-SUB-PRN=3 (CONJ or)
+								  (VBP incline)
+								  (IP-INF (TO to) (VB use)))
+						    (NP-OB1 (Q any)
+							    (PP (P of)
+								(NP (D these)
+								    (RRC (VAN described)))))))))))
+	  (. .))
+  (ID MAXWELL-1747,21.202))
+
+/~*
+it should be wrapt with a small Cord, and tied down to the Stone or Board,
+whereon the Hive stands, that it may not be blown away with the Wind, or rub'd
+off by any Accident.
+(MAXWELL-1747,21.205)
+*~/
+/*
+82 ADVP-DIR:  82 ADVP-DIR, 84 away
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO it))
+		    (MD should)
+		    (BE be)
+		    (VAN wrapt)
+		    (PP (P with)
+			(NP (D a) (ADJ small) (N Cord))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VAN tied)
+			   (RP down)
+			   (PP (P to)
+			       (NP (D the)
+				   (N Stone)
+				   (CONJP (CONJ or)
+					  (NX (N Board)))
+				   (, ,)
+				   (CP-REL (WPP-2 (WADV+P whereon))
+					   (C 0)
+					   (IP-SUB (PP *T*-2)
+						   (NP-SBJ (D the) (N Hive))
+						   (VBP stands)))))
+			   (, ,)
+			   (CP-ADV (C that)
+				   (IP-SUB (IP-SUB-3 (NP-SBJ (PRO it))
+						     (MD may)
+						     (NEG not)
+						     (BE be)
+						     (VAN blown)
+						     (ADVP-DIR (ADV away))
+						     (PP (P with)
+							 (NP (D the) (N Wind))))
+					   (, ,)
+					   (CONJP (CONJ or)
+						  (IP-SUB=3 (VAN rub'd)
+							    (RP off)
+							    (PP (P by)
+								(NP (Q any) (N Accident)))))))))
+	  (. .))
+  (ID MAXWELL-1747,21.205))
+
+/~*
+I have known People very much surprised, to find a Hive with Plenty of Honey,
+and no Bees dead or alive in it; from whence they concluded, that the Bees had
+taken some Disgust at their Habitation, and had gone elsewhere, just as they
+thought in the Case of the Death of a King, aforementioned;
+(MAXWELL-1747,22.230)
+*~/
+/*
+133 ADVP-DIR:  133 ADVP-DIR, 135 elsewhere
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN known)
+	  (IP-SMC (NP-SBJ (NS People))
+		  (ADJP (QP (ADV very) (Q much))
+			(VAN surprised)
+			(, ,)
+			(IP-INF (TO to)
+				(VB find)
+				(NP-OB1 (D a) (N Hive))
+				(PP (P with)
+				    (NP (NP (N Plenty)
+					    (PP (P of)
+						(NP (N Honey))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (IP-SMC (NP-SBJ (Q no)
+							       (NS Bees)
+							       (ADJP (ADJP (ADJ dead))
+								     (CONJP (CONJ or)
+									    (PP (P+N alive)))))
+						       (PP (P in)
+							   (NP (PRO it)))))))
+				(, ;)
+				(CP-CAR (WPP-1 (P from)
+					       (WADVP (WADV whence)))
+					(C 0)
+					(IP-SUB (PP *T*-1)
+						(NP-SBJ (PRO they))
+						(VBD concluded)
+						(, ,)
+						(CP-THT (C that)
+							(IP-SUB (IP-SUB (NP-SBJ (D the) (NS Bees))
+									(HVD had)
+									(VBN taken)
+									(NP-OB1 (Q some)
+										(N Disgust)
+										(PP (P at)
+										    (NP (PRO$ their) (N Habitation)))))
+								(, ,)
+								(CONJP (CONJ and)
+								       (IP-SUB (NP-SBJ *con*)
+									       (HVD had)
+									       (VBN gone)
+									       (ADVP-DIR (ADV+WADV elsewhere))))))
+						(, ,)
+						(PP (ADV just)
+						    (P as)
+						    (CP-ADV (WADVP-2 0)
+							    (C 0)
+							    (IP-SUB (ADVP *T*-2)
+								    (NP-SBJ (PRO they))
+								    (VBD thought)
+								    (PP (P in)
+									(NP (D the)
+									    (N Case)
+									    (PP (P of)
+										(NP (D the)
+										    (N Death)
+										    (PP (P of)
+											(NP (D a) (N King)))))
+									    (, ,)
+									    (RRC (ADV+VAN aforementioned))))))))))))
+	  (. ;))
+  (ID MAXWELL-1747,22.230))
+
+/~*
+But the stupid Animal, instead of retreating, thought to save himself by going
+forwards,
+(MAXWELL-1747,23.246)
+*~/
+/*
+40 ADVP-DIR:  40 ADVP-DIR, 42 forwards
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (D the) (ADJ stupid) (N Animal))
+	      (, ,)
+	      (PP (P+N instead)
+		  (PP (P of)
+		      (NP (N retreating))))
+	      (, ,)
+	      (VBD thought)
+	      (IP-INF-SPE (TO to)
+			  (VB save)
+			  (NP-OB1 (PRO+N himself))
+			  (PP (P by)
+			      (IP-PPL-SPE (VAG going)
+					  (ADVP-DIR (ADV+WARD forwards)))))
+	      (. ,))
+  (ID MAXWELL-1747,23.246))
+
+/~*
+for they may be set in a Place so wall'd around, that the Wind $can $not harm
+the Bees, while they are within these Walls,
+(MAXWELL-1747,24.276)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 31 around
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO they))
+	  (MD may)
+	  (BE be)
+	  (VAN set)
+	  (PP (P in)
+	      (NP (D a)
+		  (N Place)
+		  (RRC (ADVP (ADVR so)
+			     (CP-DEG *ICH*-1))
+		       (VAN wall'd)
+		       (ADVP-DIR (ADV around))
+		       (, ,)
+		       (CP-DEG-1 (C that)
+				 (IP-SUB (NP-SBJ (D the) (N Wind))
+					 (MD $can)
+					 (NEG $not)
+					 (CODE {TEXT:cannot})
+					 (VB harm)
+					 (NP-OB1 (D the) (NS Bees))
+					 (, ,)
+					 (PP (P while)
+					     (CP-ADV (C 0)
+						     (IP-SUB (NP-SBJ (PRO they))
+							     (BEP are)
+							     (PP (P within)
+								 (NP (D these) (NS Walls)))))))))))
+	  (. ,))
+  (ID MAXWELL-1747,24.276))
+
+/~*
+for if they have no other Way to go abroad for their Food, but over the Tops
+of high Walls, the Wind comes upon them in a Surprize,
+(MAXWELL-1747,25.278)
+*~/
+/*
+28 ADVP-DIR:  28 ADVP-DIR, 30 abroad
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVP have)
+			      (NP-OB1 (Q no)
+				      (OTHER other)
+				      (N Way)
+				      (IP-INF (TO to)
+					      (VB go)
+					      (ADVP-DIR (ADV abroad))
+					      (PP (P for)
+						  (NP (PRO$ their) (N Food))))
+				      (, ,)
+				      (PP (P but)
+					  (PP (P over)
+					      (NP (D the)
+						  (NS Tops)
+						  (PP (P of)
+						      (NP (ADJ high) (NS Walls))))))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N Wind))
+	  (VBP comes)
+	  (PP (P upon)
+	      (CODE <P_25>)
+	      (NP (PRO them)))
+	  (PP (P in)
+	      (NP (D a) (N Surprize)))
+	  (. ,))
+  (ID MAXWELL-1747,25.278))
+
+/~*
+68. Now, I think, I have directed you how to bring your Hive safe to the Month
+of April, the Time, when Bees commonly set out in our Country to their Work,
+and when they begin to increase their Family; for which End they lay their
+Eggs in Cells, and go abroad to fetch in that Stuff commonly called Bee-Bread,
+concerning which, its Preparation and Use in feeding young Bees, from their
+first Formation, until they are able to provide for themselves, you shall be
+informed before this Treatise is ended, in the Answers to Questions relative
+to these Matters.
+(MAXWELL-1747,26.297)
+*~/
+/*
+189 ADVP-DIR:  189 ADVP-DIR, 191 abroad
+*/
+
+( (IP-MAT (LS (NUM 68))
+	  (, .)
+	  (ADVP (ADV Now))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP think)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (HVP have)
+			  (VBN directed)
+			  (NP-OB1 (PRO you))
+			  (CP-QUE (WADVP-1 (WADV how))
+				  (IP-INF (ADVP *T*-1)
+					  (TO to)
+					  (VB bring)
+					  (NP-OB1 (PRO$ your) (N Hive))
+					  (ADJP-SPR (ADJ safe))
+					  (PP (P to)
+					      (NP (D the)
+						  (N Month)
+						  (PP (P of)
+						      (CODE <font>)
+						      (NP (NPR April)))
+						  (CODE <$$font>)
+						  (, ,)
+						  (NP-PRN (D the)
+							  (N Time)
+							  (, ,)
+							  (CP-REL (CP-REL (WADVP-2 (WADV when))
+									  (C 0)
+									  (IP-SUB (ADVP-TMP *T*-2)
+										  (NP-SBJ (NS Bees))
+										  (ADVP (ADV commonly))
+										  (VBP set)
+										  (RP out)
+										  (PP (P in)
+										      (NP (PRO$ our) (N Country)))
+										  (PP (P to)
+										      (NP (PRO$ their) (N Work)))))
+								  (, ,)
+								  (CONJP (CONJ and)
+									 (CP-REL (WADVP-3 (WADV when))
+										 (C 0)
+										 (IP-SUB (ADVP-TMP *T*-3)
+											 (NP-SBJ (PRO they))
+											 (VBP begin)
+											 (IP-INF (TO to)
+												 (VB increase)
+												 (NP-OB1 (PRO$ their) (N Family))
+												 (, ;)
+												 (CP-CAR (WPP-4 (P for)
+														(WNP (WD which) (N End)))
+													 (C 0)
+													 (IP-SUB (IP-SUB (PP *T*-4)
+															 (NP-SBJ (PRO they))
+															 (VBP lay)
+															 (NP-OB1 (PRO$ their) (NS Eggs))
+															 (PP (P in)
+															     (NP (NS Cells))))
+														 (, ,)
+														 (CONJP (CONJ and)
+															(IP-SUB (PP *T*-4)
+																(NP-SBJ *con*)
+																(VBP go)
+																(ADVP-DIR (ADV abroad))
+																(IP-INF-PRP (TO to)
+																	    (VB fetch)
+																	    (RP in)
+																	    (NP-OB1 (D that)
+																		    (N Stuff)
+																		    (RRC (ADVP (ADV commonly))
+																			 (VAN called)
+																			 (IP-SMC (NP-SBJ *)
+																				 (NP-OB1 (N+N Bee-Bread))))
+																		    (, ,)
+																		    (CP-REL (WIP-PPL-5 (VAG concerning)
+																				       (WNP-OB1 (WPRO which)
+																						(, ,)
+																						(NP-PRN (PRO$ its)
+																							(N Preparation)
+																							(CONJP (CONJ and)
+																							       (NX (N Use)))
+																							(PP (P in)
+																							    (IP-PPL (VAG feeding)
+																								    (NP-OB1 (ADJ young) (NS Bees))
+																								    (, ,)
+																								    (NP-MSR (PP (P from)
+																										(NP (PRO$ their) (ADJ first) (N Formation)))
+																									    (, ,)
+																									    (PP (P until)
+																										(CP-ADV (C 0)
+																											(IP-SUB (NP-SBJ (PRO they))
+																												(BEP are)
+																												(ADJP (ADJ able)
+																												      (IP-INF (TO to)
+																													      (VB provide)
+																													      (PP (P for)
+																														  (NP (PRO+N themselves))))))))))))))
+																			    (, ,)
+																			    (C 0)
+																			    (IP-SUB (IP-PPL *T*-5)
+																				    (NP-SBJ (PRO you))
+																				    (MD shall)
+																				    (BE be)
+																				    (VAN informed)
+																				    (PP (P before)
+																					(CP-ADV (C 0)
+																						(IP-SUB (NP-SBJ (D this) (N Treatise))
+																							(BEP is)
+																							(VAN ended))))
+																				    (, ,)
+																				    (PP (P in)
+																					(NP (D the)
+																					    (NS Answers)
+																					    (PP (P to)
+																						(NP (NS Questions)
+																						    (ADJP (ADJ relative)
+																							  (PP (P to)
+																							      (NP (D these) (NS Matters))))))))))))))))))))))))))))
+	  (. .))
+  (ID MAXWELL-1747,26.297))
+
+/~*
+73. About the Beginning of April, they only begin to bring forward a new
+Family, which, against the Beginning of May, comes to be very numerous;
+(MAXWELL-1747,27.307)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 forward
+*/
+
+( (IP-MAT (LS (NUM 73))
+	  (, .)
+	  (NP-TMP (ADV About)
+		  (D the)
+		  (N Beginning)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR April))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (FP only)
+	  (VBP begin)
+	  (IP-INF (TO to)
+		  (VB bring)
+		  (ADVP-DIR (ADV+WARD forward))
+		  (NP-OB1 (D a)
+			  (ADJ new)
+			  (N Family)
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO which))
+				  (, ,)
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (PP (P against)
+					      (NP (D the)
+						  (N Beginning)
+						  (PP (P of)
+						      (CODE <font>)
+						      (NP (NPR May)))))
+					  (CODE <$$font>)
+					  (, ,)
+					  (VBP comes)
+					  (IP-INF (TO to)
+						  (BE be)
+						  (ADJP (ADV very) (ADJ numerous)))))))
+	  (. ;))
+  (ID MAXWELL-1747,27.307))
+
+/~*
+then close it all around,
+(MAXWELL-1747,29.341)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 14 around
+*/
+
+( (IP-IMP (ADVP-TMP (ADV then))
+	  (VBI close)
+	  (NP-OB1 (PRO it))
+	  (ADVP-DIR (Q all) (ADV around))
+	  (. ,))
+  (ID MAXWELL-1747,29.341))
+
+/~*
+84. Let this be done in the Evening, when they have given over working; and,
+if possible, in a cloudy, misty Day, when the Bees come least abroad:
+(MAXWELL-1747,29.343)
+*~/
+/*
+100 ADVP-DIR:  100 ADVP-DIR, 102 abroad
+*/
+
+( (IP-IMP (LS (NUM 84))
+	  (, .)
+	  (VBI Let)
+	  (IP-INF (NP-SBJ (D this))
+		  (BE be)
+		  (DAN done)
+		  (PP (PP (P in)
+			  (NP (D the)
+			      (N Evening)
+			      (, ,)
+			      (CP-REL (WADVP-1 (WADV when))
+				      (C 0)
+				      (IP-SUB (ADVP-TMP *T*-1)
+					      (NP-SBJ (PRO they))
+					      (HVP have)
+					      (VBN given)
+					      (RP over)
+					      (NP-OB1 (N working))))))
+		      (, ;)
+		      (CONJP (CONJ and)
+			     (, ,)
+			     (PP-PRN (P if)
+				     (ADJP (ADJ possible)))
+			     (, ,)
+			     (PP (P in)
+				 (NP (D a)
+				     (ADJP (ADJ cloudy) (, ,) (ADJ misty))
+				     (N Day)
+				     (, ,)
+				     (CP-REL (WADVP-2 (WADV when))
+					     (C 0)
+					     (IP-SUB (ADVP-TMP *T*-2)
+						     (NP-SBJ (D the) (NS Bees))
+						     (VBP come)
+						     (NP-MSR (QS least))
+						     (ADVP-DIR (ADV abroad)))))))))
+	  (. :))
+  (ID MAXWELL-1747,29.343))
+
+/~*
+The Way of putting a young Swarm to any old Hive, you shall be taught
+afterwards.
+(MAXWELL-1747,30.368)
+*~/
+/*
+41 ADVP-DIR:  41 ADVP-DIR, 43 afterwards
+*/
+
+( (IP-MAT (NP-OB1 (D The)
+		  (N Way)
+		  (PP (P of)
+		      (IP-PPL (VAG putting)
+			      (NP-OB1 (D a) (ADJ young) (N Swarm))
+			      (PP (P to)
+				  (NP (Q any) (ADJ old) (N Hive))))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD shall)
+	  (BE be)
+	  (VAN taught)
+	  (ADVP-DIR (ADV+WARD afterwards))
+	  (. .))
+  (ID MAXWELL-1747,30.368))
+
+/~*
+In that Case, you must either, for some Days, shut up the Hive that is
+attacked altogether, that the Destroyers coming, from Day to Day, for Spoil,
+may be wearied by Disappointments, and give over their Design, or carry away
+the Hive to some other Place, at least to a Mile's Distance;
+(MAXWELL-1747,32.404)
+*~/
+/*
+131 ADVP-DIR:  131 ADVP-DIR, 133 away
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P In)
+			(NP (D that) (N Case)))
+		    (, ,)
+		    (NP-SBJ (PRO you))
+		    (MD must)
+		    (CONJ either)
+		    (, ,)
+		    (PP (P for)
+			(NP (Q some) (NS Days)))
+		    (, ,)
+		    (VB shut)
+		    (RP up)
+		    (NP-OB1 (D the)
+			    (N Hive)
+			    (CP-REL (WNP-2 0)
+				    (C that)
+				    (IP-SUB (NP-SBJ *T*-2)
+					    (BEP is)
+					    (VAN attacked))))
+		    (ADVP (ADV altogether))
+		    (, ,)
+		    (CP-ADV (C that)
+			    (IP-SUB (IP-SUB-3 (NP-SBJ (D the)
+						      (NS Destroyers)
+						      (RRC (VAG coming)
+							   (, ,)
+							   (NP-MSR (PP (P from)
+								       (NP (N Day)))
+								   (PP (P to)
+								       (NP (N Day))))
+							   (, ,)
+							   (PP (P for)
+							       (NP (N Spoil)))))
+					      (, ,)
+					      (MD may)
+					      (BE be)
+					      (VAN wearied)
+					      (PP (P by)
+						  (NP (NS Disappointments))))
+				    (, ,)
+				    (CONJP (CONJ and)
+					   (IP-SUB=3 (VB give)
+						     (RP over)
+						     (NP-OB1 (PRO$ their) (N Design)))))))
+	  (, ,)
+	  (CONJP (CONJ or)
+		 (IP-MAT=1 (VB carry)
+			   (ADVP-DIR (ADV away))
+			   (NP-OB1 (D the) (N Hive))
+			   (PP (P to)
+			       (NP (Q some) (OTHER other) (N Place)))
+			   (, ,)
+			   (PP (PP (P at)
+				   (QP (QS least)))
+			       (P to)
+			       (NP (NP-MSR (D a) (N$ Mile's))
+				   (N Distance)))))
+	  (. ;))
+  (ID MAXWELL-1747,32.404))
+
+/~*
+$you $'ll likewise by this Time observe, that when they give over working in
+the Evening, they double, triple, or quadruple their Guard, which some time
+ago consisted, only, of a single Centinel or two standing Centries in the very
+Passage, or within it, with their Tails outward, and bending up, and their
+Wings in a continual Motion, making a humming Noise,
+(MAXWELL-1747,35.454)
+*~/
+/*
+160 ADVP-DIR:  160 ADVP-DIR, 173 up
+*/
+
+( (IP-MAT (NP-SBJ (PRO $you))
+	  (MD $'ll)
+	  (CODE {TEXT:you'll})
+	  (NP-ADV (ADJ+N likewise))
+	  (PP (P by)
+	      (NP (D this) (N Time)))
+	  (VB observe)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (VBP give)
+					      (RP over)
+					      (NP-OB1 (N working))
+					      (PP (P in)
+						  (NP (D the) (N Evening))))))
+			  (, ,)
+			  (NP-SBJ (PRO they))
+			  (VBP (VBP double) (, ,) (VBP triple) (, ,) (CONJ or) (VBP quadruple))
+			  (NP-OB1 (PRO$ their)
+				  (N Guard)
+				  (, ,)
+				  (CP-REL (WNP-1 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (ADVP-TMP (NP-MSR (Q some) (N time))
+							    (ADV ago))
+						  (VBD consisted)
+						  (, ,)
+						  (CODE {COM:sic})
+						  (PP (FP only)
+						      (, ,)
+						      (P of)
+						      (NP (NP (D a) (ADJ single) (N Centinel))
+							  (CONJP (CONJ or)
+								 (NP (NUM two) (VAG standing) (NS Centries)))
+							  (PP (PP (P in)
+								  (NP (D the) (ADJ very) (N Passage)))
+							      (, ,)
+							      (CONJP (CONJ or)
+								     (PP (P within)
+									 (NP (PRO it)))))
+							  (, ,)
+							  (PP (P with)
+							      (IP-SMC (IP-SMC (NP-SBJ (PRO$ their) (NS Tails))
+									      (ADVP-DIR (ADVP (RP+WARD outward))
+											(, ,)
+											(CONJP (CONJ and)
+											       (IP-PPL (VAG bending) (RP up)))))
+								      (, ,)
+								      (CONJP (CONJ and)
+									     (IP-PPL (NP-SBJ (PRO$ their) (NS Wings))
+										     (PP (P in)
+											 (NP (D a) (ADJ continual) (N Motion)))
+										     (, ,)
+										     (VAG making)
+										     (NP-OB1 (D a) (VAG humming) (N Noise)))))))))))))
+	  (. ,))
+  (ID MAXWELL-1747,35.454))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	24/24/470
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd
+*/
+
+/~*
+and he was able to walk away with little or no difficulty to the nearest
+railway station, half a mile off.
+(POORE-1876,171.171)
+*~/
+/*
+17 ADVP-DIR:  17 ADVP-DIR, 19 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO he))
+	  (BED was)
+	  (ADJP (ADJ able)
+		(IP-INF (TO to)
+			(VB walk)
+			(ADVP-DIR (ADV away))
+			(PP (P with)
+			    (NP (QP (Q little) (CONJ or) (Q no))
+				(N difficulty)))
+			(PP (P to)
+			    (NP (D the)
+				(ADJS nearest)
+				(N+N railway)
+				(N station)
+				(, ,)
+				(ADVP (NP-MSR (Q half) (D a) (N mile))
+				      (RP off))))))
+	  (. .))
+  (ID POORE-1876,171.171))
+
+/~*
+Cases are not uncommon in which a cure may be effected quite as quickly and
+completely.
+(POORE-1876,174.225)
+*~/
+/*
+47 ADVX:  47 ADVX, 49 completely
+*/
+
+( (IP-MAT (NP-SBJ (NS Cases)
+		  (CP-REL *ICH*-1))
+	  (BEP are)
+	  (NEG not)
+	  (ADJP (ADJ uncommon))
+	  (CP-REL-1 (WPP-2 (P in)
+			   (WNP (WPRO which)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (D a) (N cure))
+			    (MD may)
+			    (BE be)
+			    (VAN effected)
+			    (ADVP (ADV quite)
+				  (ADVR as)
+				  (ADV quickly)
+				  (CONJP (CONJ and)
+					 (ADVX (ADV completely))))))
+	  (. .))
+  (ID POORE-1876,174.225))
+
+/~*
+and we further recognise the fact that it is highly advisable for those who
+are occupied in monotonous pursuits to break away from them at least once a
+year, and indulge in that variety of work which we call amusement.
+(POORE-1876,182.365)
+*~/
+/*
+63 ADVP-DIR:  63 ADVP-DIR, 71 them
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO we))
+	  (NP-MSR (ADJR further))
+	  (VBP recognise)
+	  (NP-OB1 (D the)
+		  (N fact)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ-1 (PRO it))
+				  (BEP is)
+				  (ADJP (ADV highly) (ADJ advisable))
+				  (IP-INF-1 (IP-INF (FOR for)
+						    (NP-SBJ (D those)
+							    (CP-REL (WNP-2 (WPRO who))
+								    (C 0)
+								    (IP-SUB (NP-SBJ *T*-2)
+									    (BEP are)
+									    (VAN occupied)
+									    (PP (P in)
+										(NP (ADJ monotonous) (NS pursuits))))))
+						    (TO to)
+						    (VB break)
+						    (ADVP-DIR (ADV away)
+							      (PP (P from)
+								  (NP (PRO them))))
+						    (NP-TMP (PP (P at)
+								(QP (QS least)))
+							    (NUM once)
+							    (NP-MSR (D a) (N year))))
+					    (, ,)
+					    (CONJP (CONJ and)
+						   (IP-INF (NP-SBJ *con*)
+							   (TO *)
+							   (VB indulge)
+							   (PP (P in)
+							       (NP (D that)
+								   (N variety)
+								   (PP (P of)
+								       (NP (N work)))
+								   (CP-REL (WNP-3 (WPRO which))
+									   (C 0)
+									   (IP-SUB (NP-SBJ (PRO we))
+										   (VBP call)
+										   (IP-SMC (NP-SBJ *T*-3)
+											   (NP-OB1 (N amusement)))))))))))))
+	  (. .))
+  (ID POORE-1876,182.365))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	3/3/435
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd
+*/
+
+/~*
+Those Horses that eat their corn greedily without masticating it, and it comes
+away with their dung, a handful or two of good sweet clover chaff with such
+Horses will be infinitely serviceable, as they will be obliged to chew or
+masticate the oats with the chaff before they can swallow it.
+(SKEAVINGTON-184X,16.C1.23)
+*~/
+/*
+46 ADVP-DIR:  46 ADVP-DIR, 48 away
+*/
+
+( (IP-MAT (NP-LFD (D Those)
+		  (NS Horses)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+					  (VBP eat)
+					  (NP-OB1 (PRO$ their) (N corn))
+					  (ADVP (ADV greedily))
+					  (PP (P without)
+					      (IP-PPL (VAG masticating)
+						      (NP-OB1 (PRO it)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ (PRO it))
+						 (VBP comes)
+						 (ADVP-DIR (ADV away))
+						 (PP (P with)
+						     (NP (PRO$ their) (N dung))))))))
+	  (, ,)
+	  (NP-SBJ (NP (D a) (N handful))
+		  (CONJP (CONJ or)
+			 (NP (NUM two)))
+		  (PP (P of)
+		      (NP (ADJ good) (ADJ sweet) (N clover) (N chaff))))
+	  (PP (P with)
+	      (NP-RSP (SUCH such) (NS Horses)))
+	  (MD will)
+	  (BE be)
+	  (ADJP (ADV infinitely) (ADJ serviceable))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (MD will)
+			      (BE be)
+			      (VAN obliged)
+			      (IP-INF (TO to)
+				      (VB (VB chew) (CONJ or) (VB masticate))
+				      (NP-OB1 (D the) (NS oats))
+				      (PP (P with)
+					  (NP (D the) (N chaff)))
+				      (PP (P before)
+					  (CP-ADV (C 0)
+						  (IP-SUB (NP-SBJ (PRO they))
+							  (MD can)
+							  (VB swallow)
+							  (NP-OB1 (PRO it)))))))))
+	  (. .))
+  (ID SKEAVINGTON-184X,16.C1.23))
+
+/~*
+blow away the chaff,
+(SKEAVINGTON-184X,19.C1.131)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 away
+*/
+
+( (IP-IMP (VBI blow)
+	  (ADVP-DIR (ADV away))
+	  (NP-OB1 (D the) (N chaff))
+	  (. ,))
+  (ID SKEAVINGTON-184X,19.C1.131))
+
+/~*
+the wet and muck you turn out behind;
+(SKEAVINGTON-184X,19.C2.141)
+*~/
+/*
+20 ADVP-DIR:  20 ADVP-DIR, 22 behind
+*/
+
+( (IP-MAT (NP-OB1 (D the)
+		  (N wet)
+		  (CONJP (CONJ and)
+			 (NX (N muck))))
+	  (NP-SBJ (PRO you))
+	  (VBP turn)
+	  (RP out)
+	  (ADVP-DIR (ADV behind))
+	  (. ;))
+  (ID SKEAVINGTON-184X,19.C2.141))
+
+/~*
+after the water is run and swept away, take your bedding that has been put
+under the manger,
+(SKEAVINGTON-184X,19.C2.144)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 27 away
+*/
+
+( (IP-IMP (PP (P after)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (D the) (N water))
+					(BEP is)
+					(VAN run))
+			      (CONJP (CONJ and)
+				     (IP-SUB=1 (VAN swept)
+					       (ADVP-DIR (ADV away)))))))
+	  (, ,)
+	  (VBI take)
+	  (NP-OB1 (PRO$ your)
+		  (N bedding)
+		  (CP-REL (WNP-2 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (HVP has)
+				  (BEN been)
+				  (VAN put)
+				  (PP (P under)
+				      (NP (D the) (N manger))))))
+	  (. ,))
+  (ID SKEAVINGTON-184X,19.C2.144))
+
+/~*
+and well brush the Horse's body backwards and forwards, the brush being in the
+left hand;
+(SKEAVINGTON-184X,21.C2.209)
+*~/
+/*
+17 ADVP-DIR:  17 ADVP-DIR, 23 forwards
+*/
+
+( (IP-IMP (CONJ and)
+	  (ADVP (ADV well))
+	  (VBI brush)
+	  (NP-OB1 (NP-POS (D the) (N$ Horse's))
+		  (N body))
+	  (ADVP-DIR (ADV+WARD backwards) (CONJ and) (ADV+WARD forwards))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N brush))
+		      (BAG being)
+		      (PP (P in)
+			  (NP (D the) (ADJ left) (N hand))))
+	  (. ;))
+  (ID SKEAVINGTON-184X,21.C2.209))
+
+/~*
+wipe away any dirt or filth that may be remaining under the tail with a wet
+sponge, and after with your cloth.
+(SKEAVINGTON-184X,22.C1.235)
+*~/
+/*
+5 ADVP-DIR:  5 ADVP-DIR, 7 away
+*/
+
+( (IP-IMP (IP-IMP-1 (VBI wipe)
+		    (ADVP-DIR (ADV away))
+		    (NP-OB1 (Q any)
+			    (N dirt)
+			    (CONJP (CONJ or)
+				   (NX (N filth)))
+			    (CP-REL (WNP-2 0)
+				    (C that)
+				    (IP-SUB (NP-SBJ *T*-2)
+					    (MD may)
+					    (BE be)
+					    (VAG remaining)))
+			    (PP (P under)
+				(NP (D the) (N tail))))
+		    (PP (P with)
+			(NP (D a) (ADJ wet) (N sponge))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-IMP=1 (ADVP-TMP (ADV after))
+			   (PP (P with)
+			       (NP (PRO$ your) (N cloth)))))
+	  (. .))
+  (ID SKEAVINGTON-184X,22.C1.235))
+
+/~*
+and walk him back;
+(SKEAVINGTON-184X,25.C1.335)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 back
+*/
+
+( (IP-IMP (CONJ and)
+	  (VBI walk)
+	  (NP-OB1 (PRO him))
+	  (ADVP-DIR (ADV back))
+	  (. ;))
+  (ID SKEAVINGTON-184X,25.C1.335))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	7/7/494
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd
+*/
+
+/~*
+the jaws of a good horse are thin and sufficiently wide, not approaching too
+near at the throat, nor too high upwards, near the onset;
+(TINDALL-1814,20.92)
+*~/
+/*
+65 ADVP-DIR:  65 ADVP-DIR, 67 upwards
+*/
+
+( (IP-MAT (NP-SBJ (D the)
+		  (NS jaws)
+		  (PP (P of)
+		      (NP (D a) (ADJ good) (N horse))))
+	  (BEP are)
+	  (ADJP (ADJP (ADJ thin))
+		(CONJP (CONJ and)
+		       (ADJP (ADV sufficiently) (ADJ wide))))
+	  (, ,)
+	  (IP-PPL (IP-PPL-1 (NEG not)
+			    (VAG approaching)
+			    (ADJP-LOC (ADVR too)
+				      (CODE {COM:text_has_to_but_cf._errata})
+				      (ADJ near))
+			    (PP (P at)
+				(NP (D the) (N throat))))
+		  (, ,)
+		  (CONJP (CONJ nor)
+			 (IP-PPL=1 (ADJP-LOC (ADVR too) (ADJ high))
+				   (ADVP-DIR (RP+WARD upwards))
+				   (, ,)
+				   (ADJP-LOC (ADJ near)
+					     (NP (D the) (N onset))))))
+	  (. ;))
+  (ID TINDALL-1814,20.92))
+
+/~*
+such seem to stand in a posture of defence, holding up their heads very high,
+and advancing one of their hindlegs forward, which they rest on their toe, as
+if preparing to kick the person that comes near them.
+(TINDALL-1814,23.136)
+*~/
+/*
+67 ADVP-DIR:  67 ADVP-DIR, 69 forward
+*/
+
+( (IP-MAT (NP-SBJ (SUCH such))
+	  (VBP seem)
+	  (IP-INF (TO to)
+		  (VB stand)
+		  (PP (P in)
+		      (NP (D a)
+			  (CODE <P_23>)
+			  (N posture)
+			  (PP (P of)
+			      (NP (N defence))))))
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG holding)
+			  (RP up)
+			  (NP-OB1 (PRO$ their) (NS heads))
+			  (ADJP-SPR (ADV very) (ADJ high)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (VAG advancing)
+				 (NP-OB1 (ONE one)
+					 (PP (P of)
+					     (NP (PRO$ their) (ADJ+NS hindlegs)))
+					 (CP-REL *ICH*-1))
+				 (ADVP-DIR (ADV+WARD forward))
+				 (, ,)
+				 (CP-REL-1 (WNP-2 (WPRO which))
+					   (C 0)
+					   (IP-SUB (NP-OB1 *T*-2)
+						   (NP-SBJ (PRO they))
+						   (VBP rest)
+						   (PP (P on)
+						       (NP (PRO$ their) (N toe)))
+						   (, ,)
+						   (PP (P as)
+						       (PP (P if)
+							   (IP-PPL (VAG preparing)
+								   (IP-INF (TO to)
+									   (VB kick)
+									   (NP-OB1 (D the)
+										   (N person)
+										   (CP-REL (WNP-3 0)
+											   (C that)
+											   (IP-SUB (NP-SBJ *T*-3)
+												   (VBP comes)
+												   (ADJP-LOC (ADJ near)
+													     (NP (PRO them)))))))))))))))
+	  (. .))
+  (ID TINDALL-1814,23.136))
+
+/~*
+in order, then to guard the inexperienced against impositions of this sort, it
+will be necessary to apprise such, that a colt is foaled without teeth; in a
+few days, he puts out four, which are called pincers, or nippers; soon after,
+appear the four separators, next to the nippers; it is sometimes three or four
+months before the next, called the corner teeth, push forth; these twelve
+colt's teeth, in the front of the mouth, continue without alternation, till
+the colt is two years and a half old, which makes it difficult, without great
+care, to avoid being imposed upon during that interval, if the seller finds it
+his interest to make the colt pass for either younger or older than he really
+is; the only rule you then have to judge by is his coat, and the hairs of his
+mane and tail.
+(TINDALL-1814,25.154)
+*~/
+/*
+220 ADVP-DIR:  220 ADVP-DIR, 222 forth
+*/
+
+( (IP-MAT (PP (P in)
+	      (NP (N order)
+		  (, ,)
+		  (ADVP (ADV then))
+		  (CODE {COM:no_comma_in_original})
+		  (IP-INF (TO to)
+			  (VB guard)
+			  (NP-OB1 (D the) (ADJ inexperienced))
+			  (PP (P against)
+			      (NP (NS impositions)
+				  (PP (P of)
+				      (NP (D this) (N sort))))))))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (MD will)
+	  (BE be)
+	  (ADJP (ADJ necessary))
+	  (IP-INF-1 (TO to)
+		    (VB apprise)
+		    (NP-OB1 (SUCH such))
+		    (, ,)
+		    (CP-THT (C that)
+			    (IP-SUB (IP-SUB (NP-SBJ (D a) (N colt))
+					    (BEP is)
+					    (VAN foaled)
+					    (PP (P without)
+						(NP (NS teeth))))
+				    (, ;)
+				    (CONJP (IP-SUB (PP (P in)
+						       (NP (D a) (Q few) (NS days)))
+						   (, ,)
+						   (NP-SBJ (PRO he))
+						   (VBP puts)
+						   (RP out)
+						   (NP-OB1 (NUM four)
+							   (, ,)
+							   (CP-REL (WNP-2 (WPRO which))
+								   (C 0)
+								   (IP-SUB (NP-SBJ *T*-2)
+									   (BEP are)
+									   (VAN called)
+									   (IP-SMC (NP-SBJ *-2)
+										   (NP-OB1 (NS pincers) (, ,) (CONJ or) (NS nippers))))))))
+				    (, ;)
+				    (CONJP (IP-SUB (ADVP-TMP (ADV soon) (ADV after))
+						   (, ,)
+						   (VBP appear)
+						   (NP-SBJ (D the) (NUM four) (NS separators))
+						   (, ,)
+						   (ADJP-LOC (ADJS next)
+							     (PP (P to)
+								 (NP (D the) (NS nippers))))))
+				    (, ;)
+				    (CONJP (IP-SUB (NP-SBJ (PRO it))
+						   (BEP is)
+						   (NP-TMP (Q+NS sometimes))
+						   (NP-OB1 (NUMP (NUM three) (CONJ or) (NUM four))
+							   (NS months))
+						   (PP (P before)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (D the)
+									       (ADJS next)
+									       (, ,)
+									       (RRC (VAN called)
+										    (IP-SMC (NP-SBJ *)
+											    (NP-OB1 (D the) (N corner) (NS teeth)))))
+								       (, ,)
+								       (VBP push)
+								       (ADVP-DIR (ADV forth)))))))
+				    (, ;)
+				    (CONJP (IP-SUB (NP-SBJ (D these) (NUM twelve) (N$ colt's) (CODE <P_25>) (NS teeth))
+						   (, ,)
+						   (PP (P in)
+						       (NP (D the)
+							   (N front)
+							   (PP (P of)
+							       (NP (D the) (N mouth)))))
+						   (, ,)
+						   (VBP continue)
+						   (PP (P without)
+						       (NP (N alternation)))
+						   (, ,)
+						   (PP (P till)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (D the) (N colt))
+								       (BEP is)
+								       (ADJP (NP-MSR (NUM two)
+										     (NS years)
+										     (CONJP (CONJ and)
+											    (NUM (D a) (NUM half))))
+									     (ADJ old)))))
+						   (, ,)
+						   (CP-CAR (WNP-3 (WPRO which))
+							   (C 0)
+							   (IP-SUB (NP-SBJ *T*-3)
+								   (VBP makes)
+								   (IP-SMC (NP-SBJ-4 (PRO it))
+									   (ADJP (ADJ difficult))
+									   (, ,)
+									   (PP (P without)
+									       (NP (ADJ great) (N care)))
+									   (, ,)
+									   (IP-INF-4 (TO to)
+										     (VB avoid)
+										     (IP-PPL (BAG being)
+											     (VAN imposed)
+											     (PP (P upon)
+												 (NP *))))
+									   (PP (P during)
+									       (NP (D that) (N interval))))
+								   (, ,)
+								   (PP (P if)
+								       (CP-ADV (C 0)
+									       (IP-SUB (NP-SBJ (D the) (N seller))
+										       (VBP finds)
+										       (IP-SMC (NP-SBJ-5 (PRO it))
+											       (NP-OB1 (PRO$ his) (N interest))
+											       (IP-INF-5 (TO to)
+													 (VB make)
+													 (IP-INF (NP-SBJ (D the) (N colt))
+														 (VB pass)
+														 (PP (P for)
+														     (ADJP (CONJ either)
+															   (ADJR younger)
+															   (CONJ or)
+															   (ADJR older)
+															   (PP (P than)
+															       (CP-CMP (WADJP-6 0)
+																       (C 0)
+																       (IP-SUB (ADJP *T*-6)
+																	       (NP-SBJ (PRO he))
+																	       (ADVP (ADV really))
+																	       (BEP is))))))))))))))))
+				    (, ;)
+				    (CONJP (IP-SUB (NP-SBJ (D the)
+							   (ADJ only)
+							   (N rule)
+							   (CP-REL (WNP-7 0)
+								   (C 0)
+								   (IP-SUB (NP-OB1 *T*-7)
+									   (NP-SBJ (PRO you))
+									   (ADVP-TMP (ADV then))
+									   (HVP have)))
+							   (CP-EOP (WNP-8 0)
+								   (IP-INF (TO to)
+									   (VB judge)
+									   (PP (P by)
+									       (NP *T*-8)))))
+						   (BEP is)
+						   (NP-OB1 (NP (PRO$ his) (N coat))
+							   (, ,)
+							   (CONJP (CONJ and)
+								  (NP (D the)
+								      (NS hairs)
+								      (PP (P of)
+									  (NP (PRO$ his)
+									      (N mane)
+									      (CONJP (CONJ and)
+										     (NX (N tail)))))))))))))
+	  (. .))
+  (ID TINDALL-1814,25.154))
+
+/~*
+and puts forth four others, which follow the same rule as the pincers;
+(TINDALL-1814,26.162)
+*~/
+/*
+8 ADVP-DIR:  8 ADVP-DIR, 10 forth
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP puts)
+	  (ADVP-DIR (ADV forth))
+	  (NP-OB1 (NUM four)
+		  (OTHERS others)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP follow)
+				  (NP-OB1 (D the)
+					  (ADJ same)
+					  (N rule)
+					  (PP (P as)
+					      (NP (D the) (NS pincers)))))))
+	  (. ;))
+  (ID TINDALL-1814,26.162))
+
+/~*
+A neck of a moderate length enables him to fetch his breath with greater ease,
+whereas, an $overlong one renders the windpipe circular, preventing the wind
+from passing backward and forward with the necessary freedom:
+(TINDALL-1814,31.225)
+*~/
+/*
+87 ADVP-DIR:  87 ADVP-DIR, 93 forward
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (N neck)
+		  (PP (P of)
+		      (NP (D a) (ADJ moderate) (N length))))
+	  (VBP enables)
+	  (NP-OB1 (PRO him))
+	  (IP-INF (TO to)
+		  (VB fetch)
+		  (NP-OB1 (PRO$ his) (N breath))
+		  (PP (P with)
+		      (NP (ADJR greater) (N ease))))
+	  (, ,)
+	  (PP (WADV+P whereas)
+	      (, ,)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D an)
+				      (ADJ $overlong)
+				      (CODE {TEXT:over_long})
+				      (ONE one))
+			      (VBP renders)
+			      (IP-SMC (NP-SBJ (D the) (N+N windpipe))
+				      (ADJP (ADJ circular)))
+			      (, ,)
+			      (IP-PPL (VAG preventing)
+				      (NP-OB1 (D the) (N wind))
+				      (PP (P from)
+					  (IP-PPL (VAG passing)
+						  (ADVP-DIR (ADV+WARD backward) (CONJ and) (ADV+WARD forward))
+						  (PP (P with)
+						      (NP (D the) (ADJ necessary) (N freedom)))))))))
+	  (. :))
+  (ID TINDALL-1814,31.225))
+
+/~*
+The back of a running horse should be rather long than short, in which case,
+if he is $broad-filleted, he will be able to spring forward the better, and
+that at a moment when such an exertion is "a consummation devoutly to be
+wished."
+(TINDALL-1814,32.233)
+*~/
+/*
+88 ADVP-DIR:  88 ADVP-DIR, 90 forward
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N back)
+		  (PP (P of)
+		      (NP (D a) (N running) (N horse))))
+	  (MD should)
+	  (BE be)
+	  (ADVP (ADVR rather)
+		(PP *ICH*-1))
+	  (ADJP (ADJ long))
+	  (PP-1 (P than)
+		(ADJP (ADJ short)))
+	  (, ,)
+	  (CP-CAR (WPP-2 (P in)
+			 (WNP (WD which) (N case)))
+		  (, ,)
+		  (C 0)
+		  (IP-SUB (IP-SUB (PP *T*-2)
+				  (PP (P if)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO he))
+						      (BEP is)
+						      (ADJP (ADJ $broad-filleted)))))
+				  (CODE {TEXT:broad_filleted})
+				  (, ,)
+				  (NP-SBJ (PRO he))
+				  (MD will)
+				  (BE be)
+				  (ADJP (ADJ able)
+					(IP-INF (TO to)
+						(VB spring)
+						(ADVP-DIR (ADV+WARD forward))
+						(ADVP (D the) (ADVR better)))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (FRAG (NP (D that))
+				       (PP (P at)
+					   (NP (D a)
+					       (N moment)
+					       (CP-REL (WADVP-3 (WADV when))
+						       (C 0)
+						       (IP-SUB (ADVP-TMP *T*-3)
+							       (NP-SBJ (SUCH such) (D an) (N exertion))
+							       (BEP is)
+							       (" ")
+							       (NP-OB1 (QTP (D a)
+									    (N consummation)
+									    (CP-EOP (WNP-4 0)
+										    (IP-INF (NP-SBJ *T*-4)
+											    (ADVP (ADV devoutly))
+											    (TO to)
+											    (BE be)
+											    (VAN wished)))))))))))))
+	  (. .)
+	  (" "))
+  (ID TINDALL-1814,32.233))
+
+/~*
+these redundant humours are more apt to affect the lungs and head than any
+other parts, because when a horse has been heated, and suffered to cool
+suddenly, the acrid scrum and perspirable matter, drove back from the skin,
+falls upon the windpipe and lungs, and so occasions coughing, which is an
+effort of nature, to rid herself of the peccant matter which is so oppressive
+to her.
+(TINDALL-1814,36.260)
+*~/
+/*
+109 ADVP-DIR:  109 ADVP-DIR, 111 back
+*/
+
+( (IP-MAT (NP-SBJ (D these) (ADJ redundant) (NS humours))
+	  (BEP are)
+	  (ADJP (QR more)
+		(ADJ apt)
+		(IP-INF (TO to)
+			(VB affect)
+			(NP-OB1 (D the)
+				(NS lungs)
+				(CONJP (CONJ and)
+				       (NX (N head)))))
+		(PP (P than)
+		    (NP (Q any) (OTHER other) (NS parts))))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (PP (P when)
+					  (CP-ADV (C 0)
+						  (IP-SUB (IP-SUB-1 (NP-SBJ (D a) (N horse))
+								    (HVP has)
+								    (BEN been)
+								    (VAN heated))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-SUB=1 (VAN suffered)
+									   (IP-INF (TO to)
+										   (VB cool)
+										   (ADVP (ADV suddenly))))))))
+				      (, ,)
+				      (NP-SBJ (D the)
+					      (ADJ acrid)
+					      (N scrum)
+					      (CONJP (CONJ and)
+						     (NX (ADJ perspirable) (N matter)))
+					      (, ,)
+					      (RRC (VAN drove)
+						   (ADVP-DIR (ADV back))
+						   (PP (P from)
+						       (NP (D the) (N skin)))))
+				      (, ,)
+				      (VBP falls)
+				      (PP (P upon)
+					  (NP (D the)
+					      (N windpipe)
+					      (CONJP (CONJ and)
+						     (NX (NS lungs))))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (ADVP (ADV so))
+					     (VBP occasions)
+					     (NP-OB1 (N coughing)
+						     (, ,)
+						     (CP-REL (WNP-2 (WPRO which))
+							     (C 0)
+							     (IP-SUB (NP-SBJ *T*-2)
+								     (BEP is)
+								     (NP-OB1 (D an)
+									     (N effort)
+									     (PP (P of)
+										 (NP (N nature)))
+									     (, ,)
+									     (IP-INF (TO to)
+										     (VB rid)
+										     (NP-OB1 (PRO+N herself))
+										     (PP (P of)
+											 (NP (D the)
+											     (ADJ peccant)
+											     (N matter)
+											     (CP-REL (WNP-3 (WPRO which))
+												     (C 0)
+												     (IP-SUB (NP-SBJ *T*-3)
+													     (BEP is)
+													     (ADJP (ADVR so) (ADJ oppressive))
+													     (PP (P to)
+														 (NP (PRO her)))))))))))))))))
+	  (. .))
+  (ID TINDALL-1814,36.260))
+
+/~*
+Copious discharges from the nose is very common in two or three days after
+they are attacked, generally continuing five or six days, which makes them
+fall away very much,
+(TINDALL-1814,41.318)
+*~/
+/*
+86 ADVP-DIR:  86 ADVP-DIR, 88 away
+*/
+
+( (IP-MAT (NP-SBJ (ADJ Copious)
+		  (NS discharges)
+		  (PP (P from)
+		      (NP (D the) (N nose))))
+	  (BEP is)
+	  (ADJP (ADV very) (ADJ common))
+	  (PP (P in)
+	      (NP (NUMP (NUM two) (CONJ or) (NUM three))
+		  (NS days)
+		  (PP (P after)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (BEP are)
+				      (VAN attacked))))))
+	  (, ,)
+	  (IP-PPL (ADVP (ADV generally))
+		  (VAG continuing)
+		  (NP-MSR (NUMP (NUM five) (CONJ or) (NUM six))
+			  (NS days)))
+	  (, ,)
+	  (CP-CAR (WNP-1 (WPRO which))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBP makes)
+			  (IP-INF (NP-SBJ (PRO them))
+				  (VB fall)
+				  (ADVP-DIR (ADV away))
+				  (NP-MSR (QP (ADV very) (Q much))))))
+	  (. ,))
+  (ID TINDALL-1814,41.318))
+
+/~*
+should any thing more be wanting, laxative glysters will answer a good purpose
+in bringing away the faeces,
+(TINDALL-1814,51.413)
+*~/
+/*
+44 ADVP-DIR:  44 ADVP-DIR, 46 away
+*/
+
+( (IP-MAT (CP-ADV (C 0)
+		  (IP-SUB (MD should)
+			  (NP-SBJ (Q any)
+				  (N thing)
+				  (QP (QR more)))
+			  (BE be)
+			  (VAG wanting)))
+	  (, ,)
+	  (NP-SBJ (ADJ laxative) (NS glysters))
+	  (MD will)
+	  (VB answer)
+	  (NP-OB1 (D a) (ADJ good) (N purpose))
+	  (PP (P in)
+	      (IP-PPL (VAG bringing)
+		      (ADVP-DIR (ADV away))
+		      (NP-OB1 (D the) (NS faeces))))
+	  (. ,))
+  (ID TINDALL-1814,51.413))
+
+/~*
+witness the disease called the murrain, which like a plague, has swept away
+great numbers of horses, spreading dismay o'er the minds of the suffering
+owners.
+(TINDALL-1814,54.459)
+*~/
+/*
+45 ADVP-DIR:  45 ADVP-DIR, 47 away
+*/
+
+( (IP-IMP (VBI witness)
+	  (NP-OB1 (D the)
+		  (N disease)
+		  (RRC (VAN called)
+		       (IP-SMC (NP-SBJ *)
+			       (NP-OB1 (D the) (N murrain))))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (ADJP-SPR (ADJ like)
+					    (NP (D a) (N plague)))
+				  (, ,)
+				  (HVP has)
+				  (VBN swept)
+				  (ADVP-DIR (ADV away))
+				  (NP-OB1 (ADJ great)
+					  (NS numbers)
+					  (PP (P of)
+					      (NP (NS horses))))
+				  (, ,)
+				  (IP-PPL (VAG spreading)
+					  (NP-OB1 (N dismay))
+					  (PP (P o'er)
+					      (NP (D the)
+						  (NS minds)
+						  (PP (P of)
+						      (NP (D the) (VAG suffering) (NS owners)))))))))
+	  (. .))
+  (ID TINDALL-1814,54.459))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	10/10/464
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd
+*/
+
+/~*
+and are retailed in packets costing from 1 d. upwards.
+(WEATHERS-1913,1,2.46)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 34 upwards
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BEP are)
+	  (VAN retailed)
+	  (PP (P in)
+	      (NP (NS packets)
+		  (RRC (VAG costing)
+		       (NP-MSR (PP (P from)
+				   (NP (NUM 1) (CODE <font>) (N d.)))
+			       (CODE <$$font>)
+			       (ADVP-DIR (RP+WARD upwards))))))
+	  (. .))
+  (ID WEATHERS-1913,1,2.46))
+
+/~*
+If until the middle of the last century Japan was not exactly a sealed book to
+the seeker after new forms of tree and plant life, the restrictions imposed
+upon the members of other nationalities were such as to render it extremely
+difficult for them to obtain access to the country, much less to explore
+meadow or woodland, or plain or mountain, and bring away on their return home
+the spoils of the exploration.
+(WEATHERS-1913,1,13.289)
+*~/
+/*
+189 ADVP-DIR:  189 ADVP-DIR, 191 away
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (PP (P until)
+				  (NP (D the)
+				      (N middle)
+				      (PP (P of)
+					  (NP (D the) (ADJ last) (N century)))))
+			      (NP-SBJ (NPR Japan))
+			      (BED was)
+			      (NEG not)
+			      (ADVP (ADV exactly))
+			      (NP-OB1 (D a) (VAN sealed) (N book))
+			      (PP (P to)
+				  (NP (D the)
+				      (N seeker)
+				      (PP (P after)
+					  (NP (ADJ new)
+					      (NS forms)
+					      (PP (P of)
+						  (NP (ADJP (N tree) (CONJ and) (N plant))
+						      (N life))))))))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (NS restrictions)
+		  (RRC (VAN imposed)
+		       (PP (P upon)
+			   (NP (D the)
+			       (NS members)
+			       (PP (P of)
+				   (NP (OTHER other) (NS nationalities)))))))
+	  (BED were)
+	  (ADJP (SUCH such)
+		(PP (P as)
+		    (IP-INF (TO to)
+			    (VB render)
+			    (IP-SMC (NP-SBJ-1 (PRO it))
+				    (ADJP (ADV extremely) (ADJ difficult))
+				    (IP-INF-1 (IP-INF (FOR for)
+						      (NP-SBJ (PRO them))
+						      (TO to)
+						      (VB obtain)
+						      (NP-OB1 (N access)
+							      (PP (P to)
+								  (NP (D the) (N country)))))
+					      (, ,)
+					      (CONJP (IP-INF (IP-INF (NP-SBJ *con*)
+								     (NP-MSR (QP (Q much) (QR less)))
+								     (TO to)
+								     (VB explore)
+								     (NP-OB1 (N meadow) (CONJ or) (N+N woodland) (, ,) (CONJ or) (N plain) (CONJ or) (N mountain)))
+							     (, ,)
+							     (CONJP (CONJ and)
+								    (IP-INF (NP-SBJ *con*)
+									    (TO *)
+									    (VB bring)
+									    (ADVP-DIR (ADV away))
+									    (PP (P on)
+										(NP (PRO$ their)
+										    (N return)
+										    (NP-DIR (N home))))
+									    (NP-OB1 (D the)
+										    (NS spoils)
+										    (PP (P of)
+											(NP (D the) (N exploration)))))))))))))
+	  (. .))
+  (ID WEATHERS-1913,1,13.289))
+
+/~*
+and they take us far back into the distant past.
+(WEATHERS-1913,1,18.392)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 17 back
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO they))
+	  (VBP take)
+	  (NP-OB1 (PRO us))
+	  (ADVP-DIR (NP-MSR (ADJ far))
+		    (ADV back))
+	  (PP (P into)
+	      (NP (D the) (ADJ distant) (N past)))
+	  (. .))
+  (ID WEATHERS-1913,1,18.392))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	3/3/395
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd
+*/
+
+/~*
+Grammar, which is the only Thing they can propose thereby to learn, I have
+already shew'd may more easily and effectually be taught them in their own
+Mother-Tongue:
+(WEBSTER-1718,16.53)
+*~/
+/*
+80 ADVX:  80 ADVX, 82 effectually
+*/
+
+( (IP-MAT (CODE <font>)
+	  (NP-TPC-1 (N Grammar)
+		    (, ,)
+		    (CODE <$$font>)
+		    (CP-REL (WNP-2 (WPRO which))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (BEP is)
+				    (NP-OB1 (D the)
+					    (ADJ only)
+					    (N Thing)
+					    (CP-REL (WNP-3 0)
+						    (C 0)
+						    (IP-SUB (NP-SBJ (PRO they))
+							    (MD can)
+							    (VB propose)
+							    (IP-INF (NP-OB1 *T*-3)
+								    (PP (ADV+P thereby))
+								    (TO to)
+								    (VB learn))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (ADVP-TMP (ADV already))
+	  (VBN shew'd)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD may)
+			  (ADVP (QR more)
+				(ADV easily)
+				(CONJP (CONJ and)
+				       (ADVX (ADV effectually))))
+			  (BE be)
+			  (VAN taught)
+			  (NP-OB2 (PRO them))
+			  (PP (P in)
+			      (NP (PRO$ their) (ADJ own) (N+N Mother-Tongue)))))
+	  (. :))
+  (ID WEBSTER-1718,16.53))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	1/1/77
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd
+*/
+
+/~*
+and it is justly assumed, that each of these brief movements helps the
+reasoner forwards in a course of infallible certainty and security.
+(WHEWELL-1837,13.101)
+*~/
+/*
+40 ADVP-DIR:  40 ADVP-DIR, 42 forwards
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ-1 (PRO it))
+	      (BEP is)
+	      (ADVP (ADV justly))
+	      (VAN assumed)
+	      (, ,)
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (Q each)
+						(PP (P of)
+						    (NP (D these) (ADJ brief) (NS movements))))
+					(VBP helps)
+					(NP-OB2 (D the) (N reasoner))
+					(ADVP-DIR (ADV+WARD forwards))
+					(PP (P in)
+					    (NP (D a)
+						(N course)
+						(PP (P of)
+						    (NP (ADJ infallible)
+							(N certainty)
+							(CONJP (CONJ and)
+							       (NX (N security)))))))))
+	      (. .))
+  (ID WHEWELL-1837,13.101))
+
+/~*
+But a more interesting mode of deciding this point will be, to look back at
+the history of the world;
+(WHEWELL-1837,21.186)
+*~/
+/*
+36 ADVP-DIR:  36 ADVP-DIR, 38 back
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (D a)
+		  (ADJP (QR more) (VAG interesting))
+		  (N mode)
+		  (PP (P of)
+		      (IP-PPL (VAG deciding)
+			      (NP-OB1 (D this) (N point)))))
+	  (MD will)
+	  (BE be)
+	  (, ,)
+	  (IP-INF-OB1 (TO to)
+		      (VB look)
+		      (ADVP-DIR (ADV back))
+		      (PP (P at)
+			  (NP (D the)
+			      (N history)
+			      (PP (P of)
+				  (NP (D the) (N world))))))
+	  (. ;))
+  (ID WHEWELL-1837,21.186))
+
+/~*
+but this availed not to urge on the intellectual progress of man, or even to
+prevent his sliding backwards.
+(WHEWELL-1837,23.217)
+*~/
+/*
+49 ADVP-DIR:  49 ADVP-DIR, 51 backwards
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D this))
+	  (VBD availed)
+	  (NEG not)
+	  (IP-INF (IP-INF (TO to)
+			  (VB urge)
+			  (RP on)
+			  (NP-OB1 (D the)
+				  (ADJ intellectual)
+				  (N progress)
+				  (PP (P of)
+				      (NP (N man)))))
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (IP-INF (FP even)
+				 (TO to)
+				 (VB prevent)
+				 (NP-OB1 (PRO$ his) (N sliding))
+				 (ADVP-DIR (ADV+WARD backwards)))))
+	  (. .))
+  (ID WHEWELL-1837,23.217))
+
+/~*
+And let no one attempt to make it less momentous, by persuading himself that
+civilisation must advance; - that we $can $not run back into an inferior
+condition of culture and thought.
+(WHEWELL-1837,26.262)
+*~/
+/*
+71 ADVP-DIR:  71 ADVP-DIR, 73 back
+*/
+
+( (IP-IMP (CONJ And)
+	  (VBI let)
+	  (IP-INF (NP-SBJ (Q no) (ONE one))
+		  (VB attempt)
+		  (IP-INF (TO to)
+			  (VB make)
+			  (IP-SMC (NP-SBJ (PRO it))
+				  (ADJP (QR less) (ADJ momentous)))
+			  (, ,)
+			  (PP (P by)
+			      (IP-PPL (VAG persuading)
+				      (NP-OB1 (PRO+N himself))
+				      (CP-THT (CP-THT (C that)
+						      (IP-SUB (NP-SBJ (N civilisation))
+							      (MD must)
+							      (VB advance)))
+					      (, ;)
+					      (, -)
+					      (CONJP (CP-THT (C that)
+							     (IP-SUB (NP-SBJ (PRO we))
+								     (MD $can)
+								     (NEG $not)
+								     (CODE {TEXT:cannot})
+								     (VB run)
+								     (ADVP-DIR (ADV back))
+								     (PP (P into)
+									 (NP (D an)
+									     (ADJ inferior)
+									     (N condition)
+									     (PP (P of)
+										 (NP (N culture) (CONJ and) (N thought)))))))))))))
+	  (. .))
+  (ID WHEWELL-1837,26.262))
+
+/~*
+and thus the torch of knowledge is handed forwards, thousands upon thousands
+lighting their lamps at it as it passes on; while still from time to time some
+new Prometheus catches a fresh light from heaven, to spread abroad among men
+in like manner.
+(WHEWELL-1837,27.275)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 24 forwards
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV thus))
+	  (NP-SBJ (D the)
+		  (N torch)
+		  (PP (P of)
+		      (NP (N knowledge))))
+	  (BEP is)
+	  (VAN handed)
+	  (ADVP-DIR (ADV+WARD forwards))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (NS thousands)
+			      (PP (P upon)
+				  (NP (NS thousands))))
+		      (VAG lighting)
+		      (NP-OB1 (PRO$ their) (NS lamps))
+		      (PP (P at)
+			  (NP (PRO it)))
+		      (PP (P as)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (PRO it))
+					  (VBP passes)
+					  (RP on)))))
+	  (, ;)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (ADVP-TMP (ADV still))
+			      (NP-MSR (PP (P from)
+					  (NP (N time)))
+				      (PP (P to)
+					  (NP (N time))))
+			      (NP-SBJ (Q some) (ADJ new) (NPR Prometheus))
+			      (VBP catches)
+			      (NP-OB1 (D a)
+				      (ADJ fresh)
+				      (N light)
+				      (CP-EOP *ICH*-1))
+			      (PP (P from)
+				  (NP (NPR heaven)))
+			      (, ,)
+			      (CP-EOP-1 (WNP-2 0)
+					(IP-INF (NP-OB1 *T*-2)
+						(TO to)
+						(VB spread)
+						(ADVP-LOC (ADV abroad))
+						(PP (P among)
+						    (NP (NS men)))
+						(PP (P in)
+						    (NP (ADJ like) (N manner))))))))
+	  (. .))
+  (ID WHEWELL-1837,27.275))
+
+/~*
+Nothing forbids us to look forward to the time, when not only this deficiency
+shall be supplied, but when men's minds shall have been carried much further
+in the same track.
+(WHEWELL-1837,29.285)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 forward
+*/
+
+( (IP-MAT (NP-SBJ (Q+N Nothing))
+	  (VBP forbids)
+	  (NP-OB2 (PRO us))
+	  (IP-INF (TO to)
+		  (VB look)
+		  (ADVP-DIR (ADV+WARD forward))
+		  (PP (P to)
+		      (NP (D the)
+			  (N time)
+			  (, ,)
+			  (CP-REL (CP-REL (WADVP-1 (WADV when))
+					  (C 0)
+					  (IP-SUB (ADVP-TMP *T*-1)
+						  (NEG not)
+						  (NP-SBJ (FP only) (D this) (CODE <P_29>) (N deficiency))
+						  (MD shall)
+						  (BE be)
+						  (VAN supplied)))
+				  (, ,)
+				  (CONJP (CONJ but)
+					 (CP-REL (WADVP-2 (WADV when))
+						 (C 0)
+						 (IP-SUB (ADVP-TMP *T*-2)
+							 (NP-SBJ (NS$ men's) (NS minds))
+							 (MD shall)
+							 (HV have)
+							 (BEN been)
+							 (VAN carried)
+							 (PP (NP-MSR (ADJP (Q much) (ADJR further)))
+							     (P in)
+							     (NP (D the) (ADJ same) (N track))))))))))
+	  (. .))
+  (ID WHEWELL-1837,29.285))
+
+/~*
+If this were taken away, many of the strings would be broken, in the
+instrument on which these artists played.
+(WHEWELL-1837,36.356)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 away
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D this))
+			      (BED were)
+			      (VAN taken)
+			      (ADVP-DIR (ADV away)))))
+	  (, ,)
+	  (NP-SBJ (Q many)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS strings)
+			  (PP *ICH*-1))))
+	  (MD would)
+	  (BE be)
+	  (VAN broken)
+	  (, ,)
+	  (PP-1 (P in)
+		(NP (D the)
+		    (N instrument)
+		    (CP-REL (WPP-2 (P on)
+				   (WNP (WPRO which)))
+			    (C 0)
+			    (IP-SUB (PP *T*-2)
+				    (NP-SBJ (D these) (NS artists))
+				    (VBD played)))))
+	  (. .))
+  (ID WHEWELL-1837,36.356))
+
+/~*
+Indeed, since principles are disclosed and illustrated by the reading of poets
+and orators, far more obscurely and vaguely than by most other studies,
+classical literature so pursued is entirely inefficient for any purpose of
+genuine mental cultivation.
+(WHEWELL-1837,39.390)
+*~/
+/*
+58 ADVX:  58 ADVX, 60 vaguely
+*/
+
+( (IP-MAT (PP (P+N Indeed))
+	  (, ,)
+	  (PP (P since)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NS principles))
+			      (BEP are)
+			      (VAN (VAN disclosed) (CONJ and) (VAN illustrated))
+			      (PP (P by)
+				  (NP (D the)
+				      (N reading)
+				      (PP (P of)
+					  (NP (NS poets) (CONJ and) (NS orators)))))
+			      (, ,)
+			      (ADVP (QP (NP-MSR (ADJ far))
+					(QR more))
+				    (ADV obscurely)
+				    (CONJP (CONJ and)
+					   (ADVX (ADV vaguely)))
+				    (PP (P than)
+					(PP (P by)
+					    (NP (QS most) (OTHER other) (NS studies))))))))
+	  (, ,)
+	  (NP-SBJ (ADJ classical)
+		  (N literature)
+		  (RRC (ADVP (ADV so))
+		       (VAN pursued)))
+	  (BEP is)
+	  (ADJP (ADV entirely)
+		(ADJ inefficient)
+		(PP (P for)
+		    (NP (Q any)
+			(N purpose)
+			(PP (P of)
+			    (NP (ADJ genuine) (ADJ mental) (N cultivation))))))
+	  (. .))
+  (ID WHEWELL-1837,39.390))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	8/8/404
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\anon-1711.psd	6/5/241
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bain-1878.psd	9/9/488
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\barclay-1743.psd	7/7/475
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\bardsley-1807.psd	1/1/422
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\benson-1908.psd	8/8/458
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\brightland-1711.psd	1/1/49
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\chapman-1774.psd	10/10/383
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\drummond-1718.psd	5/5/436
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\fleming-1886.psd	0/0/522
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\grafting-1780.psd	22/22/423
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lancaster-1806.psd	0/0/548
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\lind-1753.psd	4/4/294
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\maxwell-1747.psd	24/24/470
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\poore-1876.psd	3/3/435
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\skeavington-184x.psd	7/7/494
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\tindall-1814.psd	10/10/464
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\weathers-1913.psd	3/3/395
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\webster-1718.psd	1/1/77
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\medicine_handbooks_religious_and_educational_treatises\whewell-1837.psd	8/8/404
+whole search, hits/tokens/total
+		129/128/7478
+*/

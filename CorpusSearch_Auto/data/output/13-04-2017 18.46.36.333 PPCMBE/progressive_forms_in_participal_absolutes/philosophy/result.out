@@ -1,0 +1,137 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:44 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_participal_absolutes.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_participal_absolutes\philosophy\result.out
+
+node:   *PPL*ABS*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PPL*ABS* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	0/0/463
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd
+*/
+
+/~*
+And how should they? as they are at perpetual war with themselves; their
+crimes sitting so heavy upon their consciences, that there is scarce any thing
+they do but they afterwards disapprove.
+(BOETHRI-1785,176.447)
+*~/
+/*
+51 VAG:  51 VAG, 52 sitting, 45 IP-PPL-ABS-SPE
+*/
+( (CP-QUE-SPE (CONJ And)
+	      (WADVP-1 (WADV how))
+	      (IP-SUB-SPE (ADVP *T*-1)
+			  (MD should)
+			  (NP-SBJ (PRO they))
+			  (, ?)
+			  (PP (P as)
+			      (CP-ADV-SPE (C 0)
+					  (IP-SUB-SPE (NP-SBJ (PRO they))
+						      (BEP are)
+						      (PP (P at)
+							  (NP (ADJ perpetual)
+							      (N war)
+							      (PP (P with)
+								  (NP (PRO+N themselves)))))
+						      (, ;)
+						      (IP-PPL-ABS-SPE (NP-SBJ (PRO$ their) (NS crimes))
+								      (VAG sitting)
+								      (ADJP-SPR (ADVR so)
+										(ADJ heavy)
+										(CP-DEG-SPE *ICH*-2))
+								      (PP (P upon)
+									  (NP (PRO$ their) (NS consciences)))
+								      (, ,)
+								      (CP-DEG-SPE-2 (C that)
+										    (IP-SUB-SPE (NP-SBJ-3 (EX there))
+												(BEP is)
+												(ADVP (ADV scarce))
+												(NP-3 (Q any)
+												      (N thing)
+												      (CP-REL-SPE (WNP-4 0)
+														  (C 0)
+														  (IP-SUB-SPE (NP-OB1 *T*-4)
+															      (NP-SBJ (PRO they))
+															      (DOP do)))
+												      (CP-REL-SPE (FP but)
+														  (WNP-5 0)
+														  (C 0)
+														  (IP-SUB-SPE (NP-OB1 *T*-5)
+															      (NP-SBJ (PRO they))
+															      (ADVP-TMP (ADV+WARD afterwards))
+															      (VBP disapprove)))))))))))
+	      (. .))
+  (ID BOETHRI-1785,176.447))
+
+/~*
+for these latter having suffered injuries from the former, their resentment
+excites them to become virtuous themselves, that they may no more bear any
+resemblance to persons whom they so thoroughly detest.
+(BOETHRI-1785,176.449)
+*~/
+/*
+11 HAG:  11 HAG, 12 having, 4 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (IP-PPL-ABS-SPE (NP-SBJ (D these)
+				      (ADJP (ADJ latter)))
+			      (HAG having)
+			      (VBN suffered)
+			      (NP-OB1 (NS injuries))
+			      (PP (P from)
+				  (NP (D the) (ADJ former))))
+	      (, ,)
+	      (NP-SBJ (PRO$ their) (N resentment))
+	      (VBP excites)
+	      (NP-OB1 (PRO them))
+	      (IP-INF-SPE (TO to)
+			  (VB become)
+			  (ADJP (ADJ virtuous))
+			  (NP-PRN (PRO+N themselves)))
+	      (, ,)
+	      (CP-ADV-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (PRO they))
+				      (MD may)
+				      (NP-MSR (QP (Q no) (QR more)))
+				      (VB bear)
+				      (NP-OB1 (Q any)
+					      (N resemblance)
+					      (PP (P to)
+						  (NP (NS persons)
+						      (CP-REL-SPE (WNP-1 (WPRO whom))
+								  (C 0)
+								  (IP-SUB-SPE (NP-OB1 *T*-1)
+									      (NP-SBJ (PRO they))
+									      (ADVP (ADVR so) (ADV thoroughly))
+									      (VBP detest))))))))
+	      (. .))
+  (ID BOETHRI-1785,176.449))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	2/2/459
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	0/0/463
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	2/2/459
+whole search, hits/tokens/total
+		2/2/922
+*/

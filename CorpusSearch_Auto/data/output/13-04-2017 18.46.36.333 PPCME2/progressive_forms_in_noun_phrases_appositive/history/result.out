@@ -1,0 +1,562 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:13 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_noun_phrases_appositive\history\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmbrut3.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmbrut3.m3.psd	0/0/4116
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmcapchr.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmcapchr.m4.psd	0/0/4177
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmgregor.m4.psd
+*/
+
+/~*
+Also thys yere there was a sterre that was callyd Comata, idest a blasyng
+sterre,
+(CMGREGOR,103.123)
+*~/
+/*
+44 VAG:  44 VAG, 45 blasyng, 39 NP-PRN
+*/
+( (IP-MAT (ALSO Also)
+	  (NP-TMP (D thys) (N yere))
+	  (NP-SBJ-1 (EX there))
+	  (BED was)
+	  (NP-1 (D a)
+		(N sterre)
+		(CP-REL (WNP-2 0)
+			(C that)
+			(IP-SUB (NP-SBJ-3 *T*-2)
+				(BED was)
+				(VAN callyd)
+				(IP-SMC (NP-SBJ *-3)
+					(NP-OB1 (NPR Comata)
+						(, ,)
+						(NP-PRN (FW idest) (D a) (VAG blasyng) (N sterre)))))))
+	  (. ,))
+  (ID CMGREGOR,103.123))
+
+/~*
+A sotelte, a tygyr and Syntt Gorge ledyng hyt.
+(CMGREGOR,141.616)
+*~/
+/*
+23 VAG:  23 VAG, 24 ledyng, 8 NP-PRN
+*/
+
+( (NP (D A)
+      (N sotelte)
+      (, ,)
+      (NP-PRN (NP (D a) (N tygyr))
+	      (CONJP (CONJ and)
+		     (NP (NPR Syntt)
+			 (NPR Gorge)
+			 (RRC (VAG ledyng)
+			      (NP (PRO hyt))))))
+      (. .))
+  (ID CMGREGOR,141.616))
+
+/~*
+The fyrste that come yn was a berys hedde, enarmyde in a castelle ryalle.
+Furmenty with venson. Vyant ryalle gylte. Grosse chare. Swanne. Capyn stewyde.
+Hayryn. Grete pyke. Rede lesche whythe a whyte lyon crownyde there yn.
+Custarde ryalle with a lybarde of golde sette there ynne holdyng a flowredelys.
+Frytoure like a son, a floure de lysse there yn. Ande a sotelte, Synt Edwarde
+and Synt Lewys armyd in hyr cotys of armys, bryngyng thys yong kyng, Harry the
+vj, in fygure y-armyde by twyne hem two, in hys cote of armys, whythe thys
+reson:
+(CMGREGOR,169.974)
+*~/
+/*
+252 VAG:  252 VAG, 253 bryngyng, 218 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ fyrste)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD come)
+				  (RP yn))))
+	  (BED was)
+	  (NP-OB1 (NP (NP-POS (D a) (N$ berys))
+		      (N hedde)
+		      (, ,)
+		      (RRC (VAN enarmyde)
+			   (PP (P in)
+			       (NP (D a)
+				   (N castelle)
+				   (ADJP (ADJ ryalle))))))
+		  (, .)
+		  (CONJP (NP (N Furmenty)
+			     (PP (P with)
+				 (NP (N venson)))))
+		  (, .)
+		  (CONJP (NP (N Vyant)
+			     (ADJP (ADJ ryalle))
+			     (RRC (VAN gylte))))
+		  (, .)
+		  (CONJP (NP (ADJ Grosse) (N chare)))
+		  (, .)
+		  (CONJP (NP (N Swanne)))
+		  (, .)
+		  (CONJP (NP (N Capyn)
+			     (RRC (VAN stewyde))))
+		  (, .)
+		  (CONJP (NP (N Hayryn)))
+		  (, .)
+		  (CONJP (NP (ADJ Grete) (N pyke)))
+		  (, .)
+		  (CONJP (NP (ADJ Rede)
+			     (N lesche)
+			     (PP (P whythe)
+				 (NP (D a)
+				     (ADJ whyte)
+				     (N lyon)
+				     (RRC (VAN crownyde))
+				     (PP (ADVP (ADV there))
+					 (P yn))))))
+		  (, .)
+		  (CONJP (NP (N Custarde)
+			     (ADJP (ADJ ryalle))
+			     (PP (P with)
+				 (NP (D a)
+				     (N lybarde)
+				     (PP (P of)
+					 (NP (N golde)))
+				     (RRC (VAN sette)
+					  (PP (ADVP (ADV there))
+					      (P ynne)))
+				     (RRC (VAG holdyng)
+					  (NP-OB1 (D a) (N flowredelys)))))))
+		  (, .)
+		  (CONJP (NP (N Frytoure)
+			     (PP (P like)
+				 (NP (D a) (N son)))
+			     (, ,)
+			     (NP-ADT (D a)
+				     (N (N31 floure) (N32 de) (N33 lysse))
+				     (PP (ADVP (ADV there))
+					 (P yn)))))
+		  (, .)
+		  (CONJP (CONJ Ande)
+			 (NP (D a)
+			     (N sotelte)
+			     (, ,)
+			     (NP-PRN (NP (NPR Synt) (NPR Edwarde))
+				     (CONJP (CONJ and)
+					    (NP (NPR Synt) (NPR Lewys)))
+				     (RRC (VAN armyd)
+					  (PP (P in)
+					      (NP (PRO$ hyr)
+						  (NS cotys)
+						  (PP (P of)
+						      (NP (NS armys))))))
+				     (, ,)
+				     (RRC (VAG bryngyng)
+					  (NP-OB1 (D thys)
+						  (ADJ yong)
+						  (N kyng)
+						  (, ,)
+						  (NP-PRN (NPR Harry)
+							  (NP-PRN (D the) (NUM vj))))
+					  (, ,)
+					  (PP (P in)
+					      (NP (N fygure)
+						  (RRC (VAN y-armyde))))
+					  (PP (P (P21 by) (P22 twyne))
+					      (NP (PRO hem) (NUM two)))
+					  (, ,)
+					  (PP (P in)
+					      (NP (PRO$ hys)
+						  (N cote)
+						  (PP (P of)
+						      (NP (NS armys)))))
+					  (, ,)
+					  (PP (P whythe)
+					      (NP (D thys) (N reson))))))))
+	  (. :))
+  (ID CMGREGOR,169.974))
+
+/~*
+Viaunde blanke. Gely wrytyn and notyd, Te Deum laudamus. Pygge in doory. Crane.
+Byttore. Cony. Chykynnys endoryd. Parteryche. Pecoke. Grete breme; leche
+whythe an antloppe crownyde there yn, and schynynge as golde. Flampayne
+pouderyde with lybardys and flowredelyssys of golde. Frytoure. Custarde. A
+lybarde ys hedde why+te ij esterygys fetherys. And a sotellete, - The
+Emperoure and Kynge Harry the v=te= in mantellys of garterys, bryngyng yn Kyng
+Harry the vj=te= yn the same sute, whythe thys reson imperyalle:
+(CMGREGOR,169.979)
+*~/
+/*
+236 VAG:  236 VAG, 237 bryngyng, 202 NP-PRN
+*/
+
+( (NP (NP (N Viaunde)
+	  (ADJP (ADJ blanke)))
+      (, .)
+      (CONJP (NP (N Gely)
+		 (RRC (VAN wrytyn)
+		      (CONJ and)
+		      (VAN notyd)
+		      (, ,)
+		      (LATIN (FW Te) (FW Deum) (FW laudamus)))))
+      (, .)
+      (CONJP (NP (N Pygge)
+		 (PP (P in)
+		     (NP (N doory)))))
+      (, .)
+      (CONJP (NP (N Crane)))
+      (, .)
+      (CONJP (NP (N Byttore)))
+      (, .)
+      (CONJP (NP (N Cony)))
+      (, .)
+      (CONJP (NP (NS Chykynnys)
+		 (RRC (VAN endoryd))))
+      (, .)
+      (CONJP (NP (N Parteryche)))
+      (, .)
+      (CONJP (NP (N Pecoke)))
+      (, .)
+      (CONJP (NP (ADJ Grete) (N breme)))
+      (, ;)
+      (CONJP (NP (N leche)
+		 (PP (P whythe)
+		     (NP (D an)
+			 (N antloppe)
+			 (RRC (RRC (VAN crownyde)
+				   (PP (ADVP (ADV there))
+				       (P yn)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (RRC (VAG schynynge)
+					  (PP (P as)
+					      (NP (N golde))))))))))
+      (, .)
+      (CONJP (NP (N Flampayne)
+		 (RRC (VAN pouderyde)
+		      (PP (P with)
+			  (NP (NS lybardys)
+			      (CONJ and)
+			      (NS flowredelyssys)
+			      (PP (P of)
+				  (NP (N golde))))))))
+      (, .)
+      (CONJP (NP (N Frytoure)))
+      (, .)
+      (CONJP (NP (N Custarde)))
+      (, .)
+      (CONJP (NP (NP-POS (D A) (N lybarde) ($ ys))
+		 (N hedde)
+		 (PP (P why+te)
+		     (NP (NP-POS (NUM ij) (N$ esterygys))
+			 (NS fetherys)))))
+      (, .)
+      (CONJP (CONJ And)
+	     (NP (D a) (N sotellete))
+	     (, ,)
+	     (, -)
+	     (NP-PRN (NP (D The) (N Emperoure))
+		     (CONJP (CONJ and)
+			    (NP (NPR Kynge)
+				(NPR Harry)
+				(NP-PRN (D the) (ADJ v=te=))))
+		     (PP (P in)
+			 (NP (NS mantellys)
+			     (PP (P of)
+				 (NP (NS garterys)))))
+		     (, ,)
+		     (RRC (VAG bryngyng)
+			  (RP yn)
+			  (NP-OB1 (NPR Kyng)
+				  (NPR Harry)
+				  (NP-PRN (D the) (ADJ vj=te=)))
+			  (PP (P yn)
+			      (NP (D the) (ADJ same) (N sute)))
+			  (, ,)
+			  (PP (P whythe)
+			      (NP (D thys)
+				  (N reson)
+				  (ADJP (ADJ imperyalle)))))))
+      (. :))
+  (ID CMGREGOR,169.979))
+
+/~*
+Quynsys in composte. Blaundsore. Veneson rostyde. Egretys. Curlewys rostyde.
+Wodekocke. Ploverys. Quaylys. Snytys. Grete bryddys. Larkys. Grete crabbys.
+Lesche i-made as vyolet colourys. Bakemetes. Chekynnys, i-pouderyde with
+losyngys, gylte whythe the flourys of borage. Frytoure cryspe. A sotelte, -
+Owre Lady syttynge, and hyr Chylde in hyr lappe, holdyng in every honde a
+crowne, Syn Gorge knelyng on that one syde and Synt Denys in that othyr syde,
+and they ij presentyng the kynge to owre Lady whythe thys reson:
+(CMGREGOR,170.985)
+*~/
+/*
+174 VAG:  174 VAG, 175 syttynge, 167 NP-PRN
+197 VAG:  197 VAG, 198 holdyng, 167 NP-PRN
+220 VAG:  220 VAG, 221 knelyng, 167 NP-PRN
+262 VAG:  262 VAG, 263 presentyng, 167 NP-PRN
+*/
+
+( (NP (NP (NS Quynsys)
+	  (PP (P in)
+	      (NP (N composte))))
+      (, .)
+      (CONJP (NP (N Blaundsore)))
+      (, .)
+      (CONJP (NP (N Veneson)
+		 (RRC (VAN rostyde))))
+      (, .)
+      (CONJP (NP (NS Egretys)))
+      (, .)
+      (CONJP (NP (NS Curlewys)
+		 (RRC (VAN rostyde))))
+      (, .)
+      (CONJP (NP (N Wodekocke)))
+      (, .)
+      (CONJP (NP (NS Ploverys)))
+      (, .)
+      (CONJP (NP (NS Quaylys)))
+      (, .)
+      (CONJP (NP (NS Snytys)))
+      (, .)
+      (CONJP (NP (ADJ Grete) (NS bryddys)))
+      (, .)
+      (CONJP (NP (NS Larkys)))
+      (, .)
+      (CONJP (NP (ADJ Grete) (NS crabbys)))
+      (, .)
+      (CONJP (NP (N Lesche)
+		 (RRC (VAN i-made)
+		      (PP (P as)
+			  (NP (ADJ vyolet) (NS colourys))))))
+      (, .)
+      (CONJP (NP (NS Bakemetes)))
+      (, .)
+      (CONJP (NP (NS Chekynnys)
+		 (, ,)
+		 (RRC (VAN i-pouderyde)
+		      (PP (P with)
+			  (NP (NS losyngys))))
+		 (, ,)
+		 (RRC (VAN gylte)
+		      (PP (P whythe)
+			  (NP (D the)
+			      (NS flourys)
+			      (PP (P of)
+				  (NP (N borage))))))))
+      (, .)
+      (CONJP (NP (N Frytoure)
+		 (ADJP (ADJ cryspe))))
+      (, .)
+      (CONJP (NP (D A)
+		 (N sotelte)
+		 (, ,)
+		 (, -)
+		 (NP-PRN (PRO$ Owre)
+			 (N Lady)
+			 (RRC (RRC (VAG syttynge))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (NP (PRO$ hyr)
+					 (N Chylde)
+					 (PP (P in)
+					     (NP (PRO$ hyr) (N lappe))))))
+			 (, ,)
+			 (RRC (VAG holdyng)
+			      (PP (P in)
+				  (NP (Q every) (N honde)))
+			      (NP-OB1 (D a) (N crowne)))
+			 (, ,)
+			 (IP-ABS (IP-ABS-1 (NPR Syn)
+					   (NPR Gorge)
+					   (VAG knelyng)
+					   (PP (P on)
+					       (NP (D that) (ONE one) (N syde))))
+				 (CONJP (CONJ and)
+					(IP-ABS=1 (NP-SBJ (NPR Synt) (NPR Denys))
+						  (PP (P in)
+						      (NP (D that) (OTHER othyr) (N syde)))))
+				 (, ,)
+				 (CONJP (CONJ and)
+					(IP-ABS (NP-SBJ (PRO they) (NUM ij))
+						(VAG presentyng)
+						(NP-OB1 (D the) (N kynge))
+						(PP (P to)
+						    (NP (PRO$ owre) (NPR Lady)))
+						(PP (P whythe)
+						    (NP (D thys) (N reson)))))))))
+      (. :))
+  (ID CMGREGOR,170.985))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmgregor.m4.psd	8/5/2630
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpeterb.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpeterb.m1.psd	0/0/647
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpolych.m3.psd
+*/
+
+/~*
++Tan for to fynde +te Ester terme wi+t oute any faile, by Beda his lore, libro
+5=o=, de Gestis Anglorum, me mote take hede of +tre and abide +te +tre: +te
+evenes of +te day and ny+gt in springing tyme, +tat now hatte Lente, and +te
+Sonday;
+(CMPOLYCH,VI,103.718)
+*~/
+/*
+117 VAG:  117 VAG, 118 springing, 93 NP-PRN
+*/
+
+( (IP-MAT (IP-MAT-1 (ADVP-TMP (ADV +Tan))
+		    (IP-INF-PRP (FOR for)
+				(TO to)
+				(VB fynde)
+				(NP-OB1 (D +te) (NPR Ester) (NPR terme))
+				(PP (P (P21 wi+t) (P22 oute))
+				    (CODE <P_VI,103>)
+				    (NP (Q any) (N faile)))
+				(, ,)
+				(PP (P by)
+				    (NP (NP-POS (NPR Beda) ($ his))
+					(N lore)
+					(, ,)
+					(REF (LATIN (FW libro) (FW 5=o=) (, ,) (FW de) (FW Gestis) (FW Anglorum))))))
+		    (, ,)
+		    (NP-SBJ (MAN me))
+		    (MD mote)
+		    (VB take)
+		    (NP-OB1 (N hede))
+		    (PP (P of)
+			(NP (NUM +tre))))
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB abide)
+			   (NP-OB1 (D +te)
+				   (NUM +tre)
+				   (, :)
+				   (NP-PRN (NP (D +te)
+					       (N evenes)
+					       (PP (P of)
+						   (NP (D +te)
+						       (N day)
+						       (CONJP (CONJ and)
+							      (NX (N ny+gt)))
+						       (PP (P in)
+							   (NP (VAG springing)
+							       (N tyme)
+							       (, ,)
+							       (CP-REL (WNP-2 0)
+								       (C +tat)
+								       (IP-SUB (NP-SBJ *T*-2)
+									       (ADVP-TMP (ADV now))
+									       (VBP hatte)
+									       (NP-OB1 (NPR Lente)))))))))
+					   (, ,)
+					   (CONJP (CONJ and)
+						  (NP (D +te) (NPR Sonday)))))))
+	  (. ;))
+  (ID CMPOLYCH,VI,103.718))
+
+/~*
+and sente for seint Grymbaldus +te monk, a connynge man of lettrure and of
+song,
+(CMPOLYCH,VI,359.2624)
+*~/
+/*
+26 VAG:  26 VAG, 27 connynge, 23 NP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sente)
+	  (PP (P for)
+	      (NP (NPR seint)
+		  (NPR Grymbaldus)
+		  (NP-PRN (D +te) (N monk))
+		  (, ,)
+		  (NP-PRN (D a)
+			  (VAG connynge)
+			  (N man)
+			  (PP (PP (P of)
+				  (NP (N lettrure)))
+			      (CONJP (CONJ and)
+				     (PP (P of)
+					 (NP (N song))))))))
+	  (. ,))
+  (ID CMPOLYCH,VI,359.2624))
+
+/~*
+Also he sente for Iohn monk, a konnynge man of let-trure and of song,
+(CMPOLYCH,VI,359.2626)
+*~/
+/*
+23 VAG:  23 VAG, 24 konnynge, 20 NP-PRN
+*/
+
+( (IP-MAT (ALSO Also)
+	  (NP-SBJ (PRO he))
+	  (VBD sente)
+	  (PP (P for)
+	      (NP (NPR Iohn)
+		  (NP-PRN (N monk))
+		  (, ,)
+		  (NP-PRN (D a)
+			  (VAG konnynge)
+			  (N man)
+			  (PP (PP (P of)
+				  (NP (N let-trure)))
+			      (CONJP (CONJ and)
+				     (PP (P of)
+					 (NP (N song))))))))
+	  (. ,))
+  (ID CMPOLYCH,VI,359.2626))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpolych.m3.psd	3/3/3795
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmbrut3.m3.psd	0/0/4116
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmcapchr.m4.psd	0/0/4177
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmgregor.m4.psd	8/5/2630
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpeterb.m1.psd	0/0/647
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\history\cmpolych.m3.psd	3/3/3795
+whole search, hits/tokens/total
+		11/8/15365
+*/

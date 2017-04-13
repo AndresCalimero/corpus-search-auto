@@ -1,0 +1,506 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:58 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_reduced_relatives.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_reduced_relatives\philosophy\result.out
+
+node:   RRC|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (RRC Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd
+*/
+
+/~*
+And so for this and other reasons resting on the same ground, inasmuch as
+baseness of its own nature makes men wretched, it is plain that a wrong
+involves the misery of the doer, not of the sufferer. '
+(BOETHJA-1897,149.345)
+*~/
+/*
+23 VAG:  23 VAG, 24 resting, 22 RRC
+*/
+( (IP-MAT-SPE (CONJ And)
+	      (ADVP (ADV so))
+	      (PP (P for)
+		  (NP (NP (D this))
+		      (CONJP (CONJ and)
+			     (NP (OTHER other)
+				 (NS reasons)
+				 (RRC (VAG resting)
+				      (PP (P on)
+					  (NP (D the) (ADJ same) (N ground))))))))
+	      (, ,)
+	      (PP (P+ADVR+Q inasmuch)
+		  (PP (P as)
+		      (CP-CMP-SPE (WNP-1 0)
+				  (C 0)
+				  (IP-SUB-SPE (NP-MSR *T*-1)
+					      (NP-SBJ (N baseness)
+						      (PP (P of)
+							  (NP (PRO$ its) (ADJ own) (N nature))))
+					      (VBP makes)
+					      (IP-SMC-SPE (NP-SBJ (NS men))
+							  (ADJP (ADJ wretched)))))))
+	      (, ,)
+	      (NP-SBJ-2 (PRO it))
+	      (BEP is)
+	      (ADJP (ADJ plain))
+	      (CP-THT-SPE-2 (C that)
+			    (IP-SUB-SPE (NP-SBJ (D a) (N wrong))
+					(VBP involves)
+					(NP-OB1 (D the)
+						(N misery)
+						(PP (PP (P of)
+							(NP (D the) (N doer)))
+						    (, ,)
+						    (CONJP (PP (NEG not)
+							       (P of)
+							       (NP (D the) (N sufferer))))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,149.345))
+
+/~*
+For as the innermost of several circles revolving round the same centre
+approaches the simplicity of the midmost point, and is, as it were, a pivot
+round which the exterior circles turn, while the outermost, whirled in ampler
+orbit, takes in a wider and wider sweep of space in proportion to its
+departure from the indivisible unity of the center - while, further, whatever
+joins and allies itself to the centre is narrowed to a like simplicity, and no
+longer expands vaguely into space - even so whatsoever departs widely from
+primal mind is involved more deeply in the meshes of fate,
+(BOETHJA-1897,158.387)
+*~/
+/*
+30 VAG:  30 VAG, 31 revolving, 29 RRC
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP-LFD (P as)
+		      (CP-ADV-SPE (WADVP-1 0)
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (ADVP *T*-1)
+							  (NP-SBJ (D the)
+								  (ADJ innermost)
+								  (PP (P of)
+								      (NP (Q several)
+									  (NS circles)
+									  (RRC (VAG revolving)
+									       (PP (P round)
+										   (NP (D the) (ADJ same) (N centre)))))))
+							  (VBP approaches)
+							  (NP-OB1 (D the)
+								  (N simplicity)
+								  (PP (P of)
+								      (NP (D the) (ADJ midmost) (N point)))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (ADVP *T*-1)
+								 (NP-SBJ *con*)
+								 (BEP is)
+								 (, ,)
+								 (PP-PRN (P as)
+									 (CP-ADV-SPE (C 0)
+										     (IP-SUB-SPE (NP-SBJ (PRO it))
+												 (BED were))))
+								 (, ,)
+								 (NP-OB1 (D a)
+									 (N pivot)
+									 (CP-REL-SPE (WPP-2 (P round)
+											    (WNP (WPRO which)))
+										     (C 0)
+										     (IP-SUB-SPE (PP *T*-2)
+												 (NP-SBJ (D the) (ADJ exterior) (NS circles))
+												 (VBP turn))))
+								 (, ,)
+								 (PP (PP (P while)
+									 (CP-ADV-SPE (C 0)
+										     (IP-SUB-SPE (NP-SBJ (D the)
+													 (ADJ outermost)
+													 (, ,)
+													 (RRC (VAN whirled)
+													      (PP (P in)
+														  (NP (ADJR ampler) (N orbit)))))
+												 (, ,)
+												 (VBP takes)
+												 (RP in)
+												 (NP-OB1 (D a)
+													 (ADJP (ADJR wider) (CONJ and) (ADJR wider))
+													 (N sweep)
+													 (PP (P of)
+													     (NP (N space))))
+												 (PP (P in)
+												     (NP (N proportion)
+													 (PP (P to)
+													     (NP (PRO$ its)
+														 (N departure)
+														 (PP (P from)
+														     (NP (D the)
+															 (ADJ indivisible)
+															 (N unity)
+															 (PP (P of)
+															     (NP (D the) (N center))))))))))))
+								     (, -)
+								     (CONJP (PP (P while)
+										(, ,)
+										(CP-ADV-SPE (C 0)
+											    (IP-SUB-SPE (IP-SUB-SPE (NP-MSR (ADJR further))
+														    (, ,)
+														    (NP-SBJ (CP-FRL-SPE (WNP-3 (WPRO+ADV whatever))
+																	(C 0)
+																	(IP-SUB-SPE (NP-SBJ *T*-3)
+																		    (VBP (VBP joins) (CONJ and) (CODE <P_158>) (VBP allies))
+																		    (NP-OB1 (PRO+N itself))
+																		    (PP (P to)
+																			(NP (D the) (N centre))))))
+														    (BEP is)
+														    (VAN narrowed)
+														    (PP (P to)
+															(NP (D a) (ADJ like) (N simplicity))))
+													(, ,)
+													(CONJP (CONJ and)
+													       (IP-SUB-SPE (NP-SBJ *con*)
+															   (NP-MSR (Q no) (ADJR longer))
+															   (VBP expands)
+															   (ADVP (ADV vaguely))
+															   (PP (P into)
+															       (NP (N space)))))))))))))))
+	      (, -)
+	      (ADVP-RSP (FP even) (ADV so))
+	      (NP-SBJ (CP-FRL-SPE (WNP-4 (WPRO+ADV+ADV whatsoever))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-4)
+					      (VBP departs)
+					      (ADVP (ADV widely))
+					      (PP (P from)
+						  (NP (ADJ primal) (N mind))))))
+	      (BEP is)
+	      (VAN involved)
+	      (ADVP (QR more) (ADV deeply))
+	      (PP (P in)
+		  (NP (D the)
+		      (NS meshes)
+		      (PP (P of)
+			  (NP (N fate)))))
+	      (. ,))
+  (ID BOETHJA-1897,158.387))
+
+/~*
+Accordingly, the world is ruled for the best if this unity abiding in the
+Divine mind puts forth an inflexible order of causes.
+(BOETHJA-1897,158.393)
+*~/
+/*
+37 VAG:  37 VAG, 38 abiding, 36 RRC
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Accordingly))
+	      (, ,)
+	      (NP-SBJ (D the) (N world))
+	      (BEP is)
+	      (VAN ruled)
+	      (PP (P for)
+		  (NP (D the) (ADJS best)))
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D this)
+						  (N unity)
+						  (RRC (VAG abiding)
+						       (PP (P in)
+							   (NP (D the) (ADJ Divine) (N mind)))))
+					  (VBP puts)
+					  (ADVP-DIR (ADV forth))
+					  (NP-OB1 (D an)
+						  (ADJ inflexible)
+						  (N order)
+						  (PP (P of)
+						      (NP (NS causes)))))))
+	      (. .))
+  (ID BOETHJA-1897,158.393))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	3/3/463
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd
+*/
+
+/~*
+you have proved the contrary so clearly, that I have no doubt remaining upon
+this point.
+(BOETHRI-1785,108.73)
+*~/
+/*
+36 VAG:  36 VAG, 37 remaining, 35 RRC
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO you))
+	      (HVP have)
+	      (VBN proved)
+	      (NP-OB1 (D the) (N contrary))
+	      (ADVP (ADVR so)
+		    (ADV clearly)
+		    (, ,)
+		    (CP-DEG-SPE (C that)
+				(IP-SUB-SPE (NP-SBJ (PRO I))
+					    (HVP have)
+					    (NP-OB1 (Q no)
+						    (N doubt)
+						    (RRC (VAG remaining)))
+					    (PP (P upon)
+						(NP (D this) (N point))))))
+	      (. .))
+  (ID BOETHRI-1785,108.73))
+
+/~*
+Need I tell you, that plants draw all their nourishment by their roots, which
+are as so many mouths hid in the earth, through which the sap ascending by the
+heart and bark, communicates vigour to the whole vegetable.
+(BOETHRI-1785,122.230)
+*~/
+/*
+94 VAG:  94 VAG, 95 ascending, 93 RRC
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (MD Need)
+			  (NP-SBJ (PRO I))
+			  (VB tell)
+			  (NP-OB2 (PRO you))
+			  (, ,)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (NS plants))
+						  (VBP draw)
+						  (NP-OB1 (Q all) (PRO$ their) (N nourishment))
+						  (PP (P by)
+						      (NP (PRO$ their)
+							  (NS roots)
+							  (, ,)
+							  (CP-REL-SPE (WNP-1 (WPRO which))
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ *T*-1)
+										  (BEP are)
+										  (PP (P as)
+										      (NP (QP (ADVR so) (Q many))
+											  (NS mouths)
+											  (RRC (VAN hid)
+											       (PP (P in)
+												   (NP (D the) (N earth))))))))
+							  (, ,)
+							  (CP-REL-SPE (WPP-2 (P through)
+									     (WNP (WPRO which)))
+								      (C 0)
+								      (IP-SUB-SPE (PP *T*-2)
+										  (NP-SBJ (D the)
+											  (N sap)
+											  (RRC (VAG ascending)
+											       (PP (P by)
+												   (NP (D the)
+												       (N heart)
+												       (CONJP (CONJ and)
+													      (NX (N bark)))))))
+										  (, ,)
+										  (VBP communicates)
+										  (NP-OB1 (N vigour))
+										  (PP (P to)
+										      (NP (D the) (ADJ whole) (N vegetable))))))))))
+	      (. .))
+  (ID BOETHRI-1785,122.230))
+
+/~*
+Now as a person suffering under a disease is not an object of resentment, but
+claims our compassion; we have still more reason to pity, and not to hate
+those unhappy persons over whom vice, the most deplorable of all distempers
+has gained the dominion.
+(BOETHRI-1785,161.362)
+*~/
+/*
+19 VAG:  19 VAG, 20 suffering, 18 RRC
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Now))
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (D a)
+							      (N person)
+							      (RRC (VAG suffering)
+								   (PP (P under)
+								       (NP (D a) (N disease)))))
+						      (BEP is)
+						      (NEG not)
+						      (NP-OB1 (D an)
+							      (N object)
+							      (PP (P of)
+								  (NP (N resentment)))))
+					  (, ,)
+					  (CONJP (CONJ but)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP claims)
+							     (NP-OB1 (PRO$ our) (N compassion)))))))
+	      (, ;)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (NP-OB1 (QP (ADV still) (QR more))
+		      (N reason)
+		      (IP-INF-SPE-1 (TO to)
+				    (VB pity)
+				    (, ,)
+				    (IP-INF-PRN-SPE=1 (CONJ and) (NEG not) (TO to) (VB hate))
+				    (NP-OB1 (D those)
+					    (ADJ unhappy)
+					    (NS persons)
+					    (CP-REL-SPE (WPP-2 (P over)
+							       (WNP (WPRO whom)))
+							(C 0)
+							(IP-SUB-SPE (NP-SBJ (N vice)
+									    (, ,)
+									    (NP-PRN (D the)
+										    (ADJP (QS most)
+											  (ADJ deplorable)
+											  (PP (P of)
+											      (NP (Q all) (NS distempers))))))
+								    (HVP has)
+								    (VBN gained)
+								    (NP-OB1 (D the)
+									    (N dominion)
+									    (PP *T*-2)))))))
+	      (. .))
+  (ID BOETHRI-1785,161.362))
+
+/~*
+Now, that which is innermost, as it approaches nearest to the simplicity of
+the middle point, or centre, becomes itself as it were a centre to the globes
+placed without it, round which they roll; whilst the outermost of them,
+revolving in a wider circumference the farther it is from the centre,
+describes a larger space;
+(BOETHRI-1785,170.390)
+*~/
+/*
+156 VAG:  156 VAG, 157 revolving, 155 RRC
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Now))
+	      (, ,)
+	      (NP-SBJ (D that)
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (BEP is)
+					      (ADJP (ADJ innermost)))))
+	      (, ,)
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO it))
+					  (VBP approaches)
+					  (ADJP-LOC (ADJS nearest)
+						    (PP (P to)
+							(NP (D the)
+							    (CODE <font>)
+							    (N simplicity)
+							    (PP (P of)
+								(NP (D the)
+								    (ADJ middle)
+								    (N point)
+								    (, ,)
+								    (CODE <$$font>)
+								    (CONJP (CONJ or)
+									   (NX (N centre)))))))))))
+	      (, ,)
+	      (VBP becomes)
+	      (NP-PRN (PRO+N itself))
+	      (PP-PRN (P as)
+		      (CP-ADV-SPE (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO it))
+					      (BED were))))
+	      (NP-OB1 (D a)
+		      (N centre)
+		      (CP-REL-SPE *ICH*-2))
+	      (PP (P to)
+		  (NP (D the)
+		      (NS globes)
+		      (RRC (VAN placed)
+			   (PP (P without)
+			       (NP (PRO it))))))
+	      (, ,)
+	      (CP-REL-SPE-2 (WPP-3 (P round)
+				   (WNP (WPRO which)))
+			    (C 0)
+			    (IP-SUB-SPE (PP *T*-3)
+					(NP-SBJ (PRO they))
+					(VBP roll)))
+	      (, ;)
+	      (PP (P whilst)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D the)
+						  (ADJ outermost)
+						  (PP (P of)
+						      (NP (PRO them)))
+						  (, ,)
+						  (RRC (VAG revolving)
+						       (PP (P in)
+							   (NP (D a) (ADJR wider) (N circumference)))
+						       (ADJP-LOC (D the)
+								 (ADJR farther)
+								 (CP-CMP-SPE (WNP-4 0)
+									     (C 0)
+									     (IP-SUB-SPE (NP-SBJ (PRO it))
+											 (BEP is)
+											 (ADJP-LOC (NP-MSR *T*-4)
+												   (PP (P from)
+												       (NP (D the) (N centre)))))))))
+					  (, ,)
+					  (VBP describes)
+					  (NP-OB1 (D a) (ADJR larger) (N space)))))
+	      (. ;))
+  (ID BOETHRI-1785,170.390))
+
+/~*
+In this manner are all things well conducted, as the simplicity residing in
+the divine understanding produces that invariable order of causes;
+(BOETHRI-1785,171.399)
+*~/
+/*
+37 VAG:  37 VAG, 38 residing, 36 RRC
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D this) (N manner)))
+	  (BEP are)
+	  (NP-SBJ (Q all) (NS things))
+	  (ADVP (ADV well))
+	  (VAN conducted)
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the)
+				      (N simplicity)
+				      (RRC (VAG residing)
+					   (PP (P in)
+					       (NP (D the) (ADJ divine) (N understanding)))))
+			      (VBP produces)
+			      (NP-OB1 (D that)
+				      (ADJ invariable)
+				      (N order)
+				      (PP (P of)
+					  (NP (NS causes)))))))
+	  (. ;))
+  (ID BOETHRI-1785,171.399))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	5/5/459
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	3/3/463
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	5/5/459
+whole search, hits/tokens/total
+		8/8/922
+*/

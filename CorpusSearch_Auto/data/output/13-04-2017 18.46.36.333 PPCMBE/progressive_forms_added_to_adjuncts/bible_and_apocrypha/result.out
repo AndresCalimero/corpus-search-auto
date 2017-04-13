@@ -1,0 +1,114 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:40 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_adjuncts\bible_and_apocrypha\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd	0/0/1047
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd	0/0/846
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd	0/0/1045
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd
+*/
+
+/~*
+every one therefore who has heard from the Father, and learned, shall come to
+me. Not that any has seen the Father, excepting he who is from God;
+(PURVER-NEW-1764,6,40J.447)
+*~/
+/*
+78 VAG:  78 VAG, 79 excepting, 57 CP-ADT-SPE
+*/
+( (IP-MAT-SPE (NP-SBJ (Q every)
+		      (ONE one)
+		      (CP-REL-SPE *ICH*-1))
+	      (PP (ADV+P therefore))
+	      (CP-REL-SPE-1 (WNP-2 (WPRO who))
+			    (C 0)
+			    (IP-SUB-SPE (NP-SBJ *T*-2)
+					(HVP has)
+					(VBN (VBN heard)
+					     (CONJP *ICH*-3))
+					(PP (P from)
+					    (NP (D the) (NPR Father)))
+					(, ,)
+					(CONJP-3 (CONJ and) (VBN learned))))
+	      (, ,)
+	      (MD shall)
+	      (VB come)
+	      (PP (P to)
+		  (NP (PRO me)))
+	      (, .)
+	      (CP-ADT-SPE (NEG Not)
+			  (C that)
+			  (IP-SUB-SPE (NP-SBJ (Q any))
+				      (HVP has)
+				      (VBN seen)
+				      (NP-OB1 (D the) (NPR Father))
+				      (, ,)
+				      (IP-PPL-SPE (VAG excepting)
+						  (NP-OB1 (PRO he)
+							  (CP-REL-SPE (WNP-4 (WPRO who))
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ *T*-4)
+										  (BEP is)
+										  (PP (P from)
+										      (NP (NPR God)))))))))
+	      (. ;))
+  (ID PURVER-NEW-1764,6,40J.447))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd	1/1/974
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd	0/0/605
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-new-1881.psd	0/0/1047
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\erv-old-1885.psd	0/0/846
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\newcome-new-1796.psd	0/0/1045
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-new-1764.psd	1/1/974
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\bible_and_apocrypha\purver-old-1764.psd	0/0/605
+whole search, hits/tokens/total
+		1/1/4517
+*/

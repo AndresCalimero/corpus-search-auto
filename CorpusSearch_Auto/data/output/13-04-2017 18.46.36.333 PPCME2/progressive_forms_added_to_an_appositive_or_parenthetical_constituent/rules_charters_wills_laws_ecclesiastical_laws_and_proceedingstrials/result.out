@@ -1,0 +1,312 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:34 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_an_appositive_or_parenthetical_constituent.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_an_appositive_or_parenthetical_constituent\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   *PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
++Tis weddyng-garnement, suttylly yveue wit diuers vertus, it bihoue+t +tat it
+be be-goon aboute wit swiche goldene hemmes +tat is to seyn wit +te
+bri+gtnesse of charite, +te wyche mowen conteyne and bynde alle vertus in oon
+and make oon of manye, departyngge to alle here clernesse, and so cleuyngge to
+alle vertus +tat as it were +tey alle bete not manye, bote oon.
+(CMAELR3,36.277)
+*~/
+/*
+131 VAG:  131 VAG, 132 departyngge, 53 IP-MAT-PRN
+155 VAG:  155 VAG, 156 cleuyngge, 53 IP-MAT-PRN
+*/
+( (IP-MAT (NP-LFD (D +Tis)
+		  (N+N weddyng-garnement)
+		  (, ,)
+		  (RRC (ADVP (ADV suttylly))
+		       (VAN yveue)
+		       (PP (P wit)
+			   (NP (ADJ diuers) (NS vertus)))))
+	  (, ,)
+	  (NP-SBJ-RSP=1 (PRO it))
+	  (VBP bihoue+t)
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ-RSP (PRO it))
+			    (BEP be)
+			    (VAN be-goon)
+			    (RP aboute)
+			    (PP (P wit)
+				(NP (SUCH swiche) (ADJ goldene) (NS hemmes))
+				(IP-MAT-PRN (NP-SBJ (D +tat))
+					    (BEP is)
+					    (IP-INF (TO to)
+						    (VB seyn)
+						    (PP (P wit)
+							(NP (D +te)
+							    (N bri+gtnesse)
+							    (PP (P of)
+								(NP (N charite)
+								    (, ,)
+								    (CP-REL (WNP-2 (D +te) (WPRO wyche))
+									    (C 0)
+									    (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+											      (MD mowen)
+											      (VB (VB conteyne) (CONJ and) (VB bynde))
+											      (NP-OB1 (Q alle) (NS vertus))
+											      (PP (P in)
+												  (NP (ONE oon))))
+										    (CONJP (CONJ and)
+											   (IP-SUB=3 (VB make)
+												     (NP-OB1 (ONE oon)
+													     (PP (P of)
+														 (NP (Q manye))))
+												     (, ,)
+												     (IP-PPL (IP-PPL (VAG departyngge)
+														     (PP (P to)
+															 (NP (Q alle)))
+														     (NP-OB1 (PRO$ here) (N clernesse)))
+													     (, ,)
+													     (CONJP (CONJ and)
+														    (IP-PPL (ADVP (ADVR so)
+																  (CP-DEG *ICH*-4))
+															    (VAG cleuyngge)
+															    (PP (P to)
+																(NP (Q alle) (NS vertus)))
+															    (CP-DEG-4 (C +tat)
+																      (IP-SUB (PP (P as)
+																		  (CP-ADV (C 0)
+																			  (IP-SUB (NP-SBJ (PRO it))
+																				  (BED were))))
+																	      (NP-SBJ (PRO +tey)
+																		      (QP (Q alle)))
+																	      (VBP bete)
+																	      (NP-OB1 (NP (QP (NEG not) (Q manye)))
+																		      (, ,)
+																		      (CONJP (CONJ bote)
+																			     (NP (ONE oon))))))))))))))))))))))
+	  (. .))
+  (ID CMAELR3,36.277))
+
+/~*
+Wherfore, dire suster, +tat +te swete affeccioun of loue of swete Ihesu mowe
+wexe in +tyn herte, +tu most haue +tre maner meditacioun: +tat is to seyn of
++tyngges +tat ben apassed, of +tingges +tat be+t present, of +tyngges +tat
+be+t comyngge.
+(CMAELR3,39.394)
+*~/
+/*
+146 VAG:  146 VAG, 147 comyngge, 75 IP-MAT-PRN
+*/
+
+( (CP-CAR (WPP-1 (WADV+P Wherfore))
+	  (C 0)
+	  (, ,)
+	  (IP-SUB (PP *T*-1)
+		  (NP-VOC (ADJ dire) (N suster))
+		  (, ,)
+		  (CP-ADV (C +tat)
+			  (IP-SUB (NP-SBJ (D +te)
+					  (ADJ swete)
+					  (N affeccioun)
+					  (PP (P of)
+					      (NP (N loue)
+						  (PP (P of)
+						      (NP (ADJ swete) (NPR Ihesu))))))
+				  (MD mowe)
+				  (VB wexe)
+				  (PP (P in)
+				      (NP (PRO$ +tyn) (N herte)))))
+		  (, ,)
+		  (NP-SBJ (PRO +tu))
+		  (MD most)
+		  (HV haue)
+		  (NP-OB1 (NUM +tre)
+			  (N maner)
+			  (NP-COM (N meditacioun))
+			  (, :)
+			  (IP-MAT-PRN (NP-SBJ (D +tat))
+				      (BEP is)
+				      (IP-INF (TO to)
+					      (VB seyn)
+					      (PP (PP (P of)
+						      (NP (NS +tyngges)
+							  (CP-REL (WNP-2 0)
+								  (C +tat)
+								  (IP-SUB (NP-SBJ *T*-2)
+									  (BEP ben)
+									  (VAN apassed)))))
+						  (, ,)
+						  (CONJP (PP (P of)
+							     (NP (NS +tingges)
+								 (CP-REL (WNP-3 0)
+									 (C +tat)
+									 (IP-SUB (NP-SBJ *T*-3)
+										 (BEP be+t)
+										 (ADJP (ADJ present)))))))
+						  (, ,)
+						  (CONJP (PP (P of)
+							     (NP (NS +tyngges)
+								 (CP-REL (WNP-4 0)
+									 (C +tat)
+									 (IP-SUB (NP-SBJ *T*-4)
+										 (BEP be+t)
+										 (VAG comyngge)))))))))))
+	  (. .))
+  (ID CMAELR3,39.394))
+
+/~*
+Certes, +tat +tu mowe folwe +ty meke husbonde, hym +tat is Lord of heuene and
+ir+te, sittyngge so homly vp an asse;
+(CMAELR3,45.570)
+*~/
+/*
+57 VAG:  57 VAG, 58 sittyngge, 27 NP-PRN
+*/
+
+( (FRAG (ADVP (ADV Certes))
+	(, ,)
+	(CP-THT (C +tat)
+		(IP-SUB (NP-SBJ (PRO +tu))
+			(MD mowe)
+			(VB folwe)
+			(NP-OB1 (PRO$ +ty)
+				(ADJ meke)
+				(N husbonde)
+				(, ,)
+				(NP-PRN (PRO hym)
+					(CP-REL (WNP-1 0)
+						(C +tat)
+						(IP-SUB (NP-SBJ *T*-1)
+							(BEP is)
+							(NP-OB1 (NPR Lord))
+							(PP (P of)
+							    (NP (NPR heuene) (CONJ and) (NPR ir+te)))
+							(, ,)
+							(IP-PPL (IP-PPL (VAG sittyngge)
+									(ADVP (ADVR so) (ADV homly))
+									(PP (P vp)
+									    (NP (D an) (N asse)))))))))))
+	(, ;))
+  (ID CMAELR3,45.570))
+
+/~*
+his wra+t+te schal brenne as eny fuyr, his chaar +tat be terrible as eny
+tempest forto take veniaunce in gret ire, and to destruye his enemys in
+leytyngge fuyr.
+(CMAELR3,57.969)
+*~/
+/*
+85 VAG:  85 VAG, 86 leytyngge, 23 NP-PRN-1
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ his)
+		  (N wra+t+te)
+		  (NP-PRN *ICH*-1))
+	  (MD schal)
+	  (VB brenne)
+	  (PP (P as)
+	      (NP (Q eny) (N fuyr)))
+	  (, ,)
+	  (NP-PRN-1 (PRO$ his)
+		    (N chaar)
+		    (CP-REL (WNP-2 0)
+			    (C +tat)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (BEP be)
+				    (ADJP (ADJ terrible)
+					  (PP (P as)
+					      (NP (Q eny) (N tempest)))
+					  (IP-INF (IP-INF (FOR+TO forto)
+							  (VB take)
+							  (NP-OB1 (N veniaunce))
+							  (PP (P in)
+							      (NP (ADJ gret) (N ire))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-INF (TO to)
+								 (VB destruye)
+								 (NP-OB1 (PRO$ his) (NS enemys))
+								 (PP (P in)
+								     (NP (VAG leytyngge) (N fuyr))))))))))
+	  (. .))
+  (ID CMAELR3,57.969))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	5/4/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+
+/~*
+IN +te sunendais es for to ryse arliker, And halde yure mesur o waking; +tat
+es +tat ye syng +te sexe salmis and te vers, als is ordainde by-fore, sitande
+alle wid ordir,
+(CMBENRUL,16.568)
+*~/
+/*
+104 VAG:  104 VAG, 105 sitande, 50 IP-MAT-PRN
+*/
+
+( (IP-MAT (NP-SBJ-1 *exp*)
+	  (PP (P IN)
+	      (NP (D +te) (NPRS sunendais)))
+	  (BEP es)
+	  (IP-INF-1 (IP-INF (FOR for)
+			    (TO to)
+			    (VB ryse)
+			    (ADVP-TMP (ADVR arliker)))
+		    (, ,)
+		    (CONJP (CONJ And)
+			   (IP-INF (FOR *)
+				   (TO *)
+				   (VB halde)
+				   (NP-OB1 (PRO$ yure) (N mesur))
+				   (PP (P o)
+				       (NP (N waking))))))
+	  (, ;)
+	  (IP-MAT-PRN (NP-SBJ (D +tat))
+		      (BEP es)
+		      (CP-THT (C +tat)
+			      (IP-SUB (NP-SBJ (PRO ye))
+				      (VBP syng)
+				      (NP-OB1 (NP (D +te) (NUM sexe) (NS salmis))
+					      (CONJP (CONJ and)
+						     (NP (D te) (N vers))))
+				      (, ,)
+				      (PP-PRN (P als)
+					      (CP-ADV (WNP-2 0)
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (BEP is)
+							      (VAN ordainde)
+							      (ADVP-TMP (ADV by-fore)))))
+				      (, ,)
+				      (IP-ABS (VAG sitande)
+					      (NP-SBJ (Q alle))
+					      (PP (P wid)
+						  (NP (N ordir)))))))
+	  (. ,))
+  (ID CMBENRUL,16.568))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	1/1/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	5/4/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	1/1/1454
+whole search, hits/tokens/total
+		6/5/2508
+*/

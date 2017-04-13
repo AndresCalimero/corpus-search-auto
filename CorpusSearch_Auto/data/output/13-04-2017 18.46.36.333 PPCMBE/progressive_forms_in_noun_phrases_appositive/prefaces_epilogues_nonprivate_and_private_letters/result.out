@@ -1,0 +1,1159 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:28 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_noun_phrases_appositive\prefaces_epilogues_nonprivate_and_private_letters\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd	0/0/741
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd
+*/
+
+/~*
+and met Southey. A man of clear brown complexion, large nose, no chin, or next
+to none; care-lined and thought-lined brow, vehement hazel eyes; huge mass of
+white hair surmounting it: a strait-laced, limited, well-instructed,
+well-conditioned, excessively sensitive even irritable-looking man.
+(CARLYLE-1835,2,296.595)
+*~/
+/*
+107 VAG:  107 VAG, 108 surmounting, 13 NP-PRN
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD met)
+	  (NP-OB1 (NPR Southey)
+		  (, .)
+		  (NP-PRN (NP (D A)
+			      (N man)
+			      (PP (P of)
+				  (NP (NP (ADJP (ADJ clear) (ADJ brown))
+					  (N complexion))
+				      (, ,)
+				      (CONJP (NP (ADJ large) (N nose)))
+				      (, ,)
+				      (CODE <font>)
+				      (CONJP (NP (NP (Q no) (CODE <$$font>) (N chin))
+						 (, ,)
+						 (CONJP (CONJ or)
+							(ADJP (ADJS next)
+							      (PP (P to)
+								  (NP (Q none)))))))
+				      (, ;)
+				      (CONJP (NP (ADJP (ADJ care-lined) (CONJ and) (ADJ thought-lined))
+						 (N brow)))
+				      (, ,)
+				      (CONJP (NP (ADJP (ADJ vehement) (ADJ hazel))
+						 (NS eyes)))
+				      (, ;)
+				      (CONJP (NP (ADJ huge)
+						 (N mass)
+						 (PP (P of)
+						     (NP (ADJ white) (N hair)))
+						 (RRC (VAG surmounting)
+						      (NP-OB1 (PRO it))))))))
+			  (, :)
+			  (CONJP (NP (D a)
+				     (ADJP (ADJP (ADJ strait-laced))
+					   (, ,)
+					   (CONJP (ADJP (VAN limited)))
+					   (, ,)
+					   (CODE <P_2,296>)
+					   (CONJP (ADJP (ADJ well-instructed)))
+					   (, ,)
+					   (CONJP (ADJP (ADJ well-conditioned)))
+					   (, ,)
+					   (CONJP (ADJP (ADV excessively) (ADJ sensitive)))
+					   (CODE {COM:sic})
+					   (CONJP (ADJP (FP even) (ADJ irritable-looking))))
+				     (N man)))))
+	  (. .))
+  (ID CARLYLE-1835,2,296.595))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd	1/1/699
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd
+*/
+
+/~*
+I myself think there are two, Ld Warwick who was much hurt at the Archbishop's
+nephew being preferred to his recommendation and Ld Plymouth;
+(GEORGE-1763,188.109)
+*~/
+/*
+60 BAG:  60 BAG, 61 being, 24 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO I)
+		  (NP-PRN (PRO$+N myself)))
+	  (VBP think)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (EX there))
+			  (BEP are)
+			  (NP-1 (NUM two)
+				(, ,)
+				(NP-PRN (NP (NPR Ld)
+					    (NPR Warwick)
+					    (CODE <paren>)
+					    (CP-REL (WNP-2 (WPRO who))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (BED was)
+							    (NP-MSR (Q much))
+							    (VAN hurt)
+							    (PP (P at)
+								(IP-PPL (NP-SBJ (NP-POS (D the) (N$ Archbishop's))
+										(N nephew))
+									(BAG being)
+									(VAN preferred)
+									(PP (P to)
+									    (NP (PRO$ his) (N recommendation))))))))
+					(CODE <$$paren>)
+					(CONJP (CONJ and)
+					       (NP (NPR Ld) (NPR Plymouth)))))))
+	  (. ;))
+  (ID GEORGE-1763,188.109))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd	1/1/288
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd
+*/
+
+/~*
+I must also say he has been most unsatisfactory in another capital duty, that
+of attending the H. of C. on questions of expenditure.
+(GLADSTONE-1873,2,407.632)
+*~/
+/*
+46 VAG:  46 VAG, 47 attending, 39 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD must)
+	  (ALSO also)
+	  (VB say)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (HVP has)
+			  (BEN been)
+			  (ADJP (QS most)
+				(ADJ unsatisfactory)
+				(PP (P in)
+				    (NP (D+OTHER another)
+					(ADJ capital)
+					(N duty)
+					(, ,)
+					(NP-PRN (D that)
+						(PP (P of)
+						    (IP-PPL (VAG attending)
+							    (NP-OB1 (D the)
+								    (N H.)
+								    (PP (P of)
+									(NP (NS C.))))
+							    (PP (P on)
+								(NP (NS questions)
+								    (PP (P of)
+									(NP (N expenditure)))))))))))))
+	  (. .))
+  (ID GLADSTONE-1873,2,407.632))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd	1/1/925
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd
+*/
+
+/~*
+It is nothing less, Sir, than a Charge of Cowardice and Disobedience; two
+Crimes that in an Officer, draw after them Infamy, as well as Incapacity of
+serving his King and Country;
+(HOLMES-LETTERS-1749,33.4)
+*~/
+/*
+95 VAG:  95 VAG, 96 serving, 42 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (BEP is)
+	  (NP-OB1 (NP-MSR (Q+N nothing))
+		  (QR less)
+		  (PP *ICH*-1))
+	  (, ,)
+	  (NP-VOC (N Sir))
+	  (, ,)
+	  (PP-1 (P than)
+		(NP (D a)
+		    (N Charge)
+		    (PP (P of)
+			(NP (N Cowardice)
+			    (CONJ and)
+			    (N Disobedience)
+			    (, ;)
+			    (NP-PRN (NUM two)
+				    (NS Crimes)
+				    (CP-REL (WNP-2 0)
+					    (C that)
+					    (IP-SUB (NP-SBJ *T*-2)
+						    (PP (P in)
+							(NP (D an) (N Officer)))
+						    (, ,)
+						    (CODE <P_33>)
+						    (VBP draw)
+						    (PP (P after)
+							(NP (PRO them)))
+						    (NP-OB1 (N Infamy))
+						    (, ,)
+						    (ADVP (ADVR as)
+							  (ADV well)
+							  (PP (P as)
+							      (NP (N Incapacity)
+								  (PP (P of)
+								      (IP-PPL (VAG serving)
+									      (NP-OB1 (PRO$ his)
+										      (N King)
+										      (CONJP (CONJ and)
+											     (NX (N Country))))))))))))))))
+	  (. ;))
+  (ID HOLMES-LETTERS-1749,33.4))
+
+/~*
+In the mean Time I $can $not help remarking how unhappy a Situation an Officer
+must be in, who serves under a Superior that considers the smallest Error in
+his Judgment, or even an accidental Circumstance in the Course of his Command,
+as a Mortal Offence. A Superior, who, altho' he is but a Man, and exposed to
+equal Frailties with others, yet, is inflexible in pursuing to Destruction any
+little Oversights and Omissions he can discover in those under his Authority:
+(HOLMES-LETTERS-1749,36.32)
+*~/
+/*
+227 VAG:  227 VAG, 228 pursuing, 149 NP-PRN
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (ADJ mean) (N Time)))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB help)
+	  (IP-PPL-OB1 (VAG remarking)
+		      (CP-QUE (WNP-1 (WADJP (WADV how) (ADJ unhappy))
+				     (D a)
+				     (N Situation))
+			      (C 0)
+			      (IP-SUB (NP-SBJ (D an)
+					      (N Officer)
+					      (CP-REL *ICH*-2))
+				      (MD must)
+				      (BE be)
+				      (PP (P in)
+					  (NP *T*-1))
+				      (, ,)
+				      (CODE <P_36>)
+				      (CP-REL-2 (WNP-3 (WPRO who))
+						(C 0)
+						(IP-SUB (NP-SBJ *T*-3)
+							(VBP serves)
+							(PP (P under)
+							    (NP (D a)
+								(N Superior)
+								(CP-REL (WNP-4 0)
+									(C that)
+									(IP-SUB (NP-SBJ *T*-4)
+										(VBP considers)
+										(NP-OB1 (NP (D the)
+											    (ADJS smallest)
+											    (N Error)
+											    (PP (P in)
+												(NP (PRO$ his) (N Judgment))))
+											(, ,)
+											(CONJP (CONJ or)
+											       (NP (FP even)
+												   (D an)
+												   (ADJ accidental)
+												   (N Circumstance)
+												   (PP (P in)
+												       (NP (D the)
+													   (N Course)
+													   (PP (P of)
+													       (NP (PRO$ his) (N Command))))))))
+										(, ,)
+										(PP (P as)
+										    (NP (D a) (ADJ Mortal) (N Offence)))))
+								(, .)
+								(NP-PRN (D A)
+									(N Superior)
+									(, ,)
+									(CP-REL (WNP-5 (WPRO who))
+										(C 0)
+										(, ,)
+										(IP-SUB (PP-LFD (P altho')
+												(CP-ADV (C 0)
+													(IP-SUB (IP-SUB-6 (NP-SBJ (PRO he))
+															  (BEP is)
+															  (NP-OB1 (FP but) (D a) (N Man)))
+														(, ,)
+														(CONJP (CONJ and)
+														       (IP-SUB=6 (NP-SBJ *con*)
+																 (VAN exposed)
+																 (PP (P to)
+																     (NP (ADJ equal) (NS Frailties)))
+																 (PP (P with)
+																     (NP (OTHERS others))))))))
+											(, ,)
+											(ADVP-RSP (ADV yet))
+											(, ,)
+											(NP-SBJ *T*-5)
+											(BEP is)
+											(ADJP (ADJ inflexible))
+											(PP (P in)
+											    (IP-PPL (VAG pursuing)
+												    (PP (P to)
+													(NP (N Destruction)))
+												    (NP-OB1 (Q any)
+													    (ADJ little)
+													    (NS Oversights)
+													    (CONJP (CONJ and)
+														   (NX (NS Omissions)))
+													    (CP-REL (WNP-7 0)
+														    (C 0)
+														    (IP-SUB (NP-OB1 *T*-7)
+															    (NP-SBJ (PRO he))
+															    (MD can)
+															    (VB discover)
+															    (PP (P in)
+																(NP (D those)
+																    (PP (P under)
+																	(NP (PRO$ his) (N Authority))))))))))))))))))))
+	  (. :))
+  (ID HOLMES-LETTERS-1749,36.32))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd	2/2/298
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd	0/0/914
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd
+*/
+
+/~*
+after they have crammed themselves and their numerous retinue, they have the
+impudence to exact what they call Teeth-money, a contribution for their use of
+their teeth, worn with doing them the honour of devouring their meat.
+(MONTAGU-1718,103.312)
+*~/
+/*
+102 DAG:  102 DAG, 103 doing, 72 NP-PRN
+116 VAG:  116 VAG, 117 devouring, 72 NP-PRN
+*/
+
+( (IP-MAT (PP (P after)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVP have)
+			      (VBN crammed)
+			      (NP-OB1 (NP (PRO+N themselves))
+				      (CONJP (CONJ and)
+					     (NP (PRO$ their) (ADJ numerous) (N retinue)))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (HVP have)
+	  (NP-OB1 (D the)
+		  (N impudence)
+		  (IP-INF (TO to)
+			  (VB exact)
+			  (NP-OB1 (CP-FRL (WNP-1 (WPRO what))
+					  (C 0)
+					  (IP-SUB (NP-SBJ (PRO they))
+						  (VBP call)
+						  (CODE <font>)
+						  (IP-SMC (NP-SBJ *T*-1)
+							  (NP-OB1 (NS+N Teeth-money)))))
+				  (CODE <$$font>)
+				  (, ,)
+				  (NP-PRN (D a)
+					  (N contribution)
+					  (PP (P for)
+					      (NP (PRO$ their)
+						  (N use)
+						  (PP (P of)
+						      (NP (PRO$ their)
+							  (NS teeth)
+							  (, ,)
+							  (RRC (VAN worn)
+							       (PP (P with)
+								   (IP-PPL (DAG doing)
+									   (NP-OB2 (PRO them))
+									   (NP-OB1 (D the)
+										   (N honour)
+										   (PP (P of)
+										       (IP-PPL (VAG devouring)
+											       (NP-OB1 (PRO$ their) (N meat))))))))))))))))
+	  (. .))
+  (ID MONTAGU-1718,103.312))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd	2/1/492
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd	0/0/211
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd
+*/
+
+/~*
+A public schoolmaster, of gentle boys, I mean, who has particularly studied
+the subject, & has succeeded in maintaining purity among his boys, to a degree,
+I believe that no other Public School does, though many do a great deal, has
+obtained the most varied information from ministers, Anglican & Dissenting &
+from Roman Catholic Priests, who commonly know more about this than any other
+ministers,
+(NIGHTINGALE-189X,420.11)
+*~/
+/*
+176 VAG:  176 VAG, 177 Dissenting, 168 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (ADJ public)
+		  (N+N schoolmaster)
+		  (, ,)
+		  (PP (P of)
+		      (NP (ADJ gentle) (NS boys)))
+		  (, ,)
+		  (IP-MAT-PRN (NP-SBJ (PRO I))
+			      (VBP mean))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+					  (HVP has)
+					  (ADVP (ADV particularly))
+					  (VBN studied)
+					  (NP-OB1 (D the) (N subject)))
+				  (, ,)
+				  (CONJP (CONJ &)
+					 (IP-SUB (NP-SBJ *T*-1)
+						 (HVP has)
+						 (VBN succeeded)
+						 (PP (P in)
+						     (IP-PPL (VAG maintaining)
+							     (NP-OB1 (N purity))
+							     (PP (P among)
+								 (NP (PRO$ his) (NS boys)))))
+						 (, ,)
+						 (PP (P to)
+						     (NP (D a)
+							 (N degree)
+							 (, ,)
+							 (CP-REL (WNP-2 0)
+								 (C 0)
+								 (IP-SUB (NP-SBJ (PRO I))
+									 (VBP believe)
+									 (CP-THT (C that)
+										 (IP-SUB (NP-MSR *T*-2)
+											 (NP-SBJ (Q no) (OTHER other) (ADJ Public) (N School))
+											 (DOP does)
+											 (VB *)
+											 (, ,)
+											 (PP-PRN (P though)
+												 (CP-ADV (C 0)
+													 (IP-SUB (NP-SBJ (Q many))
+														 (DOP do)
+														 (NP-OB1 (D a) (ADJ great) (N deal))))))))))))))))
+	  (, ,)
+	  (HVP has)
+	  (VBN obtained)
+	  (NP-OB1 (D the)
+		  (ADJP (QS most) (VAN varied))
+		  (N information))
+	  (PP (PP (P from)
+		  (NP (NS ministers)
+		      (, ,)
+		      (NP-PRN (NP (ADJ Anglican))
+			      (CONJP (CONJ &)
+				     (NP (VAG Dissenting))))))
+	      (CONJP (CONJ &)
+		     (PP (P from)
+			 (NP (ADJ Roman)
+			     (ADJ Catholic)
+			     (NS Priests)
+			     (, ,)
+			     (CP-REL (WNP-3 (WPRO who))
+				     (CODE <P_420>)
+				     (C 0)
+				     (IP-SUB (NP-SBJ *T*-3)
+					     (ADVP (ADV commonly))
+					     (VBP know)
+					     (NP-OB1 (QR more)
+						     (PP (P about)
+							 (NP (D this)))
+						     (PP (P than)
+							 (NP (Q any) (OTHER other) (NS ministers))))))))))
+	  (. ,))
+  (ID NIGHTINGALE-189X,420.11))
+
+/~*
+My dear Sir Most heartily do I give you joy on the success of your 'Health at
+Home' Education Mission - the enthusiastic attendance on your Lectures of
+rural educated women from all over the County allowed to attend for their own
+profit - your sifting & re-sifting till you obtained a Class of 12, who
+appeared willing & able to become instructresses or missioners of Health to
+the uneducated rural women at their own homes - the object of the whole course
+being the new one not simply to give Sanitary information but to teach how to
+teach - the examination by an independent well-known Sanitary authority - both
+in writing & by word of mouth to test their power of speaking to the
+uneducated And six of them passing the Exam'n with the utmost success three
+indeed above what had been expected. the main object of the Exam'n being to
+see not only if their book knowledge or theory were competent but if they
+could give in the most practical & plainest, in the most lively & dramatic
+manner - their knowledge to uneducated women in their own houses - translate
+in fact the object-lessons they had received from your skill & kindness in the
+worst houses of the worst villages - into the cottage life with their own
+hands & tongue.
+(NIGHTINGALE-189X,424.104)
+*~/
+/*
+236 BAG:  236 BAG, 237 being, 60 NP-PRN
+370 VAG:  370 VAG, 371 passing, 60 NP-PRN
+431 BAG:  431 BAG, 432 being, 60 NP-PRN
+*/
+
+( (IP-MAT (NP-VOC (PRO$ My) (ADJ dear) (N Sir))
+	  (ADVP (QS Most) (ADV heartily))
+	  (DOP do)
+	  (NP-SBJ (PRO I))
+	  (VB give)
+	  (NP-OB2 (PRO you))
+	  (NP-OB1 (N joy))
+	  (PP (P on)
+	      (NP (D the)
+		  (N success)
+		  (PP (P of)
+		      (NP (PRO$ your)
+			  (' ')
+			  (QTP (N Health)
+			       (PP (P at)
+				   (NP (N Home))))
+			  (' ')
+			  (N Education)
+			  (N Mission)))
+		  (, -)
+		  (NP-PRN (NP (D the)
+			      (ADJ enthusiastic)
+			      (N attendance)
+			      (PP (P on)
+				  (NP (PRO$ your)
+				      (NS Lectures)
+				      (PP (P of)
+					  (NP (ADJ rural)
+					      (VAN educated)
+					      (NS women)
+					      (PP (P from)
+						  (NP (Q all)
+						      (PP (P over)
+							  (NP (D the) (N County)))))
+					      (RRC (VAN allowed)
+						   (IP-INF (TO to) (VB attend))
+						   (PP (P for)
+						       (NP (PRO$ their) (ADJ own) (N profit)))))))))
+			  (, -)
+			  (CONJP (NP (PRO$ your)
+				     (N sifting)
+				     (CONJP (CONJ &)
+					    (NX (N re-sifting)))
+				     (PP (P till)
+					 (CP-ADV (C 0)
+						 (IP-SUB (NP-SBJ (PRO you))
+							 (VBD obtained)
+							 (NP-OB1 (D a)
+								 (N Class)
+								 (PP (P of)
+								     (NP (NUM 12)
+									 (, ,)
+									 (CP-REL (WNP-1 (WPRO who))
+										 (C 0)
+										 (IP-SUB (NP-SBJ *T*-1)
+											 (VBD appeared)
+											 (ADJP (ADJ willing)
+											       (CONJ &)
+											       (ADJ able)
+											       (IP-INF (TO to)
+												       (VB become)
+												       (NP-OB1 (NS instructresses)
+													       (CONJP (CONJ or)
+														      (NX (NS missioners)))
+													       (PP (P of)
+														   (NP (N Health)))
+													       (PP (P to)
+														   (NP (D the)
+														       (ADJP (ADJ uneducated) (ADJ rural))
+														       (NS women)))
+													       (PP (P at)
+														   (NP (PRO$ their) (ADJ own) (NS homes))))))
+											 (, -)
+											 (IP-PPL-ABS (NP-SBJ (D the)
+													     (N object)
+													     (PP (P of)
+														 (NP (D the) (ADJ whole) (N course))))
+												     (BAG being)
+												     (NP-OB1 (D the)
+													     (ADJ new)
+													     (ONE one)
+													     (IP-INF-PRN (IP-INF (NEG not)
+																 (ADVP (ADV simply))
+																 (TO to)
+																 (VB give)
+																 (NP-OB1 (ADJ Sanitary) (N information)))
+															 (CONJP (CONJ but)
+																(IP-INF (TO to)
+																	(VB teach)
+																	(CP-QUE (WADVP-2 (WADV how))
+																		(IP-INF (ADVP *T*-2)
+																			(TO to)
+																			(VB teach))))))))))))))))))
+			  (, -)
+			  (CONJP (NP (D the)
+				     (N examination)
+				     (PP (P by)
+					 (NP (D an)
+					     (ADJP (ADJ independent) (ADV+VAN well-known))
+					     (ADJ Sanitary)
+					     (N authority)))
+				     (, -)
+				     (PP (CONJ both)
+					 (PP (P in)
+					     (NP (N writing)))
+					 (CONJP (CONJ &)
+						(PP (P by)
+						    (NP (N word)
+							(PP (P of)
+							    (NP (N mouth)))))))
+				     (CODE <paren>)
+				     (IP-INF-PRP (TO to)
+						 (VB test)
+						 (NP-OB1 (PRO$ their)
+							 (N power)
+							 (PP (P of)
+							     (NP (N speaking)
+								 (PP (P to)
+								     (NP (D the) (ADJ uneducated)))))))))
+			  (CODE <$$paren>)
+			  (CONJP (CONJ And)
+				 (IP-PPL-ABS-3 (NP-SBJ (NUM six)
+						       (PP (P of)
+							   (NP (PRO them))))
+					       (VAG passing)
+					       (NP-OB1 (D the) (N Exam'n))
+					       (PP (P with)
+						   (NP (D the) (ADJ utmost) (N success)))
+					       (IP-PPL-ABS-PRN=3 (NP-SBJ (NUM three))
+								 (PP (P+N indeed))
+								 (PP (P above)
+								     (NP (CP-FRL (WNP-4 (WPRO what))
+										 (C 0)
+										 (IP-SUB (NP-SBJ *T*-4)
+											 (HVD had)
+											 (BEN been)
+											 (VAN expected)))))
+								 (, .)
+								 (IP-PPL-ABS (NP-SBJ (D the)
+										     (ADJ main)
+										     (N object)
+										     (PP (P of)
+											 (NP (D the) (N Exam'n))))
+									     (BAG being)
+									     (IP-INF (TO to)
+										     (VB see)
+										     (CP-QUE (CP-QUE (NEG not)
+												     (FP only)
+												     (WQ if)
+												     (C 0)
+												     (IP-SUB (NP-SBJ (PRO$ their)
+														     (N book)
+														     (N knowledge)
+														     (CONJP (CONJ or)
+															    (NX (N theory))))
+													     (BED were)
+													     (ADJP (ADJ competent))))
+											     (CONJP (CONJ but)
+												    (CP-QUE (WQ if)
+													    (C 0)
+													    (IP-SUB (IP-SUB-5 (NP-SBJ (PRO they))
+															      (MD could)
+															      (VB give)
+															      (PP (P in)
+																  (NP (D the)
+																      (ADJP (ADJP (QS most) (CODE <font>) (ADJ practical))
+																	    (CODE <$$font>)
+																	    (CONJP (CONJ &)
+																		   (CODE <font>)
+																		   (ADJP (ADJS plainest))))))
+															      (CODE <$$font>)
+															      (, ,)
+															      (PP (P in)
+																  (NP (D the)
+																      (ADJP (QS most)
+																	    (ADJ lively)
+																	    (CONJP (CONJ &)
+																		   (ADJX (ADJ dramatic))))
+																      (N manner)))
+															      (, -)
+															      (NP-OB1 (PRO$ their) (N knowledge))
+															      (PP (P to)
+																  (NP (ADJ uneducated) (NS women)))
+															      (PP (P in)
+																  (NP (PRO$ their) (ADJ own) (NS houses))))
+														    (, -)
+														    (CONJP (IP-SUB=5 (VB translate)
+																     (PP (P in)
+																	 (NP (N fact)))
+																     (NP-OB1 (D the)
+																	     (N+NS object-lessons)
+																	     (CP-REL (WNP-6 0)
+																		     (C 0)
+																		     (IP-SUB (NP-OB1 *T*-6)
+																			     (NP-SBJ (PRO they))
+																			     (HVD had)
+																			     (VBN received)
+																			     (PP (P from)
+																				 (NP (PRO$ your)
+																				     (N skill)
+																				     (CONJP (CONJ &)
+																					    (NX (N kindness))))))))
+																     (PP (P in)
+																	 (NP (D the)
+																	     (ADJS worst)
+																	     (NS houses)
+																	     (PP (P of)
+																		 (NP (D the) (ADJS worst) (NS villages)))))
+																     (, -)
+																     (PP (P into)
+																	 (NP (D the) (N cottage) (N life)))
+																     (PP (P with)
+																	 (NP (PRO$ their)
+																	     (ADJ own)
+																	     (NS hands)
+																	     (CONJP (CONJ &)
+																		    (NX (N tongue)))))))))))))))))))
+	  (. .))
+  (ID NIGHTINGALE-189X,424.104))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd	4/2/429
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd	0/0/826
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd
+*/
+
+/~*
+For these reasons, $do $n't deny me what I have set my heart on - the making
+your fortune easy to you.
+(WALPOLE-174X,5,18.426)
+*~/
+/*
+54 VAG:  54 VAG, 55 making, 50 NP-PRN
+*/
+
+( (IP-IMP (PP (P For)
+	      (NP (D these) (NS reasons)))
+	  (, ,)
+	  (DOI $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB deny)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (CP-FRL (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (HVP have)
+				  (VBN set)
+				  (NP-OB1 (PRO$ my) (N heart))
+				  (PP (P on)
+				      (NP *T*-1))))
+		  (, -)
+		  (NP-PRN (D the)
+			  (IP-PPL (VAG making)
+				  (IP-SMC (NP-SBJ (PRO$ your) (N fortune))
+					  (ADJP (ADJ easy))
+					  (PP (P to)
+					      (NP (PRO you)))))))
+	  (. .))
+  (ID WALPOLE-174X,5,18.426))
+
+/~*
+The day the young volunteer departed for the army unluckily indeed it was
+after the battle, his tender mother Sisygambis, and the beautiful Statira, a
+lady formerly known in your history by the name of Artemisia, from her cutting
+off her hair on your absence, were so afflicted and so inseparable, that they
+made a party together to Mr. Graham's you may read Iapis if you please to be
+blooded.
+(WALPOLE-174X,5,20.481)
+*~/
+/*
+125 VAG:  125 VAG, 126 cutting, 83 NP-PRN
+*/
+
+( (IP-MAT (NP-TMP (D The)
+		  (N day)
+		  (CP-REL (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP-TMP *T*-1)
+				  (NP-SBJ (D the) (ADJ young) (N volunteer))
+				  (VBD departed)
+				  (PP (P for)
+				      (NP (D the) (N army)))))
+		  (CODE <paren>)
+		  (IP-MAT-PRN (ADVP (ADV unluckily))
+			      (PP (P+N indeed))
+			      (NP-SBJ (PRO it))
+			      (BED was)
+			      (PP (P after)
+				  (NP (D the) (N battle)))))
+	  (CODE <$$paren>)
+	  (, ,)
+	  (NP-SBJ (NP (PRO$ his)
+		      (ADJ tender)
+		      (N mother)
+		      (NP-PRN (NPR Sisygambis)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (ADJ beautiful)
+			     (NPR Statira)
+			     (, ,)
+			     (NP-PRN (D a)
+				     (N lady)
+				     (RRC (ADVP-TMP (ADV formerly))
+					  (VAN known)
+					  (PP (P in)
+					      (NP (PRO$ your) (N history)))
+					  (PP (P by)
+					      (NP (D the)
+						  (N name)
+						  (PP (P of)
+						      (NP (NPR Artemisia)))))
+					  (, ,)
+					  (PP (P from)
+					      (IP-PPL (NP-SBJ (PRO her))
+						      (VAG cutting)
+						      (RP off)
+						      (NP-OB1 (PRO$ her) (N hair))
+						      (PP (P on)
+							  (NP (PRO$ your) (N absence))))))))))
+	  (, ,)
+	  (BED were)
+	  (ADJP (ADJP (ADVR so) (VAN afflicted))
+		(CONJP (CONJ and)
+		       (ADJP (ADVR so) (ADJ inseparable)))
+		(, ,)
+		(CP-DEG (C that)
+			(IP-SUB (NP-SBJ (PRO they))
+				(VBD made)
+				(NP-OB1 (D a) (N party))
+				(ADVP (ADV together))
+				(PP (P to)
+				    (NP (NP-POS (NPR Mr.) (CODE <font>) (NPR$ Graham's))))
+				(CODE <$$font>)
+				(CODE <paren>)
+				(IP-MAT-PRN (NP-SBJ (PRO you))
+					    (MD may)
+					    (VB read)
+					    (CODE <font>)
+					    (NP-OB1 (FW Iapis))
+					    (CODE <$$font>)
+					    (PP-PRN (P if)
+						    (CP-ADV (C 0)
+							    (IP-SUB (NP-SBJ (PRO you))
+								    (VBP please)))))
+				(CODE <$$paren>)
+				(IP-INF-PRP (TO to) (BE be) (VAN blooded)))))
+	  (. .))
+  (ID WALPOLE-174X,5,20.481))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd	2/2/665
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd
+*/
+
+/~*
+The intention is, as soon as it shall be ascertained that he can make head
+against the King, to assemble 3 large corps; one in Italy, solely Austrian,
+which will consist of 150,000 men; one on the Upper Rhine, Austrian, Bavarian,
+troops of Baden and Wurtemberg, which will eventually consist of 200,000 men,
+but will at first consist of only the troops of Bavaria, Baden, and Wurtemberg;
+the third on the Lower Rhine, consisting of the Prussian corps of Kleist, the
+Austrian garrison of Mayence, and other troops on the Moselle, to be joined to
+the British and Hanoverians in Flanders.
+(WELLESLEY-1815,835.59)
+*~/
+/*
+246 VAG:  246 VAG, 247 consisting, 74 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N intention))
+	  (BEP is)
+	  (, ,)
+	  (IP-INF (ADVP (ADVR as)
+			(ADV soon)
+			(PP (P as)
+			    (CP-CMP (WADVP-1 0)
+				    (C 0)
+				    (IP-SUB (ADVP-TMP *T*-1)
+					    (NP-SBJ-2 (PRO it))
+					    (MD shall)
+					    (BE be)
+					    (VAN ascertained)
+					    (CP-THT-2 (C that)
+						      (IP-SUB (NP-SBJ (PRO he))
+							      (MD can)
+							      (VB make)
+							      (NP-OB1 (N head))
+							      (PP (P against)
+								  (NP (D the) (N King)))))))))
+		  (, ,)
+		  (TO to)
+		  (VB assemble)
+		  (NP-OB1 (NUM 3)
+			  (ADJ large)
+			  (NS corps)
+			  (, ;)
+			  (NP-PRN (NP (ONE one)
+				      (PP (P in)
+					  (NP (NPR Italy)))
+				      (, ,)
+				      (ADJP (ADV solely) (ADJ Austrian))
+				      (, ,)
+				      (CP-REL (WNP-3 (WPRO which))
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-3)
+						      (MD will)
+						      (VB consist)
+						      (PP (P of)
+							  (NP (NUM 150,000) (NS men))))))
+				  (, ;)
+				  (CONJP (NP (ONE one)
+					     (PP (P on)
+						 (NP (D the) (ADJ Upper) (NPR Rhine)))
+					     (, ,)
+					     (NP-PRN (ADJP (ADJ Austrian) (, ,) (ADJ Bavarian))
+						     (, ,)
+						     (NS troops)
+						     (PP (P of)
+							 (NP (NPR Baden) (CONJ and) (NPR Wurtemberg))))
+					     (, ,)
+					     (CP-REL (WNP-4 (WPRO which))
+						     (C 0)
+						     (IP-SUB (IP-SUB (NP-SBJ *T*-4)
+								     (MD will)
+								     (ADVP-TMP (ADV eventually))
+								     (VB consist)
+								     (PP (P of)
+									 (NP (NUM 200,000) (NS men))))
+							     (, ,)
+							     (CONJP (CONJ but)
+								    (IP-SUB (NP-SBJ *T*-4)
+									    (MD will)
+									    (PP (P at)
+										(ADVP (ADV first)))
+									    (VB consist)
+									    (PP (P of)
+										(NP (FP only)
+										    (D the)
+										    (NS troops)
+										    (PP (P of)
+											(NP (NPR Bavaria) (, ,) (NPR Baden) (, ,) (CONJ and) (NPR Wurtemberg)))))))))))
+				  (, ;)
+				  (CONJP (NP (D the)
+					     (ADJ third)
+					     (PP (P on)
+						 (NP (D the) (ADJ Lower) (NPR Rhine)))
+					     (, ,)
+					     (RRC (VAG consisting)
+						  (PP (P of)
+						      (NP (NP (D the)
+							      (ADJ Prussian)
+							      (N corps)
+							      (PP (P of)
+								  (NP (NPR Kleist))))
+							  (, ,)
+							  (CONJP (NP (D the)
+								     (ADJ Austrian)
+								     (N garrison)
+								     (PP (P of)
+									 (NP (NPR Mayence)))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (NP (OTHER other)
+								     (NS troops)
+								     (PP (P on)
+									 (NP (D the) (NPR Moselle))))))))
+					     (, ,)
+					     (CP-EOP (WNP-5 0)
+						     (IP-INF (NP-SBJ *T*-5)
+							     (TO to)
+							     (BE be)
+							     (VAN joined)
+							     (PP (P to)
+								 (NP (D the)
+								     (ADJ British)
+								     (CONJP (CONJ and)
+									    (NX (NPRS Hanoverians)))))
+							     (PP (P in)
+								 (NP (NPR Flanders))))))))))
+	  (. .))
+  (ID WELLESLEY-1815,835.59))
+
+/~*
+but it is not fair to give to the act of any individual a construction it will
+not fairly bear, a construction which no man breathing believes it was
+intended to bear; and to charge him home with being an assassin day after day
+in speeches, and never in form.
+(WELLESLEY-1815,841.144)
+*~/
+/*
+81 VAG:  81 VAG, 82 breathing, 63 NP-PRN
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (NEG not)
+	  (ADJP (ADJ fair))
+	  (IP-INF-1 (IP-INF (TO to)
+			    (VB give)
+			    (PP (P to)
+				(NP (D the)
+				    (N act)
+				    (PP (P of)
+					(NP (Q any) (N individual)))))
+			    (NP-OB1 (D a)
+				    (N construction)
+				    (CP-REL (WNP-2 0)
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-2)
+						    (NP-SBJ (PRO it))
+						    (MD will)
+						    (NEG not)
+						    (ADVP (ADV fairly))
+						    (VB bear)))
+				    (, ,)
+				    (NP-PRN (D a)
+					    (N construction)
+					    (CP-REL (WNP-3 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-SBJ (Q no)
+								    (N man)
+								    (RRC (VAG breathing)))
+							    (VBP believes)
+							    (CP-THT (C 0)
+								    (IP-SUB (NP-SBJ (PRO it))
+									    (BED was)
+									    (VAN intended)
+									    (IP-INF (NP-OB1 *T*-3)
+										    (TO to)
+										    (VB bear)))))))))
+		    (, ;)
+		    (CONJP (CONJ and)
+			   (IP-INF (IP-INF-4 (TO to)
+					     (VB charge)
+					     (NP-OB1 (PRO him))
+					     (NP-DIR (N home))
+					     (PP (P with)
+						 (IP-PPL (BAG being)
+							 (NP-OB1 (D an) (N assassin))))
+					     (NP-TMP (N day)
+						     (PP (P after)
+							 (NP (N day))))
+					     (PP (P in)
+						 (NP (NS speeches))))
+				   (, ,)
+				   (CONJP (CONJ and)
+					  (IP-INF=4 (ADVP-TMP (ADV never))
+						    (PP (P in)
+							(NP (N form))))))))
+	  (. .))
+  (ID WELLESLEY-1815,841.144))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd	2/2/543
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd	0/0/741
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd	1/1/699
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd	1/1/288
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd	1/1/925
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd	2/2/298
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd	0/0/914
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd	2/1/492
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd	0/0/211
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd	4/2/429
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd	0/0/826
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd	2/2/665
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd	2/2/543
+whole search, hits/tokens/total
+		15/12/7031
+*/

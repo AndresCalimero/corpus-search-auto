@@ -1,0 +1,2475 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:55:42 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\whquestions\travelogue\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd
+*/
+
+/~*
+And after theyr commynge, whan the patron and warden aforesayde hadde comenyd
+with theym by the space of .ij. dayes and intreated of our tribute, and
+concluded what su~me our patron shulde paye for vs, than we were suffred to
+come to londe.
+(CHAPLAIN-E1-P2,16.264)
+*~/
+/*
+84 WNP-2:  84 WNP-2, 88 su~me, 83 CP-QUE
+*/
+( (IP-MAT (CONJ And)
+	  (PP (P after)
+	      (NP (PRO$ theyr) (N commynge)))
+	  (, ,)
+	  (PP-LFD (P whan)
+		  (CP-ADV (C 0)
+			  (IP-SUB (IP-SUB-1 (NP-SBJ (D the)
+						    (N patron)
+						    (CONJP (CONJ and)
+							   (NX (N warden)))
+						    (RRC (ADV+VAN aforesayde)))
+					    (HVD hadde)
+					    (VBN comenyd)
+					    (PP (P with)
+						(NP (PRO theym)))
+					    (PP (P by)
+						(NP (D the)
+						    (N space)
+						    (PP (P of)
+							(NP (NUM .ij.) (NS dayes))))))
+				  (CONJP (CONJ and)
+					 (IP-SUB=1 (VBN intreated)
+						   (PP (P of)
+						       (NP (PRO$ our) (N tribute)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (VBN concluded)
+					 (CP-QUE (WNP-2 (WD what) (N su~me))
+						 (C 0)
+						 (IP-SUB (NP-OB1 *T*-2)
+							 (NP-SBJ (PRO$ our) (N patron))
+							 (MD shulde)
+							 (VB paye)
+							 (PP (P for)
+							     (NP (PRO vs)))))))))
+	  (, ,)
+	  (ADVP-TMP-RSP (ADV than))
+	  (NP-SBJ-3 (PRO we))
+	  (BED were)
+	  (VAN suffred)
+	  (IP-INF (NP-SBJ *-3)
+		  (TO to)
+		  (VB come)
+		  (PP (P to)
+		      (NP (N londe))))
+	  (. .))
+  (ID CHAPLAIN-E1-P2,16.264))
+
+/~*
+There is also a lytell Caue, where they shytte hym in to tyme the Jewes had
+taken theyr counseyll and determynyd what they wolde do with hym,
+(CHAPLAIN-E1-P2,19.313)
+*~/
+/*
+73 WNP-4:  73 WNP-4, 75 what, 72 CP-QUE
+*/
+
+( (IP-MAT (ADVP-LOC (ADV There))
+	  (BEP is)
+	  (ALSO also)
+	  (NP-SBJ (D a)
+		  (ADJ lytell)
+		  (N Caue)
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBD shytte)
+				  (NP-OB1 (PRO hym))
+				  (RP in)
+				  (PP (P to)
+				      (NP (N tyme)
+					  (CP-REL (WNP-2 0)
+						  (C 0)
+						  (IP-SUB (IP-SUB-3 (NP-TMP *T*-2)
+								    (NP-SBJ (D the) (NPRS Jewes))
+								    (HVD had)
+								    (VBN taken)
+								    (NP-OB1 (PRO$ theyr) (N counseyll)))
+							  (CONJP (CONJ and)
+								 (IP-SUB=3 (VBN determynyd)
+									   (CP-QUE (WNP-4 (WPRO what))
+										   (C 0)
+										   (IP-SUB (NP-OB1 *T*-4)
+											   (NP-SBJ (PRO they))
+											   (MD wolde)
+											   (CODE <P_19>)
+											   (DO do)
+											   (PP (P with)
+											       (NP (PRO hym))))))))))))))
+	  (. ,))
+  (ID CHAPLAIN-E1-P2,19.313))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd	2/2/321
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd
+*/
+
+/~*
+And after some Conference, demanding what wee were, we told them we were
+Englishmen,
+(COVERTE-E2-H,12.15)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P after)
+	      (NP (Q some) (N Conference)))
+	  (, ,)
+	  (IP-PPL (VAG demanding)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO wee))
+				  (BED were))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD told)
+	  (NP-OB2 (PRO them))
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO we))
+			  (BED were)
+			  (CODE <font>)
+			  (NP-OB1 (NPRS Englishmen))))
+	  (CODE <$$font>)
+	  (. ,))
+  (ID COVERTE-E2-H,12.15))
+
+/~*
+Then we demanded what they were,
+(COVERTE-E2-H,12.18)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 what, 10 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (PRO we))
+	  (VBD demanded)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO they))
+			  (BED were)))
+	  (. ,))
+  (ID COVERTE-E2-H,12.18))
+
+/~*
+and made choise of Edward Churchman one of our men, to fetch the same, whom we
+neuer saw after, nor could euer know what became of him;
+(COVERTE-E2-H,15.65)
+*~/
+/*
+85 WNP-2:  85 WNP-2, 87 what, 84 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD made)
+	  (NP-OB1 (N choise)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Edward)
+			  (NPR Churchman)
+			  (CODE <$$font>)
+			  (NP-PRN (ONE one)
+				  (PP (P of)
+				      (NP (PRO$ our) (NS men)))))))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB fetch)
+		      (NP-OB1 (D the) (ADJ same)))
+	  (, ,)
+	  (CP-CAR (WNP-1 (WPRO whom))
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (ADVP-TMP (ADV neuer))
+				  (VBD saw)
+				  (ADVP-TMP (ADV after)))
+			  (, ,)
+			  (CONJP (CONJ nor)
+				 (IP-SUB (NP-SBJ *con*)
+					 (MD could)
+					 (ADVP-TMP (ADV euer))
+					 (VB know)
+					 (CP-QUE (WNP-2 (WPRO what))
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-2)
+							 (VBD became)
+							 (PP (P of)
+							     (NP=1 (PRO him)))))))))
+	  (. ;))
+  (ID COVERTE-E2-H,15.65))
+
+/~*
+Yet being asked, what they were, they said, they were Moores,
+(COVERTE-E2-H,16.92)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 12 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Yet))
+	  (IP-PPL (BAG being)
+		  (VAN asked)
+		  (, ,)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO they))
+				  (BED were))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD said)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO they))
+			  (BED were)
+			  (NP-OB1 (CODE <font>) (NPRS Moores) (CODE <$$font>))))
+	  (. ,))
+  (ID COVERTE-E2-H,16.92))
+
+/~*
+and demanded, which was their Pilot, whom hee tooke downe into his Cabbin, and
+shewed him his plat, which he at his comming downe did very earnestly behold.
+(COVERTE-E2-H,17.103)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 which, 10 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD demanded)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO which))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (NP-OB1 (PRO$ their)
+				  (N Pilot)
+				  (, ,)
+				  (CP-REL (WNP-2 (WPRO whom))
+					  (C 0)
+					  (IP-SUB (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO hee))
+							  (VBD tooke)
+							  (RP downe)
+							  (PP (P into)
+							      (NP (PRO$ his) (N Cabbin))))
+						  (, ,)
+						  (CONJP (IP-SUB (CONJ and)
+								 (NP-SBJ *con*)
+								 (VBD shewed)
+								 (NP-OB2 (PRO him))
+								 (NP-OB1 (PRO$ his)
+									 (N plat)
+									 (, ,)
+									 (CP-REL (WNP-3 (WPRO which))
+										 (C 0)
+										 (IP-SUB (NP-OB1 *T*-3)
+											 (NP-SBJ (PRO he))
+											 (PP (P at)
+											     (NP (PRO$ his) (N comming))
+											     (RP downe))
+											 (DOD did)
+											 (ADVP (ADV very) (ADV earnestly))
+											 (VB behold)))))))))))
+	  (. .))
+  (ID COVERTE-E2-H,17.103))
+
+/~*
+and craued his Passe for England, who very courteously dema~ded of vs if we
+would serue him in his wars, offering vs what maintenance we would aske of him;
+which wee humbly excused, both in regard of this our voiage, wherin diuers
+others besids our selues, were partners, as also, in regard we had Wiues and
+Children in our owne Countrie, to whom both by Law and Nature wee were bound
+to make returne if it were possible; whereupon most graciously he granted vs
+his Passe, vnder his hand and great Seale, for our safe conduct thorow al his
+Kingdomes and Dominions.
+(COVERTE-E2-H,41.239)
+*~/
+/*
+80 WNP-2:  80 WNP-2, 84 maintenance, 79 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD craued)
+	  (NP-OB1 (PRO$ his)
+		  (N Passe)
+		  (PP (P for)
+		      (CODE <font>)
+		      (NP (NPR England))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-CAR (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (ADVP (ADV very) (ADV courteously))
+			  (VBD dema~ded)
+			  (PP (P of)
+			      (NP (PRO vs)))
+			  (CP-QUE (WQ if)
+				  (C 0)
+				  (IP-SUB (NP-SBJ (PRO we))
+					  (MD would)
+					  (VB serue)
+					  (NP-OB1 (PRO him))
+					  (PP (P in)
+					      (NP (PRO$ his) (NS wars)))))
+			  (, ,)
+			  (IP-PPL (VAG offering)
+				  (NP-OB2 (PRO vs))
+				  (CP-QUE (WNP-2 (WD what) (N maintenance))
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-2)
+						  (NP-SBJ (PRO we))
+						  (MD would)
+						  (VB aske)
+						  (PP (P of)
+						      (NP (PRO him))))))))
+	  (, ;)
+	  (CP-CAR (WNP-3 (WPRO which))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-3)
+			  (NP-SBJ (PRO wee))
+			  (ADVP (ADV humbly))
+			  (VBD excused)
+			  (, ,)
+			  (PP (CONJ both)
+			      (PP (P in)
+				  (NP (N regard)
+				      (PP (P of)
+					  (NP (D this)
+					      (PRO$ our)
+					      (N voiage)
+					      (, ,)
+					      (CP-REL (WPP-4 (WADV+P wherin))
+						      (C 0)
+						      (IP-SUB (NP-SBJ (ADJ diuers)
+								      (OTHERS others)
+								      (PP (P besids)
+									  (NP (PRO$ our) (N selues))))
+							      (, ,)
+							      (BED were)
+							      (NP-OB1 (NS partners)
+								      (PP *T*-4))))))))
+			      (, ,)
+			      (PP (P as)
+				  (ALSO also)
+				  (, ,)
+				  (PP (P in)
+				      (NP (N regard)
+					  (CP-THT (C 0)
+						  (IP-SUB (NP-SBJ (PRO we))
+							  (HVD had)
+							  (NP-OB1 (NS Wiues)
+								  (CONJ and)
+								  (NS Children)
+								  (CP-REL *ICH*-5))
+							  (PP (P in)
+							      (NP (PRO$ our) (ADJ owne) (N Countrie)))
+							  (, ,)
+							  (CP-REL-5 (WPP-6 (P to)
+									   (WNP (WPRO whom)))
+								    (C 0)
+								    (IP-SUB (CONJ-7 both)
+									    (PP (P by)
+										(NP (CONJ *ICH*-7)
+										    (N Law)
+										    (CONJ and)
+										    (N Nature)))
+									    (NP-SBJ (PRO wee))
+									    (BED were)
+									    (VAN bound)
+									    (IP-INF (TO to)
+										    (VB make)
+										    (NP-OB1 (N returne)
+											    (PP *T*-6))
+										    (PP (P if)
+											(CP-ADV (C 0)
+												(IP-SUB (NP-SBJ (PRO it))
+													(BED were)
+													(ADJP (ADJ possible))))))))))))))))
+	  (, ;)
+	  (CP-CAR (WPP-8 (WADV+P whereupon))
+		  (C 0)
+		  (IP-SUB (PP *T*-8)
+			  (ADVP (QS most) (ADV graciously))
+			  (NP-SBJ (PRO he))
+			  (VBD granted)
+			  (NP-OB2 (PRO vs))
+			  (NP-OB1 (PRO$ his)
+				  (N Passe)
+				  (, ,)
+				  (PP (P vnder)
+				      (NP (PRO$ his)
+					  (N hand)
+					  (CONJP (CONJ and)
+						 (NX (NPR great) (NPR Seale)))))
+				  (, ,)
+				  (PP (P for)
+				      (NP (PRO$ our)
+					  (ADJ safe)
+					  (N conduct)
+					  (PP (P thorow)
+					      (NP (Q al)
+						  (PRO$ his)
+						  (NS Kingdomes)
+						  (CONJP (CONJ and)
+							 (NX (NS Dominions))))))))))
+	  (. .))
+  (ID COVERTE-E2-H,41.239))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd	6/6/320
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd
+*/
+
+/~*
+And then the Gouernour of the Towne sent a boat to know what we craued,
+whereupon we certified them of our wants,
+(COVERTE-E2-P1,2.17)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 what, 32 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP-TMP (ADV then))
+	  (NP-SBJ (D the)
+		  (N Gouernour)
+		  (PP (P of)
+		      (NP (D the) (N Towne))))
+	  (VBD sent)
+	  (NP-OB1 (D a) (N boat))
+	  (IP-INF-PRP (TO to)
+		      (VB know)
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (NP-SBJ (PRO we))
+				      (VBD craued))))
+	  (. ,)
+	  (CP-CAR (WPP-2 (WADV+P whereupon))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (PRO we))
+			  (VBD certified)
+			  (NP-OB1 (PRO them))
+			  (PP (P of)
+			      (NP (PRO$ our) (NS wants)))))
+	  (. ,))
+  (ID COVERTE-E2-P1,2.17))
+
+/~*
+Then two or three of the people of the Iland demanded in the Portugall
+language what we were,
+(COVERTE-E2-P1,10.142)
+*~/
+/*
+46 WNP-1:  46 WNP-1, 48 what, 45 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (NUMP (NUM two)
+			(CONJ or)
+			(NUM three)
+			(PP (P of)
+			    (NP (D the)
+				(NS people)
+				(PP (P of)
+				    (NP (D the) (N Iland)))))))
+	  (VBD demanded)
+	  (PP (P in)
+	      (NP (D the) (CODE <font>) (ADJ Portugall) (CODE <$$font>) (N language)))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (BED were)))
+	  (. ,))
+  (ID COVERTE-E2-P1,10.142))
+
+/~*
+Then they demanded againe what we had to doe there, in regard the King of
+Portugall was King of that Iland:
+(COVERTE-E2-P1,10.144)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (PRO they))
+	  (VBD demanded)
+	  (ADVP (ADV againe))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO we))
+			  (HVD had)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (DO doe)
+				  (ADVP-LOC (ADV there)))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (N regard)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (D the)
+					  (N King)
+					  (PP (P of)
+					      (NP (CODE <font>) (NPR Portugall) (CODE <$$font>))))
+				  (BED was)
+				  (NP-OB1 (N King)
+					  (PP (P of)
+					      (NP (D that) (N Iland))))))))
+	  (. :))
+  (ID COVERTE-E2-P1,10.144))
+
+/~*
+and presently the ship strooke, which I presently went vp and told him of: who
+turning about asked who durst say shee strooke,
+(COVERTE-E2-P1,23.230)
+*~/
+/*
+69 WNP-3:  69 WNP-3, 71 who, 68 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP-TMP (ADV presently))
+	  (NP-SBJ (D the) (N ship))
+	  (VBD strooke)
+	  (, ,)
+	  (CP-CAR (WNP-1 (WPRO which))
+		  (C 0)
+		  (IP-SUB (IP-SUB (NP-SBJ (PRO I))
+				  (ADVP-TMP (ADV presently))
+				  (VBD went)
+				  (RP vp))
+			  (CONJP (CONJ and)
+				 (IP-SUB (NP-SBJ *con*)
+					 (VBD told)
+					 (NP-OB2 (PRO him))
+					 (PP (P of)
+					     (NP *T*-1))
+					 (, :)
+					 (CP-CAR (WNP-2 (WPRO who))
+						 (C 0)
+						 (IP-SUB (NP-SBJ *T*-2)
+							 (IP-PPL (VAG turning) (RP about))
+							 (VBD asked)
+							 (CP-QUE (WNP-3 (WPRO who))
+								 (C 0)
+								 (IP-SUB (NP-SBJ *T*-3)
+									 (MD durst)
+									 (VB say)
+									 (CP-THT (C 0)
+										 (IP-SUB (NP-SBJ (PRO shee))
+											 (VBD strooke)))))))))))
+	  (. ,))
+  (ID COVERTE-E2-P1,23.230))
+
+/~*
+and were in Armes, taking vs to be Portugales, and that wee came to take some
+of their Townes, which wee perceiuing, and hauing by chance a Guzarat, aboard
+wee sent him ashore to tell them truly what wee were:
+(COVERTE-E2-P1,24.258)
+*~/
+/*
+138 WNP-2:  138 WNP-2, 140 what, 137 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BED were)
+	  (PP (P in)
+	      (NP (NS Armes)))
+	  (, ,)
+	  (IP-PPL (VAG taking)
+		  (IP-INF (IP-INF (NP-SBJ (PRO vs))
+				  (TO to)
+				  (BE be)
+				  (CODE <font>)
+				  (NP-OB1 (NPRS Portugales)))
+			  (CODE <$$font>)
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-THT (C that)
+					 (IP-SUB (NP-SBJ (PRO wee))
+						 (VBD came)
+						 (IP-INF-PRP (TO to)
+							     (VB take)
+							     (NP-OB1 (Q some)
+								     (PP (P of)
+									 (NP (PRO$ their) (NS Townes)))))))))
+		  (, ,)
+		  (CP-CAR (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-PPL-ABS (IP-PPL (NP-OB1 *T*-1)
+						      (NP-SBJ (PRO wee))
+						      (VAG perceiuing))
+					      (, ,)
+					      (CODE <paren>)
+					      (CONJP (CONJ and)
+						     (IP-PPL (NP-SBJ *con*)
+							     (HAG hauing)
+							     (PP (P by)
+								 (NP (N chance)))
+							     (NP-OB1 (D a) (CODE <font>) (NPR Guzarat))
+							     (CODE <$$font>)
+							     (, ,)
+							     (PP (P+N aboard)))))
+				  (NP-SBJ (PRO wee))
+				  (VBD sent)
+				  (NP-OB1 (PRO him))
+				  (PP (P+N ashore))
+				  (IP-INF-PRP (TO to)
+					      (VB tell)
+					      (NP-OB2 (PRO them))
+					      (ADVP (ADV truly))
+					      (CP-QUE (WNP-2 (WPRO what))
+						      (C 0)
+						      (IP-SUB (NP-OB1 *T*-2)
+							      (NP-SBJ (PRO wee))
+							      (BED were)))))))
+	  (. :))
+  (ID COVERTE-E2-P1,24.258))
+
+/~*
+But our General sent our Linguist or Interpeter to certifie them, what wee
+were,
+(COVERTE-E2-P1,27.315)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 what, 32 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO$ our) (N General))
+	  (VBD sent)
+	  (NP-OB1 (PRO$ our)
+		  (N Linguist)
+		  (CONJP (CONJ or)
+			 (NX (N Interpeter))))
+	  (IP-INF-PRP (TO to)
+		      (VB certifie)
+		      (NP-OB1 (PRO them))
+		      (, ,)
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (NP-SBJ (PRO wee))
+				      (BED were))))
+	  (. ,))
+  (ID COVERTE-E2-P1,27.315))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd	6/6/326
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd
+*/
+
+/~*
+and he would giue vs what meanes we would desire:
+(COVERTE-E2-P2,28.9)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 19 meanes, 14 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO he))
+	  (MD would)
+	  (VB giue)
+	  (NP-OB2 (PRO vs))
+	  (CP-QUE (WNP-1 (WD what) (N meanes))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (MD would)
+			  (VB desire)))
+	  (. :))
+  (ID COVERTE-E2-P2,28.9))
+
+/~*
+Heere the Gouernor hearing that wee were strangers, or Christians, demanded
+what we would haue, and whether we trauelled:
+(COVERTE-E2-P2,30.37)
+*~/
+/*
+37 WNP-1:  37 WNP-1, 39 what, 36 CP-QUE
+*/
+
+( (IP-MAT (ADVP-LOC (ADV Heere))
+	  (NP-SBJ (D the) (N Gouernor))
+	  (IP-PPL (VAG hearing)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (PRO wee))
+				  (BED were)
+				  (NP-OB1 (NS strangers) (, ,) (CONJ or) (NPRS Christians)))))
+	  (, ,)
+	  (VBD demanded)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (MD would)
+				  (HV haue)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WADVP-2 (WADV whether))
+				 (C 0)
+				 (IP-SUB (ADVP-DIR *T*-2)
+					 (NP-SBJ (PRO we))
+					 (VBD trauelled)))))
+	  (. :))
+  (ID COVERTE-E2-P2,30.37))
+
+/~*
+Then he asked vs what we would doe with the King:
+(COVERTE-E2-P2,30.39)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (NP-SBJ (PRO he))
+	  (VBD asked)
+	  (NP-OB2 (PRO vs))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (MD would)
+			  (DO doe)
+			  (PP (P with)
+			      (NP (D the) (N King)))))
+	  (. :))
+  (ID COVERTE-E2-P2,30.39))
+
+/~*
+For no stranger must stay aboue twenty foure houres before he be brought
+before the King to know what hee is, and wherefore hee commeth.
+(COVERTE-E2-P2,35.137)
+*~/
+/*
+53 WNP-1:  53 WNP-1, 55 what, 52 CP-QUE
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (Q no) (N stranger))
+	  (MD must)
+	  (VB stay)
+	  (PP (P aboue)
+	      (NP (NUMP (NUM twenty) (NUM foure))
+		  (NS houres)))
+	  (PP (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (BEP be)
+			      (VAN brought)
+			      (PP (P before)
+				  (NP (D the) (N King)))
+			      (IP-INF-PRP (TO to)
+					  (VB know)
+					  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-1)
+								  (NP-SBJ (PRO hee))
+								  (BEP is)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (CP-QUE (WADVP-2 (WADV+P wherefore))
+								 (C 0)
+								 (IP-SUB (ADVP *T*-2)
+									 (NP-SBJ (PRO hee))
+									 (VBP commeth)))))))))
+	  (. .))
+  (ID COVERTE-E2-P2,35.137))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd	4/4/355
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd
+*/
+
+/~*
+and generally the people here are able to give so bad a direction that
+passengers are at a loss what aime to take,
+(FIENNES-E3-H,145.111)
+*~/
+/*
+55 WNP-2:  55 WNP-2, 59 aime, 54 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV generally))
+	  (NP-SBJ (D the)
+		  (NS people)
+		  (ADVP-LOC (ADV here)))
+	  (BEP are)
+	  (ADJP (ADJ able)
+		(IP-INF (TO to)
+			(VB give)
+			(NP-OB1 (ADJP (ADVR so)
+				      (ADJ bad)
+				      (CP-DEG *ICH*-1))
+				(D a)
+				(N direction)
+				(CP-DEG-1 (C that)
+					  (IP-SUB (NP-SBJ (NS passengers))
+						  (BEP are)
+						  (PP (P at)
+						      (NP (D a) (N loss)))
+						  (CP-QUE (WNP-2 (WD what) (N aime))
+							  (IP-INF (NP-OB1 *T*-2)
+								  (TO to)
+								  (VB take))))))))
+	  (. ,))
+  (ID FIENNES-E3-H,145.111))
+
+/~*
+they told me it was called either Stowle or Nole I $can $not tell which.
+(FIENNES-E3-H,145.116)
+*~/
+/*
+46 WNP:  46 WNP, 48 which, 45 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO they))
+	  (VBD told)
+	  (NP-OB2 (PRO me))
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (PRO it))
+			  (BED was)
+			  (VAN called)
+			  (IP-SMC (NP-SBJ *-1)
+				  (NP-OB1 (CONJ either) (NPR Stowle) (CONJ or) (NPR Nole)))))
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (MD $can)
+		      (NEG $not)
+		      (CODE {TEXT:cannot})
+		      (VB tell)
+		      (CP-QUE (WNP (WPRO which))))
+	  (. .))
+  (ID FIENNES-E3-H,145.116))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd	2/2/347
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd	0/0/367
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd	0/0/361
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd
+*/
+
+/~*
+Whose Labour this should be, or for what purpose, is out of memory;
+(FRYER-E3-H,I,187.63)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 9 Labour, 4 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (CP-QUE (CP-QUE (WNP-1 (WPRO$ Whose) (N Labour))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (D this))
+					  (MD should)
+					  (BE be)))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (CP-QUE (WPP (P for)
+					      (WNP (WD what) (N purpose)))))))
+	  (, ,)
+	  (BEP is)
+	  (PP (RP out)
+	      (P of)
+	      (NP (N memory)))
+	  (. ;))
+  (ID FRYER-E3-H,I,187.63))
+
+/~*
+for now we began to turn our back upon the Gulf, and steer a more Northern
+Course, from whence to reflect what Sustenance this barren Earth could produce,
+that, should our Stores fail, we might want;
+(FRYER-E3-H,II,181.168)
+*~/
+/*
+74 WNP-2:  74 WNP-2, 80 *ICH*-3, 73 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (ADVP-TMP (ADV now))
+	  (NP-SBJ (PRO we))
+	  (VBD began)
+	  (IP-INF (IP-INF (TO to)
+			  (VB turn)
+			  (NP-OB1 (PRO$ our) (N back))
+			  (PP (P upon)
+			      (NP (D the) (N Gulf))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO *)
+				 (VB steer)
+				 (NP-OB1 (D a)
+					 (ADJP (QR more) (CODE <font>) (ADJ Northern))
+					 (CODE <$$font>)
+					 (N Course)
+					 (, ,)
+					 (CP-REL (WPP-1 (P from)
+							(WADVP (WADV whence)))
+						 (C 0)
+						 (IP-INF (PP *T*-1)
+							 (TO to)
+							 (VB reflect)
+							 (CP-QUE (WNP-2 (WD what)
+									(N Sustenance)
+									(CP-REL *ICH*-3))
+								 (C 0)
+								 (IP-SUB (NP-OB1 *T*-2)
+									 (NP-SBJ (D this) (ADJ barren) (N Earth))
+									 (MD could)
+									 (VB produce)
+									 (, ,)
+									 (CP-REL-3 (WNP-4 0)
+										   (C that)
+										   (, ,)
+										   (IP-SUB (NP-OB1 *T*-4)
+											   (CP-ADV (IP-SUB (MD should)
+													   (NP-SBJ (PRO$ our) (NS Stores))
+													   (VB fail)))
+											   (, ,)
+											   (NP-SBJ (PRO we))
+											   (MD might)
+											   (VB want)))))))))))
+	  (. ;))
+  (ID FRYER-E3-H,II,181.168))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd	2/2/231
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd
+*/
+
+/~*
+And if such be the gasping Strength of the Portugals, to terrify the Potentest
+Enemies to Christianity in these Parts, what was their flourishing Estate?
+(FRYER-E3-P1,1,193.2)
+*~/
+/*
+67 WNP-2:  67 WNP-2, 69 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-OB1 (SUCH such)
+				      (IP-INF-PRN *ICH*-1))
+			      (BEP be)
+			      (NP-SBJ (D the)
+				      (VAG gasping)
+				      (N Strength)
+				      (PP (P of)
+					  (NP (D the) (CODE <font>) (NPRS Portugals))))
+			      (CODE <$$font>)
+			      (, ,)
+			      (IP-INF-PRN-1 (TO to)
+					    (VB terrify)
+					    (NP-OB1 (D the)
+						    (ADJS Potentest)
+						    (NS Enemies)
+						    (PP (P to)
+							(NP (N Christianity)))
+						    (PP (P in)
+							(NP (D these) (NS Parts))))))))
+	  (, ,)
+	  (WNP-2 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (BED was)
+		  (NP-SBJ (PRO$ their) (VAG flourishing) (N Estate)))
+	  (. ?))
+  (ID FRYER-E3-P1,1,193.2))
+
+/~*
+and referred our Business to Moro Pundit, his Peshua, or Chancellour, to
+examine our Articles, and give an account what they were.
+(FRYER-E3-P1,1,204.92)
+*~/
+/*
+73 WNP-1:  73 WNP-1, 75 what, 72 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD referred)
+	  (NP-OB1 (PRO$ our) (N Business))
+	  (PP (P to)
+	      (NP (CODE <font>)
+		  (NPR Moro)
+		  (NPR Pundit)
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (PRO$ his)
+			  (CODE <font>)
+			  (FW Peshua)
+			  (CODE <$$font>)
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (NX (N Chancellour))))))
+	  (, ,)
+	  (IP-INF (IP-INF (TO to)
+			  (VB examine)
+			  (NP-OB1 (PRO$ our) (NS Articles)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO *)
+				 (VB give)
+				 (NP-OB1 (D an)
+					 (N account)
+					 (CP-QUE (WNP-1 (WPRO what))
+						 (C 0)
+						 (IP-SUB (NP-OB1 *T*-1)
+							 (NP-SBJ (PRO they))
+							 (BED were)))))))
+	  (. .))
+  (ID FRYER-E3-P1,1,204.92))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd	2/2/213
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd
+*/
+
+/~*
+Being earnest to press on his Errand he came for, the Ambassador sent to Narun
+Gi Pundit to know what was transacted in the Articles;
+(FRYER-E3-P2,1,206.3)
+*~/
+/*
+66 WNP-2:  66 WNP-2, 68 what, 65 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL (BAG Being)
+		  (ADJP (ADJ earnest)
+			(IP-INF (TO to)
+				(VB press)
+				(PP (P on)
+				    (NP (PRO$ his)
+					(N Errand)
+					(CP-REL (WNP-1 0)
+						(C 0)
+						(IP-SUB (NP-SBJ (PRO he))
+							(VBD came)
+							(PP (P for)
+							    (NP *T*-1)))))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N Ambassador))
+	  (VBD sent)
+	  (PP (P to)
+	      (NP (CODE <font>) (NPR Narun) (NPR Gi) (NPR Pundit) (CODE <$$font>)))
+	  (IP-INF-PRP (TO to)
+		      (VB know)
+		      (CP-QUE (WNP-2 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-2)
+				      (BED was)
+				      (VAN transacted)
+				      (PP (P in)
+					  (NP (D the) (NS Articles))))))
+	  (. ;))
+  (ID FRYER-E3-P2,1,206.3))
+
+/~*
+the one harbouring in the Sand, fasten upon you as you pass; where $'t $is
+some Pastime to see what Shift the Banyan makes, being bit by them,
+(FRYER-E3-P2,1,211.48)
+*~/
+/*
+69 WNP-3:  69 WNP-3, 73 Shift, 68 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D the)
+		  (ONE one)
+		  (RRC (VAG harbouring)
+		       (PP (P in)
+			   (NP (D the) (N Sand)))))
+	  (, ,)
+	  (VBP fasten)
+	  (PP (P upon)
+	      (NP (PRO you)))
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBP pass))))
+	  (, ;)
+	  (CP-CAR (WADVP-1 (WADV where))
+		  (C 0)
+		  (IP-SUB (ADVP-LOC *T*-1)
+			  (NP-SBJ-2 (PRO $'t))
+			  (BEP $is)
+			  (CODE {TEXT:'tis})
+			  (NP-OB1 (Q some) (N Pastime))
+			  (IP-INF-2 (TO to)
+				    (VB see)
+				    (CP-QUE (WNP-3 (WD what) (N Shift))
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-3)
+						    (NP-SBJ (D the) (CODE <font>) (NPR Banyan) (CODE <$$font>))
+						    (VBP makes)
+						    (, ,)
+						    (IP-PPL (BAG being)
+							    (VAN bit)
+							    (PP (P by)
+								(NP (PRO them)))))))))
+	  (. ,))
+  (ID FRYER-E3-P2,1,211.48))
+
+/~*
+It is incredible to see what Quantities they drink at a Merry-meeting, and how
+unconcerned the next day they appear, and brisk about their Business,
+(FRYER-E3-P2,2,210.183)
+*~/
+/*
+17 WNP-2:  17 WNP-2, 21 Quantities, 16 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (ADJP (ADJ incredible))
+	  (IP-INF-1 (TO to)
+		    (VB see)
+		    (CP-QUE (CP-QUE (WNP-2 (WD what) (NS Quantities))
+				    (C 0)
+				    (IP-SUB (NP-OB1 *T*-2)
+					    (NP-SBJ (PRO they))
+					    (VBP drink)
+					    (PP (P at)
+						(NP (D a) (ADJ+N Merry-meeting)))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (CP-QUE (WADJP-3 (WADJP (WADV how) (ADJ unconcerned))
+						    (CONJP *ICH*-4))
+					   (C 0)
+					   (IP-SUB (ADJP *T*-3)
+						   (NP-TMP (D the) (ADJS next) (N day))
+						   (NP-SBJ (PRO they))
+						   (VBP appear)
+						   (, ,)
+						   (CONJP-4 (CONJ and)
+							    (ADJP (ADJ brisk)
+								  (PP (P about)
+								      (NP (PRO$ their) (N Business))))))))))
+	  (. ,))
+  (ID FRYER-E3-P2,2,210.183))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd	3/3/202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd
+*/
+
+/~*
+I enquired what the English of it was?
+(JOTAYLOR-E2-H,1,130.C1.73)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 7 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBD enquired)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D the)
+				  (NPR English)
+				  (PP (P of)
+				      (NP (PRO it))))
+			  (BED was)))
+	  (. ?))
+  (ID JOTAYLOR-E2-H,1,130.C1.73))
+
+/~*
+but I no sooner knew who it was, but I arose,
+(JOTAYLOR-E2-H,1,137.C2.270)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 who, 16 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (ADVP-TMP (Q no)
+		    (ADVR sooner)
+		    (PP *ICH*-2))
+	  (VBD knew)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (, ,)
+	  (PP-2 (P but)
+		(CP-CMP (C 0)
+			(IP-SUB (NP-SBJ (PRO I))
+				(VBD arose))))
+	  (. ,))
+  (ID JOTAYLOR-E2-H,1,137.C2.270))
+
+/~*
+He was informed who I was, and wherefore I vndertooke this my pennilesse
+Progresse: wherefore he came vp to our chamber, and sup'd with vs, and very
+bountifully called for three quarts of Wine and Sugar, and foure Iugges of
+Beere.
+(JOTAYLOR-E2-H,1,140.C2.334)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 who, 10 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (BED was)
+	  (VAN informed)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (BED was)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WPP-2 (WADV+P wherefore))
+				 (C 0)
+				 (IP-SUB (PP *T*-2)
+					 (NP-SBJ (PRO I))
+					 (VBD vndertooke)
+					 (NP-OB1 (D this) (PRO$ my) (ADJ pennilesse) (N Progresse))))))
+	  (, :)
+	  (CP-CAR (WPP-3 (WADV+P wherefore))
+		  (C 0)
+		  (IP-SUB (IP-SUB (PP *T*-3)
+				  (NP-SBJ (PRO he))
+				  (VBD came)
+				  (PP (RP vp)
+				      (P to)
+				      (NP (PRO$ our) (N chamber))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB (PP *T*-3)
+					 (NP-SBJ *con*)
+					 (VBD sup'd)
+					 (PP (P with)
+					     (NP (PRO vs)))))
+			  (, ,)
+			  (CONJP (IP-SUB (CONJ and)
+					 (PP *T*-3)
+					 (NP-SBJ *con*)
+					 (ADVP (ADV very) (ADV bountifully))
+					 (CODE <P_1,140.C2>)
+					 (VBD called)
+					 (PP (P for)
+					     (NP (NP (NUM three)
+						     (NS quarts)
+						     (PP (P of)
+							 (NP (N Wine))))
+						 (CONJP (CONJ and)
+							(NP (N Sugar)))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(NP (NUM foure)
+							    (NS Iugges)
+							    (PP (P of)
+								(NP (N Beere)))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-H,1,140.C2.334))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd	3/3/348
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd
+*/
+
+/~*
+and indeed after I had inquired what countriman hee was, he told me he was a
+Welch man, and a Iustices Clarke.
+(JOTAYLOR-E2-P1,3,77.C2.11)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 26 countriman, 21 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P+N indeed))
+	  (PP (P after)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (HVD had)
+			      (VBN inquired)
+			      (CP-QUE (WNP-1 (WD what) (N+N countriman))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO hee))
+					      (BED was))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD told)
+	  (NP-OB2 (PRO me))
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (BED was)
+			  (NP-OB1 (NP (D a) (ADJ Welch) (N man))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (NP (NP-POS (D a) (N$ Iustices))
+					     (CODE <P_3,77.C2>)
+					     (N Clarke))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P1,3,77.C2.11))
+
+/~*
+and now to be thus strangely & priuately come againe in boots and spurres,
+whereas they remembred at his first hanging he had shoes & stockings, it made
+them muse what iourney he had beene riding, & what a mad Ghest he was to take
+the Gallowes for his Inne, or as I suppose for his end.
+(JOTAYLOR-E2-P1,3,82.C2.174)
+*~/
+/*
+93 WNP-1:  93 WNP-1, 97 iourney, 92 CP-QUE
+118 WNP-2:  118 WNP-2, 126 Ghest, 117 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-INF (ADVP-TMP (ADV now))
+		  (TO to)
+		  (BE be)
+		  (ADVP (ADV thus)
+			(ADV strangely)
+			(CONJP (CONJ &)
+			       (ADVX (ADV priuately))))
+		  (VBN come)
+		  (ADVP (ADV againe))
+		  (PP (P in)
+		      (NP (NS boots) (CONJ and) (NS spurres)))
+		  (, ,)
+		  (PP (WADV+P whereas)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (VBD remembred)
+				      (CP-THT (C 0)
+					      (IP-SUB (PP (P at)
+							  (NP (PRO$ his) (ADJ first) (N hanging)))
+						      (NP-SBJ (PRO he))
+						      (HVD had)
+						      (NP-OB1 (NS shoes) (CONJ &) (NS stockings))))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (VBD made)
+	  (IP-INF (NP-SBJ (PRO them))
+		  (VB muse)
+		  (CP-QUE (CP-QUE (WNP-1 (WD what) (N iourney))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (HVD had)
+					  (BEN beene)
+					  (VAG riding)))
+			  (, ,)
+			  (CONJP (CONJ &)
+				 (CP-QUE (WNP-2 (WD what) (D a) (ADJ mad) (N Ghest))
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-2)
+						 (NP-SBJ (PRO he))
+						 (BED was)
+						 (IP-INF (TO to)
+							 (VB take)
+							 (NP-OB1 (D the) (N Gallowes))
+							 (PP (PP (P for)
+								 (NP (PRO$ his) (N Inne)))
+							     (, ,)
+							     (CONJP (CONJ or)
+								    (PP (CODE <paren>)
+									(P as)
+									(CP-ADV (WNP-3 0)
+										(C 0)
+										(IP-SUB (NP-OB1 *T*-3)
+											(NP-SBJ (PRO I))
+											(VBP suppose)))
+									(CODE <$$paren>))
+								    (PP (P for)
+									(NP (PRO$ his) (N end)))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P1,3,82.C2.174))
+
+/~*
+now for all this, who shal haue the place is vnknowne;
+(JOTAYLOR-E2-P1,3,83.C1.199)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 who, 16 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV now))
+	  (PP (P for)
+	      (NP (Q all) (D this)))
+	  (, ,)
+	  (NP-SBJ (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD shal)
+				  (HV haue)
+				  (NP-OB1 (D the) (N place)))))
+	  (BEP is)
+	  (ADJP (ADJ vnknowne))
+	  (. ;))
+  (ID JOTAYLOR-E2-P1,3,83.C1.199))
+
+/~*
+and when we demanded what was to pay, it was but three pence a man,
+(JOTAYLOR-E2-P1,3,85.C2.272)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 what, 16 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBD demanded)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (BED was)
+					      (IP-INF (NP-OB1 *T*-1)
+						      (TO to)
+						      (VB pay)))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BED was)
+	  (NP-OB1 (FP but)
+		  (NUM three)
+		  (NS pence)
+		  (NP-MSR (D a) (N man)))
+	  (. ,))
+  (ID JOTAYLOR-E2-P1,3,85.C2.272))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd	5/4/416
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd
+*/
+
+/~*
+but what talke I of a Sheepe, when it is apparantly knowne, that he hath at
+one repast, and with one dish, feasted his Carkas with all manner of meates?
+(JOTAYLOR-E2-P2,1,144.C1.48)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-ADV *T*-1)
+		  (VBP talke)
+		  (NP-OB1 (PRO I))
+		  (PP (P of)
+		      (NP (D a) (N Sheepe))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-2 (PRO it))
+			      (BEP is)
+			      (ADVP (ADV apparantly))
+			      (VAN knowne)
+			      (, ,)
+			      (CP-THT-2 (C that)
+					(IP-SUB (NP-SBJ (PRO he))
+						(HVP hath)
+						(PP (PP (P at)
+							(NP (ONE one) (N repast)))
+						    (, ,)
+						    (CONJP (CONJ and)
+							   (PP (P with)
+							       (NP (ONE one) (N dish)))))
+						(, ,)
+						(VBN feasted)
+						(NP-OB1 (PRO$ his) (N Carkas))
+						(PP (P with)
+						    (NP (Q all)
+							(N manner)
+							(PP (P of)
+							    (NP (NS meates))))))))))
+	  (. ?))
+  (ID JOTAYLOR-E2-P2,1,144.C1.48))
+
+/~*
+now to returne to my Theame of Wood, indeed this last disgression may make my
+Reader thinke that I could not see wood for trees what Wood he is, I know not,
+(JOTAYLOR-E2-P2,1,144.C2.70)
+*~/
+/*
+80 WNP-1:  80 WNP-1, 84 Wood, 79 CP-QUE
+*/
+
+( (FRAG (ADVP (ADV now))
+	(IP-INF-PRP (TO to)
+		    (VB returne)
+		    (PP (P to)
+			(NP (PRO$ my)
+			    (N Theame)
+			    (PP (P of)
+				(NP (CODE <font>) (N Wood) (CODE <$$font>))))))
+	(, ,)
+	(IP-MAT-PRN (CODE <paren>)
+		    (PP-PRN (P+N indeed))
+		    (NP-SBJ (D this) (ADJ last) (N disgression))
+		    (MD may)
+		    (VB make)
+		    (IP-INF (NP-SBJ (PRO$ my) (N Reader))
+			    (VB thinke)
+			    (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (PRO I))
+					    (MD could)
+					    (NEG not)
+					    (VB see)
+					    (NP-OB1 (N wood))
+					    (PP (P for)
+						(NP (NS trees))))))
+		    (CODE <$$paren>))
+	(CP-QUE (WNP-1 (WD what) (N Wood))
+		(C 0)
+		(IP-SUB (NP-OB1 *T*-1)
+			(NP-SBJ (PRO he))
+			(BEP is)))
+	(, ,)
+	(NP-SBJ (PRO I))
+	(VBP know)
+	(NEG not)
+	(. ,))
+  (ID JOTAYLOR-E2-P2,1,144.C2.70))
+
+/~*
+What say you to the Leafe or Flecke of a Brawne new kild, to be of weight
+eight pound, and to be eaten hot out of the Bores belly raw?
+(JOTAYLOR-E2-P2,1,144.C2.78)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBP say)
+		  (NP-SBJ (PRO you))
+		  (PP (P to)
+		      (NP (D the)
+			  (N Leafe)
+			  (CONJP (CONJ or)
+				 (NX (N Flecke)))
+			  (PP (P of)
+			      (NP (D a)
+				  (N Brawne)
+				  (RRC (ADVP (ADV new))
+				       (VAN kild))
+				  (, ,)
+				  (CP-EOP (CP-EOP (WNP-2 0)
+						  (IP-INF (NP-SBJ *T*-2)
+							  (TO to)
+							  (BE be)
+							  (PP (P of)
+							      (NP (N weight)))
+							  (NP-OB1 (NUM eight) (N pound))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (CP-EOP (WNP-3 0)
+							 (IP-INF (NP-SBJ *T*-3)
+								 (TO to)
+								 (BE be)
+								 (VAN eaten)
+								 (ADJP-SPR (ADJ hot))
+								 (PP (RP out)
+								     (P of)
+								     (NP (NP-POS (D the) (N$ Bores))
+									 (N belly)))
+								 (ADJP-SPR (ADJ raw)))))))))))
+	  (. ?))
+  (ID JOTAYLOR-E2-P2,1,144.C2.78))
+
+/~*
+and with that he told me as aforesaid, what he had eaten
+(JOTAYLOR-E2-P2,1,146.C2.154)
+*~/
+/*
+29 WNP-1:  29 WNP-1, 31 what, 28 CP-QUE
+*/
+
+( (IP-MAT (CODE <paren>)
+	  (CONJ and)
+	  (PP (P with)
+	      (NP (D that)))
+	  (NP-SBJ (PRO he))
+	  (VBD told)
+	  (NP-OB2 (PRO me))
+	  (PP (P as)
+	      (IP-PPL (ADV+VAN aforesaid)))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (HVD had)
+			  (VBN eaten)))
+	  (CODE <$$paren>))
+  (ID JOTAYLOR-E2-P2,1,146.C2.154))
+
+/~*
+for he had one hole or corner in the profundity of his storehouse, into which
+he would stow and bestow any thing that the house would afford, at his perill
+and my cost. Whereupon I summoned my Hostesse with three knocks vpon the Table,
+two stamps on the floore, with my fist and foot, at which shee made her
+personall appearance with a low Curtsie, and an inquisitiue What lacke ye?
+(JOTAYLOR-E2-P2,1,146.C2.156)
+*~/
+/*
+222 WNP-6:  222 WNP-6, 224 What, 221 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO he))
+	  (HVD had)
+	  (NP-OB1 (ONE one)
+		  (N hole)
+		  (CONJ or)
+		  (N corner)
+		  (CP-REL *ICH*-1))
+	  (PP (P in)
+	      (NP (D the)
+		  (N profundity)
+		  (PP (P of)
+		      (NP (PRO$ his) (N+N storehouse)))))
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P into)
+			   (WNP (WPRO which)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (PRO he))
+			    (MD would)
+			    (VB (VB stow) (CONJ and) (VB bestow))
+			    (NP-OB1 (Q any)
+				    (N thing)
+				    (CP-REL (WNP-3 0)
+					    (C that)
+					    (IP-SUB (NP-OB1 *T*-3)
+						    (NP-SBJ (D the) (N house))
+						    (MD would)
+						    (VB afford))))
+			    (, ,)
+			    (PP (P at)
+				(NP (NP (PRO$ his) (N perill))
+				    (CONJP (CONJ and)
+					   (NP (PRO$ my) (N cost)))))
+			    (, .)
+			    (CP-CAR (WPP-4 (WADV+P Whereupon))
+				    (C 0)
+				    (IP-SUB (PP *T*-4)
+					    (NP-SBJ (PRO I))
+					    (VBD summoned)
+					    (NP-OB1 (PRO$ my) (N Hostesse))
+					    (PP (P with)
+						(NP (NP (NUM three)
+							(NS knocks)
+							(PP (P vpon)
+							    (NP (D the) (N Table))))
+						    (, ,)
+						    (CONJP (NP (NUM two)
+							       (NS stamps)
+							       (PP (P on)
+								   (NP (D the) (N floore)))))
+						    (, ,)
+						    (PP (P with)
+							(NP (PRO$ my)
+							    (N fist)
+							    (CONJP (CONJ and)
+								   (NX (N foot)))))
+						    (, ,)
+						    (CP-REL (WPP-5 (P at)
+								   (WNP (WPRO which)))
+							    (C 0)
+							    (IP-SUB (PP *T*-5)
+								    (NP-SBJ (PRO shee))
+								    (VBD made)
+								    (NP-OB1 (PRO$ her) (ADJ personall) (N appearance))
+								    (PP (P with)
+									(NP (NP (D a) (ADJ low) (N Curtsie))
+									    (, ,)
+									    (CONJP (CONJ and)
+										   (NP (D an)
+										       (ADJ inquisitiue)
+										       (QTP (CP-QUE (WNP-6 (WPRO What))
+												    (IP-SUB (NP-OB1 *T*-6)
+													    (VBP lacke)
+													    (NP-SBJ (PRO ye)))))))))))))))))
+	  (. ?))
+  (ID JOTAYLOR-E2-P2,1,146.C2.156))
+
+/~*
+I did also offer tenne shillings to one Ieremy Robinson a Glouer a man very
+inward with him to attend and keepe him company, and two shillings six pence
+the day, with good dyet and lodging: all which were once accepted, vntill Wood
+began to ruminate and examine what seruice he was to doe, for these large
+allowances
+(JOTAYLOR-E2-P2,1,147.C1.173)
+*~/
+/*
+167 WNP-4:  167 WNP-4, 171 seruice, 166 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO I))
+		    (DOD did)
+		    (ALSO also)
+		    (VB offer)
+		    (NP-OB1 (NUM tenne) (NS shillings))
+		    (PP (P to)
+			(NP (ONE one)
+			    (CODE <font>)
+			    (NPR Ieremy)
+			    (NPR Robinson)
+			    (CODE <$$font>)
+			    (NP-PRN (D a) (N Glouer))
+			    (CODE <paren>)
+			    (NP-PRN (D a)
+				    (N man)
+				    (ADJP (ADV very)
+					  (ADJ inward)
+					  (PP (P with)
+					      (NP (PRO him)))))))
+		    (CODE <$$paren>)
+		    (IP-INF (IP-INF=2 (TO to) (VB attend))
+			    (CONJP (CONJ and)
+				   (IP-INF-2 (VB keepe)
+					     (NP-OB2 (PRO him))
+					     (NP-OB1 (N company))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-OB1 (NUM two) (NS shillings) (NUM six) (NS pence))
+			   (NP-MSR (D the) (N day))
+			   (, ,)
+			   (PP (P with)
+			       (NP (ADJ good)
+				   (N dyet)
+				   (CONJP (CONJ and)
+					  (NX (N lodging)))))))
+	  (, :)
+	  (CP-CAR (WNP-3 (Q all) (WPRO which))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-3)
+			  (BED were)
+			  (PP (P (CODE {at}))
+			      (ADVP (ADV once)))
+			  (VAN accepted)
+			  (, ,)
+			  (PP (P vntill)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (CODE <font>) (NPR Wood) (CODE <$$font>))
+					      (VBD began)
+					      (IP-INF (IP-INF (TO to) (VB ruminate))
+						      (CONJP (CONJ and)
+							     (IP-INF (TO *)
+								     (VB examine)
+								     (CP-QUE (WNP-4 (WD what) (N seruice))
+									     (C 0)
+									     (IP-SUB (NP-SBJ (PRO he))
+										     (BED was)
+										     (IP-INF (NP-OB1 *T*-4)
+											     (TO to)
+											     (DO doe)
+											     (, ,)
+											     (PP (P for)
+												 (NP (D these) (ADJ large) (NS allowances))))))))))))))
+	  (CODE {COM:no_period}))
+  (ID JOTAYLOR-E2-P2,1,147.C1.173))
+
+/~*
+but he fearing that which his merits would amount vnto, brake off the match,
+saying, that perhaps when his Grace, I guesse who he meant should heare of one
+that ate so much, and could worke so little, he doubted there would come a
+command to hang him: whereupon our hopefull Beare-garden busines was shiuerd,
+and shatterd in pieces.
+(JOTAYLOR-E2-P2,1,147.C1.179)
+*~/
+/*
+82 WNP-2:  82 WNP-2, 84 who, 81 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO he))
+	  (IP-PPL (VAG fearing)
+		  (NP-OB1 (D that)
+			  (CP-REL (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ (PRO$ his) (NS merits))
+					  (MD would)
+					  (VB amount)
+					  (PP (P vnto)
+					      (NP *T*-1))))))
+	  (, ,)
+	  (VBD brake)
+	  (RP off)
+	  (NP-OB1 (D the) (N match))
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (ADVP (ADV perhaps))
+				  (PP (P when)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO$ his) (N Grace))
+						      (, ,)
+						      (CODE <paren>)
+						      (IP-MAT-PRN (NP-SBJ (PRO I))
+								  (VBP guesse)
+								  (CP-QUE (WNP-2 (WPRO who))
+									  (C 0)
+									  (IP-SUB (NP-OB1 *T*-2)
+										  (NP-SBJ (PRO he))
+										  (VBD meant))))
+						      (CODE <$$paren>)
+						      (MD should)
+						      (VB heare)
+						      (PP (P of)
+							  (NP (ONE one)
+							      (CP-REL (WNP-3 0)
+								      (C that)
+								      (IP-SUB (IP-SUB (NP-SBJ *T*-3)
+										      (VBD ate)
+										      (NP-OB1 (QP (ADVR so) (Q much))))
+									      (, ,)
+									      (CONJ and)
+									      (CONJP (IP-SUB (NP-SBJ *T*-3)
+											     (MD could)
+											     (VB worke)
+											     (NP-MSR (QP (ADVR so) (Q little))))))))))))
+				  (, ,)
+				  (NP-SBJ (PRO he))
+				  (VBD doubted)
+				  (CP-THT (C 0)
+					  (IP-SUB (NP-SBJ-4 (EX there))
+						  (MD would)
+						  (VB come)
+						  (NP-4 (D a)
+							(N command)
+							(IP-INF (TO to)
+								(VB hang)
+								(NP-OB1 (PRO him)))))))))
+	  (, :)
+	  (CP-CAR (WPP-5 (WADV+P whereupon))
+		  (C 0)
+		  (IP-SUB (PP *T*-5)
+			  (IP-SUB-6 (NP-SBJ (PRO$ our) (ADJ hopefull) (N+N Beare-garden) (N busines))
+				    (BED was)
+				    (VAN shiuerd))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=6 (VAN shatterd)
+					   (PP (P in)
+					       (NP (NS pieces)))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P2,1,147.C1.179))
+
+/~*
+and his eyes are sunke inward; as if hee looked into the inside of his
+intrayles, to note what custom'd or vncustom'd goods he tooke in, whilst his
+belly like a Maine-sayle in a calme hangs ruffled and wrinkled in folds and
+wrathes flat to the mast of his empty carkasse, till the storme of aboundance
+fills it, and violently driues it into the full sea of satisfaction.
+(JOTAYLOR-E2-P2,1,148.C1.207)
+*~/
+/*
+57 WNP-1:  57 WNP-1, 68 goods, 56 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO$ his) (NS eyes))
+	  (BEP are)
+	  (VAN sunke)
+	  (ADVP-DIR (P+WARD inward))
+	  (, ;)
+	  (PP (P as)
+	      (PP (P if)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (PRO hee))
+				  (VBD looked)
+				  (PP (P into)
+				      (NP (D the)
+					  (N inside)
+					  (PP (P of)
+					      (NP (PRO$ his) (NS intrayles)))))
+				  (, ,)
+				  (IP-INF-PRP (TO to)
+					      (VB note)
+					      (CP-QUE (WNP-1 (WD what)
+							     (ADJP (ADJ custom'd) (CONJ or) (ADJ vncustom'd))
+							     (NS goods))
+						      (C 0)
+						      (IP-SUB (NP-OB1 *T*-1)
+							      (NP-SBJ (PRO he))
+							      (VBD tooke)
+							      (RP in))))))))
+	  (, ,)
+	  (PP (P whilst)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO$ his) (N belly))
+			      (CODE <paren>)
+			      (ADJP-SPR (ADJ like)
+					(NP (D a)
+					    (N+N Maine-sayle)
+					    (PP (P in)
+						(NP (D a) (N calme)))))
+			      (CODE <$$paren>)
+			      (VBP hangs)
+			      (ADJP-SPR (VAN (VAN ruffled) (CONJ and) (VAN wrinkled))
+					(CODE <paren>)
+					(PP-PRN (P in)
+						(NP (NS folds) (CONJ and) (NS wrathes))))
+			      (CODE <$$paren>)
+			      (ADJP-SPR (ADJ flat)
+					(CODE <P_1,148.C1>)
+					(PP (P to)
+					    (NP (D the)
+						(N mast)
+						(PP (P of)
+						    (NP (PRO$ his) (ADJ empty) (N carkasse))))))
+			      (, ,)
+			      (PP (P till)
+				  (CP-ADV (C 0)
+					  (IP-SUB (IP-SUB (NP-SBJ (D the)
+								  (N storme)
+								  (PP (P of)
+								      (NP (N aboundance))))
+							  (VBP fills)
+							  (NP-OB1 (PRO it)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB (NP-SBJ *con*)
+								 (ADVP (ADV violently))
+								 (VBP driues)
+								 (NP-OB1 (PRO it))
+								 (PP (P into)
+								     (NP (D the)
+									 (ADJ full)
+									 (N sea)
+									 (PP (P of)
+									     (NP (N satisfaction)))))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P2,1,148.C1.207))
+
+/~*
+and yet it belongeth to the Byshop of Collin, where I did obserue in their
+Doome Kirke, or Cathedral Church, a Crowne of siluer 80. foote in Compasse,
+hanged vp in the body of the Church, in the circuit of which crowne were
+placed 160. waxe Candles, the which at Festiuall dayes, or at the celebration
+of some high Ceremonies are lighted to lighten their darknesse or their
+ignorance, chuse yee whether.
+(JOTAYLOR-E2-P2,3,93.C2.222)
+*~/
+/*
+235 WNP:  235 WNP, 237 whether, 234 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV yet))
+	  (NP-SBJ (PRO it))
+	  (VBP belongeth)
+	  (PP (P to)
+	      (NP (D the)
+		  (N Byshop)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Collin)))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-CAR (WADVP-1 (WADV where))
+		  (C 0)
+		  (IP-SUB (ADVP-LOC *T*-1)
+			  (NP-SBJ (PRO I))
+			  (DOD did)
+			  (VB obserue)
+			  (PP (P in)
+			      (NP (PRO$ their)
+				  (GERMAN (CODE <font>) (FW Doome) (FW Kirke) (CODE <$$font>))
+				  (, ,)
+				  (CONJP (CONJ or)
+					 (NX (N Cathedral) (N Church)))))
+			  (, ,)
+			  (NP-OB1 (D a)
+				  (N Crowne)
+				  (PP (P of)
+				      (NP (N siluer)))
+				  (RRC (NP-OB1 (NUM 80.)
+					       (N foote)
+					       (PP (P in)
+						   (NP (N Compasse)))))
+				  (, ,)
+				  (RRC (VAN hanged)
+				       (RP vp)
+				       (PP (P in)
+					   (NP (D the)
+					       (N body)
+					       (PP (P of)
+						   (NP (D the) (N Church)))))))
+			  (, ,)
+			  (CP-CAR (WPP-2 (P in)
+					 (WNP (D the)
+					      (N circuit)
+					      (WPP (P of)
+						   (WNP (WD which) (N crowne)))))
+				  (C 0)
+				  (IP-SUB (PP *T*-2)
+					  (NP-SBJ-3 *exp*)
+					  (BED were)
+					  (VAN placed)
+					  (NP-3 (NUM 160.)
+						(N waxe)
+						(NS Candles)
+						(, ,)
+						(CP-REL (WNP-4 (D the) (WPRO which))
+							(C 0)
+							(IP-SUB (NP-SBJ *T*-4)
+								(PP (PP (P at)
+									(NP (N Festiuall) (NS dayes)))
+								    (, ,)
+								    (CONJP (CONJ or)
+									   (PP (P at)
+									       (NP (D the)
+										   (N celebration)
+										   (PP (P of)
+										       (NP (Q some) (ADJ high) (NS Ceremonies)))))))
+								(BEP are)
+								(VAN lighted)
+								(IP-INF-PRP (TO to)
+									    (VB lighten)
+									    (NP-OB1 (NP (PRO$ their) (N darknesse))
+										    (CONJP (CONJ or)
+											   (NP (PRO$ their) (N ignorance))))
+									    (, ,)
+									    (IP-IMP-PRN (VBI chuse)
+											(NP-SBJ (PRO yee))
+											(CP-QUE (WNP (WPRO whether))))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P2,3,93.C2.222))
+
+/~*
+But now to close vp all, I will relate what rare dyet, excellent cookery, and
+sweet Lodging we had in our journey in Germany:
+(JOTAYLOR-E2-P2,3,98.C2.15.341)
+*~/
+/*
+27 WNP-1:  27 WNP-1, 51 Lodging, 26 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (ADVP-TMP (ADV now))
+	  (IP-INF-PRP (TO to)
+		      (VB close)
+		      (RP vp)
+		      (NP-OB1 (Q all)))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD will)
+	  (VB relate)
+	  (CP-QUE (WNP-1 (WD what)
+			 (ADJ rare)
+			 (N dyet)
+			 (, ,)
+			 (CONJP (NX (ADJ excellent) (N cookery)))
+			 (, ,)
+			 (CONJP (CONJ and)
+				(NX (ADJ sweet) (N Lodging))))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (HVD had)
+			  (PP (P in)
+			      (NP (PRO$ our)
+				  (N journey)
+				  (PP (P in)
+				      (CODE <font>)
+				      (NP (NPR Germany)))))))
+	  (CODE <$$font>)
+	  (. :))
+  (ID JOTAYLOR-E2-P2,3,98.C2.15.341))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd	10/10/368
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd	0/0/462
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd	0/0/444
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd
+*/
+
+/~*
+But Henry the vij. cumming to Reading, and asking what old house that was,
+thabbate told hym,
+(LELAND-E1-P2,110.158)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 39 house, 32 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (NPR Henry)
+				      (NP-PRN (D the) (NUM vij.)))
+			      (VAG cumming)
+			      (PP (P to)
+				  (NP (NPR Reading))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG asking)
+				     (CP-QUE (WNP-1 (WD what) (ADJ old) (N house))
+					     (C 0)
+					     (IP-SUB (NP-OB1 *T*-1)
+						     (NP-SBJ (D that))
+						     (BED was))))))
+	  (, ,)
+	  (NP-SBJ (D+N thabbate))
+	  (VBD told)
+	  (NP-OB2 (PRO hym))
+	  (. ,))
+  (ID LELAND-E1-P2,110.158))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd	1/1/428
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd
+*/
+
+/~*
+Ther ys allso a lytyll cave at the Auters ende wher they shette hym ynne tyll
+the Jewys had taken ther counsell and Determynyd what they wold Do with hym.
+(TORKINGT-E1-H,34.175)
+*~/
+/*
+75 WNP-4:  75 WNP-4, 77 what, 74 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX Ther))
+	  (BEP ys)
+	  (ALSO allso)
+	  (NP-1 (D a) (ADJ lytyll) (N cave))
+	  (PP (P at)
+	      (NP (NP-POS (D the) (N$ Auters))
+		  (N ende)
+		  (CP-REL (WADVP-2 (WADV wher))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-2)
+				  (NP-SBJ (PRO they))
+				  (VBD shette)
+				  (NP-OB1 (PRO hym))
+				  (RP ynne)
+				  (PP (P tyll)
+				      (CP-ADV (C 0)
+					      (IP-SUB (IP-SUB-3 (NP-SBJ (D the) (NPRS Jewys))
+								(HVD had)
+								(VBN taken)
+								(NP-OB1 (PRO$ ther) (N counsell)))
+						      (CONJP (CONJ and)
+							     (IP-SUB=3 (VBN Determynyd)
+								       (CP-QUE (WNP-4 (WPRO what))
+									       (C 0)
+									       (IP-SUB (NP-OB1 *T*-4)
+										       (NP-SBJ (PRO they))
+										       (MD wold)
+										       (DO Do)
+										       (PP (P with)
+											   (NP (PRO hym))))))))))))))
+	  (. .))
+  (ID TORKINGT-E1-H,34.175))
+
+/~*
+Off our cher and well entretyng at the rodys, And what Comfort was Don to vs,
+and Speciall that was seke and desesyd, by Sir Thomas Newporte, And Mayster
+William Weston, And Syr John Bowthe, and aftyrward by other Jentylmen of
+Englond ther, it war to long to wrytte.
+(TORKINGT-E1-H,57.317)
+*~/
+/*
+33 WNP-2:  33 WNP-2, 37 Comfort, 32 CP-QUE
+*/
+
+( (IP-MAT (PP-1 (PP (P Off)
+		    (NP (PRO$ our)
+			(N cher)
+			(CONJP (CONJ and)
+			       (NX (ADV well) (N entretyng)))
+			(PP (P at)
+			    (NP (D the) (NPR rodys)))))
+		(, ,)
+		(CONJP (CONJ And)
+		       (CP-QUE (WNP-2 (WD what) (N Comfort))
+			       (C 0)
+			       (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+						 (BED was)
+						 (DAN Don)
+						 (PP (P to)
+						     (NP (NP (PRO vs))
+							 (, ,)
+							 (CONJP (CONJ and)
+								(ADVP (ADV Speciall))
+								(NP (CP-FRL (WNP-4 0)
+									    (C that)
+									    (IP-SUB (NP-SBJ *T*-4)
+										    (BED was)
+										    (ADJP (ADJ seke) (CONJ and) (ADJ desesyd))))))))
+						 (, ,)
+						 (PP (P by)
+						     (NP (NP (NPR Sir) (NPR Thomas) (NPR Newporte))
+							 (, ,)
+							 (CONJP (CONJ And)
+								(NP (NPR Mayster) (NPR William) (NPR Weston)))
+							 (, ,)
+							 (CONJP (CONJ And)
+								(NP (NPR Syr) (NPR John) (NPR Bowthe))))))
+				       (, ,)
+				       (CONJP (CONJ and)
+					      (IP-SUB=3 (ADVP-TMP (ADV+WARD aftyrward))
+							(PP (P by)
+							    (NP (OTHER other)
+								(ADJ+NS Jentylmen)
+								(PP (P of)
+								    (NP (NPR Englond)))
+								(ADVP-LOC (ADV ther))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BED war)
+	  (ADJP (ADVR to)
+		(ADJ long)
+		(CP-DEG (IP-INF (PP *ICH*-1)
+				(TO to)
+				(VB wrytte))))
+	  (. .))
+  (ID TORKINGT-E1-H,57.317))
+
+/~*
+we made to wardes them, for to have Spoke with som of them to know what
+Tydyngs they browgh owt of ffraunce,
+(TORKINGT-E1-H,58.335)
+*~/
+/*
+45 WNP-1:  45 WNP-1, 49 Tydyngs, 44 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO we))
+	  (VBD made)
+	  (PP (P (P21 to) (P22 wardes))
+	      (NP (PRO them)))
+	  (, ,)
+	  (IP-INF-PRP (FOR for)
+		      (TO to)
+		      (HV have)
+		      (VBN Spoke)
+		      (PP (P with)
+			  (NP (Q som)
+			      (PP (P of)
+				  (NP (PRO them)))))
+		      (IP-INF-PRP (TO to)
+				  (VB know)
+				  (CP-QUE (WNP-1 (WD what) (NS Tydyngs))
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-1)
+						  (NP-SBJ (PRO they))
+						  (VBD browgh)
+						  (PP (RP owt)
+						      (P of)
+						      (NP (NPR ffraunce)))))))
+	  (. ,))
+  (ID TORKINGT-E1-H,58.335))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd	3/3/457
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd
+*/
+
+/~*
+Also in the myddes of that Chapell ys the Place wher the holy crosse was
+provyd by resyng of a Dede man whanne they wer in Dowte whiche it was of the
+thre.
+(TORKINGT-E1-P1,41.427)
+*~/
+/*
+82 WNP-2:  82 WNP-2, 86 *ICH*-3, 81 CP-QUE
+*/
+
+( (IP-MAT (ALSO Also)
+	  (PP (P in)
+	      (NP (D the)
+		  (N myddes)
+		  (PP (P of)
+		      (NP (D that) (N Chapell)))))
+	  (BEP ys)
+	  (NP-SBJ (D the)
+		  (N Place)
+		  (CP-REL (WADVP-1 (WADV wher))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (D the) (ADJ holy) (NPR crosse))
+				  (BED was)
+				  (VAN provyd)
+				  (PP (P by)
+				      (NP (N resyng)
+					  (PP (P of)
+					      (NP (D a) (ADJ Dede) (N man)))))
+				  (PP (P whanne)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO they))
+						      (BED wer)
+						      (PP (P in)
+							  (NP (N Dowte)
+							      (CP-QUE (WNP-2 (WPRO whiche)
+									     (PP *ICH*-3))
+								      (C 0)
+								      (IP-SUB (NP-OB1 *T*-2)
+									      (NP-SBJ (PRO it))
+									      (BED was))
+								      (PP-3 (P of)
+									    (NP (D the) (NUM thre))))))))))))
+	  (. .))
+  (ID TORKINGT-E1-P1,41.427))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd	1/1/474
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd	0/0/150
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd	2/2/321
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd	6/6/320
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd	6/6/326
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd	4/4/355
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd	2/2/347
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd	0/0/367
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd	0/0/361
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd	2/2/231
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd	2/2/213
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd	3/3/202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd	3/3/348
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd	5/4/416
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd	10/10/368
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd	0/0/462
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd	0/0/444
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd	1/1/428
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd	3/3/457
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd	1/1/474
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd	0/0/150
+whole search, hits/tokens/total
+		50/49/6590
+*/

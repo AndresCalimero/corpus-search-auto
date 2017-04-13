@@ -1,0 +1,256 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:48:54 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_a_generic_predicate.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_a_generic_predicate\bible_and_apocrypha\result.out
+
+node:   CPX*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (CPX* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd	0/0/135
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd	0/0/537
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd	0/0/635
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd	0/0/383
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd	0/0/154
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd	0/0/120
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd
+*/
+
+/~*
+swa swa growende wyrta ic hi bet+ace ealle eow. Butan +dam anum +d+at ge
+fl+asc mid blode ne eton.
+(cootest,Gen:9.4.376)
+*~/
+/*
+10 VAG:  10 VAG, 11 growende, 7 CPX-CMP-SPE
+*/
+( (IP-MAT-SPE (PP (ADV swa)
+		  (P swa)
+		  (CPX-CMP-SPE (IPX-SUB-SPE (NP (VAG growende) (N wyrta)))))
+	      (NP-NOM (PRO^N ic))
+	      (NP-ACC (PRO^A hi))
+	      (VBP bet+ace)
+	      (QP-ACC (Q^A ealle)
+		      (PP *ICH*-1))
+	      (NP (PRO eow))
+	      (, .)
+	      (CODE <T06210020000,9.4>)
+	      (PP-1 (P Butan)
+		    (NP-DAT (D^D +dam)
+			    (NUM^D anum)
+			    (CP-THT-PRN-SPE (C +d+at)
+					    (IP-SUB-SPE (NP-NOM (PRO^N ge))
+							(NP-ACC (N^A fl+asc)
+								(PP (P mid)
+								    (NP-DAT (N^D blode))))
+							(NEG ne)
+							(VBPS eton)))))
+	      (. .))
+  (ID cootest,Gen:9.4.376))
+
+/~*
+& ferde swylce an ofen eal smociende,
+(cootest,Gen:15.17.588)
+*~/
+/*
+22 VAG^N:  22 VAG^N, 23 smociende, 11 CPX-CMP
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM *con*)
+	  (VBD ferde)
+	  (PP (P swylce)
+	      (CPX-CMP (IPX-SUB (NP-NOM (NUM^N an)
+					(N^N ofen)
+					(PTP-NOM (QP (Q eal))
+						 (VAG^N smociende))))))
+	  (. ,))
+  (ID cootest,Gen:15.17.588))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd	2/2/5812
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd	0/0/277
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd
+*/
+
+/~*
+& +tonne ge eow gebiddon ne beo ge swylce liceteras +ta lufia+d +t+at hig
+gebiddon hi standende on gesomnungum & str+ata hyrnum +t+at men hig geseon;
+(cowsgosp,Mt_[WSCp]:6.5.295)
+*~/
+/*
+59 VAG^N:  59 VAG^N, 60 standende, 30 CPX-CMP-SPE
+*/
+
+( (CODE <T06410014900,6.5>)
+  (IP-MAT-SPE (CONJ &)
+	      (CP-ADV-SPE (P +tonne)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ge))
+				      (NP-RFL (PRO eow))
+				      (VBPS gebiddon)))
+	      (NEG ne)
+	      (BEP beo)
+	      (NP-NOM (PRO^N ge))
+	      (PP (P swylce)
+		  (CPX-CMP-SPE (IPX-SUB-SPE (NP-NOM (N^N liceteras)
+						    (CP-REL-SPE (WNP-NOM-2 (D^N +ta))
+								(C 0)
+								(IP-SUB-SPE (NP-NOM *T*-2)
+									    (VBPI lufia+d)
+									    (CP-THT-SPE (C +t+at)
+											(IP-SUB-SPE (NP-NOM (PRO^N hig))
+												    (VBPS gebiddon)
+												    (NP-ACC-RFL (PRO^A hi))
+												    (PTP-NOM (VAG^N standende)
+													     (PP (P on)
+														 (NP-DAT (NP-DAT (N^D gesomnungum))
+															 (CONJP (CONJ &)
+																(NP-DAT (NP-GEN (N^G str+ata))
+																	(N^D hyrnum))))))))
+									    (CP-ADV-SPE (C +t+at)
+											(IP-SUB-SPE (NP-NOM (N^N men))
+												    (NP-ACC (PRO^A hig))
+												    (VBPS geseon)))))))))
+	      (. ;))
+  (ID cowsgosp,Mt_[WSCp]:6.5.295))
+
+/~*
+Betere +te is mid anum eagan gan on Godes rice +tonne twa eagan h+abbende sy
+aworpen on helle fyr.
+(cowsgosp,Mk_[WSCp]:9.47.2911)
+*~/
+/*
+55 HAG^N:  55 HAG^N, 56 h+abbende, 45 CPX-THT-SPE
+*/
+
+( (IP-MAT-SPE-0 (NP-NOM-x *exp*)
+		(ADJP-NOM-PRD (ADJR^N Betere)
+			      (PP *ICH*-1))
+		(NP-DAT (PRO^D +te))
+		(BEPI is)
+		(IP-INF-SPE-x (PP (P mid)
+				  (NP-DAT (NUM^D anum) (N^D eagan)))
+			      (VB gan)
+			      (PP (P on)
+				  (NP (NP-GEN (NR^G Godes))
+				      (N rice))))
+		(PP-1 (P +tonne)
+		      (CP-CMP-SPE (WADJP-2 0)
+				  (C 0)
+				  (IPX-SUB-SPE=0 (ADJP-PRD *T*-2)
+						 (CPX-THT-SPE (IP-SUB-SPE (NP-NOM *pro*)
+									  (PTP-NOM (NP-ACC (NUM^A twa) (N^A eagan))
+										   (HAG^N h+abbende))
+									  (BEPS sy)
+									  (VBN aworpen)
+									  (PP (P on)
+									      (NP-ACC (NP-GEN (N^G helle))
+										      (N^A fyr))))))))
+		(. .))
+  (ID cowsgosp,Mk_[WSCp]:9.47.2911))
+
+/~*
+& his swat w+as swylce blodes dropan on eor+dan yrnende.
+(cowsgosp,Lk_[WSCp]:22.43.5486)
+*~/
+/*
+29 VAG^N:  29 VAG^N, 30 yrnende, 14 CPX-CMP
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-NOM (PRO$ his) (N^N swat))
+	  (BEDI w+as)
+	  (PP (P swylce)
+	      (CPX-CMP (IPX-SUB (NP-NOM (NP-GEN (N^G blodes))
+					(N^N dropan)
+					(PTP-NOM (PP (P on)
+						     (NP (N eor+dan)))
+						 (VAG^N yrnende))))))
+	  (. .))
+  (ID cowsgosp,Lk_[WSCp]:22.43.5486))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd	3/3/7515
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd	0/0/135
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd	0/0/537
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd	0/0/635
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd	0/0/383
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd	0/0/154
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd	0/0/120
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd	2/2/5812
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd	0/0/277
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd	3/3/7515
+whole search, hits/tokens/total
+		5/5/15568
+*/

@@ -1,0 +1,156 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:47:00 BST 2017
+
+command file:     data\searches\queries\YCOE\attributive_adjetives.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\attributive_adjetives\science_astronomy_geography\result.out
+
+node:   $ROOT|ADJ|ADJR|ADJS|ADJX
+query:  (ADJ|ADJR|ADJS|ADJX Dominates  !ADJ|ADJR|ADJS|ADJX) 
+  AND  (ADJ|ADJR|ADJS|ADJX Precedes  N|NR|NX) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd
+*/
+
+/~*
+On +t+are ylcan stowe we onfengon myrran +t+at ys m+are wyrtgemang mid +tam
+man smyra+d ricra manna lic +t+at hig rotian ne magon and gutta +t+at ys
+hunigswete dropa, gif se adliga hyre ge+tig+d he sona arist and thus +t+at ys
+stor.
+(cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.153.118)
+*~/
+/*
+33 ADJ:  33 ADJ, 34 m+are, 35 N
+33 ADJ:  33 ADJ, 34 m+are, 95 N
+33 ADJ:  33 ADJ, 34 m+are, 142 N
+93 ADJ:  93 ADJ, 94 hunigswete, 95 N
+93 ADJ:  93 ADJ, 94 hunigswete, 142 N
+*/
+( (CODE <T22710008400,1.1.153>)
+  (IP-MAT (PP (P On)
+	      (NP-DAT (D^D +t+are) (ADJ^D ylcan) (N^D stowe)))
+	  (NP-NOM (PRO^N we))
+	  (RP+VBDI onfengon)
+	  (NP (NP (FW myrran)
+		  (CODE <paren>)
+		  (IP-MAT-PRN (NP-NOM (D^N +t+at))
+			      (BEPI ys)
+			      (XP (NP (ADJ m+are)
+				      (N wyrtgemang)
+				      (CP-REL (WPP-1 (P mid)
+						     (NP-DAT (D^D +tam)))
+					      (C 0)
+					      (IP-SUB (PP *T*-1)
+						      (NP-NOM (MAN^N man))
+						      (VBPI smyra+d)
+						      (NP-ACC (NP-GEN (ADJ^G ricra) (N^G manna))
+							      (N^A lic))
+						      (CP-ADV (C +t+at)
+							      (IP-SUB (NP-NOM (PRO^N hig))
+								      (VB rotian)
+								      (NEG ne)
+								      (MDPI magon))))))))
+		  (CODE </paren>))
+	      (CONJP (CONJ and)
+		     (NP (FW gutta)
+			 (CODE <paren>)
+			 (IP-MAT-PRN (NP-NOM (D^N +t+at))
+				     (BEPI ys)
+				     (XP (NP (ADJ hunigswete) (N dropa)))
+				     (, ,)
+				     (IP-MAT-PRN (CP-ADV (P gif)
+							 (C 0)
+							 (IP-SUB (NP-NOM (D^N se) (N^N adliga))
+								 (NP-DAT (PRO^D hyre))
+								 (VBPI ge+tig+d)))
+						 (NP-NOM (PRO^N he))
+						 (ADVP-TMP (ADV^T sona))
+						 (VBPI arist)))
+			 (CODE </paren>)))
+	      (CONJP (CONJ and)
+		     (NP (FW thus)
+			 (CODE <paren>)
+			 (IP-MAT-PRN (NP-NOM (D^N +t+at))
+				     (BEPI ys)
+				     (XP (NP (N stor))))
+			 (CODE </paren>))))
+	  (. .))
+  (ID cobyrhtf,ByrM_1_[Baker-Lapidge]:1.1.153.118))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	2/1/813
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd
+*/
+
+/~*
+Autumnus is h+arfest, se h+af+d o+dre emnihte.
+(cotempo,+ATemp:4.39.162)
+*~/
+/*
+26 ADJ:  26 ADJ, 27 o+dre, 28 N
+*/
+
+( (CODE <T03990011700,4.39>)
+  (IP-MAT (NP-NOM (FW Autumnus))
+	  (BEPI is)
+	  (NP-NOM-PRD (N^N h+arfest)
+		      (, ,)
+		      (CP-REL (WNP-NOM-1 (D^N se))
+			      (C 0)
+			      (IP-SUB (NP-NOM *T*-1)
+				      (HVPI h+af+d)
+				      (NP (ADJ o+dre) (N emnihte)))))
+	  (. .))
+  (ID cotempo,+ATemp:4.39.162))
+
+/~*
+& for+di h+af+d scyrtran sceade +tonne seo sunne.
+(cotempo,+ATemp:4.50.180)
+*~/
+/*
+12 ADJR:  12 ADJR, 13 scyrtran, 14 N
+*/
+
+( (IP-MAT-0 (CONJ &)
+	    (NP-NOM *con*)
+	    (ADVP (ADV for+di))
+	    (HVPI h+af+d)
+	    (NP (ADJR scyrtran)
+		(N sceade)
+		(PP (P +tonne)
+		    (CP-CMP (WNP-1 0)
+			    (C 0)
+			    (IPX-SUB=0 (NP *T*-1)
+				       (NP-NOM (D^N seo) (N^N sunne))))))
+	    (. .))
+  (ID cotempo,+ATemp:4.50.180))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	2/2/384
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cobyrhtf.o3.psd	2/1/813
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\comarvel.o23.psd	0/0/163
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\science_astronomy_geography\cotempo.o3.psd	2/2/384
+whole search, hits/tokens/total
+		4/3/1360
+*/

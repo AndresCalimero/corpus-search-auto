@@ -1,0 +1,198 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:49 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_prepositional_phrases_appositive_parenthetical.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_prepositional_phrases_appositive_parenthetical\biography_and_diaries\result.out
+
+node:   PP-*PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (PP-*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	0/0/930
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	0/0/882
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	0/0/344
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	0/0/359
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	0/0/606
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	0/0/927
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	0/0/534
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	0/0/645
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd
+*/
+
+/~*
+He said that he believed the elegant conciseness and strength of the Latin and
+Greek tongues is almost wholly owing to their ellipses, viz. their leaving out
+some words which in our modern languages we are obliged to express.
+(RYDER-1716,163.57)
+*~/
+/*
+75 VAG:  75 VAG, 76 leaving, 67 PP-PRN
+*/
+( (IP-MAT (NP-SBJ (PRO He))
+	  (VBD said)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (VBD believed)
+			  (CP-THT (C 0)
+				  (IP-SUB (NP-SBJ (D the)
+						  (ADJ elegant)
+						  (N conciseness)
+						  (CONJP (CONJ and)
+							 (NX (N strength)))
+						  (PP (P of)
+						      (NP (D the)
+							  (ADJP (ADJ Latin) (CONJ and) (ADJ Greek))
+							  (NS tongues))))
+					  (BEP is)
+					  (ADVP (ADV almost) (ADV wholly))
+					  (VAG owing)
+					  (PP (P to)
+					      (NP (PRO$ their)
+						  (NS ellipses)
+						  (, ,)
+						  (PP-PRN (P (FW viz.))
+							  (NP (PRO$ their)
+							      (IP-PPL (VAG leaving)
+								      (RP out)
+								      (NP-OB1 (Q some)
+									      (NS words)
+									      (CP-REL (WNP-1 (WPRO which))
+										      (C 0)
+										      (IP-SUB (PP (P in)
+												  (NP (PRO$ our) (ADJ modern) (NS languages)))
+											      (NP-SBJ (PRO we))
+											      (BEP are)
+											      (ADJP (VAN obliged)
+												    (IP-INF (NP-OB1 *T*-1)
+													    (TO to)
+													    (VB express)))))))))))))))
+	  (. .))
+  (ID RYDER-1716,163.57))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	1/1/689
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	0/0/592
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	0/0/784
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	0/0/563
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	0/0/727
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	0/0/930
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	0/0/882
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	0/0/344
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	0/0/359
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	0/0/606
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	0/0/927
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	0/0/534
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	0/0/645
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	1/1/689
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	0/0/592
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	0/0/784
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	0/0/563
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	0/0/727
+whole search, hits/tokens/total
+		1/1/8582
+*/

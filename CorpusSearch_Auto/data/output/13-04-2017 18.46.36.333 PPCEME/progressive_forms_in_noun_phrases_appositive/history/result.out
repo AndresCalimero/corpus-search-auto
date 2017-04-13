@@ -1,0 +1,959 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:04 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_appositive\history\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd
+*/
+
+/~*
+and was a good chemist, and much set on several preparations of mercury,
+chiefly the fixing it.
+(BURNETCHA-E3-H,1.1,167.24)
+*~/
+/*
+48 VAG:  48 VAG, 49 fixing, 42 NP-PRN
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (NP-OB1 (NP (D a) (ADJ good) (N chemist))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (ADJP (Q much)
+			       (VAN set)
+			       (PP (P on)
+				   (NP (Q several)
+				       (NS preparations)
+				       (PP (P of)
+					   (NP (N mercury)))
+				       (, ,)
+				       (NP-PRN (ADV chiefly)
+					       (D the)
+					       (IP-PPL (VAG fixing)
+						       (NP-OB1 (PRO it)))))))))
+	  (. .))
+  (ID BURNETCHA-E3-H,1.1,167.24))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	1/1/376
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd
+*/
+
+/~*
+The earl of Manchester was made lord chamberlain: a man of a soft and obliging
+temper, of no great depth, but universally beloved, being both a virtuous and
+a generous man.
+(BURNETCHA-E3-P1,1,175.22)
+*~/
+/*
+46 VAG:  46 VAG, 47 obliging, 29 NP-PRN-2
+*/
+
+( (IP-ABS (NP-SBJ-1 (D The)
+		    (N earl)
+		    (PP (P of)
+			(NP (NPR Manchester)))
+		    (NP-PRN *ICH*-2))
+	  (BED was)
+	  (VAN made)
+	  (IP-SMC (NP-SBJ *-1)
+		  (NP-OB1 (N lord) (N chamberlain)))
+	  (, :)
+	  (NP-PRN-2 (D a)
+		    (N man)
+		    (PP (PP (P of)
+			    (NP (D a)
+				(ADJP (ADJ soft) (CONJ and) (VAG obliging))
+				(N temper)))
+			(, ,)
+			(CONJP (PP (P of)
+				   (NP (Q no) (ADJ great) (N depth))))
+			(, ,)
+			(CONJP (CONJ but)
+			       (ADJP (ADV universally) (VAN beloved)))))
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (NP-OB1 (CONJ both)
+			  (NP (D a) (ADJ virtuous))
+			  (CONJP (CONJ and)
+				 (NP (D a) (ADJ generous) (N man)))))
+	  (. .))
+  (ID BURNETCHA-E3-P1,1,175.22))
+
+/~*
+He took care to raise his kinsman Grenville, who was made earl of Bath, and
+groom of the stole, a mean minded man, who thought of nothing but of getting
+and spending money;
+(BURNETCHA-E3-P1,1,178.40)
+*~/
+/*
+106 VAG:  106 VAG, 107 getting, 69 NP-PRN
+110 VAG:  110 VAG, 111 spending, 69 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (VBD took)
+	  (NP-OB1 (N care))
+	  (IP-INF (TO to)
+		  (VB raise)
+		  (NP-OB1 (PRO$ his)
+			  (N kinsman)
+			  (NP-PRN (NPR Grenville))
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BED was)
+					  (VAN made)
+					  (IP-SMC (NP-SBJ *T*-1)
+						  (NP-OB1 (NP (N earl)
+							      (PP (P of)
+								  (NP (NPR Bath))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (NP (N groom)
+								     (PP (P of)
+									 (NP (D the) (NPR stole)))))))))
+			  (, ,)
+			  (NP-PRN (D a)
+				  (ADJ (ADJ21 mean) (ADJ22 minded))
+				  (N man)
+				  (, ,)
+				  (CP-REL (WNP-2 (WPRO who))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (VBD thought)
+						  (PP (P of)
+						      (NP (Q+N nothing)
+							  (PP (P but)
+							      (PP (P of)
+								  (IP-PPL (VAG (VAG getting) (CONJ and) (VAG spending))
+									  (NP-OB1 (N money))))))))))))
+	  (. ;))
+  (ID BURNETCHA-E3-P1,1,178.40))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	3/2/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	0/0/330
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	0/0/220
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd
+*/
+
+/~*
+When they were come, and had setled themselves to attentione, Doctor Heath,
+Archbishop of Yorke, and Lord Chauncelor of England, with a composed
+countenance and voice, as neither glad at the death of the old Prince, nor
+discontended at the new, declared to them the assured advertisement of the
+death of the Queene: That albeit the Parliament by this heavy accident did
+dissolve, yet for that they had bin elected to represent the common people of
+the Realme, and to deale for them in matters of estate, they could noe waye
+better dischardge that trust, then in joyninge with the Lords to publish the
+next Successour to the Crowne: That the right and title of Lady Elizabeth,
+sister to the deceased Queene, and onely daughter then surviving of King Henry
+the Eighth, was esteemed by the Lords free from all quarrell, free from all
+questione and doubt: that in no case expeditione is more expedient, than in
+these high passages of State, for extinguishing as well the vayne hopes of
+enemyes, as the false and needelesse feares of friendes: that for this cause
+the Lords had desired their presence, that, with joynt consent of the whole
+assembly, the Lady Elizabeth might forthwith be proclaymed Queene.
+(HAYWARD-E2-H,3.5)
+*~/
+/*
+393 VAG:  393 VAG, 394 surviving, 365 NP-PRN
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+				      (BED were)
+				      (VBN come))
+			      (, ,)
+			      (CONJP (IP-SUB (CONJ and)
+					     (NP-SBJ *con*)
+					     (HVD had)
+					     (VBN setled)
+					     (NP-OB1 (PRO+N themselves))
+					     (PP (P to)
+						 (NP (N attentione))))))))
+	  (, ,)
+	  (NP-SBJ (NPR Doctor)
+		  (NPR Heath)
+		  (, ,)
+		  (NP-PRN (NP (N Archbishop)
+			      (PP (P of)
+				  (NP (NPR Yorke))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (N Lord)
+				     (N Chauncelor)
+				     (PP (P of)
+					 (NP (NPR England)))))))
+	  (, ,)
+	  (PP (P with)
+	      (NP (D a)
+		  (ADJ composed)
+		  (N countenance)
+		  (CONJP (CONJ and)
+			 (NX (N voice)))))
+	  (, ,)
+	  (PP (P as)
+	      (ADJP (CONJ neither)
+		    (ADJP (ADJ glad)
+			  (PP (P at)
+			      (NP (D the)
+				  (N death)
+				  (PP (P of)
+				      (NP (D the) (ADJ old) (N Prince))))))
+		    (, ,)
+		    (CONJP (CONJ nor)
+			   (ADJP (ADJ discontended)
+				 (PP (P at)
+				     (NP (D the) (ADJ new)))))))
+	  (, ,)
+	  (VBD declared)
+	  (PP (P to)
+	      (NP (PRO them)))
+	  (NP-OB1 (D the)
+		  (VAN assured)
+		  (N advertisement)
+		  (PP (P of)
+		      (NP (D the)
+			  (N death)
+			  (PP (P of)
+			      (NP (D the) (N Queene))))))
+	  (, :)
+	  (CP-THT (CP-THT (C That)
+			  (IP-SUB (PP-LFD (P albeit)
+					  (CP-ADV (C 0)
+						  (IP-SUB (NP-SBJ (D the) (N Parliament))
+							  (PP (P by)
+							      (NP (D this) (ADJ heavy) (N accident)))
+							  (DOD did)
+							  (VB dissolve))))
+				  (, ,)
+				  (ADVP-RSP (ADV yet))
+				  (PP (P for)
+				      (CP-ADV (C that)
+					      (IP-SUB (NP-SBJ (PRO they))
+						      (HVD had)
+						      (BEN bin)
+						      (VAN elected)
+						      (IP-INF (IP-INF (TO to)
+								      (VB represent)
+								      (NP-OB1 (D the)
+									      (ADJ common)
+									      (NS people)
+									      (CODE <P_3>)
+									      (PP (P of)
+										  (NP (D the) (N Realme)))))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (IP-INF (TO to)
+									     (VB deale)
+									     (PP (P for)
+										 (NP (PRO them)))
+									     (PP (P in)
+										 (NP (NS matters)
+										     (PP (P of)
+											 (NP (N estate))))))))))
+				      (, ,)
+				      (NP-SBJ (PRO they))
+				      (MD could)
+				      (ADVP (NP-ADV (Q noe) (N waye))
+					    (ADVR better)
+					    (PP *ICH*-1))
+				      (VB dischardge)
+				      (NP-OB1 (D that) (N trust))
+				      (, ,)
+				      (PP-1 (P then)
+					    (PP (P in)
+						(IP-PPL (VAG joyninge)
+							(PP (P with)
+							    (NP (D the) (NS Lords)))
+							(IP-INF (TO to)
+								(VB publish)
+								(NP-OB1 (D the)
+									(ADJS next)
+									(N Successour)
+									(PP (P to)
+									    (NP (D the) (N Crowne)))))))))))
+		  (, :)
+		  (CONJP (CP-THT (C That)
+				 (IP-SUB (NP-SBJ (D the)
+						 (N right)
+						 (CONJP (CONJ and)
+							(NX (N title)))
+						 (PP (P of)
+						     (NP (NPR Lady)
+							 (NPR Elizabeth)
+							 (, ,)
+							 (NP-PRN (NP (N sister)
+								     (PP (P to)
+									 (NP (D the) (VBN deceased) (N Queene))))
+								 (, ,)
+								 (CONJP (CONJ and)
+									(NP (ADJ onely)
+									    (N daughter)
+									    (RRC (ADVP-TMP (ADV then))
+										 (VAG surviving)
+										 (PP (P of)
+										     (NP (NPR King)
+											 (NPR Henry)
+											 (ADJP (D the) (ADJ Eighth)))))))))))
+					 (, ,)
+					 (BED was)
+					 (VAN esteemed)
+					 (PP (P by)
+					     (NP (D the) (NS Lords)))
+					 (ADJP (ADJP (ADJ free)
+						     (PP (P from)
+							 (NP (Q all) (N quarrell))))
+					       (, ,)
+					       (CONJP (ADJP (ADJ free)
+							    (PP (P from)
+								(NP (Q all)
+								    (N questione)
+								    (CONJP (CONJ and)
+									   (NX (N doubt)))))))))))
+		  (, :)
+		  (CONJP (CP-THT (C that)
+				 (IP-SUB (PP (P in)
+					     (NP (Q no) (N case)))
+					 (NP-SBJ (N expeditione))
+					 (BEP is)
+					 (ADJP (QR more)
+					       (ADJ expedient)
+					       (, ,)
+					       (PP (P than)
+						   (PP (P in)
+						       (NP (D these)
+							   (ADJ high)
+							   (NS passages)
+							   (PP (P of)
+							       (NP (N State)))))))
+					 (, ,)
+					 (PP (P for)
+					     (IP-PPL (VAG extinguishing)
+						     (ADVP (ADVR as)
+							   (ADV well)
+							   (PP *ICH*-2))
+						     (NP-OB1 (D the)
+							     (ADJ vayne)
+							     (NS hopes)
+							     (PP (P of)
+								 (NP (NS enemyes))))
+						     (, ,)
+						     (PP-2 (P as)
+							   (NP (D the)
+							       (ADJP (ADJ false) (CONJ and) (ADJ needelesse))
+							       (NS feares)
+							       (PP (P of)
+								   (NP (NS friendes))))))))))
+		  (, :)
+		  (CONJP (CP-THT (C that)
+				 (IP-SUB (PP (P for)
+					     (NP (D this)
+						 (N cause)
+						 (CP-THT-PRN *ICH*-3)))
+					 (NP-SBJ (D the) (NS Lords))
+					 (HVD had)
+					 (VBN desired)
+					 (NP-OB1 (PRO$ their) (N presence))
+					 (, ,)
+					 (CP-THT-PRN-3 (C that)
+						       (, ,)
+						       (IP-SUB (PP (P with)
+								   (NP (ADJ joynt)
+								       (N consent)
+								       (PP (P of)
+									   (NP (D the) (ADJ whole) (N assembly)))))
+							       (, ,)
+							       (NP-SBJ-4 (D the)
+									 (N Lady)
+									 (NP-PRN (NPR Elizabeth)))
+							       (MD might)
+							       (ADVP-TMP (ADV forthwith))
+							       (BE be)
+							       (VAN proclaymed)
+							       (IP-SMC (NP-SBJ *-4)
+								       (NP-OB1 (N Queene)))))))))
+	  (. .))
+  (ID HAYWARD-E2-H,3.5))
+
+/~*
+her haire was inclined to pale yellow, her foreheade large and faire, a
+seemeing sete for princely grace; her eyes lively and sweete, but
+short-sighted; her nose somewhat rising in the middest; the whole compasse of
+her countenance somewhat long, but yet of admirable beauty, not so much in
+that which is tearmed the flower of youth, as in a most delightfull
+compositione of majesty and modesty in equall mixture.
+(HAYWARD-E2-H,7.48)
+*~/
+/*
+41 VAG:  41 VAG, 42 seemeing, 38 NP-PRN
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO$ her) (N haire))
+		    (BED was)
+		    (VAN inclined)
+		    (PP (P to)
+			(NP (ADJ pale) (ADJ yellow))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (NP-SBJ (PRO$ her) (N foreheade))
+			   (ADJP (ADJ large) (CONJ and) (ADJ faire))
+			   (, ,)
+			   (NP-PRN (D a)
+				   (VAG seemeing)
+				   (N sete)
+				   (PP (P for)
+				       (NP (ADJ princely) (N grace))))))
+	  (, ;)
+	  (CONJP (IP-MAT=1 (NP-SBJ (PRO$ her) (NS eyes))
+			   (ADJP (ADJP (ADJ lively) (CONJ and) (ADJ sweete))
+				 (, ,)
+				 (CONJP (CONJ but)
+					(ADJP (ADJ short-sighted))))))
+	  (, ;)
+	  (CONJP (IP-MAT=1 (NP-SBJ (PRO$ her) (N nose))
+			   (NP-MSR (Q+WPRO somewhat))
+			   (VAG rising)
+			   (PP (P in)
+			       (NP (D the) (N middest)))))
+	  (, ;)
+	  (CONJP (IP-MAT=1 (NP-SBJ (D the)
+				   (ADJ whole)
+				   (N compasse)
+				   (PP (P of)
+				       (NP (PRO$ her) (N countenance))))
+			   (ADJP (ADJP (NP-MSR (Q+WPRO somewhat))
+				       (ADJ long))
+				 (, ,)
+				 (CONJP (CONJ but)
+					(ADVP (ADV yet))
+					(PP (P of)
+					    (NP (ADJ admirable) (N beauty))))
+				 (, ,)
+				 (QP (NEG not)
+				     (ADVR so)
+				     (Q much)
+				     (PP (P in)
+					 (NP (D that)
+					     (CP-REL (WNP-2 (WPRO which))
+						     (C 0)
+						     (IP-SUB (NP-SBJ *T*-2)
+							     (BEP is)
+							     (VAN tearmed)
+							     (NP-OB1 (D the)
+								     (N flower)
+								     (PP (P of)
+									 (NP (N youth))))))))
+				     (, ,)
+				     (PP (P as)
+					 (PP (P in)
+					     (NP (D a)
+						 (ADJP (QS most) (ADJ delightfull))
+						 (N compositione)
+						 (PP (P of)
+						     (NP (N majesty) (CONJ and) (N modesty)))
+						 (PP (P in)
+						     (NP (ADJ equall) (N mixture))))))))))
+	  (. .))
+  (ID HAYWARD-E2-H,7.48))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	2/2/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	0/0/212
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	0/0/195
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	0/0/207
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd
+*/
+
+/~*
+Sigebert surnam'd the small, being the Son of Seward, without other memory of
+his Reign, left his Son King of that Province, after him Sigebert the Second,
+who coming oft'n to visit Oswi his great friend, was by him at several times
+fervently disuaded from Idolatry, and convinc't at length to forsake it, was
+there baptiz'd; on his return home taking with him Kedda a laborious Preacher,
+afterwards made Bishop; by whose teaching with some help of others, the people
+were again recoverd from misbeleef.
+(MILTON-E3-P1,X,165.155)
+*~/
+/*
+113 VAG:  113 VAG, 114 coming, 90 NP-PRN-1
+214 VAG:  214 VAG, 215 taking, 90 NP-PRN-1
+*/
+
+( (IP-MAT (CODE <font>)
+	  (NP-SBJ (NPR Sigebert)
+		  (CODE <$$font>)
+		  (RRC (VAN surnam'd)
+		       (IP-SMC (NP-SBJ *)
+			       (NP-OB1 (D the) (ADJ small)))))
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (NP-OB1 (D the)
+			  (N Son)
+			  (PP (P of)
+			      (CODE <font>)
+			      (NP (NPR Seward))))
+		  (CODE <$$font>)
+		  (, ,)
+		  (PP (P without)
+		      (NP (OTHER other)
+			  (N memory)
+			  (PP (P of)
+			      (NP (PRO$ his) (N Reign))))))
+	  (, ,)
+	  (VBD left)
+	  (NP-OB1 (PRO$ his)
+		  (N Son)
+		  (NP-PRN *ICH*-1))
+	  (NP-SPR (N King)
+		  (PP (P of)
+		      (NP (D that) (N Province)))
+		  (, ,)
+		  (PP (P after)
+		      (NP (PRO him))))
+	  (CODE <font>)
+	  (NP-PRN-1 (NPR Sigebert)
+		    (CODE <$$font>)
+		    (NP-PRN (D the) (ADJ Second))
+		    (, ,)
+		    (CP-REL (WNP-2 (WPRO who))
+			    (C 0)
+			    (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+					    (IP-PPL (VAG coming)
+						    (ADVP-TMP (ADV oft'n))
+						    (IP-INF (TO to)
+							    (VB visit)
+							    (CODE <font>)
+							    (NP-OB1 (NPR Oswi)
+								    (CODE <$$font>)
+								    (NP-PRN (PRO$ his) (ADJ great) (N friend)))))
+					    (, ,)
+					    (BED was)
+					    (PP (P by)
+						(NP (PRO him)))
+					    (PP (P at)
+						(NP (Q several) (NS times)))
+					    (ADVP (ADV fervently))
+					    (VAN disuaded)
+					    (PP (P from)
+						(NP (N Idolatry))))
+				    (, ,)
+				    (CONJP (CONJ and)
+					   (IP-SUB (NP-SBJ *T*-2)
+						   (IP-PPL (VAN convinc't)
+							   (PP (P at)
+							       (NP (N length)))
+							   (IP-INF (TO to)
+								   (VB forsake)
+								   (NP-OB1 (PRO it))))
+						   (, ,)
+						   (BED was)
+						   (ADVP-LOC (ADV there))
+						   (VAN baptiz'd)
+						   (, ;)
+						   (IP-PPL (PP (P on)
+							       (NP (PRO$ his)
+								   (N return)
+								   (NP-DIR (N home))))
+							   (VAG taking)
+							   (PP (P with)
+							       (NP (PRO him)))
+							   (NP-OB1 (CODE <font>)
+								   (NPR Kedda)
+								   (CODE <$$font>)
+								   (NP-PRN (D a) (ADJ laborious) (N Preacher))
+								   (, ,)
+								   (RRC (ADVP-TMP (ADV+WARD afterwards))
+									(VAN made)
+									(IP-SMC (NP-SBJ *)
+										(NP-OB1 (N Bishop))))
+								   (, ;)
+								   (CP-REL (WPP-2 (P by)
+										  (WNP (WPRO$ whose) (N teaching)))
+									   (C 0)
+									   (IP-SUB (PP *T*-2)
+										   (PP (P with)
+										       (NP (Q some)
+											   (N help)
+											   (PP (P of)
+											       (NP (OTHERS others)))))
+										   (, ,)
+										   (NP-SBJ (D the) (N people))
+										   (BED were)
+										   (ADVP (ADV again))
+										   (VAN recoverd)
+										   (PP (P from)
+										       (NP (N misbeleef))))))))))))
+	  (. .))
+  (ID MILTON-E3-P1,X,165.155))
+
+/~*
+The year 664. a Synod of Scotish and English Bishops, in the presence of Oswi
+and Alfred his Son, was held at a Monastery in those parts, to debate on what
+Day Easter should be kept; a controversie which long before had disturb'd the
+Greek and Latin Churches: wherin the Scots not agreeing with the way of Rome,
+nor yeilding to the disputants on that side, to whom the King most enclin'd,
+such as were Bishops heer, resign'd, and return'd home with thir Disciples.
+(MILTON-E3-P1,X,169.182)
+*~/
+/*
+183 VAG:  183 VAG, 184 agreeing, 125 NP-PRN
+209 VAG:  209 VAG, 210 yeilding, 125 NP-PRN
+*/
+
+( (IP-MAT (NP-TMP (D The)
+		  (N year)
+		  (NUMP (NUM 664.)))
+	  (NP-SBJ (D a)
+		  (N Synod)
+		  (PP (P of)
+		      (NP (ADJ (ADJ Scotish) (CONJ and) (ADJ English))
+			  (NS Bishops))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (D the)
+		  (N presence)
+		  (PP (P of)
+		      (NP (NP (CODE <font>) (NPR Oswi) (CODE <$$font>))
+			  (CONJP (CONJ and)
+				 (NP (CODE <font>)
+				     (NPR Alfred)
+				     (CODE <$$font>)
+				     (NP-PRN (PRO$ his) (N Son))))))))
+	  (, ,)
+	  (BED was)
+	  (VAN held)
+	  (PP (P at)
+	      (NP (D a)
+		  (N Monastery)
+		  (PP (P in)
+		      (NP (D those) (NS parts)))))
+	  (, ,)
+	  (IP-INF-PRP (C 0)
+		      (IP-INF (TO to)
+			      (VB debate)
+			      (CP-QUE (WPP-1 (P on)
+					     (WNP (WD what) (N Day)))
+				      (C 0)
+				      (IP-SUB (PP *T*-1)
+					      (CODE <font>)
+					      (NP-SBJ (NPR Easter))
+					      (CODE <$$font>)
+					      (MD should)
+					      (BE be)
+					      (VAN kept))
+				      (, ;)
+				      (NP-PRN (D a)
+					      (N controversie)
+					      (CP-REL (WNP-2 (WPRO which))
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (ADVP-TMP (ADJ long) (ADV before))
+							      (HVD had)
+							      (VBN disturb'd)
+							      (NP-OB1 (D the)
+								      (ADJ (ADJ Greek) (CONJ and) (ADJ Latin))
+								      (NPRS Churches))))
+					      (, :)
+					      (CP-REL (WPP-3 (WADV+P wherin))
+						      (C 0)
+						      (IP-SUB (IP-SUB (PP *T*-3)
+								      (NP-SBJ (D the)
+									      (NPRS Scots)
+									      (NP-PRN *ICH*-5))
+								      (IP-PPL (IP-PPL (NEG not)
+										      (VAG agreeing)
+										      (PP (P with)
+											  (NP (D the)
+											      (N way)
+											      (PP (P of)
+												  (NP (CODE <font>) (NPR Rome) (CODE <$$font>))))))
+									      (, ,)
+									      (CONJP (CONJ nor)
+										     (IP-PPL (VAG yeilding)
+											     (PP (P to)
+												 (NP (D the)
+												     (NS disputants)
+												     (PP (P on)
+													 (NP (D that)
+													     (N side)
+													     (, ,)
+													     (CP-REL (WPP-4 (P to)
+															    (WNP (WPRO whom)))
+														     (C 0)
+														     (IP-SUB (PP *T*-4)
+															     (NP-SBJ (D the) (N King))
+															     (NP-MSR (QS most))
+															     (VBD enclin'd))))))))))
+								      (, ,)
+								      (NP-PRN-5 (ADJP (SUCH such)
+										      (PP (P as)
+											  (CP-CMP (WNP-6 0)
+												  (C 0)
+												  (CODE <P_X,169>)
+												  (IP-SUB (NP-SBJ *T*-6)
+													  (BED were)
+													  (NP-OB1 (NS Bishops))
+													  (ADVP-LOC (ADV heer)))))))
+								      (, ,)
+								      (VBD resign'd))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (IP-SUB (NP-SBJ *con*)
+									     (VBD return'd)
+									     (NP-DIR (N home))
+									     (PP (P with)
+										 (NP (PRO$ thir) (NS Disciples)))))))))))
+	  (. .))
+  (ID MILTON-E3-P1,X,169.182))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	4/2/218
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	0/0/225
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	0/0/173
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	0/0/202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd
+*/
+
+/~*
+Thus ended this honorable man, a good knight and a gentle, of gret aucthorite
+w=t= his prince, of liuing somewhat dessolate, plaine & open to his enemy, &
+secret to his frend: eth to begile, as he that of good hart & corage
+forestudied no perilles. A louing man & passing wel beloued. Very faithful, &
+trusty ynough, trusting to much.
+(MORERIC-E1-P2,52.152)
+*~/
+/*
+152 VAG:  152 VAG, 153 louing, 148 NP-PRN
+*/
+
+( (IP-MAT (ADVP (ADV Thus))
+	  (VBD ended)
+	  (NP-SBJ (D this)
+		  (ADJ honorable)
+		  (N man)
+		  (, ,)
+		  (NP-PRN (NP (D a) (ADJ good) (N knight))
+			  (CONJP (CONJ and)
+				 (NP (D a) (ADJ gentle))))
+		  (, ,)
+		  (PP (P of)
+		      (NP (ADJ gret)
+			  (N aucthorite)
+			  (PP (P w=t=)
+			      (NP (PRO$ his) (N prince)))))
+		  (, ,)
+		  (ADJP (ADJP (PP (P of)
+				  (NP (N liuing)))
+			      (NP-MSR (Q+WPRO somewhat))
+			      (ADJ dessolate))
+			(, ,)
+			(CONJP (ADJP (ADJ plaine)
+				     (CONJ &)
+				     (ADJ open)
+				     (PP (P to)
+					 (NP (PRO$ his) (N enemy)))))
+			(, ,)
+			(CONJP (CONJ &)
+			       (ADJP (ADJ secret)
+				     (PP (P to)
+					 (NP (PRO$ his) (N frend)))))
+			(, :)
+			(ADJP (ADJ eth)
+			      (IP-INF (TO to) (VB begile))
+			      (, ,)
+			      (PP (P as)
+				  (NP-SBJ (PRO he)
+					  (CP-REL (WNP-1 0)
+						  (C that)
+						  (IP-SUB (NP-SBJ *T*-1)
+							  (PP (P of)
+							      (NP (ADJ good)
+								  (N hart)
+								  (CONJP (CONJ &)
+									 (NX (N corage)))))
+							  (VBD forestudied)
+							  (NP-OB1 (Q no) (NS perilles)))))))
+			(, .)
+			(NP-PRN (NP (D A) (VAG louing) (N man))
+				(CONJP (CONJ &)
+				       (ADJP (ADVP (ADV passing) (ADV wel))
+					     (VAN beloued))))
+			(, .)
+			(ADJP (ADJP (ADV Very) (ADJ faithful))
+			      (, ,)
+			      (CONJP (CONJ &)
+				     (ADJP (ADJ trusty)
+					   (ADVP (ADVR ynough)))))
+			(, ,)
+			(IP-PPL (VAG trusting)
+				(NP-MSR (QP (ADVR to) (Q much))))))
+	  (. .))
+  (ID MORERIC-E1-P2,52.152))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	1/1/224
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	0/0/258
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-h.psd	1/1/376
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p1.psd	3/2/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\burnetcha-e3-p2.psd	0/0/330
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-h.psd	0/0/220
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p1.psd	0/0/182
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\fabyan-e1-p2.psd	0/0/239
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-h.psd	2/2/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p1.psd	0/0/212
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\hayward-e2-p2.psd	0/0/195
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-h.psd	0/0/207
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p1.psd	4/2/218
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\milton-e3-p2.psd	0/0/225
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-h.psd	0/0/173
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p1.psd	0/0/202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\moreric-e1-p2.psd	1/1/224
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-h.psd	0/0/238
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p1.psd	0/0/258
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\history\stow-e2-p2.psd	0/0/204
+whole search, hits/tokens/total
+		11/8/4232
+*/

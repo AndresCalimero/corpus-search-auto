@@ -1,0 +1,200 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:53:03 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_added_to_adjuncts\philosophy\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	0/0/586
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	0/0/512
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	0/0/571
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	0/0/517
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd
+*/
+
+/~*
+The Body also it self, which whilst it remains in one Form by the Conjunction
+of its Members, retains the Form and Resemblance of a Man; but if by
+dissevering and segregating the Parts that Oneness is distracted, it is no
+more what before it was. In the same manner, if we run through all other
+Beings, it will surely appear, that every thing, as long as it preserveth
+Unity doth subsist;
+(BOETHPR-E3-H,143.206)
+*~/
+/*
+103 VAG:  103 VAG, 104 dissevering, 2 NP-ADT
+107 VAG:  107 VAG, 108 segregating, 2 NP-ADT
+*/
+( (IP-MAT-SPE (NP-ADT (D The)
+		      (N Body)
+		      (ALSO also)
+		      (NP-PRN (PRO it) (N self))
+		      (, ,)
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (PP (P whilst)
+							      (CP-ADV-SPE (C 0)
+									  (IP-SUB-SPE (NP-SBJ (PRO it))
+										      (VBP remains)
+										      (PP (P in)
+											  (NP (ONE one) (N Form)))
+										      (PP (P by)
+											  (NP (D the)
+											      (N Conjunction)
+											      (PP (P of)
+												  (NP (PRO$ its) (NS Members))))))))
+							  (, ,)
+							  (VBP retains)
+							  (NP-OB1 (D the)
+								  (N Form)
+								  (CONJP (CONJ and)
+									 (NX (N Resemblance)))
+								  (PP (P of)
+								      (NP (D a) (N Man)))))
+					      (, ;)
+					      (CONJP (CONJ but)
+						     (IP-SUB-SPE (PP (P if)
+								     (CP-ADV-SPE (C 0)
+										 (IP-SUB-SPE (PP (P by)
+												 (IP-PPL-SPE (VAG (VAG dissevering) (CONJ and) (VAG segregating))
+													     (NP-OB1 (D the) (NS Parts))))
+											     (NP-SBJ (D that) (N Oneness))
+											     (BEP is)
+											     (VAN distracted))))
+								 (, ,)
+								 (NP-SBJ (PRO it))
+								 (BEP is)
+								 (NP-TMP (QP (Q no) (QR more)))
+								 (NP-OB1 (CP-FRL-SPE (WNP-2 (WPRO what))
+										     (C 0)
+										     (IP-SUB-SPE (NP-OB1 *T*-2)
+												 (ADVP-TMP (ADV before))
+												 (NP-SBJ (PRO it))
+												 (BED was)))))))))
+	      (, .)
+	      (PP (P In)
+		  (NP (D the) (ADJ same) (N manner)))
+	      (, ,)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (VBP run)
+					  (PP (P through)
+					      (NP (Q all) (OTHER other) (NS Beings))))))
+	      (, ,)
+	      (NP-SBJ-3 (PRO it))
+	      (MD will)
+	      (ADVP (ADV surely))
+	      (VB appear)
+	      (, ,)
+	      (CP-THT-SPE-3 (C that)
+			    (IP-SUB-SPE (NP-SBJ (Q every) (N thing))
+					(, ,)
+					(NP-MSR (ADJP (ADVR as) (ADJ long))
+						(PP (P as)
+						    (CP-CMP-SPE (WNP-4 0)
+								(C 0)
+								(IP-SUB-SPE (NP-MSR *T*-4)
+									    (NP-SBJ (PRO it))
+									    (VBP preserveth)
+									    (NP-OB1 (N Unity))))))
+					(DOP doth)
+					(VB subsist)))
+	      (. ;))
+  (ID BOETHPR-E3-H,143.206))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	2/1/466
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	0/0/594
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-h.psd	0/0/895
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p1.psd	0/0/586
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethco-e1-p2.psd	0/0/512
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-h.psd	0/0/433
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p1.psd	0/0/571
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethel-e2-p2.psd	0/0/517
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-h.psd	2/1/466
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p1.psd	0/0/594
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\philosophy\boethpr-e3-p2.psd	0/0/564
+whole search, hits/tokens/total
+		2/1/5138
+*/

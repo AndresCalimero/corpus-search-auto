@@ -1,0 +1,4704 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:55:48 BST 2017
+
+command file:     data\searches\queries\PENN\wh-relatives.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\whrelatives\bible_and_apocrypha\result.out
+
+node:   CP-REL*|WADJP|WADVP|WIP|WNP|WPP|WQP
+query:  (WADJP|WADVP|WIP|WNP|WPP|WQP Dominates  !WADJP|WADVP|WIP|WNP|WPP|WQP) 
+  AND  (CP-REL* Dominates  WADJP|WADVP|WIP|WNP|WPP|WQP) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd
+*/
+
+/~*
+and cried, saying, This was he of whom I spake,
+(AUTHNEW-E2-H,1,1J.43)
+*~/
+/*
+28 WNP:  28 WNP, 30 whom, 24 CP-REL-SPE
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD cried)
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (IP-MAT-SPE (NP-SBJ (D This))
+			      (BED was)
+			      (NP-OB1 (PRO he)
+				      (CP-REL-SPE (WPP-1 (P of)
+							 (WNP (WPRO whom)))
+						  (C 0)
+						  (IP-SUB-SPE (PP *T*-1)
+							      (NP-SBJ (PRO I))
+							      (VBD spake))))))
+	  (. ,))
+  (ID AUTHNEW-E2-H,1,1J.43))
+
+/~*
+This is he of whom I said, After me commeth a man, which is preferred before
+me:
+(AUTHNEW-E2-H,1,20J.88)
+*~/
+/*
+14 WNP:  14 WNP, 16 whom, 10 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D This))
+	      (BEP is)
+	      (NP-OB1 (PRO he)
+		      (CP-REL-SPE (WPP-1 (P of)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (PRO I))
+					      (VBD said)
+					      (, ,)
+					      (IP-MAT-SPE (PP (P After)
+							      (NP (PRO me)))
+							  (VBP commeth)
+							  (NP-SBJ (D a)
+								  (N man)
+								  (, ,)
+								  (CP-REL-SPE (WNP-2 (WPRO which))
+									      (C 0)
+									      (IP-SUB-SPE (NP-SBJ *T*-2)
+											  (BEP is)
+											  (VAN preferred)
+											  (PP (P before)
+											      (NP (PRO me))))))))))
+	      (. :))
+  (ID AUTHNEW-E2-H,1,20J.88))
+
+/~*
+and saith vnto him, We haue found him of whom Moses in the Law, and the
+Prophets did write, Iesus of Nazareth the sonne of Ioseph.
+(AUTHNEW-E2-H,1,40J.137)
+*~/
+/*
+31 WNP:  31 WNP, 33 whom, 27 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP saith)
+	  (PP (P vnto)
+	      (NP (PRO him)))
+	  (, ,)
+	  (IP-MAT-SPE (NP-SBJ (PRO We))
+		      (HVP haue)
+		      (VBN found)
+		      (NP-OB1 (PRO him)
+			      (CP-REL-SPE (WPP-1 (P of)
+						 (WNP (WPRO whom)))
+					  (C 0)
+					  (IP-SUB-SPE (PP *T*-1)
+						      (NP-SBJ (NP (NPR Moses)
+								  (PP (P in)
+								      (NP (D the) (N Law))))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NP (D the) (NPRS Prophets))))
+						      (DOD did)
+						      (VB write)))
+			      (, ,)
+			      (NP-PRN (NPR Iesus)
+				      (PP (P of)
+					  (NP (NPR Nazareth))))
+			      (NP-PRN (D the)
+				      (N sonne)
+				      (PP (P of)
+					  (NP (NPR Ioseph))))))
+	  (. .))
+  (ID AUTHNEW-E2-H,1,40J.137))
+
+/~*
+and saith of him, Behold an Israelite indeed in whom is no guile.
+(AUTHNEW-E2-H,1,40J.143)
+*~/
+/*
+33 WNP:  33 WNP, 35 whom, 29 CP-REL-SPE-1
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP saith)
+	  (PP (P of)
+	      (NP (PRO him)))
+	  (, ,)
+	  (IP-IMP-SPE (VBI Behold)
+		      (NP-OB1 (D an)
+			      (NPR Israelite)
+			      (CP-REL-SPE *ICH*-1))
+		      (PP (P+N indeed))
+		      (CP-REL-SPE-1 (WPP-2 (P in)
+					   (WNP (WPRO whom)))
+				    (C 0)
+				    (IP-SUB-SPE (PP *T*-2)
+						(NP-SBJ-3 *exp*)
+						(BEP is)
+						(NP-3 (Q no) (N guile)))))
+	  (. .))
+  (ID AUTHNEW-E2-H,1,40J.143))
+
+/~*
+and said vnto him, Rabbi, he that was with thee beyond Iordane, to whom thou
+barest witnesse, behold, the same baptizeth,
+(AUTHNEW-E2-H,3,20J.305)
+*~/
+/*
+53 WNP:  53 WNP, 55 whom, 49 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD said)
+	  (PP (P vnto)
+	      (NP (PRO him)))
+	  (, ,)
+	  (IP-MAT-SPE (NP-VOC (N Rabbi))
+		      (, ,)
+		      (NP-LFD-1 (PRO he)
+				(CP-REL-SPE (WNP-2 0)
+					    (C that)
+					    (IP-SUB-SPE (NP-SBJ *T*-2)
+							(BED was)
+							(PP (P with)
+							    (NP (PRO thee)))
+							(PP (P beyond)
+							    (NP (NPR Iordane)))))
+				(, ,)
+				(CP-REL-SPE (WPP-3 (P to)
+						   (WNP (WPRO whom)))
+					    (C 0)
+					    (IP-SUB-SPE (NP-SBJ (PRO thou))
+							(VBD barest)
+							(NP-OB1 (N witnesse)
+								(PP *T*-3)))))
+		      (, ,)
+		      (IP-IMP-PRN-SPE (VBI behold))
+		      (, ,)
+		      (NP-SBJ-RSP=1 (D the) (ADJ same))
+		      (VBP baptizeth))
+	  (. ,))
+  (ID AUTHNEW-E2-H,3,20J.305))
+
+/~*
+So the father knewe that it was at the same houre, in the which Iesus said
+vnto him, Thy sonne liueth,
+(AUTHNEW-E2-H,4,40J.496)
+*~/
+/*
+37 WNP:  37 WNP, 41 which, 33 CP-REL
+*/
+
+( (IP-MAT (ADVP (ADV So))
+	  (NP-SBJ (D the) (NPR father))
+	  (VBD knewe)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO it))
+			  (BED was)
+			  (PP (P at)
+			      (NP (D the)
+				  (ADJ same)
+				  (N houre)
+				  (, ,)
+				  (CP-REL (WPP-1 (P in)
+						 (WNP (D the) (WPRO which)))
+					  (C 0)
+					  (IP-SUB (PP *T*-1)
+						  (NP-SBJ (NPR Iesus))
+						  (VBD said)
+						  (PP (P vnto)
+						      (NP (PRO him)))
+						  (, ,)
+						  (IP-MAT-SPE (NP-SBJ (PRO$ Thy) (N sonne))
+							      (VBP liueth))))))))
+	  (. ,))
+  (ID AUTHNEW-E2-H,4,40J.496))
+
+/~*
+for the houre is comming, in the which all that are in the graues shall heare
+his voice, 29 And shall come foorth, they that haue done good, vnto the
+resurrection of life, and they that haue done euill, vnto the resurrection of
+damnation.
+(AUTHNEW-E2-H,5,20J.587)
+*~/
+/*
+21 WNP:  21 WNP, 25 which, 17 CP-REL-SPE-1
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ (D the)
+		      (N houre)
+		      (CP-REL-SPE *ICH*-1))
+	      (BEP is)
+	      (VAG comming)
+	      (, ,)
+	      (CP-REL-SPE-1 (WPP-2 (P in)
+				   (WNP (D the) (WPRO which)))
+			    (C 0)
+			    (IP-SUB-SPE (IP-SUB-SPE (PP *T*-2)
+						    (NP-SBJ (Q all)
+							    (CP-REL-SPE (WNP-3 0)
+									(C that)
+									(IP-SUB-SPE (NP-SBJ *T*-3)
+										    (BEP are)
+										    (PP (P in)
+											(NP (D the) (NS graues))))))
+						    (MD shall)
+						    (VB heare)
+						    (NP-OB1 (PRO$ his) (N voice)))
+					(, ,)
+					(CODE (NUM 29))
+					(CONJP (CONJ And)
+					       (IP-SUB-SPE-4 (PP *T*-2)
+							     (NP-SBJ *con*)
+							     (MD shall)
+							     (VB come)
+							     (ADVP-DIR (ADV foorth))
+							     (, ,)
+							     (IP-SUB-PRN-SPE=4 (NP-SBJ (PRO they)
+										       (CP-REL-SPE (WNP-5 0)
+												   (C that)
+												   (IP-SUB-SPE (NP-SBJ *T*-5)
+													       (HVP haue)
+													       (DON done)
+													       (NP-OB1 (N good)))))
+									       (, ,)
+									       (PP (P vnto)
+										   (NP (D the)
+										       (N resurrection)
+										       (PP (P of)
+											   (NP (N life))))))
+							     (, ,)
+							     (IP-SUB-PRN-SPE=4 (CONJ and)
+									       (NP-SBJ (PRO they)
+										       (CP-REL-SPE (WNP-6 0)
+												   (C that)
+												   (IP-SUB-SPE (NP-SBJ *T*-6)
+													       (HVP haue)
+													       (DON done)
+													       (NP-OB1 (N euill)))))
+									       (, ,)
+									       (PP (P vnto)
+										   (NP (D the)
+										       (N resurrection)
+										       (PP (P of)
+											   (NP (N damnation))))))))))
+	      (. .))
+  (ID AUTHNEW-E2-H,5,20J.587))
+
+/~*
+there is one that accuseth you, euen Moses, in whom ye trust?
+(AUTHNEW-E2-H,5,40J.634)
+*~/
+/*
+36 WNP:  36 WNP, 38 whom, 32 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (EX there))
+	      (BEP is)
+	      (NP-1 (ONE one)
+		    (CP-REL-SPE (WNP-2 0)
+				(C that)
+				(IP-SUB-SPE (NP-SBJ *T*-2)
+					    (VBP accuseth)
+					    (NP-OB1 (PRO you))))
+		    (, ,)
+		    (NP-PRN (FP euen)
+			    (NPR Moses)
+			    (, ,)
+			    (CP-REL-SPE (WPP-3 (P in)
+					       (WNP (WPRO whom)))
+					(C 0)
+					(IP-SUB-SPE (PP *T*-3)
+						    (NP-SBJ (PRO ye))
+						    (VBP trust)))))
+	      (. ?))
+  (ID AUTHNEW-E2-H,5,40J.634))
+
+/~*
+it is my Father that honoureth me, of whom ye say, that he is your God:
+(AUTHNEW-E2-H,8,40J.1165)
+*~/
+/*
+33 WNP:  33 WNP, 35 whom, 29 CP-REL-SPE-2
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO it))
+	      (BEP is)
+	      (NP-OB1 (PRO$ my)
+		      (N Father)
+		      (CP-REL-SPE *ICH*-2))
+	      (CP-CLF-SPE (WNP-1 0)
+			  (C that)
+			  (IP-SUB-SPE (NP-SBJ *T*-1)
+				      (VBP honoureth)
+				      (NP-OB1 (PRO me))))
+	      (, ,)
+	      (CP-REL-SPE-2 (WPP-3 (P of)
+				   (WNP (WPRO whom)))
+			    (C 0)
+			    (IP-SUB-SPE (PP *T*-3)
+					(NP-SBJ (PRO ye))
+					(VBP say)
+					(, ,)
+					(CP-THT-SPE (C that)
+						    (IP-SUB-SPE (NP-SBJ (PRO he))
+								(BEP is)
+								(NP-OB1 (PRO$ your) (N God))))))
+	      (. :))
+  (ID AUTHNEW-E2-H,8,40J.1165))
+
+/~*
+If hee called them gods, vnto whom the word of God came, and the Scripture
+$can $not be broken. 36 Say ye of him, whom the father hath sanctified and
+sent into the world, Thou blasphemest; because I said, I am the Sonne of God?
+(AUTHNEW-E2-H,10,20J.1443)
+*~/
+/*
+30 WNP:  30 WNP, 32 whom, 26 CP-REL-SPE-1
+*/
+
+( (CP-QUE-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO hee))
+						      (VBD called)
+						      (IP-SMC-SPE (NP-SBJ (PRO them)
+									  (CP-REL-SPE *ICH*-1))
+								  (NP-OB1 (NS gods))
+								  (, ,)
+								  (CP-REL-SPE-1 (WPP-2 (P vnto)
+										       (WNP (WPRO whom)))
+										(C 0)
+										(IP-SUB-SPE (PP *T*-2)
+											    (NP-SBJ (D the)
+												    (N word)
+												    (PP (P of)
+													(NP (NPR God))))
+											    (VBD came)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ (D the) (NPR Scripture))
+							     (MD $can)
+							     (NEG $not)
+							     (CODE {TEXT:cannot})
+							     (BE be)
+							     (VAN broken))))))
+	      (, .)
+	      (CODE (NUM 36))
+	      (IP-SUB-SPE (VBP Say)
+			  (NP-SBJ (PRO ye))
+			  (PP (P of)
+			      (NP (PRO him)
+				  (, ,)
+				  (CP-REL-SPE (WNP-3 (WPRO whom))
+					      (C 0)
+					      (IP-SUB-SPE (IP-SUB-SPE-4 (NP-OB1 *T*-3)
+									(NP-SBJ (D the) (NPR father))
+									(HVP hath)
+									(VBN sanctified))
+							  (CONJP (CONJ and)
+								 (IP-SUB-SPE=4 (VBN sent)
+									       (PP (P into)
+										   (NP (D the) (N world)))))))))
+			  (, ,)
+			  (IP-MAT-SPE (NP-SBJ (PRO Thou))
+				      (VBP blasphemest))
+			  (, ;)
+			  (PP (P+N because)
+			      (CP-ADV-SPE (C 0)
+					  (IP-SUB-SPE (NP-SBJ (PRO I))
+						      (VBD said)
+						      (, ,)
+						      (IP-MAT-SPE (NP-SBJ (PRO I))
+								  (BEP am)
+								  (NP-OB1 (D the)
+									  (NPR Sonne)
+									  (PP (P of)
+									      (NP (NPR God)))))))))
+	      (. ?))
+  (ID AUTHNEW-E2-H,10,20J.1443))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	10/10/1613
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd
+*/
+
+/~*
+Iesus answered, Hee it is to whom I shall giue a soppe, when I haue dipped it.
+(AUTHNEW-E2-P1,13,20J.211)
+*~/
+/*
+24 WNP:  24 WNP, 26 whom, 20 CP-REL-SPE-1
+*/
+
+( (IP-MAT (NP-SBJ (NPR Iesus))
+	  (VBD answered)
+	  (, ,)
+	  (IP-MAT-SPE (NP-OB1 (PRO Hee)
+			      (CP-REL-SPE *ICH*-1))
+		      (NP-SBJ (PRO it))
+		      (BEP is)
+		      (CP-REL-SPE-1 (WPP-2 (P to)
+					   (WNP (WPRO whom)))
+				    (C 0)
+				    (IP-SUB-SPE (PP *T*-2)
+						(NP-SBJ (PRO I))
+						(MD shall)
+						(VB giue)
+						(NP-OB1 (D a) (N soppe))
+						(, ,)
+						(PP (P when)
+						    (CP-ADV-SPE (C 0)
+								(IP-SUB-SPE (NP-SBJ (PRO I))
+									    (HVP haue)
+									    (VBN dipped)
+									    (NP-OB1 (PRO it))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P1,13,20J.211))
+
+/~*
+When Iesus had spoken these wordes, hee went foorth with his disciples ouer
+the Brooke Cedron, where was a garden, into the which hee entred and his
+disciples.
+(AUTHNEW-E2-P1,18,1J.638)
+*~/
+/*
+74 WNP:  74 WNP, 78 which, 70 CP-REL
+74 WNP:  74 WNP, 78 which, 52 CP-REL
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Iesus))
+			      (HVD had)
+			      (VBN spoken)
+			      (NP-OB1 (D these) (NS wordes)))))
+	  (, ,)
+	  (NP-SBJ (PRO hee))
+	  (VBD went)
+	  (ADVP-DIR (ADV foorth))
+	  (PP (P with)
+	      (NP (PRO$ his) (NS disciples)))
+	  (PP (P ouer)
+	      (NP (D the)
+		  (N Brooke)
+		  (NP-PRN (NPR Cedron))
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (BED was)
+				  (NP-SBJ (D a)
+					  (N garden)
+					  (, ,)
+					  (CP-REL (WPP-2 (P into)
+							 (WNP (D the) (WPRO which)))
+						  (C 0)
+						  (IP-SUB (PP *T*-2)
+							  (NP-SBJ (NP (PRO hee))
+								  (CONJP *ICH*-3))
+							  (VBD entred)
+							  (CONJP-3 (CONJ and)
+								   (NP (PRO$ his) (NS disciples))))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P1,18,1J.638))
+
+/~*
+The former treatise haue I made, O Theophilus, of al that Iesus began both to
+doe and teach, 2 Vntill the day in which hee was taken vp, after that he
+through the holy Ghost had giuen commaundements vnto the Apostles, whom he had
+chosen. 3 To whom also he shewed himselfe aliue after his passion, by many
+infallible proofes, being seene of them fourty dayes, and speaking of the
+things perteining to the kingdome of God: 4 And being assembled together with
+them, commanded them that they should not depart from Hierusalem, but wait for
+the promise of the Father, which, saith he, ye haue heard of me.
+(AUTHNEW-E2-P1,1,1A.1114)
+*~/
+/*
+78 WNP:  78 WNP, 80 which, 74 CP-REL
+*/
+
+( (IP-MAT (NP-OB1 (D The)
+		  (ADJ former)
+		  (N treatise)
+		  (PP *ICH*-1))
+	  (HVP haue)
+	  (NP-SBJ (PRO I))
+	  (VBN made)
+	  (, ,)
+	  (INTJ O)
+	  (NP-VOC (NPR Theophilus))
+	  (, ,)
+	  (PP-1 (P of)
+		(NP (Q al)
+		    (CP-REL (WNP-2 0)
+			    (C that)
+			    (IP-SUB (NP-SBJ (NPR Iesus))
+				    (VBD began)
+				    (CONJ-3 both)
+				    (IP-INF (NP-OB1 *T*-2)
+					    (TO to)
+					    (DO (CONJ *ICH*-3)
+						(DO doe)
+						(CONJP (CONJ and) (VB teach))))))))
+	  (, ,)
+	  (CODE (NUM 2))
+	  (PP (P Vntill)
+	      (NP (D the)
+		  (N day)
+		  (CP-REL (WPP-4 (P in)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-4)
+				  (NP-SBJ (PRO hee))
+				  (BED was)
+				  (VAN taken)
+				  (RP vp)))))
+	  (, ,)
+	  (PP (P after)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (PP (P through)
+				  (NP (D the) (NPR holy) (NPR Ghost)))
+			      (HVD had)
+			      (VBN giuen)
+			      (NP-OB1 (NS commaundements))
+			      (PP (P vnto)
+				  (NP (D the)
+				      (NPRS Apostles)
+				      (, ,)
+				      (CP-REL (WNP-5 (WPRO whom))
+					      (C 0)
+					      (IP-SUB (NP-OB1 *T*-5)
+						      (NP-SBJ (PRO he))
+						      (HVD had)
+						      (VBN chosen))))))))
+	  (, .)
+	  (CODE (NUM 3))
+	  (CP-CAR (WPP-6 (P To)
+			 (WNP (WPRO whom) (ALSO also)))
+		  (C 0)
+		  (IP-SUB (IP-SUB (PP *T*-6)
+				  (NP-SBJ (PRO he))
+				  (VBD shewed)
+				  (IP-SMC (NP-SBJ (PRO+N himselfe))
+					  (PP (P+N aliue)))
+				  (PP (P after)
+				      (NP (PRO$ his) (NPR passion)))
+				  (, ,)
+				  (PP (P by)
+				      (NP (Q many) (ADJ infallible) (NS proofes)))
+				  (, ,)
+				  (IP-PPL (IP-PPL (BAG being)
+						  (VAN seene)
+						  (PP (P of)
+						      (NP (PRO them)))
+						  (NP-MSR (NUM fourty) (NS dayes)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-PPL (VAG speaking)
+							 (PP (P of)
+							     (NP (D the)
+								 (NS things)
+								 (RRC (VAG perteining)
+								      (PP (P to)
+									  (NP (D the)
+									      (N kingdome)
+									      (PP (P of)
+										  (NP (NPR God))))))))))))
+			  (, :)
+			  (CODE (NUM 4))
+			  (CONJP (CONJ And)
+				 (IP-SUB (NP-SBJ *con*)
+					 (IP-PPL (BAG being)
+						 (VAN assembled)
+						 (ADVP (ADV together))
+						 (PP (P with)
+						     (NP (PRO them))))
+					 (, ,)
+					 (VBD commanded)
+					 (NP-OB2 (PRO them))
+					 (CP-THT (C that)
+						 (IP-SUB (IP-SUB-7 (NP-SBJ (PRO they))
+								   (MD should)
+								   (NEG not)
+								   (VB depart)
+								   (PP (P from)
+								       (NP (NPR Hierusalem))))
+							 (, ,)
+							 (CONJP (CONJ but)
+								(IP-SUB=7 (VB wait)
+									  (PP (P for)
+									      (NP (D the)
+										  (N promise)
+										  (PP (P of)
+										      (NP (D the) (NPR Father)))
+										  (, ,)
+										  (CP-REL (WNP-8 (WPRO which))
+											  (C 0)
+											  (, ,)
+											  (IP-SUB (NP-OB1 *T*-8)
+												  (CODE <font>)
+												  (IP-MAT-SPE (VBP saith)
+													      (NP-SBJ (PRO he)))
+												  (CODE <$$font>)
+												  (, ,)
+												  (NP-SBJ (PRO ye))
+												  (HVP haue)
+												  (VBN heard)
+												  (PP (P of)
+												      (NP (PRO me)))))))))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P1,1,1A.1114))
+
+/~*
+and said, Thou Lord, which knowest the hearts of all men, shew whether of
+these two thou hast chosen, 25 That hee may take part of this ministerie and
+Apostleship, from which Iudas by transgression fell, that hee might goe to his
+owne place.
+(AUTHNEW-E2-P1,1,20A.1160)
+*~/
+/*
+109 WNP:  109 WNP, 111 which, 105 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD said)
+	  (, ,)
+	  (IP-IMP-SPE (NP-VOC (PRO Thou)
+			      (N Lord)
+			      (, ,)
+			      (CP-REL-SPE (WNP-1 (WPRO which))
+					  (C 0)
+					  (IP-SUB-SPE (NP-SBJ *T*-1)
+						      (VBP knowest)
+						      (NP-OB1 (D the)
+							      (NS hearts)
+							      (PP (P of)
+								  (NP (Q all) (NS men)))))))
+		      (, ,)
+		      (VBI shew)
+		      (CP-QUE-SPE (WNP-2 (WQ whether)
+					 (PP (P of)
+					     (NP (D these) (NUM two))))
+				  (C 0)
+				  (IP-SUB-SPE (NP-OB1 *T*-2)
+					      (NP-SBJ (PRO thou))
+					      (HVP hast)
+					      (VBN chosen)))
+		      (, ,)
+		      (CODE (NUM 25))
+		      (CP-ADV-SPE (C That)
+				  (IP-SUB-SPE (NP-SBJ (PRO hee))
+					      (MD may)
+					      (VB take)
+					      (NP-OB1 (N part)
+						      (PP (P of)
+							  (NP (D this)
+							      (N ministerie)
+							      (CONJP (CONJ and)
+								     (NX (N Apostleship)))
+							      (, ,)
+							      (CP-REL-SPE (WPP-3 (P from)
+										 (WNP (WPRO which)))
+									  (C 0)
+									  (IP-SUB-SPE (PP *T*-3)
+										      (NP-SBJ (NPR Iudas))
+										      (PP (P by)
+											  (NP (N transgression)))
+										      (VBD fell))))))))
+		      (, ,)
+		      (CP-ADV-SPE (C that)
+				  (IP-SUB-SPE (NP-SBJ (PRO hee))
+					      (MD might)
+					      (VB goe)
+					      (PP (P to)
+						  (NP (PRO$ his) (ADJ owne) (N place))))))
+	  (. .))
+  (ID AUTHNEW-E2-P1,1,20A.1160))
+
+/~*
+For the man was aboue fourtie yeeres olde, on whome this miracle of healing
+was shewed.
+(AUTHNEW-E2-P1,4,20A.1391)
+*~/
+/*
+30 WNP:  30 WNP, 32 whome, 26 CP-REL-1
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (D the)
+		  (N man)
+		  (CP-REL *ICH*-1))
+	  (BED was)
+	  (ADJP (NP-MSR (NUMP (ADV aboue) (NUM fourtie))
+			(NS yeeres))
+		(ADJ olde))
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P on)
+			   (WNP (WPRO whome)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (D this)
+				    (N miracle)
+				    (PP (P of)
+					(NP (N healing))))
+			    (BED was)
+			    (VAN shewed)))
+	  (. .))
+  (ID AUTHNEW-E2-P1,4,20A.1391))
+
+/~*
+For before these dayes rose vp Theudas, boasting himselfe to be some body, to
+whom a number of men, about foure hundred, ioyned themselues: who was slaine,
+(AUTHNEW-E2-P1,5,20A.1537)
+*~/
+/*
+47 WNP:  47 WNP, 49 whom, 43 CP-REL-SPE-1
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP (P before)
+		  (NP (D these) (NS dayes)))
+	      (VBD rose)
+	      (RP vp)
+	      (NP-SBJ (NPR Theudas)
+		      (CP-REL-SPE *ICH*-1)
+		      (CP-REL-SPE *ICH*-3))
+	      (, ,)
+	      (IP-PPL-SPE (VAG boasting)
+			  (IP-INF-SPE (NP-SBJ (PRO+N himselfe))
+				      (TO to)
+				      (BE be)
+				      (NP-OB1 (Q some) (N body))))
+	      (, ,)
+	      (CP-REL-SPE-1 (WPP-2 (P to)
+				   (WNP (WPRO whom)))
+			    (C 0)
+			    (IP-SUB-SPE (PP *T*-2)
+					(NP-SBJ (D a)
+						(N number)
+						(PP (P of)
+						    (NP (NS men)))
+						(, ,)
+						(NP-PRN (NUMP (ADV about) (NUM foure) (NUM hundred))))
+					(, ,)
+					(VBD ioyned)
+					(NP-OB1 (PRO+N themselues))))
+	      (, :)
+	      (CP-REL-SPE-3 (WNP-4 (WPRO who))
+			    (C 0)
+			    (IP-SUB-SPE (NP-SBJ *T*-4)
+					(BED was)
+					(VAN slaine)))
+	      (. ,))
+  (ID AUTHNEW-E2-P1,5,20A.1537))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	6/6/1558
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd
+*/
+
+/~*
+And they were not able to resist the wisedome and the spirit by which he spake.
+(AUTHNEW-E2-P2,6,1A.28)
+*~/
+/*
+37 WNP:  37 WNP, 39 which, 33 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they))
+	  (BED were)
+	  (NEG not)
+	  (ADJP (ADJ able)
+		(IP-INF (TO to)
+			(VB resist)
+			(NP-OB1 (NP (D the) (N wisedome))
+				(CONJP (CONJ and)
+				       (NP (D the) (N spirit)))
+				(CP-REL (WPP-1 (P by)
+					       (WNP (WPRO which)))
+					(C 0)
+					(IP-SUB (PP *T*-1)
+						(NP-SBJ (PRO he))
+						(VBD spake))))))
+	  (. .))
+  (ID AUTHNEW-E2-P2,6,1A.28))
+
+/~*
+And the nation to whom they shal bee in bondage, will I iudge, saide God:
+(AUTHNEW-E2-P2,7,1A.65)
+*~/
+/*
+13 WNP:  13 WNP, 15 whom, 9 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-OB1 (D the)
+		      (N nation)
+		      (CP-REL-SPE (WPP-1 (P to)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO they))
+					      (MD shal)
+					      (BE bee)
+					      (PP (P in)
+						  (NP (N bondage)
+						      (PP *T*-1))))))
+	      (, ,)
+	      (MD will)
+	      (NP-SBJ (PRO I))
+	      (VB iudge)
+	      (, ,)
+	      (IP-MAT-PRN-SPE (VBD saide)
+			      (NP-SBJ (NPR God)))
+	      (. :))
+  (ID AUTHNEW-E2-P2,7,1A.65))
+
+/~*
+This is he that was in y=e= Church in the wildernesse with the Angel, which
+spake to him in the mount Sina, and with our fathers: who receiued the liuely
+oracles, to giue vnto vs. 39 To whom our fathers would not obey,
+(AUTHNEW-E2-P2,7,20A.153)
+*~/
+/*
+136 WNP:  136 WNP, 138 whom, 132 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D This))
+	      (BEP is)
+	      (NP-OB1 (PRO he)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (BED was)
+					      (PP (P in)
+						  (NP (D y=e=) (N Church)))
+					      (PP (P in)
+						  (NP (D the) (N wildernesse)))
+					      (PP (P with)
+						  (NP (D the)
+						      (N Angel)
+						      (, ,)
+						      (CP-REL-SPE (WNP-2 (WPRO which))
+								  (C 0)
+								  (IP-SUB-SPE (NP-SBJ *T*-2)
+									      (VBD spake)
+									      (PP (PP (P to)
+										      (NP (PRO him)))
+										  (CONJP *ICH*-3))
+									      (PP (P in)
+										  (NP (D the) (NPR mount) (NPR Sina)))
+									      (, ,)
+									      (CONJP-3 (CONJ and)
+										       (PP (P with)
+											   (NP (PRO$ our) (NS fathers))))))))))
+		      (, :)
+		      (CP-REL-SPE (WNP-4 (WPRO who))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-4)
+					      (VBD receiued)
+					      (NP-OB1 (D the)
+						      (ADJ liuely)
+						      (NS oracles)
+						      (, ,)
+						      (CP-EOP-SPE (WNP-5 0)
+								  (IP-INF-SPE (NP-OB1 *T*-5)
+									      (TO to)
+									      (VB giue)
+									      (PP (P vnto)
+										  (NP (PRO vs))))))))
+		      (, .)
+		      (CODE (NUM 39))
+		      (CP-REL-SPE (WPP-6 (P To)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-6)
+					      (NP-SBJ (PRO$ our) (NS fathers))
+					      (MD would)
+					      (NEG not)
+					      (VB obey))))
+	      (. ,))
+  (ID AUTHNEW-E2-P2,7,20A.153))
+
+/~*
+And they haue slaine them which shewed before of the comming of the Iust one,
+of whom ye haue bene now the betrayers and murderers: 53 Who haue receiued the
+Lawe by the disposition of Angels, and haue not kept it.
+(AUTHNEW-E2-P2,7,40A.183)
+*~/
+/*
+54 WNP:  54 WNP, 56 whom, 50 CP-REL-SPE
+54 WNP:  54 WNP, 56 whom, 16 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (PRO they)
+		      (CP-REL-SPE *ICH*-3))
+	      (HVP haue)
+	      (VBN slaine)
+	      (NP-OB1 (PRO them)
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBD shewed)
+					      (ADVP-TMP (ADV before))
+					      (PP (P of)
+						  (NP (D the)
+						      (N comming)
+						      (PP (P of)
+							  (NP (D the) (ADJ Iust) (ONE one)))
+						      (, ,)
+						      (CP-REL-SPE (WPP-2 (P of)
+									 (WNP (WPRO whom)))
+								  (C 0)
+								  (IP-SUB-SPE (NP-SBJ (PRO ye))
+									      (HVP haue)
+									      (BEN bene)
+									      (ADVP-TMP (ADV now))
+									      (NP-OB1 (D the)
+										      (NS betrayers)
+										      (CONJP (CONJ and)
+											     (NX (NS murderers)))
+										      (PP *T*-2)))))))))
+	      (, :)
+	      (CODE (NUM 53))
+	      (CP-REL-SPE-3 (WNP-4 (WPRO Who))
+			    (C 0)
+			    (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ *T*-4)
+						    (HVP haue)
+						    (VBN receiued)
+						    (NP-OB1 (D the) (N Lawe))
+						    (PP (P by)
+							(NP (D the)
+							    (N disposition)
+							    (PP (P of)
+								(NP (NS Angels))))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (IP-SUB-SPE (NP-SBJ *T*-4)
+							   (HVP haue)
+							   (NEG not)
+							   (VBN kept)
+							   (NP-OB1 (PRO it))))))
+	      (. .))
+  (ID AUTHNEW-E2-P2,7,40A.183))
+
+/~*
+But there was a certaine man called Simon, which before time in the same citie
+vsed sorcery, and bewitched the people of Samaria, giuing out that himselfe
+was some great one. 10 To whom they all gaue heed from the least to the
+greatest, saying, This man is the great power of God.
+(AUTHNEW-E2-P2,8,1A.235)
+*~/
+/*
+110 WNP:  110 WNP, 112 whom, 106 CP-REL
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ-1 (EX there))
+	  (BED was)
+	  (NP-1 (D a)
+		(ADJ certaine)
+		(N man)
+		(RRC (VAN called)
+		     (IP-SMC (NP-SBJ *)
+			     (NP-OB1 (NPR Simon))))
+		(, ,)
+		(CP-REL (WNP-2 (WPRO which))
+			(C 0)
+			(IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+					  (NP-TMP (ADV before) (N time))
+					  (PP (P in)
+					      (NP (D the) (ADJ same) (N citie)))
+					  (VBD vsed)
+					  (NP-OB1 (N sorcery)))
+				(, ,)
+				(CONJP (CONJ and)
+				       (IP-SUB=3 (NP-SBJ *con*)
+						 (VBD bewitched)
+						 (NP-OB1 (D the)
+							 (N people)
+							 (PP (P of)
+							     (NP (NPR Samaria))))
+						 (, ,)
+						 (IP-PPL (VAG giuing)
+							 (RP out)
+							 (CP-THT (C that)
+								 (IP-SUB (NP-SBJ (PRO+N himselfe))
+									 (BED was)
+									 (NP-OB1 (Q some) (ADJ great) (ONE one)))))))))
+		(, .)
+		(CODE (NUM 10))
+		(CP-REL (WPP-4 (P To)
+			       (WNP (WPRO whom)))
+			(C 0)
+			(IP-SUB (PP *T*-4)
+				(NP-SBJ (PRO they)
+					(QP (Q all)))
+				(VBD gaue)
+				(NP-OB1 (N heed))
+				(NP-MSR (PP (P from)
+					    (NP (D the) (ADJS least)))
+					(PP (P to)
+					    (NP (D the) (ADJS greatest))))
+				(, ,)
+				(IP-PPL (VAG saying)
+					(, ,)
+					(IP-MAT-SPE (NP-SBJ (D This) (N man))
+						    (BEP is)
+						    (NP-OB1 (D the)
+							    (ADJ great)
+							    (N power)
+							    (PP (P of)
+								(NP (NPR God)))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P2,8,1A.235))
+
+/~*
+And when he had remoued him, hee raised vp vnto them Dauid to be their king,
+to whom also he gaue testimonie,
+(AUTHNEW-E2-P2,13,20A.825)
+*~/
+/*
+55 WNP:  55 WNP, 57 whom, 51 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P when)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO he))
+					  (HVD had)
+					  (VBN remoued)
+					  (NP-OB1 (PRO him)))))
+	      (, ,)
+	      (NP-SBJ (PRO hee))
+	      (VBD raised)
+	      (RP vp)
+	      (PP (P vnto)
+		  (NP (PRO them)))
+	      (IP-INF-SPE (NP-SBJ (NPR Dauid))
+			  (TO to)
+			  (BE be)
+			  (NP-OB1 (PRO$ their)
+				  (N king)
+				  (, ,)
+				  (CP-REL-SPE (WPP-1 (P to)
+						     (WNP (WPRO whom)))
+					      (C 0)
+					      (IP-SUB-SPE (ALSO also)
+							  (NP-SBJ (PRO he))
+							  (VBD gaue)
+							  (NP-OB1 (N testimonie)
+								  (PP *T*-1))))))
+	      (. ,))
+  (ID AUTHNEW-E2-P2,13,20A.825))
+
+/~*
+And by him all y=t= beleeue, are iustified from all things, from which ye
+could not be iustified by the Law of Moses.
+(AUTHNEW-E2-P2,13,20A.860)
+*~/
+/*
+43 WNP:  43 WNP, 45 which, 39 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P by)
+		  (NP (PRO him)))
+	      (NP-SBJ (Q all)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C y=t=)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP beleeue))))
+	      (, ,)
+	      (BEP are)
+	      (VAN iustified)
+	      (PP (P from)
+		  (NP (Q all)
+		      (NS things)
+		      (, ,)
+		      (CP-REL-SPE (WPP-2 (P from)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-2)
+					      (NP-SBJ (PRO ye))
+					      (MD could)
+					      (NEG not)
+					      (BE be)
+					      (VAN iustified)
+					      (PP (P by)
+						  (NP (D the)
+						      (N Law)
+						      (PP (P of)
+							  (NP (NPR Moses)))))))))
+	      (. .))
+  (ID AUTHNEW-E2-P2,13,20A.860))
+
+/~*
+And when they had ordeined them Elders in euery Church, and had prayed with
+fasting, they commended them to the Lord, on whom they beleeued.
+(AUTHNEW-E2-P2,14,20A.949)
+*~/
+/*
+75 WNP:  75 WNP, 77 whom, 71 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+				      (HVD had)
+				      (VBN ordeined)
+				      (NP-OB2 (PRO them))
+				      (NP-OB1 (NS Elders))
+				      (PP (P in)
+					  (NP (Q euery) (N Church))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (HVD had)
+					     (VBN prayed)
+					     (PP (P with)
+						 (NP (N fasting))))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD commended)
+	  (NP-OB1 (PRO them))
+	  (PP (P to)
+	      (NP (D the)
+		  (NPR Lord)
+		  (, ,)
+		  (CP-REL (WPP-1 (P on)
+				 (WNP (WPRO whom)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBD beleeued)))))
+	  (. .))
+  (ID AUTHNEW-E2-P2,14,20A.949))
+
+/~*
+And thence sailed to Antioch, from whence they had been recommended to the
+grace of God, for the worke which they fulfilled.
+(AUTHNEW-E2-P2,14,20A.955)
+*~/
+/*
+23 WADVP:  23 WADVP, 25 whence, 19 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ *con*)
+	  (ADVP (ADV thence))
+	  (VBD sailed)
+	  (PP (P to)
+	      (NP (NPR Antioch)
+		  (, ,)
+		  (CP-REL (WPP-1 (P from)
+				 (WADVP (WADV whence)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (HVD had)
+				  (BEN been)
+				  (VAN recommended)
+				  (PP (P to)
+				      (NP (D the)
+					  (N grace)
+					  (PP (P of)
+					      (NP (NPR God)))))
+				  (, ,)
+				  (PP (P for)
+				      (NP (D the)
+					  (N worke)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO they))
+							  (VBD fulfilled)))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P2,14,20A.955))
+
+/~*
+and I will set it vp 17 That the residue of men might seeke after the Lord,
+and all the Gentiles, vpon whom my Name is called, sayth the Lord, who doeth
+all these things.
+(AUTHNEW-E2-P2,15,1A.1002)
+*~/
+/*
+67 WNP:  67 WNP, 69 whom, 63 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO I))
+	      (MD will)
+	      (VB set)
+	      (NP-OB1 (PRO it))
+	      (RP vp)
+	      (CODE (NUM 17))
+	      (CP-ADV-SPE (C That)
+			  (IP-SUB-SPE (NP-SBJ (NP (D the)
+						  (N residue)
+						  (PP (P of)
+						      (NP (NS men))))
+					      (CONJP *ICH*-1))
+				      (MD might)
+				      (VB seeke)
+				      (PP (P after)
+					  (NP (D the) (NPR Lord)))
+				      (, ,)
+				      (CONJP-1 (CONJ and)
+					       (NP (Q all)
+						   (D the)
+						   (NPRS Gentiles)
+						   (, ,)
+						   (CP-REL-SPE (WPP-2 (P vpon)
+								      (WNP (WPRO whom)))
+							       (C 0)
+							       (IP-SUB-SPE (PP *T*-2)
+									   (NP-SBJ (PRO$ my) (N Name))
+									   (BEP is)
+									   (VAN called)))))))
+	      (, ,)
+	      (IP-MAT-PRN-SPE (VBP sayth)
+			      (NP-SBJ (D the)
+				      (NPR Lord)
+				      (, ,)
+				      (CP-REL-SPE (WNP-3 (WPRO who))
+						  (C 0)
+						  (IP-SUB-SPE (NP-SBJ *T*-3)
+							      (DOP doeth)
+							      (NP-OB1 (Q all) (D these) (NS things))))))
+	      (. .))
+  (ID AUTHNEW-E2-P2,15,1A.1002))
+
+/~*
+Forasmuch as we haue heard, that certaine which went out from vs, haue
+troubled you with words, subuerting your soules, saying, Ye must be
+circumcised, and keepe the Law, to whom we gaue no such commandement: 25 It
+seemed good vnto vs, being assembled with one accord, to send chosen men vnto
+you, with our beloued Barnabas and Paul, 26 Men that haue hazarded their liues
+for the Name of our Lord Iesus Christ.
+(AUTHNEW-E2-P2,15,20A.1013)
+*~/
+/*
+111 WNP:  111 WNP, 113 whom, 107 CP-REL-SPE-3
+*/
+
+( (IP-MAT-SPE (PP (P+ADVR+Q Forasmuch)
+		  (PP (P as)
+		      (CP-ADV-SPE (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO we))
+					      (HVP haue)
+					      (VBN heard)
+					      (, ,)
+					      (CP-THT-SPE (C that)
+							  (IP-SUB-SPE (NP-SBJ (ADJ certaine)
+									      (CP-REL-SPE (WNP-1 (WPRO which))
+											  (C 0)
+											  (IP-SUB-SPE (NP-SBJ *T*-1)
+												      (VBD went)
+												      (PP (RP out)
+													  (P from)
+													  (NP (PRO vs)))))
+									      (CP-REL-SPE *ICH*-3))
+								      (, ,)
+								      (HVP haue)
+								      (VBN troubled)
+								      (NP-OB1 (PRO you))
+								      (PP (P with)
+									  (NP (NS words)))
+								      (, ,)
+								      (IP-PPL-SPE (VAG subuerting)
+										  (NP-OB1 (PRO$ your) (NS soules)))
+								      (, ,)
+								      (IP-PPL-SPE (VAG saying)
+										  (, ,)
+										  (IP-MAT-SPE (IP-MAT-SPE-2 (NP-SBJ (PRO Ye))
+													    (MD must)
+													    (BE be)
+													    (VAN circumcised))
+											      (, ,)
+											      (CONJP (CONJ and)
+												     (IP-MAT-SPE=2 (VB keepe)
+														   (NP-OB1 (D the) (N Law))))))
+								      (, ,)
+								      (CP-REL-SPE-3 (WPP-4 (P to)
+											   (WNP (WPRO whom)))
+										    (C 0)
+										    (IP-SUB-SPE (PP *T*-4)
+												(NP-SBJ (PRO we))
+												(VBD gaue)
+												(NP-OB1 (Q no) (SUCH such) (N commandement))))))))))
+	      (, :)
+	      (CODE (NUM 25))
+	      (NP-SBJ-5 (PRO It))
+	      (VBD seemed)
+	      (ADJP (ADJ good))
+	      (PP (P vnto)
+		  (NP (PRO vs)))
+	      (, ,)
+	      (IP-PPL-SPE (BAG being)
+			  (VAN assembled)
+			  (PP (P with)
+			      (NP (ONE one) (N accord))))
+	      (, ,)
+	      (IP-INF-SPE-5 (TO to)
+			    (VB send)
+			    (NP-OB1 (VAN chosen) (NS men))
+			    (PP (P vnto)
+				(NP (PRO you)))
+			    (, ,)
+			    (PP (P with)
+				(NP (PRO$ our)
+				    (ADJ beloued)
+				    (NPR Barnabas)
+				    (CONJP (CONJ and)
+					   (NX (NPR Paul)))
+				    (, ,)
+				    (CODE (NUM 26))
+				    (NP-PRN (NS Men)
+					    (CP-REL-SPE (WNP-6 0)
+							(C that)
+							(IP-SUB-SPE (NP-SBJ *T*-6)
+								    (HVP haue)
+								    (VBN hazarded)
+								    (NP-OB1 (PRO$ their) (NS liues))
+								    (PP (P for)
+									(NP (D the)
+									    (N Name)
+									    (PP (P of)
+										(NP (PRO$ our)
+										    (NPR Lord)
+										    (NP-PRN (NPR Iesus) (NPR Christ))))))))))))
+	      (. .))
+  (ID AUTHNEW-E2-P2,15,20A.1013))
+
+/~*
+For it seemed good to the holy Ghost, and to vs, to lay vpon you no greater
+burden then these necessarie things; 29 That ye abstaine from meates offered
+to idoles, and from blood, & from things strangled, and from fornication: from
+which if ye keepe your selues, yee shall doe well.
+(AUTHNEW-E2-P2,15,20A.1017)
+*~/
+/*
+136 WNP:  136 WNP, 138 which, 132 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ-1 (PRO it))
+	      (VBD seemed)
+	      (ADJP (ADJ good)
+		    (PP (PP (P to)
+			    (NP (D the) (NPR holy) (NPR Ghost)))
+			(, ,)
+			(CONJP (CONJ and)
+			       (PP (P to)
+				   (NP (PRO vs))))))
+	      (, ,)
+	      (IP-INF-SPE-1 (TO to)
+			    (VB lay)
+			    (PP (P vpon)
+				(NP (PRO you)))
+			    (NP-OB1 (Q no)
+				    (ADJR greater)
+				    (N burden)
+				    (PP (P then)
+					(NP (D these)
+					    (ADJ necessarie)
+					    (NS things)
+					    (, ;)
+					    (CODE (NUM 29))
+					    (CP-THT-PRN-SPE (C That)
+							    (IP-SUB-SPE (NP-SBJ (PRO ye))
+									(VBP abstaine)
+									(PP (PP (P from)
+										(NP (NS meates)
+										    (RRC (VAN offered)
+											 (PP (P to)
+											     (NP (NS idoles))))))
+									    (, ,)
+									    (CONJP (CONJ and)
+										   (PP (P from)
+										       (NP (N blood))))
+									    (, ,)
+									    (CONJP (CONJ &)
+										   (PP (P from)
+										       (NP (NS things)
+											   (RRC (VAN strangled)))))
+									    (, ,)
+									    (CONJP (CONJ and)
+										   (PP (P from)
+										       (NP (N fornication))))
+									    (, :)
+									    (CP-REL-SPE (WPP-2 (P from)
+											       (WNP (WPRO which)))
+											(C 0)
+											(IP-SUB-SPE (PP (P if)
+													(CP-ADV-SPE (C 0)
+														    (IP-SUB-SPE (PP *T*-2)
+																(NP-SBJ (PRO ye))
+																(VBP keepe)
+																(NP-OB1 (PRO$ your) (N selues)))))
+												    (, ,)
+												    (NP-SBJ (PRO yee))
+												    (MD shall)
+												    (DO doe)
+												    (ADVP (ADV well)))))))))))
+	      (. .))
+  (ID AUTHNEW-E2-P2,15,20A.1017))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	12/12/1255
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd
+*/
+
+/~*
+and euery tree, in the which is the fruit of a tree yeelding seed, to you it
+shall be for meat:
+(AUTHOLD-E2-H,1,20G.96)
+*~/
+/*
+15 WNP:  15 WNP, 19 which, 11 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-LFD-1 (Q euery)
+			(N tree)
+			(, ,)
+			(CP-REL-SPE (WPP-2 (P in)
+					   (WNP (D the) (WPRO which)))
+				    (C 0)
+				    (IP-SUB-SPE (PP *T*-2)
+						(CODE <font>)
+						(BEP is)
+						(CODE <$$font>)
+						(NP-SBJ (D the)
+							(N fruit)
+							(PP (P of)
+							    (NP (D a)
+								(N tree)
+								(RRC (VAG yeelding)
+								     (NP-OB1 (N seed)))))))))
+	      (, ,)
+	      (PP (P to)
+		  (NP (PRO you)))
+	      (NP-SBJ-RSP=1 (PRO it))
+	      (MD shall)
+	      (BE be)
+	      (PP (P for)
+		  (NP (N meat)))
+	      (. :))
+  (ID AUTHOLD-E2-H,1,20G.96))
+
+/~*
+And vnto Adam he said, Because thou hast hearkened vnto the voyce of thy wife,
+and hast eaten of the tree, of which I commaunded thee, saying, Thou shalt not
+eate of it: cursed is the ground for thy sake:
+(AUTHOLD-E2-H,3,1G.246)
+*~/
+/*
+75 WNP:  75 WNP, 77 which, 71 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P vnto)
+	      (NP (NPR Adam)))
+	  (NP-SBJ (PRO he))
+	  (VBD said)
+	  (, ,)
+	  (IP-MAT-SPE (PP (P+N Because)
+			  (CP-ADV-SPE (C 0)
+				      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO thou))
+							      (HVP hast)
+							      (VBN hearkened)
+							      (PP (P vnto)
+								  (NP (D the)
+								      (N voyce)
+								      (PP (P of)
+									  (NP (PRO$ thy) (N wife))))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE (NP-SBJ *con*)
+								     (HVP hast)
+								     (VBN eaten)
+								     (PP (P of)
+									 (NP (D the)
+									     (N tree)
+									     (, ,)
+									     (CP-REL-SPE (WPP-1 (P of)
+												(WNP (WPRO which)))
+											 (C 0)
+											 (IP-SUB-SPE (PP *T*-1)
+												     (NP-SBJ (PRO I))
+												     (VBD commaunded)
+												     (NP-OB2 (PRO thee))
+												     (, ,)
+												     (IP-PPL-SPE (VAG saying)
+														 (, ,)
+														 (IP-MAT-SPE (NP-SBJ (PRO Thou))
+															     (MD shalt)
+															     (NEG not)
+															     (VB eate)
+															     (PP (P of)
+																 (NP (PRO it))))))))))))))
+		      (, :)
+		      (VAN cursed)
+		      (CODE <font>)
+		      (BEP is)
+		      (CODE <$$font>)
+		      (NP-SBJ (D the) (N ground))
+		      (PP (P for)
+			  (NP (PRO$ thy) (N sake))))
+	  (. :))
+  (ID AUTHOLD-E2-H,3,1G.246))
+
+/~*
+And now lest hee put foorth his hand, and take also of the tree of life, and
+eate and liue for euer: 23 Therefore the LORD God sent him foorth from the
+garden of Eden, to till the ground, from whence he was taken.
+(AUTHOLD-E2-H,3,20G.264)
+*~/
+/*
+133 WADVP:  133 WADVP, 135 whence, 129 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP-TMP (ADV now))
+	  (PP-LFD (P lest)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO hee))
+						      (VBP put)
+						      (ADVP-DIR (ADV foorth))
+						      (NP-OB1 (PRO$ his) (N hand)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP take)
+							     (ALSO also)
+							     (PP (P of)
+								 (NP (D the)
+								     (N tree)
+								     (PP (P of)
+									 (NP (N life)))))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP eate)))
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP liue)
+							     (PP (P for)
+								 (ADVP (ADV euer))))))))
+	  (. :)
+	  (CODE (NUM 23))
+	  (PP-RSP (ADV+P Therefore))
+	  (NP-SBJ (D the) (NPR LORD) (NPR God))
+	  (VBD sent)
+	  (NP-OB1 (PRO him))
+	  (ADVP-DIR (ADV foorth))
+	  (PP (P from)
+	      (NP (D the)
+		  (N garden)
+		  (PP (P of)
+		      (NP (NPR Eden)))))
+	  (, ,)
+	  (IP-INF-PRP-SPE (TO to)
+			  (VB till)
+			  (NP-OB1 (D the)
+				  (N ground)
+				  (, ,)
+				  (CP-REL-SPE (WPP-1 (P from)
+						     (WADVP (WADV whence)))
+					      (C 0)
+					      (IP-SUB-SPE (PP *T*-1)
+							  (NP-SBJ (PRO he))
+							  (BED was)
+							  (VAN taken)))))
+	  (. .))
+  (ID AUTHOLD-E2-H,3,20G.264))
+
+/~*
+and they took them wiues, of all which they chose.
+(AUTHOLD-E2-H,6,1G.274)
+*~/
+/*
+21 WNP:  21 WNP, 25 which, 17 CP-REL
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO they))
+	  (VBD took)
+	  (NP-OB2 (PRO them))
+	  (NP-OB1 (NS wiues)
+		  (, ,)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (Q all) (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBD chose))))
+	  (. .))
+  (ID AUTHOLD-E2-H,6,1G.274))
+
+/~*
+All in whose nosethrils was the breath of life, of all that was in the dry
+land, died.
+(AUTHOLD-E2-H,7,20G.393)
+*~/
+/*
+9 WNP:  9 WNP, 13 nosethrils, 5 CP-REL
+*/
+
+( (IP-MAT (NP-SBJ (Q All)
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (WPRO$ whose) (NS nosethrils)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (BED was)
+				  (NP-SBJ (D the)
+					  (N breath)
+					  (PP (P of)
+					      (NP (N life))))))
+		  (, ,)
+		  (PP (P of)
+		      (NP (Q all)
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (BED was)
+					  (PP (P in)
+					      (NP (D the) (ADJ dry) (N land))))))))
+	  (, ,)
+	  (VBD died)
+	  (. .))
+  (ID AUTHOLD-E2-H,7,20G.393))
+
+/~*
+and went vnto the place of which God had told him.
+(AUTHOLD-E2-H,22,1G.766)
+*~/
+/*
+20 WNP:  20 WNP, 22 which, 16 CP-REL
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD went)
+	  (PP (P vnto)
+	      (NP (D the)
+		  (N place)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (NPR God))
+				  (HVD had)
+				  (VBN told)
+				  (NP-OB2 (PRO him))))))
+	  (. .))
+  (ID AUTHOLD-E2-H,22,1G.766))
+
+/~*
+And they brought vp an euill report of the land which they had searched, vnto
+the children of Israel, saying, The land through which we haue gone, to search
+it, is a land that eateth vp the inhabitants thereof,
+(AUTHOLD-E2-H,13,20N.913)
+*~/
+/*
+75 WNP:  75 WNP, 77 which, 71 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they))
+	  (VBD brought)
+	  (RP vp)
+	  (NP-OB1 (D an)
+		  (ADJ euill)
+		  (N report)
+		  (PP (P of)
+		      (NP (D the) (N land)))
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO they))
+				  (HVD had)
+				  (VBN searched))))
+	  (, ,)
+	  (PP (P vnto)
+	      (NP (D the)
+		  (NS children)
+		  (PP (P of)
+		      (NP (NPR Israel)))))
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (IP-MAT-SPE (NP-SBJ (D The)
+				      (N land)
+				      (CP-REL-SPE (WPP-2 (P through)
+							 (WNP (WPRO which)))
+						  (C 0)
+						  (IP-SUB-SPE (PP *T*-2)
+							      (NP-SBJ (PRO we))
+							      (HVP haue)
+							      (VBN gone)
+							      (, ,)
+							      (IP-INF-PRP-SPE (TO to)
+									      (VB search)
+									      (NP-OB1 (PRO it))))))
+			      (, ,)
+			      (CODE <font>)
+			      (BEP is)
+			      (CODE <$$font>)
+			      (NP-OB1 (D a)
+				      (N land)
+				      (CP-REL-SPE (WNP-3 0)
+						  (C that)
+						  (IP-SUB-SPE (NP-SBJ *T*-3)
+							      (VBP eateth)
+							      (RP vp)
+							      (NP-OB1 (D the)
+								      (NS inhabitants)
+								      (PP (ADV+P thereof))))))))
+	  (. ,))
+  (ID AUTHOLD-E2-H,13,20N.913))
+
+/~*
+After the number of the dayes in which ye searched the land, euen fortie dayes
+each day for a yeere shall yee beare your iniquities, euen forty yeeres,
+(AUTHOLD-E2-H,14,20N.1004)
+*~/
+/*
+22 WNP:  22 WNP, 24 which, 18 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (PP (P After)
+		  (NP (D the)
+		      (N number)
+		      (PP (P of)
+			  (NP (D the)
+			      (NS dayes)
+			      (CP-REL-SPE (WPP-1 (P in)
+						 (WNP (WPRO which)))
+					  (C 0)
+					  (IP-SUB-SPE (PP *T*-1)
+						      (NP-SBJ (PRO ye))
+						      (VBD searched)
+						      (NP-OB1 (D the) (N land))))))))
+	      (, ,)
+	      (NP-MSR (CODE <font>)
+		      (FP euen)
+		      (CODE <$$font>)
+		      (NUM fortie)
+		      (NS dayes)
+		      (NP-PRN (CODE <paren>)
+			      (Q each)
+			      (N day)
+			      (PP (P for)
+				  (NP (D a) (N yeere))))
+		      (CODE <$$paren>)
+		      (NP-PRN *ICH*-2))
+	      (MD shall)
+	      (NP-SBJ (PRO yee))
+	      (VB beare)
+	      (NP-OB1 (PRO$ your) (NS iniquities))
+	      (, ,)
+	      (NP-PRN-2 (CODE <font>) (FP euen) (CODE <$$font>) (NUM forty) (NS yeeres))
+	      (. ,))
+  (ID AUTHOLD-E2-H,14,20N.1004))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	8/8/1234
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd
+*/
+
+/~*
+And Mizraim begat Ludim, and Anamim, and Lehabim, and Naphtuhim, 14 And
+Pathrusim, and Casluhim out of whome came Philistiim and Caphtorim.
+(AUTHOLD-E2-P1,10,1G.235)
+*~/
+/*
+64 WNP:  64 WNP, 66 whome, 58 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (NPR Mizraim))
+	  (VBD begat)
+	  (NP-OB1 (NP (NPR Ludim))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (NPR Anamim)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (NPR Lehabim)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (NPR Naphtuhim)))
+		  (, ,)
+		  (CODE (NUM 14))
+		  (CONJP (CONJ And)
+			 (NP (NPR Pathrusim)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (NPR Casluhim)
+			     (CODE <paren>)
+			     (CP-REL (WPP-1 (RP out)
+					    (P of)
+					    (WNP (WPRO whome)))
+				     (C 0)
+				     (IP-SUB (PP *T*-1)
+					     (VBD came)
+					     (NP-SBJ (NPR Philistiim))))))
+		  (CODE <$$paren>)
+		  (CONJP (CONJ and)
+			 (NP (NPR Caphtorim))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,10,1G.235))
+
+/~*
+And he said vnto him, See, I haue accepted thee concerning this thing, that I
+will not ouerthrow this citie, for the which thou hast spoken.
+(AUTHOLD-E2-P1,19,20G.792)
+*~/
+/*
+67 WNP:  67 WNP, 71 which, 63 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO he))
+	  (VBD said)
+	  (PP (P vnto)
+	      (NP (PRO him)))
+	  (, ,)
+	  (IP-MAT-SPE (IP-IMP-PRN-SPE (VBI See))
+		      (, ,)
+		      (NP-SBJ (PRO I))
+		      (HVP haue)
+		      (VBN accepted)
+		      (NP-OB1 (PRO thee))
+		      (IP-PPL-SPE (VAG concerning)
+				  (NP-OB1 (D this) (N thing)))
+		      (, ,)
+		      (CP-THT-SPE (C that)
+				  (IP-SUB-SPE (NP-SBJ (PRO I))
+					      (MD will)
+					      (NEG not)
+					      (VB ouerthrow)
+					      (NP-OB1 (D this)
+						      (N citie)
+						      (, ,)
+						      (CP-REL-SPE (WPP-1 (P for)
+									 (WNP (D the) (WPRO which)))
+								  (C 0)
+								  (IP-SUB-SPE (PP *T*-1)
+									      (NP-SBJ (PRO thou))
+									      (HVP hast)
+									      (VBN spoken)))))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,19,20G.792))
+
+/~*
+And it came to passe, when God destroyed the cities of the plaine, that God
+remembred Abraham, and sent Lot out of the midst of the ouerthrow, when he
+ouerthrew the cities, in the which Lot dwelt.
+(AUTHOLD-E2-P1,19,20G.814)
+*~/
+/*
+111 WNP:  111 WNP, 115 which, 107 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (PRO it)
+	  (VBD came)
+	  (IP-INF (TO to) (VB passe))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR God))
+			      (VBD destroyed)
+			      (NP-OB1 (D the)
+				      (NS cities)
+				      (PP (P of)
+					  (NP (D the) (N plaine)))))))
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (IP-SUB (NP-SBJ (NPR God))
+				  (VBD remembred)
+				  (NP-OB1 (NPR Abraham)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB (NP-SBJ *con*)
+					 (VBD sent)
+					 (NP-OB1 (NPR Lot))
+					 (PP (RP out)
+					     (P of)
+					     (NP (D the)
+						 (N midst)
+						 (PP (P of)
+						     (NP (D the) (N ouerthrow)))))))
+			  (, ,)
+			  (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (VBD ouerthrew)
+					      (NP-OB1 (D the)
+						      (NS cities)
+						      (, ,)
+						      (CP-REL (WPP-1 (P in)
+								     (WNP (D the) (WPRO which)))
+							      (C 0)
+							      (IP-SUB (PP *T*-1)
+								      (NP-SBJ (NPR Lot))
+								      (VBD dwelt)))))))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,19,20G.814))
+
+/~*
+and bare Abraham a sonne in his old age, at the set time, of which God had
+spoken to him.
+(AUTHOLD-E2-P1,21,1G.934)
+*~/
+/*
+44 WNP:  44 WNP, 46 which, 40 CP-REL
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD bare)
+	  (NP-OB2 (NPR Abraham))
+	  (NP-OB1 (D a) (N sonne))
+	  (PP (P in)
+	      (NP (PRO$ his) (ADJ old) (N age)))
+	  (, ,)
+	  (PP (P at)
+	      (NP (D the)
+		  (VAN set)
+		  (N time)
+		  (, ,)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (NPR God))
+				  (HVD had)
+				  (VBN spoken)
+				  (PP (P to)
+				      (NP (PRO him)))))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,21,1G.934))
+
+/~*
+And it shall bee vnto you for a fringe, that ye may looke vpon it, and
+remember all the commandements of the Lord, and doe them: and that ye seeke
+not after your owne heart, and your owne eyes, after which ye vse to goe a
+whoring: 40 That ye may remember, and doe all my commandements, and be holy
+vnto your God.
+(AUTHOLD-E2-P1,15,40N.1115)
+*~/
+/*
+125 WNP:  125 WNP, 127 which, 121 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (PRO it))
+	      (MD shall)
+	      (BE bee)
+	      (PP (P vnto)
+		  (NP (PRO you)))
+	      (PP (P for)
+		  (NP (D a) (N fringe)))
+	      (, ,)
+	      (CP-ADV-SPE (CP-ADV-SPE (C that)
+				      (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (PRO ye))
+								(MD may)
+								(VB looke)
+								(PP (P vpon)
+								    (NP (PRO it))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE=1 (VB remember)
+								       (NP-OB1 (Q all)
+									       (D the)
+									       (NS commandements)
+									       (PP (P of)
+										   (NP (D the) (NPR Lord))))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE=1 (DO doe)
+								       (NP-OB1 (PRO them))))))
+			  (, :)
+			  (CONJP (CONJ and)
+				 (CP-ADV-SPE (C that)
+					     (IP-SUB-SPE (NP-SBJ (PRO ye))
+							 (VBP seeke)
+							 (NEG not)
+							 (PP (P after)
+							     (NP (NP (PRO$ your) (ADJ owne) (N heart))
+								 (, ,)
+								 (CONJP (CONJ and)
+									(NP (PRO$ your) (ADJ owne) (NS eyes)))
+								 (, ,)
+								 (CP-REL-SPE (WPP-2 (P after)
+										    (WNP (WPRO which)))
+									     (C 0)
+									     (IP-SUB-SPE (PP *T*-2)
+											 (NP-SBJ (PRO ye))
+											 (VBP vse)
+											 (IP-INF-SPE (TO to)
+												     (VB goe)
+												     (PP (P a)
+													 (NP (N whoring)))))))))))
+			  (, :)
+			  (CODE <P_15,40N>)
+			  (CODE (NUM 40))
+			  (CONJP (CP-ADV-SPE (C That)
+					     (IP-SUB-SPE (IP-SUB-SPE-3 (NP-SBJ (PRO ye))
+								       (MD may)
+								       (VB remember))
+							 (, ,)
+							 (CONJP (CONJ and)
+								(IP-SUB-SPE=3 (DO doe)
+									      (NP-OB1 (Q all) (PRO$ my) (NS commandements))))
+							 (, ,)
+							 (CONJP (CONJ and)
+								(IP-SUB-SPE=3 (BE be)
+									      (ADJP (ADJ holy)
+										    (PP (P vnto)
+											(NP (PRO$ your) (NPR God))))))))))
+	      (. .))
+  (ID AUTHOLD-E2-P1,15,40N.1115))
+
+/~*
+And the Lord spake vnto Moses, and vnto Aaron, saying, 2 This is the ordinance
+of the Law, which the Lord hath commaunded, saying, Speake vnto the children
+of Israel, that they bring thee a red heifer without spot, wherein is no
+blemish, and upon which neuer came yoke.
+(AUTHOLD-E2-P1,19,1N.1223)
+*~/
+/*
+167 WNP:  167 WNP, 169 which, 163 CP-REL-SPE
+167 WNP:  167 WNP, 169 which, 135 CP-REL-SPE
+167 WNP:  167 WNP, 169 which, 64 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (D the) (NPR Lord))
+	  (VBD spake)
+	  (PP (PP (P vnto)
+		  (NP (NPR Moses)))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (PP (P vnto)
+			 (NP (NPR Aaron)))))
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (CODE (NUM 2))
+		  (IP-MAT-SPE (NP-SBJ (D This))
+			      (CODE <font>)
+			      (BEP is)
+			      (CODE <$$font>)
+			      (NP-OB1 (D the)
+				      (N ordinance)
+				      (PP (P of)
+					  (NP (D the)
+					      (N Law)
+					      (, ,)
+					      (CP-REL-SPE (WNP-1 (WPRO which))
+							  (C 0)
+							  (IP-SUB-SPE (NP-OB1 *T*-1)
+								      (NP-SBJ (D the) (NPR Lord))
+								      (HVP hath)
+								      (VBN commaunded)
+								      (, ,)
+								      (IP-PPL-SPE (VAG saying)
+										  (, ,)
+										  (IP-IMP-SPE (VBI Speake)
+											      (PP (P vnto)
+												  (NP (D the)
+												      (NS children)
+												      (PP (P of)
+													  (NP (NPR Israel)))))
+											      (, ,)
+											      (CP-ADV-SPE (C that)
+													  (IP-SUB-SPE (NP-SBJ (PRO they))
+														      (VBP bring)
+														      (NP-OB2 (PRO thee))
+														      (NP-OB1 (D a)
+															      (ADJ red)
+															      (N heifer)
+															      (PP (P without)
+																  (NP (N spot)))
+															      (, ,)
+															      (CP-REL-SPE (CP-REL-SPE (WPP-2 (WADV+P wherein))
+																		      (C 0)
+																		      (IP-SUB-SPE (PP *T*-2)
+																				  (NP-SBJ-3 *exp*)
+																				  (BEP is)
+																				  (NP-3 (Q no) (N blemish))))
+																	  (, ,)
+																	  (CODE <font>)
+																	  (CONJP (CONJ and)
+																		 (CODE <$$font>)
+																		 (CP-REL-SPE (WPP-4 (P upon)
+																				    (WNP (WPRO which)))
+																			     (C 0)
+																			     (IP-SUB-SPE (PP *T*-4)
+																					 (ADVP-TMP (ADV neuer))
+																					 (VBD came)
+																					 (NP-SBJ (N yoke))))))))))))))))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,19,1N.1223))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	6/6/1385
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd
+*/
+
+/~*
+Yet in this thing ye did not beleeue the Lord your God. 33 Who went in the way
+before you to search you out a place to pitch your tents in, in fire by night,
+to shew you by what way ye should goe, and in a cloud by day.
+(AUTHOLD-E2-P2,1,20D.102)
+*~/
+/*
+124 WNP:  124 WNP, 128 way, 37 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Yet)
+		    (PP (P in)
+			(NP (D this) (N thing))))
+	      (NP-SBJ (PRO ye))
+	      (DOD did)
+	      (NEG not)
+	      (VB beleeue)
+	      (NP-OB1 (D the)
+		      (NPR Lord)
+		      (NP-PRN (PRO$ your) (NPR God))
+		      (, .)
+		      (CODE (NUM 33))
+		      (CP-REL-SPE (WNP-1 (WPRO Who))
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE-2 (NP-SBJ *T*-1)
+							    (VBD went)
+							    (PP (P in)
+								(NP (D the) (N way)))
+							    (PP (P before)
+								(NP (PRO you)))
+							    (IP-INF-PRP-SPE (TO to)
+									    (VB search)
+									    (NP-OB2 (PRO you))
+									    (RP out)
+									    (NP-OB1 (D a)
+										    (N place)
+										    (CP-EOP-SPE (WNP-3 0)
+												(IP-INF-SPE (TO to)
+													    (VB pitch)
+													    (NP-OB1 (PRO$ your) (NS tents))
+													    (PP (P in)
+														(NP *T*-3))))))
+							    (, ,)
+							    (PP (P in)
+								(NP (N fire)))
+							    (PP (P by)
+								(NP (N night)))
+							    (, ,)
+							    (IP-INF-PRP-SPE (TO to)
+									    (VB shew)
+									    (NP-OB2 (PRO you))
+									    (CP-QUE-SPE (WPP-4 (P by)
+											       (WNP (WD what) (N way)))
+											(C 0)
+											(IP-SUB-SPE (PP *T*-4)
+												    (NP-SBJ (PRO ye))
+												    (MD should)
+												    (VB goe)))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE=2 (PP (P in)
+								       (NP (D a) (N cloud)))
+								   (PP (P by)
+								       (NP (N day))))))))
+	      (. .))
+  (ID AUTHOLD-E2-P2,1,20D.102))
+
+/~*
+And the space in which we came from Kadesh Barnea, vntill we were come ouer
+the brooke Zered, was thirtie and eight yeeres; vntill all the generation of
+the men of warre were wasted out from among the hoste, as the Lord sware vnto
+them.
+(AUTHOLD-E2-P2,2,1D.193)
+*~/
+/*
+13 WNP:  13 WNP, 15 which, 9 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (D the)
+		      (N space)
+		      (CP-REL-SPE (WPP-1 (P in)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (PRO we))
+					      (VBD came)
+					      (PP (P from)
+						  (NP (NPR Kadesh) (NPR Barnea))))))
+	      (, ,)
+	      (PP (P vntill)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (BED were)
+					  (VBN come)
+					  (PP (P ouer)
+					      (NP (D the)
+						  (N brooke)
+						  (NP-PRN (NPR Zered)))))))
+	      (, ,)
+	      (BED was)
+	      (NP-OB1 (NUMP (NUM thirtie) (CONJ and) (NUM eight))
+		      (NS yeeres))
+	      (, ;)
+	      (PP (P vntill)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (Q all)
+						  (D the)
+						  (N generation)
+						  (PP (P of)
+						      (NP (D the)
+							  (NS men)
+							  (PP (P of)
+							      (NP (N warre))))))
+					  (BED were)
+					  (VAN wasted)
+					  (PP (RP out)
+					      (P from)
+					      (PP (P among)
+						  (NP (D the) (N hoste))))
+					  (, ,)
+					  (PP (P as)
+					      (CP-ADV-SPE (WNP-2 0)
+							  (C 0)
+							  (IP-SUB-SPE (NP-OB1 *T*-2)
+								      (NP-SBJ (D the) (NPR Lord))
+								      (VBD sware)
+								      (PP (P vnto)
+									  (NP (PRO them)))))))))
+	      (. .))
+  (ID AUTHOLD-E2-P2,2,1D.193))
+
+/~*
+so shall the Lord thy God doe vnto all the people of whom thou art afraid.
+(AUTHOLD-E2-P2,7,1D.631)
+*~/
+/*
+33 WNP:  33 WNP, 35 whom, 29 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (ADVP (ADV so))
+	      (MD shall)
+	      (NP-SBJ (D the)
+		      (NPR Lord)
+		      (NP-PRN (PRO$ thy) (NPR God)))
+	      (DO doe)
+	      (PP (P vnto)
+		  (NP (Q all)
+		      (D the)
+		      (NS people)
+		      (CP-REL-SPE (WPP-1 (P of)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO thou))
+					      (BEP art)
+					      (ADJP (ADJ afraid)
+						    (PP *T*-1))))))
+	      (. .))
+  (ID AUTHOLD-E2-P2,7,1D.631))
+
+/~*
+For the Lord thy God bringeth thee into a good land, a lande of brookes of
+water, of fountaines, and depths that spring out of valleys and hilles, 8 A
+land of wheate, and barley, and vines, and fig trees, and pomegranats, a land
+of oyle oliue, and hony, 9 A lande wherein thou shalt eate bread without
+scarcenes, thou shalt not lacke any thing in it: a lande whose stones are yron,
+and out of whose hils thou mayest digge brasse.
+(AUTHOLD-E2-P2,8,1D.679)
+*~/
+/*
+261 WNP:  261 WNP, 265 hils, 255 CP-REL-SPE
+261 WNP:  261 WNP, 265 hils, 229 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (D the)
+		      (NPR Lord)
+		      (NP-PRN (PRO$ thy) (NPR God)))
+	      (VBP bringeth)
+	      (NP-OB1 (PRO thee))
+	      (PP (P into)
+		  (NP (D a)
+		      (ADJ good)
+		      (N land)
+		      (, ,)
+		      (NP-PRN (NP (D a)
+				  (N lande)
+				  (PP (PP (P of)
+					  (NP (NS brookes)
+					      (PP (P of)
+						  (NP (N water)))))
+				      (, ,)
+				      (CONJP (PP (P of)
+						 (NP (NS fountaines)
+						     (, ,)
+						     (CONJ and)
+						     (NS depths)
+						     (CP-REL-SPE (WNP-1 0)
+								 (C that)
+								 (IP-SUB-SPE (NP-SBJ *T*-1)
+									     (VBP spring)
+									     (PP (RP out)
+										 (P of)
+										 (NP (NS valleys) (CONJ and) (NS hilles))))))))))
+			      (, ,)
+			      (CODE (NUM 8))
+			      (CONJP (NP (D A)
+					 (N land)
+					 (PP (P of)
+					     (NP (NP (N wheate))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(NP (N barley)))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(NP (NS vines)))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(NP (N fig) (NS trees)))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(NP (NS pomegranats)))))))
+			      (, ,)
+			      (CONJP (NP (D a)
+					 (N land)
+					 (PP (P of)
+					     (NP (N oyle) (N oliue) (, ,) (CONJ and) (N hony)))))
+			      (, ,)
+			      (CODE (NUM 9))
+			      (CONJP (NP (D A)
+					 (N lande)
+					 (CP-REL-SPE (WPP-2 (WADV+P wherein))
+						     (C 0)
+						     (IP-SUB-SPE (IP-SUB-SPE (PP *T*-2)
+									     (NP-SBJ (PRO thou))
+									     (MD shalt)
+									     (VB eate)
+									     (NP-OB1 (N bread))
+									     (PP (P without)
+										 (NP (N scarcenes))))))))
+			      (, ,)
+			      (IP-MAT-PRN-SPE (NP-SBJ (PRO thou))
+					      (MD shalt)
+					      (NEG not)
+					      (VB lacke)
+					      (NP-OB1 (Q any) (N thing))
+					      (PP (P in)
+						  (NP (PRO it))))
+			      (, :)
+			      (CONJP (NP (D a)
+					 (N lande)
+					 (CP-REL-SPE (CP-REL-SPE (WNP-3 (WPRO$ whose) (NS stones))
+								 (C 0)
+								 (IP-SUB-SPE (NP-SBJ *T*-3)
+									     (CODE <font>)
+									     (BEP are)
+									     (CODE <$$font>)
+									     (NP-OB1 (N yron))))
+						     (, ,)
+						     (CONJP (CONJ and)
+							    (CP-REL-SPE (WPP-4 (RP out)
+									       (P of)
+									       (WNP (WPRO$ whose) (NS hils)))
+									(C 0)
+									(IP-SUB-SPE (PP *T*-4)
+										    (NP-SBJ (PRO thou))
+										    (MD mayest)
+										    (VB digge)
+										    (NP-OB1 (N brasse)))))))))))
+	      (. .))
+  (ID AUTHOLD-E2-P2,8,1D.679))
+
+/~*
+thou art to passe ouer Iordan this day, to goe in, to possesse nations greater
+& mightier then thy selfe, Cities great, and fenced vp to heauen, 2 A people
+great and tall, the children of the Anakims, whom thou knowest, and of whom
+thou hast heard say, Who can stand before the children of Anak?
+(AUTHOLD-E2-P2,9,1D.702)
+*~/
+/*
+147 WNP:  147 WNP, 149 whom, 143 CP-REL-SPE
+147 WNP:  147 WNP, 149 whom, 121 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO thou))
+	      (BEP art)
+	      (IP-INF-SPE (TO to)
+			  (VB passe)
+			  (PP (P ouer)
+			      (NP (NPR Iordan))))
+	      (NP-TMP (D this) (N day))
+	      (, ,)
+	      (IP-INF-PRP-SPE (IP-INF-PRP-SPE (TO to) (VB goe) (RP in))
+			      (, ,)
+			      (CONJP (IP-INF-PRP-SPE (TO to)
+						     (VB possesse)
+						     (NP-OB1 (NP (NS nations)
+								 (ADJP (ADJR greater)
+								       (CONJ &)
+								       (ADJR mightier)
+								       (PP (P then)
+									   (NP (PRO$ thy) (N selfe)))))
+							     (, ,)
+							     (CONJP (NP (NS Cities)
+									(ADJP (ADJP (ADJ great))
+									      (, ,)
+									      (CONJP (CONJ and)
+										     (RRC (VAN fenced)
+											  (PP (RP vp)
+											      (P to)
+											      (NP (NPR heauen))))))))
+							     (, ,)
+							     (CODE (NUM 2))
+							     (CONJP (NP (D A)
+									(N people)
+									(ADJP (ADJ great) (CONJ and) (ADJ tall))
+									(, ,)
+									(NP-PRN (D the)
+										(NS children)
+										(PP (P of)
+										    (NP (D the)
+											(NPRS Anakims)
+											(, ,)
+											(CP-REL-SPE (CP-REL-SPE (WNP-1 (WPRO whom))
+														(C 0)
+														(IP-SUB-SPE (NP-OB1 *T*-1)
+															    (NP-SBJ (PRO thou))
+															    (VBP knowest)))
+												    (, ,)
+												    (CONJP (CONJ and)
+													   (CODE <font>)
+													   (CP-REL-SPE (WPP-2 (P of)
+															      (WNP (WPRO whom)))
+														       (C 0)
+														       (CODE <$$font>)
+														       (IP-SUB-SPE (NP-SBJ (PRO thou))
+																   (HVP hast)
+																   (VBN heard)
+																   (IP-INF-SPE (PP *T*-2)
+																	       (NP-SBJ *arb*)
+																	       (CODE <font>)
+																	       (VB say)
+																	       (CODE <$$font>)
+																	       (, ,)
+																	       (CP-QUE-SPE (WNP-3 (WPRO Who))
+																			   (C 0)
+																			   (IP-SUB-SPE (NP-SBJ *T*-3)
+																				       (MD can)
+																				       (VB stand)
+																				       (PP (P before)
+																					   (NP (D the)
+																					       (NS children)
+																					       (PP (P of)
+																						   (NP (NPR Anak)))))))))))))))))))))
+	      (. ?))
+  (ID AUTHOLD-E2-P2,9,1D.702))
+
+/~*
+For the land whither thou goest in to possesse it, is not as the lande of
+Egypt from whence ye came out, where thou sowedst thy seed, and wateredst it
+with thy foot, as a garden of herbes:
+(AUTHOLD-E2-P2,11,1D.875)
+*~/
+/*
+57 WADVP:  57 WADVP, 59 whence, 53 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (D the)
+		      (N land)
+		      (CP-REL-SPE (WADVP-1 (WADV whither))
+				  (C 0)
+				  (IP-SUB-SPE (ADVP-DIR *T*-1)
+					      (NP-SBJ (PRO thou))
+					      (VBP goest)
+					      (RP in)
+					      (IP-INF-PRP-SPE (TO to)
+							      (VB possesse)
+							      (NP-OB1 (PRO it))))))
+	      (, ,)
+	      (BEP is)
+	      (NEG not)
+	      (PP (P as)
+		  (NP (D the)
+		      (N lande)
+		      (PP (P of)
+			  (NP (NPR Egypt)))
+		      (CP-REL-SPE (WPP-2 (P from)
+					 (WADVP (WADV whence)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-2)
+					      (NP-SBJ (PRO ye))
+					      (VBD came)
+					      (RP out)))
+		      (, ,)
+		      (CP-REL-SPE (WADVP-3 (WADV where))
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (ADVP-LOC *T*-3)
+							  (NP-SBJ (PRO thou))
+							  (VBD sowedst)
+							  (NP-OB1 (PRO$ thy) (N seed)))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (ADVP-LOC *T*-3)
+								 (NP-SBJ *con*)
+								 (VBD wateredst)
+								 (NP-OB1 (CODE <font>) (PRO it) (CODE <$$font>))
+								 (PP (P with)
+								     (NP (PRO$ thy) (N foot)))
+								 (, ,)
+								 (PP (P as)
+								     (NP (D a)
+									 (N garden)
+									 (PP (P of)
+									     (NP (NS herbes)))))))))))
+	      (. :))
+  (ID AUTHOLD-E2-P2,11,1D.875))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	6/6/912
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd
+*/
+
+/~*
+and cryed sayinge: This was he of whome I spake, he that cometh after me, was
+before me, because he was yer then I.
+(TYNDNEW-E1-H,1,1J.30)
+*~/
+/*
+26 WNP:  26 WNP, 28 whome, 22 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD cryed)
+	  (IP-PPL (VAG sayinge)
+		  (, :)
+		  (IP-MAT-SPE (NP-SBJ (D This))
+			      (BED was)
+			      (NP-OB1 (PRO he)
+				      (CP-REL-SPE (WPP-1 (P of)
+							 (WNP (WPRO whome)))
+						  (C 0)
+						  (IP-SUB-SPE (PP *T*-1)
+							      (NP-SBJ (PRO I))
+							      (VBD spake)
+							      (, ,)
+							      (IP-MAT-SPE (NP-SBJ (PRO he)
+										  (CP-REL-SPE (WNP-2 0)
+											      (C that)
+											      (IP-SUB-SPE (NP-SBJ *T*-2)
+													  (VBP cometh)
+													  (PP (P after)
+													      (NP (PRO me))))))
+									  (, ,)
+									  (BED was)
+									  (PP (P before)
+									      (NP (PRO me)))
+									  (, ,)
+									  (PP (P+N because)
+									      (CP-ADV-SPE (C 0)
+											  (IP-SUB-SPE (NP-SBJ (PRO he))
+												      (BED was)
+												      (ADJP (ADJR yer)
+													    (PP (P then)
+														(NP-SBJ (PRO I)))))))))))))
+	  (. .))
+  (ID TYNDNEW-E1-H,1,1J.30))
+
+/~*
+This is he of whom I sayde. After me cometh a man, which was before me,
+(TYNDNEW-E1-H,1,20J.57)
+*~/
+/*
+14 WNP:  14 WNP, 16 whom, 10 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D This))
+	      (BEP is)
+	      (NP-OB1 (PRO he)
+		      (CP-REL-SPE (WPP-1 (P of)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (PRO I))
+					      (VBD sayde)
+					      (, .)
+					      (IP-MAT-SPE (PP (P After)
+							      (NP (PRO me)))
+							  (VBP cometh)
+							  (NP-SBJ (D a)
+								  (N man)
+								  (, ,)
+								  (CP-REL-SPE (WNP-2 (WPRO which))
+									      (C 0)
+									      (IP-SUB-SPE (NP-SBJ *T*-2)
+											  (BED was)
+											  (PP (P before)
+											      (NP (PRO me))))))))))
+	      (. ,))
+  (ID TYNDNEW-E1-H,1,20J.57))
+
+/~*
+and sayde vnto him. We have founde him of whom Moses in the lawe, and the
+prophetes dyd wryte. Iesus the sonne of Ioseph of Nazareth.
+(TYNDNEW-E1-H,1,40J.92)
+*~/
+/*
+31 WNP:  31 WNP, 33 whom, 27 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sayde)
+	  (PP (P vnto)
+	      (NP (PRO him)))
+	  (, .)
+	  (IP-MAT-SPE (NP-SBJ (PRO We))
+		      (HVP have)
+		      (VBN founde)
+		      (NP-OB1 (PRO him)
+			      (CP-REL-SPE (WPP-1 (P of)
+						 (WNP (WPRO whom)))
+					  (C 0)
+					  (IP-SUB-SPE (PP *T*-1)
+						      (NP-SBJ (NP (NPR Moses)
+								  (PP (P in)
+								      (NP (D the) (N lawe))))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NP (D the) (NPRS prophetes))))
+						      (DOD dyd)
+						      (VB wryte)))
+			      (, .)
+			      (NP-PRN (NPR Iesus))
+			      (NP-PRN (D the)
+				      (N sonne)
+				      (PP (P of)
+					  (NP (N Ioseph)
+					      (PP (P of)
+						  (NP (NPR Nazareth))))))))
+	  (. .))
+  (ID TYNDNEW-E1-H,1,40J.92))
+
+/~*
+and sayde of him. Beholde a ryght Israelite, in whom is no gyle.
+(TYNDNEW-E1-H,1,40J.96)
+*~/
+/*
+32 WNP:  32 WNP, 34 whom, 28 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sayde)
+	  (PP (P of)
+	      (NP (PRO him)))
+	  (, .)
+	  (IP-IMP-SPE (VBI Beholde)
+		      (NP-OB1 (D a)
+			      (ADJ ryght)
+			      (NPR Israelite)
+			      (, ,)
+			      (CP-REL-SPE (WPP-1 (P in)
+						 (WNP (WPRO whom)))
+					  (C 0)
+					  (IP-SUB-SPE (PP *T*-1)
+						      (NP-SBJ-2 *exp*)
+						      (BEP is)
+						      (NP-2 (Q no) (N gyle))))))
+	  (. .))
+  (ID TYNDNEW-E1-H,1,40J.96))
+
+/~*
+and sayde vnto him: Rabbi, he that was with the beyonde Iordan, to whom thou
+barest witnes. Beholde the same baptyseth,
+(TYNDNEW-E1-H,3,20J.201)
+*~/
+/*
+53 WNP:  53 WNP, 55 whom, 49 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sayde)
+	  (PP (P vnto)
+	      (NP (PRO him)))
+	  (, :)
+	  (IP-MAT-SPE (NP-VOC (N Rabbi))
+		      (, ,)
+		      (NP-LFD-1 (PRO he)
+				(CP-REL-SPE (WNP-2 0)
+					    (C that)
+					    (IP-SUB-SPE (NP-SBJ *T*-2)
+							(BED was)
+							(PP (P with)
+							    (NP (PRO the)))
+							(PP (P beyonde)
+							    (NP (NPR Iordan)))))
+				(, ,)
+				(CP-REL-SPE (WPP-3 (P to)
+						   (WNP (WPRO whom)))
+					    (C 0)
+					    (IP-SUB-SPE (PP *T*-3)
+							(NP-SBJ (PRO thou))
+							(VBD barest)
+							(NP-OB1 (N witnes)))))
+		      (, .)
+		      (IP-IMP-PRN-SPE (VBI Beholde))
+		      (NP-SBJ-RSP=1 (D the) (ADJ same))
+		      (VBP baptyseth))
+	  (. ,))
+  (ID TYNDNEW-E1-H,3,20J.201))
+
+/~*
+And the father knew that it was the same houre in which Iesus sayde vnto him:
+Thy sonne liveth.
+(TYNDNEW-E1-H,4,40J.328)
+*~/
+/*
+31 WNP:  31 WNP, 33 which, 27 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (D the) (NPR father))
+	  (VBD knew)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO it))
+			  (BED was)
+			  (NP-OB1 (D the)
+				  (ADJ same)
+				  (N houre)
+				  (CP-REL (WPP-1 (P in)
+						 (WNP (WPRO which)))
+					  (C 0)
+					  (IP-SUB (PP *T*-1)
+						  (NP-SBJ (NPR Iesus))
+						  (VBD sayde)
+						  (PP (P vnto)
+						      (NP (PRO him)))
+						  (, :)
+						  (IP-MAT-SPE (NP-SBJ (PRO$ Thy) (N sonne))
+							      (VBP liveth)))))))
+	  (. .))
+  (ID TYNDNEW-E1-H,4,40J.328))
+
+/~*
+And ther is at Ierusalem, by the slaughterhousse, a pole called in the Ebrue
+tonge, Bethseda, havinge five porches, in which laye a greate multitude of
+sicke folke, of blinde, halt and wyddered, waytinge for the movinge of the
+water.
+(TYNDNEW-E1-H,5,1J.337)
+*~/
+/*
+69 WNP:  69 WNP, 71 which, 65 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ-1 (EX ther))
+	  (BEP is)
+	  (PP (P at)
+	      (NP (NPR Ierusalem)))
+	  (, ,)
+	  (PP (P by)
+	      (NP (D the) (N+N slaughterhousse)))
+	  (, ,)
+	  (NP-1 (D a)
+		(N pole)
+		(RRC (VAN called)
+		     (IP-SMC (NP-SBJ *)
+			     (PP (P in)
+				 (NP (D the) (ADJ Ebrue) (N tonge)))
+			     (, ,)
+			     (NP-OB1 (NPR Bethseda))))
+		(, ,)
+		(RRC (HAG havinge)
+		     (NP-OB1 (NUM five) (NS porches)))
+		(, ,)
+		(CP-REL (WPP-2 (P in)
+			       (WNP (WPRO which)))
+			(C 0)
+			(IP-SUB (PP *T*-2)
+				(NP-SBJ-3 *exp*)
+				(VBD laye)
+				(NP-3 (D a)
+				      (ADJ greate)
+				      (N multitude)
+				      (PP (P of)
+					  (NP (ADJ sicke) (NS folke))
+					  (, ,)
+					  (PP-PRN (P of)
+						  (NP (ADJ blinde) (, ,) (ADJ halt) (CONJ and) (ADJ wyddered))))
+				      (, ,)
+				      (RRC (VAG waytinge)
+					   (PP (P for)
+					       (NP (D the)
+						   (N movinge)
+						   (PP (P of)
+						       (NP (D the) (N water))))))))))
+	  (. .))
+  (ID TYNDNEW-E1-H,5,1J.337))
+
+/~*
+the houre shall come in the which all that are in the graves, shall heare his
+voice, and shall come forthe: they that have done good vnto the resurreccion
+of lyfe: and they that have done evyll, vnto the resurreccion of dampnacion.
+(TYNDNEW-E1-H,5,20J.389)
+*~/
+/*
+17 WNP:  17 WNP, 21 which, 13 CP-REL-SPE-1
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D the)
+		      (N houre)
+		      (CP-REL-SPE *ICH*-1))
+	      (MD shall)
+	      (VB come)
+	      (CP-REL-SPE-1 (WPP-2 (P in)
+				   (WNP (D the) (WPRO which)))
+			    (C 0)
+			    (IP-SUB-SPE-3 (IP-SUB-SPE (PP *T*-2)
+						      (NP-SBJ (Q all)
+							      (CP-REL-SPE (WNP-4 0)
+									  (C that)
+									  (IP-SUB-SPE (NP-SBJ *T*-4)
+										      (BEP are)
+										      (PP (P in)
+											  (NP (D the) (NS graves))))))
+						      (, ,)
+						      (MD shall)
+						      (VB heare)
+						      (NP-OB1 (PRO$ his) (N voice)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (PP *T*-2)
+							     (NP-SBJ *con*)
+							     (MD shall)
+							     (VB come)
+							     (ADVP-DIR (ADV forthe))))
+					  (, :)
+					  (IP-SUB-PRN-SPE=3 (NP-SBJ (PRO they)
+								    (CP-REL-SPE (WNP-5 0)
+										(C that)
+										(IP-SUB-SPE (NP-SBJ *T*-5)
+											    (HVP have)
+											    (DON done)
+											    (NP-OB1 (N good)))))
+							    (PP (P vnto)
+								(NP (D the)
+								    (N resurreccion)
+								    (PP (P of)
+									(NP (N lyfe))))))
+					  (, :)
+					  (IP-SUB-PRN-SPE=3 (CONJ and)
+							    (NP-SBJ (PRO they)
+								    (CP-REL-SPE (WNP-2 0)
+										(C that)
+										(IP-SUB-SPE (NP-SBJ *T*-2)
+											    (HVP have)
+											    (DON done)
+											    (NP-OB1 (N evyll)))))
+							    (, ,)
+							    (PP (P vnto)
+								(NP (D the)
+								    (N resurreccion)
+								    (PP (P of)
+									(NP (N dampnacion))))))))
+	      (. .))
+  (ID TYNDNEW-E1-H,5,20J.389))
+
+/~*
+Ther is one that accuseth you, even Moses in whom ye trust.
+(TYNDNEW-E1-H,5,40J.421)
+*~/
+/*
+34 WNP:  34 WNP, 36 whom, 30 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (EX Ther))
+	      (BEP is)
+	      (NP-1 (ONE one)
+		    (CP-REL-SPE (WNP-2 0)
+				(C that)
+				(IP-SUB-SPE (NP-SBJ *T*-2)
+					    (VBP accuseth)
+					    (NP-OB1 (PRO you))))
+		    (, ,)
+		    (NP-PRN (FP even)
+			    (NPR Moses)
+			    (CP-REL-SPE (WPP-3 (P in)
+					       (WNP (WPRO whom)))
+					(C 0)
+					(IP-SUB-SPE (PP *T*-3)
+						    (NP-SBJ (PRO ye))
+						    (VBP trust)))))
+	      (. .))
+  (ID TYNDNEW-E1-H,5,40J.421))
+
+/~*
+If he called them goddes vnto whom the worde of God was spoken and the
+scripture can not be broken saye ye then to him, whom the father hath
+sainctified, and sent into the worlde, thou blasphemest, because I sayd I am
+the sonne of God?
+(TYNDNEW-E1-H,10,20J.969)
+*~/
+/*
+28 WNP:  28 WNP, 30 whom, 24 CP-REL-SPE-1
+*/
+
+( (CP-QUE-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO he))
+						      (VBD called)
+						      (IP-SMC-SPE (NP-SBJ (PRO them)
+									  (CP-REL-SPE *ICH*-1))
+								  (NP-OB1 (NS goddes))
+								  (CP-REL-SPE-1 (WPP-2 (P vnto)
+										       (WNP (WPRO whom)))
+										(C 0)
+										(IP-SUB-SPE (PP *T*-2)
+											    (NP-SBJ (D the)
+												    (N worde)
+												    (PP (P of)
+													(NP (NPR God))))
+											    (BED was)
+											    (VAN spoken)))))
+					  (CODE <paren>)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ (D the) (NPR scripture))
+							     (MD can)
+							     (NEG not)
+							     (BE be)
+							     (VAN broken))))))
+	      (CODE <$$paren>)
+	      (IP-SUB-SPE (VBP saye)
+			  (NP-SBJ (PRO ye))
+			  (ADVP (ADV then))
+			  (PP (P to)
+			      (NP (PRO him)
+				  (, ,)
+				  (CP-REL-SPE (WNP-3 (WPRO whom))
+					      (C 0)
+					      (IP-SUB-SPE (IP-SUB-SPE-4 (NP-OB1 *T*-3)
+									(NP-SBJ (D the) (NPR father))
+									(HVP hath)
+									(VBN sainctified))
+							  (, ,)
+							  (CONJ and)
+							  (IP-SUB-SPE=4 (VBN sent)
+									(PP (P into)
+									    (NP (D the) (N worlde))))))))
+			  (, ,)
+			  (IP-MAT-SPE (NP-SBJ (PRO thou))
+				      (VBP blasphemest))
+			  (, ,)
+			  (PP (P+N because)
+			      (CP-ADV-SPE (C 0)
+					  (IP-SUB-SPE (NP-SBJ (PRO I))
+						      (VBD sayd)
+						      (IP-MAT-SPE (NP-SBJ (PRO I))
+								  (BEP am)
+								  (NP-OB1 (D the)
+									  (NPR sonne)
+									  (PP (P of)
+									      (NP (NPR God)))))))))
+	      (. ?))
+  (ID TYNDNEW-E1-H,10,20J.969))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	10/10/1078
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd
+*/
+
+/~*
+Iesus answered, he yt ys to whom I geve a soppe, when I have dept it.
+(TYNDNEW-E1-P1,13,20J.146)
+*~/
+/*
+24 WNP:  24 WNP, 26 whom, 20 CP-REL-SPE-1
+*/
+
+( (IP-MAT (NP-SBJ (NPR Iesus))
+	  (VBD answered)
+	  (, ,)
+	  (IP-MAT-SPE (NP-OB1 (PRO he)
+			      (CP-REL-SPE *ICH*-1))
+		      (NP-SBJ (PRO yt))
+		      (BEP ys)
+		      (CP-REL-SPE-1 (WPP-2 (P to)
+					   (WNP (WPRO whom)))
+				    (C 0)
+				    (IP-SUB-SPE (PP *T*-2)
+						(NP-SBJ (PRO I))
+						(VBD geve)
+						(NP-OB1 (D a) (N soppe))
+						(, ,)
+						(PP (P when)
+						    (CP-ADV-SPE (C 0)
+								(IP-SUB-SPE (NP-SBJ (PRO I))
+									    (HVP have)
+									    (VBN dept)
+									    (NP-OB1 (PRO it))))))))
+	  (. .))
+  (ID TYNDNEW-E1-P1,13,20J.146))
+
+/~*
+When Iesus had spoken these wordes, he went forth with his disciples over the
+broke Cedron, where was a garden, into the which he entred with his disciples.
+(TYNDNEW-E1-P1,18,1J.446)
+*~/
+/*
+74 WNP:  74 WNP, 78 which, 70 CP-REL
+74 WNP:  74 WNP, 78 which, 52 CP-REL
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Iesus))
+			      (HVD had)
+			      (VBN spoken)
+			      (NP-OB1 (D these) (NS wordes)))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD went)
+	  (ADVP-DIR (ADV forth))
+	  (PP (P with)
+	      (NP (PRO$ his) (NS disciples)))
+	  (PP (P over)
+	      (NP (D the)
+		  (N broke)
+		  (NP-PRN (NPR Cedron))
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (BED was)
+				  (NP-SBJ (D a)
+					  (N garden)
+					  (, ,)
+					  (CP-REL (WPP-2 (P into)
+							 (WNP (D the) (WPRO which)))
+						  (C 0)
+						  (IP-SUB (PP *T*-2)
+							  (NP-SBJ (PRO he))
+							  (VBD entred)
+							  (PP (P with)
+							      (NP (PRO$ his) (NS disciples))))))))))
+	  (. .))
+  (ID TYNDNEW-E1-P1,18,1J.446))
+
+/~*
+In the former treatise Deare frende Theophilus I have written of all that
+Iesus beganne to do and teache, vntyll the daye in the which he was taken vp,
+after that he thorowe the holy goost, had geven commaundementes vnto the
+Apostles, which he had chosen: to whom also he shewed him selfe alyve, after
+his passion by many tokens, apperynge vnto them fourty dayes, and speakynge of
+the kyngdome of god,
+(TYNDNEW-E1-P1,1,1A.785)
+*~/
+/*
+74 WNP:  74 WNP, 78 which, 70 CP-REL
+74 WNP:  74 WNP, 78 which, 36 CP-REL
+156 WNP:  156 WNP, 158 whom, 152 CP-REL
+156 WNP:  156 WNP, 158 whom, 70 CP-REL
+156 WNP:  156 WNP, 158 whom, 36 CP-REL
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (ADJ former) (N treatise)))
+	  (NP-VOC (CODE <paren>) (ADJ Deare) (N frende) (NPR Theophilus) (CODE <$$paren>))
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN written)
+	  (PP (P of)
+	      (NP (Q all)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR Iesus))
+				  (VBD beganne)
+				  (IP-INF (TO to)
+					  (DO (DO do)
+					      (CONJP (CONJ and) (VB teache))))
+				  (, ,)
+				  (PP (P vntyll)
+				      (NP (D the)
+					  (N daye)
+					  (CP-REL (WPP-2 (P in)
+							 (WNP (D the) (WPRO which)))
+						  (C 0)
+						  (IP-SUB (PP *T*-2)
+							  (NP-SBJ (PRO he))
+							  (BED was)
+							  (VAN taken)
+							  (RP vp)
+							  (, ,)
+							  (PP (P after)
+							      (CP-ADV (C that)
+								      (IP-SUB (NP-SBJ (PRO he))
+									      (PP (P thorowe)
+										  (NP (D the) (NPR holy) (NPR goost)))
+									      (, ,)
+									      (HVD had)
+									      (VBN geven)
+									      (NP-OB1 (NS commaundementes))
+									      (PP (P vnto)
+										  (NP (D the)
+										      (NPRS Apostles)
+										      (, ,)
+										      (CP-REL (WNP-3 (WPRO which))
+											      (C 0)
+											      (IP-SUB (NP-OB1 *T*-3)
+												      (NP-SBJ (PRO he))
+												      (HVD had)
+												      (VBN chosen)))
+										      (, :)
+										      (CP-REL (WPP-4 (P to)
+												     (WNP (WPRO whom)))
+											      (C 0)
+											      (IP-SUB (PP *T*-4)
+												      (ALSO also)
+												      (NP-SBJ (PRO he))
+												      (VBD shewed)
+												      (IP-SMC (NP-SBJ (PRO him) (N selfe))
+													      (PP (P+N alyve)))
+												      (, ,)
+												      (PP (P after)
+													  (NP (PRO$ his) (NPR passion)))
+												      (PP (P by)
+													  (NP (Q many) (NS tokens)))
+												      (, ,)
+												      (IP-PPL (IP-PPL (VAG apperynge)
+														      (PP (P vnto)
+															  (NP (PRO them)))
+														      (NP-MSR (NUM fourty) (NS dayes)))
+													      (, ,)
+													      (CONJP (CONJ and)
+														     (IP-PPL (VAG speakynge)
+															     (PP (P of)
+																 (NP (D the)
+																     (N kyngdome)
+																     (PP (P of)
+																	 (NP (NPR god)))))))))))))))))))))))
+	  (. ,))
+  (ID TYNDNEW-E1-P1,1,1A.785))
+
+/~*
+And they prayed sayinge: thou Lorde which knowest the hertes of all men, shewe
+whether of these two thou hast chosen that the one maye take the roume of this
+ministracion, and apostleshippe from the which Judas by transgression fell,
+that he myght go to his awne place.
+(TYNDNEW-E1-P1,1,20A.815)
+*~/
+/*
+110 WNP:  110 WNP, 114 which, 106 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they))
+	  (VBD prayed)
+	  (IP-PPL (VAG sayinge)
+		  (, :)
+		  (IP-IMP-SPE (NP-VOC (PRO thou)
+				      (NPR Lorde)
+				      (CP-REL-SPE (WNP-1 (WPRO which))
+						  (C 0)
+						  (IP-SUB-SPE (NP-SBJ *T*-1)
+							      (VBP knowest)
+							      (NP-OB1 (D the)
+								      (NS hertes)
+								      (PP (P of)
+									  (NP (Q all) (NS men)))))))
+			      (, ,)
+			      (VBI shewe)
+			      (CP-QUE-SPE (WNP-2 (WPRO whether)
+						 (PP (P of)
+						     (NP (D these) (NUM two))))
+					  (C 0)
+					  (IP-SUB-SPE (NP-OB1 *T*-2)
+						      (NP-SBJ (PRO thou))
+						      (HVP hast)
+						      (VBN chosen)))
+			      (CP-ADV-SPE (C that)
+					  (IP-SUB-SPE (NP-SBJ (D the) (ONE one))
+						      (MD maye)
+						      (VB take)
+						      (NP-OB1 (D the)
+							      (N roume)
+							      (PP (P of)
+								  (NP (D this) (N ministracion)))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NX (N apostleshippe)
+									 (CP-REL-SPE (WPP-3 (P from)
+											    (WNP (D the) (WPRO which)))
+										     (C 0)
+										     (IP-SUB-SPE (PP *T*-3)
+												 (NP-SBJ (NPR Judas))
+												 (PP (P by)
+												     (NP (N transgression)))
+												 (VBD fell))))))))
+			      (, ,)
+			      (CP-ADV-SPE (C that)
+					  (IP-SUB-SPE (NP-SBJ (PRO he))
+						      (MD myght)
+						      (VB go)
+						      (PP (P to)
+							  (NP (PRO$ his) (ADJ awne) (N place)))))))
+	  (. .))
+  (ID TYNDNEW-E1-P1,1,20A.815))
+
+/~*
+and kylled the Lorde of lyfe, whom God hath raysed from deeth, of the which we
+are wytnesses.
+(TYNDNEW-E1-P1,3,1A.931)
+*~/
+/*
+49 WNP:  49 WNP, 53 which, 21 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ *con*)
+	      (VBD kylled)
+	      (NP-OB1 (D the)
+		      (NPR Lorde)
+		      (PP (P of)
+			  (NP (N lyfe)))
+		      (, ,)
+		      (CP-REL-SPE (WNP-1 (WPRO whom))
+				  (C 0)
+				  (IP-SUB-SPE (NP-OB1 *T*-1)
+					      (NP-SBJ (NPR God))
+					      (HVP hath)
+					      (VBN raysed)
+					      (PP (P from)
+						  (NP (N deeth)))
+					      (, ,)
+					      (CP-CAR-SPE (WPP-2 (P of)
+								 (WNP (D the) (WPRO which)))
+							  (C 0)
+							  (IP-SUB-SPE (NP-SBJ (PRO we))
+								      (BEP are)
+								      (NP-OB1 (NS wytnesses)
+									      (PP *T*-2)))))))
+	      (. .))
+  (ID TYNDNEW-E1-P1,3,1A.931))
+
+/~*
+for the man was above fourty yeare olde, on whom this myracle of healinge was
+shewed.
+(TYNDNEW-E1-P1,4,20A.981)
+*~/
+/*
+30 WNP:  30 WNP, 32 whom, 26 CP-REL-1
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (D the)
+		  (N man)
+		  (CP-REL *ICH*-1))
+	  (BED was)
+	  (ADJP (NP-MSR (NUMP (ADV above) (NUM fourty))
+			(NS yeare))
+		(ADJ olde))
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P on)
+			   (WNP (WPRO whom)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (D this)
+				    (N myracle)
+				    (PP (P of)
+					(NP (N healinge))))
+			    (BED was)
+			    (VAN shewed)))
+	  (. .))
+  (ID TYNDNEW-E1-P1,4,20A.981))
+
+/~*
+Before these dayes rose vp one Theudas bostinge him selfe, to whom resorted a
+nombre of men, about a foure hondred, which was slayn,
+(TYNDNEW-E1-P1,5,20A.1085)
+*~/
+/*
+37 WNP:  37 WNP, 39 whom, 33 CP-REL-1
+*/
+
+( (IP-MAT (PP (P Before)
+	      (NP (D these) (NS dayes)))
+	  (VBD rose)
+	  (RP vp)
+	  (NP-SBJ (ONE one)
+		  (NPR Theudas)
+		  (CP-REL *ICH*-1)
+		  (CP-REL *ICH*-3))
+	  (IP-PPL (VAG bostinge)
+		  (NP-RFL (PRO him) (N selfe)))
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P to)
+			   (WNP (WPRO whom)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (VBD resorted)
+			    (NP-SBJ (D a)
+				    (N nombre)
+				    (PP (P of)
+					(NP (NS men)))
+				    (, ,)
+				    (NUMP (ADV about) (D a) (NUM foure) (NUM hondred)))))
+	  (, ,)
+	  (CP-REL-3 (WNP-4 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-4)
+			    (BED was)
+			    (VAN slayn)))
+	  (. ,))
+  (ID TYNDNEW-E1-P1,5,20A.1085))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	8/7/1102
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd
+*/
+
+/~*
+And they coulde not resist the wysdome, and the sprete, with which he spake.
+(TYNDNEW-E1-P2,6,1A.19)
+*~/
+/*
+35 WNP:  35 WNP, 37 which, 31 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they))
+	  (MD coulde)
+	  (NEG not)
+	  (VB resist)
+	  (NP-OB1 (NP (D the) (N wysdome))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (N sprete)
+			     (, ,)
+			     (CP-REL (WPP-1 (P with)
+					    (WNP (WPRO which)))
+				     (C 0)
+				     (IP-SUB (PP *T*-1)
+					     (NP-SBJ (PRO he))
+					     (VBD spake))))))
+	  (. .))
+  (ID TYNDNEW-E1-P2,6,1A.19))
+
+/~*
+And after that, assone as his father was deed, he brought him into this lande,
+in which ye now dwell,
+(TYNDNEW-E1-P2,7,1A.41)
+*~/
+/*
+60 WNP:  60 WNP, 62 which, 56 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P after)
+		  (NP (D that)))
+	      (, ,)
+	      (ADVP-TMP (ADVR+ADV assone)
+			(PP (P as)
+			    (CP-CMP-SPE (WADVP-1 0)
+					(C 0)
+					(IP-SUB-SPE (ADVP-TMP *T*-1)
+						    (NP-SBJ (PRO$ his) (N father))
+						    (BED was)
+						    (ADJP (ADJ deed))))))
+	      (, ,)
+	      (NP-SBJ (PRO he))
+	      (VBD brought)
+	      (NP-OB1 (PRO him))
+	      (PP (P into)
+		  (NP (D this)
+		      (N lande)
+		      (, ,)
+		      (CP-REL-SPE (WPP-2 (P in)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-2)
+					      (NP-SBJ (PRO ye))
+					      (ADVP-TMP (ADV now))
+					      (VBP dwell)))))
+	      (. ,))
+  (ID TYNDNEW-E1-P2,7,1A.41))
+
+/~*
+But the nation to whom they $shall $be in bondage will I iudge, sayde God.
+(TYNDNEW-E1-P2,7,1A.45)
+*~/
+/*
+13 WNP:  13 WNP, 15 whom, 9 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-OB1 (D the)
+		      (N nation)
+		      (CP-REL-SPE (WPP-1 (P to)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO they))
+					      (MD $shall)
+					      (BE $be)
+					      (CODE {TEXT:shalbe})
+					      (PP (P in)
+						  (NP (N bondage)
+						      (PP *T*-1))))))
+	      (MD will)
+	      (NP-SBJ (PRO I))
+	      (VB iudge)
+	      (, ,)
+	      (IP-MAT-PRN-SPE (VBD sayde)
+			      (NP-SBJ (NPR God)))
+	      (. .))
+  (ID TYNDNEW-E1-P2,7,1A.45))
+
+/~*
+And after he had put him doune, he set vp David to be their kynge, of whome he
+reported sayinge: I have founde David the sonne of Iesse, a man after myne
+awne hert,
+(TYNDNEW-E1-P2,13,20A.597)
+*~/
+/*
+53 WNP:  53 WNP, 55 whome, 49 CP-REL-SPE-1
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P after)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO he))
+					  (HVD had)
+					  (VBN put)
+					  (NP-OB1 (PRO him))
+					  (RP doune))))
+	      (, ,)
+	      (NP-SBJ (PRO he))
+	      (VBD set)
+	      (RP vp)
+	      (IP-INF-SPE (NP-SBJ (NPR David)
+				  (CP-REL-SPE *ICH*-1))
+			  (TO to)
+			  (BE be)
+			  (NP-OB1 (PRO$ their) (N kynge))
+			  (, ,)
+			  (CP-REL-SPE-1 (WPP-2 (P of)
+					       (WNP (WPRO whome)))
+					(C 0)
+					(IP-SUB-SPE (PP *T*-2)
+						    (NP-SBJ (PRO he))
+						    (VBD reported)
+						    (IP-PPL-SPE (VAG sayinge)
+								(, :)
+								(IP-MAT-SPE (NP-SBJ (PRO I))
+									    (HVP have)
+									    (VBN founde)
+									    (NP-OB1 (NPR David)
+										    (NP-PRN (D the)
+											    (N sonne)
+											    (PP (P of)
+												(NP (NPR Iesse))))
+										    (, ,)
+										    (NP-PRN (D a)
+											    (N man)
+											    (PP (P after)
+												(NP (PRO$ myne) (ADJ awne) (N hert))))))))))
+	      (. ,))
+  (ID TYNDNEW-E1-P2,13,20A.597))
+
+/~*
+Be it knowne vnto you therfore ye men and brethren, that thorow this man is
+preached vnto you the forgevenes of synnes, and that by him are all that
+beleve justified from all thinges from the which ye coulde not be iustified by
+the lawe of Moses.
+(TYNDNEW-E1-P2,13,20A.617)
+*~/
+/*
+109 WNP:  109 WNP, 113 which, 105 CP-REL-SPE
+*/
+
+( (IP-IMP-SPE (BEI Be)
+	      (NP-SBJ-1 (PRO it))
+	      (VAN knowne)
+	      (PP (P vnto)
+		  (NP (PRO you)))
+	      (PP (ADV+P therfore))
+	      (NP-VOC (PRO ye)
+		      (NS men)
+		      (CONJP (CONJ and)
+			     (NX (NS brethren))))
+	      (, ,)
+	      (CP-THT-SPE-1 (CP-THT-SPE (C that)
+					(IP-SUB-SPE (PP (P thorow)
+							(NP (D this) (N man)))
+						    (BEP is)
+						    (VAN preached)
+						    (PP (P vnto)
+							(NP (PRO you)))
+						    (NP-SBJ (D the)
+							    (N forgevenes)
+							    (PP (P of)
+								(NP (NS synnes))))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (CP-THT-SPE (C that)
+					       (IP-SUB-SPE (PP (P by)
+							       (NP (PRO him)))
+							   (BEP are)
+							   (NP-SBJ (Q all)
+								   (CP-REL-SPE (WNP-2 0)
+									       (C that)
+									       (IP-SUB-SPE (NP-SBJ *T*-2)
+											   (VBP beleve))))
+							   (VAN justified)
+							   (PP (P from)
+							       (NP (Q all)
+								   (NS thinges)
+								   (CP-REL-SPE (WPP-3 (P from)
+										      (WNP (D the) (WPRO which)))
+									       (C 0)
+									       (IP-SUB-SPE (PP *T*-3)
+											   (NP-SBJ (PRO ye))
+											   (MD coulde)
+											   (NEG not)
+											   (BE be)
+											   (VAN iustified)
+											   (PP (P by)
+											       (NP (D the)
+												   (N lawe)
+												   (PP (P of)
+												       (NP (NPR Moses)))))))))))))
+	      (. .))
+  (ID TYNDNEW-E1-P2,13,20A.617))
+
+/~*
+And when they had ordened them elders by eleccion in every congregacion, after
+they had prayde and fasted, they comended them to God on whom they beleved.
+(TYNDNEW-E1-P2,14,20A.683)
+*~/
+/*
+79 WNP:  79 WNP, 81 whom, 75 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVD had)
+			      (VBN ordened)
+			      (NP-OB2 (PRO them))
+			      (NP-OB1 (NS elders))
+			      (PP (P by)
+				  (NP (N eleccion)))
+			      (PP (P in)
+				  (NP (Q every) (N congregacion))))))
+	  (, ,)
+	  (PP (P after)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (HVD had)
+			      (VBN (VBN prayde) (CONJ and) (VBN fasted)))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD comended)
+	  (NP-OB1 (PRO them))
+	  (PP (P to)
+	      (NP (NPR God)
+		  (CP-REL (WPP-1 (P on)
+				 (WNP (WPRO whom)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBD beleved)))))
+	  (. .))
+  (ID TYNDNEW-E1-P2,14,20A.683))
+
+/~*
+and thence departed by shippe to Antioche, from whence they were delivered
+vnto the grace of God, to the worke which they had fulfilled.
+(TYNDNEW-E1-P2,14,20A.687)
+*~/
+/*
+29 WADVP:  29 WADVP, 31 whence, 25 CP-REL
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV thence))
+	  (NP-SBJ *con*)
+	  (VBD departed)
+	  (PP (P by)
+	      (NP (N shippe)))
+	  (PP (P to)
+	      (NP (NPR Antioche)
+		  (, ,)
+		  (CP-REL (WPP-1 (P from)
+				 (WADVP (WADV whence)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO they))
+				  (BED were)
+				  (VAN delivered)
+				  (PP (P vnto)
+				      (NP (D the)
+					  (N grace)
+					  (PP (P of)
+					      (NP (NPR God)))))
+				  (, ,)
+				  (PP (P to)
+				      (NP (D the)
+					  (N worke)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO they))
+							  (HVD had)
+							  (VBN fulfilled)))))))))
+	  (. .))
+  (ID TYNDNEW-E1-P2,14,20A.687))
+
+/~*
+and I will set it vp, that the residue of men might seke after the Lorde, and
+also the gentyls vpon whom my name is named saith the Lorde, which doth all
+these thinges:
+(TYNDNEW-E1-P2,15,1A.719)
+*~/
+/*
+64 WNP:  64 WNP, 66 whom, 60 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO I))
+	      (MD will)
+	      (VB set)
+	      (NP-OB1 (PRO it))
+	      (RP vp)
+	      (, ,)
+	      (CP-ADV-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (NP (D the)
+						  (N residue)
+						  (PP (P of)
+						      (NP (NS men))))
+					      (CONJP *ICH*-1))
+				      (MD might)
+				      (VB seke)
+				      (PP (P after)
+					  (NP (D the) (NPR Lorde)))
+				      (, ,)
+				      (CONJP-1 (CONJ and)
+					       (ALSO also)
+					       (NP (D the)
+						   (NPRS gentyls)
+						   (CP-REL-SPE (WPP-2 (P vpon)
+								      (WNP (WPRO whom)))
+							       (C 0)
+							       (IP-SUB-SPE (PP *T*-2)
+									   (NP-SBJ (PRO$ my) (N name))
+									   (BEP is)
+									   (VAN named)))))))
+	      (IP-MAT-PRN-SPE (VBP saith)
+			      (NP-SBJ (D the)
+				      (NPR Lorde)
+				      (, ,)
+				      (CP-REL-SPE (WNP-3 (WPRO which))
+						  (C 0)
+						  (IP-SUB-SPE (NP-SBJ *T*-3)
+							      (DOP doth)
+							      (NP-OB1 (Q all) (D these) (NS thinges))))))
+	      (. :))
+  (ID TYNDNEW-E1-P2,15,1A.719))
+
+/~*
+For as moche as we have hearde that certayne which departed from vs, have
+troubled you with wordes, and combred youre myndes sayinge: Ye must be
+circumcised and kepe the lawe, to whom we gave no soche commaundement. It
+semed therfore to vs a good thinge, when we were come to gedder with one
+accorde, to sende chosyn men vnto you, with oure beloved Barnabas and Paul,
+men that have ieoperded their lyves for the name of oure Lorde Iesus Christ.
+(TYNDNEW-E1-P2,15,20A.727)
+*~/
+/*
+110 WNP:  110 WNP, 112 whom, 106 CP-REL-SPE-3
+*/
+
+( (IP-MAT-SPE (PP-LFD (P For)
+		      (QP (ADVR as)
+			  (Q moche)
+			  (PP (P as)
+			      (CP-ADV-SPE (C 0)
+					  (IP-SUB-SPE (NP-SBJ (PRO we))
+						      (HVP have)
+						      (VBN hearde)
+						      (CP-THT-SPE (C that)
+								  (IP-SUB-SPE (NP-SBJ (ADJ certayne)
+										      (CP-REL-SPE (WNP-1 (WPRO which))
+												  (C 0)
+												  (IP-SUB-SPE (NP-SBJ *T*-1)
+													      (VBD departed)
+													      (PP (P from)
+														  (NP (PRO vs)))))
+										      (CP-REL-SPE *ICH*-3))
+									      (, ,)
+									      (HVP have)
+									      (VBN troubled)
+									      (NP-OB1 (PRO you))
+									      (PP (P with)
+										  (NP (NS wordes)))
+									      (, ,)
+									      (IP-SUB-PRN-SPE (CONJ and)
+											      (VBN combred)
+											      (NP-OB1 (PRO$ youre) (NS myndes))
+											      (IP-PPL-SPE (VAG sayinge)
+													  (, :)
+													  (IP-MAT-SPE (IP-MAT-SPE-2 (NP-SBJ (PRO Ye))
+																    (MD must)
+																    (BE be)
+																    (VAN circumcised))
+														      (CONJP (CONJ and)
+															     (IP-MAT-SPE=2 (VB kepe)
+																	   (NP-OB1 (D the) (N lawe)))))))
+									      (, ,)
+									      (CP-REL-SPE-3 (WPP-4 (P to)
+												   (WNP (WPRO whom)))
+											    (C 0)
+											    (IP-SUB-SPE (PP *T*-4)
+													(NP-SBJ (PRO we))
+													(VBD gave)
+													(NP-OB1 (Q no) (SUCH soche) (N commaundement)))))))))))
+	      (, .)
+	      (NP-SBJ-5 (PRO It))
+	      (VBD semed)
+	      (PP-RSP (ADV+P therfore))
+	      (PP (P to)
+		  (NP (PRO vs)))
+	      (NP-OB1 (D a) (ADJ good) (N thinge))
+	      (, ,)
+	      (PP (P when)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (BED were)
+					  (VBN come)
+					  (ADVP (ADV (ADV21 to) (ADV22 gedder)))
+					  (PP (P with)
+					      (NP (ONE one) (N accorde))))))
+	      (, ,)
+	      (IP-INF-SPE-5 (TO to)
+			    (VB sende)
+			    (NP-OB1 (VAN chosyn)
+				    (NS men)
+				    (NP-PRN *ICH*-6))
+			    (PP (P vnto)
+				(NP (PRO you)))
+			    (, ,)
+			    (PP (P with)
+				(NP (PRO$ oure)
+				    (ADJ beloved)
+				    (NPR Barnabas)
+				    (CONJP (CONJ and)
+					   (NX (NPR Paul)))))
+			    (, ,)
+			    (NP-PRN-6 (NS men)
+				      (CP-REL-SPE (WNP-7 0)
+						  (C that)
+						  (IP-SUB-SPE (NP-SBJ *T*-7)
+							      (HVP have)
+							      (VBN ieoperded)
+							      (NP-OB1 (PRO$ their) (NS lyves))
+							      (PP (P for)
+								  (NP (D the)
+								      (N name)
+								      (PP (P of)
+									  (NP (PRO$ oure)
+									      (NPR Lorde)
+									      (NP-PRN (NPR Iesus) (NPR Christ))))))))))
+	      (. .))
+  (ID TYNDNEW-E1-P2,15,20A.727))
+
+/~*
+For it semed good to the holy gost and to vs, to put no grevous thinge to you
+more then these $necessary $thinges: that is to saye, that ye abstayne from
+thinges offered to ymages, from bloud, from strangled and fornicacion. From
+which yf ye kepe youre selves, ye shall do well.
+(TYNDNEW-E1-P2,15,20A.729)
+*~/
+/*
+137 WNP:  137 WNP, 139 which, 133 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ-1 (PRO it))
+	      (VBD semed)
+	      (ADJP (ADJ good)
+		    (PP (PP (P to)
+			    (NP (D the) (NPR holy) (NPR gost)))
+			(CONJP (CONJ and)
+			       (PP (P to)
+				   (NP (PRO vs))))))
+	      (, ,)
+	      (IP-INF-SPE-1 (TO to)
+			    (VB put)
+			    (NP-OB1 (Q no)
+				    (ADJ grevous)
+				    (N thinge)
+				    (QP *ICH*-2))
+			    (PP (P to)
+				(NP (PRO you)))
+			    (QP-2 (QR more)
+				  (PP (P then)
+				      (NP (D these) (ADJ $necessary) (NS $thinges))))
+			    (CODE {TEXT:necessarythinges})
+			    (, :)
+			    (IP-MAT-PRN-SPE (NP-SBJ (D that))
+					    (BEP is)
+					    (IP-INF-SPE (TO to)
+							(VB saye)
+							(, ,)
+							(CP-THT-SPE (C that)
+								    (IP-SUB-SPE (NP-SBJ (PRO ye))
+										(VBP abstayne)
+										(PP (PP (P from)
+											(NP (NS thinges)
+											    (RRC (VAN offered)
+												 (PP (P to)
+												     (NP (NS ymages))))))
+										    (, ,)
+										    (CONJP (PP (P from)
+											       (NP (N bloud))))
+										    (, ,)
+										    (CONJP (PP (P from)
+											       (NP (VAN strangled) (CONJ and) (N fornicacion))))
+										    (, .)
+										    (CP-REL-SPE (WPP-3 (P From)
+												       (WNP (WPRO which)))
+												(C 0)
+												(IP-SUB-SPE (PP (P yf)
+														(CP-ADV-SPE (C 0)
+															    (IP-SUB-SPE (PP *T*-3)
+																	(NP-SBJ (PRO ye))
+																	(VBP kepe)
+																	(NP-OB1 (PRO$ youre) (N selves)))))
+													    (, ,)
+													    (NP-SBJ (PRO ye))
+													    (MD shall)
+													    (DO do)
+													    (ADVP (ADV well))))))))))
+	      (. .))
+  (ID TYNDNEW-E1-P2,15,20A.729))
+
+/~*
+but now he byddeth all men every where repent, because he hath apoynted a daye,
+in the which he will iudge the worlde acordynge to ryghtewesses, by that man
+whom he hath apoynted, and hath offered faith to all men, after that he had
+raysed him from deeth.
+(TYNDNEW-E1-P2,17,20A.884)
+*~/
+/*
+55 WNP:  55 WNP, 59 which, 51 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ but)
+	      (ADVP-TMP (ADV now))
+	      (NP-SBJ (PRO he))
+	      (VBP byddeth)
+	      (NP-OB2 (Q all)
+		      (NS men)
+		      (ADVP-LOC (Q every) (WADV where)))
+	      (IP-INF-SPE (TO *)
+			  (VB repent))
+	      (, ,)
+	      (PP (P+N because)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO he))
+						      (HVP hath)
+						      (VBN apoynted)
+						      (NP-OB1 (D a)
+							      (N daye)
+							      (, ,)
+							      (CP-REL-SPE (WPP-1 (P in)
+										 (WNP (D the) (WPRO which)))
+									  (C 0)
+									  (IP-SUB-SPE (PP *T*-1)
+										      (NP-SBJ (PRO he))
+										      (MD will)
+										      (VB iudge)
+										      (NP-OB1 (D the) (N worlde))
+										      (IP-PPL-SPE (VAG acordynge)
+												  (PP (P to)
+												      (NP (NS ryghtewesses))))
+										      (, ,)
+										      (PP (P by)
+											  (NP (D that)
+											      (N man)
+											      (CP-REL-SPE (WNP-2 (WPRO whom))
+													  (C 0)
+													  (IP-SUB-SPE (NP-OB1 *T*-2)
+														      (NP-SBJ (PRO he))
+														      (HVP hath)
+														      (VBN apoynted)))))))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (HVP hath)
+							     (VBN offered)
+							     (NP-OB1 (N faith))
+							     (PP (P to)
+								 (NP (Q all) (NS men)))
+							     (, ,)
+							     (PP (P after)
+								 (CP-ADV-SPE (C that)
+									     (IP-SUB-SPE (NP-SBJ (PRO he))
+											 (HVD had)
+											 (VBN raysed)
+											 (NP-OB1 (PRO him))
+											 (PP (P from)
+											     (NP (N deeth)))))))))))
+	      (. .))
+  (ID TYNDNEW-E1-P2,17,20A.884))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	11/11/889
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd
+*/
+
+/~*
+hast thou eaten of the tree, of which I bade the that thou shuldest not eate?
+(TYNDOLD-E1-H,3,1G.149)
+*~/
+/*
+24 WNP:  24 WNP, 26 which, 20 CP-REL-SPE
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (HVP hast)
+			  (NP-SBJ (PRO thou))
+			  (VBN eaten)
+			  (PP (P of)
+			      (NP (D the)
+				  (N tree)
+				  (, ,)
+				  (CP-REL-SPE (WPP-1 (P of)
+						     (WNP (WPRO which)))
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ (PRO I))
+							  (VBD bade)
+							  (NP-OB2 (PRO the))
+							  (CP-THT-SPE (C that)
+								      (IP-SUB-SPE (PP *T*-1)
+										  (NP-SBJ (PRO thou))
+										  (MD shuldest)
+										  (NEG not)
+										  (VB eate))))))))
+	      (. ?))
+  (ID TYNDOLD-E1-H,3,1G.149))
+
+/~*
+And vnto Ada~ he sayd: for as moch as thou hast obeyed the voyce of thy wyfe,
+and hast eaten of the tree of which I commaunded the saynge: se thou eate not
+therof: cursed be the erth for thy sake.
+(TYNDOLD-E1-H,3,1G.165)
+*~/
+/*
+78 WNP:  78 WNP, 80 which, 74 CP-REL-SPE
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P vnto)
+	      (NP (NPR Ada~)))
+	  (NP-SBJ (PRO he))
+	  (VBD sayd)
+	  (, :)
+	  (IP-MAT-SPE (PP (P for)
+			  (QP (ADVR as)
+			      (Q moch)
+			      (PP (P as)
+				  (CP-ADV-SPE (C 0)
+					      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO thou))
+								      (HVP hast)
+								      (VBN obeyed)
+								      (NP-OB1 (D the)
+									      (N voyce)
+									      (PP (P of)
+										  (NP (PRO$ thy) (N wyfe)))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-SUB-SPE (NP-SBJ *con*)
+									     (HVP hast)
+									     (VBN eaten)
+									     (PP (P of)
+										 (NP (D the)
+										     (N tree)
+										     (CP-REL-SPE (WPP-1 (P of)
+													(WNP (WPRO which)))
+												 (C 0)
+												 (IP-SUB-SPE (PP *T*-1)
+													     (NP-SBJ (PRO I))
+													     (VBD commaunded)
+													     (NP-OB2 (PRO the))
+													     (IP-PPL-SPE (VAG saynge)
+															 (, :)
+															 (IP-IMP-SPE (VBI se)
+																     (CP-THT-SPE (C 0)
+																		 (IP-SUB-SPE (NP-SBJ (PRO thou))
+																			     (VBP eate)
+																			     (NEG not)
+																			     (PP (ADV+P therof)))))))))))))))))
+		      (, :)
+		      (VAN cursed)
+		      (BEP be)
+		      (NP-SBJ (D the) (N erth))
+		      (PP (P for)
+			  (NP (PRO$ thy) (N sake))))
+	  (. .))
+  (ID TYNDOLD-E1-H,3,1G.165))
+
+/~*
+nether shall any of these numbres which were numbred from .xx. yere & aboue of
+you which haue murmured agenst me come in to the londe ouer which I lifted
+myne hande to make you dwell therein, saue Caleb the sonne of Iephune, and
+Iosua the sonne of Nun.
+(TYNDOLD-E1-H,14,20N.648)
+*~/
+/*
+88 WNP:  88 WNP, 90 which, 84 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ nether)
+	      (MD shall)
+	      (NP-SBJ (Q any)
+		      (PP (P of)
+			  (NP (D these)
+			      (NS numbres)
+			      (CP-REL-SPE (WNP-1 (WPRO which))
+					  (C 0)
+					  (IP-SUB-SPE (NP-SBJ *T*-1)
+						      (BED were)
+						      (VAN numbred)
+						      (PP (P from)
+							  (NP (NP (NUM .xx.) (NS yere))
+							      (CONJP (CONJ &)
+								     (ADVP (ADV aboue)))))))
+			      (PP (P of)
+				  (NP (PRO you)
+				      (CP-REL-SPE (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB-SPE (NP-SBJ *T*-2)
+							      (HVP haue)
+							      (VBN murmured)
+							      (PP (P agenst)
+								  (NP (PRO me)))))))))
+		      (PP *ICH*-4))
+	      (VB come)
+	      (PP (RP in)
+		  (P to)
+		  (NP (D the)
+		      (N londe)
+		      (CP-REL-SPE (WPP-3 (P ouer)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-3)
+					      (NP-SBJ (PRO I))
+					      (VBD lifted)
+					      (NP-OB1 (PRO$ myne) (N hande))
+					      (IP-INF-PRP-SPE (TO to)
+							      (VB make)
+							      (IP-INF-SPE (NP-SBJ (PRO you))
+									  (VB dwell)
+									  (PP (ADV+P therein))))))))
+	      (, ,)
+	      (PP-4 (P saue)
+		    (NP (NP (NPR Caleb)
+			    (NP-PRN (D the)
+				    (N sonne)
+				    (PP (P of)
+					(NP (NPR Iephune)))))
+			(, ,)
+			(CONJP (CONJ and)
+			       (NP (NPR Iosua)
+				   (NP-PRN (D the)
+					   (N sonne)
+					   (PP (P of)
+					       (NP (NPR Nun))))))))
+	      (. .))
+  (ID TYNDOLD-E1-H,14,20N.648))
+
+/~*
+And youre childern shall wa~dre in this wildernesse .xl. yeres & suffre for
+youre whoredome vntill your carkasses be wasted in the wildernesse, after the
+numbre of the dayes in which ye serched out y=e= londe .xl. dayes, & euery
+daye a yere: so that they shall bere your vnrightuousnes .xl. yere,
+(TYNDOLD-E1-H,14,20N.652)
+*~/
+/*
+87 WNP:  87 WNP, 89 which, 83 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (IP-MAT-SPE-1 (CONJ And)
+			    (NP-SBJ (PRO$ youre) (NS childern))
+			    (MD shall)
+			    (VB wa~dre)
+			    (PP (P in)
+				(NP (D this) (N wildernesse)))
+			    (NP-MSR (NUM .xl.) (NS yeres)))
+	      (CONJP (CONJ &)
+		     (IP-MAT-SPE=1 (VB suffre)
+				   (PP (P for)
+				       (NP (PRO$ youre) (N whoredome)))
+				   (PP (P vntill)
+				       (CP-ADV-SPE (C 0)
+						   (IP-SUB-SPE (NP-SBJ (PRO$ your) (NS carkasses))
+							       (BEP be)
+							       (VAN wasted)
+							       (PP (P in)
+								   (NP (D the) (N wildernesse))))))
+				   (, ,)
+				   (PP (P after)
+				       (NP (D the)
+					   (N numbre)
+					   (PP (P of)
+					       (NP (D the)
+						   (NS dayes)
+						   (CP-REL-SPE (WPP-2 (P in)
+								      (WNP (WPRO which)))
+							       (C 0)
+							       (IP-SUB-SPE (PP *T*-2)
+									   (NP-SBJ (PRO ye))
+									   (VBD serched)
+									   (RP out)
+									   (NP-OB1 (D y=e=) (N londe))
+									   (NP-MSR-PRN (NUM .xl.) (NS dayes))))))))
+				   (, ,)
+				   (FRAG (CONJ &)
+					 (NP-SBJ (Q euery) (N daye))
+					 (NP-OB1 (D a) (N yere)))
+				   (, :)
+				   (PP (P so)
+				       (CP-ADV-SPE (C that)
+						   (IP-SUB-SPE (NP-SBJ (PRO they))
+							       (MD shall)
+							       (VB bere)
+							       (NP-OB1 (PRO$ your) (N vnrightuousnes))
+							       (NP-MSR (NUM .xl.) (NS yere)))))))
+	      (. ,))
+  (ID TYNDOLD-E1-H,14,20N.652))
+
+/~*
+a~d will goo vpp vnto the place of which the Lorde sayed,
+(TYNDOLD-E1-H,14,40N.665)
+*~/
+/*
+24 WNP:  24 WNP, 26 which, 20 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ a~d)
+	      (NP-SBJ *con*)
+	      (MD will)
+	      (VB goo)
+	      (PP (RP vpp)
+		  (P vnto)
+		  (NP (D the)
+		      (N place)
+		      (CP-REL-SPE (WPP-1 (P of)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (D the) (NPR Lorde))
+					      (VBD sayed)))))
+	      (. ,))
+  (ID TYNDOLD-E1-H,14,40N.665))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	5/5/811
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd
+*/
+
+/~*
+And Ada bare Iabal, of whome came they that dwell in tentes a~d possesse
+catell.
+(TYNDOLD-E1-P1,4,20G.74)
+*~/
+/*
+18 WNP:  18 WNP, 20 whome, 14 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (NPR Ada))
+	  (VBD bare)
+	  (NP-OB1 (NPR Iabal)
+		  (, ,)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (WPRO whome)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (VBD came)
+				  (NP-SBJ (PRO they)
+					  (CP-REL (WNP-2 0)
+						  (C that)
+						  (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+								  (VBP dwell)
+								  (PP (P in)
+								      (NP (NS tentes))))
+							  (CONJP (CONJ a~d)
+								 (IP-SUB (NP-SBJ *T*-2)
+									 (VBP possesse)
+									 (NP-OB1 (NS catell))))))))))
+	  (. .))
+  (ID TYNDOLD-E1-P1,4,20G.74))
+
+/~*
+Thys is the boke of the generacion of man, In the daye when God created man
+and made hym after the symilytude of god.
+(TYNDOLD-E1-P1,5,1G.102)
+*~/
+/*
+37 WADVP:  37 WADVP, 77 god, 36 CP-REL
+*/
+
+( (IP-MAT (NP-SBJ (D Thys))
+	  (BEP is)
+	  (NP-OB1 (D the)
+		  (N boke)
+		  (PP (P of)
+		      (NP (D the)
+			  (N generacion)
+			  (PP (P of)
+			      (NP (N man))))))
+	  (, ,)
+	  (PP (P In)
+	      (NP (D the)
+		  (N daye)
+		  (CP-REL (WADVP (WADV when)
+				 (CP-ADV (C 0)
+					 (IP-SUB (IP-SUB (NP-SBJ (NPR God))
+							 (VBD created)
+							 (NP-OB1 (N man)))
+						 (CONJP (CONJ and)
+							(IP-SUB (NP-SBJ *con*)
+								(VBD made)
+								(NP-OB1 (PRO hym))
+								(PP (P after)
+								    (NP (D the)
+									(N symilytude)
+									(PP (P of)
+									    (NP (NPR god)))))))))))))
+	  (. .))
+  (ID TYNDOLD-E1-P1,5,1G.102))
+
+/~*
+And Mizraim begat ludim, Enanum, Leabim, Naphtuhim, Pathrusim & Casluhim: from
+whence came the Philystyns, and the Capththerynes.
+(TYNDOLD-E1-P1,10,1G.223)
+*~/
+/*
+38 WADVP:  38 WADVP, 40 whence, 34 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (NPR Mizraim))
+	  (VBD begat)
+	  (NP-OB1 (NPR ludim)
+		  (, ,)
+		  (NPR Enanum)
+		  (, ,)
+		  (NPR Leabim)
+		  (, ,)
+		  (NPR Naphtuhim)
+		  (, ,)
+		  (NPR Pathrusim)
+		  (CONJ &)
+		  (NPR Casluhim)
+		  (, :)
+		  (CP-REL (WPP-1 (P from)
+				 (WADVP (WADV whence)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (VBD came)
+				  (NP-SBJ (NP (D the) (NPRS Philystyns))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (D the) (NPRS Capththerynes)))))))
+	  (. .))
+  (ID TYNDOLD-E1-P1,10,1G.223))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	3/3/1317
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd
+*/
+
+/~*
+The space in which we came from Cades bernea vntill we were come ouer the
+ryuer Zared was .xxxviii. yeres: vntill all the generacion of the men of warre
+were wasted out of the host as the Lorde sware vnto the~.
+(TYNDOLD-E1-P2,2,1D.174)
+*~/
+/*
+11 WNP:  11 WNP, 13 which, 7 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D The)
+		      (N space)
+		      (CP-REL-SPE (WPP-1 (P in)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (PRO we))
+					      (VBD came)
+					      (PP (P from)
+						  (NP (NPR Cades) (NPR bernea)))
+					      (PP (P vntill)
+						  (CP-ADV-SPE (C 0)
+							      (IP-SUB-SPE (NP-SBJ (PRO we))
+									  (BED were)
+									  (VBN come)
+									  (PP (P ouer)
+									      (NP (D the)
+										  (N ryuer)
+										  (NP-PRN (NPR Zared))))))))))
+	      (BED was)
+	      (NP-OB1 (NUM .xxxviii.) (NS yeres))
+	      (, :)
+	      (PP (P vntill)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (Q all)
+						  (D the)
+						  (N generacion)
+						  (PP (P of)
+						      (NP (D the)
+							  (NS men)
+							  (PP (P of)
+							      (NP (N warre))))))
+					  (BED were)
+					  (VAN wasted)
+					  (PP (RP out)
+					      (P of)
+					      (NP (D the) (N host)))
+					  (PP (P as)
+					      (CP-ADV-SPE (WNP-2 0)
+							  (C 0)
+							  (IP-SUB-SPE (NP-OB1 *T*-2)
+								      (NP-SBJ (D the) (NPR Lorde))
+								      (VBD sware)
+								      (PP (P vnto)
+									  (NP (PRO the~)))))))))
+	      (. .))
+  (ID TYNDOLD-E1-P2,2,1D.174))
+
+/~*
+eue~ so shall the Lorde thy God doo vnto all the nacions of which thou art
+afrayed.
+(TYNDOLD-E1-P2,7,1D.601)
+*~/
+/*
+35 WNP:  35 WNP, 37 which, 31 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (ADVP (FP eue~) (ADV so))
+	      (MD shall)
+	      (NP-SBJ (D the)
+		      (NPR Lorde)
+		      (NP-PRN (PRO$ thy) (NPR God)))
+	      (DO doo)
+	      (PP (P vnto)
+		  (NP (Q all)
+		      (D the)
+		      (NS nacions)
+		      (CP-REL-SPE (WPP-1 (P of)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO thou))
+					      (BEP art)
+					      (ADJP (ADJ afrayed)
+						    (PP *T*-1))))))
+	      (. .))
+  (ID TYNDOLD-E1-P2,7,1D.601))
+
+/~*
+For the Lorde thy God bringeth the in to a good lande, a londe of riuers of
+water, of fou~tens and of springes that springe out both in valayes and hylles:
+8 a londe of whete and of barly, of vynes, figtrees and pomgranates, a lond of
+olyuetrees with oyle and of honye: 9 a lande wherin thou shalt not eate bred
+in scarcenesse, and where thou shalt lacke nothinge, a londe whose stones are
+yerne, and out of whose hylles thou shalt dygge brasse.
+(TYNDOLD-E1-P2,8,1D.647)
+*~/
+/*
+264 WNP:  264 WNP, 268 hylles, 258 CP-REL-SPE
+264 WNP:  264 WNP, 268 hylles, 236 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (D the)
+		      (NPR Lorde)
+		      (NP-PRN (PRO$ thy) (NPR God)))
+	      (VBP bringeth)
+	      (NP-OB1 (PRO the))
+	      (PP (RP in)
+		  (P to)
+		  (NP (D a)
+		      (ADJ good)
+		      (N lande)
+		      (, ,)
+		      (NP-PRN (D a)
+			      (N londe)
+			      (PP (PP (P of)
+				      (NP (NS riuers)
+					  (PP (P of)
+					      (NP (N water)))))
+				  (, ,)
+				  (CONJP (PP (P of)
+					     (NP (NS fou~tens))))
+				  (CONJP (CONJ and)
+					 (PP (P of)
+					     (NP (NS springes)
+						 (CP-REL-SPE (WNP-1 0)
+							     (C that)
+							     (IP-SUB-SPE (NP-SBJ *T*-1)
+									 (VBP springe)
+									 (RP out)
+									 (CONJ-2 both)
+									 (PP (P in)
+									     (NP (CONJ *ICH*-2)
+										 (NS valayes)
+										 (CONJ and)
+										 (NS hylles))))))))))
+		      (, :)
+		      (CODE (NUM 8))
+		      (NP-PRN (D a)
+			      (N londe)
+			      (PP (PP (P of)
+				      (NP (N whete)))
+				  (CONJP (CONJ and)
+					 (PP (P of)
+					     (NP (N barly))))
+				  (, ,)
+				  (CONJP (PP (P of)
+					     (NP (NS vynes) (, ,) (N+NS figtrees) (CONJ and) (NS pomgranates))))))
+		      (, ,)
+		      (NP-PRN (D a)
+			      (N lond)
+			      (PP (PP (P of)
+				      (NP (N+NS olyuetrees)
+					  (PP (P with)
+					      (NP (N oyle)))))
+				  (CONJP (CONJ and)
+					 (PP (P of)
+					     (NP (N honye))))))
+		      (, :)
+		      (CODE (NUM 9))
+		      (NP-PRN (D a)
+			      (N lande)
+			      (CP-REL-SPE (CP-REL-SPE (WPP-3 (WADV+P wherin))
+						      (C 0)
+						      (IP-SUB-SPE (PP *T*-3)
+								  (NP-SBJ (PRO thou))
+								  (MD shalt)
+								  (NEG not)
+								  (VB eate)
+								  (NP-OB1 (N bred))
+								  (PP (P in)
+								      (NP (N scarcenesse)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (CP-REL-SPE (WADVP-4 (WADV where))
+							     (C 0)
+							     (IP-SUB-SPE (ADVP-LOC *T*-4)
+									 (NP-SBJ (PRO thou))
+									 (MD shalt)
+									 (VB lacke)
+									 (NP-OB1 (Q+N nothinge)))))))
+		      (, ,)
+		      (NP-PRN (D a)
+			      (N londe)
+			      (CP-REL-SPE (CP-REL-SPE (WNP-5 (WPRO$ whose) (NS stones))
+						      (C 0)
+						      (IP-SUB-SPE (NP-SBJ *T*-5)
+								  (BEP are)
+								  (NP-OB1 (N yerne))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (CP-REL-SPE (WPP-6 (RP out)
+								    (P of)
+								    (WNP (WPRO$ whose) (NS hylles)))
+							     (C 0)
+							     (IP-SUB-SPE (PP *T*-6)
+									 (NP-SBJ (PRO thou))
+									 (MD shalt)
+									 (VB dygge)
+									 (NP-OB1 (N brasse)))))))))
+	      (. .))
+  (ID TYNDOLD-E1-P2,8,1D.647))
+
+/~*
+thou goest ouer Iordayne this daye, to goo and conquere nations greater and
+mightier than thy selfe: and cities greate a~d walled vp to heauen, 2 a~d
+people greate and tall, euen the childern of the Enakims, which thou knowest
+and of whom thou hast herde saye who is able to stond before the childern of
+Enack?
+(TYNDOLD-E1-P2,9,1D.668)
+*~/
+/*
+138 WNP:  138 WNP, 140 whom, 134 CP-REL-SPE
+138 WNP:  138 WNP, 140 whom, 116 CP-REL-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO thou))
+	      (VBP goest)
+	      (PP (P ouer)
+		  (NP (NPR Iordayne)))
+	      (NP-TMP (D this) (N daye))
+	      (, ,)
+	      (IP-INF-PRP-SPE (IP-INF-SPE (TO to) (VB goo))
+			      (CONJP (CONJ and)
+				     (IP-INF-SPE (TO *)
+						 (VB conquere)
+						 (NP-OB1 (NP (NS nations)
+							     (ADJP (ADJR greater)
+								   (CONJ and)
+								   (ADJR mightier)
+								   (PP (P than)
+								       (NP (PRO$ thy) (N selfe)))))
+							 (, :)
+							 (CONJP (CONJ and)
+								(NP (NS cities)
+								    (ADJP (ADJP (ADJ greate))
+									  (CONJP (CONJ a~d)
+										 (ADJP (ADJ walled)
+										       (RP vp)
+										       (PP (P to)
+											   (NP (NPR heauen))))))))
+							 (, ,)
+							 (CODE (NUM 2))
+							 (CONJP (CONJ a~d)
+								(NP (NS people)
+								    (ADJP (ADJ greate) (CONJ and) (ADJ tall))
+								    (, ,)
+								    (NP-PRN (FP euen)
+									    (D the)
+									    (NS childern)
+									    (PP (P of)
+										(NP (D the) (NPRS Enakims)))
+									    (, ,)
+									    (CP-REL-SPE (CP-REL-SPE (WNP-1 (WPRO which))
+												    (C 0)
+												    (IP-SUB-SPE (NP-OB1 *T*-1)
+														(NP-SBJ (PRO thou))
+														(VBP knowest)))
+											(CONJP (CONJ and)
+											       (CP-REL-SPE (WPP-2 (P of)
+														  (WNP (WPRO whom)))
+													   (C 0)
+													   (IP-SUB-SPE (NP-SBJ (PRO thou))
+														       (HVP hast)
+														       (VBN herde)
+														       (IP-INF-SPE (PP *T*-2)
+																   (NP-SBJ *arb*)
+																   (VB saye)
+																   (CP-QUE-SPE (WNP-3 (WPRO who))
+																	       (C 0)
+																	       (IP-SUB-SPE (NP-SBJ *T*-3)
+																			   (BEP is)
+																			   (ADJP (ADJ able)
+																				 (IP-INF-SPE (TO to)
+																					     (VB stond)
+																					     (PP (P before)
+																						 (NP (D the)
+																						     (NS childern)
+																						     (PP (P of)
+																							 (NP (NPR Enack)))))))))))))))))))))
+	      (. ?))
+  (ID TYNDOLD-E1-P2,9,1D.668))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	4/4/866
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	10/10/1613
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	6/6/1558
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	12/12/1255
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	8/8/1234
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	6/6/1385
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	6/6/912
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	10/10/1078
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	8/7/1102
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	11/11/889
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	5/5/811
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	3/3/1317
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	4/4/866
+whole search, hits/tokens/total
+		89/88/14020
+*/

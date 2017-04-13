@@ -1,0 +1,7393 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:40 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_participal_absolutes.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_participal_absolutes\travelogue\result.out
+
+node:   *PPL*ABS*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*PPL*ABS* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd
+*/
+
+/~*
+for if it be not Welsh, it will quite probably be Dutch or Swedish, these
+industrious folk having an immemorial and consistent traffic with Conway.
+(BRADLEY-1905,200.41)
+*~/
+/*
+53 HAG:  53 HAG, 54 having, 45 IP-PPL-ABS
+*/
+( (IP-MAT (CONJ for)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (BEP be)
+			      (NEG not)
+			      (NP-OB1 (NPR Welsh)))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (MD will)
+	  (ADVP (ADV quite))
+	  (ADVP (ADV probably))
+	  (BE be)
+	  (NP-OB1 (NPR Dutch) (CONJ or) (NPR Swedish))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D these) (ADJ industrious) (NS folk))
+		      (HAG having)
+		      (NP-OB1 (D an)
+			      (ADJP (ADJ immemorial) (CONJ and) (ADJ consistent))
+			      (N traffic)
+			      (PP (P with)
+				  (NP (NPR Conway)))))
+	  (. .))
+  (ID BRADLEY-1905,200.41))
+
+/~*
+His people were reduced to eating their horses, and these failing, to retire
+ignominiously home, the King at their head in a towering passion.
+(BRADLEY-1905,207.136)
+*~/
+/*
+33 VAG:  33 VAG, 34 failing, 29 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ His) (NS people))
+	  (BED were)
+	  (VAN reduced)
+	  (PP (P to)
+	      (IP-PPL (IP-PPL (VAG eating)
+			      (NP-OB1 (PRO$ their) (NS horses)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-INF (IP-PPL-ABS (NP-SBJ (D these))
+						 (VAG failing))
+				     (, ,)
+				     (TO to)
+				     (VB retire)
+				     (ADVP (ADV ignominiously))
+				     (NP-DIR (N home))
+				     (, ,)
+				     (IP-ABS (NP-SBJ (D the) (N King))
+					     (PP (P at)
+						 (NP (PRO$ their) (N head)))
+					     (PP (P in)
+						 (NP (D a) (VAG towering) (N passion))))))))
+	  (. .))
+  (ID BRADLEY-1905,207.136))
+
+/~*
+The King, however, summoned the Irish to his aid, who landed in Anglesea,
+while he himself struggled on to Deganwy; the stock and movables of the
+Perfeddwlad having, as usual, been driven across the Conway.
+(BRADLEY-1905,208.157)
+*~/
+/*
+97 HAG:  97 HAG, 98 having, 77 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N King))
+	  (, ,)
+	  (ADVP (WADV+ADV however))
+	  (, ,)
+	  (VBD summoned)
+	  (NP-OB1 (D the)
+		  (ADJ Irish)
+		  (CP-REL *ICH*-1))
+	  (PP (P to)
+	      (NP (PRO$ his) (N aid)))
+	  (, ,)
+	  (CP-REL-1 (WNP-2 (WPRO who))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (VBD landed)
+			    (PP (P in)
+				(NP (NPR Anglesea)))))
+	  (, ,)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he)
+				      (NP-PRN (PRO+N himself)))
+			      (VBD struggled)
+			      (PP (RP on)
+				  (P to)
+				  (NP (NPR Deganwy))))))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N stock)
+			      (CONJP (CONJ and)
+				     (NX (NS movables)))
+			      (PP (P of)
+				  (NP (D the) (NPR Perfeddwlad))))
+		      (HAG having)
+		      (, ,)
+		      (PP (P as)
+			  (ADJP (ADJ usual)))
+		      (, ,)
+		      (BEN been)
+		      (VAN driven)
+		      (PP (P across)
+			  (NP (D the) (NPR Conway))))
+	  (. .))
+  (ID BRADLEY-1905,208.157))
+
+/~*
+We fast for want of provisions, the halfpenny loaf being now risen and
+advanced to fivepence.
+(BRADLEY-1905,208.163)
+*~/
+/*
+29 BAG:  29 BAG, 30 being, 21 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO We))
+	      (VBP fast)
+	      (PP (P for)
+		  (NP (N want)
+		      (PP (P of)
+			  (NP (NS provisions)))))
+	      (, ,)
+	      (IP-PPL-ABS-SPE (NP-SBJ (D the) (NUM+P halfpenny) (N loaf))
+			      (BAG being)
+			      (ADVP-TMP (ADV now))
+			      (VBN (VBN risen) (CONJ and) (VBN advanced))
+			      (PP (P to)
+				  (NP (NUM+NS fivepence))))
+	      (. .))
+  (ID BRADLEY-1905,208.163))
+
+/~*
+Now it happened that upon the Monday before Michaelmas Day an Irish vessel
+came up to the mouth of the haven with provision to be sold to our camp, which,
+being negligently looked to by the mariners, was upon the low ebb stranded on
+the other side of the castle, near the Welsh.
+(BRADLEY-1905,208.169)
+*~/
+/*
+99 BAG:  99 BAG, 100 being, 98 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Now))
+	      (NP-SBJ-1 (PRO it))
+	      (VBD happened)
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (PP (P upon)
+					    (NP (D the)
+						(NPR Monday)
+						(PP (P before)
+						    (NP (NPR Michaelmas) (NPR Day)))))
+					(NP-SBJ (D an)
+						(ADJ Irish)
+						(N vessel)
+						(CP-REL-SPE *ICH*-3))
+					(VBD came)
+					(PP (RP up)
+					    (P to)
+					    (NP (D the)
+						(N mouth)
+						(PP (P of)
+						    (NP (D the) (N haven)))))
+					(PP (P with)
+					    (NP (N provision)
+						(CP-EOP-SPE (WNP-2 0)
+							    (IP-INF-SPE (NP-SBJ *T*-2)
+									(TO to)
+									(BE be)
+									(VAN sold)
+									(PP (P to)
+									    (NP (PRO$ our) (N camp)))))))
+					(, ,)
+					(CP-REL-SPE-3 (WNP-4 (WPRO which))
+						      (, ,)
+						      (C 0)
+						      (IP-SUB-SPE (NP-SBJ *T*-4)
+								  (IP-PPL-ABS-SPE (BAG being)
+										  (ADVP (ADV negligently))
+										  (VAN looked)
+										  (PP (P to)
+										      (NP *))
+										  (PP (P by)
+										      (NP (D the) (NS mariners))))
+								  (, ,)
+								  (BED was)
+								  (PP (P upon)
+								      (NP (D the) (ADJ low) (N ebb)))
+								  (VAN stranded)
+								  (PP (P on)
+								      (NP (D the)
+									  (OTHER other)
+									  (N side)
+									  (PP (P of)
+									      (NP (D the) (N castle)))))
+								  (, ,)
+								  (ADJP-LOC (ADJ near)
+									    (NP (D the)
+										(ADJP (ADJ Welsh))))))))
+	      (. .))
+  (ID BRADLEY-1905,208.169))
+
+/~*
+The great Abbey of Aberconway, founded by Llewelyn ap Iorwerth, shared with
+that of Ystradfflur, or Strata Florida, the honour of keeping the chronicles
+of the Principality, the monks of the two houses interchanging periodical
+visits and correcting each other's records, which were carefully kept from day
+to day.
+(BRADLEY-1905,209.177)
+*~/
+/*
+102 VAG:  102 VAG, 103 interchanging, 85 IP-PPL-ABS
+115 VAG:  115 VAG, 116 correcting, 85 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ great)
+		  (N Abbey)
+		  (PP (P of)
+		      (NP (NPR Aberconway)))
+		  (, ,)
+		  (RRC (VAN founded)
+		       (PP (P by)
+			   (NP (NPR Llewelyn) (NPR ap) (NPR Iorwerth)))))
+	  (, ,)
+	  (VBD shared)
+	  (PP (P with)
+	      (NP (D that)
+		  (PP (P of)
+		      (NP (NP (NPR Ystradfflur))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (NP (NPR Strata) (NPR Florida)))))))
+	  (, ,)
+	  (NP-OB1 (D the)
+		  (N honour)
+		  (PP (P of)
+		      (IP-PPL (VAG keeping)
+			      (NP-OB1 (D the)
+				      (NS chronicles)
+				      (PP (P of)
+					  (NP (D the) (N Principality)))))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the)
+				      (NS monks)
+				      (PP (P of)
+					  (NP (D the) (NUM two) (NS houses))))
+			      (VAG interchanging)
+			      (NP-OB1 (ADJ periodical) (NS visits)))
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG correcting)
+				     (NP-OB1 (NP-POS (Q each) (OTHER$ other's))
+					     (NS records)
+					     (, ,)
+					     (CP-REL (WNP-1 (WPRO which))
+						     (C 0)
+						     (IP-SUB (NP-SBJ *T*-1)
+							     (BED were)
+							     (ADVP (ADV carefully))
+							     (VAN kept)
+							     (NP-MSR (PP (P from)
+									 (NP (N day)))
+								     (PP (P to)
+									 (NP (N day))))))))))
+	  (. .))
+  (ID BRADLEY-1905,209.177))
+
+/~*
+There remained but one hogshead of wine in the whole army, a bushel of corn
+being sold for twenty shillings, a fed ox for three or four marks, and a hen
+for eightpence; so that there happened a very lamentable mortality both of man
+and horse, for want of necessary sustenance of life. "
+(BRADLEY-1905,210.186)
+*~/
+/*
+45 BAG:  45 BAG, 46 being, 32 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (EX There))
+	      (VBD remained)
+	      (NP-1 (FP but)
+		    (ONE one)
+		    (NS+N hogshead)
+		    (PP (P of)
+			(NP (N wine))))
+	      (PP (P in)
+		  (NP (D the) (ADJ whole) (N army)))
+	      (, ,)
+	      (IP-PPL-ABS-SPE (IP-PPL-SPE-2 (NP-SBJ (D a)
+						    (N bushel)
+						    (PP (P of)
+							(NP (N corn))))
+					    (BAG being)
+					    (VAN sold)
+					    (PP (P for)
+						(NP (NUM twenty) (NS shillings))))
+			      (, ,)
+			      (CONJP (IP-PPL-SPE=2 (NP-SBJ (D a) (VAN fed) (N ox))
+						   (PP (P for)
+						       (NP (NUMP (NUM three) (CONJ or) (NUM four))
+							   (NS marks)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-PPL-SPE=2 (NP-SBJ (D a) (N hen))
+						   (PP (P for)
+						       (NP (NUM+NS eightpence))))))
+	      (, ;)
+	      (PP (P so)
+		  (CP-ADV-SPE (C that)
+			      (IP-SUB-SPE (NP-SBJ-3 (EX there))
+					  (VBD happened)
+					  (NP-3 (D a)
+						(ADJP (ADV very) (ADJ lamentable))
+						(N mortality)
+						(CONJ-4 both)
+						(PP (P of)
+						    (NP (CONJ *ICH*-4)
+							(N man)
+							(CONJ and)
+							(N horse))))
+					  (, ,)
+					  (PP (P for)
+					      (NP (N want)
+						  (PP (P of)
+						      (NP (ADJ necessary)
+							  (N sustenance)
+							  (PP (P of)
+							      (NP (N life))))))))))
+	      (. .)
+	      (" "))
+  (ID BRADLEY-1905,210.186))
+
+/~*
+and carried it by storm, the archbishop heading his own party and being
+wounded in the assault - most certainly the last instance of an English
+prelate leading a storming-party.
+(BRADLEY-1905,218.282)
+*~/
+/*
+26 VAG:  26 VAG, 27 heading, 19 IP-PPL-ABS
+41 BAG:  41 BAG, 42 being, 19 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD carried)
+	  (NP-OB1 (PRO it))
+	  (PP (P by)
+	      (NP (N storm)))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (N archbishop))
+			      (VAG heading)
+			      (NP-OB1 (PRO$ his) (ADJ own) (N party)))
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (BAG being)
+				     (VAN wounded)
+				     (PP (P in)
+					 (NP (D the) (N assault))))))
+	  (, -)
+	  (FRAG (ADVP (QS most) (ADV certainly))
+		(NP (D the)
+		    (ADJ last)
+		    (N instance)
+		    (PP (P of)
+			(IP-PPL (NP-SBJ (D an) (ADJ English) (N prelate))
+				(VAG leading)
+				(NP-OB1 (D a) (N+N storming-party))))))
+	  (. .))
+  (ID BRADLEY-1905,218.282))
+
+/~*
+And he goes on to tell us the origin of the Welsh oath, Cas Andra`s, tracing
+it to Druidical times, Andra`s or Andraste being the fury of the ancient Kymri,
+to whom they built temples and offered sacrifices out of fear.
+(BRADLEY-1905,222.338)
+*~/
+/*
+67 BAG:  67 BAG, 68 being, 59 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO he))
+	  (VBP goes)
+	  (RP on)
+	  (IP-INF-PRP (TO to)
+		      (VB tell)
+		      (NP-OB2 (PRO us))
+		      (NP-OB1 (D the)
+			      (N origin)
+			      (PP (P of)
+				  (NP (D the)
+				      (ADJ Welsh)
+				      (N oath)
+				      (, ,)
+				      (WELSH (FW Cas) (FW Andra`s)))))
+		      (, ,)
+		      (IP-PPL (VAG tracing)
+			      (NP-OB1 (PRO it))
+			      (PP (P to)
+				  (NP (ADJ Druidical) (NS times)))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (NPR Andra`s) (CONJ or) (NPR Andraste))
+					  (BAG being)
+					  (NP-OB1 (D the)
+						  (N fury)
+						  (PP (P of)
+						      (NP (D the) (ADJ ancient) (NPRS Kymri)))
+						  (, ,)
+						  (CP-REL (WPP-1 (P to)
+								 (WNP (WPRO whom)))
+							  (C 0)
+							  (IP-SUB (IP-SUB (PP *T*-1)
+									  (NP-SBJ (PRO they))
+									  (VBD built)
+									  (NP-OB1 (NS temples)))
+								  (CONJP (CONJ and)
+									 (IP-SUB (PP *T*-1)
+										 (NP-SBJ *con*)
+										 (VBD offered)
+										 (NP-OB1 (NS sacrifices))
+										 (PP (RP out)
+										     (P of)
+										     (NP (N fear)))))))))))
+	  (. .))
+  (ID BRADLEY-1905,222.338))
+
+/~*
+Or a heron perhaps forges onwards in mid-air, its great grey wings beating
+with steady and effective action against the dark background of the Gwydyr
+woods which have now begun to clothe the opposing hills with a rich mantle
+from their summit to their base.
+(BRADLEY-1905,225.375)
+*~/
+/*
+36 VAG:  36 VAG, 37 beating, 25 IP-PPL-ABS
+95 VAG:  95 VAG, 96 opposing, 25 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ Or)
+	  (NP-SBJ (D a) (N heron))
+	  (ADVP (ADV perhaps))
+	  (VBP forges)
+	  (ADVP-DIR (RP+WARD onwards))
+	  (PP (P in)
+	      (NP (N+N mid-air)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ its)
+			      (ADJP (ADJ great) (ADJ grey))
+			      (NS wings))
+		      (VAG beating)
+		      (PP (P with)
+			  (NP (ADJP (ADJ steady) (CONJ and) (ADJ effective))
+			      (N action)))
+		      (PP (P against)
+			  (NP (D the)
+			      (ADJ dark)
+			      (N background)
+			      (PP (P of)
+				  (NP (D the)
+				      (NPR Gwydyr)
+				      (NS woods)
+				      (CP-REL (WNP-1 (WPRO which))
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (HVP have)
+						      (ADVP-TMP (ADV now))
+						      (VBN begun)
+						      (IP-INF (TO to)
+							      (VB clothe)
+							      (NP-OB1 (D the) (VAG opposing) (NS hills))
+							      (PP (P with)
+								  (CODE <P_225>)
+								  (NP (D a) (ADJ rich) (N mantle)))
+							      (NP-MSR (PP (P from)
+									  (NP (PRO$ their) (N summit)))
+								      (PP (P to)
+									  (NP (PRO$ their) (N base))))))))))))
+	  (. .))
+  (ID BRADLEY-1905,225.375))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	13/10/437
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd
+*/
+
+/~*
+When Commodore Byron touched at the Cape, he was obliged to work into Table
+Bay with his topsails close reefed, there being a strong gale with hard
+squalls at S.S.E.
+(COOK-1776,13.34)
+*~/
+/*
+66 BAG:  66 BAG, 67 being, 62 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Commodore) (NPR Byron))
+			      (VBD touched)
+			      (PP (P at)
+				  (NP (D the) (N Cape))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (BED was)
+	  (VAN obliged)
+	  (IP-INF (TO to)
+		  (VB work)
+		  (PP (P into)
+		      (NP (NPR Table) (NPR Bay)))
+		  (PP (P with)
+		      (IP-SMC (NP-SBJ (PRO$ his) (NS topsails))
+			      (ADJP-SPR (ADJ close))
+			      (VAN reefed))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ-1 (EX there))
+		      (BAG being)
+		      (NP-1 (D a)
+			    (ADJ strong)
+			    (N gale)
+			    (PP (P with)
+				(NP (ADJ hard) (NS squalls))))
+		      (PP (P at)
+			  (NP (N+N+N S.S.E.)))))
+  (ID COOK-1776,13.34))
+
+/~*
+The people were so enraged against the midshipman, that his life was in danger,
+many persons having determined to kill him the first opportunity they had.
+(COOK-1776,15.91)
+*~/
+/*
+50 HAG:  50 HAG, 51 having, 44 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (NS people))
+	  (BED were)
+	  (ADJP (ADVP (ADVR so))
+		(VAN enraged)
+		(PP (P against)
+		    (NP (D the) (N+N midshipman)))
+		(, ,)
+		(CP-DEG (C that)
+			(IP-SUB (NP-SBJ (PRO$ his) (N life))
+				(BED was)
+				(PP (P in)
+				    (NP (N danger)))
+				(, ,)
+				(IP-PPL-ABS (NP-SBJ (Q many) (NS persons))
+					    (HAG having)
+					    (VBN determined)
+					    (IP-INF (TO to)
+						    (VB kill)
+						    (NP-OB1 (PRO him))
+						    (NP-TMP (D the)
+							    (ADJ first)
+							    (N opportunity)
+							    (CP-REL (WNP-1 0)
+								    (C 0)
+								    (IP-SUB (NP-OB1 *T*-1)
+									    (NP-SBJ (PRO they))
+									    (HVD had)))))))))
+	  (. .))
+  (ID COOK-1776,15.91))
+
+/~*
+We found the inhabitants open, hospitable and polite, there being scarcely a
+gentleman in the place, either in a public or private station, from whom I did
+not receive some civility;
+(COOK-1776,17.145)
+*~/
+/*
+30 BAG:  30 BAG, 31 being, 26 IP-PPL-ABS-SPE
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO We))
+	      (VBD found)
+	      (IP-SMC-SPE (NP-SBJ (D the) (NS inhabitants))
+			  (ADJP (ADJ open) (, ,) (ADJ hospitable) (CONJ and) (ADJ polite)))
+	      (, ,)
+	      (IP-PPL-ABS-SPE (NP-SBJ-1 (EX there))
+			      (BAG being)
+			      (ADVP (ADV scarcely))
+			      (NP-1 (D a)
+				    (ADJ+N gentleman)
+				    (CP-REL-SPE *ICH*-3))
+			      (PP (P in)
+				  (NP (D the) (N place)))
+			      (, ,)
+			      (CONJ-2 either)
+			      (PP (P in)
+				  (NP (D a)
+				      (ADJP (CONJ *ICH*-2)
+					    (ADJ public)
+					    (CONJ or)
+					    (ADJ private))
+				      (N station)))
+			      (, ,)
+			      (CP-REL-SPE-3 (WPP-4 (P from)
+						   (WNP (WPRO whom)))
+					    (C 0)
+					    (IP-SUB-SPE (PP *T*-4)
+							(NP-SBJ (PRO I))
+							(DOD did)
+							(NEG not)
+							(VB receive)
+							(NP-OB1 (Q some) (N civility)))))
+	      (. ;))
+  (ID COOK-1776,17.145))
+
+/~*
+but proper methods being taken they recovered the use of them again.
+(COOK-1776,21.307)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (IP-PPL-ABS (NP-SBJ (ADJ proper) (NS methods))
+		      (BAG being)
+		      (VAN taken))
+	  (NP-SBJ (PRO they))
+	  (VBD recovered)
+	  (NP-OB1 (D the)
+		  (N use)
+		  (PP (P of)
+		      (NP (PRO them))))
+	  (ADVP (ADV again))
+	  (. .))
+  (ID COOK-1776,21.307))
+
+/~*
+tacked and stood off all night, the weather coming on very thick and hazy.
+(COOK-1776,22.328)
+*~/
+/*
+26 VAG:  26 VAG, 27 coming, 20 IP-PPL-ABS
+*/
+
+( (IP-MAT-1 (NP-SBJ *pro*)
+	    (VBD tacked)
+	    (IP-MAT-PRN=1 (CONJ and) (VBD stood) (RP off))
+	    (NP-MSR (Q all) (N night))
+	    (, ,)
+	    (IP-PPL-ABS (NP-SBJ (D the) (N weather))
+			(VAG coming)
+			(RP on)
+			(ADJP-SPR (ADV very)
+				  (ADJ thick)
+				  (CONJP (CONJ and)
+					 (ADJX (ADJ hazy)))))
+	    (. .))
+  (ID COOK-1776,22.328))
+
+/~*
+and it coming on to blow hard, all hands were obliged to go on shore at
+midnight to put it out, fearing the tents should take fire.
+(COOK-1776,26.450)
+*~/
+/*
+8 VAG:  8 VAG, 9 coming, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL-ABS (NP-SBJ (PRO it))
+		      (VAG coming)
+		      (RP on)
+		      (IP-INF (TO to)
+			      (VB blow)
+			      (ADVP (ADV hard))))
+	  (, ,)
+	  (NP-SBJ (Q all) (NS hands))
+	  (BED were)
+	  (VAN obliged)
+	  (IP-INF (TO to)
+		  (VB go)
+		  (PP (P on)
+		      (NP (N shore)))
+		  (PP (P at)
+		      (NP (N midnight))))
+	  (IP-INF-PRP (TO to)
+		      (VB put)
+		      (NP-OB1 (PRO it))
+		      (RP out))
+	  (, ,)
+	  (IP-PPL (VAG fearing)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (D the) (NS tents))
+				  (MD should)
+				  (VB take)
+				  (NP-OB1 (N fire)))))
+	  (. .))
+  (ID COOK-1776,26.450))
+
+/~*
+Here he found the lieutenants and their companions, all sitting round the fire
+without either provisions or liquor,
+(COOK-1776,30.565)
+*~/
+/*
+32 VAG:  32 VAG, 33 sitting, 26 IP-PPL-ABS
+*/
+
+( (IP-MAT (ADVP-LOC (ADV Here))
+	  (NP-SBJ (PRO he))
+	  (VBD found)
+	  (NP-OB1 (NP (D the) (NS lieutenants))
+		  (CONJP (CONJ and)
+			 (NP (PRO$ their) (NS companions))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (Q all))
+		      (CODE <P_30>)
+		      (VAG sitting)
+		      (PP (P round)
+			  (NP (D the) (N fire)))
+		      (PP (P without)
+			  (NP (CONJ either)
+			      (NS provisions)
+			      (CONJP (CONJ or)
+				     (NX (N liquor))))))
+	  (. ,))
+  (ID COOK-1776,30.565))
+
+/~*
+and the wind being right aft, we soon got sight of the western entrance of the
+Sound:
+(COOK-1776,33.682)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N wind))
+		      (BAG being)
+		      (ADJP (ADV right) (ADJ aft)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (ADVP-TMP (ADV soon))
+	  (VBD got)
+	  (NP-OB1 (N sight)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ western)
+			  (N entrance)
+			  (PP (P of)
+			      (NP (D the) (N Sound))))))
+	  (. :))
+  (ID COOK-1776,33.682))
+
+/~*
+It was not long before we saw the water at a distance in great motion, the
+waves rising to an uncommon height, and the whole sea in one continued ferment:
+(COOK-1776,33.692)
+*~/
+/*
+55 VAG:  55 VAG, 56 rising, 48 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (BED was)
+	  (NP-MSR (ADJP (NEG not) (ADJ long)))
+	  (PP (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBD saw)
+			      (NP-OB1 (D the) (N water))
+			      (PP (P at)
+				  (NP (D a) (N distance)))
+			      (PP (P in)
+				  (NP (ADJ great) (N motion)))
+			      (, ,)
+			      (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (NS waves))
+						  (VAG rising)
+						  (PP (P to)
+						      (NP (D an) (ADJ uncommon) (N height))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-ABS (NP-SBJ (D the) (ADJ whole) (N sea))
+							 (PP (P in)
+							     (NP (ONE one) (VAN continued) (N ferment)))))))))
+	  (. :))
+  (ID COOK-1776,33.692))
+
+/~*
+At day break saw great flashes of fire in the Sound, supposed to be of
+lightning, the tempest having now reached the land.
+(COOK-1776,34.710)
+*~/
+/*
+61 HAG:  61 HAG, 62 having, 55 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P At)
+	      (NP (N day) (N break)))
+	  (NP-SBJ *pro*)
+	  (VBD saw)
+	  (NP-OB1 (ADJ great)
+		  (NS flashes)
+		  (PP (P of)
+		      (NP (N fire)))
+		  (RRC *ICH*-1))
+	  (PP (P in)
+	      (NP (D the) (N Sound)))
+	  (, ,)
+	  (RRC-1 (VAN supposed)
+		 (IP-INF (NP-SBJ *)
+			 (TO to)
+			 (BE be)
+			 (PP (P of)
+			     (NP (N lightning)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N tempest))
+		      (HAG having)
+		      (ADVP-TMP (ADV now))
+		      (VBN reached)
+		      (NP-OB1 (D the) (N land)))
+	  (. .))
+  (ID COOK-1776,34.710))
+
+/~*
+The storm having subsided, and it falling little wind, we hoisted out our
+boats to tow,
+(COOK-1776,34.714)
+*~/
+/*
+9 HAG:  9 HAG, 10 having, 2 IP-PPL-ABS
+22 VAG:  22 VAG, 23 falling, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (IP-PPL (NP-SBJ (D The) (N storm))
+			      (HAG having)
+			      (VBN subsided))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ-1 (PRO it))
+				     (VAG falling)
+				     (NP-1 (Q little) (N wind)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD hoisted)
+	  (RP out)
+	  (NP-OB1 (PRO$ our) (NS boats))
+	  (IP-INF-PRP (TO to) (VB tow))
+	  (. ,))
+  (ID COOK-1776,34.714))
+
+/~*
+and one of the Indians brought him four heads of their enemies, who had been
+killed and eaten, one of which was purchased by Mr. Banks, but with great
+reluctance on the part of the seller, it being supposed they are kept as
+trophies, like the scalps in America.
+(COOK-1776,35.745)
+*~/
+/*
+121 BAG:  121 BAG, 122 being, 117 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (ONE one)
+		  (PP (P of)
+		      (NP (D the) (NPRS Indians))))
+	  (VBD brought)
+	  (NP-OB2 (PRO him))
+	  (NP-OB1 (NUM four)
+		  (NS heads)
+		  (PP (P of)
+		      (NP (PRO$ their)
+			  (NS enemies)
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (HVD had)
+					  (BEN been)
+					  (VAN (VAN killed) (CONJ and) (VAN eaten))))))
+		  (, ,)
+		  (CP-REL (WNP-2 (ONE one)
+				 (WPP (P of)
+				      (WNP (WPRO which))))
+			  (C 0)
+			  (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+					    (BED was)
+					    (VAN purchased)
+					    (PP (P by)
+						(NP (NPR Mr.) (NS Banks))))
+				  (, ,)
+				  (CONJP (CONJ but)
+					 (IP-SUB=3 (PP (P with)
+						       (NP (ADJ great)
+							   (N reluctance)
+							   (PP (P on)
+							       (NP (D the)
+								   (N part)
+								   (PP (P of)
+								       (NP (D the) (N seller)))))))
+						   (, ,)
+						   (IP-PPL-ABS (NP-SBJ-4 (PRO it))
+							       (BAG being)
+							       (VAN supposed)
+							       (CP-THT-4 (C 0)
+									 (IP-SUB (NP-SBJ (PRO they))
+										 (BEP are)
+										 (VAN kept)
+										 (PP (P as)
+										     (NP (NS trophies)))
+										 (, ,)
+										 (ADJP-SPR (ADJ like)
+											   (NP (D the)
+											       (NS scalps)
+											       (PP (P in)
+												   (NP (NPR America)))))))))))))
+	  (. .))
+  (ID COOK-1776,35.745))
+
+/~*
+this last discovered them, the oil running down the legs of the thief from
+under his cloaths.
+(COOK-1776,36.771)
+*~/
+/*
+20 VAG:  20 VAG, 21 running, 14 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D this) (ADJ last))
+	  (VBD discovered)
+	  (NP-OB1 (PRO them))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N oil))
+		      (VAG running)
+		      (PP (P down)
+			  (NP (D the)
+			      (NS legs)
+			      (PP (P of)
+				  (NP (D the) (N thief)))))
+		      (PP (P from)
+			  (PP (P under)
+			      (NP (PRO$ his) (NS cloaths)))))
+	  (. .))
+  (ID COOK-1776,36.771))
+
+/~*
+Dr. Hawkesworth imputes this barbarous custom principally to the great want of
+provisions on this island, there being no sheep, or goats, or hogs, or cattle;
+and that hunger stimulates to this savage practice.
+(COOK-1776,37.796)
+*~/
+/*
+52 BAG:  52 BAG, 53 being, 48 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NPR Dr.) (NPR Hawkesworth))
+	  (VBP imputes)
+	  (NP-OB1 (D this) (ADJ barbarous) (N custom))
+	  (ADVP (ADV principally))
+	  (PP (P to)
+	      (NP (NP (D the)
+		      (ADJ great)
+		      (N want)
+		      (PP (P of)
+			  (NP (NS provisions)))
+		      (PP (P on)
+			  (NP (D this) (N island))))
+		  (CONJP *ICH*-2)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ-1 (EX there))
+		      (BAG being)
+		      (NP-1 (Q no)
+			    (NS sheep)
+			    (, ,)
+			    (CONJP (CONJ or)
+				   (NX (NS goats)))
+			    (, ,)
+			    (CONJP (CONJ or)
+				   (NX (NS hogs)))
+			    (, ,)
+			    (CONJP (CONJ or)
+				   (NX (NS cattle)))))
+	  (, ;)
+	  (CONJP-2 (CONJ and)
+		   (CP-THT (C that)
+			   (IP-SUB (NP-SBJ (N hunger))
+				   (VBP stimulates)
+				   (PP (P to)
+				       (NP (D this) (ADJ savage) (N practice))))))
+	  (. .))
+  (ID COOK-1776,37.796))
+
+/~*
+This being The King's Birth-Day, all the officers of the Adventure dined on
+board our ship to celebrate the day.
+(COOK-1776,38.818)
+*~/
+/*
+6 BAG:  6 BAG, 7 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D This))
+		      (BAG being)
+		      (NP-OB1 (NP-POS (D The) (N$ King's))
+			      (N+N Birth-Day)))
+	  (, ,)
+	  (NP-SBJ (Q all)
+		  (D the)
+		  (NS officers)
+		  (PP (P of)
+		      (NP (D the) (CODE <font>) (NPR Adventure))))
+	  (CODE <$$font>)
+	  (VBD dined)
+	  (PP (P on)
+	      (NP (N board)
+		  (NP-COM (PRO$ our) (N ship))))
+	  (IP-INF-PRP (TO to)
+		      (VB celebrate)
+		      (NP-OB1 (D the) (N day)))
+	  (. .))
+  (ID COOK-1776,38.818))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	16/15/829
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd
+*/
+
+/~*
+His Perswasions being of no Force, it was resolv'd to advance by the Way of
+Tlascala, because that Province was always at War with Mexico, and in League
+with Zempoala, for which Reason four Zempoalans were sent to perswade the
+Tlascalans to give the Spaniards free Passage thro' their Country.
+(COOKE-1712,1,420.41)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (PRO$ His) (NS Perswasions))
+		      (CODE {COM:here_and_passim_sic})
+		      (BAG being)
+		      (PP (P of)
+			  (NP (Q no) (N Force))))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BED was)
+	  (VAN resolv'd)
+	  (IP-INF-1 (TO to)
+		    (VB advance)
+		    (PP (P by)
+			(NP (D the)
+			    (N Way)
+			    (PP (P of)
+				(CODE <font>)
+				(NP (NPR Tlascala))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D that) (N Province))
+			      (BED was)
+			      (ADVP-TMP (ADV always))
+			      (PP (PP (P at)
+				      (NP (N War)
+					  (PP (P with)
+					      (CODE <font>)
+					      (NP (NPR Mexico)))))
+				  (CODE <$$font>)
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (PP (P in)
+					     (NP (N League)
+						 (PP (P with)
+						     (CODE <font>)
+						     (NP (NPR Zempoala))))))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-CAR (WPP-2 (P for)
+			 (WNP (WD which) (N Reason)))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (NUM four) (CODE <font>) (NPRS Zempoalans))
+			  (CODE <$$font>)
+			  (BED were)
+			  (VAN sent)
+			  (IP-INF-PRP (TO to)
+				      (VB perswade)
+				      (NP-OB1 (D the) (CODE <font>) (NPRS Tlascalans))
+				      (CODE <$$font>)
+				      (IP-INF (TO to)
+					      (VB give)
+					      (NP-OB2 (D the) (CODE <font>) (NPRS Spaniards))
+					      (CODE <$$font>)
+					      (NP-OB1 (ADJ free)
+						      (N Passage)
+						      (PP (P thro')
+							  (NP (PRO$ their) (N Country))))))))
+	  (. .))
+  (ID COOKE-1712,1,420.41))
+
+/~*
+Being arriv'd there, the Spaniards fortify'd their Quarters in two or three
+great Houses assign'd them, and the Tlascalans theirs in the Fields close by,
+the Cholulans furnishing Provisions plentifully, and appearing very friendly.
+(COOKE-1712,1,422.68)
+*~/
+/*
+95 VAG:  95 VAG, 96 furnishing, 84 IP-PPL-ABS
+111 VAG:  111 VAG, 112 appearing, 84 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (IP-PPL (BAG Being)
+			    (VBN arriv'd)
+			    (ADVP-LOC (ADV there)))
+		    (, ,)
+		    (NP-SBJ (D the) (CODE <font>) (NPRS Spaniards))
+		    (CODE <$$font>)
+		    (VBD fortify'd)
+		    (NP-OB1 (PRO$ their) (NS Quarters))
+		    (PP (P in)
+			(NP (NUMP (NUM two) (CONJ or) (NUM three))
+			    (ADJ great)
+			    (NS Houses)
+			    (RRC (VAN assign'd)
+				 (NP-OB2 (PRO them))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-SBJ (D the) (CODE <font>) (NPRS Tlascalans))
+			   (CODE <$$font>)
+			   (NP-OB1 (PRO$ theirs))
+			   (PP (P in)
+			       (NP (D the)
+				   (NS Fields)
+				   (RRC (NP-MSR (ADJ close))
+					(RP by))))
+			   (, ,)
+			   (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (CODE <font>) (NPRS Cholulans))
+					       (CODE <$$font>)
+					       (VAG furnishing)
+					       (NP-OB1 (NS Provisions))
+					       (ADVP (ADV plentifully)))
+				       (, ,)
+				       (CONJP (CONJ and)
+					      (IP-PPL (NP-SBJ *con*)
+						      (VAG appearing)
+						      (ADJP (ADV very) (ADJ friendly)))))))
+	  (. .))
+  (ID COOKE-1712,1,422.68))
+
+/~*
+and came at length to the Bank of the great Lake, many Indians by the Way
+complaining to Cortes of the miserable Oppression they liv'd under from the
+Mexicans.
+(COOKE-1712,1,423.85)
+*~/
+/*
+52 VAG:  52 VAG, 53 complaining, 34 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD came)
+	  (PP (P at)
+	      (NP (N length)))
+	  (PP (P to)
+	      (NP (D the)
+		  (N Bank)
+		  (PP (P of)
+		      (NP (D the) (ADJ great) (N Lake)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (Q many) (CODE <font>) (NPRS Indians))
+		      (CODE <$$font>)
+		      (PP (P by)
+			  (NP (D the) (N Way)))
+		      (VAG complaining)
+		      (PP (P to)
+			  (CODE <font>)
+			  (NP (NPR Cortes)))
+		      (CODE <$$font>)
+		      (PP (P of)
+			  (NP (D the)
+			      (ADJ miserable)
+			      (N Oppression)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (VBD liv'd)
+					      (PP (P under)
+						  (NP *T*-1))))
+			      (PP (P from)
+				  (NP (D the) (CODE <font>) (NPRS Mexicans))))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID COOKE-1712,1,423.85))
+
+/~*
+all we can say, is, that the Spaniards were plentifully supply'd, and nobly
+entertain'd in that Place, 'till two Tlascalans disguiz'd, brought Cortes a
+Letter from his new Town of Vera Cruz, by which he understood, that a General
+of Motezuma 's disturbing the Indians in those Parts, John de Escalante, whom
+he left Governor there, had routed his Army, but was himself dead of the
+Wounds he receiv'd in the Action.
+(COOKE-1712,1,424.90)
+*~/
+/*
+169 VAG:  169 VAG, 170 disturbing, 150 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (Q all)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (MD can)
+				  (VB say))))
+	  (, ,)
+	  (BEP is)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (IP-SUB-2 (NP-SBJ (D the) (CODE <font>) (NPRS Spaniards))
+				    (CODE <$$font>)
+				    (BED were)
+				    (ADVP (ADV plentifully))
+				    (VAN supply'd))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=2 (ADVP (ADV nobly))
+					   (VAN entertain'd)
+					   (PP (P in)
+					       (NP (D that) (N Place)))
+					   (, ,)
+					   (PP (P 'till)
+					       (CP-ADV (C 0)
+						       (IP-SUB (NP-SBJ (NUM two)
+								       (CODE <font>)
+								       (NPRS Tlascalans)
+								       (CODE <$$font>)
+								       (RRC (VAN disguiz'd)))
+							       (, ,)
+							       (VBD brought)
+							       (CODE <font>)
+							       (NP-OB2 (NPR Cortes))
+							       (CODE <$$font>)
+							       (NP-OB1 (D a)
+								       (N Letter)
+								       (PP (P from)
+									   (NP (PRO$ his)
+									       (ADJ new)
+									       (N Town)
+									       (PP (P of)
+										   (CODE <font>)
+										   (NP (NPR Vera) (NPR Cruz)))))
+								       (CODE <$$font>)
+								       (, ,)
+								       (CP-REL (WPP-3 (P by)
+										      (WNP (WPRO which)))
+									       (C 0)
+									       (IP-SUB (PP *T*-3)
+										       (NP-SBJ (PRO he))
+										       (VBD understood)
+										       (, ,)
+										       (CP-THT (C that)
+											       (IP-SUB (IP-PPL-ABS (NP-SBJ (D a)
+															   (N General)
+															   (PP (P of)
+															       (CODE <font>)
+															       (NP (NP-POS (NPR Motezuma) (CODE <$$font>) ($ 's)))))
+														   (VAG disturbing)
+														   (NP-OB1 (D the) (CODE <font>) (NPRS Indians))
+														   (CODE <$$font>)
+														   (PP (P in)
+														       (NP (D those) (NS Parts))))
+												       (, ,)
+												       (CODE <font>)
+												       (IP-SUB (NP-SBJ (NPR John)
+														       (NPR de)
+														       (NPR Escalante)
+														       (CODE <$$font>)
+														       (, ,)
+														       (CP-REL (WNP-4 (WPRO whom))
+															       (C 0)
+															       (IP-SUB (NP-OB1 *T*-4)
+																       (NP-SBJ (PRO he))
+																       (VBD left)
+																       (NP-SPR (N Governor))
+																       (ADVP-LOC (ADV there)))))
+													       (, ,)
+													       (HVD had)
+													       (VBN routed)
+													       (NP-OB1 (PRO$ his) (N Army)))
+												       (, ,)
+												       (CONJP (CONJ but)
+													      (IP-SUB (NP-SBJ *con*)
+														      (BED was)
+														      (NP-PRN (PRO+N himself))
+														      (ADJP (ADJ dead)
+															    (PP (P of)
+																(NP (D the)
+																    (NS Wounds)
+																    (CP-REL (WNP-5 0)
+																	    (C 0)
+																	    (IP-SUB (NP-OB1 *T*-5)
+																		    (NP-SBJ (PRO he))
+																		    (VBD receiv'd)
+																		    (PP (P in)
+																			(NP (D the) (N Action))))))))))))))))))))))
+	  (. .))
+  (ID COOKE-1712,1,424.90))
+
+/~*
+Things continu'd long in this Posture, that Monarch growing familiar with the
+Spaniards, going abroad when he pleas'd, and seeming intirely satisfy'd with
+his Keepers.
+(COOKE-1712,1,425.98)
+*~/
+/*
+27 VAG:  27 VAG, 28 growing, 20 IP-PPL-ABS
+50 VAG:  50 VAG, 51 going, 20 IP-PPL-ABS
+77 VAG:  77 VAG, 78 seeming, 20 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NS Things))
+	  (VBD continu'd)
+	  (NP-MSR (ADJ long))
+	  (PP (P in)
+	      (NP (D this) (N Posture)))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D that) (N Monarch))
+			      (VAG growing)
+			      (ADJP (ADJ familiar)
+				    (PP (P with)
+					(NP (D the) (CODE <font>) (NPRS Spaniards)))))
+		      (CODE <$$font>)
+		      (, ,)
+		      (CONJP (IP-PPL (NP-SBJ *con*)
+				     (VAG going)
+				     (CODE <P_1,425>)
+				     (ADVP-DIR (ADV abroad))
+				     (PP (P when)
+					 (CP-ADV (C 0)
+						 (IP-SUB (NP-SBJ (PRO he))
+							 (VBD pleas'd))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG seeming)
+				     (ADJP (ADV intirely)
+					   (VAN satisfy'd)
+					   (PP (P with)
+					       (NP (PRO$ his) (NS Keepers)))))))
+	  (. .))
+  (ID COOKE-1712,1,425.98))
+
+/~*
+After some Messages had pass'd between these two Commanders, with little
+Success, the new Comer being resolv'd to reduce the other by Force, Cortes set
+out from Mexico with all his Forces, except 80 Spaniards left in the City
+under the Command of Peter de Alvarado.
+(COOKE-1712,1,425.107)
+*~/
+/*
+50 BAG:  50 BAG, 51 being, 40 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P After)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q some) (NS Messages))
+			      (HVD had)
+			      (VBN pass'd)
+			      (PP (P between)
+				  (NP (D these) (NUM two) (NS Commanders)))
+			      (, ,)
+			      (PP (P with)
+				  (NP (Q little) (N Success)))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (D the) (ADJ new) (N Comer))
+					  (CODE {COM:sic})
+					  (BAG being)
+					  (VAN resolv'd)
+					  (IP-INF (TO to)
+						  (VB reduce)
+						  (NP-OB1 (D the) (OTHER other))
+						  (PP (P by)
+						      (NP (N Force))))))))
+	  (, ,)
+	  (CODE <font>)
+	  (NP-SBJ (NPR Cortes))
+	  (CODE <$$font>)
+	  (VBD set)
+	  (PP (RP out)
+	      (P from)
+	      (CODE <font>)
+	      (NP (NPR Mexico)))
+	  (CODE <$$font>)
+	  (PP (P with)
+	      (NP (Q all)
+		  (PRO$ his)
+		  (NS Forces)
+		  (, ,)
+		  (PP (P except)
+		      (NP (NUM 80)
+			  (CODE <font>)
+			  (NPRS Spaniards)
+			  (CODE <$$font>)
+			  (RRC (VAN left)
+			       (PP (P in)
+				   (NP (D the) (N City))))
+			  (PP (P under)
+			      (NP (D the)
+				  (N Command)
+				  (PP (P of)
+				      (CODE <font>)
+				      (NP (NPR Peter) (NPR de) (NPR Alvarado)))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID COOKE-1712,1,425.107))
+
+/~*
+and retir'd to the Quarters with many Men wounded, the Mexicans pursuing 'till
+the Cannon oblig'd them to give back.
+(COOKE-1712,1,426.114)
+*~/
+/*
+39 VAG:  39 VAG, 40 pursuing, 29 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD retir'd)
+	  (PP (P to)
+	      (NP (D the) (NS Quarters)))
+	  (PP (P with)
+	      (IP-SMC (NP-SBJ (Q many) (NS Men))
+		      (VAN wounded)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (CODE <font>) (NPRS Mexicans))
+		      (CODE <$$font>)
+		      (VAG pursuing)
+		      (PP (P 'till)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (D the) (N Cannon))
+					  (VBD oblig'd)
+					  (NP-OB1 (PRO them))
+					  (IP-INF (TO to)
+						  (VB give)
+						  (ADVP-DIR (ADV back)))))))
+	  (. .))
+  (ID COOKE-1712,1,426.114))
+
+/~*
+Cuetlavac, new Emperor of Mexico, chosen in the Place of Motezuma, dying,
+Gnatimozin, Nephew to Motezuma, was elected in his Stead,
+(COOKE-1712,1,427.143)
+*~/
+/*
+52 VAG:  52 VAG, 53 dying, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CODE <font>)
+	  (IP-PPL-ABS (NP-SBJ (NPR Cuetlavac)
+			      (CODE <$$font>)
+			      (, ,)
+			      (NP-PRN (ADJ new)
+				      (N Emperor)
+				      (PP (P of)
+					  (CODE <font>)
+					  (NP (NPR Mexico)))
+				      (CODE <$$font>)
+				      (, ,)
+				      (RRC (VAN chosen)
+					   (PP (P in)
+					       (NP (D the)
+						   (N Place)
+						   (PP (P of)
+						       (CODE <font>)
+						       (NP (NPR Motezuma))))))))
+		      (CODE <$$font>)
+		      (, ,)
+		      (VAG dying))
+	  (, ,)
+	  (CODE <font>)
+	  (NP-SBJ (NPR Gnatimozin)
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (N Nephew)
+			  (PP (P to)
+			      (CODE <font>)
+			      (NP (NPR Motezuma)))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (BED was)
+	  (VAN elected)
+	  (PP (P in)
+	      (NP (PRO$ his) (N Stead)))
+	  (. ,))
+  (ID COOKE-1712,1,427.143))
+
+/~*
+In the mean while, three Spanish Ships, design'd for the Conquest of the
+Province of Panuco, being drove by Stress of Weather to Vera Cruz, all the Men
+they had aboard, being 150, took Service under Cortes, with about 20 Horses,
+and a considerable Quantity of Provisions and Ammunition.
+(COOKE-1712,1,428.150)
+*~/
+/*
+115 BAG:  115 BAG, 116 being, 89 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (ADJ mean) (N while)))
+	  (, ,)
+	  (NP-SBJ (NUM three)
+		  (CODE <font>)
+		  (ADJ Spanish)
+		  (CODE <$$font>)
+		  (NS Ships)
+		  (, ,)
+		  (RRC (VAN design'd)
+		       (PP (P for)
+			   (NP (D the)
+			       (N Conquest)
+			       (PP (P of)
+				   (NP (D the)
+				       (N Province)
+				       (PP (P of)
+					   (CODE <font>)
+					   (NP (NPR Panuco)))))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (VAN drove)
+		  (PP (P by)
+		      (NP (N Stress)
+			  (PP (P of)
+			      (NP (N Weather)))))
+		  (PP (P to)
+		      (CODE <font>)
+		      (NP (NPR Vera) (NPR Cruz))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (Q all)
+			      (D the)
+			      (NS Men)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO they))
+					      (HVD had)))
+			      (PP (P+N aboard)))
+		      (, ,)
+		      (BAG being)
+		      (NP-OB1 (NUM 150)))
+	  (, ,)
+	  (VBD took)
+	  (NP-OB1 (N Service))
+	  (PP (P under)
+	      (CODE <font>)
+	      (NP (NPR Cortes)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P with)
+	      (NP (NP (NUMP (ADV about) (NUM 20))
+		      (NS Horses))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D a)
+			     (ADJ considerable)
+			     (N Quantity)
+			     (PP (P of)
+				 (NP (NS Provisions) (CONJ and) (N Ammunition)))))))
+	  (. .))
+  (ID COOKE-1712,1,428.150))
+
+/~*
+Then the Army being review'd, there were found 540 Spanish Foot, 40 Horse, and
+nine Pieces of Cannon;
+(COOKE-1712,1,428.152)
+*~/
+/*
+11 BAG:  11 BAG, 12 being, 5 IP-PPL-ABS
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (IP-PPL-ABS (NP-SBJ (D the) (N Army))
+		      (BAG being)
+		      (VAN review'd))
+	  (, ,)
+	  (NP-SBJ-1 (EX there))
+	  (BED were)
+	  (VAN found)
+	  (NP-1 (NP (NUM 540) (CODE <font>) (ADJ Spanish) (CODE <$$font>) (N Foot))
+		(, ,)
+		(CONJP (NP (NUM 40) (N Horse)))
+		(, ,)
+		(CONJP (CONJ and)
+		       (NP (NUM nine)
+			   (NS Pieces)
+			   (PP (P of)
+			       (NP (N Cannon))))))
+	  (. ;))
+  (ID COOKE-1712,1,428.152))
+
+/~*
+the Tlascalans that were to march with them, being 10000, and reckoning all
+the other Confederates, they amounted to 60000; which afterwards continually
+increasing by the Accession of others, came at last to make up 200000.
+(COOKE-1712,1,429.153)
+*~/
+/*
+36 BAG:  36 BAG, 37 being, 3 IP-PPL-ABS
+36 BAG:  36 BAG, 37 being, 2 IP-PPL-ABS
+47 VAG:  47 VAG, 48 reckoning, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (IP-PPL-ABS (NP-SBJ (D the)
+					  (CODE <font>)
+					  (NPRS Tlascalans)
+					  (CODE <$$font>)
+					  (CP-REL (WNP-1 0)
+						  (C that)
+						  (IP-SUB (NP-SBJ *T*-1)
+							  (BED were)
+							  (IP-INF (TO to)
+								  (VB march)
+								  (PP (P with)
+								      (NP (PRO them)))))))
+				  (, ,)
+				  (BAG being)
+				  (NP-OB1 (NUM 10000)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (VAG reckoning)
+				     (NP-OB1 (Q all) (D the) (OTHER other) (NS Confederates)))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD amounted)
+	  (PP (P to)
+	      (NP (NUM 60000)
+		  (, ;)
+		  (CP-REL (WNP-2 (WPRO which))
+			  (CODE <P_1,429>)
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (ADVP-TMP (ADV+WARD afterwards))
+				  (IP-PPL (ADVP (ADV continually))
+					  (VAG increasing)
+					  (PP (P by)
+					      (NP (D the)
+						  (N Accession)
+						  (PP (P of)
+						      (NP (OTHERS others))))))
+				  (, ,)
+				  (VBD came)
+				  (PP (P at)
+				      (ADVP (ADV last)))
+				  (IP-INF (TO to)
+					  (VB make)
+					  (RP up)
+					  (NP-OB1 (NUM 200000)))))))
+	  (. .))
+  (ID COOKE-1712,1,429.153))
+
+/~*
+and possess'd himself of the City of Tezcuco, the King of it, who thought to
+have trapp'd him in it, flying, all the great Men rejoicing in their
+Deliverance from his Tyranny, and Cortes placing the rightful Heir on the
+Throne, who was presently baptiz'd.
+(COOKE-1712,1,429.155)
+*~/
+/*
+75 VAG:  75 VAG, 76 flying, 31 IP-PPL-ABS
+90 VAG:  90 VAG, 91 rejoicing, 31 IP-PPL-ABS
+121 VAG:  121 VAG, 122 placing, 31 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD possess'd)
+	  (NP-RFL (PRO+N himself))
+	  (PP (P of)
+	      (NP (D the)
+		  (N City)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Tezcuco)))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the)
+				      (N King)
+				      (PP (P of)
+					  (NP (PRO it)))
+				      (, ,)
+				      (CP-REL (WNP-1 (WPRO who))
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (VBD thought)
+						      (IP-INF (TO to)
+							      (HV have)
+							      (VBN trapp'd)
+							      (NP-OB1 (PRO him))
+							      (PP (P in)
+								  (NP (PRO it)))))))
+			      (, ,)
+			      (VAG flying))
+		      (, ,)
+		      (CONJP (IP-PPL (NP-SBJ (Q all) (D the) (ADJ great) (NS Men))
+				     (VAG rejoicing)
+				     (PP (P in)
+					 (NP (PRO$ their)
+					     (N Deliverance)
+					     (PP (P from)
+						 (NP (PRO$ his) (N Tyranny)))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (CODE <font>)
+			     (IP-PPL (NP-SBJ (NPR Cortes))
+				     (CODE <$$font>)
+				     (VAG placing)
+				     (NP-OB1 (D the)
+					     (ADJ rightful)
+					     (N Heir)
+					     (CP-REL *ICH*-2))
+				     (PP (P on)
+					 (NP (D the) (N Throne)))
+				     (, ,)
+				     (CP-REL-2 (WNP-3 (WPRO who))
+					       (C 0)
+					       (IP-SUB (NP-SBJ *T*-3)
+						       (BED was)
+						       (ADVP-TMP (ADV presently))
+						       (VAN baptiz'd))))))
+	  (. .))
+  (ID COOKE-1712,1,429.155))
+
+/~*
+the City of Mexico was invested, the Army being divided into three Parts, to
+secure the three Avenues, or Causeways leading to it over the Lake, and the
+Aqueducts which supply'd it with Water, cut off.
+(COOKE-1712,1,429.162)
+*~/
+/*
+30 BAG:  30 BAG, 31 being, 24 IP-PPL-ABS
+65 VAG:  65 VAG, 66 leading, 24 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D the)
+			    (N City)
+			    (PP (P of)
+				(CODE <font>)
+				(NP (NPR Mexico))))
+		    (CODE <$$font>)
+		    (BED was)
+		    (VAN invested)
+		    (, ,)
+		    (IP-PPL-ABS (NP-SBJ (D the) (N Army))
+				(BAG being)
+				(VAN divided)
+				(PP (P into)
+				    (NP (NUM three) (NS Parts)))
+				(, ,)
+				(IP-INF-PRP (TO to)
+					    (VB secure)
+					    (NP-OB1 (D the)
+						    (NUM three)
+						    (NS Avenues)
+						    (, ,)
+						    (CONJP (CONJ or)
+							   (NX (NS Causeways)))
+						    (RRC (VAG leading)
+							 (PP (P to)
+							     (NP (PRO it))))
+						    (PP (P over)
+							(NP (D the) (N Lake)))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-SBJ (D the)
+				   (NS Aqueducts)
+				   (CP-REL (WNP-2 (WPRO which))
+					   (C 0)
+					   (IP-SUB (NP-SBJ *T*-2)
+						   (VBD supply'd)
+						   (NP-OB1 (PRO it))
+						   (PP (P with)
+						       (NP (N Water))))))
+			   (, ,)
+			   (VAN cut)
+			   (RP off)))
+	  (. .))
+  (ID COOKE-1712,1,429.162))
+
+/~*
+the Defences forc'd, the Besiegers took their Posts within the City, the
+Mexican King, Guatimozin, retiring to the remotest Quarter.
+(COOKE-1712,1,430.173)
+*~/
+/*
+57 VAG:  57 VAG, 58 retiring, 34 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D the) (NS Defences))
+		      (VAN forc'd))
+	  (, ,)
+	  (NP-SBJ (D the) (NS Besiegers))
+	  (VBD took)
+	  (NP-OB1 (PRO$ their) (NS Posts))
+	  (PP (P within)
+	      (NP (D the) (N City)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (CODE <font>)
+			      (ADJ Mexican)
+			      (CODE <$$font>)
+			      (N King)
+			      (, ,)
+			      (CODE <font>)
+			      (NP-PRN (NPR Guatimozin)))
+		      (CODE <$$font>)
+		      (, ,)
+		      (VAG retiring)
+		      (PP (P to)
+			  (NP (D the) (ADJS remotest) (N Quarter))))
+	  (. .))
+  (ID COOKE-1712,1,430.173))
+
+/~*
+Thus was that Imperial City taken, on the 13th of August 1521, and that Empire
+annex'd to the Crown of Castile, as may be seen more at large in the History
+of the Conquest of Mexico, written in Spanish by Anthony de Solis, from whom
+this Account is taken, he being the Author of most Esteem that has treated of
+it.
+(COOKE-1712,1,430.180)
+*~/
+/*
+181 BAG:  181 BAG, 182 being, 177 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (ADVP (ADV Thus))
+		    (BED was)
+		    (NP-SBJ (D that) (ADJ Imperial) (N City))
+		    (VAN taken)
+		    (, ,)
+		    (PP (P on)
+			(NP (D the)
+			    (ADJ 13th)
+			    (PP (P of)
+				(CODE <font>)
+				(NP (NPR August) (CODE <$$font>) (NUM 1521))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-SBJ (D that) (N Empire))
+			   (VAN annex'd)
+			   (PP (P to)
+			       (NP (D the)
+				   (N Crown)
+				   (PP (P of)
+				       (CODE <font>)
+				       (NP (NPR Castile)))))
+			   (CODE <$$font>)
+			   (, ,)
+			   (PP (P as)
+			       (CP-ADV (WNP-2 0)
+				       (C 0)
+				       (IP-SUB (NP-SBJ *T*-2)
+					       (MD may)
+					       (BE be)
+					       (VAN seen)
+					       (PP (QR more)
+						   (P at)
+						   (ADJP (ADJ large)))
+					       (PP (P in)
+						   (NP (D the)
+						       (N History)
+						       (PP (P of)
+							   (NP (D the)
+							       (N Conquest)
+							       (PP (P of)
+								   (CODE <font>)
+								   (NP (NPR Mexico)))))
+						       (CODE <$$font>)
+						       (, ,)
+						       (RRC (VAN written)
+							    (PP (P in)
+								(CODE <font>)
+								(NP (NPR Spanish))))
+						       (CODE <$$font>)
+						       (PP (P by)
+							   (CODE <font>)
+							   (NP (NPR Anthony)
+							       (NPR de)
+							       (NPR Solis)
+							       (CODE <$$font>)
+							       (, ,)
+							       (CP-REL (WPP-3 (P from)
+									      (WNP (WPRO whom)))
+								       (C 0)
+								       (IP-SUB (PP *T*-3)
+									       (NP-SBJ (D this) (N Account))
+									       (BEP is)
+									       (VAN taken)
+									       (, ,)
+									       (IP-PPL-ABS (NP-SBJ (PRO he))
+											   (BAG being)
+											   (NP-OB1 (D the)
+												   (N Author)
+												   (PP (P of)
+												       (NP (QS most) (N Esteem)))
+												   (CP-REL (WNP-4 0)
+													   (C that)
+													   (IP-SUB (NP-SBJ *T*-4)
+														   (HVP has)
+														   (VBN treated)
+														   (PP (P of)
+														       (NP (PRO it))))))))))))))))))
+	  (. .))
+  (ID COOKE-1712,1,430.180))
+
+/~*
+After the Reduction of this Capital, no considerable Opposition was made by
+any of the Provinces subject to it, most of them being naturally averse to the
+tyrannical Government of those Princes;
+(COOKE-1712,1,430.181)
+*~/
+/*
+66 BAG:  66 BAG, 67 being, 56 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P After)
+	      (NP (D the)
+		  (N Reduction)
+		  (PP (P of)
+		      (NP (D this) (N Capital)))))
+	  (, ,)
+	  (NP-SBJ (Q no) (ADJ considerable) (N Opposition))
+	  (BED was)
+	  (VAN made)
+	  (PP (P by)
+	      (NP (Q any)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS Provinces)
+			  (ADJP (ADJ subject)
+				(PP (P to)
+				    (NP (PRO it))))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (QS most)
+			      (PP (P of)
+				  (NP (PRO them))))
+		      (BAG being)
+		      (ADVP (ADV naturally))
+		      (ADJP (ADJ averse)
+			    (PP (P to)
+				(NP (D the)
+				    (ADJ tyrannical)
+				    (N Government)
+				    (PP (P of)
+					(NP (D those) (NS Princes)))))))
+	  (. ;))
+  (ID COOKE-1712,1,430.181))
+
+/~*
+Another Time they presented Feathers and Tabacco, the Men only coming forward,
+whilst the Women standing on a Hill, tore their Cheeks, which was suppos'd to
+be some Sacrifice;
+(COOKE-1712,1,433.208)
+*~/
+/*
+31 VAG:  31 VAG, 32 coming, 23 IP-PPL-ABS
+51 VAG:  51 VAG, 52 standing, 23 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-TMP (D+OTHER Another) (N Time))
+	  (NP-SBJ (PRO they))
+	  (VBD presented)
+	  (NP-OB1 (NS Feathers) (CONJ and) (N Tabacco))
+	  (CODE {COM:sic})
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NS Men))
+		      (FP only)
+		      (VAG coming)
+		      (ADVP-DIR (ADV+WARD forward))
+		      (, ,)
+		      (PP (P whilst)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (D the)
+						  (NS Women)
+						  (RRC (VAG standing)
+						       (PP (P on)
+							   (NP (D a) (N Hill)))))
+					  (, ,)
+					  (VBD tore)
+					  (NP-OB1 (PRO$ their) (NS Cheeks))
+					  (, ,)
+					  (CP-CAR (WNP-1 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-1)
+							  (BED was)
+							  (VAN suppos'd)
+							  (IP-INF (NP-SBJ *T*-1)
+								  (TO to)
+								  (BE be)
+								  (NP-OB1 (Q some) (N Sacrifice)))))))))
+	  (. ;))
+  (ID COOKE-1712,1,433.208))
+
+/~*
+There was found in her the Value of 120000 Pieces of Eight in Gold, her Lading
+being most Silk, with some Musk, and other Commodities of Value.
+(COOKE-1712,1,436.261)
+*~/
+/*
+48 BAG:  48 BAG, 49 being, 42 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX There))
+	  (BED was)
+	  (VAN found)
+	  (PP (P in)
+	      (NP (PRO her)))
+	  (NP-1 (D the)
+		(N Value)
+		(PP (P of)
+		    (NP (NUM 120000)
+			(NS Pieces)
+			(PP (P of)
+			    (NP (NUM Eight)))
+			(PP (P in)
+			    (NP (N Gold))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ her) (N Lading))
+		      (BAG being)
+		      (NP-OB1 (QS most) (N Silk)))
+	  (, ,)
+	  (PP (P with)
+	      (NP (Q some)
+		  (N Musk)
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NX (OTHER other)
+			     (NS Commodities)
+			     (PP (P of)
+				 (CODE <P_1,436>)
+				 (NP (N Value)))))))
+	  (. .))
+  (ID COOKE-1712,1,436.261))
+
+/~*
+The only Dutch-Man I meet with in these Parts, was George Spilbergen, who
+having pass'd the Magellan Streights, in the Year 1615, and sail'd up the
+Coast of Chile and Peru, as was there said, cross'd the Equinoctial and, on
+the 20th of September, had sight of the Land of New Spain, in the Latitude of
+13 Deg. 30 Min. then stood off to Sea, the Weather proving foul, and, October
+the 1st, came in Sight of Land again; but the Sea still running high, beat off
+and on 'till the 11th, when they enter'd the Port of Acapulco.
+(COOKE-1712,1,436.263)
+*~/
+/*
+268 VAG:  268 VAG, 269 proving, 262 IP-PPL-ABS
+331 VAG:  331 VAG, 332 running, 322 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ only)
+		  (NPR Dutch-Man)
+		  (CODE {COM:Dutch_italicized_in_original})
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (VBP meet)
+				  (CODE {COM:sic})
+				  (PP (P with)
+				      (NP *T*-1))))
+		  (PP (P in)
+		      (CODE <font>)
+		      (NP (D these) (CODE <$$font>) (NS Parts))))
+	  (, ,)
+	  (BED was)
+	  (CODE <font>)
+	  (NP-OB1 (NPR George)
+		  (NPR Spilbergen)
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WNP-2 (WPRO who))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+					  (IP-PPL (IP-PPL-3 (HAG having)
+							    (VBN pass'd)
+							    (NP-OB1 (D the) (CODE <font>) (NPR Magellan) (NS Streights))
+							    (CODE {COM:here_and_passim_sic})
+							    (CODE <$$font>)
+							    (, ,)
+							    (PP (P in)
+								(NP (D the) (N Year) (NUM 1615))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-PPL=3 (VBN sail'd)
+								   (PP (P up)
+								       (NP (D the)
+									   (N Coast)
+									   (PP (P of)
+									       (CODE <font>)
+									       (NP (NPR Chile) (CODE <$$font>) (CONJ and) (CODE <font>) (NPR Peru)))))
+								   (CODE <$$font>)
+								   (, ,)
+								   (PP (P as)
+								       (CP-ADV (WNP-4 0)
+									       (C 0)
+									       (IP-SUB (NP-SBJ *T*-4)
+										       (BED was)
+										       (ADVP-LOC (ADV there))
+										       (VAN said)))))))
+					  (, ,)
+					  (VBD cross'd)
+					  (NP-OB1 (D the) (CODE <font>) (N Equinoctial)))
+				  (CODE <$$font>)
+				  (CONJP (CONJ and)
+					 (, ,)
+					 (IP-SUB (IP-SUB (NP-SBJ *T*-2)
+							 (PP (P on)
+							     (NP (D the)
+								 (ADJ 20th)
+								 (PP (P of)
+								     (CODE <font>)
+								     (NP (NPR September)))))
+							 (CODE <$$font>)
+							 (, ,)
+							 (HVD had)
+							 (NP-OB1 (N sight)
+								 (PP (P of)
+								     (NP (D the)
+									 (N Land)
+									 (PP (P of)
+									     (CODE <font>)
+									     (NP (ADJ New) (NPR Spain))))))
+							 (CODE <$$font>)
+							 (, ,)
+							 (PP (P in)
+							     (NP (D the)
+								 (N Latitude)
+								 (PP (P of)
+								     (NP (NP (NUM 13) (NS Deg.))
+									 (CONJP (NP (NUM 30) (NS Min.))))))))
+						 (CONJP (IP-SUB (NP-SBJ *T*-2)
+								(ADVP-TMP (ADV then))
+								(VBD stood)
+								(PP (RP off)
+								    (P to)
+								    (NP (N Sea)))
+								(, ,)
+								(IP-PPL-ABS (NP-SBJ (D the) (N Weather))
+									    (VAG proving)
+									    (ADJP (ADJ foul)))))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (, ,)
+					 (CODE <font>)
+					 (IP-SUB (NP-SBJ *T*-2)
+						 (NP-TMP (NPR October)
+							 (CODE <$$font>)
+							 (NP-PRN (D the) (ADJ 1st)))
+						 (, ,)
+						 (VBD came)
+						 (PP (P in)
+						     (NP (N Sight)
+							 (PP (P of)
+							     (NP (N Land)))))
+						 (ADVP (ADV again))))
+				  (, ;)
+				  (CONJP (CONJ but)
+					 (IP-SUB (NP-SBJ *T*-2)
+						 (IP-PPL-ABS (NP-SBJ (D the) (N Sea))
+							     (ADVP-TMP (ADV still))
+							     (VAG running)
+							     (ADJP-SPR (ADJ high)))
+						 (, ,)
+						 (VBD beat)
+						 (RP (RP off) (CONJ and) (RP on))
+						 (PP (P 'till)
+						     (NP (D the)
+							 (ADJ 11th)
+							 (, ,)
+							 (CP-REL (WADVP-5 (WADV when))
+								 (C 0)
+								 (IP-SUB (ADVP-TMP *T*-5)
+									 (NP-SBJ (PRO they))
+									 (VBD enter'd)
+									 (NP-OB1 (D the)
+										 (N Port)
+										 (PP (P of)
+										     (CODE <font>)
+										     (NP (NPR Acapulco)))))))))))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID COOKE-1712,1,436.263))
+
+/~*
+and took a Vessel bound for the Pearl-Fishery, with 11 Men in her, the rest
+having made their Escape.
+(COOKE-1712,1,436.267)
+*~/
+/*
+49 HAG:  49 HAG, 50 having, 43 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD took)
+	  (NP-OB1 (D a)
+		  (N Vessel)
+		  (ADJP (VAN bound)
+			(PP (P for)
+			    (NP (D the) (N+N Pearl-Fishery))))
+		  (, ,)
+		  (PP (P with)
+		      (IP-SMC (NP-SBJ (NUM 11) (NS Men))
+			      (PP (P in)
+				  (NP (PRO her)))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (D the) (N rest))
+					  (HAG having)
+					  (VBN made)
+					  (NP-OB1 (PRO$ their) (N Escape))))))
+	  (. .))
+  (ID COOKE-1712,1,436.267))
+
+/~*
+The Barks they had taken, being mann'd and sent out, return'd with a Ship, and
+a Boat laden with considerable Goods, and 20000 Pieces of Eight; the Parties
+by Land, at the same Time, ranging about, and taking many Prisoners, and much
+Wealth about them.
+(COOKE-1712,1,437.288)
+*~/
+/*
+118 VAG:  118 VAG, 119 ranging, 91 IP-PPL-ABS
+130 VAG:  130 VAG, 131 taking, 91 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (NS Barks)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO they))
+				  (HVD had)
+				  (VBN taken)))
+		  (, ,)
+		  (RRC (RRC-2 (BAG being) (VAN mann'd))
+		       (CONJP (CONJ and)
+			      (RRC=2 (VAN sent) (RP out)))))
+	  (, ,)
+	  (VBD return'd)
+	  (PP (P with)
+	      (NP (NP (D a) (N Ship))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D a)
+			     (N Boat)
+			     (RRC (VAN laden)
+				  (PP (P with)
+				      (NP (NP (ADJ considerable) (NS Goods))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (NUM 20000)
+						     (NS Pieces)
+						     (PP (P of)
+							 (NP (NUM Eight))))))))))))
+	  (, ;)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the)
+				      (NS Parties)
+				      (PP (P by)
+					  (NP (N Land))))
+			      (, ,)
+			      (PP (P at)
+				  (NP (D the) (ADJ same) (N Time)))
+			      (, ,)
+			      (VAG ranging)
+			      (RP about))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG taking)
+				     (NP-OB1 (NP (Q many) (NS Prisoners))
+					     (, ,)
+					     (CONJP (CONJ and)
+						    (NP (Q much)
+							(N Wealth)
+							(PP (P about)
+							    (NP (PRO them)))))))))
+	  (. .))
+  (ID COOKE-1712,1,437.288))
+
+/~*
+for a beautiful Woman of Quality being brought to him, he first try'd all
+obliging Means to debauch her;
+(COOKE-1712,1,438.293)
+*~/
+/*
+18 BAG:  18 BAG, 19 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ for)
+	  (IP-PPL-ABS (NP-SBJ (D a)
+			      (ADJ beautiful)
+			      (N Woman)
+			      (PP (P of)
+				  (NP (N Quality))))
+		      (BAG being)
+		      (VAN brought)
+		      (PP (P to)
+			  (NP (PRO him))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (ADVP-TMP (ADV first))
+	  (VBD try'd)
+	  (NP-OB1 (Q all) (VAG obliging) (N Means))
+	  (IP-INF-PRP (TO to)
+		      (VB debauch)
+		      (NP-OB1 (PRO her)))
+	  (. ;))
+  (ID COOKE-1712,1,438.293))
+
+/~*
+the 6th they stood in for the Gulf of Nicoya, the Land to the Eastward being
+plain and even, with a great Road along it, to be seen out at Sea.
+(COOKE-1712,1,439.307)
+*~/
+/*
+52 BAG:  52 BAG, 53 being, 34 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-TMP (D the) (ADJ 6th))
+	  (NP-SBJ (PRO they))
+	  (VBD stood)
+	  (PP (RP in)
+	      (P for)
+	      (NP (D the)
+		  (N Gulf)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Nicoya)))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N Land)
+			      (PP (P to)
+				  (NP (D the) (CODE <font>) (N+WARD Eastward))))
+		      (CODE <$$font>)
+		      (BAG being)
+		      (ADJP (ADJ plain) (CONJ and) (ADJ even))
+		      (, ,)
+		      (PP (P with)
+			  (IP-SMC (NP-SBJ (D a)
+					  (ADJ great)
+					  (N Road)
+					  (CP-EOP *ICH*-1))
+				  (PP (P along)
+				      (NP (PRO it)))
+				  (, ,)
+				  (CP-EOP-1 (WNP-2 0)
+					    (IP-INF (NP-SBJ *T*-2)
+						    (TO to)
+						    (BE be)
+						    (VAN seen)
+						    (PP (RP out)
+							(P at)
+							(NP (N Sea))))))))
+	  (. .))
+  (ID COOKE-1712,1,439.307))
+
+/~*
+and the 20th of July they sail'd from this Bay, designing for Realejo, which
+is the most remarkable Land on that Coast, there being a high peeked burning
+Mountain, call'd Volcan Viejo.
+(COOKE-1712,1,441.343)
+*~/
+/*
+84 BAG:  84 BAG, 85 being, 80 IP-PPL-ABS
+94 VAG:  94 VAG, 95 burning, 80 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-TMP (D the)
+		  (ADJ 20th)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR July))))
+	  (CODE <$$font>)
+	  (NP-SBJ (PRO they))
+	  (VBD sail'd)
+	  (PP (P from)
+	      (NP (D this) (N Bay)))
+	  (, ,)
+	  (IP-PPL (VAG designing)
+		  (PP (P for)
+		      (CODE <font>)
+		      (NP (NPR Realejo)
+			  (CODE <$$font>)
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP is)
+					  (NP-OB1 (D the)
+						  (ADJP (QS most) (ADJ remarkable))
+						  (N Land)
+						  (PP (P on)
+						      (NP (D that) (N Coast))))
+					  (, ,)
+					  (IP-PPL-ABS (NP-SBJ-2 (EX there))
+						      (BAG being)
+						      (NP-2 (D a)
+							    (ADJP (ADJ high) (ADJ peeked) (VAG burning))
+							    (N Mountain)
+							    (, ,)
+							    (RRC (VAN call'd)
+								 (CODE <font>)
+								 (IP-SMC (NP-SBJ *)
+									 (NP-OB1 (NPR Volcan) (NPR Viejo)))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID COOKE-1712,1,441.343))
+
+/~*
+there are three Churches, and a Cathedral, the Wealth of the Place consisting
+in Cattel and Sugar.
+(COOKE-1712,1,442.361)
+*~/
+/*
+39 VAG:  39 VAG, 40 consisting, 25 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX there))
+	  (BEP are)
+	  (NP-1 (NP (NUM three) (NS Churches))
+		(, ,)
+		(CONJP (CONJ and)
+		       (NP (D a) (N Cathedral))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N Wealth)
+			      (PP (P of)
+				  (NP (D the) (N Place))))
+		      (VAG consisting)
+		      (PP (P in)
+			  (NP (NS Cattel) (CONJ and) (N Sugar))))
+	  (. .))
+  (ID COOKE-1712,1,442.361))
+
+/~*
+This done, the Gang parted Company, some sailing back to the Southward, and
+others resolving to proceed to the Westward, among which last was Capt.
+Dampier.
+(COOKE-1712,1,442.365)
+*~/
+/*
+27 VAG:  27 VAG, 28 sailing, 22 IP-PPL-ABS
+54 VAG:  54 VAG, 55 resolving, 22 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-ABS (NP-SBJ (D This))
+		  (DAN done))
+	  (, ,)
+	  (NP-SBJ (D the) (N Gang))
+	  (VBD parted)
+	  (NP-OB1 (N Company))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (Q some))
+			      (VAG sailing)
+			      (PP (ADV back)
+				  (P to)
+				  (NP (D the) (CODE <font>) (N+WARD Southward))))
+		      (CODE <$$font>)
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (OTHERS others)
+					     (CP-REL *ICH*-1))
+				     (VAG resolving)
+				     (IP-INF (TO to)
+					     (VB proceed)
+					     (PP (P to)
+						 (NP (D the) (CODE <font>) (N+WARD Westward))))
+				     (CODE <$$font>)
+				     (, ,)
+				     (CP-REL-1 (WPP-2 (P among)
+						      (WNP (WD which) (ADJ last)))
+					       (C 0)
+					       (IP-SUB (PP *T*-2)
+						       (BED was)
+						       (NP-SBJ (NPR Capt.) (CODE <font>) (NPR Dampier)))))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID COOKE-1712,1,442.365))
+
+/~*
+and some Shot being made from the Shore, rowed out again with all Speed.
+(COOKE-1712,1,443.381)
+*~/
+/*
+12 BAG:  12 BAG, 13 being, 6 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (IP-PPL-ABS (NP-SBJ (Q some) (N Shot))
+		      (BAG being)
+		      (VAN made)
+		      (PP (P from)
+			  (NP (D the) (N Shore))))
+	  (, ,)
+	  (VBD rowed)
+	  (RP out)
+	  (ADVP (ADV again))
+	  (PP (P with)
+	      (NP (Q all) (N Speed)))
+	  (. .))
+  (ID COOKE-1712,1,443.381))
+
+/~*
+but before they came thither, some being for staying longer, and others for
+returning Home, they parted,
+(COOKE-1712,1,445.424)
+*~/
+/*
+26 BAG:  26 BAG, 27 being, 21 IP-PPL-ABS
+32 VAG:  32 VAG, 33 staying, 21 IP-PPL-ABS
+50 VAG:  50 VAG, 51 returning, 21 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (VBD came)
+			      (ADVP-DIR (ADV thither)))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL-1 (NP-SBJ (Q some))
+				(BAG being)
+				(PP (P for)
+				    (IP-PPL (VAG staying)
+					    (NP-MSR (ADJR longer)))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=1 (NP-SBJ (OTHERS others))
+				       (PP (P for)
+					   (IP-PPL (VAG returning)
+						   (NP-OB1 (N Home)))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD parted)
+	  (. ,))
+  (ID COOKE-1712,1,445.424))
+
+/~*
+Provisions being scarce, the Allowance was shorten'd to a Pound and a half of
+Meal or Bread for five Men.
+(COOKE-1712,1,446.439)
+*~/
+/*
+6 BAG:  6 BAG, 7 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (NS Provisions))
+		      (BAG being)
+		      (ADJP (ADJ scarce)))
+	  (, ,)
+	  (NP-SBJ (D the) (N Allowance))
+	  (BED was)
+	  (VAN shorten'd)
+	  (PP (P to)
+	      (NP (NP (D a) (N Pound))
+		  (CONJP (CONJ and)
+			 (NP (D a) (NUM half)))
+		  (PP (P of)
+		      (NP (N Meal) (CONJ or) (N Bread)))
+		  (PP (P for)
+		      (NP (NUM five) (NS Men)))))
+	  (. .))
+  (ID COOKE-1712,1,446.439))
+
+/~*
+Getting into the Trade-Winds, our Course was afterwards uniform, so that it
+will be needless to be particular in it, there being nothing remarkable, 'till
+Friday, March 10. 1709-10. when, at Three in the Afternoon, we made the Island
+Sarpana, bearing W.N.W. distant 12 Leagues;
+(COOKE-1712,1,446.442)
+*~/
+/*
+67 BAG:  67 BAG, 68 being, 63 IP-PPL-ABS
+147 VAG:  147 VAG, 148 bearing, 63 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL (VAG Getting)
+		  (PP (P into)
+		      (NP (D the) (N+NS Trade-Winds))))
+	  (, ,)
+	  (NP-SBJ (PRO$ our) (N Course))
+	  (BED was)
+	  (ADVP-TMP (ADV+WARD afterwards))
+	  (ADJP (ADJ uniform))
+	  (, ,)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (MD will)
+			      (BE be)
+			      (ADJP (ADJ needless))
+			      (IP-INF-1 (TO to)
+					(BE be)
+					(ADJP (ADJ particular)
+					      (PP (P in)
+						  (NP (PRO it))))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ-2 (EX there))
+		      (BAG being)
+		      (NP-2 (Q+N nothing)
+			    (ADJP (ADJ remarkable)))
+		      (, ,)
+		      (PP (P 'till)
+			  (CODE <font>)
+			  (NP (NPR Friday)
+			      (, ,)
+			      (NP-PRN (NPR March) (CODE <$$font>) (NUM 10) (, .) (NUM+NUM 1709-10))
+			      (, .)
+			      (CP-REL (WADVP-3 (WADV when))
+				      (, ,)
+				      (C 0)
+				      (IP-SUB (ADVP-TMP *T*-3)
+					      (PP (P at)
+						  (NP (NUM Three)
+						      (PP (P in)
+							  (NP (D the) (N Afternoon)))))
+					      (, ,)
+					      (NP-SBJ (PRO we))
+					      (VBD made)
+					      (NP-OB1 (D the)
+						      (N Island)
+						      (CODE <font>)
+						      (NP-PRN (NPR Sarpana)))
+					      (CODE <$$font>)
+					      (, ,)
+					      (IP-PPL (VAG bearing)
+						      (CODE <font>)
+						      (NP-DIR (N+N+N W.N.W.))
+						      (CODE <$$font>)
+						      (ADJP-LOC (ADJ distant)
+								(NP-MSR (NUM 12) (NS Leagues)))))))))
+	  (. ;))
+  (ID COOKE-1712,1,446.442))
+
+/~*
+At Six in the Evening came to an Anchor at Port Umata, of the Island Guam, the
+Houses bearing E. by N. distant about a Mile.
+(COOKE-1712,1,447.445)
+*~/
+/*
+65 VAG:  65 VAG, 66 bearing, 59 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P At)
+	      (NP (NUM Six)
+		  (PP (P in)
+		      (NP (D the) (N Evening)))))
+	  (NP-SBJ *pro*)
+	  (VBD came)
+	  (PP (P to)
+	      (NP (D an) (N Anchor)))
+	  (PP (P at)
+	      (NP (NPR Port)
+		  (CODE <font>)
+		  (NPR Umata)
+		  (CODE <$$font>)
+		  (, ,)
+		  (PP (P of)
+		      (NP (D the)
+			  (N Island)
+			  (CODE <font>)
+			  (NP-PRN (NPR Guam))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NS Houses))
+		      (VAG bearing)
+		      (CODE <font>)
+		      (NP-DIR (N E.)
+			      (CODE <$$font>)
+			      (PP (P by)
+				  (CODE <font>)
+				  (NP (N N.))))
+		      (CODE <$$font>)
+		      (ADJP-LOC (ADJ distant)
+				(NP-MSR (ADV about) (D a) (N Mile))))
+	  (. .))
+  (ID COOKE-1712,1,447.445))
+
+/~*
+The necessary Description of the several Countries we sail'd along in the
+South Sea, and of the several Ways into it, with the small Abridgments of what
+has been done by other Adventurers in these Parts, having taken up so much of
+this Volume, it has been thought most convenient to shorten our Run Home, that
+the reader may not look upon this as an imperfect Relation, if we should break
+off abruptly, after taking the Manila Ship,
+(COOKE-1712,1,447.449)
+*~/
+/*
+121 HAG:  121 HAG, 122 having, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The)
+			      (ADJ necessary)
+			      (N Description)
+			      (PP (PP (P of)
+				      (NP (D the)
+					  (Q several)
+					  (NS Countries)
+					  (CP-REL (WNP-1 0)
+						  (C 0)
+						  (IP-SUB (NP-SBJ (PRO we))
+							  (VBD sail'd)
+							  (PP (P along)
+							      (NP *T*-1))
+							  (PP (P in)
+							      (NP (D the) (CODE <font>) (NPR South) (NPR Sea)))))))
+				  (CODE <$$font>)
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (PP (P of)
+					     (NP (D the)
+						 (Q several)
+						 (NS Ways)
+						 (PP (P into)
+						     (NP (PRO it)))))))
+			      (, ,)
+			      (PP (P with)
+				  (NP (D the)
+				      (ADJ small)
+				      (NS Abridgments)
+				      (PP (P of)
+					  (NP (CP-FRL (WNP-2 (WPRO what))
+						      (C 0)
+						      (IP-SUB (NP-SBJ *T*-2)
+							      (HVP has)
+							      (BEN been)
+							      (DAN done)
+							      (PP (P by)
+								  (NP (OTHER other) (NS Adventurers)))
+							      (PP (P in)
+								  (NP (D these) (NS Parts))))))))))
+		      (, ,)
+		      (HAG having)
+		      (VBN taken)
+		      (RP up)
+		      (NP-OB1 (QP (ADVR so) (Q much))
+			      (PP (P of)
+				  (NP (D this) (N Volume)))))
+	  (, ,)
+	  (NP-SBJ-3 (PRO it))
+	  (HVP has)
+	  (BEN been)
+	  (VAN thought)
+	  (IP-SMC (NP-SBJ-4 *-3)
+		  (ADJP (QS most) (ADJ convenient))
+		  (IP-INF-4 (TO to)
+			    (VB shorten)
+			    (NP-OB1 (PRO$ our) (N Run) (N Home))))
+	  (, ,)
+	  (CP-ADV (C that)
+		  (IP-SUB (NP-SBJ (D the) (N reader))
+			  (MD may)
+			  (NEG not)
+			  (VB look)
+			  (PP (P upon)
+			      (NP (D this)))
+			  (PP (P as)
+			      (NP (D an) (ADJ imperfect) (N Relation)))
+			  (, ,)
+			  (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO we))
+					      (MD should)
+					      (VB break)
+					      (RP off)
+					      (ADVP (ADV abruptly))
+					      (, ,)
+					      (PP (P after)
+						  (IP-PPL (VAG taking)
+							  (NP-OB1 (D the) (CODE <font>) (NPR Manila) (CODE <$$font>) (N Ship)))))))))
+	  (. ,))
+  (ID COOKE-1712,1,447.449))
+
+/~*
+but there being little Wind, and a strong Tide against us, were oblig'd to
+anchor again at Twelve.
+(COOKE-1712,1,449.484)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 6 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (IP-PPL-ABS (NP-SBJ-1 (EX there))
+		      (BAG being)
+		      (NP-1 (NP (Q little) (N Wind))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (NP (D a) (ADJ strong) (N Tide))))
+		      (PP (P against)
+			  (NP (PRO us))))
+	  (, ,)
+	  (BED were)
+	  (VAN oblig'd)
+	  (IP-INF (TO to)
+		  (VB anchor)
+		  (ADVP (ADV again)))
+	  (PP (P at)
+	      (NP (NUM Twelve)))
+	  (. .))
+  (ID COOKE-1712,1,449.484))
+
+/~*
+Wednesday was June the 21st by our Reckoning, but Thursday June the 22d by the
+Dutch Account, we having lost 18 Hours by coming round to the Westward, and
+the Dutch got six Hours going to the Eastward, which makes one whole Day, as
+is well known to be always done in sailing round the Globe.
+(COOKE-1712,1,450.497)
+*~/
+/*
+74 HAG:  74 HAG, 75 having, 70 IP-PPL-ABS-2
+74 HAG:  74 HAG, 75 having, 69 IP-PPL-ABS
+87 VAG:  87 VAG, 88 coming, 70 IP-PPL-ABS-2
+87 VAG:  87 VAG, 88 coming, 69 IP-PPL-ABS
+126 VAG:  126 VAG, 127 going, 108 IP-PPL-ABS=2
+126 VAG:  126 VAG, 127 going, 69 IP-PPL-ABS
+196 VAG:  196 VAG, 197 sailing, 69 IP-PPL-ABS
+*/
+
+( (IP-MAT (CODE <font>)
+	  (IP-MAT-1 (NP-SBJ (NPR Wednesday))
+		    (CODE <$$font>)
+		    (BED was)
+		    (CODE <font>)
+		    (NP-OB1 (NPR June)
+			    (CODE <$$font>)
+			    (NP-PRN (D the) (ADJ 21st)))
+		    (PP (P by)
+			(NP (PRO$ our) (N Reckoning))))
+	  (, ,)
+	  (CONJP (CONJ but)
+		 (CODE <font>)
+		 (IP-MAT=1 (NP-OB1 (NPR Thursday)
+				   (NP-PRN (NPR June)
+					   (CODE <$$font>)
+					   (NP-PRN (D the) (ADJ 22d))))
+			   (PP (P by)
+			       (NP (D the) (CODE <font>) (ADJ Dutch) (CODE <$$font>) (N Account)))
+			   (, ,)
+			   (IP-PPL-ABS (IP-PPL-ABS-2 (NP-SBJ (PRO we))
+						     (HAG having)
+						     (VBN lost)
+						     (NP-OB1 (NUM 18) (NS Hours))
+						     (PP (P by)
+							 (IP-PPL (VAG coming)
+								 (PP (ADV round)
+								     (P to)
+								     (NP (D the) (CODE <font>) (N+WARD Westward))))))
+				       (CODE <$$font>)
+				       (, ,)
+				       (CONJP (CONJ and)
+					      (IP-PPL-ABS=2 (NP-SBJ (D the) (CODE <font>) (ADJ Dutch))
+							    (CODE <$$font>)
+							    (VBN got)
+							    (NP-OB1 (NUM six) (NS Hours))
+							    (IP-PPL (VAG going)
+								    (PP (P to)
+									(NP (D the) (CODE <font>) (N+WARD Eastward))))))
+				       (CODE <$$font>)
+				       (, ,)
+				       (CP-CAR (WNP-3 (WPRO which))
+					       (C 0)
+					       (IP-SUB (NP-SBJ *T*-3)
+						       (VBP makes)
+						       (NP-OB1 (ONE one) (ADJ whole) (N Day))
+						       (, ,)
+						       (PP (P as)
+							   (CP-ADV (WADVP-4 0)
+								   (C 0)
+								   (IP-SUB (ADVP *T*-4)
+									   (NP-SBJ-5 *exp*)
+									   (BEP is)
+									   (ADJP (ADV well) (VAN known))
+									   (IP-INF-5 (TO to)
+										     (BE be)
+										     (ADVP-TMP (ADV always))
+										     (DAN done)
+										     (PP (P in)
+											 (IP-PPL (VAG sailing)
+												 (PP (P round)
+												     (NP (D the) (N Globe))))))))))))))
+	  (. .))
+  (ID COOKE-1712,1,450.497))
+
+/~*
+and not being able to weather the Islands, came to an Anchor, the Island Horn
+bearing S. by W. distant two Miles, some of the English Gentlemen from Batavia
+accompanying us out to Sea, to make up Accompts that were between us, and wish
+us a good Voyage.
+(COOKE-1712,1,451.517)
+*~/
+/*
+52 VAG:  52 VAG, 53 bearing, 38 IP-PPL-ABS
+110 VAG:  110 VAG, 111 accompanying, 38 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL (NEG not)
+		  (BAG being)
+		  (ADJP (ADJ able)
+			(IP-INF (TO to)
+				(VB weather)
+				(NP-OB1 (D the) (NS Islands)))))
+	  (, ,)
+	  (NP-SBJ *pro*)
+	  (VBD came)
+	  (PP (P to)
+	      (NP (D an) (N Anchor)))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the)
+				      (N Island)
+				      (CODE <font>)
+				      (NP-PRN (NPR Horn)))
+			      (CODE <$$font>)
+			      (VAG bearing)
+			      (CODE <font>)
+			      (NP-DIR (N S.)
+				      (CODE <$$font>)
+				      (PP (P by)
+					  (CODE <font>)
+					  (NP (N W.))))
+			      (CODE <$$font>)
+			      (ADJP-LOC (ADJ distant)
+					(NP-MSR (NUM two) (NS Miles))))
+		      (, ,)
+		      (CONJP (IP-PPL (NP-SBJ (Q some)
+					     (PP (P of)
+						 (NP (D the)
+						     (CODE <font>)
+						     (ADJ English)
+						     (CODE <$$font>)
+						     (ADJ+NS Gentlemen)
+						     (PP (P from)
+							 (CODE <font>)
+							 (NP (NPR Batavia))))))
+				     (CODE <$$font>)
+				     (VAG accompanying)
+				     (NP-OB1 (PRO us))
+				     (PP (RP out)
+					 (P to)
+					 (NP (N Sea)))
+				     (, ,)
+				     (IP-INF-PRP (IP-INF (TO to)
+							 (VB make)
+							 (RP up)
+							 (NP-OB1 (NS Accompts)
+								 (CP-REL (WNP-1 0)
+									 (C that)
+									 (IP-SUB (NP-SBJ *T*-1)
+										 (BED were)
+										 (PP (P between)
+										     (NP (PRO us)))))))
+						 (, ,)
+						 (CONJP (CONJ and)
+							(IP-INF (TO *)
+								(VB wish)
+								(NP-OB2 (PRO us))
+								(NP-OB1 (D a) (ADJ good) (N Voyage))))))))
+	  (. .))
+  (ID COOKE-1712,1,451.517))
+
+/~*
+but our Men could shoot no Buffaloes, as we had intended, they being very wild,
+and the Country full of Tygers, which are very dangerous.
+(COOKE-1712,1,451.525)
+*~/
+/*
+45 BAG:  45 BAG, 46 being, 40 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO$ our) (NS Men))
+	  (MD could)
+	  (VB shoot)
+	  (NP-OB1 (Q no) (NS Buffaloes))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (WADVP-1 0)
+		      (C 0)
+		      (IP-SUB (ADVP *T*-1)
+			      (NP-SBJ (PRO we))
+			      (HVD had)
+			      (VBN intended))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL-2 (NP-SBJ (PRO they))
+				(BAG being)
+				(ADJP (ADV very) (ADJ wild)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=2 (NP-SBJ (D the) (N Country))
+				       (ADJP (ADJ full)
+					     (PP (P of)
+						 (NP (NS Tygers)
+						     (, ,)
+						     (CP-REL (WNP-3 (WPRO which))
+							     (C 0)
+							     (IP-SUB (NP-SBJ *T*-3)
+								     (BEP are)
+								     (ADJP (ADV very) (ADJ dangerous))))))))))
+	  (. .))
+  (ID COOKE-1712,1,451.525))
+
+/~*
+and December 30.. 1710. anchor'd at the Cape of Good Hope, at nine in the
+Morning, in seven Fathom Water, red Sandy Ground, the North Point bearing N.
+by E. the Island in the Offing N. by W. the Western Point in the Bay N.W. the
+Peak S.W. by W. the Table-Land S.W. by S.
+(COOKE-1712,1,452.532)
+*~/
+/*
+94 VAG:  94 VAG, 95 bearing, 81 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (CODE <font>)
+	  (NP-SBJ *con*)
+	  (NP-TMP (NPR December) (CODE <$$font>) (NUM 30.) (, .) (NUM 1710.))
+	  (VBD anchor'd)
+	  (PP (P at)
+	      (NP (D the)
+		  (N Cape)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (ADJ Good) (N Hope)))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P at)
+	      (NP (NUM nine)
+		  (PP (P in)
+		      (NP (D the) (N Morning)))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (NUM seven)
+		  (N Fathom)
+		  (NP-COM (N Water))))
+	  (, ,)
+	  (NP-CAR (ADJ red) (ADJ Sandy) (N Ground))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL-1 (NP-SBJ (D the) (CODE <font>) (N North) (CODE <$$font>) (N Point))
+				(VAG bearing)
+				(CODE <font>)
+				(NP-DIR (N N.)
+					(CODE <$$font>)
+					(PP (P by)
+					    (CODE <font>)
+					    (NP (N E.)))))
+		      (CODE <$$font>)
+		      (CONJP (IP-PPL=1 (NP-SBJ (D the)
+					       (N Island)
+					       (PP (P in)
+						   (NP (D the) (N Offing))))
+				       (CODE <font>)
+				       (NP-DIR (N N.)
+					       (CODE <$$font>)
+					       (PP (P by)
+						   (CODE <font>)
+						   (NP (N W.))))))
+		      (CODE <$$font>)
+		      (CONJP (IP-PPL=1 (NP-SBJ (D the)
+					       (CODE <font>)
+					       (ADJ Western)
+					       (CODE <$$font>)
+					       (N Point)
+					       (PP (P in)
+						   (NP (D the) (N Bay))))
+				       (CODE <font>)
+				       (NP-DIR (N+N N.W.))))
+		      (CODE <$$font>)
+		      (CONJP (IP-PPL=1 (NP-SBJ (D the) (N Peak))
+				       (CODE <font>)
+				       (NP-DIR (N+N S.W.)
+					       (CODE <$$font>)
+					       (PP (P by)
+						   (CODE <font>)
+						   (NP (N W.))))))
+		      (CODE <$$font>)
+		      (CONJP (IP-PPL=1 (NP-SBJ (D the) (N+N Table-Land))
+				       (CODE <font>)
+				       (NP-DIR (N+N S.W.)
+					       (CODE <$$font>)
+					       (PP (P by)
+						   (CODE <font>)
+						   (NP (N S.)))))))
+	  (CODE <$$font>))
+  (ID COOKE-1712,1,452.532))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	56/37/545
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd
+*/
+
+/~*
+A brisk breeze, which I should have called a gale, springing up, we had to
+tack about for three or four hours, not knowing the intention of the commodore;
+(MONTEFIORE-1836,128.13)
+*~/
+/*
+38 VAG:  38 VAG, 39 springing, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D A)
+			      (ADJ brisk)
+			      (N breeze)
+			      (, ,)
+			      (CP-REL (WNP-1 (WPRO which))
+				      (C 0)
+				      (IP-SUB (NP-SBJ (PRO I))
+					      (MD should)
+					      (HV have)
+					      (VBN called)
+					      (IP-SMC (NP-SBJ *T*-1)
+						      (NP-OB1 (D a) (N gale))))))
+		      (, ,)
+		      (VAG springing)
+		      (RP up))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (HVD had)
+	  (IP-INF (TO to)
+		  (VB tack)
+		  (RP about)
+		  (PP (P for)
+		      (NP (NUMP (NUM three) (CONJ or) (NUM four))
+			  (NS hours))))
+	  (, ,)
+	  (IP-PPL (NEG not)
+		  (VAG knowing)
+		  (NP-OB1 (D the)
+			  (N intention)
+			  (PP (P of)
+			      (NP (D the) (N commodore)))))
+	  (. ;))
+  (ID MONTEFIORE-1836,128.13))
+
+/~*
+and leaped on shore, with all the delight and expectation of anxious
+travellers. Mr. Bell promising to get permission for us to land, and to send
+us some new bread for breakfast.
+(MONTEFIORE-1836,129.25)
+*~/
+/*
+48 VAG:  48 VAG, 49 promising, 42 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD leaped)
+	  (PP (P on)
+	      (NP (N shore)))
+	  (, ,)
+	  (PP (P with)
+	      (NP (Q all)
+		  (D the)
+		  (N delight)
+		  (CONJP (CONJ and)
+			 (NX (N expectation)))
+		  (PP (P of)
+		      (NP (ADJ anxious) (NS travellers)))))
+	  (, .)
+	  (IP-PPL-ABS (NP-SBJ (NPR Mr.) (NPR Bell))
+		      (VAG promising)
+		      (IP-INF (IP-INF (TO to)
+				      (VB get)
+				      (NP-OB1 (N permission)
+					      (IP-INF (FOR for)
+						      (NP-SBJ (PRO us))
+						      (TO to)
+						      (VB land))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-INF (TO to)
+					     (VB send)
+					     (NP-OB2 (PRO us))
+					     (NP-OB1 (Q some)
+						     (ADJ new)
+						     (N bread)
+						     (PP (P for)
+							 (NP (N breakfast))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,129.25))
+
+/~*
+and I, therefore, preferred taking my meals in my room, the gentlemen thinking
+fit to join the public table.
+(MONTEFIORE-1836,131.42)
+*~/
+/*
+40 VAG:  40 VAG, 41 thinking, 34 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (, ,)
+	  (PP (ADV+P therefore))
+	  (, ,)
+	  (VBD preferred)
+	  (IP-PPL-OB1 (VAG taking)
+		      (NP-OB1 (PRO$ my) (NS meals))
+		      (PP (P in)
+			  (NP (PRO$ my) (N room))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (ADJ+NS gentlemen))
+		      (VAG thinking)
+		      (IP-SMC (NP-SBJ-1 *exp*)
+			      (ADJP (ADJ fit))
+			      (IP-INF-1 (TO to)
+					(VB join)
+					(NP-OB1 (D the) (ADJ public) (N table)))))
+	  (. .))
+  (ID MONTEFIORE-1836,131.42))
+
+/~*
+As it was expected we should be five days in sailing to Cairo, a plentiful
+supply of good things for the table was ordered, wine and fruit, with spirits
+for the men not being forgotten.
+(MONTEFIORE-1836,132.59)
+*~/
+/*
+103 BAG:  103 BAG, 104 being, 89 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P As)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (BED was)
+			      (VAN expected)
+			      (CP-THT-1 (C 0)
+					(IP-SUB (NP-SBJ (PRO we))
+						(MD should)
+						(BE be)
+						(NP-MSR (NUM five) (NS days))
+						(PP (P in)
+						    (NP (N sailing)
+							(PP (P to)
+							    (NP (NPR Cairo))))))))))
+	  (, ,)
+	  (NP-SBJ (D a)
+		  (ADJ plentiful)
+		  (N supply)
+		  (PP (P of)
+		      (NP (ADJ good)
+			  (NS things)
+			  (PP (P for)
+			      (NP (D the) (N table)))
+			  (NP-PRN *ICH*-2))))
+	  (BED was)
+	  (VAN ordered)
+	  (, ,)
+	  (NP-PRN-2 (N wine) (CONJ and) (N fruit))
+	  (, ,)
+	  (PP (P with)
+	      (IP-PPL-ABS (NP-SBJ (NS spirits)
+				  (PP (P for)
+				      (NP (D the) (NS men))))
+			  (NEG not)
+			  (BAG being)
+			  (VAN forgotten)))
+	  (. .))
+  (ID MONTEFIORE-1836,132.59))
+
+/~*
+and at five o'clock, the donkeys having arrived, we set off, accompanied by
+Margarite and Paulo, the two Maltese servants, and Armstrong; Major Temple and
+Mr. Miller escorting us to the harbour, where, on entering the cangia, we took
+a regretful leave of those gentlemen, who after visiting Cairo and Thebes, are
+going overland to India.
+(MONTEFIORE-1836,135.87)
+*~/
+/*
+21 HAG:  21 HAG, 22 having, 15 IP-PPL-ABS
+90 VAG:  90 VAG, 91 escorting, 75 IP-PPL-ABS
+120 VAG:  120 VAG, 121 entering, 75 IP-PPL-ABS
+164 VAG:  164 VAG, 165 visiting, 75 IP-PPL-ABS
+177 VAG:  177 VAG, 178 going, 75 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P at)
+	      (NP (NUM five)
+		  (PP (P+N o'clock))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-OB1 (D the) (NS donkeys))
+		      (HAG having)
+		      (VBN arrived))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD set)
+	  (RP off)
+	  (, ,)
+	  (IP-PPL (VAN accompanied)
+		  (PP (P by)
+		      (NP (NP (NPR Margarite)
+			      (CONJ and)
+			      (NPR Paulo)
+			      (, ,)
+			      (CODE <paren>)
+			      (NP-PRN (D the) (NUM two) (ADJ Maltese) (NS servants)))
+			  (, ,)
+			  (CODE <$$paren>)
+			  (CONJP (CONJ and)
+				 (NP (NPR Armstrong))))))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (NP (NPR Major) (NPR Temple))
+			      (CONJP (CONJ and)
+				     (NP (NPR Mr.) (NPR Miller))))
+		      (VAG escorting)
+		      (NP-OB1 (PRO us))
+		      (PP (P to)
+			  (NP (D the)
+			      (N harbour)
+			      (, ,)
+			      (CP-REL (WADVP-1 (WADV where))
+				      (, ,)
+				      (C 0)
+				      (IP-SUB (ADVP-LOC *T*-1)
+					      (PP (P on)
+						  (IP-PPL (VAG entering)
+							  (NP-OB1 (D the) (N cangia))))
+					      (, ,)
+					      (NP-SBJ (PRO we))
+					      (VBD took)
+					      (NP-OB1 (D a) (ADJ regretful) (N leave))
+					      (PP (P of)
+						  (NP (D those)
+						      (ADJ+NS gentlemen)
+						      (, ,)
+						      (CP-REL (WNP-2 (WPRO who))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-2)
+								      (PP (P after)
+									  (IP-PPL (VAG visiting)
+										  (NP-OB1 (NPR Cairo) (CONJ and) (NPR Thebes))))
+								      (, ,)
+								      (BEP are)
+								      (VAG going)
+								      (PP (P+N overland))
+								      (PP (P to)
+									  (NP (NPR India))))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,135.87))
+
+/~*
+A numerous throng of supplicants assailed us as we embarked, applying for
+bakshiesh, or a present; to which annoyance we were exposed for some time,
+Paulo having forgotten the charcoal, a chief requisite for cooking.
+(MONTEFIORE-1836,136.89)
+*~/
+/*
+97 HAG:  97 HAG, 98 having, 93 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (ADJ numerous)
+		  (N throng)
+		  (PP (P of)
+		      (NP (NS supplicants))))
+	  (VBD assailed)
+	  (NP-OB1 (PRO us))
+	  (PP (P as)
+	      (CODE <P_136>)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBD embarked))))
+	  (, ,)
+	  (IP-PPL (VAG applying)
+		  (PP (P for)
+		      (CODE <font>)
+		      (NP (NP (N bakshiesh))
+			  (, ,)
+			  (CODE <$$font>)
+			  (CONJP (CONJ or)
+				 (NP (D a) (N present))))))
+	  (, ;)
+	  (CP-CAR (WPP-1 (P to)
+			 (WNP (WD which) (N annoyance)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO we))
+			  (BED were)
+			  (VAN exposed)
+			  (PP (P for)
+			      (NP (Q some) (N time)))
+			  (, ,)
+			  (IP-PPL-ABS (NP-SBJ (NPR Paulo))
+				      (HAG having)
+				      (VBN forgotten)
+				      (NP-OB1 (D the)
+					      (N charcoal)
+					      (, ,)
+					      (NP-PRN (D a)
+						      (ADJ chief)
+						      (N requisite)
+						      (PP (P for)
+							  (NP (N cooking))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,136.89))
+
+/~*
+Before retiring to rest, we drank to the health of our beloved friend and
+parent, Mrs. Montefiore, in a bottle of champagne, it being her natal day.
+(MONTEFIORE-1836,136.91)
+*~/
+/*
+74 BAG:  74 BAG, 75 being, 70 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P Before)
+	      (IP-PPL (VAG retiring)
+		      (PP (P to)
+			  (NP (N rest)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD drank)
+	  (PP (P to)
+	      (NP (D the)
+		  (N health)
+		  (PP (P of)
+		      (NP (PRO$ our)
+			  (ADJ beloved)
+			  (N friend)
+			  (CONJP (CONJ and)
+				 (NX (N parent)))
+			  (, ,)
+			  (NP-PRN (NPR Mrs.) (NPR Montefiore))))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (D a)
+		  (N bottle)
+		  (PP (P of)
+		      (NP (N champagne)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO it))
+		      (BAG being)
+		      (NP-OB1 (PRO$ her) (ADJ natal) (N day)))
+	  (. .))
+  (ID MONTEFIORE-1836,136.91))
+
+/~*
+and its banks presenting little to engage the attention, we were rejoiced when
+the wide river burst suddenly into sight, with its banks lined with palm-trees,
+acacias and syccamores.
+(MONTEFIORE-1836,137.106)
+*~/
+/*
+10 VAG:  10 VAG, 11 presenting, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ its) (NS banks))
+		      (VAG presenting)
+		      (NP-OB1 (Q little)
+			      (CP-EOP (WNP-1 0)
+				      (IP-INF (NP-SBJ *T*-1)
+					      (TO to)
+					      (VB engage)
+					      (NP-OB1 (D the) (N attention))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (BED were)
+	  (VAN rejoiced)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (ADJ wide) (N river))
+			      (VBD burst)
+			      (ADVP (ADV suddenly))
+			      (PP (P into)
+				  (NP (N sight)))
+			      (, ,)
+			      (PP (P with)
+				  (IP-SMC (NP-SBJ (PRO$ its) (NS banks))
+					  (VAN lined)
+					  (PP (P with)
+					      (NP (N+NS palm-trees) (, ,) (NS acacias) (CONJ and) (NS syccamores))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,137.106))
+
+/~*
+We had a proportionable supply of new-laid eggs, vegetables, and dates, the
+latter being the first I had ever tasted fresh of that fruit.
+(MONTEFIORE-1836,138.121)
+*~/
+/*
+45 BAG:  45 BAG, 46 being, 39 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (HVD had)
+	  (NP-OB1 (D a)
+		  (ADJ proportionable)
+		  (N supply)
+		  (PP (P of)
+		      (NP (NP (ADV+VAN new-laid) (NS eggs))
+			  (, ,)
+			  (CONJP (NP (NS vegetables)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (NS dates))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (ADJ latter))
+		      (BAG being)
+		      (NP-OB1 (D the)
+			      (ADJ first)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO I))
+					      (HVD had)
+					      (ADVP-TMP (ADV ever))
+					      (VBN tasted)
+					      (ADJP-SPR (ADJ fresh))))
+			      (PP (P of)
+				  (NP (D that) (N fruit)))))
+	  (. .))
+  (ID MONTEFIORE-1836,138.121))
+
+/~*
+The wind having abated, and a powerful current setting in against us, the men
+were again obliged to tow the boat.
+(MONTEFIORE-1836,138.122)
+*~/
+/*
+9 HAG:  9 HAG, 10 having, 2 IP-PPL-ABS
+26 VAG:  26 VAG, 27 setting, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (IP-PPL (NP-SBJ (D The) (N wind))
+			      (HAG having)
+			      (VBN abated))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (D a) (ADJ powerful) (N current))
+				     (VAG setting)
+				     (RP in)
+				     (PP (P against)
+					 (NP (PRO us))))))
+	  (, ,)
+	  (NP-SBJ (D the) (NS men))
+	  (BED were)
+	  (ADVP (ADV again))
+	  (VAN obliged)
+	  (IP-INF (TO to)
+		  (VB tow)
+		  (NP-OB1 (D the) (N boat)))
+	  (. .))
+  (ID MONTEFIORE-1836,138.122))
+
+/~*
+When all at length was satisfactorily arranged, the reis said it would be
+requisite to wait some time while his men prepared their supper, they having
+had only some bread and water at ten o'clock for breakfast, with which they
+had remained perfectly satisfied till now.
+(MONTEFIORE-1836,139.126)
+*~/
+/*
+85 HAG:  85 HAG, 86 having, 81 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q all))
+			      (PP (P at)
+				  (NP (N length)))
+			      (BED was)
+			      (ADVP (ADV satisfactorily))
+			      (VAN arranged))))
+	  (, ,)
+	  (NP-SBJ (D the) (N reis))
+	  (VBD said)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (PRO it))
+			  (MD would)
+			  (BE be)
+			  (ADJP (ADJ requisite))
+			  (IP-INF-1 (TO to)
+				    (CODE <P_139>)
+				    (VB wait)
+				    (NP-MSR (Q some) (N time))
+				    (PP (P while)
+					(CP-ADV (C 0)
+						(IP-SUB (NP-SBJ (PRO$ his) (NS men))
+							(VBD prepared)
+							(NP-OB1 (PRO$ their) (N supper)))))
+				    (, ,)
+				    (IP-PPL-ABS (NP-SBJ (PRO they))
+						(HAG having)
+						(HVN had)
+						(NP-OB1 (FP only)
+							(Q some)
+							(N bread)
+							(CONJP (CONJ and)
+							       (NX (N water))))
+						(PP (P at)
+						    (NP (NUM ten)
+							(PP (P+N o'clock))))
+						(PP (P for)
+						    (NP (N breakfast)
+							(, ,)
+							(CP-REL (WPP-2 (P with)
+								       (WNP (WPRO which)))
+								(C 0)
+								(IP-SUB (PP *T*-2)
+									(NP-SBJ (PRO they))
+									(HVD had)
+									(VBN remained)
+									(ADJP (ADV perfectly) (VAN satisfied))
+									(PP (P till)
+									    (ADVP (ADV now)))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,139.126))
+
+/~*
+and boiled them for an hour, together with rice and onions, our reis smoking
+and sipping a glass of brandy and water with which he was treated in the
+meantime.
+(MONTEFIORE-1836,139.128)
+*~/
+/*
+42 VAG:  42 VAG, 43 smoking, 35 IP-PPL-ABS
+50 VAG:  50 VAG, 51 sipping, 35 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD boiled)
+	  (NP-OB1 (PRO them))
+	  (PP (P for)
+	      (NP (D an) (N hour)))
+	  (, ,)
+	  (PP (ADV together)
+	      (P with)
+	      (NP (N rice) (CONJ and) (NS onions)))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (PRO$ our) (N reis))
+			      (VAG smoking))
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG sipping)
+				     (NP-OB1 (D a)
+					     (N glass)
+					     (PP (P of)
+						 (NP (N brandy) (CONJ and) (N water)))
+					     (CODE <paren>)
+					     (CP-REL (WPP-1 (P with)
+							    (WNP (WPRO which)))
+						     (C 0)
+						     (IP-SUB (PP *T*-1)
+							     (NP-SBJ (PRO he))
+							     (BED was)
+							     (VAN treated))))
+				     (CODE <$$paren>)
+				     (PP (P in)
+					 (NP (D the) (ADJ+N meantime))))))
+	  (. .))
+  (ID MONTEFIORE-1836,139.128))
+
+/~*
+and a portion being given to the grandfather, father, and son, the rest sat
+round the dish,
+(MONTEFIORE-1836,139.130)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL-ABS (NP-SBJ (D a) (N portion))
+		      (BAG being)
+		      (VAN given)
+		      (PP (P to)
+			  (NP (D the)
+			      (N grandfather)
+			      (, ,)
+			      (CONJP (NX (N father)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (NX (N son))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N rest))
+	  (VBD sat)
+	  (PP (P round)
+	      (NP (D the) (N dish)))
+	  (. ,))
+  (ID MONTEFIORE-1836,139.130))
+
+/~*
+This being Captain Anderson's birth-day, we also had an extra bottle of
+champagne to its happy return, our party not having yet adopted the necessary
+abstemious habits of an Eastern climate.
+(MONTEFIORE-1836,139.135)
+*~/
+/*
+6 BAG:  6 BAG, 7 being, 2 IP-PPL-ABS
+60 HAG:  60 HAG, 61 having, 52 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D This))
+		      (BAG being)
+		      (NP-OB1 (NP-POS (NPR Captain) (NPR$ Anderson's))
+			      (N+N birth-day)))
+	  (CODE {COM:sic})
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (ALSO also)
+	  (HVD had)
+	  (NP-OB1 (D an)
+		  (ADV extra)
+		  (N bottle)
+		  (PP (P of)
+		      (NP (N champagne))))
+	  (PP (P to)
+	      (NP (PRO$ its) (ADJ happy) (N return)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ our) (N party))
+		      (NEG not)
+		      (HAG having)
+		      (ADVP-TMP (ADV yet))
+		      (VBN adopted)
+		      (NP-OB1 (D the)
+			      (ADJP (ADJ necessary) (ADJ abstemious))
+			      (NS habits)
+			      (PP (P of)
+				  (NP (D an) (ADJ Eastern) (N climate)))))
+	  (. .))
+  (ID MONTEFIORE-1836,139.135))
+
+/~*
+The number of boats loading and unloading bales of goods, &c, the various
+coloured dresses of the men and women who came one after the other to perform
+the ablutions at the river, many filling goat-skins with water for the use of
+the town, and loading their camels and donkeys therewith, altogether presented
+a picture replete with novelty and interest.
+(MONTEFIORE-1836,142.170)
+*~/
+/*
+109 VAG:  109 VAG, 110 filling, 104 IP-PPL-ABS
+144 VAG:  144 VAG, 145 loading, 104 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NP (D The)
+		      (N number)
+		      (PP (P of)
+			  (NP (NS boats)
+			      (RRC (VAG (VAG loading) (CONJ and) (VAG unloading))
+				   (NP-OB1 (NS bales)
+					   (PP (P of)
+					       (NP (NS goods))))))))
+		  (, ,)
+		  (FW &c)
+		  (, ,)
+		  (CONJP (NP (D the)
+			     (ADJP (ADJ various) (ADJ coloured))
+			     (NS dresses)
+			     (PP (P of)
+				 (NP (D the)
+				     (NS men)
+				     (CONJP (CONJ and)
+					    (NX (NS women)))
+				     (CP-REL (WNP-1 (WPRO who))
+					     (C 0)
+					     (IP-SUB (NP-SBJ *T*-1)
+						     (VBD came)
+						     (NP-ADV (ONE one)
+							     (PP (P after)
+								 (NP (D the) (OTHER other))))
+						     (IP-INF-PRP (TO to)
+								 (VB perform)
+								 (NP-OB1 (D the) (NS ablutions))
+								 (PP (P at)
+								     (NP (D the) (N river)))))))))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (Q many))
+			      (VAG filling)
+			      (NP-OB1 (N+NS goat-skins))
+			      (PP (P with)
+				  (NP (N water)))
+			      (PP (P for)
+				  (NP (D the)
+				      (N use)
+				      (PP (P of)
+					  (NP (D the) (N town))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (VAG loading)
+				     (NP-OB1 (PRO$ their)
+					     (NS camels)
+					     (CONJP (CONJ and)
+						    (NX (NS donkeys))))
+				     (PP (ADV+P therewith)))))
+	  (, ,)
+	  (ADVP (ADV altogether))
+	  (VBD presented)
+	  (NP-OB1 (D a)
+		  (N picture)
+		  (ADJP (ADJ replete)
+			(PP (P with)
+			    (NP (N novelty) (CONJ and) (N interest)))))
+	  (. .))
+  (ID MONTEFIORE-1836,142.170))
+
+/~*
+- The accommodations at the inn being ill-suited to English ideas and habits,
+we accepted Mr. Salt's kind solicitation with less reluctance;
+(MONTEFIORE-1836,142.177)
+*~/
+/*
+18 BAG:  18 BAG, 19 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (IP-PPL-ABS (NP-SBJ (D The)
+			      (NS accommodations)
+			      (PP (P at)
+				  (NP (D the) (N inn))))
+		      (BAG being)
+		      (ADJP (ADV+VAN ill-suited)
+			    (PP (P to)
+				(NP (ADJ English)
+				    (NS ideas)
+				    (CONJP (CONJ and)
+					   (NX (NS habits)))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD accepted)
+	  (NP-OB1 (NP-POS (NPR Mr.) (NPR$ Salt's))
+		  (ADJ kind)
+		  (N solicitation))
+	  (PP (P with)
+	      (NP (QR less) (N reluctance)))
+	  (. ;))
+  (ID MONTEFIORE-1836,142.177))
+
+/~*
+and at twelve this forenoon, Montefiore and myself were conducted by that
+gentleman's janissary to his house; Mr. Mazzara, Captain Anderson, and the
+servants, remaining at the inn, which is kept by a French family, so that Mr.
+M- found himself quite au fait there.
+(MONTEFIORE-1836,143.178)
+*~/
+/*
+81 VAG:  81 VAG, 82 remaining, 54 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P at)
+	      (NP (NUM twelve)))
+	  (NP-TMP (D this) (N forenoon))
+	  (, ,)
+	  (NP-SBJ (NP (NPR Montefiore))
+		  (CONJP (CONJ and)
+			 (NP (PRO$+N myself))))
+	  (BED were)
+	  (VAN conducted)
+	  (CODE <P_143>)
+	  (PP (P by)
+	      (NP (NP-POS (D that) (ADJ+N$ gentleman's))
+		  (N janissary)))
+	  (PP (P to)
+	      (NP (PRO$ his) (N house)))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (NP (NPR Mr.) (NPR Mazzara))
+			      (, ,)
+			      (CONJP (NP (NPR Captain) (NPR Anderson)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (NP (D the) (NS servants))))
+		      (, ,)
+		      (VAG remaining)
+		      (PP (P at)
+			  (NP (D the)
+			      (N inn)
+			      (, ,)
+			      (CP-REL (WNP-1 (WPRO which))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (BEP is)
+					      (VAN kept)
+					      (PP (P by)
+						  (NP (D a) (ADJ French) (N family)))
+					      (, ,)
+					      (PP (P so)
+						  (CP-ADV (C that)
+							  (IP-SUB (NP-SBJ (NPR Mr.) (NPR M-))
+								  (VBD found)
+								  (IP-SMC (NP-SBJ (PRO+N himself))
+									  (ADVP (ADV quite))
+									  (CODE <font>)
+									  (NP-OB1 (FRENCH (FW au) (FW fait))))
+								  (CODE <$$font>)
+								  (ADVP-LOC (ADV there))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,143.178))
+
+/~*
+At the same time he apologized for any defect we might experience, as there
+was no lady to superintend the establishment, Mrs. Salt having died about four
+years before.
+(MONTEFIORE-1836,143.188)
+*~/
+/*
+82 HAG:  82 HAG, 83 having, 76 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P At)
+	      (NP (D the) (ADJ same) (N time)))
+	  (NP-SBJ (PRO he))
+	  (VBD apologized)
+	  (PP (P for)
+	      (NP (Q any)
+		  (N defect)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (MD might)
+				  (VB experience)))))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-2 (EX there))
+			      (BED was)
+			      (NP-2 (Q no)
+				    (N lady)
+				    (CP-EOP (WNP-3 0)
+					    (IP-INF (NP-SBJ *T*-3)
+						    (TO to)
+						    (VB superintend)
+						    (NP-OB1 (D the) (N establishment)))))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (NPR Mrs.) (NPR Salt))
+					  (HAG having)
+					  (VBN died)
+					  (ADVP-TMP (NP-MSR (NUMP (ADV about) (NUM four))
+							    (NS years))
+						    (ADV before))))))
+	  (. .))
+  (ID MONTEFIORE-1836,143.188))
+
+/~*
+I understand she was a very handsome young person, a native of Leghorn; and
+that she died in confinement with her first child, her medical attendant not
+having bestowed proper attention, the plague being then prevalent in the city.
+(MONTEFIORE-1836,144.189)
+*~/
+/*
+91 HAG:  91 HAG, 92 having, 81 IP-PPL-ABS
+108 BAG:  108 BAG, 109 being, 102 IP-PPL-ABS
+108 BAG:  108 BAG, 109 being, 81 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP understand)
+	  (CP-THT (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (PRO she))
+				  (BED was)
+				  (NP-OB1 (NP (D a)
+					      (ADJP (ADJP (ADV very) (ADJ handsome))
+						    (CONJP (ADJP (ADJ young))))
+					      (N person))
+					  (, ,)
+					  (CONJP (NP (D a)
+						     (ADJ native)
+						     (PP (P of)
+							 (NP (NPR Leghorn))))))))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (NP-SBJ (PRO she))
+					 (VBD died)
+					 (PP (P in)
+					     (NP (N confinement)
+						 (CODE <P_144>)
+						 (PP (P with)
+						     (NP (PRO$ her) (ADJ first) (N child)))))
+					 (, ,)
+					 (IP-PPL-ABS (NP-SBJ (PRO$ her) (ADJ medical) (N attendant))
+						     (NEG not)
+						     (HAG having)
+						     (VBN bestowed)
+						     (NP-OB1 (ADJ proper) (N attention))
+						     (, ,)
+						     (IP-PPL-ABS (NP-SBJ (D the) (N plague))
+								 (BAG being)
+								 (ADVP-TMP (ADV then))
+								 (ADJP (ADJ prevalent)
+								       (PP (P in)
+									   (NP (D the) (N city))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,144.189))
+
+/~*
+- This day being appointed for our visit to the Pyramids, we requested to be
+called at four o'clock.
+(MONTEFIORE-1836,144.201)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (IP-PPL-ABS (NP-SBJ (D This) (N day))
+		      (BAG being)
+		      (VAN appointed)
+		      (PP (P for)
+			  (NP (PRO$ our)
+			      (N visit)
+			      (PP (P to)
+				  (NP (D the) (NS Pyramids))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD requested)
+	  (IP-INF (TO to)
+		  (BE be)
+		  (VAN called)
+		  (PP (P at)
+		      (NP (NUM four)
+			  (PP (P+N o'clock)))))
+	  (. .))
+  (ID MONTEFIORE-1836,144.201))
+
+/~*
+The current being extremely powerful, we had to extend our passage some little
+distance;
+(MONTEFIORE-1836,146.223)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The) (N current))
+		      (BAG being)
+		      (ADJP (ADV extremely) (ADJ powerful)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (HVD had)
+	  (IP-INF (TO to)
+		  (VB extend)
+		  (NP-OB1 (PRO$ our) (N passage))
+		  (NP-MSR (Q some) (ADJ little) (N distance)))
+	  (. ;))
+  (ID MONTEFIORE-1836,146.223))
+
+/~*
+We next came to a pretty town called Tersi, whence, for some distance, we had
+to make our way over a sort of dyke; the waters, to the great delight of the
+people, having covered the surrounding land, and risen sufficiently high to
+ensure them a good harvest.
+(MONTEFIORE-1836,147.233)
+*~/
+/*
+114 HAG:  114 HAG, 115 having, 85 IP-PPL-ABS
+121 VAG:  121 VAG, 122 surrounding, 85 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (ADVP-TMP (ADVS next))
+	  (VBD came)
+	  (PP (P to)
+	      (NP (D a)
+		  (ADJ pretty)
+		  (N town)
+		  (RRC (VAN called)
+		       (IP-SMC (NP-SBJ *)
+			       (NP-OB1 (NPR Tersi))))
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV whence))
+			  (, ,)
+			  (C 0)
+			  (IP-SUB (ADVP *T*-1)
+				  (PP (P for)
+				      (NP (Q some) (N distance)))
+				  (, ,)
+				  (NP-SBJ (PRO we))
+				  (HVD had)
+				  (IP-INF (TO to)
+					  (VB make)
+					  (NP-OB1 (PRO$ our) (N way))
+					  (PP (P over)
+					      (NP (D a)
+						  (N sort)
+						  (PP (P of)
+						      (NP (N dyke))))))))))
+	  (, ;)
+	  (CODE <P_147>)
+	  (IP-PPL-ABS (IP-PPL-2 (NP-SBJ (D the) (NS waters))
+				(, ,)
+				(PP (P to)
+				    (NP (D the)
+					(ADJ great)
+					(N delight)
+					(PP (P of)
+					    (NP (D the) (NS people)))))
+				(, ,)
+				(HAG having)
+				(VBN covered)
+				(NP-OB1 (D the) (VAG surrounding) (N land)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=2 (VBN risen)
+				       (ADJP (ADV sufficiently)
+					     (ADJ high)
+					     (IP-INF (TO to)
+						     (VB ensure)
+						     (NP-OB2 (PRO them))
+						     (NP-OB1 (D a) (ADJ good) (N harvest)))))))
+	  (. .))
+  (ID MONTEFIORE-1836,147.233))
+
+/~*
+The wax-tapers being lighted, I prepared with most of our party, to enter the
+great pyramid of Cheops, while the janissary remained to keep guard at the
+entrance.
+(MONTEFIORE-1836,149.260)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The) (N+NS wax-tapers))
+		      (BAG being)
+		      (VAN lighted))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD prepared)
+	  (PP (P with)
+	      (NP (QS most)
+		  (PP (P of)
+		      (NP (PRO$ our) (N party)))))
+	  (, ,)
+	  (IP-INF (TO to)
+		  (VB enter)
+		  (NP-OB1 (D the)
+			  (ADJ great)
+			  (N pyramid)
+			  (PP (P of)
+			      (NP (NPR Cheops)))))
+	  (, ,)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N janissary))
+			      (VBD remained)
+			      (IP-INF-PRP (TO to)
+					  (VB keep)
+					  (NP-OB1 (N guard))
+					  (PP (P at)
+					      (NP (D the) (N entrance)))))))
+	  (. .))
+  (ID MONTEFIORE-1836,149.260))
+
+/~*
+but, with all our fatigue, we could not help laughing to see the strange
+figures we presented after riding near forty miles; the distance of the
+Pyramids being eighteen miles, now that the waters are spread over the land.
+(MONTEFIORE-1836,150.277)
+*~/
+/*
+85 BAG:  85 BAG, 86 being, 71 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (PP (P with)
+	      (NP (Q all) (PRO$ our) (N fatigue)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD could)
+	  (NEG not)
+	  (VB help)
+	  (NP-OB1 (N laughing))
+	  (IP-INF-ADT (TO to)
+		      (VB see)
+		      (NP-OB1 (D the)
+			      (ADJ strange)
+			      (NS figures)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO we))
+					      (VBD presented)
+					      (PP (P after)
+						  (IP-PPL (VAG riding)
+							  (NP-MSR (NUMP (ADV near) (NUM forty))
+								  (NS miles))
+							  (, ;)
+							  (IP-PPL-ABS (NP-SBJ (D the)
+									      (N distance)
+									      (PP (P of)
+										  (NP (D the) (NS Pyramids))))
+								      (BAG being)
+								      (NP-OB1 (NUM eighteen) (NS miles))
+								      (, ,)
+								      (ADVP-TMP (ADV now)
+										(CP-REL (WADVP-2 0)
+											(C that)
+											(IP-SUB (ADVP-TMP *T*-2)
+												(NP-SBJ (D the) (NS waters))
+												(BEP are)
+												(VAN spread)
+												(PP (P over)
+												    (NP (D the) (N land)))))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,150.277))
+
+/~*
+- Captain Anderson having politely resigned his room to us, and our portable
+bedstead and mosquito-curtains being placed therein, we passed a much more
+favourable night than the preceding one, notwithstanding the intense heat.
+(MONTEFIORE-1836,151.282)
+*~/
+/*
+11 HAG:  11 HAG, 12 having, 4 IP-PPL-ABS
+48 BAG:  48 BAG, 49 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (NPR Captain) (NPR Anderson))
+			      (HAG having)
+			      (ADVP (ADV politely))
+			      (VBN resigned)
+			      (NP-OB1 (PRO$ his) (N room))
+			      (PP (P to)
+				  (NP (PRO us))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (PRO$ our)
+					     (ADJ portable)
+					     (N+N bedstead)
+					     (CONJP (CONJ and)
+						    (NX (N+NS mosquito-curtains))))
+				     (BAG being)
+				     (VAN placed)
+				     (PP (ADV+P therein)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD passed)
+	  (NP-OB1 (D a)
+		  (ADJP (QP (Q much) (QR more))
+			(ADJ favourable))
+		  (N night)
+		  (PP (P than)
+		      (NP (D the) (VAG preceding) (ONE one))))
+	  (, ,)
+	  (PP (P notwithstanding)
+	      (NP (D the) (ADJ intense) (N heat)))
+	  (. .))
+  (ID MONTEFIORE-1836,151.282))
+
+/~*
+The early dinner-hour enabled us to return soon, as we could not accept the
+use of his chambers any longer, the gnats from the garden being quite
+insufferable.
+(MONTEFIORE-1836,151.286)
+*~/
+/*
+75 BAG:  75 BAG, 76 being, 61 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (ADJ early) (N+N dinner-hour))
+	  (VBD enabled)
+	  (NP-OB1 (PRO us))
+	  (IP-INF (TO to)
+		  (VB return)
+		  (ADVP-TMP (ADV soon)))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (MD could)
+			      (NEG not)
+			      (VB accept)
+			      (NP-OB1 (D the)
+				      (N use)
+				      (PP (P of)
+					  (NP (PRO$ his) (NS chambers))))
+			      (NP-MSR (ADJP (Q any) (ADJR longer)))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (D the)
+						  (NS gnats)
+						  (PP (P from)
+						      (NP (D the) (N garden))))
+					  (BAG being)
+					  (ADJP (ADV quite) (ADJ insufferable))))))
+	  (. .))
+  (ID MONTEFIORE-1836,151.286))
+
+/~*
+but did not make any purchases, the price being too high.
+(MONTEFIORE-1836,152.296)
+*~/
+/*
+25 BAG:  25 BAG, 26 being, 19 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (DOD did)
+	  (NEG not)
+	  (VB make)
+	  (NP-OB1 (Q any) (NS purchases))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N price))
+		      (BAG being)
+		      (ADJP (ADVR too) (ADJ high)))
+	  (. .))
+  (ID MONTEFIORE-1836,152.296))
+
+/~*
+Our plan of visiting Sacchara was laid aside, information having been brought
+us that an English brig of war was arrived, and that it was the intention of
+Mr. Salt to return to Alexandria, whether for his health or not we did not
+know;
+(MONTEFIORE-1836,154.331)
+*~/
+/*
+31 HAG:  31 HAG, 32 having, 25 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ Our)
+		  (N plan)
+		  (PP (P of)
+		      (IP-PPL (VAG visiting)
+			      (NP-OB1 (NPR Sacchara)))))
+	  (BED was)
+	  (VAN laid)
+	  (PP (P+N aside))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (N information)
+			      (CP-THT *ICH*-1))
+		      (HAG having)
+		      (BEN been)
+		      (VAN brought)
+		      (NP-OB2 (PRO us))
+		      (CP-THT-1 (CP-THT (C that)
+					(IP-SUB (NP-SBJ (D an)
+							(ADJ English)
+							(N brig)
+							(PP (P of)
+							    (NP (N war))))
+						(BED was)
+						(VBN arrived)))
+				(, ,)
+				(CONJP (CONJ and)
+				       (CP-THT (C that)
+					       (IP-SUB (NP-SBJ-2 (PRO it))
+						       (BED was)
+						       (NP-OB1 (D the)
+							       (N intention)
+							       (PP (P of)
+								   (NP (NPR Mr.) (NPR Salt))))
+						       (IP-INF-2 (TO to)
+								 (VB return)
+								 (PP (P to)
+								     (NP (NPR Alexandria)))
+								 (, ,)
+								 (IP-MAT-PRN (CP-QUE (WQ whether)
+										     (C 0)
+										     (IP-SUB (IP-SUB-3 (PP (P for)
+													   (NP (PRO$ his) (N health))))
+											     (CONJP (CONJ or)
+												    (IP-SUB=3 (NEG not)))))
+									     (NP-SBJ (PRO we))
+									     (DOD did)
+									     (NEG not)
+									     (VB know))))))))
+	  (. ;))
+  (ID MONTEFIORE-1836,154.331))
+
+/~*
+The water, at this season, passing through the back streets of the whole city,
+persons were enabled to go from their houses by water.
+(MONTEFIORE-1836,155.346)
+*~/
+/*
+20 VAG:  20 VAG, 21 passing, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The) (N water))
+		      (, ,)
+		      (PP (P at)
+			  (NP (D this) (N season)))
+		      (, ,)
+		      (VAG passing)
+		      (PP (P through)
+			  (NP (D the)
+			      (ADV back)
+			      (NS streets)
+			      (PP (P of)
+				  (NP (D the) (ADJ whole) (N city))))))
+	  (, ,)
+	  (NP-SBJ (NS persons))
+	  (BED were)
+	  (VAN enabled)
+	  (IP-INF (TO to)
+		  (VB go)
+		  (PP (P from)
+		      (NP (PRO$ their) (NS houses)))
+		  (PP (P by)
+		      (NP (N water))))
+	  (. .))
+  (ID MONTEFIORE-1836,155.346))
+
+/~*
+This detained us near two hours, and not under the most agreeable
+circumstances, it being then but four in the morning.
+(MONTEFIORE-1836,155.351)
+*~/
+/*
+46 BAG:  46 BAG, 47 being, 42 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D This))
+		    (VBD detained)
+		    (NP-OB1 (PRO us))
+		    (NP-MSR (NUMP (ADV near) (NUM two))
+			    (NS hours)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NEG not)
+			   (PP (P under)
+			       (NP (D the)
+				   (ADJP (QS most) (ADJ agreeable))
+				   (NS circumstances)))
+			   (, ,)
+			   (IP-PPL-ABS (NP-SBJ (PRO it))
+				       (BAG being)
+				       (ADVP-TMP (ADV then))
+				       (NP-OB1 (NUMP (FP but) (NUM four))
+					       (PP (P in)
+						   (NP (D the) (N morning)))))))
+	  (. .))
+  (ID MONTEFIORE-1836,155.351))
+
+/~*
+Though it was fried in oil, butter not being obtainable, I did not refuse a
+good portion of it.
+(MONTEFIORE-1836,156.366)
+*~/
+/*
+30 BAG:  30 BAG, 31 being, 24 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P Though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (BED was)
+			      (VAN fried)
+			      (PP (P in)
+				  (NP (N oil)))
+			      (, ,)
+			      (IP-PPL-ABS (NP-SBJ (N butter))
+					  (NEG not)
+					  (BAG being)
+					  (ADJP (ADJ obtainable))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (DOD did)
+	  (NEG not)
+	  (VB refuse)
+	  (NP-OB1 (D a)
+		  (ADJ good)
+		  (N portion)
+		  (PP (P of)
+		      (NP (PRO it))))
+	  (. .))
+  (ID MONTEFIORE-1836,156.366))
+
+/~*
+- We passed a miserable night, the torments increasing:
+(MONTEFIORE-1836,157.370)
+*~/
+/*
+24 VAG:  24 VAG, 25 increasing, 18 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (NP-SBJ (PRO We))
+	  (VBD passed)
+	  (NP-OB1 (D a) (ADJ miserable) (N night))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (NS torments))
+		      (VAG increasing))
+	  (. :))
+  (ID MONTEFIORE-1836,157.370))
+
+/~*
+- Montefiore was in despair about Jerusalem; the chance of our going there
+declining as that of war with the Porte increased.
+(MONTEFIORE-1836,159.409)
+*~/
+/*
+36 VAG:  36 VAG, 37 going, 23 IP-PPL-ABS
+41 VAG:  41 VAG, 42 declining, 23 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (NP-SBJ (NPR Montefiore))
+	  (BED was)
+	  (PP (P in)
+	      (NP (N despair)))
+	  (PP (P about)
+	      (NP (NPR Jerusalem)))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N chance)
+			      (PP (P of)
+				  (NP (PRO$ our)
+				      (IP-PPL (VAG going)
+					      (ADVP-DIR (ADV there))))))
+		      (VAG declining)
+		      (PP (P as)
+			  (CP-ADV (WADVP-1 0)
+				  (C 0)
+				  (IP-SUB (ADVP *T*-1)
+					  (NP-SBJ (D that)
+						  (PP (P of)
+						      (NP (N war)
+							  (PP (P with)
+							      (NP (D the) (NPR Porte))))))
+					  (VBD increased)))))
+	  (. .))
+  (ID MONTEFIORE-1836,159.409))
+
+/~*
+The dinner at Mr. Bell's was served in superior style, the wines and dessert
+corresponding:
+(MONTEFIORE-1836,159.414)
+*~/
+/*
+42 VAG:  42 VAG, 43 corresponding, 30 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N dinner))
+	  (PP (P at)
+	      (NP (NP-POS (NPR Mr.) (NPR$ Bell's))))
+	  (BED was)
+	  (VAN served)
+	  (PP (P in)
+	      (NP (ADJ superior) (N style)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (NS wines)
+			      (CONJP (CONJ and)
+				     (NX (N dessert))))
+		      (VAG corresponding))
+	  (. :))
+  (ID MONTEFIORE-1836,159.414))
+
+/~*
+- At $half $past two, we arrived at Mr. Barker's, in time to dress, being
+engaged to dine there; Mrs. Barker having, out of compliment to us, changed
+her dinner-hour from one to three.
+(MONTEFIORE-1836,160.429)
+*~/
+/*
+70 HAG:  70 HAG, 71 having, 64 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (PP (P At)
+	      (NP (NUM $half)
+		  (PP (P $past)
+		      (CODE {TEXT:half-past})
+		      (NP (NUM two)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD arrived)
+	  (PP (P at)
+	      (NP (NP-POS (NPR Mr.) (NPR$ Barker's))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (N time)
+		  (IP-INF (TO to) (VB dress))))
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (VAN engaged)
+		  (IP-INF (TO to)
+			  (VB dine)
+			  (ADVP-LOC (ADV there))))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (NPR Mrs.) (NPR Barker))
+		      (HAG having)
+		      (, ,)
+		      (PP (RP out)
+			  (P of)
+			  (NP (N compliment)
+			      (PP (P to)
+				  (NP (PRO us)))))
+		      (, ,)
+		      (VBN changed)
+		      (NP-OB1 (PRO$ her) (N+N dinner-hour))
+		      (PP (P from)
+			  (NP (ONE one)))
+		      (PP (P to)
+			  (NP (NUM three))))
+	  (. .))
+  (ID MONTEFIORE-1836,160.429))
+
+/~*
+- The weather was materially changed, it being much cooler, with a fine breeze;
+(MONTEFIORE-1836,162.453)
+*~/
+/*
+22 BAG:  22 BAG, 23 being, 18 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (NP-SBJ (D The) (N weather))
+	  (BED was)
+	  (ADJP (ADJ materially) (VAN changed))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO it))
+		      (BAG being)
+		      (ADJP (Q much) (ADJR cooler)))
+	  (, ,)
+	  (PP (P with)
+	      (NP (D a) (ADJ fine) (N breeze)))
+	  (. ;))
+  (ID MONTEFIORE-1836,162.453))
+
+/~*
+Montefiore went to pay visits to Mr. Salt, and Mrs. Barker, the latter having
+been thrown from her donkey,
+(MONTEFIORE-1836,163.459)
+*~/
+/*
+42 HAG:  42 HAG, 43 having, 36 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NPR Montefiore))
+	  (VBD went)
+	  (IP-INF-PRP (TO to)
+		      (VB pay)
+		      (NP-OB1 (NS visits))
+		      (PP (P to)
+			  (NP (NP (NPR Mr.) (NPR Salt))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (NP (NPR Mrs.) (NPR Barker)))))
+		      (, ,)
+		      (IP-PPL-ABS (NP-SBJ (D the) (ADJ latter))
+				  (HAG having)
+				  (BEN been)
+				  (VAN thrown)
+				  (PP (P from)
+				      (NP (PRO$ her) (N donkey)))))
+	  (. ,))
+  (ID MONTEFIORE-1836,163.459))
+
+/~*
+The public are not allowed a glance at these fair objects, all the blinds
+being drawn, and a guard of soldiers placed on each side.
+(MONTEFIORE-1836,163.465)
+*~/
+/*
+39 BAG:  39 BAG, 40 being, 30 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N public))
+	  (BEP are)
+	  (NEG not)
+	  (VAN allowed)
+	  (NP-OB1 (D a)
+		  (N glance)
+		  (PP (P at)
+		      (NP (D these) (ADJ fair) (NS objects))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL-1 (NP-SBJ (Q all) (D the) (NS blinds))
+				(BAG being)
+				(VAN drawn))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=1 (NP-SBJ (D a)
+					       (N guard)
+					       (PP (P of)
+						   (NP (NS soldiers))))
+				       (VAN placed)
+				       (PP (P on)
+					   (NP (Q each) (N side))))))
+	  (. .))
+  (ID MONTEFIORE-1836,163.465))
+
+/~*
+A carriage is a marvellous object in this country, there being but two, those
+of the pacha and his son.
+(MONTEFIORE-1836,163.466)
+*~/
+/*
+30 BAG:  30 BAG, 31 being, 26 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D A) (N carriage))
+	  (BEP is)
+	  (NP-OB1 (D a) (ADJ marvellous) (N object))
+	  (PP (P in)
+	      (NP (D this) (N country)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ-1 (EX there))
+		      (BAG being)
+		      (NP-1 (NUMP (FP but) (NUM two))
+			    (, ,)
+			    (NP-PRN (D those)
+				    (PP (P of)
+					(NP (NP (D the) (N pacha))
+					    (CONJP (CONJ and)
+						   (NP (PRO$ his) (N son))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,163.466))
+
+/~*
+The heat to-day was very intense, the thermometer standing at 88=o=;
+(MONTEFIORE-1836,166.517)
+*~/
+/*
+25 VAG:  25 VAG, 26 standing, 19 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N heat))
+	  (NP-TMP (N to-day))
+	  (BED was)
+	  (ADJP (ADV very) (ADJ intense))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N thermometer))
+		      (VAG standing)
+		      (PP (P at)
+			  (NP (NUM+NS 88=o=))))
+	  (. ;))
+  (ID MONTEFIORE-1836,166.517))
+
+/~*
+- The autumnal equinox having commenced, we now felt all the annoyances of a
+strong wind on the borders of a sandy desert.
+(MONTEFIORE-1836,168.546)
+*~/
+/*
+12 HAG:  12 HAG, 13 having, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (IP-PPL-ABS (NP-SBJ (D The) (ADJ autumnal) (N equinox))
+		      (HAG having)
+		      (VBN commenced))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (ADVP-TMP (ADV now))
+	  (VBD felt)
+	  (NP-OB1 (Q all)
+		  (D the)
+		  (NS annoyances)
+		  (PP (P of)
+		      (NP (D a) (ADJ strong) (N wind))))
+	  (PP (P on)
+	      (NP (D the)
+		  (NS borders)
+		  (PP (P of)
+		      (NP (D a) (ADJ sandy) (N desert)))))
+	  (. .))
+  (ID MONTEFIORE-1836,168.546))
+
+/~*
+and the latter, who is a pretty young woman, and whom we had seen dressed so
+superbly on the preceding evening, was habited to-day in a Turkish mantle,
+made of the richest materials, her jewels corresponding in richness and
+variety.
+(MONTEFIORE-1836,168.549)
+*~/
+/*
+114 VAG:  114 VAG, 115 corresponding, 108 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (ADJ latter)
+		  (, ,)
+		  (CP-REL (CP-REL (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP is)
+					  (NP-OB1 (D a)
+						  (ADJP (ADJ pretty) (ADJ young))
+						  (N woman))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-REL (WNP-2 (WPRO whom))
+					 (C 0)
+					 (IP-SUB (NP-SBJ (PRO we))
+						 (HVD had)
+						 (VBN seen)
+						 (IP-SMC (NP-SBJ *T*-2)
+							 (VAN dressed)
+							 (ADVP (ADVR so) (ADV superbly)))
+						 (PP (P on)
+						     (NP (D the) (VAG preceding) (N evening))))))))
+	  (, ,)
+	  (BED was)
+	  (VAN habited)
+	  (NP-TMP (N to-day))
+	  (PP (P in)
+	      (NP (D a)
+		  (ADJ Turkish)
+		  (N mantle)
+		  (, ,)
+		  (RRC (VAN made)
+		       (PP (P of)
+			   (NP (D the) (ADJS richest) (NS materials))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ her) (NS jewels))
+		      (VAG corresponding)
+		      (PP (P in)
+			  (NP (N richness) (CONJ and) (N variety))))
+	  (. .))
+  (ID MONTEFIORE-1836,168.549))
+
+/~*
+but was amused as I lay by the jovial sounds which came from the captain's
+cabin, where several of his naval companions, Montefiore being of the party,
+were assembled for a game of whist.
+(MONTEFIORE-1836,170.571)
+*~/
+/*
+84 BAG:  84 BAG, 85 being, 80 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (VAN amused)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD lay))))
+	  (PP (P by)
+	      (NP (D the)
+		  (ADJ jovial)
+		  (NS sounds)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD came)
+				  (PP (P from)
+				      (NP (NP-POS (D the) (N$ captain's))
+					  (N cabin)
+					  (, ,)
+					  (CP-REL (WADVP-2 (WADV where))
+						  (C 0)
+						  (IP-SUB (ADVP-LOC *T*-2)
+							  (NP-SBJ (Q several)
+								  (PP (P of)
+								      (NP (PRO$ his) (ADJ naval) (NS companions))))
+							  (, ,)
+							  (IP-PPL-ABS (NP-SBJ (NPR Montefiore))
+								      (BAG being)
+								      (PP (P of)
+									  (NP (D the) (N party))))
+							  (, ,)
+							  (BED were)
+							  (VAN assembled)
+							  (PP (P for)
+							      (NP (D a)
+								  (N game)
+								  (PP (P of)
+								      (NP (N whist)))))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,170.571))
+
+/~*
+but there seemed a fatality in this little ornament, it being the same that
+was missing and recovered at the expense of a Napoleon, when we were passing
+through Italy -
+(MONTEFIORE-1836,170.575)
+*~/
+/*
+30 BAG:  30 BAG, 31 being, 26 IP-PPL-ABS
+48 VAG:  48 VAG, 49 missing, 26 IP-PPL-ABS
+86 VAG:  86 VAG, 87 passing, 26 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ-1 (EX there))
+	  (VBD seemed)
+	  (NP-1 (D a) (N fatality))
+	  (PP (P in)
+	      (NP (D this) (ADJ little) (N ornament)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO it))
+		      (BAG being)
+		      (NP-OB1 (D the)
+			      (ADJ same)
+			      (CP-REL (WNP-2 0)
+				      (C that)
+				      (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+							(BED was)
+							(VAG missing))
+					      (CONJP (CONJ and)
+						     (IP-SUB=3 (VAN recovered)
+							       (PP (P at)
+								   (NP (D the)
+								       (N expense)
+								       (PP (P of)
+									   (NP (D a) (N Napoleon)))))
+							       (, ,)
+							       (PP (P when)
+								   (CP-ADV (C 0)
+									   (IP-SUB (NP-SBJ (PRO we))
+										   (BED were)
+										   (VAG passing)
+										   (PP (P through)
+										       (NP (NPR Italy))))))))))))
+	  (. -))
+  (ID MONTEFIORE-1836,170.575))
+
+/~*
+- There had been a dispute, we heard, between the Pacha of Damascus, Abdallah,
+and Lady Hester Stanhope, which required the interference of the British
+consul; his highness having prohibited her ladyship's Arabs from serving her
+on pain of death.
+(MONTEFIORE-1836,171.582)
+*~/
+/*
+99 HAG:  99 HAG, 100 having, 93 IP-PPL-ABS
+115 VAG:  115 VAG, 116 serving, 93 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (NP-SBJ-1 (EX There))
+	  (HVD had)
+	  (BEN been)
+	  (NP-1 (D a)
+		(N dispute)
+		(PP *ICH*-2)
+		(CP-REL *ICH*-3))
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO we))
+		      (VBD heard))
+	  (, ,)
+	  (PP-2 (P between)
+		(NP (NP (D the)
+			(N Pacha)
+			(PP (P of)
+			    (NP (NPR Damascus))))
+		    (, ,)
+		    (CONJP (NP (NPR Abdallah)))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (NP (NPR Lady) (NPR Hester) (NPR Stanhope)))))
+	  (, ,)
+	  (CP-REL-3 (WNP-4 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-4)
+			    (VBD required)
+			    (NP-OB1 (D the)
+				    (N interference)
+				    (PP (P of)
+					(NP (D the) (ADJ British) (N consul))))))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ his) (N highness))
+		      (HAG having)
+		      (VBN prohibited)
+		      (NP-OB1 (NP-POS (PRO$ her) (N$ ladyship's))
+			      (NPRS Arabs))
+		      (PP (P from)
+			  (IP-PPL (VAG serving)
+				  (NP-OB1 (PRO her))))
+		      (PP (P on)
+			  (NP (N pain)
+			      (PP (P of)
+				  (NP (N death))))))
+	  (. .))
+  (ID MONTEFIORE-1836,171.582))
+
+/~*
+- Montefiore having promised the crew of our ship a good supper, in
+celebration of our new year, it was prepared for this evening; Paulo having
+yesterday purchased eight geese and six fowls, with three gallons of spirits,
+for the occasion.
+(MONTEFIORE-1836,172.602)
+*~/
+/*
+8 HAG:  8 HAG, 9 having, 4 IP-PPL-ABS
+73 HAG:  73 HAG, 74 having, 69 IP-PPL-ABS
+*/
+
+( (IP-MAT (, -)
+	  (IP-PPL-ABS (NP-SBJ (NPR Montefiore))
+		      (HAG having)
+		      (VBN promised)
+		      (NP-OB2 (D the)
+			      (N crew)
+			      (PP (P of)
+				  (NP (PRO$ our) (N ship))))
+		      (NP-OB1 (D a) (ADJ good) (N supper))
+		      (, ,)
+		      (PP (P in)
+			  (NP (N celebration)
+			      (PP (P of)
+				  (NP (PRO$ our) (ADJ new) (N year))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BED was)
+	  (VAN prepared)
+	  (PP (P for)
+	      (NP (D this) (N evening)))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (NPR Paulo))
+		      (HAG having)
+		      (NP-TMP (N yesterday))
+		      (VBN purchased)
+		      (NP-OB1 (NP (NUM eight) (NS geese))
+			      (CONJP (CONJ and)
+				     (NP (NUM six) (NS fowls))))
+		      (, ,)
+		      (PP (P with)
+			  (NP (NUM three)
+			      (NS gallons)
+			      (PP (P of)
+				  (NP (NS spirits)))))
+		      (, ,)
+		      (PP (P for)
+			  (NP (D the) (N occasion))))
+	  (. .))
+  (ID MONTEFIORE-1836,172.602))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	62/46/614
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd
+*/
+
+/~*
+The Captain's Intreaties avail'd nothing, the Vice-Roy continuing as fix'd in
+his Resolution of giving us no Relief;
+(OFFICER-1744,212.31)
+*~/
+/*
+23 VAG:  23 VAG, 24 continuing, 17 IP-PPL-ABS
+43 VAG:  43 VAG, 44 giving, 17 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NP-POS (D The) (N$ Captain's))
+		  (NS Intreaties))
+	  (VBD avail'd)
+	  (NP-OB1 (Q+N nothing))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N+N Vice-Roy))
+		      (VAG continuing)
+		      (ADJP (ADVP (ADVR as))
+			    (VAN fix'd))
+		      (PP (P in)
+			  (NP (PRO$ his)
+			      (N Resolution)
+			      (PP (P of)
+				  (IP-PPL (VAG giving)
+					  (NP-OB2 (PRO us))
+					  (NP-OB1 (Q no) (N Relief)))))))
+	  (. ;))
+  (ID OFFICER-1744,212.31))
+
+/~*
+On Monday the 23d of November, in the Latitude 39: 17: North, and Longitude 6:
+00 W. that Day at Noon the Rock of Lisbon bearing S. by W. distant sixteen
+Leag. we steer'd E.S.E. to make the Rock before Night.
+(OFFICER-1744,214.61)
+*~/
+/*
+92 VAG:  92 VAG, 93 bearing, 76 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P On)
+	      (CODE <font>)
+	      (NP (NPR Monday)
+		  (CODE <$$font>)
+		  (NP-PRN (D the)
+			  (ADJ 23d)
+			  (PP (P of)
+			      (CODE <font>)
+			      (NP (NPR November))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P in)
+	      (NP (D the)
+		  (N Latitude)
+		  (NP-PRN (NUM 39) (, :) (NUM 17) (, :) (N North))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NX (N Longitude)
+			     (NP-PRN (NUM 6) (, :) (NUM 00) (N W.))))))
+	  (NP-TMP (D that)
+		  (N Day)
+		  (PP (P at)
+		      (NP (N Noon))))
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N Rock)
+			      (PP (P of)
+				  (CODE <font>)
+				  (NP (NPR Lisbon))))
+		      (CODE <$$font>)
+		      (VAG bearing)
+		      (NP-DIR (N S.)
+			      (PP (P by)
+				  (NP (N W.))))
+		      (ADJP-LOC (ADJ distant)
+				(NP-MSR (NUM sixteen) (NS Leag.))))
+	  (NP-SBJ (PRO we))
+	  (VBD steer'd)
+	  (NP-DIR (N+N+N E.S.E.))
+	  (IP-INF-PRP (TO to)
+		      (VB make)
+		      (NP-OB1 (D the) (N Rock))
+		      (PP (P before)
+			  (NP (N Night))))
+	  (. .))
+  (ID OFFICER-1744,214.61))
+
+/~*
+and on the next Morning every Person who came in the Ship, excepting the
+Carpenter, myself and the Cooper Officers, Passengers, the Spanish Don himself,
+and all the People, Men and Boys, walked bare-footed, with the $Foresail in
+Procession, to the Church of Neustra Senhora Boa Mortua the Weather at that
+Time being very cold, and the Church a good Mile distant from the
+Landing-place.
+(OFFICER-1744,216.87)
+*~/
+/*
+181 BAG:  181 BAG, 182 being, 166 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P on)
+	      (NP (D the) (ADJS next) (N Morning)))
+	  (NP-SBJ (Q every)
+		  (N Person)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD came)
+				  (PP (P in)
+				      (NP (D the) (N Ship)))))
+		  (, ,)
+		  (CODE <paren>)
+		  (IP-PPL-PRN (VAG excepting)
+			      (NP-OB1 (NP (D the) (N Carpenter))
+				      (, ,)
+				      (CONJP (NP (PRO$+N myself)))
+				      (CONJP (CONJ and)
+					     (NP (D the) (N Cooper)))))
+		  (NP-PRN (NP (CODE <$$paren>) (NS Officers))
+			  (, ,)
+			  (CONJP (NP (NS Passengers)))
+			  (, ,)
+			  (CONJP (NP (D the)
+				     (CODE <font>)
+				     (ADJ Spanish)
+				     (CODE <$$font>)
+				     (N Don)
+				     (NP-PRN (PRO+N himself))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (Q all)
+				     (D the)
+				     (NS People)
+				     (, ,)
+				     (NP-PRN (NS Men) (CONJ and) (NS Boys))))))
+	  (, ,)
+	  (VBD walked)
+	  (ADJP-SPR (ADJ bare-footed))
+	  (, ,)
+	  (PP (P with)
+	      (NP (D the) (N $Foresail)))
+	  (CODE {TEXT:Fore_sail})
+	  (PP (P in)
+	      (NP (N Procession)))
+	  (, ,)
+	  (PP (P to)
+	      (NP (D the)
+		  (N Church)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Neustra) (NPR Senhora) (NPR Boa) (NPR Mortua)))))
+	  (CODE <$$font>)
+	  (IP-PPL-ABS (IP-PPL-2 (NP-SBJ (D the)
+					(N Weather)
+					(PP (P at)
+					    (NP (D that) (N Time))))
+				(BAG being)
+				(ADJP (ADV very) (ADJ cold)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=2 (NP-SBJ (D the) (N Church))
+				       (ADJP-LOC (NP-MSR (D a) (ADJ good) (N Mile))
+						 (ADJ distant)
+						 (PP (P from)
+						     (NP (D the) (N+N Landing-place)))))))
+	  (. .))
+  (ID OFFICER-1744,216.87))
+
+/~*
+In about a Fortnight's Time, by an Order from the Right Hon. the Lords of the
+Admiralty, we were put on Shore, the Captain of the Sterling Castle not caring
+to land us till their Lordships Pleasure should be known.
+(OFFICER-1744,217.96)
+*~/
+/*
+88 VAG:  88 VAG, 89 caring, 66 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (NP-MSR (ADV about) (D a) (N$ Fortnight's))
+		  (N Time)))
+	  (, ,)
+	  (PP (P by)
+	      (NP (D an)
+		  (N Order)
+		  (PP (P from)
+		      (NP (D the)
+			  (ADJP (ADV Right) (ADJ Hon.))
+			  (NP-PRN (D the)
+				  (NS Lords)
+				  (PP (P of)
+				      (NP (D the) (N Admiralty))))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (BED were)
+	  (VAN put)
+	  (PP (P on)
+	      (NP (N Shore)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (N Captain)
+			      (PP (P of)
+				  (NP (D the) (CODE <font>) (NPR Sterling) (NPR Castle))))
+		      (CODE <$$font>)
+		      (NEG not)
+		      (VAG caring)
+		      (IP-INF (TO to)
+			      (VB land)
+			      (NP-OB1 (PRO us)))
+		      (PP (P till)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (NP-POS (PRO$ their) (NS$ Lordships))
+						  (N Pleasure))
+					  (MD should)
+					  (BE be)
+					  (VAN known)))))
+	  (. .))
+  (ID OFFICER-1744,217.96))
+
+/~*
+As I have now finish'd this, I shall, according to my Promise, proceed with my
+Journal of the Commodore's Expedition, and begin where I left off when we lost
+Sight of the Wager, being the 19th.
+(OFFICER-1744,218.104)
+*~/
+/*
+125 BAG:  125 BAG, 126 being, 122 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P As)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (PRO I))
+					(HVP have)
+					(ADVP-TMP (ADV now))
+					(VBN finish'd)
+					(NP-OB1 (D this)))))
+		    (, ,)
+		    (NP-SBJ (PRO I))
+		    (MD shall)
+		    (, ,)
+		    (IP-PPL (VAG according)
+			    (PP (P to)
+				(NP (PRO$ my) (CODE <P_218>) (N Promise))))
+		    (, ,)
+		    (VB proceed)
+		    (PP (P with)
+			(NP (PRO$ my)
+			    (N Journal)
+			    (PP (P of)
+				(NP (NP-POS (D the) (N$ Commodore's))
+				    (N Expedition))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB begin)
+			   (ADVP-LOC (CP-FRL (WADVP-2 (WADV where))
+					     (C 0)
+					     (IP-SUB (ADVP-LOC *T*-2)
+						     (NP-SBJ (PRO I))
+						     (VBD left)
+						     (RP off)))
+				     (PP-PRN (P when)
+					     (CP-ADV (C 0)
+						     (IP-SUB (NP-SBJ (PRO we))
+							     (VBD lost)
+							     (NP-OB1 (N Sight))
+							     (PP (P of)
+								 (NP (D the) (CODE <font>) (NPR Wager))))))
+				     (CODE <$$font>)
+				     (, ,)
+				     (IP-PPL-ABS (NP-SBJ *exp*)
+						 (BAG being)
+						 (NP-OB1 (D the) (ADJ 19th))))))
+	  (. .))
+  (ID OFFICER-1744,218.104))
+
+/~*
+The Ship's Company being still in a sick and miserable Condition, at eight in
+the Morning they brought to,
+(OFFICER-1744,219.121)
+*~/
+/*
+11 BAG:  11 BAG, 12 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (NP-POS (D The) (N$ Ship's))
+			      (N Company))
+		      (BAG being)
+		      (ADVP-TMP (ADV still))
+		      (PP (P in)
+			  (NP (D a)
+			      (ADJP (ADJ sick) (CONJ and) (CODE <P_219>) (ADJ miserable))
+			      (N Condition))))
+	  (, ,)
+	  (PP (P at)
+	      (NP (NUM eight)
+		  (PP (P in)
+		      (NP (D the) (N Morning)))))
+	  (NP-SBJ (PRO they))
+	  (VBD brought)
+	  (RP to)
+	  (. ,))
+  (ID OFFICER-1744,219.121))
+
+/~*
+and the Weather continuing moderate and fair.
+(OFFICER-1744,219.143)
+*~/
+/*
+9 VAG:  9 VAG, 10 continuing, 1 IP-PPL-ABS
+*/
+
+( (IP-PPL-ABS (CONJ and)
+	      (NP-SBJ (D the) (N Weather))
+	      (VAG continuing)
+	      (ADJP (ADJ moderate) (CONJ and) (ADJ fair))
+	      (. .))
+  (ID OFFICER-1744,219.143))
+
+/~*
+The Crew of the Gloucester are extreamly sickly, they having very few capable
+of working the Ship;
+(OFFICER-1744,220.183)
+*~/
+/*
+32 HAG:  32 HAG, 33 having, 28 IP-PPL-ABS
+47 VAG:  47 VAG, 48 working, 28 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Crew)
+		  (PP (P of)
+		      (NP (D the) (CODE <font>) (NPR Gloucester))))
+	  (CODE <$$font>)
+	  (BEP are)
+	  (ADJP (ADV extreamly) (ADJ sickly))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO they))
+		      (HAG having)
+		      (NP-OB1 (QP (ADV very) (Q few))
+			      (ADJP (ADJ capable)
+				    (PP (P of)
+					(IP-PPL (VAG working)
+						(NP-OB1 (D the) (N Ship)))))))
+	  (. ;))
+  (ID OFFICER-1744,220.183))
+
+/~*
+the Destruction and Deformity which these Vermin do make on the dead Bodies,
+that lye about the Deck, they having at this Time, ten or a dozen dying in a
+Day makes the most shocking Spectacle that ever Man beheld, one having his
+Eyes eat out, another his Cheeks eaten off, and others part of their Arms,
+Legs, &c.
+(OFFICER-1744,221.187)
+*~/
+/*
+69 HAG:  69 HAG, 70 having, 65 IP-PPL-ABS
+94 VAG:  94 VAG, 95 dying, 65 IP-PPL-ABS
+141 HAG:  141 HAG, 142 having, 136 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D the)
+		  (N Destruction)
+		  (CONJP (CONJ and)
+			 (NX (N Deformity)))
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D these) (N Vermin))
+				  (DOP do)
+				  (VB make)
+				  (PP (P on)
+				      (NP (D the)
+					  (ADJ dead)
+					  (NS Bodies)
+					  (, ,)
+					  (CP-REL (WNP-2 0)
+						  (C that)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (VBP lye)
+							  (PP (P about)
+							      (NP (D the) (N Deck))))))))))
+	  (, ,)
+	  (CODE <paren>)
+	  (IP-PPL-ABS (NP-SBJ (PRO they))
+		      (HAG having)
+		      (PP (P at)
+			  (NP (D this) (N Time)))
+		      (, ,)
+		      (IP-PPL-OB1 (NP-SBJ (NUMP (NUM ten)
+						(CONJP (CONJ or)
+						       (NUMP (D a) (NUM dozen)))))
+				  (VAG dying)
+				  (PP (P in)
+				      (NP (D a) (N Day)))))
+	  (CODE <$$paren>)
+	  (VBP makes)
+	  (NP-OB1 (D the)
+		  (ADJP (QS most) (VAG shocking))
+		  (N Spectacle)
+		  (CP-REL (WNP-3 0)
+			  (C that)
+			  (IP-SUB (NP-OB1 *T*-3)
+				  (ADVP-TMP (ADV ever))
+				  (NP-SBJ (N Man))
+				  (VBD beheld))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL-4 (NP-SBJ (ONE one))
+				(HAG having)
+				(IP-SMC (NP-SBJ (PRO$ his) (NS Eyes))
+					(VAN eat)
+					(RP out)))
+		      (, ,)
+		      (CONJP (IP-PPL=4 (NP-SBJ (D+OTHER another))
+				       (IP-SMC=5 (NP-SBJ (PRO$ his) (NS Cheeks))
+						 (VAN eaten)
+						 (RP off))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=4 (NP-SBJ (OTHERS others))
+				       (IP-SMC=5 (NP-SBJ (N part)
+							 (PP (P of)
+							     (NP (PRO$ their)
+								 (NS Arms)
+								 (, ,)
+								 (CONJP (NX (NS Legs)))
+								 (, ,)
+								 (CODE <font>)
+								 (FW &c.))))))))
+	  (CODE <$$font>))
+  (ID OFFICER-1744,221.187))
+
+/~*
+The Wind coming about, we wore Ship,
+(OFFICER-1744,221.198)
+*~/
+/*
+8 VAG:  8 VAG, 9 coming, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The) (N Wind))
+		      (VAG coming)
+		      (RP about))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD wore)
+	  (NP-OB1 (N Ship))
+	  (. ,))
+  (ID OFFICER-1744,221.198))
+
+/~*
+it was apprehended not safe to steer near the Shore, the Ship's Company being
+so very weak and ill, that they were not capable of working the Ship;
+(OFFICER-1744,221.200)
+*~/
+/*
+38 BAG:  38 BAG, 39 being, 29 IP-PPL-ABS
+76 VAG:  76 VAG, 77 working, 29 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO it))
+	  (BED was)
+	  (VAN apprehended)
+	  (NEG not)
+	  (ADJP (ADJ safe))
+	  (IP-INF-1 (TO to)
+		    (VB steer)
+		    (ADJP-LOC (ADJ near)
+			      (NP (D the) (N Shore))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (NP-POS (D the) (N$ Ship's))
+			      (N Company))
+		      (BAG being)
+		      (ADJP (ADVP (ADVR so)
+				  (CP-DEG *ICH*-2)
+				  (ADV very))
+			    (ADJ weak)
+			    (CONJP (CONJ and)
+				   (ADJX (ADJ ill)))
+			    (, ,)
+			    (CP-DEG-2 (C that)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (BED were)
+					      (NEG not)
+					      (ADJP (ADJ capable)
+						    (PP (P of)
+							(IP-PPL (VAG working)
+								(NP-OB1 (D the) (N Ship)))))))))
+	  (. ;))
+  (ID OFFICER-1744,221.200))
+
+/~*
+therefore we were resolved to make the best of our Way to the Island of Juan
+Fernandez, the Place appointed for a general Rendevouz in order to recover and
+refresh our Men, and refit our Sails and Rigging, which were in a wretched
+Condition, our Shrouds and Chain-plates being broke;
+(OFFICER-1744,222.201)
+*~/
+/*
+158 BAG:  158 BAG, 159 being, 146 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (ADV+P therefore))
+	  (NP-SBJ (PRO we))
+	  (BED were)
+	  (VAN resolved)
+	  (IP-INF (TO to)
+		  (CODE <P_222>)
+		  (VB make)
+		  (NP-OB1 (D the)
+			  (ADJS best)
+			  (PP (P of)
+			      (NP (PRO$ our) (N Way))))
+		  (PP (P to)
+		      (NP (D the)
+			  (N Island)
+			  (PP (P of)
+			      (CODE <font>)
+			      (NP (NPR Juan)
+				  (NPR Fernandez)
+				  (CODE <$$font>)
+				  (, ,)
+				  (CODE <paren>)
+				  (NP-PRN (D the)
+					  (N Place)
+					  (RRC (VAN appointed)
+					       (PP (P for)
+						   (NP (D a) (ADJ general) (N Rendevouz)))))))))
+		  (CODE {COM:sic})
+		  (CODE <$$paren>)
+		  (PP (P in)
+		      (NP (N order)
+			  (IP-INF (IP-INF (TO to)
+					  (VB (VB recover) (CONJ and) (VB refresh))
+					  (NP-OB1 (PRO$ our) (NS Men)))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-INF (TO *)
+						 (VB refit)
+						 (NP-OB1 (PRO$ our)
+							 (NS Sails)
+							 (CONJP (CONJ and)
+								(NX (N Rigging)))
+							 (, ,)
+							 (CP-REL (WNP-1 (WPRO which))
+								 (C 0)
+								 (IP-SUB (NP-SBJ *T*-1)
+									 (BED were)
+									 (PP (P in)
+									     (NP (D a) (ADJ wretched) (N Condition)))
+									 (, ,)
+									 (IP-PPL-ABS (NP-SBJ (PRO$ our)
+											     (NS Shrouds)
+											     (CONJP (CONJ and)
+												    (NX (N+NS Chain-plates))))
+										     (BAG being)
+										     (VAN broke)))))))))))
+	  (. ;))
+  (ID OFFICER-1744,222.201))
+
+/~*
+we were upwards of two Hours hawling the Mainyard up by the Captain, our Men
+being so very weak.
+(OFFICER-1744,222.211)
+*~/
+/*
+44 BAG:  44 BAG, 45 being, 38 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO we))
+	  (BED were)
+	  (NP-MSR (NUMP (RP+WARD upwards)
+			(PP (P of)
+			    (NP (NUM two) (NS Hours)))))
+	  (VAG hawling)
+	  (NP-OB1 (D the) (N Mainyard))
+	  (RP up)
+	  (PP (P by)
+	      (NP (D the) (N Captain)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ our) (NS Men))
+		      (BAG being)
+		      (ADJP (ADVP (ADVR so) (ADV very))
+			    (ADJ weak)))
+	  (. .))
+  (ID OFFICER-1744,222.211))
+
+/~*
+and sometimes it was almost impossible, the Ship being very leaky when it
+blows;
+(OFFICER-1744,222.215)
+*~/
+/*
+25 BAG:  25 BAG, 26 being, 19 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-TMP (Q+NS sometimes))
+	  (NP-SBJ (PRO it))
+	  (BED was)
+	  (ADJP (ADV almost) (ADJ impossible))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N Ship))
+		      (BAG being)
+		      (ADJP (ADV very) (ADJ leaky))
+		      (PP (P when)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (PRO it))
+					  (VBP blows)))))
+	  (. ;))
+  (ID OFFICER-1744,222.215))
+
+/~*
+we likewise shipped a very great Sea, the Ship being in a very deplorable
+Condition for want of Sails, Yards and Water for the few Men that we had left.
+(OFFICER-1744,224.240)
+*~/
+/*
+28 BAG:  28 BAG, 29 being, 22 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO we))
+	  (NP-ADV (ADJ+N likewise))
+	  (VBD shipped)
+	  (NP-OB1 (D a)
+		  (ADJP (ADV very) (ADJ great))
+		  (N Sea))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N Ship))
+		      (BAG being)
+		      (PP (P in)
+			  (NP (D a)
+			      (ADJP (ADV very) (ADJ deplorable))
+			      (N Condition)))
+		      (PP (P for)
+			  (NP (N want)
+			      (PP (P of)
+				  (NP (NS Sails) (, ,) (NS Yards) (CONJ and) (N Water)))))
+		      (PP (P for)
+			  (NP (D the)
+			      (Q few)
+			      (NS Men)
+			      (CP-REL (WNP-1 0)
+				      (C that)
+				      (CODE <P_224>)
+				      (IP-SUB (NP-SBJ (PRO we))
+					      (HVD had)
+					      (IP-SMC (NP-SBJ *T*-1)
+						      (VAN left)))))))
+	  (. .))
+  (ID OFFICER-1744,224.240))
+
+/~*
+Our Men being extreamly ill we had not Hands to work the Ship.
+(OFFICER-1744,224.248)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (PRO$ Our) (NS Men))
+		      (BAG being)
+		      (ADJP (ADV extreamly) (ADJ ill)))
+	  (NP-SBJ (PRO we))
+	  (HVD had)
+	  (NEG not)
+	  (NP-OB1 (NS Hands)
+		  (CP-EOP (WNP-1 0)
+			  (IP-INF (NP-SBJ *T*-1)
+				  (TO to)
+				  (VB work)
+				  (NP-OB1 (D the) (N Ship)))))
+	  (. .))
+  (ID OFFICER-1744,224.248))
+
+/~*
+This proving a fine Day we got up every body that was capable of coming upon
+the Deck,
+(OFFICER-1744,224.258)
+*~/
+/*
+6 VAG:  6 VAG, 7 proving, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D This))
+		      (VAG proving)
+		      (NP-OB1 (D a) (ADJ fine) (N Day)))
+	  (NP-SBJ (PRO we))
+	  (VBD got)
+	  (RP up)
+	  (NP-OB1 (Q every)
+		  (N body)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (ADJP (ADJ capable)
+					(PP (P of)
+					    (IP-PPL (VAG coming)))))))
+	  (PP (P upon)
+	      (NP (D the) (N Deck)))
+	  (. ,))
+  (ID OFFICER-1744,224.258))
+
+/~*
+Our Men extremely ill, very few being able to work the Ship.
+(OFFICER-1744,224.268)
+*~/
+/*
+21 BAG:  21 BAG, 22 being, 14 IP-PPL-ABS
+*/
+
+( (IP-ABS (NP-SBJ (PRO$ Our) (NS Men))
+	  (ADJP (ADV extremely) (ADJ ill))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (QP (ADV very) (Q few)))
+		      (BAG being)
+		      (ADJP (ADJ able)
+			    (IP-INF (TO to)
+				    (VB work)
+				    (NP-OB1 (D the) (N Ship)))))
+	  (. .))
+  (ID OFFICER-1744,224.268))
+
+/~*
+We at first catch'd very few Goats, not knowing how to come at them, they
+taking Shelter upon the Mountains and amongst the Rocks for fear of the Dogs;
+(OFFICER-1744,227.319)
+*~/
+/*
+51 VAG:  51 VAG, 52 taking, 47 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (PP (P at)
+	      (ADVP (ADV first)))
+	  (VBD catch'd)
+	  (NP-OB1 (QP (ADV very) (Q few))
+		  (NS Goats))
+	  (, ,)
+	  (IP-PPL (NEG not)
+		  (VAG knowing)
+		  (CP-QUE (WADVP-1 (WADV how))
+			  (IP-INF (ADVP *T*-1)
+				  (TO to)
+				  (VB come)
+				  (PP (P at)
+				      (NP (PRO them)))))
+		  (, ,)
+		  (IP-PPL-ABS (NP-SBJ (PRO they))
+			      (VAG taking)
+			      (NP-OB1 (N Shelter))
+			      (PP (PP (P upon)
+				      (NP (D the) (NS Mountains)))
+				  (CONJP (CONJ and)
+					 (PP (P amongst)
+					     (NP (D the) (NS Rocks)))))
+			      (PP (P for)
+				  (NP (N fear)
+				      (PP (P of)
+					  (NP (D the) (NS Dogs)))))))
+	  (. ;))
+  (ID OFFICER-1744,227.319))
+
+/~*
+they are very large, some of them being near twice the Bigness of a Horse;
+(OFFICER-1744,228.330)
+*~/
+/*
+24 BAG:  24 BAG, 25 being, 14 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO they))
+	  (BEP are)
+	  (ADJP (ADV very) (ADJ large))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (Q some)
+			      (PP (P of)
+				  (NP (PRO them))))
+		      (BAG being)
+		      (NP-OB1 (NP-MSR (ADJ near) (NUM twice))
+			      (D the)
+			      (N Bigness)
+			      (PP (P of)
+				  (NP (D a) (N Horse)))))
+	  (. ;))
+  (ID OFFICER-1744,228.330))
+
+/~*
+the two foremost, which are about half a Yard long, serve them, when ashore,
+to stump along, drawing their hinder Part after them, the two hindermost being
+only of use to them in the Water;
+(OFFICER-1744,228.332)
+*~/
+/*
+87 BAG:  87 BAG, 88 being, 79 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D the)
+		  (NUM two)
+		  (ADJ foremost)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (ADJP (NP-MSR (ADV about) (Q half) (D a) (N Yard))
+					(ADJ long)))))
+	  (, ,)
+	  (VBP serve)
+	  (NP-OB1 (PRO them))
+	  (, ,)
+	  (PP (P when)
+	      (PP (P+N ashore)))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB stump)
+		      (ADVP (ADV along))
+		      (, ,)
+		      (IP-PPL (VAG drawing)
+			      (NP-OB1 (PRO$ their) (ADJ hinder) (N Part))
+			      (PP (P after)
+				  (NP (PRO them)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-TMP (D the) (NUM two) (N hindermost))
+		      (BAG being)
+		      (PP (FP only)
+			  (P of)
+			  (NP (N use)
+			      (PP (P to)
+				  (NP (PRO them)))))
+		      (PP (P in)
+			  (NP (D the) (N Water))))
+	  (. ;))
+  (ID OFFICER-1744,228.332))
+
+/~*
+their Prey is all in the Water, their Food being Fish,
+(OFFICER-1744,228.335)
+*~/
+/*
+27 BAG:  27 BAG, 28 being, 21 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ their) (N Prey))
+	  (BEP is)
+	  (Q all)
+	  (PP (P in)
+	      (NP (D the) (N Water)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ their) (N Food))
+		      (BAG being)
+		      (NP-OB1 (N Fish)))
+	  (. ,))
+  (ID OFFICER-1744,228.335))
+
+/~*
+and produce a considerable Quantity of Oil, some of which we used in our Lamps,
+and also in frying our Fish, it having no unpleasant Taste.
+(OFFICER-1744,228.341)
+*~/
+/*
+77 HAG:  77 HAG, 78 having, 73 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP produce)
+	  (NP-OB1 (D a)
+		  (ADJ considerable)
+		  (N Quantity)
+		  (PP (P of)
+		      (NP (N Oil)
+			  (, ,)
+			  (CP-REL (WNP-1 (Q some)
+					 (WPP (P of)
+					      (WNP (WPRO which))))
+				  (C 0)
+				  (IP-SUB (IP-SUB-2 (NP-OB1 *T*-1)
+						    (NP-SBJ (PRO we))
+						    (VBD used)
+						    (PP (P in)
+							(NP (PRO$ our) (NS Lamps))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB=2 (ALSO also)
+							   (PP (P in)
+							       (IP-PPL (VAG frying)
+								       (NP-OB1 (PRO$ our) (N Fish))))
+							   (, ,)
+							   (IP-PPL-ABS (NP-SBJ (PRO it))
+								       (HAG having)
+								       (NP-OB1 (Q no) (ADJ unpleasant) (N Taste))))))))))
+	  (. .))
+  (ID OFFICER-1744,228.341))
+
+/~*
+but they being heavy unweildy Creatures, and we assaulting them before and
+behind, and all round, generally conquer'd them in the end,
+(OFFICER-1744,229.352)
+*~/
+/*
+9 BAG:  9 BAG, 10 being, 4 IP-PPL-ABS
+27 VAG:  27 VAG, 28 assaulting, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (PRO they))
+			      (BAG being)
+			      (NP-OB1 (ADJ heavy) (ADJ unweildy) (NS Creatures)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (PRO we))
+				     (VAG assaulting)
+				     (NP-OB1 (PRO them))
+				     (ADVP (ADVP (ADV before) (CONJ and) (ADV behind))
+					   (, ,)
+					   (CONJP (CONJ and)
+						  (ADVP (Q all) (ADV round)))))))
+	  (, ,)
+	  (NP-SBJ *pro*)
+	  (ADVP (ADV generally))
+	  (VBD conquer'd)
+	  (NP-OB1 (PRO them))
+	  (PP (P in)
+	      (NP (D the) (N end)))
+	  (. ,))
+  (ID OFFICER-1744,229.352))
+
+/~*
+The Body of the Tree is small and strait, and of a prodigious Length, some
+Trees being 70 or 80 Foot long with several Knots or Joints, about four Inches
+from each other, without any Leaves except at the Top, in the midst of which
+the Cabbage is contained, which when boiled is as good as any Garden Cabbage;
+(OFFICER-1744,231.395)
+*~/
+/*
+50 BAG:  50 BAG, 51 being, 44 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Body)
+		  (PP (P of)
+		      (NP (D the) (N Tree))))
+	  (BEP is)
+	  (ADJP (ADJP (ADJ small) (CONJ and) (ADJ strait))
+		(, ,)
+		(CONJP (CONJ and)
+		       (PP (P of)
+			   (NP (D a) (ADJ prodigious) (N Length)))))
+	  (, ,)
+	  (CODE <paren>)
+	  (IP-PPL-ABS (NP-SBJ (Q some) (NS Trees))
+		      (BAG being)
+		      (ADJP (NP-MSR (NUMP (NUM 70) (CONJ or) (NUM 80))
+				    (N Foot))
+			    (ADJ long)))
+	  (CODE <$$paren>)
+	  (PP (P with)
+	      (NP (Q several)
+		  (NS Knots)
+		  (CONJP (CONJ or)
+			 (NX (NS Joints)))
+		  (, ,)
+		  (ADJP (NP-MSR (NUMP (ADV about) (NUM four))
+				(NS Inches))
+			(PP (P from)
+			    (NP (Q each) (OTHER other))))))
+	  (, ,)
+	  (PP (P without)
+	      (NP (Q any)
+		  (NS Leaves)
+		  (PP (P except)
+		      (PP (P at)
+			  (NP (D the)
+			      (N Top)
+			      (, ,)
+			      (CP-REL (WPP-1 (P in)
+					     (WNP (D the)
+						  (N midst)
+						  (WPP (P of)
+						       (WNP (WPRO which)))))
+				      (C 0)
+				      (IP-SUB (PP *T*-1)
+					      (NP-SBJ (D the)
+						      (N Cabbage)
+						      (CP-REL *ICH*-2))
+					      (BEP is)
+					      (VAN contained)
+					      (, ,)
+					      (CP-REL-2 (WNP-3 (WPRO which))
+							(C 0)
+							(IP-SUB (NP-SBJ *T*-3)
+								(PP (P when)
+								    (IP-PPL (VAN boiled)))
+								(BEP is)
+								(ADJP (ADVR as)
+								      (ADJ good)
+								      (PP (P as)
+									  (NP (Q any) (N Garden) (N Cabbage)))))))))))))
+	  (. ;))
+  (ID OFFICER-1744,231.395))
+
+/~*
+We now begin to find a great Alteration in our sick People, they beginning to
+recover, which we impute to their eating Fish and Greens in great Plenty;
+those who have any Appetite, recovering in a short time, but those who have
+none dying, their Disorder having gain'd too much Ground upon them.
+(OFFICER-1744,233.429)
+*~/
+/*
+40 VAG:  40 VAG, 41 beginning, 36 IP-PPL-ABS
+112 VAG:  112 VAG, 113 recovering, 89 IP-PPL-ABS
+147 VAG:  147 VAG, 148 dying, 89 IP-PPL-ABS
+157 HAG:  157 HAG, 158 having, 151 IP-PPL-ABS
+157 HAG:  157 HAG, 158 having, 89 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (ADVP-TMP (ADV now))
+	  (VBP begin)
+	  (IP-INF (TO to)
+		  (VB find)
+		  (NP-OB1 (D a)
+			  (ADJ great)
+			  (N Alteration)
+			  (CP-REL *ICH*-1))
+		  (PP (P in)
+		      (NP (PRO$ our) (ADJ sick) (NS People)))
+		  (, ,)
+		  (IP-PPL-ABS (NP-SBJ (PRO they))
+			      (VAG beginning)
+			      (IP-INF (TO to) (VB recover)))
+		  (, ,)
+		  (CP-REL-1 (WNP-2 (WPRO which))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO we))
+				    (VBP impute)
+				    (PP (P to)
+					(NP (PRO$ their)
+					    (IP-PPL (VAG eating)
+						    (NP-OB1 (N Fish) (CONJ and) (NS Greens))
+						    (PP (P in)
+							(NP (ADJ great) (N Plenty))))))
+				    (, ;)
+				    (IP-PPL-ABS (IP-PPL (NP-SBJ (D those)
+								(CP-REL (WNP-3 (WPRO who))
+									(C 0)
+									(IP-SUB (NP-SBJ *T*-3)
+										(HVP have)
+										(NP-OB1 (Q any) (N Appetite)))))
+							(, ,)
+							(VAG recovering)
+							(PP (P in)
+							    (NP (D a) (ADJ short) (N time))))
+						(, ,)
+						(CONJP (CONJ but)
+						       (IP-PPL (NP-SBJ (D those)
+								       (CP-REL (WNP-4 (WPRO who))
+									       (C 0)
+									       (IP-SUB (NP-SBJ *T*-4)
+										       (HVP have)
+										       (NP-OB1 (Q none)))))
+							       (VAG dying)
+							       (, ,)
+							       (IP-PPL-ABS (NP-SBJ (PRO$ their) (N Disorder))
+									   (HAG having)
+									   (VBN gain'd)
+									   (NP-OB1 (QP (ADVR too) (Q much))
+										   (N Ground))
+									   (PP (P upon)
+									       (NP (PRO them))))))))))
+	  (. .))
+  (ID OFFICER-1744,233.429))
+
+/~*
+The Weather being very Fair, we saw a Sail, which proved to be the Gloucester;
+on which the Commodore order'd the Cutter on Board, with the first Lieutenant,
+who carried with him some Fish and Water, which was very acceptable, they
+being for some Time past at the Allowance of only a Pint a Day;
+(OFFICER-1744,233.442)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 2 IP-PPL-ABS
+152 BAG:  152 BAG, 153 being, 148 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D The) (N Weather))
+		      (BAG being)
+		      (ADJP (ADV very) (ADJ Fair)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD saw)
+	  (NP-OB1 (D a)
+		  (N Sail)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD proved)
+				  (IP-INF (TO to)
+					  (BE be)
+					  (NP-OB1 (D the) (CODE <font>) (NPR Gloucester))))))
+	  (CODE <$$font>)
+	  (, ;)
+	  (CP-CAR (WPP-2 (P on)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (D the) (N Commodore))
+			  (VBD order'd)
+			  (NP-OB1 (D the) (N Cutter))
+			  (PP (P on)
+			      (NP (N Board)))
+			  (, ,)
+			  (PP (P with)
+			      (NP (D the)
+				  (ADJ first)
+				  (N Lieutenant)
+				  (, ,)
+				  (CP-REL (WNP-3 (WPRO who))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-3)
+						  (VBD carried)
+						  (PP (P with)
+						      (NP (PRO him)))
+						  (NP-OB1 (Q some)
+							  (N Fish)
+							  (CONJP (CONJ and)
+								 (NX (N Water)))
+							  (, ,)
+							  (CP-REL (WNP-4 (WPRO which))
+								  (C 0)
+								  (IP-SUB (NP-SBJ *T*-4)
+									  (BED was)
+									  (ADJP (ADV very) (ADJ acceptable))
+									  (, ,)
+									  (IP-PPL-ABS (NP-SBJ (PRO they))
+										      (BAG being)
+										      (PP (P for)
+											  (NP (Q some)
+											      (N Time)
+											      (RRC (VBN past))))
+										      (PP (P at)
+											  (NP (D the)
+											      (N Allowance)
+											      (PP (P of)
+												  (NP (FP only)
+												      (D a)
+												      (N Pint)
+												      (NP-MSR (D a) (N Day))))))))))))))))
+	  (. ;))
+  (ID OFFICER-1744,233.442))
+
+/~*
+and their People being in so weakly a Condition, the Captain was obliged to
+detain our Lieutenant and Crew to help to work the Ship.
+(OFFICER-1744,233.443)
+*~/
+/*
+10 BAG:  10 BAG, 11 being, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ their) (NS People))
+		      (BAG being)
+		      (PP (P in)
+			  (NP (ADJP (ADVR so) (ADJ weakly))
+			      (D a)
+			      (N Condition))))
+	  (, ,)
+	  (NP-SBJ (D the) (N Captain))
+	  (BED was)
+	  (VAN obliged)
+	  (IP-INF (TO to)
+		  (VB detain)
+		  (NP-OB1 (PRO$ our)
+			  (N Lieutenant)
+			  (CONJP (CONJ and)
+				 (NX (N Crew)))
+			  (CP-EOP (WNP-1 0)
+				  (IP-INF (NP-SBJ *T*-1)
+					  (TO to)
+					  (VB help)
+					  (IP-INF (TO to)
+						  (VB work)
+						  (NP-OB1 (D the) (N Ship)))))))
+	  (. .))
+  (ID OFFICER-1744,233.443))
+
+/~*
+but they finding her to drive and not go a-head, they sent our Lieutenant in
+our Cutter to desire more Assistance.
+(OFFICER-1744,234.469)
+*~/
+/*
+8 VAG:  8 VAG, 9 finding, 4 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (IP-PPL-ABS (NP-SBJ (PRO they))
+		      (VAG finding)
+		      (IP-INF (IP-INF-1 (NP-SBJ (PRO her))
+					(TO to)
+					(VB drive))
+			      (CONJP (CONJ and)
+				     (IP-INF=1 (NEG not)
+					       (VB go)
+					       (PP (P+N a-head))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBD sent)
+	  (NP-OB1 (PRO$ our) (N Lieutenant))
+	  (PP (P in)
+	      (NP (PRO$ our) (N Cutter)))
+	  (IP-INF-PRP (TO to)
+		      (VB desire)
+		      (NP-OB1 (QR more) (N Assistance)))
+	  (. .))
+  (ID OFFICER-1744,234.469))
+
+/~*
+and made a Signal of Distress, she having at that Time, as we were afterwards
+informed, but one Puncheon of Water left.
+(OFFICER-1744,235.486)
+*~/
+/*
+25 HAG:  25 HAG, 26 having, 21 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD made)
+	  (NP-OB1 (D a)
+		  (N Signal)
+		  (PP (P of)
+		      (NP (N Distress))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO she))
+		      (HAG having)
+		      (PP (P at)
+			  (NP (D that) (N Time)))
+		      (, ,)
+		      (PP (P as)
+			  (CP-ADV (WADVP-1 0)
+				  (C 0)
+				  (IP-SUB (ADVP *T*-1)
+					  (NP-SBJ (PRO we))
+					  (BED were)
+					  (ADVP-TMP (ADV+WARD afterwards))
+					  (VAN informed))))
+		      (, ,)
+		      (IP-SMC (NP-SBJ (FP but)
+				      (ONE one)
+				      (N Puncheon)
+				      (PP (P of)
+					  (NP (N Water))))
+			      (VAN left)))
+	  (. .))
+  (ID OFFICER-1744,235.486))
+
+/~*
+but she returned without being able to get at any, tho' they saw several
+Streams; the Wind blowing so strong on the Shore as caused a great Surff that
+hinder'd their landing;
+(OFFICER-1744,236.499)
+*~/
+/*
+56 VAG:  56 VAG, 57 blowing, 50 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO she))
+	  (VBD returned)
+	  (PP (P without)
+	      (IP-PPL (BAG being)
+		      (ADJP (ADJ able)
+			    (IP-INF (TO to)
+				    (VB get)
+				    (PP (P at)
+					(NP (Q any)))))))
+	  (, ,)
+	  (PP (P tho')
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (VBD saw)
+			      (NP-OB1 (Q several) (NS Streams)))))
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (D the) (N Wind))
+		      (VAG blowing)
+		      (ADVP (ADVR so)
+			    (ADV strong)
+			    (CP-DEG *ICH*-1))
+		      (PP (P on)
+			  (NP (D the) (N Shore)))
+		      (CP-DEG-1 (C as)
+				(IP-SUB (NP-SBJ *exp*)
+					(VBD caused)
+					(NP-OB1 (D a)
+						(ADJ great)
+						(N Surff)
+						(CODE {COM:sic})
+						(CP-REL (WNP-2 0)
+							(C that)
+							(IP-SUB (NP-SBJ *T*-2)
+								(VBD hinder'd)
+								(NP-OB1 (PRO$ their) (N landing))))))))
+	  (. ;))
+  (ID OFFICER-1744,236.499))
+
+/~*
+The Commodore sent our Boat with the second Lieutenant to assist her in
+mooring, her Crew not being able to do it, all their Men being sick but three
+or four, and a few Boys.
+(OFFICER-1744,236.505)
+*~/
+/*
+48 BAG:  48 BAG, 49 being, 40 IP-PPL-ABS
+71 BAG:  71 BAG, 72 being, 63 IP-PPL-ABS
+71 BAG:  71 BAG, 72 being, 40 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N Commodore))
+	  (VBD sent)
+	  (NP-OB1 (PRO$ our) (N Boat))
+	  (PP (P with)
+	      (NP (D the) (ADJ second) (N Lieutenant)))
+	  (IP-INF-PRP (TO to)
+		      (VB assist)
+		      (NP-OB1 (PRO her))
+		      (PP (P in)
+			  (IP-PPL (VAG mooring))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ her) (N Crew))
+		      (NEG not)
+		      (BAG being)
+		      (ADJP (ADJ able)
+			    (IP-INF (TO to)
+				    (DO do)
+				    (NP-OB1 (PRO it))))
+		      (, ,)
+		      (IP-PPL-ABS (NP-SBJ (Q all) (PRO$ their) (NS Men))
+				  (BAG being)
+				  (ADJP (ADJ sick))
+				  (PP (P but)
+				      (NP (NP (NUMP (NUM three) (CONJ or) (NUM four)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (QP (D a) (Q few))
+						     (NS Boys)))))))
+	  (. .))
+  (ID OFFICER-1744,236.505))
+
+/~*
+Nothing remarkable happened till the 5th of August; we being still employed in
+repairing our Ships and Rigging, and getting on Board Water and other
+Necessaries.
+(OFFICER-1744,237.522)
+*~/
+/*
+34 BAG:  34 BAG, 35 being, 30 IP-PPL-ABS
+46 VAG:  46 VAG, 47 repairing, 30 IP-PPL-ABS
+65 VAG:  65 VAG, 66 getting, 30 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (Q+N Nothing)
+		  (ADJP (ADJ remarkable)))
+	  (VBD happened)
+	  (PP (P till)
+	      (NP (D the)
+		  (ADJ 5th)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR August)))))
+	  (CODE <$$font>)
+	  (, ;)
+	  (IP-PPL-ABS (NP-SBJ (PRO we))
+		      (BAG being)
+		      (ADVP-TMP (ADV still))
+		      (VAN employed)
+		      (PP (P in)
+			  (IP-PPL (IP-PPL (VAG repairing)
+					  (NP-OB1 (PRO$ our)
+						  (NS Ships)
+						  (CONJP (CONJ and)
+							 (NX (N Rigging)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-PPL (VAG getting)
+						 (PP (P on)
+						     (NP (N Board)))
+						 (NP-OB1 (NP (N Water))
+							 (CONJP (CONJ and)
+								(NP (OTHER other) (NS Necessaries)))))))))
+	  (. .))
+  (ID OFFICER-1744,237.522))
+
+/~*
+but in about half an Hour after she put out, she made a Signal of Distress, on
+which we sent our Boats off to assist her, she being driven with a strong
+Current, and the Wind blowing towards Land, almost on a Rock;
+(OFFICER-1744,237.526)
+*~/
+/*
+88 BAG:  88 BAG, 89 being, 84 IP-PPL-ABS
+114 VAG:  114 VAG, 115 blowing, 84 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P in)
+	      (NP (ADV about)
+		  (Q half)
+		  (D an)
+		  (N Hour)
+		  (PP (P after)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO she))
+				      (VBP put)
+				      (RP out))))))
+	  (, ,)
+	  (NP-SBJ (PRO she))
+	  (VBD made)
+	  (NP-OB1 (D a)
+		  (N Signal)
+		  (PP (P of)
+		      (NP (N Distress))))
+	  (, ,)
+	  (CP-CAR (WPP-1 (P on)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO we))
+			  (VBD sent)
+			  (NP-OB1 (PRO$ our) (NS Boats))
+			  (RP off)
+			  (IP-INF-PRP (TO to)
+				      (VB assist)
+				      (NP-OB1 (PRO her)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO she))
+		      (BAG being)
+		      (VAN driven)
+		      (PP (P with)
+			  (NP (NP (D a) (ADJ strong) (N Current))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-PPL (NP-SBJ (D the) (N Wind))
+					     (VAG blowing)))))
+		      (PP (P towards)
+			  (NP (N Land)))
+		      (, ,)
+		      (PP (ADV almost)
+			  (P on)
+			  (NP (D a) (N Rock))))
+	  (. ;))
+  (ID OFFICER-1744,237.526))
+
+/~*
+After leaving Orders for the Gloucester as soon as she was $refitted to follow
+us, and likewise for destroying the Anne Pink, she having been condemn'd which,
+as we were informed was accordingly done, after having taken her Masts out,
+and whatever else was thought necessary, on the twenty eighth of September, by
+towing her ashore, and skuttling her, and afterwards setting her on Fire we
+and our Spanish Prize sailed from the Island of Juan Fernandez.
+(OFFICER-1744,239.568)
+*~/
+/*
+90 HAG:  90 HAG, 91 having, 86 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P After)
+	      (IP-PPL (IP-PPL-1 (VAG leaving)
+				(NP-OB1 (NS Orders)
+					(IP-INF (FOR for)
+						(NP-SBJ (D the) (CODE <font>) (NPR Gloucester))
+						(CODE <$$font>)
+						(ADVP-TMP (ADVR as)
+							  (ADV soon)
+							  (PP (P as)
+							      (CP-CMP (WADVP-2 0)
+								      (C 0)
+								      (IP-SUB (ADVP-TMP *T*-2)
+									      (NP-SBJ (PRO she))
+									      (BED was)
+									      (VAN $refitted)))))
+						(CODE {TEXT:re_fitted})
+						(TO to)
+						(VB follow)
+						(NP-OB1 (PRO us)))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=1 (NP-ADV (ADJ+N likewise))
+				       (PP (P for)
+					   (IP-PPL (VAG destroying)
+						   (NP-OB1 (D the)
+							   (CODE <font>)
+							   (NPR Anne)
+							   (CODE <$$font>)
+							   (CODE {COM:sic})
+							   (NPR Pink))
+						   (, ,)
+						   (IP-PPL-ABS (NP-SBJ (PRO she))
+							       (HAG having)
+							       (BEN been)
+							       (VAN condemn'd))
+						   (CODE <paren>)
+						   (CP-CAR (WNP-3 (WPRO which))
+							   (, ,)
+							   (C 0)
+							   (IP-SUB (NP-SBJ *T*-3)
+								   (PP (P as)
+								       (CP-ADV (WADVP-4 0)
+									       (C 0)
+									       (IP-SUB (ADVP *T*-4)
+										       (NP-SBJ (PRO we))
+										       (BED were)
+										       (VAN informed))))
+								   (BED was)
+								   (ADVP (ADV accordingly))
+								   (DAN done)
+								   (, ,)
+								   (PP (P after)
+								       (IP-PPL (HAG having)
+									       (VBN taken)
+									       (NP-OB1 (NP (PRO$ her) (NS Masts))
+										       (CONJP *ICH*-5))
+									       (RP out)
+									       (, ,)
+									       (CONJP-5 (CONJ and)
+											(NP (CP-FRL (WNP-6 (WPRO+ADV whatever)
+													   (ADJP (ADJ else)))
+												    (C 0)
+												    (IP-SUB (NP-SBJ *T*-6)
+													    (BED was)
+													    (VAN thought)
+													    (IP-SMC (NP-SBJ *-6)
+														    (ADJP (ADJ necessary)))))))))
+								   (, ,)
+								   (PP (P on)
+								       (NP (D the)
+									   (NUM twenty)
+									   (ADJ eighth)
+									   (PP (P of)
+									       (CODE <font>)
+									       (NP (NPR September)))))
+								   (CODE <$$font>)
+								   (, ,)
+								   (PP (P by)
+								       (IP-PPL (IP-PPL (VAG towing)
+										       (NP-OB1 (PRO her))
+										       (PP (P+N ashore)))
+									       (, ,)
+									       (CONJP (CONJ and)
+										      (IP-PPL (VAG skuttling)
+											      (NP-OB1 (PRO her))))
+									       (, ,)
+									       (CONJP (CONJ and)
+										      (IP-PPL (ADVP-TMP (ADV+WARD afterwards))
+											      (VAG setting)
+											      (NP-OB1 (PRO her))
+											      (PP (P on)
+												  (NP (N Fire)))))))))))))))
+	  (CODE <$$paren>)
+	  (NP-SBJ (NP (PRO we))
+		  (CONJP (CONJ and)
+			 (NP (PRO$ our) (CODE <font>) (ADJ Spanish) (CODE <$$font>) (N Prize))))
+	  (VBD sailed)
+	  (PP (P from)
+	      (NP (D the)
+		  (N Island)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Juan) (NPR Fernandez)))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID OFFICER-1744,239.568))
+
+/~*
+for he followed it with so much Eagerness that he catched hold of it on the
+Brink of a Precipice, of which he was not aware, the Bushes hiding it from him,
+so that he fell with the Goat down a great Height, and was so stunned and
+bruised with the Fall, that he narrowly escaped with his Life;
+(OFFICER-1744,241.604)
+*~/
+/*
+91 VAG:  91 VAG, 92 hiding, 85 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO he))
+	  (VBD followed)
+	  (NP-OB1 (PRO it))
+	  (PP (P with)
+	      (NP (QP (ADVR so)
+		      (Q much)
+		      (CP-DEG *ICH*-1))
+		  (N Eagerness)
+		  (CP-DEG-1 (C that)
+			    (IP-SUB (NP-SBJ (PRO he))
+				    (VBD catched)
+				    (NP-OB1 (N hold)
+					    (PP (P of)
+						(NP (PRO it))))
+				    (PP (P on)
+					(NP (D the)
+					    (N Brink)
+					    (PP (P of)
+						(NP (D a)
+						    (N Precipice)
+						    (, ,)
+						    (CP-REL (WPP-2 (P of)
+								   (WNP (WPRO which)))
+							    (C 0)
+							    (IP-SUB (NP-SBJ (PRO he))
+								    (BED was)
+								    (NEG not)
+								    (ADJP (ADJ aware)
+									  (PP *T*-2))
+								    (, ,)
+								    (IP-PPL-ABS (NP-SBJ (D the) (NS Bushes))
+										(VAG hiding)
+										(NP-OB1 (PRO it))
+										(PP (P from)
+										    (NP (PRO him))))))))))
+				    (, ,)
+				    (PP (P so)
+					(CP-ADV (C that)
+						(IP-SUB (IP-SUB (NP-SBJ (PRO he))
+								(VBD fell)
+								(PP (P with)
+								    (NP (D the) (N Goat)))
+								(PP (P down)
+								    (NP (D a) (ADJ great) (N Height))))
+							(, ,)
+							(CONJP (CONJ and)
+							       (IP-SUB (NP-SBJ *con*)
+								       (BED was)
+								       (ADJP (ADVR so)
+									     (VAN stunned)
+									     (CONJP (CONJ and)
+										    (ADJX (VAN bruised)))
+									     (CP-DEG *ICH*-3))
+								       (PP (P with)
+									   (NP (D the) (N Fall)))
+								       (, ,)
+								       (CP-DEG-3 (C that)
+										 (IP-SUB (NP-SBJ (PRO he))
+											 (ADVP (ADV narrowly))
+											 (VBD escaped)
+											 (PP (P with)
+											     (NP (PRO$ his) (N Life))))))))))))))
+	  (. ;))
+  (ID OFFICER-1744,241.604))
+
+/~*
+and gave chase, she standing to the S.E.
+(OFFICER-1744,246.692)
+*~/
+/*
+17 VAG:  17 VAG, 18 standing, 13 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD gave)
+	  (NP-OB1 (N chase))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO she))
+		      (VAG standing)
+		      (PP (P to)
+			  (NP (D the) (N+N S.E.)))))
+  (ID OFFICER-1744,246.692))
+
+/~*
+At one in the Afternoon the Chair of Payta being distant about 6 Leagues, we
+mann'd two of our Boats, one with 18 Oars, the other with 8 Oars, and likewise
+the Tryal 's Prize Boat with 8 Oars,
+(OFFICER-1744,247.742)
+*~/
+/*
+33 BAG:  33 BAG, 34 being, 17 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P At)
+			(NP (ONE one)))
+		    (PP (P in)
+			(NP (D the) (N Afternoon)))
+		    (IP-PPL-ABS (NP-SBJ (D the)
+					(N Chair)
+					(PP (P of)
+					    (CODE <font>)
+					    (NP (NPR Payta))))
+				(CODE <$$font>)
+				(BAG being)
+				(ADJP-LOC (ADJ distant)
+					  (NP-MSR (NUMP (ADV about) (NUM 6))
+						  (NS Leagues))))
+		    (, ,)
+		    (NP-SBJ (PRO we))
+		    (VBD mann'd)
+		    (NP-OB1 (NUM two)
+			    (PP (P of)
+				(NP (PRO$ our) (NS Boats)))
+			    (, ,)
+			    (NP-PRN (NP (ONE one)
+					(PP (P with)
+					    (NP (NUM 18) (NS Oars))))
+				    (, ,)
+				    (CONJP (NP (D the)
+					       (OTHER other)
+					       (PP (P with)
+						   (NP (NUM 8) (NS Oars))))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-ADV (ADJ+N likewise))
+			   (NP-OB1 (NP-POS (D the) (CODE <font>) (NPR Tryal) (CODE <$$font>) ($ 's))
+				   (N Prize)
+				   (N Boat)
+				   (PP (P with)
+				       (NP (NUM 8) (NS Oars))))))
+	  (. ,))
+  (ID OFFICER-1744,247.742))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	52/38/761
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd
+*/
+
+/~*
+this ceremony, like those of masonry, being conducted to the sound of music.
+(READE-1863,207.87)
+*~/
+/*
+23 BAG:  23 BAG, 24 being, 1 IP-PPL-ABS
+*/
+
+( (IP-PPL-ABS (NP-SBJ (D this) (N ceremony))
+	      (, ,)
+	      (ADJP-SPR (ADJ like)
+			(NP (D those)
+			    (PP (P of)
+				(NP (N masonry)))))
+	      (, ,)
+	      (BAG being)
+	      (VAN conducted)
+	      (PP (P to)
+		  (NP (D the)
+		      (N sound)
+		      (PP (P of)
+			  (NP (N music)))))
+	      (. .))
+  (ID READE-1863,207.87))
+
+/~*
+Twice only I remember having heard it:
+(READE-1863,210.174)
+*~/
+/*
+13 HAG:  13 HAG, 14 having, 12 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-TMP (NUM Twice) (FP only))
+	  (NP-SBJ (PRO I))
+	  (VBP remember)
+	  (IP-PPL-ABS (HAG having)
+		      (VBN heard)
+		      (NP-OB1 (PRO it)))
+	  (. :))
+  (ID READE-1863,210.174))
+
+/~*
+Then for ten days or a fortnight there is one perpetual dance to the sound of
+flute and drum, every body who is invited eating and drinking as much as he
+can, Mbwiri being peculiarly averse to good living.
+(READE-1863,210.184)
+*~/
+/*
+76 VAG:  76 VAG, 77 eating, 54 IP-PPL-ABS
+80 VAG:  80 VAG, 81 drinking, 54 IP-PPL-ABS
+110 BAG:  110 BAG, 111 being, 106 IP-PPL-ABS
+110 BAG:  110 BAG, 111 being, 54 IP-PPL-ABS
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (PP (P for)
+	      (NP (NP (NUM ten) (NS days))
+		  (CONJP (CONJ or)
+			 (NP (D a) (N fortnight)))))
+	  (NP-SBJ-1 (EX there))
+	  (BEP is)
+	  (NP-1 (ONE one)
+		(ADJ perpetual)
+		(N dance)
+		(PP (P to)
+		    (NP (D the)
+			(N sound)
+			(PP (P of)
+			    (NP (N flute) (CONJ and) (N drum))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (Q every)
+			      (N body)
+			      (CODE {COM:here_and_passim_sic})
+			      (CP-REL (WNP-2 (WPRO who))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-2)
+					      (BEP is)
+					      (VAN invited))))
+		      (VAG (VAG eating) (CONJ and) (VAG drinking))
+		      (NP-OB1 (QP (ADVR as) (Q much))
+			      (PP (P as)
+				  (CP-CMP (WNP-3 0)
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-3)
+						  (NP-SBJ (PRO he))
+						  (MD can)))))
+		      (, ,)
+		      (IP-PPL-ABS (NP-SBJ (NPR Mbwiri))
+				  (BAG being)
+				  (ADJP (ADV peculiarly)
+					(ADJ averse)
+					(PP (P to)
+					    (NP (ADJ good) (N living))))))
+	  (. .))
+  (ID READE-1863,210.184))
+
+/~*
+The words cider and cidra being so much alike, and this same drink being
+afterward offered to me at other houses in the same manner, I concluded
+crab-apple cider at Prince's Island to hold the same position as gooseberry
+wine in England; and that among certain classes the most undisguised imitation
+is offered with audacity, and received with well-bred ignorance.
+(READE-1863,224.592)
+*~/
+/*
+24 BAG:  24 BAG, 25 being, 2 IP-PPL-ABS
+47 BAG:  47 BAG, 48 being, 2 IP-PPL-ABS
+*/
+
+( (IP-MAT (IP-PPL-ABS (IP-PPL (NP-SBJ (D The)
+				      (NS words)
+				      (CODE <font>)
+				      (NP-PRN (N cider) (CODE <$$font>) (CONJ and) (CODE <font>) (FW cidra)))
+			      (CODE <$$font>)
+			      (BAG being)
+			      (ADJP (QP (ADVR so) (Q much))
+				    (ADJ alike)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (D this) (ADJ same) (N drink))
+				     (BAG being)
+				     (ADVP-TMP (ADV+WARD afterward))
+				     (VAN offered)
+				     (PP (P to)
+					 (NP (PRO me)))
+				     (PP (P at)
+					 (NP (OTHER other) (NS houses)))
+				     (PP (P in)
+					 (NP (D the) (ADJ same) (N manner))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD concluded)
+	  (IP-INF (IP-INF (NP-SBJ (N+N crab-apple) (N cider))
+			  (PP (P at)
+			      (NP (NPR$ Prince's) (NPR Island)))
+			  (TO to)
+			  (VB hold)
+			  (NP-OB1 (D the) (ADJ same) (N position))
+			  (PP (P as)
+			      (NP (N+N gooseberry)
+				  (N wine)
+				  (PP (P in)
+				      (NP (NPR England))))))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (IP-SUB-1 (PP (P among)
+						       (NP (ADJ certain) (NS classes)))
+						   (NP-SBJ (D the)
+							   (ADJP (QS most) (ADJ undisguised))
+							   (N imitation))
+						   (BEP is)
+						   (VAN offered)
+						   (PP (P with)
+						       (NP (N audacity))))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(IP-SUB=1 (VAN received)
+							  (PP (P with)
+							      (NP (ADV+VAN well-bred) (N ignorance)))))))))
+	  (. .))
+  (ID READE-1863,224.592))
+
+/~*
+Joachim told me that every night the girls went to dance at one of the houses,
+a different house being taken each night, the host or hostess providing
+refreshments.
+(READE-1863,224.599)
+*~/
+/*
+56 BAG:  56 BAG, 57 being, 47 IP-PPL-ABS
+80 VAG:  80 VAG, 81 providing, 47 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (NPR Joachim))
+	  (VBD told)
+	  (NP-OB2 (PRO me))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-TMP (Q every) (N night))
+			  (NP-SBJ (D the) (NS girls))
+			  (VBD went)
+			  (IP-INF-PRP (TO to)
+				      (VB dance)
+				      (PP (P at)
+					  (NP (ONE one)
+					      (PP (P of)
+						  (NP (D the) (NS houses)))))
+				      (, ,)
+				      (IP-PPL-ABS (IP-PPL (NP-SBJ (D a) (ADJ different) (N house))
+							  (BAG being)
+							  (VAN taken)
+							  (NP-TMP (Q each) (N night)))
+						  (, ,)
+						  (CONJP (IP-PPL (NP-SBJ (D the)
+									 (N host)
+									 (CONJP (CONJ or)
+										(NX (N hostess))))
+								 (VAG providing)
+								 (NP-OB1 (NS refreshments))))))))
+	  (. .))
+  (ID READE-1863,224.599))
+
+/~*
+At last, in 1693, General Antonio Pereira de Berredo, having commanded Captain
+Mathews Pires to attack them in their mountain strongholds, the expedition
+proved successful;
+(READE-1863,227.685)
+*~/
+/*
+32 HAG:  32 HAG, 33 having, 18 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (P At)
+	      (ADVP (ADV last)))
+	  (, ,)
+	  (PP (P in)
+	      (NP (NUM 1693)))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (NPR General) (NPR Antonio) (NPR Pereira) (NPR de) (NPR Berredo))
+		      (, ,)
+		      (HAG having)
+		      (VBN commanded)
+		      (NP-OB2 (NPR Captain) (NPR Mathews) (NPR Pires))
+		      (IP-INF (TO to)
+			      (VB attack)
+			      (NP-OB1 (PRO them))
+			      (PP (P in)
+				  (NP (PRO$ their) (N mountain) (NS strongholds)))))
+	  (, ,)
+	  (NP-SBJ (D the) (N expedition))
+	  (VBD proved)
+	  (ADJP (ADJ successful))
+	  (. ;))
+  (ID READE-1863,227.685))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	10/6/706
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd
+*/
+
+/~*
+but the latter is least frequently used, white appearing to have an universal
+preference.
+(TURNER2-1800,233.61)
+*~/
+/*
+24 VAG:  24 VAG, 25 appearing, 20 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (D the) (ADJ latter))
+	  (BEP is)
+	  (ADVP (QS least) (ADV frequently))
+	  (VAN used)
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (ADJ white))
+		      (VAG appearing)
+		      (IP-INF (TO to)
+			      (HV have)
+			      (NP-OB1 (D an) (ADJ universal) (N preference))))
+	  (. .))
+  (ID TURNER2-1800,233.61))
+
+/~*
+only as he was yet merely an infant, his spirit having but just returned again
+into the world, he was at present incapable of action, and unable to comfort
+them with his voice.
+(TURNER2-1800,239.133)
+*~/
+/*
+35 HAG:  35 HAG, 36 having, 29 IP-PPL-ABS
+*/
+
+( (IP-MAT (PP (FP only)
+	      (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (BED was)
+			      (ADVP-TMP (ADV yet))
+			      (ADVP (ADV merely))
+			      (NP-OB1 (D an) (N infant)))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ his) (N spirit))
+		      (HAG having)
+		      (ADVP-TMP (FP but) (ADV just))
+		      (VBN returned)
+		      (ADVP (ADV again))
+		      (PP (P into)
+			  (NP (D the) (N world))))
+	  (, ,)
+	  (CODE <P_239>)
+	  (NP-SBJ (PRO he))
+	  (BED was)
+	  (PP (P at)
+	      (ADJP (ADJ present)))
+	  (ADJP (ADJP (ADJ incapable)
+		      (PP (P of)
+			  (NP (N action))))
+		(, ,)
+		(CONJP (CONJ and)
+		       (ADJP (ADJ unable)
+			     (IP-INF (TO to)
+				     (VB comfort)
+				     (NP-OB1 (PRO them))
+				     (PP (P with)
+					 (NP (PRO$ his) (N voice)))))))
+	  (. .))
+  (ID TURNER2-1800,239.133))
+
+/~*
+But though it surprised me at first, to see my friends trudging about the
+house, in their massy boots, yet I soon became sensible of their utility, as a
+defence against the chill arising in this cold climate, from their marble
+floors. The great scarcity of timber in Tibet, not admiting them to board the
+floors of their rooms,
+(TURNER2-1800,242.178)
+*~/
+/*
+153 VAG:  153 VAG, 154 admiting, 129 IP-PPL-ABS
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP-LFD (P though)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ-1 (PRO it))
+				  (VBD surprised)
+				  (NP-OB1 (PRO me))
+				  (PP (P at)
+				      (ADVP (ADV first)))
+				  (, ,)
+				  (IP-INF-1 (TO to)
+					    (VB see)
+					    (IP-PPL-OB1 (NP-SBJ (PRO$ my) (NS friends))
+							(VAG trudging)
+							(PP (P about)
+							    (NP (D the) (N house)))
+							(, ,)
+							(PP (P in)
+							    (NP (PRO$ their) (ADJ massy) (NS boots))))))))
+	  (, ,)
+	  (ADVP-RSP (ADV yet))
+	  (NP-SBJ (PRO I))
+	  (ADVP-TMP (ADV soon))
+	  (VBD became)
+	  (ADJP (ADJ sensible)
+		(PP (P of)
+		    (NP (PRO$ their)
+			(N utility)
+			(, ,)
+			(PP (P as)
+			    (NP (D a)
+				(N defence)
+				(PP (P against)
+				    (NP (D the)
+					(N chill)
+					(RRC (VAG arising)
+					     (PP (P in)
+						 (NP (D this) (ADJ cold) (N climate))))
+					(, ,)
+					(PP (P from)
+					    (NP (PRO$ their) (N marble) (NS floors))))))))))
+	  (, .)
+	  (IP-PPL-ABS (NP-SBJ (D The)
+			      (ADJ great)
+			      (N scarcity)
+			      (PP (P of)
+				  (NP (N timber)))
+			      (PP (P in)
+				  (NP (NPR Tibet))))
+		      (, ,)
+		      (NEG not)
+		      (VAG admiting)
+		      (NP-OB1 (PRO them))
+		      (IP-INF (TO to)
+			      (VB board)
+			      (NP-OB1 (D the)
+				      (NS floors)
+				      (PP (P of)
+					  (NP (PRO$ their) (NS rooms))))))
+	  (. ,))
+  (ID TURNER2-1800,242.178))
+
+/~*
+As soon as life has left the body of a Lama, it is placed upright, sitting in
+an attitude of devotion, his legs being folded before him, with the instep
+resting upon each thigh, and the soles of the feet turned upwards.
+(TURNER2-1800,260.404)
+*~/
+/*
+77 BAG:  77 BAG, 78 being, 71 IP-PPL-ABS
+99 VAG:  99 VAG, 100 resting, 71 IP-PPL-ABS
+*/
+
+( (IP-MAT (ADVP-TMP (ADVR As)
+		    (ADV soon)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-1)
+					(NP-SBJ (N life))
+					(HVP has)
+					(VBN left)
+					(NP-OB1 (D the)
+						(N body)
+						(PP (P of)
+						    (NP (D a) (N Lama))))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (VAN placed)
+	  (ADJP-SPR (ADJ upright))
+	  (, ,)
+	  (IP-PPL (VAG sitting)
+		  (PP (P in)
+		      (NP (D an)
+			  (N attitude)
+			  (PP (P of)
+			      (NP (N devotion))))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (PRO$ his) (NS legs))
+		      (BAG being)
+		      (VAN folded)
+		      (PP (P before)
+			  (NP (PRO him)))
+		      (, ,)
+		      (PP (P with)
+			  (IP-PPL (IP-PPL (NP-SBJ (D the) (N instep))
+					  (VAG resting)
+					  (PP (P upon)
+					      (NP (Q each) (N thigh))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SMC (NP-SBJ (D the)
+							 (NS soles)
+							 (PP (P of)
+							     (NP (D the) (NS feet))))
+						 (VAN turned)
+						 (ADVP-DIR (RP+WARD upwards)))))))
+	  (. .))
+  (ID TURNER2-1800,260.404))
+
+/~*
+The left arm is bent and held close to the body, the hand being open, and the
+thumb, at right angles with the fingers, touching the point of the shoulder.
+(TURNER2-1800,261.408)
+*~/
+/*
+38 BAG:  38 BAG, 39 being, 31 IP-PPL-ABS
+74 VAG:  74 VAG, 75 touching, 31 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (ADJ left) (N arm))
+	  (BEP is)
+	  (VAN (VAN bent) (CONJ and) (VAN held))
+	  (ADJP-LOC (ADJ close)
+		    (PP (P to)
+			(NP (D the) (N body))))
+	  (, ,)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (N hand))
+			      (BAG being)
+			      (ADJP (ADJ open)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ (D the) (N thumb))
+				     (, ,)
+				     (PP (P at)
+					 (NP (ADJ right)
+					     (NS angles)
+					     (PP (P with)
+						 (NP (D the) (NS fingers)))))
+				     (, ,)
+				     (VAG touching)
+				     (NP-OB1 (D the)
+					     (N point)
+					     (PP (P of)
+						 (NP (D the) (N shoulder)))))))
+	  (. .))
+  (ID TURNER2-1800,261.408))
+
+/~*
+The late Teshoo Lama is represented in an effigy of gold, which crowns the
+pyramid, and is placed within the concave of a large shell, radiated
+alternately, with white and red, the edges being scolloped, and projecting so
+far as to form a canopy, that incloses within its hollow, the whole body of
+the figure.
+(TURNER2-1800,261.411)
+*~/
+/*
+107 BAG:  107 BAG, 108 being, 100 IP-PPL-ABS
+119 VAG:  119 VAG, 120 projecting, 100 IP-PPL-ABS
+*/
+
+( (IP-MAT (NP-SBJ (D The) (ADJ late) (NPR Teshoo) (NPR Lama))
+	  (BEP is)
+	  (VAN represented)
+	  (PP (P in)
+	      (NP (D an)
+		  (N effigy)
+		  (PP (P of)
+		      (NP (N gold)))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+					  (VBP crowns)
+					  (NP-OB1 (D the) (N pyramid)))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *T*-1)
+						 (BEP is)
+						 (VAN placed)
+						 (PP (P within)
+						     (NP (D the)
+							 (ADJ concave)
+							 (PP (P of)
+							     (NP (D a)
+								 (ADJ large)
+								 (N shell)
+								 (, ,)
+								 (RRC (VAN radiated)
+								      (ADVP (ADV alternately))
+								      (, ,)
+								      (PP (P with)
+									  (ADJP (ADJ white) (CONJ and) (ADJ red)))
+								      (, ,)
+								      (IP-PPL-ABS (IP-PPL (NP-SBJ (D the) (NS edges))
+											  (BAG being)
+											  (VAN scolloped))
+										  (, ,)
+										  (CONJP (CONJ and)
+											 (IP-PPL (NP-SBJ *con*)
+												 (VAG projecting)
+												 (NP-MSR (ADJP (ADVR so) (ADJ far))
+													 (PP (P as)
+													     (IP-INF (TO to)
+														     (VB form)
+														     (NP-OB1 (D a)
+															     (N canopy)
+															     (, ,)
+															     (CP-REL (WNP-2 0)
+																     (C that)
+																     (IP-SUB (NP-SBJ *T*-2)
+																	     (VBP incloses)
+																	     (PP (P within)
+																		 (NP (PRO$ its) (N hollow)))
+																	     (, ,)
+																	     (NP-OB1 (D the)
+																		     (ADJ whole)
+																		     (N body)
+																		     (PP (P of)
+																			 (NP (D the) (N figure))))))))))))))))))))))))
+	  (. .))
+  (ID TURNER2-1800,261.411))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	9/6/527
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	13/10/437
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	16/15/829
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	56/37/545
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	62/46/614
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	52/38/761
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	10/6/706
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	9/6/527
+whole search, hits/tokens/total
+		218/158/4419
+*/

@@ -1,0 +1,779 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:04 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_appositive\homilies_and_sermons\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	0/0/262
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	0/0/311
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	0/0/208
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	0/0/117
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd
+*/
+
+/~*
+The Athenians, a people hauing neither zeale nor knowledge, yet of them also
+the same Apostle beareth witnesse,
+(HOOKER-A-E2-P1,15.76)
+*~/
+/*
+19 HAG:  19 HAG, 20 hauing, 13 NP-PRN
+*/
+( (IP-MAT (NP-LFD (D The)
+		  (CODE <font>)
+		  (NPRS Athenians)
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (D a)
+			  (N people)
+			  (RRC (HAG hauing)
+			       (NP-OB1 (CONJ neither) (N zeale) (CONJ nor) (N knowledge)))))
+	  (, ,)
+	  (ADVP (ADV yet))
+	  (PP (P of)
+	      (NP-RSP (PRO them) (ALSO also)))
+	  (NP-SBJ (D the) (ADJ same) (NPR Apostle))
+	  (VBP beareth)
+	  (NP-OB1 (N witnesse))
+	  (. ,))
+  (ID HOOKER-A-E2-P1,15.76))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	1/1/128
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	0/0/111
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	0/0/134
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd
+*/
+
+/~*
+But when God hauing sent both his servants and his sonne to visite this vine,
+they neither spared the one, nor receiued the other, but stoned the Prophets,
+and crucified the Lord of glory which came vnto them, then beganne the curse
+of God to come vpon them, even the curse whereof the Prophet David hath spoken,
+saying, Let their table be made a snare, and a net, and stumbling blocke, even
+for a recompense vnto them,
+(HOOKER-B-E2-P1,45.89)
+*~/
+/*
+198 VAG:  198 VAG, 199 saying, 163 NP-PRN-2
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (IP-SUB (IP-PPL-ABS (NP-SBJ (NPR God))
+							  (HAG hauing)
+							  (VBN sent)
+							  (NP-OB1 (CONJ both)
+								  (NP (PRO$ his) (NS servants))
+								  (CONJP (CONJ and)
+									 (NP (PRO$ his) (N sonne))))
+							  (IP-INF-PRP (TO to)
+								      (VB visite)
+								      (NP-OB1 (D this) (N vine))))
+					      (, ,)
+					      (NP-SBJ (PRO they))
+					      (CONJ neither)
+					      (VBD spared)
+					      (NP-OB1 (D the) (ONE one)))
+				      (, ,)
+				      (CONJP (CONJ nor)
+					     (IP-SUB (NP-SBJ *con*)
+						     (VBD receiued)
+						     (NP-OB1 (D the) (OTHER other)))))
+			      (, ,)
+			      (CONJP (IP-SUB (IP-SUB (CONJ but)
+						     (NP-SBJ *con*)
+						     (VBD stoned)
+						     (NP-OB1 (D the) (NS Prophets)))
+					     (, ,)
+					     (CONJP (IP-SUB (CONJ and)
+							    (NP-SBJ *con*)
+							    (VBD crucified)
+							    (NP-OB1 (D the)
+								    (NPR Lord)
+								    (PP (P of)
+									(NP (N glory)))
+								    (CP-REL (WNP-1 (WPRO which))
+									    (C 0)
+									    (IP-SUB (NP-SBJ *T*-1)
+										    (VBD came)
+										    (PP (P vnto)
+											(NP (PRO them)))))))))))))
+	  (, ,)
+	  (ADVP-TMP (ADV then))
+	  (VBD beganne)
+	  (NP-SBJ (D the)
+		  (N curse)
+		  (PP (P of)
+		      (NP (NPR God)))
+		  (NP-PRN *ICH*-2))
+	  (IP-INF (TO to)
+		  (VB come)
+		  (PP (P vpon)
+		      (NP (PRO them))))
+	  (, ,)
+	  (NP-PRN-2 (FP even)
+		    (D the)
+		    (N curse)
+		    (CP-REL (WPP-3 (WADV+P whereof))
+			    (C 0)
+			    (IP-SUB (PP *T*-3)
+				    (NP-SBJ (D the)
+					    (N Prophet)
+					    (CODE <font>)
+					    (NP-PRN (NPR David)))
+				    (CODE <$$font>)
+				    (HVP hath)
+				    (VBN spoken))
+			    (, ,)
+			    (IP-PPL (VAG saying)
+				    (, ,)
+				    (IP-IMP-SPE (CODE <font>)
+						(VBI Let)
+						(IP-INF-SPE (NP-SBJ-4 (PRO$ their) (N table))
+							    (BE be)
+							    (VAN made)
+							    (IP-SMC-SPE (NP-SBJ *-4)
+									(NP-OB1 (NP (D a) (N snare))
+										(, ,)
+										(CONJP (CONJ and)
+										       (NP (D a)
+											   (N net)
+											   (, ,)
+											   (CONJP (CONJ and)
+												  (NX (N stumbling) (N blocke)))))))
+							    (, ,)
+							    (PP (FP even)
+								(P for)
+								(NP (D a)
+								    (N recompense)
+								    (PP (P vnto)
+									(NP (PRO them))))))))))
+	  (. ,))
+  (ID HOOKER-B-E2-P1,45.89))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	1/1/175
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd
+*/
+
+/~*
+The Prophet Amos speaketh of a famine, saying, I will send a famine in the
+land, not a famine of bread, nor a thirst of water, but of hearing the word of
+the Lord.
+(HOOKER-B-E2-P2,54.72)
+*~/
+/*
+97 VAG:  97 VAG, 98 hearing, 58 NP-PRN-1
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Prophet)
+		  (CODE <font>)
+		  (NP-PRN (NPR Amos)))
+	  (CODE <$$font>)
+	  (VBP speaketh)
+	  (PP (P of)
+	      (NP (D a) (N famine)))
+	  (, ,)
+	  (IP-PPL (VAG saying)
+		  (, ,)
+		  (CODE <font>)
+		  (IP-MAT-SPE (NP-SBJ (PRO I))
+			      (MD will)
+			      (VB send)
+			      (NP-OB1 (D a)
+				      (N famine)
+				      (NP-PRN *ICH*-1))
+			      (PP (P in)
+				  (NP (D the) (N land)))
+			      (, ,)
+			      (NP-PRN-1 (NEG not)
+					(NP (D a)
+					    (N famine)
+					    (PP (P of)
+						(NP (N bread))))
+					(, ,)
+					(CONJP (CONJ nor)
+					       (NP (D a)
+						   (N thirst)
+						   (PP (P of)
+						       (NP (N water)))))
+					(, ,)
+					(CONJP (CONJ but)
+					       (PP (P of)
+						   (IP-PPL-SPE (VAG hearing)
+							       (NP-OB1 (D the)
+								       (N word)
+								       (PP (P of)
+									   (NP (D the) (NPR Lord))))))))))
+	  (. .))
+  (ID HOOKER-B-E2-P2,54.72))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	1/1/115
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	0/0/394
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	0/0/287
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd
+*/
+
+/~*
+In speakynge these wordes, ye shal vnderstand, that I do not entend to speake
+agaynste the strengthe, polysye, and prouision of a kyng, but agaynst excesse,
+and vayne truste that kynges haue in them selues, more then in the liuing god
+the authour of al goodnes, and geuer of all victory.
+(LATIMER-E1-H,32L.236)
+*~/
+/*
+140 VAG:  140 VAG, 141 liuing, 118 NP-PRN
+*/
+
+( (IP-MAT (PP (P In)
+	      (IP-PPL (VAG speakynge)
+		      (NP-OB1 (D these) (NS wordes))))
+	  (, ,)
+	  (NP-SBJ (PRO ye))
+	  (MD shal)
+	  (VB vnderstand)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (DOP do)
+			  (NEG not)
+			  (VB entend)
+			  (IP-INF (TO to)
+				  (VB speake)
+				  (PP (PP (P agaynste)
+					  (NP (D the)
+					      (N strengthe)
+					      (, ,)
+					      (CONJP (NX (N polysye)))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (NX (N prouision)))
+					      (PP (P of)
+						  (NP (D a) (N kyng)))))
+				      (, ,)
+				      (CONJP (CONJ but)
+					     (PP (P agaynst)
+						 (NP (NP (N excesse))
+						     (, ,)
+						     (CONJP (CONJ and)
+							    (NP (ADJ vayne)
+								(N truste)
+								(CP-REL (WNP-1 0)
+									(C that)
+									(IP-SUB (NP-OB1 *T*-1)
+										(NP-SBJ (NS kynges))
+										(HVP haue)))
+								(PP (P in)
+								    (NP (PRO them) (N selues)))
+								(, ,)
+								(NP-PRN (QR more)
+									(PP (P then)
+									    (CP-CMP (WNP-2 0)
+										    (C 0)
+										    (IP-SUB (NP-MSR *T*-2)
+											    (CODE {they_have_trust})
+											    (PP (P in)
+												(NP (D the)
+												    (VAG liuing)
+												    (NPR god)
+												    (NP-PRN (D the)
+													    (N authour)
+													    (PP (P of)
+														(NP (Q al) (N goodnes)))
+													    (, ,)
+													    (CONJP (CONJ and)
+														   (NX (N geuer)
+														       (PP (P of)
+															   (NP (Q all) (N victory)))))))))))))))))))))
+	  (. .))
+  (ID LATIMER-E1-H,32L.236))
+
+/~*
+and yat shal he do by no meanes with the corporal eyes: Wherfore, he must haue
+a paier of spectacles, whiche shall haue two cleare syghtes in them, yat is,
+ye one is fayth, not a seasonable fayeth, which shall laste but a whyle, but a
+fayeth, whiche is continuynge in God.
+(LATIMER-E1-H,38L.353)
+*~/
+/*
+169 VAG:  169 VAG, 170 continuynge, 114 NP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-OB1 (D yat))
+	  (MD shal)
+	  (NP-SBJ (PRO he))
+	  (DO do)
+	  (PP (P by)
+	      (NP (Q no) (N meanes)))
+	  (PP (P with)
+	      (NP (D the) (ADJ corporal) (NS eyes)))
+	  (, :)
+	  (CP-CAR (WPP-1 (WADV+P Wherfore))
+		  (C 0)
+		  (, ,)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO he))
+			  (MD must)
+			  (HV haue)
+			  (NP-OB1 (D a)
+				  (N paier)
+				  (PP (P of)
+				      (NP (NS spectacles)
+					  (, ,)
+					  (CP-REL (WNP-2 (WPRO whiche))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (MD shall)
+							  (HV haue)
+							  (NP-OB1 (NUM two) (ADJ cleare) (NS syghtes))
+							  (PP (P in)
+							      (NP (PRO them)))
+							  (, ,)
+							  (IP-MAT-PRN (NP-SBJ (D yat))
+								      (BEP is)
+								      (, ,)
+								      (IP-MAT (NP-SBJ (D ye) (ONE one))
+									      (BEP is)
+									      (NP-OB1 (N fayth)
+										      (, ,)
+										      (NP-PRN (NP (NEG not)
+												  (D a)
+												  (ADJ seasonable)
+												  (N fayeth)
+												  (, ,)
+												  (CP-REL (WNP-3 (WPRO which))
+													  (C 0)
+													  (IP-SUB (NP-SBJ *T*-3)
+														  (MD shall)
+														  (VB laste)
+														  (NP-MSR (FP but) (D a) (N whyle)))))
+											      (, ,)
+											      (CONJP (CONJ but)
+												     (NP (D a)
+													 (N fayeth)
+													 (, ,)
+													 (CP-REL (WNP-4 (WPRO whiche))
+														 (C 0)
+														 (IP-SUB (NP-SBJ *T*-4)
+															 (BEP is)
+															 (VAG continuynge)
+															 (PP (P in)
+															     (NP (NPR God))))))))))))))))))
+	  (. .))
+  (ID LATIMER-E1-H,38L.353))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	2/2/355
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	0/0/336
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd
+*/
+
+/~*
+Kynge Dauid hadde a proud sonne, whose name was Adonyas, a man ful of ambition,
+desyerouse of honoure, alwayes clymbyng, clymbynge.
+(LATIMER-E1-P2,57L.279)
+*~/
+/*
+68 VAG:  68 VAG, 69 clymbyng, 36 NP-PRN
+72 VAG:  72 VAG, 73 clymbynge, 36 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (NPR Kynge) (NPR Dauid))
+	  (HVD hadde)
+	  (NP-OB1 (D a)
+		  (ADJ proud)
+		  (N sonne)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO$ whose) (N name))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (NP-OB1 (NPR Adonyas))))
+		  (, ,)
+		  (NP-PRN (D a)
+			  (N man)
+			  (ADJP (ADJ ful)
+				(PP (P of)
+				    (NP (N ambition))))
+			  (, ,)
+			  (ADJP (ADJ desyerouse)
+				(PP (P of)
+				    (NP (N honoure))))
+			  (, ,)
+			  (RRC (ADVP-TMP (ADV alwayes))
+			       (VAG (VAG clymbyng) (, ,) (VAG clymbynge)))))
+	  (. .))
+  (ID LATIMER-E1-P2,57L.279))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	2/1/295
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	0/0/338
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	0/0/360
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	0/0/278
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd
+*/
+
+/~*
+Here is subject enough to exercise the wit of men and angels: To praise that
+infinite goodness, and almighty power, and exquisite wisedom which made us and
+all things; and to admire what we can never sufficiently praise; To vindicate
+the wise and just providence of God, in the government of the world; and to
+endeavour, as well as we can upon an imperfect view of things, to make out the
+beauty and harmony of all the seeming discords and irregularities of the
+Divine administrations; To explain the oracles of the holy Scriptures, and to
+adore that great mystery of Divine love which the Angels, better and nobler
+Creatures than we are, desire to pry into God's sending his onely Son into the
+world to save sinners, and to give his life a ransom for them:
+(TILLOTS-A-E3-H,429.131)
+*~/
+/*
+380 VAG:  380 VAG, 381 sending, 375 NP-PRN
+*/
+
+( (IP-MAT (ADVP-LOC (ADV Here))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (N subject)
+		(ADJP (ADJR enough))
+		(IP-INF-DEG (TO to)
+			    (VB exercise)
+			    (NP-OB1 (D the)
+				    (N wit)
+				    (PP (P of)
+					(NP (NS men) (CONJ and) (NS angels))))))
+	  (, :)
+	  (IP-INF-PRN (IP-INF-PRN (TO To)
+				  (VB praise)
+				  (NP-OB1 (D that)
+					  (ADJ infinite)
+					  (N goodness)
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NX (ADJ almighty) (N power)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NX (ADJ exquisite) (N wisedom)))
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (VBD made)
+							  (NP-OB1 (NP (PRO us))
+								  (CONJP (CONJ and)
+									 (NP (Q all) (NS things))))))))
+		      (, ;)
+		      (CONJP (CONJ and)
+			     (IP-INF-PRN (TO to)
+					 (VB admire)
+					 (NP-OB1 (CP-FRL (WNP-3 (WPRO what))
+							 (C 0)
+							 (IP-SUB (NP-OB1 *T*-3)
+								 (NP-SBJ (PRO we))
+								 (MD can)
+								 (ADVP-TMP (ADV never))
+								 (ADVP (ADV sufficiently))
+								 (VB praise))))))
+		      (, ;)
+		      (CONJP (IP-INF-PRN (TO To)
+					 (VB vindicate)
+					 (NP-OB1 (D the)
+						 (ADJP (ADJ wise) (CONJ and) (ADJ just))
+						 (N providence)
+						 (PP (P of)
+						     (NP (NPR God)))
+						 (, ,)
+						 (PP (P in)
+						     (NP (D the)
+							 (N government)
+							 (PP (P of)
+							     (NP (D the) (N world))))))))
+		      (, ;)
+		      (CONJP (CONJ and)
+			     (IP-INF-PRN (TO to)
+					 (VB endeavour)
+					 (, ,)
+					 (ADVP (ADVR as)
+					       (ADV well)
+					       (PP (P as)
+						   (CP-CMP (WADVP-4 0)
+							   (C 0)
+							   (IP-SUB (ADVP *T*-4)
+								   (NP-SBJ (PRO we))
+								   (MD can)
+								   (VB *)
+								   (PP (P upon)
+								       (NP (D an)
+									   (ADJ imperfect)
+									   (N view)
+									   (PP (P of)
+									       (NP (NS things)))))))))
+					 (, ,)
+					 (IP-INF (TO to)
+						 (VB make)
+						 (RP out)
+						 (NP-OB1 (D the)
+							 (N beauty)
+							 (CONJP (CONJ and)
+								(NX (N harmony)))
+							 (PP (P of)
+							     (NP (Q all)
+								 (D the)
+								 (VAG seeming)
+								 (NS discords)
+								 (CONJP (CONJ and)
+									(NX (NS irregularities)))
+								 (PP (P of)
+								     (NP (D the) (ADJ Divine) (NS administrations)))))))))
+		      (, ;)
+		      (CONJP (IP-INF-PRN (TO To)
+					 (VB explain)
+					 (NP-OB1 (D the)
+						 (NS oracles)
+						 (PP (P of)
+						     (NP (D the) (ADJ holy) (NPRS Scriptures))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-INF-PRN (TO to)
+					 (VB adore)
+					 (NP-OB1 (D that)
+						 (ADJ great)
+						 (N mystery)
+						 (PP (P of)
+						     (NP (ADJ Divine)
+							 (N love)
+							 (CODE <paren>)
+							 (CP-REL (WNP-5 (WPRO which))
+								 (C 0)
+								 (IP-SUB (NP-SBJ (D the)
+										 (NS Angels)
+										 (, ,)
+										 (NP-PRN (ADJP (ADJR better) (CONJ and) (ADJR nobler))
+											 (NS Creatures)
+											 (PP (P than)
+											     (CP-CMP (WNP-6 0)
+												     (C 0)
+												     (IP-SUB (NP-OB1 *T*-6)
+													     (NP-SBJ (PRO we) (BEP are)))))))
+									 (, ,)
+									 (VBP desire)
+									 (IP-INF (TO to)
+										 (VB pry)
+										 (PP (P into)
+										     (NP *T*-5)))))))
+						 (CODE <$$paren>)
+						 (NP-PRN (NP-POS (NPR$ God's))
+							 (IP-PPL (VAG sending)
+								 (NP-OB1 (PRO$ his) (ADJ onely) (NPR Son))
+								 (PP (P into)
+								     (NP (D the) (N world)))
+								 (IP-INF-PRP (IP-INF-PRP (TO to)
+											 (VB save)
+											 (NP-OB1 (NS sinners)))
+									     (, ,)
+									     (CONJP (CONJ and)
+										    (IP-INF-PRP (TO to)
+												(VB give)
+												(NP-OB1 (PRO$ his) (N life))
+												(NP-SPR (D a)
+													(N ransom)
+													(PP (P for)
+													    (NP (PRO them)))))))))))))
+	  (. :))
+  (ID TILLOTS-A-E3-H,429.131))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	1/1/162
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	0/0/126
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	0/0/138
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	0/0/197
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	0/0/235
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-h.psd	0/0/262
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p1.psd	0/0/311
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\fisher-e1-p2.psd	0/0/208
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-h.psd	0/0/117
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p1.psd	1/1/128
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-a-e2-p2.psd	0/0/111
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-h.psd	0/0/134
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p1.psd	1/1/175
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\hooker-b-e2-p2.psd	1/1/115
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-h.psd	0/0/394
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\jetaylor-e3-p1.psd	0/0/287
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-h.psd	2/2/355
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p1.psd	0/0/336
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\latimer-e1-p2.psd	2/1/295
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-h.psd	0/0/338
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p1.psd	0/0/360
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\smith-e2-p2.psd	0/0/278
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-h.psd	1/1/162
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-a-e3-p1.psd	0/0/126
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-h.psd	0/0/138
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-b-e3-p1.psd	0/0/197
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\homilies_and_sermons\tillots-c-e3-p2.psd	0/0/235
+whole search, hits/tokens/total
+		8/7/5062
+*/

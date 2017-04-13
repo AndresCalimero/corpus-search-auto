@@ -1,0 +1,197 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:39 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_adjuncts\travelogue\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	0/0/437
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	0/0/829
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	0/0/545
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd
+*/
+
+/~*
+but, with all our fatigue, we could not help laughing to see the strange
+figures we presented after riding near forty miles; the distance of the
+Pyramids being eighteen miles, now that the waters are spread over the land.
+(MONTEFIORE-1836,150.277)
+*~/
+/*
+59 VAG:  59 VAG, 60 riding, 30 IP-INF-ADT
+85 BAG:  85 BAG, 86 being, 30 IP-INF-ADT
+*/
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (PP (P with)
+	      (NP (Q all) (PRO$ our) (N fatigue)))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD could)
+	  (NEG not)
+	  (VB help)
+	  (NP-OB1 (N laughing))
+	  (IP-INF-ADT (TO to)
+		      (VB see)
+		      (NP-OB1 (D the)
+			      (ADJ strange)
+			      (NS figures)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO we))
+					      (VBD presented)
+					      (PP (P after)
+						  (IP-PPL (VAG riding)
+							  (NP-MSR (NUMP (ADV near) (NUM forty))
+								  (NS miles))
+							  (, ;)
+							  (IP-PPL-ABS (NP-SBJ (D the)
+									      (N distance)
+									      (PP (P of)
+										  (NP (D the) (NS Pyramids))))
+								      (BAG being)
+								      (NP-OB1 (NUM eighteen) (NS miles))
+								      (, ,)
+								      (ADVP-TMP (ADV now)
+										(CP-REL (WADVP-2 0)
+											(C that)
+											(IP-SUB (ADVP-TMP *T*-2)
+												(NP-SBJ (D the) (NS waters))
+												(BEP are)
+												(VAN spread)
+												(PP (P over)
+												    (NP (D the) (N land)))))))))))))
+	  (. .))
+  (ID MONTEFIORE-1836,150.277))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	2/1/614
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	0/0/761
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd
+*/
+
+/~*
+The houses of the town are well built, but execrably furnished: bare, ghastly
+rooms, with an isolated chair or sofa sprinkled here and there, and looking as
+if they never had been sat upon, nor were meant to be.
+(READE-1863,222.536)
+*~/
+/*
+80 VAG:  80 VAG, 81 looking, 35 NP-ADT
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (NS houses)
+		  (PP (P of)
+		      (NP (D the) (N town))))
+	  (BEP are)
+	  (ADJP (ADJP (ADV well) (VAN built))
+		(, ,)
+		(CONJP (CONJ but)
+		       (ADJP (ADV execrably) (VAN furnished))))
+	  (, :)
+	  (NP-ADT (ADJP (ADJ bare) (, ,) (ADJ ghastly))
+		  (NS rooms)
+		  (, ,)
+		  (PP (P with)
+		      (IP-SMC (IP-SMC (NP-SBJ (D an)
+					      (VAN isolated)
+					      (N chair)
+					      (CONJP (CONJ or)
+						     (NX (N sofa))))
+				      (VAN sprinkled)
+				      (ADVP-LOC (ADV here) (CONJ and) (ADV there)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-PPL (VAG looking)
+					     (PP (P as)
+						 (PP (P if)
+						     (CP-ADV (C 0)
+							     (IP-SUB (IP-SUB (NP-SBJ-1 (PRO they))
+									     (ADVP-TMP (ADV never))
+									     (HVD had)
+									     (BEN been)
+									     (VAN sat)
+									     (PP (P upon)
+										 (NP *-1)))
+								     (, ,)
+								     (CONJP (CONJ nor)
+									    (IP-SUB (NP-SBJ-2 *con*)
+										    (BED were)
+										    (VAN meant)
+										    (IP-INF (NP-SBJ *-2)
+											    (TO to)
+											    (BE be)))))))))))))
+	  (. .))
+  (ID READE-1863,222.536))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	1/1/706
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	0/0/527
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\bradley-1905.psd	0/0/437
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cook-1776.psd	0/0/829
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\cooke-1712.psd	0/0/545
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\montefiore-1836.psd	2/1/614
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\officer-1744.psd	0/0/761
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\reade-1863.psd	1/1/706
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\travelogue\turner2-1800.psd	0/0/527
+whole search, hits/tokens/total
+		3/2/4419
+*/

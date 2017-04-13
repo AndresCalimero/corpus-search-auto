@@ -1,0 +1,152 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:01:38 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_non-verbal_predicates.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_added_to_nonverbal_predicates\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   *SPR*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*SPR* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
+A, suster, where is he mor fortunat +tat wit esy and softe wedur brynkt his
+schip saaf and sound to +te hauene, ful of marchaundise and of richesse, or
+elles he +tat in wylde wawes and in greet tempest alto-breket his vessel, and
+vnne+te naked and quakynge asschape+t to lond alyve?
+(CMAELR3,54.883)
+*~/
+/*
+158 VAG:  158 VAG, 159 quakynge, 153 ADJP-SPR
+*/
+( (CP-QUE (INTJ A)
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (WADVP-1 (WADV where))
+	  (IP-SUB (ADVP-LOC *T*-1)
+		  (BEP is)
+		  (NP-SBJ (NP (PRO he)
+			      (CP-REL *ICH*-2))
+			  (CONJP *ICH*-4))
+		  (ADJP (QR mor) (ADJ fortunat))
+		  (CP-REL-2 (WNP-3 0)
+			    (C +tat)
+			    (IP-SUB (NP-SBJ *T*-3)
+				    (PP (P wit)
+					(NP (ADJP (ADJ esy) (CONJ and) (ADJ softe))
+					    (N wedur)))
+				    (VBP brynkt)
+				    (NP-OB1 (PRO$ his) (N schip))
+				    (ADVP (ADV saaf) (CONJ and) (ADV sound))
+				    (PP (P to)
+					(NP (D +te) (N hauene)))
+				    (, ,)
+				    (ADJP-SPR (ADJ ful)
+					      (PP (PP (P of)
+						      (NP (N marchaundise)))
+						  (CONJP (CONJ and)
+							 (PP (P of)
+							     (NP (N richesse))))))))
+		  (, ,)
+		  (CONJP-4 (CONJ or)
+			   (ELSE elles)
+			   (NP (PRO he)
+			       (CP-REL (WNP-5 0)
+				       (C +tat)
+				       (IP-SUB (IP-SUB (NP-SBJ *T*-5)
+						       (PP (PP (P in)
+							       (NP (ADJ wylde) (NS wawes)))
+							   (CONJP (CONJ and)
+								  (PP (P in)
+								      (NP (ADJ greet) (N tempest)))))
+						       (Q+VBP alto-breket)
+						       (NP-OB1 (PRO$ his) (N vessel)))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (IP-SUB (NP-SBJ *T*-5)
+							      (ADVP (ADV vnne+te))
+							      (ADJP-SPR (ADJ naked) (CONJ and) (VAG quakynge))
+							      (VBP asschape+t)
+							      (PP (P to)
+								  (NP (N lond)))
+							      (PP (P+N alyve)))))))))
+	  (. ?))
+  (ID CMAELR3,54.883))
+
+/~*
++Te swete face of Ihesu schyne+t to hem, not terrible and gastly as it do+t to
+Cristes curslynges, but ful amyable and blisful, not biter bote ful swete, not
+gastyngge bate gladyngge and confortyngge.
+(CMAELR3,58.1000)
+*~/
+/*
+100 VAG:  100 VAG, 101 gastyngge, 25 ADJP-SPR
+106 VAG:  106 VAG, 107 gladyngge, 25 ADJP-SPR
+110 VAG:  110 VAG, 111 confortyngge, 25 ADJP-SPR
+*/
+
+( (IP-MAT (NP-SBJ (D +Te)
+		  (ADJ swete)
+		  (N face)
+		  (PP (P of)
+		      (NP (NPR Ihesu))))
+	  (VBP schyne+t)
+	  (PP (P to)
+	      (NP (PRO hem)))
+	  (, ,)
+	  (ADJP-SPR (ADJP (NEG not)
+			  (ADJ terrible)
+			  (CONJ and)
+			  (ADJ gastly)
+			  (PP (P as)
+			      (CP-ADV (WADVP-1 0)
+				      (C 0)
+				      (IP-SUB (ADVP *T*-1)
+					      (NP-SBJ (PRO it))
+					      (DOP do+t)
+					      (PP (P to)
+						  (NP (NPR$ Cristes) (NS curslynges)))))))
+		    (, ,)
+		    (CONJP (CONJ but)
+			   (ADJP (ADJP (ADV ful) (ADJ amyable))
+				 (CONJP (CONJ and)
+					(ADJX (ADJ blisful)))))
+		    (, ,)
+		    (CONJP (ADJP (ADJP (NEG not) (ADJ biter))
+				 (CONJP (CONJ bote)
+					(ADJP (ADV ful) (ADJ swete)))))
+		    (, ,)
+		    (CONJP (ADJP (ADJP (NEG not) (VAG gastyngge))
+				 (CONJP (CONJ bate)
+					(ADJP (VAG gladyngge) (CONJ and) (VAG confortyngge))))))
+	  (. .))
+  (ID CMAELR3,58.1000))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	4/2/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	0/0/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	4/2/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	0/0/1454
+whole search, hits/tokens/total
+		4/2/2508
+*/

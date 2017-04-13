@@ -1,0 +1,5582 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:15 BST 2017
+
+command file:     data\searches\queries\PENN\perfect_aspect_verbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\perfect_aspect_verbs\philosophy\result.out
+
+node:   $ROOT|HV*|BEN|DON|VBN|HVN
+query:  (BEN|DON|VBN|HVN Dominates  !BEN|DON|VBN|HVN) 
+  AND  (HV* Precedes  BEN|DON|VBN|HVN) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd
+*/
+
+/~*
+'Hast thou discerned also the causes why this is so?'
+(BOETHJA-1897,95.8)
+*~/
+/*
+10 VBN:  10 VBN, 11 discerned, 5 HVP
+*/
+( (CP-QUE-SPE (' ')
+	      (IP-SUB-SPE (HVP Hast)
+			  (NP-SBJ (PRO thou))
+			  (VBN discerned)
+			  (ALSO also)
+			  (NP-OB1 (D the)
+				  (NS causes)
+				  (CP-QUE-SPE (WADVP-1 (WADV why))
+					      (C 0)
+					      (IP-SUB-SPE (ADVP *T*-1)
+							  (NP-SBJ (D this))
+							  (BEP is)
+							  (ADVP (ADV so))))))
+	      (. ?)
+	      (' '))
+  (ID BOETHJA-1897,95.8))
+
+/~*
+can that want renown which has been agreed to be lacking in nothing, to be
+supreme in power, and right worthy of honour, for the reason that it $can $not
+bestow this upon itself, and so comes to appear somewhat poor in esteem? '
+(BOETHJA-1897,96.27)
+*~/
+/*
+26 BEN:  26 BEN, 27 been, 24 HVP
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (MD can)
+			  (NP-SBJ (D that)
+				  (CP-REL-SPE *ICH*-1))
+			  (VB want)
+			  (NP-OB1 (N renown))
+			  (CP-REL-SPE-1 (WNP-2 (WPRO which))
+					(C 0)
+					(IP-SUB-SPE (NP-SBJ *T*-2)
+						    (HVP has)
+						    (BEN been)
+						    (VAN agreed)
+						    (IP-INF-SPE (IP-INF-SPE (TO to)
+									    (BE be)
+									    (ADJP (VAG lacking)
+										  (PP (P in)
+										      (NP (Q+N nothing)))))
+								(, ,)
+								(CONJP (IP-INF-SPE (TO to)
+										   (BE be)
+										   (ADJP (ADJP (ADJ supreme)
+											       (PP (P in)
+												   (NP (N power))))
+											 (, ,)
+											 (CONJP (CONJ and)
+												(ADJP (ADV right)
+												      (ADJ worthy)
+												      (PP (P of)
+													  (NP (N honour)))))))))))
+			  (, ,)
+			  (PP (P for)
+			      (NP (D the)
+				  (N reason)
+				  (CP-THT-SPE (C that)
+					      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO it))
+								      (MD $can)
+								      (NEG $not)
+								      (CODE {TEXT:cannot})
+								      (VB bestow)
+								      (NP-OB1 (D this))
+								      (PP (P upon)
+									  (NP (PRO+N itself))))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-SUB-SPE (NP-SBJ *con*)
+									     (ADVP (ADV so))
+									     (VBP comes)
+									     (IP-INF-SPE (TO to)
+											 (VB appear)
+											 (ADJP (NP-MSR (Q+WPRO somewhat))
+											       (ADJ poor))
+											 (PP (P in)
+											     (NP (N esteem)))))))))))
+	      (. ?)
+	      (' '))
+  (ID BOETHJA-1897,96.27))
+
+/~*
+and also denies himself many pleasures dear to nature to avoid losing the
+money which he has gained.
+(BOETHJA-1897,97.41)
+*~/
+/*
+54 VBN:  54 VBN, 55 gained, 52 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ *con*)
+	      (ALSO also)
+	      (VBP denies)
+	      (NP-OB2 (PRO+N himself))
+	      (NP-OB1 (Q many)
+		      (NS pleasures)
+		      (ADJP (ADJ dear)
+			    (PP (P to)
+				(NP (N nature)))))
+	      (IP-INF-PRP-SPE (TO to)
+			      (VB avoid)
+			      (IP-PPL-OB1-SPE (VAG losing)
+					      (NP-OB1 (D the)
+						      (N money)
+						      (CP-REL-SPE (WNP-1 (WPRO which))
+								  (C 0)
+								  (IP-SUB-SPE (NP-OB1 *T*-1)
+									      (NP-SBJ (PRO he))
+									      (HVP has)
+									      (VBN gained))))))
+	      (. .))
+  (ID BOETHJA-1897,97.41))
+
+/~*
+but will he find it in these things which, as we have proved, are unable to
+bestow what they promise? '
+(BOETHJA-1897,98.53)
+*~/
+/*
+50 VBN:  50 VBN, 51 proved, 48 HVP
+*/
+
+( (CP-QUE-SPE (CONJ but)
+	      (IP-SUB-SPE (MD will)
+			  (NP-SBJ (PRO he))
+			  (VB find)
+			  (NP-OB1 (PRO it))
+			  (PP (P in)
+			      (NP (D these)
+				  (NS things)
+				  (CP-REL-SPE (WNP-1 (WPRO which))
+					      (, ,)
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (PP (P as)
+							      (CP-ADV-SPE (WNP-2 0)
+									  (C 0)
+									  (IP-SUB-SPE (NP-OB1 *T*-2)
+										      (NP-SBJ (PRO we))
+										      (HVP have)
+										      (VBN proved))))
+							  (, ,)
+							  (BEP are)
+							  (ADJP (ADJ unable)
+								(IP-INF-SPE (TO to)
+									    (VB bestow)
+									    (NP-OB1 (CP-FRL-SPE (WNP-3 (WPRO what))
+												(C 0)
+												(IP-SUB-SPE (NP-OB1 *T*-3)
+													    (NP-SBJ (PRO they))
+													    (VBP promise)))))))))))
+	      (. ?)
+	      (' '))
+  (ID BOETHJA-1897,98.53))
+
+/~*
+And to prove to thee with how deep an insight I have listened - since all
+these are the same - that which can truly bestow one of them I know to be
+without doubt full and complete happiness. '
+(BOETHJA-1897,98.64)
+*~/
+/*
+39 VBN:  39 VBN, 40 listened, 37 HVP
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (IP-INF-PRP-SPE (TO to)
+			      (VB prove)
+			      (PP (P to)
+				  (NP (PRO thee)))
+			      (CP-QUE-SPE (WPP-1 (P with)
+						 (WNP (WADJP (WADV how) (ADJ deep))
+						      (D an)
+						      (N insight)))
+					  (C 0)
+					  (IP-SUB-SPE (PP *T*-1)
+						      (NP-SBJ (PRO I))
+						      (HVP have)
+						      (VBN listened))))
+	      (, -)
+	      (PP (P since)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (Q all) (D these))
+					  (BEP are)
+					  (NP-OB1 (D the) (ADJ same)))))
+	      (, -)
+	      (NP-2 (D that)
+		    (CP-REL-SPE (WNP-3 (WPRO which))
+				(C 0)
+				(IP-SUB-SPE (NP-SBJ *T*-3)
+					    (MD can)
+					    (ADVP (ADV truly))
+					    (VB bestow)
+					    (NP-OB1 (ONE one)
+						    (PP (P of)
+							(NP (PRO them)))))))
+	      (NP-SBJ (PRO I))
+	      (VBP know)
+	      (IP-INF-SPE (NP-SBJ *ICH*-2)
+			  (TO to)
+			  (BE be)
+			  (PP (P without)
+			      (NP (N doubt)))
+			  (NP-OB1 (ADJP (ADJ full) (CONJ and) (ADJ complete))
+				  (N happiness)))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,98.64))
+
+/~*
+and this thou hast so amply demonstrated that no word more is needed. '
+(BOETHJA-1897,99.70)
+*~/
+/*
+21 VBN:  21 VBN, 22 demonstrated, 10 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-OB1 (D this))
+	      (NP-SBJ (PRO thou))
+	      (HVP hast)
+	      (ADVP (ADVR so)
+		    (CODE <P_99>)
+		    (ADV amply)
+		    (CP-DEG-SPE *ICH*-1))
+	      (VBN demonstrated)
+	      (CP-DEG-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (Q no)
+						(N word)
+						(QP (QR more)))
+					(BEP is)
+					(VAN needed)))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,99.70))
+
+/~*
+'Since, then, thou hast learnt what that true happiness is, and what men
+falsely call happiness, it now remains that thou shouldst learn from what
+source to seek this.'
+(BOETHJA-1897,99.74)
+*~/
+/*
+25 VBN:  25 VBN, 26 learnt, 23 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (PP (P Since)
+		  (CP-ADV-SPE *ICH*-1))
+	      (, ,)
+	      (ADVP (ADV then))
+	      (, ,)
+	      (CP-ADV-SPE-1 (C 0)
+			    (IP-SUB-SPE (NP-SBJ (PRO thou))
+					(HVP hast)
+					(VBN learnt)
+					(CP-QUE-SPE (CP-QUE-SPE (WNP-2 (WPRO what))
+								(C 0)
+								(IP-SUB-SPE (NP-OB1 *T*-2)
+									    (NP-SBJ (D that) (ADJ true) (N happiness))
+									    (BEP is)))
+						    (, ,)
+						    (CONJP (CONJ and)
+							   (CP-QUE-SPE (WNP-3 (WPRO what))
+								       (C 0)
+								       (IP-SUB-SPE (NP-SBJ (NS men))
+										   (ADVP (ADV falsely))
+										   (VBP call)
+										   (IP-SMC-SPE (NP-SBJ *T*-3)
+											       (NP-OB1 (N happiness)))))))))
+	      (, ,)
+	      (NP-SBJ-4 (PRO it))
+	      (ADVP-TMP (ADV now))
+	      (VBP remains)
+	      (CP-THT-SPE-4 (C that)
+			    (IP-SUB-SPE (NP-SBJ (PRO thou))
+					(MD shouldst)
+					(VB learn)
+					(CP-QUE-SPE (WPP-5 (P from)
+							   (WNP (WD what) (N source)))
+						    (IP-INF-SPE (PP *T*-5)
+								(TO to)
+								(VB seek)
+								(NP-OB1 (D this))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,99.74))
+
+/~*
+'Yes; to this I have long been eagerly looking forward.'
+(BOETHJA-1897,99.75)
+*~/
+/*
+22 BEN:  22 BEN, 23 been, 17 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (INTJ Yes)
+	      (, ;)
+	      (PP (P to)
+		  (NP (D this)))
+	      (NP-SBJ (PRO I))
+	      (HVP have)
+	      (NP-MSR (ADJ long))
+	      (BEN been)
+	      (ADVP (ADV eagerly))
+	      (VAG looking)
+	      (ADVP-DIR (ADV+WARD forward))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,99.75))
+
+/~*
+'Since now thou hast seen what is the form of the imperfect good, and what the
+form of the perfect also, $me $thinks I should next show in what manner this
+perfection of felicity is built up.
+(BOETHJA-1897,102.89)
+*~/
+/*
+19 VBN:  19 VBN, 20 seen, 17 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (PP (P Since)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (ADVP-TMP (ADV now))
+					  (NP-SBJ (PRO thou))
+					  (HVP hast)
+					  (VBN seen)
+					  (CP-QUE-SPE (CP-QUE-SPE (WNP-1 (WPRO what))
+								  (C 0)
+								  (IP-SUB-SPE-2 (NP-SBJ *T*-1)
+										(BEP is)
+										(NP-OB1 (D the)
+											(N form)
+											(PP (P of)
+											    (NP (D the) (ADJ imperfect) (N good))))))
+						      (, ,)
+						      (CONJP (CONJ and)
+							     (CP-QUE-SPE (WNP-3 (WPRO what))
+									 (C 0)
+									 (IP-SUB-SPE=2 (NP-SBJ *T*-3)
+										       (NP-OB1 (D the)
+											       (N form)
+											       (PP (P of)
+												   (NP (D the) (ADJ perfect)))
+											       (ALSO also)))))))))
+	      (, ,)
+	      (NP-SBJ-4 *exp*)
+	      (NP-OB2 (PRO $me))
+	      (VBP $thinks)
+	      (CODE {TEXT:methinks})
+	      (CP-THT-SPE-4 (C 0)
+			    (IP-SUB-SPE (NP-SBJ (PRO I))
+					(MD should)
+					(ADVP-TMP (ADVS next))
+					(VB show)
+					(CP-QUE-SPE (WPP-5 (P in)
+							   (WNP (WD what) (N manner)))
+						    (C 0)
+						    (IP-SUB-SPE (PP *T*-5)
+								(NP-SBJ (D this)
+									(N perfection)
+									(PP (P of)
+									    (NP (N felicity))))
+								(BEP is)
+								(VAN built)
+								(RP up)))))
+	      (. .))
+  (ID BOETHJA-1897,102.89))
+
+/~*
+And here I conceive it proper to inquire, first, whether any excellence, such
+as thou hast lately defined, can exist in the nature of things, lest we be
+deceived by an empty fiction of thought to which no true reality answers.
+(BOETHJA-1897,102.90)
+*~/
+/*
+66 VBN:  66 VBN, 67 defined, 61 HVP
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (ADVP-LOC (ADV here))
+	      (NP-SBJ (PRO I))
+	      (VBP conceive)
+	      (IP-SMC-SPE (NP-SBJ-1 (PRO it))
+			  (ADJP (ADJ proper))
+			  (IP-INF-SPE-1 (TO to)
+					(VB inquire)
+					(, ,)
+					(ADVP-TMP (ADV first))
+					(, ,)
+					(CP-QUE-SPE (WQ whether)
+						    (C 0)
+						    (IP-SUB-SPE (NP-SBJ (Q any)
+									(N excellence)
+									(, ,)
+									(ADJP (SUCH such)
+									      (PP (P as)
+										  (CP-CMP-SPE (WNP-2 0)
+											      (C 0)
+											      (IP-SUB-SPE (NP-OB1 *T*-2)
+													  (NP-SBJ (PRO thou))
+													  (HVP hast)
+													  (ADVP-TMP (ADV lately))
+													  (VBN defined))))))
+								(, ,)
+								(MD can)
+								(VB exist)
+								(PP (P in)
+								    (NP (D the)
+									(N nature)
+									(PP (P of)
+									    (NP (NS things)))))))))
+	      (, ,)
+	      (PP (P lest)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (BEP be)
+					  (VAN deceived)
+					  (PP (P by)
+					      (NP (D an)
+						  (ADJ empty)
+						  (N fiction)
+						  (PP (P of)
+						      (NP (N thought)))
+						  (CP-REL-SPE (WPP-3 (P to)
+								     (WNP (WPRO which)))
+							      (C 0)
+							      (IP-SUB-SPE (PP *T*-3)
+									  (NP-SBJ (Q no) (ADJ true) (N reality))
+									  (VBP answers))))))))
+	      (. .))
+  (ID BOETHJA-1897,102.90))
+
+/~*
+for there would be something else more excellent, possessed of perfect good,
+which would seem to have the advantage in priority and dignity, since it has
+clearly appeared that all perfect things are prior to those less complete.
+Wherefore, lest we fall into an infinite regression, we must acknowledge the
+supreme God to be full of supreme and perfect good.
+(BOETHJA-1897,103.105)
+*~/
+/*
+88 VBN:  88 VBN, 89 appeared, 54 HV
+88 VBN:  88 VBN, 89 appeared, 83 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ-1 (EX there))
+	      (MD would)
+	      (BE be)
+	      (NP-1 (Q+N something)
+		    (ADJP (ADJ else))
+		    (ADJP (QR more) (ADJ excellent))
+		    (CP-REL-SPE *ICH*-2))
+	      (, ,)
+	      (VAN possessed)
+	      (PP (P of)
+		  (NP (ADJ perfect) (N good)))
+	      (, ,)
+	      (CP-REL-SPE-2 (WNP-3 (WPRO which))
+			    (C 0)
+			    (IP-SUB-SPE (NP-SBJ *T*-3)
+					(MD would)
+					(VB seem)
+					(IP-INF-SPE (TO to)
+						    (HV have)
+						    (NP-OB1 (D the) (N advantage))
+						    (PP (P in)
+							(NP (N priority) (CONJ and) (N dignity))))))
+	      (, ,)
+	      (PP (P since)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ-4 (PRO it))
+					  (HVP has)
+					  (ADVP (ADV clearly))
+					  (VBN appeared)
+					  (CP-THT-SPE-4 (C that)
+							(IP-SUB-SPE (NP-SBJ (Q all) (ADJ perfect) (NS things))
+								    (BEP are)
+								    (ADJP (ADJ prior)
+									  (PP (P to)
+									      (NP (D those)
+										  (ADJP (QR less) (ADJ complete))))))))))
+	      (, .)
+	      (CP-CAR-SPE (WPP-5 (WADV+P Wherefore))
+			  (, ,)
+			  (C 0)
+			  (IP-SUB-SPE (PP *T*-5)
+				      (PP (P lest)
+					  (CP-ADV-SPE (C 0)
+						      (IP-SUB-SPE (NP-SBJ (PRO we))
+								  (VBP fall)
+								  (PP (P into)
+								      (NP (D an) (ADJ infinite) (N regression))))))
+				      (, ,)
+				      (NP-SBJ (PRO we))
+				      (MD must)
+				      (VB acknowledge)
+				      (IP-INF-SPE (NP-SBJ (D the) (ADJ supreme) (NPR God))
+						  (TO to)
+						  (BE be)
+						  (ADJP (ADJ full)
+							(PP (P of)
+							    (NP (ADJP (ADJ supreme) (CONJ and) (ADJ perfect))
+								(N good)))))))
+	      (. .))
+  (ID BOETHJA-1897,103.105))
+
+/~*
+But we have determined that true happiness is the perfect good;
+(BOETHJA-1897,103.106)
+*~/
+/*
+9 VBN:  9 VBN, 10 determined, 7 HVP
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (VBN determined)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (ADJ true) (N happiness))
+				      (BEP is)
+				      (NP-OB1 (D the) (ADJ perfect) (N good))))
+	      (. ;))
+  (ID BOETHJA-1897,103.106))
+
+/~*
+'Do not rashly suppose that He who is the Father of all things hath received
+that highest good of which He is said to be possessed either from some
+external source, or hath it as a natural endowment in such sort that thou
+mightest consider the essence of the happiness possessed, and of the God who
+possesses it, distinct and different.
+(BOETHJA-1897,104.113)
+*~/
+/*
+47 VBN:  47 VBN, 48 received, 45 HVP
+*/
+
+( (IP-IMP-SPE (' ')
+	      (DOI Do)
+	      (NEG not)
+	      (ADVP (ADV rashly))
+	      (VB suppose)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO He)
+							  (CP-REL-SPE (WNP-1 (WPRO who))
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ *T*-1)
+										  (BEP is)
+										  (NP-OB1 (D the)
+											  (N Father)
+											  (PP (P of)
+											      (NP (Q all) (NS things)))))))
+						  (HVP hath)
+						  (VBN received)
+						  (NP-OB1 (D that)
+							  (ADJS highest)
+							  (N good)
+							  (CP-REL-SPE (WPP-2 (P of)
+									     (WNP (WPRO which)))
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ-3 (PRO He))
+										  (BEP is)
+										  (VAN said)
+										  (IP-INF-SPE (NP-SBJ *-3)
+											      (PP *T*-2)
+											      (TO to)
+											      (BE be)
+											      (VAN possessed)))))
+						  (CONJ either)
+						  (PP (P from)
+						      (NP (Q some) (ADJ external) (N source))))
+				      (, ,)
+				      (CONJP (CONJ or)
+					     (IP-SUB-SPE (NP-SBJ *con*)
+							 (HVP hath)
+							 (NP-OB1 (PRO it))
+							 (PP (P as)
+							     (NP (D a) (ADJ natural) (N endowment)))
+							 (PP (P in)
+							     (NP (ADJP (SUCH such)
+								       (CP-DEG-SPE *ICH*-4))
+								 (N sort)
+								 (CP-DEG-SPE-4 (C that)
+									       (IP-SUB-SPE (NP-SBJ (PRO thou))
+											   (MD mightest)
+											   (VB consider)
+											   (IP-SMC-SPE (NP-SBJ (D the)
+													       (N essence)
+													       (PP (PP (P of)
+														       (NP (D the)
+															   (N happiness)
+															   (CODE <P_104>)
+															   (RRC (VAN possessed))))
+														   (, ,)
+														   (CONJP (CONJ and)
+															  (PP (P of)
+															      (NP (D the)
+																  (NPR God)
+																  (CP-REL-SPE (WNP-5 (WPRO who))
+																	      (C 0)
+																	      (IP-SUB-SPE (NP-SBJ *T*-5)
+																			  (VBP possesses)
+																			  (NP-OB1 (PRO it)))))))))
+												       (, ,)
+												       (ADJP (ADJ distinct) (CONJ and) (ADJ different)))))))))))
+	      (. .))
+  (ID BOETHJA-1897,104.113))
+
+/~*
+For if thou deemest it received from without, thou mayst esteem that which
+gives more excellent than that which has received.
+(BOETHJA-1897,104.114)
+*~/
+/*
+74 VBN:  74 VBN, 75 received, 72 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO thou))
+					  (VBP deemest)
+					  (IP-SMC-SPE (NP-SBJ (PRO it))
+						      (VAN received)
+						      (PP (P from)
+							  (ADVP (ADV without)))))))
+	      (, ,)
+	      (NP-SBJ (PRO thou))
+	      (MD mayst)
+	      (VB esteem)
+	      (IP-SMC-SPE (NP-SBJ (D that)
+				  (CP-REL-SPE (WNP-1 (WPRO which))
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (VBP gives))))
+			  (ADJP (QR more)
+				(ADJ excellent)
+				(PP (P than)
+				    (NP (D that)
+					(CP-REL-SPE (WNP-2 (WPRO which))
+						    (C 0)
+						    (IP-SUB-SPE (NP-SBJ *T*-2)
+								(HVP has)
+								(VBN received)))))))
+	      (. .))
+  (ID BOETHJA-1897,104.114))
+
+/~*
+For universally nothing can be better in nature than the source from which it
+has come;
+(BOETHJA-1897,104.120)
+*~/
+/*
+48 VBN:  48 VBN, 49 come, 46 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (ADVP (ADV universally))
+	      (NP-SBJ (Q+N nothing))
+	      (MD can)
+	      (BE be)
+	      (ADJP (ADJR better)
+		    (PP (P in)
+			(NP (N nature)))
+		    (PP (P than)
+			(NP (D the)
+			    (N source)
+			    (CP-REL-SPE (WPP-1 (P from)
+					       (WNP (WPRO which)))
+					(C 0)
+					(IP-SUB-SPE (PP *T*-1)
+						    (NP-SBJ (PRO it))
+						    (HVP has)
+						    (VBN come))))))
+	      (. ;))
+  (ID BOETHJA-1897,104.120))
+
+/~*
+'But the highest good has been admitted to be happiness.'
+(BOETHJA-1897,104.123)
+*~/
+/*
+15 BEN:  15 BEN, 16 been, 13 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ But)
+	      (NP-SBJ (D the) (ADJS highest) (N good))
+	      (HVP has)
+	      (BEN been)
+	      (VAN admitted)
+	      (IP-INF-SPE (TO to)
+			  (BE be)
+			  (NP-OB1 (N happiness)))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,104.123))
+
+/~*
+But we have concluded that both happiness and God are the supreme good;
+wherefore that which is the highest Divinity must also itself necessarily be
+supreme happiness '.
+(BOETHJA-1897,105.133)
+*~/
+/*
+9 VBN:  9 VBN, 10 concluded, 7 HVP
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (VBN concluded)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (CONJ both) (N happiness) (CONJ and) (NPR God))
+				      (BEP are)
+				      (NP-OB1 (D the) (ADJ supreme) (N good))))
+	      (, ;)
+	      (CP-CAR-SPE (WPP-1 (WADV+P wherefore))
+			  (C 0)
+			  (IP-SUB-SPE (PP *T*-1)
+				      (NP-SBJ (D that)
+					      (CP-REL-SPE (WNP-2 (WPRO which))
+							  (C 0)
+							  (IP-SUB-SPE (NP-SBJ *T*-2)
+								      (BEP is)
+								      (NP-OB1 (D the) (ADJS highest) (N Divinity)))))
+				      (MD must)
+				      (ALSO also)
+				      (NP-PRN (PRO+N itself))
+				      (ADVP (ADV necessarily))
+				      (BE be)
+				      (NP-OB1 (ADJ supreme) (N happiness))))
+	      (' ')
+	      (. .))
+  (ID BOETHJA-1897,105.133))
+
+/~*
+All these, however, have been proved to be the same;
+(BOETHJA-1897,106.158)
+*~/
+/*
+16 BEN:  16 BEN, 17 been, 14 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (Q All) (D these))
+	      (, ,)
+	      (ADVP (WADV+ADV however))
+	      (, ,)
+	      (HVP have)
+	      (BEN been)
+	      (VAN proved)
+	      (IP-INF-SPE (NP-SBJ *-1)
+			  (TO to)
+			  (BE be)
+			  (NP-OB1 (D the) (ADJ same)))
+	      (. ;))
+  (ID BOETHJA-1897,106.158))
+
+/~*
+'But we have also proved that God and true happiness are one and the same.'
+(BOETHJA-1897,108.175)
+*~/
+/*
+13 VBN:  13 VBN, 14 proved, 9 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ But)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (ALSO also)
+	      (VBN proved)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (NP (NPR God))
+					      (CONJP (CONJ and)
+						     (NP (ADJ true) (N happiness))))
+				      (BEP are)
+				      (NP-OB1 (NP (ONE one))
+					      (CONJP (CONJ and)
+						     (NP (D the) (ADJ same))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,108.175))
+
+/~*
+'Have we not shown that those things which most men desire are not true and
+perfect good precisely for this cause - that they differ severally one from
+another, and, seeing that one is wanting to another, they $can $not bestow
+full and absolute good; but that they become the true good when they are
+gathered, as it were, into one form and agency, so that that which is
+independence is likewise power, reverence, renown, and pleasant delight, and
+unless they are all one and the same, they have no claim to be counted among
+things desirable?'
+(BOETHJA-1897,110.190)
+*~/
+/*
+12 VBN:  12 VBN, 13 shown, 5 HVP
+*/
+
+( (CP-QUE-SPE (' ')
+	      (IP-SUB-SPE (HVP Have)
+			  (NP-SBJ (PRO we))
+			  (NEG not)
+			  (VBN shown)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (D those)
+							  (NS things)
+							  (CP-REL-SPE (WNP-1 (WPRO which))
+								      (C 0)
+								      (IP-SUB-SPE (NP-OB1 *T*-1)
+										  (NP-SBJ (QS most) (NS men))
+										  (VBP desire))))
+						  (BEP are)
+						  (NEG not)
+						  (NP-OB1 (ADJP (ADJ true) (CONJ and) (ADJ perfect))
+							  (N good))
+						  (PP (ADV precisely)
+						      (P for)
+						      (NP (D this)
+							  (N cause)
+							  (, -)
+							  (CP-THT-PRN-SPE (CP-THT-SPE (C that)
+										      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO they))
+													      (VBP differ)
+													      (ADVP (ADV severally))
+													      (NP-ADV (NP (ONE one))
+														      (PP (P from)
+															  (NP (D+OTHER another)))))
+												  (, ,)
+												  (CONJP (CONJ and)
+													 (, ,)
+													 (IP-SUB-SPE (IP-PPL-SPE (VAG seeing)
+																 (CP-THT-SPE (C that)
+																	     (IP-SUB-SPE (NP-SBJ (ONE one))
+																			 (BEP is)
+																			 (VAG wanting)
+																			 (PP (P to)
+																			     (NP (D+OTHER another))))))
+														     (, ,)
+														     (NP-SBJ (PRO they))
+														     (MD $can)
+														     (NEG $not)
+														     (CODE {TEXT:cannot})
+														     (VB bestow)
+														     (NP-OB1 (ADJP (ADJ full) (CONJ and) (ADJ absolute))
+															     (N good))))))
+									  (, ;)
+									  (CONJP (CONJ but)
+										 (CP-THT-SPE (C that)
+											     (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO they))
+														     (VBP become)
+														     (NP-OB1 (D the) (ADJ true) (N good))
+														     (PP (P when)
+															 (CP-ADV-SPE (C 0)
+																     (IP-SUB-SPE (NP-SBJ (PRO they))
+																		 (BEP are)
+																		 (VAN gathered)
+																		 (, ,)
+																		 (PP-PRN (P as)
+																			 (CP-ADV-SPE (C 0)
+																				     (IP-SUB-SPE (NP-SBJ (PRO it))
+																						 (BED were))))
+																		 (, ,)
+																		 (PP (P into)
+																		     (NP (ONE one)
+																			 (N form)
+																			 (CONJP (CONJ and)
+																				(NX (N agency)))))
+																		 (, ,)
+																		 (PP (P so)
+																		     (CP-ADV-SPE (C that)
+																				 (IP-SUB-SPE (NP-SBJ (D that)
+																						     (CP-REL-SPE (WNP-2 (WPRO which))
+																								 (C 0)
+																								 (IP-SUB-SPE (NP-SBJ *T*-2)
+																									     (BEP is)
+																									     (NP-OB1 (N independence)))))
+																					     (BEP is)
+																					     (NP-ADV (ADJ+N likewise))
+																					     (NP-OB1 (NP (N power))
+																						     (, ,)
+																						     (CONJP (NP (N reverence)))
+																						     (, ,)
+																						     (CONJP (NP (N renown)))
+																						     (, ,)
+																						     (CONJP (CONJ and)
+																							    (NP (ADJ pleasant) (N delight)))))))))))
+													 (, ,)
+													 (CONJP (CONJ and)
+														(IP-SUB-SPE (PP (P unless)
+																(CP-ADV-SPE (C 0)
+																	    (IP-SUB-SPE (NP-SBJ (PRO they))
+																			(BEP are)
+																			(Q all)
+																			(NP-OB1 (NP (ONE one))
+																				(CONJP (CONJ and)
+																				       (NP (D the) (ADJ same)))))))
+															    (, ,)
+															    (NP-SBJ (PRO they))
+															    (HVP have)
+															    (NP-OB1 (Q no)
+																    (N claim)
+																    (IP-INF-SPE (TO to)
+																		(BE be)
+																		(VAN counted)
+																		(PP (P among)
+																		    (NP (NS things)
+																			(ADJP (ADJ desirable)))))))))))))))))
+	      (. ?)
+	      (' '))
+  (ID BOETHJA-1897,110.190))
+
+/~*
+and mingle with those parts from which they have been severed, while fire,
+again, refuses to be cut at all.
+(BOETHJA-1897,113.234)
+*~/
+/*
+33 BEN:  33 BEN, 34 been, 31 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ *con*)
+	      (VBP mingle)
+	      (PP (P with)
+		  (NP (D those)
+		      (NS parts)
+		      (CP-REL-SPE (WPP-1 (P from)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB-SPE (PP *T*-1)
+					      (NP-SBJ (PRO they))
+					      (HVP have)
+					      (BEN been)
+					      (VAN severed)))))
+	      (, ,)
+	      (PP (P while)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (N fire))
+					  (, ,)
+					  (ADVP (ADV again))
+					  (, ,)
+					  (VBP refuses)
+					  (IP-INF-SPE (TO to)
+						      (BE be)
+						      (VAN cut)
+						      (PP (P at)
+							  (NP (Q all)))))))
+	      (. .))
+  (ID BOETHJA-1897,113.234))
+
+/~*
+Providence has furnished things with this most cogent reason for continuance:
+(BOETHJA-1897,114.240)
+*~/
+/*
+7 VBN:  7 VBN, 8 furnished, 5 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (N Providence))
+	      (HVP has)
+	      (VBN furnished)
+	      (NP-OB1 (NS things))
+	      (PP (P with)
+		  (NP (D this)
+		      (ADJP (QS most) (ADJ cogent))
+		      (N reason)
+		      (PP (P for)
+			  (NP (N continuance)))))
+	      (. :))
+  (ID BOETHJA-1897,114.240))
+
+/~*
+'But we have proved that one is the very same thing as good.'
+(BOETHJA-1897,114.248)
+*~/
+/*
+11 VBN:  11 VBN, 12 proved, 9 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ But)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (VBN proved)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (ONE one))
+				      (BEP is)
+				      (NP-OB1 (D the)
+					      (ADJP (ADV very) (ADJ same))
+					      (N thing)
+					      (PP (P as)
+						  (ADJP (ADJ good))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,114.248))
+
+/~*
+'We have.'
+(BOETHJA-1897,114.249)
+*~/
+/*
+9 VBN:  9 VBN, 10 *, 7 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (NP-SBJ (PRO We))
+	      (HVP have)
+	      (VBN *)
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,114.249))
+
+/~*
+and, since we have concluded the good to be such, we ought to acknowledge the
+end and aim of the whole universe to be "the good". '
+(BOETHJA-1897,115.262)
+*~/
+/*
+18 VBN:  18 VBN, 19 concluded, 16 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (, ,)
+	      (PP (P since)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (HVP have)
+					  (VBN concluded)
+					  (IP-INF-SPE (NP-SBJ (D the) (N good))
+						      (TO to)
+						      (BE be)
+						      (ADJP (SUCH such))))))
+	      (, ,)
+	      (NP-SBJ (PRO we))
+	      (MD ought)
+	      (TO to)
+	      (VB acknowledge)
+	      (IP-INF-SPE (NP-SBJ (D the)
+				  (N end)
+				  (CONJP (CONJ and)
+					 (NX (N aim)))
+				  (PP (P of)
+				      (NP (D the) (ADJ whole) (N universe))))
+			  (TO to)
+			  (BE be)
+			  (" ")
+			  (NP-OB1 (D the) (N good)))
+	      (" ")
+	      (. .)
+	      (' ')
+	      (CODE {COM:verse_omitted}))
+  (ID BOETHJA-1897,115.262))
+
+/~*
+For verily incredible as it may seem to some, it needs must be that the bad
+are more unfortunate when they have accomplished their desire than if they are
+unable to get them fulfilled.
+(BOETHJA-1897,144.272)
+*~/
+/*
+76 VBN:  76 VBN, 77 accomplished, 74 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (ADVP (ADV verily))
+	      (ADJP-CAR (ADJ incredible)
+			(PP (P as)
+			    (CP-CMP-SPE (WADJP-1 0)
+					(C 0)
+					(IP-SUB-SPE (ADJP *T*-1)
+						    (NP-SBJ (PRO it))
+						    (MD may)
+						    (VB seem)
+						    (PP (P to)
+							(NP (Q some)))))))
+	      (, ,)
+	      (NP-SBJ-2 (PRO it))
+	      (NP-ADV (N needs))
+	      (MD must)
+	      (BE be)
+	      (CP-THT-SPE-2 (C that)
+			    (IP-SUB-SPE (NP-SBJ (D the) (ADJ bad))
+					(BEP are)
+					(ADJP (QR more)
+					      (ADJ unfortunate)
+					      (PP *ICH*-3))
+					(PP (P when)
+					    (CP-ADV-SPE (C 0)
+							(IP-SUB-SPE (NP-SBJ (PRO they))
+								    (HVP have)
+								    (VBN accomplished)
+								    (NP-OB1 (PRO$ their) (N desire)))))
+					(PP-3 (P than)
+					      (PP (P if)
+						  (CP-ADV-SPE (C 0)
+							      (IP-SUB-SPE (NP-SBJ (PRO they))
+									  (BEP are)
+									  (ADJP (ADJ unable)
+										(IP-INF-SPE (TO to)
+											    (VB get)
+											    (IP-SMC-SPE (NP-SBJ (PRO them))
+													(VAN fulfilled))))))))))
+	      (. .))
+  (ID BOETHJA-1897,144.272))
+
+/~*
+If it is wretched to will evil, to have been able to accomplish evil is more
+wretched;
+(BOETHJA-1897,144.273)
+*~/
+/*
+32 BEN:  32 BEN, 33 been, 30 HV
+*/
+
+( (IP-MAT-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ-1 (PRO it))
+					  (BEP is)
+					  (ADJP (ADJ wretched))
+					  (IP-INF-SPE-1 (TO to)
+							(VB will)
+							(NP-OB1 (N evil))))))
+	      (, ,)
+	      (IP-INF-SBJ-SPE (TO to)
+			      (HV have)
+			      (BEN been)
+			      (ADJP (ADJ able)
+				    (IP-INF-SPE (TO to)
+						(VB accomplish)
+						(NP-OB1 (N evil)))))
+	      (BEP is)
+	      (ADJP (QR more) (ADJ wretched))
+	      (. ;))
+  (ID BOETHJA-1897,144.273))
+
+/~*
+Indeed, if we have formed true conclusions about the ill fortune of wickedness,
+that wretchedness is plainly infinite which is doomed to be eternal.
+(BOETHJA-1897,145.282)
+*~/
+/*
+19 VBN:  19 VBN, 20 formed, 17 HVP
+*/
+
+( (IP-MAT-SPE (PP (P+N Indeed))
+	      (, ,)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (HVP have)
+					  (VBN formed)
+					  (NP-OB1 (ADJ true)
+						  (NS conclusions)
+						  (PP (P about)
+						      (NP (D the)
+							  (ADJ ill)
+							  (N fortune)
+							  (PP (P of)
+							      (NP (N wickedness)))))))))
+	      (, ,)
+	      (NP-SBJ (D that)
+		      (N wretchedness)
+		      (CP-REL-SPE *ICH*-1))
+	      (BEP is)
+	      (ADJP (ADV plainly) (ADJ infinite))
+	      (CP-REL-SPE-1 (WNP-2 (WPRO which))
+			    (C 0)
+			    (IP-SUB-SPE (NP-SBJ *T*-2)
+					(BEP is)
+					(VAN doomed)
+					(IP-INF-SPE (TO to)
+						    (BE be)
+						    (ADJP (ADJ eternal)))))
+	      (. .))
+  (ID BOETHJA-1897,145.282))
+
+/~*
+Then said she: 'Have we not agreed that the good are happy, and the evil
+wretched?'
+(BOETHJA-1897,146.295)
+*~/
+/*
+23 VBN:  23 VBN, 24 agreed, 16 HVP
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Then))
+	  (VBD said)
+	  (NP-SBJ (PRO she))
+	  (, :)
+	  (' ')
+	  (CP-QUE-SPE (IP-SUB-SPE (HVP Have)
+				  (NP-SBJ (PRO we))
+				  (NEG not)
+				  (VBN agreed)
+				  (CP-THT-SPE (C that)
+					      (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (D the) (ADJ good))
+									(BEP are)
+									(ADJP (ADJ happy)))
+							  (, ,)
+							  (CONJP (CONJ and)
+								 (IP-SUB-SPE=1 (NP-SBJ (D the) (ADJ evil))
+									       (ADJP (ADJ wretched))))))))
+	  (. ?)
+	  (' '))
+  (ID BOETHJA-1897,146.295))
+
+/~*
+and likewise, when they escape punishment, a new evil attaches to them in the
+very freedom from punishment which thou hast rightly acknowledged to be an
+evil in the case of the unrighteous. '
+(BOETHJA-1897,146.302)
+*~/
+/*
+72 VBN:  72 VBN, 73 acknowledged, 67 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-ADV (ADJ+N likewise))
+	      (, ,)
+	      (PP (P when)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO they))
+					  (VBP escape)
+					  (NP-OB1 (N punishment)))))
+	      (, ,)
+	      (NP-SBJ (D a) (ADJ new) (N evil))
+	      (VBP attaches)
+	      (PP (P to)
+		  (NP (PRO them)))
+	      (PP (P in)
+		  (NP (D the)
+		      (ADJ very)
+		      (N freedom)
+		      (PP (P from)
+			  (NP (N punishment)))
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO thou))
+					      (HVP hast)
+					      (ADVP (ADV rightly))
+					      (VBN acknowledged)
+					      (IP-INF-SPE (NP-SBJ *T*-1)
+							  (TO to)
+							  (BE be)
+							  (NP-OB1 (D an) (N evil))
+							  (PP (P in)
+							      (NP (D the)
+								  (N case)
+								  (PP (P of)
+								      (NP (D the) (ADJ unrighteous))))))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,146.302))
+
+/~*
+So far, my aim hath been to make thee recognize that the power of the bad
+which shocked thee so exceedingly is no power; to make thee see that those of
+whose freedom from punishment thou didst complain are never without the proper
+penalties of their unrighteousness; to teach thee that the licence which thou
+prayedst might soon come to an end is not long-enduring; that it would be more
+unhappy if it lasted longer, most unhappy of all if it lasted for ever;
+thereafter that the unrighteous are more wretched if unjustly let go without
+punishment than if punished by a just retribution - from which point of view
+it follows that the wicked are afflicted with more severe penalties just when
+they are supposed to escape punishment. '
+(BOETHJA-1897,148.314)
+*~/
+/*
+17 BEN:  17 BEN, 18 been, 15 HVP
+*/
+
+( (IP-MAT-SPE (NP-MSR (ADJP (ADVR So) (ADJ far)))
+	      (, ,)
+	      (NP-SBJ (PRO$ my) (N aim))
+	      (HVP hath)
+	      (BEN been)
+	      (IP-INF-SPE (IP-INF-SPE (TO to)
+				      (VB make)
+				      (IP-INF-SPE (NP-SBJ (PRO thee))
+						  (VB recognize)
+						  (CP-THT-SPE (C that)
+							      (IP-SUB-SPE (NP-SBJ (D the)
+										  (N power)
+										  (PP (P of)
+										      (NP (D the) (ADJ bad)))
+										  (CP-REL-SPE (WNP-1 (WPRO which))
+											      (C 0)
+											      (IP-SUB-SPE (NP-SBJ *T*-1)
+													  (VBD shocked)
+													  (NP-OB1 (PRO thee))
+													  (ADVP (ADVR so) (ADV exceedingly)))))
+									  (BEP is)
+									  (NP-OB1 (Q no) (N power))))))
+			  (, ;)
+			  (CONJP (IP-INF-SPE (TO to)
+					     (VB make)
+					     (IP-INF-SPE (NP-SBJ (PRO thee))
+							 (VB see)
+							 (CP-THT-SPE (C that)
+								     (IP-SUB-SPE (NP-SBJ (D those)
+											 (CP-REL-SPE (WPP-2 (P of)
+													    (WNP (WPRO$ whose)
+														 (N freedom)
+														 (PP (P from)
+														     (NP (N punishment)))))
+												     (C 0)
+												     (IP-SUB-SPE (PP *T*-2)
+														 (NP-SBJ (PRO thou))
+														 (DOD didst)
+														 (VB complain))))
+										 (BEP are)
+										 (ADVP-TMP (ADV never))
+										 (PP (P without)
+										     (NP (D the)
+											 (ADJ proper)
+											 (NS penalties)
+											 (PP (P of)
+											     (NP (PRO$ their) (N unrighteousness))))))))))
+			  (, ;)
+			  (CONJP (IP-INF-SPE (TO to)
+					     (VB teach)
+					     (NP-OB2 (PRO thee))
+					     (CP-THT-SPE (CP-THT-SPE (C that)
+								     (IP-SUB-SPE (NP-SBJ (D the)
+											 (N licence)
+											 (CP-REL-SPE (WNP-3 (WPRO which))
+												     (C 0)
+												     (IP-SUB-SPE (NP-SBJ (PRO thou))
+														 (VBD prayedst)
+														 (CP-THT-SPE (C 0)
+															     (IP-SUB-SPE (NP-SBJ *T*-3)
+																	 (MD might)
+																	 (ADVP-TMP (ADV soon))
+																	 (VB come)
+																	 (PP (P to)
+																	     (NP (D an) (N end))))))))
+										 (BEP is)
+										 (NEG not)
+										 (ADJP (ADJ long-enduring))))
+							 (, ;)
+							 (CONJP (CP-THT-SPE (C that)
+									    (IP-SUB-SPE (IP-SUB-SPE-4 (NP-SBJ (PRO it))
+												      (MD would)
+												      (BE be)
+												      (ADJP (QR more) (ADJ unhappy))
+												      (PP (P if)
+													  (CP-ADV-SPE (C 0)
+														      (IP-SUB-SPE (NP-SBJ (PRO it))
+																  (VBD lasted)
+																  (NP-MSR (ADJR longer))))))
+											(, ,)
+											(CONJP (IP-SUB-SPE=4 (ADJP (QS most)
+														   (ADJ unhappy)
+														   (PP (P of)
+														       (NP (Q all))))
+													     (PP (P if)
+														 (CP-ADV-SPE (C 0)
+															     (IP-SUB-SPE (NP-SBJ (PRO it))
+																	 (VBD lasted)
+																	 (PP (P for)
+																	     (ADVP (ADV ever)))))))))))
+							 (, ;)
+							 (CONJP (CP-THT-SPE (PP-5 (ADV+P thereafter))
+									    (C that)
+									    (IP-SUB-SPE (PP *ICH*-5)
+											(NP-SBJ (D the) (ADJ unrighteous))
+											(BEP are)
+											(ADJP (QR more)
+											      (ADJ wretched)
+											      (PP *ICH*-6))
+											(PP (P if)
+											    (IP-PPL-SPE (ADVP (ADV unjustly))
+													(VAN let)
+													(IP-INF-SPE (VB go)
+														    (PP (P without)
+															(NP (N punishment))))))
+											(PP-6 (P than)
+											      (PP (P if)
+												  (CODE <P_148>)
+												  (IP-PPL-SPE (VAN punished)
+													      (PP (P by)
+														  (NP (D a) (ADJ just) (N retribution))))))
+											(, -)
+											(CP-CAR-SPE (WPP-7 (P from)
+													   (WNP (WD which)
+														(N point)
+														(PP (P of)
+														    (NP (N view)))))
+												    (C 0)
+												    (IP-SUB-SPE (PP *T*-7)
+														(NP-SBJ-8 (PRO it))
+														(VBP follows)
+														(CP-THT-SPE-8 (C that)
+															      (IP-SUB-SPE (NP-SBJ (D the) (ADJ wicked))
+																	  (BEP are)
+																	  (VAN afflicted)
+																	  (PP (P with)
+																	      (NP (ADJP (QR more) (ADJ severe))
+																		  (NS penalties)))
+																	  (PP (ADV just)
+																	      (P when)
+																	      (CP-ADV-SPE (C 0)
+																			  (IP-SUB-SPE (NP-SBJ (PRO they))
+																				      (BEP are)
+																				      (VAN supposed)
+																				      (IP-INF-SPE (TO to)
+																						  (VB escape)
+																						  (NP-OB1 (N punishment)))))))))))))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,148.314))
+
+/~*
+Hast thou fashioned thy soul to the likeness of the better, thou hast no need
+of a judge to award the prize -
+(BOETHJA-1897,148.322)
+*~/
+/*
+11 VBN:  11 VBN, 12 fashioned, 6 HVP
+*/
+
+( (IP-MAT-SPE (CP-ADV-SPE (C 0)
+			  (IP-SUB-SPE (HVP Hast)
+				      (NP-SBJ (PRO thou))
+				      (VBN fashioned)
+				      (NP-OB1 (PRO$ thy) (N soul))
+				      (PP (P to)
+					  (NP (D the)
+					      (N likeness)
+					      (PP (P of)
+						  (NP (D the) (ADJR better)))))))
+	      (, ,)
+	      (NP-SBJ (PRO thou))
+	      (HVP hast)
+	      (NP-OB1 (Q no)
+		      (N need)
+		      (PP (P of)
+			  (NP (D a)
+			      (N judge)
+			      (CP-EOP-SPE (WNP-1 0)
+					  (IP-INF-SPE (NP-SBJ *T*-1)
+						      (TO to)
+						      (VB award)
+						      (NP-OB1 (D the) (N prize)))))))
+	      (. -))
+  (ID BOETHJA-1897,148.322))
+
+/~*
+by thine own act hast thou raised thyself in the scale of excellence;
+(BOETHJA-1897,148.323)
+*~/
+/*
+17 VBN:  17 VBN, 18 raised, 12 HVP
+*/
+
+( (IP-MAT-SPE (PP (P by)
+		  (NP (PRO$ thine) (ADJ own) (N act)))
+	      (HVP hast)
+	      (NP-SBJ (PRO thou))
+	      (VBN raised)
+	      (NP-OB1 (PRO$+N thyself))
+	      (PP (P in)
+		  (NP (D the)
+		      (N scale)
+		      (PP (P of)
+			  (NP (N excellence)))))
+	      (. ;))
+  (ID BOETHJA-1897,148.323))
+
+/~*
+hast thou perverted thy affections to baser things,
+(BOETHJA-1897,148.324)
+*~/
+/*
+7 VBN:  7 VBN, 8 perverted, 2 HVP
+*/
+
+( (IP-MAT-SPE (HVP hast)
+	      (NP-SBJ (PRO thou))
+	      (VBN perverted)
+	      (NP-OB1 (PRO$ thy) (NS affections))
+	      (PP (P to)
+		  (NP (ADJR baser) (NS things)))
+	      (. ,))
+  (ID BOETHJA-1897,148.324))
+
+/~*
+thine own act hath degraded thee, and thrust thee down.
+(BOETHJA-1897,148.326)
+*~/
+/*
+12 VBN:  12 VBN, 13 degraded, 10 HVP
+23 VBN:  23 VBN, 24 thrust, 10 HVP
+*/
+
+( (IP-MAT-SPE (IP-MAT-SPE-1 (NP-SBJ (PRO$ thine) (ADJ own) (N act))
+			    (HVP hath)
+			    (VBN degraded)
+			    (NP-OB1 (PRO thee)))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (IP-MAT-SPE=1 (VBN thrust)
+				   (NP-OB1 (PRO thee))
+				   (RP down)))
+	      (. .))
+  (ID BOETHJA-1897,148.326))
+
+/~*
+Shall we go over to those whom we have shown to be like brute beasts?
+(BOETHJA-1897,148.330)
+*~/
+/*
+30 VBN:  30 VBN, 31 shown, 28 HVP
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (MD Shall)
+			  (NP-SBJ (PRO we))
+			  (VB go)
+			  (PP (RP over)
+			      (P to)
+			      (NP (D those)
+				  (CP-REL-SPE (WNP-1 (WPRO whom))
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ (PRO we))
+							  (HVP have)
+							  (VBN shown)
+							  (IP-INF-SPE (NP-SBJ *T*-1)
+								      (TO to)
+								      (BE be)
+								      (ADJP (ADJ like)
+									    (NP (N brute) (NS beasts)))))))))
+	      (. ?))
+  (ID BOETHJA-1897,148.330))
+
+/~*
+Why, suppose, now, one who had quite lost his sight should likewise forget
+that he had ever possessed the faculty of vision, and should imagine that
+nothing was wanting in him to human perfection,
+(BOETHJA-1897,149.331)
+*~/
+/*
+40 VBN:  40 VBN, 41 lost, 35 HVD
+66 VBN:  66 VBN, 67 possessed, 35 HVD
+66 VBN:  66 VBN, 67 possessed, 61 HVD
+*/
+
+( (IP-IMP-SPE (INTJP (WADV Why))
+	      (, ,)
+	      (VBI suppose)
+	      (, ,)
+	      (ADVP-TMP (ADV now))
+	      (, ,)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (ONE one)
+							  (CP-REL-SPE (WNP-1 (WPRO who))
+								      (CODE <P_149>)
+								      (C 0)
+								      (IP-SUB-SPE (NP-SBJ *T*-1)
+										  (HVD had)
+										  (ADVP (ADV quite))
+										  (VBN lost)
+										  (NP-OB1 (PRO$ his) (N sight)))))
+						  (MD should)
+						  (NP-ADV (ADJ+N likewise))
+						  (VB forget)
+						  (CP-THT-SPE (C that)
+							      (IP-SUB-SPE (NP-SBJ (PRO he))
+									  (HVD had)
+									  (ADVP-TMP (ADV ever))
+									  (VBN possessed)
+									  (NP-OB1 (D the)
+										  (N faculty)
+										  (PP (P of)
+										      (NP (N vision)))))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB-SPE (NP-SBJ *con*)
+							 (MD should)
+							 (VB imagine)
+							 (CP-THT-SPE (C that)
+								     (IP-SUB-SPE (NP-SBJ (Q+N nothing))
+										 (BED was)
+										 (ADJP (ADJ wanting))
+										 (PP (P in)
+										     (NP (PRO him)))
+										 (PP (P to)
+										     (NP (ADJ human) (N perfection)))))))))
+	      (. ,))
+  (ID BOETHJA-1897,149.331))
+
+/~*
+'So, then, if thou wert sitting in judgment, on whom wouldst thou decree the
+infliction of punishment - on him who had done the wrong, or on him who had
+suffered it?'
+(BOETHJA-1897,149.341)
+*~/
+/*
+85 DON:  85 DON, 86 done, 83 HVD
+114 VBN:  114 VBN, 115 suffered, 83 HVD
+114 VBN:  114 VBN, 115 suffered, 112 HVD
+*/
+
+( (CP-QUE-SPE (' ')
+	      (ADVP (ADV So))
+	      (, ,)
+	      (ADVP (ADV then))
+	      (, ,)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO thou))
+					  (BED wert)
+					  (VAG sitting)
+					  (PP (P in)
+					      (NP (N judgment))))))
+	      (, ,)
+	      (WPP-1 (P on)
+		     (WNP (WPRO whom))
+		     (PP-PRN *ICH*-2))
+	      (IP-SUB-SPE (PP *T*-1)
+			  (MD wouldst)
+			  (NP-SBJ (PRO thou))
+			  (VB decree)
+			  (NP-OB1 (D the)
+				  (N infliction)
+				  (PP (P of)
+				      (NP (N punishment))))
+			  (, -)
+			  (PP-PRN-2 (PP (P on)
+					(NP (PRO him)
+					    (CP-REL-SPE (WNP-3 (WPRO who))
+							(C 0)
+							(IP-SUB-SPE (NP-SBJ *T*-3)
+								    (HVD had)
+								    (DON done)
+								    (NP-OB1 (D the) (N wrong))))))
+				    (, ,)
+				    (CONJP (CONJ or)
+					   (PP (P on)
+					       (NP (PRO him)
+						   (CP-REL-SPE (WNP-4 (WPRO who))
+							       (C 0)
+							       (IP-SUB-SPE (NP-SBJ *T*-4)
+									   (HVD had)
+									   (VBN suffered)
+									   (NP-OB1 (PRO it)))))))))
+	      (. ?)
+	      (' '))
+  (ID BOETHJA-1897,149.341))
+
+/~*
+advocates try to arouse the commiseration of the judges for those who have
+endured some grievous and cruel wrong; whereas pity is rather due to the
+criminal, who ought to be brought to the judgment-seat by his accusers in a
+spirit not of anger, but of compassion and kindness, as a sick man to the
+physician, to have the ulcer of his fault cut away by punishment. Whereby, the
+business of the advocate would either wholly come to a standstill, or, did men
+prefer to make it serviceable to mankind, would be restricted to the practice
+of accusation.
+(BOETHJA-1897,150.347)
+*~/
+/*
+42 VBN:  42 VBN, 43 endured, 40 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (NS advocates))
+	      (VBP try)
+	      (IP-INF-SPE (TO to)
+			  (VB arouse)
+			  (NP-OB1 (D the)
+				  (N commiseration)
+				  (PP (P of)
+				      (NP (D the) (NS judges))))
+			  (PP (P for)
+			      (NP (D those)
+				  (CP-REL-SPE (WNP-1 (WPRO who))
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (HVP have)
+							  (VBN endured)
+							  (NP-OB1 (Q some)
+								  (ADJP (ADJ grievous) (CONJ and) (ADJ cruel))
+								  (N wrong)))))))
+	      (, ;)
+	      (PP (WADV+P whereas)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (N pity))
+					  (BEP is)
+					  (ADVP (ADVR rather))
+					  (ADJP (ADJ due)
+						(PP (P to)
+						    (NP (D the)
+							(N criminal)
+							(, ,)
+							(CP-REL-SPE (WNP-2 (WPRO who))
+								    (C 0)
+								    (IP-SUB-SPE-3 (NP-SBJ *T*-2)
+										  (MD ought)
+										  (TO to)
+										  (BE be)
+										  (VAN brought)
+										  (PP (P to)
+										      (NP (D the) (N+N judgment-seat)))
+										  (PP (P by)
+										      (NP (PRO$ his) (NS accusers)))
+										  (PP (P in)
+										      (NP (D a)
+											  (N spirit)
+											  (PP (PP (NEG not)
+												  (P of)
+												  (NP (N anger)))
+											      (, ,)
+											      (CONJP (CONJ but)
+												     (PP (P of)
+													 (NP (N compassion) (CONJ and) (N kindness)))))))
+										  (, ,)
+										  (PP (P as)
+										      (CP-ADV-SPE (WADVP-4 0)
+												  (C 0)
+												  (IP-SUB-SPE=3 (ADVP *T*-4)
+														(NP-SBJ (D a) (ADJ sick) (N man))
+														(PP (P to)
+														    (NP (D the) (N physician))))))
+										  (, ,)
+										  (IP-INF-PRP-SPE (TO to)
+												  (HV have)
+												  (IP-SMC-SPE (NP-SBJ (D the)
+														      (N ulcer)
+														      (PP (P of)
+															  (NP (PRO$ his) (N fault))))
+													      (VAN cut)
+													      (ADVP-DIR (ADV away))
+													      (PP (P by)
+														  (NP (N punishment)))))
+										  (, .)
+										  (CP-CAR-SPE (WPP-5 (WADV+P Whereby))
+											      (, ,)
+											      (C 0)
+											      (IP-SUB-SPE (IP-SUB-SPE (PP *T*-5)
+														      (NP-SBJ (D the)
+															      (N business)
+															      (PP (P of)
+																  (NP (D the) (N advocate))))
+														      (MD would)
+														      (CONJ either)
+														      (ADVP (ADV wholly))
+														      (VB come)
+														      (PP (P to)
+															  (NP (D a) (N standstill))))
+													  (, ,)
+													  (CONJP (CONJ or)
+														 (, ,)
+														 (IP-SUB-SPE (PP *T*-5)
+															     (CP-ADV-SPE (C 0)
+																	 (IP-SUB-SPE (DOD did)
+																		     (NP-SBJ (NS men))
+																		     (VB prefer)
+																		     (IP-INF-SPE (TO to)
+																				 (VB make)
+																				 (IP-SMC-SPE (NP-SBJ (PRO it))
+																					     (ADJP (ADJ serviceable)
+																						   (PP (P to)
+																						       (NP (N+N mankind))))))))
+															     (, ,)
+															     (NP-SBJ *con*)
+															     (MD would)
+															     (BE be)
+															     (VAN restricted)
+															     (PP (P to)
+																 (NP (D the)
+																     (N practice)
+																     (PP (P of)
+																	 (NP (N accusation)))))))))))))))))
+	      (. .))
+  (ID BOETHJA-1897,150.347))
+
+/~*
+The wicked themselves also, if through some chink or cranny they were
+permitted to behold the virtue they have forsaken, and were to see that by the
+pains of punishment they would rid themselves of the uncleanness of their
+vices, and win in exchange the recompense of righteousness, they would no
+longer think these sufferings pains;
+(BOETHJA-1897,150.348)
+*~/
+/*
+66 VBN:  66 VBN, 67 forsaken, 64 HVP
+*/
+
+( (IP-MAT-SPE (NP-LFD (D The)
+		      (ADJ wicked)
+		      (NP-PRN (PRO+N themselves)))
+	      (ALSO also)
+	      (, ,)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (PP (P through)
+							  (NP (Q some)
+							      (N chink)
+							      (CONJP (CONJ or)
+								     (NX (N cranny)))))
+						      (NP-SBJ (PRO they))
+						      (BED were)
+						      (VAN permitted)
+						      (IP-INF-SPE (TO to)
+								  (VB behold)
+								  (NP-OB1 (D the)
+									  (N virtue)
+									  (CP-REL-SPE (WNP-1 0)
+										      (C 0)
+										      (IP-SUB-SPE (NP-OB1 *T*-1)
+												  (NP-SBJ (PRO they))
+												  (HVP have)
+												  (VBN forsaken))))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (BED were)
+							     (IP-INF-SPE (TO to)
+									 (VB see)
+									 (CP-THT-SPE (C that)
+										     (IP-SUB-SPE (IP-SUB-SPE-2 (PP (P by)
+														   (NP (D the)
+														       (NS pains)
+														       (PP (P of)
+															   (NP (N punishment)))))
+													       (NP-SBJ (PRO they))
+													       (MD would)
+													       (VB rid)
+													       (NP-OB1 (PRO+N themselves))
+													       (PP (P of)
+														   (NP (D the)
+														       (N uncleanness)
+														       (PP (P of)
+															   (NP (PRO$ their) (NS vices))))))
+												 (, ,)
+												 (CONJP (CONJ and)
+													(IP-SUB-SPE=2 (VB win)
+														      (PP (P in)
+															  (NP (N exchange)))
+														      (NP-OB1 (D the)
+															      (N recompense)
+															      (PP (P of)
+																  (NP (N righteousness))))))))))))))
+	      (, ,)
+	      (NP-SBJ-RSP (PRO they))
+	      (MD would)
+	      (NP-MSR (Q no) (ADJR longer))
+	      (VB think)
+	      (IP-SMC-SPE (NP-SBJ (D these) (NS sufferings))
+			  (NP-OB1 (NS pains)))
+	      (. ;))
+  (ID BOETHJA-1897,150.348))
+
+/~*
+This mind, calm in the citadel of its own essential simplicity, has decreed
+that the method of its rule shall be manifold.
+(BOETHJA-1897,156.372)
+*~/
+/*
+37 VBN:  37 VBN, 38 decreed, 35 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D This) (N mind))
+	      (, ,)
+	      (ADJP-SPR (ADJ calm)
+			(PP (P in)
+			    (NP (D the)
+				(N citadel)
+				(PP (P of)
+				    (NP (PRO$ its)
+					(ADJP (ADJ own) (ADJ essential))
+					(N simplicity))))))
+	      (, ,)
+	      (HVP has)
+	      (VBN decreed)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (D the)
+					      (N method)
+					      (PP (P of)
+						  (NP (PRO$ its) (N rule))))
+				      (MD shall)
+				      (BE be)
+				      (ADJP (ADJ manifold))))
+	      (. .))
+  (ID BOETHJA-1897,156.372))
+
+/~*
+For as the artificer, forming in his mind before hand the idea of the thing to
+be made, carries out his design, and develops from moment to moment what he
+had before seen in a single instant as a whole, so God in His providence
+ordains all things as parts of a single unchanging whole,
+(BOETHJA-1897,157.384)
+*~/
+/*
+121 VBN:  121 VBN, 122 seen, 116 HVD
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP-LFD (P as)
+		      (CP-ADV-SPE (WADVP-1 0)
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (ADVP *T*-1)
+							  (NP-SBJ (D the) (N artificer))
+							  (, ,)
+							  (IP-PPL-SPE (VAG forming)
+								      (PP (P in)
+									  (NP (PRO$ his) (N mind)))
+								      (PP (P before)
+									  (NP (N hand)))
+								      (NP-OB1 (D the)
+									      (N idea)
+									      (PP (P of)
+										  (NP (D the)
+										      (N thing)
+										      (CP-EOP-SPE (WNP-2 0)
+												  (IP-INF-SPE (NP-SBJ *T*-2)
+													      (TO to)
+													      (BE be)
+													      (VAN made)))))))
+							  (, ,)
+							  (VBP carries)
+							  (CODE <P_157>)
+							  (RP out)
+							  (NP-OB1 (PRO$ his) (N design)))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (ADVP *T*-1)
+								 (NP-SBJ *con*)
+								 (VBP develops)
+								 (NP-MSR (PP (P from)
+									     (NP (N moment)))
+									 (PP (P to)
+									     (NP (N moment))))
+								 (NP-OB1 (CP-FRL-SPE (WNP-3 (WPRO what))
+										     (C 0)
+										     (IP-SUB-SPE (NP-OB1 *T*-3)
+												 (NP-SBJ (PRO he))
+												 (HVD had)
+												 (ADVP-TMP (ADV before))
+												 (VBN seen)
+												 (PP (P in)
+												     (NP (D a) (ADJ single) (N instant)))
+												 (PP (P as)
+												     (NP (D a) (N whole)))))))))))
+	      (, ,)
+	      (ADVP-RSP (ADV so))
+	      (NP-SBJ (NPR God))
+	      (PP (P in)
+		  (NP (PRO$ His) (N providence)))
+	      (VBP ordains)
+	      (NP-OB1 (Q all) (NS things))
+	      (PP (P as)
+		  (NP (NS parts)
+		      (PP (P of)
+			  (NP (D a)
+			      (ADJP (ADJ single) (ADJ unchanging))
+			      (N whole)))))
+	      (. ,))
+  (ID BOETHJA-1897,157.384))
+
+/~*
+It may be, if he fall into adversity, he will cease to practise that innocency
+which has failed to secure his fortune.
+(BOETHJA-1897,160.423)
+*~/
+/*
+63 VBN:  63 VBN, 64 failed, 61 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (PRO It))
+	      (MD may)
+	      (BE be)
+	      (, ,)
+	      (CP-THT-SPE-1 (C 0)
+			    (IP-SUB-SPE (PP (P if)
+					    (CP-ADV-SPE (C 0)
+							(IP-SUB-SPE (NP-SBJ (PRO he))
+								    (VBP fall)
+								    (PP (P into)
+									(NP (N adversity))))))
+					(, ,)
+					(NP-SBJ (PRO he))
+					(MD will)
+					(VB cease)
+					(IP-INF-SPE (TO to)
+						    (VB practise)
+						    (NP-OB1 (D that)
+							    (N innocency)
+							    (CP-REL-SPE (WNP-2 (WPRO which))
+									(C 0)
+									(IP-SUB-SPE (NP-SBJ *T*-2)
+										    (HVP has)
+										    (VBN failed)
+										    (IP-INF-SPE (TO to)
+												(VB secure)
+												(NP-OB1 (PRO$ his) (N fortune)))))))))
+	      (. .))
+  (ID BOETHJA-1897,160.423))
+
+/~*
+As one more excellent than I hath said: The very body of the holy saint Is
+built of purest ether.
+(BOETHJA-1897,161.427)
+*~/
+/*
+29 VBN:  29 VBN, 30 said, 27 HVP
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-ADV-SPE (WNP-1 0)
+			      (C 0)
+			      (IP-SUB-SPE (NP-OB1 *T*-1)
+					  (NP-SBJ (ONE one)
+						  (ADJP (QR more)
+							(ADJ excellent)
+							(PP (P than)
+							    (NP (PRO I)))))
+					  (HVP hath)
+					  (VBN said))))
+	      (, :)
+	      (NP-SBJ (D The)
+		      (ADJ very)
+		      (N body)
+		      (PP (P of)
+			  (NP (D the) (ADJ holy) (N saint))))
+	      (BEP Is)
+	      (VAN built)
+	      (PP (P of)
+		  (NP (ADJS purest) (N ether)))
+	      (. .))
+  (ID BOETHJA-1897,161.427))
+
+/~*
+Some also have bought a name revered to future ages at the price of a glorious
+death;
+(BOETHJA-1897,161.435)
+*~/
+/*
+9 VBN:  9 VBN, 10 bought, 7 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (Q Some))
+	      (ALSO also)
+	      (HVP have)
+	      (VBN bought)
+	      (NP-OB1 (D a)
+		      (N name)
+		      (RRC (VAN revered)
+			   (PP (P to)
+			       (NP (ADJ future) (NS ages)))))
+	      (PP (P at)
+		  (NP (D the)
+		      (N price)
+		      (PP (P of)
+			  (NP (D a) (ADJ glorious) (N death)))))
+	      (. ;))
+  (ID BOETHJA-1897,161.435))
+
+/~*
+some by invincible constancy under their sufferings have afforded an example
+to others that virtue $can $not be overcome by calamity - all which things,
+without doubt, come to pass rightly and in due order, and to the benefit of
+those to whom they are seen to happen. '
+(BOETHJA-1897,161.436)
+*~/
+/*
+23 VBN:  23 VBN, 24 afforded, 21 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (Q some))
+	      (PP (P by)
+		  (NP (ADJ invincible)
+		      (N constancy)
+		      (PP (P under)
+			  (NP (PRO$ their) (NS sufferings)))))
+	      (HVP have)
+	      (VBN afforded)
+	      (NP-OB1 (D an)
+		      (N example)
+		      (CP-THT-SPE *ICH*-1))
+	      (PP (P to)
+		  (NP (OTHERS others)))
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (N virtue))
+					(MD $can)
+					(NEG $not)
+					(CODE {TEXT:cannot})
+					(BE be)
+					(VAN overcome)
+					(PP (P by)
+					    (NP (N calamity)))))
+	      (, -)
+	      (CP-CAR-SPE (WNP-2 (Q all) (WD which) (NS things))
+			  (, ,)
+			  (C 0)
+			  (IP-SUB-SPE (NP-SBJ *T*-2)
+				      (PP (P without)
+					  (NP (N doubt)))
+				      (, ,)
+				      (VBP come)
+				      (IP-INF-SPE (TO to)
+						  (VB pass)
+						  (ADVP (ADVP (ADV rightly))
+							(CONJP (CONJ and)
+							       (PP (P in)
+								   (NP (ADJ due) (N order))))
+							(, ,)
+							(CONJP (CONJ and)
+							       (PP (P to)
+								   (NP (D the)
+								       (N benefit)
+								       (PP (P of)
+									   (NP (D those)
+									       (CP-REL-SPE (WPP-3 (P to)
+												  (WNP (WPRO whom)))
+											   (C 0)
+											   (IP-SUB-SPE (NP-SBJ (PRO they))
+												       (BEP are)
+												       (VAN seen)
+												       (IP-INF-SPE (PP *T*-3)
+														   (TO to)
+														   (VB happen)))))))))))))
+	      (. .)
+	      (' '))
+  (ID BOETHJA-1897,161.436))
+
+/~*
+Some, through a prosperity unworthily borne, have been hurled headlong to ruin;
+(BOETHJA-1897,162.446)
+*~/
+/*
+25 BEN:  25 BEN, 26 been, 23 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (Q Some))
+	      (, ,)
+	      (PP (P through)
+		  (NP (D a)
+		      (N prosperity)
+		      (RRC (ADVP (ADV unworthily))
+			   (VAN borne))))
+	      (, ,)
+	      (HVP have)
+	      (BEN been)
+	      (VAN hurled)
+	      (ADVP (ADV headlong))
+	      (PP (P to)
+		  (NP (N ruin)))
+	      (. ;))
+  (ID BOETHJA-1897,162.446))
+
+/~*
+to some the power of the sword has been committed, to the end that the good
+may be tried by discipline, and the bad punished.
+(BOETHJA-1897,162.447)
+*~/
+/*
+23 BEN:  23 BEN, 24 been, 21 HVP
+*/
+
+( (IP-MAT-SPE (PP (P to)
+		  (NP (Q some)))
+	      (NP-SBJ (D the)
+		      (N power)
+		      (PP (P of)
+			  (NP (D the) (N sword))))
+	      (HVP has)
+	      (BEN been)
+	      (VAN committed)
+	      (, ,)
+	      (PP (P to)
+		  (NP (D the)
+		      (N end)
+		      (CP-THT-SPE (C that)
+				  (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (D the) (ADJ good))
+							    (MD may)
+							    (BE be)
+							    (VAN tried)
+							    (PP (P by)
+								(NP (N discipline))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE=1 (NP-SBJ (D the) (ADJ bad))
+								   (VAN punished)))))))
+	      (. .))
+  (ID BOETHJA-1897,162.447))
+
+/~*
+and ofttimes they do things which, when they are done, they judge ought not to
+have been done.
+(BOETHJA-1897,163.450)
+*~/
+/*
+61 BEN:  61 BEN, 62 been, 59 HV
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (ADVP-TMP (ADV+NS ofttimes))
+	      (NP-SBJ (PRO they))
+	      (DOP do)
+	      (NP-OB1 (NS things)
+		      (CODE <P_163>)
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (, ,)
+				  (C 0)
+				  (IP-SUB-SPE (PP (P when)
+						  (CP-ADV-SPE (C 0)
+							      (IP-SUB-SPE (NP-SBJ (PRO they))
+									  (BEP are)
+									  (DAN done))))
+					      (, ,)
+					      (NP-SBJ (PRO they))
+					      (VBP judge)
+					      (CP-THT-SPE (C 0)
+							  (IP-SUB-SPE (NP-SBJ *T*-1)
+								      (MD ought)
+								      (NEG not)
+								      (TO to)
+								      (HV have)
+								      (BEN been)
+								      (DAN done))))))
+	      (. .))
+  (ID BOETHJA-1897,163.450))
+
+/~*
+For order in some way or other embraceth all things, so that even that which
+has departed from the appointed laws of the order, nevertheless falleth within
+an order, though another order, that nothing in the realm of providence may be
+left to haphazard.
+(BOETHJA-1897,163.455)
+*~/
+/*
+54 VBN:  54 VBN, 55 departed, 52 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (N order)
+		      (PP (P in)
+			  (NP (NP (Q some) (N way))
+			      (CONJP (CONJ or)
+				     (NP (OTHER other))))))
+	      (VBP embraceth)
+	      (NP-OB1 (Q all) (NS things))
+	      (, ,)
+	      (PP (P so)
+		  (CP-ADV-SPE (C that)
+			      (IP-SUB-SPE (NP-SBJ (FP even)
+						  (D that)
+						  (CP-REL-SPE (WNP-1 (WPRO which))
+							      (C 0)
+							      (IP-SUB-SPE (NP-SBJ *T*-1)
+									  (HVP has)
+									  (VBN departed)
+									  (PP (P from)
+									      (NP (D the)
+										  (VAN appointed)
+										  (NS laws)
+										  (PP (P of)
+										      (NP (D the) (N order))))))))
+					  (, ,)
+					  (ADVP (ADV nevertheless))
+					  (VBP falleth)
+					  (PP (P within)
+					      (CODE <font>)
+					      (NP (D an) (CODE <$$font>) (N order)))
+					  (, ,)
+					  (PP (P though)
+					      (CODE <font>)
+					      (NP (D+OTHER another) (CODE <$$font>) (N order)))
+					  (, ,)
+					  (CP-ADV-SPE (C that)
+						      (IP-SUB-SPE (NP-SBJ (Q+N nothing)
+									  (PP (P in)
+									      (NP (D the)
+										  (N realm)
+										  (PP (P of)
+										      (NP (N providence))))))
+								  (MD may)
+								  (BE be)
+								  (VAN left)
+								  (PP (P to)
+								      (NP (N haphazard))))))))
+	      (. .))
+  (ID BOETHJA-1897,163.455))
+
+/~*
+Let us be content to have apprehended this only - that God, the creator of
+universal nature, $likewise disposeth all things, and guides them to good;
+(BOETHJA-1897,163.458)
+*~/
+/*
+18 VBN:  18 VBN, 19 apprehended, 16 HV
+*/
+
+( (IP-IMP-SPE (VBI Let)
+	      (IP-INF-SPE (NP-SBJ (PRO us))
+			  (BE be)
+			  (ADJP (ADJ content)
+				(IP-INF-SPE (TO to)
+					    (HV have)
+					    (VBN apprehended)
+					    (NP-OB1 (D this)
+						    (FP only)
+						    (, -)
+						    (CP-THT-PRN-SPE (C that)
+								    (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (NPR God)
+												    (, ,)
+												    (NP-PRN (D the)
+													    (N creator)
+													    (PP (P of)
+														(NP (ADJ universal) (N nature)))))
+											    (, ,)
+											    (NP-ADV (ADJ+N $likewise))
+											    (CODE {TEXT:likewiseth})
+											    (VBP disposeth)
+											    (NP-OB1 (Q all) (NS things)))
+										(, ,)
+										(CONJP (CONJ and)
+										       (IP-SUB-SPE (NP-SBJ *con*)
+												   (VBP guides)
+												   (NP-OB1 (PRO them))
+												   (PP (P to)
+												       (NP (N good)))))))))))
+	      (. ;))
+  (ID BOETHJA-1897,163.458))
+
+/~*
+and while He studies to preserve in likeness to Himself all that He has
+created, He banishes all evil from the borders of His commonweal through the
+links of fatal necessity. Whereby it comes to pass that, if thou look to
+disposing providence thou wilt nowhere find the evils which are believed so to
+abound on earth.
+(BOETHJA-1897,164.459)
+*~/
+/*
+49 VBN:  49 VBN, 50 created, 47 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (PP (P while)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO He))
+					  (VBP studies)
+					  (IP-INF-PRP-SPE (TO to)
+							  (VB preserve)
+							  (PP (P in)
+							      (NP (N likeness)
+								  (PP (P to)
+								      (NP (PRO+N Himself)))))
+							  (NP-OB1 (Q all)
+								  (CP-REL-SPE (WNP-1 0)
+									      (C that)
+									      (IP-SUB-SPE (NP-OB1 *T*-1)
+											  (NP-SBJ (PRO He))
+											  (HVP has)
+											  (VBN created))))))))
+	      (, ,)
+	      (NP-SBJ (PRO He))
+	      (VBP banishes)
+	      (NP-OB1 (Q all) (N evil))
+	      (PP (P from)
+		  (NP (D the)
+		      (NS borders)
+		      (PP (P of)
+			  (NP (PRO$ His) (N commonweal)))))
+	      (PP (P through)
+		  (NP (D the)
+		      (NS links)
+		      (PP (P of)
+			  (NP (ADJ fatal) (N necessity)))))
+	      (, .)
+	      (CP-CAR-SPE (WPP-2 (WADV+P Whereby))
+			  (C 0)
+			  (IP-SUB-SPE (PP *T*-2)
+				      (NP-SBJ-3 (PRO it))
+				      (VBP comes)
+				      (IP-INF-SPE (TO to) (VB pass))
+				      (CP-THT-SPE-3 (C that)
+						    (, ,)
+						    (IP-SUB-SPE (PP (P if)
+								    (CP-ADV-SPE (C 0)
+										(IP-SUB-SPE (NP-SBJ (PRO thou))
+											    (VBP look)
+											    (PP (P to)
+												(NP (VAG disposing) (N providence))))))
+								(CODE <P_164>)
+								(NP-SBJ (PRO thou))
+								(MD wilt)
+								(ADVP-LOC (Q+WADV nowhere))
+								(VB find)
+								(NP-OB1 (D the)
+									(NS evils)
+									(CP-REL-SPE (WNP-4 (WPRO which))
+										    (C 0)
+										    (IP-SUB-SPE (NP-SBJ-5 *T*-4)
+												(BEP are)
+												(VAN believed)
+												(IP-INF-SPE (NP-SBJ *-5)
+													    (ADVP (ADVR so))
+													    (TO to)
+													    (VB abound)
+													    (PP (P on)
+														(NP (N earth)))))))))))
+	      (. .))
+  (ID BOETHJA-1897,164.459))
+
+/~*
+'But I see thou hast long been burdened with the weight of the subject, and
+fatigued with the prolixity of the argument, and now lookest for some
+refreshment of sweet poesy.
+(BOETHJA-1897,164.460)
+*~/
+/*
+25 BEN:  25 BEN, 26 been, 20 HVP
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ But)
+	      (NP-SBJ (PRO I))
+	      (VBP see)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (PRO thou))
+								(HVP hast)
+								(NP-MSR (ADJ long))
+								(BEN been)
+								(VAN burdened)
+								(PP (P with)
+								    (NP (D the)
+									(N weight)
+									(PP (P of)
+									    (NP (D the) (N subject))))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE=1 (VAN fatigued)
+								       (PP (P with)
+									   (NP (D the)
+									       (N prolixity)
+									       (PP (P of)
+										   (NP (D the) (N argument))))))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB-SPE (NP-SBJ *con*)
+							 (ADVP-TMP (ADV now))
+							 (VBP lookest)
+							 (PP (P for)
+							     (NP (Q some)
+								 (N refreshment)
+								 (PP (P of)
+								     (NP (ADJ sweet) (N poesy)))))))))
+	      (. .))
+  (ID BOETHJA-1897,164.460))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	56/53/463
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd
+*/
+
+/~*
+I have been hitherto employed in giving you a view of false happiness.
+(BOETHRI-1785,104.2)
+*~/
+/*
+7 BEN:  7 BEN, 8 been, 5 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO I))
+	      (HVP have)
+	      (BEN been)
+	      (PP (ADV+P hitherto))
+	      (VAN employed)
+	      (PP (P in)
+		  (IP-PPL-SPE (VAG giving)
+			      (NP-OB2 (PRO you))
+			      (NP-OB1 (D a)
+				      (N view)
+				      (PP (P of)
+					  (CODE <font>)
+					  (NP (ADJ false) (N happiness))))))
+	      (. .)
+	      (CODE <$$font>))
+  (ID BOETHRI-1785,104.2))
+
+/~*
+As I am persuaded you have considered it attentively, I shall now proceed to
+shew wherein real and genuine felicity consists.
+(BOETHRI-1785,104.3)
+*~/
+/*
+25 VBN:  25 VBN, 26 considered, 23 HVP
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO I))
+					  (BEP am)
+					  (VAN persuaded)
+					  (CP-THT-SPE (C 0)
+						      (IP-SUB-SPE (NP-SBJ (PRO you))
+								  (HVP have)
+								  (VBN considered)
+								  (NP-OB1 (PRO it))
+								  (ADVP (ADV attentively)))))))
+	      (, ,)
+	      (NP-SBJ (PRO I))
+	      (MD shall)
+	      (ADVP-TMP (ADV now))
+	      (VB proceed)
+	      (IP-INF-SPE (TO to)
+			  (VB shew)
+			  (CP-QUE-SPE (WPP-1 (WADV+P wherein))
+				      (C 0)
+				      (IP-SUB-SPE (PP *T*-1)
+						  (NP-SBJ (ADJP (ADJ real) (CONJ and) (ADJ genuine))
+							  (N felicity))
+						  (VBP consists))))
+	      (. .))
+  (ID BOETHRI-1785,104.3))
+
+/~*
+Have you not already granted that the state we now speak of is powerful and
+respectable, and that it wants nothing?
+(BOETHRI-1785,105.28)
+*~/
+/*
+13 VBN:  13 VBN, 14 granted, 3 HVP
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (HVP Have)
+			  (NP-SBJ (PRO you))
+			  (NEG not)
+			  (ADVP-TMP (ADV already))
+			  (VBN granted)
+			  (CP-THT-SPE (CP-THT-SPE (C that)
+						  (IP-SUB-SPE (NP-SBJ (D the)
+								      (N state)
+								      (CP-REL-SPE (WNP-1 0)
+										  (C 0)
+										  (IP-SUB-SPE (NP-SBJ (PRO we))
+											      (ADVP-TMP (ADV now))
+											      (VBP speak)
+											      (PP (P of)
+												  (NP *T*-1)))))
+							      (BEP is)
+							      (ADJP (ADJ powerful) (CONJ and) (ADJ respectable))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (CP-THT-SPE (C that)
+							 (IP-SUB-SPE (NP-SBJ (PRO it))
+								     (VBP wants)
+								     (NP-OB1 (Q+N nothing)))))))
+	      (. ?))
+  (ID BOETHRI-1785,105.28))
+
+/~*
+and I must confess that reputation is inseparable from the advantages you have
+mentioned.
+(BOETHRI-1785,105.31)
+*~/
+/*
+44 VBN:  44 VBN, 45 mentioned, 42 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO I))
+	      (MD must)
+	      (VB confess)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (N reputation))
+				      (BEP is)
+				      (ADJP (ADJ inseparable)
+					    (PP (P from)
+						(NP (D the)
+						    (NS advantages)
+						    (CP-REL-SPE (WNP-1 0)
+								(C 0)
+								(IP-SUB-SPE (NP-OB1 *T*-1)
+									    (NP-SBJ (PRO you))
+									    (HVP have)
+									    (VBN mentioned))))))))
+	      (. .))
+  (ID BOETHRI-1785,105.31))
+
+/~*
+- It must undoubtedly, said she, be a state of happiness if what we have
+before established holds good.
+(BOETHRI-1785,106.36)
+*~/
+/*
+60 VBN:  60 VBN, 61 established, 55 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO It))
+	      (MD must)
+	      (ADVP (ADV undoubtedly))
+	      (, ,)
+	      (IP-MAT-PRN (VBD said)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (BE be)
+	      (NP-OB1 (D a)
+		      (N state)
+		      (PP (P of)
+			  (NP (N happiness))))
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (CP-FRL-SPE (WNP-1 (WPRO what))
+							      (C 0)
+							      (IP-SUB-SPE (NP-OB1 *T*-1)
+									  (NP-SBJ (PRO we))
+									  (HVP have)
+									  (ADVP-TMP (ADV before))
+									  (VBN established))))
+					  (VBP holds)
+					  (ADJP-SPR (ADJ good)))))
+	      (. .))
+  (ID BOETHRI-1785,106.36))
+
+/~*
+But can he ever expect to find it in the acquisitions above-mentioned, which,
+as we have shewn, do not perform what they promise?
+(BOETHRI-1785,107.57)
+*~/
+/*
+63 VBN:  63 VBN, 64 shewn, 61 HVP
+*/
+
+( (CP-QUE-SPE (CONJ But)
+	      (IP-SUB-SPE (MD can)
+			  (NP-SBJ (PRO he))
+			  (ADVP-TMP (ADV ever))
+			  (VB expect)
+			  (IP-INF-SPE (TO to)
+				      (VB find)
+				      (NP-OB1 (PRO it))
+				      (PP (P in)
+					  (NP (D the)
+					      (NS acquisitions)
+					      (RRC (ADV+VAN above-mentioned))
+					      (, ,)
+					      (CP-REL-SPE (WNP-1 (WPRO which))
+							  (, ,)
+							  (C 0)
+							  (IP-SUB-SPE (NP-SBJ *T*-1)
+								      (PP (P as)
+									  (CP-ADV-SPE (WNP-2 0)
+										      (C 0)
+										      (IP-SUB-SPE (NP-OB1 *T*-2)
+												  (NP-SBJ (PRO we))
+												  (HVP have)
+												  (VBN shewn))))
+								      (, ,)
+								      (DOP do)
+								      (NEG not)
+								      (VB perform)
+								      (NP-OB1 (CP-FRL-SPE (WNP-3 (WPRO what))
+											  (C 0)
+											  (IP-SUB-SPE (NP-OB1 *T*-3)
+												      (NP-SBJ (PRO they))
+												      (VBP promise))))))))))
+	      (. ?))
+  (ID BOETHRI-1785,107.57))
+
+/~*
+- Thus then, continued she, I have given you a compleat view of false
+happiness, and of its causes:
+(BOETHRI-1785,107.61)
+*~/
+/*
+25 VBN:  25 VBN, 26 given, 23 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (ADVP (ADV Thus))
+	      (ADVP (ADV then))
+	      (, ,)
+	      (IP-MAT-PRN (VBD continued)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (NP-SBJ (PRO I))
+	      (HVP have)
+	      (VBN given)
+	      (NP-OB2 (PRO you))
+	      (NP-OB1 (D a)
+		      (ADJ compleat)
+		      (N view)
+		      (PP (PP (P of)
+			      (NP (ADJ false) (N happiness)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (PP (P of)
+				     (NP (PRO$ its) (NS causes))))))
+	      (. :))
+  (ID BOETHRI-1785,107.61))
+
+/~*
+And, to satisfy you how much your lessons have enlightened my understanding, I
+declare to you, I am perfectly convinced, that genuine felicity is what is
+bestowed by these advantages, as they are, in reality, all one and the same.
+(BOETHRI-1785,108.67)
+*~/
+/*
+33 VBN:  33 VBN, 34 enlightened, 31 HVP
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (, ,)
+	      (IP-INF-PRP-SPE (TO to)
+			      (VB satisfy)
+			      (NP-OB1 (PRO you))
+			      (CP-QUE-SPE (WNP-1 (WQP (WADV how) (Q much)))
+					  (C 0)
+					  (IP-SUB-SPE (NP-MSR *T*-1)
+						      (NP-SBJ (PRO$ your) (NS lessons))
+						      (HVP have)
+						      (VBN enlightened)
+						      (NP-OB1 (PRO$ my) (N understanding)))))
+	      (, ,)
+	      (NP-SBJ (PRO I))
+	      (VBP declare)
+	      (PP (P to)
+		  (NP (PRO you)))
+	      (, ,)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (NP-SBJ (PRO I))
+				      (BEP am)
+				      (ADJP (ADV perfectly)
+					    (VAN convinced)
+					    (, ,)
+					    (CP-THT-SPE (C that)
+							(IP-SUB-SPE (NP-SBJ (ADJ genuine) (N felicity))
+								    (BEP is)
+								    (NP-OB1 (CP-FRL-SPE (WNP-2 (WPRO what))
+											(C 0)
+											(IP-SUB-SPE (NP-SBJ *T*-2)
+												    (BEP is)
+												    (VAN bestowed)
+												    (PP (P by)
+													(NP (D these) (NS advantages)))))))))
+				      (, ,)
+				      (PP (P as)
+					  (CP-ADV-SPE (C 0)
+						      (IP-SUB-SPE (NP-SBJ (PRO they))
+								  (BEP are)
+								  (, ,)
+								  (PP (P in)
+								      (NP (N reality)))
+								  (, ,)
+								  (Q all)
+								  (NP-OB1 (NP (ONE one))
+									  (CONJP (CONJ and)
+										 (NP (D the) (ADJ same)))))))))
+	      (. .))
+  (ID BOETHRI-1785,108.67))
+
+/~*
+you have proved the contrary so clearly, that I have no doubt remaining upon
+this point.
+(BOETHRI-1785,108.73)
+*~/
+/*
+7 VBN:  7 VBN, 8 proved, 5 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO you))
+	      (HVP have)
+	      (VBN proved)
+	      (NP-OB1 (D the) (N contrary))
+	      (ADVP (ADVR so)
+		    (ADV clearly)
+		    (, ,)
+		    (CP-DEG-SPE (C that)
+				(IP-SUB-SPE (NP-SBJ (PRO I))
+					    (HVP have)
+					    (NP-OB1 (Q no)
+						    (N doubt)
+						    (RRC (VAG remaining)))
+					    (PP (P upon)
+						(NP (D this) (N point))))))
+	      (. .))
+  (ID BOETHRI-1785,108.73))
+
+/~*
+- But as you have now, continued she, discovered what the true felicity is,
+and know how to distinguish it from the false; what now remains, is to teach
+you where you are to seek for this supreme good.
+(BOETHRI-1785,109.78)
+*~/
+/*
+32 VBN:  32 VBN, 33 discovered, 17 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (CONJ But)
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO you))
+						      (HVP have)
+						      (ADVP-TMP (ADV now))
+						      (, ,)
+						      (IP-MAT-PRN (VBD continued)
+								  (NP-SBJ (PRO she)))
+						      (, ,)
+						      (VBN discovered)
+						      (CP-QUE-SPE (WNP-1 (WPRO what))
+								  (C 0)
+								  (IP-SUB-SPE (NP-OB1 *T*-1)
+									      (NP-SBJ (D the) (ADJ true) (N felicity))
+									      (BEP is))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP know)
+							     (CP-QUE-SPE (WADVP-2 (WADV how))
+									 (IP-INF-SPE (ADVP *T*-2)
+										     (TO to)
+										     (VB distinguish)
+										     (NP-OB1 (PRO it))
+										     (PP (P from)
+											 (NP (D the) (ADJ false))))))))))
+	      (, ;)
+	      (NP-SBJ (CP-FRL-SPE (WNP-3 (WPRO what))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-3)
+					      (ADVP-TMP (ADV now))
+					      (VBP remains))))
+	      (, ,)
+	      (BEP is)
+	      (IP-INF-SPE (TO to)
+			  (VB teach)
+			  (NP-OB2 (PRO you))
+			  (CP-QUE-SPE (WADVP-4 (WADV where))
+				      (C 0)
+				      (IP-SUB-SPE (NP-SBJ (PRO you))
+						  (BEP are)
+						  (IP-INF-SPE (ADVP-LOC *T*-4)
+							      (TO to)
+							      (VB seek)
+							      (PP (P for)
+								  (NP (D this) (ADJ supreme) (N good)))))))
+	      (. .))
+  (ID BOETHRI-1785,109.78))
+
+/~*
+- This is what I have long wished for.
+(BOETHRI-1785,109.79)
+*~/
+/*
+25 VBN:  25 VBN, 26 wished, 20 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (D This))
+	      (BEP is)
+	      (NP-OB1 (CP-FRL-SPE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO I))
+					      (HVP have)
+					      (NP-MSR (ADJ long))
+					      (VBN wished)
+					      (PP (P for)
+						  (NP *T*-1)))))
+	      (. .))
+  (ID BOETHRI-1785,109.79))
+
+/~*
+As a faithful representation of false happiness, and of the true Felicity, has
+been represented to you, I shall now proceed to explain, wherein the
+perfection of Felicity consists.
+(BOETHRI-1785,111.89)
+*~/
+/*
+44 BEN:  44 BEN, 45 been, 42 HVP
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D a)
+						  (ADJ faithful)
+						  (N representation)
+						  (PP (PP (P of)
+							  (NP (ADJ false) (N happiness)))
+						      (, ,)
+						      (CONJP (CONJ and)
+							     (PP (P of)
+								 (NP (D the) (ADJ true) (N Felicity))))))
+					  (, ,)
+					  (HVP has)
+					  (BEN been)
+					  (VAN represented)
+					  (PP (P to)
+					      (NP (PRO you))))))
+	      (, ,)
+	      (NP-SBJ (PRO I))
+	      (MD shall)
+	      (ADVP-TMP (ADV now))
+	      (VB proceed)
+	      (IP-INF-SPE (TO to)
+			  (VB explain)
+			  (, ,)
+			  (CP-QUE-SPE (WPP-1 (WADV+P wherein))
+				      (C 0)
+				      (IP-SUB-SPE (PP *T*-1)
+						  (NP-SBJ (D the)
+							  (CODE <P_111>)
+							  (N perfection)
+							  (PP (P of)
+							      (NP (N Felicity))))
+						  (VBP consists))))
+	      (. .))
+  (ID BOETHRI-1785,111.89))
+
+/~*
+In view to this, we ought first to examine, whether there exists in nature
+such a good as you have lately defined; that our imagination may not deceive
+us, in taking a mere chimera for a thing that is real, and has a being.
+(BOETHRI-1785,111.90)
+*~/
+/*
+73 VBN:  73 VBN, 74 defined, 68 HVP
+*/
+
+( (IP-MAT-SPE (PP (P In)
+		  (NP (N view)
+		      (PP (P to)
+			  (NP (D this)))))
+	      (, ,)
+	      (NP-SBJ (PRO we))
+	      (MD ought)
+	      (ADVP-TMP (ADV first))
+	      (TO to)
+	      (VB examine)
+	      (, ,)
+	      (CP-QUE-SPE (WQ whether)
+			  (C 0)
+			  (IP-SUB-SPE (NP-SBJ-1 (EX there))
+				      (VBP exists)
+				      (PP (P in)
+					  (NP (N nature)))
+				      (NP-1 (SUCH such)
+					    (D a)
+					    (N good)
+					    (PP (P as)
+						(CP-CMP-SPE (WNP-2 0)
+							    (C 0)
+							    (IP-SUB-SPE (NP-OB1 *T*-2)
+									(NP-SBJ (PRO you))
+									(HVP have)
+									(ADVP-TMP (ADV lately))
+									(VBN defined)))))))
+	      (, ;)
+	      (CP-ADV-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (PRO$ our) (N imagination))
+				      (MD may)
+				      (NEG not)
+				      (VB deceive)
+				      (NP-OB1 (PRO us))
+				      (, ,)
+				      (PP (P in)
+					  (IP-PPL-SPE (VAG taking)
+						      (NP-OB1 (D a) (ADJ mere) (N chimera))
+						      (PP (P for)
+							  (NP (D a)
+							      (N thing)
+							      (CP-REL-SPE (WNP-3 0)
+									  (C that)
+									  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ *T*-3)
+												  (BEP is)
+												  (ADJP (ADJ real)))
+										      (, ,)
+										      (CONJP (CONJ and)
+											     (IP-SUB-SPE (NP-SBJ *T*-3)
+													 (HVP has)
+													 (NP-OB1 (D a) (N being))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,111.90))
+
+/~*
+but afterwards gives birth to things less perfect and efficacious. So that, if,
+as we have before shewn, there is an imperfect felicity in this world, there
+must be also in it a solid and a perfect one.
+(BOETHRI-1785,111.98)
+*~/
+/*
+70 VBN:  70 VBN, 71 shewn, 65 HVP
+*/
+
+( (IP-MAT-SPE (CONJ but)
+	      (NP-SBJ *con*)
+	      (ADVP-TMP (ADV+WARD afterwards))
+	      (VBP gives)
+	      (NP-OB1 (N birth))
+	      (PP (P to)
+		  (NP (NS things)
+		      (ADJP (QR less)
+			    (ADJ perfect)
+			    (CONJP (CONJ and)
+				   (ADJX (ADJ efficacious))))))
+	      (, .)
+	      (PP (P So)
+		  (CP-ADV-SPE (C that)
+			      (, ,)
+			      (IP-SUB-SPE (PP (P if)
+					      (, ,)
+					      (CP-ADV-SPE (C 0)
+							  (IP-SUB-SPE (PP (P as)
+									  (CP-ADV-SPE (WADVP-1 0)
+										      (C 0)
+										      (IP-SUB-SPE (ADVP *T*-1)
+												  (NP-SBJ (PRO we))
+												  (HVP have)
+												  (ADVP-TMP (ADV before))
+												  (VBN shewn))))
+								      (, ,)
+								      (NP-SBJ-2 (EX there))
+								      (BEP is)
+								      (NP-2 (D an) (ADJ imperfect) (N felicity))
+								      (PP (P in)
+									  (NP (D this) (N world))))))
+					  (, ,)
+					  (NP-SBJ-3 (EX there))
+					  (MD must)
+					  (BE be)
+					  (ALSO also)
+					  (PP (P in)
+					      (NP (PRO it)))
+					  (NP-3 (NP (D a) (ADJ solid))
+						(CONJP (CONJ and)
+						       (NP (D a) (ADJ perfect) (ONE one)))))))
+	      (. .))
+  (ID BOETHRI-1785,111.98))
+
+/~*
+for there would be some other Being more excellent than he is, who possesses
+the supreme good, and who must have existed before him; because all perfect
+things plainly precede things that are less complete.
+(BOETHRI-1785,112.105)
+*~/
+/*
+78 VBN:  78 VBN, 79 existed, 76 HV
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ-1 (EX there))
+	      (MD would)
+	      (BE be)
+	      (NP-1 (Q some)
+		    (OTHER other)
+		    (N Being)
+		    (ADJP (QR more)
+			  (ADJ excellent)
+			  (PP (P than)
+			      (CP-CMP-SPE (WADJP-2 0)
+					  (C 0)
+					  (IP-SUB-SPE (ADJP *T*-2)
+						      (NP-SBJ (PRO he))
+						      (BEP is)))))
+		    (, ,)
+		    (CP-REL-SPE (CP-REL-SPE (WNP-3 (WPRO who))
+					    (C 0)
+					    (IP-SUB-SPE (NP-SBJ *T*-3)
+							(VBP possesses)
+							(NP-OB1 (D the) (ADJ supreme) (N good))))
+				(, ,)
+				(CONJP (CONJ and)
+				       (CP-REL-SPE (WNP-4 (WPRO who))
+						   (C 0)
+						   (IP-SUB-SPE (NP-SBJ *T*-4)
+							       (MD must)
+							       (HV have)
+							       (VBN existed)
+							       (PP (P before)
+								   (NP (PRO him))))))))
+	      (, ;)
+	      (PP (P+N because)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (Q all) (ADJ perfect) (NS things))
+					  (ADVP (ADV plainly))
+					  (VBP precede)
+					  (NP-OB1 (NS things)
+						  (CP-REL-SPE (WNP-5 0)
+							      (C that)
+							      (IP-SUB-SPE (NP-SBJ *T*-5)
+									  (BEP are)
+									  (ADJP (QR less) (ADJ complete))))))))
+	      (. .))
+  (ID BOETHRI-1785,112.105))
+
+/~*
+but perfect good we have proved to be true felicity.
+(BOETHRI-1785,112.107)
+*~/
+/*
+14 VBN:  14 VBN, 15 proved, 12 HVP
+*/
+
+( (IP-MAT-SPE (CONJ but)
+	      (NP-1 (ADJ perfect) (N good))
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (VBN proved)
+	      (IP-INF-SPE (NP-SBJ *ICH*-1)
+			  (TO to)
+			  (BE be)
+			  (NP-OB1 (ADJ true) (N felicity)))
+	      (. .))
+  (ID BOETHRI-1785,112.107))
+
+/~*
+- But I pray you, continued she, let us see how you can firmly and
+irrefragably prove what I have advanced, that the Supreme God contains in his
+nature a plenitude of perfect and consummate good.
+(BOETHRI-1785,112.110)
+*~/
+/*
+70 VBN:  70 VBN, 71 advanced, 68 HVP
+*/
+
+( (IP-IMP-SPE (, -)
+	      (CONJ But)
+	      (IP-MAT-PRN-SPE (NP-SBJ (PRO I))
+			      (VBP pray)
+			      (NP-OB2 (PRO you)))
+	      (, ,)
+	      (IP-MAT-PRN (VBD continued)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (VBI let)
+	      (IP-INF-SPE (NP-SBJ (PRO us))
+			  (VB see)
+			  (CP-QUE-SPE (WADVP-1 (WADV how))
+				      (C 0)
+				      (IP-SUB-SPE (ADVP *T*-1)
+						  (NP-SBJ (PRO you))
+						  (MD can)
+						  (ADVP (ADV firmly) (CONJ and) (ADV irrefragably))
+						  (VB prove)
+						  (CP-QUE-SPE (WNP-2 (WPRO what))
+							      (C 0)
+							      (IP-SUB-SPE (NP-OB1 *T*-2)
+									  (NP-SBJ (PRO I))
+									  (HVP have)
+									  (VBN advanced))
+							      (, ,)
+							      (CP-THT-PRN-SPE (C that)
+									      (IP-SUB-SPE (NP-SBJ (D the) (ADJ Supreme) (NPR God))
+											  (VBP contains)
+											  (PP (P in)
+											      (NP (PRO$ his) (N nature)))
+											  (NP-OB1 (D a)
+												  (N plenitude)
+												  (PP (P of)
+												      (NP (ADJP (ADJ perfect) (CONJ and) (ADJ consummate))
+													  (N good))))))))))
+	      (. .))
+  (ID BOETHRI-1785,112.110))
+
+/~*
+- Do you suppose, said she, that the Author and Parent of all things hath
+received the supreme good, with which, as we have shown, he abounds, from any
+thing extraneous or without?
+(BOETHRI-1785,112.112)
+*~/
+/*
+47 VBN:  47 VBN, 48 received, 45 HVP
+88 VBN:  88 VBN, 89 shown, 45 HVP
+88 VBN:  88 VBN, 89 shown, 86 HVP
+*/
+
+( (CP-QUE-SPE (, -)
+	      (IP-SUB-SPE (DOP Do)
+			  (NP-SBJ (PRO you))
+			  (VB suppose)
+			  (, ,)
+			  (IP-MAT-PRN (VBD said)
+				      (NP-SBJ (PRO she)))
+			  (, ,)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (D the)
+							  (N Author)
+							  (CONJP (CONJ and)
+								 (NX (N Parent)))
+							  (PP (P of)
+							      (NP (Q all) (NS things))))
+						  (HVP hath)
+						  (VBN received)
+						  (NP-OB1 (D the)
+							  (ADJ supreme)
+							  (N good)
+							  (, ,)
+							  (CP-REL-SPE (WPP-1 (P with)
+									     (WNP (WPRO which)))
+								      (, ,)
+								      (C 0)
+								      (IP-SUB-SPE (PP *T*-1)
+										  (PP (P as)
+										      (CP-ADV-SPE (WNP-2 0)
+												  (C 0)
+												  (IP-SUB-SPE (NP-OB1 *T*-2)
+													      (NP-SBJ (PRO we))
+													      (HVP have)
+													      (VBN shown))))
+										  (, ,)
+										  (NP-SBJ (PRO he))
+										  (VBP abounds))))
+						  (, ,)
+						  (PP (P from)
+						      (NP (Q any)
+							  (N thing)
+							  (ADJP (ADJP (ADJ extraneous))
+								(CONJP (CONJ or)
+								       (ADVP (ADV without)))))))))
+	      (. ?))
+  (ID BOETHRI-1785,112.112))
+
+/~*
+If you suppose that Deity hath received this good from without, you must
+likewise believe, that what bestows a thing, is more excellent than what
+receives it.
+(BOETHRI-1785,113.114)
+*~/
+/*
+25 VBN:  25 VBN, 26 received, 23 HVP
+*/
+
+( (IP-MAT-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO you))
+					  (CODE <P_113>)
+					  (VBP suppose)
+					  (CP-THT-SPE (C that)
+						      (IP-SUB-SPE (NP-SBJ (N Deity))
+								  (HVP hath)
+								  (VBN received)
+								  (NP-OB1 (D this) (N good))
+								  (PP (P from)
+								      (ADVP (ADV without))))))))
+	      (, ,)
+	      (NP-SBJ (PRO you))
+	      (MD must)
+	      (NP-ADV (ADJ+N likewise))
+	      (VB believe)
+	      (, ,)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (CP-FRL-SPE (WNP-1 (WPRO what))
+							  (C 0)
+							  (IP-SUB-SPE (NP-SBJ *T*-1)
+								      (VBP bestows)
+								      (NP-OB1 (D a) (N thing)))))
+				      (, ,)
+				      (BEP is)
+				      (ADJP (QR more)
+					    (ADJ excellent)
+					    (PP (P than)
+						(NP (CP-FRL-SPE (WNP-2 (WPRO what))
+								(C 0)
+								(IP-SUB-SPE (NP-SBJ *T*-2)
+									    (VBP receives)
+									    (NP-OB1 (PRO it)))))))))
+	      (. .))
+  (ID BOETHRI-1785,113.114))
+
+/~*
+But we have already admitted, what $can $not be denied, there is nothing more
+excellent than God:
+(BOETHRI-1785,113.115)
+*~/
+/*
+12 VBN:  12 VBN, 13 admitted, 7 HVP
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (ADVP-TMP (ADV already))
+	      (VBN admitted)
+	      (, ,)
+	      (NP-OB1 (CP-FRL-SPE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (MD $can)
+					      (NEG $not)
+					      (CODE {TEXT:cannot})
+					      (BE be)
+					      (VAN denied)))
+		      (, ,)
+		      (CP-THT-PRN-SPE (C 0)
+				      (IP-SUB-SPE (NP-SBJ-2 (EX there))
+						  (BEP is)
+						  (NP-2 (Q+N nothing)
+							(ADJP (QR more)
+							      (ADJ excellent)
+							      (PP (P than)
+								  (NP (NPR God))))))))
+	      (. :))
+  (ID BOETHRI-1785,113.115))
+
+/~*
+But if this good is supposed to dwell in God, and to be of a different
+substance, it is inconceivable, allowing God to be the author of all things,
+what could have united these two substances that thus differ from one another.
+(BOETHRI-1785,113.117)
+*~/
+/*
+103 VBN:  103 VBN, 104 united, 101 HV
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D this) (N good))
+					  (BEP is)
+					  (VAN supposed)
+					  (IP-INF-SPE (IP-INF-SPE (TO to)
+								  (VB dwell)
+								  (PP (P in)
+								      (NP (NPR God))))
+						      (, ,)
+						      (CONJP (CONJ and)
+							     (IP-INF-SPE (TO to)
+									 (BE be)
+									 (PP (P of)
+									     (NP (D a) (ADJ different) (N substance)))))))))
+	      (, ,)
+	      (NP-SBJ-1 (PRO it))
+	      (BEP is)
+	      (ADJP (ADJ inconceivable))
+	      (, ,)
+	      (IP-PPL-SPE (VAG allowing)
+			  (IP-INF-SPE (NP-SBJ (NPR God))
+				      (TO to)
+				      (BE be)
+				      (NP-OB1 (D the)
+					      (N author)
+					      (PP (P of)
+						  (NP (Q all) (NS things))))))
+	      (, ,)
+	      (CP-QUE-SPE-1 (WNP-2 (WPRO what))
+			    (C 0)
+			    (IP-SUB-SPE (NP-SBJ *T*-2)
+					(MD could)
+					(HV have)
+					(VBN united)
+					(NP-OB1 (D these)
+						(NUM two)
+						(NS substances)
+						(CP-REL-SPE (WNP-3 0)
+							    (C that)
+							    (IP-SUB-SPE (NP-SBJ *T*-3)
+									(ADVP (ADV thus))
+									(VBP differ)
+									(PP (P from)
+									    (NP (ONE one) (D+OTHER another))))))))
+	      (. .))
+  (ID BOETHRI-1785,113.117))
+
+/~*
+As such goods $can $not differ from one another; and we have before proved,
+that God and Happiness are the sovereign good; it necessarily follows that the
+Sovereign Felicity, and Supreme Divinity, are one and the same.
+(BOETHRI-1785,114.132)
+*~/
+/*
+45 VBN:  45 VBN, 46 proved, 40 HVP
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (SUCH such) (NS goods))
+						      (MD $can)
+						      (NEG $not)
+						      (CODE {TEXT:cannot})
+						      (VB differ)
+						      (PP (P from)
+							  (NP (ONE one) (D+OTHER another))))
+					  (, ;)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (NP-SBJ (PRO we))
+							     (HVP have)
+							     (ADVP-TMP (ADV before))
+							     (VBN proved)
+							     (, ,)
+							     (CP-THT-SPE (C that)
+									 (IP-SUB-SPE (NP-SBJ (NPR God) (CONJ and) (N Happiness))
+										     (BEP are)
+										     (NP-OB1 (D the) (ADJ sovereign) (N good)))))))))
+	      (, ;)
+	      (NP-SBJ-1 (PRO it))
+	      (ADVP (ADV necessarily))
+	      (VBP follows)
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (D the)
+						(ADJ Sovereign)
+						(N Felicity)
+						(, ,)
+						(CONJP (CONJ and)
+						       (NX (ADJ Supreme) (N Divinity))))
+					(, ,)
+					(BEP are)
+					(NP-OB1 (NP (ONE one))
+						(CONJP (CONJ and)
+						       (NP (D the) (ADJ same))))))
+	      (. .))
+  (ID BOETHRI-1785,114.132))
+
+/~*
+- There is nothing, said I, more confident with reason and truth, and nothing
+more suitable to the perfections of the Deity, than the consequence which you
+have at present drawn.
+(BOETHRI-1785,114.133)
+*~/
+/*
+97 VBN:  97 VBN, 98 drawn, 89 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ-1 (EX There))
+	      (BEP is)
+	      (NP-1 (NP (Q+N nothing)
+			(, ,)
+			(IP-MAT-PRN (VBD said)
+				    (NP-SBJ (PRO I)))
+			(, ,)
+			(ADJP (QR more)
+			      (ADJ confident)
+			      (PP (P with)
+				  (NP (N reason) (CONJ and) (N truth)))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (NP (Q+N nothing)
+			       (ADJP (QR more)
+				     (ADJ suitable)
+				     (PP (P to)
+					 (NP (D the)
+					     (NS perfections)
+					     (PP (P of)
+						 (NP (D the) (N Deity)))))
+				     (, ,)
+				     (PP (P than)
+					 (NP (D the)
+					     (N consequence)
+					     (CP-REL-SPE (WNP-2 (WPRO which))
+							 (C 0)
+							 (IP-SUB-SPE (NP-OB1 *T*-2)
+								     (NP-SBJ (PRO you))
+								     (HVP have)
+								     (PP (P at)
+									 (ADJP (ADJ present)))
+								     (VBN drawn)))))))))
+	      (. .))
+  (ID BOETHRI-1785,114.133))
+
+/~*
+- But I shall now, added she, following the example of the geometricians, who
+commonly deduce from their demonstrations, what they call corollaries, infer,
+from what has been advanced, a most honourable one for man.
+(BOETHRI-1785,114.134)
+*~/
+/*
+106 BEN:  106 BEN, 107 been, 104 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (CONJ But)
+	      (NP-SBJ (PRO I))
+	      (MD shall)
+	      (ADVP-TMP (ADV now))
+	      (, ,)
+	      (IP-MAT-PRN (VBD added)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (IP-PPL-SPE (VAG following)
+			  (NP-OB1 (D the)
+				  (N example)
+				  (PP (P of)
+				      (NP (D the)
+					  (NS geometricians)
+					  (, ,)
+					  (CP-REL-SPE (WNP-1 (WPRO who))
+						      (C 0)
+						      (IP-SUB-SPE (NP-SBJ *T*-1)
+								  (ADVP (ADV commonly))
+								  (VBP deduce)
+								  (PP (P from)
+								      (NP (PRO$ their) (NS demonstrations)))
+								  (, ,)
+								  (NP-OB1 (CP-FRL-SPE (WNP-2 (WPRO what))
+										      (C 0)
+										      (IP-SUB-SPE (NP-SBJ (PRO they))
+												  (VBP call)
+												  (IP-SMC-SPE (NP-SBJ *T*-2)
+													      (NP-OB1 (NS corollaries))))))))))))
+	      (, ,)
+	      (VB infer)
+	      (, ,)
+	      (PP (P from)
+		  (NP (CP-FRL-SPE (WNP-3 (WPRO what))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-3)
+					      (HVP has)
+					      (BEN been)
+					      (VAN advanced)))))
+	      (, ,)
+	      (NP-OB1 (D a)
+		      (ADJP (QS most) (ADJ honourable))
+		      (ONE one))
+	      (PP (P for)
+		  (NP (N man)))
+	      (. .))
+  (ID BOETHRI-1785,114.134))
+
+/~*
+But I have proved to you that these things are all the same, and do in no
+respect differ.
+(BOETHRI-1785,116.160)
+*~/
+/*
+9 VBN:  9 VBN, 10 proved, 7 HVP
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO I))
+	      (HVP have)
+	      (VBN proved)
+	      (PP (P to)
+		  (NP (PRO you)))
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (D these) (NS things))
+						  (BEP are)
+						  (Q all)
+						  (NP-OB1 (D the) (ADJ same)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB-SPE (NP-SBJ *con*)
+							 (DOP do)
+							 (PP (P in)
+							     (NP (Q no) (N respect)))
+							 (VB differ)))))
+	      (. .))
+  (ID BOETHRI-1785,116.160))
+
+/~*
+- We know, replied she, the things we have so often mentioned, do all of them
+bear a relation to a good.
+(BOETHRI-1785,116.165)
+*~/
+/*
+46 VBN:  46 VBN, 47 mentioned, 39 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO We))
+	      (VBP know)
+	      (, ,)
+	      (IP-MAT-PRN (VBD replied)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (NP-SBJ (D the)
+					      (NS things)
+					      (CP-REL-SPE (WNP-1 0)
+							  (C 0)
+							  (IP-SUB-SPE (NP-OB1 *T*-1)
+								      (NP-SBJ (PRO we))
+								      (HVP have)
+								      (ADVP-TMP (ADVR so) (ADV often))
+								      (VBN mentioned))))
+				      (, ,)
+				      (DOP do)
+				      (QP (Q all)
+					  (PP (P of)
+					      (NP (PRO them))))
+				      (VB bear)
+				      (NP-OB1 (D a)
+					      (N relation)
+					      (PP (P to)
+						  (CODE <font>)
+						  (NP (D a) (N good))))))
+	      (. .)
+	      (CODE <$$font>))
+  (ID BOETHRI-1785,116.165))
+
+/~*
+And as we have proved that these latter things are pursued from no other
+intention than to obtain happiness, it is happiness therefore only that is
+sought after.
+(BOETHRI-1785,117.175)
+*~/
+/*
+16 VBN:  16 VBN, 17 proved, 14 HVP
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO we))
+					  (HVP have)
+					  (VBN proved)
+					  (CP-THT-SPE (C that)
+						      (IP-SUB-SPE (NP-SBJ (D these) (ADJ latter) (NS things))
+								  (BEP are)
+								  (VAN pursued)
+								  (PP (P from)
+								      (NP (Q no)
+									  (OTHER other)
+									  (N intention)
+									  (PP (P than)
+									      (IP-INF-SPE (TO to)
+											  (VB obtain)
+											  (NP-OB1 (N happiness)))))))))))
+	      (, ,)
+	      (NP-SBJ (PRO it))
+	      (BEP is)
+	      (NP-OB1 (N happiness))
+	      (PP (ADV+P therefore))
+	      (FP only)
+	      (CP-CLF-SPE (WNP-1 0)
+			  (C that)
+			  (IP-SUB-SPE (NP-SBJ *T*-1)
+				      (BEP is)
+				      (VAN sought)
+				      (PP (P after)
+					  (NP *-1))))
+	      (. .))
+  (ID BOETHRI-1785,117.175))
+
+/~*
+Hence it clearly follows, that the good we have been reasoning upon, and
+happiness, differ in no respect, but are of one and the same substance.
+(BOETHRI-1785,117.176)
+*~/
+/*
+37 BEN:  37 BEN, 38 been, 35 HVP
+*/
+
+( (IP-MAT (ADVP (ADV Hence))
+	  (NP-SBJ-1 (PRO it))
+	  (ADVP (ADV clearly))
+	  (VBP follows)
+	  (, ,)
+	  (CP-THT-1 (C that)
+		    (IP-SUB (IP-SUB (NP-SBJ (NP (D the)
+						(N good)
+						(CP-REL (WNP-2 0)
+							(C 0)
+							(IP-SUB (NP-SBJ (PRO we))
+								(HVP have)
+								(BEN been)
+								(VAG reasoning)
+								(PP (P upon)
+								    (NP *T*-2)))))
+					    (, ,)
+					    (CONJP (CONJ and)
+						   (NP (N happiness))))
+				    (, ,)
+				    (VBP differ)
+				    (PP (P in)
+					(NP (Q no) (N respect))))
+			    (, ,)
+			    (CONJP (CONJ but)
+				   (IP-SUB (NP-SBJ *con*)
+					   (BEP are)
+					   (PP (P of)
+					       (NP (NP (ONE one))
+						   (CONJP (CONJ and)
+							  (NP (D the) (ADJ same) (N substance)))))))))
+	  (. .))
+  (ID BOETHRI-1785,117.176))
+
+/~*
+- But it has been proved, added she, that God and true happiness are one and
+the same thing.
+(BOETHRI-1785,117.178)
+*~/
+/*
+11 BEN:  11 BEN, 12 been, 9 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (CONJ But)
+	      (NP-SBJ-1 (PRO it))
+	      (HVP has)
+	      (BEN been)
+	      (VAN proved)
+	      (, ,)
+	      (IP-MAT-PRN (VBD added)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (NP (NPR God))
+						(CONJP (CONJ and)
+						       (NP (ADJ true) (N happiness))))
+					(BEP are)
+					(NP-OB1 (NP (ONE one))
+						(CONJP (CONJ and)
+						       (NP (D the) (ADJ same) (N thing))))))
+	      (. .))
+  (ID BOETHRI-1785,117.178))
+
+/~*
+- It has so.
+(BOETHRI-1785,117.179)
+*~/
+/*
+9 BEN:  9 BEN, 10 *, 7 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO It))
+	      (HVP has)
+	      (BEN *)
+	      (VAN *)
+	      (ADVP (ADV so))
+	      (. .))
+  (ID BOETHRI-1785,117.179))
+
+/~*
+for all this has been proved by insuperable arguments.
+(BOETHRI-1785,118.185)
+*~/
+/*
+11 BEN:  11 BEN, 12 been, 9 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ (Q all) (D this))
+	      (HVP has)
+	      (BEN been)
+	      (VAN proved)
+	      (PP (P by)
+		  (NP (ADJ insuperable) (NS arguments)))
+	      (. .))
+  (ID BOETHRI-1785,118.185))
+
+/~*
+- Have I not made it evident, continued she, that the things which the
+majority of mankind so eagerly pursue, are not true and perfect goods; because
+they differ from one another, and because when one or more of them are wanting,
+the others $can $not confer a complete and absolute good?
+(BOETHRI-1785,119.190)
+*~/
+/*
+12 VBN:  12 VBN, 13 made, 5 HVP
+*/
+
+( (CP-QUE-SPE (, -)
+	      (IP-SUB-SPE (HVP Have)
+			  (NP-SBJ (PRO I))
+			  (NEG not)
+			  (VBN made)
+			  (IP-SMC-SPE (NP-SBJ-1 (PRO it))
+				      (ADJP (ADJ evident))
+				      (CP-THT-SPE *ICH*-1))
+			  (, ,)
+			  (IP-MAT-PRN (VBD continued)
+				      (NP-SBJ (PRO she)))
+			  (, ,)
+			  (CP-THT-SPE-1 (C that)
+					(IP-SUB-SPE (NP-SBJ (D the)
+							    (NS things)
+							    (CP-REL-SPE (WNP-2 (WPRO which))
+									(C 0)
+									(IP-SUB-SPE (NP-OB1 *T*-2)
+										    (NP-SBJ (D the)
+											    (N majority)
+											    (PP (P of)
+												(NP (N+N mankind))))
+										    (ADVP (ADVR so) (ADV eagerly))
+										    (VBP pursue))))
+						    (, ,)
+						    (BEP are)
+						    (NEG not)
+						    (NP-OB1 (ADJP (ADJ true) (CONJ and) (ADJ perfect))
+							    (NS goods))
+						    (, ;)
+						    (PP (PP (P+N because)
+							    (CP-ADV-SPE (C 0)
+									(IP-SUB-SPE (NP-SBJ (PRO they))
+										    (VBP differ)
+										    (PP (P from)
+											(NP (ONE one) (D+OTHER another))))))
+							(, ,)
+							(CONJP (CONJ and)
+							       (PP (P+N because)
+								   (CP-ADV-SPE (C 0)
+									       (IP-SUB-SPE (PP (P when)
+											       (CP-ADV-SPE (C 0)
+													   (IP-SUB-SPE (NP-SBJ (NUMP (ONE one)
+																     (CONJP (CONJ or) (QR more)))
+															       (PP (P of)
+																   (NP (PRO them))))
+														       (BEP are)
+														       (ADJP (ADJ wanting)))))
+											   (, ,)
+											   (NP-SBJ (D the) (OTHERS others))
+											   (MD $can)
+											   (NEG $not)
+											   (CODE {TEXT:cannot})
+											   (VB confer)
+											   (NP-OB1 (D a)
+												   (ADJP (ADJ complete) (CONJ and) (ADJ absolute))
+												   (N good))))))))))
+	      (. ?))
+  (ID BOETHRI-1785,119.190))
+
+/~*
+Have I not likewise shewn you, that the true sovereign good is composed of an
+assemblage of all the goods, in such a manner, that if entire sufficiency is a
+property of this good, it must at the same time be endowed with power, and it
+must be also respectable, glorious, and abound with pleasure?
+(BOETHRI-1785,119.191)
+*~/
+/*
+13 VBN:  13 VBN, 14 shewn, 3 HVP
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (HVP Have)
+			  (NP-SBJ (PRO I))
+			  (NEG not)
+			  (NP-ADV (ADJ+N likewise))
+			  (VBN shewn)
+			  (NP-OB2 (PRO you))
+			  (, ,)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (NP-SBJ (D the)
+							  (ADJP (ADJ true) (ADJ sovereign))
+							  (N good))
+						  (BEP is)
+						  (VAN composed)
+						  (PP (P of)
+						      (NP (D an)
+							  (N assemblage)
+							  (PP (P of)
+							      (NP (Q all) (D the) (NS goods)))))
+						  (, ,)
+						  (PP (P in)
+						      (NP (ADJP (SUCH such)
+								(CP-DEG-SPE *ICH*-1))
+							  (D a)
+							  (N manner)
+							  (, ,)
+							  (CP-DEG-SPE-1 (C that)
+									(IP-SUB-SPE (IP-SUB-SPE (PP (P if)
+												    (CP-ADV-SPE (C 0)
+														(IP-SUB-SPE (NP-SBJ (ADJ entire) (N sufficiency))
+															    (BEP is)
+															    (NP-OB1 (D a)
+																    (N property)
+																    (PP (P of)
+																	(NP (D this) (N good)))))))
+												(, ,)
+												(NP-SBJ (PRO it))
+												(MD must)
+												(PP (P at)
+												    (NP (D the) (ADJ same) (N time)))
+												(BE be)
+												(VAN endowed)
+												(PP (P with)
+												    (NP (N power))))
+										    (, ,)
+										    (CONJP (CONJ and)
+											   (IP-SUB-SPE (IP-SUB-SPE-2 (NP-SBJ (PRO it))
+														     (MD must)
+														     (BE be)
+														     (ALSO also)
+														     (ADJP (ADJ respectable) (, ,) (ADJ glorious)))
+												       (, ,)
+												       (CONJP (CONJ and)
+													      (IP-SUB-SPE=2 (VB abound)
+															    (PP (P with)
+																(NP (N pleasure))))))))))))))
+	      (. ?))
+  (ID BOETHRI-1785,119.191))
+
+/~*
+What care has not nature also taken to multiply plants, by multiplying their
+seeds!
+(BOETHRI-1785,122.232)
+*~/
+/*
+19 VBN:  19 VBN, 20 taken, 10 HVP
+*/
+
+( (CP-QUE-SPE (WNP-1 (WD What) (N care))
+	      (IP-SUB-SPE (NP-OB1 *T*-1)
+			  (HVP has)
+			  (NEG not)
+			  (NP-SBJ (N nature))
+			  (ALSO also)
+			  (VBN taken)
+			  (IP-INF-SPE (TO to)
+				      (VB multiply)
+				      (NP-OB1 (NS plants))
+				      (, ,)
+				      (PP (P by)
+					  (IP-PPL-SPE (VAG multiplying)
+						      (NP-OB1 (PRO$ their) (NS seeds))))))
+	      (. !))
+  (ID BOETHRI-1785,122.232))
+
+/~*
+For Providence hath implanted, in all things she hath created, an instinct for
+the purpose of self-preservation, which powerfully excites them to retain
+their beings, as long as by the course of nature they can: so that you $can
+$not entertain the smallest doubt, but that every thing which exists,
+naturally desires existence, and avoids dissolution.
+(BOETHRI-1785,124.247)
+*~/
+/*
+9 VBN:  9 VBN, 10 implanted, 7 HVP
+36 VBN:  36 VBN, 37 created, 7 HVP
+36 VBN:  36 VBN, 37 created, 34 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (N Providence))
+	      (HVP hath)
+	      (VBN implanted)
+	      (, ,)
+	      (PP (P in)
+		  (NP (Q all)
+		      (NS things)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C 0)
+				  (IP-SUB-SPE (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO she))
+					      (CODE <P_124>)
+					      (HVP hath)
+					      (VBN created)))))
+	      (, ,)
+	      (NP-OB1 (D an)
+		      (N instinct)
+		      (PP (P for)
+			  (NP (D the)
+			      (N purpose)
+			      (PP (P of)
+				  (NP (N self-preservation)))))
+		      (, ,)
+		      (CP-REL-SPE (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-2)
+					      (ADVP (ADV powerfully))
+					      (VBP excites)
+					      (NP-OB1 (PRO them))
+					      (IP-INF-SPE (TO to)
+							  (VB retain)
+							  (NP-OB1 (PRO$ their) (NS beings))
+							  (, ,)
+							  (NP-MSR (ADJP (ADVR as) (ADJ long))
+								  (PP (P as)
+								      (CP-CMP-SPE (WNP-3 0)
+										  (C 0)
+										  (IP-SUB-SPE (NP-MSR *T*-3)
+											      (PP (P by)
+												  (NP (D the)
+												      (N course)
+												      (PP (P of)
+													  (NP (N nature)))))
+											      (NP-SBJ (PRO they))
+											      (MD can)))))))))
+	      (, :)
+	      (PP (P so)
+		  (CP-ADV-SPE (C that)
+			      (IP-SUB-SPE (NP-SBJ (PRO you))
+					  (MD $can)
+					  (NEG $not)
+					  (CODE {TEXT:cannot})
+					  (VB entertain)
+					  (NP-OB1 (D the)
+						  (ADJS smallest)
+						  (N doubt)
+						  (, ,)
+						  (CP-THT-SPE (FP but)
+							      (C that)
+							      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (Q every)
+											      (N thing)
+											      (CP-REL-SPE (WNP-4 (WPRO which))
+													  (C 0)
+													  (IP-SUB-SPE (NP-SBJ *T*-4)
+														      (VBP exists))))
+										      (, ,)
+										      (ADVP (ADV naturally))
+										      (VBP desires)
+										      (NP-OB1 (N existence)))
+									  (, ,)
+									  (CONJP (CONJ and)
+										 (IP-SUB-SPE (NP-SBJ *con*)
+											     (VBP avoids)
+											     (NP-OB1 (N dissolution))))))))))
+	      (. .))
+  (ID BOETHRI-1785,124.247))
+
+/~*
+and because, as we have before shewn, this is good, we must necessarily hold
+it as an established truth, that good is the end of every thing that exists.
+(BOETHRI-1785,125.267)
+*~/
+/*
+32 VBN:  32 VBN, 33 shewn, 27 HVP
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P+N because)
+	      (, ,)
+	      (CP-ADV (C 0)
+		      (IP-SUB (PP (P as)
+				  (CP-ADV (WNP-1 0)
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-1)
+						  (NP-SBJ (PRO we))
+						  (HVP have)
+						  (ADVP-TMP (ADV before))
+						  (VBN shewn))))
+			      (, ,)
+			      (NP-SBJ (D this))
+			      (BEP is)
+			      (ADJP (ADJ good)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD must)
+	  (ADVP (ADV necessarily))
+	  (VB hold)
+	  (NP-OB1-2 (PRO it))
+	  (PP (P as)
+	      (NP (D an) (VAN established) (N truth)))
+	  (, ,)
+	  (CP-THT-2 (C that)
+		    (IP-SUB (NP-SBJ (N good))
+			    (BEP is)
+			    (NP-OB1 (D the)
+				    (N end)
+				    (PP (P of)
+					(NP (Q every)
+					    (N thing)
+					    (CP-REL-SPE (WNP-3 0)
+							(C that)
+							(IP-SUB-SPE (NP-SBJ *T*-3)
+								    (VBP exists))))))))
+	  (. .))
+  (ID BOETHRI-1785,125.267))
+
+/~*
+for if the consequence I have drawn from the unhappiness of the wicked is true,
+it is evident, that a misery which is eternal, is nothing less than an
+infinite misery.
+(BOETHRI-1785,154.288)
+*~/
+/*
+29 VBN:  29 VBN, 30 drawn, 27 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D the)
+						  (N consequence)
+						  (CP-REL-SPE (WNP-1 0)
+							      (C 0)
+							      (IP-SUB-SPE (NP-OB1 *T*-1)
+									  (NP-SBJ (PRO I))
+									  (HVP have)
+									  (VBN drawn)
+									  (PP (P from)
+									      (NP (D the)
+										  (N unhappiness)
+										  (PP (P of)
+										      (NP (D the) (ADJ wicked))))))))
+					  (BEP is)
+					  (ADJP (ADJ true)))))
+	      (, ,)
+	      (NP-SBJ-2 (PRO it))
+	      (BEP is)
+	      (ADJP (ADJ evident))
+	      (, ,)
+	      (CP-THT-SPE-2 (C that)
+			    (IP-SUB-SPE (NP-SBJ (D a)
+						(N misery)
+						(CP-REL-SPE (WNP-3 (WPRO which))
+							    (C 0)
+							    (IP-SUB-SPE (NP-SBJ *T*-3)
+									(BEP is)
+									(ADJP (ADJ eternal)))))
+					(, ,)
+					(BEP is)
+					(NP-OB1 (Q+N nothing)
+						(QP (QR less)
+						    (PP (P than)
+							(NP (D an) (ADJ infinite) (N misery)))))))
+	      (. .))
+  (ID BOETHRI-1785,154.288))
+
+/~*
+nevertheless I must own that it is perfectly conformable to what has been
+established.
+(BOETHRI-1785,154.290)
+*~/
+/*
+41 BEN:  41 BEN, 42 been, 39 HVP
+*/
+
+( (IP-MAT-SPE (ADVP (ADV nevertheless))
+	      (NP-SBJ (PRO I))
+	      (MD must)
+	      (VB own)
+	      (CP-THT-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (PRO it))
+				      (BEP is)
+				      (ADJP (ADV perfectly)
+					    (ADJ conformable)
+					    (PP (P to)
+						(NP (CP-FRL-SPE (WNP-1 (WPRO what))
+								(C 0)
+								(IP-SUB-SPE (NP-SBJ *T*-1)
+									    (HVP has)
+									    (BEN been)
+									    (VAN established))))))))
+	      (. .))
+  (ID BOETHRI-1785,154.290))
+
+/~*
+- That the wicked, who suffer the chastisement which they merit, are happier
+than they would have been, if justice had allowed their crimes to have escaped
+unpunished.
+(BOETHRI-1785,154.295)
+*~/
+/*
+69 BEN:  69 BEN, 70 been, 67 HV
+85 VBN:  85 VBN, 86 allowed, 67 HV
+85 VBN:  85 VBN, 86 allowed, 83 HVD
+97 VBN:  97 VBN, 98 escaped, 67 HV
+97 VBN:  97 VBN, 98 escaped, 83 HVD
+97 VBN:  97 VBN, 98 escaped, 95 HV
+*/
+
+( (CP-THT-SPE (, -)
+	      (C That)
+	      (IP-SUB-SPE (NP-SBJ (D the)
+				  (ADJ wicked)
+				  (, ,)
+				  (CP-REL-SPE (WNP-1 (WPRO who))
+					      (C 0)
+					      (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (VBP suffer)
+							  (NP-OB1 (D the)
+								  (N chastisement)
+								  (CP-REL-SPE (WNP-2 (WPRO which))
+									      (C 0)
+									      (IP-SUB-SPE (NP-OB1 *T*-2)
+											  (NP-SBJ (PRO they))
+											  (VBP merit)))))))
+			  (, ,)
+			  (BEP are)
+			  (ADJP (ADJR happier)
+				(PP (P than)
+				    (CP-CMP-SPE (WADJP-3 0)
+						(C 0)
+						(IP-SUB-SPE (ADJP *T*-3)
+							    (NP-SBJ (PRO they))
+							    (MD would)
+							    (HV have)
+							    (BEN been)
+							    (, ,)
+							    (PP (P if)
+								(CP-ADV-SPE (C 0)
+									    (IP-SUB-SPE (NP-SBJ (N justice))
+											(HVD had)
+											(VBN allowed)
+											(IP-INF-SPE (NP-SBJ (PRO$ their) (NS crimes))
+												    (TO to)
+												    (HV have)
+												    (VBN escaped)
+												    (ADJP-SPR (ADJ unpunished)))))))))))
+	      (. .))
+  (ID BOETHRI-1785,154.295))
+
+/~*
+- Have we not agreed, added she, that the good are happy, and the wicked
+miserable?
+(BOETHRI-1785,155.299)
+*~/
+/*
+12 VBN:  12 VBN, 13 agreed, 5 HVP
+*/
+
+( (CP-QUE-SPE (, -)
+	      (IP-SUB-SPE (HVP Have)
+			  (NP-SBJ (PRO we))
+			  (NEG not)
+			  (VBN agreed)
+			  (, ,)
+			  (IP-MAT-PRN (VBD added)
+				      (NP-SBJ (PRO she)))
+			  (, ,)
+			  (CP-THT-SPE (C that)
+				      (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (D the) (ADJ good))
+								(BEP are)
+								(ADJP (ADJ happy)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE=1 (NP-SBJ (D the) (ADJ wicked))
+								       (ADJP (ADJ miserable)))))))
+	      (. ?))
+  (ID BOETHRI-1785,155.299))
+
+/~*
+- We have.
+(BOETHRI-1785,155.300)
+*~/
+/*
+9 VBN:  9 VBN, 10 *, 7 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO We))
+	      (HVP have)
+	      (VBN *)
+	      (. .))
+  (ID BOETHRI-1785,155.300))
+
+/~*
+I have been employed hitherto in proving that the power of the wicked, which
+appeared to you the most shameful thing in the universe, is, in reality,
+nothing; that their wickedness never escapes unpunished, punished,
+notwithstanding the disagreeable idea you entertained to the contrary: that
+their liberty to do evil, which you wished might soon come to an end, is not
+of long duration: that the longer it continues, they are so much the more
+miserable; and that if it were to continue for ever, their misery would be
+infinite: that, in fine, if the wicked escaped by an unjust exemption from
+punishment, they would be more unhappy than if they were chastised according
+to their demerits; and consequently, that they are never more rigorously
+punished, than when they are supposed not to suffer for their crimes,
+(BOETHRI-1785,157.320)
+*~/
+/*
+7 BEN:  7 BEN, 8 been, 5 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO I))
+	      (HVP have)
+	      (BEN been)
+	      (VAN employed)
+	      (PP (ADV+P hitherto))
+	      (PP (P in)
+		  (IP-PPL-SPE (IP-PPL-SPE-1 (VAG proving)
+					    (CP-THT-SPE (CP-THT-SPE (C that)
+								    (IP-SUB-SPE (NP-SBJ (D the)
+											(N power)
+											(PP (P of)
+											    (NP (D the) (ADJ wicked)))
+											(, ,)
+											(CP-REL-SPE (WNP-2 (WPRO which))
+												    (C 0)
+												    (IP-SUB-SPE (NP-SBJ *T*-2)
+														(VBD appeared)
+														(PP (P to)
+														    (NP (PRO you)))
+														(NP-OB1 (D the)
+															(ADJP (QS most) (ADJ shameful))
+															(N thing)
+															(PP (P in)
+															    (NP (D the) (N universe)))))))
+										(, ,)
+										(BEP is)
+										(, ,)
+										(PP (P in)
+										    (NP (N reality)))
+										(, ,)
+										(NP-OB1 (Q+N nothing))))
+							(, ;)
+							(CONJP (CP-THT-SPE (C that)
+									   (IP-SUB-SPE (NP-SBJ (PRO$ their)
+											       (N wickedness)
+											       (RRC *ICH*-3))
+										       (ADVP-TMP (ADV never))
+										       (VBP escapes)
+										       (ADJP-SPR (ADJ unpunished))
+										       (, ,)
+										       (CODE <P_157>)
+										       (RRC-3 (VAN punished)
+											      (, ,)
+											      (PP (P notwithstanding)
+												  (NP (D the)
+												      (ADJ disagreeable)
+												      (N idea)
+												      (CP-REL-SPE (WNP-4 0)
+														  (C 0)
+														  (IP-SUB-SPE (NP-OB1 *T*-4)
+															      (NP-SBJ (PRO you))
+															      (VBD entertained)))
+												      (PP (P to)
+													  (NP (D the) (N contrary)))
+												      (, :)
+												      (CP-THT-PRN-SPE (CP-THT-SPE (C that)
+																  (IP-SUB-SPE (NP-SBJ (PRO$ their)
+																		      (N liberty)
+																		      (IP-INF-SPE (TO to)
+																				  (DO do)
+																				  (NP-OB1 (N evil)))
+																		      (, ,)
+																		      (CP-REL-SPE (WNP-5 (WPRO which))
+																				  (C 0)
+																				  (IP-SUB-SPE (NP-SBJ (PRO you))
+																					      (VBD wished)
+																					      (CP-THT-SPE (C 0)
+																							  (IP-SUB-SPE (NP-SBJ *T*-5)
+																								      (MD might)
+																								      (ADVP-TMP (ADV soon))
+																								      (VB come)
+																								      (PP (P to)
+																									  (NP (D an) (N end))))))))
+																	      (, ,)
+																	      (BEP is)
+																	      (NEG not)
+																	      (PP (P of)
+																		  (NP (ADJ long) (N duration)))))
+														      (, :)
+														      (CONJP (CP-THT-SPE (C that)
+																	 (IP-SUB-SPE (NP-MSR (D the)
+																			     (ADJR longer)
+																			     (CP-CMP-SPE (WNP-6 0)
+																					 (C 0)
+																					 (IP-SUB-SPE (NP-MSR *T*-6)
+																						     (NP-SBJ (PRO it))
+																						     (VBP continues))))
+																		     (, ,)
+																		     (NP-SBJ (PRO they))
+																		     (BEP are)
+																		     (ADJP (QP (QP (ADVR so) (Q much))
+																			       (D the)
+																			       (QR more))
+																			   (ADJ miserable)))))
+														      (, ;)
+														      (CONJP (CONJ and)
+															     (CP-THT-SPE (C that)
+																	 (IP-SUB-SPE (PP (P if)
+																			 (CP-ADV-SPE (C 0)
+																				     (IP-SUB-SPE (NP-SBJ (PRO it))
+																						 (BED were)
+																						 (IP-INF-SPE (TO to)
+																							     (VB continue)
+																							     (PP (P for)
+																								 (ADVP (ADV ever)))))))
+																		     (, ,)
+																		     (NP-SBJ (PRO$ their) (N misery))
+																		     (MD would)
+																		     (BE be)
+																		     (ADJP (ADJ infinite))))))))))))
+							(, :)
+							(CONJP (CP-THT-SPE (C that)
+									   (, ,)
+									   (IP-SUB-SPE (PP (P in)
+											   (NP (ADJ fine)))
+										       (, ,)
+										       (PP (P if)
+											   (CP-ADV-SPE (C 0)
+												       (IP-SUB-SPE (NP-SBJ (D the) (ADJ wicked))
+														   (VBD escaped)
+														   (PP (P by)
+														       (NP (D an) (ADJ unjust) (N exemption)))
+														   (PP (P from)
+														       (NP (N punishment))))))
+										       (, ,)
+										       (NP-SBJ (PRO they))
+										       (MD would)
+										       (BE be)
+										       (ADJP (QR more)
+											     (ADJ unhappy)
+											     (PP (P than)
+												 (PP (P if)
+												     (CP-ADV-SPE (C 0)
+														 (IP-SUB-SPE (NP-SBJ (PRO they))
+															     (BED were)
+															     (VAN chastised)
+															     (IP-PPL-SPE (VAG according)
+																	 (PP (P to)
+																	     (NP (PRO$ their) (NS demerits))))))))))))))
+			      (, ;)
+			      (CONJP (CONJ and)
+				     (IP-PPL-SPE=1 (ADVP (ADV consequently))
+						   (, ,)
+						   (CP-THT-SPE (C that)
+							       (IP-SUB-SPE (NP-SBJ (PRO they))
+									   (BEP are)
+									   (ADVP-TMP (ADV never))
+									   (ADVP (QR more)
+										 (ADV rigorously)
+										 (PP *ICH*-7))
+									   (VAN punished)
+									   (, ,)
+									   (PP-7 (P than)
+										 (PP (P when)
+										     (CP-ADV-SPE (C 0)
+												 (IP-SUB-SPE (NP-SBJ (PRO they))
+													     (BEP are)
+													     (VAN supposed)
+													     (IP-INF-SPE (NEG not)
+															 (TO to)
+															 (VB suffer)
+															 (PP (P for)
+															     (NP (PRO$ their) (NS crimes))))))))))))))
+	      (. ,))
+  (ID BOETHRI-1785,157.320))
+
+/~*
+- I have attended carefully to your reasoning, said I,
+(BOETHRI-1785,157.321)
+*~/
+/*
+10 VBN:  10 VBN, 11 attended, 8 HVP
+*/
+
+( (IP-MAT (, -)
+	  (IP-MAT-SPE (NP-SBJ (PRO I))
+		      (HVP have)
+		      (VBN attended)
+		      (ADVP (ADV carefully))
+		      (PP (P to)
+			  (NP (PRO$ your) (N reasoning))))
+	  (, ,)
+	  (VBD said)
+	  (NP-SBJ (PRO I))
+	  (. ,))
+  (ID BOETHRI-1785,157.321))
+
+/~*
+- you have by your behaviour become one of the most excellent of human kind.
+(BOETHRI-1785,158.330)
+*~/
+/*
+17 VBN:  17 VBN, 18 become, 7 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO you))
+	      (HVP have)
+	      (PP (P by)
+		  (NP (PRO$ your) (N behaviour)))
+	      (VBN become)
+	      (NP-OB1 (ONE one)
+		      (PP (P of)
+			  (NP (D the)
+			      (ADJP (QS most)
+				    (ADJ excellent)
+				    (PP (P of)
+					(NP (ADJ human) (N kind)))))))
+	      (. .))
+  (ID BOETHRI-1785,158.330))
+
+/~*
+- you have degraded yourself into a lower order of beings.
+(BOETHRI-1785,159.332)
+*~/
+/*
+9 VBN:  9 VBN, 10 degraded, 7 HVP
+*/
+
+( (IP-MAT-SPE (, -)
+	      (NP-SBJ (PRO you))
+	      (HVP have)
+	      (VBN degraded)
+	      (NP-OB1 (PRO$+N yourself))
+	      (PP (P into)
+		  (NP (D a)
+		      (ADJR lower)
+		      (N order)
+		      (PP (P of)
+			  (NP (NS beings)))))
+	      (. .))
+  (ID BOETHRI-1785,159.332))
+
+/~*
+If a person deprived of sight, and who had even forgot that he ever had it,
+should assert that he has every human faculty in perfection; should we be so
+weak as to believe, that such as retain the use of their eyes were become
+blind?
+(BOETHRI-1785,159.337)
+*~/
+/*
+42 VBN:  42 VBN, 43 forgot, 38 HVD
+147 VBN:  147 VBN, 148 become, 38 HVD
+147 VBN:  147 VBN, 148 become, 54 HVD
+147 VBN:  147 VBN, 148 become, 72 HVP
+*/
+
+( (CP-QUE-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (D a)
+						  (N person)
+						  (RRC (RRC (VAN deprived)
+							    (PP (P of)
+								(NP (N sight))))
+						       (, ,)
+						       (CONJP (CONJ and)
+							      (CP-REL-SPE (WNP-1 (WPRO who))
+									  (C 0)
+									  (IP-SUB-SPE (NP-SBJ *T*-1)
+										      (HVD had)
+										      (FP even)
+										      (VBN forgot)
+										      (CP-THT-SPE (C that)
+												  (IP-SUB-SPE (NP-SBJ (PRO he))
+													      (ADVP-TMP (ADV ever))
+													      (HVD had)
+													      (NP-OB1 (PRO it)))))))))
+					  (, ,)
+					  (MD should)
+					  (VB assert)
+					  (CP-THT-SPE (C that)
+						      (IP-SUB-SPE (NP-SBJ (PRO he))
+								  (HVP has)
+								  (NP-OB1 (Q every) (ADJ human) (N faculty))
+								  (PP (P in)
+								      (NP (N perfection))))))))
+	      (, ;)
+	      (IP-SUB-SPE (MD should)
+			  (NP-SBJ (PRO we))
+			  (BE be)
+			  (ADJP (ADVR so)
+				(ADJ weak)
+				(-PP (P as)
+				     (IP-INF-SPE (TO to)
+						 (VB believe)
+						 (, ,)
+						 (CP-THT-SPE (C that)
+							     (IP-SUB-SPE (NP-SBJ (SUCH such)
+										 (PP (P as)
+										     (CP-CMP-SPE (WNP-2 0)
+												 (C 0)
+												 (IP-SUB-SPE (NP-SBJ *T*-2)
+													     (VBP retain)
+													     (NP-OB1 (D the)
+														     (N use)
+														     (PP (P of)
+															 (NP (PRO$ their) (NS eyes))))))))
+									 (BED were)
+									 (VBN become)
+									 (ADJP (ADJ blind))))))))
+	      (. ?))
+  (ID BOETHRI-1785,159.337))
+
+/~*
+- But if you were appointed a judge on which of the two would you inflict
+punishment; on him who hath committed, or on him who hath suffered the injury?
+(BOETHRI-1785,160.346)
+*~/
+/*
+79 VBN:  79 VBN, 80 committed, 77 HVP
+103 VBN:  103 VBN, 104 suffered, 77 HVP
+103 VBN:  103 VBN, 104 suffered, 101 HVP
+*/
+
+( (CP-QUE-SPE (, -)
+	      (CONJ But)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO you))
+					  (BED were)
+					  (CODE <P_160>)
+					  (CODE <font>)
+					  (VAN appointed)
+					  (CODE <$$font>)
+					  (NP-SPR (D a) (N judge)))))
+	      (WPP-1 (P on)
+		     (WNP (WPRO which)
+			  (PP (P of)
+			      (NP (D the) (NUM two))))
+		     (PP-PRN *ICH*-2))
+	      (IP-SUB-SPE (PP *T*-1)
+			  (MD would)
+			  (NP-SBJ (PRO you))
+			  (VB inflict)
+			  (NP-OB1 (N punishment))
+			  (, ;)
+			  (PP-PRN-2 (P on)
+				    (NP (PRO him)
+					(CP-REL-SPE (WNP-3 (WPRO who))
+						    (C 0)
+						    (IP-SUB-SPE-4 (NP-SBJ *T*-3)
+								  (HVP hath)
+								  (VBN committed)
+								  (, ,)
+								  (IP-SUB-PRN-SPE=4 (CONJ or)
+										    (PP (P on)
+											(NP (PRO him)
+											    (CP-REL-SPE (WNP-5 (WPRO who))
+													(C 0)
+													(IP-SUB-SPE (NP-SBJ *T*-5)
+														    (HVP hath)
+														    (VBN suffered))))))
+								  (NP-OB1 (D the) (N injury)))))))
+	      (. ?))
+  (ID BOETHRI-1785,160.346))
+
+/~*
+- But still you would reckon the injuring person more unhappy than he who had
+suffered the wrong?
+(BOETHRI-1785,160.348)
+*~/
+/*
+46 VBN:  46 VBN, 47 suffered, 44 HVD
+*/
+
+( (IP-MAT-SPE (, -)
+	      (CONJ But)
+	      (ADVP-TMP (ADV still))
+	      (NP-SBJ (PRO you))
+	      (MD would)
+	      (VB reckon)
+	      (IP-SMC-SPE (NP-SBJ (D the) (VAG injuring) (N person))
+			  (ADJP (QR more)
+				(ADJ unhappy)
+				(PP (P than)
+				    (NP (PRO he)
+					(CP-REL-SPE (WNP-1 (WPRO who))
+						    (C 0)
+						    (IP-SUB-SPE (NP-SBJ *T*-1)
+								(HVD had)
+								(VBN suffered)
+								(NP-OB1 (D the) (N wrong))))))))
+	      (. ?))
+  (ID BOETHRI-1785,160.348))
+
+/~*
+But our pleaders at the bar, continued she, are of a different opinion, as
+they strive to excite the compassion of the judges in favour of those who have
+suffered cruelty and oppression, whereas pity is more justly due to the
+oppressors; who ought therefore to be conducted to judgment, as the sick are
+to the physicians, not by angry, but by friendly and compassionate accusers,
+that they may be cured of their vices by the physick of chastisement.
+(BOETHRI-1785,161.351)
+*~/
+/*
+94 VBN:  94 VBN, 95 suffered, 92 HVP
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO$ our)
+		      (NS pleaders)
+		      (PP (P at)
+			  (NP (D the) (N bar))))
+	      (, ,)
+	      (IP-MAT-PRN (VBD continued)
+			  (NP-SBJ (PRO she)))
+	      (, ,)
+	      (BEP are)
+	      (PP (P of)
+		  (NP (D a) (ADJ different) (N opinion)))
+	      (, ,)
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO they))
+					  (VBP strive)
+					  (IP-INF-SPE (TO to)
+						      (VB excite)
+						      (NP-OB1 (D the)
+							      (N compassion)
+							      (PP (P of)
+								  (NP (D the) (NS judges))))
+						      (PP (P in)
+							  (NP (N favour)
+							      (PP (P of)
+								  (NP (D those)
+								      (CP-REL-SPE (WNP-1 (WPRO who))
+										  (C 0)
+										  (IP-SUB-SPE (NP-SBJ *T*-1)
+											      (HVP have)
+											      (VBN suffered)
+											      (NP-OB1 (N cruelty) (CONJ and) (N oppression))))))))))))
+	      (, ,)
+	      (PP (WADV+P whereas)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (N pity))
+					  (BEP is)
+					  (ADJP (ADVP (QR more) (ADV justly))
+						(ADJ due)
+						(PP (P to)
+						    (NP (D the)
+							(NS oppressors)
+							(, ;)
+							(CP-REL-SPE (WNP-2 (WPRO who))
+								    (C 0)
+								    (IP-SUB-SPE (NP-SBJ *T*-2)
+										(MD ought)
+										(PP (ADV+P therefore))
+										(TO to)
+										(BE be)
+										(VAN conducted)
+										(PP (P to)
+										    (NP (N judgment)))
+										(, ,)
+										(PP (P as)
+										    (CP-ADV-SPE (WADVP-3 0)
+												(C 0)
+												(IP-SUB-SPE (ADVP *T*-3)
+													    (NP-SBJ (D the) (ADJ sick))
+													    (BEP are)
+													    (PP (P to)
+														(NP (D the) (NS physicians))))))
+										(, ,)
+										(PP (PP (NEG not)
+											(P by)
+											(NP (ADJ angry)))
+										    (, ,)
+										    (CONJP (CONJ but)
+											   (PP (P by)
+											       (NP (ADJP (ADJ friendly) (CONJ and) (ADJ compassionate))
+												   (NS accusers)))))
+										(, ,)
+										(CP-ADV-SPE (C that)
+											    (IP-SUB-SPE (NP-SBJ (PRO they))
+													(MD may)
+													(BE be)
+													(VAN cured)
+													(PP (P of)
+													    (CODE <P_161>)
+													    (NP (PRO$ their) (NS vices)))
+													(PP (P by)
+													    (NP (D the)
+														(N physick)
+														(PP (P of)
+														    (NP (N chastisement)))))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,161.351))
+
+/~*
+Were it possible for the wicked to obtain a slight view of the charms of that
+virtue which they have forsaken; and could they but persuade themselves, that,
+by passing through the discipline of chastisement, they should be purified
+from the stains of vice, and restored to virtue; they surely would not
+consider the discipline as an evil,
+(BOETHRI-1785,161.355)
+*~/
+/*
+62 VBN:  62 VBN, 63 forsaken, 60 HVP
+*/
+
+( (IP-MAT-SPE (CP-ADV-SPE (IP-SUB-SPE (IP-SUB-SPE (BED Were)
+						  (NP-SBJ-1 (PRO it))
+						  (ADJP (ADJ possible))
+						  (IP-INF-SPE-1 (FOR for)
+								(NP-SBJ (D the) (ADJ wicked))
+								(TO to)
+								(VB obtain)
+								(NP-OB1 (D a)
+									(ADJ slight)
+									(N view)
+									(PP (P of)
+									    (NP (D the)
+										(NS charms)
+										(PP (P of)
+										    (NP (D that) (N virtue))
+										    (CP-REL-SPE (WNP-2 (WPRO which))
+												(C 0)
+												(IP-SUB-SPE (NP-OB1 *T*-2)
+													    (NP-SBJ (PRO they))
+													    (HVP have)
+													    (VBN forsaken)))))))))
+				      (, ;)
+				      (CONJP (CONJ and)
+					     (IP-SUB-SPE (MD could)
+							 (NP-SBJ (PRO they))
+							 (FP but)
+							 (VB persuade)
+							 (NP-OB1 (PRO+N themselves))
+							 (, ,)
+							 (CP-THT-SPE (C that)
+								     (, ,)
+								     (IP-SUB-SPE (IP-SUB-SPE-3 (PP (P by)
+												   (IP-PPL-SPE (VAG passing)
+													       (PP (P through)
+														   (NP (D the)
+														       (N discipline)
+														       (PP (P of)
+															   (NP (N chastisement)))))))
+											       (, ,)
+											       (NP-SBJ (PRO they))
+											       (MD should)
+											       (BE be)
+											       (VAN purified)
+											       (PP (P from)
+												   (NP (D the)
+												       (NS stains)
+												       (PP (P of)
+													   (NP (N vice))))))
+										 (, ,)
+										 (CONJP (CONJ and)
+											(IP-SUB-SPE=3 (VAN restored)
+												      (PP (P to)
+													  (NP (N virtue)))))))))))
+	      (, ;)
+	      (NP-SBJ (PRO they))
+	      (ADVP (ADV surely))
+	      (MD would)
+	      (NEG not)
+	      (VB consider)
+	      (NP-OB1 (D the) (N discipline))
+	      (PP (P as)
+		  (NP (D an) (N evil)))
+	      (. ,))
+  (ID BOETHRI-1785,161.355))
+
+/~*
+Now as a person suffering under a disease is not an object of resentment, but
+claims our compassion; we have still more reason to pity, and not to hate
+those unhappy persons over whom vice, the most deplorable of all distempers
+has gained the dominion.
+(BOETHRI-1785,161.362)
+*~/
+/*
+130 VBN:  130 VBN, 131 gained, 64 HVP
+130 VBN:  130 VBN, 131 gained, 128 HVP
+*/
+
+( (IP-MAT-SPE (ADVP (ADV Now))
+	      (PP (P as)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (D a)
+							      (N person)
+							      (RRC (VAG suffering)
+								   (PP (P under)
+								       (NP (D a) (N disease)))))
+						      (BEP is)
+						      (NEG not)
+						      (NP-OB1 (D an)
+							      (N object)
+							      (PP (P of)
+								  (NP (N resentment)))))
+					  (, ,)
+					  (CONJP (CONJ but)
+						 (IP-SUB-SPE (NP-SBJ *con*)
+							     (VBP claims)
+							     (NP-OB1 (PRO$ our) (N compassion)))))))
+	      (, ;)
+	      (NP-SBJ (PRO we))
+	      (HVP have)
+	      (NP-OB1 (QP (ADV still) (QR more))
+		      (N reason)
+		      (IP-INF-SPE-1 (TO to)
+				    (VB pity)
+				    (, ,)
+				    (IP-INF-PRN-SPE=1 (CONJ and) (NEG not) (TO to) (VB hate))
+				    (NP-OB1 (D those)
+					    (ADJ unhappy)
+					    (NS persons)
+					    (CP-REL-SPE (WPP-2 (P over)
+							       (WNP (WPRO whom)))
+							(C 0)
+							(IP-SUB-SPE (NP-SBJ (N vice)
+									    (, ,)
+									    (NP-PRN (D the)
+										    (ADJP (QS most)
+											  (ADJ deplorable)
+											  (PP (P of)
+											      (NP (Q all) (NS distempers))))))
+								    (HVP has)
+								    (VBN gained)
+								    (NP-OB1 (D the)
+									    (N dominion)
+									    (PP *T*-2)))))))
+	      (. .))
+  (ID BOETHRI-1785,161.362))
+
+/~*
+for the subject is of such a nature, that when we have lopped off one
+difficulty, like the heads of the hydra, innumerable others immediately spring
+up; so that there would be no end of them, did we not seize and quell these
+growing doubts by a quick and vigorous effort of the mind.
+(BOETHRI-1785,165.367)
+*~/
+/*
+42 VBN:  42 VBN, 43 lopped, 40 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ (D the) (N subject))
+	      (BEP is)
+	      (PP (P of)
+		  (NP (ADJP (SUCH such)
+			    (CP-DEG-SPE *ICH*-1))
+		      (D a)
+		      (N nature)
+		      (, ,)
+		      (CP-DEG-SPE-1 (C that)
+				    (IP-SUB-SPE (PP (P when)
+						    (CP-ADV-SPE (C 0)
+								(IP-SUB-SPE (NP-SBJ (PRO we))
+									    (HVP have)
+									    (VBN lopped)
+									    (RP off)
+									    (NP-OB1 (ONE one) (N difficulty)))))
+						(, ,)
+						(ADJP-SPR (ADJ like)
+							  (NP (D the)
+							      (NS heads)
+							      (PP (P of)
+								  (NP (D the) (NPR hydra)))))
+						(, ,)
+						(NP-SBJ (ADJ innumerable) (OTHERS others))
+						(ADVP-TMP (ADV immediately))
+						(VBP spring)
+						(RP up)
+						(, ;)
+						(PP (P so)
+						    (CP-ADV-SPE (C that)
+								(IP-SUB-SPE (NP-SBJ-2 (EX there))
+									    (MD would)
+									    (BE be)
+									    (NP-2 (Q no)
+										  (N end)
+										  (PP (P of)
+										      (NP (PRO them))))
+									    (, ,)
+									    (CP-ADV-SPE (C 0)
+											(IP-SUB-SPE (DOD did)
+												    (NP-SBJ (PRO we))
+												    (NEG not)
+												    (VB (VB seize) (CONJ and) (VB quell))
+												    (NP-OB1 (D these) (VAG growing) (NS doubts))
+												    (PP (P by)
+													(NP (D a)
+													    (ADJP (ADJ quick) (CONJ and) (ADJ vigorous))
+													    (N effort)
+													    (PP (P of)
+														(NP (D the) (N mind))))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,165.367))
+
+/~*
+For Providence is that intelligence, or divine reason, which resides in the
+sovereign master of the universe, and directs all things; whilst Destiny is
+that inherent state or condition of movable things, by means whereof
+Providence retains them in the order and arrangement in which she has placed
+them.
+(BOETHRI-1785,167.379)
+*~/
+/*
+162 VBN:  162 VBN, 163 placed, 160 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (NP-SBJ (N Providence))
+	      (BEP is)
+	      (NP-OB1 (D that)
+		      (N intelligence)
+		      (, ,)
+		      (CONJP (CONJ or)
+			     (NX (ADJ divine) (N reason)))
+		      (, ,)
+		      (CP-REL-SPE (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ *T*-1)
+							  (VBP resides)
+							  (PP (P in)
+							      (NP (D the)
+								  (ADJ sovereign)
+								  (N master)
+								  (PP (P of)
+								      (NP (D the) (N universe))))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (NP-SBJ *T*-1)
+								 (VBP directs)
+								 (NP-OB1 (Q all) (NS things)))))))
+	      (, ;)
+	      (PP (P whilst)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (N Destiny))
+					  (BEP is)
+					  (NP-OB1 (D that)
+						  (ADJ inherent)
+						  (N state)
+						  (CONJP (CONJ or)
+							 (NX (N condition)))
+						  (PP (P of)
+						      (NP (ADJ movable) (NS things)))
+						  (, ,)
+						  (CP-REL-SPE (WPP-2 (P by)
+								     (WNP (N means)
+									  (WPP (WADV+P whereof))))
+							      (C 0)
+							      (IP-SUB-SPE (PP *T*-2)
+									  (NP-SBJ (N Providence))
+									  (VBP retains)
+									  (NP-OB1 (PRO them))
+									  (PP (P in)
+									      (NP (D the)
+										  (N order)
+										  (CONJP (CONJ and)
+											 (NX (N arrangement)))
+										  (CP-REL-SPE (WPP-3 (P in)
+												     (WNP (WPRO which)))
+											      (C 0)
+											      (IP-SUB-SPE (PP *T*-3)
+													  (NP-SBJ (PRO she))
+													  (HVP has)
+													  (VBN placed)
+													  (NP-OB1 (PRO them))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,167.379))
+
+/~*
+For as a workman, who has formed in his head the plan of a work which he is
+desirous to finish, executes it afterwards, and produces in process of time
+all the different parts of the model which he has conceived; so God, in the
+plan of his Providence, disposes every thing to be brought about, in a certain
+order and in a proper time;
+(BOETHRI-1785,168.384)
+*~/
+/*
+34 VBN:  34 VBN, 35 formed, 32 HVP
+144 VBN:  144 VBN, 145 conceived, 32 HVP
+144 VBN:  144 VBN, 145 conceived, 142 HVP
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP-LFD (P as)
+		      (CP-ADV-SPE (WADVP-1 0)
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE (ADVP *T*-1)
+							  (NP-SBJ (D a)
+								  (N+N workman)
+								  (, ,)
+								  (CP-REL-SPE (WNP-2 (WPRO who))
+									      (C 0)
+									      (IP-SUB-SPE (NP-SBJ *T*-2)
+											  (HVP has)
+											  (VBN formed)
+											  (PP (P in)
+											      (NP (PRO$ his) (N head)))
+											  (NP-OB1 (D the)
+												  (N plan)
+												  (PP (P of)
+												      (NP (D a)
+													  (N work)
+													  (CP-REL-SPE (WNP-3 (WPRO which))
+														      (C 0)
+														      (IP-SUB-SPE (NP-SBJ (PRO he))
+																  (BEP is)
+																  (ADJP (ADJ desirous)
+																	(IP-INF-SPE (NP-OB1 *T*-3)
+																		    (TO to)
+																		    (VB finish)))))))))))
+							  (, ,)
+							  (VBP executes)
+							  (NP-OB1 (PRO it))
+							  (ADVP-TMP (ADV+WARD afterwards)))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (ADVP *T*-1)
+								 (NP-SBJ *con*)
+								 (VBP produces)
+								 (PP (P in)
+								     (NP (N process)
+									 (PP (P of)
+									     (NP (N time)))))
+								 (NP-OB1 (Q all)
+									 (D the)
+									 (ADJ different)
+									 (NS parts)
+									 (PP (P of)
+									     (NP (D the)
+										 (N model)
+										 (CP-REL-SPE (WNP-4 (WPRO which))
+											     (C 0)
+											     (IP-SUB-SPE (NP-OB1 *T*-4)
+													 (NP-SBJ (PRO he))
+													 (HVP has)
+													 (VBN conceived)))))))))))
+	      (, ;)
+	      (ADVP-RSP (ADV so))
+	      (NP-SBJ (NPR God))
+	      (, ,)
+	      (PP (P in)
+		  (NP (D the)
+		      (N plan)
+		      (PP (P of)
+			  (NP (PRO$ his) (N Providence)))))
+	      (, ,)
+	      (VBP disposes)
+	      (NP-OB1 (Q every)
+		      (N thing)
+		      (CP-EOP-SPE (WNP-5 0)
+				  (IP-INF-SPE (NP-SBJ *T*-5)
+					      (TO to)
+					      (BE be)
+					      (VAN brought)
+					      (RP about))))
+	      (, ,)
+	      (PP (PP (P in)
+		      (NP (D a) (ADJ certain) (N order)))
+		  (CONJP (CONJ and)
+			 (PP (P in)
+			     (NP (D a) (ADJ proper) (N time)))))
+	      (. ;))
+  (ID BOETHRI-1785,168.384))
+
+/~*
+and afterwards, by the ministry of Destiny, he accomplishes what he has thus
+planned, in conformity to that order and that time.
+(BOETHRI-1785,168.385)
+*~/
+/*
+48 VBN:  48 VBN, 49 planned, 43 HVP
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (ADVP-TMP (ADV+WARD afterwards))
+	      (, ,)
+	      (PP (P by)
+		  (NP (D the)
+		      (N ministry)
+		      (PP (P of)
+			  (NP (N Destiny)))))
+	      (, ,)
+	      (NP-SBJ (PRO he))
+	      (VBP accomplishes)
+	      (NP-OB1 (CP-FRL-SPE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB-SPE (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO he))
+					      (HVP has)
+					      (ADVP (ADV thus))
+					      (VBN planned))))
+	      (, ,)
+	      (PP (P in)
+		  (NP (N conformity)
+		      (PP (P to)
+			  (NP (NP (D that) (N order))
+			      (CONJP (CONJ and)
+				     (NP (D that) (N time)))))))
+	      (. .))
+  (ID BOETHRI-1785,168.385))
+
+/~*
+Whether it be by the agency of spirits, attendants upon providence, that
+Destiny operates, or by a soul, or by the ministry of the whole frame of
+nature, or by the influence of the stars, or by the power of angels, or the
+unwearied industry of demons; or whether it be by any one of these things, or
+by all of them together, that the chain of Destiny is formed; it is evident
+Providence is the invariable, the simple, and uncompounded train of conducting
+every thing; and that Destiny is the fluctuating contexture and temporal
+arrangement of those things which Providence has ordained to be done.
+(BOETHRI-1785,169.386)
+*~/
+/*
+342 VBN:  342 VBN, 343 ordained, 340 HVP
+*/
+
+( (IP-MAT-SPE (CP-QUE-ADV-SPE (CP-QUE-SPE (WQ Whether)
+					  (C 0)
+					  (IP-SUB-SPE (NP-SBJ (PRO it))
+						      (BEP be)
+						      (PP (PP (P by)
+							      (NP (D the)
+								  (N agency)
+								  (PP (P of)
+								      (NP (NS spirits)
+									  (, ,)
+									  (NP-PRN (NS attendants)
+										  (PP (P upon)
+										      (CODE <P_169>)
+										      (NP (N providence))))))))
+							  (CONJP *ICH*-2))
+						      (, ,)
+						      (CP-CLF-SPE (WPP-1 0)
+								  (C that)
+								  (IP-SUB-SPE (PP *T*-1)
+									      (NP-SBJ (N Destiny))
+									      (VBP operates)))
+						      (, ,)
+						      (CONJP-2 (CONJ or)
+							       (PP (PP (P by)
+								       (NP (D a) (N soul)))
+								   (, ,)
+								   (CONJP (CONJ or)
+									  (PP (P by)
+									      (NP (D the)
+										  (N ministry)
+										  (PP (P of)
+										      (NP (D the)
+											  (ADJ whole)
+											  (N frame)
+											  (PP (P of)
+											      (NP (N nature))))))))
+								   (, ,)
+								   (CONJP (CONJ or)
+									  (PP (P by)
+									      (NP (D the)
+										  (N influence)
+										  (PP (P of)
+										      (NP (D the) (NS stars))))))
+								   (, ,)
+								   (CONJP (CONJ or)
+									  (PP (P by)
+									      (NP (NP (D the)
+										      (N power)
+										      (PP (P of)
+											  (NP (NS angels))))
+										  (, ,)
+										  (CONJP (CONJ or)
+											 (NP (D the)
+											     (ADJ unwearied)
+											     (N industry)
+											     (PP (P of)
+												 (NP (NS demons))))))))))))
+			      (, ;)
+			      (CONJP (CONJ or)
+				     (CP-QUE-SPE (WQ whether)
+						 (C 0)
+						 (IP-SUB-SPE (NP-SBJ (PRO it))
+							     (BEP be)
+							     (PP (PP (P by)
+								     (NP (Q any)
+									 (ONE one)
+									 (PP (P of)
+									     (NP (D these) (NS things)))))
+								 (, ,)
+								 (CONJP (CONJ or)
+									(PP (P by)
+									    (NP (Q all)
+										(PP (P of)
+										    (NP (PRO them)))
+										(ADVP (ADV together))))))
+							     (, ,)
+							     (CP-CLF-SPE (WPP-3 0)
+									 (C that)
+									 (IP-SUB-SPE (PP *T*-3)
+										     (NP-SBJ (D the)
+											     (N chain)
+											     (PP (P of)
+												 (NP (N Destiny))))
+										     (BEP is)
+										     (VAN formed)))))))
+	      (, ;)
+	      (NP-SBJ-4 (PRO it))
+	      (BEP is)
+	      (ADJP (ADJ evident))
+	      (CP-THT-SPE-4 (CP-THT-SPE (C 0)
+					(IP-SUB-SPE (NP-SBJ (N Providence))
+						    (BEP is)
+						    (NP-OB1 (NP (D the) (ADJ invariable))
+							    (, ,)
+							    (CONJP (NP (D the)
+								       (ADJP (ADJ simple) (, ,) (CONJ and) (ADJ uncompounded))
+								       (N train)))
+							    (PP (P of)
+								(IP-PPL-SPE (VAG conducting)
+									    (NP-OB1 (Q every) (N thing)))))))
+			    (, ;)
+			    (CONJP (CONJ and)
+				   (CP-THT-SPE (C that)
+					       (IP-SUB-SPE (NP-SBJ (N Destiny))
+							   (BEP is)
+							   (NP-OB1 (D the)
+								   (VAG fluctuating)
+								   (N contexture)
+								   (CONJP (CONJ and)
+									  (NX (ADJ temporal) (N arrangement)))
+								   (PP (P of)
+								       (NP (D those)
+									   (NS things)
+									   (CP-REL-SPE (WNP-5 (WPRO which))
+										       (C 0)
+										       (IP-SUB-SPE (NP-SBJ (N Providence))
+												   (HVP has)
+												   (VBN ordained)
+												   (IP-INF-SPE (NP-SBJ *T*-5)
+													       (TO to)
+													       (BE be)
+													       (DAN done)))))))))))
+	      (. .))
+  (ID BOETHRI-1785,169.386))
+
+/~*
+for there is nothing done merely for the sake of evil, even by the wicked
+themselves, who in their researches after good, as I have clearly proved to
+you, are led astray from it by delusive error; but in no wise by that pure
+order which flows from the centre of the Supreme Goodness, which $can $not
+possibly mislead any creature from its origin.
+(BOETHRI-1785,171.404)
+*~/
+/*
+93 VBN:  93 VBN, 94 proved, 88 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (NP-SBJ-1 (EX there))
+	      (BEP is)
+	      (NP-1 (Q+N nothing))
+	      (DAN done)
+	      (ADVP (ADV merely))
+	      (PP (P for)
+		  (NP (D the)
+		      (N sake)
+		      (PP (P of)
+			  (NP (N evil)))))
+	      (, ,)
+	      (PP (FP even)
+		  (P by)
+		  (NP (D the)
+		      (ADJ wicked)
+		      (NP-PRN (PRO+N themselves))
+		      (, ,)
+		      (CP-REL-SPE (WNP-2 (WPRO who))
+				  (C 0)
+				  (IP-SUB-SPE (IP-SUB-SPE-3 (NP-SBJ *T*-2)
+							    (PP (P in)
+								(NP (PRO$ their)
+								    (NS researches)
+								    (PP (P after)
+									(NP (N good)))))
+							    (, ,)
+							    (PP (P as)
+								(CP-ADV-SPE (WNP-4 0)
+									    (C 0)
+									    (IP-SUB-SPE (NP-OB1 *T*-4)
+											(NP-SBJ (PRO I))
+											(HVP have)
+											(ADVP (ADV clearly))
+											(VBN proved)
+											(PP (P to)
+											    (NP (PRO you))))))
+							    (, ,)
+							    (BEP are)
+							    (VAN led)
+							    (ADVP-DIR (ADV astray)
+								      (PP (P from)
+									  (NP (PRO it))))
+							    (PP (P by)
+								(NP (ADJ delusive) (N error))))
+					      (, ;)
+					      (CONJP (CONJ but)
+						     (IP-SUB-SPE=3 (PP (P in)
+								       (NP (Q no) (N wise)))
+								   (PP (P by)
+								       (NP (D that)
+									   (ADJ pure)
+									   (N order)
+									   (CP-REL-SPE (WNP-5 (WPRO which))
+										       (C 0)
+										       (IP-SUB-SPE (NP-SBJ *T*-5)
+												   (VBP flows)
+												   (PP (P from)
+												       (NP (D the)
+													   (N centre)
+													   (PP (P of)
+													       (NP (D the) (ADJ Supreme) (N Goodness)))))))
+									   (, ,)
+									   (CP-REL-SPE (WNP-6 (WPRO which))
+										       (C 0)
+										       (IP-SUB-SPE (NP-SBJ *T*-6)
+												   (MD $can)
+												   (NEG $not)
+												   (CODE {TEXT:cannot})
+												   (ADVP (ADV possibly))
+												   (VB mislead)
+												   (NP-OB1 (Q any) (N creature))
+												   (PP (P from)
+												       (NP (PRO$ its) (N origin)))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,171.404))
+
+/~*
+for, as one more excellent than I am, has observed, the Virtues build up the
+body of the holy man.
+(BOETHRI-1785,174.425)
+*~/
+/*
+45 VBN:  45 VBN, 46 observed, 43 HVP
+*/
+
+( (IP-MAT-SPE (CONJ for)
+	      (, ,)
+	      (PP (P as)
+		  (CP-ADV-SPE (WNP-1 0)
+			      (C 0)
+			      (IP-SUB-SPE (NP-OB1 *T*-1)
+					  (NP-SBJ (ONE one)
+						  (ADJP (QR more)
+							(ADJ excellent)
+							(PP (P than)
+							    (CP-CMP-SPE (WADJP-2 0)
+									(C 0)
+									(IP-SUB-SPE (ADJP *T*-2)
+										    (NP-SBJ (PRO I))
+										    (BEP am))))))
+					  (, ,)
+					  (HVP has)
+					  (VBN observed))))
+	      (, ,)
+	      (CODE <font>)
+	      (NP-SBJ (D the) (NS Virtues))
+	      (VBP build)
+	      (RP up)
+	      (NP-OB1 (D the)
+		      (N body)
+		      (PP (P of)
+			  (NP (D the) (ADJ holy) (N man))))
+	      (. .)
+	      (CODE <$$font>))
+  (ID BOETHRI-1785,174.425))
+
+/~*
+Some have acquired immortal renown by a glorious death.
+(BOETHRI-1785,175.432)
+*~/
+/*
+7 VBN:  7 VBN, 8 acquired, 5 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (Q Some))
+	      (HVP have)
+	      (VBN acquired)
+	      (NP-OB1 (ADJ immortal) (N renown))
+	      (PP (P by)
+		  (NP (D a) (ADJ glorious) (N death)))
+	      (. .))
+  (ID BOETHRI-1785,175.432))
+
+/~*
+Others, by their unshaken constancy in torments, have exhibited examples that
+virtue $can $not be vanquished.
+(BOETHRI-1785,175.433)
+*~/
+/*
+27 VBN:  27 VBN, 28 exhibited, 25 HVP
+*/
+
+( (IP-MAT-SPE (NP-SBJ (OTHERS Others))
+	      (, ,)
+	      (PP (P by)
+		  (NP (PRO$ their)
+		      (ADJ unshaken)
+		      (N constancy)
+		      (PP (P in)
+			  (NP (NS torments)))))
+	      (, ,)
+	      (HVP have)
+	      (VBN exhibited)
+	      (NP-OB1 (NS examples)
+		      (CP-THT-SPE (C that)
+				  (IP-SUB-SPE (NP-SBJ (N virtue))
+					      (MD $can)
+					      (NEG $not)
+					      (CODE {TEXT:cannot})
+					      (BE be)
+					      (VAN vanquished))))
+	      (. .))
+  (ID BOETHRI-1785,175.433))
+
+/~*
+Let it satisfy us to know, that God, who formed all beings, disposes and
+directs them to good; and that, while he retains every thing he has created,
+in an order worthy of his unerring wisdom, he makes use of that chain of
+destiny which he hath established, to banish every evil from the immense
+circuit of his empire.
+(BOETHRI-1785,177.455)
+*~/
+/*
+105 VBN:  105 VBN, 106 created, 103 HVP
+168 VBN:  168 VBN, 169 established, 103 HVP
+168 VBN:  168 VBN, 169 established, 166 HVP
+*/
+
+( (IP-IMP-SPE (VBI Let)
+	      (IP-INF-SPE (NP-SBJ-1 (PRO it))
+			  (VB satisfy)
+			  (NP-OB1 (PRO us))
+			  (IP-INF-SPE-1 (TO to)
+					(VB know)
+					(, ,)
+					(CP-THT-SPE (CP-THT-SPE (C that)
+								(IP-SUB-SPE (NP-SBJ (NPR God)
+										    (, ,)
+										    (CP-REL-SPE (WNP-2 (WPRO who))
+												(C 0)
+												(IP-SUB-SPE (NP-SBJ *T*-2)
+													    (VBD formed)
+													    (NP-OB1 (Q all) (NS beings)))))
+									    (, ,)
+									    (VBP (VBP disposes) (CONJ and) (VBP directs))
+									    (NP-OB1 (PRO them))
+									    (PP (P to)
+										(NP (N good)))))
+						    (, ;)
+						    (CONJP (CONJ and)
+							   (CP-THT-SPE (C that)
+								       (, ,)
+								       (IP-SUB-SPE (PP (P while)
+										       (CP-ADV-SPE (C 0)
+												   (IP-SUB-SPE (NP-SBJ (PRO he))
+													       (VBP retains)
+													       (NP-OB1 (Q every)
+														       (N thing)
+														       (CP-REL-SPE (WNP-3 0)
+																   (C 0)
+																   (IP-SUB-SPE (NP-OB1 *T*-3)
+																	       (NP-SBJ (PRO he))
+																	       (HVP has)
+																	       (VBN created))))
+													       (, ,)
+													       (PP (P in)
+														   (NP (D an)
+														       (N order)
+														       (ADJP (ADJ worthy)
+															     (PP (P of)
+																 (NP (PRO$ his) (ADJ unerring) (N wisdom)))))))))
+										   (, ,)
+										   (NP-SBJ (PRO he))
+										   (VBP makes)
+										   (NP-OB1 (N use))
+										   (PP (P of)
+										       (NP (D that)
+											   (N chain)
+											   (PP (P of)
+											       (NP (N destiny)))
+											   (CP-REL-SPE (WNP-4 (WPRO which))
+												       (C 0)
+												       (IP-SUB-SPE (NP-OB1 *T*-4)
+														   (NP-SBJ (PRO he))
+														   (HVP hath)
+														   (VBN established)))))
+										   (, ,)
+										   (IP-INF-PRP-SPE (TO to)
+												   (VB banish)
+												   (NP-OB1 (Q every) (N evil))
+												   (PP (P from)
+												       (NP (D the)
+													   (ADJ immense)
+													   (N circuit)
+													   (PP (P of)
+													       (NP (PRO$ his) (N empire))))))))))))
+	      (. .))
+  (ID BOETHRI-1785,177.455))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	69/61/459
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethja-1897.psd	56/53/463
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\philosophy\boethri-1785.psd	69/61/459
+whole search, hits/tokens/total
+		125/114/922
+*/

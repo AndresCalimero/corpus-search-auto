@@ -1,0 +1,382 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:49:18 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_in_noun_phrases_predicate.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_in_noun_phrases_predicate\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   NP-*PRD*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (NP-*PRD* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd
+*/
+
+/~*
+O+ter cyn is ancrena, +t+at is westensetlena, +te no on niwan wylme, ac on
+lancsumere mynsteres drohtnunge geleornia+d, +t+at hie anstandonde mid Godes
+fultume +turh bro+dra getrymnesse ongean deofol and his fl+asces and ge+tohta
+leahtras winnan magan.
+(cobenrul,BenR:1.9.5.148)
+*~/
+/*
+77 VAG^N:  77 VAG^N, 78 anstandonde, 13 NP-GEN-PRD
+*/
+( (CODE <T06980010900,1.9.5>)
+  (IP-MAT (NP-NOM (ADJ^N O+ter)
+		  (N^N cyn)
+		  (CP-REL *ICH*-1))
+	  (BEPI is)
+	  (NP-GEN-PRD (N^G ancrena)
+		      (, ,)
+		      (IP-MAT-PRN (NP-NOM (D^N +t+at))
+				  (BEPI is)
+				  (XP (NP-GEN (N^G westensetlena)
+					      (, ,)
+					      (CP-REL (WNP-NOM-2 0)
+						      (C +te)
+						      (IP-SUB (NP-NOM *T*-2)
+							      (PP (PP (NEG+ADV no)
+								      (P on)
+								      (NP-DAT (ADJ^D niwan) (N^D wylme)))
+								  (, ,)
+								  (CONJP (CONJ ac)
+									 (PP (P on)
+									     (NP-DAT (ADJ^D lancsumere)
+										     (NP-GEN (N^G mynsteres))
+										     (N^D drohtnunge)))))
+							      (VBPI geleornia+d)
+							      (, ,)
+							      (CP-THT (C +t+at)
+								      (IP-SUB (NP-NOM (PRO^N hie)
+										      (PTP-NOM (VAG^N anstandonde)
+											       (PP (P mid)
+												   (NP-DAT (NP-GEN (NR^G Godes))
+													   (N^D fultume)))))
+									      (PP (P +turh)
+										  (NP (NP-GEN (N^G bro+dra))
+										      (N getrymnesse)))
+									      (PP (P ongean)
+										  (NP-ACC (NP-ACC (N^A deofol))
+											  (CONJP (CONJ and)
+												 (NP-ACC (NP-GEN (PRO$ his)
+														 (N^G fl+asces)
+														 (CONJP (CONJ and)
+															(NX-GEN (N^G ge+tohta))))
+													 (N^A leahtras)))))
+									      (VB winnan)
+									      (MDPI magan)))))))))
+	  (. .))
+  (ID cobenrul,BenR:1.9.5.148))
+
+/~*
++T+at feor+de muneca cyn is, +te is widscri+tul gen+amned, +ta ealle heora
+liflade geond missenlice +teoda fara+d and twam and +trim dagum geond
+missenlicra monna husum wunia+d, +afre unsta+tolf+aste and woriende, agenum
+lustum and heora gitsunge unalyfedlice fylia+d and hyrsumia+d.
+(cobenrul,BenR:1.9.20.154)
+*~/
+/*
+105 VAG^N:  105 VAG^N, 106 woriende, 37 NP-NOM-PRD
+*/
+
+( (CODE <T06980011200,1.9.20>)
+  (IP-MAT (NP-NOM (D^N +T+at)
+		  (ADJ^N feor+de)
+		  (NP-GEN (N^G muneca))
+		  (N^N cyn)
+		  (CP-REL *ICH*-2))
+	  (BEPI is)
+	  (, ,)
+	  (CP-REL-2 (WNP-NOM-1 0)
+		    (C +te)
+		    (IP-SUB (NP-NOM *T*-1)
+			    (BEPI is)
+			    (ADJP-NOM-PRD (ADJ^N widscri+tul))
+			    (VBN gen+amned)))
+	  (, ,)
+	  (NP-NOM-PRD (D^N +ta)
+		      (CP-REL (WNP-NOM-3 0)
+			      (C 0)
+			      (IP-SUB (IP-SUB (NP-NOM *T*-3)
+					      (NP-ACC-TMP (Q^A ealle) (PRO$ heora) (N^A liflade))
+					      (PP (P geond)
+						  (NP-ACC (ADJ^A missenlice) (N^A +teoda)))
+					      (VBPI fara+d))
+				      (CONJP (CONJ and)
+					     (IP-SUB-CON (NP-NOM *T*-3)
+							 (NP-DAT-TMP (NUMP-DAT (NUM^D twam) (CONJ and) (NUM^D +trim))
+								     (N^D dagum))
+							 (PP (P geond)
+							     (NP-DAT (NP-GEN (ADJ^G missenlicra) (N^G monna))
+								     (N^D husum)))
+							 (VBPI wunia+d)
+							 (, ,)
+							 (ADVP-TMP (ADV^T +afre))
+							 (ADJP-NOM (ADJ^N unsta+tolf+aste) (CONJ and) (VAG^N woriende))))
+				      (, ,)
+				      (CONJP (IP-SUB-CON (NP-NOM *T*-3)
+							 (NP-DAT (NP-DAT (ADJ^D agenum) (N^D lustum))
+								 (CONJP (CONJ and)
+									(NP-DAT (PRO$ heora) (N^D gitsunge))))
+							 (ADVP (ADV unalyfedlice))
+							 (VBPI (VBPI fylia+d) (CONJ and) (VBPI hyrsumia+d)))))))
+	  (. .))
+  (ID cobenrul,BenR:1.9.20.154))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd	2/2/1288
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd	0/0/79
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd	0/0/105
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd	0/0/1132
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd	0/0/90
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd	0/0/11
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd	0/0/123
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd	0/0/35
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd	0/0/401
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd	0/0/23
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd	0/0/169
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd	0/0/327
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd	0/0/146
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd	0/0/304
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd	0/0/79
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd	0/0/111
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd	0/0/210
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd
+*/
+
+/~*
++Tis sindan +da domas +te se +almihtega God self sprecende w+as to Moyse & him
+bebead to healdanne.
+(colawafint,LawAfEl:49.115)
+*~/
+/*
+32 VAG:  32 VAG, 33 sprecende, 9 NP-NOM-PRD
+*/
+
+( (CODE <T09280007700,49>)
+  (IP-MAT-SPE (NP-NOM (D^N +Tis))
+	      (BEPI sindan)
+	      (NP-NOM-PRD (D^N +da)
+			  (N^N domas)
+			  (CP-REL-SPE (WNP-1 0)
+				      (C +te)
+				      (IP-SUB-SPE (IP-SUB-SPE (NP *T*-1)
+							      (NP-NOM (D^N se) (ADJ^N +almihtega) (NR^N God) (ADJ^N self))
+							      (VAG sprecende)
+							      (BEDI w+as)
+							      (PP (P to)
+								  (NP-DAT (NR^D Moyse))))
+						  (CONJP (CONJ &)
+							 (IP-SUB-CON-SPE (NP-NOM *con*)
+									 (NP-DAT (PRO^D him))
+									 (VBDI bebead)
+									 (IP-INF-SPE (NP *T*-1)
+										     (TO to)
+										     (VB^D healdanne)))))))
+	      (. .))
+  (ID colawafint,LawAfEl:49.115))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd	1/1/146
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd	0/0/35
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd	0/0/192
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd	0/0/98
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd	0/0/14
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cobenrul.o3.psd	2/2/1288
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgD.psd	0/0/79
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cocanedgX.psd	0/0/105
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cochdrul.psd	0/0/1132
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu1.o1.psd	0/0/90
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o12.psd	0/0/11
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu2.o2.psd	0/0/123
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o23.psd	0/0/35
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu3.o3.psd	0/0/401
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\codocu4.o24.psd	0/0/23
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolD.o34.psd	0/0/169
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\coinspolX.psd	0/0/327
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw1cn.o3.psd	0/0/146
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw2cn.o3.psd	0/0/304
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw5atr.o3.psd	0/0/79
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colaw6atr.o3.psd	0/0/111
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawaf.o2.psd	0/0/210
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawafint.o2.psd	1/1/146
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawger.o34.psd	0/0/35
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawine.ox2.psd	0/0/192
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawnorthu.o3.psd	0/0/98
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\colawwllad.o4.psd	0/0/14
+whole search, hits/tokens/total
+		3/3/5118
+*/

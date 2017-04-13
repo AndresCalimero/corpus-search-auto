@@ -1,0 +1,538 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:48:25 BST 2017
+
+command file:     data\searches\queries\YCOE\progressive_forms_added_to_an_appositive_or_parenthetical_constituent.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\progressive_forms_added_to_an_appositive_or_parenthetical_constituent\bible_and_apocrypha\result.out
+
+node:   *PRN*|AXG*|BAG*|HAG*|VAG*
+query:  (AXG*|BAG*|HAG*|VAG* Dominates  !AXG*|BAG*|HAG*|VAG*) 
+  AND  (*PRN* Dominates  AXG*|BAG*|HAG*|VAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd	0/0/135
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd	0/0/537
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd
+*/
+
+/~*
+and cw+adon: ac hu w+are +tu swa dyrstig +t+at +du dorstest innon ure
+gesomnunge gan +tu +de w+are ge+tw+arigende and myd specende +tam h+alende?
+(conicodA,Nic_[A]:12.1.8.194)
+*~/
+/*
+64 VAG:  64 VAG, 65 ge+tw+arigende, 50 NP-NOM-PRN-2
+72 VAG:  72 VAG, 73 specende, 50 NP-NOM-PRN-2
+*/
+( (IP-MAT (CONJ and)
+	  (NP-NOM *con*)
+	  (VBDI cw+adon)
+	  (, :)
+	  (CP-QUE-SPE (CONJ ac)
+		      (WADVP-1 (WADV hu))
+		      (IP-SUB-SPE (ADVP *T*-1)
+				  (BED w+are)
+				  (NP-NOM (PRO^N +tu)
+					  (NP-NOM-PRN *ICH*-2))
+				  (ADJP-NOM-PRD (ADV swa)
+						(ADJ^N dyrstig)
+						(CP-DEG-SPE (C +t+at)
+							    (IP-SUB-SPE (NP-NOM (PRO^N +du))
+									(MDDI dorstest)
+									(PP (P innon)
+									    (NP (PRO$ ure) (N gesomnunge)))
+									(VB gan))))
+				  (NP-NOM-PRN-2 (PRO^N +tu)
+						(CP-REL-SPE (WNP-NOM-3 0)
+							    (C +de)
+							    (IP-SUB-SPE (IP-SUB-SPE-0 (NP-NOM *T*-3)
+										      (BED w+are)
+										      (VAG ge+tw+arigende))
+									(CONJP (CONJ and)
+									       (IPX-SUB-CON-SPE=0 (RP myd)
+												  (VAG specende)
+												  (NP-DAT (D^D +tam) (N^D h+alende)))))))))
+	  (. ?))
+  (ID conicodA,Nic_[A]:12.1.8.194))
+
+/~*
+and cw+a+d: so+d ge secga+d +t+at ic scea+da w+as and ealle yfelu on eor+dan
+wyrcende.
+(conicodA,Nic_[A]:26.5.577)
+*~/
+/*
+47 VAG:  47 VAG, 48 wyrcende, 19 CP-THT-PRN-SPE
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-NOM *con*)
+	      (VBDI cw+a+d)
+	      (, :)
+	      (IP-MAT-SPE (ADVP (ADV so+d))
+			  (NP-NOM (PRO^N ge))
+			  (VBPI secga+d)
+			  (CP-THT-PRN-SPE (C +t+at)
+					  (IP-SUB-SPE (IP-SUB-SPE-0 (NP-NOM (PRO^N ic))
+								    (NP-NOM-PRD (N^N scea+da))
+								    (BEDI w+as))
+						      (CONJP (CONJ and)
+							     (IPX-SUB-CON-SPE=0 (NP-ACC (Q^A ealle) (N^A yfelu))
+										(PP (P on)
+										    (NP (N eor+dan)))
+										(VAG wyrcende))))))
+	      (. .))
+  (ID conicodA,Nic_[A]:26.5.577))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd	3/2/635
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd
+*/
+
+/~*
++Ta on morgen ferde Ioseph to Ierusalem mid geleafe and mid +tan +arendracan
+ealle on heora assen ridende.
+(conicodC,Nic_[C]:128.135)
+*~/
+/*
+54 VAG^N:  54 VAG^N, 55 ridende, 42 NP-NOM-PRN
+*/
+
+( (CODE <T06480008300,128>)
+  (IP-MAT (ADVP-TMP (ADV^T +Ta))
+	  (PP (P on)
+	      (NP-ACC (N^A morgen)))
+	  (VBD ferde)
+	  (NP-NOM (NR^N Ioseph))
+	  (PP (P to)
+	      (NP (NR Ierusalem)))
+	  (PP (PP (P mid)
+		  (NP (N geleafe)))
+	      (CONJP (CONJ and)
+		     (PP (P mid)
+			 (NP-DAT (D^I +tan) (N^D +arendracan)))))
+	  (NP-NOM-PRN (Q^N ealle)
+		      (PTP-NOM (PP (P on)
+				   (NP-DAT (PRO$ heora) (N^D assen)))
+			       (VAG^N ridende)))
+	  (. .))
+  (ID conicodC,Nic_[C]:128.135))
+
+/~*
+Ac nu +tu fule and +tu stinchende helle, geopene ra+de +tine gaten, +t+at muge
+ingan +t+as ecen wuldres King.
+(conicodC,Nic_[C]:303.296)
+*~/
+/*
+23 VAG^N:  23 VAG^N, 24 stinchende, 22 NP-NOM-PRN
+*/
+
+( (CODE <T06480017600,303>)
+  (IP-MAT-SPE (CONJ Ac)
+	      (ADVP-TMP (ADV^T nu))
+	      (NP-NOM-VOC (NP-NOM (PRO^N +tu)
+				  (ADJP-NOM (ADJ^N fule)))
+			  (CONJP (CONJ and)
+				 (NP-NOM (PRO^N +tu)
+					 (NP-NOM-PRN (VAG^N stinchende) (N^N helle)))))
+	      (, ,)
+	      (VBI geopene)
+	      (ADVP (ADV ra+de))
+	      (NP-ACC (PRO$^A +tine) (N^A gaten))
+	      (, ,)
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (MDPS muge)
+				      (RP+VB ingan)
+				      (NP-NOM (NP-GEN (D^G +t+as) (ADJ^G ecen) (N^G wuldres))
+					      (N^N King))))
+	      (. .))
+  (ID conicodC,Nic_[C]:303.296))
+
+/~*
+and cw+a+den, Hwanen eart +tu, la H+alend, swa strang mann and swa briht on
+m+aigne, and wunigende buten +alcen lehtre and cl+ane fram +alcen w+amme?
+(conicodC,Nic_[C]:324.316)
+*~/
+/*
+65 VAG^N:  65 VAG^N, 66 wunigende, 33 NP-NOM-PRN-2
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-NOM *con*)
+	      (VBD cw+a+den)
+	      (, ,)
+	      (CP-QUE-SPE (WADVP-DIR-1 (WADV^D Hwanen))
+			  (IP-SUB-SPE (ADVP-DIR *T*-1)
+				      (BEPI eart)
+				      (NP-NOM (PRO^N +tu)
+					      (NP-NOM-PRN *ICH*-2))
+				      (, ,)
+				      (INTJ la)
+				      (NP-NOM-VOC (N^N H+alend))
+				      (, ,)
+				      (NP-NOM-PRN-2 (ADJP-NOM (ADJP-NOM (ADV swa) (ADJ^N strang))
+							      (CONJP *ICH*-3))
+						    (N^N mann)
+						    (CONJP-3 (CONJ and)
+							     (ADJP-NOM (ADJP-NOM (ADV swa)
+										 (ADJ^N briht)
+										 (PP (P on)
+										     (NP-DAT (N^D m+aigne))))
+								       (, ,)
+								       (CONJP (CONJ and)
+									      (PTP-NOM (VAG^N wunigende)
+										       (PP (P buten)
+											   (NP-DAT (Q^D +alcen) (N^D lehtre)))))
+								       (CONJP (CONJ and)
+									      (ADJP-NOM (ADJ^N cl+ane)
+											(PP (P fram)
+											    (NP-DAT (Q^D +alcen) (N^D w+amme))))))))))
+	      (. ?))
+  (ID conicodC,Nic_[C]:324.316))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd	3/3/383
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd
+*/
+
+/~*
+And +d+at la bi+d se bifenda domes d+ag eallum mannum to gebidanne.
+(conicodD,Nic_[D]:88.79)
+*~/
+/*
+18 VAG^N:  18 VAG^N, 19 bifenda, 15 NP-NOM-PRN-1
+*/
+
+( (CODE <T06490004900,88>)
+  (IP-MAT (CONJ And)
+	  (NP-NOM-2 (D^N +d+at)
+		    (NP-NOM-PRN *ICH*-1))
+	  (INTJ la)
+	  (BEPI bi+d)
+	  (NP-NOM-PRN-1 (D^N se)
+			(VAG^N bifenda)
+			(NP-GEN (N^G domes))
+			(N^N d+ag))
+	  (NP-DAT (Q^D eallum) (N^D mannum))
+	  (IP-INF (NP *-2)
+		  (TO to)
+		  (VB^D gebidanne))
+	  (. .))
+  (ID conicodD,Nic_[D]:88.79))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd	1/1/154
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd	0/0/120
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd
+*/
+
+/~*
+On +d+are tide +de se esne hi hamweard l+adde to hys hlaforde. Eode Isaac on
++tam wege +te scyt to +tam pytte +de ys genemned Puteus Viuentis, et Videntis,
++t+at ys Lybbendes Pytt & Geseondes;
+(cootest,Gen:24.61.996)
+*~/
+/*
+110 VAG^G:  110 VAG^G, 111 Lybbendes, 101 IP-MAT-PRN
+119 VAG^G:  119 VAG^G, 120 Geseondes, 101 IP-MAT-PRN
+*/
+
+( (CODE <T06210052000,24.61>)
+  (IP-MAT (PP (P On)
+	      (NP-DAT (D^D +d+are)
+		      (N^D tide)
+		      (CP-REL (WADVP-TMP-1 0)
+			      (C +de)
+			      (IP-SUB (ADVP-TMP *T*-1)
+				      (NP-NOM (D^N se) (N^N esne))
+				      (NP-ACC (PRO^A hi))
+				      (ADVP-DIR (ADV^D hamweard))
+				      (VBD l+adde)
+				      (PP (P to)
+					  (NP-DAT (PRO$ hys) (N^D hlaforde)))))))
+	  (, .)
+	  (CODE <T06210052100,24.62>)
+	  (VBD Eode)
+	  (NP-NOM (NR^N Isaac))
+	  (PP (P on)
+	      (NP-DAT (D^D +tam)
+		      (N^D wege)
+		      (CP-REL (WNP-NOM-2 0)
+			      (C +te)
+			      (IP-SUB (NP-NOM *T*-2)
+				      (VBPI scyt)
+				      (PP (P to)
+					  (NP-DAT (D^D +tam)
+						  (N^D pytte)
+						  (CP-REL (WNP-NOM-3 0)
+							  (C +de)
+							  (IP-SUB (NP-NOM *T*-3)
+								  (BEPI ys)
+								  (VBN genemned)
+								  (NP-PRD (FW Puteus)
+									  (FW Viuentis)
+									  (, ,)
+									  (FW et)
+									  (FW Videntis)
+									  (, ,)
+									  (IP-MAT-PRN (NP-NOM (D^N +t+at))
+										      (BEPI ys)
+										      (XP (NP (NP-GEN (VAG^G Lybbendes)
+												      (CONJP *ICH*-5))
+											      (N Pytt)
+											      (CONJP-5 (CONJ &) (VAG^G Geseondes))))))))))))))
+	  (. ;))
+  (ID cootest,Gen:24.61.996))
+
+/~*
+We gehyrdon eowerne hlisan, hu se lyfigenda God eow sige forgeaf on Seone +dam
+cyninge & on Og eal swa on Astaroth.
+(cootest,Josh:9.9.5420)
+*~/
+/*
+26 VAG^N:  26 VAG^N, 27 lyfigenda, 14 CP-QUE-PRN-SPE
+*/
+
+( (IP-MAT-SPE (NP-NOM (PRO^N We))
+	      (VBDI gehyrdon)
+	      (NP-ACC (PRO$^A eowerne)
+		      (N^A hlisan)
+		      (, ,)
+		      (CP-QUE-PRN-SPE (WADVP-1 (WADV hu))
+				      (C 0)
+				      (IP-SUB-SPE (ADVP *T*-1)
+						  (NP-NOM (D^N se) (VAG^N lyfigenda) (NR^N God))
+						  (NP (PRO eow))
+						  (NP (N sige))
+						  (VBDI forgeaf)
+						  (PP (PP (P on)
+							  (NP-DAT (NR^D Seone)
+								  (NP-DAT-PRN (D^D +dam) (N^D cyninge))))
+						      (CONJP (CONJ &)
+							     (PP (P on)
+								 (NP (NR Og))))
+						      (CONJP (Q eal)
+							     (ADV swa)
+							     (PP (P on)
+								 (NP (NR Astaroth))))))))
+	      (. .))
+  (ID cootest,Josh:9.9.5420))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd	3/2/5812
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd
+*/
+
+/~*
+Tirus w+as +ta +t+at gehyrende eall swy+de georne and hys heafod upahebbende
+and on Cryst gelyfende, he sylf and eall hys ynhyred,
+(covinsal,VSal_1_[Cross]:8.1.62)
+*~/
+/*
+46 VAG:  46 VAG, 47 gelyfende, 37 IPX-MAT-PRN=0
+*/
+
+( (CODE <T06510002700,8.1>)
+  (IP-MAT-0 (NP-NOM (NR^N Tirus)
+		    (NP-NOM-PRN *ICH*-1))
+	    (BEDI w+as)
+	    (ADVP-TMP (ADV^T +ta))
+	    (NP-ACC (D^A +t+at))
+	    (VAG gehyrende)
+	    (QP (Q eall))
+	    (ADVP (ADV swy+de) (ADV georne))
+	    (IPX-MAT-PRN=0 (CONJ and)
+			   (NP-ACC (PRO$ hys) (N^A heafod))
+			   (RP+VAG upahebbende))
+	    (IPX-MAT-PRN=0 (CONJ and)
+			   (PP (P on)
+			       (NP-ACC (NR^A Cryst)))
+			   (VAG gelyfende))
+	    (, ,)
+	    (NP-NOM-PRN-1 (NP-NOM (PRO^N he)
+				  (ADJP-NOM (ADJ^N sylf)))
+			  (CONJP (CONJ and)
+				 (NP-NOM (Q^N eall) (PRO$ hys) (N^N ynhyred))))
+	    (. ,))
+  (ID covinsal,VSal_1_[Cross]:8.1.62))
+
+/~*
+and heom eac se stenc +ta swa yfele derede for +t+are mycelan h+atan, +t+at
+hig +ta heom betwynan cw+adon: Eala, hu we syndon geomrigende and swy+de
+aforhtigende be myclum gewyrhtum, for+tam +de we +tone h+alend to dea+de
+gesealdon, and we nu +t+at geseo+d, +t+at we for +tig yfelum dea+de sweltan
+sceolon.
+(covinsal,VSal_1_[Cross]:16.1.113)
+*~/
+/*
+87 VAG:  87 VAG, 88 aforhtigende, 81 IPX-SUB-PRN-SPE=0
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-DAT (PRO^D heom))
+	  (ADVP (ADV eac))
+	  (NP-NOM (D^N se) (N^N stenc))
+	  (ADVP-TMP (ADV^T +ta))
+	  (ADVP (ADV swa)
+		(ADV yfele)
+		(CP-DEG *ICH*-1))
+	  (VBD derede)
+	  (PP (P for)
+	      (NP-DAT (D^D +t+are) (Q^D mycelan) (N^D h+atan)))
+	  (, ,)
+	  (CP-DEG-1 (C +t+at)
+		    (IP-SUB (NP-NOM (PRO^N hig))
+			    (ADVP-TMP (ADV^T +ta))
+			    (PP (NP-DAT-RFL (PRO^D heom))
+				(P betwynan))
+			    (VBDI cw+adon)
+			    (, :)
+			    (QTP (INTJP (INTJ Eala)
+					(, ,)
+					(CP-QUE-SPE (WADVP-2 (WADV hu))
+						    (C 0)
+						    (IP-SUB-SPE-0 (ADVP *T*-2)
+								  (NP-NOM (PRO^N we))
+								  (BEPI syndon)
+								  (VAG geomrigende)
+								  (IPX-SUB-PRN-SPE=0 (CONJ and)
+										     (ADVP (ADV swy+de))
+										     (VAG aforhtigende))
+								  (PP (P be)
+								      (NP-DAT (Q^D myclum) (N^D gewyrhtum)))
+								  (, ,)
+								  (CP-ADV-SPE (P for+tam)
+									      (C +de)
+									      (IP-SUB-SPE (IP-SUB-SPE (NP-NOM (PRO^N we))
+												      (NP-ACC (D^A +tone) (N^A h+alend))
+												      (PP (P to)
+													  (NP-DAT (N^D dea+de)))
+												      (VBDI gesealdon))
+											  (, ,)
+											  (CONJP (CONJ and)
+												 (IP-SUB-CON-SPE (NP-NOM (PRO^N we))
+														 (ADVP-TMP (ADV^T nu))
+														 (NP-ACC (D^A +t+at)
+															 (CP-THT-PRN-SPE *ICH*-3))
+														 (VBPI geseo+d)
+														 (, ,)
+														 (CP-THT-PRN-SPE-3 (C +t+at)
+																   (IP-SUB-SPE (NP-NOM (PRO^N we))
+																	       (PP (P for)
+																		   (NP-DAT (D^I +tig)))
+																	       (NP-DAT-ADT (ADJ^D yfelum) (N^D dea+de))
+																	       (VB sweltan)
+																	       (MDPI sceolon)))))))))))))
+	  (. .))
+  (ID covinsal,VSal_1_[Cross]:16.1.113))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd	2/2/277
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd
+*/
+
+/~*
+& Moyses +atywde wi+d anne beigbeam swa he cw+a+d, Drihten, Abrahammes God, &
+Isaaces God, & Iacobes God, nys God deadra ac lybbendra,
+(cowsgosp,Lk_[WSCp]:20.37.5335)
+*~/
+/*
+82 VAG^G:  82 VAG^G, 83 lybbendra, 74 NP-GEN-PRN
+*/
+
+( (CODE <T06430085700,20.37>)
+  (IP-MAT-SPE (CONJ &)
+	      (NP-NOM (NR^N Moyses))
+	      (VBD +atywde)
+	      (PP (P wi+d)
+		  (NP-ACC (NUM^A anne) (N^A beigbeam)))
+	      (CP-ADV-SPE (P swa)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N he))
+				      (VBDI cw+a+d)
+				      (, ,)
+				      (IP-MAT-SPE (NP-NOM (NR^N Drihten)
+							  (, ,)
+							  (NP-NOM-PRN (NP-NOM (NP-GEN (NR^G Abrahammes))
+									      (NR^N God))
+								      (, ,)
+								      (CONJP (CONJ &)
+									     (NP-NOM (NP-GEN (NR^G Isaaces))
+										     (NR^N God)))
+								      (, ,)
+								      (CONJP (CONJ &)
+									     (NP-NOM (NP-GEN (NR^G Iacobes))
+										     (NR^N God)))))
+						  (, ,)
+						  (NEG+BEPI nys)
+						  (NP-NOM-PRD (NR^N God)
+							      (NP-GEN-PRN (NP-GEN (ADJ^G deadra))
+									  (CONJP (CONJ ac)
+										 (NP-GEN (VAG^G lybbendra))))))))
+	      (. ,))
+  (ID cowsgosp,Lk_[WSCp]:20.37.5335))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd	1/1/7515
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\coexodusP.psd	0/0/135
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cogenesiC.psd	0/0/537
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodA.psd	3/2/635
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodC.psd	3/3/383
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodD.psd	1/1/154
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\conicodE.psd	0/0/120
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cootest.o3.psd	3/2/5812
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\covinsal.psd	2/2/277
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\bible_and_apocrypha\cowsgosp.o3.psd	1/1/7515
+whole search, hits/tokens/total
+		13/11/15568
+*/

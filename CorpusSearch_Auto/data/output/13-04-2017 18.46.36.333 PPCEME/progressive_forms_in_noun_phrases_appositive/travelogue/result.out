@@ -1,0 +1,1186 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:00 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_appositive\travelogue\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd	0/0/321
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd	0/0/320
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd	0/0/326
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd	0/0/355
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd
+*/
+
+/~*
+the whole Citty lookes like what it is, a rich thriveing industrious place;
+(FIENNES-E3-H,148.192)
+*~/
+/*
+36 VAG:  36 VAG, 37 thriveing, 31 NP-PRN
+*/
+( (IP-MAT (NP-SBJ (D the) (ADJ whole) (N Citty))
+	  (VBP lookes)
+	  (ADJP (ADJ like)
+		(NP (CP-FRL (WNP-1 (WPRO what))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-1)
+				    (NP-SBJ (PRO it))
+				    (BEP is))))
+		(, ,)
+		(NP-PRN (D a) (ADJ rich) (VAG thriveing) (ADJ industrious) (N place)))
+	  (. ;))
+  (ID FIENNES-E3-H,148.192))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd	1/1/347
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd	0/0/367
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd	0/0/361
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd	0/0/231
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd
+*/
+
+/~*
+and the Toddy-Trees ferment their Wine over the Vessels, the Prodromi of the
+ensuing Rains; which make their first shew at the first Full Moon in May, and
+continue a Fortnight, in which space it is unhealthy; till after a Fortnight's
+fair Weather they set in for altogether.
+(FRYER-E3-P1,1,195.17)
+*~/
+/*
+45 VAG:  45 VAG, 46 ensuing, 30 NP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the) (CODE <font>) (N+NS Toddy-Trees) (CODE <$$font>))
+	  (VBP ferment)
+	  (NP-OB1 (PRO$ their) (N Wine))
+	  (PP (P over)
+	      (NP (D the)
+		  (NS Vessels)
+		  (, ,)
+		  (NP-PRN (D the)
+			  (CODE <font>)
+			  (FW Prodromi)
+			  (CODE <$$font>)
+			  (PP (P of)
+			      (NP (D the)
+				  (VAG ensuing)
+				  (NS Rains)
+				  (, ;)
+				  (CP-REL (WNP-1 (WPRO which))
+					  (C 0)
+					  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+							  (VBP make)
+							  (NP-OB1 (PRO$ their) (ADJ first) (N shew))
+							  (PP (P at)
+							      (NP (D the) (ADJ first) (ADJ Full) (N Moon)))
+							  (PP (P in)
+							      (NP (CODE <font>) (NPR May) (CODE <$$font>))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB (NP-SBJ *T*-1)
+								 (VBP continue)
+								 (NP-MSR (D a) (N Fortnight))))
+						  (, ,)
+						  (CP-CAR (WPP-2 (P in)
+								 (WNP (WD which) (N space)))
+							  (C 0)
+							  (IP-SUB (PP *T*-2)
+								  (NP-SBJ (PRO it))
+								  (BEP is)
+								  (ADJP (ADJ unhealthy))
+								  (, ;)
+								  (PP (P till))
+								  (CP-ADV (C 0)
+									  (IP-SUB (PP (P after)
+										      (NP (NP-POS (D a) (N$ Fortnight's))
+											  (ADJ fair)
+											  (N Weather)))
+										  (NP-SBJ (PRO they))
+										  (VBP set)
+										  (RP in)
+										  (PP (P for)
+										      (ADVP (ADV altogether))))))))))))))
+	  (. .))
+  (ID FRYER-E3-P1,1,195.17))
+
+/~*
+and the next day about Three in the Afternoon receiving Advice that Seva Gi
+was returned to Rairee from Chiblone, departed thence to Upper Choul, a Town
+belonging to the Rajah, about two Miles distant from the Portugal City;
+(FRYER-E3-P1,1,198.47)
+*~/
+/*
+97 VAG:  97 VAG, 98 belonging, 91 NP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (NP-TMP (D the) (ADJS next) (N day))
+	  (NP-TMP (NUMP (ADV about) (NUM Three))
+		  (PP (P in)
+		      (NP (D the) (N Afternoon))))
+	  (IP-PPL (VAG receiving)
+		  (NP-OB1 (N Advice)
+			  (CP-THT (C that)
+				  (CODE <font>)
+				  (IP-SUB (NP-SBJ (NPR Seva) (NPR Gi))
+					  (CODE <$$font>)
+					  (BED was)
+					  (VBN returned)
+					  (PP (P to)
+					      (CODE <font>)
+					      (NP (NPR Rairee)))
+					  (CODE <$$font>)
+					  (PP (P from)
+					      (CODE <font>)
+					      (NP (NPR Chiblone)))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (VBD departed)
+	  (ADVP (ADV thence))
+	  (PP (P to)
+	      (NP (NPR Upper)
+		  (CODE <font>)
+		  (NPR Choul)
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (D a)
+			  (N Town)
+			  (RRC (VAG belonging)
+			       (PP (P to)
+				   (NP (D the) (CODE <font>) (N Rajah)))))
+		  (CODE <$$font>)
+		  (, ,)
+		  (ADJP-LOC (NP-MSR (NUMP (ADV about) (NUM two))
+				    (NS Miles))
+			    (ADJ distant)
+			    (PP (P from)
+				(NP (D the) (CODE <font>) (ADJ Portugal) (CODE <$$font>) (N City))))))
+	  (. ;))
+  (ID FRYER-E3-P1,1,198.47))
+
+/~*
+to this belonged Three stately Tanks with a deep Well, some an Hundred Fathoms
+down to the Bottom, with a Pond, either to Water or Wash the Cattel in, hard
+by it; the perfect proof of our being passed the Sands, which hold not digging
+such a depth, this being White Marle;
+(FRYER-E3-P1,2,198.192)
+*~/
+/*
+117 BAG:  117 BAG, 118 being, 103 NP-PRN
+142 VAG:  142 VAG, 143 digging, 103 NP-PRN
+157 BAG:  157 BAG, 158 being, 103 NP-PRN
+*/
+
+( (IP-MAT (PP (P to)
+	      (NP (D this)))
+	  (VBD belonged)
+	  (NP-SBJ (NUM Three)
+		  (ADJ stately)
+		  (NS Tanks)
+		  (PP (P with)
+		      (NP (D a) (ADJ deep) (N Well)))
+		  (, ,)
+		  (IP-ABS (NP-SBJ (Q some)
+				  (NUMP (D an) (NUM Hundred))
+				  (NS Fathoms))
+			  (PP (RP down)
+			      (P to)
+			      (NP (D the) (N Bottom))))
+		  (, ,)
+		  (PP (P with)
+		      (NP (D a)
+			  (N Pond)
+			  (, ,)
+			  (CP-EOP (WNP-1 0)
+				  (CONJ-2 either)
+				  (IP-INF (TO to)
+					  (VB (CONJ *ICH*-2)
+					      (VB Water)
+					      (CODE <P_2,198>)
+					      (CONJ or)
+					      (VB Wash))
+					  (NP-OB1 (D the) (NS Cattel))
+					  (PP (P in)
+					      (NP *T*-1))))
+			  (, ,)
+			  (PP (ADV hard)
+			      (P by)
+			      (NP (PRO it)))))
+		  (, ;)
+		  (NP-PRN (D the)
+			  (ADJ perfect)
+			  (N proof)
+			  (PP (P of)
+			      (NP (PRO$ our)
+				  (IP-PPL (BAG being)
+					  (VBN passed)
+					  (NP-OB1 (D the)
+						  (NS Sands)
+						  (, ,)
+						  (CP-REL (WNP-3 (WPRO which))
+							  (C 0)
+							  (IP-SUB (NP-SBJ *T*-3)
+								  (VBP hold)
+								  (NEG not)
+								  (IP-PPL-OB1 (VAG digging)
+									      (NP-OB1 (SUCH such) (D a) (N depth)))
+								  (, ,)
+								  (IP-PPL-ABS (NP-SBJ (D this))
+									      (BAG being)
+									      (NP-OB1 (ADJ White) (N Marle)))))))))))
+	  (. ;))
+  (ID FRYER-E3-P1,2,198.192))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd	5/3/213
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd
+*/
+
+/~*
+In a Week's time we turned it up, sailing by Bac~ein, Tarapore,
+Valentine's-Peak, St. John's, and Daman, the last City Northward on the
+Continent, belonging to the Portugueze. As also passing by Balsore the first
+Town of the Moors Southward of Surat
+(FRYER-E3-P2,1,210.41)
+*~/
+/*
+106 VAG:  106 VAG, 107 belonging, 85 NP-PRN
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (NP-MSR (D a) (N$ Week's))
+		  (N time)))
+	  (NP-SBJ (PRO we))
+	  (VBD turned)
+	  (NP-OB1 (PRO it))
+	  (RP up)
+	  (, ,)
+	  (IP-PPL (VAG sailing)
+		  (PP (P by)
+		      (NP (NP (CODE <font>) (NPR Bac~ein) (CODE <$$font>))
+			  (, ,)
+			  (CONJP (NP (CODE <font>) (NPR Tarapore) (CODE <$$font>)))
+			  (, ,)
+			  (CONJP (NP (CODE <font>) (NPR Valentine's-Peak) (CODE <$$font>)))
+			  (, ,)
+			  (CONJP (NP (NPR St.) (CODE <font>) (NPR$ John's) (CODE <$$font>)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (CODE <font>)
+				     (NPR Daman)
+				     (CODE <$$font>)
+				     (, ,)
+				     (NP-PRN (D the)
+					     (ADJ last)
+					     (N City)
+					     (NP-DIR (N+WARD Northward))
+					     (PP (P on)
+						 (NP (D the) (N Continent)))
+					     (, ,)
+					     (RRC (VAG belonging)
+						  (PP (P to)
+						      (NP (D the) (CODE <font>) (NPRS Portugueze))))))))))
+	  (CODE <$$font>)
+	  (, .)
+	  (PP (P As)
+	      (IP-PPL (ALSO also)
+		      (VAG passing)
+		      (PP (P by)
+			  (NP (CODE <font>)
+			      (NPR Balsore)
+			      (CODE <$$font>)
+			      (NP-PRN (CODE <paren>)
+				      (D the)
+				      (ADJ first)
+				      (N Town)
+				      (PP (P of)
+					  (NP (D the) (CODE <font>) (NPRS Moors)))
+				      (CODE <$$font>)
+				      (NP-DIR (N+WARD Southward)
+					      (PP (P of)
+						  (CODE <font>)
+						  (NP (NPR Surat)))))))))
+	  (CODE <$$font>)
+	  (CODE <$$paren>))
+  (ID FRYER-E3-P2,1,210.41))
+
+/~*
+Having viewed the Tombs by the Sea-side, and some more conspicuous at the end
+of the Plain belonging to the English; others seated behind the Dutch Choultry,
+partly English, partly Dutch: Marks set to avoid, as well the Sylla and
+Charibdis of Damkin and Mora, two Nurseries for Stews, as to warn them of the
+Sands coming into the Hole where the Ships ride at Anchor very securely: We in
+the Company's Coaches Travelled to Surat, Ten Mile, brave Champion ground;
+(FRYER-E3-P2,1,213.61)
+*~/
+/*
+208 VAG:  208 VAG, 209 coming, 116 NP-PRN
+*/
+
+( (IP-MAT (IP-PPL (HAG Having)
+		  (VBN viewed)
+		  (NP-OB1 (NP (D the)
+			      (NS Tombs)
+			      (PP (P by)
+				  (NP (D the) (N+N Sea-side))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (Q some)
+				     (ADJP (QR more) (ADJ conspicuous))
+				     (PP (P at)
+					 (NP (D the)
+					     (N end)
+					     (PP (P of)
+						 (NP (D the)
+						     (N Plain)
+						     (RRC (VAG belonging)
+							  (PP (P to)
+							      (NP (D the) (CODE <font>) (ADJ English))))))))))
+			  (CODE <$$font>)
+			  (, ;)
+			  (CONJP (NP (OTHERS others)
+				     (RRC (VAN seated)
+					  (PP (P behind)
+					      (NP (D the) (CODE <font>) (ADJ Dutch) (FW Choultry))))
+				     (CODE <$$font>)
+				     (, ,)
+				     (CODE <P_1,213>)
+				     (ADJP (ADJP (ADV partly) (CODE <font>) (ADJ English))
+					   (CODE <$$font>)
+					   (, ,)
+					   (CONJP (ADJP (ADV partly) (CODE <font>) (ADJ Dutch))))))
+			  (CODE <$$font>)
+			  (, :)
+			  (NP-PRN (NS Marks)
+				  (RRC (VAN set)
+				       (IP-INF-PRP (TO to)
+						   (VB avoid)
+						   (, ,)
+						   (ADVP (ADVR as)
+							 (ADV well)
+							 (PP *ICH*-1))
+						   (NP-OB1 (D the)
+							   (CODE <font>)
+							   (NPR Sylla)
+							   (CODE <$$font>)
+							   (CONJP (CONJ and)
+								  (CODE <font>)
+								  (NX (NPR Charibdis)))
+							   (CODE <$$font>)
+							   (PP (P of)
+							       (CODE <font>)
+							       (NP (NPR Damkin)
+								   (CODE <$$font>)
+								   (CONJ and)
+								   (CODE <font>)
+								   (NPR Mora)
+								   (CODE <$$font>)
+								   (, ,)
+								   (NP-PRN (NUM two)
+									   (NS Nurseries)
+									   (PP (P for)
+									       (NP (NS Stews)))))))
+						   (, ,)
+						   (PP-1 (P as)
+							 (IP-INF (TO to)
+								 (VB warn)
+								 (NP-OB1 (PRO them))
+								 (PP (P of)
+								     (NP (D the)
+									 (NS Sands)
+									 (RRC (VAG coming)
+									      (PP (P into)
+										  (NP (D the)
+										      (N Hole)
+										      (CP-REL (WADVP-2 (WADV where))
+											      (C 0)
+											      (IP-SUB (ADVP-LOC *T*-2)
+												      (NP-SBJ (D the) (NS Ships))
+												      (VBP ride)
+												      (PP (P at)
+													  (NP (N Anchor)))
+												      (ADVP (ADV very) (ADV securely))))))))))))))))
+	  (, :)
+	  (NP-SBJ (PRO We))
+	  (PP (P in)
+	      (NP (NP-POS (D the) (N$ Company's))
+		  (NS Coaches)))
+	  (VBD Travelled)
+	  (PP (P to)
+	      (NP (CODE <font>) (NPR Surat) (CODE <$$font>)))
+	  (, ,)
+	  (NP-MSR (NUM Ten)
+		  (N Mile)
+		  (, ,)
+		  (NP-PRN (ADJ brave) (ADJ Champion) (N ground)))
+	  (. ;))
+  (ID FRYER-E3-P2,1,213.61))
+
+/~*
+The Coach where the Women were, was covered with Cheeks, a sort of hanging
+Curtain, made with Bents variously Coloured with Lacker, and Chequered with
+Packthred so artificially, that you may see all without, and your self within
+unperceived:
+(FRYER-E3-P2,1,214.68)
+*~/
+/*
+52 VAG:  52 VAG, 53 hanging, 43 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Coach)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (D the) (NS Women))
+				  (BED were))))
+	  (, ,)
+	  (BED was)
+	  (VAN covered)
+	  (PP (P with)
+	      (CODE <P_1,214>)
+	      (NP (CODE <font>)
+		  (NS Cheeks)
+		  (CODE <$$font>)
+		  (, ,)
+		  (NP-PRN (D a)
+			  (N sort)
+			  (PP (P of)
+			      (NP (VAG hanging)
+				  (N Curtain)
+				  (, ,)
+				  (RRC (VAN made)
+				       (PP (P with)
+					   (NP (NS Bents)
+					       (RRC (RRC (ADVP (ADV variously))
+							 (VAN Coloured)
+							 (PP (P with)
+							     (NP (N Lacker))))
+						    (, ,)
+						    (CONJP (CONJ and)
+							   (RRC (VAN Chequered)
+								(PP (P with)
+								    (NP (N+N Packthred)))
+								(ADVP (ADVR so)
+								      (ADV artificially)
+								      (, ,)
+								      (CP-DEG (C that)
+									      (IP-SUB (IP-SUB-2 (NP-SBJ (PRO you))
+												(MD may)
+												(VB see)
+												(NP-OB1 (Q all))
+												(ADVP (ADV without)))
+										      (, ,)
+										      (CONJP (CONJ and)
+											     (IP-ABS=2 (NP-PRN (PRO$ your) (N self))
+												       (ADVP (ADV within))
+												       (ADJP (ADJ unperceived))))))))))))))))))
+	  (. :))
+  (ID FRYER-E3-P2,1,214.68))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd	3/3/202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd
+*/
+
+/~*
+I was at his Maiestis Palace, a stately and Princely seate, wherein I saw a
+sumptuous Chappell, most richly adorned with all appurtenances belonging to so
+sacred a place, or so Royall an owner.
+(JOTAYLOR-E2-H,1,130.C1.71)
+*~/
+/*
+74 VAG:  74 VAG, 75 belonging, 20 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (BED was)
+	  (PP (P at)
+	      (NP (NP-POS (PRO$ his) (N$ Maiestis))
+		  (N Palace)
+		  (, ,)
+		  (NP-PRN (D a)
+			  (ADJP (ADJ stately) (CONJ and) (ADJ Princely))
+			  (N seate)
+			  (, ,)
+			  (CP-REL (WPP-1 (WADV+P wherein))
+				  (C 0)
+				  (IP-SUB (PP *T*-1)
+					  (NP-SBJ (PRO I))
+					  (VBD saw)
+					  (NP-OB1 (D a)
+						  (ADJ sumptuous)
+						  (N Chappell)
+						  (, ,)
+						  (RRC (ADVP (QS most) (ADV richly))
+						       (VAN adorned)
+						       (PP (P with)
+							   (NP (Q all)
+							       (NS appurtenances)
+							       (RRC (VAG belonging)
+								    (PP (P to)
+									(NP (NP (ADJP (ADVR so) (ADJ sacred))
+										(D a)
+										(N place))
+									    (, ,)
+									    (CONJP (CONJ or)
+										   (NP (ADJP (ADVR so) (ADJ Royall))
+										       (D an)
+										       (N owner)))))))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-H,1,130.C1.71))
+
+/~*
+and rode on the Sunday to Puckeridge, where Master Holland at the Faulkon,
+mine old acquaintance and my louing and ancient Hoste gaue mee, my friend, my
+man, and our horses excellent cheere, and welcome,
+(JOTAYLOR-E2-H,1,140.C2.341)
+*~/
+/*
+75 VAG:  75 VAG, 76 louing, 58 NP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD rode)
+	  (PP (P on)
+	      (NP (D the) (NPR Sunday)))
+	  (PP (P to)
+	      (NP (CODE <font>)
+		  (NPR Puckeridge)
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (NPR Master)
+					  (CODE <font>)
+					  (NPR Holland)
+					  (CODE <$$font>)
+					  (PP (P at)
+					      (NP (D the) (N Faulkon)))
+					  (, ,)
+					  (CODE <paren>)
+					  (NP-PRN (NP (PRO$ mine) (ADJ old) (N acquaintance))
+						  (CODE <$$paren>)
+						  (CONJP (CONJ and)
+							 (NP (PRO$ my)
+							     (ADJP (VAG louing) (CONJ and) (ADJ ancient))
+							     (N Hoste)))))
+				  (VBD gaue)
+				  (NP-OB2 (NP (PRO mee))
+					  (, ,)
+					  (CONJP (NP (PRO$ my) (N friend)))
+					  (, ,)
+					  (CONJP (NP (PRO$ my) (N man)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (PRO$ our) (NS horses))))
+				  (NP-OB1 (ADJ excellent)
+					  (N cheere)
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NX (N welcome))))))))
+	  (. ,))
+  (ID JOTAYLOR-E2-H,1,140.C2.341))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd	2/2/348
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd
+*/
+
+/~*
+wee ariued at a bleake alias, a towne an English mile from Hamburgh, called
+Altonagh, which is so called by the Hamburgers because it stands $all $too
+$nigh them for their profit, being inhabited with diuers tradesmen which doe
+hinder their freedome.
+(JOTAYLOR-E2-P1,3,78.C1.21)
+*~/
+/*
+123 BAG:  123 BAG, 124 being, 19 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO wee))
+	  (VBD ariued)
+	  (PP (P at)
+	      (NP (D a)
+		  (ADJ bleake)
+		  (FW alias)
+		  (, ,)
+		  (NP-PRN (D a)
+			  (N towne)
+			  (ADJP-LOC (NP-MSR (D an) (ADJ English) (N mile))
+				    (PP (P from)
+					(CODE <font>)
+					(NP (NPR Hamburgh))))
+			  (CODE <$$font>)
+			  (, ,)
+			  (RRC (VAN called)
+			       (IP-SMC (NP-SBJ *)
+				       (CODE <font>)
+				       (NP-OB1 (NPR Altonagh))))
+			  (CODE <$$font>)
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BEP is)
+					  (ADVP (ADV so))
+					  (VAN called)
+					  (PP (P by)
+					      (NP (D the) (CODE <font>) (NPRS Hamburgers)))
+					  (CODE <$$font>)
+					  (PP (P+N because)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO it))
+							      (VBP stands)
+							      (ADJP-LOC (ADVP (Q $all) (ADVR $too))
+									(ADJ $nigh)
+									(CODE {TEXT:all-too-nigh})
+									(NP (PRO them)))
+							      (PP (P for)
+								  (NP (PRO$ their) (N profit)))
+							      (, ,)
+							      (IP-PPL (BAG being)
+								      (VAN inhabited)
+								      (PP (P with)
+									  (NP (ADJ diuers)
+									      (NS tradesmen)
+									      (CP-REL (WNP-2 (WPRO which))
+										      (C 0)
+										      (IP-SUB (NP-SBJ *T*-2)
+											      (DOP doe)
+											      (VB hinder)
+											      (NP-OB1 (PRO$ their) (N freedome)))))))))))))))
+	  (. .))
+  (ID JOTAYLOR-E2-P1,3,78.C1.21))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd	1/1/416
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd	0/0/368
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd
+*/
+
+/~*
+A mile a this side Akeland Castelle I cam over a bridg of one great arch on
+Gaundelesse a praty ryver rising a vj. miles of by west: and renning by the
+south side of Akeland Castelle
+(LELAND-E1-H,69.2)
+*~/
+/*
+58 VAG:  58 VAG, 59 rising, 49 NP-PRN
+83 VAG:  83 VAG, 84 renning, 49 NP-PRN
+*/
+
+( (IP-MAT (PP (NP-MSR (D A) (N mile))
+	      (P a)
+	      (NP (D this)
+		  (N side)
+		  (NP-COM (NPR Akeland) (NPR Castelle))))
+	  (NP-SBJ (PRO I))
+	  (VBD cam)
+	  (PP (P over)
+	      (NP (D a)
+		  (N bridg)
+		  (PP (P of)
+		      (NP (ONE one) (ADJ great) (N arch)))
+		  (PP (P on)
+		      (NP (NPR Gaundelesse)
+			  (NP-PRN (D a)
+				  (ADJ praty)
+				  (N ryver)
+				  (RRC (RRC (VAG rising)
+					    (ADVP-LOC (NP-MSR (NUMP (D a) (NUM vj.))
+							      (NS miles))
+						      (RP of))
+					    (PP (P by)
+						(NP (N west))))
+				       (, :)
+				       (CONJP (CONJ and)
+					      (RRC (VAG renning)
+						   (PP (P by)
+						       (NP (D the)
+							   (N south)
+							   (N side)
+							   (PP (P of)
+							       (NP (NPR Akeland) (NPR Castelle))))))))))))))
+  (ID LELAND-E1-H,69.2))
+
+/~*
+The suburbe over Framagate bridg hath 3. partes. the south streat on the lift
+hand, the crosse streate on the midle toward Akeland, and the 3. on the right
+hand, bering the name of Framagate, and leding to Chester and to New-Castelle.
+(LELAND-E1-H,73.105)
+*~/
+/*
+90 VAG:  90 VAG, 91 bering, 24 NP-PRN
+109 VAG:  109 VAG, 110 leding, 24 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N suburbe)
+		  (PP (P over)
+		      (NP (NPR Framagate) (NPR bridg))))
+	  (HVP hath)
+	  (NP-OB1 (NUM 3.)
+		  (NS partes)
+		  (, .)
+		  (NP-PRN (NP (D the)
+			      (N south)
+			      (N streat)
+			      (PP (P on)
+				  (NP (D the) (ADJ lift) (N hand))))
+			  (, ,)
+			  (CONJP (NP (D the)
+				     (N crosse)
+				     (N streate)
+				     (PP (P on)
+					 (NP (D the)
+					     (N midle)
+					     (PP (P toward)
+						 (NP (NPR Akeland)))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (D the)
+				     (NUM 3.)
+				     (PP (P on)
+					 (NP (D the) (ADJ right) (N hand)))
+				     (, ,)
+				     (RRC (RRC (VAG bering)
+					       (NP-OB1 (D the)
+						       (N name)
+						       (PP (P of)
+							   (NP (NPR Framagate)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (RRC (VAG leding)
+						      (PP (PP (P to)
+							      (NP (NPR Chester)))
+							  (CONJP (CONJ and)
+								 (PP (P to)
+								     (NP (NPR New-Castelle))))))))))))
+	  (. .))
+  (ID LELAND-E1-H,73.105))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd	4/2/462
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd
+*/
+
+/~*
+Al the hole towne standith as I cam to it on the hither ripe of Skelle, a
+praty ryver cumming out of the west and renning by south on the toune first
+under a stone bridge, and then under a bridge of wood, and about a quarter of
+a mile lower into Ure, almost in the midle way betwixt North Bridg and Hewwik
+Bridge of stone on Ure.
+(LELAND-E1-P1,82.95)
+*~/
+/*
+58 VAG:  58 VAG, 59 cumming, 49 NP-PRN
+75 VAG:  75 VAG, 76 renning, 49 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (Q Al) (D the) (ADJ hole) (N towne))
+	  (VBP standith)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD cam)
+			      (PP (P to)
+				  (NP (PRO it)))
+			      (PP (P on)
+				  (NP (D the)
+				      (ADJ hither)
+				      (FW ripe)
+				      (PP (P of)
+					  (NP (NPR Skelle)
+					      (, ,)
+					      (NP-PRN (D a)
+						      (ADJ praty)
+						      (N ryver)
+						      (RRC (RRC (VAG cumming)
+								(PP (RP out)
+								    (P of)
+								    (NP (D the) (N west))))
+							   (CONJP (CONJ and)
+								  (RRC (RRC-1 (VAG renning)
+									      (PP (P by)
+										  (NP (N south)))
+									      (PP (P on)
+										  (NP (D the) (N toune)))
+									      (ADVP-TMP (ADV first))
+									      (PP (P under)
+										  (NP (D a)
+										      (N stone)
+										      (NP-PRN (N bridge)))))
+								       (, ,)
+								       (CONJP (CONJ and)
+									      (RRC=1 (ADVP-TMP (ADV then))
+										     (PP (P under)
+											 (NP (D a)
+											     (N bridge)
+											     (PP (P of)
+												 (NP (N wood)))))))
+								       (, ,)
+								       (CONJP (CONJ and)
+									      (RRC=1 (ADVP-LOC (NP-MSR (ADV about)
+												       (D a)
+												       (N quarter)
+												       (PP (P of)
+													   (NP (D a) (N mile))))
+											       (ADVR lower))
+										     (PP (P into)
+											 (NP (NPR Ure)))
+										     (, ,)
+										     (PP (ADV almost)
+											 (P in)
+											 (NP (D the)
+											     (ADJ midle)
+											     (N way)
+											     (PP (P betwixt)
+												 (NP (NP (NPR North) (NPR Bridg))
+												     (CONJP (CONJ and)
+													    (NP (NPR Hewwik)
+														(NPR Bridge)
+														(PP (P of)
+														    (NP (N stone)))
+														(PP (P on)
+														    (NP (NPR Ure))))))))))))))))))))))
+	  (. .))
+  (ID LELAND-E1-P1,82.95))
+
+/~*
+Plumton is now owner of it, a man of fair land: and lately augmentid by
+wedding the doughter and heir generale of the Babthorpes.
+(LELAND-E1-P1,87.216)
+*~/
+/*
+52 VAG:  52 VAG, 53 wedding, 23 NP-PRN-1
+*/
+
+( (IP-MAT (NP-SBJ (NPR Plumton)
+		  (NP-PRN *ICH*-1))
+	  (BEP is)
+	  (ADVP-TMP (ADV now))
+	  (NP-OB1 (N owner)
+		  (PP (P of)
+		      (NP (PRO it))))
+	  (, ,)
+	  (NP-PRN-1 (D a)
+		    (N man)
+		    (PP (P of)
+			(NP (NP (ADJ fair) (N land))
+			    (, :)
+			    (CONJP (CONJ and)
+				   (NP (ADVP-TMP (ADV lately))
+				       (VAN augmentid)
+				       (PP (P by)
+					   (IP-PPL (VAG wedding)
+						   (NP-OB1 (D the)
+							   (N doughter)
+							   (CONJP (CONJ and)
+								  (NX (N heir)
+								      (ADJP (ADJ generale))
+								      (PP (P of)
+									  (NP (D the) (NPRS Babthorpes)))))))))))))
+	  (. .))
+  (ID LELAND-E1-P1,87.216))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd	3/2/444
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd
+*/
+
+/~*
+In the paroche on the northe side of it, as in a chapelle, be 2. tumbes of the
+Chaynes $lordes of the manor ther, and $the smaul $village bering their name.
+(LELAND-E1-P2,105.63)
+*~/
+/*
+86 VAG:  86 VAG, 87 bering, 58 NP-PRN
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the) (N paroche)))
+	  (PP (P on)
+	      (NP (D the)
+		  (N northe)
+		  (N side)
+		  (PP (P of)
+		      (NP (PRO it)))))
+	  (, ,)
+	  (PP (P as)
+	      (PP (P in)
+		  (NP (D a) (N chapelle))))
+	  (, ,)
+	  (NP-SBJ-1 *exp*)
+	  (BEP be)
+	  (NP-1 (NUM 2.)
+		(NS tumbes)
+		(PP (P of)
+		    (NP (D the)
+			(NPR Chaynes)
+			(NP-PRN (NS $lordes)
+				(PP (P of)
+				    (NP (NP (D the)
+					    (N manor)
+					    (ADVP-LOC (ADV ther)))
+					(, ,)
+					(CONJP (CONJ and)
+					       (NP (D $the)
+						   (ADJ smaul)
+						   (N $village)
+						   (RRC (VAG bering)
+							(NP-OB1 (PRO$ their) (N name)))))))))))
+	  (. .))
+  (ID LELAND-E1-P2,105.63))
+
+/~*
+I think that Ewelme tooke name of a great poole afore the maner place and
+elmes grouing about it.
+(LELAND-E1-P2,112.192)
+*~/
+/*
+45 VAG:  45 VAG, 46 grouing, 37 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP think)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (NPR Ewelme))
+			  (VBD tooke)
+			  (NP-OB1 (N name)
+				  (PP (P of)
+				      (NP (D a) (ADJ great) (N poole))))
+			  (PP (P afore)
+			      (NP (D the)
+				  (N maner)
+				  (NP-PRN (N place)
+					  (CONJ and)
+					  (NS elmes)
+					  (RRC (VAG grouing)
+					       (PP (P about)
+						   (NP (PRO it)))))))))
+	  (. .))
+  (ID LELAND-E1-P2,112.192))
+
+/~*
+Ewelme paroche chirch a cumly and new peace of work stonding on an hille was
+lately made by William Duke of Southfolk and Alice his wife.
+(LELAND-E1-P2,112.193)
+*~/
+/*
+28 VAG:  28 VAG, 29 stonding, 9 NP-PRN
+*/
+
+( (IP-MAT (NP-SBJ (NPR Ewelme)
+		  (N paroche)
+		  (N chirch)
+		  (NP-PRN (D a)
+			  (ADJP (ADJ cumly) (CONJ and) (ADJ new))
+			  (N peace)
+			  (PP (P of)
+			      (NP (N work)))
+			  (RRC (VAG stonding)
+			       (PP (P on)
+				   (NP (D an) (N hille))))))
+	  (BED was)
+	  (ADVP-TMP (ADV lately))
+	  (VAN made)
+	  (PP (P by)
+	      (NP (NP (NPR William)
+		      (NP-PRN (N Duke)
+			      (PP (P of)
+				  (NP (NPR Southfolk)))))
+		  (CONJP (CONJ and)
+			 (NP (NPR Alice)
+			     (NP-PRN (PRO$ his) (N wife))))))
+	  (. .))
+  (ID LELAND-E1-P2,112.193))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd	3/3/428
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd
+*/
+
+/~*
+And specially ther he toke a buffet of on of the busshopps servaunts, Seying,
+Sic respondes Pontifici.
+(TORKINGT-E1-H,34.172)
+*~/
+/*
+41 VAG:  41 VAG, 42 Seying, 40 NP-PRN
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV specially))
+	  (ADVP-LOC (ADV ther))
+	  (NP-SBJ (PRO he))
+	  (VBD toke)
+	  (NP-OB1 (D a)
+		  (N buffet)
+		  (PP (P of)
+		      (NP (ONE on)
+			  (PP (P of)
+			      (NP (NP-POS (D the) (N$ busshopps))
+				  (NS servaunts))))))
+	  (, ,)
+	  (IP-PPL (NP-PRN (VAG Seying)
+			  (, ,)
+			  (QTP (LATIN (FW Sic) (FW respondes) (FW Pontifici)))))
+	  (. .))
+  (ID TORKINGT-E1-H,34.172))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd	1/1/457
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd	0/0/474
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd	0/0/150
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\chaplain-e1-p2.psd	0/0/321
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-h.psd	0/0/320
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p1.psd	0/0/326
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\coverte-e2-p2.psd	0/0/355
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-h.psd	1/1/347
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p1.psd	0/0/367
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fiennes-e3-p2.psd	0/0/361
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-h.psd	0/0/231
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p1.psd	5/3/213
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\fryer-e3-p2.psd	3/3/202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-h.psd	2/2/348
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p1.psd	1/1/416
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\jotaylor-e2-p2.psd	0/0/368
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-h.psd	4/2/462
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p1.psd	3/2/444
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\leland-e1-p2.psd	3/3/428
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-h.psd	1/1/457
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p1.psd	0/0/474
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\travelogue\torkingt-e1-p2.psd	0/0/150
+whole search, hits/tokens/total
+		23/18/6590
+*/

@@ -1,0 +1,297 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:47:51 BST 2017
+
+command file:     data\searches\queries\YCOE\perfect_aspect_verbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\perfect_aspect_verbs\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   $ROOT|HV*|AX*|BEN|VBN|HVN
+query:  (BEN|VBN|HVN Dominates  !BEN|VBN|HVN) 
+  AND  (HV*|AX* Precedes  BEN|VBN|HVN) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd
+*/
+
+/~*
+ac +tu h+afst beheafdunge geearnad.
+(coapollo,ApT:5.3.68)
+*~/
+/*
+12 VBN:  12 VBN, 13 geearnad, 7 HVPI
+*/
+( (IP-MAT-SPE (CONJ ac)
+	      (NP-NOM (PRO^N +tu))
+	      (HVPI h+afst)
+	      (NP (N beheafdunge))
+	      (VBN geearnad)
+	      (. .))
+  (ID coapollo,ApT:5.3.68))
+
+/~*
+Apollonius cw+a+d: For hwilcum intingum h+af+d he me fordemed?
+(coapollo,ApT:8.14.133)
+*~/
+/*
+31 VBN:  31 VBN, 32 fordemed, 23 HVPI
+*/
+
+( (CODE <T06080006600,8.14>)
+  (IP-MAT (NP-NOM (NR^N Apollonius))
+	  (VBDI cw+a+d)
+	  (, :)
+	  (CP-QUE-SPE (WPP-1 (P For)
+			     (WNP-DAT (WADJ^D hwilcum) (N^D intingum)))
+		      (IP-SUB-SPE (PP *T*-1)
+				  (HVPI h+af+d)
+				  (NP-NOM (PRO^N he))
+				  (NP (PRO me))
+				  (VBN fordemed)))
+	  (. ?))
+  (ID coapollo,ApT:8.14.133))
+
+/~*
+Mid +ti +te hig ongunnon +ta rowan and hi for+dwerd w+aron on heora weg, +ta
+wear+d +dare s+a smiltnesse aw+and f+aringa betwux twam tidum
+(coapollo,ApT:11.6.186)
+*~/
+/*
+58 VBN:  58 VBN, 59 aw+and, 16 AXDI
+*/
+
+( (CODE <T06080009700,11.6>)
+  (IP-MAT (CP-ADV (P Mid)
+		  (D^I +ti)
+		  (C +te)
+		  (IP-SUB (IP-SUB (NP-NOM (PRO^N hig))
+				  (AXDI ongunnon)
+				  (ADVP-TMP (ADV^T +ta))
+				  (VB rowan))
+			  (CONJP (CONJ and)
+				 (IP-SUB-CON (NP-NOM (PRO^N hi))
+					     (ADJP-NOM-PRD (ADJ^N for+dwerd))
+					     (BEDI w+aron)
+					     (PP (P on)
+						 (NP-ACC (PRO$ heora) (N^A weg)))))))
+	  (, ,)
+	  (ADVP-TMP (ADV^T +ta))
+	  (BEDI wear+d)
+	  (NP-NOM (NP-GEN (D^G +dare) (N^G s+a))
+		  (N^N smiltnesse))
+	  (VBN aw+and)
+	  (ADVP (ADV f+aringa))
+	  (PP (P betwux)
+	      (NP-DAT (NUM^D twam) (N^D tidum))))
+  (ID coapollo,ApT:11.6.186))
+
+/~*
+ac he cy+d +t+at $he h+af+d fela forloren.
+(coapollo,ApT:14.30.279)
+*~/
+/*
+21 VBN:  21 VBN, 22 forloren, 16 HVPI
+*/
+
+( (IP-MAT-SPE (CONJ ac)
+	      (NP-NOM (PRO^N he))
+	      (VBPI cy+d)
+	      (CP-THT-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N $he))
+				      (HVPI h+af+d)
+				      (NP (Q fela))
+				      (VBN forloren)))
+	      (. .))
+  (ID coapollo,ApT:14.30.279))
+
+/~*
+mid +ty +te +tu woldest witan his naman and his gelimp, +tu hafast nu
+geedniwod his ealde sar.
+(coapollo,ApT:16.2.304)
+*~/
+/*
+41 VBN:  41 VBN, 42 geedniwod, 36 HVPI
+*/
+
+( (IP-MAT-SPE (CP-ADV-SPE (P mid)
+			  (D^I +ty)
+			  (C +te)
+			  (IP-SUB-SPE (NP-NOM (PRO^N +tu))
+				      (MDDI woldest)
+				      (VB witan)
+				      (NP-ACC (NP-ACC (PRO$ his) (N^A naman))
+					      (CONJP (CONJ and)
+						     (NP-ACC (PRO$ his) (N^A gelimp))))))
+	      (, ,)
+	      (NP-NOM (PRO^N +tu))
+	      (HVPI hafast)
+	      (ADVP-TMP (ADV^T nu))
+	      (VBN geedniwod)
+	      (NP-ACC (PRO$ his) (ADJ^A ealde) (N^A sar))
+	      (. .))
+  (ID coapollo,ApT:16.2.304))
+
+/~*
+And gif +du wundrige +t+at swa scamf+ast f+amne swa unforwandigendlice +das
+word awrat, +tonne wite +tu +t+at ic h+abbe +turh weax aboden, +de nane scame
+ne can, +t+at ic silf +de for scame secgan ne mihte.
+(coapollo,ApT:20.19.428)
+*~/
+/*
+68 VBN:  68 VBN, 69 aboden, 58 HVP
+*/
+
+( (CODE <T06080021200,20.19>)
+  (IP-MAT-SPE (CONJ And)
+	      (CP-ADV-SPE (P gif)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N +du))
+				      (VBP wundrige)
+				      (CP-THT-SPE (C +t+at)
+						  (IP-SUB-SPE (NP-NOM (ADJP-NOM (ADV swa) (ADJ^N scamf+ast))
+								      (N^N f+amne))
+							      (ADVP (ADV swa) (ADV unforwandigendlice))
+							      (NP-ACC (D^A +das) (N^A word))
+							      (VBDI awrat)))))
+	      (, ,)
+	      (ADVP-TMP (ADV^T +tonne))
+	      (VBPH wite)
+	      (NP-NOM (PRO^N +tu))
+	      (CP-THT-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM (PRO^N ic))
+				      (HVP h+abbe)
+				      (PP (P +turh)
+					  (NP-ACC (N^A weax)
+						  (CP-REL-SPE *ICH*-1)))
+				      (VBN aboden)
+				      (, ,)
+				      (CP-REL-SPE-1 (WNP-NOM-2 0)
+						    (C +de)
+						    (IP-SUB-SPE (NP-NOM *T*-2)
+								(NP-ACC (NEG+Q^A nane) (N^A scame))
+								(NEG ne)
+								(MDPI can)))
+				      (, ,)
+				      (CP-THT-SPE (C +t+at)
+						  (IP-SUB-SPE (NP-NOM (PRO^N ic)
+								      (ADJP-NOM (ADJ^N silf)))
+							      (NP (PRO +de))
+							      (PP (P for)
+								  (NP (N scame)))
+							      (VB secgan)
+							      (NEG ne)
+							      (MDD mihte)))))
+	      (. .))
+  (ID coapollo,ApT:20.19.428))
+
+/~*
+Leofe dohtor, hw+ane hafast +tu +de gecoren to gem+accan?
+(coapollo,ApT:22.3.464)
+*~/
+/*
+23 VBN:  23 VBN, 24 gecoren, 15 HVPI
+*/
+
+( (CP-QUE-SPE (NP-NOM-VOC (ADJ^N Leofe) (N^N dohtor))
+	      (, ,)
+	      (WNP-ACC-1 (WPRO^A hw+ane))
+	      (IP-SUB-SPE (NP-ACC *T*-1)
+			  (HVPI hafast)
+			  (NP-NOM (PRO^N +tu))
+			  (NP-RFL-ADT (PRO +de))
+			  (VBN gecoren)
+			  (PP (P to)
+			      (NP (N gem+accan))))
+	      (. ?))
+  (ID coapollo,ApT:22.3.464))
+
+/~*
++Tu hafast gecoren +tone wer +te me wel lica+d.
+(coapollo,ApT:22.13.473)
+*~/
+/*
+9 VBN:  9 VBN, 10 gecoren, 7 HVPI
+*/
+
+( (CODE <T06080023300,22.13>)
+  (IP-MAT-SPE (NP-NOM (PRO^N +Tu))
+	      (HVPI hafast)
+	      (VBN gecoren)
+	      (NP-ACC (D^A +tone)
+		      (N^A wer)
+		      (CP-REL-SPE (WNP-NOM-1 0)
+				  (C +te)
+				  (IP-SUB-SPE (NP-NOM *T*-1)
+					      (NP (PRO me))
+					      (ADVP (ADV wel))
+					      (VBPI lica+d))))
+	      (. .))
+  (ID coapollo,ApT:22.13.473))
+
+/~*
+and Apollonius ongan +da sprecan and cwe+dan: Ic fram cildhade w+as Apollonius
+genemnod, on Tirum geboren.
+(coapollo,ApT:48.12.492)
+*~/
+/*
+36 VBN:  36 VBN, 37 genemnod, 7 AXDI
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM (NR^N Apollonius))
+	  (AXDI ongan)
+	  (ADVP-TMP (ADV^T +da))
+	  (VB (VB sprecan) (CONJ and) (VB cwe+dan))
+	  (, :)
+	  (IP-MAT-SPE (NP-NOM (PRO^N Ic))
+		      (PP (P fram)
+			  (NP-DAT (N^D cildhade)))
+		      (BEDI w+as)
+		      (NP-NOM-PRD (NR^N Apollonius))
+		      (VBN genemnod)
+		      (, ,)
+		      (PTP-NOM (PP (P on)
+				   (NP (NR Tirum)))
+			       (VBN^N geboren)))
+	  (. .))
+  (ID coapollo,ApT:48.12.492))
+
+/~*
+and +t+at word sprang geond eal +t+at land +t+at Apollonius, se m+ara cyngc,
+h+afde funden his wif,
+(coapollo,ApT:49.9.521)
+*~/
+/*
+43 VBN:  43 VBN, 44 funden, 41 HVD
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-NOM (D^N +t+at)
+		  (N^N word)
+		  (CP-THT *ICH*-1))
+	  (VBDI sprang)
+	  (PP (P geond)
+	      (NP-ACC (Q^A eal) (D^A +t+at) (N^A land)))
+	  (CP-THT-1 (C +t+at)
+		    (IP-SUB (NP-NOM (NR^N Apollonius)
+				    (, ,)
+				    (NP-NOM-PRN (D^N se) (ADJ^N m+ara) (N^N cyngc)))
+			    (, ,)
+			    (HVD h+afde)
+			    (VBN funden)
+			    (NP-ACC (PRO$ his) (N^A wif))))
+	  (. ,))
+  (ID coapollo,ApT:49.9.521))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd	10/10/593
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\fiction_romances_dramacomedies_and_verse\coapollo.o3.psd	10/10/593
+whole search, hits/tokens/total
+		10/10/593
+*/

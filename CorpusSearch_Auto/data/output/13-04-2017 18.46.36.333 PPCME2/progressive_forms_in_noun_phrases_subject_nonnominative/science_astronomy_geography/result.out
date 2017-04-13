@@ -1,0 +1,77 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:21 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_noun_phrases_subject_nonnominative\science_astronomy_geography\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd
+*/
+
+/~*
+And understond also that alle the sterres sitting within the zodiak of thin
+Astrelabie ben clepid sterres of the north, for thei arise by northe the est
+lyne.
+(CMASTRO,667.C2.146)
+*~/
+/*
+20 VAG:  20 VAG, 21 sitting, 12 NP-SBJ-1
+*/
+( (IP-IMP (CONJ And)
+	  (VBI understond)
+	  (ALSO also)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ-1 (Q alle)
+				    (D the)
+				    (NS sterres)
+				    (RRC (VAG sitting)
+					 (PP (P within)
+					     (NP (D the)
+						 (N zodiak)
+						 (PP (P of)
+						     (NP (PRO$ thin) (N Astrelabie)))))))
+			  (BEP ben)
+			  (VAN clepid)
+			  (IP-SMC (NP-SBJ *-1)
+				  (NP-OB1 (NS sterres)
+					  (PP (P of)
+					      (NP (D the) (N north)))))
+			  (, ,)
+			  (PP (P for)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO thei))
+					      (VBP arise)
+					      (PP (P by)
+						  (NP (N northe)))
+					      (NP-DIR (D the) (N est) (N lyne)))))))
+	  (. .))
+  (ID CMASTRO,667.C2.146))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	1/1/404
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	0/0/341
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmastro.m3.psd	1/1/404
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\science_astronomy_geography\cmequato.m3.psd	0/0/341
+whole search, hits/tokens/total
+		1/1/745
+*/

@@ -1,0 +1,500 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:03:12 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\whquestions\biography_and_diaries\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd
+*/
+
+/~*
+and tolde theym whate it was.
+(CMEDMUND,167.121)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 whate, 11 CP-QUE
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD tolde)
+	  (NP-OB2 (PRO theym))
+	  (CP-QUE (WNP-1 (WPRO whate))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (. .))
+  (ID CMEDMUND,167.121))
+
+/~*
+And than Seynt Edmond wyst not whate to doo,
+(CMEDMUND,168.159)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 whate, 16 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP-TMP (ADV than))
+	  (NP-SBJ (NPR Seynt) (NPR Edmond))
+	  (VBD wyst)
+	  (NEG not)
+	  (CP-QUE (WNP-1 (WPRO whate))
+		  (C 0)
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO doo)))
+	  (. ,))
+  (ID CMEDMUND,168.159))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd	2/2/300
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd
+*/
+
+/~*
+& feng on to tellen. hwuch word ha sende him.
+(CMJULIA,98.40)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 22 word, 17 CP-QUE
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (VBD feng)
+	  (RP on)
+	  (IP-INF (TO to)
+		  (VB tellen)
+		  (, .)
+		  (CP-QUE (WNP-1 (WD hwuch) (N word))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO ha))
+				  (VBD sende)
+				  (NP-OB2 (PRO him)))))
+	  (. .))
+  (ID CMJULIA,98.40))
+
+/~*
+nuste hwet segen.
+(CMJULIA,105.160)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 hwet, 6 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (NEG+VBD nuste)
+	  (CP-QUE (WNP-1 (WPRO hwet))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (VB segen)))
+	  (. .))
+  (ID CMJULIA,105.160))
+
+/~*
+wi+d +tt he +tis hefde iseid; bigon swa te +guren +tt monie weren awundret.
+hwet tet +gur were.
+(CMJULIA,115.318)
+*~/
+/*
+49 WNP-2:  49 WNP-2, 51 hwet, 48 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ *pro*)
+	  (PP (P wi+d)
+	      (CP-ADV (C +tt)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (NP-OB1 (D +tis))
+			      (HVD hefde)
+			      (VBN iseid))))
+	  (, ;)
+	  (VBD bigon)
+	  (ADVP (ADVR swa)
+		(CP-DEG *ICH*-1))
+	  (IP-INF (TO te) (VB +guren))
+	  (CP-DEG-1 (C +tt)
+		    (IP-SUB (NP-SBJ (Q monie))
+			    (BED weren)
+			    (VAN awundret)
+			    (, .)
+			    (CP-QUE (WNP-2 (WPRO hwet))
+				    (C 0)
+				    (IP-SUB (NP-OB1 *T*-2)
+					    (NP-SBJ (D tet) (N +gur))
+					    (BED were)))))
+	  (. .))
+  (ID CMJULIA,115.318))
+
+/~*
+& sende o wodiwise for+d to maximien. +te mihti caisere of rome her-of; hwet
+he readde.
+(CMJULIA,121.451)
+*~/
+/*
+44 WNP-2:  44 WNP-2, 46 hwet, 43 CP-QUE
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (VBD sende)
+	  (PP (P o)
+	      (NP (N wodiwise)))
+	  (ADVP-DIR (ADV for+d))
+	  (PP (P to)
+	      (NP (NPR maximien)
+		  (, .)
+		  (NP-PRN (D +te)
+			  (ADJ mihti)
+			  (N caisere)
+			  (PP (P of)
+			      (NP (NPR rome))))))
+	  (PP-1 (ADV+P her-of))
+	  (, ;)
+	  (CP-QUE (WNP-2 (WPRO hwet))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-2)
+			  (PP *ICH*-1)
+			  (NP-SBJ (PRO he))
+			  (VBD readde)))
+	  (. .))
+  (ID CMJULIA,121.451))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd	4/4/568
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd
+*/
+
+/~*
+As ha +tis iherde & nuste +get wet hit wes; ha sende swi+de forte witen hwet
+wunder hit were.
+(CMKATHE,20.35)
+*~/
+/*
+30 WNP-1:  30 WNP-1, 32 wet, 29 CP-QUE
+59 WNP-2:  59 WNP-2, 63 wunder, 58 CP-QUE
+*/
+
+( (IP-MAT (PP (P As)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO ha))
+				      (NP-OB1 (D +tis))
+				      (VBD iherde))
+			      (CONJP (CONJ &)
+				     (IP-SUB (NP-SBJ *con*)
+					     (NEG+VBD nuste)
+					     (ADVP (ADV +get))
+					     (CP-QUE (WNP-1 (WPRO wet))
+						     (C 0)
+						     (IP-SUB (NP-OB1 *T*-1)
+							     (NP-SBJ (PRO hit))
+							     (BED wes))))))))
+	  (, ;)
+	  (NP-SBJ (PRO ha))
+	  (VBD sende)
+	  (ADVP (ADV swi+de))
+	  (IP-INF (FOR+TO forte)
+		  (VB witen)
+		  (CP-QUE (WNP-2 (WD hwet) (N wunder))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-2)
+				  (NP-SBJ (PRO hit))
+				  (BED were))))
+	  (. .))
+  (ID CMKATHE,20.35))
+
+/~*
+Hwa wes wurse +tene heo heorte iwundet inwi+d for +te wrecches +tet ha seh se
+wra+de werkes wurchen a+gein. godes wille.
+(CMKATHE,20.40)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 Hwa, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO Hwa))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED wes)
+		  (ADJP (ADJR wurse)
+			(PP (P +tene)
+			    (NP (PRO heo))))
+		  (IP-ABS (NP-SBJ (N heorte))
+			  (VAN iwundet)
+			  (ADVP-LOC (ADV inwi+d))
+			  (PP (P for)
+			      (NP (D +te)
+				  (NS wrecches)
+				  (CP-REL (WNP-2 0)
+					  (C +tet)
+					  (IP-SUB (NP-SBJ (PRO ha))
+						  (VBD seh)
+						  (IP-INF (NP-SBJ *T*-2)
+							  (NP-OB1 (ADJP (ADVR se) (ADJ wra+de))
+								  (NS werkes))
+							  (VB wurchen)
+							  (PP (P a+gein)
+							      (, .)
+							      (NP (NPR$ godes) (N wille))))))))))
+	  (. .))
+  (ID CMKATHE,20.40))
+
+/~*
++tohte +tah as ha wes +tuldi & +tolemod se +gung +ting as ha wes hwet hit
+mahte geinin. +tah heo hire ane were a+gein se kene keiser ant al his
+kineriche
+(CMKATHE,21.41)
+*~/
+/*
+51 WNP-2:  51 WNP-2, 53 hwet, 50 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (VBD +tohte)
+	  (ADVP (ADV +tah))
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO ha))
+			      (BED wes)
+			      (ADJP (ADJ +tuldi) (CONJ &) (ADJ +tolemod)))))
+	  (PP (NP-1 (ADJP (ADVR se) (ADJ +gung))
+		    (N +ting))
+	      (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-OB1 *ICH*-1)
+			      (NP-SBJ (PRO ha))
+			      (BED wes))))
+	  (CP-QUE (WNP-2 (WPRO hwet))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-2)
+			  (NP-SBJ (PRO hit))
+			  (MD mahte)
+			  (VB geinin)
+			  (, .)
+			  (PP (P +tah)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO heo))
+					      (NP-OB1 (PRO hire) (FP ane))
+					      (BED were)
+					      (PP (P a+gein)
+						  (NP (NP (D se) (ADJ kene) (N keiser))
+						      (CODE <P_21>)
+						      (CONJP (CONJ ant)
+							     (NP (Q al) (PRO$ his) (N kineriche)))))))))))
+  (ID CMKATHE,21.41))
+
+/~*
+& nuste hwet seggen.
+(CMKATHE,37.297)
+*~/
+/*
+9 WNP-1:  9 WNP-1, 11 hwet, 8 CP-QUE
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (NEG+VBD nuste)
+	  (CP-QUE (WNP-1 (WPRO hwet))
+		  (C 0)
+		  (IP-INF (NP-OB1 *T*-1)
+			  (VB seggen)))
+	  (. .))
+  (ID CMKATHE,37.297))
+
+/~*
+Wende +ta porphire to freinen +tis meiden hwucche weren +te meden & te
+endelese lif +tt godd haue+d ileuet his icorene for +te luren & tis
+worl+dliche lif +tt ha leose+d for +te luue of riht bileaue.
+(CMKATHE,39.325)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 hwucche, 20 CP-QUE
+*/
+
+( (IP-MAT (VBD Wende)
+	  (ADVP-TMP (ADV +ta))
+	  (NP-SBJ (NPR porphire))
+	  (IP-INF (TO to)
+		  (VB freinen)
+		  (NP-OB2 (D +tis) (N meiden))
+		  (CP-QUE (WNP-1 (WPRO hwucche))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (BED weren)
+				  (NP-SBJ (NP (D +te) (NS meden))
+					  (CONJP (CONJ &)
+						 (NP (D te) (ADJ endelese) (N lif)))
+					  (CP-REL (WNP-2 0)
+						  (C +tt)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (NPR godd))
+							  (HVP haue+d)
+							  (VBN ileuet)
+							  (NP-OB2 (PRO$ his) (VAN icorene))
+							  (PP (P for)
+							      (NP (NP (D +te) (NS luren))
+								  (CONJP (CONJ &)
+									 (NP (D tis) (ADJ worl+dliche) (N lif)))
+								  (CP-REL (WNP-3 0)
+									  (C +tt)
+									  (IP-SUB (NP-OB1 *T*-3)
+										  (NP-SBJ (PRO ha))
+										  (VBP leose+d)
+										  (PP (P for)
+										      (NP (D +te)
+											  (N luue)
+											  (PP (P of)
+											      (NP (ADJ riht) (N bileaue)))))))))))))))
+	  (. .))
+  (ID CMKATHE,39.325))
+
+/~*
+het witen hwa hefde a+gein +te kinges forbod +tt licome ilead +teonne.
+(CMKATHE,48.464)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 hwa, 9 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (VBD het)
+	  (IP-INF (VB witen)
+		  (CP-QUE (WNP-1 (WPRO hwa))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (HVD hefde)
+				  (PP (P a+gein)
+				      (NP (NP-POS (D +te) (N$ kinges))
+					  (N forbod)))
+				  (NP-OB1 (D +tt) (N licome))
+				  (VBN ilead)
+				  (ADVP-DIR (ADV +teonne)))))
+	  (. .))
+  (ID CMKATHE,48.464))
+
+/~*
+$+Te king as +te +te wes fordrenct wi+d +tes deoules puissun nuste hwet meanen.
+(CMKATHE,50.494)
+*~/
+/*
+41 WNP-2:  41 WNP-2, 43 hwet, 40 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D $+Te) (N king))
+	  (PP (P as)
+	      (NP (D +te)
+		  (CP-REL (WNP-1 0)
+			  (C +te)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED wes)
+				  (VAN fordrenct)
+				  (PP (P wi+d)
+				      (NP (NP-POS (D +tes) (NPR$ deoules))
+					  (N puissun)))))))
+	  (CODE {TEXT:&})
+	  (NEG+VBD nuste)
+	  (CP-QUE (WNP-2 (WPRO hwet))
+		  (C 0)
+		  (IP-INF (NP-OB1 *T*-2)
+			  (VB meanen)))
+	  (. .))
+  (ID CMKATHE,50.494))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd	8/7/544
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd
+*/
+
+/~*
+Ne nis +tear na bote bute fleo +tenne. +tt now+der ne beo nohwer ane wi+d
+o+der. ne seon ham. ne sompnin. ne sitten to-gederes wi+d-uten wittnesse. +tt
+mahe i-seon hweat ha don & heren hwet ha seggen.
+(CMMARGA,80.390)
+*~/
+/*
+100 WNP-4:  100 WNP-4, 102 hweat, 99 CP-QUE
+120 WNP-5:  120 WNP-5, 122 hwet, 119 CP-QUE
+*/
+
+( (IP-MAT (CONJ Ne)
+	  (NEG+BEP nis)
+	  (NP-SBJ-1 (EX +tear))
+	  (NP-1 (Q na)
+		(N bote)
+		(PP (P bute)
+		    (IP-INF (VB fleo)
+			    (ADVP-TMP (ADV +tenne)))))
+	  (, .)
+	  (CP-ADV (C +tt)
+		  (IP-SUB (NP-SBJ (Q now+der))
+			  (CODE <P_80>)
+			  (NEG ne)
+			  (BEP beo)
+			  (ADVP-LOC (Q+WADV nohwer))
+			  (PP (FP ane)
+			      (P wi+d)
+			      (NP (OTHER o+der)))
+			  (, .)
+			  (IP-INF (CONJ ne)
+				  (IP-INF (VB seon)
+					  (NP-OB1 (PRO ham)))
+				  (, .)
+				  (CONJP (CONJ ne)
+					 (IP-INF (VB (VB sompnin) (, .) (CONJ ne) (VB sitten))
+						 (ADVP (ADV to-gederes))
+						 (PP (P wi+d-uten)
+						     (NP (N wittnesse)
+							 (, .)
+							 (CP-REL (WNP-2 0)
+								 (C +tt)
+								 (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+										   (MD mahe)
+										   (VB i-seon)
+										   (CP-QUE (WNP-4 (WPRO hweat))
+											   (C 0)
+											   (IP-SUB (NP-OB1 *T*-4)
+												   (NP-SBJ (PRO ha))
+												   (DOP don))))
+									 (CONJP (CONJ &)
+										(IP-SUB=3 (VB heren)
+											  (CP-QUE (WNP-5 (WPRO hwet))
+												  (C 0)
+												  (IP-SUB (NP-OB1 *T*-5)
+													  (NP-SBJ (PRO ha))
+													  (VBP seggen))))))))))))))
+	  (. .))
+  (ID CMMARGA,80.390))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd	2/1/639
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmedmund.m4.psd	2/2/300
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmjulia.m1.psd	4/4/568
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmkathe.m1.psd	8/7/544
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\biography_and_diaries\cmmarga.m1.psd	2/1/639
+whole search, hits/tokens/total
+		16/14/2051
+*/

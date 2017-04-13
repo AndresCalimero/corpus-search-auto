@@ -1,0 +1,2154 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:03:18 BST 2017
+
+command file:     data\searches\queries\PENN\wh-relatives.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\whrelatives\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   CP-REL*|WADJP|WADVP|WIP|WNP|WPP|WQP
+query:  (WADJP|WADVP|WIP|WNP|WPP|WQP Dominates  !WADJP|WADVP|WIP|WNP|WPP|WQP) 
+  AND  (CP-REL* Dominates  WADJP|WADVP|WIP|WNP|WPP|WQP) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
++Tys vertu, +tat is to seye of maydenhood or chastite, hit is a wylful
+sacryfyse and an offryngge to God vre and liberal, to +te whyche no lawe
+dryf+t, no nyede constreyne+t, non heste bynt;
+(CMAELR3,26.9)
+*~/
+/*
+72 WNP:  72 WNP, 76 whyche, 68 CP-REL
+*/
+( (IP-MAT (NP-LFD (D +Tys)
+		  (N vertu)
+		  (, ,)
+		  (IP-MAT-PRN (NP-SBJ (D +tat))
+			      (BEP is)
+			      (IP-INF (TO to)
+				      (VB seye)
+				      (PP (P of)
+					  (NP (N maydenhood) (CONJ or) (N chastite))))))
+	  (, ,)
+	  (NP-SBJ-RSP (PRO hit))
+	  (BEP is)
+	  (NP-OB1 (NP (D a) (ADJ wylful) (N sacryfyse))
+		  (CONJP (CONJ and)
+			 (NP (D an)
+			     (N offryngge)
+			     (PP (P to)
+				 (NP (NPR God)))
+			     (ADJP (ADJ vre) (CONJ and) (ADJ liberal))))
+		  (, ,)
+		  (CP-REL (WPP-1 (P to)
+				 (WNP (D +te) (WPRO whyche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB (PP *T*-1)
+					  (NP-SBJ (Q no) (N lawe))
+					  (VBP dryf+t))
+				  (, ,)
+				  (CONJP (IP-SUB (PP *T*-1)
+						 (NP-SBJ (Q no) (N nyede))
+						 (VBP constreyne+t)))
+				  (, ,)
+				  (CONJP (IP-SUB (PP *T*-1)
+						 (NP-SBJ (Q non) (N heste))
+						 (VBP bynt))))))
+	  (. ;))
+  (ID CMAELR3,26.9))
+
+/~*
+Certayn, he alone to whom $he ha+t inspired schuch a wil and y+gyue power to
+performe.
+(CMAELR3,26.13)
+*~/
+/*
+16 WNP:  16 WNP, 18 whom, 12 CP-REL
+*/
+
+( (FRAG (ADVP (ADV Certayn))
+	(, ,)
+	(NP (PRO he)
+	    (FP alone)
+	    (CP-REL (WPP-1 (P to)
+			   (WNP (WPRO whom)))
+		    (C 0)
+		    (IP-SUB (IP-SUB-2 (PP *T*-1)
+				      (NP-SBJ (PRO $he))
+				      (HVP ha+t)
+				      (VBN inspired)
+				      (NP-OB1 (ADJ schuch) (D a) (N wil)))
+			    (CONJP (CONJ and)
+				   (IP-SUB=2 (VBN y+gyue)
+					     (NP-OB1 (N power)
+						     (IP-INF (TO to) (VB performe))))))))
+	(. .))
+  (ID CMAELR3,26.13))
+
+/~*
+And what may be moor precious +tanne +tis tresoor, wi+t +te whuche heuene is
+ibou+gt, angeles be+t delyted, of +te whuche Crist is coueytous, and by +te
+whyche God is idrawe to loue - and also forto +geue:
+(CMAELR3,26.16)
+*~/
+/*
+34 WNP:  34 WNP, 38 whuche, 30 CP-REL
+34 WNP:  34 WNP, 38 whuche, 29 CP-REL
+72 WNP:  72 WNP, 76 whuche, 68 CP-REL
+72 WNP:  72 WNP, 76 whuche, 29 CP-REL
+99 WNP:  99 WNP, 103 whyche, 95 CP-REL
+99 WNP:  99 WNP, 103 whyche, 29 CP-REL
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD may)
+		  (BE be)
+		  (ADJP (QR moor)
+			(ADJ precious)
+			(PP (P +tanne)
+			    (NP (D +tis) (N tresoor))))
+		  (, ,)
+		  (CP-REL (CP-REL (WPP-2 (P wi+t)
+					 (WNP (D +te) (WPRO whuche)))
+				  (C 0)
+				  (IP-SUB (IP-SUB (PP *T*-2)
+						  (NP-SBJ (NPR heuene))
+						  (BEP is)
+						  (VAN ibou+gt))
+					  (, ,)
+					  (CONJP (IP-SUB (PP *T*-2)
+							 (NP-SBJ (NS angeles))
+							 (BEP be+t)
+							 (VAN delyted)))))
+			  (, ,)
+			  (CONJP (CP-REL (WPP-3 (P of)
+						(WNP (D +te) (WPRO whuche)))
+					 (C 0)
+					 (IP-SUB (NP-SBJ (NPR Crist))
+						 (BEP is)
+						 (ADJP (PP *T*-3)
+						       (ADJ coueytous)))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-REL (WPP-4 (P by)
+						(WNP (D +te) (WPRO whyche)))
+					 (C 0)
+					 (IP-SUB (PP *T*-4)
+						 (NP-SBJ (NPR God))
+						 (BEP is)
+						 (VAN idrawe)
+						 (IP-INF (IP-INF (TO to) (VB loue))
+							 (, -)
+							 (CONJP (CONJ and)
+								(ALSO also)
+								(IP-INF (FOR+TO forto) (VB +geue)))))))))
+	  (. :))
+  (ID CMAELR3,26.16))
+
+/~*
+Loke +tat sche be-hoolde blessede Marie wit +te tympane of chastete, ledyng as
+hit were +te daunce of holy virgynys, and syngyngge +tat swete song +tat noon
+may synge bote clene maydenes, as wel men as wymmen, off whom hit is iwryte:
+Hii sunt qui cum mulieribus non sunt coinquinati, et secuntur agnum quocumque
+ierit -
+(CMAELR3,27.41)
+*~/
+/*
+127 WNP:  127 WNP, 129 whom, 123 CP-REL
+127 WNP:  127 WNP, 129 whom, 78 CP-REL
+*/
+
+( (IP-IMP (VBI Loke)
+	  (CP-THT (C +tat)
+		  (IP-SUB (NP-SBJ (PRO sche))
+			  (VBP be-hoolde)
+			  (NP-OB1 (VAN blessede) (NPR Marie))
+			  (PP (P wit)
+			      (NP (D +te)
+				  (N tympane)
+				  (PP (P of)
+				      (NP (N chastete)))))
+			  (, ,)
+			  (IP-PPL (IP-PPL (VAG ledyng)
+					  (PP (P as)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO hit))
+							      (BED were))))
+					  (NP-OB1 (D +te)
+						  (N daunce)
+						  (PP (P of)
+						      (NP (ADJ holy) (NS virgynys)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-PPL (VAG syngyngge)
+						 (NP-OB1 (D +tat)
+							 (ADJ swete)
+							 (N song)
+							 (CP-REL (WNP-1 0)
+								 (C +tat)
+								 (IP-SUB (NP-OB1 *T*-1)
+									 (NP-SBJ (Q noon)
+										 (PP *ICH*-2))
+									 (MD may)
+									 (VB synge)
+									 (PP-2 (P bote)
+									       (NP (ADJ clene) (NS maydenes)))
+									 (, ,)
+									 (NP-PRN (ADVP (ADVR as)
+										       (ADV wel)
+										       (PP *ICH*-3))
+										 (NS men)
+										 (PP-3 (P as)
+										       (NP (N wymmen)))
+										 (, ,)
+										 (CP-REL (WPP-4 (P off)
+												(WNP (WPRO whom)))
+											 (C 0)
+											 (IP-SUB (PP *T*-4)
+												 (NP-SBJ (PRO hit))
+												 (BEP is)
+												 (VAN iwryte)
+												 (, :)
+												 (QTP (LATIN (FW Hii) (FW sunt) (FW qui) (FW cum) (FW mulieribus) (FW non) (FW sunt) (FW coinquinati) (, ,) (FW et) (FW secuntur) (FW agnum) (FW quocumque) (FW ierit))))))))))))))
+	  (. -))
+  (ID CMAELR3,27.41))
+
+/~*
+A blessed mayden, +tat turnde an hoore-hows in-to an oratorie, wit wham an
+angel, entryngge in-to prysoun, turnede derknesse in-to li+gt, and slow wit
+sodeyn de+t here pursuour of here maydenhood.
+(CMAELR3,28.75)
+*~/
+/*
+39 WNP:  39 WNP, 41 wham, 35 CP-REL
+*/
+
+( (NP (D A)
+      (VAN blessed)
+      (N mayden)
+      (, ,)
+      (CP-REL (WNP-1 0)
+	      (C +tat)
+	      (IP-SUB (NP-SBJ *T*-1)
+		      (VBD turnde)
+		      (NP-OB1 (D an) (N+N hoore-hows))
+		      (PP (P in-to)
+			  (NP (D an) (N oratorie)))))
+      (, ,)
+      (CP-REL (WPP-2 (P wit)
+		     (WNP (WPRO wham)))
+	      (C 0)
+	      (IP-SUB (IP-SUB (PP *T*-2)
+			      (NP-SBJ (D an) (N angel))
+			      (, ,)
+			      (IP-PPL (VAG entryngge)
+				      (PP (P in-to)
+					  (NP (N prysoun))))
+			      (, ,)
+			      (VBD turnede)
+			      (NP-OB1 (N derknesse))
+			      (PP (P in-to)
+				  (NP (N li+gt))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-SUB (PP *T*-2)
+				     (NP-SBJ *con*)
+				     (VBD slow)
+				     (PP (P wit)
+					 (NP (ADJ sodeyn) (N de+t)))
+				     (NP-OB1 (PRO$ here)
+					     (N pursuour)
+					     (PP (P of)
+						 (NP (PRO$ here) (N maydenhood))))))))
+      (. .))
+  (ID CMAELR3,28.75))
+
+/~*
+And for-so+te, it was ful skylful +tat material fuir my+gte not brenne +tis
+holy mayde, in wham +te leem of lecherie was iqueynt, and +te fuir of charite
+hadde iset afuyre.
+(CMAELR3,28.77)
+*~/
+/*
+47 WNP:  47 WNP, 49 wham, 43 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P+N for-so+te))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BED was)
+	  (ADJP (ADVR ful) (ADJ skylful))
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ (ADJ material) (N fuir))
+			    (MD my+gte)
+			    (NEG not)
+			    (VB brenne)
+			    (NP-OB1 (D +tis)
+				    (ADJ holy)
+				    (N mayde)
+				    (, ,)
+				    (CP-REL (WPP-2 (P in)
+						   (WNP (WPRO wham)))
+					    (C 0)
+					    (IP-SUB (IP-SUB (PP *T*-2)
+							    (NP-SBJ (D +te)
+								    (N leem)
+								    (PP (P of)
+									(NP (N lecherie))))
+							    (BED was)
+							    (VAN iqueynt))
+						    (, ,)
+						    (CONJP (CONJ and)
+							   (IP-SUB (PP *T*-2)
+								   (NP-SBJ (D +te)
+									   (N fuir)
+									   (PP (P of)
+									       (NP (N charite))))
+								   (HVD hadde)
+								   (VBN iset)
+								   (PP (P+N afuyre)))))))))
+	  (. .))
+  (ID CMAELR3,28.77))
+
+/~*
+Bote among alle resonable creatures +tise be+t foles and acursed wrecches, in
++te whyche, al+tou+g +tat my+gt lacke, +git wyl and lust dure+t in hem of
+stench of synne;
+(CMAELR3,30.121)
+*~/
+/*
+37 WNP:  37 WNP, 41 whyche, 33 CP-REL
+*/
+
+( (IP-MAT (CONJ Bote)
+	  (PP (P among)
+	      (NP (Q alle) (ADJ resonable) (NS creatures)))
+	  (NP-SBJ (D +tise))
+	  (BEP be+t)
+	  (NP-OB1 (NP (NS foles))
+		  (CONJP (CONJ and)
+			 (NP (VAN acursed) (NS wrecches)))
+		  (, ,)
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (D +te) (WPRO whyche)))
+			  (C 0)
+			  (, ,)
+			  (IP-SUB (PP (P al+tou+g)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (D +tat))
+						      (MD my+gt)
+						      (VB lacke))))
+				  (, ,)
+				  (ADVP (ADV +git))
+				  (NP-SBJ (N wyl)
+					  (CONJ and)
+					  (N lust)
+					  (PP *ICH*-2))
+				  (VBP dure+t)
+				  (PP-RSP-1 (P in)
+					    (NP (PRO hem)))
+				  (PP-2 (P of)
+					(NP (N stench)
+					    (PP (P of)
+						(NP (N synne))))))))
+	  (. ;))
+  (ID CMAELR3,30.121))
+
+/~*
+For +ter is no+tyng +tat so put awey wyckede and vnclene +tou+gtes as doo+t
+good ocupa-cioun in holy scripture, to +te whyche a good womman, and specially
+a mayde, schulde so vse al here herte and wit +tat, +tei+g sche wolde, sche
+mowe not +tenke bote on Godes lawe.
+(CMAELR3,31.132)
+*~/
+/*
+74 WNP:  74 WNP, 78 whyche, 70 CP-REL
+74 WNP:  74 WNP, 78 whyche, 12 CP-REL
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ-1 (EX +ter))
+	  (BEP is)
+	  (NP-1 (Q+N no+tyng)
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ *T*-2)
+				(ADVP (ADVR so)
+				      (PP *ICH*-3))
+				(VBP put)
+				(ADVP-DIR (ADV awey))
+				(NP-OB1 (ADJP (ADJ wyckede) (CONJ and) (ADJ vnclene))
+					(NS +tou+gtes))
+				(PP-3 (P as)
+				      (CP-CMP (WADVP-4 0)
+					      (C 0)
+					      (IP-SUB (ADVP *T*-4)
+						      (DOP doo+t)
+						      (NP-SBJ (ADJ good) (CODE <P_31>) (N ocupa-cioun))
+						      (PP (P in)
+							  (NP (ADJ holy) (NPR scripture))))))
+				(, ,)
+				(CP-REL (WPP-5 (P to)
+					       (WNP (D +te) (WPRO whyche)))
+					(C 0)
+					(IP-SUB (IP-SUB-6 (PP *T*-5)
+							  (NP-SBJ (NP (D a) (ADJ good) (N womman)))
+							  (, ,)
+							  (IP-SUB-PRN=6 (CONJ and)
+									(ADVP (ADV specially))
+									(NP-SBJ (D a) (N mayde)))
+							  (, ,)
+							  (MD schulde)
+							  (ADVP (ADVR so)
+								(CP-DEG *ICH*-7))
+							  (VB vse)
+							  (NP-OB1 (Q al)
+								  (PRO$ here)
+								  (N herte)
+								  (CONJP (CONJ and)
+									 (NX (P wit))))
+							  (CP-DEG-7 (C +tat)
+								    (, ,)
+								    (IP-SUB (PP (P +tei+g)
+										(CP-ADV (C 0)
+											(IP-SUB (NP-SBJ (PRO sche))
+												(VBD wolde))))
+									    (, ,)
+									    (NP-SBJ (PRO sche))
+									    (MD mowe)
+									    (LB |)
+									    (NEG not)
+									    (VB +tenke)
+									    (PP (P bote)
+										(PP (P on)
+										    (NP (NPR$ Godes) (N lawe))))))))))))
+	  (. .))
+  (ID CMAELR3,31.132))
+
+/~*
+And Lord, whe+ter it seme a gret woundour to +te, in +te whiche +tu schuldest
+haue a veyn-glorie, +tat +tu hast forsake to wedde a monnes sone for +te loue
++tat +tu hast to be Cristes spouse?
+(CMAELR3,33.195)
+*~/
+/*
+40 WNP:  40 WNP, 44 whiche, 36 CP-REL-2
+*/
+
+( (CP-QUE (CONJ And)
+	  (NP-VOC (NPR Lord))
+	  (, ,)
+	  (WQ whe+ter)
+	  (C 0)
+	  (IP-SUB (NP-SBJ-1 (PRO it))
+		  (VBP seme)
+		  (NP-1 (D a)
+			(ADJ gret)
+			(N woundour)
+			(CP-REL *ICH*-2))
+		  (PP (P to)
+		      (NP (PRO +te)))
+		  (, ,)
+		  (CP-REL-2 (WPP-3 (P in)
+				   (WNP (D +te) (WPRO whiche)))
+			    (C 0)
+			    (IP-SUB (PP *T*-3)
+				    (NP-SBJ (PRO +tu))
+				    (MD schuldest)
+				    (HV haue)
+				    (NP-OB1 (D a)
+					    (ADJ+N veyn-glorie)
+					    (, ,)
+					    (CP-THT (C +tat)
+						    (IP-SUB (NP-SBJ (PRO +tu))
+							    (HVP hast)
+							    (VBN forsake)
+							    (IP-INF (TO to)
+								    (VB wedde)
+								    (NP-OB1 (NP-POS (D a) (N$ monnes))
+									    (N sone)))
+							    (PP (P for)
+								(NP (D +te)
+								    (N loue)
+								    (CP-REL (WNP-4 0)
+									    (C +tat)
+									    (IP-SUB (NP-OB1 *T*-4)
+										    (NP-SBJ (PRO +tu))
+										    (HVP hast)))
+								    (IP-INF (TO to)
+									    (BE be)
+									    (NP-OB1 (NPR$ Cristes) (N spouse)))))))))))
+	  (. ?))
+  (ID CMAELR3,33.195))
+
+/~*
++Gif +tu wylt, as +te book sei+t, adden goldene hemmys, certes, +tenne +tu
+hast a garnement wel iweue adoun to +ti foot, in whiche +tyn husbounde Crist
+wil haue gret lykyngge to fynde +te iclo+ted in.
+(CMAELR3,34.225)
+*~/
+/*
+85 WNP:  85 WNP, 87 whiche, 81 CP-REL
+*/
+
+( (IP-MAT (PP (P +Gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tu))
+			      (MD wylt)
+			      (, ,)
+			      (PP-PRN (P as)
+				      (CP-ADV (WNP-1 0)
+					      (C 0)
+					      (IP-SUB (NP-OB1 *T*-1)
+						      (NP-SBJ (D +te) (N book))
+						      (VBP sei+t))))
+			      (, ,)
+			      (VB adden)
+			      (NP-OB1 (ADJ goldene) (NS hemmys)))))
+	  (, ,)
+	  (ADVP (ADV certes))
+	  (, ,)
+	  (ADVP-TMP (ADV +tenne))
+	  (NP-SBJ (PRO +tu))
+	  (HVP hast)
+	  (NP-OB1 (D a)
+		  (N garnement)
+		  (RRC (ADVP (ADV wel))
+		       (VAN iweue))
+		  (PP (P+RP adoun)
+		      (P to)
+		      (NP (PRO$ +ti) (N foot)))
+		  (, ,)
+		  (CP-REL (WPP-2 (P in)
+				 (WNP (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO$ +tyn)
+					  (N husbounde)
+					  (NP-PRN (NPR Crist)))
+				  (MD wil)
+				  (HV haue)
+				  (NP-OB1 (ADJ gret)
+					  (N lykyngge)
+					  (IP-INF (TO to)
+						  (VB fynde)
+						  (IP-SMC (NP-SBJ (PRO +te))
+							  (VAN iclo+ted)
+							  (PP (P in)
+							      (PP *T*-2))))))))
+	  (. .))
+  (ID CMAELR3,34.225))
+
+/~*
+Al-to-gydere he is ysprad abrood to bykleppe +te in his armes, in which +tu
+schalt haue gret delectacioun;
+(CMAELR3,35.260)
+*~/
+/*
+37 WNP:  37 WNP, 39 which, 33 CP-REL
+*/
+
+( (IP-MAT (ADVP (ADV Al-to-gydere))
+	  (NP-SBJ (PRO he))
+	  (BEP is)
+	  (VAN ysprad)
+	  (ADVP (ADV abrood))
+	  (IP-INF-PRP (TO to)
+		      (VB bykleppe)
+		      (NP-OB1 (PRO +te))
+		      (PP (P in)
+			  (NP (PRO$ his) (NS armes))))
+	  (, ,)
+	  (CP-REL (WPP-1 (P in)
+			 (WNP (WPRO which)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO +tu))
+			  (MD schalt)
+			  (HV haue)
+			  (NP-OB1 (ADJ gret) (N delectacioun))))
+	  (. ;))
+  (ID CMAELR3,35.260))
+
+/~*
+And a blessed testament was +tis to seynt Ihon, to whom +te fayrnesse of alle
+mankynde, hope of al +te wordle, ioye of heuene, refut of wrecchen, solas of
++to +tat be+t in sorwe, cumfort of pouere, and at +te laste, lady of al +te
+wordle, queen of heuene wit so gret auctorite was take to kepe.
+(CMAELR3,35.264)
+*~/
+/*
+30 WNP:  30 WNP, 32 whom, 26 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-OB1 (D a) (VAN blessed) (N testament))
+	  (BED was)
+	  (NP-SBJ (D +tis))
+	  (PP (P to)
+	      (NP (NPR seynt)
+		  (NPR Ihon)
+		  (, ,)
+		  (CP-REL (WPP-1 (P to)
+				 (WNP (WPRO whom)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (NP (D +te)
+					      (N fayrnesse)
+					      (PP (P of)
+						  (NP (Q alle) (N+N mankynde))))
+					  (, ,)
+					  (CONJP (NP (N hope)
+						     (PP (P of)
+							 (NP (Q al) (D +te) (N wordle)))))
+					  (, ,)
+					  (CONJP (NP (N ioye)
+						     (PP (P of)
+							 (NP (NPR heuene)))))
+					  (, ,)
+					  (CONJP (NP (N refut)
+						     (PP (P of)
+							 (NP (NS wrecchen)))))
+					  (, ,)
+					  (CONJP (NP (N solas)
+						     (PP (P of)
+							 (NP (D +to)
+							     (CP-REL (WNP-2 0)
+								     (C +tat)
+								     (IP-SUB (NP-SBJ *T*-2)
+									     (BEP be+t)
+									     (PP (P in)
+										 (NP (N sorwe)))))))))
+					  (, ,)
+					  (CONJP (NP (N cumfort)
+						     (PP (P of)
+							 (NP (ADJ pouere)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (PP (P at)
+						     (NP (D +te) (ADJ laste)))
+						 (, ,)
+						 (NP (N lady)
+						     (PP (P of)
+							 (NP (Q al) (D +te) (N wordle)))
+						     (, ,)
+						     (NP-PRN (N queen)
+							     (PP (P of)
+								 (NP (NPR heuene))))))
+					  (CP-EOP *ICH*-3))
+				  (PP (P wit)
+				      (NP (ADVR so) (ADJ gret) (N auctorite)))
+				  (BED was)
+				  (VAN take)
+				  (CP-EOP-3 (WNP-4 0)
+					    (IP-INF (NP-OB1 *T*-4)
+						    (TO to)
+						    (VB kepe)))))))
+	  (. .))
+  (ID CMAELR3,35.264))
+
+/~*
++Tis is +tilke on +tat is not yfounde bote in oon, at oon and wit oon, in whom
+is noon vnstabilite ne chaungyngge;
+(CMAELR3,35.269)
+*~/
+/*
+59 WNP:  59 WNP, 61 whom, 55 CP-REL
+*/
+
+( (IP-MAT (NP-SBJ (D +Tis))
+	  (BEP is)
+	  (NP-OB1 (D+ADJ +tilke)
+		  (ONE on)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (NEG not)
+				  (VAN yfounde)
+				  (PP (FP bote)
+				      (PP (P in)
+					  (NP (ONE oon)))
+				      (, ,)
+				      (CONJP (PP (P at)
+						 (NP (ONE oon))))
+				      (CONJP (CONJ and)
+					     (PP (P wit)
+						 (NP (ONE oon)))))))
+		  (, ,)
+		  (CP-REL (WPP-2 (P in)
+				 (WNP (WPRO whom)))
+			  (C 0)
+			  (IP-SUB (PP *T*-2)
+				  (NP-SBJ-3 *exp*)
+				  (BEP is)
+				  (NP-3 (Q noon)
+					(N vnstabilite)
+					(CONJP (CONJ ne)
+					       (NX (N chaungyngge)))))))
+	  (. ;))
+  (ID CMAELR3,35.269))
+
+/~*
+To hem +tat be+t in +te wordle longe+t to +gyuen almesse, wiche +tat haue+t
+wordliche possessioun, and also to men of holy churche to whom is itake +te
+dispensacioun of +te godys of holy churche.
+(CMAELR3,37.323)
+*~/
+/*
+86 WNP:  86 WNP, 88 whom, 82 CP-REL
+*/
+
+( (IP-MAT (NP-SBJ-1 *exp*)
+	  (PP (PP (P To)
+		  (NP (PRO hem)
+		      (CP-REL (WNP-2 0)
+			      (C +tat)
+			      (IP-SUB (NP-SBJ *T*-2)
+				      (BEP be+t)
+				      (PP (P in)
+					  (NP (D +te) (N wordle)))))
+		      (CP-REL *ICH*-3)))
+	      (CONJP *ICH*-5))
+	  (VBP longe+t)
+	  (IP-INF-1 (TO to)
+		    (VB +gyuen)
+		    (NP-OB1 (N almesse)))
+	  (, ,)
+	  (CP-REL-3 (WNP-4 (WPRO wiche))
+		    (C +tat)
+		    (IP-SUB (NP-SBJ *T*-4)
+			    (HVP haue+t)
+			    (NP-OB1 (ADJ wordliche) (N possessioun))))
+	  (, ,)
+	  (CONJP-5 (CONJ and)
+		   (ALSO also)
+		   (PP (P to)
+		       (NP (NS men)
+			   (PP (P of)
+			       (NP (ADJ holy)
+				   (NPR churche)
+				   (CP-REL (WPP-6 (P to)
+						  (WNP (WPRO whom)))
+					   (C 0)
+					   (IP-SUB (PP *T*-6)
+						   (BEP is)
+						   (VAN itake)
+						   (NP-SBJ (D +te)
+							   (N dispensacioun)
+							   (PP (P of)
+							       (NP (D +te)
+								   (NS godys)
+								   (PP (P of)
+								       (NP (ADJ holy) (NPR churche)))))))))))))
+	  (. .))
+  (ID CMAELR3,37.323))
+
+/~*
+Bote suster, +tis partyne+t to hem to whom is itake Marthes office, not to hem
++tat reste+t hem in holynesse of contemplacioun, as +tu art.
+(CMAELR3,37.329)
+*~/
+/*
+25 WNP:  25 WNP, 27 whom, 21 CP-REL
+*/
+
+( (IP-MAT (CONJ Bote)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (NP-SBJ (D +tis))
+	  (VBP partyne+t)
+	  (PP (PP (P to)
+		  (NP (PRO hem)
+		      (CP-REL (WPP-1 (P to)
+				     (WNP (WPRO whom)))
+			      (C 0)
+			      (IP-SUB (PP *T*-1)
+				      (BEP is)
+				      (VAN itake)
+				      (NP-SBJ (NPR$ Marthes) (N office))))))
+	      (, ,)
+	      (CONJP (PP (NEG not)
+			 (P to)
+			 (NP (PRO hem)
+			     (CP-REL (WNP-2 0)
+				     (C +tat)
+				     (IP-SUB (NP-SBJ *T*-2)
+					     (VBP reste+t)
+					     (NP-OB1 (PRO hem))
+					     (PP (P in)
+						 (NP (N holynesse)
+						     (PP (P of)
+							 (NP (N contemplacioun)))))
+					     (, ,)
+					     (PP (P as)
+						 (CP-ADV (WADVP-3 0)
+							 (C 0)
+							 (IP-SUB (ADVP *T*-3)
+								 (NP-SBJ (PRO +tu))
+								 (BEP art))))))))))
+	  (. .))
+  (ID CMAELR3,37.329))
+
+/~*
+for +tey be+t +tilke oxen +tat +te book speke+t of: Quorum piger stercoribus
+lapidetur - Among +te whiche he +tat is slow schal be stened to de+te wit
+stynkynde dung.
+(CMAELR3,37.336)
+*~/
+/*
+50 WNP:  50 WNP, 54 whiche, 46 CP-REL
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tey))
+	  (BEP be+t)
+	  (NP-OB1 (D+ADJ +tilke)
+		  (NS oxen)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ (D +te) (N book))
+				  (VBP speke+t)
+				  (PP (P of)
+				      (NP *T*-1))
+				  (, :)
+				  (QTP (LATIN (FW Quorum) (FW piger) (FW stercoribus) (FW lapidetur)))))
+		  (, -)
+		  (CP-REL (WPP-2 (P Among)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (PP *T*-2)
+				  (NP-SBJ (PRO he)
+					  (CP-REL (WNP-3 0)
+						  (C +tat)
+						  (IP-SUB (NP-SBJ *T*-3)
+							  (BEP is)
+							  (NP-OB1 (ADJ slow)))))
+				  (MD schal)
+				  (BE be)
+				  (VAN stened)
+				  (PP (P to)
+				      (NP (N de+te)))
+				  (PP (P wit)
+				      (NP (VAG stynkynde) (N dung))))))
+	  (. .))
+  (ID CMAELR3,37.336))
+
+/~*
+and so for a lytul stynkynde viel+te, in +te whiche o+tre be+t defoyled in +te
+wordle, +tey hem-self be+t ismyte wit pryckes of enuye and biternesse; of +te
+whiche, in caas +tey falle a+gen to +te wordle, to antermete of wordly
++tyngges, certes, it may be sayd: Qui nutriebantur in croceis, amplexati sunt
+stercora.
+(CMAELR3,37.342)
+*~/
+/*
+25 WNP:  25 WNP, 29 whiche, 21 CP-REL
+86 WNP:  86 WNP, 90 whiche, 82 CP-REL-2
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV so))
+	  (PP (P for)
+	      (NP (D a)
+		  (ADJ lytul)
+		  (VAG stynkynde)
+		  (N viel+te)
+		  (, ,)
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (OTHER o+tre))
+				  (BEP be+t)
+				  (VAN defoyled)
+				  (PP (P in)
+				      (NP (D +te) (N wordle)))))))
+	  (, ,)
+	  (NP-SBJ (PRO +tey)
+		  (NP-PRN (PRO+N hem-self))
+		  (CP-REL *ICH*-2))
+	  (BEP be+t)
+	  (VAN ismyte)
+	  (PP (P wit)
+	      (NP (NS pryckes)
+		  (PP (P of)
+		      (NP (N enuye) (CONJ and) (N biternesse)))))
+	  (, ;)
+	  (CP-REL-2 (WPP-3 (P of)
+			   (WNP (D +te) (WPRO whiche)))
+		    (C 0)
+		    (, ,)
+		    (IP-SUB (PP *T*-3)
+			    (PP (P in)
+				(NP (N caas)
+				    (CP-THT (C 0)
+					    (IP-SUB (NP-SBJ (PRO +tey))
+						    (VBP falle)
+						    (ADVP (ADV a+gen))
+						    (PP (P to)
+							(NP (D +te) (N wordle)))
+						    (, ,)
+						    (PP (P to)
+							(NP (N antermete)
+							    (PP (P of)
+								(NP (ADJ wordly) (NS +tyngges)))))))))
+			    (, ,)
+			    (ADVP (ADV certes))
+			    (, ,)
+			    (NP-SBJ-4 (PRO it))
+			    (MD may)
+			    (BE be)
+			    (VAN sayd)
+			    (, :)
+			    (QTP-4 (LATIN (FW Qui) (FW nutriebantur) (FW in) (FW croceis) (, ,) (FW amplexati) (FW sunt) (FW stercora)))))
+	  (. .))
+  (ID CMAELR3,37.342))
+
+/~*
+And +terfor, suster, se+t+te +tat +tey +tat be+t in holy monasteries ne
+schulle not ocupien hem wit +te wordle, bote +tilke +tat be+t assigned +ter-to,
+and to whom is itaken Marthes bisynesse, muche more +tu, +tat hast forsake +te
+wordle, ne+ter schalt haue worldly goodes in dispensacioun, ne+ter see ne
+hiere matires of +te wordle.
+(CMAELR3,38.343)
+*~/
+/*
+99 WNP:  99 WNP, 101 whom, 95 CP-REL
+99 WNP:  99 WNP, 101 whom, 74 CP-REL
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ And)
+		    (PP (ADV+P +terfor))
+		    (, ,)
+		    (NP-VOC (N suster))
+		    (, ,)
+		    (PP (P se+t+te)
+			(CP-ADV (C +tat)
+				(IP-SUB (NP-SBJ (PRO +tey)
+						(CP-REL (WNP-2 0)
+							(C +tat)
+							(IP-SUB (NP-SBJ *T*-2)
+								(BEP be+t)
+								(PP (P in)
+								    (NP (ADJ holy) (NS monasteries)))))
+						(CONJP *ICH*-3))
+					(NEG ne)
+					(CODE <P_38>)
+					(MD schulle)
+					(NEG not)
+					(VB ocupien)
+					(NP-OB1 (PRO hem))
+					(PP (P wit)
+					    (NP (D +te) (N wordle)))
+					(, ,)
+					(CONJP-3 (CONJ bote)
+						 (NP (D+ADJ +tilke)
+						     (CP-REL (CP-REL (WNP-4 0)
+								     (C +tat)
+								     (IP-SUB (NP-SBJ *T*-4)
+									     (BEP be+t)
+									     (VAN assigned)
+									     (PP (ADV+P +ter-to))))
+							     (, ,)
+							     (CONJP (CONJ and)
+								    (CP-REL (WPP-5 (P to)
+										   (WNP (WPRO whom)))
+									    (C 0)
+									    (IP-SUB (PP *T*-5)
+										    (BEP is)
+										    (VAN itaken)
+										    (NP-SBJ (NPR$ Marthes) (N bisynesse)))))))))))
+		    (, ,)
+		    (NP-MSR (QP (Q muche) (QR more)))
+		    (NP-SBJ (PRO +tu)
+			    (, ,)
+			    (CP-REL (WNP-6 0)
+				    (C +tat)
+				    (IP-SUB (NP-SBJ *T*-6)
+					    (HVP hast)
+					    (VBN forsake)
+					    (NP-OB1 (D +te) (N wordle)))))
+		    (, ,)
+		    (CONJ ne+ter)
+		    (MD schalt)
+		    (HV haue)
+		    (NP-OB1 (ADJ worldly) (NS goodes))
+		    (PP (P in)
+			(NP (N dispensacioun))))
+	  (, ,)
+	  (CONJP (CONJ ne+ter)
+		 (IP-MAT=1 (VB (VB see) (CONJ ne) (VB hiere))
+			   (NP-OB1 (NS matires)
+				   (PP (P of)
+				       (NP (D +te) (N wordle))))))
+	  (. .))
+  (ID CMAELR3,38.343))
+
+/~*
+And +terfore, suster, when +tyn herte is iclensed fro al viel+te and $stenc of
+foule +gou+gtes by +te excercise of holy vertus, cast +ti cliere e+gen abake
+to +tyngges +tat be+t apassyd, of +te whiche is imaad miende in +te trewe
+gospel.
+(CMAELR3,39.395)
+*~/
+/*
+106 WNP:  106 WNP, 110 whiche, 102 CP-REL
+*/
+
+( (IP-IMP (CONJ And)
+	  (PP (ADV+P +terfore))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO$ +tyn) (N herte))
+			      (BEP is)
+			      (VAN iclensed)
+			      (PP (P fro)
+				  (NP (Q al)
+				      (N viel+te)
+				      (CONJP (CONJ and)
+					     (NX (N $stenc)))
+				      (PP (P of)
+					  (NP (ADJ foule) (NS +gou+gtes)))))
+			      (PP (P by)
+				  (NP (D +te)
+				      (N excercise)
+				      (PP (P of)
+					  (NP (ADJ holy) (NS vertus))))))))
+	  (, ,)
+	  (VBI cast)
+	  (NP-OB1 (PRO$ +ti) (ADJ cliere) (NS e+gen))
+	  (PP (P+ADV abake))
+	  (PP (P to)
+	      (NP (NS +tyngges)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP be+t)
+				  (VAN apassyd)))
+		  (, ,)
+		  (CP-REL (WPP-2 (P of)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (PP *T*-2)
+				  (BEP is)
+				  (VAN imaad)
+				  (NP-SBJ (N miende))
+				  (PP (P in)
+				      (NP (D +te) (ADJ trewe) (NPR gospel)))))))
+	  (. .))
+  (ID CMAELR3,39.395))
+
+/~*
+And +tis rehersyngge ofte and many tyme be-+tenke +te how muche was +tilke
+fulsumnesse of grace in Marie, of whom al +tis wordle borwede and beggede
+grace, whanne Godys sone was maad man, ful of grace and soo+tfastnesse.
+(CMAELR3,39.400)
+*~/
+/*
+64 WNP:  64 WNP, 66 whom, 60 CP-REL
+*/
+
+( (IP-IMP (CONJ And)
+	  (IP-PPL (NP-OB1 (D +tis))
+		  (VAG rehersyngge)
+		  (ADVP-TMP (ADVP-TMP (ADV ofte))
+			    (CONJP (CONJ and)
+				   (NP-TMP (Q many) (N tyme)))))
+	  (VBI be-+tenke)
+	  (NP-OB2 (PRO +te))
+	  (CP-QUE (WNP-1 (WQP (WADV how) (Q muche)))
+		  (C 0)
+		  (IP-SUB (NP-MSR *T*-1)
+			  (BED was)
+			  (NP-SBJ (D+ADJ +tilke)
+				  (N fulsumnesse)
+				  (PP (P of)
+				      (NP (N grace))))
+			  (PP (P in)
+			      (NP (NPR Marie)
+				  (, ,)
+				  (CP-REL (WPP-2 (P of)
+						 (WNP (WPRO whom)))
+					  (C 0)
+					  (IP-SUB (PP *T*-2)
+						  (NP-SBJ (Q al) (D +tis) (N wordle))
+						  (VBD (VBD borwede) (CONJ and) (VBD beggede))
+						  (NP-OB1 (N grace))
+						  (, ,)
+						  (PP (P whanne)
+						      (CP-ADV (C 0)
+							      (IP-SUB (NP-SBJ-3 (NPR$ Godys) (N sone))
+								      (BED was)
+								      (VAN maad)
+								      (IP-SMC (NP-SBJ *-3)
+									      (NP-OB1 (N man)
+										      (, ,)
+										      (ADJP (ADJ ful)
+											    (PP (P of)
+												(NP (N grace) (CONJ and) (N soo+tfastnesse)))))))))))))))
+	  (. .))
+  (ID CMAELR3,39.400))
+
+/~*
+wit how hoot brennyngge vier of loue were +tu iset aviere, whanne +tu
+vieledest in +tyn herte and in +ty wombe +te presence of so greet a maieste,
+whanne +tat Crist took flehs of +ty flehs, whanne of +ty clene maydenly blood
+he made hym blood, whanne of +ty menbres he made hym menbres, in +te whyche
+was +te fulle godhede bodyly.
+(CMAELR3,40.403)
+*~/
+/*
+177 WNP:  177 WNP, 181 whyche, 173 CP-REL
+*/
+
+( (CP-QUE (WPP-1 (P wit)
+		 (WNP (WADJP (WADV how) (ADJ hoot))
+		      (VAG brennyngge)
+		      (N vier)
+		      (PP (P of)
+			  (NP (N loue)))))
+	  (IP-SUB (PP *T*-1)
+		  (BED were)
+		  (NP-SBJ (PRO +tu))
+		  (VAN iset)
+		  (PP (P+N aviere))
+		  (, ,)
+		  (PP (P whanne)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO +tu))
+				      (VBP vieledest)
+				      (PP (PP (P in)
+					      (NP (PRO$ +tyn) (N herte)))
+					  (CONJP (CONJ and)
+						 (PP (P in)
+						     (NP (PRO$ +ty) (N wombe)))))
+				      (NP-OB1 (D +te)
+					      (N presence)
+					      (PP (P of)
+						  (NP (ADJP (ADVR so) (ADJ greet))
+						      (D a)
+						      (N maieste)))))))
+		  (, ,)
+		  (PP (P whanne)
+		      (CP-ADV (C +tat)
+			      (IP-SUB (NP-SBJ (NPR Crist))
+				      (VBD took)
+				      (NP-OB1 (N flehs)
+					      (PP (P of)
+						  (NP (PRO$ +ty) (N flehs)))))))
+		  (, ,)
+		  (PP (P whanne)
+		      (CP-ADV (C 0)
+			      (IP-SUB (PP (P of)
+					  (NP (PRO$ +ty) (ADJ clene) (ADJ maydenly) (N blood)))
+				      (NP-SBJ (PRO he))
+				      (VBD made)
+				      (NP-OB2 (PRO hym))
+				      (NP-OB1 (N blood)))))
+		  (, ,)
+		  (PP (P whanne)
+		      (CP-ADV (C 0)
+			      (IP-SUB (PP (P of)
+					  (NP (PRO$ +ty) (NS menbres)))
+				      (NP-SBJ (PRO he))
+				      (VBD made)
+				      (NP-OB2 (PRO hym))
+				      (NP-OB1 (NS menbres)
+					      (, ,)
+					      (CP-REL (WPP-2 (P in)
+							     (WNP (D +te) (WPRO whyche)))
+						      (C 0)
+						      (IP-SUB (PP *T*-2)
+							      (BED was)
+							      (NP-SBJ (D +te) (ADJ fulle) (N+N godhede))
+							      (ADVP (ADV bodyly)))))))))
+	  (. .))
+  (ID CMAELR3,40.403))
+
+/~*
+And certayn, suster, al +tis for +te, +tat art a mayde, be-cause +tat +tu
+schuldest take good heede of +tis mayde +tat +tu scholdest folwe, and of +tis
+maydenes sone Crist, to whom +tu art iweddid.
+(CMAELR3,40.404)
+*~/
+/*
+114 WNP:  114 WNP, 116 whom, 110 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV certayn))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (NP-SBJ (Q al) (D +tis))
+	  (BEP *)
+	  (PP (P for)
+	      (NP (PRO +te)
+		  (, ,)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP art)
+				  (NP-OB1 (D a) (N mayde))))))
+	  (, ,)
+	  (PP (P+N be-cause)
+	      (CP-ADV (C +tat)
+		      (IP-SUB (NP-SBJ (PRO +tu))
+			      (MD schuldest)
+			      (VB take)
+			      (NP-OB1 (ADJ good) (N heede))
+			      (PP (PP (P of)
+				      (NP (D +tis)
+					  (N mayde)
+					  (CP-REL (WNP-2 0)
+						  (C +tat)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO +tu))
+							  (MD scholdest)
+							  (VB folwe)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (PP (P of)
+					     (NP (NP-POS (D +tis) (N$ maydenes))
+						 (N sone)
+						 (NP-PRN (NPR Crist))
+						 (, ,)
+						 (CP-REL (WPP-3 (P to)
+								(WNP (WPRO whom)))
+							 (C 0)
+							 (IP-SUB (PP *T*-3)
+								 (NP-SBJ (PRO +tu))
+								 (BEP art)
+								 (VAN iweddid))))))))))
+	  (. .))
+  (ID CMAELR3,40.404))
+
+/~*
+and hir take heede, suster, of +te maner of gretyngge in +te whiche Ihon
+Baptiste in his moder wombe, hoppyngge for ioye, knew and saluede as a
+seruaunt his lord, as a criour his verray iustyse, as a kni+gt is verrey kynge.
+(CMAELR3,40.406)
+*~/
+/*
+37 WNP:  37 WNP, 41 whiche, 33 CP-REL
+*/
+
+( (IP-IMP (CONJ and)
+	  (ADVP-LOC (ADV hir))
+	  (VBI take)
+	  (NP-OB1 (N heede))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (PP (P of)
+	      (NP (D +te)
+		  (N maner)
+		  (PP (P of)
+		      (NP (N gretyngge)))
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB-2 (PP *T*-1)
+					    (NP-SBJ (NPR Ihon)
+						    (NP-PRN (N Baptiste)))
+					    (PP (P in)
+						(NP (NP-POS (PRO$ his) (N$ moder))
+						    (N wombe)))
+					    (, ,)
+					    (IP-PPL (VAG hoppyngge)
+						    (PP (P for)
+							(NP (N ioye))))
+					    (, ,)
+					    (VBD (VBD knew) (CONJ and) (VBD saluede))
+					    (PP (P as)
+						(NP (D a) (N seruaunt)))
+					    (NP-OB1 (PRO$ his) (NPR lord)))
+				  (, ,)
+				  (CONJP (IP-SUB=2 (PP (P as)
+						       (NP (D a) (N criour)))
+						   (NP-OB1 (PRO$ his) (ADJ verray) (N iustyse))))
+				  (, ,)
+				  (CONJP (IP-SUB=2 (PP (P as)
+						       (NP (D a) (N kni+gt)))
+						   (NP-OB1 (PRO$ is) (ADJ verrey) (N kynge))))))))
+	  (. .))
+  (ID CMAELR3,40.406))
+
+/~*
+And blessyd were and be+t +too wombes to-fore alle o+tre, of +te wiche sprang
+oute hele of alle +te wordle, and was iprofecyed mer+te and ioye, a+gens
+derknesse of wo and sorwe +tat longe to-fore hadde reygned.
+(CMAELR3,40.407)
+*~/
+/*
+33 WNP:  33 WNP, 37 wiche, 29 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (VAN blessyd)
+	  (BED (BED were)
+	       (CONJP (CONJ and) (BEP be+t)))
+	  (NP-SBJ (D +too) (NS wombes))
+	  (PP (P to-fore)
+	      (NP (Q alle)
+		  (OTHERS o+tre)
+		  (, ,)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (D +te) (WPRO wiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB (PP *T*-1)
+					  (NP-SBJ-2 *exp*)
+					  (VBD sprang)
+					  (RP oute)
+					  (NP-2 (N hele)
+						(PP (P of)
+						    (NP (Q alle) (D +te) (N wordle)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (PP *T*-1)
+						 (NP-SBJ-3 *exp*)
+						 (BED was)
+						 (VAN iprofecyed)
+						 (NP-3 (N mer+te) (CONJ and) (N ioye))
+						 (, ,)
+						 (PP (P a+gens)
+						     (NP (N derknesse)
+							 (PP (P of)
+							     (NP (N wo) (CONJ and) (N sorwe)))
+							 (CP-REL (WNP-4 0)
+								 (C +tat)
+								 (IP-SUB (NP-SBJ *T*-4)
+									 (ADVP-TMP (NP-MSR (ADJ longe))
+										   (ADV to-fore))
+									 (HVD hadde)
+									 (VBN reygned)))))))))))
+	  (. .))
+  (ID CMAELR3,40.407))
+
+/~*
+Who+ter eny man woolde conseyle me forsake +tilke feet of Ihesu, +tat Marie so
+swetly kyssede; or +tat I schulde turne awey myn e+gen fro +tat blessyde face
+so fair and frehs, +tat Marye so entierly be-halde+t; or elles +tat I schulde
+turne awey myn erys fro +tylke sauery talkyngge of Criste, of +te whiche so
+fulsumly Marie is ived?
+(CMAELR3,45.566)
+*~/
+/*
+169 WNP:  169 WNP, 173 whiche, 165 CP-REL
+*/
+
+( (CP-QUE (CP-QUE (WQ Who+ter)
+		  (C 0)
+		  (CODE <P_45>)
+		  (IP-SUB (NP-SBJ (Q eny) (N man))
+			  (MD woolde)
+			  (VB conseyle)
+			  (NP-OB2 (PRO me))
+			  (IP-INF (VB forsake)
+				  (NP-OB1 (D+ADJ +tilke)
+					  (NS feet)
+					  (PP (P of)
+					      (NP (NPR Ihesu)))
+					  (, ,)
+					  (CP-REL (WNP-1 0)
+						  (C +tat)
+						  (IP-SUB (NP-OB1 *T*-1)
+							  (NP-SBJ (NPR Marie))
+							  (ADVP (ADVR so) (ADV swetly))
+							  (VBD kyssede)))))))
+	  (, ;)
+	  (CONJP (CONJ or)
+		 (CP-QUE (C +tat)
+			 (IP-SUB (NP-SBJ (PRO I))
+				 (MD schulde)
+				 (VB turne)
+				 (ADVP-DIR (ADV awey))
+				 (NP-OB1 (PRO$ myn) (NS e+gen))
+				 (PP (P fro)
+				     (NP (D +tat)
+					 (VAN blessyde)
+					 (N face)
+					 (ADJP (ADVR so)
+					       (ADJ fair)
+					       (CONJP (CONJ and)
+						      (ADJX (ADJ frehs)))
+					       (, ,))
+					 (CP-REL (WNP-2 0)
+						 (C +tat)
+						 (IP-SUB (NP-OB1 *T*-2)
+							 (NP-SBJ (NPR Marye))
+							 (ADVP (ADVR so) (ADV entierly))
+							 (VBD be-halde+t))))))))
+	  (, ;)
+	  (CONJP (CONJ or)
+		 (ELSE elles)
+		 (CP-QUE (C +tat)
+			 (IP-SUB (NP-SBJ (PRO I))
+				 (MD schulde)
+				 (VB turne)
+				 (ADVP-DIR (ADV awey))
+				 (NP-OB1 (PRO$ myn) (NS erys))
+				 (PP (P fro)
+				     (NP (D+ADJ +tylke)
+					 (ADJ sauery)
+					 (N talkyngge)
+					 (PP (P of)
+					     (NP (NPR Criste)))
+					 (, ,)
+					 (CP-REL (WPP-3 (P of)
+							(WNP (D +te) (WPRO whiche)))
+						 (C 0)
+						 (IP-SUB (PP *T*-3)
+							 (ADVP (ADVR so) (ADV fulsumly))
+							 (NP-SBJ (NPR Marie))
+							 (BEP is)
+							 (VAN ived))))))))
+	  (. ?))
+  (ID CMAELR3,45.566))
+
+/~*
+And whanne sche come+t a+gen, sche com+t not alone, bote wy+t o+tre wummen,
+a+gens +te whyche Ihesus hym-self ge+t
+(CMAELR3,50.790)
+*~/
+/*
+51 WNP:  51 WNP, 55 whyche, 47 CP-REL
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P whanne)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO sche))
+			      (VBP come+t)
+			      (ADVP (ADV a+gen)))))
+	  (, ,)
+	  (NP-SBJ (PRO sche))
+	  (VBP com+t)
+	  (NEG not)
+	  (ADJP-SPR (ADJP (ADJ alone))
+		    (, ,)
+		    (CONJP (CONJ bote)
+			   (PP (P wy+t)
+			       (NP (OTHER o+tre)
+				   (NS wummen)
+				   (, ,)
+				   (CP-REL (WPP-1 (P a+gens)
+						  (WNP (D +te) (WPRO whyche)))
+					   (C 0)
+					   (IP-SUB (PP *T*-1)
+						   (NP-SBJ (NPR Ihesus)
+							   (NP-PRN (PRO+N hym-self)))
+						   (VBP ge+t))))))))
+  (ID CMAELR3,50.790))
+
+/~*
++terfore it is nyedful +tat oure soule be ved wit a maner diuersyte of
+chaungyngge. Wherfore we schulle goo fro +tyngges +tat be+t apassed, to
+be+tenke vs on +tyngges +tat be+t present, of +te whiche we mowe be steryd +te
+mor parfytly to louen vre God.
+(CMAELR3,51.802)
+*~/
+/*
+114 WNP:  114 WNP, 118 whiche, 110 CP-REL
+*/
+
+( (IP-MAT (PP (ADV+P +terfore))
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (ADJP (ADJ nyedful))
+	  (CP-THT-1 (C +tat)
+		    (IP-SUB (NP-SBJ (PRO$ oure) (N soule))
+			    (BEP be)
+			    (VAN ved)
+			    (PP (P wit)
+				(NP (D a)
+				    (N maner)
+				    (NP-COM (N diuersyte)
+					    (PP (P of)
+						(NP (N chaungyngge))))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (N+P Wherfore))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (PRO we))
+			  (MD schulle)
+			  (VB goo)
+			  (PP (P fro)
+			      (NP (NS +tyngges)
+				  (CP-REL (WNP-3 0)
+					  (C +tat)
+					  (IP-SUB (NP-SBJ *T*-3)
+						  (BEP be+t)
+						  (VAN apassed)))))
+			  (, ,)
+			  (IP-INF-PRP (TO to)
+				      (VB be+tenke)
+				      (NP-OB1 (PRO vs))
+				      (PP (P on)
+					  (NP (NS +tyngges)
+					      (CP-REL (WNP-4 0)
+						      (C +tat)
+						      (IP-SUB (NP-SBJ *T*-4)
+							      (BEP be+t)
+							      (ADJP (ADJ present))))
+					      (, ,)
+					      (CP-REL (WPP-5 (P of)
+							     (WNP (D +te) (WPRO whiche)))
+						      (C 0)
+						      (IP-SUB (PP *T*-5)
+							      (NP-SBJ (PRO we))
+							      (MD mowe)
+							      (BE be)
+							      (VAN steryd)
+							      (ADVP (D +te) (QR mor) (ADV parfytly))
+							      (IP-INF (TO to)
+								      (VB louen)
+								      (NP-OB1 (PRO$ vre) (NPR God))))))))))
+	  (. .))
+  (ID CMAELR3,51.802))
+
+/~*
+Bote of hou gret goodnesse of God was it, and is, +tat he ordeynede so for vs
++tat we be+t ibore among swyche folk, be +te whiche we mowe come to +te
+knowyngge of God and to vre byleue.
+(CMAELR3,51.810)
+*~/
+/*
+85 WNP:  85 WNP, 89 whiche, 81 CP-REL
+*/
+
+( (CP-QUE (CONJ Bote)
+	  (WPP-1 (P of)
+		 (WNP (WADJP (WADV hou)
+			     (ADJ gret)
+			     (CP-DEG *ICH*-3))
+		      (N goodnesse)
+		      (PP (P of)
+			  (NP (NPR God)))))
+	  (IP-SUB-2 (PP *T*-1)
+		    (BED was)
+		    (NP-SBJ (PRO it))
+		    (, ,)
+		    (IP-SUB-PRN=2 (CONJ and) (BEP is))
+		    (, ,)
+		    (CP-DEG-3 (C +tat)
+			      (IP-SUB (NP-SBJ (PRO he))
+				      (VBD ordeynede)
+				      (ADVP (ADVR so)
+					    (CP-DEG *ICH*-4))
+				      (PP (P for)
+					  (NP (PRO vs)))
+				      (CP-DEG-4 (C +tat)
+						(IP-SUB (NP-SBJ (PRO we))
+							(BEP be+t)
+							(VAN ibore)
+							(PP (P among)
+							    (NP (SUCH swyche) (N folk)))
+							(, ,)
+							(CP-REL (WPP-5 (P be)
+								       (WNP (D +te) (WPRO whiche)))
+								(C 0)
+								(IP-SUB (PP *T*-5)
+									(NP-SBJ (PRO we))
+									(MD mowe)
+									(VB come)
+									(PP (PP (P to)
+										(NP (D +te)
+										    (N knowyngge)
+										    (PP (P of)
+											(NP (NPR God)))))
+									    (CONJP (CONJ and)
+										   (PP (P to)
+										       (NP (PRO$ vre) (N byleue))))))))))))
+	  (. .))
+  (ID CMAELR3,51.810))
+
+/~*
+How ofte asayled, itempted and steryd was +ty maydenhood and clennesse kept
+and saued of God, whan I wilfully fil in-to many and greuous synnes, and
+gadryde to me on an heep matere of fuyr $by +te whiche I scholde be brend,
+matyre of stench +torou+g +te wyche I scholde be deed, matere of wormes of +te
+wyche I scholde be $gnawen in helle, nere +te mercy of God.
+(CMAELR3,52.841)
+*~/
+/*
+120 WNP:  120 WNP, 124 whiche, 116 CP-REL
+155 WNP:  155 WNP, 159 wyche, 151 CP-REL
+191 WNP:  191 WNP, 195 wyche, 187 CP-REL
+*/
+
+( (CP-QUE (WADVP-1 (WADV How) (ADV ofte))
+	  (IP-SUB (ADVP *T*-1)
+		  (IP-PPL (VAN (VAN asayled) (, ,) (VAN itempted) (CONJ and) (VAN steryd)))
+		  (BED was)
+		  (NP-SBJ (PRO$ +ty)
+			  (N maydenhood)
+			  (CONJP (CONJ and)
+				 (NX (N clennesse))))
+		  (VAN (VAN kept) (CONJ and) (VAN saued))
+		  (PP (P of)
+		      (NP (NPR God)))
+		  (, ,)
+		  (PP (P whan)
+		      (CP-ADV (C 0)
+			      (IP-SUB (IP-SUB (NP-SBJ (PRO I))
+					      (ADVP (ADV wilfully))
+					      (VBD fil)
+					      (PP (P in-to)
+						  (NP (QP (QP (Q many))
+							  (CONJP (CONJ and)
+								 (ADJP (ADJ greuous))))
+						      (NS synnes))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB (NP-SBJ *con*)
+						     (VBD gadryde)
+						     (PP (P to)
+							 (NP (PRO me)))
+						     (PP (P on)
+							 (NP (D an) (N heep)))
+						     (NP-OB1 (NP (N matere)
+								 (PP (P of)
+								     (NP (N fuyr)))
+								 (CP-REL (WPP-2 (P $by)
+										(WNP (D +te) (WPRO whiche)))
+									 (C 0)
+									 (IP-SUB (PP *T*-2)
+										 (NP-SBJ (PRO I))
+										 (MD scholde)
+										 (BE be)
+										 (VAN brend))))
+							     (, ,)
+							     (CONJP (NP (N matyre)
+									(PP (P of)
+									    (NP (N stench)))
+									(CP-REL (WPP-3 (P +torou+g)
+										       (WNP (D +te) (WPRO wyche)))
+										(C 0)
+										(IP-SUB (PP *T*-3)
+											(NP-SBJ (PRO I))
+											(MD scholde)
+											(BE be)
+											(ADJP (ADJ deed))))))
+							     (, ,)
+							     (CONJP (NP (N matere)
+									(PP (P of)
+									    (NP (NS wormes)))
+									(CP-REL (WPP-4 (P of)
+										       (WNP (D +te) (WPRO wyche)))
+										(C 0)
+										(IP-SUB (PP *T*-4)
+											(NP-SBJ (PRO I))
+											(MD scholde)
+											(BE be)
+											(VAN $gnawen)
+											(PP (P in)
+											    (NP (N helle))))))))
+						     (, ,)
+						     (ADJP-LOC (ADJ nere)
+							       (NP (D +te)
+								   (N mercy)
+								   (PP (P of)
+								       (NP (NPR God)))))))))))
+	  (. .))
+  (ID CMAELR3,52.841))
+
+/~*
+Gode suster, by+tenk +te of +te viel+tys for +te whiche +tu weptest vppon me
+sumtyme and vndernome me whan +tu were bote a +gung mayde;
+(CMAELR3,52.842)
+*~/
+/*
+26 WNP:  26 WNP, 32 whiche, 22 CP-REL
+*/
+
+( (IP-IMP (NP-VOC (ADJ Gode) (N suster))
+	  (, ,)
+	  (VBI by+tenk)
+	  (NP-OB2 (PRO +te))
+	  (PP (P of)
+	      (NP (D +te)
+		  (NS viel+tys)
+		  (CP-REL (WPP-1 (P for)
+				 (WNP (D +te) (CODE <em>) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB (PP *T*-1)
+					  (NP-SBJ (PRO +tu))
+					  (CODE <$$em>)
+					  (VBD weptest)
+					  (PP (P vppon)
+					      (NP (PRO me)))
+					  (NP-TMP (Q+N sumtyme)))
+				  (CONJP (CONJ and)
+					 (IP-SUB (PP *T*-1)
+						 (NP-SBJ *con*)
+						 (VBD vndernome)
+						 (NP-OB1 (PRO me))
+						 (PP (P whan)
+						     (CP-ADV (C 0)
+							     (IP-SUB (NP-SBJ (PRO +tu))
+								     (BED were)
+								     (NP-OB1 (FP bote) (D a) (ADJ +gung) (N mayde)))))))))))
+	  (. ;))
+  (ID CMAELR3,52.842))
+
+/~*
+And certes, he is a glorious kyng and deye+t in ioye, what so euere he be, to
+whos dee+t be+t angeles present, to whos laste slep holy halwen hi+get+t to
+and, +gyvyngge help as to here cyteseyn of heuene and mynystryngge hertly
+confort, fi+gte+t for hym a+gens his enemys, caste+t adoun his wi+tstonderes
+and scharply conuicte+t his accousours, bryngyngge his soule euene to
+Abrahames bosum and to +te si+gt of God, +ter +tat he schal abyden in reste,
+pees and li+gt.
+(CMAELR3,56.948)
+*~/
+/*
+63 WNP:  63 WNP, 67 dee+t, 59 CP-REL-3
+89 WNP:  89 WNP, 95 slep, 85 CP-REL-6
+*/
+
+( (IP-MAT-1 (CONJ And)
+	    (ADVP (ADV certes))
+	    (, ,)
+	    (NP-SBJ (PRO he)
+		    (CP-REL *ICH*-3)
+		    (CP-REL *ICH*-6))
+	    (BEP is)
+	    (NP-OB1 (D a) (ADJ glorious) (N kyng))
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (VBP deye+t)
+			  (PP (P in)
+			      (NP (N ioye))))
+	    (, ,)
+	    (NP-ADV (CP-FRL (WNP-2 (WPRO what) (ADV so) (ADV euere))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO he))
+				    (BEP be))))
+	    (, ,)
+	    (CP-REL-3 (WPP-4 (P to)
+			     (WNP (WPRO$ whos) (N dee+t)))
+		      (C 0)
+		      (IP-SUB (PP *T*-4)
+			      (NP-SBJ-5 *exp*)
+			      (BEP be+t)
+			      (NP-5 (NS angeles))
+			      (ADJP (ADJ present))))
+	    (, ,)
+	    (CP-REL-6 (WPP-7 (P to)
+			     (WNP (WPRO$ whos) (ADJ laste) (N slep)))
+		      (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (ADJ holy) (NS halwen))
+				      (VBP hi+get+t)
+				      (PP (P to)
+					  (PP *T*-7)))
+			      (CONJP (CONJ and)
+				     (, ,)
+				     (IP-SUB (PP *T*-7)
+					     (NP-SBJ *con*)
+					     (IP-PPL (IP-PPL (VAG +gyvyngge)
+							     (NP-OB1 (N help))
+							     (PP (P as)
+								 (PP (P to)
+								     (NP (PRO$ here)
+									 (N cyteseyn)
+									 (PP (P of)
+									     (NP (NPR heuene)))))))
+						     (CONJP (CONJ and)
+							    (IP-PPL (VAG mynystryngge)
+								    (NP-OB1 (ADJ hertly) (N confort)))))
+					     (, ,)
+					     (VBP fi+gte+t)
+					     (PP (P for)
+						 (NP (PRO hym)))
+					     (PP (P a+gens)
+						 (NP (PRO$ his) (NS enemys)))))
+			      (, ,)
+			      (CONJP (IP-SUB (NP-SBJ *con*)
+					     (VBP caste+t)
+					     (PP (P+RP adoun))
+					     (NP-OB1 (PRO$ his) (NS wi+tstonderes))))
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (ADVP (ADV scharply))
+					     (VBP conuicte+t)
+					     (NP-OB1 (PRO$ his) (NS accousours))
+					     (, ,)
+					     (IP-PPL (VAG bryngyngge)
+						     (NP-OB1 (PRO$ his) (N soule))
+						     (PP (PP (FP euene)
+							     (P to)
+							     (NP (NPR$ Abrahames) (N bosum)))
+							 (CONJP (CONJ and)
+								(PP (P to)
+								    (NP (D +te)
+									(N si+gt)
+									(PP (P of)
+									    (NP (NPR God))))))
+							 (, ,)
+							 (CP-REL (WADVP-8 (ADV +ter))
+								 (C +tat)
+								 (IP-SUB (ADVP-LOC *T*-8)
+									 (NP-SBJ (PRO he))
+									 (MD schal)
+									 (VB abyden)
+									 (PP (P in)
+									     (NP (N reste) (, ,) (N pees) (CONJ and) (N li+gt)))))))))))
+	    (. .))
+  (ID CMAELR3,56.948))
+
+/~*
+Now, suster, I haue wryte to +te in schorte wordes of +te $moynde of Cristes
+benefices +tat ben apassed, of +te experience of +to +tat be+t present, and of
++te abydyngge hope of $+to +tat be+t to comene - of +te whiche mor plentevous
+fruyt of +te loue of God mowe sprynge out of +tyn herte - so +tat +tis +tre
+maner meditacioun mowe styrye +ty gostly affeccioun,
+(CMAELR3,60.1043)
+*~/
+/*
+136 WNP:  136 WNP, 140 whiche, 132 CP-REL
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (, ,)
+	  (NP-VOC (N suster))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (HVP haue)
+	  (VBN wryte)
+	  (PP (P to)
+	      (NP (PRO +te)))
+	  (PP (P in)
+	      (NP (ADJ schorte) (NS wordes)))
+	  (PP (PP (P of)
+		  (NP (D +te)
+		      (N $moynde)
+		      (PP (P of)
+			  (NP (NPR$ Cristes) (NS benefices)))
+		      (CP-REL (WNP-1 0)
+			      (C +tat)
+			      (IP-SUB (NP-SBJ *T*-1)
+				      (BEP ben)
+				      (VAN apassed)))))
+	      (, ,)
+	      (CONJP (PP (P of)
+			 (NP (D +te)
+			     (N experience)
+			     (PP (P of)
+				 (NP (D +to)
+				     (CP-REL (WNP-2 0)
+					     (C +tat)
+					     (IP-SUB (NP-SBJ *T*-2)
+						     (BEP be+t)
+						     (CODE <P_60>)
+						     (ADJP (ADJ present)))))))))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (PP (P of)
+			 (NP (D +te)
+			     (VAG abydyngge)
+			     (N hope)
+			     (PP (P of)
+				 (NP (D $+to)
+				     (CP-REL (WNP-3 0)
+					     (C +tat)
+					     (IP-SUB (NP-SBJ *T*-3)
+						     (BEP be+t)
+						     (IP-INF (TO to) (VB comene)))))))))
+	      (, -)
+	      (CP-REL (WPP-4 (P of)
+			     (WNP (D +te) (WPRO whiche)))
+		      (C 0)
+		      (IP-SUB (PP *T*-4)
+			      (NP-SBJ (ADJP (QR mor) (ADJ plentevous))
+				      (N fruyt)
+				      (PP (P of)
+					  (NP (D +te)
+					      (N loue)
+					      (PP (P of)
+						  (NP (NPR God))))))
+			      (MD mowe)
+			      (VB sprynge)
+			      (PP (RP out)
+				  (P of)
+				  (NP (PRO$ +tyn) (N herte))))))
+	  (, -)
+	  (PP (P so)
+	      (CP-ADV (C +tat)
+		      (IP-SUB (NP-SBJ (D +tis)
+				      (NUM +tre)
+				      (N maner)
+				      (NP-COM (N meditacioun)))
+			      (MD mowe)
+			      (VB styrye)
+			      (NP-OB1 (PRO$ +ty) (ADJ gostly) (N affeccioun)))))
+	  (. ,))
+  (ID CMAELR3,60.1043))
+
+/~*
+for +tu hast bodyly informaciouns, after +te whiche +tu schalt rule and
+gouerne +te owtward man;
+(CMAELR3,60.1048)
+*~/
+/*
+20 WNP:  20 WNP, 24 whiche, 16 CP-REL
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tu))
+	  (HVP hast)
+	  (NP-OB1 (ADJ bodyly)
+		  (NS informaciouns)
+		  (, ,)
+		  (CP-REL (WPP-1 (P after)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB-2 (PP *T*-1)
+					    (NP-SBJ (PRO +tu))
+					    (MD schalt)
+					    (VB rule))
+				  (CONJP (CONJ and)
+					 (IP-SUB=2 (VB gouerne)
+						   (NP-OB1 (D +te) (ADJ owtward) (N man)))))))
+	  (. ;))
+  (ID CMAELR3,60.1048))
+
+/~*
+and also I haue itake +te a maner forme by +te whiche +tu mi+gt purge +te
+inward man fro vices, and maken hym fayr in vertu.
+(CMAELR3,60.1049)
+*~/
+/*
+28 WNP:  28 WNP, 32 whiche, 24 CP-REL
+*/
+
+( (IP-MAT (CONJ and)
+	  (ALSO also)
+	  (NP-SBJ (PRO I))
+	  (HVP haue)
+	  (VBN itake)
+	  (NP-OB2 (PRO +te))
+	  (NP-OB1 (D a)
+		  (N maner)
+		  (NP-COM (N forme))
+		  (CP-REL (WPP-1 (P by)
+				 (WNP (D +te) (WPRO whiche)))
+			  (C 0)
+			  (IP-SUB (IP-SUB-2 (PP *T*-1)
+					    (NP-SBJ (PRO +tu))
+					    (MD mi+gt)
+					    (VB purge)
+					    (NP-OB1 (D +te) (ADJ inward) (N man))
+					    (PP (P fro)
+						(NP (NS vices))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=2 (VB maken)
+						   (IP-SMC (NP-SBJ (PRO hym))
+							   (ADJP (ADJ fayr)))
+						   (PP (P in)
+						       (NP (N vertu))))))))
+	  (. .))
+  (ID CMAELR3,60.1049))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	40/34/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+
+/~*
+& gladly take And spedily fulfil +te warnyng of +te meke fadir, +tat +tu mai
+turne a-gayne to hym by +te labur of obedience, fra whame +tu had gane by +te
+slew+t of inobedience.
+(CMBENRUL,1.4)
+*~/
+/*
+77 WNP:  77 WNP, 79 whame, 73 CP-REL-2
+*/
+
+( (IP-IMP (IP-IMP=1 (CONJ &)
+		    (ADVP (ADV gladly))
+		    (VBI take))
+	  (CONJP (CONJ And)
+		 (IP-IMP-1 (ADVP (ADV spedily))
+			   (VBI fulfil)
+			   (NP-OB1 (D +te)
+				   (N warnyng)
+				   (PP (P of)
+				       (NP (D +te) (ADJ meke) (N fadir))))
+			   (, ,)
+			   (CP-ADV (C +tat)
+				   (IP-SUB (NP-SBJ (PRO +tu))
+					   (MD mai)
+					   (VB turne)
+					   (ADV a-gayne)
+					   (PP (P to)
+					       (NP (PRO hym)
+						   (CP-REL *ICH*-2)))
+					   (PP (P by)
+					       (NP (D +te)
+						   (N labur)
+						   (PP (P of)
+						       (NP (N obedience)))))
+					   (, ,)
+					   (CP-REL-2 (WPP-3 (P fra)
+							    (WNP (WPRO whame)))
+						     (C 0)
+						     (IP-SUB (PP *T*-3)
+							     (NP-SBJ (PRO +tu))
+							     (HVD had)
+							     (VBN gane)
+							     (PP (P by)
+								 (NP (D +te)
+								     (N slew+t)
+								     (PP (P of)
+									 (NP (N inobedience)))))))))))
+	  (. .))
+  (ID CMBENRUL,1.4))
+
+/~*
+Rennes fast do wilis ye haue liht, +tat +te mirkenes o ded our-take +te noht.
+"
+(CMBENRUL,2.21)
+*~/
+/*
+13 WNP:  13 WNP, 14 0, 12 CP-REL-SPE
+*/
+
+( (IP-IMP-SPE (VBI Rennes)
+	      (ADVP (ADV fast))
+	      (NP-MSR (D do)
+		      (NS wilis)
+		      (CP-REL-SPE (WNP 0)
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ (PRO ye))
+					      (HVP haue)
+					      (NP-OB1 (N liht)))))
+	      (, ,)
+	      (CP-ADV-SPE (C +tat)
+			  (IP-SUB-SPE (NP-SBJ (D +te)
+					      (N mirkenes)
+					      (PP (P o)
+						  (NP (N ded))))
+				      (VBP our-take)
+				      (NP-OB1 (PRO +te))
+				      (NEG noht)))
+	      (. .)
+	      (" "))
+  (ID CMBENRUL,2.21))
+
+/~*
+$and grace til him giue, of whame we haue al +te gude;
+(CMBENRUL,3.57)
+*~/
+/*
+23 WNP:  23 WNP, 25 whame, 19 CP-REL-1
+*/
+
+( (IP-IMP (CONJ $and)
+	  (NP-OB1 (N grace)
+		  (PP (P til)
+		      (NP (PRO him)
+			  (CP-REL *ICH*-1))))
+	  (VBI giue)
+	  (, ,)
+	  (CP-REL-1 (WPP-2 (P of)
+			   (WNP (WPRO whame)))
+		    (C 0)
+		    (IP-SUB (PP *T*-2)
+			    (NP-SBJ (PRO we))
+			    (HVP haue)
+			    (NP-OB1 (Q al) (D +te) (N gude))))
+	  (. ;))
+  (ID CMBENRUL,3.57))
+
+/~*
+And yef it fallis yu ani time, On waim +te for-getilnes es on-long sal man
+take amendis for +tat faute in +te kirke.
+(CMBENRUL,17.586)
+*~/
+/*
+32 WNP:  32 WNP, 34 waim, 28 CP-REL-1
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P yef)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (VBP fallis)
+			      (NP-OB1 (PRO yu)
+				      (CP-REL *ICH*-1))
+			      (NP-TMP (Q ani) (N time))
+			      (, ,)
+			      (CP-REL-1 (WPP (P On)
+					     (WNP (WPRO waim)))
+					(C 0)
+					(IP-SUB (NP-SBJ (D +te) (N for-getilnes))
+						(BEP es)
+						(ADJP (ADJ on-long)))))))
+	  (MD sal)
+	  (NP-SBJ (MAN man))
+	  (VB take)
+	  (NP-OB1 (NS amendis))
+	  (PP (P for)
+	      (NP (D +tat) (N faute)))
+	  (PP (P in)
+	      (NP (D +te) (NPR kirke)))
+	  (. .))
+  (ID CMBENRUL,17.586))
+
+/~*
+wyd mekil mare deuociun ahte ye +tanne at pray to god, of whaim +tat al +gude
+cumis.
+(CMBENRUL,19.667)
+*~/
+/*
+37 WNP:  37 WNP, 39 whaim, 33 CP-REL
+*/
+
+( (IP-MAT (PP (P wyd)
+	      (NP (QP (Q mekil) (QR mare))
+		  (N deuociun)))
+	  (MD ahte)
+	  (NP-SBJ (PRO ye))
+	  (ADVP-TMP (ADV +tanne))
+	  (TO at)
+	  (VB pray)
+	  (PP (P to)
+	      (NP (NPR god)
+		  (, ,)
+		  (CP-REL (WPP-1 (P of)
+				 (WNP (WPRO whaim)))
+			  (C +tat)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (Q al) (N +gude))
+				  (VBP cumis)))))
+	  (. .))
+  (ID CMBENRUL,19.667))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	5/5/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	40/34/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	5/5/1454
+whole search, hits/tokens/total
+		45/39/2508
+*/

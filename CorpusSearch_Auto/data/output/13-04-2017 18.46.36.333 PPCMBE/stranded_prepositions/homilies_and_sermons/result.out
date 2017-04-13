@@ -1,0 +1,981 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:24 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\stranded_prepositions\homilies_and_sermons\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\burton-1762.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\burton-1762.psd	0/0/425
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\butler-1726.psd
+*/
+
+/~*
+But the Degree in which we are put upon seeking and making use of the Means of
+Gratification, by the feeling of those Affections, Appetites and Passions,
+must necessarily be peculiar to ourselves.
+(BUTLER-1726,240.104)
+*~/
+/*
+43 P:  43 P, 44 of, 42 PP
+*/
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (D the)
+		  (N Degree)
+		  (CP-REL (WPP-1 (P in)
+				 (WNP (WPRO which)))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO we))
+				  (BEP are)
+				  (VAN put)
+				  (PP (P upon)
+				      (IP-PPL-2 (VAG seeking)
+						(IP-PPL-PRN=2 (CONJ and)
+							      (VAG making)
+							      (NP-OB1 (N use)
+								      (PP (P of))))
+						(NP-OB1 (D the)
+							(N Means)
+							(PP (P of)
+							    (NP (N Gratification))))))
+				  (, ,)
+				  (PP (P by)
+				      (NP (D the)
+					  (N feeling)
+					  (PP (P of)
+					      (NP (D those)
+						  (NS Affections)
+						  (, ,)
+						  (CONJP (NX (NS Appetites)))
+						  (CONJP (CONJ and)
+							 (NX (NS Passions))))))))))
+	  (, ,)
+	  (MD must)
+	  (ADVP (ADV necessarily))
+	  (BE be)
+	  (ADJP (ADJ peculiar)
+		(PP (P to)
+		    (NP (PRO$+N ourselves))))
+	  (. .))
+  (ID BUTLER-1726,240.104))
+
+/~*
+As to the Meaning of the Expressions, seeketh not her own, thinketh no evil,
+believeth all things; however those Expressions may be explained away, this
+Meekness, and, in some Degree, Easiness of Temper, Readiness to forego our
+Right for the Sake of Peace as well as in the Way of Compassion, Freedom from
+Mistrust, and Disposition to believe well of our Neighbour, this general
+Temper, I say, accompanies and is plainly the Effect of Love and Good-will.
+(BUTLER-1726,242.122)
+*~/
+/*
+250 P:  250 P, 251 of, 249 PP
+*/
+
+( (IP-MAT-1 (PP (P As)
+		(PP (P to)
+		    (NP (D the)
+			(N Meaning)
+			(PP (P of)
+			    (NP (D the)
+				(NS Expressions)
+				(, ,)
+				(CODE <font>)
+				(QTP (IP-MAT (IP-MAT (NP-SBJ *pro*)
+						     (VBP seeketh)
+						     (NEG not)
+						     (NP-OB1 (PRO$ her) (ADJ own)))
+					     (, ,)
+					     (CONJP (IP-MAT (NP-SBJ *con*)
+							    (VBP thinketh)
+							    (NP-OB1 (Q no) (N evil))))
+					     (, ,)
+					     (CONJP (IP-MAT (NP-SBJ *con*)
+							    (VBP believeth)
+							    (NP-OB1 (Q all) (NS things)))))))))))
+	    (, ;)
+	    (CODE <$$font>)
+	    (ADVP (CP-FRL (WADVP-2 (WADV+ADV however))
+			  (C 0)
+			  (IP-SUB (ADVP *T*-2)
+				  (NP-SBJ (D those) (NS Expressions))
+				  (MD may)
+				  (BE be)
+				  (VAN explained)
+				  (ADVP-DIR (ADV away)))))
+	    (, ,)
+	    (NP-SBJ (D this)
+		    (N Meekness)
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (, ,)
+			   (PP (P in)
+			       (NP (Q some) (N Degree)))
+			   (, ,)
+			   (NX (N Easiness)
+			       (PP (P of)
+				   (NP (N Temper)))))
+		    (, ,)
+		    (CONJP (NX (N Readiness)
+			       (IP-INF (TO to)
+				       (VB forego)
+				       (NP-OB1 (PRO$ our) (N Right))
+				       (PP (P for)
+					   (NP (D the)
+					       (N Sake)
+					       (PP (P of)
+						   (NP (N Peace)))))
+				       (ADVP (ADVR as)
+					     (ADV well)
+					     (PP (P as)
+						 (PP (P in)
+						     (NP (D the)
+							 (N Way)
+							 (PP (P of)
+							     (NP (NP (N Compassion))
+								 (, ,)
+								 (CONJP (NP (N Freedom)
+									    (PP (P from)
+										(NP (N Mistrust)))))
+								 (, ,)
+								 (CONJP (CONJ and)
+									(NP (N Disposition)
+									    (IP-INF (TO to)
+										    (VB believe)
+										    (ADVP (ADV well))
+										    (PP (P of)
+											(NP (PRO$ our) (N Neighbour)))))))))))))))
+		    (, ,)
+		    (NP-PRN-ELAB (D this) (ADJ general) (N Temper)))
+	    (, ,)
+	    (IP-MAT-PRN (NP-SBJ (PRO I))
+			(VBP say))
+	    (, ,)
+	    (VBP accompanies)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (BEP is)
+			  (ADVP (ADV plainly))
+			  (NP-OB1 (D the)
+				  (N Effect)
+				  (PP (P of))))
+	    (NP-OB1 (N Love) (CONJ and) (ADJ+N Good-will))
+	    (. .))
+  (ID BUTLER-1726,242.122))
+
+/~*
+Every Body knows, you therefore need only just be put in Mind, that there is
+such a Thing, as having so great Horror of one Extream, as to run insensibly
+and of Course into the contrary; and that a Doctrine's having been a Shelter
+for Enthusiasm, or made to serve the Purposes of Superstition, is no Proof of
+the Falsity of it: Truth or Right being somewhat real in itself, and so not to
+be judged of by its Liableness to Abuse, or by its supposed Distance from or
+Nearness to Error.
+(BUTLER-1726,256.196)
+*~/
+/*
+278 P:  278 P, 279 to, 277 PP
+*/
+
+( (IP-MAT (NP-SBJ (Q Every) (N Body))
+	  (VBP knows)
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO you))
+		      (PP (ADV+P therefore))
+		      (MD need)
+		      (ADVP (FP only) (ADV just))
+		      (BE be)
+		      (VAN put)
+		      (PP (P in)
+			  (NP (N Mind))))
+	  (, ,)
+	  (CP-THT (CP-THT (C that)
+			  (IP-SUB (NP-SBJ-1 (EX there))
+				  (BEP is)
+				  (NP-1 (SUCH such)
+					(D a)
+					(N Thing)
+					(, ,)
+					(PP (P as)
+					    (IP-PPL (HAG having)
+						    (NP-OB1 (ADJP (ADVR so) (ADJ great))
+							    (N Horror)
+							    (PP (P of)
+								(NP (ONE one) (N Extream)))
+							    (, ,)
+							    (PP (P as)
+								(IP-INF (TO to)
+									(VB run)
+									(ADVP (ADVP (ADV insensibly))
+									      (CONJP (CONJ and)
+										     (PP (P of)
+											 (NP (N Course)))))
+									(PP (P into)
+									    (NP (D the) (N contrary)))))))))))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (NP-SBJ (NP-POS (D a) (N$ Doctrine's))
+						 (IP-PPL (IP-PPL-2 (HAG having)
+								   (BEN been)
+								   (NP-OB1 (D a) (N Shelter))
+								   (PP (P for)
+								       (NP (N Enthusiasm))))
+							 (, ,)
+							 (CONJP (CONJ or)
+								(IP-PPL=2 (VAN made)
+									  (IP-INF (TO to)
+										  (VB serve)
+										  (NP-OB1 (D the)
+											  (NS Purposes)
+											  (PP (P of)
+											      (NP (N Superstition)))))))))
+					 (, ,)
+					 (BEP is)
+					 (NP-OB1 (Q no)
+						 (N Proof)
+						 (PP (P of)
+						     (NP (D the)
+							 (N Falsity)
+							 (PP (P of)
+							     (NP (PRO it))))))))))
+	  (, :)
+	  (IP-PPL-ABS (IP-PPL-3 (NP-SBJ (N Truth) (CONJ or) (N Right))
+				(BAG being)
+				(ADJP (NP-MSR (Q+WPRO somewhat))
+				      (ADJ real)
+				      (PP (P in)
+					  (NP (PRO+N itself)))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL=3 (ADVP (ADV so))
+				       (IP-INF (NEG not)
+					       (TO to)
+					       (BE be)
+					       (VAN judged)
+					       (PP (P of)
+						   (NP *))
+					       (PP (PP (P by)
+						       (NP (PRO$ its)
+							   (CODE <P_256>)
+							   (N Liableness)
+							   (PP (P to)
+							       (NP (N Abuse)))))
+						   (, ,)
+						   (CONJP (CONJ or)
+							  (PP (P by)
+							      (NP-4 (PRO$ its)
+								    (VAN supposed)
+								    (N Distance)
+								    (PP (P from)
+									(NP-PRN=4 (CONJ or)
+										  (NP (N Nearness)
+										      (PP (P to))))
+									(NP (N Error)))))))))))
+	  (. .))
+  (ID BUTLER-1726,256.196))
+
+/~*
+As this does not include servile Fear; so neither will any other Regards, how
+reasonable soever, which respect any thing out of or besides the Perfection of
+the divine Nature, come into Consideration here.
+(BUTLER-1726,256.199)
+*~/
+/*
+76 P:  76 P, 77 of, 73 P
+80 P:  80 P, 81 besides, 72 P
+*/
+
+( (IP-MAT (PP-LFD (P As)
+		  (CP-ADV (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP *T*-1)
+				  (NP-SBJ (D this))
+				  (DOP does)
+				  (NEG not)
+				  (VB include)
+				  (NP-OB1 (ADJ servile) (N Fear)))))
+	  (, ;)
+	  (ADVP-RSP (ADV so))
+	  (CONJ neither)
+	  (MD will)
+	  (NP-SBJ (Q any)
+		  (OTHER other)
+		  (NS Regards)
+		  (, ,)
+		  (CP-QUE-PRN (WADJP (WADV how) (ADJ reasonable) (ADV+ADV soever)))
+		  (, ,)
+		  (CP-REL (WNP-2 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (VBP respect)
+				  (NP-OB1 (Q any)
+					  (N thing)
+					  (PP (P (P (RP out) (P of))
+						 (CONJ or)
+						 (P besides))
+					      (NP (D the)
+						  (N Perfection)
+						  (PP (P of)
+						      (NP (D the) (ADJ divine) (N Nature)))))))))
+	  (, ,)
+	  (VB come)
+	  (PP (P into)
+	      (NP (N Consideration)))
+	  (ADVP-LOC (ADV here))
+	  (. .))
+  (ID BUTLER-1726,256.199))
+
+/~*
+Now as Reason tends to and rests in the Discernment of Truth, the Object of it;
+so the very Nature of Affection consists in tending towards, and resting in,
+its Object as an End.
+(BUTLER-1726,259.224)
+*~/
+/*
+30 P:  30 P, 31 in, 29 PP
+93 P:  93 P, 94 in, 92 PP
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP-LFD (P as)
+		  (CP-ADV (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB-2 (ADVP *T*-1)
+				    (NP-SBJ (N Reason))
+				    (VBP tends)
+				    (PP (P to)
+					(IP-SUB-PRN=2 (CONJ and)
+						      (VBP rests)
+						      (PP (P in)))
+					(NP (D the)
+					    (N Discernment)
+					    (PP (P of)
+						(NP (N Truth)))
+					    (, ,)
+					    (NP-PRN (D the)
+						    (N Object)
+						    (PP (P of)
+							(NP (PRO it)))))))))
+	  (, ;)
+	  (ADVP-RSP (ADV so))
+	  (NP-SBJ (D the)
+		  (ADJ very)
+		  (N Nature)
+		  (PP (P of)
+		      (NP (N Affection))))
+	  (VBP consists)
+	  (PP (P in)
+	      (IP-PPL-3 (VAG tending)
+			(PP (P towards)
+			    (, ,)
+			    (IP-PPL-PRN=3 (CONJ and)
+					  (VAG resting)
+					  (PP (P in)))
+			    (, ,)
+			    (NP (PRO$ its) (N Object)))
+			(PP (P as)
+			    (NP (D an) (N End)))))
+	  (. .))
+  (ID BUTLER-1726,259.224))
+
+/~*
+We do indeed often in common Language say, that things are loved, desired,
+esteemed, not for themselves, but for somewhat further, somewhat out of and
+beyond them:
+(BUTLER-1726,259.225)
+*~/
+/*
+80 P:  80 P, 81 of, 77 P
+84 P:  84 P, 85 beyond, 76 P
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (DOP do)
+	  (PP (P+N indeed))
+	  (ADVP-TMP (ADV often))
+	  (PP (P in)
+	      (NP (ADJ common) (N Language)))
+	  (VB say)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (NS things))
+			  (BEP are)
+			  (VAN (VAN loved) (, ,) (VAN desired) (, ,) (VAN esteemed))
+			  (, ,)
+			  (PP (PP (NEG not)
+				  (P for)
+				  (NP (PRO+N themselves)))
+			      (, ,)
+			      (CONJP (CONJ but)
+				     (PP (P for)
+					 (NP (Q+WPRO somewhat)
+					     (ADJP (ADJR further))
+					     (, ,)
+					     (NP-PRN-ELAB (Q+WPRO somewhat)
+							  (PP (P (P (RP out) (P of))
+								 (CONJ and)
+								 (P beyond))
+							      (NP (PRO them))))))))))
+	  (. :))
+  (ID BUTLER-1726,259.225))
+
+/~*
+To be a just, a good, a righteuos Man, plainly carries with it a peculiar
+Affection to, or Love of Justice, Goodness, Righteousness, when these
+Principles are the Objects of Contemplation.
+(BUTLER-1726,262.246)
+*~/
+/*
+63 P:  63 P, 64 of, 62 PP
+*/
+
+( (IP-MAT (IP-INF-SBJ (TO To)
+		      (BE be)
+		      (NP-OB1 (NP (D a) (ADJ just))
+			      (, ,)
+			      (CONJP (NP (D a) (ADJ good)))
+			      (, ,)
+			      (CONJP (NP (D a) (ADJ righteuos) (N Man)))))
+	  (, ,)
+	  (ADVP (ADV plainly))
+	  (VBP carries)
+	  (PP (P with)
+	      (NP (PRO it)))
+	  (NP-OB1-1 (D a)
+		    (ADJ peculiar)
+		    (N Affection)
+		    (PP (P to)
+			(, ,)
+			(NP-PRN=1 (CONJ or)
+				  (NP (N Love)
+				      (PP (P of))))
+			(NP (N Justice)
+			    (, ,)
+			    (CONJP (N Goodness))
+			    (, ,)
+			    (CONJP (N Righteousness)))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D these) (NS Principles))
+			      (BEP are)
+			      (NP-OB1 (D the)
+				      (NS Objects)
+				      (PP (P of)
+					  (NP (N Contemplation)))))))
+	  (. .))
+  (ID BUTLER-1726,262.246))
+
+/~*
+Now if a Man approves of, or hath an Affection to, any Principle in and for
+itself; incidental things allowed for, it will be the same whether he views it
+in his own Mind or in another; in himself, or in his Neighbour.
+(BUTLER-1726,262.247)
+*~/
+/*
+35 P:  35 P, 36 to, 34 PP
+50 P:  50 P, 51 for, 45 P
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB-1 (NP-SBJ (D a) (N Man))
+				(VBP approves)
+				(PP (P of)
+				    (, ,)
+				    (IP-SUB-PRN=1 (CONJ or)
+						  (HVP hath)
+						  (NP-OB1 (D an)
+							  (N Affection)
+							  (PP (P to))))
+				    (, ,)
+				    (NP (Q any)
+					(N Principle)
+					(PP (P (P in) (CONJ and) (P for))
+					    (NP (PRO+N itself))))))))
+	  (, ;)
+	  (IP-ABS (NP-SBJ-2 (ADJ incidental) (NS things))
+		  (VAN allowed)
+		  (PP (P for)
+		      (NP *-2)))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (MD will)
+	  (BE be)
+	  (NP-OB1 (D the) (ADJ same))
+	  (CP-QUE-ADV (WQ whether)
+		      (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBP views)
+			      (NP-OB1 (PRO it))
+			      (PP (PP (PP (P in)
+					  (NP (PRO$ his) (ADJ own) (N Mind)))
+				      (CONJP (CONJ or)
+					     (PP (P in)
+						 (NP (D+OTHER another)))))
+				  (, ;)
+				  (PP (PP (P in)
+					  (NP (PRO+N himself)))
+				      (, ,)
+				      (CONJP (CONJ or)
+					     (PP (P in)
+						 (NP (PRO$ his) (N Neighbour))))))))
+	  (. .))
+  (ID BUTLER-1726,262.247))
+
+/~*
+This is the Account of our Approbation of, our moral Love and Affection to
+good Characters; which $can $not but be in those who have any Degrees of real
+Goodness in themselves, and who discern and take Notice of the same Principle
+in others.
+(BUTLER-1726,262.248)
+*~/
+/*
+39 P:  39 P, 40 to, 38 PP
+129 P:  129 P, 130 of, 128 PP
+*/
+
+( (IP-MAT (NP-SBJ (D This))
+	  (BEP is)
+	  (NP-OB1 (D the)
+		  (N Account)
+		  (PP (P of)
+		      (NP-1 (PRO$ our)
+			    (N Approbation)
+			    (PP (P of)
+				(, ,)
+				(NP-PRN=1 (PRO$ our)
+					  (ADJ moral)
+					  (N Love)
+					  (CONJP (CONJ and)
+						 (NX (N Affection)))
+					  (PP (P to)))
+				(NP (ADJ good) (NS Characters)))
+			    (, ;)
+			    (CP-REL (WNP-2 (WPRO which))
+				    (C 0)
+				    (IP-SUB (NP-SBJ *T*-2)
+					    (MD $can)
+					    (NEG $not)
+					    (CODE {TEXT:cannot})
+					    (FP but)
+					    (BE be)
+					    (PP (P in)
+						(NP (D those)
+						    (CP-REL (CP-REL (WNP-3 (WPRO who))
+								    (C 0)
+								    (IP-SUB (NP-SBJ *T*-3)
+									    (HVP have)
+									    (NP-OB1 (Q any)
+										    (NS Degrees)
+										    (PP (P of)
+											(NP (ADJ real) (N Goodness))))
+									    (PP (P in)
+										(NP (PRO+N themselves)))))
+							    (, ,)
+							    (CONJP (CONJ and)
+								   (CP-REL (WNP-4 (WPRO who))
+									   (C 0)
+									   (IP-SUB-5 (NP-SBJ *T*-4)
+										     (VBP discern)
+										     (IP-SUB-PRN=5 (CONJ and)
+												   (VBP take)
+												   (NP (N Notice)
+												       (PP (P of))))
+										     (NP-OB1 (D the) (ADJ same) (N Principle))
+										     (PP (P in)
+											 (NP (OTHERS others))))))))))))))
+	  (. .))
+  (ID BUTLER-1726,262.248))
+
+/~*
+Thus Love, Reverence, Desire of Esteem, every Faculty, every Affection, tends
+towards, and is employed about its respective Object in common Cases:
+(BUTLER-1726,269.306)
+*~/
+/*
+60 P:  60 P, 61 about, 59 PP
+*/
+
+( (IP-MAT-1 (ADVP (ADV Thus))
+	    (NP-SBJ (NP (N Love))
+		    (, ,)
+		    (CONJP (NP (N Reverence)))
+		    (, ,)
+		    (CONJP (NP (N Desire)
+			       (PP (P of)
+				   (NP (N Esteem)))))
+		    (, ,)
+		    (CONJP (NP (Q every) (N Faculty)))
+		    (, ,)
+		    (CONJP (NP (Q every) (N Affection))))
+	    (, ,)
+	    (VBP tends)
+	    (PP (P towards)
+		(, ,)
+		(IP-MAT-PRN=1 (CONJ and)
+			      (BEP is)
+			      (VAN employed)
+			      (PP (P about)))
+		(NP (PRO$ its) (ADJ respective) (N Object)))
+	    (PP (P in)
+		(NP (ADJ common) (NS Cases)))
+	    (. :))
+  (ID BUTLER-1726,269.306))
+
+/~*
+There is a Temper of Mind made up of, or which follows from all three, Fear,
+Hope, Love; namely, Resignation to the Divine Will, which is the general
+Temper belonging to this State; which ought to be the habitual Frame of our
+Mind and Heart, and to be exercised at proper Seasons more distinctly, in Acts
+of Devotion.
+(BUTLER-1726,274.349)
+*~/
+/*
+48 P:  48 P, 49 from, 47 PP
+*/
+
+( (IP-MAT-1 (NP-SBJ-2 (EX There))
+	    (BEP is)
+	    (NP-2 (D a)
+		  (N Temper)
+		  (PP (P of)
+		      (NP (N Mind)))
+		  (NP-PRN *ICH*-4)
+		  (CP-REL *ICH*-5)
+		  (CP-REL *ICH*-7))
+	    (VAN made)
+	    (RP up)
+	    (PP (P of)
+		(, ,)
+		(IP-MAT-PRN=1 (CONJ or)
+			      (CP-REL (WNP-3 (WPRO which))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-3)
+					      (VBP follows)
+					      (PP (P from)))))
+		(NP (Q all)
+		    (NUM three)
+		    (, ,)
+		    (NP-PRN (N Fear)
+			    (, ,)
+			    (CONJP (N Hope))
+			    (, ,)
+			    (CONJP (N Love)))))
+	    (, ;)
+	    (NP-PRN-4 (ADV namely)
+		      (, ,)
+		      (N Resignation)
+		      (PP (P to)
+			  (NP (D the) (ADJ Divine) (N Will))))
+	    (, ,)
+	    (CP-REL-5 (WNP-6 (WPRO which))
+		      (C 0)
+		      (IP-SUB (NP-SBJ *T*-6)
+			      (BEP is)
+			      (NP-OB1 (D the)
+				      (ADJ general)
+				      (N Temper)
+				      (RRC (VAG belonging)
+					   (PP (P to)
+					       (NP (D this) (N State)))))))
+	    (, ;)
+	    (CP-REL-7 (WNP-8 (WPRO which))
+		      (C 0)
+		      (IP-SUB (IP-SUB-9 (NP-SBJ *T*-8)
+					(MD ought)
+					(TO to)
+					(BE be)
+					(NP-OB1 (D the)
+						(ADJ habitual)
+						(N Frame)
+						(PP (P of)
+						    (NP (PRO$ our)
+							(N Mind)
+							(CONJP (CONJ and)
+							       (NX (N Heart)))))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB=9 (TO to)
+					       (BE be)
+					       (VAN exercised)
+					       (PP (P at)
+						   (NP (ADJ proper) (NS Seasons)))
+					       (ADVP (QR more) (ADV distinctly))
+					       (, ,)
+					       (PP (P in)
+						   (NP (NS Acts)
+						       (PP (P of)
+							   (NP (N Devotion)))))))))
+	    (. .))
+  (ID BUTLER-1726,274.349))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\butler-1726.psd	16/11/349
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\froude-1830.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\froude-1830.psd	0/0/366
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\pusey-186x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\pusey-186x.psd	0/0/439
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\talbot-1901.psd
+*/
+
+/~*
+And the work of the Son of man purporting to be, and accepted as, the work of
+God's love, was such as to make a centre to history, to ennoble man in the
+best sense, to throw a light upon the blank riddle of life.
+(TALBOT-1901,99.154)
+*~/
+/*
+39 P:  39 P, 40 as, 38 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (D the)
+		  (N work)
+		  (PP (P of)
+		      (NP (D the)
+			  (N Son)
+			  (PP (P of)
+			      (NP (N man)))))
+		  (IP-PPL (VAG purporting)
+			  (IP-INF (TO to)
+				  (BE be)
+				  (, ,)
+				  (RRC-PRN=1 (CONJ and)
+					     (VAN accepted)
+					     (PP (P as)))
+				  (, ,)
+				  (NP-OB1 (D the)
+					  (N work)
+					  (PP (P of)
+					      (NP (NPR$ God's) (N love)))))))
+	  (, ,)
+	  (BED was)
+	  (ADJP (SUCH such)
+		(PP (P as)
+		    (IP-INF (IP-INF (TO to)
+				    (VB make)
+				    (NP-OB1 (D a)
+					    (N centre)
+					    (PP (P to)
+						(NP (N history)))))
+			    (, ,)
+			    (CONJP (IP-INF (TO to)
+					   (VB ennoble)
+					   (NP-OB1 (N man))
+					   (PP (P in)
+					       (NP (D the) (ADJS best) (N sense)))))
+			    (, ,)
+			    (CONJP (IP-INF (TO to)
+					   (VB throw)
+					   (NP-OB1 (D a) (N light))
+					   (PP (P upon)
+					       (NP (D the)
+						   (ADJ blank)
+						   (N riddle)
+						   (PP (P of)
+						       (NP (N life))))))))))
+	  (. .))
+  (ID TALBOT-1901,99.154))
+
+/~*
+and say without hesitation that the belief in the living God behind and in all
+the immensities and infinities is the only abiding source of real awe, and of
+the nobleness which comes of awe.
+(TALBOT-1901,100.169)
+*~/
+/*
+39 P:  39 P, 40 in, 34 P
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP say)
+	  (PP (P without)
+	      (NP (N hesitation)))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N belief)
+				  (PP (P in)
+				      (NP (D the) (VAG living) (NPR God)))
+				  (PP (P (P behind) (CONJ and) (P in))
+				      (NP (Q all)
+					  (D the)
+					  (NS immensities)
+					  (CONJP (CONJ and)
+						 (NX (NS infinities))))))
+			  (BEP is)
+			  (NP-OB1 (D the)
+				  (ADJ only)
+				  (VAG abiding)
+				  (N source)
+				  (PP (PP (P of)
+					  (NP (ADJ real) (N awe)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (PP (P of)
+						 (NP (D the)
+						     (N nobleness)
+						     (CP-REL (WNP-1 (WPRO which))
+							     (C 0)
+							     (IP-SUB (NP-SBJ *T*-1)
+								     (VBP comes)
+								     (PP (P of)
+									 (NP (N awe))))))))))))
+	  (. .))
+  (ID TALBOT-1901,100.169))
+
+/~*
+Such an attitude needs, and rests upon, an implied division between those on
+one side who are all right, and those on the other side who are all wrong.
+(TALBOT-1901,108.262)
+*~/
+/*
+19 P:  19 P, 20 upon, 18 PP
+*/
+
+( (IP-MAT-1 (NP-SBJ (SUCH Such) (D an) (N attitude))
+	    (VBP needs)
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (VBP rests)
+			  (PP (P upon)))
+	    (, ,)
+	    (NP-OB1 (D an)
+		    (VAN implied)
+		    (N division)
+		    (PP (P between)
+			(NP (NP (D those)
+				(PP (P on)
+				    (NP (ONE one) (N side)))
+				(CP-REL (WNP-2 (WPRO who))
+					(C 0)
+					(IP-SUB (NP-SBJ *T*-2)
+						(BEP are)
+						(Q all)
+						(ADJP (ADJ right)))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (NP (D those)
+				       (PP (P on)
+					   (NP (D the) (OTHER other) (N side)))
+				       (CP-REL (WNP-3 (WPRO who))
+					       (C 0)
+					       (IP-SUB (NP-SBJ *T*-3)
+						       (BEP are)
+						       (ADJP (Q all) (ADJ wrong)))))))))
+	    (. .))
+  (ID TALBOT-1901,108.262))
+
+/~*
+Perhaps, for example, it is hardly too much to say that the popular attitude
+towards Lent is little less than ludicrous; for those, I mean, who have any
+aspiration beyond pleasant days or professional success.
+(TALBOT-1901,114.318)
+*~/
+/*
+62 P:  62 P, 63 than, 61 PP
+*/
+
+( (IP-MAT (ADVP (ADV Perhaps))
+	  (, ,)
+	  (PP (P for)
+	      (NP (N example)))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (ADVP (ADV hardly))
+	  (NP-OB1 (QP (ADVR too) (Q much)))
+	  (IP-INF-1 (TO to)
+		    (VB say)
+		    (CP-THT (C that)
+			    (IP-SUB (NP-SBJ (D the)
+					    (ADJ popular)
+					    (N attitude)
+					    (PP (P towards)
+						(NP (NPR Lent))))
+				    (CODE <P_114>)
+				    (BEP is)
+				    (ADJP (QP (Q little)
+					      (QR less)
+					      (PP (P than)))
+					  (ADJ ludicrous))
+				    (, ;)
+				    (PP (P for)
+					(NP (D those)
+					    (, ,)
+					    (IP-MAT-PRN (NP-SBJ (PRO I))
+							(VBP mean))
+					    (, ,)
+					    (CP-REL (WNP-2 (WPRO who))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (HVP have)
+							    (NP-OB1 (Q any)
+								    (N aspiration)
+								    (PP (P beyond)
+									(NP (NP (ADJ pleasant) (NS days))
+									    (CONJP (CONJ or)
+										   (NP (ADJ professional) (N success)))))))))))))
+	  (. .))
+  (ID TALBOT-1901,114.318))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\talbot-1901.psd	4/4/522
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\wollaston-1793.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\wollaston-1793.psd	0/0/341
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\burton-1762.psd	0/0/425
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\butler-1726.psd	16/11/349
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\froude-1830.psd	0/0/366
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\pusey-186x.psd	0/0/439
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\talbot-1901.psd	4/4/522
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\homilies_and_sermons\wollaston-1793.psd	0/0/341
+whole search, hits/tokens/total
+		20/15/2442
+*/

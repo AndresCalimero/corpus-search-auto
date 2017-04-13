@@ -1,0 +1,343 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:47:50 BST 2017
+
+command file:     data\searches\queries\YCOE\perfect_aspect_verbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 YCOE\perfect_aspect_verbs\travelogue\result.out
+
+node:   $ROOT|HV*|AX*|BEN|VBN|HVN
+query:  (BEN|VBN|HVN Dominates  !BEN|VBN|HVN) 
+  AND  (HV*|AX* Precedes  BEN|VBN|HVN) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd
+*/
+
+/~*
++Ta hie +da h+afdon feor+dan d+al +t+are ea geswummen, +da becwom sum
+ongrislic wise on hie.
+(coalex,Alex:15.12.139)
+*~/
+/*
+28 VBN:  28 VBN, 29 geswummen, 16 HVDI
+*/
+( (CODE <T23000009800,15.12>)
+  (IP-MAT-SPE (CP-ADV-SPE (P +Ta)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N hie))
+				      (ADVP-TMP (ADV^T +da))
+				      (HVDI h+afdon)
+				      (NP-ACC (ADJ^A feor+dan)
+					      (N^A d+al)
+					      (NP-GEN (D^G +t+are) (N^G ea)))
+				      (VBN geswummen)))
+	      (, ,)
+	      (ADVP-TMP (ADV^T +da))
+	      (VBDI becwom)
+	      (NP-NOM (Q^N sum) (ADJ^N ongrislic) (N^N wise))
+	      (PP (P on)
+		  (NP-ACC (PRO^A hie)))
+	      (. .))
+  (ID coalex,Alex:15.12.139))
+
+/~*
+h+afdon of +t+am hreode & of +t+am treowcynne +te in +d+are ea ofre stodon on
+scipwisan geworht +t+at hie onufan s+aton.
+(coalex,Alex:16.1.152)
+*~/
+/*
+52 VBN:  52 VBN, 53 geworht, 4 HVDI
+*/
+
+( (IP-MAT-SPE (NP-NOM *pro*)
+	      (HVDI h+afdon)
+	      (PP (PP (P of)
+		      (NP-DAT (D^D +t+am) (N^D hreode)))
+		  (CONJP (CONJ &)
+			 (PP (P of)
+			     (NP-DAT (D^D +t+am) (N^D treowcynne))))
+		  (CP-REL-SPE (WNP-NOM-3 0)
+			      (C +te)
+			      (IP-SUB-SPE (NP-NOM *T*-3)
+					  (PP (P in)
+					      (NP-DAT (NP-GEN (D^G +d+are) (N^G ea))
+						      (N^D ofre)))
+					  (VBDI stodon)
+					  (RP on))))
+	      (ADVP (ADV scipwisan))
+	      (VBN geworht)
+	      (CP-FRL-SPE (WNP-ACC-1 (D^A +t+at))
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N hie))
+				      (PP (NP-ACC *T*-1)
+					  (P onufan))
+				      (VBDI s+aton)))
+	      (. .))
+  (ID coalex,Alex:16.1.152))
+
+/~*
+Sio+d+tan hie +ta gewicod h+afdon, +ta het ic ceorfan +da bearwas & +tone wudu
+fyllan +t+at monnum w+are +ty e+tre to +t+am w+aterscipe to ganganne, & to
++t+am mere +te we bi gewicod h+afdon.
+(coalex,Alex:16.16.168)
+*~/
+/*
+109 VBN:  109 VBN, 110 gewicod, 18 HVDI
+*/
+
+( (CODE <T23000011200,16.16>)
+  (IP-MAT-SPE (CP-ADV-SPE (P Sio+d+tan)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N hie))
+				      (ADVP-TMP (ADV^T +ta))
+				      (VBN gewicod)
+				      (HVDI h+afdon)))
+	      (, ,)
+	      (ADVP-TMP (ADV^T +ta))
+	      (VBDI het)
+	      (NP-NOM (PRO^N ic))
+	      (IP-INF-SPE (IP-INF-SPE (VB ceorfan)
+				      (NP-ACC (D^A +da) (N^A bearwas)))
+			  (CONJP (CONJ &)
+				 (IP-INF-SPE (NP-ACC (D^A +tone) (N^A wudu))
+					     (VB fyllan))))
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP-NOM-x *exp*)
+				      (NP-DAT (N^D monnum))
+				      (BEDS w+are)
+				      (ADVP (D^I +ty) (ADVR e+tre))
+				      (IP-INF-SPE-x (PP (PP (P to)
+							    (NP-DAT (D^D +t+am) (N^D w+aterscipe)))
+							(CONJP *ICH*-1))
+						    (TO to)
+						    (VB^D ganganne)
+						    (, ,)
+						    (CONJP-1 (CONJ &)
+							     (PP (P to)
+								 (NP-DAT (D^D +t+am)
+									 (N^D mere)
+									 (CP-REL-SPE (WNP-2 0)
+										     (C +te)
+										     (IP-SUB-SPE (NP-NOM (PRO^N we))
+												 (PP (NP *T*-2)
+												     (P bi))
+												 (VBN gewicod)
+												 (HVDI h+afdon)))))))))
+	      (. .))
+  (ID coalex,Alex:16.16.168))
+
+/~*
+H+afde ic +ta +t+as kyninges wic & his f+astenu gesceawod +te he mid his fyrde
+in gefaren h+afde.
+(coalex,Alex:25.1.294)
+*~/
+/*
+31 VBN:  31 VBN, 32 gesceawod, 4 HVD
+55 VBN:  55 VBN, 56 gefaren, 4 HVD
+*/
+
+( (CODE <T23000017900,25.1>)
+  (IP-MAT-SPE (HVD H+afde)
+	      (NP-NOM (PRO^N ic))
+	      (ADVP-TMP (ADV^T +ta))
+	      (NP-ACC (NP-ACC (NP-GEN (D^G +t+as) (N^G kyninges))
+			      (N^A wic))
+		      (CONJP (CONJ &)
+			     (NP-ACC (PRO$ his) (N^A f+astenu)))
+		      (CP-REL-SPE *ICH*-1))
+	      (VBN gesceawod)
+	      (CP-REL-SPE-1 (WNP-2 0)
+			    (C +te)
+			    (IP-SUB-SPE (NP-NOM (PRO^N he))
+					(PP (P mid)
+					    (NP (PRO$ his) (N fyrde)))
+					(PP (NP *T*-2)
+					    (P in))
+					(VBN gefaren)
+					(HVD h+afde)))
+	      (. .))
+  (ID coalex,Alex:25.1.294))
+
+/~*
++Da sona on morgne +t+as +da eode Porrus se kyning me on hond mid ealle his
+ferde & dugo+te +ta he h+afde ongieten +t+at wi+d me gewinnan ne meahte.
+(coalex,Alex:25.2.295)
+*~/
+/*
+68 VBN:  68 VBN, 69 ongieten, 66 HVD
+*/
+
+( (CODE <T23000018000,25.2>)
+  (IP-MAT-SPE (ADVP-TMP (ADV^T +Da))
+	      (ADVP-TMP (ADV^T sona))
+	      (PP (P on)
+		  (NP-DAT (N^D morgne)
+			  (NP-GEN (D^G +t+as))))
+	      (ADVP-TMP (ADV^T +da))
+	      (VBD eode)
+	      (NP-NOM (NR^N Porrus)
+		      (NP-NOM-PRN (D^N se) (N^N kyning)))
+	      (NP-ADT (PRO me))
+	      (PP (P on)
+		  (NP-ACC (N^A hond)))
+	      (PP (P mid)
+		  (NP-DAT (Q^I ealle)
+			  (PRO$ his)
+			  (N^D ferde)
+			  (CONJP (CONJ &)
+				 (NX-DAT (N^D dugo+te)))))
+	      (CP-ADV-SPE (P +ta)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO^N he))
+				      (HVD h+afde)
+				      (VBN ongieten)
+				      (CP-THT-SPE (C +t+at)
+						  (IP-SUB-SPE (NP-NOM *pro*)
+							      (PP (P wi+d)
+								  (NP (PRO me)))
+							      (VB gewinnan)
+							      (NEG ne)
+							      (MDD meahte)))))
+	      (. .))
+  (ID coalex,Alex:25.2.295))
+
+/~*
+& ic h+afde $hie mid f+astene gef+astnad +t+at us now+ter ne deor ne o+der
+earfe+do sce+d+dan meahten.
+(coalex,Alex:28.12.341)
+*~/
+/*
+18 VBN:  18 VBN, 19 gef+astnad, 7 HVD
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM (PRO^N ic))
+	      (HVD h+afde)
+	      (NP-ACC (PRO^A $hie))
+	      (PP (P mid)
+		  (NP-DAT (N^D f+astene)))
+	      (VBN gef+astnad)
+	      (CP-ADV-SPE (C +t+at)
+			  (IP-SUB-SPE (NP (PRO us))
+				      (NP-NOM (NEG+CONJ now+ter)
+					      (NEG+CONJ ne)
+					      (NP-NOM (N^N deor))
+					      (CONJP (NEG+CONJ ne)
+						     (NP-NOM (ADJ^N o+der) (N^N earfe+do))))
+				      (VB sce+d+dan)
+				      (MDDS meahten)))
+	      (. .))
+  (ID coalex,Alex:28.12.341))
+
+/~*
+ac hw+a+tre ne cymst +tu on +tinne e+tel +donan +tu ferdest +ar, for +ton +din
+$wyrd hit swa be +tinum heafde & fore hafa+d ar+aded.
+(coalex,Alex:37.4.472)
+*~/
+/*
+79 VBN:  79 VBN, 80 ar+aded, 77 HVPI
+*/
+
+( (IP-MAT-SPE (CONJ ac)
+	      (ADVP (ADV hw+a+tre))
+	      (NEG ne)
+	      (VBPI cymst)
+	      (NP-NOM (PRO^N +tu))
+	      (PP (P on)
+		  (NP-ACC (PRO$^A +tinne)
+			  (N^A e+tel)
+			  (CP-REL-SPE (WADVP-DIR-1 (ADV^D +donan))
+				      (C 0)
+				      (IP-SUB-SPE (ADVP-DIR *T*-1)
+						  (NP-NOM (PRO^N +tu))
+						  (VBDI ferdest)
+						  (ADVP-TMP (ADV^T +ar))))))
+	      (, ,)
+	      (CP-ADV-SPE (P for)
+			  (D^I +ton)
+			  (C 0)
+			  (IP-SUB-SPE (NP-NOM (PRO$^N +din) (N^N $wyrd))
+				      (NP-ACC (PRO^A hit))
+				      (ADVP (ADV swa))
+				      (PP (PP (P be)
+					      (NP-DAT (PRO$^D +tinum) (N^D heafde)))
+					  (CONJP (CONJ &)
+						 (PP (P fore)
+						     (NP *))))
+				      (HVPI hafa+d)
+				      (VBN ar+aded)))
+	      (. .))
+  (ID coalex,Alex:37.4.472))
+
+/~*
+Alexander fulne ende +tines lifes +tu h+afst gelifd,
+(coalex,Alex:38.2.484)
+*~/
+/*
+20 VBN:  20 VBN, 21 gelifd, 18 HVPI
+*/
+
+( (IP-MAT-SPE (NP-NOM-VOC (NR^N Alexander))
+	      (NP-ACC (ADJ^A fulne)
+		      (N^A ende)
+		      (NP-GEN (PRO$^G +tines) (N^G lifes)))
+	      (NP-NOM (PRO^N +tu))
+	      (HVPI h+afst)
+	      (VBN gelifd)
+	      (. ,))
+  (ID coalex,Alex:38.2.484))
+
+/~*
+& +ta +triddan si+de +t+at sunnan treow ongon frinan +turh hwelces monnes hond
+min ende w+are getiod, $o+d+de hwelcne ended+ag min modor o+t+de min geswuster
+nu gebidan scoldon.
+(coalex,Alex:40.1.510)
+*~/
+/*
+51 VBN:  51 VBN, 52 getiod, 22 AXDI
+*/
+
+( (IP-MAT-SPE (CONJ &)
+	      (NP-NOM *con*)
+	      (ADVP-TMP (ADV^T +ta))
+	      (NP-DAT-TMP (ADJ^D +triddan) (N^D si+de))
+	      (NP-ACC (D^A +t+at)
+		      (NP-GEN (N^G sunnan))
+		      (N^A treow))
+	      (AXDI ongon)
+	      (VB frinan)
+	      (CP-QUE-SPE (CP-QUE-SPE (WPP-2 (P +turh)
+					     (WNP-ACC (WNP-GEN (WADJ^G hwelces) (N^G monnes))
+						      (N^A hond)))
+				      (C 0)
+				      (IP-SUB-SPE (PP *T*-2)
+						  (NP-NOM (PRO$^N min) (N^N ende))
+						  (BEDS w+are)
+						  (VBN getiod)))
+			  (, ,)
+			  (CONJP (CONJ $o+d+de)
+				 (CP-QUE-SPE (WNP-ACC-1 (WADJ^A hwelcne) (N^A ended+ag))
+					     (C 0)
+					     (IP-SUB-SPE (NP-ACC *T*-1)
+							 (NP-NOM (NP-NOM (PRO$^N min) (N^N modor))
+								 (CONJP (CONJ o+t+de)
+									(NP-NOM (PRO$^N min) (N^N geswuster))))
+							 (ADVP-TMP (ADV^T nu))
+							 (VB gebidan)
+							 (MDDI scoldon)))))
+	      (. .))
+  (ID coalex,Alex:40.1.510))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	10/9/531
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\YCOE\temp1492105600559\travelogue\coalex.o23.psd	10/9/531
+whole search, hits/tokens/total
+		10/9/531
+*/

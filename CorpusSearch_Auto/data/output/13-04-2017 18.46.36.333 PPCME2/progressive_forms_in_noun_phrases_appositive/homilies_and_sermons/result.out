@@ -1,0 +1,312 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:13 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_appositive.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_noun_phrases_appositive\homilies_and_sermons\result.out
+
+node:   NP-PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmcapser.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmcapser.m4.psd	0/0/91
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmfitzja.m4.psd
+*/
+
+/~*
+All thyse thre. and eche of this. was for his tyme y=e= fygure of the fourthe
+Ihu~s callyd Ihu~s filius dei Jesus the sone of god <slash> The same Jhesus
+whyche nyghynge. walkyd wyth mankynde <slash> To whose declaraco~n ye shall
+understonde. that Ihu~s by interpretaco~n. is to saye saluator a sauyour or
+helper <slash>
+(CMFITZJA,A2V.15)
+*~/
+/*
+98 VAG:  98 VAG, 99 nyghynge, 81 NP-PRN
+*/
+( (IP-MAT (NP-SBJ (NP (Q All) (D thyse) (NUM thre))
+		  (, .)
+		  (CONJP (CONJ and)
+			 (NP (Q eche)
+			     (PP (P of)
+				 (NP (D this))))))
+	  (, .)
+	  (BED was)
+	  (PP (P for)
+	      (NP (PRO$ his) (N tyme)))
+	  (NP-OB1 (D y=e=)
+		  (N fygure)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ fourthe)
+			  (NPR Ihu~s)
+			  (RRC (VAN callyd)
+			       (IP-SMC (NP-SBJ *)
+				       (NP-OB1 (LATIN (FW Ihu~s) (FW filius) (FW dei))
+					       (NP-PRN (NPR Jesus)
+						       (NP-PRN (D the)
+							       (N sone)
+							       (PP (P of)
+								   (NP (NPR god)))))))))))
+	  (, <slash>)
+	  (NP-PRN (D The)
+		  (ADJ same)
+		  (NPR Jhesus)
+		  (CP-REL (WNP-1 (WPRO whyche))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (IP-PPL (VAG nyghynge))
+				  (, .)
+				  (VBD walkyd)
+				  (PP (P wyth)
+				      (NP (N+N mankynde)))))
+		  (, <slash>)
+		  (CP-REL (WPP-2 (P To)
+				 (WNP (WPRO$ whose) (N declaraco~n)))
+			  (C 0)
+			  (IP-SUB (PP *T*-2)
+				  (NP-SBJ (PRO ye))
+				  (MD shall)
+				  (VB understonde)
+				  (, .)
+				  (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (NPR Ihu~s))
+						  (PP (P by)
+						      (NP (N interpretaco~n)))
+						  (, .)
+						  (BEP is)
+						  (IP-INF (TO to)
+							  (VB saye)
+							  (NP-OB1 (FW saluator)
+								  (NP-PRN (D a)
+									  (N sauyour)
+									  (CONJP (CONJ or)
+										 (NX (N helper)))))))))))
+	  (. <slash>))
+  (ID CMFITZJA,A2V.15))
+
+/~*
+Now the fyrste of thyse greate preestis or Bysshops hauynge rule of the people.
+was this Ihu~s the sone of Josedech A man of grete zele & deuowte obedyence
+vnto god <slash> so y=t= he was conuenyently namyd Ihu~s. helper or sauer of
+y=e= peple by deuowte obedyence. leuynge example to alle preestys. prelates in
+especyall to beere deuowte obedience vnto almyghty god. & teche other the same
+(CMFITZJA,A5R.72)
+*~/
+/*
+141 VAG:  141 VAG, 142 leuynge, 140 NP-PRN
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (NP-SBJ (D the)
+		  (ADJ fyrste)
+		  (PP (P of)
+		      (NP (D thyse)
+			  (ADJ greate)
+			  (NS preestis)
+			  (CONJP (CONJ or)
+				 (NX (NS Bysshops)))
+			  (RRC (HAG hauynge)
+			       (NP-OB1 (N rule)
+				       (PP (P of)
+					   (NP (D the) (N people))))))))
+	  (, .)
+	  (BED was)
+	  (NP-OB1 (D this)
+		  (NPR Ihu~s)
+		  (NP-PRN (D the)
+			  (N sone)
+			  (PP (P of)
+			      (NP (NPR Josedech))))
+		  (NP-PRN (D A)
+			  (N man)
+			  (PP (P of)
+			      (NP (NP (ADJ grete) (N zele))
+				  (CONJP (CONJ &)
+					 (NP (ADJ deuowte)
+					     (N obedyence)
+					     (PP (P vnto)
+						 (NP (NPR god)))))))))
+	  (, <slash>)
+	  (PP (P so)
+	      (CP-ADV (C y=t=)
+		      (IP-SUB (NP-SBJ-1 (PRO he))
+			      (BED was)
+			      (ADVP (ADV conuenyently))
+			      (VAN namyd)
+			      (IP-SMC (NP-SBJ *-1)
+				      (NP-OB1 (NPR Ihu~s)
+					      (, .)
+					      (NP-PRN (N helper)
+						      (CONJ or)
+						      (N sauer)
+						      (PP (P of)
+							  (NP (D y=e=) (N peple)))
+						      (PP (P by)
+							  (NP (ADJ deuowte) (N obedyence))))
+					      (, .)
+					      (NP-PRN (VAG leuynge)
+						      (N example)
+						      (PP (P to)
+							  (NP (Q alle)
+							      (NS preestys)
+							      (, .)
+							      (CONJP (NX (NS prelates)))))
+						      (PP (P in)
+							  (ADJP (ADJ especyall)))
+						      (IP-INF (IP-INF (TO to)
+								      (VB beere)
+								      (NP-OB1 (ADJ deuowte) (N obedience))
+								      (PP (P vnto)
+									  (NP (ADJ almyghty) (NPR god))))
+							      (, .)
+							      (CONJP (CONJ &)
+								     (IP-INF (TO *)
+									     (VB teche)
+									     (NP-OB2 (OTHER other))
+									     (NP-OB1 (D the) (ADJ same))))))))))))
+  (ID CMFITZJA,A5R.72))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmfitzja.m4.psd	2/2/228
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmgaytry.m34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmgaytry.m34.psd	0/0/199
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cminnoce.m4.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cminnoce.m4.psd	0/0/208
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentho.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentho.m1.psd	0/0/298
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentse.m2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentse.m2.psd	0/0/231
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlamb1.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlamb1.m1.psd	0/0/526
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlambx1.mx1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlambx1.mx1.psd	0/0/1410
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmmirk.m34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmmirk.m34.psd	0/0/3708
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmorm.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmorm.m1.psd	0/0/2638
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmroyal.m34.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmroyal.m34.psd	0/0/399
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmsawles.m1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmsawles.m1.psd	0/0/276
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmtrinit.mx1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmtrinit.mx1.psd	0/0/3074
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmwycser.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmwycser.m3.psd	0/0/3911
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmcapser.m4.psd	0/0/91
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmfitzja.m4.psd	2/2/228
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmgaytry.m34.psd	0/0/199
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cminnoce.m4.psd	0/0/208
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentho.m1.psd	0/0/298
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmkentse.m2.psd	0/0/231
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlamb1.m1.psd	0/0/526
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmlambx1.mx1.psd	0/0/1410
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmmirk.m34.psd	0/0/3708
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmorm.m1.psd	0/0/2638
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmroyal.m34.psd	0/0/399
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmsawles.m1.psd	0/0/276
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmtrinit.mx1.psd	0/0/3074
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\homilies_and_sermons\cmwycser.m3.psd	0/0/3911
+whole search, hits/tokens/total
+		2/2/17197
+*/

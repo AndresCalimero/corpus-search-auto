@@ -1,0 +1,2156 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:53 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\stranded_prepositions\travelogue\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd
+*/
+
+/~*
+And for als moche as it is longe tyme passed +tat +ter was no generall passage
+ne vyage ouer the see & many men desiren for to here speke of the holy lond &
+han +tere of gret solace & comforte, I John Maundevylle knyght all be it I be
+not worthi +tat was born in Englond, in the town of seynt Albones & passed the
+see in the +geer of oure lord jhesu crist .Mill ccc & xxij. in the day of
+seynt Michell & hiderto haue ben longe tyme ouer the see & haue seyn & gon
++torgh manye dyuerse londes & many prouynces & kyngdomes & jles And haue
+passed +torghout Turkye Ermonye the lityll & the grete +torgh Tartarye Percye
+Surrye Arabye Egypt the high & the lowe thorgh lybye Caldee & a gret partie of
+Ethiope +torgh Amazoyne Inde the lasse & the more a gret partie & thorgh out
+many othere jles +tat ben abouten Inde where dwellen many dyuerse folk & of
+dyuerse maneres & lawes and of dyuerse schappes of men Of whiche londes & jles
+I schall speke more pleynly here after
+(CMMANDEV,3.33)
+*~/
+/*
+108 P:  108 P, 109 of, 104 PP
+579 P:  579 P, 580 after, 575 PP
+*/
+( (IP-MAT (CONJ And)
+	  (PP (P for)
+	      (QP (ADVR als)
+		  (Q moche)
+		  (PP (P as)
+		      (CP-ADV (C 0)
+			      (IP-SUB (IP-SUB (NP-SBJ-1 (PRO it))
+					      (BEP is)
+					      (NP-MSR (ADJ longe) (N tyme))
+					      (VAN passed)
+					      (CP-THT-1 (C +tat)
+							(IP-SUB (NP-SBJ-2 (EX +ter))
+								(BED was)
+								(NP-2 (Q no)
+								      (ADJ generall)
+								      (N passage)
+								      (CONJP (CONJ ne)
+									     (NX (N vyage)))
+								      (PP (P ouer)
+									  (NP (D the) (N see)))))))
+				      (CONJP (CONJ &)
+					     (IP-SUB (IP-SUB (NP-SBJ (Q many) (NS men))
+							     (VBP desiren)
+							     (IP-INF (FOR for)
+								     (TO to)
+								     (VB here)
+								     (IP-INF (NP-SBJ *arb*)
+									     (VB speke)
+									     (PP (P of)
+										 (NP (D the) (NPR holy) (NPR lond))))))
+						     (CONJP (CONJ &)
+							    (IP-SUB (NP-SBJ *con*)
+								    (HVP han)
+								    (PP (ADVP (ADV +tere))
+									(P of))
+								    (NP-OB1 (ADJ gret)
+									    (N solace)
+									    (CONJP (CONJ &)
+										   (NX (N comforte)))))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I)
+		  (NP-PRN (NPR John) (NPR Maundevylle))
+		  (NP-PRN (N knyght)))
+	  (CP-ADV (ADVP (Q all))
+		  (IP-SUB (BEP be)
+			  (NP-SBJ (PRO it))
+			  (CP-THT (C 0)
+				  (IP-SUB (NP-SBJ (PRO I)
+						  (CP-REL *ICH*-3))
+					  (BEP be)
+					  (NEG not)
+					  (ADJP (ADJ worthi))
+					  (CP-REL-3 (WNP-4 0)
+						    (C +tat)
+						    (IP-SUB (IP-SUB (NP-SBJ *T*-4)
+								    (BED was)
+								    (VAN born)
+								    (PP (P in)
+									(NP (NPR Englond)))
+								    (, ,)
+								    (PP (P in)
+									(NP (D the)
+									    (N town)
+									    (PP (P of)
+										(NP (NPR seynt) (NPR Albones))))))
+							    (CONJP (CONJ &)
+								   (IP-SUB (NP-SBJ *T*-4)
+									   (VBD passed)
+									   (NP-OB1 (D the) (N see))
+									   (PP (P in)
+									       (NP (D the)
+										   (N +geer)
+										   (PP (P of)
+										       (NP (PRO$ oure)
+											   (NPR lord)
+											   (NP-PRN (NPR jhesu) (NPR crist))))
+										   (NP-PRN (NUMP (NUM .Mill) (NUM ccc) (CONJ &) (NUM xxij.)))))
+									   (PP (P in)
+									       (NP (D the)
+										   (N day)
+										   (PP (P of)
+										       (NP (NPR seynt) (NPR Michell)))))))
+							    (CONJP (CONJ &)
+								   (IP-SUB (NP-SBJ *T*-4)
+									   (PP (ADV+P hiderto))
+									   (HVP haue)
+									   (BEN ben)
+									   (NP-MSR (ADJ longe) (N tyme))
+									   (PP (P ouer)
+									       (NP (D the) (N see)))))
+							    (CONJP (CONJ &)
+								   (IP-SUB-5 (NP-SBJ *T*-4)
+									     (HVP haue)
+									     (VBN seyn)
+									     (IP-SUB-PRN=5 (CONJ &)
+											   (VBN gon)
+											   (PP (P +torgh)
+											       (NP *)))
+									     (NP-OB1 (NP (Q manye) (ADJ dyuerse) (NS londes))
+										     (CONJP (CONJ &)
+											    (NP (Q many)
+												(NS prouynces)
+												(CONJP (CONJ &)
+												       (NX (NS kyngdomes)))
+												(CONJP (CONJ &)
+												       (NX (NS jles))))))))
+							    (CONJP (CONJ And)
+								   (IP-SUB (NP-SBJ *T*-4)
+									   (HVP haue)
+									   (VBN passed)
+									   (PP (PP (P +torghout)
+										   (NP (NPR Turkye)
+										       (NPR Ermonye)
+										       (NP-PRN (NP (D the) (ADJ lityll))
+											       (CONJP (CONJ &)
+												      (NP (D the) (ADJ grete))))))
+									       (CONJP (PP (P +torgh)
+											  (NP (NP (NPR Tartarye) (NPR Percye) (NPR Surrye) (NPR Arabye))
+											      (CONJP (NP (NPR Egypt)
+													 (NP-PRN (NP (D the) (ADJ high))
+														 (CONJP (CONJ &)
+															(NP (D the) (ADJ lowe)))))))))
+									       (CONJP (PP (P thorgh)
+											  (NP (NP (NPR lybye) (NPR Caldee))
+											      (CONJP (CONJ &)
+												     (NP (D a)
+													 (ADJ gret)
+													 (N partie)
+													 (PP (P of)
+													     (NP (NPR Ethiope))))))))
+									       (CONJP (PP (P +torgh)
+											  (NP (NPR Amazoyne)
+											      (NPR Inde)
+											      (NP-PRN (NP (D the) (QR lasse))
+												      (CONJP (CONJ &)
+													     (NP (D the) (QR more))))
+											      (NP-PRN (D a) (ADJ gret) (N partie)))))
+									       (CONJP (CONJ &)
+										      (PP (P (P21 thorgh) (P22 out))
+											  (NP (Q many)
+											      (OTHER othere)
+											      (NS jles)
+											      (CP-REL (WNP-6 0)
+												      (C +tat)
+												      (IP-SUB (NP-SBJ *T*-6)
+													      (BEP ben)
+													      (PP (P abouten)
+														  (NP (NPR Inde)))))
+											      (CP-REL (WADVP-7 (WADV where))
+												      (C 0)
+												      (IP-SUB (ADVP-LOC *T*-7)
+													      (NP-SBJ-8 *exp*)
+													      (VBP dwellen)
+													      (NP-8 (Q many)
+														    (ADJP (ADJP (ADJ dyuerse))
+															  (CONJP *ICH*-9))
+														    (N folk)
+														    (CONJP-9 (CONJ &)
+															     (PP (PP (P of)
+																     (NP (ADJ dyuerse)
+																	 (NS maneres)
+																	 (CONJP (CONJ &)
+																		(NX (NS lawes)))))
+																 (CONJP (CONJ and)
+																	(PP (P of)
+																	    (NP (ADJ dyuerse)
+																		(NS schappes)
+																		(PP (P of)
+																		    (NP (NS men)))))))))))))))
+									   (CP-CAR (WPP-10 (P Of)
+											   (WNP (WD whiche)
+												(NS londes)
+												(CONJP (CONJ &)
+												       (NX (NS jles)))))
+										   (C 0)
+										   (IP-SUB (PP *T*-10)
+											   (NP-SBJ (PRO I))
+											   (MD schall)
+											   (VB speke)
+											   (ADVP (QR more) (ADV pleynly))
+											   (PP (ADVP (ADV here))
+											       (P after)))))))))))))
+  (ID CMMANDEV,3.33))
+
+/~*
+For he holdeth the kyndom of hungarie Solauonye & of Comanye a gret part & of
+Bularie +tat men clepen the lond of Bougiers & of the reme of Roussye a gret
+partie where of he hath made a Duchee +tat lasteth vnto the lond of Niflan &
+marcheth to Pruysse.
+(CMMANDEV,4.51)
+*~/
+/*
+102 P:  102 P, 103 of, 98 WPP-2
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (PRO he))
+	  (VBP holdeth)
+	  (NP-OB1 (D the)
+		  (N kyndom)
+		  (PP (PP (P of)
+			  (NP (NPR hungarie) (NPR Solauonye)))
+		      (CONJP (CONJ &)
+			     (PP (P of)
+				 (NP (NPR Comanye)
+				     (NP-PRN (D a) (ADJ gret) (N part)))))
+		      (CONJP (CONJ &)
+			     (PP (P of)
+				 (NP (NPR Bularie)
+				     (CP-REL (WNP-1 0)
+					     (C +tat)
+					     (IP-SUB (NP-SBJ (MAN men))
+						     (VBP clepen)
+						     (IP-SMC (NP-SBJ *T*-1)
+							     (NP-OB1 (D the)
+								     (N lond)
+								     (PP (P of)
+									 (NP (NPR Bougiers))))))))))
+		      (CONJP (CONJ &)
+			     (PP (P of)
+				 (NP (D the)
+				     (N reme)
+				     (PP (P of)
+					 (NP (NPR Roussye)))
+				     (NP-PRN (D a) (ADJ gret) (N partie))
+				     (CP-REL (WPP-2 (WADVP (WADV where))
+						    (P of))
+					     (C 0)
+					     (IP-SUB (PP *T*-2)
+						     (NP-SBJ (PRO he))
+						     (HVP hath)
+						     (VBN made)
+						     (NP-OB1 (D a)
+							     (N Duchee)
+							     (CP-REL (WNP-3 0)
+								     (C +tat)
+								     (IP-SUB (IP-SUB (NP-SBJ *T*-3)
+										     (VBP lasteth)
+										     (PP (P vnto)
+											 (NP (D the)
+											     (N lond)
+											     (PP (P of)
+												 (NP (NPR Niflan))))))
+									     (CONJP (CONJ &)
+										    (IP-SUB (NP-SBJ *T*-3)
+											    (VBP marcheth)
+											    (PP (P to)
+												(NP (NPR Pruysse)))))))))))))))
+	  (. .))
+  (ID CMMANDEV,4.51))
+
+/~*
+And +tere in is a fair place for justynges or for o+ter pleyes & desportes.
+(CMMANDEV,11.208)
+*~/
+/*
+8 P:  8 P, 9 in, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P in))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (D a) (ADJ fair) (N place))
+	  (PP (PP (P for)
+		  (NP (NS justynges)))
+	      (CONJP (CONJ or)
+		     (PP (P for)
+			 (NP (OTHER o+ter)
+			     (NS pleyes)
+			     (CONJP (CONJ &)
+				    (NX (NS desportes)))))))
+	  (. .))
+  (ID CMMANDEV,11.208))
+
+/~*
+And +tere on was writen in Ebru | greu | & latyn lettres +tat seyden +tus:
+IHESUS CRISTUS NASCE TUR DE VIRGINE MARIA & EGO CREDO IN EUM. +Tat is to seyne:
+Jhesu crist schall be born of the virgyne Marie & I trowe in him.
+(CMMANDEV,11.216)
+*~/
+/*
+8 P:  8 P, 9 on, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P on))
+	  (NP-SBJ-1 *exp*)
+	  (BED was)
+	  (VAN writen)
+	  (PP (P in)
+	      (NP (NPR Ebru) (, |) (NPR greu) (, |) (CONJ &) (NPR latyn)))
+	  (NP-1 (NS lettres)
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ *T*-2)
+				(VBD seyden)
+				(ADVP (ADV +tus))
+				(, :)
+				(QTP (LATIN (FW IHESUS)
+					    (FW CRISTUS)
+					    (FW NASCE)
+					    (FW TUR)
+					    (FW DE)
+					    (FW VIRGINE)
+					    (FW MARIA)
+					    (FW &)
+					    (FW EGO)
+					    (FW CREDO)
+					    (FW IN)
+					    (FW EUM)
+					    (, .)
+					    (IP-MAT-PRN (NP-SBJ (D +Tat))
+							(BEP is)
+							(IP-INF (TO to)
+								(VB seyne)
+								(, :)
+								(IP-MAT (IP-MAT (NP-SBJ (NPR Jhesu) (NPR crist))
+										(MD schall)
+										(BE be)
+										(VAN born)
+										(PP (P of)
+										    (NP (D the)
+											(N virgyne)
+											(NP-PRN (NPR Marie)))))
+									(CONJP (CONJ &)
+									       (IP-SUB (NP-SBJ (PRO I))
+										       (VBP trowe)
+										       (PP (P in)
+											   (NP (PRO him)))))))))))))
+	  (. .))
+  (ID CMMANDEV,11.216))
+
+/~*
+And whan +tei wil ete +tei gon +tere in
+(CMMANDEV,17.410)
+*~/
+/*
+27 P:  27 P, 28 in, 23 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO +tei))
+			      (MD wil)
+			      (VB ete))))
+	  (NP-SBJ (PRO +tei))
+	  (VBP gon)
+	  (PP (ADVP (ADV +tere))
+	      (P in)))
+  (ID CMMANDEV,17.410))
+
+/~*
+And +tere besyde renneth a lytil ryuer +tat is clept Belon.
+(CMMANDEV,19.461)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (VBP renneth)
+	  (NP-SBJ (D a)
+		  (ADJ lytil)
+		  (N ryuer)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ-2 *T*-1)
+				  (BEP is)
+				  (VAN clept)
+				  (CODE <$$em>)
+				  (IP-SMC (NP-SBJ *-2)
+					  (NP-OB1 (NPR Belon))))))
+	  (. .))
+  (ID CMMANDEV,19.461))
+
+/~*
+And +tough +tere be neuere so meche taken awey +tere of on the day at morwe it
+is as full a+gen as euere it was
+(CMMANDEV,19.466)
+*~/
+/*
+34 P:  34 P, 35 of, 30 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P +tough)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (EX +tere))
+			      (BEP be)
+			      (ADVP-TMP (ADV neuere))
+			      (NP-1 (QP (ADVR so) (Q meche)))
+			      (VAN taken)
+			      (ADVP-DIR (ADV awey))
+			      (PP (ADVP (ADV +tere))
+				  (P of))
+			      (PP (P on)
+				  (NP (D the) (N day))))))
+	  (PP (P at)
+	      (NP (N morwe)))
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (ADJP (ADVR as)
+		(ADJ full)
+		(PP *ICH*-2))
+	  (ADVP (ADV a+gen))
+	  (PP-2 (P as)
+		(CP-CMP (WADJP-3 0)
+			(C 0)
+			(IP-SUB (ADJP *T*-3)
+				(ADVP-TMP (ADV euere))
+				(NP-SBJ (PRO it))
+				(BED was)))))
+  (ID CMMANDEV,19.466))
+
+/~*
+And +gif ony man do +tere jnne ony maner metall it turneth anon to glass.
+(CMMANDEV,20.469)
+*~/
+/*
+22 P:  22 P, 23 jnne, 18 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q ony) (N man))
+			      (DOP do)
+			      (PP (ADVP (ADV +tere))
+				  (P jnne))
+			      (NP-OB1 (Q ony)
+				      (N maner)
+				      (NP-COM (N metall))))))
+	  (NP-SBJ (PRO it))
+	  (VBP turneth)
+	  (ADVP-TMP (ADV anon))
+	  (PP (P to)
+	      (NP (N glass)))
+	  (. .))
+  (ID CMMANDEV,20.469))
+
+/~*
+And +tere with all he holdeth Calyffes,
+(CMMANDEV,22.512)
+*~/
+/*
+8 P:  8 P, 12 all, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P (P21 with) (P22 all)))
+	  (NP-SBJ (PRO he))
+	  (VBP holdeth)
+	  (NP-OB1 (NS Calyffes))
+	  (. ,))
+  (ID CMMANDEV,22.512))
+
+/~*
+but +tere in is ouer moche desert
+(CMMANDEV,26.629)
+*~/
+/*
+8 P:  8 P, 9 in, 4 PP
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (ADVP (ADV +tere))
+	      (P in))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (QP (ADVR ouer) (Q moche))
+		(N desert)))
+  (ID CMMANDEV,26.629))
+
+/~*
+and putten +tere vpon spices & sulphur vif & o+ter thinges +tat wolen brennen
+lightly
+(CMMANDEV,30.747)
+*~/
+/*
+12 P:  12 P, 13 vpon, 8 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBP putten)
+	  (PP (ADVP (ADV +tere))
+	      (P vpon))
+	  (NP-OB1 (NP (NS spices))
+		  (CONJP (CONJ &)
+			 (NP (N sulphur)
+			     (ADJP (ADJ vif))))
+		  (CONJP (CONJ &)
+			 (NP (OTHER o+ter)
+			     (NS thinges)
+			     (CP-REL (WNP-1 0)
+				     (C +tat)
+				     (IP-SUB (NP-SBJ *T*-1)
+					     (MD wolen)
+					     (VB brennen)
+					     (ADVP (ADV lightly))))))))
+  (ID CMMANDEV,30.747))
+
+/~*
+Now wil I retourne a+gen or I procede ony ferthere for to declare +gou the
+othere weyes +tat drawen towardes Babiloyne where the Soudan himself duelleth
++tat is at the entree of Egypt, for als moche as many folk gon +tider first &
+after +tat to the mownt Synay & after retournen to Ierusalem, As I haue seyd
++gou here beforn.
+(CMMANDEV,35.862)
+*~/
+/*
+208 P:  208 P, 209 beforn, 204 PP
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (MD wil)
+	  (NP-SBJ (PRO I))
+	  (VB retourne)
+	  (ADVP (ADV a+gen))
+	  (PP (P or)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBP procede)
+			      (NP-MSR (ADJP (Q ony) (ADJR ferthere))))))
+	  (IP-INF-PRP (FOR for)
+		      (TO to)
+		      (VB declare)
+		      (NP-OB2 (PRO +gou))
+		      (NP-OB1 (D the)
+			      (OTHER othere)
+			      (NS weyes)
+			      (CP-REL (WNP-1 0)
+				      (C +tat)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (VBP drawen)
+					      (PP (P towardes)
+						  (NP (NPR Babiloyne)
+						      (CP-REL (WADVP-2 (WADV where))
+							      (C 0)
+							      (IP-SUB (ADVP-LOC *T*-2)
+								      (NP-SBJ (D the)
+									      (N Soudan)
+									      (NP-PRN (PRO+N himself)))
+								      (VBP duelleth)))
+						      (CP-REL (WNP-3 0)
+							      (C +tat)
+							      (IP-SUB (NP-SBJ *T*-3)
+								      (BEP is)
+								      (PP (P at)
+									  (CODE <P_35>)
+									  (NP (D the)
+									      (N entree)
+									      (PP (P of)
+										  (NP (NPR Egypt))))))))))))
+		      (, ,)
+		      (PP (P for)
+			  (QP (ADVR als)
+			      (Q moche)
+			      (PP (P as)
+				  (CP-ADV (C 0)
+					  (IP-SUB (IP-SUB (IP-SUB-4 (NP-SBJ (Q many) (N folk))
+								    (VBP gon)
+								    (ADVP-DIR (ADV +tider))
+								    (ADVP-TMP (ADV first)))
+							  (CONJP (CONJ &)
+								 (IP-SUB=4 (PP (P after)
+									       (NP (D +tat)))
+									   (PP (P to)
+									       (NP (D the)
+										   (N mownt)
+										   (NP-PRN (NPR Synay)))))))
+						  (CONJP (CONJ &)
+							 (IP-SUB (NP-SBJ *con*)
+								 (ADVP-TMP (ADV after))
+								 (VBP retournen)
+								 (PP (P to)
+								     (NP (NPR Ierusalem)))
+								 (, ,)
+								 (PP-PRN (P As)
+									 (CP-ADV (WNP-5 0)
+										 (C 0)
+										 (IP-SUB (NP-OB1 *T*-5)
+											 (NP-SBJ (PRO I))
+											 (HVP haue)
+											 (VBN seyd)
+											 (NP-OB2 (PRO +gou))
+											 (PP (ADVP (ADV here))
+											     (P beforn)))))))))))))
+	  (. .))
+  (ID CMMANDEV,35.862))
+
+/~*
+Ne neuere schall entre here after.
+(CMMANDEV,40.1007)
+*~/
+/*
+17 P:  17 P, 18 after, 13 PP
+*/
+
+( (IP-MAT (CONJ Ne)
+	  (NP-SBJ *con*)
+	  (ADVP-TMP (ADV neuere))
+	  (MD schall)
+	  (VB entre)
+	  (PP (ADVP (ADV here))
+	      (P after))
+	  (. .))
+  (ID CMMANDEV,40.1007))
+
+/~*
+And +tere besyde is the place where oure lord toke to Moyses the .x.
+commandementes of the lawe.
+(CMMANDEV,41.1017)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N place)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (PRO$ oure) (NPR lord))
+				  (VBD toke)
+				  (PP (P to)
+				      (NP (NPR Moyses)))
+				  (NP-OB1 (D the)
+					  (NUM .x.)
+					  (NS commandementes)
+					  (PP (P of)
+					      (NP (D the) (N lawe)))))))
+	  (. .))
+  (ID CMMANDEV,41.1017))
+
+/~*
+And +tere benethe +tei couchen hem
+(CMMANDEV,42.1043)
+*~/
+/*
+8 P:  8 P, 9 benethe, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P benethe))
+	  (NP-SBJ (PRO +tei))
+	  (VBP couchen)
+	  (NP-OB1 (PRO hem)))
+  (ID CMMANDEV,42.1043))
+
+/~*
+for certeynly he +tat hath a litill +tere of vpon him it heleth him of the
+fallynge euyll,
+(CMMANDEV,45.1119)
+*~/
+/*
+29 P:  29 P, 30 of, 25 PP
+*/
+
+( (IP-MAT (CONJ for)
+	  (ADVP (ADV certeynly))
+	  (NP-LFD (PRO he)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (HVP hath)
+				  (NP-OB1 (D a)
+					  (ADJ litill)
+					  (PP (ADVP (ADV +tere))
+					      (P of)))
+				  (PP (P vpon)
+				      (NP (PRO him))))))
+	  (NP-SBJ (PRO it))
+	  (VBP heleth)
+	  (NP-OB1-RSP (PRO him))
+	  (PP (P of)
+	      (NP (D the) (VAG fallynge) (N euyll)))
+	  (. ,))
+  (ID CMMANDEV,45.1119))
+
+/~*
+And +tere besyde is the lond of Palestyne
+(CMMANDEV,48.1200)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N lond)
+		  (PP (P of)
+		      (NP (NPR Palestyne)))))
+  (ID CMMANDEV,48.1200))
+
+/~*
+But Gayus +tat was Emperour of Rome putte +teise .ij. monethes +tere to:
+Janyuer & Feuerer
+(CMMANDEV,51.1255)
+*~/
+/*
+41 P:  41 P, 42 to, 37 PP
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (NPR Gayus)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (NP-OB1 (N Emperour)
+					  (PP (P of)
+					      (NP (NPR Rome)))))))
+	  (VBD putte)
+	  (NP-OB1 (D +teise)
+		  (NUM .ij.)
+		  (NS monethes)
+		  (NP-PRN *ICH*-2))
+	  (PP (ADVP (ADV +tere))
+	      (P to))
+	  (, :)
+	  (NP-PRN-2 (NPR Janyuer) (CONJ &) (NPR Feuerer)))
+  (ID CMMANDEV,51.1255))
+
+/~*
+And +tere besyde .iiij. fote ben .iiij. pileres of ston +tat allweys droppen
+water
+(CMMANDEV,51.1260)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (ADJP-LOC (NP-MSR (NUM .iiij.) (N fote)))
+	  (NP-SBJ-1 *exp*)
+	  (BEP ben)
+	  (NP-1 (NUM .iiij.)
+		(NS pileres)
+		(PP (P of)
+		    (NP (N ston)))
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ *T*-2)
+				(ADVP-TMP (ADV allweys))
+				(VBP droppen)
+				(NP-OB1 (N water))))))
+  (ID CMMANDEV,51.1260))
+
+/~*
+And +tere beside is the gildene +gate +tat may not ben opened, be the whiche
++gate oure lord entrede on PALMESONDAY vpon an asse
+(CMMANDEV,53.1298)
+*~/
+/*
+8 P:  8 P, 9 beside, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P beside))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (VAN gildene)
+		  (N +gate)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD may)
+				  (NEG not)
+				  (BE ben)
+				  (VAN opened))))
+	  (, ,)
+	  (CP-CAR (WPP-2 (P be)
+			 (WNP (D the) (WD whiche) (N +gate)))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ (PRO$ oure) (NPR lord))
+			  (VBD entrede)
+			  (PP (P on)
+			      (NP (NPR PALMESONDAY)))
+			  (PP (P vpon)
+			      (NP (D an) (N asse))))))
+  (ID CMMANDEV,53.1298))
+
+/~*
+but after it was clept Bethel where the Arke of god with the relykes of Iewes
+weren wont to ben put.
+(CMMANDEV,56.1382)
+*~/
+/*
+5 P:  5 P, 6 after, 4 ADVP-TMP
+*/
+
+( (IP-MAT (CONJ but)
+	  (ADVP-TMP (P after))
+	  (NP-SBJ-1 (PRO it))
+	  (BED was)
+	  (VAN clept)
+	  (IP-SMC (NP-SBJ *-1)
+		  (NP-OB1 (NPR Bethel)
+			  (CP-REL (WADVP-2 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-2)
+					  (NP-SBJ-3 (D the)
+						    (N Arke)
+						    (PP (P of)
+							(NP (NPR god)))
+						    (PP (P with)
+							(NP (D the)
+							    (NS relykes)
+							    (PP (P of)
+								(NP (NPRS Iewes))))))
+					  (BED weren)
+					  (VAN wont)
+					  (IP-INF (NP-SBJ *-3)
+						  (TO to)
+						  (BE ben)
+						  (VAN put))))))
+	  (. .))
+  (ID CMMANDEV,56.1382))
+
+/~*
+And +tere in was a vessel of gold full of MANNA & clothinges & honournementes
+& the tablernacle of Aaron & a $table square of gold with .xij. precyous
+stones And a boyst of Iasper grene with .iiij. figures & .viij. names of oure
+lord & .vij. candelstykes of gold & .xij. pottes of gold & .iiij. Censeres of
+gold & an Awtier of gold & .iiij. lyouns of gold vpon the whiche +tei bare
+Cherubyn of gold .xij. spannes long and the Cercle of Swannes of heuene with a
+tabernacle of gold & a table of syluer & .ij. trompes of siluer & .vij. barly
+louves & all the o+tere relikes +tat weren before the birthe of oure lord
+Ihesu crist.
+(CMMANDEV,56.1388)
+*~/
+/*
+8 P:  8 P, 9 in, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P in))
+	  (NP-SBJ-1 *exp*)
+	  (BED was)
+	  (NP-1 (NP (D a)
+		    (N vessel)
+		    (PP (P of)
+			(NP (N gold)))
+		    (ADJP (ADJ full)
+			  (PP (P of)
+			      (NP (N MANNA)))))
+		(CONJP (CONJ &)
+		       (NP (NS clothinges)))
+		(CONJP (CONJ &)
+		       (NP (NS honournementes)))
+		(CONJP (CONJ &)
+		       (NP (D the)
+			   (N tablernacle)
+			   (PP (P of)
+			       (NP (NPR Aaron)))))
+		(CONJP (CONJ &)
+		       (NP (D a)
+			   (N $table)
+			   (ADJ square)
+			   (PP (P of)
+			       (NP (N gold)))
+			   (PP (P with)
+			       (NP (NUM .xij.) (ADJ precyous) (NS stones)))))
+		(CONJP (CONJ And)
+		       (NP (D a)
+			   (N boyst)
+			   (PP (P of)
+			       (NP (NPR Iasper)
+				   (ADJP (ADJ grene))))
+			   (PP (P with)
+			       (NP (NUM .iiij.) (NS figures)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .viij.)
+			   (NS names)
+			   (PP (P of)
+			       (NP (PRO$ oure) (NPR lord)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .vij.)
+			   (NS candelstykes)
+			   (PP (P of)
+			       (NP (N gold)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .xij.)
+			   (NS pottes)
+			   (PP (P of)
+			       (NP (N gold)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .iiij.)
+			   (NS Censeres)
+			   (PP (P of)
+			       (NP (N gold)))))
+		(CONJP (CONJ &)
+		       (NP (D an)
+			   (N Awtier)
+			   (PP (P of)
+			       (NP (N gold)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .iiij.)
+			   (NS lyouns)
+			   (PP (P of)
+			       (NP (N gold)))
+			   (CP-REL (WPP-2 (P vpon)
+					  (WNP (D the) (WPRO whiche)))
+				   (C 0)
+				   (IP-SUB (PP *T*-2)
+					   (NP-SBJ (PRO +tei))
+					   (VBD bare)
+					   (NP-OB1 (NS Cherubyn)
+						   (PP (P of)
+						       (NP (N gold)))
+						   (ADJP (NP-MSR (NUM .xij.) (NS spannes))
+							 (ADJ long)))))))
+		(CONJP (CONJ and)
+		       (NP (D the)
+			   (N Cercle)
+			   (PP (P of)
+			       (NP (NS Swannes)
+				   (PP (P of)
+				       (NP (NPR heuene)))))
+			   (PP (P with)
+			       (NP (D a)
+				   (N tabernacle)
+				   (PP (P of)
+				       (NP (N gold)))))))
+		(CONJP (CONJ &)
+		       (NP (D a)
+			   (N table)
+			   (PP (P of)
+			       (NP (N syluer)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .ij.)
+			   (NS trompes)
+			   (PP (P of)
+			       (NP (N siluer)))))
+		(CONJP (CONJ &)
+		       (NP (NUM .vij.) (N barly) (NS louves)))
+		(CONJP (CONJ &)
+		       (NP (Q all)
+			   (D the)
+			   (OTHER o+tere)
+			   (NS relikes)
+			   (CP-REL (WNP-3 0)
+				   (C +tat)
+				   (IP-SUB (NP-SBJ *T*-3)
+					   (BED weren)
+					   (PP (P before)
+					       (NP (D the)
+						   (N birthe)
+						   (PP (P of)
+						       (NP (PRO$ oure)
+							   (NPR lord)
+							   (NP-PRN (NPR Ihesu) (NPR crist)))))))))))
+	  (. .))
+  (ID CMMANDEV,56.1388))
+
+/~*
+And +tere besyde is oure ladyes bed
+(CMMANDEV,58.1433)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (NP-POS (PRO$ oure) (NPR$ ladyes))
+		(N bed)))
+  (ID CMMANDEV,58.1433))
+
+/~*
+And +tere besyde lay somtyme seynt Anne his wif
+(CMMANDEV,58.1439)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (VBD lay)
+	  (NP-TMP (Q+N somtyme))
+	  (NP-SBJ (NPR seynt)
+		  (NPR Anne)
+		  (NP-PRN (PRO$ his) (N wif))))
+  (ID CMMANDEV,58.1439))
+
+/~*
+And +tere besyde was Pilates hows
+(CMMANDEV,58.1447)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (NP-SBJ-1 *exp*)
+	  (BED was)
+	  (NP-1 (NPR$ Pilates) (N hows)))
+  (ID CMMANDEV,58.1447))
+
+/~*
+And +tere besyde is the +gate where thorgh oure lady wente whan sche was with
+childe whan sche wente to Bethleem.
+(CMMANDEV,60.1486)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+22 P:  22 P, 23 thorgh, 18 WPP-1
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N +gate)
+		  (CP-REL (WPP-1 (WADVP (WADV where))
+				 (P thorgh))
+			  (C 0)
+			  (IP-SUB (PP *T*-1)
+				  (NP-SBJ (PRO$ oure) (NPR lady))
+				  (VBD wente)
+				  (PP (P whan)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO sche))
+						      (BED was)
+						      (PP (P with)
+							  (NP (N childe))))))
+				  (PP (P whan)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (PRO sche))
+						      (VBD wente)
+						      (PP (P to)
+							  (NP (NPR Bethleem)))))))))
+	  (. .))
+  (ID CMMANDEV,60.1486))
+
+/~*
+And be cause +tere of men clepen it the hond of Absalon.
+(CMMANDEV,61.1526)
+*~/
+/*
+14 P:  14 P, 15 of, 10 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P be)
+	      (NP (N cause)
+		  (PP (ADVP (ADV +tere))
+		      (P of))))
+	  (NP-SBJ (NS men))
+	  (VBP clepen)
+	  (IP-SMC (NP-SBJ (PRO it))
+		  (NP-OB1 (D the)
+			  (N hond)
+			  (PP (P of)
+			      (NP (NPR Absalon)))))
+	  (. .))
+  (ID CMMANDEV,61.1526))
+
+/~*
+And +tere besyde was the synagogue where the bysschoppes of Iewes & the
+sarrazins camen togidere
+(CMMANDEV,61.1528)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BED was)
+	  (NP-SBJ (D the)
+		  (N synagogue)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (NP (D the)
+					      (NS bysschoppes)
+					      (PP (P of)
+						  (NP (NPRS Iewes))))
+					  (CONJP (CONJ &)
+						 (NP (D the) (NPRS sarrazins))))
+				  (VBD camen)
+				  (ADVP (ADV togidere))))))
+  (ID CMMANDEV,61.1528))
+
+/~*
+And +tere besyde is the place where oure lady $appered to seynt Thomas the
+Apostle after hire Assumpcioun
+(CMMANDEV,65.1612)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N place)
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (PRO$ oure) (NPR lady))
+				  (CODE <P_65>)
+				  (VBD $appered)
+				  (PP (P to)
+				      (NP (NPR seynt)
+					  (NPR Thomas)
+					  (NP-PRN (D the) (N Apostle))))
+				  (PP (P after)
+				      (NP (PRO$ hire) (NPR Assumpcioun)))))))
+  (ID CMMANDEV,65.1612))
+
+/~*
+And +tere besyde is the hous of Ieremye the prophete.
+(CMMANDEV,66.1655)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N hous)
+		  (PP (P of)
+		      (NP (NPR Ieremye)
+			  (NP-PRN (D the) (N prophete)))))
+	  (. .))
+  (ID CMMANDEV,66.1655))
+
+/~*
+And +tere besyden growen trees +tat beren full faire apples & faire of colour
+to beholde
+(CMMANDEV,67.1686)
+*~/
+/*
+8 P:  8 P, 9 besyden, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyden))
+	  (VBP growen)
+	  (NP-SBJ (NS trees)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP beren)
+				  (NP-OB1 (ADJP (ADJP (ADV full) (ADJ faire))
+						(CONJP *ICH*-2))
+					  (NS apples)
+					  (CONJP-2 (CONJ &)
+						   (ADJP (ADJ faire)
+							 (PP (P of)
+							     (NP (N colour)))))
+					  (CP-EOP (WNP-3 0)
+						  (IP-INF (NP-OB1 *T*-3)
+							  (TO to)
+							  (VB beholde))))))))
+  (ID CMMANDEV,67.1686))
+
+/~*
+And +tere all abowte dwellen cristene men vnder trybute.
+(CMMANDEV,70.1752)
+*~/
+/*
+10 P:  10 P, 11 abowte, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (Q all)
+	      (P abowte))
+	  (VBP dwellen)
+	  (NP-SBJ (ADJ cristene) (NS men))
+	  (PP (P vnder)
+	      (NP (N trybute)))
+	  (. .))
+  (ID CMMANDEV,70.1752))
+
+/~*
+And +tere besyde is the hill of GARASOUN where the Samaritanes maken here
+sacrifise;
+(CMMANDEV,71.1784)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N hill)
+		  (PP (P of)
+		      (NP (NPR GARASOUN)))
+		  (CP-REL (WADVP-1 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-1)
+				  (NP-SBJ (D the) (NPRS Samaritanes))
+				  (VBP maken)
+				  (NP-OB1 (PRO$ here) (N sacrifise)))))
+	  (. ;))
+  (ID CMMANDEV,71.1784))
+
+/~*
+And +tere besyde is the vale of DOTAYM
+(CMMANDEV,71.1786)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N vale)
+		  (PP (P of)
+		      (NP (NPR DOTAYM)))))
+  (ID CMMANDEV,71.1786))
+
+/~*
+And +tere aboute goth the broke of Torrens Cison +tat somtyme was clept the
+broke Radumu.
+(CMMANDEV,74.1873)
+*~/
+/*
+8 P:  8 P, 9 aboute, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P aboute))
+	  (VBP goth)
+	  (NP-SBJ (D the)
+		  (N broke)
+		  (PP (P of)
+		      (NP (NPR Torrens) (NPR Cison)))
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ-2 *T*-1)
+				  (NP-TMP (Q+N somtyme))
+				  (BED was)
+				  (VAN clept)
+				  (IP-SMC (NP-SBJ *-2)
+					  (NP-OB1 (D the)
+						  (N broke)
+						  (NP-PRN (NPR Radumu)))))))
+	  (. .))
+  (ID CMMANDEV,74.1873))
+
+/~*
+And +tere besyde Barach +tat was Abymelech sone with sone of Delbore the
+prophetisse ouercam the oost of ydumea whan Cysara the kyng was slayn of
+Gebell the wif of Aber
+(CMMANDEV,74.1874)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (NP-SBJ (NPR Barach)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (NP-OB1 (NPR$ Abymelech) (N sone))))
+		  (PP (P with)
+		      (NP (N sone)
+			  (PP (P of)
+			      (NP (NPR Delbore)
+				  (NP-PRN (D the) (N prophetisse)))))))
+	  (VBD ouercam)
+	  (NP-OB1 (D the)
+		  (N oost)
+		  (PP (P of)
+		      (NP (NPR ydumea))))
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Cysara)
+				      (NP-PRN (D the) (N kyng)))
+			      (BED was)
+			      (VAN slayn)
+			      (PP (P of)
+				  (NP (NPR Gebell)
+				      (NP-PRN (D the)
+					      (N wif)
+					      (PP (P of)
+						  (NP (NPR Aber))))))))))
+  (ID CMMANDEV,74.1874))
+
+/~*
+& the bark +tere of is all lyk coles.
+(CMMANDEV,78.1975)
+*~/
+/*
+13 P:  13 P, 14 of, 9 PP
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ (D the)
+		  (N bark)
+		  (PP (ADVP (ADV +tere))
+		      (P of)))
+	  (BEP is)
+	  (ADJP (Q all)
+		(ADJ lyk)
+		(NP (NS coles)))
+	  (. .))
+  (ID CMMANDEV,78.1975))
+
+/~*
+And +tere benethe was Centurioes hous.
+(CMMANDEV,78.1981)
+*~/
+/*
+8 P:  8 P, 9 benethe, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P benethe))
+	  (BED was)
+	  (NP-SBJ (NPR$ Centurioes) (N hous))
+	  (. .))
+  (ID CMMANDEV,78.1981))
+
+/~*
+& casten +ter in poudre of frankences
+(CMMANDEV,80.2019)
+*~/
+/*
+12 P:  12 P, 13 in, 8 PP
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (VBP casten)
+	  (PP (ADVP (ADV +ter))
+	      (P in))
+	  (NP-OB1 (N poudre)
+		  (PP (P of)
+		      (NP (NS frankences)))))
+  (ID CMMANDEV,80.2019))
+
+/~*
+And within the cytee & withoute ben many fayre gardynes & of dyuerse frutes.
+(CMMANDEV,81.2063)
+*~/
+/*
+16 P:  16 P, 17 withoute, 13 CONJP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (PP (P within)
+		  (NP (D the) (N cytee)))
+	      (CONJP (CONJ &) (P withoute)))
+	  (NP-SBJ-1 *exp*)
+	  (BEP ben)
+	  (NP-1 (Q many)
+		(ADJP (ADJP (ADJ fayre))
+		      (CONJP *ICH*-2))
+		(NS gardynes)
+		(CONJP-2 (CONJ &)
+			 (PP (P of)
+			     (NP (ADJ dyuerse) (NS frutes)))))
+	  (. .))
+  (ID CMMANDEV,81.2063))
+
+/~*
+And +tere withinne ben monkes & nonnes cristene
+(CMMANDEV,82.2083)
+*~/
+/*
+8 P:  8 P, 9 withinne, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P withinne))
+	  (BEP ben)
+	  (NP-SBJ (NS monkes)
+		  (CONJ &)
+		  (NS nonnes)
+		  (ADJP (ADJ cristene))))
+  (ID CMMANDEV,82.2083))
+
+/~*
+& +tere with +tei slowgh this heremyte
+(CMMANDEV,91.2273)
+*~/
+/*
+8 P:  8 P, 9 with, 4 PP
+*/
+
+( (IP-MAT (CONJ &)
+	  (PP (ADVP (ADV +tere))
+	      (P with))
+	  (NP-SBJ (PRO +tei))
+	  (VBD slowgh)
+	  (NP-OB1 (D this) (N heremyte)))
+  (ID CMMANDEV,91.2273))
+
+/~*
+And it is clept Albanye be cause +tat the folk ben whitere +tere +tan in o+ter
+marches +tere abouten;
+(CMMANDEV,95.2306)
+*~/
+/*
+57 P:  57 P, 58 abouten, 53 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (VAN clept)
+	  (IP-SMC (NP-SBJ *-1)
+		  (NP-OB1 (NPR Albanye)))
+	  (PP (P be)
+	      (NP (N cause)
+		  (CP-THT (C +tat)
+			  (IP-SUB (NP-SBJ (D the) (N folk))
+				  (BEP ben)
+				  (ADJP (ADJR whitere)
+					(PP *ICH*-2))
+				  (ADVP-LOC (ADV +tere))
+				  (PP-2 (P +tan)
+					(PP (P in)
+					    (NP (OTHER o+ter)
+						(NS marches)
+						(PP (ADVP (ADV +tere))
+						    (P abouten)))))))))
+	  (. ;))
+  (ID CMMANDEV,95.2306))
+
+/~*
+And +tanne after is Hircanye Bactrie Hiberye & many o+ter kyngdomes.
+(CMMANDEV,95.2308)
+*~/
+/*
+8 P:  8 P, 9 after, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tanne))
+	      (P after))
+	  (BEP is)
+	  (NP-SBJ (NP (NPR Hircanye))
+		  (CONJP (NP (NPR Bactrie)))
+		  (CONJP (NP (NPR Hiberye)))
+		  (CONJP (CONJ &)
+			 (NP (Q many) (OTHER o+ter) (NS kyngdomes))))
+	  (. .))
+  (ID CMMANDEV,95.2308))
+
+/~*
+But of sum parties I schall speke more pleynly here after.
+(CMMANDEV,96.2319)
+*~/
+/*
+28 P:  28 P, 29 after, 24 PP
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P of)
+	      (NP (Q sum) (NS parties)))
+	  (NP-SBJ (PRO I))
+	  (MD schall)
+	  (VB speke)
+	  (ADVP (QR more) (ADV pleynly))
+	  (PP (ADVP (ADV here))
+	      (P after))
+	  (. .))
+  (ID CMMANDEV,96.2319))
+
+/~*
++Tere is the hauene of Persanes & of Medaynes & of the marches +tere be+gonde.
+(CMMANDEV,96.2324)
+*~/
+/*
+43 P:  43 P, 44 be+gonde, 39 PP
+*/
+
+( (IP-MAT (ADVP-LOC (ADV +Tere))
+	  (BEP is)
+	  (NP-SBJ (D the)
+		  (N hauene)
+		  (PP (PP (P of)
+			  (NP (NPRS Persanes)))
+		      (CONJP (CONJ &)
+			     (PP (P of)
+				 (NP (NPRS Medaynes))))
+		      (CONJP (CONJ &)
+			     (PP (P of)
+				 (NP (D the)
+				     (NS marches)
+				     (PP (ADVP (ADV +tere))
+					 (P be+gonde)))))))
+	  (. .))
+  (ID CMMANDEV,96.2324))
+
+/~*
++Tere aboute groweth no wyn ne frut but lityll or ell non.
+(CMMANDEV,98.2375)
+*~/
+/*
+6 P:  6 P, 7 aboute, 2 PP
+*/
+
+( (IP-MAT (PP (ADVP (ADV +Tere))
+	      (P aboute))
+	  (NP-SBJ-1 *exp*)
+	  (VBP groweth)
+	  (NP-1 (NP (Q no) (N wyn))
+		(CONJP (CONJ ne)
+		       (NP (N frut)
+			   (QP (FP but) (Q lityll) (CONJ or) (ELSE ell) (Q non)))))
+	  (. .))
+  (ID CMMANDEV,98.2375))
+
+/~*
+And +tere besyde is ano+ter hill +tat men clepen Ararath but +te Iewes clepen
+it TANEEZ, where Noes schipp rested & +git is vpon +tat montayne,
+(CMMANDEV,98.2384)
+*~/
+/*
+8 P:  8 P, 9 besyde, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P besyde))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (D+OTHER ano+ter)
+		(N hill)
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ (NS men))
+				(VBP clepen)
+				(IP-SMC (NP-SBJ *T*-2)
+					(NP-OB1 (NPR Ararath)))))
+		(IP-MAT-PRN (CONJ but)
+			    (NP-SBJ (D +te) (NPRS Iewes))
+			    (VBP clepen)
+			    (IP-SMC (NP-SBJ (PRO it))
+				    (NP-OB1 (NPR TANEEZ))))
+		(, ,)
+		(CP-REL (WADVP-3 (WADV where))
+			(C 0)
+			(IP-SUB (IP-SUB (ADVP-LOC *T*-3)
+					(NP-SBJ (NPR$ Noes) (N schipp))
+					(VBD rested))
+				(CONJP (CONJ &)
+				       (IP-SUB (ADVP-LOC *T*-3)
+					       (NP-SBJ *con*)
+					       (ADVP-TMP (ADV +git))
+					       (BEP is)
+					       (PP (P vpon)
+						   (NP (D +tat) (N montayne))))))))
+	  (. ,))
+  (ID CMMANDEV,98.2384))
+
+/~*
+In +tat lond of Caldee +tei han here propre langages & here propre lettres,
+suche as +gee may see here after.
+(CMMANDEV,102.2489)
+*~/
+/*
+66 P:  66 P, 67 after, 62 PP
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D +tat)
+		  (N lond)
+		  (PP (P of)
+		      (NP (NPR Caldee)))))
+	  (NP-SBJ (PRO +tei))
+	  (HVP han)
+	  (NP-OB1 (NP (PRO$ here) (ADJ propre) (NS langages))
+		  (CONJP (CONJ &)
+			 (NP (PRO$ here) (ADJ propre) (NS lettres)))
+		  (, ,)
+		  (ADJP (SUCH suche)
+			(PP (P as)
+			    (CP-CMP (WNP-1 0)
+				    (C 0)
+				    (IP-SUB (NP-OB1 *T*-1)
+					    (NP-SBJ (PRO +gee))
+					    (MD may)
+					    (VB see)
+					    (PP (ADVP (ADV here))
+						(P after)))))))
+	  (. .))
+  (ID CMMANDEV,102.2489))
+
+/~*
+In +tat partie is a well +tat in the day it is so cold +tat noman may drynke
++tere offe And in the nyght it is so hoot +tat noman may suffre hys hond +tere
+in.
+(CMMANDEV,104.2527)
+*~/
+/*
+59 P:  59 P, 60 offe, 55 PP
+103 P:  103 P, 104 in, 99 PP
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D +tat) (N partie)))
+	  (NP-SBJ-1 *exp*)
+	  (BEP is)
+	  (NP-1 (D a)
+		(N well)
+		(CP-REL (WNP 0)
+			(C +tat)
+			(IP-SUB (IP-SUB (PP (P in)
+					    (NP (D the) (N day)))
+					(NP-SBJ-RSP (PRO it))
+					(BEP is)
+					(ADJP (ADVR so)
+					      (ADJ cold)
+					      (CP-DEG (C +tat)
+						      (IP-SUB (NP-SBJ (Q+N noman))
+							      (MD may)
+							      (VB drynke)
+							      (PP (ADVP (ADV +tere))
+								  (P offe))))))
+				(CONJP (CONJ And)
+				       (IP-SUB (PP (P in)
+						   (NP (D the) (N nyght)))
+					       (NP-SBJ-RSP (PRO it))
+					       (BEP is)
+					       (ADJP (ADVR so)
+						     (ADJ hoot)
+						     (CP-DEG (C +tat)
+							     (IP-SUB (NP-SBJ (Q+N noman))
+								     (MD may)
+								     (VB suffre)
+								     (NP-OB1 (PRO$ hys) (N hond))
+								     (PP (ADVP (ADV +tere))
+									 (P in))))))))))
+	  (. .))
+  (ID CMMANDEV,104.2527))
+
+/~*
+for +tei ben all full +tere aboute in +tat see +tat it is merueyle to speken
+of.
+(CMMANDEV,109.2658)
+*~/
+/*
+18 P:  18 P, 19 aboute, 14 PP
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tei))
+	  (BEP ben)
+	  (Q all)
+	  (ADJP (ADJ full))
+	  (PP (ADVP (ADV +tere))
+	      (P aboute))
+	  (PP (P in)
+	      (NP (D +tat)
+		  (N see)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ-2 (PRO it))
+				  (BEP is)
+				  (NP-OB1 (N merueyle))
+				  (IP-INF-2 (TO to)
+					    (VB speken)
+					    (PP (P of)
+						(NP *T*-1)))))))
+	  (. .))
+  (ID CMMANDEV,109.2658))
+
+/~*
+I haue dronken +tere of .iij. or .iiij. sithes
+(CMMANDEV,113.2765)
+*~/
+/*
+13 P:  13 P, 14 of, 9 PP
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVP haue)
+	  (VBN dronken)
+	  (PP (ADVP (ADV +tere))
+	      (P of))
+	  (NP-TMP (NUMP (NUM .iij.) (CONJ or) (NUM .iiij.))
+		  (NS sithes)))
+  (ID CMMANDEV,113.2765))
+
+/~*
+for +tei +tat often drynken +tere of semen allweys +gongly
+(CMMANDEV,113.2768)
+*~/
+/*
+24 P:  24 P, 25 of, 20 PP
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tei)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (ADVP-TMP (ADV often))
+				  (VBP drynken)
+				  (PP (ADVP (ADV +tere))
+				      (P of)))))
+	  (VBP semen)
+	  (ADVP-TMP (ADV allweys))
+	  (ADJP (ADJ +gongly)))
+  (ID CMMANDEV,113.2768))
+
+/~*
+& maketh +tere ouer a gret blessyng
+(CMMANDEV,113.2784)
+*~/
+/*
+12 P:  12 P, 13 ouer, 8 PP
+*/
+
+( (IP-MAT (CONJ &)
+	  (NP-SBJ *con*)
+	  (VBP maketh)
+	  (PP (ADVP (ADV +tere))
+	      (P ouer))
+	  (NP-OB1 (D a) (ADJ gret) (N blessyng)))
+  (ID CMMANDEV,113.2784))
+
+/~*
+And +gif he wil not, noman constreyneth him +tere to,
+(CMMANDEV,114.2803)
+*~/
+/*
+32 P:  32 P, 33 to, 28 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBP wil)
+			      (NEG not))))
+	  (, ,)
+	  (NP-SBJ (Q+N noman))
+	  (VBP constreyneth)
+	  (NP-OB1 (PRO him))
+	  (PP (ADVP (ADV +tere))
+	      (P to))
+	  (. ,))
+  (ID CMMANDEV,114.2803))
+
+/~*
+And +tere in pilgrymes casten gold & syluer, perles & precious stones
+withouten nombre in stede of offrynges
+(CMMANDEV,116.2847)
+*~/
+/*
+8 P:  8 P, 9 in, 4 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (ADVP (ADV +tere))
+	      (P in))
+	  (NP-SBJ (NS pilgrymes))
+	  (VBP casten)
+	  (NP-OB1 (NP (N gold) (CONJ &) (N syluer))
+		  (, ,)
+		  (CONJP (NP (NP (NS perles))
+			     (CONJP (CONJ &)
+				    (NP (ADJ precious) (NS stones)))
+			     (PP (P withouten)
+				 (NP (N nombre))))))
+	  (PP (P in)
+	      (NP (N stede)
+		  (PP (P of)
+		      (NP (NS offrynges))))))
+  (ID CMMANDEV,116.2847))
+
+/~*
+And so longe he wente be see & lond & so enviround the world be many seisons,
++tat he fond an yle where he herde speke his owne langage, callynge on oxen in
+the plowgh suche wordes as men speken to bestes in his owne contree, Where of
+he hadde gret meruayle, for he knew not how it myghte be.
+(CMMANDEV,122.2973)
+*~/
+/*
+152 P:  152 P, 153 of, 148 WPP-5
+*/
+
+( (IP-MAT-1 (CONJ And)
+	    (NP-MSR (ADVR so)
+		    (ADJ longe)
+		    (CP-DEG *ICH*-2))
+	    (NP-SBJ (PRO he))
+	    (VBD wente)
+	    (PP (P be)
+		(NP (N see) (CONJ &) (N lond)))
+	    (IP-MAT-PRN=1 (CONJ &)
+			  (ADVP (ADV so))
+			  (VBD enviround)
+			  (NP-OB1 (D the) (N world))
+			  (PP (P be)
+			      (NP (Q many) (NS seisons))))
+	    (, ,)
+	    (CP-DEG-2 (C +tat)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBD fond)
+			      (NP-OB1 (D an)
+				      (N yle)
+				      (CP-REL (WADVP-3 (WADV where))
+					      (C 0)
+					      (IP-SUB (ADVP-LOC *T*-3)
+						      (NP-SBJ (PRO he))
+						      (VBD herde)
+						      (IP-INF (NP-SBJ *arb*)
+							      (VB speke)
+							      (NP-OB1 (PRO$ his) (ADJ owne) (N langage)))
+						      (, ,)
+						      (IP-PPL (VAG callynge)
+							      (PP (P on)
+								  (NP (NS oxen)
+								      (PP (P in)
+									  (NP (D the) (N plowgh)))))
+							      (NP-OB1 (SUCH suche)
+								      (NS wordes)
+								      (PP (P as)
+									  (CP-CMP (WNP-4 0)
+										  (C 0)
+										  (IP-SUB (NP-OB1 *T*-4)
+											  (NP-SBJ (NS men))
+											  (VBP speken)
+											  (PP (P to)
+											      (NP (NS bestes)))
+											  (PP (P in)
+											      (NP (PRO$ his) (ADJ owne) (N contree))))))))
+						      (, ,)
+						      (CP-CAR (WPP-5 (WADVP (WADV Where))
+								     (P of))
+							      (C 0)
+							      (IP-SUB (PP *T*-5)
+								      (NP-SBJ (PRO he))
+								      (HVD hadde)
+								      (NP-OB1 (ADJ gret) (N meruayle))
+								      (, ,)
+								      (PP (P for)
+									  (CP-ADV (C 0)
+										  (IP-SUB (NP-SBJ (PRO he))
+											  (VBD knew)
+											  (NEG not)
+											  (CP-QUE (WADVP-6 (WADV how))
+												  (C 0)
+												  (IP-SUB (ADVP *T*-6)
+													  (NP-SBJ (PRO it))
+													  (MD myghte)
+													  (BE be)))))))))))))
+	    (. .))
+  (ID CMMANDEV,122.2973))
+
+/~*
+OF THE TREES +TAT BEREN MELE, HONY, WYN & VENYM, & OF OTHERE MERUAYLLES &
+CUSTOMS VSED IN THE YLES MARCHINGE +TERE ABOUTEN.
+(CMMANDEV,124.3020)
+*~/
+/*
+72 P:  72 P, 73 ABOUTEN, 68 PP
+*/
+
+( (PP (PP (P OF)
+	  (NP (D THE)
+	      (NS TREES)
+	      (CP-REL (WNP-1 0)
+		      (C +TAT)
+		      (IP-SUB (NP-SBJ *T*-1)
+			      (VBP BEREN)
+			      (NP-OB1 (N MELE) (, ,) (N HONY) (, ,) (N WYN) (CONJ &) (N VENYM))))))
+      (, ,)
+      (CONJP (CONJ &)
+	     (PP (P OF)
+		 (NP (OTHER OTHERE)
+		     (NS MERUAYLLES)
+		     (CONJP (CONJ &)
+			    (NX (NS CUSTOMS)))
+		     (RRC (VAN VSED)
+			  (PP (P IN)
+			      (NP (D THE)
+				  (NS YLES)
+				  (RRC (VAG MARCHINGE)
+				       (PP (ADVP (ADV +TERE))
+					   (P ABOUTEN)))))))))
+      (. .))
+  (ID CMMANDEV,124.3020))
+
+/~*
+And many o+ter yles ben +tere aboute where +tere ben many of dyuerse folk of
+the whiche it were to longe to speke of all.
+(CMMANDEV,125.3028)
+*~/
+/*
+17 P:  17 P, 18 aboute, 13 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (Q many) (OTHER o+ter) (NS yles))
+	  (BEP ben)
+	  (PP (ADVP (ADV +tere))
+	      (P aboute))
+	  (ADVP-LOC (CP-FRL (WADVP-1 (WADV where))
+			    (C 0)
+			    (IP-SUB (ADVP *T*-1)
+				    (NP-SBJ-2 (EX +tere))
+				    (BEP ben)
+				    (NP-2 (Q many)
+					  (PP (P of)
+					      (NP (ADJ dyuerse) (NS folk)))
+					  (CP-REL (WPP-3 (P of)
+							 (WNP (D the) (WPRO whiche)))
+						  (C 0)
+						  (IP-SUB (NP-SBJ-4 (PRO it))
+							  (BED were)
+							  (ADJP (ADVR to) (ADJ longe))
+							  (IP-INF-4 (TO to)
+								    (VB speke)
+								    (PP (P of)
+									(NP (Q all)
+									    (PP *T*-3))))))))))
+	  (. .))
+  (ID CMMANDEV,125.3028))
+
+/~*
+& so don o+ter kynges +tere aboute.
+(CMMANDEV,127.3094)
+*~/
+/*
+18 P:  18 P, 19 aboute, 14 PP
+*/
+
+( (IP-MAT (CONJ &)
+	  (ADVP (ADV so))
+	  (DOP don)
+	  (NP-SBJ (OTHER o+ter)
+		  (NS kynges)
+		  (PP (ADVP (ADV +tere))
+		      (P aboute)))
+	  (. .))
+  (ID CMMANDEV,127.3094))
+
+/~*
+And +tere withjnne ben many COCODRILLES & serpentes & grete waterleches.
+(CMMANDEV,131.3188)
+*~/
+/*
+10 P:  10 P, 11 withjnne, 6 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ-1 *exp*)
+	  (PP (ADVP (ADV +tere))
+	      (P withjnne))
+	  (BEP ben)
+	  (NP-1 (Q many)
+		(NS COCODRILLES)
+		(CONJP (CONJ &)
+		       (NX (NS serpentes)))
+		(CONJP (CONJ &)
+		       (NX (ADJ grete) (N+NS waterleches))))
+	  (. .))
+  (ID CMMANDEV,131.3188))
+
+/~*
+In +tat contree & o+tere +tere abouten +tere ben wylde gees +tat han .ij.
+hedes
+(CMMANDEV,132.3196)
+*~/
+/*
+20 P:  20 P, 21 abouten, 16 PP
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D +tat)
+		  (N contree)
+		  (CONJP (CONJ &)
+			 (NP (OTHERS o+tere)
+			     (PP (ADVP (ADV +tere))
+				 (P abouten))))))
+	  (NP-SBJ-1 (EX +tere))
+	  (BEP ben)
+	  (NP-1 (ADJ wylde)
+		(NS gees)
+		(CP-REL (WNP-2 0)
+			(C +tat)
+			(IP-SUB (NP-SBJ *T*-2)
+				(HVP han)
+				(NP-OB1 (NUM .ij.) (NS hedes))))))
+  (ID CMMANDEV,132.3196))
+
+/~*
+And witeth wel +tat in +tat contree & in o+ter yles +tere abouten the see is
+so high +tat it semeth as +tough it henge at the clowdes & +tat it wolde
+coueren all the world;
+(CMMANDEV,132.3198)
+*~/
+/*
+37 P:  37 P, 38 abouten, 33 PP
+*/
+
+( (IP-IMP (CONJ And)
+	  (VBI witeth)
+	  (ADVP (ADV wel))
+	  (CP-THT (C +tat)
+		  (IP-SUB (PP (PP (P in)
+				  (NP (D +tat) (N contree)))
+			      (CONJP (CONJ &)
+				     (PP (P in)
+					 (NP (OTHER o+ter)
+					     (NS yles)
+					     (PP (ADVP (ADV +tere))
+						 (P abouten))))))
+			  (NP-SBJ (D the) (N see))
+			  (BEP is)
+			  (ADJP (ADVR so)
+				(ADJ high)
+				(CP-DEG (C +tat)
+					(IP-SUB (NP-SBJ (PRO it))
+						(VBP semeth)
+						(PP (P as)
+						    (PP (P +tough)
+							(CP-ADV (CP-ADV (C 0)
+									(IP-SUB (NP-SBJ (PRO it))
+										(VBD henge)
+										(PP (P at)
+										    (NP (D the) (NS clowdes)))))
+								(CONJP (CONJ &)
+								       (CP-ADV (C +tat)
+									       (IP-SUB (NP-SBJ (PRO it))
+										       (MD wolde)
+										       (VB coueren)
+										       (NP-OB1 (Q all) (D the) (N world)))))))))))))
+	  (. ;))
+  (ID CMMANDEV,132.3198))
+
+/~*
+for +tei tell no prys +tere of to make no vessell offe,
+(CMMANDEV,144.3291)
+*~/
+/*
+20 P:  20 P, 21 of, 16 PP
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO +tei))
+	  (VBP tell)
+	  (NP-OB1 (Q no)
+		  (N prys)
+		  (CP-EOP *ICH*-1))
+	  (PP (ADVP (ADV +tere))
+	      (P of))
+	  (CP-EOP-1 (WNP-2 0)
+		    (IP-INF (TO to)
+			    (VB make)
+			    (NP-OB1 (Q no)
+				    (N vessell)
+				    (PP (P offe)
+					(NP *T*-2)))))
+	  (. ,))
+  (ID CMMANDEV,144.3291))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd	67/64/3314
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\travelogue\cmmandev.m3.psd	67/64/3314
+whole search, hits/tokens/total
+		67/64/3314
+*/

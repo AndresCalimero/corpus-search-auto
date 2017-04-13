@@ -1,0 +1,365 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:24 BST 2017
+
+command file:     data\searches\queries\PENN\stranded_prepositions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\stranded_prepositions\history\result.out
+
+node:   *|P
+query:  (P Dominates  !P) 
+  AND  (* iDomsLast  P) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd
+*/
+
+/~*
+$can $not so much as discover where he is:
+(CARLYLE-1837,1,152.406)
+*~/
+/*
+17 P:  17 P, 18 as, 16 PP
+*/
+( (IP-MAT (NP-SBJ *con*)
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (NP-MSR (QP (ADVR so) (Q much))
+		  (PP (P as)))
+	  (VB discover)
+	  (CP-QUE (WADVP-1 (WADV where))
+		  (C 0)
+		  (IP-SUB (ADVP-LOC *T*-1)
+			  (NP-SBJ (PRO he))
+			  (BEP is)))
+	  (. :))
+  (ID CARLYLE-1837,1,152.406))
+
+/~*
+could not so much as succeed in 'spiking the guns.'
+(CARLYLE-1837,1,155.500)
+*~/
+/*
+15 P:  15 P, 16 as, 14 PP
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (MD could)
+	  (NEG not)
+	  (NP-MSR (QP (ADVR so) (Q much))
+		  (PP (P as)))
+	  (VB succeed)
+	  (PP (P in)
+	      (' ')
+	      (IP-PPL (VAG spiking)
+		      (NP-OB1 (D the) (NS guns))))
+	  (. .)
+	  (' '))
+  (ID CARLYLE-1837,1,155.500))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd	2/2/626
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd	0/0/454
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd
+*/
+
+/~*
+And for the number of Women that bak'd Meat, and of Concubines, Eunuchs,
+Carriage Beasts, Waggons, and Indian Dogs, it was infinite; so that $'t $is
+not so much to be wonder'd that Rivers should be exhausted dry by so vast a
+multitude, as that no plague rag'd amongst them, or that any order could be
+preserv'd, amongst, or sufficient provision found for them.
+(HIND-1707,306.99)
+*~/
+/*
+211 P:  211 P, 212 for, 210 PP
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P for)
+	      (NP (D the)
+		  (N number)
+		  (PP (PP (P of)
+			  (NP (NS Women)
+			      (CP-REL (WNP-1 0)
+				      (C that)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (VBD bak'd)
+					      (NP-OB1 (N Meat))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (PP (P of)
+				 (NP (NP (NS Concubines))
+				     (, ,)
+				     (CONJP (NP (NS Eunuchs)))
+				     (, ,)
+				     (CONJP (NP (N Carriage) (NS Beasts)))
+				     (, ,)
+				     (CONJP (NP (NS Waggons)))
+				     (, ,)
+				     (CONJP (CONJ and)
+					    (CODE <font>)
+					    (NP (ADJ Indian) (CODE <$$font>) (NS Dogs)))))))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (BED was)
+	  (ADJP (ADJ infinite))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ-2 (PRO $'t))
+			      (BEP $is)
+			      (CODE {TEXT:'tis})
+			      (NEG not)
+			      (IP-INF (NP-MSR (QP (ADVR so) (Q much))
+					      (PP *ICH*-3))
+				      (TO to)
+				      (BE be)
+				      (VAN wonder'd))
+			      (CP-THT-2 (C that)
+					(IP-SUB (NP-SBJ (NS Rivers))
+						(MD should)
+						(BE be)
+						(VAN exhausted)
+						(ADJP-SPR (ADJ dry))
+						(PP (P by)
+						    (NP (ADJP (ADVR so) (ADJ vast))
+							(D a)
+							(N multitude)))))
+			      (, ,)
+			      (PP-3 (P as)
+				    (CP-THT (CP-THT (C that)
+						    (IP-SUB (NP-SBJ (Q no) (N plague))
+							    (VBD rag'd)
+							    (PP (P amongst)
+								(NP (PRO them)))))
+					    (, ,)
+					    (CONJP (CONJ or)
+						   (CP-THT (C that)
+							   (IP-SUB-4 (NP-SBJ (Q any) (N order))
+								     (MD could)
+								     (BE be)
+								     (VAN preserv'd)
+								     (, ,)
+								     (PP (P amongst)
+									 (, ,)
+									 (IP-SUB-PRN=4 (CONJ or)
+										       (NP-SBJ (ADJ sufficient) (N provision))
+										       (VAN found)
+										       (PP (P for)))
+									 (NP (PRO them)))))))))))
+	  (. .))
+  (ID HIND-1707,306.99))
+
+/~*
+and was acknowledg'd by Xerxes himself, who there upon said that His Men were
+turn'd into Women, and his Women into Men.
+(HIND-1707,323.290)
+*~/
+/*
+38 P:  38 P, 39 upon, 34 PP
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (VAN acknowledg'd)
+	  (PP (P by)
+	      (CODE <font>)
+	      (NP (NPR Xerxes)
+		  (CODE <$$font>)
+		  (NP-PRN (PRO+N himself))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (PP (ADVP (ADV there))
+				      (P upon))
+				  (CODE {COM:sic})
+				  (VBD said)
+				  (CP-THT (C that)
+					  (CODE <font>)
+					  (IP-SUB (IP-SUB-2 (NP-SBJ (PRO$ His) (NS Men))
+							    (BED were)
+							    (VAN turn'd)
+							    (PP (P into)
+								(NP (NS Women))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (IP-SUB=2 (NP-SBJ (PRO$ his) (NS Women))
+								   (PP (P into)
+								       (NP (NS Men)))))))))))
+	  (CODE <$$font>)
+	  (. .))
+  (ID HIND-1707,323.290))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd	2/2/297
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd
+*/
+
+/~*
+But he being a weak and indolent Prince, and having no Child, the Duke of
+Guise, who was at the Head of the Catholicks, form'd a powerful Party in order
+to raise himself to the Throne, either before or after Henry's Death.
+(KIMBER-1742,266.C2.202)
+*~/
+/*
+127 P:  127 P, 128 after, 120 P
+*/
+
+( (IP-MAT (CONJ But)
+	  (IP-PPL-ABS (IP-PPL (NP-SBJ (PRO he))
+			      (BAG being)
+			      (NP-OB1 (D a)
+				      (ADJP (ADJ weak) (CONJ and) (ADJ indolent))
+				      (N Prince)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-PPL (NP-SBJ *con*)
+				     (HAG having)
+				     (NP-OB1 (Q no) (N Child)))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (N Duke)
+		  (PP (P of)
+		      (CODE <font>)
+		      (NP (NPR Guise)))
+		  (CODE <$$font>)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (PP (P at)
+				      (NP (D the)
+					  (N Head)
+					  (PP (P of)
+					      (NP (D the) (NPRS Catholicks))))))))
+	  (, ,)
+	  (VBD form'd)
+	  (NP-OB1 (D a) (ADJ powerful) (N Party))
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB raise)
+			  (NP-OB1 (PRO+N himself))
+			  (PP (P to)
+			      (NP (D the) (N Throne)))
+			  (, ,)
+			  (PP (P (CONJ either) (P before) (CONJ or) (P after))
+			      (CODE <font>)
+			      (NP (NPR$ Henry's) (CODE <$$font>) (N Death))))))
+	  (. .))
+  (ID KIMBER-1742,266.C2.202))
+
+/~*
+Elizabeth assisted him and the Huguenots, both before and after his Accession
+to the Crown of France;
+(KIMBER-1742,266.C2.207)
+*~/
+/*
+35 P:  35 P, 36 after, 28 P
+*/
+
+( (IP-MAT (NP-SBJ (NPR Elizabeth))
+	  (CODE <$$font>)
+	  (VBD assisted)
+	  (NP-OB1 (NP (PRO him))
+		  (CONJP (CONJ and)
+			 (NP (D the) (CODE <font>) (NPRS Huguenots))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P (CONJ both) (P before) (CONJ and) (P after))
+	      (NP (PRO$ his)
+		  (N Accession)
+		  (PP (P to)
+		      (NP (D the)
+			  (N Crown)
+			  (PP (P of)
+			      (CODE <font>)
+			      (NP (NPR France)))))))
+	  (CODE <$$font>)
+	  (. ;))
+  (ID KIMBER-1742,266.C2.207))
+
+/~*
+he entertain'd the Swordsmen in and about London,
+(KIMBER-1742,271.C2.329)
+*~/
+/*
+18 P:  18 P, 19 about, 13 P
+*/
+
+( (IP-MAT (NP-SBJ (PRO he))
+	  (VBD entertain'd)
+	  (NP-OB1 (D the) (N+NS Swordsmen))
+	  (PP (P (P in) (CONJ and) (P about))
+	      (CODE <font>)
+	      (NP (NPR London)))
+	  (CODE <$$font>)
+	  (. ,))
+  (ID KIMBER-1742,271.C2.329))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd	3/3/351
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd	0/0/557
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd	0/0/578
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd	0/0/538
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\carlyle-1837.psd	2/2/626
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\gibbon-1776.psd	0/0/454
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\hind-1707.psd	2/2/297
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\kimber-1742.psd	3/3/351
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\long-1866.psd	0/0/557
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\oman-1895.psd	0/0/578
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\history\turner1-1799.psd	0/0/538
+whole search, hits/tokens/total
+		7/7/3401
+*/

@@ -1,0 +1,236 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:40 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_added_to_adjuncts.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_added_to_adjuncts\prefaces_epilogues_nonprivate_and_private_letters\result.out
+
+node:   *ADT*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (*ADT* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd	0/0/741
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd	0/0/699
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd	0/0/288
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd	0/0/925
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd	0/0/298
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd	0/0/914
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd
+*/
+
+/~*
+But she is so delighted with her guards, her four and twenty footmen,
+gentlemen-ushers, &c. that she would rather die than make me a visit without
+them; not to reckon a coachful of attending damsels yclep'd maids of honour.
+(MONTAGU-1718,115.444)
+*~/
+/*
+109 VAG:  109 VAG, 110 attending, 93 IP-INF-ADT-PRN
+*/
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO she))
+	  (BEP is)
+	  (ADJP (ADVR so)
+		(VAN delighted)
+		(PP (P with)
+		    (NP (NP (PRO$ her) (NS guards))
+			(, ,)
+			(CONJP (NP (PRO$ her)
+				   (NUMP (NUM four) (CONJ and) (NUM twenty))
+				   (N+NS footmen)
+				   (, ,)
+				   (CONJP (NX (N+NS gentlemen-ushers)))))
+			(, ,)
+			(FW &c.)))
+		(CP-DEG (C that)
+			(IP-SUB-1 (NP-SBJ (PRO she))
+				  (MD would)
+				  (ADVP (ADVR rather)
+					(PP *ICH*-2))
+				  (VB die)
+				  (PP-2 (P than)
+					(CP-CMP (WADVP-3 0)
+						(C 0)
+						(IP-SUB=1 (ADVP *T*-3)
+							  (VB make)
+							  (NP-OB2 (PRO me))
+							  (NP-OB1 (D a) (N visit))
+							  (PP (P without)
+							      (NP (PRO them)))
+							  (, ;)
+							  (IP-INF-ADT-PRN (NEG not)
+									  (TO to)
+									  (VB reckon)
+									  (NP-OB1 (D a)
+										  (N coachful)
+										  (PP (P of)
+										      (NP (VAG attending) (NS damsels)))
+										  (RRC (VAN yclep'd)
+										       (IP-SMC (NP-SBJ *)
+											       (NP-OB1 (NS maids)
+												       (PP (P of)
+													   (NP (N honour))))))))))))))
+	  (. .))
+  (ID MONTAGU-1718,115.444))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd	1/1/492
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd	0/0/211
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd	0/0/429
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd	0/0/826
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd
+*/
+
+/~*
+You are extremely pretty people to be dancing and trading with French
+poulterers and pastry-cooks, when a hard frost is starving half the nation,
+and the Spanish war ought to be employing the other half.
+(WALPOLE-174X,5,5.60)
+*~/
+/*
+21 VAG:  21 VAG, 22 dancing, 15 IP-INF-ADT
+25 VAG:  25 VAG, 26 trading, 15 IP-INF-ADT
+60 VAG:  60 VAG, 61 starving, 15 IP-INF-ADT
+88 VAG:  88 VAG, 89 employing, 15 IP-INF-ADT
+*/
+
+( (IP-MAT (NP-SBJ (PRO You))
+	  (BEP are)
+	  (NP-OB1 (ADJP (ADV extremely) (ADJ pretty))
+		  (NS people))
+	  (IP-INF-ADT (TO to)
+		      (BE be)
+		      (VAG (VAG dancing) (CONJ and) (VAG trading))
+		      (PP (P with)
+			  (NP (ADJ French)
+			      (NS poulterers)
+			      (CONJP (CONJ and)
+				     (NX (N+NS pastry-cooks)))))
+		      (, ,)
+		      (PP (P when)
+			  (CP-ADV (C 0)
+				  (IP-SUB (IP-SUB (NP-SBJ (D a) (ADJ hard) (N frost))
+						  (BEP is)
+						  (VAG starving)
+						  (NP-OB1 (Q half) (D the) (N nation)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB (NP-SBJ (D the) (ADJ Spanish) (N war))
+							 (MD ought)
+							 (TO to)
+							 (BE be)
+							 (VAG employing)
+							 (NP-OB1 (D the) (OTHER other) (N half))))))))
+	  (. .))
+  (ID WALPOLE-174X,5,5.60))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd	4/1/665
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd	0/0/543
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\austen-180x.psd	0/0/741
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\carlyle-1835.psd	0/0/699
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\george-1763.psd	0/0/288
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\gladstone-1873.psd	0/0/925
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\holmes-letters-1749.psd	0/0/298
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\johnson-1775.psd	0/0/914
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\montagu-1718.psd	1/1/492
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-188x.psd	0/0/211
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\nightingale-189x.psd	0/0/429
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\victoria-186x.psd	0/0/826
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\walpole-174x.psd	4/1/665
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\prefaces_epilogues_nonprivate_and_private_letters\wellesley-1815.psd	0/0/543
+whole search, hits/tokens/total
+		5/2/7031
+*/

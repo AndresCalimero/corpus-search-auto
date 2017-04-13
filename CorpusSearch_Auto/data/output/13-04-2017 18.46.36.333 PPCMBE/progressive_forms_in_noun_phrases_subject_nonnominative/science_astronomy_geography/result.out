@@ -1,0 +1,3733 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:58:39 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\progressive_forms_in_noun_phrases_subject_nonnominative\science_astronomy_geography\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd
+*/
+
+/~*
+I have observed the Spiders, which have their eyes standing in this manner,
+catch their prey, by jumping on it.
+(ALBIN-1736,2.18)
+*~/
+/*
+34 VAG:  34 VAG, 35 standing, 10 NP-SBJ
+*/
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN observed)
+	  (IP-INF (NP-SBJ (D the)
+			  (NS Spiders)
+			  (, ,)
+			  (CP-REL (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (HVP have)
+					  (IP-PPL-OB1 (NP-SBJ (PRO$ their) (NS eyes))
+						      (VAG standing)
+						      (PP (P in)
+							  (NP (D this) (N manner)))))))
+		  (, ,)
+		  (VB catch)
+		  (NP-OB1 (PRO$ their) (N prey))
+		  (, ,)
+		  (PP (P by)
+		      (IP-PPL (VAG jumping)
+			      (PP (P on)
+				  (NP (PRO it))))))
+	  (. .))
+  (ID ALBIN-1736,2.18))
+
+/~*
+By this method I have cured many people of stubborn and long continu'd tertian,
+quartan, and quotidian Fevers, particularly some of the servants of the
+Honourable Colonel Schutz, when their taking the Bark for a long time failed:
+as also Dame Hughs of Tottenham-Court Road of a tertian Ague of three years
+continuance, with many others.
+(ALBIN-1736,4.70)
+*~/
+/*
+117 VAG:  117 VAG, 118 taking, 113 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (PP (P By)
+			(NP (D this) (N method)))
+		    (NP-SBJ (PRO I))
+		    (HVP have)
+		    (VBN cured)
+		    (NP-OB1 (Q many) (NS people))
+		    (PP (P of)
+			(NP (ADJP (ADJP (ADJP (ADJ stubborn))
+					(CONJP (CONJ and)
+					       (ADJP (NP-MSR (ADJ long))
+						     (VAN continu'd))))
+				  (CODE <font>)
+				  (ADJP (ADJ tertian) (CODE <$$font>) (, ,) (CODE <font>) (ADJ quartan) (CODE <$$font>) (, ,) (CONJ and) (CODE <font>) (ADJ quotidian)))
+			    (CODE <$$font>)
+			    (NS Fevers))))
+	  (, ,)
+	  (CONJP (IP-MAT-1 (ADVP (ADV particularly))
+			   (NP-OB1 (Q some)
+				   (PP (P of)
+				       (NP (D the)
+					   (NS servants)
+					   (PP (P of)
+					       (NP (D the) (ADJ Honourable) (NPR Colonel) (CODE <font>) (NPR Schutz)))))
+				   (PP *ICH*-2))
+			   (CODE <$$font>)
+			   (, ,)
+			   (PP (P when)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO$ their)
+						       (IP-PPL (VAG taking)
+							       (NP-OB1 (D the) (N Bark))
+							       (PP (P for)
+								   (NP (D a) (ADJ long) (N time)))))
+					       (VBD failed))))
+			   (, :)
+			   (PP-2 (P as)
+				 (FRAG (ALSO also)
+				       (NP (NPR Dame)
+					   (CODE <font>)
+					   (NPR Hughs)
+					   (CODE <$$font>)
+					   (PP (P of)
+					       (CODE <font>)
+					       (NP (NPR+NPR Tottenham-Court) (CODE <$$font>) (NPR Road))))
+				       (PP (P of)
+					   (NP (D a)
+					       (CODE <font>)
+					       (ADJ tertian)
+					       (CODE <$$font>)
+					       (N Ague)
+					       (PP (P of)
+						   (NP (NP-MSR (NUM three) (NS$ years))
+						       (N continuance)))))
+				       (, ,)
+				       (PP (P with)
+					   (NP (Q many) (OTHERS others)))))))
+	  (. .))
+  (ID ALBIN-1736,4.70))
+
+/~*
+the other part adjoining to the belly was of a redish chesnut colour, the
+upper side of the belly of a yellowish dark ash colour,
+(ALBIN-1736,5.94)
+*~/
+/*
+11 VAG:  11 VAG, 12 adjoining, 3 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D the)
+			    (OTHER other)
+			    (N part)
+			    (RRC (VAG adjoining)
+				 (PP (P to)
+				     (NP (D the) (N belly)))))
+		    (BED was)
+		    (PP (P of)
+			(NP (D a) (ADJ redish) (N chesnut) (N colour))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (NP-SBJ (D the)
+				   (ADJ upper)
+				   (N side)
+				   (PP (P of)
+				       (NP (D the) (N belly))))
+			   (PP (P of)
+			       (NP (D a)
+				   (ADJP (ADJ yellowish) (ADJ dark))
+				   (N ash)
+				   (N colour)))))
+	  (. ,))
+  (ID ALBIN-1736,5.94))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	3/3/843
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd
+*/
+
+/~*
+Do not suppose that that ice and that water are two entirely different things,
+or that the steam rising in bubbles and ascending in vapour there is
+absolutely different from the fluid water -
+(FARADAY-1859,8.69)
+*~/
+/*
+55 VAG:  55 VAG, 56 rising, 48 NP-SBJ
+67 VAG:  67 VAG, 68 ascending, 48 NP-SBJ
+*/
+
+( (IP-IMP (DOI Do)
+	  (NEG not)
+	  (VB suppose)
+	  (CP-THT (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (NP (D that) (N ice))
+					  (CONJP (CONJ and)
+						 (NP (D that) (N water))))
+				  (BEP are)
+				  (NP-OB1 (NUM two)
+					  (ADJP (ADV entirely) (ADJ different))
+					  (NS things))))
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (CP-THT (C that)
+				 (IP-SUB (NP-SBJ (D the)
+						 (N steam)
+						 (RRC (RRC (VAG rising)
+							   (PP (P in)
+							       (NP (NS bubbles))))
+						      (CONJP (CONJ and)
+							     (RRC (VAG ascending)
+								  (PP (P in)
+								      (NP (N vapour)))
+								  (CODE <font>)
+								  (ADVP-LOC (ADV there))))))
+					 (CODE <$$font>)
+					 (BEP is)
+					 (ADJP (ADV absolutely)
+					       (ADJ different)
+					       (PP (P from)
+						   (NP (D the) (ADJ fluid) (N water))))))))
+	  (. -))
+  (ID FARADAY-1859,8.69))
+
+/~*
+Here I have what we call a weight an iron half cwt. - a thing called a weight,
+because in it the exercise of that power of pressing downwards is especially
+used for the purposes of weighing;
+(FARADAY-1859,12.113)
+*~/
+/*
+101 VAG:  101 VAG, 102 pressing, 84 NP-SBJ
+*/
+
+( (IP-MAT (ADVP-LOC (ADV Here))
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (NP-OB1 (CP-FRL (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO we))
+				  (VBP call)
+				  (IP-SMC (NP-SBJ *T*-1)
+					  (NP-OB1 (D a) (CODE <font>) (N weight)))))
+		  (CODE <$$font>)
+		  (CODE <bracket>)
+		  (NP-PRN (D an)
+			  (N iron)
+			  (NP-MSR (NUM half) (N cwt.)))
+		  (CODE <$$bracket>)
+		  (, -)
+		  (NP-PRN (D a)
+			  (N thing)
+			  (RRC (VAN called)
+			       (CODE <P_12>)
+			       (IP-SMC (NP-SBJ *)
+				       (NP-OB1 (D a) (N weight)))
+			       (, ,)
+			       (PP (P+N because)
+				   (CP-ADV (C 0)
+					   (IP-SUB (PP (P in)
+						       (NP (PRO it)))
+						   (NP-SBJ (D the)
+							   (N exercise)
+							   (PP (P of)
+							       (NP (D that)
+								   (N power)
+								   (PP (P of)
+								       (IP-PPL (VAG pressing)
+									       (ADVP-DIR (RP+WARD downwards)))))))
+						   (BEP is)
+						   (ADVP (ADV especially))
+						   (VAN used)
+						   (PP (P for)
+						       (NP (D the)
+							   (NS purposes)
+							   (PP (P of)
+							       (NP (N weighing)))))))))))
+	  (. ;))
+  (ID FARADAY-1859,12.113))
+
+/~*
+then the centre of gravity of both the pasteboard and the ball and string are
+as near as they can get to the centre of the earth; that is to say, the whole
+of the attracting power of the earth is, as it were, centred in a single point
+of the cardboard;
+(FARADAY-1859,20.192)
+*~/
+/*
+109 VAG:  109 VAG, 110 attracting, 98 NP-SBJ
+*/
+
+( (IP-MAT (ADVP-TMP (ADV then))
+	  (NP-SBJ (D the)
+		  (N centre)
+		  (PP (P of)
+		      (NP (N gravity)))
+		  (PP (P of)
+		      (NP (CONJ both)
+			  (NP (D the) (N pasteboard))
+			  (CONJP (CONJ and)
+				 (NP (D the)
+				     (N ball)
+				     (CONJP (CONJ and)
+					    (NX (N string))))))))
+	  (BEP are)
+	  (ADJP-LOC (ADVR as)
+		    (ADJ near)
+		    (PP (P as)
+			(CP-CMP (WADJP-1 0)
+				(C 0)
+				(IP-SUB (ADJP-LOC *T*-1)
+					(NP-SBJ (PRO they))
+					(MD can)
+					(VB get))))
+		    (PP (P to)
+			(NP (D the)
+			    (N centre)
+			    (PP (P of)
+				(NP (D the) (N earth))))))
+	  (, ;)
+	  (IP-MAT-PRN (NP-SBJ (D that))
+		      (BEP is)
+		      (IP-INF (TO to)
+			      (VB say)
+			      (, ,)
+			      (IP-MAT (NP-SBJ (D the)
+					      (N whole)
+					      (PP (P of)
+						  (NP (D the)
+						      (VAG attracting)
+						      (N power)
+						      (PP (P of)
+							  (NP (D the) (N earth))))))
+				      (BEP is)
+				      (, ,)
+				      (PP-PRN (P as)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO it))
+							      (BED were))))
+				      (, ,)
+				      (VAN centred)
+				      (PP (P in)
+					  (NP (D a)
+					      (ADJ single)
+					      (N point)
+					      (PP (P of)
+						  (NP (D the) (N cardboard))))))))
+	  (. ;))
+  (ID FARADAY-1859,20.192))
+
+/~*
+You will know at once that it is the centre of gravity - that point in me
+where the whole gravitating force of my body is centred, and which I thus
+bring in a line over my foot.
+(FARADAY-1859,21.203)
+*~/
+/*
+69 VAG:  69 VAG, 70 gravitating, 64 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO You))
+	  (CODE <P_21>)
+	  (MD will)
+	  (VB know)
+	  (PP (P at)
+	      (ADVP (ADV once)))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO it))
+			  (BEP is)
+			  (NP-OB1 (D the)
+				  (CODE <font>)
+				  (N centre)
+				  (PP (P of)
+				      (NP (N gravity)))
+				  (CODE <$$font>)
+				  (, -)
+				  (NP-PRN (D that)
+					  (N point)
+					  (PP (P in)
+					      (NP (PRO me)))
+					  (CP-REL (CP-REL (WADVP-1 (WADV where))
+							  (C 0)
+							  (IP-SUB (ADVP-LOC *T*-1)
+								  (NP-SBJ (D the)
+									  (ADJ whole)
+									  (VAG gravitating)
+									  (N force)
+									  (PP (P of)
+									      (NP (PRO$ my) (N body))))
+								  (BEP is)
+								  (VAN centred)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (CP-REL (WNP-2 (WPRO which))
+								 (C 0)
+								 (IP-SUB (NP-OB1 *T*-2)
+									 (NP-SBJ (PRO I))
+									 (ADVP (ADV thus))
+									 (VBP bring)
+									 (PP (P in)
+									     (NP (D a) (N line)))
+									 (PP (P over)
+									     (NP (PRO$ my) (N foot)))))))))))
+	  (. .))
+  (ID FARADAY-1859,21.203))
+
+/~*
+for if an avalanche fall from the mountains, the rocks, snow and ice, together
+falling towards the earth, fall with the same velocity, whatever be their size.
+(FARADAY-1859,27.260)
+*~/
+/*
+51 VAG:  51 VAG, 52 falling, 28 NP-SBJ
+*/
+
+( (IP-MAT (CONJ for)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D an) (N avalanche))
+			      (VBP fall)
+			      (PP (P from)
+				  (NP (D the) (NS mountains))))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (NS rocks)
+		  (, ,)
+		  (CONJP (NX (N snow)))
+		  (CONJP (CONJ and)
+			 (NX (N ice)))
+		  (, ,)
+		  (RRC (ADVP (ADV together))
+		       (VAG falling)
+		       (PP (P towards)
+			   (NP (D the) (N earth)))))
+	  (, ,)
+	  (VBP fall)
+	  (PP (P with)
+	      (NP (D the) (ADJ same) (N velocity)))
+	  (, ,)
+	  (NP-ADV (CP-FRL (WNP-1 (WPRO+ADV whatever))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP be)
+				  (NP-OB1 (PRO$ their) (N size)))))
+	  (. .))
+  (ID FARADAY-1859,27.260))
+
+/~*
+The power which I thus have of building up this wall is due to the attraction
+of the particles, forming as it were the cement which holds them together;
+(FARADAY-1859,39.393)
+*~/
+/*
+28 VAG:  28 VAG, 29 building, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N power)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (ADVP (ADV thus))
+				  (HVP have)))
+		  (PP (P of)
+		      (IP-PPL (VAG building)
+			      (RP up)
+			      (NP-OB1 (D this) (N wall)))))
+	  (BEP is)
+	  (ADJP (ADJ due)
+		(PP (P to)
+		    (NP (D the)
+			(N attraction)
+			(PP (P of)
+			    (NP (D the) (NS particles)))
+			(, ,)
+			(RRC (VAG forming)
+			     (PP-PRN (P as)
+				     (CP-ADV (C 0)
+					     (IP-SUB (NP-SBJ (PRO it))
+						     (BED were))))
+			     (NP-OB1 (D the)
+				     (N cement)
+				     (CP-REL (WNP-2 (WPRO which))
+					     (C 0)
+					     (IP-SUB (NP-SBJ *T*-2)
+						     (VBP holds)
+						     (NP-OB1 (PRO them))
+						     (ADVP (ADV together)))))))))
+	  (. ;))
+  (ID FARADAY-1859,39.393))
+
+/~*
+The things we deal with in building up the structures on the earth are of
+strength -
+(FARADAY-1859,43.444)
+*~/
+/*
+29 VAG:  29 VAG, 30 building, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (NS things)
+		  (CODE <P_43>)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO we))
+				  (VBP deal)
+				  (PP (P with)
+				      (NP *T*-1))
+				  (PP (P in)
+				      (IP-PPL (VAG building)
+					      (RP up)
+					      (NP-OB1 (D the) (NS structures))
+					      (PP (P on)
+						  (NP (D the) (N earth))))))))
+	  (BEP are)
+	  (PP (P of)
+	      (NP (N strength)))
+	  (. -))
+  (ID FARADAY-1859,43.444))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	8/7/484
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd
+*/
+
+/~*
+The additional light however which I gained, by introducing the Front-view in
+my telescope, soon after gave me an opportunity of resuming it with more
+success.
+(HERSCHEL-1797,6.47)
+*~/
+/*
+32 VAG:  32 VAG, 33 introducing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ additional)
+		  (N light)
+		  (ADVP (WADV+ADV however))
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (VBD gained)
+				  (, ,)
+				  (PP (P by)
+				      (IP-PPL (VAG introducing)
+					      (NP-OB1 (D the) (N+N Front-view))
+					      (PP (P in)
+						  (NP (PRO$ my) (N telescope))))))))
+	  (, ,)
+	  (ADVP-TMP (ADV soon) (ADV after))
+	  (VBD gave)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (D an)
+		  (N opportunity)
+		  (PP (P of)
+		      (IP-PPL (VAG resuming)
+			      (NP-OB1 (PRO it))
+			      (PP (P with)
+				  (NP (QR more) (N success))))))
+	  (. .))
+  (ID HERSCHEL-1797,6.47))
+
+/~*
+and two more e f, preceding this 4th star, are in a line with it.
+(HERSCHEL-1797,10.185)
+*~/
+/*
+22 VAG:  22 VAG, 23 preceding, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NUM two)
+		  (QP (QR more))
+		  (CODE <font>)
+		  (NP-PRN (N e) (N f))
+		  (CODE <$$font>)
+		  (, ,)
+		  (RRC (VAG preceding)
+		       (NP-OB1 (D this) (ADJ 4th) (N star))))
+	  (, ,)
+	  (BEP are)
+	  (PP (P in)
+	      (NP (D a) (N line)))
+	  (PP (P with)
+	      (NP (PRO it)))
+	  (. .))
+  (ID HERSCHEL-1797,10.185))
+
+/~*
+From the reports of the great number of supposed satellites, compared with the
+select observations which are given at length, it must be evident that the
+method of looking for difficult objects, and of marking them down by lines and
+angles, with every other possible advantage for finding them again, has been
+completely understood and put in practice.
+(HERSCHEL-1797,15.337)
+*~/
+/*
+89 VAG:  89 VAG, 90 looking, 79 NP-SBJ
+110 VAG:  110 VAG, 111 marking, 79 NP-SBJ
+145 VAG:  145 VAG, 146 finding, 79 NP-SBJ
+*/
+
+( (IP-MAT (PP (P From)
+	      (NP (D the)
+		  (NS reports)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ great)
+			  (N number)
+			  (PP (P of)
+			      (NP (VAN supposed) (NS satellites)))))
+		  (, ,)
+		  (RRC (VAN compared)
+		       (PP (P with)
+			   (NP (D the)
+			       (ADJ select)
+			       (NS observations)
+			       (CP-REL (WNP-1 (WPRO which))
+				       (C 0)
+				       (IP-SUB (NP-SBJ *T*-1)
+					       (BEP are)
+					       (VAN given)
+					       (PP (P at)
+						   (NP (N length))))))))))
+	  (, ,)
+	  (NP-SBJ-2 (PRO it))
+	  (MD must)
+	  (BE be)
+	  (ADJP (ADJ evident))
+	  (CP-THT-2 (C that)
+		    (IP-SUB (IP-SUB-3 (NP-SBJ (D the)
+					      (N method)
+					      (PP (PP (P of)
+						      (IP-PPL (VAG looking)
+							      (PP (P for)
+								  (NP (ADJ difficult) (CODE <P_15>) (NS objects)))))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (PP (P of)
+							     (IP-PPL (VAG marking)
+								     (NP-OB1 (PRO them))
+								     (RP down)
+								     (PP (P by)
+									 (NP (NS lines) (CONJ and) (NS angles)))
+								     (, ,)
+								     (PP (P with)
+									 (NP (Q every)
+									     (OTHER other)
+									     (ADJ possible)
+									     (N advantage)
+									     (PP (P for)
+										 (IP-PPL (VAG finding)
+											 (NP-OB1 (PRO them))
+											 (ADVP (ADV again)))))))))))
+				      (, ,)
+				      (HVP has)
+				      (BEN been)
+				      (ADVP (ADV completely))
+				      (VAN understood))
+			    (CONJP (CONJ and)
+				   (IP-SUB=3 (VAN put)
+					     (PP (P in)
+						 (NP (N practice)))))))
+	  (. .))
+  (ID HERSCHEL-1797,15.337))
+
+/~*
+What I call verifying a suspicion, which is generally done with a higher power
+than that which caused the suspicion, is obtaining a steadier view of the
+existence of the object in question;
+(HERSCHEL-1797,15.339)
+*~/
+/*
+19 VAG:  19 VAG, 20 verifying, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (CP-FRL (WNP-1 (WPRO What))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (VBP call)
+				  (IP-SMC (NP-SBJ *T*-1)
+					  (IP-PPL-OB1 (VAG verifying)
+						      (NP-OB1 (D a) (N suspicion))
+						      (, ,)
+						      (CP-CAR (WNP-2 (WPRO which))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-2)
+								      (BEP is)
+								      (ADVP (ADV generally))
+								      (DAN done)
+								      (PP (P with)
+									  (NP (D a)
+									      (ADJR higher)
+									      (N power)
+									      (PP (P than)
+										  (NP (D that)
+										      (CP-REL (WNP-3 (WPRO which))
+											      (C 0)
+											      (IP-SUB (NP-SBJ *T*-3)
+												      (VBD caused)
+												      (NP-OB1 (D the) (N suspicion)))))))))))))))
+	  (, ,)
+	  (BEP is)
+	  (IP-PPL-OB1 (VAG obtaining)
+		      (NP-OB1 (D a)
+			      (ADJR steadier)
+			      (N view)
+			      (PP (P of)
+				  (NP (D the)
+				      (N existence)
+				      (PP (P of)
+					  (NP (D the)
+					      (N object)
+					      (PP (P in)
+						  (NP (N question)))))))))
+	  (. ;))
+  (ID HERSCHEL-1797,15.339))
+
+/~*
+We have a second observation of the same satellite March 27, 1794; where,
+among the glimpses of additional satellites at 11=h= 41 ',is mentioned" one in
+a place probably agreeing with the new satellite of March 26th, "which, by its
+motion, must have been carried forward, so as to be where the observation of
+the 27th says it was, namely," a little farther off and after the 1st; "that
+is, at a little greater distance from the planet than the 1st, and not so far
+advanced in its orbit as that satellite.
+(HERSCHEL-1797,19.400)
+*~/
+/*
+97 VAG:  97 VAG, 98 agreeing, 82 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (HVP have)
+	  (NP-OB1 (D a)
+		  (ADJ second)
+		  (N observation)
+		  (PP (P of)
+		      (NP (D the) (ADJ same) (N satellite)))
+		  (CP-REL *ICH*-1))
+	  (NP-TMP (NPR March) (NUM 27) (, ,) (NUM 1794))
+	  (, ;)
+	  (CP-REL-1 (WADVP-2 (WADV where))
+		    (, ,)
+		    (C 0)
+		    (IP-SUB (ADVP-LOC *T*-2)
+			    (PP (P among)
+				(NP (D the)
+				    (NS glimpses)
+				    (PP (P of)
+					(NP (ADJ additional) (NS satellites)))
+				    (PP (P at)
+					(NP (NUM+NS 11=h=) (NUM 41) (NS ')))))
+			    (, ,)
+			    (BEP is)
+			    (VAN mentioned)
+			    (" ")
+			    (NP-SBJ (ONE one)
+				    (PP (P in)
+					(NP (D a)
+					    (N place)
+					    (RRC (ADVP (ADV probably))
+						 (VAG agreeing)
+						 (PP (P with)
+						     (NP (D the)
+							 (ADJ new)
+							 (N satellite)
+							 (PP (P of)
+							     (NP (NPR March) (ADJ 26th))))))))
+				    (, ,)
+				    (" ")
+				    (CP-REL (WNP-3 (WPRO which))
+					    (, ,)
+					    (C 0)
+					    (IP-SUB (NP-SBJ *T*-3)
+						    (PP (P by)
+							(NP (PRO$ its) (N motion)))
+						    (, ,)
+						    (MD must)
+						    (HV have)
+						    (BEN been)
+						    (VAN carried)
+						    (ADVP-DIR (ADV+WARD forward))
+						    (, ,)
+						    (PP (P so)
+							(PP (P as)
+							    (IP-INF (TO to)
+								    (BE be)
+								    (ADVP-LOC (CP-FRL (WADVP-4 (WADV where))
+										      (C 0)
+										      (IP-SUB (IP-SUB-5 (NP-SBJ (D the)
+														(N observation)
+														(PP (P of)
+														    (NP (D the) (ADJ 27th))))
+													(VBP says)
+													(CP-THT (C 0)
+														(IP-SUB (ADVP-LOC *T*-4)
+															(NP-SBJ (PRO it))
+															(BED was))))
+											      (, ,)
+											      (CONJP (IP-SUB=5 (ADVP (ADV namely))
+													       (, ,)
+													       (" ")
+													       (ADVP-LOC (ADVP (NP-MSR (NP-MSR (D a) (ADJ little))
+																       (ADJR farther))
+															       (RP off))
+															 (CONJP (CONJ and)
+																(PP (P after)
+																    (NP (D the) (ADJ 1st)))))
+													       (, ;)
+													       (" ")
+													       (IP-MAT-PRN (NP-SBJ (D that))
+															   (BEP is)
+															   (, ,)
+															   (PP (PP (P at)
+																   (NP (ADJP (NP-MSR (D a) (ADJ little))
+																	     (ADJR greater))
+																       (N distance)
+																       (PP (P from)
+																	   (NP (D the) (N planet)))
+																       (PP (P than)
+																	   (NP (D the) (ADJ 1st)))))
+															       (, ,)
+															       (CONJP (CONJ and)
+																      (ADJP (NP-MSR (ADJP (NEG not) (ADVR so) (ADJ far)))
+																	    (VAN advanced)
+																	    (PP (P in)
+																		(NP (PRO$ its) (N orbit)))
+																	    (PP (P as)
+																		(NP (D that) (N satellite))))))))))))))))))))
+	  (. .))
+  (ID HERSCHEL-1797,19.400))
+
+/~*
+For the exceedingly small star Y, which is mentioned as not having been seen
+the 25th, when the delineation of the stars was made, will agree very well
+with the two former observations;
+(HERSCHEL-1797,22.443)
+*~/
+/*
+40 HAG:  40 HAG, 41 having, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (D the)
+		  (ADJP (ADV exceedingly) (ADJ small))
+		  (N star)
+		  (NP-PRN (N Y))
+		  (, ,)
+		  (CODE <P_22>)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (VAN mentioned)
+				  (PP (P as)
+				      (IP-PPL (NEG not)
+					      (HAG having)
+					      (BEN been)
+					      (VAN seen)
+					      (NP-TMP (D the)
+						      (ADJ 25th)
+						      (, ,)
+						      (CP-REL (WADVP-2 (WADV when))
+							      (C 0)
+							      (IP-SUB (ADVP-TMP *T*-2)
+								      (NP-SBJ (D the)
+									      (N delineation)
+									      (PP (P of)
+										  (NP (D the) (NS stars))))
+								      (BED was)
+								      (VAN made)))))))))
+	  (, ,)
+	  (MD will)
+	  (VB agree)
+	  (ADVP (ADV very) (ADV well))
+	  (PP (P with)
+	      (NP (D the) (NUM two) (ADJ former) (NS observations)))
+	  (. ;))
+  (ID HERSCHEL-1797,22.443))
+
+/~*
+It has often happened, that the situation of the eye-glass, being on one side
+of the tube, which brings the observer close to the mouth of it, has
+occasioned a visible defect in the view of a very minute object, when proper
+care has not been taken to keep out of the way: especially when the wind is in
+such a quarter as to come from the observer across the telescope.
+(HERSCHEL-1797,26.552)
+*~/
+/*
+35 BAG:  35 BAG, 36 being, 19 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (HVP has)
+	  (ADVP-TMP (ADV often))
+	  (VBN happened)
+	  (, ,)
+	  (CP-THT-1 (C that)
+		    (IP-SUB (IP-SUB (NP-SBJ (D the)
+					    (N situation)
+					    (PP (P of)
+						(NP (D the) (N+NS eye-glass)))
+					    (, ,)
+					    (RRC (BAG being)
+						 (PP (P on)
+						     (NP (ONE one)
+							 (N side)
+							 (PP (P of)
+							     (NP (D the) (N tube))))))
+					    (, ,)
+					    (CP-REL (WNP-2 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (VBP brings)
+							    (NP-OB1 (D the) (N observer))
+							    (PP (NP-MSR (ADJ close))
+								(P to)
+								(NP (D the)
+								    (N mouth)
+								    (PP (P of)
+									(NP (PRO it))))))))
+				    (, ,)
+				    (HVP has)
+				    (VBN occasioned)
+				    (NP-OB1 (D a)
+					    (ADJ visible)
+					    (N defect)
+					    (PP (P in)
+						(NP (D the)
+						    (N view)
+						    (PP (P of)
+							(NP (D a)
+							    (ADJP (ADV very) (ADJ minute))
+							    (N object))))))
+				    (, ,)
+				    (PP (P when)
+					(CP-ADV (C 0)
+						(IP-SUB (NP-SBJ (ADJ proper) (N care))
+							(HVP has)
+							(NEG not)
+							(BEN been)
+							(VAN taken)
+							(IP-INF (TO to)
+								(VB keep)
+								(PP (RP out)
+								    (P of)
+								    (NP (D the) (N way))))))))
+			    (, :)
+			    (CONJP (IP-SUB (ADVP (ADV especially))
+					   (PP (P when)
+					       (CP-ADV (C 0)
+						       (IP-SUB (NP-SBJ (D the) (N wind))
+							       (BEP is)
+							       (PP (P in)
+								   (NP (SUCH such)
+								       (D a)
+								       (N quarter)
+								       (PP (P as)
+									   (IP-INF (TO to)
+										   (VB come)
+										   (PP (P from)
+										       (NP (D the) (N observer)))
+										   (PP (P across)
+										       (NP (D the) (N telescope))))))))))))))
+	  (. .))
+  (ID HERSCHEL-1797,26.552))
+
+/~*
+and their being mistaken for satellites was owing to their loss of light when
+near the planet.
+(HERSCHEL-1797,29.659)
+*~/
+/*
+8 BAG:  8 BAG, 9 being, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO$ their)
+		  (IP-PPL (BAG being)
+			  (VAN mistaken)
+			  (PP (P for)
+			      (NP (NS satellites)))))
+	  (BED was)
+	  (VAG owing)
+	  (PP (P to)
+	      (NP (PRO$ their)
+		  (N loss)
+		  (PP (P of)
+		      (NP (N light)))))
+	  (PP (P when)
+	      (ADJP (ADJ near)
+		    (NP (D the) (N planet))))
+	  (. .))
+  (ID HERSCHEL-1797,29.659))
+
+/~*
+A disappointment of obtaining these capital advantages deserves to have its
+cause investigated;
+(HERSCHEL-1797,30.664)
+*~/
+/*
+11 VAG:  11 VAG, 12 obtaining, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (N disappointment)
+		  (PP (P of)
+		      (IP-PPL (VAG obtaining)
+			      (NP-OB1 (D these) (ADJ capital) (NS advantages)))))
+	  (VBP deserves)
+	  (IP-INF (TO to)
+		  (HV have)
+		  (IP-SMC (NP-SBJ (PRO$ its) (N cause))
+			  (VAN investigated)))
+	  (. ;))
+  (ID HERSCHEL-1797,30.664))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	11/9/731
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd
+*/
+
+/~*
+Several objections to the assumption, that existing causes have produced the
+former changes of the earth's surface removed by modern discoveries.
+(LYELL-1830,1,75.9)
+*~/
+/*
+22 VAG:  22 VAG, 23 existing, 21 NP-SBJ
+22 VAG:  22 VAG, 23 existing, 2 NP-SBJ
+*/
+
+( (IP-ABS (NP-SBJ (Q Several)
+		  (NS objections)
+		  (PP (P to)
+		      (NP (D the)
+			  (N assumption)
+			  (, ,)
+			  (CP-THT (C that)
+				  (IP-SUB (NP-SBJ (VAG existing) (NS causes))
+					  (HVP have)
+					  (VBN produced)
+					  (NP-OB1 (D the)
+						  (ADJ former)
+						  (NS changes)
+						  (PP (P of)
+						      (NP (NP-POS (D the) (N$ earth's))
+							  (N surface)))))))))
+	  (VAN removed)
+	  (PP (P by)
+	      (NP (ADJ modern) (NS discoveries)))
+	  (. .))
+  (ID LYELL-1830,1,75.9))
+
+/~*
+Many appearances, which for a long time were regarded as indicating mysterious
+and extraordinary agency, are finally recognized as the necessary result of
+the laws now governing the material world;
+(LYELL-1830,1,75.14)
+*~/
+/*
+36 VAG:  36 VAG, 37 indicating, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (Q Many)
+		  (NS appearances)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (PP (P for)
+				      (NP (D a) (ADJ long) (N time)))
+				  (BED were)
+				  (VAN regarded)
+				  (PP (P as)
+				      (IP-PPL (VAG indicating)
+					      (NP-OB1 (ADJP (ADJ mysterious) (CONJ and) (ADJ extraordinary))
+						      (N agency)))))))
+	  (, ,)
+	  (BEP are)
+	  (ADVP (ADV finally))
+	  (VAN recognized)
+	  (PP (P as)
+	      (NP (D the)
+		  (ADJ necessary)
+		  (N result)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS laws)
+			  (RRC (ADVP-TMP (ADV now))
+			       (VAG governing)
+			       (NP-OB1 (D the) (ADJ material) (N world)))))))
+	  (. ;))
+  (ID LYELL-1830,1,75.14))
+
+/~*
+Whether we coincide or not in this doctrine, we must admit that the gradual
+progress of opinion concerning the succession of phenomena in remote eras,
+resembles in a singular manner that which accompanies the growing intelligence
+of every people, in regard to the economy of nature in modern times.
+(LYELL-1830,1,76.18)
+*~/
+/*
+53 VAG:  53 VAG, 54 concerning, 39 NP-SBJ
+*/
+
+( (IP-MAT (CP-QUE-ADV (WQ Whether)
+		      (C 0)
+		      (IP-SUB-1 (NP-SBJ (PRO we))
+				(VBP coincide)
+				(IP-SUB-PRN=1 (CONJ or) (NEG not))
+				(PP (P in)
+				    (NP (D this) (N doctrine)))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD must)
+	  (VB admit)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (ADJ gradual)
+				  (N progress)
+				  (PP (P of)
+				      (NP (N opinion)
+					  (IP-PPL (VAG concerning)
+						  (NP-OB1 (D the)
+							  (N succession)
+							  (PP (P of)
+							      (NP (NS phenomena))))
+						  (PP (P in)
+						      (NP (ADJ remote) (NS eras)))))))
+			  (, ,)
+			  (VBP resembles)
+			  (PP (P in)
+			      (NP (D a) (ADJ singular) (N manner)))
+			  (NP-OB1 (D that)
+				  (CODE <P_1,76>)
+				  (CP-REL (WNP-2 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (VBP accompanies)
+						  (NP-OB1 (D the)
+							  (VAG growing)
+							  (N intelligence)
+							  (PP (P of)
+							      (NP (Q every) (N people)))
+							  (, ,)
+							  (PP (P in)
+							      (NP (N regard)
+								  (PP (P to)
+								      (NP (D the)
+									  (N economy)
+									  (PP (P of)
+									      (NP (N nature))))))))
+						  (PP (P in)
+						      (NP (ADJ modern) (NS times))))))))
+	  (. .))
+  (ID LYELL-1830,1,76.18))
+
+/~*
+Let us imagine, for example, that Champollion, and the French and Tuscan
+literati now engaged in exploring the antiquities of Egypt, had visited that
+country with a firm belief that the banks of the Nile were never peopled by
+the human race before the beginning of the nineteenth century, and that their
+faith in this dogma was as difficult to shake as the opinion of our ancestors,
+that the earth was never the abode of living beings until the creation of the
+present continents, and of the species now existing, -
+(LYELL-1830,1,77.30)
+*~/
+/*
+56 VAG:  56 VAG, 57 exploring, 25 NP-SBJ
+*/
+
+( (IP-IMP (VBI Let)
+	  (IP-INF (NP-SBJ (PRO us))
+		  (VB imagine)
+		  (, ,)
+		  (PP (P for)
+		      (NP (N example)))
+		  (, ,)
+		  (CP-THT (CP-THT (C that)
+				  (IP-SUB (NP-SBJ (NP (NPR Champollion))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (NP (D the)
+							     (ADJP (ADJ French) (CONJ and) (ADJ Tuscan))
+							     (NS literati)
+							     (RRC (ADVP-TMP (ADV now))
+								  (VAN engaged)
+								  (PP (P in)
+								      (IP-PPL (VAG exploring)
+									      (NP-OB1 (D the)
+										      (NS antiquities)
+										      (PP (P of)
+											  (NP (NPR Egypt))))))))))
+					  (, ,)
+					  (HVD had)
+					  (VBN visited)
+					  (NP-OB1 (D that) (N country))
+					  (PP (P with)
+					      (NP (D a)
+						  (ADJ firm)
+						  (N belief)
+						  (CP-THT (C that)
+							  (IP-SUB (NP-SBJ (D the)
+									  (NS banks)
+									  (PP (P of)
+									      (NP (D the) (NPR Nile))))
+								  (BED were)
+								  (ADVP-TMP (ADV never))
+								  (VAN peopled)
+								  (PP (P by)
+								      (NP (D the) (ADJ human) (CODE <P_1,77>) (N race)))
+								  (PP (P before)
+								      (NP (D the)
+									  (N beginning)
+									  (PP (P of)
+									      (NP (D the)
+										  (ADJ nineteenth)
+										  (CODE {TEXT:nineteeenth})
+										  (N century)))))))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (CP-THT (C that)
+					 (IP-SUB (NP-SBJ (PRO$ their)
+							 (N faith)
+							 (PP (P in)
+							     (NP (D this) (N dogma))))
+						 (BED was)
+						 (ADJP (ADVR as)
+						       (ADJ difficult)
+						       (CP-TMC (WNP-1 0)
+							       (IP-INF (NP-OB1 *T*-1)
+								       (TO to)
+								       (VB shake)))
+						       (PP (P as)
+							   (NP (D the)
+							       (N opinion)
+							       (PP (P of)
+								   (NP (PRO$ our) (NS ancestors)))
+							       (, ,)
+							       (CP-THT (C that)
+								       (IP-SUB (NP-SBJ (D the) (N earth))
+									       (BED was)
+									       (ADVP-TMP (ADV never))
+									       (NP-OB1 (D the)
+										       (N abode)
+										       (PP (P of)
+											   (NP (VAG living) (NS beings))))
+									       (PP (P until)
+										   (NP (D the)
+										       (N creation)
+										       (PP (PP (P of)
+											       (NP (D the) (ADJ present) (NS continents)))
+											   (, ,)
+											   (CONJP (CONJ and)
+												  (PP (P of)
+												      (NP (D the)
+													  (NS species)
+													  (RRC (ADVP-TMP (ADV now))
+													       (VAG existing))))))))))))))))))
+	  (, ,)
+	  (. -))
+  (ID LYELL-1830,1,77.30))
+
+/~*
+Amongst other fanciful conjectures concerning the history of Egypt, we may
+suppose some of the following to be started.
+(LYELL-1830,1,77.43)
+*~/
+/*
+45 VAG:  45 VAG, 46 following, 36 NP-SBJ
+*/
+
+( (IP-MAT (PP (P Amongst)
+	      (NP (OTHER other)
+		  (ADJ fanciful)
+		  (NS conjectures)
+		  (IP-PPL (VAG concerning)
+			  (NP-OB1 (D the)
+				  (N history)
+				  (PP (P of)
+				      (NP (NPR Egypt)))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD may)
+	  (VB suppose)
+	  (IP-INF (NP-SBJ (Q some)
+			  (PP (P of)
+			      (NP (D the) (VAG following))))
+		  (TO to)
+		  (BE be)
+		  (VAN started))
+	  (. .))
+  (ID LYELL-1830,1,77.43))
+
+/~*
+One consequence of undervaluing greatly the quantity of past time is the
+apparent coincidence which it occasions of events necessarily disconnected, or
+which are so unusual, that it would be inconsistent with all calculation of
+chances to suppose them to happen at one and the same time.
+(LYELL-1830,1,80.78)
+*~/
+/*
+11 VAG:  11 VAG, 12 undervaluing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (ONE One)
+		  (N consequence)
+		  (PP (P of)
+		      (IP-PPL (VAG undervaluing)
+			      (ADVP (ADV greatly))
+			      (NP-OB1 (D the)
+				      (N quantity)
+				      (PP (P of)
+					  (NP (VBN past) (N time)))))))
+	  (BEP is)
+	  (NP-OB1 (D the)
+		  (ADJ apparent)
+		  (N coincidence)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (VBP occasions)))
+		  (PP (P of)
+		      (NP (NS events)
+			  (RRC (RRC (ADVP (ADV necessarily))
+				    (VAN disconnected))
+			       (, ,)
+			       (CONJP (CONJ or)
+				      (CP-REL (WNP-2 (WPRO which))
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-2)
+						      (BEP are)
+						      (ADJP (ADVR so)
+							    (ADJ unusual)
+							    (, ,)
+							    (CP-DEG (C that)
+								    (IP-SUB (NP-SBJ-3 (PRO it))
+									    (MD would)
+									    (BE be)
+									    (ADJP (ADJ inconsistent)
+										  (PP (P with)
+										      (NP (Q all)
+											  (N calculation)
+											  (PP (P of)
+											      (NP (NS chances))))))
+									    (IP-INF-3 (TO to)
+										      (VB suppose)
+										      (IP-INF (NP-SBJ (PRO them))
+											      (TO to)
+											      (VB happen)
+											      (PP (P at)
+												  (NP (NP (ONE one))
+												      (CONJP (CONJ and)
+													     (NP (D the) (ADJ same) (N time)))))))))))))))))
+	  (. .))
+  (ID LYELL-1830,1,80.78))
+
+/~*
+He might infer that the stratified rocks, containing shells and other organic
+remains, were the oldest of created things, belonging to some original and
+nascent state of the planet.
+(LYELL-1830,1,82.108)
+*~/
+/*
+23 VAG:  23 VAG, 24 containing, 13 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (MD might)
+	  (VB infer)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (VAN stratified)
+				  (NS rocks)
+				  (, ,)
+				  (RRC (VAG containing)
+				       (NP-OB1 (NP (NS shells))
+					       (CONJP (CONJ and)
+						      (NP (OTHER other) (ADJ organic) (NS remains))))))
+			  (, ,)
+			  (BED were)
+			  (NP-OB1 (D the)
+				  (ADJS oldest)
+				  (PP (P of)
+				      (NP (VAN created) (NS things)))
+				  (, ,)
+				  (RRC (VAG belonging)
+				       (PP (P to)
+					   (NP (Q some)
+					       (ADJP (ADJ original) (CONJ and) (ADJ nascent))
+					       (N state)
+					       (PP (P of)
+						   (NP (D the) (N planet)))))))))
+	  (. .))
+  (ID LYELL-1830,1,82.108))
+
+/~*
+He ascertained that certain genera of living testacea were grouped together at
+the bottom of the sea in precisely the same manner as were their fossil
+analogues in the strata of the hills, and that some species were common to the
+recent and fossil world.
+(LYELL-1830,1,85.150)
+*~/
+/*
+21 VAG:  21 VAG, 22 living, 12 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (VBD ascertained)
+	  (CP-THT (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (ADJ certain)
+					  (NS genera)
+					  (PP (P of)
+					      (NP (VAG living) (NS testacea))))
+				  (BED were)
+				  (VAN grouped)
+				  (ADVP (ADV together))
+				  (PP (P at)
+				      (NP (D the)
+					  (N bottom)
+					  (PP (P of)
+					      (NP (D the) (N sea)))))
+				  (PP (P in)
+				      (NP (ADV precisely)
+					  (D the)
+					  (ADJ same)
+					  (N manner)
+					  (PP (P as)
+					      (CP-CMP (WNP-1 0)
+						      (C 0)
+						      (IP-SUB (NP-OB1 *T*-1)
+							      (BED were)
+							      (NP-SBJ (PRO$ their) (N fossil) (NS analogues))
+							      (PP (P in)
+								  (NP (D the)
+								      (NS strata)
+								      (PP (P of)
+									  (NP (D the) (NS hills))))))))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (NP-SBJ (Q some) (N species))
+					 (BED were)
+					 (ADJP (ADJ common)
+					       (PP (P to)
+						   (NP (D the)
+						       (ADJP (ADJ recent) (CONJ and) (N fossil))
+						       (N world))))))))
+	  (. .))
+  (ID LYELL-1830,1,85.150))
+
+/~*
+It must always have been evident to unbiassed minds, that successive strata,
+containing, in regular order of superposition, distinct beds of shells and
+corals, arranged in families as they grow at the bottom of the sea, could only
+have been formed by slow and insensible degrees in a great lapse of ages;
+(LYELL-1830,1,87.172)
+*~/
+/*
+39 VAG:  39 VAG, 40 containing, 31 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (MD must)
+	  (ADVP-TMP (ADV always))
+	  (HV have)
+	  (BEN been)
+	  (ADJP (ADJ evident))
+	  (PP (P to)
+	      (NP (ADJ unbiassed) (NS minds)))
+	  (, ,)
+	  (CP-THT-1 (C that)
+		    (IP-SUB (NP-SBJ (ADJ successive)
+				    (NS strata)
+				    (, ,)
+				    (RRC (VAG containing)
+					 (, ,)
+					 (PP (P in)
+					     (NP (ADJ regular)
+						 (N order)
+						 (PP (P of)
+						     (NP (N superposition)))))
+					 (, ,)
+					 (NP-OB1 (ADJ distinct)
+						 (NS beds)
+						 (PP (P of)
+						     (NP (NS shells) (CONJ and) (NS corals)))
+						 (, ,)
+						 (RRC (VAN arranged)
+						      (PP (P in)
+							  (NP (NS families)))
+						      (PP (P as)
+							  (CP-ADV (C 0)
+								  (IP-SUB (NP-SBJ (PRO they))
+									  (VBP grow)
+									  (PP (P at)
+									      (NP (D the)
+										  (N bottom)
+										  (PP (P of)
+										      (NP (D the) (N sea))))))))))))
+			    (, ,)
+			    (MD could)
+			    (FP only)
+			    (HV have)
+			    (BEN been)
+			    (VAN formed)
+			    (PP (P by)
+				(NP (ADJP (ADJ slow) (CONJ and) (ADJ insensible))
+				    (NS degrees)))
+			    (PP (P in)
+				(NP (D a)
+				    (ADJ great)
+				    (N lapse)
+				    (PP (P of)
+					(NP (NS ages)))))))
+	  (. ;))
+  (ID LYELL-1830,1,87.172))
+
+/~*
+The accompanying or preceding earthquakes, therefore, may be considered to
+have been also successive, and to have been in like manner interrupted by
+intervals of time, and not to have exceeded in violence those now experienced
+in the ordinary course of nature.
+(LYELL-1830,1,88.189)
+*~/
+/*
+6 VAG:  6 VAG, 7 accompanying, 2 NP-SBJ-1
+10 VAG:  10 VAG, 11 preceding, 2 NP-SBJ-1
+*/
+
+( (IP-MAT (NP-SBJ-1 (D The)
+		    (ADJP (VAG accompanying) (CONJ or) (VAG preceding))
+		    (N+NS earthquakes))
+	  (, ,)
+	  (PP (ADV+P therefore))
+	  (, ,)
+	  (MD may)
+	  (BE be)
+	  (VAN considered)
+	  (IP-INF (IP-INF (NP-SBJ *-1)
+			  (TO to)
+			  (HV have)
+			  (BEN been)
+			  (ALSO also)
+			  (ADJP (ADJ successive)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (NP-SBJ *-1)
+				 (TO to)
+				 (HV have)
+				 (BEN been)
+				 (PP (P in)
+				     (NP (ADJ like) (N manner)))
+				 (VAN interrupted)
+				 (PP (P by)
+				     (NP (NS intervals)
+					 (PP (P of)
+					     (NP (N time)))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (NP-SBJ *-1)
+				 (NEG not)
+				 (TO to)
+				 (HV have)
+				 (VBN exceeded)
+				 (PP (P in)
+				     (NP (N violence)))
+				 (NP-OB1 (D those)
+					 (RRC (ADVP-TMP (ADV now))
+					      (VAN experienced)
+					      (PP (P in)
+						  (NP (D the)
+						      (ADJ ordinary)
+						      (N course)
+						      (PP (P of)
+							  (NP (N nature))))))))))
+	  (. .))
+  (ID LYELL-1830,1,88.189))
+
+/~*
+It was contrary to analogy to suppose, that Nature had been at any former
+epoch parsimonious of time and prodigal of violence - to imagine that one
+district was not at rest while another was convulsed - that the disturbing
+forces were not kept under subjection, so as never to carry simultaneous havoc
+and desolation over the whole earth, or even over one great region.
+(LYELL-1830,1,89.192)
+*~/
+/*
+119 VAG:  119 VAG, 120 disturbing, 116 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BED was)
+	  (ADJP (ADJ contrary)
+		(PP (P to)
+		    (NP (N analogy))))
+	  (IP-INF-1 (IP-INF (TO to)
+			    (VB suppose)
+			    (, ,)
+			    (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (N Nature))
+					    (HVD had)
+					    (BEN been)
+					    (PP (P at)
+						(NP (Q any) (ADJ former) (N epoch)))
+					    (ADJP (ADJP (ADJ parsimonious)
+							(PP (P of)
+							    (NP (N time))))
+						  (CONJP (CONJ and)
+							 (ADJP (ADJ prodigal)
+							       (PP (P of)
+								   (NP (N violence)))))))))
+		    (, -)
+		    (CONJP (IP-INF (TO to)
+				   (VB imagine)
+				   (CP-THT (CP-THT (C that)
+						   (IP-SUB (NP-SBJ (ONE one) (N district))
+							   (BED was)
+							   (NEG not)
+							   (PP (P at)
+							       (NP (N rest)))
+							   (PP (P while)
+							       (CP-ADV (C 0)
+								       (IP-SUB (NP-SBJ (D+OTHER another))
+									       (BED was)
+									       (VAN convulsed))))))
+					   (, -)
+					   (CONJP (CP-THT (C that)
+							  (IP-SUB (NP-SBJ (D the) (VAG disturbing) (NS forces))
+								  (BED were)
+								  (NEG not)
+								  (VAN kept)
+								  (PP (P under)
+								      (NP (N subjection)))
+								  (, ,)
+								  (PP (P so)
+								      (PP (P as)
+									  (IP-INF (ADVP-TMP (ADV never))
+										  (CODE <P_1,89>)
+										  (TO to)
+										  (VB carry)
+										  (NP-OB1 (ADJ simultaneous)
+											  (N havoc)
+											  (CONJP (CONJ and)
+												 (NX (N desolation))))
+										  (PP (PP (P over)
+											  (NP (D the) (ADJ whole) (N earth)))
+										      (, ,)
+										      (CONJP (CONJ or)
+											     (PP (FP even)
+												 (P over)
+												 (NP (ONE one) (ADJ great) (N region)))))))))))))))
+	  (. .))
+  (ID LYELL-1830,1,89.192))
+
+/~*
+Such changes of level, and opening of fissures, as have accompanied
+earthquakes since the commencement of the present century, or such excavation
+of ravines as the receding cataract of Niagara is now effecting, might breach
+the barriers.
+(LYELL-1830,1,89.199)
+*~/
+/*
+96 VAG:  96 VAG, 97 receding, 93 NP-SBJ
+96 VAG:  96 VAG, 97 receding, 2 NP-SBJ
+111 VAG:  111 VAG, 112 effecting, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (SUCH Such)
+		      (NS changes)
+		      (PP (P of)
+			  (NP (N level)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (NX (N opening)
+				 (PP (P of)
+				     (NP (NS fissures)))))
+		      (, ,)
+		      (PP (P as)
+			  (CP-CMP (WNP-1 0)
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (HVP have)
+					  (VBN accompanied)
+					  (NP-OB1 (N+NS earthquakes))
+					  (PP (P since)
+					      (NP (D the)
+						  (N commencement)
+						  (PP (P of)
+						      (NP (D the) (ADJ present) (N century)))))))))
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (NP (SUCH such)
+			     (N excavation)
+			     (PP (P of)
+				 (NP (NS ravines)))
+			     (PP (P as)
+				 (CP-CMP (WNP-2 0)
+					 (C 0)
+					 (IP-SUB (NP-OB1 *T*-2)
+						 (NP-SBJ (D the)
+							 (VAG receding)
+							 (N cataract)
+							 (PP (P of)
+							     (NP (NPR Niagara))))
+						 (BEP is)
+						 (ADVP-TMP (ADV now))
+						 (VAG effecting)))))))
+	  (, ,)
+	  (MD might)
+	  (VB breach)
+	  (NP-OB1 (D the) (NS barriers))
+	  (. .))
+  (ID LYELL-1830,1,89.199))
+
+/~*
+If it had merely been assumed, that rocks originating from fusion by
+subterranean fire presented in all parts of the globe a perfect correspondence
+in their mineral composition, the assumption would not have been extravagant;
+(LYELL-1830,1,90.207)
+*~/
+/*
+31 VAG:  31 VAG, 32 originating, 27 NP-SBJ
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (HVD had)
+			      (ADVP (ADV merely))
+			      (BEN been)
+			      (VAN assumed)
+			      (, ,)
+			      (CP-THT-1 (C that)
+					(IP-SUB (NP-SBJ (NS rocks)
+							(RRC (VAG originating)
+							     (PP (P from)
+								 (NP (N fusion)))
+							     (PP (P by)
+								 (NP (ADJ subterranean) (N fire)))))
+						(VBD presented)
+						(PP (P in)
+						    (NP (Q all)
+							(NS parts)
+							(PP (P of)
+							    (NP (D the) (N globe)))))
+						(NP-OB1 (D a) (ADJ perfect) (N correspondence))
+						(PP (P in)
+						    (NP (PRO$ their) (N mineral) (N composition))))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N assumption))
+	  (MD would)
+	  (NEG not)
+	  (HV have)
+	  (BEN been)
+	  (ADJP (ADJ extravagant))
+	  (. ;))
+  (ID LYELL-1830,1,90.207))
+
+/~*
+But when it was imagined that sedimentary mixtures, including animal and
+vegetable remains, and evidently formed in the beds of ancient seas, were of
+homogeneous nature throughout a whole hemisphere, or even farther, the dogma
+precluded at once all hope of recognizing the slightest analogy between the
+ancient and modern causes of decay and reproduction.
+(LYELL-1830,1,90.209)
+*~/
+/*
+31 VAG:  31 VAG, 32 including, 22 NP-SBJ
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (BED was)
+			      (VAN imagined)
+			      (CP-THT-1 (C that)
+					(IP-SUB (NP-SBJ (ADJ sedimentary)
+							(NS mixtures)
+							(, ,)
+							(RRC (RRC (VAG including)
+								  (NP-OB1 (ADJP (N animal) (CONJ and) (N vegetable))
+									  (NS remains)))
+							     (, ,)
+							     (CONJP (CONJ and)
+								    (RRC (ADVP (ADV evidently))
+									 (VAN formed)
+									 (PP (P in)
+									     (NP (D the)
+										 (NS beds)
+										 (PP (P of)
+										     (NP (ADJ ancient) (NS seas)))))))))
+						(, ,)
+						(BED were)
+						(PP (P of)
+						    (NP (ADJ homogeneous) (N nature)))
+						(PP (PP (P throughout)
+							(NP (D a) (ADJ whole) (N hemisphere)))
+						    (, ,)
+						    (CONJP (CONJ or)
+							   (NP-MSR (FP even) (ADJR farther)))))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N dogma))
+	  (VBD precluded)
+	  (PP (P at)
+	      (ADVP (ADV once)))
+	  (NP-OB1 (Q all)
+		  (N hope)
+		  (PP (P of)
+		      (IP-PPL (VAG recognizing)
+			      (NP-OB1 (D the)
+				      (ADJS slightest)
+				      (N analogy)
+				      (PP (P between)
+					  (NP (D the)
+					      (ADJP (ADJ ancient) (CONJ and) (ADJ modern))
+					      (NS causes)
+					      (PP (P of)
+						  (NP (N decay) (CONJ and) (N reproduction)))))))))
+	  (. .))
+  (ID LYELL-1830,1,90.209))
+
+/~*
+For we know that existing rivers carry down from different mountain-chains
+sediment of distinct colours and composition;
+(LYELL-1830,1,90.210)
+*~/
+/*
+14 VAG:  14 VAG, 15 existing, 13 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (PRO we))
+	  (VBP know)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (VAG existing) (NS rivers))
+			  (VBP carry)
+			  (PP (RP down)
+			      (P from)
+			      (NP (ADJ different) (N+NS mountain-chains)))
+			  (NP-OB1 (N sediment)
+				  (PP (P of)
+				      (NP (ADJ distinct)
+					  (NS colours)
+					  (CONJP (CONJ and)
+						 (NX (N composition))))))))
+	  (. ;))
+  (ID LYELL-1830,1,90.210))
+
+/~*
+The difficulty of dissipating this delusion was extreme, because some rocks,
+formed under similar circumstances at different epochs, present the same
+external characters, and often the same internal composition;
+(LYELL-1830,1,91.220)
+*~/
+/*
+11 VAG:  11 VAG, 12 dissipating, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N difficulty)
+		  (PP (P of)
+		      (IP-PPL (VAG dissipating)
+			      (NP-OB1 (D this) (N delusion)))))
+	  (BED was)
+	  (ADJP (ADJ extreme))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (Q some)
+						(NS rocks)
+						(, ,)
+						(RRC (VAN formed)
+						     (PP (P under)
+							 (NP (ADJ similar) (NS circumstances)))
+						     (PP (P at)
+							 (NP (ADJ different) (NS epochs)))))
+					(, ,)
+					(VBP present)
+					(NP-OB1 (D the) (ADJ same) (ADJ external) (NS characters)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB=1 (ADVP-TMP (ADV often))
+					       (NP (D the) (ADJ same) (ADJ internal) (N composition)))))))
+	  (. ;))
+  (ID LYELL-1830,1,91.220))
+
+/~*
+On the contrary, since the first agitation of this interesting question, the
+accessions to our knowledge of living animals and plants have been immense,
+(LYELL-1830,1,93.245)
+*~/
+/*
+51 VAG:  51 VAG, 52 living, 34 NP-SBJ
+*/
+
+( (IP-MAT (PP (P On)
+	      (NP (D the) (N contrary)))
+	  (, ,)
+	  (PP (P since)
+	      (NP (D the)
+		  (ADJ first)
+		  (N agitation)
+		  (PP (P of)
+		      (NP (D this) (VAG interesting) (N question)))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (NS accessions)
+		  (PP (P to)
+		      (NP (PRO$ our)
+			  (N knowledge)
+			  (PP (P of)
+			      (NP (VAG living)
+				  (NS animals)
+				  (CONJP (CONJ and)
+					 (NX (NS plants))))))))
+	  (HVP have)
+	  (BEN been)
+	  (ADJP (ADJ immense))
+	  (. ,))
+  (ID LYELL-1830,1,93.245))
+
+/~*
+for it is not in strata, where the organic remains belong to extinct species,
+but where living species abound in a fossil state, that a theory of climate
+can be subjected to the experimentum crucis.
+(LYELL-1830,1,94.255)
+*~/
+/*
+63 VAG:  63 VAG, 64 living, 62 NP-SBJ
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO it))
+	  (BEP is)
+	  (NEG not)
+	  (PP (P in)
+	      (NP (NS strata)
+		  (, ,)
+		  (CP-REL (CP-REL (WADVP-1 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-1)
+					  (NP-SBJ (D the) (CODE <P_1,94>) (ADJ organic) (NS remains))
+					  (VBP belong)
+					  (PP (P to)
+					      (NP (ADJ extinct) (NS species)))))
+			  (, ,)
+			  (CONJP (CONJ but)
+				 (CP-REL (WADVP-2 (WADV where))
+					 (C 0)
+					 (IP-SUB (ADVP-LOC *T*-2)
+						 (NP-SBJ (VAG living) (NS species))
+						 (VBP abound)
+						 (PP (P in)
+						     (NP (D a) (N fossil) (N state)))))))))
+	  (, ,)
+	  (CP-CLF (WPP-3 0)
+		  (C that)
+		  (IP-SUB (PP *T*-3)
+			  (NP-SBJ (D a)
+				  (N theory)
+				  (PP (P of)
+				      (NP (N climate))))
+			  (MD can)
+			  (BE be)
+			  (VAN subjected)
+			  (PP (P to)
+			      (NP (D the)
+				  (LATIN (FW experimentum) (FW crucis))))))
+	  (. .))
+  (ID LYELL-1830,1,94.255))
+
+/~*
+Yet no doubt can be entertained, on the ground of such difference in their
+dimensions, of their specific identity, because the living individuals attain
+sometimes, though rarely, the average size of the fossils;
+(LYELL-1830,1,94.257)
+*~/
+/*
+68 VAG:  68 VAG, 69 living, 65 NP-SBJ
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Yet))
+	  (NP-SBJ (Q no)
+		  (N doubt)
+		  (PP *ICH*-1))
+	  (MD can)
+	  (BE be)
+	  (VAN entertained)
+	  (, ,)
+	  (PP (P on)
+	      (NP (D the)
+		  (N ground)
+		  (PP (P of)
+		      (NP (SUCH such)
+			  (N difference)
+			  (PP (P in)
+			      (NP (PRO$ their) (NS dimensions)))))))
+	  (, ,)
+	  (PP-1 (P of)
+		(NP (PRO$ their) (ADJ specific) (N identity)))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (VAG living) (NS individuals))
+			      (VBP attain)
+			      (NP-TMP (Q+NS sometimes))
+			      (, ,)
+			      (PP-PRN (P though)
+				      (ADVP (ADV rarely)))
+			      (, ,)
+			      (NP-OB1 (D the)
+				      (ADJ average)
+				      (N size)
+				      (PP (P of)
+					  (NP (D the) (NS fossils)))))))
+	  (. ;))
+  (ID LYELL-1830,1,94.257))
+
+/~*
+The proportion of species, identifiable with those now living in the
+Mediterranean, is still considerable;
+(LYELL-1830,1,94.260)
+*~/
+/*
+28 VAG:  28 VAG, 29 living, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N proportion)
+		  (PP (P of)
+		      (NP (N species)
+			  (, ,)
+			  (ADJP (ADJ identifiable)
+				(PP (P with)
+				    (NP (D those)
+					(RRC (ADVP-TMP (ADV now))
+					     (VAG living)
+					     (PP (P in)
+						 (NP (D the) (NPR Mediterranean))))))))))
+	  (, ,)
+	  (BEP is)
+	  (ADVP-TMP (ADV still))
+	  (ADJP (ADJ considerable))
+	  (. ;))
+  (ID LYELL-1830,1,94.260))
+
+/~*
+Those in the fossil state, and their living analogues from the tropics,
+correspond in size; whereas the individuals of the same species from the
+Mediterranean are dwarfish and degenerate, and stunted in their growth, for
+want of conditions which the Indian Ocean still supplies.
+(LYELL-1830,1,95.264)
+*~/
+/*
+24 VAG:  24 VAG, 25 living, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (D Those)
+		      (PP (P in)
+			  (NP (D the) (N fossil) (N state))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (PRO$ their)
+			     (VAG living)
+			     (NS analogues)
+			     (PP (P from)
+				 (NP (D the) (NS tropics))))))
+	  (, ,)
+	  (VBP correspond)
+	  (PP (P in)
+	      (NP (N size)))
+	  (, ;)
+	  (PP (WADV+P whereas)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the)
+				      (NS individuals)
+				      (PP (P of)
+					  (NP (D the) (ADJ same) (N species)))
+				      (PP (P from)
+					  (NP (D the) (NPR Mediterranean))))
+			      (BEP are)
+			      (ADJP (ADJP (ADJ dwarfish) (CONJ and) (CODE <P_1,95>) (ADJ degenerate))
+				    (, ,)
+				    (CONJP (CONJ and)
+					   (ADJP (VAN stunted)
+						 (PP (P in)
+						     (NP (PRO$ their) (N growth))))))
+			      (, ,)
+			      (PP (P for)
+				  (NP (N want)
+				      (PP (P of)
+					  (NP (NS conditions)
+					      (CP-REL (WNP-1 (WPRO which))
+						      (C 0)
+						      (IP-SUB (NP-OB1 *T*-1)
+							      (NP-SBJ (D the) (NPR Indian) (NPR Ocean))
+							      (ADVP-TMP (ADV still))
+							      (VBP supplies))))))))))
+	  (. .))
+  (ID LYELL-1830,1,95.264))
+
+/~*
+Some of the accompanying fossil species, which are identifiable with those now
+living, belong to animals which inhabit the same latitudes at present.
+(LYELL-1830,1,96.274)
+*~/
+/*
+11 VAG:  11 VAG, 12 accompanying, 2 NP-SBJ
+43 VAG:  43 VAG, 44 living, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (Q Some)
+		  (PP (P of)
+		      (NP (D the) (VAG accompanying) (N fossil) (NS species)))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP are)
+				  (ADJP (ADJ identifiable))
+				  (PP (P with)
+				      (NP (D those)
+					  (RRC (ADVP-TMP (ADV now))
+					       (VAG living)))))))
+	  (, ,)
+	  (VBP belong)
+	  (PP (P to)
+	      (NP (NS animals)
+		  (CP-REL (WNP-2 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (VBP inhabit)
+				  (NP-OB1 (D the) (ADJ same) (NS latitudes))
+				  (PP (P at)
+				      (ADJP (ADJ present)))))))
+	  (. .))
+  (ID LYELL-1830,1,96.274))
+
+/~*
+It seems, therefore, fair to infer, that the same change of climate which has
+caused certain Indian species of testacea to become rare, or to degenerate in
+size, or to disappear from the Mediterranean, and certain genera of the
+Subapennine hills, now exclusively tropical, to retain no longer any
+representatives in the adjoining seas, has also contributed to the
+annihilation of certain genera of land-mammifera, which inhabited the
+continents at about the same epoch.
+(LYELL-1830,1,96.275)
+*~/
+/*
+169 VAG:  169 VAG, 170 adjoining, 27 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (VBP seems)
+	  (, ,)
+	  (ADV+P therefore)
+	  (, ,)
+	  (ADJP (ADJ fair))
+	  (IP-INF-1 (TO to)
+		    (VB infer)
+		    (, ,)
+		    (CP-THT (C that)
+			    (IP-SUB (NP-SBJ (D the)
+					    (ADJ same)
+					    (N change)
+					    (PP (P of)
+						(NP (N climate)))
+					    (CP-REL (WNP-2 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (HVP has)
+							    (VBN caused)
+							    (IP-INF (IP-INF (IP-INF (NP-SBJ (ADJ certain)
+											    (ADJ Indian)
+											    (NS species)
+											    (PP (P of)
+												(NP (NS testacea))))
+										    (TO to)
+										    (VB become)
+										    (ADJP (ADJ rare)))
+									    (, ,)
+									    (CONJP (CONJ or)
+										   (IP-INF (NP-SBJ *con*)
+											   (TO to)
+											   (VB degenerate)
+											   (PP (P in)
+											       (NP (N size)))))
+									    (, ,)
+									    (CONJP (CONJ or)
+										   (IP-INF (NP-SBJ *con*)
+											   (TO to)
+											   (VB disappear)
+											   (PP (P from)
+											       (NP (D the) (NPR Mediterranean))))))
+								    (, ,)
+								    (CONJP (CONJ and)
+									   (IP-INF (NP-SBJ (ADJ certain)
+											   (NS genera)
+											   (PP (P of)
+											       (NP (D the) (ADJ Subapennine) (NS hills)))
+											   (, ,)
+											   (RRC (ADVP-TMP (ADV now))
+												(ADJP (ADV exclusively) (ADJ tropical))))
+										   (, ,)
+										   (TO to)
+										   (VB retain)
+										   (NP-MSR (ADJP (Q no) (ADJR longer)))
+										   (NP-OB1 (Q any) (NS representatives))
+										   (PP (P in)
+										       (NP (D the) (VAG adjoining) (NS seas)))))))))
+				    (, ,)
+				    (HVP has)
+				    (ALSO also)
+				    (VBN contributed)
+				    (PP (P to)
+					(NP (D the)
+					    (N annihilation)
+					    (PP (P of)
+						(NP (ADJ certain)
+						    (NS genera)
+						    (PP (P of)
+							(NP (N+NS land-mammifera)))
+						    (, ,)
+						    (CP-REL (WNP-3 (WPRO which))
+							    (C 0)
+							    (IP-SUB (NP-SBJ *T*-3)
+								    (VBD inhabited)
+								    (NP-OB1 (D the) (NS continents))
+								    (PP (P at)
+									(NP (ADV about) (D the) (ADJ same) (N epoch))))))))))))
+	  (. .))
+  (ID LYELL-1830,1,96.275))
+
+/~*
+The increasing cold, and greater frequency of inclement winters, would at last
+thin their numbers,
+(LYELL-1830,1,99.294)
+*~/
+/*
+5 VAG:  5 VAG, 6 increasing, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (VAG increasing)
+		  (N cold)
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NX (ADJR greater)
+			     (N frequency)
+			     (PP (P of)
+				 (NP (ADJ inclement) (NS winters))))))
+	  (, ,)
+	  (MD would)
+	  (PP (P at)
+	      (ADVP (ADV last)))
+	  (VB thin)
+	  (NP-OB1 (PRO$ their) (NS numbers))
+	  (. ,))
+  (ID LYELL-1830,1,99.294))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	27/24/303
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd
+*/
+
+/~*
+Dr. Franklin's new theory of charging the Leyden phial led him to observe a
+greater variety of facts, relating both to charging and discharging it, than
+other philosophers had attended to.
+(PRIESTLEY-1769,156.55)
+*~/
+/*
+16 VAG:  16 VAG, 17 charging, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP-POS (NPR Dr.) (NPR$ Franklin's))
+		  (ADJ new)
+		  (N theory)
+		  (PP (P of)
+		      (IP-PPL (VAG charging)
+			      (NP-OB1 (D the) (NPR Leyden) (N phial)))))
+	  (VBD led)
+	  (NP-OB1 (PRO him))
+	  (IP-INF (TO to)
+		  (VB observe)
+		  (NP-OB1 (D a)
+			  (ADJR greater)
+			  (N variety)
+			  (PP (P of)
+			      (NP (NS facts)
+				  (, ,)
+				  (RRC (VAG relating)
+				       (CONJ-1 both)
+				       (PP (P to)
+					   (IP-PPL (VAG (CONJ *ICH*-1)
+							(VAG charging)
+							(CONJ and)
+							(VAG discharging))
+						   (NP-OB1 (PRO it)))))))
+			  (, ,)
+			  (PP (P than)
+			      (CP-CMP (WNP-2 0)
+				      (C 0)
+				      (IP-SUB (NP-SBJ (OTHER other) (NS philosophers))
+					      (HVD had)
+					      (VBN attended)
+					      (PP (P to)
+						  (NP *T*-2)))))))
+	  (. .))
+  (ID PRIESTLEY-1769,156.55))
+
+/~*
+If two phials were charged both through their hooks, a cork ball suspended on
+silk, and hanging between them, would first be attracted, and then repelled by
+both;
+(PRIESTLEY-1769,157.60)
+*~/
+/*
+53 VAG:  53 VAG, 54 hanging, 30 NP-SBJ
+*/
+
+( (IP-MAT-1 (PP (P If)
+		(CP-ADV (C 0)
+			(IP-SUB (NP-SBJ (NUM two) (NS phials))
+				(BED were)
+				(VAN charged)
+				(Q both)
+				(PP (P through)
+				    (NP (PRO$ their) (NS hooks))))))
+	    (, ,)
+	    (NP-SBJ (D a)
+		    (N cork)
+		    (N ball)
+		    (RRC (RRC (VAN suspended)
+			      (PP (P on)
+				  (NP (N silk))))
+			 (, ,)
+			 (CONJP (CONJ and)
+				(RRC (VAG hanging)
+				     (PP (P between)
+					 (NP (PRO them)))))))
+	    (, ,)
+	    (MD would)
+	    (ADVP-TMP (ADV first))
+	    (BE be)
+	    (VAN attracted)
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (ADVP-TMP (ADV then))
+			  (VAN repelled))
+	    (PP (P by)
+		(NP (Q both)))
+	    (. ;))
+  (ID PRIESTLEY-1769,157.60))
+
+/~*
+but he afterwards found, that its power of giving a shock lay in the glass
+itself, and not in the coating, by the following ingenious analysis of the
+bottle.
+(PRIESTLEY-1769,159.81)
+*~/
+/*
+27 VAG:  27 VAG, 28 giving, 18 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO he))
+	  (ADVP-TMP (ADV+WARD afterwards))
+	  (VBD found)
+	  (, ,)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO$ its)
+				  (N power)
+				  (PP (P of)
+				      (IP-PPL (VAG giving)
+					      (NP-OB1 (D a) (N shock)))))
+			  (VBD lay)
+			  (PP (PP (P in)
+				  (NP (D the)
+				      (N glass)
+				      (NP-PRN (PRO+N itself))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (PP (NEG not)
+					 (P in)
+					 (NP (D the) (N coating)))))))
+	  (, ,)
+	  (PP (P by)
+	      (NP (D the)
+		  (VAG following)
+		  (ADJ ingenious)
+		  (N analysis)
+		  (PP (P of)
+		      (NP (D the) (N bottle)))))
+	  (. .))
+  (ID PRIESTLEY-1769,159.81))
+
+/~*
+and was satisfied that the power of giving it resided in the glass itself.
+(PRIESTLEY-1769,160.93)
+*~/
+/*
+23 VAG:  23 VAG, 24 giving, 14 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (VAN satisfied)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N power)
+				  (PP (P of)
+				      (IP-PPL (VAG giving)
+					      (NP-OB1 (PRO it)))))
+			  (VBD resided)
+			  (PP (P in)
+			      (NP (D the)
+				  (N glass)
+				  (NP-PRN (PRO+N itself))))))
+	  (. .))
+  (ID PRIESTLEY-1769,160.93))
+
+/~*
+The greatest discovery which Dr. Franklin made concerning electricity, and
+which has been of the greatest practical use to mankind, was that of the
+perfect similarity between electricity and lightning.
+(PRIESTLEY-1769,162.109)
+*~/
+/*
+29 VAG:  29 VAG, 30 concerning, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJS greatest)
+		  (N discovery)
+		  (CP-REL (CP-REL (WNP-1 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (NPR Dr.) (NPR Franklin))
+					  (VBD made)))
+			  (CONJP *ICH*-2))
+		  (IP-PPL (VAG concerning)
+			  (NP-OB1 (N electricity)))
+		  (, ,)
+		  (CONJP-2 (CONJ and)
+			   (CP-REL (WNP-3 (WPRO which))
+				   (C 0)
+				   (IP-SUB (NP-SBJ *T*-3)
+					   (HVP has)
+					   (BEN been)
+					   (PP (P of)
+					       (NP (D the)
+						   (ADJS greatest)
+						   (ADJ practical)
+						   (N use)
+						   (PP (P to)
+						       (NP (N+N mankind)))))))))
+	  (, ,)
+	  (BED was)
+	  (NP-OB1 (D that)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ perfect)
+			  (N similarity)
+			  (PP (P between)
+			      (NP (N electricity) (CONJ and) (N lightning))))))
+	  (. .))
+  (ID PRIESTLEY-1769,162.109))
+
+/~*
+The universality of the electric matter, the readiness of its action, its
+inflammability, and its activity in giving fire to other bodies, its property
+of striking bodies externally and internally, even to their smallest parts,
+the remarkable example we have of this effect in the experiment of Leyden, the
+idea which we might truly adopt in supposing a greater degree of electric
+power, &c. all these points of analogy, which I have been some time meditating,
+begin to make me believe, that one might, by taking electricity for the model,
+form to ones self, in relation to thunder and lightning, more perfect and more
+probable ideas than what have been offered hitherto, &c. "
+(PRIESTLEY-1769,163.115)
+*~/
+/*
+57 VAG:  57 VAG, 58 giving, 2 NP-SBJ
+82 VAG:  82 VAG, 83 striking, 2 NP-SBJ
+184 VAG:  184 VAG, 185 supposing, 2 NP-SBJ
+241 VAG:  241 VAG, 242 meditating, 2 NP-SBJ
+*/
+
+( (IP-MAT-SPE (NP-SBJ (NP (NP (D The)
+			      (N universality)
+			      (PP (P of)
+				  (NP (D the) (ADJ electric) (N matter))))
+			  (, ,)
+			  (CONJP (NP (D the)
+				     (N readiness)
+				     (PP (P of)
+					 (NP (PRO$ its) (N action)))))
+			  (, ,)
+			  (CONJP (NP (PRO$ its) (N inflammability)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (NP (PRO$ its)
+				     (N activity)
+				     (PP (P in)
+					 (IP-PPL-SPE (VAG giving)
+						     (NP-OB1 (N fire))
+						     (PP (P to)
+							 (NP (OTHER other) (NS bodies))))))))
+		      (, ,)
+		      (CONJP (NP (PRO$ its)
+				 (N property)
+				 (PP (P of)
+				     (IP-PPL-SPE (VAG striking)
+						 (NP-OB1 (NS bodies))
+						 (ADVP (ADV externally) (CONJ and) (ADV internally))
+						 (, ,)
+						 (PP (FP even)
+						     (P to)
+						     (NP (PRO$ their) (ADJS smallest) (NS parts)))))))
+		      (, ,)
+		      (CONJP (NP (D the)
+				 (ADJ remarkable)
+				 (N example)
+				 (CP-REL-SPE (WNP-1 0)
+					     (C 0)
+					     (IP-SUB-SPE (NP-OB1 *T*-1)
+							 (NP-SBJ (PRO we))
+							 (HVP have)))
+				 (PP (P of)
+				     (NP (D this) (N effect)))
+				 (PP (P in)
+				     (NP (D the)
+					 (N experiment)
+					 (PP (P of)
+					     (NP (NPR Leyden)))))))
+		      (, ,)
+		      (CONJP (NP (D the)
+				 (N idea)
+				 (CP-REL-SPE (WNP-2 (WPRO which))
+					     (C 0)
+					     (IP-SUB-SPE (NP-OB1 *T*-2)
+							 (NP-SBJ (PRO we))
+							 (MD might)
+							 (ADVP (ADV truly))
+							 (VB adopt)
+							 (PP (P in)
+							     (IP-PPL-SPE (VAG supposing)
+									 (NP-OB1 (D a)
+										 (ADJR greater)
+										 (N degree)
+										 (PP (P of)
+										     (NP (ADJ electric) (N power) (, ,) (FW &c.))))))))))
+		      (NP-PRN (Q all)
+			      (D these)
+			      (NS points)
+			      (PP (P of)
+				  (NP (N analogy)))
+			      (, ,)
+			      (CP-REL-SPE (WNP-3 (WPRO which))
+					  (C 0)
+					  (IP-SUB-SPE (NP-OB1 *T*-3)
+						      (NP-SBJ (PRO I))
+						      (HVP have)
+						      (BEN been)
+						      (NP-MSR (Q some) (N time))
+						      (VAG meditating)))))
+	      (, ,)
+	      (VBP begin)
+	      (IP-INF-SPE (TO to)
+			  (VB make)
+			  (IP-INF-SPE (NP-SBJ (PRO me))
+				      (VB believe)
+				      (, ,)
+				      (CP-THT-SPE (C that)
+						  (IP-SUB-SPE (NP-SBJ (ONE one))
+							      (MD might)
+							      (, ,)
+							      (PP (P by)
+								  (IP-PPL-SPE (VAG taking)
+									      (NP-OB1 (N electricity))
+									      (PP (P for)
+										  (NP (D the) (N model)))))
+							      (, ,)
+							      (VB form)
+							      (PP (P to)
+								  (NP (ONE$ ones)
+								      (CODE {COM:sic})
+								      (N self)))
+							      (, ,)
+							      (PP (P in)
+								  (NP (N relation)
+								      (PP (P to)
+									  (NP (N thunder) (CONJ and) (N lightning)))))
+							      (, ,)
+							      (NP-OB1 (ADJP (ADJP (QR more) (ADJ perfect))
+									    (CONJP (CONJ and)
+										   (ADJP (QR more) (ADJ probable))))
+								      (NS ideas)
+								      (PP (P than)
+									  (NP (CP-FRL-SPE (WNP-4 (WPRO what))
+											  (C 0)
+											  (IP-SUB-SPE (NP-SBJ *T*-4)
+												      (HVP have)
+												      (BEN been)
+												      (VAN offered)
+												      (PP (ADV+P hitherto)))))))))))
+	      (, ,)
+	      (FW &c.)
+	      (" "))
+  (ID PRIESTLEY-1769,163.115))
+
+/~*
+As every circumstance relating to so capital a discovery as this the greatest,
+perhaps, that has been made in the whole compass of philosophy, since the time
+of Sir Isaac Newton $can $not but give pleasure to all my readers, I shall
+endeavour to gratify them with the communication of a few particulars which I
+have from the best authority.
+(PRIESTLEY-1769,171.202)
+*~/
+/*
+15 VAG:  15 VAG, 16 relating, 9 NP-SBJ
+*/
+
+( (IP-MAT (PP (P As)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q every)
+				      (N circumstance)
+				      (RRC (VAG relating)
+					   (PP (P to)
+					       (NP (ADJP (ADVR so) (ADJ capital))
+						   (D a)
+						   (N discovery)
+						   (PP (P as)
+						       (NP (D this)
+							   (CODE <paren>)
+							   (NP-PRN (D the)
+								   (ADJS greatest)
+								   (, ,)
+								   (ADVP (ADV perhaps))
+								   (, ,)
+								   (CP-REL (WNP-1 0)
+									   (C that)
+									   (IP-SUB (NP-SBJ *T*-1)
+										   (HVP has)
+										   (BEN been)
+										   (VAN made)
+										   (PP (P in)
+										       (NP (D the)
+											   (ADJ whole)
+											   (N compass)
+											   (PP (P of)
+											       (NP (N philosophy)))))
+										   (, ,)
+										   (PP (P since)
+										       (NP (D the)
+											   (N time)
+											   (PP (P of)
+											       (NP (NPR Sir) (NPR Isaac) (NPR Newton))))))))))))))
+			      (CODE <$$paren>)
+			      (MD $can)
+			      (NEG $not)
+			      (CODE {TEXT:cannot})
+			      (FP but)
+			      (VB give)
+			      (NP-OB1 (N pleasure))
+			      (PP (P to)
+				  (NP (Q all) (PRO$ my) (NS readers))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (MD shall)
+	  (VB endeavour)
+	  (IP-INF (TO to)
+		  (VB gratify)
+		  (NP-OB1 (PRO them)))
+	  (PP (P with)
+	      (NP (D the)
+		  (N communication)
+		  (PP (P of)
+		      (NP (D a)
+			  (Q few)
+			  (NS particulars)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-2)
+					  (NP-SBJ (PRO I))
+					  (HVP have)
+					  (PP (P from)
+					      (NP (D the) (ADJS best) (N authority)))))))))
+	  (. .))
+  (ID PRIESTLEY-1769,171.202))
+
+/~*
+The first time he succeeded in making an experiment for this purpose was the
+12th of April 1753, when it appeared that the lightning was negative.
+(PRIESTLEY-1769,172.217)
+*~/
+/*
+26 VAG:  26 VAG, 27 making, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (ADJ first)
+		  (N time)
+		  (CP-REL (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP-TMP *T*-1)
+				  (NP-SBJ (PRO he))
+				  (VBD succeeded)
+				  (PP (P in)
+				      (IP-PPL (VAG making)
+					      (NP-OB1 (D an) (N experiment))
+					      (PP (P for)
+						  (NP (D this) (N purpose))))))))
+	  (BED was)
+	  (NP-TMP (D the)
+		  (ADJ 12th)
+		  (PP (P of)
+		      (NP (NPR April) (NUM 1753))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-2 (PRO it))
+			      (VBD appeared)
+			      (CP-THT-2 (C that)
+					(IP-SUB (NP-SBJ (D the) (N lightning))
+						(BED was)
+						(ADJP (ADJ negative)))))))
+	  (. .))
+  (ID PRIESTLEY-1769,172.217))
+
+/~*
+He was also an eye witness of two clouds lying one over the other, approaching,
+and flashing into one another.
+(PRIESTLEY-1769,175.244)
+*~/
+/*
+26 VAG:  26 VAG, 27 lying, 20 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (BED was)
+	  (ALSO also)
+	  (NP-OB1 (D an)
+		  (N eye)
+		  (N witness)
+		  (PP (P of)
+		      (IP-PPL-1 (NP-SBJ (NUM two)
+					(NS clouds)
+					(RRC (VAG lying)
+					     (NP-OB1 (ONE one))
+					     (PP (P over)
+						 (NP (D the) (OTHER other)))))
+				(, ,)
+				(VAG approaching)
+				(, ,)
+				(IP-PPL=1 (CONJ and)
+					  (VAG flashing)
+					  (PP (P into)))
+				(NP-OB1 (ONE one) (D+OTHER another)))))
+	  (. .))
+  (ID PRIESTLEY-1769,175.244))
+
+/~*
+2. He observed that the stream or brush of fire, appearing at the end of the
+wire connected with the conductor, was long, large, and much diverging when
+the glass globe was used, and made a snapping or rattling noise; but that when
+the sulphur globe was used, it was short, small, and made a hissing noise.
+(PRIESTLEY-1769,181.300)
+*~/
+/*
+38 VAG:  38 VAG, 39 appearing, 18 NP-SBJ
+*/
+
+( (IP-MAT (LS (NUM 2))
+	  (, .)
+	  (NP-SBJ (PRO He))
+	  (VBD observed)
+	  (CP-THT (CP-THT (C that)
+			  (IP-SUB (IP-SUB (NP-SBJ (D the)
+						  (N stream)
+						  (CONJP (CONJ or)
+							 (NX (N brush)))
+						  (PP (P of)
+						      (NP (N fire)))
+						  (, ,)
+						  (RRC (VAG appearing)
+						       (PP (P at)
+							   (NP (D the)
+							       (N end)
+							       (PP (P of)
+								   (NP (D the)
+								       (N wire)
+								       (RRC (VAN connected)
+									    (PP (P with)
+										(NP (D the) (N conductor))))))))))
+					  (, ,)
+					  (BED was)
+					  (ADJP (ADJP (ADJ long) (, ,) (ADJ large))
+						(, ,)
+						(CONJP (CONJ and)
+						       (IP-PPL (NP-MSR (Q much))
+							       (VAG diverging))))
+					  (PP (P when)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (D the) (N glass) (N globe))
+							      (BED was)
+							      (VAN used)))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *con*)
+						 (VBD made)
+						 (NP-OB1 (D a)
+							 (ADJP (VAG snapping) (CONJ or) (VAG rattling))
+							 (N noise))))))
+		  (, ;)
+		  (CONJP (CONJ but)
+			 (CP-THT (C that)
+				 (IP-SUB (IP-SUB (PP (P when)
+						     (CP-ADV (C 0)
+							     (IP-SUB (NP-SBJ (D the) (N sulphur) (N globe))
+								     (BED was)
+								     (VAN used))))
+						 (, ,)
+						 (NP-SBJ (PRO it))
+						 (BED was)
+						 (ADJP (ADJ short) (, ,) (ADJ small)))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(IP-SUB (NP-SBJ *con*)
+							(VBD made)
+							(NP-OB1 (D a) (VAG hissing) (N noise))))))))
+	  (. .))
+  (ID PRIESTLEY-1769,181.300))
+
+/~*
+4. He observed that the cool wind or what was called so which is felt as
+coming from an electrified point, was much more sensible when the glass globe,
+than when the sulphur one was used.
+(PRIESTLEY-1769,182.306)
+*~/
+/*
+68 VAG:  68 VAG, 69 coming, 16 NP-SBJ
+*/
+
+( (IP-MAT (LS (NUM 4))
+	  (, .)
+	  (NP-SBJ (PRO He))
+	  (VBD observed)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (NP (D the) (ADJ cool) (N wind))
+				  (CODE <paren>)
+				  (CONJP (CONJ or)
+					 (NP (CP-FRL (WNP-1 (WPRO what))
+						     (C 0)
+						     (IP-SUB (NP-SBJ *T*-1)
+							     (BED was)
+							     (VAN called)
+							     (IP-SMC (NP-SBJ *T*-1)
+								     (ADVP (ADV so)))))))
+				  (CODE <$$paren>)
+				  (CP-REL (WNP-2 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (BEP is)
+						  (VAN felt)
+						  (PP (P as)
+						      (IP-PPL (VAG coming)
+							      (PP (P from)
+								  (NP (D an) (VAN electrified) (N point))))))))
+			  (, ,)
+			  (BED was)
+			  (ADJP (QP (Q much) (QR more))
+				(ADJ sensible)
+				(PP *ICH*-4))
+			  (PP (P when)
+			      (CP-ADV (C 0)
+				      (IP-SUB-3 (NP-SBJ (D the) (N glass) (N globe))
+						(, ,)
+						(PP-4 (P than)
+						      (PP (P when)
+							  (CP-ADV (C 0)
+								  (IP-SUB=3 (NP-SBJ (D the) (N sulphur) (ONE one))))))
+						(BED was)
+						(VAN used))))))
+	  (. .))
+  (ID PRIESTLEY-1769,182.306))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	14/11/318
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd
+*/
+
+/~*
+The number of nodal meridians, determined by the points where the circle
+intersects the ellipse, is four, the meridians corresponding for example to
+longitudes 0=o= and 180=o= being reckoned separately.
+(STRUTT-1890,3,318.15)
+*~/
+/*
+69 VAG:  69 VAG, 70 corresponding, 63 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N number)
+		  (PP (P of)
+		      (NP (ADJ nodal) (NS meridians)))
+		  (, ,)
+		  (RRC (VAN determined)
+		       (PP (P by)
+			   (NP (D the)
+			       (NS points)
+			       (CP-REL (WADVP-1 (WADV where))
+				       (C 0)
+				       (IP-SUB (ADVP-LOC *T*-1)
+					       (NP-SBJ (D the) (N circle))
+					       (VBP intersects)
+					       (NP-OB1 (D the) (N ellipse))))))))
+	  (, ,)
+	  (BEP is)
+	  (CODE <font>)
+	  (NP-OB1 (NUM four))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the)
+			      (NS meridians)
+			      (RRC (VAG corresponding)
+				   (CODE <paren>)
+				   (PP (P for)
+				       (NP (N example)))
+				   (CODE <$$paren>)
+				   (PP (P to)
+				       (NP (NS longitudes)
+					   (NUMP (NUM+NS 0=o=) (CONJ and) (NUM+NS 180=o=))))))
+		      (BAG being)
+		      (VAN reckoned)
+		      (ADVP (ADV separately)))
+	  (. .))
+  (ID STRUTT-1890,3,318.15))
+
+/~*
+The pitch of the resulting sound is the same as that elicited by a tap with
+the soft part of the finger;
+(STRUTT-1890,3,319.32)
+*~/
+/*
+13 VAG:  13 VAG, 14 resulting, 2 NP-SBJ
+*/
+
+( (IP-MAT-SPE (NP-SBJ (D The)
+		      (N pitch)
+		      (PP (P of)
+			  (NP (D the) (VAG resulting) (N sound))))
+	      (BEP is)
+	      (NP-OB1 (D the)
+		      (ADJ same)
+		      (PP (P as)
+			  (NP (D that)
+			      (RRC (VAN elicited)
+				   (PP (P by)
+				       (NP (D a)
+					   (N tap)
+					   (PP (P with)
+					       (NP (D the)
+						   (ADJ soft)
+						   (N part)
+						   (PP (P of)
+						       (NP (D the) (N finger)))))))))))
+	      (. ;))
+  (ID STRUTT-1890,3,319.32))
+
+/~*
+but inasmuch as the tangential motion of a vibrating bell has been very
+generally ignored, the production of sound in this manner has been felt as a
+difficulty.
+(STRUTT-1890,3,319.33)
+*~/
+/*
+27 VAG:  27 VAG, 28 vibrating, 14 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ but)
+	      (PP (P+ADVR+Q inasmuch)
+		  (PP (P as)
+		      (CP-ADV-SPE (C 0)
+				  (IP-SUB-SPE (NP-SBJ (D the)
+						      (ADJ tangential)
+						      (N motion)
+						      (PP (P of)
+							  (NP (D a) (VAG vibrating) (N bell))))
+					      (HVP has)
+					      (BEN been)
+					      (ADVP (ADV very) (ADV generally))
+					      (VAN ignored)))))
+	      (, ,)
+	      (NP-SBJ (D the)
+		      (N production)
+		      (PP (P of)
+			  (NP (N sound)))
+		      (PP (P in)
+			  (NP (D this) (N manner))))
+	      (HVP has)
+	      (BEN been)
+	      (VAN felt)
+	      (PP (P as)
+		  (NP (D a) (N difficulty)))
+	      (. .))
+  (ID STRUTT-1890,3,319.33))
+
+/~*
+At all 4 n places the resulting sound is free from beats.
+(STRUTT-1890,3,320.51)
+*~/
+/*
+22 VAG:  22 VAG, 23 resulting, 19 NP-SBJ
+*/
+
+( (IP-MAT (PP (P At)
+	      (NP (Q all)
+		  (NUMP (NUM 4) (CODE <font>) (N n))
+		  (CODE <$$font>)
+		  (NS places)))
+	  (NP-SBJ (D the) (VAG resulting) (N sound))
+	  (BEP is)
+	  (ADJP (ADJ free)
+		(PP (P from)
+		    (NP (NS beats))))
+	  (. .))
+  (ID STRUTT-1890,3,320.51))
+
+/~*
+If the striking body be soft, the original preponderance of the higher
+elements is less marked.
+(STRUTT-1890,3,322.93)
+*~/
+/*
+12 VAG:  12 VAG, 13 striking, 9 NP-SBJ
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (VAG striking) (N body))
+			      (BEP be)
+			      (ADJP (ADJ soft)))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (ADJ original)
+		  (N preponderance)
+		  (PP (P of)
+		      (NP (D the) (ADJR higher) (NS elements))))
+	  (BEP is)
+	  (NP-MSR (QR less))
+	  (VAN marked)
+	  (. .))
+  (ID STRUTT-1890,3,322.93))
+
+/~*
+In the specification of pitch the numerals following the note indicate by how
+much the frequency of the bell differed from that of the harmonium.
+(STRUTT-1890,3,325.166)
+*~/
+/*
+22 VAG:  22 VAG, 23 following, 16 NP-SBJ
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (D the)
+		  (N specification)
+		  (PP (P of)
+		      (NP (N pitch)))))
+	  (NP-SBJ (D the)
+		  (NS numerals)
+		  (RRC (VAG following)
+		       (NP-OB1 (D the) (N note))))
+	  (VBP indicate)
+	  (PP (P by)
+	      (NP (CP-FRL (WNP-1 (WQP (WADV how) (Q much)))
+			  (C 0)
+			  (IP-SUB (NP-MSR *T*-1)
+				  (NP-SBJ (D the)
+					  (N frequency)
+					  (PP (P of)
+					      (NP (D the) (N bell))))
+				  (VBD differed)
+				  (PP (P from)
+				      (NP (D that)
+					  (PP (P of)
+					      (NP (D the) (N harmonium)))))))))
+	  (. .))
+  (ID STRUTT-1890,3,325.166))
+
+/~*
+Perhaps the most striking experiment is with a tuning-fork.
+(STRUTT-1890,3,325.177)
+*~/
+/*
+11 VAG:  11 VAG, 12 striking, 5 NP-SBJ
+*/
+
+( (IP-MAT (ADVP (ADV Perhaps))
+	  (NP-SBJ (D the)
+		  (ADJP (QS most) (VAG striking))
+		  (N experiment))
+	  (BEP is)
+	  (PP (P with)
+	      (NP (D a) (N+N tuning-fork)))
+	  (. .))
+  (ID STRUTT-1890,3,325.177))
+
+/~*
+In practice the simplest way to effect the tuning is to watch the course of
+things after the vibrating fork has been brought into contact with the bell.
+(STRUTT-1890,3,325.185)
+*~/
+/*
+53 VAG:  53 VAG, 54 vibrating, 50 NP-SBJ
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (N practice)))
+	  (NP-SBJ (D the)
+		  (ADJS simplest)
+		  (N way)
+		  (IP-INF (TO to)
+			  (VB effect)
+			  (NP-OB1 (D the) (N tuning))))
+	  (BEP is)
+	  (IP-INF-OB1 (TO to)
+		      (VB watch)
+		      (NP-OB1 (D the)
+			      (N course)
+			      (PP (P of)
+				  (NP (NS things))))
+		      (PP (P after)
+			  (CP-ADV (C 0)
+				  (IP-SUB (NP-SBJ (D the) (VAG vibrating) (N fork))
+					  (HVP has)
+					  (BEN been)
+					  (VAN brought)
+					  (PP (P into)
+					      (NP (N contact)
+						  (PP (P with)
+						      (NP (D the) (N bell)))))))))
+	  (. .))
+  (ID STRUTT-1890,3,325.185))
+
+/~*
+The expanding part of the bell is represented by one Fig. 4, or with better
+approximation by two Fig. 5, segments of cones.
+(STRUTT-1890,3,329.235)
+*~/
+/*
+6 VAG:  6 VAG, 7 expanding, 3 NP-SBJ
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (D The)
+			    (VAG expanding)
+			    (N part)
+			    (PP (P of)
+				(NP (D the) (N bell))))
+		    (BEP is)
+		    (VAN represented)
+		    (PP (P by)
+			(NP (ONE one))))
+	  (CODE <paren>)
+	  (REF (N Fig.) (NUM 4))
+	  (CODE <$$paren>)
+	  (, ,)
+	  (CONJP (CONJ or)
+		 (IP-MAT=1 (PP (P with)
+			       (NP (ADJR better) (N approximation)))
+			   (PP (P by)
+			       (NP (NUM two)
+				   (CODE <paren>)
+				   (REF (N Fig.) (NUM 5))
+				   (CODE <$$paren>)
+				   (, ,)
+				   (NS segments)
+				   (PP (P of)
+				       (NP (NS cones)))))))
+	  (. .))
+  (ID STRUTT-1890,3,329.235))
+
+/~*
+The gravest note, G, and the corresponding mode of vibration, could be
+investigated exactly in the manner already described.
+(STRUTT-1890,3,329.241)
+*~/
+/*
+25 VAG:  25 VAG, 26 corresponding, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (D The)
+		      (ADJS gravest)
+		      (N note)
+		      (, ,)
+		      (NP-PRN (N G)))
+		  (CODE {COM:sharp_symbol})
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (VAG corresponding)
+			     (N mode)
+			     (PP (P of)
+				 (NP (N vibration))))))
+	  (, ,)
+	  (MD could)
+	  (BE be)
+	  (VAN investigated)
+	  (ADVP (ADV exactly))
+	  (PP (P in)
+	      (NP (D the)
+		  (CODE {COM:figure_omitted})
+		  (N manner)
+		  (RRC (ADVP-TMP (ADV already))
+		       (VAN described))))
+	  (. .))
+  (ID STRUTT-1890,3,329.241))
+
+/~*
+for one of the things that I shall have most to insist upon is that foaming
+liquids are essentially impure, contaminated - in fact, dirty.
+(STRUTT-1890,3,351.257)
+*~/
+/*
+48 VAG:  48 VAG, 49 foaming, 47 NP-SBJ
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (ONE one)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS things)
+			  (CP-REL (WNP-1 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ (PRO I))
+					  (MD shall)
+					  (HV have)
+					  (IP-INF (NP-MSR (QS most))
+						  (TO to)
+						  (VB insist)
+						  (PP (P upon)
+						      (NP *T*-1))))))))
+	  (BEP is)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (VAG foaming) (NS liquids))
+			  (BEP are)
+			  (ADJP (ADV essentially)
+				(ADJ impure)
+				(, ,)
+				(CONJP (ADJX (ADJ contaminated)))
+				(, -)
+				(CONJP (ADJX (PP (P in)
+						 (NP (N fact)))
+					     (, ,)
+					     (ADJ dirty))))))
+	  (. .))
+  (ID STRUTT-1890,3,351.257))
+
+/~*
+In some experiments I made at home I found that water containing a small
+proportion of ether foamed freely;
+(STRUTT-1890,3,352.274)
+*~/
+/*
+42 VAG:  42 VAG, 43 containing, 38 NP-SBJ
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (Q some)
+		  (NS experiments)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (VBD made)
+				  (PP (P at)
+				      (NP (N home)))))))
+	  (NP-SBJ (PRO I))
+	  (VBD found)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (N water)
+				  (RRC (VAG containing)
+				       (NP-OB1 (D a)
+					       (ADJ small)
+					       (N proportion)
+					       (PP (P of)
+						   (NP (N ether))))))
+			  (CODE <P_3,352>)
+			  (VBD foamed)
+			  (ADVP (ADV freely))))
+	  (. ;))
+  (ID STRUTT-1890,3,352.274))
+
+/~*
+Another substance, very minute quantities of which communicate the foaming
+property to water, is glue or gelatine.
+(STRUTT-1890,3,352.285)
+*~/
+/*
+34 VAG:  34 VAG, 35 foaming, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D+OTHER Another)
+		  (N substance)
+		  (, ,)
+		  (CP-REL (WNP-1 (ADJP (ADV very) (ADJ minute))
+				 (NS quantities)
+				 (WPP (P of)
+				      (WNP (WPRO which))))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBP communicate)
+				  (NP-OB1 (D the) (VAG foaming) (N property))
+				  (PP (P to)
+				      (NP (N water))))))
+	  (, ,)
+	  (BEP is)
+	  (NP-OB1 (N glue) (CONJ or) (N gelatine))
+	  (. .))
+  (ID STRUTT-1890,3,352.285))
+
+/~*
+but even with but 1 part in 100,000, the foaming property is so evident as to
+suggest that it might in certain cases prove valuable for indicating the
+presence of minute quantities of impurities.
+(STRUTT-1890,3,352.291)
+*~/
+/*
+28 VAG:  28 VAG, 29 foaming, 25 NP-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (FP even)
+	      (P with)
+	      (NP (NUMP (FP but) (NUM 1))
+		  (N part)
+		  (PP (P in)
+		      (NP (NUM 100,000)))))
+	  (, ,)
+	  (NP-SBJ (D the) (VAG foaming) (N property))
+	  (BEP is)
+	  (ADJP (ADVR so)
+		(ADJ evident)
+		(-PP (P as)
+		     (IP-INF (TO to)
+			     (VB suggest)
+			     (CP-THT (C that)
+				     (IP-SUB (NP-SBJ (PRO it))
+					     (MD might)
+					     (PP (P in)
+						 (NP (ADJ certain) (NS cases)))
+					     (VB prove)
+					     (ADJP (ADJ valuable)
+						   (PP (P for)
+						       (IP-PPL (VAG indicating)
+							       (NP-OB1 (D the)
+								       (N presence)
+								       (PP (P of)
+									   (NP (ADJ minute)
+									       (NS quantities)
+									       (PP (P of)
+										   (NP (NS impurities))))))))))))))
+	  (. .))
+  (ID STRUTT-1890,3,352.291))
+
+/~*
+One of their most important and striking properties is their tendency to
+contract.
+(STRUTT-1890,3,352.309)
+*~/
+/*
+20 VAG:  20 VAG, 21 striking, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (ONE One)
+		  (PP (P of)
+		      (NP (PRO$ their)
+			  (ADJP (QS most)
+				(ADJ important)
+				(CONJP (CONJ and)
+				       (ADJX (VAG striking))))
+			  (NS properties))))
+	  (BEP is)
+	  (NP-OB1 (PRO$ their)
+		  (N tendency)
+		  (IP-INF (TO to) (VB contract)))
+	  (. .))
+  (ID STRUTT-1890,3,352.309))
+
+/~*
+If the tension of the surface separating water and air exceeded the sum of the
+other two, then the equilibrium as depicted would be impossible.
+(STRUTT-1890,3,353.332)
+*~/
+/*
+23 VAG:  23 VAG, 24 separating, 9 NP-SBJ
+*/
+
+( (IP-MAT (PP-LFD (P If)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (D the)
+					  (N tension)
+					  (PP (P of)
+					      (NP (D the)
+						  (N surface)
+						  (RRC (VAG separating)
+						       (NP-OB1 (N water) (CONJ and) (N air))))))
+				  (VBD exceeded)
+				  (NP-OB1 (D the)
+					  (N sum)
+					  (PP (P of)
+					      (NP (D the) (OTHER other) (NUM two)))))))
+	  (, ,)
+	  (ADVP-RSP (ADV then))
+	  (NP-SBJ (D the)
+		  (N equilibrium)
+		  (PP (P as)
+		      (IP-PPL (VAN depicted))))
+	  (MD would)
+	  (BE be)
+	  (ADJP (ADJ impossible))
+	  (. .))
+  (ID STRUTT-1890,3,353.332))
+
+/~*
+Accurate measurements, made by Quincke and others, show that the surface
+tension separating water and air is really greater than the sum of the two
+others.
+(STRUTT-1890,3,353.336)
+*~/
+/*
+39 VAG:  39 VAG, 40 separating, 31 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (ADJ Accurate)
+		  (NS measurements)
+		  (, ,)
+		  (RRC (VAN made)
+		       (PP (P by)
+			   (NP (NPR Quincke)
+			       (CONJP (CONJ and) (OTHERS others))))))
+	  (, ,)
+	  (VBP show)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D the)
+				  (N surface)
+				  (N tension)
+				  (RRC (VAG separating)
+				       (NP-OB1 (N water) (CONJ and) (N air))))
+			  (BEP is)
+			  (ADVP (ADV really))
+			  (ADJP (ADJR greater)
+				(PP (P than)
+				    (NP (D the)
+					(N sum)
+					(PP (P of)
+					    (NP (D the) (NUM two) (OTHERS others))))))))
+	  (. .))
+  (ID STRUTT-1890,3,353.336))
+
+/~*
+In many books you will find descriptions of three bodies in contact, and a
+statement of the law of the angles at which they meet; that the sides of a
+triangle, drawn parallel to the three intersecting surfaces, must be in
+proportion to the three tensions.
+(STRUTT-1890,3,354.352)
+*~/
+/*
+113 VAG:  113 VAG, 114 intersecting, 84 NP-SBJ
+*/
+
+( (IP-MAT (PP (P In)
+	      (NP (Q many) (NS books)))
+	  (NP-SBJ (PRO you))
+	  (MD will)
+	  (VB find)
+	  (NP-OB1 (NP (NS descriptions)
+		      (PP (P of)
+			  (NP (NUM three)
+			      (NS bodies)
+			      (PP (P in)
+				  (NP (N contact))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D a)
+			     (N statement)
+			     (PP (P of)
+				 (NP (D the)
+				     (N law)
+				     (PP (P of)
+					 (NP (D the)
+					     (NS angles)
+					     (CP-REL (WPP-1 (P at)
+							    (WNP (WPRO which)))
+						     (C 0)
+						     (IP-SUB (PP *T*-1)
+							     (NP-SBJ (PRO they))
+							     (VBP meet)))))
+				     (, ;)
+				     (CP-THT-PRN (C that)
+						 (IP-SUB (NP-SBJ (D the)
+								 (NS sides)
+								 (PP (P of)
+								     (NP (D a) (N triangle)))
+								 (, ,)
+								 (RRC (VAN drawn)
+								      (ADJP-SPR (ADJ parallel)
+										(PP (P to)
+										    (NP (D the) (NUM three) (VAG intersecting) (NS surfaces))))))
+							 (, ,)
+							 (MD must)
+							 (BE be)
+							 (PP (P in)
+							     (NP (N proportion)
+								 (PP (P to)
+								     (NP (D the) (NUM three) (NS tensions))))))))))))
+	  (. .))
+  (ID STRUTT-1890,3,354.352))
+
+/~*
+If the nature of the case is such that the whole surface surrounding the solid
+body is contaminated, then there is no tendency to movement, the same balance
+in fact obtaining as if the water were pure.
+(STRUTT-1890,3,355.369)
+*~/
+/*
+39 VAG:  39 VAG, 40 surrounding, 31 NP-SBJ
+*/
+
+( (IP-MAT (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the)
+				      (N nature)
+				      (PP (P of)
+					  (NP (D the) (N case))))
+			      (BEP is)
+			      (ADJP (SUCH such)
+				    (CP-DEG (C that)
+					    (IP-SUB (NP-SBJ (D the)
+							    (ADJ whole)
+							    (N surface)
+							    (RRC (VAG surrounding)
+								 (NP-OB1 (D the) (ADJ solid) (N body))))
+						    (BEP is)
+						    (VAN contaminated)))))))
+	  (, ,)
+	  (ADVP (ADV then))
+	  (NP-SBJ-1 (EX there))
+	  (BEP is)
+	  (NP-1 (Q no)
+		(N tendency)
+		(PP (P to)
+		    (NP (N movement))))
+	  (, ,)
+	  (IP-PPL-ABS (NP-SBJ (D the) (ADJ same) (N balance))
+		      (PP (P in)
+			  (NP (N fact)))
+		      (VAG obtaining)
+		      (PP (P as)
+			  (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (D the) (N water))
+					      (BED were)
+					      (ADJP (ADJ pure)))))))
+	  (. .))
+  (ID STRUTT-1890,3,355.369))
+
+/~*
+I was very desirous to ascertain, if possible, the actual thickness of oil
+necessary to produce this effect, because all data relating to molecules are,
+in the present state of science, of great interest.
+(STRUTT-1890,3,355.378)
+*~/
+/*
+68 VAG:  68 VAG, 69 relating, 62 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (BED was)
+	  (ADJP (ADV very)
+		(ADJ desirous)
+		(IP-INF (TO to)
+			(VB ascertain)
+			(, ,)
+			(PP (P if)
+			    (ADJP (ADJ possible)))
+			(, ,)
+			(NP-OB1 (D the)
+				(ADJ actual)
+				(N thickness)
+				(PP (P of)
+				    (NP (N oil)))
+				(ADJP (ADJ necessary)
+				      (IP-INF (TO to)
+					      (VB produce)
+					      (NP-OB1 (D this) (N effect)))))))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (Q all)
+				      (NS data)
+				      (RRC (VAG relating)
+					   (PP (P to)
+					       (NP (NS molecules)))))
+			      (BEP are)
+			      (, ,)
+			      (PP (P in)
+				  (NP (D the)
+				      (ADJ present)
+				      (N state)
+				      (PP (P of)
+					  (NP (N science)))))
+			      (, ,)
+			      (PP (P of)
+				  (NP (ADJ great) (N interest))))))
+	  (. .))
+  (ID STRUTT-1890,3,355.378))
+
+/~*
+Another way of saying the same thing is that this thickness of oil bears to
+one inch the same ratio that one second of time bears to half a year.
+(STRUTT-1890,3,355.388)
+*~/
+/*
+11 VAG:  11 VAG, 12 saying, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D+OTHER Another)
+		  (N way)
+		  (PP (P of)
+		      (IP-PPL (VAG saying)
+			      (NP-OB1 (D the) (ADJ same) (N thing)))))
+	  (BEP is)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (D this)
+				  (N thickness)
+				  (PP (P of)
+				      (NP (N oil))))
+			  (VBP bears)
+			  (PP (P to)
+			      (NP (ONE one) (N inch)))
+			  (NP-OB1 (D the)
+				  (ADJ same)
+				  (N ratio)
+				  (CP-REL (WNP-1 0)
+					  (C that)
+					  (IP-SUB (NP-OB1 *T*-1)
+						  (NP-SBJ (ONE one)
+							  (N second)
+							  (PP (P of)
+							      (NP (N time))))
+						  (VBP bears)
+						  (PP (P to)
+						      (NP (Q half) (D a) (N year))))))))
+	  (. .))
+  (ID STRUTT-1890,3,355.388))
+
+/~*
+This is an important point, because it is sometimes supposed that the effect
+of soap in diminishing the tension of water is due merely to the formation
+upon the surface of a layer of oil by decomposition of the soap.
+(STRUTT-1890,3,356.411)
+*~/
+/*
+52 VAG:  52 VAG, 53 diminishing, 37 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (D This))
+	  (BEP is)
+	  (NP-OB1 (D an) (ADJ important) (N point))
+	  (, ,)
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (BEP is)
+			      (NP-TMP (Q+NS sometimes))
+			      (VAN supposed)
+			      (CP-THT-1 (C that)
+					(IP-SUB (NP-SBJ (D the)
+							(N effect)
+							(PP (P of)
+							    (NP (N soap)))
+							(PP (P in)
+							    (IP-PPL (VAG diminishing)
+								    (NP-OB1 (D the)
+									    (N tension)
+									    (PP (P of)
+										(NP (N water)))))))
+						(BEP is)
+						(ADJP (ADJ due)
+						      (PP (ADV merely)
+							  (P to)
+							  (NP (D the)
+							      (N formation)
+							      (PP (P upon)
+								  (NP (D the) (N surface)))
+							      (PP (P of)
+								  (NP (D a)
+								      (N layer)
+								      (PP (P of)
+									  (NP (N oil)))))))
+						      (PP (P by)
+							  (NP (N decomposition)
+							      (PP (P of)
+								  (NP (D the) (N soap)))))))))))
+	  (. .))
+  (ID STRUTT-1890,3,356.411))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	22/22/468
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\albin-1736.psd	3/3/843
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\faraday-1859.psd	8/7/484
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\herschel-1797.psd	11/9/731
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\lyell-1830.psd	27/24/303
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\priestley-1769.psd	14/11/318
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\science_astronomy_geography\strutt-1890.psd	22/22/468
+whole search, hits/tokens/total
+		85/76/3147
+*/

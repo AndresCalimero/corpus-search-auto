@@ -1,0 +1,3217 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:47 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\whquestions\biography_and_diaries\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd
+*/
+
+/~*
+I had not realised what a burden these anxieties had been till they were
+lifted from my mind,
+(BENSON-190X,106.32)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 18 burden, 11 CP-QUE
+*/
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVD had)
+	  (NEG not)
+	  (VBN realised)
+	  (CP-QUE (WNP-1 (WD what) (D a) (N burden))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D these) (CODE <P_106>) (NS anxieties))
+			  (HVD had)
+			  (BEN been)))
+	  (PP (P till)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BED were)
+			      (VAN lifted)
+			      (PP (P from)
+				  (NP (PRO$ my) (N mind))))))
+	  (. ,))
+  (ID BENSON-190X,106.32))
+
+/~*
+Before I knew what I was doing, I was enrolled in a dining-club, to have free
+religious discussion.
+(BENSON-190X,108.102)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 what, 14 CP-QUE
+*/
+
+( (IP-MAT (PP (P Before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD knew)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO I))
+					      (BED was)
+					      (DAG doing))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (BED was)
+	  (VAN enrolled)
+	  (PP (P in)
+	      (NP (D a) (N+N dining-club)))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (HV have)
+		      (NP-OB1 (ADJ free) (ADJ religious) (N discussion)))
+	  (. .))
+  (ID BENSON-190X,108.102))
+
+/~*
+and wrote about thirty letters to all concerned - mostly short notes just to
+say what I was doing.
+(BENSON-190X,109.112)
+*~/
+/*
+52 WNP-3:  52 WNP-3, 54 what, 51 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ and)
+		    (NP-SBJ *con*)
+		    (VBD wrote)
+		    (NP-OB1 (NUMP (ADV about) (NUM thirty))
+			    (NS letters))
+		    (PP (P to)
+			(NP (Q all)
+			    (RRC (VAN concerned)))))
+	  (, -)
+	  (CONJP (IP-MAT=1 (ADVP (ADV mostly))
+			   (NP-OB1 (ADJ short)
+				   (NS notes)
+				   (CP-EOP (WNP-2 0)
+					   (IP-INF (NP-SBJ *T*-2)
+						   (ADVP (ADV just))
+						   (TO to)
+						   (VB say)
+						   (CP-QUE (WNP-3 (WPRO what))
+							   (C 0)
+							   (IP-SUB (NP-OB1 *T*-3)
+								   (NP-SBJ (PRO I))
+								   (BED was)
+								   (DAG doing))))))))
+	  (. .))
+  (ID BENSON-190X,109.112))
+
+/~*
+I wonder what gift he will bring, false and pretty bird?
+(BENSON-190X,113.245)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 12 gift, 7 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP wonder)
+	  (CP-QUE (WNP-1 (WD what) (N gift))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he)
+				  (NP-PRN *ICH*-2))
+			  (MD will)
+			  (VB bring)
+			  (, ,)
+			  (NP-PRN-2 (ADJP (ADJ false) (CONJ and) (ADJ pretty))
+				    (N bird))))
+	  (. ?))
+  (ID BENSON-190X,113.245))
+
+/~*
+What the devil then is he to do?
+(BENSON-190X,113.263)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 9 devil, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What)
+		 (INTJP (D the) (NPR devil)))
+	  (IP-SUB (ADVP-TMP (ADV then))
+		  (CODE <font>)
+		  (BEP is)
+		  (CODE <$$font>)
+		  (NP-SBJ (PRO he))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)))
+	  (. ?))
+  (ID BENSON-190X,113.263))
+
+/~*
+who knows?
+(BENSON-190X,115.319)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP knows))
+	  (. ?))
+  (ID BENSON-190X,115.319))
+
+/~*
+I remember what interests me.
+(BENSON-190X,123.579)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 7 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP remember)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBP interests)
+			  (NP-OB1 (PRO me))))
+	  (. .))
+  (ID BENSON-190X,123.579))
+
+/~*
+and sate long on the broad, low slab of a grave, wondering who and what my
+host, that lay below, had been.
+(BENSON-190X,124.602)
+*~/
+/*
+40 WNP-1:  40 WNP-1, 46 what, 39 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sate)
+	  (NP-MSR (ADJ long))
+	  (PP (P on)
+	      (NP (D the)
+		  (ADJP (ADJ broad) (, ,) (ADJ low))
+		  (N slab)
+		  (PP (P of)
+		      (NP (D a) (N grave)))))
+	  (, ,)
+	  (IP-PPL (VAG wondering)
+		  (CP-QUE (WNP-1 (WPRO who) (CONJ and) (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO$ my)
+					  (N host)
+					  (, ,)
+					  (CP-REL (WNP-2 0)
+						  (C that)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (VBD lay)
+							  (ADVP-LOC (ADV below)))))
+				  (, ,)
+				  (HVD had)
+				  (BEN been))))
+	  (. .))
+  (ID BENSON-190X,124.602))
+
+/~*
+He is one of the few people to whom I can and do say exactly what I think and
+as I think it.
+(BENSON-190X,130.772)
+*~/
+/*
+50 WNP-3:  50 WNP-3, 52 what, 49 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (BEP is)
+	  (NP-OB1 (ONE one)
+		  (PP (P of)
+		      (NP (D the)
+			  (Q few)
+			  (NS people)
+			  (CP-REL (WPP-1 (P to)
+					 (WNP (WPRO whom)))
+				  (C 0)
+				  (IP-SUB-2 (PP *T*-1)
+					    (NP-SBJ (PRO I))
+					    (MD (MD can)
+						(CONJP (CONJ and) (DOP do)))
+					    (VB say)
+					    (ADVP (ADV exactly))
+					    (CP-QUE (CP-QUE (WNP-3 (WPRO what))
+							    (C 0)
+							    (IP-SUB (NP-OB1 *T*-3)
+								    (NP-SBJ (PRO I))
+								    (VBP think)))
+						    (CONJP (CONJ and)
+							   (PP (P as)
+							       (CP-ADV (WADVP-4 0)
+								       (C 0)
+								       (IP-SUB (ADVP *T*-4)
+									       (NP-SBJ (PRO I))
+									       (VBP think)
+									       (NP-OB1 (PRO it))))))))))))
+	  (. .))
+  (ID BENSON-190X,130.772))
+
+/~*
+And yet I $can $n't recollect what we talked about.
+(BENSON-190X,130.775)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV yet))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $n't)
+	  (CODE {TEXT:can't})
+	  (VB recollect)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO we))
+			  (VBD talked)
+			  (PP (P about)
+			      (NP *T*-1))))
+	  (. .))
+  (ID BENSON-190X,130.775))
+
+/~*
+but what would a mediaeval knight have said if he had seen one at the end of a
+forest avenue?
+(BENSON-190X,130.778)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD would)
+		  (NP-SBJ (D a) (ADJ mediaeval) (N knight))
+		  (HV have)
+		  (VBN said)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO he))
+				      (HVD had)
+				      (VBN seen)
+				      (NP-OB1 (ONE one))
+				      (PP (P at)
+					  (NP (D the)
+					      (N end)
+					      (PP (P of)
+						  (NP (D a) (N forest) (N avenue)))))))))
+	  (. ?))
+  (ID BENSON-190X,130.778))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	11/11/930
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd
+*/
+
+/~*
+I did not consider what would be my fate if I failed.
+(BOSWELL-1776,39.82)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (DOD did)
+	  (NEG not)
+	  (VB consider)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD would)
+			  (BE be)
+			  (NP-OB1 (PRO$ my) (N fate))
+			  (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO I))
+					      (VBD failed))))))
+	  (. .))
+  (ID BOSWELL-1776,39.82))
+
+/~*
+He could not apprehend what I was going to try.
+(BOSWELL-1776,39.85)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (MD could)
+	  (NEG not)
+	  (VB apprehend)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (BED was)
+			  (VAG going)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (VB try))))
+	  (. .))
+  (ID BOSWELL-1776,39.85))
+
+/~*
+This morning I asked him to tell me what he wished to have done, or not done,
+(BOSWELL-1776,43.263)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 26 what, 23 CP-QUE
+*/
+
+( (IP-MAT (NP-TMP (D This) (N morning))
+	  (NP-SBJ (PRO I))
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (IP-INF (TO to)
+		  (VB tell)
+		  (NP-OB2 (PRO me))
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO he))
+				  (VBD wished)
+				  (IP-INF (TO to)
+					  (HV have)
+					  (IP-SMC (IP-SMC-2 (NP-SBJ *T*-1)
+							    (DAN done))
+						  (, ,)
+						  (CONJP (CONJ or)
+							 (IP-SMC=2 (NEG not) (DAN done))))))))
+	  (. ,))
+  (ID BOSWELL-1776,43.263))
+
+/~*
+It is unnecessary to describe what we found there.
+(BOSWELL-1776,49.488)
+*~/
+/*
+16 WNP-2:  16 WNP-2, 18 what, 15 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (ADJP (ADJ unnecessary))
+	  (IP-INF-1 (TO to)
+		    (VB describe)
+		    (CP-QUE (WNP-2 (WPRO what))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO we))
+				    (VBD found)
+				    (ADVP-LOC (ADV there)))))
+	  (. .))
+  (ID BOSWELL-1776,49.488))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	4/4/882
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd
+*/
+
+/~*
+I am now come to that Crisis of my Life, when Fortune seem'd to be at a Loss
+what she should do with me.
+(CIBBER-1740,34.16)
+*~/
+/*
+58 WNP-2:  58 WNP-2, 60 what, 57 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (BEP am)
+	  (ADVP-TMP (ADV now))
+	  (VBN come)
+	  (PP (P to)
+	      (NP (D that)
+		  (N Crisis)
+		  (PP (P of)
+		      (NP (PRO$ my) (N Life)))
+		  (, ,)
+		  (CP-REL (WADVP-1 (WADV when))
+			  (C 0)
+			  (IP-SUB (ADVP-TMP *T*-1)
+				  (NP-SBJ (N Fortune))
+				  (VBD seem'd)
+				  (IP-INF (TO to)
+					  (BE be)
+					  (PP (P at)
+					      (NP (D a) (N Loss)))
+					  (CP-QUE (WNP-2 (WPRO what))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-2)
+							  (NP-SBJ (PRO she))
+							  (MD should)
+							  (DO do)
+							  (PP (P with)
+							      (NP (PRO me))))))))))
+	  (. .))
+  (ID CIBBER-1740,34.16))
+
+/~*
+After the Election, the moment I was inform'd that I was one of the
+unsuccessful Candidates, I blest myself to think what a happy Reprieve I had
+got, from the confin'd Life of a School-boy!
+(CIBBER-1740,35.36)
+*~/
+/*
+70 WNP-2:  70 WNP-2, 78 Reprieve, 69 CP-QUE
+*/
+
+( (IP-MAT (PP (P After)
+	      (NP (D the) (N Election)))
+	  (, ,)
+	  (NP-TMP (D the)
+		  (N moment)
+		  (CP-REL (WADVP-1 0)
+			  (C 0)
+			  (IP-SUB (ADVP-TMP *T*-1)
+				  (NP-SBJ (PRO I))
+				  (BED was)
+				  (VAN inform'd)
+				  (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (PRO I))
+						  (BED was)
+						  (NP-OB1 (ONE one)
+							  (PP (P of)
+							      (NP (D the) (ADJ unsuccessful) (NS Candidates)))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBD blest)
+	  (NP-OB1 (PRO$+N myself))
+	  (IP-INF-ADT (TO to)
+		      (VB think)
+		      (CP-QUE (WNP-2 (WD what) (D a) (ADJ happy) (N Reprieve))
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-2)
+				      (NP-SBJ (PRO I))
+				      (HVD had)
+				      (VBN got)
+				      (, ,)
+				      (PP (P from)
+					  (NP (D the)
+					      (VAN confin'd)
+					      (N Life)
+					      (PP (P of)
+						  (NP (D a) (N+N School-boy))))))))
+	  (. !))
+  (ID CIBBER-1740,35.36))
+
+/~*
+When I look back to that time, it almost makes me tremble to think what
+Miseries, in fifty Years farther in Life, such an unthinking Head was liable
+to!
+(CIBBER-1740,36.38)
+*~/
+/*
+46 WNP-2:  46 WNP-2, 50 Miseries, 45 CP-QUE
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBP look)
+			      (PP (ADV back)
+				  (P to)
+				  (NP (D that) (N time))))))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (ADVP (ADV almost))
+	  (VBP makes)
+	  (IP-INF (NP-SBJ (PRO me))
+		  (VB tremble))
+	  (IP-INF-1 (TO to)
+		    (VB think)
+		    (CP-QUE (WNP-2 (WD what) (NS Miseries))
+			    (, ,)
+			    (C 0)
+			    (IP-SUB (PP (P in)
+					(NP (NUM fifty)
+					    (NS Years)
+					    (ADJP (ADJR farther)
+						  (PP (P in)
+						      (NP (N Life))))))
+				    (, ,)
+				    (NP-SBJ (SUCH such) (D an) (ADJ unthinking) (N Head))
+				    (BED was)
+				    (ADJP (ADJ liable)
+					  (PP (P to)
+					      (NP *T*-2))))))
+	  (. !))
+  (ID CIBBER-1740,36.38))
+
+/~*
+Yet, had my Father's Business permitted him to have carried me, one Month
+sooner as he intended to the University, who knows but, by this time, that
+purer Fountain might have wash'd my Imperfections into a Capacity of writing
+instead of Plays and Annual Odes Sermons, and Pastoral Letters.
+(CIBBER-1740,37.61)
+*~/
+/*
+76 WNP-2:  76 WNP-2, 78 who, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV Yet))
+	  (, ,)
+	  (CP-ADV (C 0)
+		  (IP-SUB (HVD had)
+			  (NP-SBJ (NP-POS (PRO$ my) (N$ Father's))
+				  (N Business))
+			  (VBN permitted)
+			  (NP-OB2 (PRO him))
+			  (IP-INF (TO to)
+				  (HV have)
+				  (VBN carried)
+				  (NP-OB1 (PRO me))
+				  (, ,)
+				  (ADVP-TMP (NP-MSR (ONE one) (N Month))
+					    (ADVR sooner))
+				  (CODE <paren>)
+				  (PP (P as)
+				      (CP-ADV (WADVP-1 0)
+					      (C 0)
+					      (IP-SUB (ADVP *T*-1)
+						      (NP-SBJ (PRO he))
+						      (VBD intended))))
+				  (CODE <$$paren>)
+				  (PP (P to)
+				      (NP (D the) (N University))))))
+	  (, ,)
+	  (WNP-2 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-2)
+		  (VBP knows)
+		  (CP-THT (FP but)
+			  (, ,)
+			  (C 0)
+			  (IP-SUB (PP (P by)
+				      (NP (D this) (N time)))
+				  (, ,)
+				  (NP-SBJ (D that) (ADJR purer) (N Fountain))
+				  (MD might)
+				  (HV have)
+				  (VBN wash'd)
+				  (NP-OB1 (PRO$ my) (NS Imperfections))
+				  (PP (P into)
+				      (NP (D a)
+					  (N Capacity)
+					  (PP (P of)
+					      (IP-PPL (VAG writing)
+						      (CODE <paren>)
+						      (PP (P+N instead)
+							  (PP (P of)
+							      (NP (NP (NS Plays))
+								  (CONJP (CONJ and)
+									 (NP (ADJ Annual) (NS Odes))))))
+						      (CODE <$$paren>)
+						      (NP-OB1 (NP (NS Sermons))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NP (ADJ Pastoral) (NS Letters)))))))))))
+	  (. .))
+  (ID CIBBER-1740,37.61))
+
+/~*
+But as it is possible that Envy, Prejudice, or Party, may sometimes have a
+share in what is generally thrown upon 'em, it is not easy for a private Man,
+to know who is absolutely in the right, from what is said against them, or
+from what their Friends or Dependants may say in their Favour: Tho' I can
+hardly forbear thinking that they who have been longest rail'd at, must, from
+that Circumstance shew, in some sort a Proof of Capacity.
+(CIBBER-1740,38.73)
+*~/
+/*
+105 WNP-4:  105 WNP-4, 107 who, 104 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO it))
+			      (BEP is)
+			      (ADJP (ADJ possible))
+			      (CP-THT-1 (C that)
+					(IP-SUB (NP-SBJ (N Envy) (, ,) (N Prejudice) (, ,) (CONJ or) (N Party))
+						(, ,)
+						(MD may)
+						(NP-TMP (Q+NS sometimes))
+						(HV have)
+						(NP-OB1 (D a)
+							(N share)
+							(PP (P in)
+							    (NP (CP-FRL (WNP-2 (WPRO what))
+									(C 0)
+									(IP-SUB (NP-SBJ *T*-2)
+										(BEP is)
+										(ADVP (ADV generally))
+										(VAN thrown)
+										(PP (P upon)
+										    (NP (PRO 'em)))))))))))))
+	  (, ,)
+	  (NP-SBJ-3 (PRO it))
+	  (BEP is)
+	  (NEG not)
+	  (ADJP (ADJ easy))
+	  (IP-INF-3 (FOR for)
+		    (NP-SBJ (D a) (ADJ private) (N Man))
+		    (, ,)
+		    (TO to)
+		    (VB know)
+		    (CP-QUE (WNP-4 (WPRO who))
+			    (C 0)
+			    (IP-SUB (NP-SBJ *T*-4)
+				    (BEP is)
+				    (ADVP (ADV absolutely))
+				    (PP (P in)
+					(NP (D the) (ADJ right)))))
+		    (, ,)
+		    (PP (PP (P from)
+			    (NP (CP-FRL (WNP-5 (WPRO what))
+					(C 0)
+					(IP-SUB (NP-SBJ *T*-5)
+						(BEP is)
+						(VAN said)
+						(PP (P against)
+						    (NP (PRO them)))))))
+			(, ,)
+			(CONJP (CONJ or)
+			       (PP (P from)
+				   (NP (CP-FRL (WNP-6 (WPRO what))
+					       (C 0)
+					       (IP-SUB (NP-OB1 *T*-6)
+						       (NP-SBJ (PRO$ their)
+							       (NS Friends)
+							       (CONJP (CONJ or)
+								      (NX (NS Dependants))))
+						       (MD may)
+						       (VB say)
+						       (PP (P in)
+							   (NP (PRO$ their) (N Favour))))))))))
+	  (, :)
+	  (PP (P Tho')
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (MD can)
+			      (ADVP (ADV hardly))
+			      (VB forbear)
+			      (IP-PPL-OB1 (VAG thinking)
+					  (CP-THT (C that)
+						  (IP-SUB (NP-SBJ (PRO they)
+								  (CP-REL (WNP-7 (WPRO who))
+									  (C 0)
+									  (IP-SUB (NP-SBJ *T*-7)
+										  (HVP have)
+										  (BEN been)
+										  (CODE <font>)
+										  (NP-MSR (ADVS longest))
+										  (CODE <$$font>)
+										  (VAN rail'd)
+										  (PP (P at)
+										      (NP *T*-7)))))
+							  (, ,)
+							  (MD must)
+							  (, ,)
+							  (PP (P from)
+							      (NP (D that) (N Circumstance)))
+							  (VB shew)
+							  (, ,)
+							  (PP (P in)
+							      (NP (Q some) (N sort)))
+							  (NP-OB1 (D a)
+								  (N Proof)
+								  (PP (P of)
+								      (NP (N Capacity))))))))))
+	  (. .))
+  (ID CIBBER-1740,38.73))
+
+/~*
+yet what did those Successes amount to?
+(CIBBER-1740,40.90)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 7 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV yet))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (DOD did)
+		  (NP-SBJ (D those) (NS Successes))
+		  (VB amount)
+		  (PP (P to)
+		      (NP *T*-1)))
+	  (. ?))
+  (ID CIBBER-1740,40.90))
+
+/~*
+but who ever saw it enjoy'd?
+(CIBBER-1740,40.92)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (ADVP-TMP (ADV ever))
+		  (VBD saw)
+		  (IP-SMC (NP-SBJ (PRO it))
+			  (VAN enjoy'd)))
+	  (. ?))
+  (ID CIBBER-1740,40.92))
+
+/~*
+These, Sir, are a few of my Political Notions, which I have ventur'd to expose,
+that you may see what sort of an English Subject I am;
+(CIBBER-1740,41.97)
+*~/
+/*
+66 WNP-2:  66 WNP-2, 84 Subject, 65 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D These))
+	  (, ,)
+	  (NP-VOC (N Sir))
+	  (, ,)
+	  (BEP are)
+	  (NP-OB1 (D a)
+		  (Q few)
+		  (PP (P of)
+		      (NP (PRO$ my) (ADJ Political) (NS Notions)))
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (HVP have)
+				  (VBN ventur'd)
+				  (IP-INF (NP-OB1 *T*-1)
+					  (TO to)
+					  (VB expose))
+				  (, ,)
+				  (CP-ADV (C that)
+					  (IP-SUB (NP-SBJ (PRO you))
+						  (MD may)
+						  (VB see)
+						  (CP-QUE (WNP-2 (WD what)
+								 (N sort)
+								 (PP (P of)
+								     (NP (D an) (CODE <font>) (ADJ English) (CODE <$$font>) (N Subject))))
+							  (C 0)
+							  (IP-SUB (NP-OB1 *T*-2)
+								  (NP-SBJ (PRO I))
+								  (BEP am))))))))
+	  (. ;))
+  (ID CIBBER-1740,41.97))
+
+/~*
+The Post assign'd me was to observe what the Lady Churchill might call for.
+(CIBBER-1740,42.108)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 what, 20 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D The)
+		  (N Post)
+		  (RRC (VAN assign'd)
+		       (NP-OB2 (PRO me))))
+	  (BED was)
+	  (IP-INF (TO to)
+		  (VB observe)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ (D the)
+					  (N Lady)
+					  (CODE <font>)
+					  (NP-PRN (NPR Churchill)))
+				  (CODE <$$font>)
+				  (MD might)
+				  (VB call)
+				  (PP (P for)
+				      (NP *T*-1)))))
+	  (. .))
+  (ID CIBBER-1740,42.108))
+
+/~*
+Being so near the Table, you may naturally ask me, what I might have heard to
+have pass'd in Conversation at it? which I should certainly tell you, had I
+attended to above two Words that were utter'd there,
+(CIBBER-1740,42.109)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 what, 32 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL (BAG Being)
+		  (ADJP-LOC (ADVR so)
+			    (ADJ near)
+			    (NP (D the) (N Table))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD may)
+	  (ADVP (ADV naturally))
+	  (VB ask)
+	  (NP-OB2 (PRO me))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (MD might)
+			  (HV have)
+			  (VBN heard)
+			  (IP-INF (NP-SBJ *T*-1)
+				  (TO to)
+				  (HV have)
+				  (VBN pass'd)
+				  (PP (P in)
+				      (NP (N Conversation)))
+				  (PP (P at)
+				      (NP (PRO it))))
+			  (, ?)
+			  (CP-CAR (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-2)
+					  (NP-SBJ (PRO I))
+					  (MD should)
+					  (ADVP (ADV certainly))
+					  (VB tell)
+					  (NP-OB2 (PRO you))
+					  (, ,)
+					  (CP-ADV (C 0)
+						  (IP-SUB (HVD had)
+							  (NP-SBJ (PRO I))
+							  (VBN attended)
+							  (PP (P to)
+							      (NP (NUMP (ADV above) (NUM two))
+								  (NS Words)
+								  (CP-REL (WNP-3 0)
+									  (C that)
+									  (IP-SUB (NP-SBJ *T*-3)
+										  (BED were)
+										  (VAN utter'd)
+										  (ADVP-LOC (ADV there))))))))))))
+	  (. ,))
+  (ID CIBBER-1740,42.109))
+
+/~*
+He therefore order'd me to draw up a Petition to the Duke, and, to give it
+some Air of Merit, to put it into Latin, the Prayer of which was, that his
+Grace would be pleas'd to do something I really forget what for me.
+(CIBBER-1740,45.138)
+*~/
+/*
+141 WNP:  141 WNP, 143 what, 140 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (PP (ADV+P therefore))
+	  (VBD order'd)
+	  (NP-OB2 (PRO me))
+	  (IP-INF (IP-INF (TO to)
+			  (VB draw)
+			  (RP up)
+			  (NP-OB1 (D a)
+				  (N Petition)
+				  (CP-REL *ICH*-1))
+			  (PP (P to)
+			      (NP (D the) (N Duke))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (, ,)
+			 (IP-INF (IP-INF-PRP (TO to)
+					     (VB give)
+					     (NP-OB2 (PRO it))
+					     (NP-OB1 (Q some)
+						     (N Air)
+						     (PP (P of)
+							 (NP (N Merit)))))
+				 (, ,)
+				 (TO to)
+				 (VB put)
+				 (NP-OB1 (PRO it))
+				 (PP (P into)
+				     (CODE <font>)
+				     (NP (NPR Latin))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CP-REL-1 (WNP-2 (D the)
+			   (N Prayer)
+			   (WPP (P of)
+				(WNP (WPRO which))))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (BED was)
+			    (, ,)
+			    (CP-THT (C that)
+				    (IP-SUB (NP-SBJ (PRO$ his) (N Grace))
+					    (MD would)
+					    (BE be)
+					    (ADJP (VAN pleas'd)
+						  (IP-INF (TO to)
+							  (DO do)
+							  (NP-OB1 (Q+N something))
+							  (CODE <paren>)
+							  (IP-MAT-PRN (NP-SBJ (PRO I))
+								      (ADVP (ADV really))
+								      (VBP forget)
+								      (CP-QUE (WNP (WPRO what))))
+							  (CODE <$$paren>)
+							  (PP (P for)
+							      (NP (PRO me)))))))))
+	  (. .))
+  (ID CIBBER-1740,45.138))
+
+/~*
+for I believe it was then harder to know what I was really fit for, than to
+have got me any thing I was not fit for:
+(CIBBER-1740,45.141)
+*~/
+/*
+32 WNP-2:  32 WNP-2, 34 what, 31 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO I))
+	  (VBP believe)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (PRO it))
+			  (BED was)
+			  (ADVP-TMP (ADV then))
+			  (ADJP (ADJR harder)
+				(PP *ICH*-3))
+			  (IP-INF-1 (TO to)
+				    (VB know)
+				    (CP-QUE (WNP-2 (WPRO what))
+					    (C 0)
+					    (IP-SUB (NP-SBJ (PRO I))
+						    (BED was)
+						    (ADJP (ADV really)
+							  (ADJ fit)
+							  (PP (P for)
+							      (NP *T*-2))))))
+			  (, ,)
+			  (PP-3 (P than)
+				(IP-INF (TO to)
+					(HV have)
+					(VBN got)
+					(NP-OB2 (PRO me))
+					(NP-OB1 (Q any)
+						(N thing)
+						(CP-REL (WNP-4 0)
+							(C 0)
+							(IP-SUB (NP-SBJ (PRO I))
+								(BED was)
+								(NEG not)
+								(ADJP (ADJ fit)
+								      (PP (P for)
+									  (NP *T*-4))))))))))
+	  (. :))
+  (ID CIBBER-1740,45.141))
+
+/~*
+Many Years ago, when I was first in the Management of the Theatre, I remember
+a strong Instance, which will shew you what degree of Ignominy the Profession
+of an Actor was then held at -
+(CIBBER-1740,46.153)
+*~/
+/*
+76 WNP-2:  76 WNP-2, 86 Ignominy, 75 CP-QUE
+*/
+
+( (IP-MAT (ADVP-TMP (NP-MSR (Q Many) (NS Years))
+		    (ADV ago))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (BED was)
+			      (ADVP-TMP (ADV first))
+			      (PP (P in)
+				  (NP (D the)
+				      (N Management)
+				      (PP (P of)
+					  (NP (D the) (N Theatre))))))))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP remember)
+	  (NP-OB1 (D a)
+		  (ADJ strong)
+		  (N Instance)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD will)
+				  (VB shew)
+				  (NP-OB2 (PRO you))
+				  (CP-QUE (WNP-2 (WD what)
+						 (N degree)
+						 (PP (P of)
+						     (NP (N Ignominy))))
+					  (C 0)
+					  (IP-SUB (NP-SBJ (D the)
+							  (N Profession)
+							  (PP (P of)
+							      (NP (D an) (N Actor))))
+						  (BED was)
+						  (ADVP-TMP (ADV then))
+						  (VAN held)
+						  (PP (P at)
+						      (NP *T*-2)))))))
+	  (. -))
+  (ID CIBBER-1740,46.153))
+
+/~*
+Now, though I have, sometimes, known these gallant Insulters of Audiences,
+draw themselves into Scrapes, which they have less honourably got out of, yet,
+alas! what has that avail'd?
+(CIBBER-1740,48.176)
+*~/
+/*
+94 WNP-2:  94 WNP-2, 96 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV Now))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (HVP have)
+			      (, ,)
+			      (NP-TMP (Q+NS sometimes))
+			      (, ,)
+			      (VBN known)
+			      (IP-INF (NP-SBJ (D these)
+					      (ADJ gallant)
+					      (NS Insulters)
+					      (PP (P of)
+						  (NP (NS Audiences))))
+				      (, ,)
+				      (VB draw)
+				      (NP-OB1 (PRO+N themselves))
+				      (PP (P into)
+					  (NP (NS Scrapes)
+					      (, ,)
+					      (CP-REL (WNP-1 (WPRO which))
+						      (C 0)
+						      (IP-SUB (NP-SBJ (PRO they))
+							      (HVP have)
+							      (ADVP (QR less) (ADV honourably))
+							      (VBN got)
+							      (PP (RP out)
+								  (P of)
+								  (NP *T*-1))))))))))
+	  (, ,)
+	  (ADVP (ADV yet))
+	  (, ,)
+	  (INTJ alas)
+	  (, !)
+	  (WNP-2 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (HVP has)
+		  (NP-SBJ (D that))
+		  (VBN avail'd))
+	  (. ?))
+  (ID CIBBER-1740,48.176))
+
+/~*
+and see what a profitable Farce is made of Religion there!
+(CIBBER-1740,50.195)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 15 Farce, 6 CP-QUE
+*/
+
+( (IP-IMP (CONJ and)
+	  (VBI see)
+	  (CP-QUE (WNP-1 (WD what) (D a) (ADJ profitable) (N Farce))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (VAN made)
+			  (PP (P of)
+			      (NP (N Religion)))
+			  (ADVP-LOC (ADV there))))
+	  (. !))
+  (ID CIBBER-1740,50.195))
+
+/~*
+But who do you expect should reform it?
+(CIBBER-1740,50.203)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB expect)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD should)
+				  (VB reform)
+				  (NP-OB1 (PRO it)))))
+	  (. ?))
+  (ID CIBBER-1740,50.203))
+
+/~*
+However, let us now turn to the other side of this Account, and see what
+Advantages stand there, to balance the Misfortunes I have laid before you.
+(CIBBER-1740,51.212)
+*~/
+/*
+48 WNP-1:  48 WNP-1, 54 *ICH*-2, 47 CP-QUE
+*/
+
+( (IP-IMP (ADVP (WADV+ADV However))
+	  (, ,)
+	  (VBI let)
+	  (IP-INF (IP-INF (NP-SBJ (PRO us))
+			  (ADVP-TMP (ADV now))
+			  (VB turn)
+			  (PP (P to)
+			      (NP (D the)
+				  (OTHER other)
+				  (N side)
+				  (PP (P of)
+				      (NP (D this) (N Account))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (NP-SBJ *con*)
+				 (VB see)
+				 (CP-QUE (WNP-1 (WD what)
+						(NS Advantages)
+						(CP-EOP *ICH*-2))
+					 (C 0)
+					 (IP-SUB (NP-SBJ *T*-1)
+						 (VBP stand)
+						 (ADVP-LOC (ADV there))
+						 (, ,)
+						 (CP-EOP-2 (WNP-3 0)
+							   (IP-INF (NP-SBJ *T*-3)
+								   (TO to)
+								   (VB balance)
+								   (NP-OB1 (D the)
+									   (NS Misfortunes)
+									   (CP-REL (WNP-4 0)
+										   (C 0)
+										   (IP-SUB (NP-OB1 *T*-4)
+											   (NP-SBJ (PRO I))
+											   (HVP have)
+											   (VBN laid)
+											   (PP (P before)
+											       (NP (PRO you)))))))))))))
+	  (. .))
+  (ID CIBBER-1740,51.212))
+
+/~*
+What eager Appetites from so long a Fast, must the Guests of those Times have
+had, to that high and fresh variety of Entertainments, which Shakespear had
+left prepar'd for them?
+(CIBBER-1740,54.245)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 8 Appetites, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD What) (ADJ eager) (NS Appetites))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (PP (P from)
+		      (NP (ADJP (ADVR so) (ADJ long))
+			  (D a)
+			  (N Fast)))
+		  (, ,)
+		  (MD must)
+		  (NP-SBJ (D the)
+			  (NS Guests)
+			  (PP (P of)
+			      (NP (D those) (NS Times))))
+		  (HV have)
+		  (HVN had)
+		  (, ,)
+		  (PP (P to)
+		      (NP (D that)
+			  (ADJP (ADJ high) (CONJ and) (ADJ fresh))
+			  (N variety)
+			  (PP (P of)
+			      (NP (NS Entertainments)))
+			  (, ,)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (CODE <font>)
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-2)
+					  (NP-SBJ (NPR Shakespear))
+					  (CODE <$$font>)
+					  (HVD had)
+					  (VBN left)
+					  (IP-PPL (VAN prepar'd)
+						  (PP (P for)
+						      (NP (PRO them)))))))))
+	  (. ?))
+  (ID CIBBER-1740,54.245))
+
+/~*
+and yet what unborn Age shall say Shakespear has his equal!
+(CIBBER-1740,54.248)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 13 Age, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (ADVP (ADV yet))
+	  (WNP-1 (WD what) (ADJ unborn) (N Age))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shall)
+		  (VB say)
+		  (CODE <font>)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (NPR Shakespear))
+				  (CODE <$$font>)
+				  (HVP has)
+				  (NP-OB1 (PRO$ his) (ADJ equal)))))
+	  (. !))
+  (ID CIBBER-1740,54.248))
+
+/~*
+And what Grace, or Master-strokes of Action can we conceive such ungain
+Hoydens to have been capable of?
+(CIBBER-1740,55.260)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 22 Action, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ And)
+	  (WNP-1 (WD what)
+		 (N Grace)
+		 (, ,)
+		 (CONJP (CONJ or)
+			(NX (N+NS Master-strokes)))
+		 (PP (P of)
+		     (NP (N Action))))
+	  (IP-SUB (MD can)
+		  (NP-SBJ (PRO we))
+		  (VB conceive)
+		  (IP-INF (NP-SBJ (SUCH such)
+				  (ADJ ungain)
+				  (CODE {COM:sic})
+				  (NS Hoydens))
+			  (TO to)
+			  (HV have)
+			  (BEN been)
+			  (ADJP (ADJ capable)
+				(PP (P of)
+				    (NP *T*-1)))))
+	  (. ?))
+  (ID CIBBER-1740,55.260))
+
+/~*
+For what Pleasure is not languid to Satiety?
+(CIBBER-1740,55.267)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 Pleasure, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ For)
+	  (WNP-1 (WD what) (N Pleasure))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NEG not)
+		  (ADJP (ADJ languid))
+		  (PP (P to)
+		      (NP (N Satiety))))
+	  (. ?))
+  (ID CIBBER-1740,55.267))
+
+/~*
+but what has this Emulation ended in?
+(CIBBER-1740,56.274)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (HVP has)
+		  (NP-SBJ (D this) (N Emulation))
+		  (VBN ended)
+		  (PP (P in)
+		      (NP *T*-1)))
+	  (. ?))
+  (ID CIBBER-1740,56.274))
+
+/~*
+But alas! what can Truth avail, when its Dependance is much more upon the
+Ignorant, than the sensible Auditor?
+(CIBBER-1740,57.285)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (INTJ alas)
+	  (, !)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-MSR *T*-1)
+		  (MD can)
+		  (NP-SBJ (N Truth))
+		  (VB avail)
+		  (, ,)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO$ its) (N Dependance))
+				      (BEP is)
+				      (NP-MSR (QP (Q much) (QR more))
+					      (PP *ICH*-2))
+				      (PP (P upon)
+					  (NP (D the) (ADJ Ignorant)))
+				      (, ,)
+				      (PP-2 (P than)
+					    (NP (D the) (ADJ sensible) (N Auditor)))))))
+	  (. ?))
+  (ID CIBBER-1740,57.285))
+
+/~*
+Let us see then what a particular Comparison may do! whether that may yet draw
+him nearer to you?
+(CIBBER-1740,60.319)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 what, 14 CP-QUE
+*/
+
+( (IP-IMP (VBI Let)
+	  (IP-INF (NP-SBJ (PRO us))
+		  (VB see)
+		  (ADVP (ADV then))
+		  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (D a) (ADJ particular) (N Comparison))
+					  (MD may)
+					  (DO do)))
+			  (, !)
+			  (CONJP (CP-QUE (WQ whether)
+					 (C 0)
+					 (IP-SUB (NP-SBJ (D that))
+						 (MD may)
+						 (ADVP (ADV yet))
+						 (VB draw)
+						 (NP-OB1 (PRO him))
+						 (ADJP-LOC (ADJR nearer)
+							   (PP (P to)
+							       (NP (PRO you)))))))))
+	  (. ?))
+  (ID CIBBER-1740,60.319))
+
+/~*
+for you may observe that in this beautiful Speech the Passion never rises
+beyond an almost breathless Astonishment, or an Impatience, limited by filial
+Reverence, to enquire into the suspected Wrongs that may have rais'd him from
+his peaceful Tomb! and a Desire to know what a Spirit so seemingly distrest,
+might wish or enjoin a sorrowful Son to execute towards his future Quiet in
+the Grave?
+(CIBBER-1740,61.323)
+*~/
+/*
+134 WNP-2:  134 WNP-2, 136 what, 133 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO you))
+	  (MD may)
+	  (VB observe)
+	  (CP-THT (C that)
+		  (IP-SUB (PP (P in)
+			      (NP (D this) (ADJ beautiful) (N Speech)))
+			  (NP-SBJ (D the) (N Passion))
+			  (ADVP-TMP (ADV never))
+			  (VBP rises)
+			  (PP (P beyond)
+			      (NP (NP (D an)
+				      (ADJP (ADV almost) (ADJ breathless))
+				      (N Astonishment))
+				  (, ,)
+				  (CONJP (CONJ or)
+					 (NP (D an)
+					     (N Impatience)
+					     (, ,)
+					     (RRC (VAN limited)
+						  (PP (P by)
+						      (NP (ADJ filial) (N Reverence))))
+					     (, ,)
+					     (IP-INF (TO to)
+						     (VB enquire)
+						     (PP (P into)
+							 (NP (D the)
+							     (VAN suspected)
+							     (CODE <P_61>)
+							     (NS Wrongs)
+							     (CP-REL (WNP-1 0)
+								     (C that)
+								     (IP-SUB (NP-SBJ *T*-1)
+									     (MD may)
+									     (HV have)
+									     (VBN rais'd)
+									     (NP-OB1 (PRO him))
+									     (PP (P from)
+										 (NP (PRO$ his) (ADJ peaceful) (N Tomb))))))))))
+				  (, !)
+				  (CONJP (CONJ and)
+					 (NP (D a)
+					     (N Desire)
+					     (IP-INF (TO to)
+						     (VB know)
+						     (CP-QUE (WNP-2 (WPRO what))
+							     (C 0)
+							     (IP-SUB (NP-SBJ (D a)
+									     (N Spirit)
+									     (RRC (ADVP (ADVR so) (ADV seemingly))
+										  (VAN distrest)))
+								     (, ,)
+								     (MD might)
+								     (VB (VB wish) (CONJ or) (VB enjoin))
+								     (NP-OB1 (D a) (ADJ sorrowful) (N Son))
+								     (IP-INF (NP-OB1 *T*-2)
+									     (TO to)
+									     (VB execute)
+									     (PP (P towards)
+										 (NP (PRO$ his)
+										     (ADJ future)
+										     (N Quiet)
+										     (PP (P in)
+											 (NP (D the) (N Grave)))))))))))))))
+	  (. ?))
+  (ID CIBBER-1740,61.323))
+
+/~*
+and it has often amaz'd me, to see those who soon came after him, throw out in
+some Parts of a Character, a just and graceful Spirit, which Betterton himself
+could not but have applauded. And yet in the equally shining Passages of the
+same Character have heavily dragg'd the Sentiment along, like a dead Weight;
+with a long-ton'd Voice, and absent Eye, as if they had fairly forgot what
+they were about:
+(CIBBER-1740,62.343)
+*~/
+/*
+221 WNP-4:  221 WNP-4, 223 what, 220 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ-1 (PRO it))
+	  (HVP has)
+	  (ADVP-TMP (ADV often))
+	  (VBN amaz'd)
+	  (NP-OB1 (PRO me))
+	  (, ,)
+	  (IP-INF-1 (TO to)
+		    (VB see)
+		    (IP-INF (IP-INF (NP-SBJ (D those)
+					    (CP-REL (WNP-2 (WPRO who))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (ADVP-TMP (ADV soon))
+							    (VBD came)
+							    (PP (P after)
+								(NP (PRO him))))))
+				    (, ,)
+				    (VB throw)
+				    (RP out)
+				    (PP (P in)
+					(NP (Q some)
+					    (NS Parts)
+					    (PP (P of)
+						(NP (D a) (N Character)))))
+				    (, ,)
+				    (NP-OB1 (D a)
+					    (ADJP (ADJ just) (CONJ and) (ADJ graceful))
+					    (N Spirit)
+					    (, ,)
+					    (CP-REL (WNP-3 (WPRO which))
+						    (CODE <font>)
+						    (C 0)
+						    (IP-SUB (NP-OB1 *T*-3)
+							    (NP-SBJ (NPR Betterton)
+								    (CODE <$$font>)
+								    (NP-PRN (PRO+N himself)))
+							    (MD could)
+							    (NEG not)
+							    (FP but)
+							    (HV have)
+							    (VBN applauded)))))
+			    (, .)
+			    (CONJP (CONJ And)
+				   (IP-INF (NP-SBJ *con*)
+					   (ADVP-TMP (ADV yet))
+					   (PP (P in)
+					       (NP (D the)
+						   (ADJP (ADV equally) (VAG shining))
+						   (NS Passages)
+						   (PP (P of)
+						       (NP (D the) (ADJ same) (N Character)))))
+					   (HV have)
+					   (ADVP (ADV heavily))
+					   (VBN dragg'd)
+					   (NP-OB1 (D the) (N Sentiment))
+					   (RP along)
+					   (, ,)
+					   (ADJP-SPR (ADJ like)
+						     (NP (D a) (ADJ dead) (N Weight)))
+					   (, ;)
+					   (PP (P with)
+					       (NP (D a)
+						   (ADJ long-ton'd)
+						   (N Voice)
+						   (, ,)
+						   (CONJP (CONJ and)
+							  (NX (ADJ absent) (N Eye)))))
+					   (, ,)
+					   (PP (P as)
+					       (PP (P if)
+						   (CP-ADV (C 0)
+							   (IP-SUB (NP-SBJ (PRO they))
+								   (HVD had)
+								   (ADVP (ADV fairly))
+								   (VBN forgot)
+								   (CP-QUE (WNP-4 (WPRO what))
+									   (C 0)
+									   (IP-SUB (NP-SBJ (PRO they))
+										   (BED were)
+										   (PP (P about)
+										       (NP *T*-4))))))))))))
+	  (. :))
+  (ID CIBBER-1740,62.343))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	26/26/344
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd
+*/
+
+/~*
+Not feeling at first the Pain of the Stroke, he wondered what was become of
+the Ball,
+(DODDRIDGE-1747,10.72)
+*~/
+/*
+34 WNP-1:  34 WNP-1, 36 what, 33 CP-QUE
+*/
+
+( (IP-MAT (IP-PPL (NEG Not)
+		  (VAG feeling)
+		  (PP (P at)
+		      (ADVP (ADV first)))
+		  (NP-OB1 (D the)
+			  (N Pain)
+			  (PP (P of)
+			      (NP (D the) (N Stroke)))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD wondered)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (VBN become)
+			  (PP (P of)
+			      (NP (D the) (N Ball)))))
+	  (. ,))
+  (ID DODDRIDGE-1747,10.72))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	1/1/359
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd
+*/
+
+/~*
+I told them what I was going to do,
+(FAYRER-1900,15.368)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 what, 10 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBD told)
+	  (NP-OB2 (PRO them))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (BED was)
+			  (VAG going)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (DO do))))
+	  (. ,))
+  (ID FAYRER-1900,15.368))
+
+/~*
+Almost before I could realise what had happened he sank with the weight of his
+heavy clothes.
+(FAYRER-1900,15.380)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (IP-MAT (PP (ADV Almost)
+	      (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (MD could)
+			      (VB realise)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (HVD had)
+					      (VBN happened))))))
+	  (NP-SBJ (PRO he))
+	  (VBD sank)
+	  (PP (P with)
+	      (NP (D the)
+		  (N weight)
+		  (PP (P of)
+		      (NP (PRO$ his) (ADJ heavy) (NS clothes)))))
+	  (. .))
+  (ID FAYRER-1900,15.380))
+
+/~*
+and looking down, shall never forget what met my view.
+(FAYRER-1900,17.434)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 what, 20 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (IP-PPL (VAG looking) (RP down))
+	  (, ,)
+	  (MD shall)
+	  (ADVP-TMP (ADV never))
+	  (VB forget)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD met)
+			  (NP-OB1 (PRO$ my) (N view))))
+	  (. .))
+  (ID FAYRER-1900,17.434))
+
+/~*
+They were very energetic and urgent about making a raft, though what they
+thought we could do with it in that heavy sea I $do $n't know.
+(FAYRER-1900,17.452)
+*~/
+/*
+39 WNP-1:  39 WNP-1, 41 what, 38 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO They))
+	  (BED were)
+	  (ADJP (ADV very)
+		(ADJ energetic)
+		(CONJP (CONJ and)
+		       (ADJX (ADJ urgent)))
+		(PP (P about)
+		    (IP-PPL (VAG making)
+			    (NP-OB1 (D a) (N raft)))))
+	  (, ,)
+	  (PP (P though)
+	      (CP-ADV (C 0)
+		      (IP-SUB (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (VBD thought)
+					      (CP-THT (C 0)
+						      (IP-SUB (NP-OB1 *T*-1)
+							      (NP-SBJ (PRO we))
+							      (MD could)
+							      (DO do)
+							      (PP (P with)
+								  (NP (PRO it)))
+							      (PP (P in)
+								  (NP (D that) (ADJ heavy) (N sea)))))))
+			      (NP-SBJ (PRO I))
+			      (DOP $do)
+			      (NEG $n't)
+			      (CODE {TEXT:don't})
+			      (VB know))))
+	  (. .))
+  (ID FAYRER-1900,17.452))
+
+/~*
+and asked him what he thought.
+(FAYRER-1900,18.474)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (VBD thought)))
+	  (. .))
+  (ID FAYRER-1900,18.474))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	5/5/606
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd
+*/
+
+/~*
+who will not hereafter, as the breeze wafts him between, contemplate with awe
+England & France.
+(HAYDON-1808,1,3.18)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 who, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD will)
+		  (NEG not)
+		  (PP (ADV+P hereafter))
+		  (, ,)
+		  (PP (P as)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D the) (N breeze))
+				      (VBP wafts)
+				      (NP-OB1 (PRO him))
+				      (ADVP (ADV between)))))
+		  (, ,)
+		  (VB contemplate)
+		  (PP (P with)
+		      (NP (N awe)))
+		  (NP-OB1 (NPR England) (CONJ &) (NPR France)))
+	  (. .))
+  (ID HAYDON-1808,1,3.18))
+
+/~*
+- Who would I get?
+(HAYDON-1808,1,4.29)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (, -)
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD would)
+		  (NP-SBJ (PRO I))
+		  (VB get))
+	  (. ?))
+  (ID HAYDON-1808,1,4.29))
+
+/~*
+Wherever I dine - what is the conversation - if it turns to art?
+(HAYDON-1808,1,4.43)
+*~/
+/*
+19 WNP-2:  19 WNP-2, 21 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP-LOC (CP-FRL (WADVP-1 (WADV+ADV Wherever))
+			    (C 0)
+			    (IP-SUB (ADVP-LOC *T*-1)
+				    (NP-SBJ (PRO I))
+				    (VBP dine))))
+	  (, -)
+	  (WNP-2 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-2)
+		  (BEP is)
+		  (NP-SBJ (D the) (N conversation))
+		  (, -)
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO it))
+				      (VBP turns)
+				      (PP (P to)
+					  (NP (N art)))))))
+	  (. ?))
+  (ID HAYDON-1808,1,4.43))
+
+/~*
+what could you expect from infants if you talked to them about art - but that
+they would be enchanted at the imitation of their doll, or their bells,
+(HAYDON-1808,1,5.54)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what)
+		 (PP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD could)
+		  (NP-SBJ (PRO you))
+		  (VB expect)
+		  (PP (P from)
+		      (NP (NS infants)))
+		  (PP (P if)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO you))
+				      (VBD talked)
+				      (PP (P to)
+					  (NP (PRO them)))
+				      (PP (P about)
+					  (NP (N art))))))
+		  (, -)
+		  (PP-2 (P but)
+			(CP-THT (C that)
+				(IP-SUB (NP-SBJ (PRO they))
+					(MD would)
+					(BE be)
+					(VAN enchanted)
+					(PP (P at)
+					    (NP (D the)
+						(N imitation)
+						(PP (P of)
+						    (NP (NP (PRO$ their) (N doll))
+							(, ,)
+							(CONJP (CONJ or)
+							       (NP (PRO$ their) (NS bells)))))))))))
+	  (. ,))
+  (ID HAYDON-1808,1,5.54))
+
+/~*
+What do they admire in it? The character or the mind?
+(HAYDON-1808,1,5.66)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What)
+		 (NP-PRN *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO they))
+		  (VB admire)
+		  (PP (P in)
+		      (NP (PRO it)))
+		  (, ?)
+		  (NP-PRN-2 (NP (D The) (N character))
+			    (CONJP (CONJ or)
+				   (NP (D the) (N mind)))))
+	  (. ?))
+  (ID HAYDON-1808,1,5.66))
+
+/~*
+Was every English Nobleman to put his hand to his heart, and say what he
+really thinks of those exquisite remains, he would say he thinks they are not
+worth preserving.
+(HAYDON-1808,1,6.83)
+*~/
+/*
+45 WNP-1:  45 WNP-1, 47 what, 44 CP-QUE
+*/
+
+( (IP-MAT (CP-ADV (C 0)
+		  (IP-SUB (BED Was)
+			  (NP-SBJ (Q every) (ADJ English) (ADJ+N Nobleman))
+			  (IP-INF (IP-INF (TO to)
+					  (VB put)
+					  (NP-OB1 (PRO$ his) (N hand))
+					  (PP (P to)
+					      (NP (PRO$ his) (N heart))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-INF (TO *)
+						 (VB say)
+						 (CP-QUE (WNP-1 (WPRO what))
+							 (C 0)
+							 (IP-SUB (NP-OB1 *T*-1)
+								 (NP-SBJ (PRO he))
+								 (ADVP (ADV really))
+								 (VBP thinks)
+								 (PP (P of)
+								     (NP (D those) (ADJ exquisite) (NS remains))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (MD would)
+	  (VB say)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (VBP thinks)
+			  (CP-THT (C 0)
+				  (IP-SUB (NP-SBJ (PRO they))
+					  (BEP are)
+					  (NEG not)
+					  (ADJP (ADJ worth)
+						(NP (N preserving)))))))
+	  (. .))
+  (ID HAYDON-1808,1,6.83))
+
+/~*
+What has affected me to day I $can $not tell
+(HAYDON-1808,1,16.278)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 5 What, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WPRO What))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (HVP has)
+			  (VBN affected)
+			  (NP-OB1 (PRO me))
+			  (NP-TMP (N (N21 to) (N22 day)))))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB tell))
+  (ID HAYDON-1808,1,16.278))
+
+/~*
+I $can $not tell what has ailed me.
+(HAYDON-1808,1,16.281)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (HVP has)
+			  (VBN ailed)
+			  (NP-OB1 (PRO me))))
+	  (. .))
+  (ID HAYDON-1808,1,16.281))
+
+/~*
+what was I writing?
+(HAYDON-1808,1,22.457)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO I))
+		  (VAG writing))
+	  (. ?))
+  (ID HAYDON-1808,1,22.457))
+
+/~*
+and what can we expect from him?
+(HAYDON-1808,1,22.463)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD can)
+		  (NP-SBJ (PRO we))
+		  (VB expect)
+		  (PP (P from)
+		      (NP (PRO him))))
+	  (. ?))
+  (ID HAYDON-1808,1,22.463))
+
+/~*
+What productions!
+(HAYDON-1808,1,24.542)
+*~/
+/*
+2 WNP:  2 WNP, 6 productions, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP (WD What) (NS productions))
+	  (. !))
+  (ID HAYDON-1808,1,24.542))
+
+/~*
+but what human being could have dwelt on it with pleasure?
+(HAYDON-1808,1,35.900)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 10 being, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (WNP-1 (WD what) (ADJ human) (N being))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD could)
+		  (HV have)
+		  (VBN dwelt)
+		  (PP (P on)
+		      (NP (PRO it)))
+		  (PP (P with)
+		      (NP (N pleasure))))
+	  (. ?))
+  (ID HAYDON-1808,1,35.900))
+
+/~*
+and $what $'s the world's opinion of Nelson?
+(HAYDON-1808,1,36.927)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 $what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO $what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP $'s)
+		  (CODE {TEXT:what's})
+		  (NP-SBJ (NP-POS (D the) (N$ world's))
+			  (N opinion)
+			  (PP (P of)
+			      (NP (NPR Nelson)))))
+	  (. ?))
+  (ID HAYDON-1808,1,36.927))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	13/13/927
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd
+*/
+
+/~*
+but never could learn what Robespierre or Buonaparte had done with them,
+(OKEEFFE-1826,1,10.104)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ *con*)
+	  (ADVP-TMP (ADV never))
+	  (MD could)
+	  (VB learn)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (NPR Robespierre) (CONJ or) (NPR Buonaparte))
+			  (HVD had)
+			  (CODE <P_1,10>)
+			  (DON done)
+			  (PP (P with)
+			      (NP (PRO them)))))
+	  (. ,))
+  (ID OKEEFFE-1826,1,10.104))
+
+/~*
+and, though a four-wheeled carriage of Lord Donnegal's, and his servants in
+liveries attended me, yet such were the apprehensions and terrors that
+Thurot's descent left upon the Carrickfergus people, that the mayor sent some
+of his officers on horseback to post off towards me, and make a strict inquiry
+what I was about by taking drawings of the town, the bay, and the castle.
+(OKEEFFE-1826,1,36.369)
+*~/
+/*
+172 WNP-5:  172 WNP-5, 174 what, 171 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (, ,)
+	  (PP-LFD (P though)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (NP (D a)
+					      (ADJ four-wheeled)
+					      (N carriage)
+					      (PP (P of)
+						  (NP (NP-POS (NPR Lord) (NPR$ Donnegal's)))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (PRO$ his)
+						     (NS servants)
+						     (PP (P in)
+							 (NP (NS liveries))))))
+				  (VBD attended)
+				  (NP-OB1 (PRO me)))))
+	  (, ,)
+	  (ADVP-RSP (ADV yet))
+	  (ADJP (SUCH such)
+		(CP-DEG *ICH*-2))
+	  (BED were)
+	  (NP-SBJ (D the)
+		  (NS apprehensions)
+		  (CONJP (CONJ and)
+			 (NX (NS terrors)))
+		  (CODE <P_1,36>)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR$ Thurot's) (N descent))
+				  (VBD left)
+				  (PP (P upon)
+				      (NP (D the) (NPR Carrickfergus) (NS people))))))
+	  (, ,)
+	  (CP-DEG-2 (C that)
+		    (IP-SUB (NP-SBJ (D the) (N mayor))
+			    (VBD sent)
+			    (NP-OB1 (Q some)
+				    (PP (P of)
+					(NP (PRO$ his) (NS officers)))
+				    (CP-EOP *ICH*-3))
+			    (PP (P on)
+				(NP (N+N horseback)))
+			    (CP-EOP-3 (WNP-4 0)
+				      (IP-INF (IP-INF (NP-SBJ *T*-4)
+						      (TO to)
+						      (VB post)
+						      (RP off)
+						      (PP (P towards)
+							  (NP (PRO me))))
+					      (, ,)
+					      (CONJP (CONJ and)
+						     (IP-INF (NP-SBJ *T*-4)
+							     (TO *)
+							     (VB make)
+							     (NP-OB1 (D a) (ADJ strict) (N inquiry))
+							     (CP-QUE (WNP-5 (WPRO what))
+								     (C 0)
+								     (IP-SUB (NP-OB1 *T*-5)
+									     (NP-SBJ (PRO I))
+									     (BED was)
+									     (RP about)
+									     (PP (P by)
+										 (IP-PPL (VAG taking)
+											 (NP-OB1 (NS drawings)
+												 (PP (P of)
+												     (NP (NP (D the) (N town))
+													 (, ,)
+													 (CONJP (NP (D the) (N bay)))
+													 (, ,)
+													 (CONJP (CONJ and)
+														(NP (D the) (N castle))))))))))))))))
+	  (. .))
+  (ID OKEEFFE-1826,1,36.369))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	2/2/534
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd
+*/
+
+/~*
+I could not imagine how the river which passed through it knew which way to
+run.
+(RUSKIN-1835,1,6.151)
+*~/
+/*
+45 WNP-3:  45 WNP-3, 49 way, 44 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD could)
+	  (NEG not)
+	  (VB imagine)
+	  (CP-QUE (WADVP-1 (WADV how))
+		  (C 0)
+		  (IP-SUB (ADVP *T*-1)
+			  (NP-SBJ (D the)
+				  (N river)
+				  (CP-REL (WNP-2 (WPRO which))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (VBD passed)
+						  (PP (P through)
+						      (NP (PRO it))))))
+			  (VBD knew)
+			  (CP-QUE (WNP-3 (WD which) (N way))
+				  (IP-INF (NP-DIR *T*-3)
+					  (TO to)
+					  (VB run)))))
+	  (. .))
+  (ID RUSKIN-1835,1,6.151))
+
+/~*
+it requires to see strata on two sides at least, before you can determine if
+they dip at all, and on many before you can tell what the dip is.
+(RUSKIN-1835,1,10.269)
+*~/
+/*
+90 WNP-3:  90 WNP-3, 92 what, 89 CP-QUE
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ-2 (PRO it))
+		    (VBP requires)
+		    (IP-INF-2 (TO to)
+			      (VB see)
+			      (NP-OB1 (NS strata))
+			      (PP (P on)
+				  (NP (NUM two) (NS sides)))
+			      (PP (P at)
+				  (QP (QS least))))
+		    (, ,)
+		    (PP (P before)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (PRO you))
+					(MD can)
+					(VB determine)
+					(CP-QUE (WQ if)
+						(C 0)
+						(IP-SUB (NP-SBJ (PRO they))
+							(VBP dip)
+							(PP (P at)
+							    (NP (Q all)))))))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (PP (P on)
+			       (NP (Q many)))
+			   (PP (P before)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO you))
+					       (MD can)
+					       (VB tell)
+					       (CP-QUE (WNP-3 (WPRO what))
+						       (C 0)
+						       (IP-SUB (NP-OB1 *T*-3)
+							       (NP-SBJ (D the) (N dip))
+							       (BEP is))))))))
+	  (. .))
+  (ID RUSKIN-1835,1,10.269))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	2/2/645
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd
+*/
+
+/~*
+but God knows what the parson may do.
+(RYDER-1716,169.256)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (NPR God))
+	  (VBP knows)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D the) (N parson))
+			  (MD may)
+			  (DO do)))
+	  (. .))
+  (ID RYDER-1716,169.256))
+
+/~*
+My father could not tell what to say to this
+(RYDER-1716,170.309)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ My) (N father))
+	  (MD could)
+	  (NEG not)
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (VB say)
+			  (PP (P to)
+			      (NP (D this))))))
+  (ID RYDER-1716,170.309))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	2/2/689
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd
+*/
+
+/~*
+and telling him what they had heard, begged that he would get them exchanged
+into a ship bound on some other destination.
+(SOUTHEY-1813,176.57)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 12 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (IP-PPL (VAG telling)
+		  (NP-OB2 (PRO him))
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO they))
+				  (HVD had)
+				  (VBN heard))))
+	  (, ,)
+	  (VBD begged)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (MD would)
+			  (VB get)
+			  (IP-SMC (NP-SBJ (PRO them))
+				  (VAN exchanged)
+				  (PP (P into)
+				      (NP (D a)
+					  (N ship)
+					  (RRC (VAN bound)
+					       (PP (P on)
+						   (NP (Q some) (OTHER other) (N destination)))))))))
+	  (. .))
+  (ID SOUTHEY-1813,176.57))
+
+/~*
+Mr. Ferguson asked what that meant?
+(SOUTHEY-1813,191.349)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (NPR Mr.) (NPR Ferguson))
+	  (VBD asked)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D that))
+			  (VBD meant)))
+	  (. ?))
+  (ID SOUTHEY-1813,191.349))
+
+/~*
+Admiral Graves, who was so situated that he could not discern what was done on
+board the Elephant, disobeyed Sir Hyde's signal in like manner:
+(SOUTHEY-1813,191.360)
+*~/
+/*
+41 WNP-3:  41 WNP-3, 43 what, 40 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (NPR Admiral)
+		  (NPR Graves)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (ADVP (ADVR so)
+					(CP-DEG *ICH*-2))
+				  (VAN situated)
+				  (CP-DEG-2 (C that)
+					    (IP-SUB (NP-SBJ (PRO he))
+						    (MD could)
+						    (NEG not)
+						    (VB discern)
+						    (CP-QUE (WNP-3 (WPRO what))
+							    (C 0)
+							    (IP-SUB (NP-SBJ *T*-3)
+								    (BED was)
+								    (DAN done)
+								    (PP (P on)
+									(NP (N board)
+									    (NP-COM (D the) (CODE <font>) (NPR Elephant)))))))))))
+	  (, ,)
+	  (CODE <$$font>)
+	  (VBD disobeyed)
+	  (NP-OB1 (NP-POS (NPR Sir) (NPR$ Hyde's))
+		  (N signal))
+	  (PP (P in)
+	      (NP (ADJ like) (N manner)))
+	  (. :))
+  (ID SOUTHEY-1813,191.360))
+
+/~*
+For a long time the Amazon had been firing, enveloped in smoke, when Riou
+desired his men to stand fast and let the smoke clear off, that they might see
+what they were about. A fatal order;
+(SOUTHEY-1813,192.368)
+*~/
+/*
+100 WNP-2:  100 WNP-2, 102 what, 99 CP-QUE
+*/
+
+( (IP-MAT (PP (P For)
+	      (NP (D a) (ADJ long) (N time)))
+	  (NP-SBJ (D the)
+		  (CODE <font>)
+		  (NPR Amazon)
+		  (RRC *ICH*-1))
+	  (CODE <$$font>)
+	  (HVD had)
+	  (BEN been)
+	  (VAG firing)
+	  (, ,)
+	  (RRC-1 (VAN enveloped)
+		 (PP (P in)
+		     (NP (N smoke))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Riou))
+			      (VBD desired)
+			      (NP-OB1 (PRO$ his) (NS men))
+			      (IP-INF (IP-INF (TO to)
+					      (VB stand)
+					      (ADVP (ADV fast)))
+				      (CONJP (CONJ and)
+					     (IP-INF (TO *)
+						     (VB let)
+						     (IP-INF (NP-SBJ (D the) (N smoke))
+							     (VB clear)
+							     (RP off)))))
+			      (, ,)
+			      (CP-ADV (C that)
+				      (IP-SUB (NP-SBJ (PRO they))
+					      (MD might)
+					      (VB see)
+					      (CP-QUE (WNP-2 (WPRO what))
+						      (C 0)
+						      (IP-SUB (NP-SBJ (PRO they))
+							      (BED were)
+							      (PP (P about)
+								  (NP *T*-2))))))
+			      (, .)
+			      (NP-CAR (D A) (ADJ fatal) (N order)))))
+	  (. ;))
+  (ID SOUTHEY-1813,192.368))
+
+/~*
+What was the object of Nelson's note?
+(SOUTHEY-1813,196.473)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (NP-OB1 (D the)
+			  (N object)
+			  (PP (P of)
+			      (NP (NPR$ Nelson's) (N note)))))
+	  (. ?))
+  (ID SOUTHEY-1813,196.473))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	5/5/592
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd
+*/
+
+/~*
+I feel now again what a noble work this is, and that my post is here,
+(THRING-187X,221.163)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 23 work, 14 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP feel)
+	  (ADVP-TMP (ADV now))
+	  (ADVP (ADV again))
+	  (CP-QUE (CP-QUE (WNP-1 (WD what) (D a) (ADJ noble) (N work))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D this))
+				  (BEP is)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (NP-SBJ (PRO$ my) (N post))
+					 (BEP is)
+					 (ADVP-LOC (ADV here))))))
+	  (. ,))
+  (ID THRING-187X,221.163))
+
+/~*
+What will be the next great European temptation and tempter;
+(THRING-187X,225.294)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD will)
+		  (BE be)
+		  (NP-SBJ (D the)
+			  (ADJS next)
+			  (ADJ great)
+			  (ADJ European)
+			  (N temptation)
+			  (CONJP (CONJ and)
+				 (NX (N tempter)))))
+	  (. ;))
+  (ID THRING-187X,225.294))
+
+/~*
+what is that page going to be?
+(THRING-187X,225.297)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (BEP is)
+		  (NP-SBJ (D that) (N page))
+		  (VAG going)
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (BE be)))
+	  (. ?))
+  (ID THRING-187X,225.297))
+
+/~*
+- Another manly, cheering letter from our South Carolina planter B -, telling
+me what he is doing amongst the negroes, teaching them, etc.
+(THRING-187X,226.330)
+*~/
+/*
+41 WNP-1:  41 WNP-1, 43 what, 40 CP-QUE
+*/
+
+( (NP (, -)
+      (D+OTHER Another)
+      (ADJP (ADJ manly) (, ,) (VAG cheering))
+      (N letter)
+      (PP (P from)
+	  (NP (PRO$ our)
+	      (NPR South)
+	      (NPR Carolina)
+	      (N planter)
+	      (NP-PRN (NPR B))))
+      (, -)
+      (, ,)
+      (RRC (VAG telling)
+	   (NP-OB2 (PRO me))
+	   (CP-QUE (WNP-1 (WPRO what))
+		   (C 0)
+		   (IP-SUB (NP-OB1 *T*-1)
+			   (NP-SBJ (PRO he))
+			   (BEP is)
+			   (DAG doing)
+			   (PP (P amongst)
+			       (NP (D the) (NS negroes)))
+			   (, ,)
+			   (IP-PPL-PRN (VAG teaching)
+				       (NP-OB2 (PRO them))
+				       (, ,)
+				       (FW etc.))))))
+  (ID THRING-187X,226.330))
+
+/~*
+What was I when I came here?
+(THRING-187X,230.456)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO I))
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO I))
+				      (VBD came)
+				      (ADVP-DIR (ADV here))))))
+	  (. ?))
+  (ID THRING-187X,230.456))
+
+/~*
+What am I now?
+(THRING-187X,230.457)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 What, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP am)
+		  (NP-SBJ (PRO I))
+		  (ADVP-TMP (ADV now)))
+	  (. ?))
+  (ID THRING-187X,230.457))
+
+/~*
+yet if the post is what it seems, and his father willing, what can I do but
+tell him to go.
+(THRING-187X,235.619)
+*~/
+/*
+51 WNP-3:  51 WNP-3, 53 what, 1 CP-QUE
+*/
+
+( (CP-QUE (ADVP (ADV yet))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (D the) (N post))
+					(BEP is)
+					(NP-OB1 (CP-FRL (WNP-2 (WPRO what))
+							(C 0)
+							(IP-SUB (NP-OB1 *T*-2)
+								(NP-SBJ (PRO it))
+								(VBP seems)))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB=1 (NP-SBJ (PRO$ his) (N father))
+					       (ADJP (ADJ willing)))))))
+	  (, ,)
+	  (WNP-3 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-3)
+		  (MD can)
+		  (NP-SBJ (PRO I))
+		  (DO do)
+		  (PP (P but)
+		      (IP-INF (VB tell)
+			      (NP-OB2 (PRO him))
+			      (IP-INF (TO to) (VB go)))))
+	  (. .))
+  (ID THRING-187X,235.619))
+
+/~*
+and I really $do $n't know what to do.
+(THRING-187X,236.651)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (ADVP (ADV really))
+	  (DOP $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)
+			  (DO do)))
+	  (. .))
+  (ID THRING-187X,236.651))
+
+/~*
+But what matters?
+(THRING-187X,237.707)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ But)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP matters))
+	  (. ?))
+  (ID THRING-187X,237.707))
+
+/~*
+they know what it means,
+(THRING-187X,240.783)
+*~/
+/*
+8 WNP-1:  8 WNP-1, 10 what, 7 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO they))
+	  (VBP know)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (VBP means)))
+	  (. ,))
+  (ID THRING-187X,240.783))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	10/10/784
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd
+*/
+
+/~*
+and nothing would appease her anger but a conviction that now, let the Prime
+Minister say what he would, we should fight Russia.
+(TROLLOPE-1882,158.16)
+*~/
+/*
+49 WNP-2:  49 WNP-2, 51 what, 48 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (Q+N nothing)
+		  (PP *ICH*-1))
+	  (MD would)
+	  (VB appease)
+	  (NP-OB1 (PRO$ her) (N anger))
+	  (PP-1 (P but)
+		(NP (D a)
+		    (N conviction)
+		    (CP-THT (C that)
+			    (IP-SUB (ADVP-TMP (ADV now))
+				    (, ,)
+				    (IP-IMP-PRN (VBI let)
+						(IP-INF (NP-SBJ (D the) (ADJ Prime) (N Minister))
+							(VB say)
+							(CP-QUE (WNP-2 (WPRO what))
+								(C 0)
+								(IP-SUB (NP-OB1 *T*-2)
+									(NP-SBJ (PRO he))
+									(MD would)))))
+				    (, ,)
+				    (NP-SBJ (PRO we))
+				    (MD should)
+				    (VB fight)
+				    (NP-OB1 (NPR Russia))))))
+	  (. .))
+  (ID TROLLOPE-1882,158.16))
+
+/~*
+When we remember what had occurred a few years back as to his dismissal from
+the Foreign Office, we may allow that he was bound to accept this token of her
+Majesty's favour.
+(TROLLOPE-1882,174.300)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 what, 14 CP-QUE
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO we))
+			      (VBP remember)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (HVD had)
+					      (VBN occurred)
+					      (ADVP-DIR (NP-MSR (D a) (Q few) (NS years))
+							(ADV back))
+					      (PP (P as)
+						  (PP (P to)
+						      (NP (PRO$ his)
+							  (N dismissal)
+							  (PP (P from)
+							      (NP (D the) (ADJ Foreign) (N Office)))))))))))
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (MD may)
+	  (VB allow)
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (BED was)
+			  (VAN bound)
+			  (IP-INF (TO to)
+				  (VB accept)
+				  (NP-OB1 (D this)
+					  (N token)
+					  (PP (P of)
+					      (NP (NP-POS (PRO$ her) (N$ Majesty's))
+						  (N favour)))))))
+	  (. .))
+  (ID TROLLOPE-1882,174.300))
+
+/~*
+But Aristides resolved that he would follow his enemies' advice, and see what
+the country would say to it.
+(TROLLOPE-1882,176.341)
+*~/
+/*
+38 WNP-2:  38 WNP-2, 40 what, 37 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (NPR Aristides))
+	  (VBD resolved)
+	  (CP-THT (C that)
+		  (IP-SUB (IP-SUB-1 (NP-SBJ (PRO he))
+				    (MD would)
+				    (VB follow)
+				    (NP-OB1 (NP-POS (PRO$ his) (NS$ enemies'))
+					    (N advice)))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (VB see)
+					   (CP-QUE (WNP-2 (WPRO what))
+						   (C 0)
+						   (IP-SUB (NP-OB1 *T*-2)
+							   (NP-SBJ (D the) (N country))
+							   (MD would)
+							   (VB say)
+							   (PP (P to)
+							       (NP (PRO it)))))))))
+	  (. .))
+  (ID TROLLOPE-1882,176.341))
+
+/~*
+He must have known when he went to the country what would be the result.
+(TROLLOPE-1882,176.342)
+*~/
+/*
+32 WNP-1:  32 WNP-1, 34 what, 31 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (MD must)
+	  (HV have)
+	  (VBN known)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBD went)
+			      (PP (P to)
+				  (NP (D the) (N country))))))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD would)
+			  (BE be)
+			  (NP-OB1 (D the) (N result))))
+	  (. .))
+  (ID TROLLOPE-1882,176.342))
+
+/~*
+and while men thought of this, their hearts fell within them as they
+remembered what must be the fate of the British men, and children, and women,
+who were doomed to suffer things many times worse than death.
+(TROLLOPE-1882,177.355)
+*~/
+/*
+50 WNP-1:  50 WNP-1, 52 what, 49 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NS men))
+			      (VBD thought)
+			      (PP (P of)
+				  (NP (D this))))))
+	  (, ,)
+	  (NP-SBJ (PRO$ their) (NS hearts))
+	  (VBD fell)
+	  (PP (P within)
+	      (NP (PRO them)))
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (VBD remembered)
+			      (CP-QUE (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (MD must)
+					      (BE be)
+					      (NP-OB1 (D the)
+						      (N fate)
+						      (PP (P of)
+							  (NP (D the)
+							      (ADJ British)
+							      (NS men)
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NX (NS children)))
+							      (, ,)
+							      (CONJP (CONJ and)
+								     (NX (NS women)))
+							      (, ,)
+							      (CP-REL (WNP-2 (WPRO who))
+								      (C 0)
+								      (IP-SUB (NP-SBJ *T*-2)
+									      (BED were)
+									      (VAN doomed)
+									      (IP-INF (TO to)
+										      (VB suffer)
+										      (NP-OB1 (NS things)
+											      (ADJP (NP-MSR (Q many) (NS times))
+												    (ADJR worse)
+												    (PP (P than)
+													(NP (N death))))))))))))))))
+	  (. .))
+  (ID TROLLOPE-1882,177.355))
+
+/~*
+and asked him what he should say to the Emperor.
+(TROLLOPE-1882,189.526)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD asked)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (MD should)
+			  (VB say)
+			  (PP (P to)
+			      (NP (D the) (N Emperor)))))
+	  (. .))
+  (ID TROLLOPE-1882,189.526))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	6/6/563
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd
+*/
+
+/~*
+But I was satisfied, when Jonathan Reeves inform'd me, "That on the Dr's.
+asking him, who had been the better for this Preaching? And his replying," The
+Man before you John Daniel for one, who never before knew any Work of God upon
+his Soul; "the Dr. answered;" Get along; you are a Parcel of mad, crazy-headed
+Fellows; "and taking him by the Shoulder, fairly thrust him to the Door.
+(WESLEY-174X,24.284)
+*~/
+/*
+62 WNP-1:  62 WNP-1, 64 who, 61 CP-QUE
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO I))
+	  (BED was)
+	  (VAN satisfied)
+	  (, ,)
+	  (PP (P when)
+	      (CODE <font>)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Jonathan) (NPR Reeves))
+			      (CODE <$$font>)
+			      (VBD inform'd)
+			      (NP-OB2 (PRO me))
+			      (, ,)
+			      (" ")
+			      (CP-THT (C That)
+				      (IP-SUB (IP-SUB (PP (P on)
+							  (NP (NP (NP-POS (D the) (N$ Dr's.))
+								  (IP-PPL (VAG asking)
+									  (NP-OB2 (PRO him))
+									  (, ,)
+									  (CP-QUE (WNP-1 (WPRO who))
+										  (C 0)
+										  (IP-SUB (NP-SBJ *T*-1)
+											  (HVD had)
+											  (BEN been)
+											  (ADVP (D the) (ADVR better))
+											  (PP (P for)
+											      (NP (D this) (N Preaching)))))))
+							      (, ?)
+							      (CONJP (CONJ And)
+								     (NP (PRO$ his)
+									 (IP-PPL (VAG replying)
+										 (, ,)
+										 (" ")
+										 (QTP (FRAG (NP (D The)
+												(N Man)
+												(PP (P before)
+												    (NP (PRO you)))
+												(CODE <paren>)
+												(CODE <font>)
+												(NP-PRN (NPR John) (NPR Daniel))
+												(CP-REL *ICH*-2))
+											    (CODE <$$font>)
+											    (CODE <$$paren>)
+											    (PP (P for)
+												(NP (ONE one)))
+											    (, ,)
+											    (CP-REL-2 (WNP-3 (WPRO who))
+												      (C 0)
+												      (IP-SUB (NP-SBJ *T*-3)
+													      (ADVP-TMP (ADV never) (ADV before))
+													      (CODE <font>)
+													      (VBD knew)
+													      (NP-OB1 (Q any)
+														      (N Work)
+														      (PP (P of)
+															  (CODE <$$font>)
+															  (NP (NPR God))))
+													      (CODE <font>)
+													      (PP (P upon)
+														  (NP (PRO$ his) (N Soul))))))))))))
+						      (, ;)
+						      (CODE <$$font>)
+						      (" ")
+						      (NP-SBJ (D the) (NPR Dr.))
+						      (VBD answered)
+						      (, ;)
+						      (" ")
+						      (IP-MAT-SPE (IP-IMP-PRN-SPE (VBI Get)
+										  (ADVP (ADV along)))
+								  (, ;)
+								  (NP-SBJ (PRO you))
+								  (BEP are)
+								  (NP-OB1 (D a)
+									  (N Parcel)
+									  (PP (P of)
+									      (NP (ADJP (ADJ mad) (, ,) (ADJ crazy-headed))
+										  (NS Fellows))))))
+					      (, ;)
+					      (" ")
+					      (CONJP (CONJ and)
+						     (IP-SUB-SPE (NP-SBJ *con*)
+								 (IP-PPL-SPE (VAG taking)
+									     (NP-OB1 (PRO him))
+									     (PP (P by)
+										 (NP (D the) (N Shoulder))))
+								 (, ,)
+								 (ADVP (ADV fairly))
+								 (VBD thrust)
+								 (NP-OB1 (PRO him))
+								 (PP (P to)
+								     (NP (D the) (N Door))))))))))
+	  (. .)
+	  (CODE <P_24>))
+  (ID WESLEY-174X,24.284))
+
+/~*
+See here, what it is, which the World accounts Madness! The knowing a Work of
+God upon our Soul.
+(WESLEY-174X,24.285)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 what, 9 CP-QUE
+*/
+
+( (IP-IMP (VBI See)
+	  (ADVP-LOC (ADV here))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BEP is)
+			  (, ,)
+			  (CP-CLF (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ (D the) (N World))
+					  (VBP accounts)
+					  (IP-SMC (NP-SBJ *T*-2)
+						  (NP-OB1 (N Madness)))))
+			  (, !)
+			  (NP-CAR (D The)
+				  (IP-PPL (VAG knowing)
+					  (CODE <font>)
+					  (NP-OB1 (D a)
+						  (N Work)
+						  (PP (P of)
+						      (CODE <$$font>)
+						      (NP (NPR God))))
+					  (CODE <font>)
+					  (PP (P upon)
+					      (NP (PRO$ our) (N Soul)))))))
+	  (. .)
+	  (CODE <$$font>))
+  (ID WESLEY-174X,24.285))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	2/2/727
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\benson-190x.psd	11/11/930
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\boswell-1776.psd	4/4/882
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\cibber-1740.psd	26/26/344
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\doddridge-1747.psd	1/1/359
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\fayrer-1900.psd	5/5/606
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\haydon-1808.psd	13/13/927
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\okeeffe-1826.psd	2/2/534
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ruskin-1835.psd	2/2/645
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\ryder-1716.psd	2/2/689
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\southey-1813.psd	5/5/592
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\thring-187x.psd	10/10/784
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\trollope-1882.psd	6/6/563
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\biography_and_diaries\wesley-174x.psd	2/2/727
+whole search, hits/tokens/total
+		89/89/8582
+*/

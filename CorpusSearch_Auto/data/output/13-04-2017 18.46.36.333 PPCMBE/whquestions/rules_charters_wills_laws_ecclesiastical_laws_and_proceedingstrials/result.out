@@ -1,0 +1,6003 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:59:48 BST 2017
+
+command file:     data\searches\queries\PENN\wh-questions.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\whquestions\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   CP-QUE|CP-QUE-SBJ|WADV*|WCP*|WIP*|WNP*|WQP*
+query:  (WADV*|WCP*|WIP*|WNP*|WQP* Dominates  !WADV*|WCP*|WIP*|WNP*|WQP*) 
+  AND  (CP-QUE|CP-QUE-SBJ iDominates  WADV*|WCP*|WIP*|WNP*|WQP*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd
+*/
+
+/~*
+Court. What do you mean by bearing down,
+(HOLMES-TRIAL-1749,40.613)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 What, 1 CP-QUE
+*/
+( (CP-QUE (META (CODE <font>)
+		(NP (N Court))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB mean)
+		  (PP (P by)
+		      (IP-PPL (VAG bearing) (RP down))))
+	  (. ,))
+  (ID HOLMES-TRIAL-1749,40.613))
+
+/~*
+Adm. Knowles. What Ship was you engaged with?
+(HOLMES-TRIAL-1749,41.640)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 18 Ship, 1 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Adm.) (CODE <font>) (NPR Knowles)))
+	  (, .)
+	  (CODE <$$font>)
+	  (WNP-1 (WD What) (N Ship))
+	  (IP-SUB (BED was)
+		  (NP-SBJ (PRO you))
+		  (VAN engaged)
+		  (PP (P with)
+		      (NP *T*-1)))
+	  (. ?))
+  (ID HOLMES-TRIAL-1749,41.640))
+
+/~*
+and what were they?
+(HOLMES-TRIAL-1749,42.682)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 what, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED were)
+		  (NP-SBJ (PRO they)))
+	  (. ?))
+  (ID HOLMES-TRIAL-1749,42.682))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd	3/3/1593
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd
+*/
+
+/~*
+and in case any Officer or Officers shall miss any Quantity or Quantities of
+such Paper whereof he had before taken such Accounts, and shall not upon
+reasonable Demand receive Satisfaction what is become of the same, then and in
+such Case it shall and may be lawful for such Officer to charge such Printer,
+Painter or Stainer of Paper, with the Duties of such Paper so missing, as if
+the same were actually printed, painted or stained.
+(STATUTES-171X,5,52.52)
+*~/
+/*
+99 WNP-2:  99 WNP-2, 101 what, 98 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP-LFD (P in)
+		  (NP (N case)
+		      (CP-THT (C 0)
+			      (IP-SUB (IP-SUB (NP-SBJ (Q any)
+						      (N Officer)
+						      (CONJP (CONJ or)
+							     (NX (NS Officers))))
+					      (MD shall)
+					      (VB miss)
+					      (NP-OB1 (Q any)
+						      (N Quantity)
+						      (CONJP (CONJ or)
+							     (NX (NS Quantities)))
+						      (PP (P of)
+							  (NP (SUCH such)
+							      (N Paper)
+							      (CP-REL (WPP-1 (WADV+P whereof))
+								      (C 0)
+								      (IP-SUB (NP-SBJ (PRO he))
+									      (HVD had)
+									      (ADVP-TMP (ADV before))
+									      (VBN taken)
+									      (NP-OB1 (SUCH such)
+										      (NS Accounts)
+										      (PP *T*-1))))))))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB (NP-SBJ *con*)
+						     (MD shall)
+						     (NEG not)
+						     (PP (P upon)
+							 (NP (ADJ reasonable) (N Demand)))
+						     (VB receive)
+						     (NP-OB1 (N Satisfaction)
+							     (CP-QUE (WNP-2 (WPRO what))
+								     (C 0)
+								     (IP-SUB (NP-SBJ *T*-2)
+									     (BEP is)
+									     (VBN become)
+									     (PP (P of)
+										 (NP (D the) (ADJ same))))))))))))
+	  (, ,)
+	  (ADVP-RSP (ADVP (ADV then))
+		    (CONJP (CONJ and)
+			   (PP (P in)
+			       (NP (SUCH such) (N Case)))))
+	  (NP-SBJ-3 (PRO it))
+	  (MD (MD shall) (CONJ and) (MD may))
+	  (BE be)
+	  (ADJP (ADJ lawful))
+	  (IP-INF-3 (FOR for)
+		    (NP-SBJ (SUCH such) (N Officer))
+		    (TO to)
+		    (VB charge)
+		    (NP-OB1 (SUCH such)
+			    (N Printer)
+			    (, ,)
+			    (CONJP (NX (N Painter)))
+			    (CONJP (CONJ or)
+				   (NX (N Stainer)))
+			    (PP (P of)
+				(NP (N Paper))))
+		    (, ,)
+		    (PP (P with)
+			(NP (D the)
+			    (NS Duties)
+			    (PP (P of)
+				(NP (SUCH such)
+				    (N Paper)
+				    (RRC (ADVP (ADV so))
+					 (VAG missing))))))
+		    (, ,)
+		    (PP (P as)
+			(PP (P if)
+			    (CP-ADV (C 0)
+				    (IP-SUB (NP-SBJ (D the) (ADJ same))
+					    (BED were)
+					    (ADVP (ADV actually))
+					    (VAN (VAN printed) (, ,) (VAN painted) (CONJ or) (VAN stained)))))))
+	  (. .))
+  (ID STATUTES-171X,5,52.52))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd	1/1/192
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd
+*/
+
+/~*
+II. And in order to ascertain who are the first Discoverers of the said
+Passage, and to whom the Reward hereby given does of Right belong; Be it
+further enacted by the Authority aforesaid, That the Lord High Chancellor of
+Great Britain for the Time being, the Lord President of his Majesty's most
+honourable Privy Council for the Time being, the Lord Privy Seal for the Time
+being, the Lord Steward of his Majesty's Household for the Time being, the
+Lord Chamberlain of his Majesty's Household for the Time being, the Lord High
+Treasurer, or first Commissioner for executing the Office of Treasurer of his
+Majesty's Exchequer for the Time being, the Lord High Admiral or first
+Commissioner for executing the Office of Lord High Admiral of Great Britain
+for the Time being, his Majesty's Principal Secretaries of State for the Time
+being, the Speaker of the Honourable House of Commons for the Time being, the
+Chancellor and Under Treasurer of his Majesty's Exchequer for the Time being,
+the first Commissioner for Trade and Plantations for the Time being, the
+Treasurer of his Majesty's Navy for the Time being, the Admirals of the Red,
+White, and Blue Squadrons for the Time being, be, and they are hereby
+appointed Commissioners for the said Discovery; and are hereby authorized and
+impowered to examine upon Oath any Person or Persons produced by the Claimant
+or Claimants to such Reward which Oath the said Commissioners, or any three or
+more of them, are hereby impowered and required to administer and the said
+Commissioners, or the major Part of them, of which the Lord High Admiral, or
+the First Commissioner for executing the Office of Lord High Admiral of Great
+Britain for the Time being, shall be one, being fully satisfied, upon
+Examination and Proof, that such Passage by Sea is effectually discovered, and
+sailed through as aforesaid, are hereby authorized and required to grant a
+Certificate under their Hands and Seals, to such Person or Persons as they
+shall judge are intitled to the name;
+(STATUTES-1745,6,266.143)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 24 who, 21 CP-QUE
+*/
+
+( (IP-MAT (LS (NUM II))
+	  (, .)
+	  (CONJ And)
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB ascertain)
+			  (CP-QUE (CP-QUE (WNP-1 (WPRO who))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (BEP are)
+						  (NP-OB1 (D the)
+							  (ADJ first)
+							  (NS Discoverers)
+							  (PP (P of)
+							      (NP (D the) (VAN said) (N Passage))))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (CP-REL (WPP-2 (P to)
+							(WNP (WPRO whom)))
+						 (C 0)
+						 (IP-SUB (PP *T*-2)
+							 (NP-SBJ (D the)
+								 (N Reward)
+								 (RRC (PP (ADV+P hereby))
+								      (VAN given)))
+							 (DOP does)
+							 (PP (P of)
+							     (NP (N Right)))
+							 (VB belong))))))))
+	  (, ;)
+	  (BEP Be)
+	  (NP-SBJ-3 (PRO it))
+	  (NP-MSR (ADJR further))
+	  (VAN enacted)
+	  (PP (P by)
+	      (NP (D the)
+		  (N Authority)
+		  (RRC (ADV+VAN aforesaid))))
+	  (, ,)
+	  (CP-THT-3 (C That)
+		    (IP-SUB (IP-SUB-4 (NP-SBJ (NP (D the)
+						  (N Lord)
+						  (ADJ High)
+						  (N Chancellor)
+						  (PP (P of)
+						      (CODE <font>)
+						      (NP (ADJ Great) (NPR Britain)))
+						  (CODE <$$font>)
+						  (PP (P for)
+						      (NP (D the)
+							  (N Time)
+							  (RRC (BAG being)))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (N President)
+							 (PP (P of)
+							     (NP (NP-POS (PRO$ his) (N$ Majesty's))
+								 (ADJP (QS most) (ADJ honourable))
+								 (ADJ Privy)
+								 (N Council)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (NP-PRN (ADJ Privy) (N Seal))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (N Steward)
+							 (PP (P of)
+							     (NP (NP-POS (PRO$ his) (N$ Majesty's))
+								 (N+N Household)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (N Chamberlain)
+							 (PP (P of)
+							     (NP (NP-POS (PRO$ his) (N$ Majesty's))
+								 (N+N Household)))
+							 (CODE <P_6,266>)
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (NP-PRN (ADJ High) (N Treasurer))
+							 (, ,)
+							 (CONJP (CONJ or)
+								(NX (ADJ first)
+								    (N Commissioner)
+								    (PP (P for)
+									(IP-PPL (VAG executing)
+										(NP-OB1 (D the)
+											(N Office)
+											(PP (P of)
+											    (NP (N Treasurer)
+												(PP (P of)
+												    (NP (NP-POS (PRO$ his) (N$ Majesty's))
+													(N Exchequer))))))))))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Lord)
+							 (NP-PRN (ADJ High) (N Admiral))
+							 (CONJP (CONJ or)
+								(NX (ADJ first)
+								    (N Commissioner)
+								    (PP (P for)
+									(IP-PPL (VAG executing)
+										(NP-OB1 (D the)
+											(N Office)
+											(PP (P of)
+											    (NP (N Lord)
+												(NP-PRN (ADJ High)
+													(N Admiral)
+													(PP (P of)
+													    (CODE <font>)
+													    (NP (ADJ Great) (NPR Britain)))))))))))
+							 (CODE <$$font>)
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (NP-POS (PRO$ his) (N$ Majesty's))
+							 (ADJ Principal)
+							 (NS Secretaries)
+							 (PP (P of)
+							     (NP (N State)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Speaker)
+							 (PP (P of)
+							     (NP (D the)
+								 (ADJ Honourable)
+								 (NPR House)
+								 (PP (P of)
+								     (NP (NPRS Commons)))))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Chancellor)
+							 (CONJP (CONJ and)
+								(NX (N (N21 Under) (N21 Treasurer))))
+							 (PP (P of)
+							     (NP (NP-POS (PRO$ his) (N$ Majesty's))
+								 (N Exchequer)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (ADJ first)
+							 (N Commissioner)
+							 (PP (P for)
+							     (NP (N Trade) (CONJ and) (NS Plantations)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (N Treasurer)
+							 (PP (P of)
+							     (NP (NP-POS (PRO$ his) (N$ Majesty's))
+								 (N Navy)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being))))))
+					      (, ,)
+					      (CONJP (NP (D the)
+							 (NS Admirals)
+							 (PP (P of)
+							     (NP (D the)
+								 (ADJP (ADJ Red) (, ,) (ADJ White) (, ,) (CONJ and) (ADJ Blue))
+								 (NS Squadrons)))
+							 (PP (P for)
+							     (NP (D the)
+								 (N Time)
+								 (RRC (BAG being)))))))
+				      (, ,)
+				      (BEP be)
+				      (, ,)
+				      (IP-SUB-PRN=4 (CONJ and)
+						    (NP-SBJ (PRO they))
+						    (BEP are)
+						    (PP (ADV+P hereby)))
+				      (VAN appointed)
+				      (NP-SPR (NS Commissioners)
+					      (PP (P for)
+						  (NP (D the) (VAN said) (N Discovery)))))
+			    (, ;)
+			    (CONJP (CONJ and)
+				   (IP-SUB (NP-SBJ *con*)
+					   (BEP are)
+					   (PP (ADV+P hereby))
+					   (VAN (VAN authorized) (CONJ and) (VAN impowered))
+					   (IP-INF (TO to)
+						   (VB examine)
+						   (PP (P upon)
+						       (NP (N Oath)))
+						   (NP-OB1 (Q any)
+							   (N Person)
+							   (CONJP (CONJ or)
+								  (NX (NS Persons)))
+							   (RRC (VAN produced)
+								(PP (P by)
+								    (NP (D the)
+									(N Claimant)
+									(CONJP (CONJ or)
+									       (NX (NS Claimants)))
+									(PP (P to)
+									    (NP (SUCH such) (N Reward))))))))
+					   (CODE <paren>)
+					   (CP-CAR (WNP-5 (WD which) (N Oath))
+						   (C 0)
+						   (IP-SUB (NP-SBJ (NP (D the) (VAN said) (NS Commissioners))
+								   (, ,)
+								   (CONJP (CONJ or)
+									  (NP (Q any)
+									      (NUMP (NUM three) (CONJ or) (QR more))
+									      (PP (P of)
+										  (NP (PRO them))))))
+							   (, ,)
+							   (BEP are)
+							   (PP (ADV+P hereby))
+							   (VAN (VAN impowered) (CONJ and) (VAN required))
+							   (IP-INF (NP-OB1 *T*-5)
+								   (TO to)
+								   (VB administer))))))
+			    (CODE <$$paren>)
+			    (CONJP (CONJ and)
+				   (IP-SUB (NP-SBJ (NP (D the) (VAN said) (NS Commissioners))
+						   (, ,)
+						   (CONJP (CONJ or)
+							  (NP (D the)
+							      (ADJ major)
+							      (N Part)
+							      (PP (P of)
+								  (NP (PRO them)))
+							      (, ,)
+							      (CP-REL (WPP-6 (P of)
+									     (WNP (WPRO which)))
+								      (C 0)
+								      (IP-SUB (NP-SBJ (NP (D the)
+											  (N Lord)
+											  (NP-PRN (ADJ High) (N Admiral)))
+										      (, ,)
+										      (CONJP (CONJ or)
+											     (NP (D the)
+												 (ADJ First)
+												 (N Commissioner)
+												 (PP (P for)
+												     (IP-PPL (VAG executing)
+													     (NP-OB1 (D the)
+														     (N Office)
+														     (PP (P of)
+															 (NP (N Lord)
+															     (NP-PRN (ADJ High)
+																     (N Admiral)
+																     (PP (P of)
+																	 (CODE <font>)
+																	 (NP (ADJ Great) (NPR Britain)))))))))))
+										      (CODE <$$font>)
+										      (PP (P for)
+											  (NP (D the)
+											      (N Time)
+											      (RRC (BAG being)))))
+									      (, ,)
+									      (MD shall)
+									      (BE be)
+									      (NP-OB1 (ONE one)
+										      (PP *T*-6)))))))
+					   (, ,)
+					   (IP-PPL (BAG being)
+						   (ADVP (ADV fully))
+						   (VAN satisfied)
+						   (, ,)
+						   (PP (P upon)
+						       (NP (N Examination) (CONJ and) (N Proof)))
+						   (, ,)
+						   (CP-THT (C that)
+							   (IP-SUB-7 (NP-SBJ (SUCH such)
+									     (N Passage)
+									     (PP (P by)
+										 (NP (N Sea))))
+								     (BEP is)
+								     (ADVP (ADV effectually))
+								     (VAN discovered)
+								     (, ,)
+								     (IP-SUB-PRN=7 (CONJ and)
+										   (VAN sailed)
+										   (PP (P through)))
+								     (PP (P as)
+									 (IP-PPL (ADV+VAN aforesaid))))))
+					   (, ,)
+					   (BEP are)
+					   (PP (ADV+P hereby))
+					   (VAN (VAN authorized) (CONJ and) (VAN required))
+					   (IP-INF (TO to)
+						   (VB grant)
+						   (NP-OB1 (D a) (N Certificate))
+						   (PP (P under)
+						       (NP (PRO$ their)
+							   (NS Hands)
+							   (CONJP (CONJ and)
+								  (NX (NS Seals))))))
+					   (, ,)
+					   (PP (P to)
+					       (NP (SUCH such)
+						   (N Person)
+						   (CONJP (CONJ or)
+							  (NX (NS Persons)))
+						   (PP (P as)
+						       (CP-CMP (WNP-8 0)
+							       (C 0)
+							       (IP-SUB (NP-SBJ (PRO they))
+								       (MD shall)
+								       (VB judge)
+								       (CP-THT (C 0)
+									       (IP-SUB (NP-SBJ *T*-8)
+										       (BEP are)
+										       (VAN intitled)
+										       (PP (P to)
+											   (NP (D the) (N name))))))))))))))
+	  (. ;))
+  (ID STATUTES-1745,6,266.143))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd	1/1/225
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd
+*/
+
+/~*
+and every such Keel, Boat, or other Vessel or Carriage, so used as aforesaid
+in the Carriage of any Coals by Water, whether usually sold by the Chalder or
+by Weight, so admeasured as aforesaid, shall be numbered, marked, and nailed
+on each Side of the Stem and Stern and Midship thereof, or in such other
+Manner as the said Commissioners shall respectively direct, to denote what
+Quantity of Coals each respective Carriage will hold and carry up to the Mark
+so set thereon;
+(STATUTES-1775,8,432.139)
+*~/
+/*
+215 WNP-2:  215 WNP-2, 225 Coals, 214 CP-QUE
+*/
+
+( (CONJP (CONJ and)
+	 (CP-THT (C 0)
+		 (IP-SUB (NP-SBJ (Q every)
+				 (SUCH such)
+				 (N Keel)
+				 (, ,)
+				 (CONJP (NX (N Boat)))
+				 (, ,)
+				 (CONJP (CONJ or)
+					(NX (OTHER other)
+					    (N Vessel)
+					    (CONJP (CONJ or)
+						   (NX (N Carriage)))))
+				 (, ,)
+				 (RRC (ADVP (ADVR so))
+				      (VAN used)
+				      (PP (P as)
+					  (IP-PPL (ADV+VAN aforesaid)))
+				      (PP (P in)
+					  (NP (D the)
+					      (N Carriage)
+					      (PP (P of)
+						  (NP (Q any) (NS Coals)))
+					      (PP (P by)
+						  (NP (N Water)))))))
+			 (, ,)
+			 (CP-QUE-ADV (WQ whether)
+				     (IP-PPL (ADVP (ADV usually))
+					     (VAN sold)
+					     (PP (PP (P by)
+						     (NP (D the) (N Chalder)))
+						 (CONJP (CONJ or)
+							(PP (P by)
+							    (NP (N Weight)
+								(, ,)
+								(RRC (ADVP (ADV so))
+								     (VAN admeasured)
+								     (PP (P as)
+									 (IP-PPL (ADV+VAN aforesaid))))))))))
+			 (, ,)
+			 (MD shall)
+			 (BE be)
+			 (VAN (VAN numbered) (, ,) (VAN marked) (, ,) (CONJ and) (VAN nailed))
+			 (PP (PP (P on)
+				 (NP (Q each)
+				     (N Side)
+				     (PP (P of)
+					 (NP (D the)
+					     (N Stem)
+					     (CONJP (CONJ and)
+						    (NX (N Stern)))
+					     (CONJP (CONJ and)
+						    (NX (N Midship)))
+					     (PP (ADV+P thereof))))))
+			     (, ,)
+			     (CONJP (CONJ or)
+				    (PP (P in)
+					(NP (SUCH such)
+					    (OTHER other)
+					    (N Manner)
+					    (PP (P as)
+						(CP-CMP (WNP-1 0)
+							(C 0)
+							(IP-SUB (NP-OB1 *T*-1)
+								(NP-SBJ (D the) (VAN said) (NS Commissioners))
+								(MD shall)
+								(ADVP (ADV respectively))
+								(VB direct))))))))
+			 (, ,)
+			 (IP-INF-PRP (TO to)
+				     (VB denote)
+				     (CP-QUE (WNP-2 (WD what)
+						    (N Quantity)
+						    (PP (P of)
+							(NP (NS Coals))))
+					     (C 0)
+					     (IP-SUB (NP-OB1 *T*-2)
+						     (NP-SBJ (Q each) (ADJ respective) (N Carriage))
+						     (MD will)
+						     (VB (VB hold) (CONJ and) (VB carry))
+						     (PP (RP up)
+							 (P to)
+							 (NP (D the)
+							     (N Mark)
+							     (RRC (ADVP (ADV so))
+								  (VAN set)
+								  (PP (ADV+P thereon))))))))))
+	 (. ;))
+  (ID STATUTES-1775,8,432.139))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd	1/1/222
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd	0/0/142
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd
+*/
+
+/~*
+XLV. And be it enacted, That any Soldier who shall absent himself without
+Leave, or who shall desert, shall, on Conviction by a General or other
+Court-martial, in addition to any Punishment awarded by such Court, forfeit
+his Pay for the Days on which he has so absented himself without Leave, or on
+which he has been absent by such Desertion, and that no Soldier shall be
+entitled to Pay or to reckon Service towards Pay or Pension when in
+Confinement under any Sentence of any Court, or during any Absence from Duty
+by Commitment under the Civil Power on a Charge of any Offence cognizable by a
+Civil or Criminal Court, or by reason of any Arrest for Debt, or as a Prisoner
+of War, or while in Confinement under any Charge of which he shall afterwards
+be convicted;
+(STATUTES-1835,75,11.94)
+*~/
+/*
+57 WNP-3:  57 WNP-3, 59 who, 56 CP-QUE
+*/
+
+( (IP-MAT (LS (NUM XLV))
+	  (, .)
+	  (CONJ And)
+	  (BEP be)
+	  (NP-SBJ-1 (PRO it))
+	  (VAN enacted)
+	  (, ,)
+	  (CP-THT-1 (CP-THT (C That)
+			    (IP-SUB (NP-SBJ (Q any)
+					    (N Soldier)
+					    (CP-REL (CP-REL (WNP-2 (WPRO who))
+							    (C 0)
+							    (IP-SUB (NP-SBJ *T*-2)
+								    (MD shall)
+								    (VB absent)
+								    (NP-RFL (PRO+N himself))
+								    (PP (P without)
+									(NP (N Leave)))))
+						    (, ,)
+						    (CONJP (CONJ or)
+							   (CP-QUE (WNP-3 (WPRO who))
+								   (C 0)
+								   (IP-SUB (NP-SBJ *T*-3)
+									   (MD shall)
+									   (VB desert))))))
+				    (, ,)
+				    (MD shall)
+				    (, ,)
+				    (PP (P on)
+					(NP (N Conviction)
+					    (PP (P by)
+						(NP (NP (D a) (ADJ General))
+						    (CONJP (CONJ or)
+							   (NP (OTHER other) (N+ADJ Court-martial)))))))
+				    (, ,)
+				    (PP (P in)
+					(NP (N addition)
+					    (PP (P to)
+						(NP (Q any)
+						    (N Punishment)
+						    (RRC (VAN awarded)
+							 (PP (P by)
+							     (NP (SUCH such) (N Court))))))))
+				    (, ,)
+				    (VB forfeit)
+				    (NP-OB1 (PRO$ his)
+					    (N Pay)
+					    (PP (P for)
+						(NP (D the)
+						    (NS Days)
+						    (CP-REL (CP-REL (WPP-4 (P on)
+									   (WNP (WPRO which)))
+								    (C 0)
+								    (IP-SUB (PP *T*-4)
+									    (NP-SBJ (PRO he))
+									    (HVP has)
+									    (ADVP (ADV so))
+									    (VBN absented)
+									    (NP-OB1 (PRO+N himself))
+									    (PP (P without)
+										(NP (N Leave)))))
+							    (, ,)
+							    (CONJP (CONJ or)
+								   (CP-QUE (WPP-5 (P on)
+										  (WNP (WPRO which)))
+									   (C 0)
+									   (IP-SUB (PP *T*-5)
+										   (NP-SBJ (PRO he))
+										   (HVP has)
+										   (BEN been)
+										   (ADJP (ADJ absent))
+										   (PP (P by)
+										       (NP (SUCH such) (N Desertion))))))))))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (CP-THT (C that)
+				   (IP-SUB (NP-SBJ (Q no) (N Soldier))
+					   (MD shall)
+					   (BE be)
+					   (VAN entitled)
+					   (PP (PP (P to)
+						   (NP (N Pay)))
+					       (CONJP (CONJ or)
+						      (IP-INF (TO to)
+							      (VB reckon)
+							      (NP-OB1 (N Service))
+							      (PP (P towards)
+								  (NP (N Pay) (CONJ or) (N Pension))))))
+					   (PP (PP (P when)
+						   (PP (P in)
+						       (NP (N Confinement)
+							   (PP (P under)
+							       (NP (Q any)
+								   (N Sentence)
+								   (PP (P of)
+								       (NP (Q any) (N Court))))))))
+					       (, ,)
+					       (CONJP (CONJ or)
+						      (PP (P during)
+							  (NP (Q any)
+							      (N Absence)
+							      (PP (P from)
+								  (NP (N Duty)))
+							      (PP (P by)
+								  (NP (N Commitment)
+								      (PP (P under)
+									  (NP (D the) (ADJ Civil) (N Power)))
+								      (PP (P on)
+									  (NP (D a)
+									      (N Charge)
+									      (PP (P of)
+										  (NP (Q any)
+										      (N Offence)
+										      (ADJP (ADJ cognizable)
+											    (PP (P by)
+												(NP (D a)
+												    (ADJP (ADJ Civil) (CONJ or) (ADJ Criminal))
+												    (N Court)))))))))))))
+					       (, ,)
+					       (CONJP (CONJ or)
+						      (PP (P by)
+							  (NP (N reason)
+							      (PP (P of)
+								  (NP (Q any)
+								      (N Arrest)
+								      (PP (P for)
+									  (NP (N Debt))))))))
+					       (, ,)
+					       (CONJP (CONJ or)
+						      (PP (P as)
+							  (NP (D a)
+							      (N Prisoner)
+							      (PP (P of)
+								  (NP (N War))))))
+					       (, ,)
+					       (CONJP (CONJ or)
+						      (PP (P while)
+							  (FRAG (PP (P in)
+								    (NP (N Confinement)))
+								(PP (P under)
+								    (NP (Q any)
+									(N Charge)
+									(CP-REL (WPP-6 (P of)
+										       (WNP (WPRO which)))
+										(C 0)
+										(IP-SUB (PP *T*-6)
+											(NP-SBJ (PRO he))
+											(MD shall)
+											(ADVP-TMP (ADV+WARD afterwards))
+											(BE be)
+											(VAN convicted)))))))))))))
+	  (. ;))
+  (ID STATUTES-1835,75,11.94))
+
+/~*
+1. What is your Name?
+(STATUTES-1835,75,13.104)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 What, 1 CP-QUE
+*/
+
+( (CP-QUE (LS (NUM 1))
+	  (, .)
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO$ your) (N Name)))
+	  (. ?))
+  (ID STATUTES-1835,75,13.104))
+
+/~*
+3. What is your Age?
+(STATUTES-1835,75,13.106)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 What, 1 CP-QUE
+*/
+
+( (CP-QUE (LS (NUM 3))
+	  (, .)
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO$ your) (N Age)))
+	  (. ?))
+  (ID STATUTES-1835,75,13.106))
+
+/~*
+4. What is your Trade or Calling?
+(STATUTES-1835,75,13.107)
+*~/
+/*
+7 WNP-1:  7 WNP-1, 9 What, 1 CP-QUE
+*/
+
+( (CP-QUE (LS (NUM 4))
+	  (, .)
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO$ your)
+			  (N Trade)
+			  (CONJP (CONJ or)
+				 (NX (N Calling)))))
+	  (. ?))
+  (ID STATUTES-1835,75,13.107))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd	4/4/171
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd	0/0/238
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd	0/0/342
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd
+*/
+
+/~*
+if you find him guilty, you are to inquire what Goods and Chattels, Lands or
+Tenements he had at the Time of the High Treason committed, or at any Time
+since:
+(TOWNLEY-1746,14.13)
+*~/
+/*
+34 WNP-1:  34 WNP-1, 56 Tenements, 33 CP-QUE
+*/
+
+( (IP-MAT (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBP find)
+			      (IP-SMC (NP-SBJ (PRO him))
+				      (ADJP (ADJ guilty))))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (BEP are)
+	  (IP-INF (TO to)
+		  (VB inquire)
+		  (CP-QUE (WNP-1 (WD what)
+				 (NS Goods)
+				 (CONJP (CONJ and)
+					(NX (NS Chattels)))
+				 (, ,)
+				 (CONJP (NX (NS Lands)))
+				 (CONJP (CONJ or)
+					(NX (NS Tenements))))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO he))
+				  (HVD had)
+				  (PP (PP (P at)
+					  (NP (D the)
+					      (N Time)
+					      (PP (P of)
+						  (NP (D the)
+						      (ADJ High)
+						      (N Treason)
+						      (RRC (VAN committed))))))
+				      (, ,)
+				      (CONJP (CONJ or)
+					     (PP (P at)
+						 (NP (Q any)
+						     (N Time)
+						     (ADVP (ADV since)))))))))
+	  (. :))
+  (ID TOWNLEY-1746,14.13))
+
+/~*
+This Witness was then ask'd, what Number at that Time the Rebel Army might
+consist of?
+(TOWNLEY-1746,18.50)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 21 Number, 16 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (D This) (N Witness))
+	  (BED was)
+	  (ADVP-TMP (ADV then))
+	  (VAN ask'd)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WD what) (N Number))
+		  (C 0)
+		  (IP-SUB (PP (P at)
+			      (NP (D that) (N Time)))
+			  (NP-SBJ (D the) (N Rebel) (N Army))
+			  (MD might)
+			  (VB consist)
+			  (PP (P of)
+			      (NP *T*-1))))
+	  (. ?))
+  (ID TOWNLEY-1746,18.50))
+
+/~*
+Mr. Serj. Wynne. Pray Sir inform me what Time you saw the Gentleman at the Bar
+at Carlisle,
+(TOWNLEY-1746,23.101)
+*~/
+/*
+30 WNP-1:  30 WNP-1, 34 Time, 29 CP-QUE
+*/
+
+( (IP-IMP (META (NP (NPR Mr.) (NPR Serj.) (CODE <font>) (NPR Wynne))
+		(, .)
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (NP-VOC (N Sir))
+	  (VBI inform)
+	  (NP-OB2 (PRO me))
+	  (CP-QUE (WNP-1 (WD what) (N Time))
+		  (C 0)
+		  (IP-SUB (NP-TMP *T*-1)
+			  (NP-SBJ (PRO you))
+			  (VBD saw)
+			  (NP-OB1 (D the)
+				  (ADJ+N Gentleman)
+				  (PP (P at)
+				      (NP (D the) (N Bar))))
+			  (PP (P at)
+			      (CODE <font>)
+			      (NP (NPR Carlisle)))))
+	  (CODE <$$font>)
+	  (. ,))
+  (ID TOWNLEY-1746,23.101))
+
+/~*
+Coleman. I $can $not tell what Month it was,
+(TOWNLEY-1746,23.103)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 28 Month, 23 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Coleman))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WD what) (N Month))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (. ,))
+  (ID TOWNLEY-1746,23.103))
+
+/~*
+Mr. Clayton. $Do $n't you know what Time of the Year Christmas is?
+(TOWNLEY-1746,23.110)
+*~/
+/*
+27 WNP-1:  27 WNP-1, 39 Year, 26 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Mr.) (CODE <font>) (NPR Clayton))
+		(, .)
+		(CODE <$$font>))
+	  (IP-SUB (DOP $Do)
+		  (NEG $n't)
+		  (CODE {TEXT:Don't})
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (CP-QUE (WNP-1 (WD what)
+				 (N Time)
+				 (PP (P of)
+				     (NP (D the) (N Year))))
+			  (CODE <font>)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR Christmas))
+				  (CODE <$$font>)
+				  (BEP is))))
+	  (. ?))
+  (ID TOWNLEY-1746,23.110))
+
+/~*
+King's Council Sir, will you be pleased to tell my Lords and the Gentlemen of
+the Jury, what you know of the Prisoner at the Bar being in the late unnatural
+Rebellion?
+(TOWNLEY-1746,25.140)
+*~/
+/*
+58 WNP-1:  58 WNP-1, 60 what, 57 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ King's) (N Council))
+		(CODE <$$font>))
+	  (NP-VOC (N Sir))
+	  (, ,)
+	  (IP-SUB (MD will)
+		  (NP-SBJ (PRO you))
+		  (BE be)
+		  (ADJP (VAN pleased)
+			(IP-INF (TO to)
+				(VB tell)
+				(NP-OB2 (NP (PRO$ my) (NS Lords))
+					(CONJP (CONJ and)
+					       (NP (D the)
+						   (ADJ+NS Gentlemen)
+						   (PP (P of)
+						       (NP (D the) (N Jury))))))
+				(, ,)
+				(CP-QUE (WNP-1 (WPRO what))
+					(C 0)
+					(IP-SUB (NP-OB1 *T*-1)
+						(NP-SBJ (PRO you))
+						(VBP know)
+						(PP (P of)
+						    (IP-PPL (NP-SBJ (D the)
+								    (N Prisoner)
+								    (PP (P at)
+									(NP (D the) (N Bar))))
+							    (BAG being)
+							    (PP (P in)
+								(NP (D the) (ADJ late) (ADJ unnatural) (N Rebellion))))))))))
+	  (. ?))
+  (ID TOWNLEY-1746,25.140))
+
+/~*
+Mr. Serj. Wynne. Pray, Sir, what are you?
+(TOWNLEY-1746,26.157)
+*~/
+/*
+28 WNP-1:  28 WNP-1, 30 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Mr.) (NPR Serj.) (CODE <font>) (NPR Wynne))
+		(, .)
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (, ,)
+	  (NP-VOC (N Sir))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP are)
+		  (NP-SBJ (PRO you)))
+	  (. ?))
+  (ID TOWNLEY-1746,26.157))
+
+/~*
+Kings Council. Pray what would you ask this Gentleman to?
+(TOWNLEY-1746,29.186)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Kings) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (MD would)
+		  (NP-SBJ (PRO you))
+		  (VB ask)
+		  (NP-OB2 (D this) (ADJ+N Gentleman))
+		  (IP-INF (NP-OB1 *T*-1)
+			  (TO to)))
+	  (CODE {COM:sic})
+	  (. ?))
+  (ID TOWNLEY-1746,29.186))
+
+/~*
+Mr. Serj. Wynne. Pray what Character doth he bear?
+(TOWNLEY-1746,29.195)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 25 Character, 1 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Mr.) (NPR Serj.) (CODE <font>) (NPR Wynne))
+		(, .)
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (WNP-1 (WD what) (N Character))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP doth)
+		  (NP-SBJ (PRO he))
+		  (VB bear))
+	  (. ?))
+  (ID TOWNLEY-1746,29.195))
+
+/~*
+Sir R. Lloyd. What Business are you of?
+(TOWNLEY-1746,29.202)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 20 Business, 1 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Sir) (CODE <font>) (NPR R.) (NPR Lloyd))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N Business))
+	  (IP-SUB (BEP are)
+		  (NP-SBJ (PRO you))
+		  (PP (P of)
+		      (NP *T*-1)))
+	  (. ?))
+  (ID TOWNLEY-1746,29.202))
+
+/~*
+Couns. Clayton. Pray what Character does he bear?
+(TOWNLEY-1746,30.212)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 23 Character, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Couns.) (NPR Clayton))
+		(, .)
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (WNP-1 (WD what) (N Character))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP does)
+		  (NP-SBJ (PRO he))
+		  (VB bear))
+	  (. ?))
+  (ID TOWNLEY-1746,30.212))
+
+/~*
+Mr. Att. Gen. What was he doing there?
+(TOWNLEY-1746,30.226)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Mr.)
+		    (NPR Att.)
+		    (ADJP (ADJ Gen.)))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO he))
+		  (DAG doing)
+		  (ADVP-LOC (ADV there)))
+	  (. ?))
+  (ID TOWNLEY-1746,30.226))
+
+/~*
+Clerk of the Arraigns. Who shall say for you?
+(TOWNLEY-1746,32.253)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Clerk)
+		    (PP (P of)
+			(NP (D the) (NS Arraigns))))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (MD shall)
+		  (VB say)
+		  (PP (P for)
+		      (NP (PRO you))))
+	  (. ?))
+  (ID TOWNLEY-1746,32.253))
+
+/~*
+Clerk of the Arraigns. What Goods and Chattels, Lands and Tenements, had he at
+the Time of the said High Treason committed, and at any time since, to your
+Knowledge?
+(TOWNLEY-1746,32.259)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 40 Tenements, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Clerk)
+		    (PP (P of)
+			(NP (D the) (NS Arraigns))))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (NS Goods)
+		 (CONJP (CONJ and)
+			(NX (NS Chattels)))
+		 (, ,)
+		 (CONJP (NP (NS Lands) (CONJ and) (NS Tenements))))
+	  (, ,)
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVD had)
+		  (NP-SBJ (PRO he))
+		  (PP (PP (P at)
+			  (NP (D the)
+			      (N Time)
+			      (PP (P of)
+				  (NP (D the)
+				      (VAN said)
+				      (ADJ High)
+				      (N Treason)
+				      (RRC (VAN committed))))))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (PP (P at)
+				 (NP (Q any)
+				     (N time)
+				     (ADVP (ADV since))))))
+		  (, ,)
+		  (PP (P to)
+		      (NP (PRO$ your) (N Knowledge))))
+	  (. ?))
+  (ID TOWNLEY-1746,32.259))
+
+/~*
+and then tell the Court, and the Gentlemen of the Jury, what you know of him;
+(TOWNLEY-1746,34.271)
+*~/
+/*
+36 WNP-1:  36 WNP-1, 38 what, 35 CP-QUE
+*/
+
+( (IP-IMP (CONJ and)
+	  (ADVP-TMP (ADV then))
+	  (VBI tell)
+	  (NP-OB2 (NP (D the) (N Court))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (ADJ+NS Gentlemen)
+			     (PP (P of)
+				 (NP (D the) (N Jury))))))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO you))
+			  (VBP know)
+			  (PP (P of)
+			      (NP (PRO him)))))
+	  (. ;))
+  (ID TOWNLEY-1746,34.271))
+
+/~*
+King's Council. What Appearance did the Prisoner make at Manchester?
+(TOWNLEY-1746,34.274)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 18 Appearance, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ King's) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N Appearance))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (D the) (N Prisoner))
+		  (VB make)
+		  (PP (P at)
+		      (CODE <font>)
+		      (NP (NPR Manchester))))
+	  (. ?)
+	  (CODE <$$font>))
+  (ID TOWNLEY-1746,34.274))
+
+/~*
+Prisoner's Council. Then who distributed those Arms?
+(TOWNLEY-1746,35.298)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Prisoner's) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (ADVP (ADV Then))
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD distributed)
+		  (NP-OB1 (D those) (NS Arms)))
+	  (. ?))
+  (ID TOWNLEY-1746,35.298))
+
+/~*
+what Countryman are you?
+(TOWNLEY-1746,36.319)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 Countryman, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD what) (N+N Countryman))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP are)
+		  (NP-SBJ (PRO you)))
+	  (. ?))
+  (ID TOWNLEY-1746,36.319))
+
+/~*
+Serj. Wynne. What brought you to Manchester?
+(TOWNLEY-1746,36.322)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (NP (NPR Serj.) (CODE <font>) (NPR Wynne))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD brought)
+		  (NP-OB1 (PRO you))
+		  (PP (P to)
+		      (CODE <font>)
+		      (NP (NPR Manchester))))
+	  (. ?)
+	  (CODE <$$font>))
+  (ID TOWNLEY-1746,36.322))
+
+/~*
+Maddox. I $can $not tell but what he might;
+(TOWNLEY-1746,38.383)
+*~/
+/*
+26 WNP-1:  26 WNP-1, 28 what, 23 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Maddox))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB tell)
+	  (CP-QUE (FP but)
+		  (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (MD might)))
+	  (. ;))
+  (ID TOWNLEY-1746,38.383))
+
+/~*
+Pr. Coun. Pray what Character does the Prisoner bear at Manchester?
+(TOWNLEY-1746,38.386)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 21 Character, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Pr.) (N Coun.))
+		(CODE <$$font>))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (WNP-1 (WD what) (N Character))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP does)
+		  (NP-SBJ (D the) (N Prisoner))
+		  (VB bear)
+		  (PP (P at)
+		      (CODE <font>)
+		      (NP (NPR Manchester))))
+	  (. ?)
+	  (CODE <$$font>))
+  (ID TOWNLEY-1746,38.386))
+
+/~*
+King's Council. Mr. Bradbury, pray what do you know,
+(TOWNLEY-1746,38.392)
+*~/
+/*
+30 WNP-1:  30 WNP-1, 32 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ King's) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (NP-VOC (NPR Mr.) (CODE <font>) (NPR Bradbury))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP pray))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB know))
+	  (. ,))
+  (ID TOWNLEY-1746,38.392))
+
+/~*
+or what have you to say against the Prisoner at the Bar?
+(TOWNLEY-1746,38.393)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 8 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ or)
+	  (WNP-1 (WPRO what)
+		 (CP-EOP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVP have)
+		  (NP-SBJ (PRO you))
+		  (CP-EOP-2 (WNP-3 0)
+			    (IP-INF (NP-OB1 *T*-3)
+				    (TO to)
+				    (VB say)
+				    (PP (P against)
+					(NP (D the)
+					    (N Prisoner)
+					    (PP (P at)
+						(NP (D the) (N Bar))))))))
+	  (. ?))
+  (ID TOWNLEY-1746,38.393))
+
+/~*
+Pr. Coun. As you live at Manchester, pray what Character does the Prisoner
+bear at that Town?
+(TOWNLEY-1746,39.400)
+*~/
+/*
+41 WNP-1:  41 WNP-1, 45 Character, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Pr.) (N Coun.))
+		(CODE <$$font>))
+	  (PP (P As)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBP live)
+			      (PP (P at)
+				  (CODE <font>)
+				  (NP (NPR Manchester))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP pray))
+	  (WNP-1 (WD what) (N Character))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP does)
+		  (NP-SBJ (D the) (N Prisoner))
+		  (VB bear)
+		  (PP (P at)
+		      (NP (D that) (N Town))))
+	  (. ?))
+  (ID TOWNLEY-1746,39.400))
+
+/~*
+Pr. Coun. What Countryman are you?
+(TOWNLEY-1746,39.405)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 16 Countryman, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Pr.) (N Coun.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N+N Countryman))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP are)
+		  (NP-SBJ (PRO you)))
+	  (. ?))
+  (ID TOWNLEY-1746,39.405))
+
+/~*
+and being sworn, was asked what he knew of the Prisoner?
+(TOWNLEY-1746,39.409)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 17 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (IP-PPL-ABS (BAG being) (VAN sworn))
+	  (, ,)
+	  (BED was)
+	  (VAN asked)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (VBD knew)
+			  (PP (P of)
+			      (NP (D the) (N Prisoner)))))
+	  (. ?))
+  (ID TOWNLEY-1746,39.409))
+
+/~*
+and being ask'd what Business he follow'd, he said, he was a Dealer in Leather.
+(TOWNLEY-1746,41.456)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 Business, 9 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (IP-PPL (BAG being)
+		  (VAN ask'd)
+		  (CP-QUE (WNP-1 (WD what) (N Business))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO he))
+				  (VBD follow'd))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD said)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (BED was)
+			  (NP-OB1 (D a)
+				  (N Dealer)
+				  (PP (P in)
+				      (NP (N Leather))))))
+	  (. .))
+  (ID TOWNLEY-1746,41.456))
+
+/~*
+Prisoner's Council. What do you know of the Prisoner?
+(TOWNLEY-1746,41.457)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ Prisoner's) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (PP (P of)
+		      (NP (D the) (N Prisoner))))
+	  (. ?))
+  (ID TOWNLEY-1746,41.457))
+
+/~*
+Prisoner's Council. Then pray inform the Court, and the Gentlemen of the Jury,
+so far as you know, what past at Manchester relating to the Prisoner, during
+the Time the Rebels were there.
+(TOWNLEY-1746,41.461)
+*~/
+/*
+75 WNP-2:  75 WNP-2, 77 what, 74 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N$ Prisoner's) (N Council))
+		(, .)
+		(CODE <$$font>))
+	  (ADVP (ADV Then))
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP pray))
+	  (VBI inform)
+	  (NP-OB1 (NP (D the) (N Court))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (ADJ+NS Gentlemen)
+			     (PP (P of)
+				 (NP (D the) (N Jury))))))
+	  (, ,)
+	  (NP-MSR (ADJP (ADVR so) (ADJ far))
+		  (PP (P as)
+		      (CP-CMP (WNP-1 0)
+			      (C 0)
+			      (IP-SUB (NP-MSR *T*-1)
+				      (NP-SBJ (PRO you))
+				      (VBP know)))))
+	  (, ,)
+	  (CP-QUE (WNP-2 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-2)
+			  (VBD past)
+			  (PP (P at)
+			      (CODE <font>)
+			      (NP (NPR Manchester)))
+			  (CODE <$$font>)
+			  (IP-PPL (VAG relating)
+				  (PP (P to)
+				      (NP (D the) (N Prisoner))))
+			  (, ,)
+			  (PP (P during)
+			      (NP (D the)
+				  (N Time)
+				  (CP-REL (WNP-3 0)
+					  (C 0)
+					  (IP-SUB (NP-MSR *T*-3)
+						  (NP-SBJ (D the) (NS Rebels))
+						  (BED were)
+						  (ADVP-LOC (ADV there))))))))
+	  (. .))
+  (ID TOWNLEY-1746,41.461))
+
+/~*
+K. Coun. Mr. Maddox, pray relate to my Lord and the Gentlemen of the Jury,
+what you know concerning the Prisoners at the Bar, or either of them.
+(TOWNLEY-1746,42.468)
+*~/
+/*
+58 WNP-1:  58 WNP-1, 60 what, 57 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N$ K.) (N Coun.))
+		(CODE <$$font>))
+	  (NP-VOC (NPR Mr.) (CODE <font>) (NPR Maddox))
+	  (CODE <$$font>)
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP pray))
+	  (VBI relate)
+	  (PP (P to)
+	      (NP (NP (PRO$ my) (N Lord))
+		  (CONJP (CONJ and)
+			 (NP (D the)
+			     (ADJ+NS Gentlemen)
+			     (PP (P of)
+				 (NP (D the) (N Jury)))))))
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO you))
+			  (VBP know)
+			  (IP-PPL (VAG concerning)
+				  (NP-OB1 (NP (D the)
+					      (NS Prisoners)
+					      (PP (P at)
+						  (NP (D the) (N Bar))))
+					  (, ,)
+					  (CONJP (CONJ or)
+						 (NP (Q either)
+						     (PP (P of)
+							 (NP (PRO them)))))))))
+	  (. .))
+  (ID TOWNLEY-1746,42.468))
+
+/~*
+K. Coun. What Rout did you take when you left Winslow?
+(TOWNLEY-1746,43.489)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 16 Rout, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ K.) (N Coun.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N Rout))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO you))
+		  (VB take)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO you))
+				      (VBD left)
+				      (CODE <font>)
+				      (NP-OB1 (NPR Winslow))))))
+	  (. ?)
+	  (CODE <$$font>))
+  (ID TOWNLEY-1746,43.489))
+
+/~*
+but I $do $n't know what company the other Prisoner belonged to,
+(TOWNLEY-1746,43.495)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 20 company, 15 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (DOP $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB know)
+	  (CP-QUE (WNP-1 (WD what) (N company))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (D the) (OTHER other) (N Prisoner))
+			  (VBD belonged)
+			  (PP (P to)
+			      (NP *T*-1))))
+	  (. ,))
+  (ID TOWNLEY-1746,43.495))
+
+/~*
+K. Coun. And what further happen'd;
+(TOWNLEY-1746,43.497)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>) (N$ K.) (N Coun.) (CODE <$$font>))
+	  (CONJ And)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (NP-MSR (ADJR further))
+		  (VBD happen'd))
+	  (. ;))
+  (ID TOWNLEY-1746,43.497))
+
+/~*
+K. Coun. What Tune did he play?
+(TOWNLEY-1746,44.507)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 16 Tune, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ K.) (N Coun.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N Tune))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO he))
+		  (VB play))
+	  (. ?))
+  (ID TOWNLEY-1746,44.507))
+
+/~*
+and I will tell you what it was about;
+(TOWNLEY-1746,45.532)
+*~/
+/*
+15 WNP-1:  15 WNP-1, 17 what, 14 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (MD will)
+	  (VB tell)
+	  (NP-OB2 (PRO you))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO it))
+			  (BED was)
+			  (PP (P about)
+			      (NP *T*-1))))
+	  (. ;))
+  (ID TOWNLEY-1746,45.532))
+
+/~*
+King's Coun. Well, Sir, what have you to say to either of the Prisoners that
+stand by you?
+(TOWNLEY-1746,45.549)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 26 *ICH*-2, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N$ King's) (N Coun.))
+		(CODE <$$font>))
+	  (INTJP (ADV Well))
+	  (, ,)
+	  (NP-VOC (N Sir))
+	  (, ,)
+	  (WNP-1 (WPRO what)
+		 (CP-EOP *ICH*-2))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVP have)
+		  (NP-SBJ (PRO you))
+		  (CP-EOP-2 (WNP-3 0)
+			    (IP-INF (NP-OB1 *T*-3)
+				    (TO to)
+				    (VB say)
+				    (PP (P to)
+					(NP (Q either)
+					    (PP (P of)
+						(NP (D the)
+						    (NS Prisoners)
+						    (CP-REL (WNP-4 0)
+							    (C that)
+							    (IP-SUB (NP-SBJ *T*-4)
+								    (VBP stand)
+								    (PP (P by)
+									(NP (PRO you))))))))))))
+	  (. ?))
+  (ID TOWNLEY-1746,45.549))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd	36/36/625
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd
+*/
+
+/~*
+Q. Are you enabled to state what he read to you?
+(WATSON-1817,1,81.27)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 what, 24 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (BEP Are)
+		  (NP-SBJ (PRO you))
+		  (ADJP (VAN enabled)
+			(IP-INF (TO to)
+				(VB state)
+				(CP-QUE (WNP-1 (WPRO what))
+					(C 0)
+					(IP-SUB (NP-OB1 *T*-1)
+						(NP-SBJ (PRO he))
+						(VBD read)
+						(PP (P to)
+						    (NP (PRO you))))))))
+	  (. ?))
+  (ID WATSON-1817,1,81.27))
+
+/~*
+Q. Be good enough to state what more passed between you and him.
+(WATSON-1817,1,82.35)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 29 more, 23 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (BEI Be)
+	  (ADJP (ADJ good)
+		(ADVP (ADVR enough)
+		      (IP-INF-DEG (TO to)
+				  (VB state)
+				  (CP-QUE (WNP-1 (WPRO what)
+						 (QP (QR more)))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (VBD passed)
+						  (PP (P between)
+						      (NP (PRO you) (CONJ and) (PRO him))))))))
+	  (. .))
+  (ID WATSON-1817,1,82.35))
+
+/~*
+Q. What passed in the evening when he called?
+(WATSON-1817,1,83.67)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD passed)
+		  (PP (P in)
+		      (NP (D the) (N evening)))
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO he))
+				      (VBD called)))))
+	  (. ?))
+  (ID WATSON-1817,1,83.67))
+
+/~*
+Q. Be good enough to state what passed between you and him on the Monday
+morning?
+(WATSON-1817,1,84.103)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 26 what, 23 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (BEI Be)
+	  (ADJP (ADJ good)
+		(ADVP (ADVR enough)
+		      (IP-INF-DEG (TO to)
+				  (VB state)
+				  (CP-QUE (WNP-1 (WPRO what))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-1)
+						  (VBD passed)
+						  (PP (P between)
+						      (NP (PRO you) (CONJ and) (PRO him)))
+						  (PP (P on)
+						      (NP (D the) (NPR Monday) (N morning))))))))
+	  (. ?))
+  (ID WATSON-1817,1,84.103))
+
+/~*
+Q. State what passed between you and him on the subject?
+(WATSON-1817,1,84.111)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 12 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (VBI State)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD passed)
+			  (PP (P between)
+			      (NP (PRO you) (CONJ and) (PRO him)))
+			  (PP (P on)
+			      (NP (D the) (N subject)))))
+	  (. ?))
+  (ID WATSON-1817,1,84.111))
+
+/~*
+A. I told him that we knew very well what it was to call a meeting;
+(WATSON-1817,1,84.112)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 what, 32 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (VBD told)
+	  (NP-OB2 (PRO him))
+	  (CP-THT (C that)
+		  (IP-SUB (NP-SBJ (PRO we))
+			  (VBD knew)
+			  (ADVP (ADV very) (ADV well))
+			  (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ-2 (PRO it))
+					  (BED was)
+					  (IP-INF-2 (TO to)
+						    (VB call)
+						    (NP-OB1 (D a) (N meeting)))))))
+	  (. ;))
+  (ID WATSON-1817,1,84.112))
+
+/~*
+but when they were assembled, who was to be accountable for their actions, in
+case they should do any mischief.
+(WATSON-1817,1,84.113)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ but)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (BED were)
+			      (VAN assembled))))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (IP-INF (TO to)
+			  (BE be)
+			  (ADJP (ADJ accountable)
+				(PP (P for)
+				    (NP (PRO$ their) (NS actions))))
+			  (, ,)
+			  (PP (P in)
+			      (NP (N case)
+				  (CP-THT (C 0)
+					  (IP-SUB (NP-SBJ (PRO they))
+						  (MD should)
+						  (DO do)
+						  (NP-OB1 (Q any) (N mischief))))))))
+	  (. .))
+  (ID WATSON-1817,1,84.113))
+
+/~*
+and young Watson asked what I was afraid of.
+(WATSON-1817,1,84.117)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (ADJ young) (NPR Watson))
+	  (VBD asked)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (BED was)
+			  (ADJP (ADJ afraid)
+				(PP (P of)
+				    (NP *T*-1)))))
+	  (. .))
+  (ID WATSON-1817,1,84.117))
+
+/~*
+Q. Who was young Watson?
+(WATSON-1817,1,84.118)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (ADJ young) (NPR Watson)))
+	  (. ?))
+  (ID WATSON-1817,1,84.118))
+
+/~*
+he asked me what I was afraid of;
+(WATSON-1817,1,85.123)
+*~/
+/*
+11 WNP-1:  11 WNP-1, 13 what, 10 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO he))
+	  (VBD asked)
+	  (NP-OB2 (PRO me))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (BED was)
+			  (ADJP (ADJ afraid)
+				(PP (P of)
+				    (NP *T*-1)))))
+	  (. ;))
+  (ID WATSON-1817,1,85.123))
+
+/~*
+Mr. Serjeant Copley. You have not asked him what became of the manuscript.!
+(WATSON-1817,1,86.160)
+*~/
+/*
+29 WNP-1:  29 WNP-1, 31 what, 28 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Serjeant) (NPR Copley))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (HVP have)
+	  (NEG not)
+	  (VBN asked)
+	  (NP-OB2 (PRO him))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD became)
+			  (PP (P of)
+			      (NP (D the) (N manuscript)))))
+	  (, .)
+	  (. !)
+	  (CODE {COM:sic}))
+  (ID WATSON-1817,1,86.160))
+
+/~*
+- What became of the manuscript?
+(WATSON-1817,1,86.162)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 What, 1 CP-QUE
+*/
+
+( (CP-QUE (, -)
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD became)
+		  (PP (P of)
+		      (NP (D the) (N manuscript))))
+	  (. ?))
+  (ID WATSON-1817,1,86.162))
+
+/~*
+- What was the purport of the paper?
+(WATSON-1817,1,86.167)
+*~/
+/*
+4 WNP-1:  4 WNP-1, 6 What, 1 CP-QUE
+*/
+
+( (CP-QUE (, -)
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D the)
+			  (N purport)
+			  (PP (P of)
+			      (NP (D the) (N paper)))))
+	  (. ?))
+  (ID WATSON-1817,1,86.167))
+
+/~*
+Q. What said they on your declining?
+(WATSON-1817,1,87.188)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (VBD said)
+		  (NP-SBJ (PRO they))
+		  (PP (P on)
+		      (NP (PRO$ your) (N declining))))
+	  (. ?))
+  (ID WATSON-1817,1,87.188))
+
+/~*
+Q. Which of them said that?
+(WATSON-1817,1,87.191)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 18 them, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Which)
+		 (PP (P of)
+		     (NP (PRO them))))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD said)
+		  (NP-OB1 (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,87.191))
+
+/~*
+Q. Which of them?
+(WATSON-1817,1,88.217)
+*~/
+/*
+10 WNP:  10 WNP, 18 them, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (WPRO Which)
+	       (PP (P of)
+		   (NP (PRO them))))
+	  (. ?))
+  (ID WATSON-1817,1,88.217))
+
+/~*
+Q. What day?
+(WATSON-1817,1,88.221)
+*~/
+/*
+10 WNP:  10 WNP, 14 day, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (WD What) (N day))
+	  (. ?))
+  (ID WATSON-1817,1,88.221))
+
+/~*
+Q. About what time on the Wednesday evening?
+(WATSON-1817,1,88.227)
+*~/
+/*
+10 WNP:  10 WNP, 26 evening, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (ADV About)
+	       (WD what)
+	       (N time)
+	       (PP (P on)
+		   (NP (D the) (NPR Wednesday) (N evening))))
+	  (. ?))
+  (ID WATSON-1817,1,88.227))
+
+/~*
+Q. What time was that?
+(WATSON-1817,1,88.234)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 time, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N time))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,88.234))
+
+/~*
+Q. Did you observe who any of these persons were?
+(WATSON-1817,1,89.242)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB observe)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (Q any)
+					  (PP (P of)
+					      (NP (D these) (NS persons))))
+				  (BED were))))
+	  (. ?))
+  (ID WATSON-1817,1,89.242))
+
+/~*
+A. No, I did not observe who any one of them were.
+(WATSON-1817,1,89.243)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 26 who, 23 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (INTJ No)
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (DOD did)
+	  (NEG not)
+	  (VB observe)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (Q any)
+				  (ONE one)
+				  (PP (P of)
+				      (NP (PRO them))))
+			  (BED were)))
+	  (. .))
+  (ID WATSON-1817,1,89.243))
+
+/~*
+Q. What was the day when you were desired to print the memorial to the Prince
+Regent?
+(WATSON-1817,1,89.249)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D the)
+			  (N day)
+			  (CP-REL (WADVP-2 (WADV when))
+				  (C 0)
+				  (IP-SUB (ADVP-TMP *T*-2)
+					  (NP-SBJ (PRO you))
+					  (BED were)
+					  (VAN desired)
+					  (IP-INF (TO to)
+						  (VB print)
+						  (NP-OB1 (D the)
+							  (N memorial)
+							  (PP (P to)
+							      (NP (D the) (N Prince) (N Regent)))))))))
+	  (. ?))
+  (ID WATSON-1817,1,89.249))
+
+/~*
+what did you do with the rest,
+(WATSON-1817,1,89.259)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO you))
+		  (DO do)
+		  (PP (P with)
+		      (NP (D the) (N rest))))
+	  (. ,))
+  (ID WATSON-1817,1,89.259))
+
+/~*
+Q. What curiosity led you to tell any persons that you had kept a copy of this
+bill?
+(WATSON-1817,1,89.268)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 curiosity, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N curiosity))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD led)
+		  (NP-OB1 (PRO you))
+		  (IP-INF (TO to)
+			  (VB tell)
+			  (NP-OB2 (Q any) (NS persons))
+			  (CP-THT (C that)
+				  (IP-SUB (NP-SBJ (PRO you))
+					  (HVD had)
+					  (VBN kept)
+					  (NP-OB1 (D a)
+						  (N copy)
+						  (PP (P of)
+						      (NP (D this) (N bill))))))))
+	  (. ?))
+  (ID WATSON-1817,1,89.268))
+
+/~*
+A. I $can $not say whom I first told it to;
+(WATSON-1817,1,90.275)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 24 whom, 21 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB say)
+	  (CP-QUE (WNP-1 (WPRO whom))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (ADVP-TMP (ADV first))
+			  (VBD told)
+			  (NP-OB1 (PRO it))
+			  (PP (P to)
+			      (NP *T*-1))))
+	  (. ;))
+  (ID WATSON-1817,1,90.275))
+
+/~*
+Mr. Justice Abbot. How can he know what bills there were?
+(WATSON-1817,1,91.306)
+*~/
+/*
+31 WNP-2:  31 WNP-2, 35 bills, 30 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Mr.)
+		    (NPR Justice)
+		    (NP-PRN (NPR Abbot)))
+		(, .)
+		(CODE <$$font>))
+	  (WADVP-1 (WADV How))
+	  (IP-SUB (ADVP *T*-1)
+		  (MD can)
+		  (NP-SBJ (PRO he))
+		  (VB know)
+		  (CP-QUE (WNP-2 (WD what) (NS bills))
+			  (C 0)
+			  (IP-SUB (NP-3 *T*-2)
+				  (NP-SBJ-3 (EX there))
+				  (BED were))))
+	  (. ?))
+  (ID WATSON-1817,1,91.306))
+
+/~*
+Q. Did you state to them what you have stated here?
+(WATSON-1817,1,91.312)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 what, 24 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB state)
+		  (PP (P to)
+		      (NP (PRO them)))
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO you))
+				  (HVP have)
+				  (VBN stated)
+				  (ADVP-LOC (ADV here)))))
+	  (. ?))
+  (ID WATSON-1817,1,91.312))
+
+/~*
+Q. Who took you to the Grand Jury at Hicks's Hall,
+(WATSON-1817,1,91.316)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD took)
+		  (NP-OB1 (PRO you))
+		  (PP (P to)
+		      (NP (D the) (ADJ Grand) (N Jury)))
+		  (PP (P at)
+		      (NP (NPR$ Hicks's) (NPR Hall))))
+	  (. ,))
+  (ID WATSON-1817,1,91.316))
+
+/~*
+Q. Who summoned you to attend the Grand Jury with this bill?
+(WATSON-1817,1,92.325)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD summoned)
+		  (NP-OB1 (PRO you))
+		  (IP-INF (TO to)
+			  (VB attend)
+			  (NP-OB1 (D the) (ADJ Grand) (N Jury))
+			  (PP (P with)
+			      (NP (D this) (N bill)))))
+	  (. ?))
+  (ID WATSON-1817,1,92.325))
+
+/~*
+Q. Who subpoena'd you?
+(WATSON-1817,1,92.327)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD subpoena'd)
+		  (NP-OB1 (PRO you)))
+	  (. ?))
+  (ID WATSON-1817,1,92.327))
+
+/~*
+Q. What Grand Jury was that?
+(WATSON-1817,1,92.351)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 16 Jury, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (ADJ Grand) (N Jury))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,92.351))
+
+/~*
+Q. Can you tell me what day of the month of November it was?
+(WATSON-1817,1,93.377)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 40 November, 21 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (MD Can)
+		  (NP-SBJ (PRO you))
+		  (VB tell)
+		  (NP-OB2 (PRO me))
+		  (CP-QUE (WNP-1 (WD what)
+				 (N day)
+				 (PP (P of)
+				     (NP (D the)
+					 (N month)
+					 (PP (P of)
+					     (NP (NPR November))))))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ-1 (PRO it))
+				  (BED was))))
+	  (. ?))
+  (ID WATSON-1817,1,93.377))
+
+/~*
+Q. What day of the week was that?
+(WATSON-1817,1,93.381)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 22 week, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N day)
+		 (PP (P of)
+		     (NP (D the) (N week))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,93.381))
+
+/~*
+Mr. Justice Bayley. You have not identified what Preston it was.
+(WATSON-1817,1,94.392)
+*~/
+/*
+27 WNP-1:  27 WNP-1, 31 Preston, 26 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Mr.)
+		    (NPR Justice)
+		    (NP-PRN (NPR Bayley)))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (HVP have)
+	  (NEG not)
+	  (VBN identified)
+	  (CP-QUE (WNP-1 (WD what) (NPR Preston))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (. .))
+  (ID WATSON-1817,1,94.392))
+
+/~*
+Q. Who are the persons who came along with him?
+(WATSON-1817,1,94.410)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP are)
+		  (NP-OB1 (D the)
+			  (NS persons)
+			  (CP-REL (WNP-2 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBD came)
+					  (PP (ADV along)
+					      (P with)
+					      (NP (PRO him)))))))
+	  (. ?))
+  (ID WATSON-1817,1,94.410))
+
+/~*
+Q. Who is that one?
+(WATSON-1817,1,94.412)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (D that) (ONE one)))
+	  (. ?))
+  (ID WATSON-1817,1,94.412))
+
+/~*
+A. I really $can $not say which of the three Gentlemen gave me the manuscript,
+- which of the other three Gentlemen,
+(WATSON-1817,1,95.441)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 37 Gentlemen, 24 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (ADVP (ADV really))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB say)
+	  (CP-QUE (WNP-1 (WPRO which)
+			 (PP (P of)
+			     (NP (D the) (NUM three) (ADJ+NS Gentlemen))))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD gave)
+			  (NP-OB2 (PRO me))
+			  (NP-OB1 (D the) (N manuscript)))
+		  (, ,)
+		  (, -)
+		  (CP-QUE-PRN (WNP (WPRO which)
+				   (PP (P of)
+				       (NP (D the) (OTHER other) (NUM three) (ADJ+NS Gentlemen))))))
+	  (. ,))
+  (ID WATSON-1817,1,95.441))
+
+/~*
+I do not know who they are.
+(WATSON-1817,1,96.445)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 who, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (DOP do)
+	  (NEG not)
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO they))
+			  (BEP are)))
+	  (. .))
+  (ID WATSON-1817,1,96.445))
+
+/~*
+I thought by means of Mr. Preston, I should know who the persons were that
+fetched them.
+(WATSON-1817,1,96.461)
+*~/
+/*
+35 WNP-1:  35 WNP-1, 37 who, 34 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBD thought)
+	  (CP-THT (C 0)
+		  (IP-SUB (PP (P by)
+			      (NP (N means)
+				  (PP (P of)
+				      (NP (NPR Mr.) (NPR Preston)))))
+			  (, ,)
+			  (NP-SBJ (PRO I))
+			  (MD should)
+			  (VB know)
+			  (CP-QUE (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (D the)
+						  (NS persons)
+						  (CP-REL *ICH*-2))
+					  (BED were)
+					  (CP-REL-2 (WNP-3 0)
+						    (C that)
+						    (IP-SUB (NP-SBJ *T*-3)
+							    (VBD fetched)
+							    (NP-OB1 (PRO them))))))))
+	  (. .))
+  (ID WATSON-1817,1,96.461))
+
+/~*
+Q. Do you know what quantity it was that was brought?
+(WATSON-1817,1,96.469)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 23 quantity, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (CP-QUE (WNP-1 (WD what) (N quantity))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BED was)
+				  (CP-CLF (WNP-2 0)
+					  (C that)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (BED was)
+						  (VAN brought))))))
+	  (. ?))
+  (ID WATSON-1817,1,96.469))
+
+/~*
+Q. Who made the application to you to print those bills?
+(WATSON-1817,1,97.497)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD made)
+		  (NP-OB1 (D the)
+			  (N application)
+			  (IP-INF *ICH*-2))
+		  (PP (P to)
+		      (NP (PRO you)))
+		  (IP-INF-2 (TO to)
+			    (VB print)
+			    (NP-OB1 (D those) (NS bills))))
+	  (. ?))
+  (ID WATSON-1817,1,97.497))
+
+/~*
+Mr. Wetherell. We do not know who this Mr. Castle is at present.
+(WATSON-1817,1,98.501)
+*~/
+/*
+24 WNP-1:  24 WNP-1, 26 who, 23 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Wetherell))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO We))
+	  (DOP do)
+	  (NEG not)
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D this) (NPR Mr.) (NPR Castle))
+			  (BEP is)
+			  (PP (P at)
+			      (ADJP (ADJ present)))))
+	  (. .))
+  (ID WATSON-1817,1,98.501))
+
+/~*
+Q. What was done with the rest?
+(WATSON-1817,1,99.530)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (DAN done)
+		  (PP (P with)
+		      (NP (D the) (N rest))))
+	  (. ?))
+  (ID WATSON-1817,1,99.530))
+
+/~*
+Q. Who were those individuals?
+(WATSON-1817,1,99.532)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED were)
+		  (NP-SBJ (D those) (NS individuals)))
+	  (. ?))
+  (ID WATSON-1817,1,99.532))
+
+/~*
+but I $can $not call to remembrance what conversation we had;
+(WATSON-1817,1,99.547)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 26 conversation, 21 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB call)
+	  (PP (P to)
+	      (NP (N remembrance)))
+	  (CP-QUE (WNP-1 (WD what) (N conversation))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO we))
+			  (HVD had)))
+	  (. ;))
+  (ID WATSON-1817,1,99.547))
+
+/~*
+Q. What became of the manuscript for that last bill?
+(WATSON-1817,1,100.564)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD became)
+		  (PP (P of)
+		      (NP (D the)
+			  (N manuscript)
+			  (PP (P for)
+			      (NP (D that) (ADJ last) (N bill))))))
+	  (. ?))
+  (ID WATSON-1817,1,100.564))
+
+/~*
+Q. Do you know, yourself, what has become of it?
+(WATSON-1817,1,100.566)
+*~/
+/*
+26 WNP-1:  26 WNP-1, 28 what, 25 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (, ,)
+		  (NP-PRN (PRO$+N yourself))
+		  (, ,)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (HVP has)
+				  (VBN become)
+				  (PP (P of)
+				      (NP (PRO it))))))
+	  (. ?))
+  (ID WATSON-1817,1,100.566))
+
+/~*
+nor do you know what has become of it?
+(WATSON-1817,1,100.573)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (CONJ nor)
+	  (DOP do)
+	  (NP-SBJ (PRO you))
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (HVP has)
+			  (VBN become)
+			  (PP (P of)
+			      (NP (PRO it)))))
+	  (. ?))
+  (ID WATSON-1817,1,100.573))
+
+/~*
+Q. When the first order was given you, who delivered you the manuscript;
+(WATSON-1817,1,100.575)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the) (ADJ first) (N order))
+			      (BED was)
+			      (VAN given)
+			      (NP-OB2 (PRO you)))))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD delivered)
+		  (NP-OB2 (PRO you))
+		  (NP-OB1 (D the) (N manuscript)))
+	  (. ;))
+  (ID WATSON-1817,1,100.575))
+
+/~*
+which of them it was I $can $not say,
+(WATSON-1817,1,100.579)
+*~/
+/*
+3 WNP-1:  3 WNP-1, 11 them, 2 CP-QUE
+*/
+
+( (IP-MAT (CP-QUE (WNP-1 (WPRO which)
+			 (PP (P of)
+			     (NP (PRO them))))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB say)
+	  (. ,))
+  (ID WATSON-1817,1,100.579))
+
+/~*
+Q. What have you sworn?
+(WATSON-1817,1,101.597)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVP have)
+		  (NP-SBJ (PRO you))
+		  (VBN sworn))
+	  (. ?))
+  (ID WATSON-1817,1,101.597))
+
+/~*
+Mr. Topping. Do you mean to say you do not know what became of the manuscript
+from which the last was printed?
+(WATSON-1817,1,104.655)
+*~/
+/*
+41 WNP-1:  41 WNP-1, 43 what, 40 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Topping))
+		(, .)
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB mean)
+		  (IP-INF (TO to)
+			  (VB say)
+			  (CP-THT (C 0)
+				  (IP-SUB (NP-SBJ (PRO you))
+					  (DOP do)
+					  (NEG not)
+					  (VB know)
+					  (CP-QUE (WNP-1 (WPRO what))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-1)
+							  (VBD became)
+							  (PP (P of)
+							      (NP (D the)
+								  (N manuscript)
+								  (CP-REL (WPP-2 (P from)
+										 (WNP (WPRO which)))
+									  (C 0)
+									  (IP-SUB (PP *T*-2)
+										  (NP-SBJ (D the) (ADJ last))
+										  (BED was)
+										  (VAN printed)))))))))))
+	  (. ?))
+  (ID WATSON-1817,1,104.655))
+
+/~*
+- if a witness is described as lately living at such a place, it is impossible
+for the person accused to make those enquiries which the Statute meant he
+should, as to the person to be examined respecting the matters, to which he is
+likely to be called in prosecuting the enquiry, - what the person is - what he
+is supposed to know - what his character is, and all those matters directly or
+indirectly, remotely, or nearly affecting the defence.
+(WATSON-1817,1,106.686)
+*~/
+/*
+173 WNP-5:  173 WNP-5, 175 what, 172 CP-QUE
+192 WNP-6:  192 WNP-6, 194 what, 191 CP-QUE
+216 WNP-7:  216 WNP-7, 218 what, 215 CP-QUE
+*/
+
+( (IP-MAT (, -)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D a) (N witness))
+			      (BEP is)
+			      (VAN described)
+			      (PP (P as)
+				  (IP-PPL (ADVP-TMP (ADV lately))
+					  (VAG living)
+					  (PP (P at)
+					      (NP (SUCH such) (D a) (N place))))))))
+	  (, ,)
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (ADJP (ADJ impossible))
+	  (IP-INF-1 (FOR for)
+		    (NP-SBJ (D the)
+			    (N person)
+			    (RRC (VAN accused)))
+		    (TO to)
+		    (VB make)
+		    (NP-OB1 (D those)
+			    (NS enquiries)
+			    (CP-REL (WNP-2 (WPRO which))
+				    (C 0)
+				    (IP-SUB (NP-SBJ (D the) (N Statute))
+					    (VBD meant)
+					    (CP-THT (C 0)
+						    (IP-SUB (NP-OB1 *T*-2)
+							    (NP-SBJ (PRO he))
+							    (MD should)))))
+			    (, ,)
+			    (PP (P as)
+				(PP (P to)
+				    (NP (D the)
+					(N person)
+					(CP-EOP (WNP-3 0)
+						(IP-INF (NP-SBJ *T*-3)
+							(TO to)
+							(BE be)
+							(VAN examined))))))
+			    (IP-PPL (VAG respecting)
+				    (NP-OB1 (D the)
+					    (NS matters)
+					    (, ,)
+					    (CP-REL (WPP-4 (P to)
+							   (WNP (WPRO which)))
+						    (C 0)
+						    (IP-SUB (NP-SBJ (PRO he))
+							    (BEP is)
+							    (ADJP (ADJ likely)
+								  (IP-INF (PP *T*-4)
+									  (TO to)
+									  (BE be)
+									  (VAN called)
+									  (PP (P in)
+									      (IP-PPL (VAG prosecuting)
+										      (NP-OB1 (D the) (N enquiry))))))))))
+			    (, ,)
+			    (, -)
+			    (CP-QUE-PRN (CP-QUE (WNP-5 (WPRO what))
+						(C 0)
+						(IP-SUB (NP-OB1 *T*-5)
+							(NP-SBJ (D the) (N person))
+							(BEP is)))
+					(, -)
+					(CONJP (CP-QUE (WNP-6 (WPRO what))
+						       (C 0)
+						       (IP-SUB (NP-SBJ (PRO he))
+							       (BEP is)
+							       (VAN supposed)
+							       (IP-INF (NP-OB1 *T*-6)
+								       (TO to)
+								       (VB know)))))
+					(, -)
+					(CONJP (CP-QUE (WNP-7 (WPRO what))
+						       (C 0)
+						       (IP-SUB (NP-OB1 *T*-7)
+							       (NP-SBJ (PRO$ his) (N character))
+							       (BEP is))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (NP (Q all)
+						   (D those)
+						   (NS matters)
+						   (RRC (ADVP (ADVP (ADV directly) (CONJ or) (ADV indirectly))
+							      (, ,)
+							      (CONJP (ADVP (ADV remotely) (, ,) (CONJ or) (ADV nearly))))
+							(VAG affecting)
+							(NP-OB1 (D the) (N defence))))))))
+	  (. .))
+  (ID WATSON-1817,1,106.686))
+
+/~*
+Mr. Gurney. What number was it you lived at?
+(WATSON-1817,1,107.715)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 18 number, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Gurney))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N number))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it))
+		  (CP-CLF (WNP-2 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO you))
+				  (VBD lived)
+				  (PP (P at)
+				      (NP *T*-2)))))
+	  (. ?))
+  (ID WATSON-1817,1,107.715))
+
+/~*
+Q. Which should you know?
+(WATSON-1817,1,112.836)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Which, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Which))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (MD should)
+		  (NP-SBJ (PRO you))
+		  (VB know))
+	  (. ?))
+  (ID WATSON-1817,1,112.836))
+
+/~*
+Q. What part of Spa-Fields did you go to?
+(WATSON-1817,1,112.842)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 20 Spa-Fields, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N part)
+		 (PP (P of)
+		     (NP (NPR+NPRS Spa-Fields))))
+	  (IP-SUB (DOD did)
+		  (NP-SBJ (PRO you))
+		  (VB go)
+		  (PP (P to)
+		      (NP *T*-1)))
+	  (. ?))
+  (ID WATSON-1817,1,112.842))
+
+/~*
+Q. What sort of a flag?
+(WATSON-1817,1,112.853)
+*~/
+/*
+10 WNP:  10 WNP, 22 flag, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (WD What)
+	       (N sort)
+	       (PP (P of)
+		   (NP (D a) (N flag))))
+	  (. ?))
+  (ID WATSON-1817,1,112.853))
+
+/~*
+I do not know what was upon it.
+(WATSON-1817,1,112.855)
+*~/
+/*
+12 WNP-1:  12 WNP-1, 14 what, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (DOP do)
+	  (NEG not)
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (PP (P upon)
+			      (NP (PRO it)))))
+	  (. .))
+  (ID WATSON-1817,1,112.855))
+
+/~*
+Q. Who was that?
+(WATSON-1817,1,113.861)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,113.861))
+
+/~*
+Q. What became of you?
+(WATSON-1817,1,113.883)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD became)
+		  (PP (P of)
+		      (NP (PRO you))))
+	  (. ?))
+  (ID WATSON-1817,1,113.883))
+
+/~*
+Q. Upon that, what became of the persons that were in the coach?
+(WATSON-1817,1,113.888)
+*~/
+/*
+18 WNP-1:  18 WNP-1, 20 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (PP (P Upon)
+	      (NP (D that)))
+	  (, ,)
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD became)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS persons)
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (BED were)
+					  (PP (P in)
+					      (NP (D the) (N coach))))))))
+	  (. ?))
+  (ID WATSON-1817,1,113.888))
+
+/~*
+Q. Whom did you see with him?
+(WATSON-1817,1,114.901)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Whom, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Whom))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO you))
+		  (VB see)
+		  (PP (P with)
+		      (NP (PRO him))))
+	  (. ?))
+  (ID WATSON-1817,1,114.901))
+
+/~*
+Q. Who were they?
+(WATSON-1817,1,114.911)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED were)
+		  (NP-SBJ (PRO they)))
+	  (. ?))
+  (ID WATSON-1817,1,114.911))
+
+/~*
+I $can $not see what may be the bearing of it -
+(WATSON-1817,1,115.937)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB see)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (MD may)
+			  (BE be)
+			  (NP-OB1 (D the)
+				  (N bearing)
+				  (PP (P of)
+				      (NP (PRO it))))))
+	  (. -))
+  (ID WATSON-1817,1,115.937))
+
+/~*
+Q. What do you mean by forced his way up stairs?
+(WATSON-1817,1,116.979)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB mean)
+		  (PP (P by)
+		      (QTP (VBD forced)
+			   (NP-DIR (PRO$ his) (N way))
+			   (PP (P up)
+			       (NP (NS stairs))))))
+	  (. ?))
+  (ID WATSON-1817,1,116.979))
+
+/~*
+Q. What further was done by you, or by them?
+(WATSON-1817,1,116.983)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 15 further, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What)
+		 (ADJP (ADJ further)))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (DAN done)
+		  (PP (PP (P by)
+			  (NP (PRO you)))
+		      (, ,)
+		      (CONJP (CONJ or)
+			     (PP (P by)
+				 (NP (PRO them))))))
+	  (. ?))
+  (ID WATSON-1817,1,116.983))
+
+/~*
+Q. Can you state who the persons were who did that?
+(WATSON-1817,1,117.988)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (MD Can)
+		  (NP-SBJ (PRO you))
+		  (VB state)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D the)
+					  (NS persons)
+					  (CP-REL *ICH*-2))
+				  (BED were)
+				  (CP-REL-2 (WNP-3 (WPRO who))
+					    (C 0)
+					    (IP-SUB (NP-SBJ *T*-3)
+						    (DOD did)
+						    (NP-OB1 (D that)))))))
+	  (. ?))
+  (ID WATSON-1817,1,117.988))
+
+/~*
+Q. You must not say what you were told.
+(WATSON-1817,1,117.990)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 what, 19 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (MD must)
+	  (NEG not)
+	  (VB say)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO you))
+			  (BED were)
+			  (VAN told)))
+	  (. .))
+  (ID WATSON-1817,1,117.990))
+
+/~*
+A. I $can $not say myself who the persons were.
+(WATSON-1817,1,117.991)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 who, 24 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB say)
+	  (NP-PRN (PRO$+N myself))
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (D the) (NS persons))
+			  (BED were)))
+	  (. .))
+  (ID WATSON-1817,1,117.991))
+
+/~*
+Q. What persons had you at your house beside, on the 15th of November?
+(WATSON-1817,1,117.999)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 persons, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (NS persons))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVD had)
+		  (NP-SBJ (PRO you))
+		  (PP (P at)
+		      (NP (PRO$ your) (N house)))
+		  (ADVP (ADV beside))
+		  (CODE {COM:sic})
+		  (, ,)
+		  (PP (P on)
+		      (NP (D the)
+			  (ADJ 15th)
+			  (PP (P of)
+			      (NP (NPR November))))))
+	  (. ?))
+  (ID WATSON-1817,1,117.999))
+
+/~*
+Q. What was the the part of it?
+(WATSON-1817,1,117.1011)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (NP-OB1 (D the)
+			  (D the)
+			  (N part)
+			  (PP (P of)
+			      (NP (PRO it)))))
+	  (. ?))
+  (ID WATSON-1817,1,117.1011))
+
+/~*
+Q. Be so good as to tell us what you said to him about his speaking, or not
+speaking, from your house?
+(WATSON-1817,1,119.1044)
+*~/
+/*
+29 WNP-1:  29 WNP-1, 31 what, 28 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (BEI Be)
+	  (ADJP (ADVR so)
+		(ADJ good)
+		(-PP (P as)
+		     (IP-INF (TO to)
+			     (VB tell)
+			     (NP-OB2 (PRO us))
+			     (CP-QUE (WNP-1 (WPRO what))
+				     (C 0)
+				     (IP-SUB (NP-OB1 *T*-1)
+					     (NP-SBJ (PRO you))
+					     (VBD said)
+					     (PP (P to)
+						 (NP (PRO him)))
+					     (PP (P about)
+						 (NP (PRO$ his)
+						     (N speaking)
+						     (, ,)
+						     (CONJP (CONJ or)
+							    (NX (NEG not) (N speaking)))
+						     (, ,)
+						     (PP (P from)
+							 (NP (PRO$ your) (N house))))))))))
+	  (. ?))
+  (ID WATSON-1817,1,119.1044))
+
+/~*
+but I $can $not state what it was.
+(WATSON-1817,1,119.1065)
+*~/
+/*
+16 WNP-1:  16 WNP-1, 18 what, 15 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB state)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO it))
+			  (BED was)))
+	  (. .))
+  (ID WATSON-1817,1,119.1065))
+
+/~*
+Q. What colour was it?
+(WATSON-1817,1,119.1066)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 colour, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N colour))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it)))
+	  (. ?))
+  (ID WATSON-1817,1,119.1066))
+
+/~*
+I $can $not say what colours;
+(WATSON-1817,1,119.1068)
+*~/
+/*
+14 WNP:  14 WNP, 18 colours, 13 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD $can)
+	  (NEG $not)
+	  (CODE {TEXT:cannot})
+	  (VB say)
+	  (CP-QUE (WNP (WD what) (NS colours)))
+	  (. ;))
+  (ID WATSON-1817,1,119.1068))
+
+/~*
+Q. Do you know who was the man who had the flag?
+(WATSON-1817,1,120.1075)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (BED was)
+				  (NP-SBJ (D the)
+					  (N man)
+					  (CP-REL (WNP-2 (WPRO who))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (HVD had)
+							  (NP-OB1 (D the) (N flag))))))))
+	  (. ?))
+  (ID WATSON-1817,1,120.1075))
+
+/~*
+Q. Who was the Magistrate?
+(WATSON-1817,1,120.1087)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D the) (N Magistrate)))
+	  (. ?))
+  (ID WATSON-1817,1,120.1087))
+
+/~*
+Q. What time did the business last?
+(WATSON-1817,1,120.1093)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 time, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N time))
+	  (IP-SUB (NP-MSR *T*-1)
+		  (DOD did)
+		  (NP-SBJ (D the) (N business))
+		  (VB last))
+	  (. ?))
+  (ID WATSON-1817,1,120.1093))
+
+/~*
+Q. Whom do you recollect?
+(WATSON-1817,1,121.1109)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Whom, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Whom))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB recollect))
+	  (. ?))
+  (ID WATSON-1817,1,121.1109))
+
+/~*
+Q. Who spoke besides Mr. Hunt?
+(WATSON-1817,1,121.1118)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD spoke)
+		  (PP (P besides)
+		      (NP (NPR Mr.) (NPR Hunt))))
+	  (. ?))
+  (ID WATSON-1817,1,121.1118))
+
+/~*
+Q. Do not tell us what others told you,
+(WATSON-1817,1,122.1134)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 what, 19 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (DOI Do)
+	  (NEG not)
+	  (VB tell)
+	  (NP-OB2 (PRO us))
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (OTHERS others))
+			  (VBD told)
+			  (NP-OB2 (PRO you))))
+	  (. ,))
+  (ID WATSON-1817,1,122.1134))
+
+/~*
+Q. State what you observed Preston to do there?
+(WATSON-1817,1,123.1172)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 12 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (VBI State)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ (PRO you))
+			  (VBD observed)
+			  (NP-OB1 (NPR Preston))
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (DO do)
+				  (ADVP-LOC (ADV there)))))
+	  (. ?)
+	  (CODE {COM:sic}))
+  (ID WATSON-1817,1,123.1172))
+
+/~*
+Q. What day did he propose?
+(WATSON-1817,1,124.1194)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 day, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What) (N day))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO he))
+		  (VB propose))
+	  (. ?))
+  (ID WATSON-1817,1,124.1194))
+
+/~*
+Q. Who was the chairman?
+(WATSON-1817,1,126.1249)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (NP-OB1 (D the) (N+N chairman)))
+	  (. ?))
+  (ID WATSON-1817,1,126.1249))
+
+/~*
+Q. What sort of a flag was it?
+(WATSON-1817,1,127.1298)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 22 flag, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N sort)
+		 (PP (P of)
+		     (NP (D a) (N flag))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it)))
+	  (. ?))
+  (ID WATSON-1817,1,127.1298))
+
+/~*
+Q. Do you recollect what it was?
+(WATSON-1817,1,128.1303)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB recollect)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BED was))))
+	  (. ?))
+  (ID WATSON-1817,1,128.1303))
+
+/~*
+and if you did, who was it proposed any amendment to that?
+(WATSON-1817,1,128.1312)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 who, 1 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (DOD did)
+			      (VB *))))
+	  (, ,)
+	  (WNP-1 (WPRO who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it))
+		  (CP-CLF (WNP-2 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-2)
+				  (VBD proposed)
+				  (NP-OB1 (Q any) (N amendment))
+				  (PP (P to)
+				      (NP (D that))))))
+	  (. ?))
+  (ID WATSON-1817,1,128.1312))
+
+/~*
+but who brought the paper to be printed, is not proved.
+(WATSON-1817,1,129.1344)
+*~/
+/*
+5 WNP-1:  5 WNP-1, 7 who, 4 CP-QUE-SBJ
+*/
+
+( (IP-MAT (CONJ but)
+	  (CP-QUE-SBJ (WNP-1 (WPRO who))
+		      (C 0)
+		      (IP-SUB (NP-SBJ *T*-1)
+			      (VBD brought)
+			      (NP-OB1 (D the)
+				      (N paper)
+				      (CP-EOP (WNP-2 0)
+					      (IP-INF (NP-SBJ *T*-2)
+						      (TO to)
+						      (BE be)
+						      (VAN printed))))))
+	  (, ,)
+	  (BEP is)
+	  (NEG not)
+	  (VAN proved)
+	  (. .))
+  (ID WATSON-1817,1,129.1344))
+
+/~*
+I could not tell which -
+(WATSON-1817,1,136.1476)
+*~/
+/*
+12 WNP:  12 WNP, 14 which, 11 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD could)
+	  (NEG not)
+	  (VB tell)
+	  (CP-QUE (WNP (WPRO which)))
+	  (. -))
+  (ID WATSON-1817,1,136.1476))
+
+/~*
+Q. Can you repeat to my Lord and the Jury, what he said, or any part of what
+he said, with perfect recollection.
+(WATSON-1817,1,136.1482)
+*~/
+/*
+39 WNP-1:  39 WNP-1, 41 what, 38 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (MD Can)
+		  (NP-SBJ (PRO you))
+		  (VB repeat)
+		  (PP (P to)
+		      (NP (NP (PRO$ my) (N Lord))
+			  (CONJP (CONJ and)
+				 (NP (D the) (N Jury)))))
+		  (, ,)
+		  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (VBD said)))
+			  (, ,)
+			  (CONJP (CONJ or)
+				 (NP (Q any)
+				     (N part)
+				     (PP (P of)
+					 (NP (CP-FRL (WNP-2 (WPRO what))
+						     (C 0)
+						     (IP-SUB (NP-OB1 *T*-2)
+							     (NP-SBJ (PRO he))
+							     (VBD said))))))))
+		  (, ,)
+		  (PP (P with)
+		      (NP (ADJ perfect) (N recollection))))
+	  (. .))
+  (ID WATSON-1817,1,136.1482))
+
+/~*
+Now with reference to that count it is material we should know, what this
+speech was, in order to know what those measures of the King were, which the
+conspirators proposed to compel the King to change;
+(WATSON-1817,1,139.1529)
+*~/
+/*
+41 WNP-2:  41 WNP-2, 43 what, 40 CP-QUE
+70 WNP-3:  70 WNP-3, 72 what, 69 CP-QUE
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (PP (P with)
+	      (NP (N reference)
+		  (PP (P to)
+		      (NP (D that) (N count)))))
+	  (NP-SBJ-1 (PRO it))
+	  (BEP is)
+	  (ADJP (ADJ material))
+	  (CP-THT-1 (C 0)
+		    (IP-SUB (NP-SBJ (PRO we))
+			    (MD should)
+			    (VB know)
+			    (, ,)
+			    (CP-QUE (WNP-2 (WPRO what))
+				    (C 0)
+				    (IP-SUB (NP-OB1 *T*-2)
+					    (NP-SBJ (D this) (N speech))
+					    (BED was)))))
+	  (, ,)
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB know)
+			  (CP-QUE (WNP-3 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-3)
+					  (NP-SBJ (D those)
+						  (NS measures)
+						  (PP (P of)
+						      (NP (D the) (N King)))
+						  (CP-REL *ICH*-4))
+					  (BED were)
+					  (, ,)
+					  (CP-REL-4 (WNP-5 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-OB1 *T*-5)
+							    (NP-SBJ (D the) (NS conspirators))
+							    (VBD proposed)
+							    (IP-INF-PRP (TO to)
+									(VB compel)
+									(NP-OB1 (D the) (N King))
+									(IP-INF (TO to) (VB change))))))))))
+	  (. ;))
+  (ID WATSON-1817,1,139.1529))
+
+/~*
+and I am the more satisfied in my humble conception, that it is necessary
+within the Statute of King William because, where the Treason alleged is to
+compel the King to change his measures, how can we know whether that speech is
+adapted to effect it without knowing what the speech is to which it relates.
+(WATSON-1817,1,139.1534)
+*~/
+/*
+148 WNP-3:  148 WNP-3, 150 what, 147 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (BEP am)
+	  (NP-MSR (QP (D the) (QR more)))
+	  (VAN satisfied)
+	  (PP (P in)
+	      (NP (PRO$ my)
+		  (ADJ humble)
+		  (N conception)
+		  (, ,)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (PRO it))
+				  (BEP is)
+				  (ADJP (ADJ necessary))
+				  (PP (P within)
+				      (NP (D the)
+					  (N Statute)
+					  (PP (P of)
+					      (NP (NPR King) (NPR William)))))))))
+	  (PP (P+N because)
+	      (, ,)
+	      (CP-QUE (ADVP-LOC (CP-FRL (WADVP-1 (WADV where))
+					(C 0)
+					(IP-SUB (ADVP-LOC *T*-1)
+						(NP-SBJ (D the)
+							(N Treason)
+							(RRC (VAN alleged)))
+						(BEP is)
+						(IP-INF-OB1 (TO to)
+							    (VB compel)
+							    (NP-OB1 (D the) (N King))
+							    (IP-INF (TO to)
+								    (VB change)
+								    (NP-OB1 (PRO$ his) (NS measures)))))))
+		      (, ,)
+		      (WADVP-2 (WADV how))
+		      (IP-SUB (ADVP *T*-2)
+			      (MD can)
+			      (NP-SBJ (PRO we))
+			      (VB know)
+			      (CP-QUE (WQ whether)
+				      (C 0)
+				      (IP-SUB (NP-SBJ (D that) (N speech))
+					      (BEP is)
+					      (VAN adapted)
+					      (IP-INF-PRP (TO to)
+							  (VB effect)
+							  (NP-OB1 (PRO it)))))
+			      (PP (P without)
+				  (IP-PPL (VAG knowing)
+					  (CP-QUE (WNP-3 (WPRO what))
+						  (C 0)
+						  (IP-SUB (NP-OB1 *T*-3)
+							  (NP-SBJ (D the)
+								  (N speech)
+								  (CP-REL *ICH*-4))
+							  (BEP is)
+							  (CP-REL-4 (WPP-5 (P to)
+									   (WNP (WPRO which)))
+								    (C 0)
+								    (IP-SUB (PP *T*-5)
+									    (NP-SBJ (PRO it))
+									    (VBP relates))))))))))
+	  (. .))
+  (ID WATSON-1817,1,139.1534))
+
+/~*
+and if the corpus, if I may so call it, of the treason, consist in a speech
+made, which speech made is to bring about the death of the King, which death
+of the King is to be carried into effect by force; within the meaning of the
+statute of King William, how can the party know what the overt act charged
+upon him, is, unless the substance of the speech is set out upon the record?
+(WATSON-1817,1,140.1541)
+*~/
+/*
+194 WNP-5:  194 WNP-5, 196 what, 193 CP-QUE
+*/
+
+( (CP-QUE (CONJ and)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (D the)
+				      (CODE <font>)
+				      (N corpus)
+				      (, ,)
+				      (CODE <$$font>)
+				      (PP-PRN (P if)
+					      (CP-ADV (C 0)
+						      (IP-SUB (NP-SBJ (PRO I))
+							      (MD may)
+							      (ADVP-1 (ADV so))
+							      (VB call)
+							      (IP-SMC (ADVP *ICH*-1)
+								      (NP-SBJ (PRO it))))))
+				      (, ,)
+				      (PP (P of)
+					  (NP (D the) (N treason))))
+			      (, ,)
+			      (VBP consist)
+			      (PP (P in)
+				  (NP (D a)
+				      (N speech)
+				      (RRC (VAN made))))
+			      (, ,)
+			      (CP-CAR (WNP-2 (WD which)
+					     (N speech)
+					     (RRC (VAN made)))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-2)
+					      (BEP is)
+					      (IP-INF-PRP (TO to)
+							  (VB bring)
+							  (RP about)
+							  (NP-OB1 (D the)
+								  (N death)
+								  (PP (P of)
+								      (NP (D the) (N King))))
+							  (, ,)
+							  (CP-CAR (WNP-3 (WD which)
+									 (N death)
+									 (PP (P of)
+									     (NP (D the) (N King))))
+								  (C 0)
+								  (IP-SUB (NP-SBJ *T*-3)
+									  (BEP is)
+									  (IP-INF-OB1 (TO to)
+										      (BE be)
+										      (VAN carried)
+										      (PP (P into)
+											  (NP (N effect)))
+										      (PP (P by)
+											  (NP (N force))))))))))))
+	  (, ;)
+	  (PP (P within)
+	      (NP (D the)
+		  (N meaning)
+		  (PP (P of)
+		      (NP (D the)
+			  (N statute)
+			  (PP (P of)
+			      (NP (NPR King) (NPR William)))))))
+	  (, ,)
+	  (WADVP-4 (WADV how))
+	  (IP-SUB (ADVP *T*-4)
+		  (MD can)
+		  (NP-SBJ (D the) (N party))
+		  (VB know)
+		  (CP-QUE (WNP-5 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-5)
+				  (NP-SBJ (D the)
+					  (ADJ overt)
+					  (N act)
+					  (RRC (VAN charged)
+					       (PP (P upon)
+						   (NP (PRO him)))))
+				  (, ,)
+				  (BEP is)))
+		  (, ,)
+		  (PP (P unless)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D the)
+					      (N substance)
+					      (PP (P of)
+						  (NP (D the) (N speech))))
+				      (BEP is)
+				      (VAN set)
+				      (RP out)
+				      (PP (P upon)
+					  (NP (D the) (N record)))))))
+	  (. ?))
+  (ID WATSON-1817,1,140.1541))
+
+/~*
+and then the contents of the letters are only evidence of what that overt act
+is,
+(WATSON-1817,1,140.1551)
+*~/
+/*
+31 WNP-1:  31 WNP-1, 33 what, 30 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP (ADV then))
+	  (NP-SBJ (D the)
+		  (NS contents)
+		  (PP (P of)
+		      (NP (D the) (NS letters))))
+	  (BEP are)
+	  (NP-OB1 (FP only)
+		  (N evidence)
+		  (PP (P of)
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-OB1 *T*-1)
+				      (NP-SBJ (D that) (ADJ overt) (N act))
+				      (BEP is)))))
+	  (. ,))
+  (ID WATSON-1817,1,140.1551))
+
+/~*
+for they may shew the very nature of that conspiracy, and what the people were
+to do in consequence of those proceedings.
+(WATSON-1817,1,142.1570)
+*~/
+/*
+33 WNP-1:  33 WNP-1, 35 what, 32 CP-QUE
+*/
+
+( (IP-MAT (CONJ for)
+	  (NP-SBJ (PRO they))
+	  (MD may)
+	  (VB shew)
+	  (NP-OB1 (NP (D the)
+		      (ADJ very)
+		      (N nature)
+		      (PP (P of)
+			  (NP (D that) (N conspiracy))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-1 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-SBJ (D the) (NS people))
+					 (BED were)
+					 (IP-INF (NP-OB1 *T*-1)
+						 (TO to)
+						 (DO do)
+						 (PP (P in)
+						     (NP (N consequence)
+							 (PP (P of)
+							     (NP (D those) (NS proceedings))))))))))
+	  (. .))
+  (ID WATSON-1817,1,142.1570))
+
+/~*
+A. I did not see who jumped out of the waggon first,
+(WATSON-1817,1,148.1747)
+*~/
+/*
+20 WNP-1:  20 WNP-1, 22 who, 19 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N A.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO I))
+	  (DOD did)
+	  (NEG not)
+	  (VB see)
+	  (CP-QUE (WNP-1 (WPRO who))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (VBD jumped)
+			  (PP (RP out)
+			      (P of)
+			      (NP (D the) (N waggon)))
+			  (ADVP-TMP (ADV first))))
+	  (. ,))
+  (ID WATSON-1817,1,148.1747))
+
+/~*
+Q. Which was that?
+(WATSON-1817,1,149.1764)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Which, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Which))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,149.1764))
+
+/~*
+Q. What is he?
+(WATSON-1817,1,149.1774)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP is)
+		  (NP-SBJ (PRO he)))
+	  (. ?))
+  (ID WATSON-1817,1,149.1774))
+
+/~*
+Q. Did you see what Mr. Stafford did?
+(WATSON-1817,1,149.1776)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 what, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB see)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR Mr.) (NPR Stafford))
+				  (DOD did))))
+	  (. ?))
+  (ID WATSON-1817,1,149.1776))
+
+/~*
+Q. Do you know who was carrying the banner, or the flag, not in Watson's hand?
+(WATSON-1817,1,150.1779)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (VAG carrying)
+				  (NP-OB1 (NP (D the) (N banner))
+					  (, ,)
+					  (CONJP (CONJ or)
+						 (NP (D the) (N flag)))
+					  (, ,)
+					  (RRC (NEG not)
+					       (PP (P in)
+						   (NP (NPR$ Watson's) (N hand))))))))
+	  (. ?))
+  (ID WATSON-1817,1,150.1779))
+
+/~*
+Q. Which Watson?
+(WATSON-1817,1,150.1788)
+*~/
+/*
+10 WNP:  10 WNP, 14 Watson, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (WD Which) (NPR Watson))
+	  (. ?))
+  (ID WATSON-1817,1,150.1788))
+
+/~*
+Q. What was the cry of the mob at the time they went off?
+(WATSON-1817,1,150.1793)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (NP-OB1 (D the)
+			  (N cry)
+			  (PP (P of)
+			      (NP (D the) (N mob))))
+		  (PP (P at)
+		      (NP (D the)
+			  (N time)
+			  (CP-REL (WADVP-2 0)
+				  (C 0)
+				  (IP-SUB (ADVP-TMP *T*-2)
+					  (NP-SBJ (PRO they))
+					  (VBD went)
+					  (RP off))))))
+	  (. ?))
+  (ID WATSON-1817,1,150.1793))
+
+/~*
+Mr. Wetherell. Tell us what you saw not what you thought.
+(WATSON-1817,1,151.1806)
+*~/
+/*
+21 WNP-1:  21 WNP-1, 23 what, 20 CP-QUE
+38 WNP-2:  38 WNP-2, 40 what, 35 CP-QUE
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Wetherell))
+		(, .)
+		(CODE <$$font>))
+	  (VBI Tell)
+	  (NP-OB2 (PRO us))
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO you))
+				  (VBD saw)))
+		  (CONJP (CP-QUE (NEG not)
+				 (WNP-2 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-OB1 *T*-2)
+					 (NP-SBJ (PRO you))
+					 (VBD thought)))))
+	  (. .)
+	  (CODE {COM:sic}))
+  (ID WATSON-1817,1,151.1806))
+
+/~*
+Mr. Attorney General. What did you see?
+(WATSON-1817,1,151.1809)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Mr.)
+		    (N Attorney)
+		    (ADJP (ADJ General)))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO you))
+		  (VB see))
+	  (. ?))
+  (ID WATSON-1817,1,151.1809))
+
+/~*
+Q. Did you afterwards go towards the City for the purpose of seeing what was
+doing?
+(WATSON-1817,1,151.1816)
+*~/
+/*
+44 WNP-1:  44 WNP-1, 46 what, 43 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (ADVP-TMP (ADV+WARD afterwards))
+		  (VB go)
+		  (PP (P towards)
+		      (NP (D the) (NPR City)))
+		  (PP (P for)
+		      (NP (D the)
+			  (N purpose)
+			  (PP (P of)
+			      (IP-PPL (VAG seeing)
+				      (CP-QUE (WNP-1 (WPRO what))
+					      (C 0)
+					      (IP-SUB (NP-SBJ *T*-1)
+						      (BED was)
+						      (DAG doing))))))))
+	  (. ?))
+  (ID WATSON-1817,1,151.1816))
+
+/~*
+Q. Which way did you go into the city?
+(WATSON-1817,1,152.1833)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 way, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD Which) (N way))
+	  (IP-SUB (NP-DIR *T*-1)
+		  (DOD did)
+		  (NP-SBJ (PRO you))
+		  (VB go)
+		  (PP (P into)
+		      (NP (D the) (N city))))
+	  (. ?))
+  (ID WATSON-1817,1,152.1833))
+
+/~*
+Q. What are Brander and Potts?
+(WATSON-1817,1,152.1848)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BEP are)
+		  (NP-SBJ (NPR Brander)
+			  (CONJP (CONJ and)
+				 (NX (NPR Potts)))))
+	  (. ?))
+  (ID WATSON-1817,1,152.1848))
+
+/~*
+Mr. Attorney General. What do you mean by a carronade?
+(WATSON-1817,1,153.1868)
+*~/
+/*
+17 WNP-1:  17 WNP-1, 19 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Mr.)
+		    (N Attorney)
+		    (ADJP (ADJ General)))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB mean)
+		  (PP (P by)
+		      (NP (D a) (N carronade))))
+	  (. ?))
+  (ID WATSON-1817,1,153.1868))
+
+/~*
+Q. Do you know who any of the people were who called out, "To Spa Fields,"
+from among the mob?
+(WATSON-1817,1,154.1907)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (Q any)
+					  (PP (P of)
+					      (NP (D the)
+						  (NS people)
+						  (CP-REL *ICH*-2))))
+				  (BED were)
+				  (CP-REL-2 (WNP-3 (WPRO who))
+					    (C 0)
+					    (IP-SUB (NP-SBJ *T*-3)
+						    (VBD called)
+						    (RP out)
+						    (, ,)
+						    (" ")
+						    (QTP (PP (P To)
+							     (NP (NPR Spa) (NPRS Fields))))
+						    (, ,)
+						    (" ")
+						    (PP (P from)
+							(PP (P among)
+							    (NP (D the) (N mob)))))))))
+	  (. ?))
+  (ID WATSON-1817,1,154.1907))
+
+/~*
+- It is perhaps unnecessary to state what attendances I had afterwards.
+(WATSON-1817,1,155.1933)
+*~/
+/*
+21 WNP-2:  21 WNP-2, 25 attendances, 20 CP-QUE
+*/
+
+( (IP-MAT (, -)
+	  (NP-SBJ-1 (PRO It))
+	  (BEP is)
+	  (ADVP (ADV perhaps))
+	  (ADJP (ADJ unnecessary))
+	  (IP-INF-1 (TO to)
+		    (VB state)
+		    (CP-QUE (WNP-2 (WD what) (NS attendances))
+			    (C 0)
+			    (IP-SUB (NP-OB1 *T*-2)
+				    (NP-SBJ (PRO I))
+				    (HVD had)
+				    (ADVP-TMP (ADV+WARD afterwards)))))
+	  (. .))
+  (ID WATSON-1817,1,155.1933))
+
+/~*
+Q. Who spoke to you upon the subject?
+(WATSON-1817,1,156.1967)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD spoke)
+		  (PP (P to)
+		      (NP (PRO you)))
+		  (PP (P upon)
+		      (NP (D the) (N subject))))
+	  (. ?))
+  (ID WATSON-1817,1,156.1967))
+
+/~*
+Q. Who left it to your discretion?
+(WATSON-1817,1,157.1970)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD left)
+		  (NP-OB1 (PRO it))
+		  (PP (P to)
+		      (NP (PRO$ your) (N discretion))))
+	  (. ?))
+  (ID WATSON-1817,1,157.1970))
+
+/~*
+Q. Who desired you to attend on the 2nd of December?
+(WATSON-1817,1,157.1979)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD desired)
+		  (NP-OB1 (PRO you))
+		  (IP-INF (TO to)
+			  (VB attend)
+			  (PP (P on)
+			      (NP (D the)
+				  (ADJ 2nd)
+				  (PP (P of)
+				      (NP (NPR December)))))))
+	  (. ?))
+  (ID WATSON-1817,1,157.1979))
+
+/~*
+Q. Then what is the ground of your claim for wages?
+(WATSON-1817,1,157.1984)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (ADVP (ADV Then))
+	  (WNP-1 (WPRO what))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (D the)
+			  (N ground)
+			  (PP (P of)
+			      (NP (PRO$ your)
+				  (N claim)
+				  (PP (P for)
+				      (NP (NS wages)))))))
+	  (. ?))
+  (ID WATSON-1817,1,157.1984))
+
+/~*
+Q. Who is Mr. Green?
+(WATSON-1817,1,158.2002)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BEP is)
+		  (NP-OB1 (NPR Mr.) (NPR Green)))
+	  (. ?))
+  (ID WATSON-1817,1,158.2002))
+
+/~*
+Mr. Justice Abbott. If I am not very much mistaken, whether the person had
+said that he gave information, either to a member of government, or to some
+person, with a view to the communication being made in either case, the
+counsel were not warranted to ask that witness who that person was, whether he
+was a member of government or not.
+(WATSON-1817,1,158.2014)
+*~/
+/*
+154 WNP-1:  154 WNP-1, 156 who, 153 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Justice) (NPR Abbott))
+		(, .)
+		(CODE <$$font>))
+	  (PP (P If)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (BEP am)
+			      (NEG not)
+			      (ADJP (QP (ADV very) (Q much))
+				    (VAN mistaken)))))
+	  (, ,)
+	  (CP-QUE-ADV (WQ whether)
+		      (C 0)
+		      (IP-SUB (NP-SBJ (D the) (N person))
+			      (HVD had)
+			      (VBN said)
+			      (CP-THT (C that)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (VBD gave)
+					      (NP-OB1 (N information))
+					      (, ,)
+					      (PP (CONJ either)
+						  (PP (P to)
+						      (NP (D a)
+							  (N member)
+							  (PP (P of)
+							      (NP (N government)))))
+						  (, ,)
+						  (CONJP (CONJ or)
+							 (PP (P to)
+							     (NP (Q some) (N person)))))
+					      (, ,)
+					      (PP (P with)
+						  (NP (D a)
+						      (N view)
+						      (PP (P to)
+							  (IP-PPL (NP-SBJ (D the) (N communication))
+								  (BAG being)
+								  (VAN made)
+								  (PP (P in)
+								      (NP (Q either) (N case)))))))))))
+	  (, ,)
+	  (NP-SBJ (D the) (N counsel))
+	  (BED were)
+	  (NEG not)
+	  (VAN warranted)
+	  (IP-INF (TO to)
+		  (VB ask)
+		  (NP-OB2 (D that) (N witness))
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (D that) (N person))
+				  (BED was))
+			  (, ,)
+			  (CP-QUE-PRN (WQ whether)
+				      (C 0)
+				      (IP-SUB (IP-SUB-2 (NP-SBJ (PRO he))
+							(BED was)
+							(NP-OB1 (D a)
+								(N member)
+								(PP (P of)
+								    (NP (N government)))))
+					      (CONJP (CONJ or)
+						     (IP-SUB=2 (NEG not)))))))
+	  (. .))
+  (ID WATSON-1817,1,158.2014))
+
+/~*
+one of the witnesses however conceiving their views to be dangerous, had
+consulted a private friend what steps he should pursue, who advised him to
+communicate the information to government -
+(WATSON-1817,1,159.2021)
+*~/
+/*
+48 WNP-1:  48 WNP-1, 52 steps, 47 CP-QUE
+*/
+
+( (IP-MAT (NP-SBJ (ONE one)
+		  (PP (P of)
+		      (NP (D the) (NS witnesses))))
+	  (ADVP (WADV+ADV however))
+	  (IP-PPL (VAG conceiving)
+		  (IP-INF (NP-SBJ (PRO$ their) (NS views))
+			  (TO to)
+			  (BE be)
+			  (ADJP (ADJ dangerous))))
+	  (, ,)
+	  (HVD had)
+	  (VBN consulted)
+	  (NP-OB2 (D a)
+		  (ADJ private)
+		  (N friend)
+		  (CP-REL *ICH*-2))
+	  (CP-QUE (WNP-1 (WD what) (NS steps))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO he))
+			  (MD should)
+			  (VB pursue)))
+	  (, ,)
+	  (CP-REL-2 (WNP-3 (WPRO who))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-3)
+			    (VBD advised)
+			    (NP-OB1 (PRO him))
+			    (IP-INF (TO to)
+				    (VB communicate)
+				    (NP-OB1 (D the) (N information))
+				    (PP (P to)
+					(NP (N government))))))
+	  (. -))
+  (ID WATSON-1817,1,159.2021))
+
+/~*
+Lord Chief Justice Eyre, "He has said what is proper and material for your
+purpose,
+(WATSON-1817,1,161.2078)
+*~/
+/*
+29 WNP-1:  29 WNP-1, 31 what, 28 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lord)
+		    (NPR Chief)
+		    (NPR Justice)
+		    (NP-PRN (NPR Eyre)))
+		(, ,)
+		(CODE <$$font>))
+	  (" ")
+	  (NP-SBJ (PRO He))
+	  (HVP has)
+	  (VBN said)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BEP is)
+			  (ADJP (ADJ proper)
+				(CONJ and)
+				(ADJ material)
+				(PP (P for)
+				    (NP (PRO$ your) (N purpose))))))
+	  (. ,))
+  (ID WATSON-1817,1,161.2078))
+
+/~*
+- "What sort of connexion had you with him?"
+(WATSON-1817,1,162.2087)
+*~/
+/*
+6 WNP-1:  6 WNP-1, 16 connexion, 1 CP-QUE
+*/
+
+( (CP-QUE (, -)
+	  (" ")
+	  (WNP-1 (WD What)
+		 (N sort)
+		 (PP (P of)
+		     (NP (N connexion))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (HVD had)
+		  (NP-SBJ (PRO you))
+		  (PP (P with)
+		      (NP (PRO him))))
+	  (. ?)
+	  (" "))
+  (ID WATSON-1817,1,162.2087))
+
+/~*
+Q. What time of the day was it, to the best of your recollection, when the
+speeches finished on the second of December?
+(WATSON-1817,1,163.2129)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 22 day, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N time)
+		 (PP (P of)
+		     (NP (D the) (N day))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it))
+		  (, ,)
+		  (PP (P to)
+		      (NP (D the)
+			  (ADJS best)
+			  (PP (P of)
+			      (NP (PRO$ your) (N recollection)))))
+		  (, ,)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D the) (NS speeches))
+				      (VBD finished)
+				      (PP (P on)
+					  (NP (D the)
+					      (ADJ second)
+					      (PP (P of)
+						  (NP (NPR December)))))))))
+	  (. ?))
+  (ID WATSON-1817,1,163.2129))
+
+/~*
+Q. Who else spoke besides the two Watsons?
+(WATSON-1817,1,164.2134)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 15 else, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who)
+		 (ADJP (ADJ else)))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBP spoke)
+		  (PP (P besides)
+		      (NP (D the) (NUM two) (NPRS Watsons))))
+	  (. ?))
+  (ID WATSON-1817,1,164.2134))
+
+/~*
+Mr. Wetherell. Who were those magistrates?
+(WATSON-1817,1,165.2176)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (NPR Mr.) (NPR Wetherell))
+		(, .)
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED were)
+		  (NP-OB1 (D those) (NS magistrates)))
+	  (. ?))
+  (ID WATSON-1817,1,165.2176))
+
+/~*
+Lord Ellenborough. You may certainly enquire what magistrates were on the spot,
+(WATSON-1817,1,165.2182)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 29 magistrates, 24 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lord) (NPR Ellenborough))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (MD may)
+	  (ADVP (ADV certainly))
+	  (VB enquire)
+	  (CP-QUE (WNP-1 (WD what) (NS magistrates))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED were)
+			  (PP (P on)
+			      (NP (D the) (N spot)))))
+	  (. ,))
+  (ID WATSON-1817,1,165.2182))
+
+/~*
+what magistrates were there in Spa Fields -
+(WATSON-1817,1,165.2187)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 6 magistrates, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WD what) (NS magistrates))
+	  (IP-SUB (NP-2 *T*-1)
+		  (BED were)
+		  (NP-SBJ-2 (EX there))
+		  (PP (P in)
+		      (NP (NPR Spa) (NPRS Fields))))
+	  (. -))
+  (ID WATSON-1817,1,165.2187))
+
+/~*
+Q. Who were they?
+(WATSON-1817,1,166.2191)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED were)
+		  (NP-SBJ (PRO they)))
+	  (. ?))
+  (ID WATSON-1817,1,166.2191))
+
+/~*
+Q. Now without asking you what passed between you and the magistrates, when
+you had heard the speeches, you went to the magistrates?
+(WATSON-1817,1,166.2199)
+*~/
+/*
+23 WNP-1:  23 WNP-1, 25 what, 22 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (ADVP (ADV Now))
+	  (PP (P without)
+	      (IP-PPL (VAG asking)
+		      (NP-OB2 (PRO you))
+		      (CP-QUE (WNP-1 (WPRO what))
+			      (C 0)
+			      (IP-SUB (NP-SBJ *T*-1)
+				      (VBD passed)
+				      (PP (P between)
+					  (NP (NP (PRO you))
+					      (CONJP (CONJ and)
+						     (NP (D the) (NS magistrates)))))))))
+	  (, ,)
+	  (PP (P when)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (HVD had)
+			      (VBN heard)
+			      (NP-OB1 (D the) (NS speeches)))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (VBD went)
+	  (PP (P to)
+	      (NP (D the) (NS magistrates)))
+	  (. ?))
+  (ID WATSON-1817,1,166.2199))
+
+/~*
+Q. What were the colours of the flag?
+(WATSON-1817,1,167.2228)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED were)
+		  (NP-SBJ (D the)
+			  (NS colours)
+			  (PP (P of)
+			      (NP (D the) (N flag)))))
+	  (. ?))
+  (ID WATSON-1817,1,167.2228))
+
+/~*
+Mr. Solicitor General. My Lord, I apprehend it is not competent to my learned
+Friend to ask him what he deposed before the Grand Jury.
+(WATSON-1817,1,168.2278)
+*~/
+/*
+62 WNP-2:  62 WNP-2, 64 what, 61 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Mr.)
+		    (N Solicitor)
+		    (ADJP (ADJ General)))
+		(, .)
+		(CODE <$$font>))
+	  (NP-VOC (PRO$ My) (N Lord))
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP apprehend)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ-1 (PRO it))
+			  (BEP is)
+			  (NEG not)
+			  (ADJP (ADJ competent)
+				(PP (P to)
+				    (NP (PRO$ my) (ADJ learned) (N Friend))))
+			  (IP-INF-1 (TO to)
+				    (VB ask)
+				    (NP-OB2 (PRO him))
+				    (CP-QUE (WNP-2 (WPRO what))
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-2)
+						    (NP-SBJ (PRO he))
+						    (VBD deposed)
+						    (PP (P before)
+							(NP (D the) (ADJ Grand) (N Jury))))))))
+	  (. .))
+  (ID WATSON-1817,1,168.2278))
+
+/~*
+and I was desirous of acquainting his Lordship who I was, and what I was,
+(WATSON-1817,1,171.2330)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 who, 24 CP-QUE
+44 WNP-2:  44 WNP-2, 46 what, 43 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (BED was)
+	  (ADJP (ADJ desirous)
+		(PP (P of)
+		    (IP-PPL (VAG acquainting)
+			    (NP-OB1 (PRO$ his) (N Lordship))
+			    (CP-QUE (CP-QUE (WNP-1 (WPRO who))
+					    (C 0)
+					    (IP-SUB (NP-OB1 *T*-1)
+						    (NP-SBJ (PRO I))
+						    (BED was)))
+				    (, ,)
+				    (CONJP (CONJ and)
+					   (CP-QUE (WNP-2 (WPRO what))
+						   (C 0)
+						   (IP-SUB (NP-OB1 *T*-2)
+							   (NP-SBJ (PRO I))
+							   (BED was))))))))
+	  (. ,))
+  (ID WATSON-1817,1,171.2330))
+
+/~*
+and kindly explained who I was, and what I was.
+(WATSON-1817,1,171.2334)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 15 who, 12 CP-QUE
+32 WNP-2:  32 WNP-2, 34 what, 31 CP-QUE
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (ADVP (ADV kindly))
+	  (VBD explained)
+	  (CP-QUE (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (BED was)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-QUE (WNP-2 (WPRO what))
+				 (C 0)
+				 (IP-SUB (NP-OB1 *T*-2)
+					 (NP-SBJ (PRO I))
+					 (BED was)))))
+	  (. .))
+  (ID WATSON-1817,1,171.2334))
+
+/~*
+Q. You have been asked, what were the particular words upon the banner -
+(WATSON-1817,1,171.2338)
+*~/
+/*
+22 WNP-1:  22 WNP-1, 24 what, 21 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (HVP have)
+	  (BEN been)
+	  (VAN asked)
+	  (, ,)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED were)
+			  (NP-OB1 (D the) (ADJ particular) (NS words))
+			  (PP (P upon)
+			      (NP (D the) (N banner)))))
+	  (. -))
+  (ID WATSON-1817,1,171.2338))
+
+/~*
+Q. Several what?
+(WATSON-1817,1,176.2448)
+*~/
+/*
+10 WNP:  10 WNP, 14 what, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP (Q Several) (WPRO what))
+	  (. ?))
+  (ID WATSON-1817,1,176.2448))
+
+/~*
+Q. What sort of a flag was it?
+(WATSON-1817,1,176.2455)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 22 flag, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N sort)
+		 (PP (P of)
+		     (NP (D a) (N flag))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it)))
+	  (. ?))
+  (ID WATSON-1817,1,176.2455))
+
+/~*
+Q. Which way were they proceeding?
+(WATSON-1817,1,177.2462)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 way, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD Which) (N way))
+	  (IP-SUB (NP-DIR *T*-1)
+		  (BED were)
+		  (NP-SBJ (PRO they))
+		  (VAG proceeding))
+	  (. ?))
+  (ID WATSON-1817,1,177.2462))
+
+/~*
+Q. Who was carrying the flag?
+(WATSON-1817,1,177.2466)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (VAG carrying)
+		  (NP-OB1 (D the) (N flag)))
+	  (. ?))
+  (ID WATSON-1817,1,177.2466))
+
+/~*
+Q. What was done when they came to Spa Fields?
+(WATSON-1817,1,177.2472)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (DAN done)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO they))
+				      (VBD came)
+				      (PP (P to)
+					  (NP (NPR Spa) (NPRS Fields)))))))
+	  (. ?))
+  (ID WATSON-1817,1,177.2472))
+
+/~*
+but I did not hear what was said.
+(WATSON-1817,1,177.2480)
+*~/
+/*
+14 WNP-1:  14 WNP-1, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (DOD did)
+	  (NEG not)
+	  (VB hear)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-SBJ *T*-1)
+			  (BED was)
+			  (VAN said)))
+	  (. .))
+  (ID WATSON-1817,1,177.2480))
+
+/~*
+Q. Did you observe who spoke from the waggon
+(WATSON-1817,1,177.2481)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB observe)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD spoke)
+				  (PP (P from)
+				      (NP (D the) (N waggon))))))
+	  (CODE {COM:no_question_mark}))
+  (ID WATSON-1817,1,177.2481))
+
+/~*
+Q. Did you observe who was the person who spoke from the waggon?
+(WATSON-1817,1,177.2485)
+*~/
+/*
+19 WNP-1:  19 WNP-1, 21 who, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB observe)
+		  (CP-QUE (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (NP-OB1 (D the)
+					  (N person)
+					  (CP-REL (WNP-2 (WPRO who))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (VBD spoke)
+							  (PP (P from)
+							      (NP (D the) (N waggon)))))))))
+	  (. ?))
+  (ID WATSON-1817,1,177.2485))
+
+/~*
+Q. You say you did not hear distinctly what was said -
+(WATSON-1817,1,178.2499)
+*~/
+/*
+32 WNP-1:  32 WNP-1, 34 what, 31 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (VBP say)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO you))
+			  (DOD did)
+			  (NEG not)
+			  (VB hear)
+			  (ADVP (ADV distinctly))
+			  (CP-QUE (WNP-1 (WPRO what))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-1)
+					  (BED was)
+					  (VAN said)))))
+	  (. -))
+  (ID WATSON-1817,1,178.2499))
+
+/~*
+Q. What was the conclusion of his speech you heard?
+(WATSON-1817,1,178.2502)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D the)
+			  (N conclusion)
+			  (PP (P of)
+			      (NP (PRO$ his)
+				  (N speech)
+				  (CP-REL (WNP-2 0)
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-2)
+						  (NP-SBJ (PRO you))
+						  (VBD heard)))))))
+	  (. ?))
+  (ID WATSON-1817,1,178.2502))
+
+/~*
+Q. Who said they would?
+(WATSON-1817,1,178.2506)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD said)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (PRO they))
+				  (MD would)
+				  (VB *))))
+	  (. ?))
+  (ID WATSON-1817,1,178.2506))
+
+/~*
+Q. Did you observe which way?
+(WATSON-1817,1,178.2516)
+*~/
+/*
+19 WNP:  19 WNP, 23 way, 18 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB observe)
+		  (CP-QUE (WNP (WD which) (N way))))
+	  (. ?))
+  (ID WATSON-1817,1,178.2516))
+
+/~*
+Q. Who were going out of the Field?
+(WATSON-1817,1,178.2518)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 Who, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO Who))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED were)
+		  (VAG going)
+		  (PP (RP out)
+		      (P of)
+		      (NP (D the) (N Field))))
+	  (. ?))
+  (ID WATSON-1817,1,178.2518))
+
+/~*
+but I do not know what.
+(WATSON-1817,179.2532)
+*~/
+/*
+14 WNP:  14 WNP, 16 what, 13 CP-QUE
+*/
+
+( (IP-MAT (CONJ but)
+	  (NP-SBJ (PRO I))
+	  (DOP do)
+	  (NEG not)
+	  (VB know)
+	  (CP-QUE (WNP (WPRO what)))
+	  (. .))
+  (ID WATSON-1817,179.2532))
+
+/~*
+- Did you observe which way they went?
+(WATSON-1817,179.2539)
+*~/
+/*
+13 WNP-1:  13 WNP-1, 17 way, 12 CP-QUE
+*/
+
+( (CP-QUE (, -)
+	  (IP-SUB (DOD Did)
+		  (NP-SBJ (PRO you))
+		  (VB observe)
+		  (CP-QUE (WNP-1 (WD which) (N way))
+			  (C 0)
+			  (IP-SUB (NP-DIR *T*-1)
+				  (NP-SBJ (PRO they))
+				  (VBD went))))
+	  (. ?))
+  (ID WATSON-1817,179.2539))
+
+/~*
+Q. Were you present when the speech began, though you could not distinctly
+hear what the speech was?
+(WATSON-1817,1,180.2567)
+*~/
+/*
+55 WNP-1:  55 WNP-1, 57 what, 54 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (IP-SUB (BED Were)
+		  (NP-SBJ (PRO you))
+		  (ADJP (ADJ present))
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D the) (N speech))
+				      (VBD began))))
+		  (, ,)
+		  (PP (P though)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (PRO you))
+				      (MD could)
+				      (NEG not)
+				      (ADVP (ADV distinctly))
+				      (VB hear)
+				      (CP-QUE (WNP-1 (WPRO what))
+					      (C 0)
+					      (IP-SUB (NP-OB1 *T*-1)
+						      (NP-SBJ (D the) (N speech))
+						      (BED was)))))))
+	  (. ?))
+  (ID WATSON-1817,1,180.2567))
+
+/~*
+Q. What were the interruptions and noise that were made by the people standing
+round?
+(WATSON-1817,1,181.2590)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED were)
+		  (NP-OB1 (D the)
+			  (NS interruptions)
+			  (CONJP (CONJ and)
+				 (NX (N noise)))
+			  (CP-REL (WNP-2 0)
+				  (C that)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (BED were)
+					  (VAN made)
+					  (PP (P by)
+					      (NP (D the)
+						  (NS people)
+						  (RRC (VAG standing)
+						       (ADVP-LOC (ADV round)))))))))
+	  (. ?))
+  (ID WATSON-1817,1,181.2590))
+
+/~*
+Q. What was going on at the other part of the field?
+(WATSON-1817,1,181.2600)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (BED was)
+		  (VAG going)
+		  (RP on)
+		  (PP (P at)
+		      (NP (D the)
+			  (OTHER other)
+			  (N part)
+			  (PP (P of)
+			      (NP (D the) (N field))))))
+	  (. ?))
+  (ID WATSON-1817,1,181.2600))
+
+/~*
+what was that?
+(WATSON-1817,1,181.2607)
+*~/
+/*
+2 WNP-1:  2 WNP-1, 4 what, 1 CP-QUE
+*/
+
+( (CP-QUE (WNP-1 (WPRO what))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D that)))
+	  (. ?))
+  (ID WATSON-1817,1,181.2607))
+
+/~*
+Q. You did not endeavour to see what it was?
+(WATSON-1817,1,181.2618)
+*~/
+/*
+25 WNP-1:  25 WNP-1, 27 what, 24 CP-QUE
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (NP-SBJ (PRO You))
+	  (DOD did)
+	  (NEG not)
+	  (VB endeavour)
+	  (IP-INF (TO to)
+		  (VB see)
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BED was))))
+	  (. ?))
+  (ID WATSON-1817,1,181.2618))
+
+/~*
+Q. What sort of a frame was it?
+(WATSON-1817,1,182.2623)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 22 frame, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD What)
+		 (N sort)
+		 (PP (P of)
+		     (NP (D a) (N frame))))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (PRO it)))
+	  (. ?))
+  (ID WATSON-1817,1,182.2623))
+
+/~*
+Q. What was the number of people round the waggon, when this speaking was
+going on?
+(WATSON-1817,1,182.2627)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 12 What, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WPRO What))
+	  (IP-SUB (NP-OB1 *T*-1)
+		  (BED was)
+		  (NP-SBJ (D the)
+			  (N number)
+			  (PP (P of)
+			      (NP (NS people)
+				  (PP (P round)
+				      (NP (D the) (N waggon))))))
+		  (, ,)
+		  (PP (P when)
+		      (CP-ADV (C 0)
+			      (IP-SUB (NP-SBJ (D this) (N speaking))
+				      (BED was)
+				      (VAG going)
+				      (RP on)))))
+	  (. ?))
+  (ID WATSON-1817,1,182.2627))
+
+/~*
+Q. Which way do you believe it was?
+(WATSON-1817,1,182.2644)
+*~/
+/*
+10 WNP-1:  10 WNP-1, 14 way, 1 CP-QUE
+*/
+
+( (CP-QUE (META (CODE <font>)
+		(NP (N Q.))
+		(CODE <$$font>))
+	  (WNP-1 (WD Which) (N way))
+	  (IP-SUB (DOP do)
+		  (NP-SBJ (PRO you))
+		  (VB believe)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO it))
+				  (BED was))))
+	  (. ?))
+  (ID WATSON-1817,1,182.2644))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd	160/154/2658
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\holmes-trial-1749.psd	3/3/1593
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-171x.psd	1/1/192
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1745.psd	1/1/225
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1775.psd	1/1/222
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1805.psd	0/0/142
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1835.psd	4/4/171
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1865.psd	0/0/238
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\statutes-1895.psd	0/0/342
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\townley-1746.psd	36/36/625
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\watson-1817.psd	160/154/2658
+whole search, hits/tokens/total
+		206/200/6408
+*/

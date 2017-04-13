@@ -1,0 +1,238 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:22 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_noun_phrases_subject_nonnominative\philosophy\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd
+*/
+
+/~*
+for certes somthing possessyng in itself parfyt good schulde be more worthy
+than God,
+(CMBOETH,432.C1.143)
+*~/
+/*
+11 VAG:  11 VAG, 12 possessyng, 7 NP-SBJ
+*/
+( (IP-MAT-SPE (CONJ for)
+	      (ADVP (ADV certes))
+	      (NP-SBJ (Q+N somthing)
+		      (RRC (VAG possessyng)
+			   (PP (P in)
+			       (NP (PRO+N itself)))
+			   (NP-OB1 (ADJ parfyt) (N good))))
+	      (MD schulde)
+	      (BE be)
+	      (ADJP (QR more)
+		    (ADJ worthy)
+		    (PP (P than)
+			(NP (NPR God))))
+	      (. ,))
+  (ID CMBOETH,432.C1.143))
+
+/~*
+And thus ben the thinges ful wel igoverned yif that the symplicite duellynge
+in the devyne thoght scheweth forth the ordre of causes unable to ben ibowed.
+(CMBOETH,452.C1.490)
+*~/
+/*
+34 VAG:  34 VAG, 35 duellynge, 28 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV thus))
+	  (BEP ben)
+	  (NP-SBJ (D the) (NS thinges))
+	  (ADVP (ADV ful) (ADV wel))
+	  (VAN igoverned)
+	  (PP (P yif)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (D the)
+				      (N symplicite)
+				      (RRC (VAG duellynge)
+					   (PP (P in)
+					       (NP (D the) (ADJ devyne) (N thoght)))))
+			      (VBP scheweth)
+			      (ADVP-DIR (ADV forth))
+			      (NP-OB1 (D the)
+				      (N ordre)
+				      (PP (P of)
+					  (NP (NS causes)
+					      (ADJP (ADJ unable)
+						    (IP-INF (TO to) (BE ben) (VAN ibowed)))))))))
+	  (. .))
+  (ID CMBOETH,452.C1.490))
+
+/~*
+ne the ordre comynge fro the poynt of sovereyn good ne declyneth nat fro his
+bygynnynge.
+(CMBOETH,452.C2.497)
+*~/
+/*
+10 VAG:  10 VAG, 11 comynge, 4 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ ne)
+	      (NP-SBJ (D the)
+		      (N ordre)
+		      (RRC (VAG comynge)
+			   (PP (P fro)
+			       (NP (D the)
+				   (N poynt)
+				   (PP (P of)
+				       (NP (ADJ sovereyn) (N good)))))))
+	      (CONJ ne)
+	      (VBP declyneth)
+	      (NEG nat)
+	      (PP (P fro)
+		  (NP (PRO$ his) (N bygynnynge)))
+	      (. .))
+  (ID CMBOETH,452.C2.497))
+
+/~*
+Lo, herof comyth and herof is don this noble miracle of the ordre destynal,
+whan God, that al knoweth, dooth swiche thing, of whiche thing unknowynge folk
+ben astonyd.
+(CMBOETH,453.C1.514)
+*~/
+/*
+92 VAG:  92 VAG, 93 unknowynge, 91 NP-SBJ
+*/
+
+( (IP-MAT-SPE-1 (INTJ Lo)
+		(, ,)
+		(PP (ADV+P herof))
+		(VBP comyth)
+		(IP-MAT-PRN-SPE=1 (CONJ and)
+				  (PP (ADV+P herof))
+				  (BEP is)
+				  (DAN don))
+		(NP-SBJ (D this)
+			(ADJ noble)
+			(N miracle)
+			(PP (P of)
+			    (NP (D the)
+				(N ordre)
+				(ADJP (ADJ destynal)))))
+		(, ,)
+		(PP (P whan)
+		    (CP-ADV-SPE (C 0)
+				(IP-SUB-SPE (NP-SBJ (NPR God)
+						    (, ,)
+						    (CP-REL-SPE (WNP-2 0)
+								(C that)
+								(IP-SUB-SPE (NP-SBJ *T*-2)
+									    (NP-OB1 (Q al))
+									    (VBP knoweth))))
+					    (, ,)
+					    (DOP dooth)
+					    (NP-OB1 (SUCH swiche) (N thing))
+					    (, ,)
+					    (CP-CAR-SPE (WPP-3 (P of)
+							       (WNP (WD whiche) (N thing)))
+							(C 0)
+							(IP-SUB-SPE (PP *T*-3)
+								    (NP-SBJ (VAG unknowynge) (N folk))
+								    (BEP ben)
+								    (VAN astonyd))))))
+		(. .))
+  (ID CMBOETH,453.C1.514))
+
+/~*
+"But for to constreyne as who seith, but for to comprehende and to telle a
+fewe thingis of the devyne depnesse, the whiche that mannys resoun may
+undirstonde, thilke man that thow wenest to ben ryght just and ryght kepynge
+of equite, the contrarie of that semeth to the devyne purveaunce, that al woot.
+(CMBOETH,453.C1.515)
+*~/
+/*
+133 VAG:  133 VAG, 134 kepynge, 98 NP-SBJ
+*/
+
+( (IP-MAT-SPE (" ")
+	      (CONJ But)
+	      (IP-INF-PRP-SPE (FOR for)
+			      (TO to)
+			      (VB constreyne)
+			      (CODE <paren>)
+			      (CODE <font>)
+			      (PP-PRN (P as)
+				      (CP-ADV-SPE (WNP-1 0)
+						  (C 0)
+						  (IP-SUB-SPE (NP-OB1 *T*-1)
+							      (NP-SBJ (WPRO who))
+							      (VBP seith)
+							      (, ,)
+							      (IP-INF-SPE (CONJ but)
+									  (IP-INF-SPE (FOR for) (TO to) (VB comprehende))
+									  (CONJP (CONJ and)
+										 (IP-INF-SPE (TO to) (VB telle)))))))
+			      (CODE <$$font>)
+			      (CODE <$$paren>)
+			      (NP-OB1 (D a)
+				      (Q fewe)
+				      (NS thingis)
+				      (PP (P of)
+					  (NP (D the) (ADJ devyne) (N depnesse)))
+				      (, ,)
+				      (CP-REL-SPE (WNP-2 (D the) (WPRO whiche))
+						  (C that)
+						  (IP-SUB-SPE (NP-OB1 *T*-2)
+							      (NP-SBJ (N$ mannys) (N resoun))
+							      (MD may)
+							      (VB undirstonde)))))
+	      (, ,)
+	      (NP-SBJ (D+ADJ thilke)
+		      (N man)
+		      (CP-REL-SPE (WNP-3 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ (PRO thow))
+					      (VBP wenest)
+					      (IP-INF-SPE (NP-SBJ *T*-3)
+							  (TO to)
+							  (BE ben)
+							  (ADJP (ADJP (ADV ryght) (ADJ just))
+								(CONJP (CONJ and)
+								       (ADJP (ADV ryght)
+									     (VAG kepynge)
+									     (PP (P of)
+										 (NP (N equite))))))))))
+	      (, ,)
+	      (NP-OB1 (D the)
+		      (N contrarie)
+		      (PP (P of)
+			  (NP (D that))))
+	      (VBP semeth)
+	      (PP (P to)
+		  (NP (D the)
+		      (ADJ devyne)
+		      (N purveaunce)
+		      (, ,)
+		      (CP-REL-SPE (WNP-4 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-4)
+					      (NP-OB1 (Q al))
+					      (VBP woot)))))
+	      (. .))
+  (ID CMBOETH,453.C1.515))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	5/5/566
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\philosophy\cmboeth.m3.psd	5/5/566
+whole search, hits/tokens/total
+		5/5/566
+*/

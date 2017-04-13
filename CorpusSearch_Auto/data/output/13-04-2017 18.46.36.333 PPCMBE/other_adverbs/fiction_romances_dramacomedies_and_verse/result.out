@@ -1,0 +1,6269 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:57:05 BST 2017
+
+command file:     data\searches\queries\PENN\other_adverbs.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCMBE\other_adverbs\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   ADVP-DIR*|ADVX*|RP^DIR*
+query:  (ADVP-DIR*|*DVX*|RP^DIR* Dominates  !ADVP-DIR*|ADVX*|RP^DIR*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd
+*/
+
+/~*
+the echo of the merry laugh with which she parted from me had scarcely died
+away, before I saw her gaze with a sad, painful expression upon the door I had
+passed through,
+(BROUGHAM-1861,8.224)
+*~/
+/*
+49 ADVP-DIR:  49 ADVP-DIR, 51 away
+*/
+( (IP-MAT (NP-SBJ (D the)
+		  (N echo)
+		  (PP (P of)
+		      (NP (D the)
+			  (ADJ merry)
+			  (N laugh)
+			  (CP-REL (WPP-1 (P with)
+					 (WNP (WPRO which)))
+				  (C 0)
+				  (IP-SUB (PP *T*-1)
+					  (NP-SBJ (PRO she))
+					  (VBD parted)
+					  (PP (P from)
+					      (NP (PRO me))))))))
+	  (HVD had)
+	  (ADVP (ADV scarcely))
+	  (CODE <P_8>)
+	  (VBN died)
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (PP (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD saw)
+			      (IP-INF (NP-SBJ (PRO her))
+				      (VB gaze)
+				      (PP (P with)
+					  (NP (D a)
+					      (ADJP (ADJ sad) (, ,) (ADJ painful))
+					      (N expression)))
+				      (PP (P upon)
+					  (NP (D the)
+					      (N door)
+					      (CP-REL (WNP-2 0)
+						      (C 0)
+						      (IP-SUB (NP-SBJ (PRO I))
+							      (HVD had)
+							      (VBN passed)
+							      (PP (P through)
+								  (NP *T*-2))))))))))
+	  (. ,))
+  (ID BROUGHAM-1861,8.224))
+
+/~*
+and I, who but a few moments before would have faced her lightest sorrow, at
+the peril of my life, my soul, felt a curse spring upward from my heart;
+(BROUGHAM-1861,8.227)
+*~/
+/*
+80 ADVP-DIR:  80 ADVP-DIR, 82 upward
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-LFD (PRO I)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (ADVP-TMP (NP-MSR (FP but) (D a) (Q few) (NS moments))
+					    (ADV before))
+				  (MD would)
+				  (HV have)
+				  (VBN faced)
+				  (NP-OB1 (PRO$ her) (ADJS lightest) (N sorrow)))))
+	  (, ,)
+	  (PP (P at)
+	      (NP (D the)
+		  (N peril)
+		  (PP (P of)
+		      (NP (PRO$ my) (N life)))))
+	  (, ,)
+	  (NP-SBJ (PRO$-RSP my) (N soul))
+	  (, ,)
+	  (VBD felt)
+	  (IP-INF (NP-SBJ (D a) (N curse))
+		  (VB spring)
+		  (ADVP-DIR (RP+WARD upward))
+		  (PP (P from)
+		      (NP (PRO$ my) (N heart))))
+	  (. ;))
+  (ID BROUGHAM-1861,8.227))
+
+/~*
+Why $you $'ll forget you ever possessed it if you stowed it away in a drawer.
+(BROUGHAM-1861,15.542)
+*~/
+/*
+44 ADVP-DIR:  44 ADVP-DIR, 46 away
+*/
+
+( (IP-MAT (INTJP (WADV Why))
+	  (NP-SBJ (PRO $you))
+	  (MD $'ll)
+	  (CODE {TEXT:you'll})
+	  (VB forget)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO you))
+			  (ADVP-TMP (ADV ever))
+			  (VBD possessed)
+			  (NP-OB1 (PRO it))))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBD stowed)
+			      (NP-OB1 (PRO it))
+			      (ADVP-DIR (ADV away))
+			      (PP (P in)
+				  (NP (D a) (N drawer))))))
+	  (. .))
+  (ID BROUGHAM-1861,15.542))
+
+/~*
+Uncle T. And then if it should turn out counterfeit, it would be too late for
+anything but the pleasant consciousness of having cheated yourself - doomed,
+moreover to have the consequence of your rashness tied about your neck - a
+heap of spurious coin that you can neither change nor fling away.
+(BROUGHAM-1861,18.641)
+*~/
+/*
+153 ADVP-DIR:  153 ADVP-DIR, 155 away
+*/
+
+( (IP-MAT (META (NP (NPR Uncle) (NPR T.)))
+	  (CONJ And)
+	  (ADVP-TMP (ADV then))
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO it))
+			      (MD should)
+			      (VB turn)
+			      (RP out)
+			      (ADJP (ADJ counterfeit)))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (MD would)
+	  (BE be)
+	  (ADJP (ADVR too)
+		(ADJ late)
+		(PP (P for)
+		    (NP (Q+N anything)
+			(PP (P but)
+			    (NP (D the)
+				(ADJ pleasant)
+				(N consciousness)
+				(PP (P of)
+				    (IP-PPL (HAG having)
+					    (VBN cheated)
+					    (NP-OB1 (PRO$+N yourself)))))))))
+	  (, -)
+	  (IP-PPL (VAN doomed)
+		  (, ,)
+		  (ADVP (ADV moreover))
+		  (IP-INF (TO to)
+			  (HV have)
+			  (IP-SMC (NP-SBJ (D the)
+					  (N consequence)
+					  (PP (P of)
+					      (NP (PRO$ your) (N rashness)))
+					  (NP-PRN *ICH*-1))
+				  (VAN tied)
+				  (PP (P about)
+				      (NP (PRO$ your) (N neck)))
+				  (, -)
+				  (NP-PRN-1 (D a)
+					    (N heap)
+					    (PP (P of)
+						(NP (ADJ spurious) (N coin)))
+					    (CP-REL (WNP-2 0)
+						    (C that)
+						    (IP-SUB (IP-SUB-3 (NP-OB1 *T*-2)
+								      (NP-SBJ (PRO you))
+								      (MD can)
+								      (CONJ neither)
+								      (VB change))
+							    (CONJP (CONJ nor)
+								   (IP-SUB=3 (VB fling)
+									     (ADVP-DIR (ADV away))))))))))
+	  (. .))
+  (ID BROUGHAM-1861,18.641))
+
+/~*
+Uncle T. to Mrs. Herbert, who comes down, L. Come here, pet;
+(BROUGHAM-1861,18.646)
+*~/
+/*
+50 ADVP-DIR:  50 ADVP-DIR, 52 here
+*/
+
+( (IP-IMP (META (NP (NPR Uncle) (NPR T.))
+		(CODE <paren>)
+		(CODE <font>)
+		(PP (P to)
+		    (CODE <$$font>)
+		    (NP (NPR Mrs.)
+			(NPR Herbert)
+			(, ,)
+			(CODE <font>)
+			(CP-REL (WNP-1 (WPRO who))
+				(C 0)
+				(IP-SUB (NP-SBJ *T*-1)
+					(VBP comes)
+					(RP down)
+					(, ,)
+					(CODE <$$font>)
+					(NP-LOC (N L.)))))))
+	  (CODE <$$paren>)
+	  (VBI Come)
+	  (ADVP-DIR (ADV here))
+	  (, ,)
+	  (NP-VOC (N pet))
+	  (. ;))
+  (ID BROUGHAM-1861,18.646))
+
+/~*
+$I $'ve flung away joy and comfort too long.
+(BROUGHAM-1861,19.666)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 away
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO $I))
+	      (HVP $'ve)
+	      (CODE {TEXT:I've})
+	      (VBN flung)
+	      (ADVP-DIR (ADV away))
+	      (NP-OB1 (N joy) (CONJ and) (N comfort))
+	      (NP-MSR (ADJP (ADVR too) (ADJ long)))
+	      (. .))
+  (ID BROUGHAM-1861,19.666))
+
+/~*
+"If I can get away, for I am watched by a remorseless old catamaran," - $that
+$'s what he calls his own sister - "you shall know of it by looking at
+to-morrow's paper,
+(BROUGHAM-1861,20.739)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 away
+*/
+
+( (IP-MAT-SPE (" ")
+	      (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO I))
+					  (MD can)
+					  (VB get)
+					  (ADVP-DIR (ADV away))
+					  (, ,)
+					  (IP-MAT-PRN-SPE (CONJ for)
+							  (NP-SBJ (PRO I))
+							  (BEP am)
+							  (VAN watched)
+							  (PP (P by)
+							      (NP (D a) (ADJ remorseless) (ADJ old) (N catamaran))))
+					  (, ,)
+					  (" ")
+					  (, -)
+					  (IP-MAT-PRN-SPE (NP-SBJ (D $that))
+							  (BEP $'s)
+							  (CODE {TEXT:that's})
+							  (NP-OB1 (CP-FRL-SPE (WNP-1 (WPRO what))
+									      (C 0)
+									      (IP-SUB-SPE (NP-SBJ (PRO he))
+											  (VBP calls)
+											  (IP-SMC-SPE (NP-SBJ *T*-1)
+												      (NP-OB1 (PRO$ his) (ADJ own) (N sister))))))))))
+	      (, -)
+	      (" ")
+	      (NP-SBJ (PRO you))
+	      (MD shall)
+	      (VB know)
+	      (PP (P of)
+		  (NP (PRO it)))
+	      (PP (P by)
+		  (IP-PPL-SPE (VAG looking)
+			      (PP (P at)
+				  (NP (N$ to-morrow's) (N paper)))))
+	      (. ,))
+  (ID BROUGHAM-1861,20.739))
+
+/~*
+Mrs. C. Do you imagine then, sir, that, with your assistance, I shall be able
+to take him back with me into the country?
+(BROUGHAM-1861,22.819)
+*~/
+/*
+60 ADVP-DIR:  60 ADVP-DIR, 62 back
+*/
+
+( (CP-QUE (META (NP (NPR Mrs.) (NPR C.)))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB imagine)
+		  (ADVP (ADV then))
+		  (, ,)
+		  (NP-VOC (N sir))
+		  (, ,)
+		  (CP-THT (C that)
+			  (, ,)
+			  (IP-SUB (PP (P with)
+				      (NP (PRO$ your) (N assistance)))
+				  (, ,)
+				  (NP-SBJ (PRO I))
+				  (MD shall)
+				  (BE be)
+				  (ADJP (ADJ able)
+					(IP-INF (TO to)
+						(VB take)
+						(NP-OB1 (PRO him))
+						(ADVP-DIR (ADV back))
+						(PP (P with)
+						    (NP (PRO me)))
+						(PP (P into)
+						    (NP (D the) (N country))))))))
+	  (. ?))
+  (ID BROUGHAM-1861,22.819))
+
+/~*
+Pinch. Oh, $you $'d like to take him back with you?
+(BROUGHAM-1861,22.820)
+*~/
+/*
+27 ADVP-DIR:  27 ADVP-DIR, 29 back
+*/
+
+( (IP-MAT (META (NP (NPR Pinch.)))
+	  (INTJ Oh)
+	  (, ,)
+	  (NP-SBJ (PRO $you))
+	  (MD $'d)
+	  (CODE {TEXT:you'd})
+	  (VB like)
+	  (IP-INF (TO to)
+		  (VB take)
+		  (NP-OB1 (PRO him))
+		  (ADVP-DIR (ADV back))
+		  (PP (P with)
+		      (NP (PRO you))))
+	  (. ?))
+  (ID BROUGHAM-1861,22.820))
+
+/~*
+$I $'d better go back to Herbert - confess my cowardice
+(BROUGHAM-1861,26.966)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 back
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO $I))
+		    (MD $'d)
+		    (CODE {TEXT:I'd})
+		    (ADVP (ADVR better))
+		    (VB go)
+		    (ADVP-DIR (ADV back))
+		    (PP (P to)
+			(NP (NPR Herbert))))
+	  (, -)
+	  (CONJP (IP-MAT=1 (VB confess)
+			   (NP-OB1 (PRO$ my) (N cowardice)))))
+  (ID BROUGHAM-1861,26.966))
+
+/~*
+as well might you tell your fever-stricken patients to cast away the sickness
+that subdues them.
+(BROUGHAM-1861,29.1071)
+*~/
+/*
+33 ADVP-DIR:  33 ADVP-DIR, 35 away
+*/
+
+( (ADVP (ADVR as)
+	(ADV well)
+	(CP-CMP (WADVP-1 0)
+		(C 0)
+		(IP-SUB (ADVP *T*-1)
+			(MD might)
+			(NP-SBJ (PRO you))
+			(VB tell)
+			(NP-OB2 (PRO$ your) (ADJ fever-stricken) (NS patients))
+			(IP-INF (TO to)
+				(VB cast)
+				(ADVP-DIR (ADV away))
+				(NP-OB1 (D the)
+					(N sickness)
+					(CP-REL (WNP-2 0)
+						(C that)
+						(IP-SUB (NP-SBJ *T*-2)
+							(VBP subdues)
+							(NP-OB1 (PRO them))))))))
+	(. .))
+  (ID BROUGHAM-1861,29.1071))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	11/11/1202
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd
+*/
+
+/~*
+I make myself at home wherever I go -
+(COLLIER-1835,13.328)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 25 *T*-1
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP make)
+	  (NP-OB1 (PRO$+N myself))
+	  (PP (P at)
+	      (NP (N home)))
+	  (ADVP-LOC (CP-FRL (WADVP-1 (WADV+ADV wherever))
+			    (C 0)
+			    (IP-SUB (ADVP-DIR *T*-1)
+				    (NP-SBJ (PRO I))
+				    (VBP go))))
+	  (. -))
+  (ID COLLIER-1835,13.328))
+
+/~*
+and bore away the brush!
+(COLLIER-1835,13.344)
+*~/
+/*
+8 ADVP-DIR:  8 ADVP-DIR, 10 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD bore)
+	  (ADVP-DIR (ADV away))
+	  (NP-OB1 (D the) (N brush))
+	  (. !))
+  (ID COLLIER-1835,13.344))
+
+/~*
+away he went for the Hills, with a strong norwester in his nose -
+(COLLIER-1835,13.366)
+*~/
+/*
+2 ADVP-DIR:  2 ADVP-DIR, 4 away
+*/
+
+( (IP-MAT (ADVP-DIR (ADV away))
+	  (NP-SBJ (PRO he))
+	  (VBD went)
+	  (PP (P for)
+	      (NP (D the) (NS Hills)))
+	  (, ,)
+	  (PP (P with)
+	      (IP-SMC (NP-SBJ (D a) (ADJ strong) (N norwester))
+		      (PP (P in)
+			  (NP (PRO$ his) (N nose)))))
+	  (. -))
+  (ID COLLIER-1835,13.366))
+
+/~*
+and away he went again at a killing pace;
+(COLLIER-1835,13.369)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP-DIR (ADV away))
+	  (NP-SBJ (PRO he))
+	  (VBD went)
+	  (ADVP (ADV again))
+	  (PP (P at)
+	      (NP (D a) (VAG killing) (N pace)))
+	  (. ;))
+  (ID COLLIER-1835,13.369))
+
+/~*
+Sits with his back to the side Cleveland enters.
+(COLLIER-1835,17.558)
+*~/
+/*
+36 ADVP-DIR:  36 ADVP-DIR, 37 *T*-1
+*/
+
+( (META (IP-MAT (CODE <bracket>)
+		(CODE <font>)
+		(NP-SBJ *pro*)
+		(VBP Sits)
+		(PP (P with)
+		    (IP-SMC (NP-SBJ (PRO$ his) (N back))
+			    (PP (P to)
+				(NP (D the)
+				    (N side)
+				    (CODE <$$font>)
+				    (CP-REL (WADVP-1 0)
+					    (C 0)
+					    (IP-SUB (ADVP-DIR *T*-1)
+						    (NP-SBJ (NPR Cleveland))
+						    (CODE <font>)
+						    (VBP enters)))))))
+		(. .)
+		(CODE <$$font>)))
+  (ID COLLIER-1835,17.558))
+
+/~*
+Walks away.
+(COLLIER-1835,18.596)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 away
+*/
+
+( (META (IP-MAT (CODE <bracket>)
+		(CODE <font>)
+		(NP-SBJ *pro*)
+		(VBP Walks)
+		(ADVP-DIR (ADV away))
+		(. .)
+		(CODE <$$font>)
+		(CODE <$$bracket>)))
+  (ID COLLIER-1835,18.596))
+
+/~*
+for here he comes.
+(COLLIER-1835,20.683)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 here
+*/
+
+( (IP-MAT (CONJ for)
+	  (ADVP-DIR (ADV here))
+	  (NP-SBJ (PRO he))
+	  (VBP comes)
+	  (. .))
+  (ID COLLIER-1835,20.683))
+
+/~*
+Hec. Turns away
+(COLLIER-1835,22.798)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 away
+*/
+
+( (META (IP-MAT (CODE <font>)
+		(NP-SBJ (NPR Hec.))
+		(CODE <$$font>)
+		(CODE <paren>)
+		(CODE <font>)
+		(VBP Turns)
+		(ADVP-DIR (ADV away))
+		(CODE <$$font>)
+		(CODE <$$paren>)))
+  (ID COLLIER-1835,22.798))
+
+/~*
+Comes forward.
+(COLLIER-1835,26.948)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 forward
+*/
+
+( (META (IP-MAT (CODE <bracket>)
+		(CODE <font>)
+		(NP-SBJ *pro*)
+		(VBP Comes)
+		(ADVP-DIR (ADV+WARD forward))
+		(. .)
+		(CODE <$$font>)
+		(CODE <$$bracket>)))
+  (ID COLLIER-1835,26.948))
+
+/~*
+Lady C. Takes Cha. a little forward.
+(COLLIER-1835,30.1115)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 32 forward
+*/
+
+( (META (IP-MAT (CODE <font>)
+		(NP-SBJ (NPR Lady) (NPR C.))
+		(CODE <$$font>)
+		(CODE <paren>)
+		(CODE <font>)
+		(VBP Takes)
+		(CODE <$$font>)
+		(NP-OB1 (NPR Cha.))
+		(CODE <font>)
+		(ADVP-DIR (NP-MSR (D a) (ADJ little))
+			  (ADV+WARD forward))
+		(. .)
+		(CODE <$$font>)
+		(CODE <$$paren>)))
+  (ID COLLIER-1835,30.1115))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	10/10/1122
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd
+*/
+
+/~*
+you come here,
+(COLMAN-1805,22.126)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 here
+*/
+
+( (IP-MAT (NP-SBJ (PRO you))
+	  (VBP come)
+	  (ADVP-DIR (ADV here))
+	  (. ,))
+  (ID COLMAN-1805,22.126))
+
+/~*
+. Come here, Williams.
+(COLMAN-1805,25.221)
+*~/
+/*
+6 ADVP-DIR:  6 ADVP-DIR, 8 here
+*/
+
+( (IP-IMP (, .)
+	  (VBI Come)
+	  (ADVP-DIR (ADV here))
+	  (, ,)
+	  (NP-VOC (NPR Williams))
+	  (. .))
+  (ID COLMAN-1805,25.221))
+
+/~*
+Why the devil $do $n't you come here.
+(COLMAN-1805,25.223)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 26 here
+*/
+
+( (CP-QUE (WADVP-1 (WADV Why)
+		   (INTJP (D the) (NPR devil)))
+	  (IP-SUB (ADVP *T*-1)
+		  (DOP $do)
+		  (NEG $n't)
+		  (CODE {TEXT:don't})
+		  (NP-SBJ (PRO you))
+		  (VB come)
+		  (ADVP-DIR (ADV here)))
+	  (. .))
+  (ID COLMAN-1805,25.223))
+
+/~*
+Servant. $There $'s a man, in the porter's lodge, says he $wo $n't go away
+without speaking to Mr. Francis.
+(COLMAN-1805,26.242)
+*~/
+/*
+64 ADVP-DIR:  64 ADVP-DIR, 66 away
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (N Servant))
+		(, .)
+		(CODE <$$font>))
+	  (NP-SBJ-1 (EX $There))
+	  (BEP $'s)
+	  (CODE {TEXT:There's})
+	  (NP-1 (D a)
+		(N man)
+		(, ,)
+		(PP (P in)
+		    (NP (NP-POS (D the) (N$ porter's))
+			(N lodge)))
+		(, ,)
+		(CP-REL (WNP-2 0)
+			(C 0)
+			(IP-SUB (NP-SBJ *T*-2)
+				(VBP says)
+				(CP-THT (C 0)
+					(IP-SUB (NP-SBJ (PRO he))
+						(MD $wo)
+						(NEG $n't)
+						(CODE {TEXT:won't})
+						(VB go)
+						(ADVP-DIR (ADV away))
+						(PP (P without)
+						    (IP-PPL (VAG speaking)
+							    (PP (P to)
+								(NP (NPR Mr.) (NPR Francis))))))))))
+	  (. .))
+  (ID COLMAN-1805,26.242))
+
+/~*
+Who the devil sent you here?
+(COLMAN-1805,27.267)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 here
+*/
+
+( (CP-QUE (WNP-1 (WPRO Who)
+		 (INTJP (D the) (NPR devil)))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD sent)
+		  (NP-OB1 (PRO you))
+		  (ADVP-DIR (ADV here)))
+	  (. ?))
+  (ID COLMAN-1805,27.267))
+
+/~*
+Sure the young crature $can $n't fly away from the Red Cow, while $I $'m
+explaining to you the rights on't.
+(COLMAN-1805,28.299)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 34 Cow
+*/
+
+( (IP-MAT (ADVP (ADV Sure))
+	  (NP-SBJ (D the) (ADJ young) (N crature))
+	  (CODE {COM:sic})
+	  (MD $can)
+	  (NEG $n't)
+	  (CODE {TEXT:can't})
+	  (VB fly)
+	  (ADVP-DIR (ADV away)
+		    (PP (P from)
+			(NP (D the) (NPR Red) (NPR Cow))))
+	  (, ,)
+	  (PP (P while)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO $I))
+			      (BEP $'m)
+			      (CODE {TEXT:I'm})
+			      (VAG explaining)
+			      (PP (P to)
+				  (NP (PRO you)))
+			      (NP-OB1 (D the)
+				      (NS rights)
+				      (PP (P+PRO on't))))))
+	  (. .))
+  (ID COLMAN-1805,28.299))
+
+/~*
+- $Did $n't she promise the gentleman to stay till he came back?
+(COLMAN-1805,28.300)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 back
+*/
+
+( (CP-QUE (IP-SUB (, -)
+		  (DOD $Did)
+		  (NEG $n't)
+		  (CODE {TEXT:Didn't})
+		  (NP-SBJ (PRO she))
+		  (VB promise)
+		  (NP-OB2 (D the) (ADJ+N gentleman))
+		  (IP-INF (TO to)
+			  (VB stay)
+			  (PP (P till)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO he))
+					      (VBD came)
+					      (ADVP-DIR (ADV back)))))))
+	  (. ?))
+  (ID COLMAN-1805,28.300))
+
+/~*
+$you $'ll come back again, "says she -
+(COLMAN-1805,28.306)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 16 again
+*/
+
+( (IP-MAT-SPE (IP-MAT-SPE (NP-SBJ (PRO $you))
+			  (MD $'ll)
+			  (CODE {TEXT:you'll})
+			  (VB come)
+			  (ADVP-DIR (ADV back) (ADV again)))
+	      (, ,)
+	      (" ")
+	      (VBP says)
+	      (NP-SBJ (PRO she))
+	      (. -))
+  (ID COLMAN-1805,28.306))
+
+/~*
+I wonder you $hav' $n't run away from me, too.
+(COLMAN-1805,34.499)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 30 me
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP wonder)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO you))
+			  (HVP $hav')
+			  (NEG $n't)
+			  (CODE {TEXT:hav'n't})
+			  (VBN run)
+			  (ADVP-DIR (ADV away)
+				    (PP (P from)
+					(NP (PRO me))))
+			  (, ,)
+			  (ADVP (ADV too))))
+	  (. .))
+  (ID COLMAN-1805,34.499))
+
+/~*
+$It $'s rather hard to tell poor John Bur, the workhouse-boy, after cloathing,
+feeding and, making him your man of trust, for two-and-twenty years, that you
+wonder he $do $n't run away from you, now $you $'re in trouble.
+(COLMAN-1805,35.530)
+*~/
+/*
+103 ADVP-DIR:  103 ADVP-DIR, 111 you
+*/
+
+( (IP-MAT (NP-SBJ-1 (PRO $It))
+	  (BEP $'s)
+	  (CODE {TEXT:It's})
+	  (ADJP (ADVR rather) (ADJ hard))
+	  (IP-INF-1 (TO to)
+		    (VB tell)
+		    (NP-OB2 (ADJ poor)
+			    (NPR John)
+			    (NPR Bur)
+			    (, ,)
+			    (NP-PRN (D the) (N+N+N workhouse-boy)))
+		    (, ,)
+		    (PP (P after)
+			(IP-PPL-2 (IP-PPL-PRN=2 (VAG cloathing) (, ,) (VAG feeding) (CONJ and))
+				  (, ,)
+				  (VAG making)
+				  (IP-SMC (NP-SBJ (PRO him))
+					  (NP-OB1 (PRO$ your)
+						  (N man)
+						  (PP (P of)
+						      (NP (N trust))))
+					  (, ,)
+					  (PP (P for)
+					      (NP (NUM+CONJ+NUM two-and-twenty) (NS years))))))
+		    (, ,)
+		    (CP-THT (C that)
+			    (IP-SUB (NP-SBJ (PRO you))
+				    (VBP wonder)
+				    (CP-THT (C 0)
+					    (IP-SUB (NP-SBJ (PRO he))
+						    (DOP $do)
+						    (NEG $n't)
+						    (CODE {TEXT:don't})
+						    (VB run)
+						    (ADVP-DIR (ADV away)
+							      (PP (P from)
+								  (NP (PRO you))))
+						    (, ,)
+						    (ADVP-TMP (ADV now)
+							      (CP-REL (WADVP-2 0)
+								      (C 0)
+								      (IP-SUB (ADVP-TMP *T*-2)
+									      (NP-SBJ (PRO $you))
+									      (BEP $'re)
+									      (CODE {TEXT:you're})
+									      (PP (P in)
+										  (NP (N trouble)))))))))))
+	  (. .))
+  (ID COLMAN-1805,35.530))
+
+/~*
+then let her run away from you,
+(COLMAN-1805,35.554)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 21 you
+*/
+
+( (IP-IMP (ADVP-TMP (ADV then))
+	  (VBI let)
+	  (IP-INF (NP-SBJ (PRO her))
+		  (VB run)
+		  (ADVP-DIR (ADV away)
+			    (PP (P from)
+				(NP (PRO you)))))
+	  (. ,))
+  (ID COLMAN-1805,35.554))
+
+/~*
+I $shou'd $n't like to throw away a waistcoat neither.
+(COLMAN-1805,36.574)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD $shou'd)
+	  (NEG $n't)
+	  (CODE {TEXT:shou'dn't})
+	  (VB like)
+	  (IP-INF (TO to)
+		  (VB throw)
+		  (ADVP-DIR (ADV away))
+		  (NP-OB1 (D a) (N+N waistcoat)))
+	  (CONJ neither)
+	  (. .))
+  (ID COLMAN-1805,36.574))
+
+/~*
+and she has run away from her doating, foolish father, - and struck down my
+heart - flat - flat.
+(COLMAN-1805,37.611)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 30 father
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ and)
+		    (NP-SBJ (PRO she))
+		    (HVP has)
+		    (VBN run)
+		    (ADVP-DIR (ADV away)
+			      (PP (P from)
+				  (NP (PRO$ her)
+				      (VAG doating)
+				      (, ,)
+				      (CODE {COM:sic})
+				      (ADJ foolish)
+				      (N father)))))
+	  (, ,)
+	  (, -)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VBN struck)
+			   (RP down)
+			   (NP-OB1 (PRO$ my) (N heart))
+			   (, -)
+			   (ADJP-SPR (ADJ flat)
+				     (, -)
+				     (ADJP-PRN-ELAB (ADJ flat)))))
+	  (. .))
+  (ID COLMAN-1805,37.611))
+
+/~*
+and the morning has half run away, before she knew I should be up.
+(COLMAN-1805,37.626)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the) (N morning))
+	  (HVP has)
+	  (NP-MSR (Q half))
+	  (VBN run)
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (PP (P before)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO she))
+			      (VBD knew)
+			      (CP-THT (C 0)
+				      (IP-SUB (NP-SBJ (PRO I))
+					      (MD should)
+					      (BE be)
+					      (RP up))))))
+	  (. .))
+  (ID COLMAN-1805,37.626))
+
+/~*
+and, destitute of friends, money, and food, was making his way to the next
+port, to offer himself to any vessel that would take him on board, that he
+might work his way abroad, and seek a livelihood.
+(COLMAN-1805,38.650)
+*~/
+/*
+106 ADVP-DIR:  106 ADVP-DIR, 108 abroad
+*/
+
+( (IP-MAT (CONJ and)
+	  (, ,)
+	  (NP-SBJ *con*)
+	  (ADJP-SPR (ADJ destitute)
+		    (PP (P of)
+			(NP (NS friends) (, ,) (N money) (, ,) (CONJ and) (N food))))
+	  (, ,)
+	  (BED was)
+	  (VAG making)
+	  (NP-OB1 (PRO$ his) (N way))
+	  (PP (P to)
+	      (NP (D the) (ADJS next) (N port)))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB offer)
+		      (NP-OB1 (PRO+N himself))
+		      (PP (P to)
+			  (NP (Q any)
+			      (N vessel)
+			      (CP-REL (WNP-1 0)
+				      (C that)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (MD would)
+					      (VB take)
+					      (NP-OB1 (PRO him))
+					      (PP (P on)
+						  (NP (N board)))))))
+		      (, ,)
+		      (CP-ADV (C that)
+			      (IP-SUB (IP-SUB-2 (NP-SBJ (PRO he))
+						(MD might)
+						(VB work)
+						(NP-DIR (PRO$ his) (N way))
+						(ADVP-DIR (ADV abroad)))
+				      (, ,)
+				      (CONJP (CONJ and)
+					     (IP-SUB=2 (VB seek)
+						       (NP-OB1 (D a) (N livelihood)))))))
+	  (. .))
+  (ID COLMAN-1805,38.650))
+
+/~*
+and had run away from my father.
+(COLMAN-1805,39.669)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 20 father
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (HVD had)
+	  (VBN run)
+	  (ADVP-DIR (ADV away)
+		    (PP (P from)
+			(NP (PRO$ my) (N father))))
+	  (. .))
+  (ID COLMAN-1805,39.669))
+
+/~*
+Job. with great emotion. Run away from your father!
+(COLMAN-1805,39.670)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 42 father
+*/
+
+( (FRAG (META (CODE <font>)
+	      (NP (NPR Job))
+	      (, .)
+	      (CODE <$$font>)
+	      (CODE <paren>)
+	      (CODE <font>)
+	      (PP (P with)
+		  (NP (ADJ great) (N emotion)))
+	      (, .)
+	      (CODE <$$font>)
+	      (CODE <$$paren>))
+	(VBN Run)
+	(ADVP-DIR (ADV away)
+		  (PP (P from)
+		      (NP (PRO$ your) (N father))))
+	(. !))
+  (ID COLMAN-1805,39.670))
+
+/~*
+Ah! you $do $n't know what it is for a child to run away from a father!
+(COLMAN-1805,39.674)
+*~/
+/*
+43 ADVP-DIR:  43 ADVP-DIR, 53 father
+*/
+
+( (IP-MAT (INTJ Ah)
+	  (, !)
+	  (NP-SBJ (PRO you))
+	  (DOP $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB know)
+	  (CP-QUE (WNP-1 (WPRO what))
+		  (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ-2 (PRO it))
+			  (BEP is)
+			  (IP-INF-2 (FOR for)
+				    (NP-SBJ (D a) (N child))
+				    (TO to)
+				    (VB run)
+				    (ADVP-DIR (ADV away)
+					      (PP (P from)
+						  (NP (D a) (N father)))))))
+	  (. !))
+  (ID COLMAN-1805,39.674))
+
+/~*
+My guide, as I came hither, said, you had married in my absence:
+(COLMAN-1805,41.733)
+*~/
+/*
+21 ADVP-DIR:  21 ADVP-DIR, 23 hither
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ My) (N guide))
+	  (, ,)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (VBD came)
+			      (ADVP-DIR (ADV hither)))))
+	  (, ,)
+	  (VBD said)
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO you))
+			  (HVD had)
+			  (VBN married)
+			  (PP (P in)
+			      (NP (PRO$ my) (N absence)))))
+	  (. :))
+  (ID COLMAN-1805,41.733))
+
+/~*
+Run away from a good father, as you did.
+(COLMAN-1805,41.743)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 16 father
+*/
+
+( (FRAG (VBN Run)
+	(ADVP-DIR (ADV away)
+		  (PP (P from)
+		      (NP (D a) (ADJ good) (N father))))
+	(, ,)
+	(PP (P as)
+	    (CP-ADV (WADVP-1 0)
+		    (C 0)
+		    (IP-SUB (ADVP *T*-1)
+			    (NP-SBJ (PRO you))
+			    (DOD did)
+			    (VB *))))
+	(. .))
+  (ID COLMAN-1805,41.743))
+
+/~*
+Job. What? bring back my child!
+(COLMAN-1805,42.771)
+*~/
+/*
+19 ADVP-DIR:  19 ADVP-DIR, 21 back
+*/
+
+( (VP (META (CODE <font>)
+	    (NP (NPR Job))
+	    (, .)
+	    (CODE <$$font>))
+      (INTJP (WPRO What))
+      (, ?)
+      (VB bring)
+      (ADVP-DIR (ADV back))
+      (NP-OB1 (PRO$ my) (N child))
+      (. !))
+  (ID COLMAN-1805,42.771))
+
+/~*
+Job. What, here? to her father's house?
+(COLMAN-1805,42.782)
+*~/
+/*
+17 ADVP-DIR:  17 ADVP-DIR, 19 here
+*/
+
+( (FRAG (META (CODE <font>)
+	      (NP (NPR Job))
+	      (, .)
+	      (CODE <$$font>))
+	(INTJP (WPRO What))
+	(, ,)
+	(ADVP-DIR (ADV here))
+	(, ?)
+	(PP (P to)
+	    (NP (NP-POS (PRO$ her) (N$ father's))
+		(N house)))
+	(. ?))
+  (ID COLMAN-1805,42.782))
+
+/~*
+Mrs. Brul. Aye, he might have been there, and back, over and over again;
+(COLMAN-1805,52.1057)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 33 back
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Mrs.) (NPR Brul.))
+		(CODE <$$font>))
+	  (INTJ Aye)
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (MD might)
+	  (HV have)
+	  (BEN been)
+	  (ADVP-DIR (ADV there) (, ,) (CONJ and) (ADV back))
+	  (, ,)
+	  (RP (RP over) (CONJ and) (RP over))
+	  (ADVP (ADV again))
+	  (. ;))
+  (ID COLMAN-1805,52.1057))
+
+/~*
+Dennis. Let him stop at the Red Cow, as plump as a porker, and $you $'d send
+him away, in a week, like a weasel.
+(COLMAN-1805,54.1115)
+*~/
+/*
+62 ADVP-DIR:  62 ADVP-DIR, 64 away
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Dennis))
+		(, .)
+		(CODE <$$font>))
+	  (IP-IMP-PRN (VBI Let)
+		      (IP-INF (NP-SBJ (PRO him))
+			      (VB stop)
+			      (PP (P at)
+				  (NP (D the) (NPR Red) (NPR Cow)))
+			      (, ,)
+			      (ADJP-SPR (ADVR as)
+					(ADJ plump)
+					(PP (P as)
+					    (NP (D a) (N porker))))))
+	  (, ,)
+	  (CONJ and)
+	  (NP-SBJ (PRO $you))
+	  (MD $'d)
+	  (CODE {TEXT:you'd})
+	  (VB send)
+	  (NP-OB1 (PRO him))
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (PP (P in)
+	      (NP (D a) (N week)))
+	  (, ,)
+	  (ADJP-SPR (ADJ like)
+		    (NP (D a) (N weasel)))
+	  (. .))
+  (ID COLMAN-1805,54.1115))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	24/24/1185
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd
+*/
+
+/~*
+As soon as the $Cloth $'s taken away, thay dispatch a Courier to three or four
+Idlers, like themselves, to make up a Set at Lue, at which, when thay have
+lost all their Money, and fall'n out, thay begin to dress for the Assembly. L.
+Am. Where, as Mr. Congreve says, the Coroner's Inquest fits upon all the
+murder'd Reputations of the Town.
+(DAVYS-1716,27.120)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 31 away
+*/
+
+( (IP-MAT (ADVP-TMP (ADVR As)
+		    (ADV soon)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-1)
+					(NP-SBJ (D the) (N $Cloth))
+					(BEP $'s)
+					(CODE {TEXT:Cloth's})
+					(VAN taken)
+					(ADVP-DIR (ADV away))))))
+	  (, ,)
+	  (NP-SBJ (PRO thay))
+	  (VBP dispatch)
+	  (NP-OB1 (D a) (N Courier))
+	  (PP (P to)
+	      (NP (NUMP (NUM three) (CONJ or) (NUM four))
+		  (NS Idlers)
+		  (, ,)
+		  (ADJP (ADJ like)
+			(NP (PRO+N themselves)))
+		  (, ,)
+		  (CP-EOP (WNP-2 0)
+			  (IP-INF (NP-SBJ *T*-2)
+				  (TO to)
+				  (VB make)
+				  (RP up)
+				  (NP-OB1 (D a) (N Set))
+				  (PP (P at)
+				      (NP (N Lue)
+					  (, ,)
+					  (CP-REL (WPP-3 (P at)
+							 (WNP (WPRO which)))
+						  (, ,)
+						  (C 0)
+						  (IP-SUB (PP *T*-3)
+							  (PP (P when)
+							      (CP-ADV (C 0)
+								      (IP-SUB (IP-SUB-4 (NP-SBJ (PRO thay))
+											(HVP have)
+											(VBN lost)
+											(NP-OB1 (Q all) (PRO$ their) (N Money)))
+									      (, ,)
+									      (CONJP (CONJ and)
+										     (IP-SUB=4 (VBN fall'n) (RP out))))))
+							  (, ,)
+							  (NP-SBJ (PRO thay))
+							  (VBP begin)
+							  (IP-INF (TO to)
+								  (VB dress)
+								  (PP (P for)
+								      (NP (D the)
+									  (N Assembly)
+									  (, .)
+									  (META (NP (NPR L.) (CODE <font>) (NPR Am.)))
+									  (CODE <$$font>)
+									  (CP-REL (WADVP-5 (WADV Where))
+										  (, ,)
+										  (C 0)
+										  (IP-SUB (ADVP-LOC *T*-5)
+											  (PP (P as)
+											      (CP-ADV (WADVP-6 0)
+												      (C 0)
+												      (IP-SUB (ADVP *T*-6)
+													      (NP-SBJ (NPR Mr.) (CODE <font>) (NPR Congreve))
+													      (CODE <$$font>)
+													      (VBP says))))
+											  (, ,)
+											  (NP-SBJ (NP-POS (D the) (N$ Coroner's))
+												  (N Inquest))
+											  (VBP fits)
+											  (PP (P upon)
+											      (NP (Q all)
+												  (D the)
+												  (VAN murder'd)
+												  (NS Reputations)
+												  (PP (P of)
+												      (NP (D the) (N Town))))))))))))))))))
+	  (. .))
+  (ID DAVYS-1716,27.120))
+
+/~*
+if they go out of Town, they come to help you to wash away Sorrow; so that the
+good People are resolv'd to share both your Pleasure and your Pain, provided
+they may have a little Victuals and Drink to keep up their Spirits.
+(DAVYS-1716,29.179)
+*~/
+/*
+42 ADVP-DIR:  42 ADVP-DIR, 44 away
+*/
+
+( (IP-MAT (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO they))
+			      (VBP go)
+			      (PP (RP out)
+				  (P of)
+				  (NP (N Town))))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (VBP come)
+	  (IP-INF-PRP (TO to)
+		      (VB help)
+		      (NP-OB2 (PRO you))
+		      (IP-INF (TO to)
+			      (VB wash)
+			      (ADVP-DIR (ADV away))
+			      (NP-OB1 (N Sorrow))))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (D the) (ADJ good) (NS People))
+			      (BEP are)
+			      (VAN resolv'd)
+			      (IP-INF (TO to)
+				      (VB share)
+				      (NP-OB1 (CONJ both)
+					      (NP (PRO$ your) (N Pleasure))
+					      (CONJP (CONJ and)
+						     (NP (PRO$ your) (N Pain)))))
+			      (, ,)
+			      (IP-PPL (VAN provided)
+				      (CP-THT (C 0)
+					      (IP-SUB (NP-SBJ (PRO they))
+						      (MD may)
+						      (HV have)
+						      (NP-OB1 (NP-MSR (D a) (ADJ little))
+							      (NS Victuals)
+							      (CONJP (CONJ and)
+								     (NX (N Drink)))
+							      (CP-EOP (WNP-1 0)
+								      (IP-INF (NP-SBJ *T*-1)
+									      (TO to)
+									      (VB keep)
+									      (RP up)
+									      (NP-OB1 (PRO$ their) (NS Spirits)))))))))))
+	  (. .))
+  (ID DAVYS-1716,29.179))
+
+/~*
+Pray what extraordinary Occasion brought 'em here $today.
+(DAVYS-1716,29.182)
+*~/
+/*
+22 ADVP-DIR:  22 ADVP-DIR, 24 here
+*/
+
+( (CP-QUE (IP-MAT-PRN (NP-SBJ *pro*)
+		      (VBP Pray))
+	  (WNP-1 (WD what) (ADJ extraordinary) (N Occasion))
+	  (IP-SUB (NP-SBJ *T*-1)
+		  (VBD brought)
+		  (NP-OB1 (PRO 'em))
+		  (ADVP-DIR (ADV here))
+		  (NP-TMP (N $today)))
+	  (CODE {TEXT:to_Day})
+	  (. .))
+  (ID DAVYS-1716,29.182))
+
+/~*
+Ralph. Yes, I want to disburden my self of my Master's Service to her, and to
+load my self back with the joyful News of her good Health:
+(DAVYS-1716,34.344)
+*~/
+/*
+64 ADVP-DIR:  64 ADVP-DIR, 66 back
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Ralph))
+		(, .)
+		(CODE <$$font>))
+	  (INTJ Yes)
+	  (, ,)
+	  (NP-SBJ (PRO I))
+	  (VBP want)
+	  (IP-INF (IP-INF (TO to)
+			  (VB disburden)
+			  (NP-OB1 (PRO$ my) (N self))
+			  (PP (P of)
+			      (NP (NP-POS (PRO$ my) (N$ Master's))
+				  (N Service)
+				  (PP (P to)
+				      (NP (PRO her))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO to)
+				 (VB load)
+				 (NP-OB1 (PRO$ my) (N self))
+				 (ADVP-DIR (ADV back))
+				 (PP (P with)
+				     (NP (D the)
+					 (ADJ joyful)
+					 (N News)
+					 (PP (P of)
+					     (NP (PRO$ her) (ADJ good) (N Health))))))))
+	  (. :))
+  (ID DAVYS-1716,34.344))
+
+/~*
+but, on the contrary, has given himself so entirely away, that a
+Disappointment must of Necessity be fatal.
+(DAVYS-1716,35.374)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 34 away
+*/
+
+( (IP-MAT (CONJ but)
+	  (, ,)
+	  (NP-SBJ *con*)
+	  (PP (P on)
+	      (NP (D the) (N contrary)))
+	  (, ,)
+	  (HVP has)
+	  (VBN given)
+	  (NP-OB1 (PRO+N himself))
+	  (ADVP (ADVR so)
+		(ADV entirely)
+		(CP-DEG *ICH*-1))
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (CP-DEG-1 (C that)
+		    (IP-SUB (NP-SBJ (D a) (N Disappointment))
+			    (MD must)
+			    (PP (P of)
+				(NP (N Necessity)))
+			    (BE be)
+			    (ADJP (ADJ fatal))))
+	  (. .))
+  (ID DAVYS-1716,35.374))
+
+/~*
+Lid. And so to revenge your self on a Man you only fancy does not love you,
+you will give your self away to one you are sure you hate.
+(DAVYS-1716,38.462)
+*~/
+/*
+75 ADVP-DIR:  75 ADVP-DIR, 77 away
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lid.))
+		(CODE <$$font>))
+	  (CONJ And)
+	  (ADVP (ADV so))
+	  (IP-INF-PRP (TO to)
+		      (VB revenge)
+		      (NP-OB1 (PRO$ your) (N self))
+		      (PP (P on)
+			  (NP (D a)
+			      (N Man)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-SBJ (PRO you) (FP only))
+					      (VBP fancy)
+					      (CP-THT (C 0)
+						      (IP-SUB (NP-SBJ *T*-1)
+							      (DOP does)
+							      (NEG not)
+							      (VB love)
+							      (NP-OB1 (PRO you)))))))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD will)
+	  (VB give)
+	  (NP-OB1 (PRO$ your) (N self))
+	  (ADVP-DIR (ADV away))
+	  (PP (P to)
+	      (NP (ONE one)
+		  (CP-REL (WNP-2 0)
+			  (C 0)
+			  (IP-SUB (NP-SBJ (PRO you))
+				  (BEP are)
+				  (ADJP (ADJ sure)
+					(CP-THT (C 0)
+						(IP-SUB (NP-OB1 *T*-2)
+							(NP-SBJ (PRO you))
+							(VBP hate))))))))
+	  (. .))
+  (ID DAVYS-1716,38.462))
+
+/~*
+I have brought an old Friend here to kiss your Hand, and wait upon you to the
+Races.
+(DAVYS-1716,41.580)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 here
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN brought)
+	  (NP-OB1 (D an) (ADJ old) (N Friend))
+	  (ADVP-DIR (ADV here))
+	  (IP-INF-PRP (IP-INF (TO to)
+			      (VB kiss)
+			      (NP-OB1 (PRO$ your) (N Hand)))
+		      (, ,)
+		      (CONJP (CONJ and)
+			     (IP-INF (TO *)
+				     (VB wait)
+				     (PP (P upon)
+					 (NP (PRO you)))
+				     (PP (P to)
+					 (NP (D the) (NS Races))))))
+	  (. .))
+  (ID DAVYS-1716,41.580))
+
+/~*
+come away,
+(DAVYS-1716,48.845)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 away
+*/
+
+( (IP-IMP (VBI come)
+	  (ADVP-DIR (ADV away))
+	  (. ,))
+  (ID DAVYS-1716,48.845))
+
+/~*
+Lou. Should I give it away so soon, you would hardly think it worth Acceptance.
+(DAVYS-1716,49.869)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 26 away
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lou.))
+		(CODE <$$font>))
+	  (CP-ADV (C 0)
+		  (IP-SUB (MD Should)
+			  (NP-SBJ (PRO I))
+			  (VB give)
+			  (NP-OB1 (PRO it))
+			  (ADVP-DIR (ADV away))
+			  (ADVP-TMP (ADVR so) (ADV soon))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD would)
+	  (ADVP (ADV hardly))
+	  (VB think)
+	  (IP-SMC (NP-SBJ (PRO it))
+		  (ADJP (ADJ worth)
+			(NP (N Acceptance))))
+	  (. .))
+  (ID DAVYS-1716,49.869))
+
+/~*
+nor can I think you a Man of so little Gallantry, as to have been in all the
+polite Parts of the World, and bring a Heart back with you at last.
+(DAVYS-1716,51.937)
+*~/
+/*
+81 ADVP-DIR:  81 ADVP-DIR, 83 back
+*/
+
+( (IP-MAT (CONJ nor)
+	  (MD can)
+	  (NP-SBJ (PRO I))
+	  (VB think)
+	  (IP-SMC (NP-SBJ (PRO you))
+		  (NP-OB1 (D a)
+			  (N Man)
+			  (PP (P of)
+			      (NP (QP (ADVR so)
+				      (Q little)
+				      (PP *ICH*-1))
+				  (N Gallantry)
+				  (, ,)
+				  (PP-1 (P as)
+					(IP-INF (IP-INF (TO to)
+							(HV have)
+							(BEN been)
+							(PP (P in)
+							    (NP (Q all)
+								(D the)
+								(ADJ polite)
+								(NS Parts)
+								(PP (P of)
+								    (NP (D the) (N World))))))
+						(, ,)
+						(CONJP (CONJ and)
+						       (IP-INF (TO *)
+							       (VB bring)
+							       (NP-OB1 (D a) (N Heart))
+							       (ADVP-DIR (ADV back))
+							       (PP (P with)
+								   (NP (PRO you)))
+							       (PP (P at)
+								   (ADVP (ADV last)))))))))))
+	  (. .))
+  (ID DAVYS-1716,51.937))
+
+/~*
+I surely brought a Heart back with me,
+(DAVYS-1716,51.939)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 back
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (ADVP (ADV surely))
+	  (VBD brought)
+	  (NP-OB1 (D a) (N Heart))
+	  (ADVP-DIR (ADV back))
+	  (PP (P with)
+	      (NP (PRO me)))
+	  (. ,))
+  (ID DAVYS-1716,51.939))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	11/11/946
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd
+*/
+
+/~*
+the rest frighted out of their Wits, scour'd away as fast as they could,
+taking but little Care to save those whose Boats were split or spoiled with
+our Shot.
+(DEFOE-1719,194.30)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 26 away
+*/
+
+( (IP-MAT (NP-SBJ (D the) (N rest))
+	  (IP-PPL (VAN frighted)
+		  (PP (RP out)
+		      (P of)
+		      (NP (PRO$ their) (NS Wits))))
+	  (, ,)
+	  (VBD scour'd)
+	  (ADVP-DIR (ADV away))
+	  (ADVP (ADVR as)
+		(ADV fast)
+		(PP (P as)
+		    (CP-CMP (WADVP-1 0)
+			    (C 0)
+			    (IP-SUB (ADVP *T*-1)
+				    (NP-SBJ (PRO they))
+				    (MD could)))))
+	  (, ,)
+	  (IP-PPL (VAG taking)
+		  (NP-OB1 (QP (FP but) (Q little))
+			  (N Care))
+		  (IP-INF (TO to)
+			  (VB save)
+			  (NP-OB1 (D those)
+				  (CP-REL (WNP-2 (WPRO$ whose) (NS Boats))
+					  (C 0)
+					  (IP-SUB (NP-SBJ *T*-2)
+						  (BED were)
+						  (VAN (VAN split) (CONJ or) (VAN spoiled))
+						  (PP (P with)
+						      (NP (PRO$ our) (N Shot))))))))
+	  (. .))
+  (ID DEFOE-1719,194.30))
+
+/~*
+and came away from him;
+(DEFOE-1719,195.47)
+*~/
+/*
+8 ADVP-DIR:  8 ADVP-DIR, 16 him
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD came)
+	  (ADVP-DIR (ADV away)
+		    (PP (P from)
+			(NP (PRO him))))
+	  (. ;))
+  (ID DEFOE-1719,195.47))
+
+/~*
+We went now away with a fair Wind for Brasil,
+(DEFOE-1719,196.79)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO We))
+	  (VBD went)
+	  (ADVP-TMP (ADV now))
+	  (ADVP-DIR (ADV away))
+	  (PP (P with)
+	      (NP (D a) (ADJ fair) (N Wind)))
+	  (PP (P for)
+	      (CODE <font>)
+	      (NP (NPR Brasil)))
+	  (CODE <$$font>)
+	  (. ,))
+  (ID DEFOE-1719,196.79))
+
+/~*
+and oblig'd the Prior that then was, to go to the Governor, and get Leave for
+me personally, with the Captain and one more, besides eight Seamen, to come on
+Shore, and no more; and this upon Condition absolutely capitulated for, that
+we should not offer to land any Goods out of the Ship, or to carry any Person
+away without Licence.
+(DEFOE-1719,197.87)
+*~/
+/*
+198 ADVP-DIR:  198 ADVP-DIR, 200 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD oblig'd)
+	  (NP-OB1 (D the)
+		  (N Prior)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (ADVP-TMP (ADV then))
+				  (BED was))))
+	  (, ,)
+	  (IP-INF (IP-INF (TO to)
+			  (VB go)
+			  (PP (P to)
+			      (NP (D the) (N Governor))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO *)
+				 (VB get)
+				 (NP-OB1 (N Leave)
+					 (IP-INF (IP-INF (FOR for)
+							 (NP-SBJ (PRO me))
+							 (ADVP (ADV personally))
+							 (, ,)
+							 (PP (P with)
+							     (NP (NP (D the) (N Captain))
+								 (CONJP (CONJ and)
+									(NP (ONE one)
+									    (QP (QR more))))))
+							 (, ,)
+							 (PP (P besides)
+							     (NP (NP (NUM eight) (N+NS Seamen))
+								 (CONJP *ICH*-2)))
+							 (, ,)
+							 (TO to)
+							 (VB come)
+							 (PP (P on)
+							     (NP (N Shore)))
+							 (, ,)
+							 (CONJP-2 (CONJ and)
+								  (NP (QP (Q no) (QR more)))))
+						 (, ;)
+						 (CONJP (CONJ and)
+							(FRAG (NP (D this))
+							      (PP (P upon)
+								  (NP (N Condition)
+								      (RRC (ADVP (ADV absolutely))
+									   (VAN capitulated)
+									   (PP (P for)
+									       (NP *)))
+								      (, ,)
+								      (CP-THT (C that)
+									      (IP-SUB (NP-SBJ (PRO we))
+										      (MD should)
+										      (NEG not)
+										      (VB offer)
+										      (IP-INF (IP-INF (TO to)
+												      (VB land)
+												      (NP-OB1 (Q any) (NS Goods))
+												      (PP (RP out)
+													  (P of)
+													  (NP (D the) (N Ship))))
+											      (, ,)
+											      (CONJP (CONJ or)
+												     (IP-INF (TO to)
+													     (VB carry)
+													     (NP-OB1 (Q any) (N Person))
+													     (ADVP-DIR (ADV away))
+													     (PP (P without)
+														 (NP (N Licence)))))))))))))))))
+	  (. .))
+  (ID DEFOE-1719,197.87))
+
+/~*
+but as I rambled from them, and came there no more, the last Letters I had
+from any of them, was by my Partner's Means; who afterwards sent another Sloop
+to the Place, and who sent me Word, tho' I had not the Letter till five Years
+after it was written, that they went on but poorly, were malecontent with
+their long Stay there. That Will. Atkins was dead: That five of the Spaniards
+were come away, and that tho' they had not been much molested by the Savages,
+yet they had some Skirmishes with them; that they begged of him to write to me,
+to think of the Promise I had made, to fetch them away, that they might see
+their own Country again before they dy'd.
+(DEFOE-1719,201.139)
+*~/
+/*
+279 ADVP-DIR:  279 ADVP-DIR, 281 away
+410 ADVP-DIR:  410 ADVP-DIR, 412 away
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P as)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO I))
+				      (VBD rambled)
+				      (PP (P from)
+					  (NP (PRO them))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBD came)
+					     (ADVP-LOC (ADV there))
+					     (NP-MSR (QP (Q no) (QR more))))))))
+	  (, ,)
+	  (NP-SBJ (D the)
+		  (ADJ last)
+		  (NS Letters)
+		  (CP-REL (WNP-1 0)
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO I))
+				  (HVD had)))
+		  (PP (P from)
+		      (NP (Q any)
+			  (PP (P of)
+			      (NP (PRO them))))))
+	  (, ,)
+	  (BED was)
+	  (PP (P by)
+	      (NP (NP-POS (PRO$ my)
+			  (N$ Partner's)
+			  (CP-REL *ICH*-2))
+		  (N Means)
+		  (, ;)
+		  (CP-REL-2 (CP-REL (WNP-3 (WPRO who))
+				    (C 0)
+				    (IP-SUB (NP-SBJ *T*-3)
+					    (ADVP-TMP (ADV+WARD afterwards))
+					    (VBD sent)
+					    (NP-OB1 (D+OTHER another) (N Sloop))
+					    (PP (P to)
+						(NP (D the) (N Place)))))
+			    (, ,)
+			    (CONJP (CONJ and)
+				   (CP-REL (WNP-4 (WPRO who))
+					   (C 0)
+					   (IP-SUB (NP-SBJ *T*-4)
+						   (VBD sent)
+						   (NP-OB2 (PRO me))
+						   (NP-OB1 (N Word))
+						   (, ,)
+						   (PP (P tho')
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (PRO I))
+								       (HVD had)
+								       (NEG not)
+								       (NP-OB1 (D the) (N Letter))
+								       (PP (P till)
+									   (PP (NP-MSR (NUM five) (NS Years))
+									       (P after)
+									       (CP-ADV (C 0)
+										       (IP-SUB (NP-SBJ (PRO it))
+											       (BED was)
+											       (VAN written))))))))
+						   (, ,)
+						   (CP-THT (CP-THT (C that)
+								   (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+										   (VBD went)
+										   (RP on)
+										   (ADVP (FP but) (ADV poorly)))
+									   (, ,)
+									   (CONJP (IP-SUB (NP-SBJ *con*)
+											  (BED were)
+											  (ADJP (ADJ malecontent)
+												(PP (P with)
+												    (NP (PRO$ their)
+													(ADJ long)
+													(N Stay)
+													(ADVP (ADV there)))))))))
+							   (, .)
+							   (CONJP (CP-THT (C That)
+									  (CODE <font>)
+									  (IP-SUB (NP-SBJ (NPR Will.) (NPR Atkins))
+										  (CODE <$$font>)
+										  (BED was)
+										  (ADJP (ADJ dead)))))
+							   (, :)
+							   (CONJP (CP-THT (C That)
+									  (IP-SUB (NP-SBJ (NUM five)
+											  (PP (P of)
+											      (NP (D the) (CODE <font>) (NPRS Spaniards))))
+										  (CODE <$$font>)
+										  (BED were)
+										  (VBN come)
+										  (ADVP-DIR (ADV away)))))
+							   (, ,)
+							   (CONJP (CONJ and)
+								  (CP-THT (C that)
+									  (IP-SUB (PP-LFD (P tho')
+											  (CP-ADV (C 0)
+												  (IP-SUB (NP-SBJ (PRO they))
+													  (HVD had)
+													  (NEG not)
+													  (BEN been)
+													  (NP-MSR (Q much))
+													  (VAN molested)
+													  (PP (P by)
+													      (NP (D the) (NS Savages))))))
+										  (, ,)
+										  (ADVP-RSP (ADV yet))
+										  (NP-SBJ (PRO they))
+										  (HVD had)
+										  (NP-OB1 (Q some) (NS Skirmishes))
+										  (PP (P with)
+										      (NP (PRO them))))))
+							   (, ;)
+							   (CONJP (CP-THT (C that)
+									  (IP-SUB (NP-SBJ (PRO they))
+										  (VBD begged)
+										  (PP (P of)
+										      (NP (PRO him)))
+										  (IP-INF (TO to)
+											  (VB write)
+											  (PP (P to)
+											      (NP (PRO me)))
+											  (, ,)
+											  (IP-INF (TO to)
+												  (VB think)
+												  (PP (P of)
+												      (NP (D the)
+													  (N Promise)
+													  (CP-REL (WNP-5 0)
+														  (C 0)
+														  (IP-SUB (NP-OB1 *T*-5)
+															  (NP-SBJ (PRO I))
+															  (HVD had)
+															  (VBN made)))
+													  (, ,)
+													  (IP-INF (TO to)
+														  (VB fetch)
+														  (NP-OB1 (PRO them))
+														  (ADVP-DIR (ADV away))
+														  (, ,)
+														  (CP-ADV (C that)
+															  (IP-SUB (NP-SBJ (PRO they))
+																  (MD might)
+																  (VB see)
+																  (NP-OB1 (PRO$ their) (ADJ own) (N Country))
+																  (ADVP (ADV again))
+																  (PP (P before)
+																      (CP-ADV (C 0)
+																	      (IP-SUB (NP-SBJ (PRO they))
+																		      (VBD dy'd)))))))))))))))))))))
+	  (. .))
+  (ID DEFOE-1719,201.139))
+
+/~*
+Be it, I had Business, or no Business, away I went.
+(DEFOE-1719,202.150)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 away
+*/
+
+( (IP-MAT (CP-ADV (C 0)
+		  (IP-SUB (BEP Be)
+			  (NP-SBJ-1 (PRO it))
+			  (, ,)
+			  (CP-THT-1 (C 0)
+				    (IP-SUB (NP-SBJ (PRO I))
+					    (HVD had)
+					    (NP-OB1 (NP (N Business))
+						    (, ,)
+						    (CONJP (CONJ or)
+							   (NP (Q no) (N Business))))))))
+	  (, ,)
+	  (ADVP-DIR (ADV away))
+	  (NP-SBJ (PRO I))
+	  (VBD went)
+	  (. .))
+  (ID DEFOE-1719,202.150))
+
+/~*
+a Ship being ready to go to Lisbon, he ask'd me Leave to go thither, being
+still, as he observed, bound never to finish any Voyage he began.
+(DEFOE-1719,202.155)
+*~/
+/*
+46 ADVP-DIR:  46 ADVP-DIR, 48 thither
+*/
+
+( (IP-MAT (IP-PPL-ABS (NP-SBJ (D a) (N Ship))
+		      (BAG being)
+		      (ADJP (ADJ ready)
+			    (IP-INF (TO to)
+				    (VB go)
+				    (PP (P to)
+					(CODE <font>)
+					(NP (NPR Lisbon))))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD ask'd)
+	  (NP-OB2 (PRO me))
+	  (NP-OB1 (N Leave)
+		  (IP-INF (TO to)
+			  (VB go)
+			  (ADVP-DIR (ADV thither))))
+	  (, ,)
+	  (IP-PPL (BAG being)
+		  (ADVP-TMP (ADV still))
+		  (, ,)
+		  (PP-PRN (P as)
+			  (CP-ADV (WNP-1 0)
+				  (C 0)
+				  (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (VBD observed))))
+		  (, ,)
+		  (VAN bound)
+		  (IP-INF (ADVP-TMP (ADV never))
+			  (TO to)
+			  (VB finish)
+			  (NP-OB1 (Q any)
+				  (N Voyage)
+				  (CP-REL (WNP-2 0)
+					  (C 0)
+					  (IP-SUB (NP-OB1 *T*-2)
+						  (NP-SBJ (PRO he))
+						  (VBD began))))))
+	  (. .))
+  (ID DEFOE-1719,202.155))
+
+/~*
+From the Brasils, we made directly away over the Atlantick Sea, to the Cape de
+bon Esperance, or as we call it, The Cape of Good Hope;
+(DEFOE-1719,203.163)
+*~/
+/*
+21 ADVP-DIR:  21 ADVP-DIR, 25 away
+*/
+
+( (IP-MAT (PP (P From)
+	      (NP (D the) (CODE <font>) (NPRS Brasils)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (NP-SBJ (PRO we))
+	  (VBD made)
+	  (ADVP-DIR (ADV directly) (ADV away))
+	  (PP (P over)
+	      (NP (D the) (CODE <font>) (NPR Atlantick) (NPR Sea)))
+	  (CODE <$$font>)
+	  (, ,)
+	  (PP (P to)
+	      (NP (NP (D the) (CODE <font>) (NPR Cape) (NPR de) (NPR bon) (NPR Esperance))
+		  (CODE <$$font>)
+		  (, ,)
+		  (CONJP (CONJ or)
+			 (PP-PRN (P as)
+				 (CP-ADV (WNP-1 0)
+					 (C 0)
+					 (IP-SUB (NP-SBJ (PRO we))
+						 (VBP call)
+						 (IP-SMC (NP-OB1 *T*-1)
+							 (NP-SBJ (PRO it))))))
+			 (, ,)
+			 (NP (CODE <font>)
+			     (D The)
+			     (N Cape)
+			     (PP (P of)
+				 (NP (ADJ Good) (N Hope)))))))
+	  (CODE <$$font>)
+	  (. ;))
+  (ID DEFOE-1719,203.163))
+
+/~*
+and I, that was always too curious, to look into every Nook of the World
+wherever I came, was for going on Shore as fast as I could.
+(DEFOE-1719,204.185)
+*~/
+/*
+58 ADVP-DIR:  58 ADVP-DIR, 59 *T*-2
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I)
+		  (, ,)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (ADVP-TMP (ADV always))
+				  (ADJP (ADVR too)
+					(ADJ curious)
+					(, ,)
+					(IP-INF-DEG (TO to)
+						    (VB look)
+						    (PP (P into)
+							(NP (Q every)
+							    (N Nook)
+							    (PP (P of)
+								(NP (D the) (N World)))))))
+				  (ADVP-LOC (CP-FRL (WADVP-2 (WADV+ADV wherever))
+						    (C 0)
+						    (IP-SUB (ADVP-DIR *T*-2)
+							    (NP-SBJ (PRO I))
+							    (VBD came)))))))
+	  (, ,)
+	  (BED was)
+	  (PP (P for)
+	      (IP-PPL (VAG going)
+		      (PP (P on)
+			  (NP (N Shore)))
+		      (ADVP (ADVR as)
+			    (ADV fast)
+			    (PP (P as)
+				(CP-CMP (WADVP-3 0)
+					(C 0)
+					(IP-SUB (ADVP *T*-3)
+						(NP-SBJ (PRO I))
+						(MD could)))))))
+	  (. .))
+  (ID DEFOE-1719,204.185))
+
+/~*
+When you go there, you must not carry your Weapons with you;
+(DEFOE-1719,205.194)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 there
+*/
+
+( (IP-MAT (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO you))
+			      (VBP go)
+			      (ADVP-DIR (ADV there)))))
+	  (, ,)
+	  (NP-SBJ (PRO you))
+	  (MD must)
+	  (NEG not)
+	  (VB carry)
+	  (NP-OB1 (PRO$ your) (NS Weapons))
+	  (PP (P with)
+	      (NP (PRO you)))
+	  (. ;))
+  (ID DEFOE-1719,205.194))
+
+/~*
+but if any Violence is offer'd them, and the Truce thereby broken, away they
+run to the Poles,
+(DEFOE-1719,205.197)
+*~/
+/*
+42 ADVP-DIR:  42 ADVP-DIR, 44 away
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB-1 (NP-SBJ (Q any) (N Violence))
+					(BEP is)
+					(VAN offer'd)
+					(NP-OB2 (PRO them)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB=1 (NP-SBJ (D the) (N Truce))
+					       (PP (ADV+P thereby))
+					       (VAN broken))))))
+	  (, ,)
+	  (ADVP-DIR (ADV away))
+	  (NP-SBJ (PRO they))
+	  (VBP run)
+	  (PP (P to)
+	      (NP (D the) (NS Poles)))
+	  (. ,))
+  (ID DEFOE-1719,205.197))
+
+/~*
+The old Woman went away without her,
+(DEFOE-1719,208_misnumbered_as_228.254)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 away
+*/
+
+( (IP-MAT (NP-SBJ (D The) (ADJ old) (N Woman))
+	  (VBD went)
+	  (ADVP-DIR (ADV away))
+	  (PP (P without)
+	      (NP (PRO her)))
+	  (. ,))
+  (ID DEFOE-1719,208_misnumbered_as_228.254))
+
+/~*
+those that were wounded we suppos'd they had carried away.
+(DEFOE-1719,210.283)
+*~/
+/*
+35 ADVP-DIR:  35 ADVP-DIR, 37 away
+*/
+
+( (IP-MAT (NP-TPC-1 (D those)
+		    (CP-REL (WNP-2 0)
+			    (C that)
+			    (IP-SUB (NP-SBJ *T*-2)
+				    (BED were)
+				    (VAN wounded))))
+	  (NP-SBJ (PRO we))
+	  (VBD suppos'd)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-OB1 *T*-1)
+			  (NP-SBJ (PRO they))
+			  (HVD had)
+			  (VBN carried)
+			  (ADVP-DIR (ADV away))))
+	  (. .))
+  (ID DEFOE-1719,210.283))
+
+/~*
+So away they went:
+(DEFOE-1719,211.305)
+*~/
+/*
+5 ADVP-DIR:  5 ADVP-DIR, 7 away
+*/
+
+( (IP-MAT (ADVP (ADV So))
+	  (ADVP-DIR (ADV away))
+	  (NP-SBJ (PRO they))
+	  (VBD went)
+	  (. :))
+  (ID DEFOE-1719,211.305))
+
+/~*
+Well, they all went away, as above;
+(DEFOE-1719,211.313)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 away
+*/
+
+( (IP-MAT (INTJP (ADV Well))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (Q all)
+	  (VBD went)
+	  (ADVP-DIR (ADV away))
+	  (, ,)
+	  (PP (P as)
+	      (ADVP (ADV above)))
+	  (. ;))
+  (ID DEFOE-1719,211.313))
+
+/~*
+and if one escaped, he would run away, and raise all the Town, so they should
+have a whole Army upon them:
+(DEFOE-1719,212.331)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 away
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ and)
+		    (PP (P if)
+			(CP-ADV (C 0)
+				(IP-SUB (NP-SBJ (ONE one))
+					(VBD escaped))))
+		    (, ,)
+		    (NP-SBJ (PRO he))
+		    (MD would)
+		    (VB run)
+		    (ADVP-DIR (ADV away)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB raise)
+			   (NP-OB1 (Q all) (D the) (N Town))
+			   (, ,)
+			   (PP (P so)
+			       (CP-ADV (C 0)
+				       (IP-SUB (NP-SBJ (PRO they))
+					       (MD should)
+					       (HV have)
+					       (NP-OB1 (D a) (ADJ whole) (N Army))
+					       (PP (P upon)
+						   (NP (PRO them))))))))
+	  (. :))
+  (ID DEFOE-1719,212.331))
+
+/~*
+Again, on the other hand, if they went away, and left those untouch'd for the
+People were all asleep they could not tell which Way to look for the Town.
+(DEFOE-1719,212.332)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 34 away
+*/
+
+( (IP-MAT (ADVP (ADV Again))
+	  (, ,)
+	  (PP (P on)
+	      (NP (D the) (OTHER other) (N hand)))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+				      (VBD went)
+				      (ADVP-DIR (ADV away)))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBD left)
+					     (NP-OB1 (D those))
+					     (ADJP-SPR (ADJ untouch'd))
+					     (CODE <paren>)
+					     (IP-MAT-PRN (CONJ for)
+							 (NP-SBJ (D the) (NS People))
+							 (BED were)
+							 (PP (Q all) (P+N asleep))))))))
+	  (CODE <$$paren>)
+	  (NP-SBJ (PRO they))
+	  (MD could)
+	  (NEG not)
+	  (VB tell)
+	  (CP-QUE (WNP-1 (WD which) (N Way))
+		  (IP-INF (NP-DIR *T*-1)
+			  (TO to)
+			  (VB look)
+			  (PP (P for)
+			      (NP (D the) (N Town)))))
+	  (. .))
+  (ID DEFOE-1719,212.332))
+
+/~*
+if she went back they had nothing to say to her;
+(DEFOE-1719,213.340)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 back
+*/
+
+( (IP-MAT (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO she))
+			      (VBD went)
+			      (ADVP-DIR (ADV back)))))
+	  (NP-SBJ (PRO they))
+	  (HVD had)
+	  (NP-OB1 (Q+N nothing)
+		  (CP-EOP (WNP-1 0)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (VB say)
+				  (PP (P to)
+				      (NP (PRO her))))))
+	  (. ;))
+  (ID DEFOE-1719,213.340))
+
+/~*
+but if she went forward, they had nothing to do but to follow her:
+(DEFOE-1719,213.341)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 forward
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO she))
+			      (VBD went)
+			      (ADVP-DIR (ADV+WARD forward)))))
+	  (, ,)
+	  (NP-SBJ (PRO they))
+	  (HVD had)
+	  (NP-OB1 (Q+N nothing)
+		  (CP-EOP (WNP-1 0)
+			  (IP-INF (NP-OB1 *T*-1)
+				  (TO to)
+				  (DO do)
+				  (PP (P but)
+				      (IP-INF (TO to)
+					      (VB follow)
+					      (NP-OB1 (PRO her)))))))
+	  (. :))
+  (ID DEFOE-1719,213.341))
+
+/~*
+but met with their Fate in the Attempt, and especially at the Door, where they
+drove 'em back, the Boatswain himself killing one or two with his Pole-Axe.
+(DEFOE-1719,214.368)
+*~/
+/*
+61 ADVP-DIR:  61 ADVP-DIR, 63 back
+*/
+
+( (IP-MAT (IP-MAT-1 (CONJ but)
+		    (NP-SBJ *con*)
+		    (VBD met)
+		    (PP (P with)
+			(NP (PRO$ their) (N Fate)))
+		    (PP (P in)
+			(NP (D the) (N Attempt))))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (ADVP (ADV especially))
+			   (PP (P at)
+			       (NP (D the)
+				   (N Door)
+				   (, ,)
+				   (CP-REL (WADVP-2 (WADV where))
+					   (C 0)
+					   (IP-SUB (ADVP-LOC *T*-2)
+						   (NP-SBJ (PRO they))
+						   (VBD drove)
+						   (NP-OB1 (PRO 'em))
+						   (ADVP-DIR (ADV back))))))
+			   (, ,)
+			   (IP-PPL-ABS (NP-SBJ (D the)
+					       (N+N Boatswain)
+					       (NP-PRN (PRO+N himself)))
+				       (VAG killing)
+				       (NP-OB1 (NUMP (ONE one) (CONJ or) (NUM two)))
+				       (PP (P with)
+					   (NP (PRO$ his) (N+N Pole-Axe))))))
+	  (. .))
+  (ID DEFOE-1719,214.368))
+
+/~*
+and told him, I would go, and the two Men, and only see if we could at a
+Distance learn what was like to be the Event, and come back and tell him.
+(DEFOE-1719,216.395)
+*~/
+/*
+102 ADVP-DIR:  102 ADVP-DIR, 104 back
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD told)
+	  (NP-OB2 (PRO him))
+	  (, ,)
+	  (CP-THT (C 0)
+		  (IP-SUB (IP-SUB (IP-SUB-1 (NP-SBJ (PRO I))
+					    (MD would)
+					    (VB go))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=1 (NP-SBJ (D the) (NUM two) (NS Men)))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (FP only)
+					   (VB see)
+					   (CP-QUE (WQ if)
+						   (C 0)
+						   (IP-SUB (NP-SBJ (PRO we))
+							   (MD could)
+							   (PP (P at)
+							       (NP (D a) (N Distance)))
+							   (VB learn)
+							   (CP-QUE (WNP-2 (WPRO what))
+								   (C 0)
+								   (IP-SUB (NP-SBJ *T*-2)
+									   (BED was)
+									   (ADJP (ADJ like)
+										 (IP-INF (TO to)
+											 (BE be)
+											 (NP-OB1 (D the) (N Event))))))))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (VB come)
+					   (ADVP-DIR (ADV back))))
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (VB tell)
+					   (NP-OB2 (PRO him))))))
+	  (. .))
+  (ID DEFOE-1719,216.395))
+
+/~*
+and away went he.
+(DEFOE-1719,216.401)
+*~/
+/*
+4 ADVP-DIR:  4 ADVP-DIR, 6 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (ADVP-DIR (ADV away))
+	  (VBD went)
+	  (NP-SBJ (PRO he))
+	  (. .))
+  (ID DEFOE-1719,216.401))
+
+/~*
+so in short, the Captain order'd two Men to row back the Pinnace, and fetch
+twelve Men more, leaving the Long-Boat at an Anchor, and that when they came
+back, six Men should keep the two Boats, and six more come after us; so that
+he left only 16 Men in the Ship;
+(DEFOE-1719,216.403)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 33 back
+97 ADVP-DIR:  97 ADVP-DIR, 99 back
+*/
+
+( (IP-MAT (ADVP (ADV so))
+	  (PP (P in)
+	      (ADJP (ADJ short)))
+	  (, ,)
+	  (NP-SBJ (D the) (N Captain))
+	  (VBD order'd)
+	  (NP-OB1 (NUM two) (NS Men))
+	  (IP-INF (IP-INF (TO to)
+			  (VB row)
+			  (ADVP-DIR (ADV back))
+			  (NP-OB1 (D the) (N Pinnace)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF (TO *)
+				 (VB fetch)
+				 (NP-OB1 (NUM twelve)
+					 (NS Men)
+					 (QP (QR more)))
+				 (, ,)
+				 (IP-PPL (VAG leaving)
+					 (NP-OB1 (D the) (ADJ+N Long-Boat))
+					 (PP (P at)
+					     (NP (D an) (N Anchor))))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB (IP-SUB-1 (PP (P when)
+						       (CP-ADV (C 0)
+							       (IP-SUB (NP-SBJ (PRO they))
+								       (VBD came)
+								       (ADVP-DIR (ADV back)))))
+						   (, ,)
+						   (NP-SBJ (NUM six) (NS Men))
+						   (MD should)
+						   (VB keep)
+						   (NP-OB1 (D the) (NUM two) (NS Boats)))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(IP-SUB=1 (NP-SBJ (NUM six)
+								  (QP (QR more)))
+							  (VB come)
+							  (PP (P after)
+							      (NP (PRO us)))))))))
+	  (, ;)
+	  (PP (P so)
+	      (CP-ADV (C that)
+		      (IP-SUB (NP-SBJ (PRO he))
+			      (VBD left)
+			      (NP-OB1 (NUMP (FP only) (NUM 16))
+				      (NS Men))
+			      (PP (P in)
+				  (NP (D the) (N Ship))))))
+	  (. ;))
+  (ID DEFOE-1719,216.403))
+
+/~*
+we saw the Fire encreas'd forward,
+(DEFOE-1719,217.424)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 forward
+*/
+
+( (IP-MAT (NP-SBJ (PRO we))
+	  (VBD saw)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (D the) (N Fire))
+			  (VBD encreas'd)
+			  (ADVP-DIR (ADV+WARD forward))))
+	  (. ,))
+  (ID DEFOE-1719,217.424))
+
+/~*
+If you want a Reason for what we have done, come hither.
+(DEFOE-1719,220.468)
+*~/
+/*
+43 ADVP-DIR:  43 ADVP-DIR, 45 hither
+*/
+
+( (IP-IMP-SPE (PP (P If)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO you))
+					  (VBP want)
+					  (NP-OB1 (D a)
+						  (N Reason)
+						  (PP (P for)
+						      (NP (CP-FRL-SPE (WNP-1 (WPRO what))
+								      (C 0)
+								      (IP-SUB-SPE (NP-OB1 *T*-1)
+										  (NP-SBJ (PRO we))
+										  (HVP have)
+										  (DON done)))))))))
+	      (, ,)
+	      (VBI come)
+	      (ADVP-DIR (ADV hither))
+	      (. .))
+  (ID DEFOE-1719,220.468))
+
+/~*
+Upon these Words, away run eight of my Men with the Boatswain and his Crew, to
+complete their bloody Work;
+(DEFOE-1719,220.479)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 away
+*/
+
+( (IP-MAT (PP (P Upon)
+	      (NP (D these) (NS Words)))
+	  (, ,)
+	  (ADVP-DIR (ADV away))
+	  (VBD run)
+	  (NP-SBJ (NUM eight)
+		  (PP (P of)
+		      (NP (PRO$ my) (NS Men))))
+	  (PP (P with)
+	      (NP (NP (D the) (N+N Boatswain))
+		  (CONJP (CONJ and)
+			 (NP (PRO$ his) (N Crew)))))
+	  (, ,)
+	  (IP-INF-PRP (TO to)
+		      (VB complete)
+		      (NP-OB1 (PRO$ their) (ADJ bloody) (N Work)))
+	  (. ;))
+  (ID DEFOE-1719,220.479))
+
+/~*
+and I seeing it quite out of my Power to restrain them, came away pensive and
+sad;
+(DEFOE-1719,220.480)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (IP-PPL (VAG seeing)
+		  (IP-SMC (NP-SBJ-1 (PRO it))
+			  (PP (ADV quite)
+			      (RP out)
+			      (P of)
+			      (NP (PRO$ my) (N Power)))
+			  (IP-INF-1 (TO to)
+				    (VB restrain)
+				    (NP-OB1 (PRO them)))))
+	  (, ,)
+	  (VBD came)
+	  (ADVP-DIR (ADV away))
+	  (ADJP-SPR (ADJ pensive) (CONJ and) (ADJ sad))
+	  (. ;))
+  (ID DEFOE-1719,220.480))
+
+/~*
+I got no Body to come back with me but the Supra-Cargo and two Men;
+(DEFOE-1719,220.482)
+*~/
+/*
+19 ADVP-DIR:  19 ADVP-DIR, 21 back
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBD got)
+	  (IP-INF (NP-SBJ (Q no)
+			  (N Body)
+			  (PP *ICH*-1))
+		  (TO to)
+		  (VB come)
+		  (ADVP-DIR (ADV back))
+		  (PP (P with)
+		      (NP (PRO me)))
+		  (PP-1 (P but)
+			(NP (NP (D the) (CODE <font>) (N Supra-Cargo))
+			    (CODE <$$font>)
+			    (CONJP (CONJ and)
+				   (NP (NUM two) (NS Men))))))
+	  (. ;))
+  (ID DEFOE-1719,220.482))
+
+/~*
+and sent her back to assist the Men in what might happen.
+(DEFOE-1719,221.491)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 back
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (VBD sent)
+	  (NP-OB1 (PRO her))
+	  (ADVP-DIR (ADV back))
+	  (IP-INF-PRP (TO to)
+		      (VB assist)
+		      (NP-OB1 (D the) (NS Men))
+		      (PP (P in)
+			  (NP (CP-FRL (WNP-1 (WPRO what))
+				      (C 0)
+				      (IP-SUB (NP-SBJ *T*-1)
+					      (MD might)
+					      (VB happen))))))
+	  (. .))
+  (ID DEFOE-1719,221.491))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	31/29/495
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd
+*/
+
+/~*
+In the galleries themselves, and more especially on the staircases, there
+lingered a great number of people, who came there, some because their rooms
+were empty and lonesome; others because their rooms were full and hot; and the
+greater part because they were restless and uncomfortable, and not possessed
+of the secret of exactly knowing what to do with themselves.
+(DICKENS-1837,547.67)
+*~/
+/*
+64 ADVP-DIR:  64 ADVP-DIR, 66 there
+*/
+
+( (IP-MAT-1 (PP (P In)
+		(NP (D the)
+		    (NS galleries)
+		    (NP-PRN (PRO+N themselves))))
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (ADVP (QR more) (ADV especially))
+			  (PP (P on)
+			      (NP (D the) (N+NS staircases))))
+	    (, ,)
+	    (NP-SBJ-2 (EX there))
+	    (VBD lingered)
+	    (NP-2 (D a)
+		  (ADJ great)
+		  (N number)
+		  (PP (P of)
+		      (NP (NS people)
+			  (, ,)
+			  (CP-REL (WNP-3 (WPRO who))
+				  (C 0)
+				  (IP-SUB-4 (NP-SBJ *T*-3)
+					    (VBD came)
+					    (ADVP-DIR (ADV there))
+					    (, ,)
+					    (IP-SUB-PRN=4 (NP-SBJ (Q some))
+							  (PP (P+N because)
+							      (CP-ADV (C 0)
+								      (IP-SUB (NP-SBJ (PRO$ their) (NS rooms))
+									      (BED were)
+									      (ADJP (ADJ empty) (CONJ and) (ADJ lonesome))))))
+					    (, ;)
+					    (IP-SUB-PRN=4 (NP-SBJ (OTHERS others))
+							  (PP (P+N because)
+							      (CP-ADV (C 0)
+								      (IP-SUB (NP-SBJ (PRO$ their) (NS rooms))
+									      (BED were)
+									      (ADJP (ADJ full) (CONJ and) (ADJ hot))))))
+					    (, ;)
+					    (IP-SUB-PRN=4 (CONJ and)
+							  (NP-SBJ (D the) (ADJR greater) (N part))
+							  (PP (P+N because)
+							      (CP-ADV (C 0)
+								      (IP-SUB (NP-SBJ (PRO they))
+									      (BED were)
+									      (ADJP (ADJP (ADJ restless) (CONJ and) (ADJ uncomfortable))
+										    (, ,)
+										    (CONJP (CONJ and)
+											   (ADJP (NEG not)
+												 (VAN possessed)
+												 (PP (P of)
+												     (NP (D the)
+													 (N secret)
+													 (PP (P of)
+													     (IP-PPL (ADVP (ADV exactly))
+														     (VAG knowing)
+														     (CP-QUE (WNP-5 (WPRO what))
+															     (IP-INF (NP-OB1 *T*-5)
+																     (TO to)
+																     (DO do)
+																     (PP (P with)
+																	 (NP (PRO+N themselves)))))))))))))))))))))
+	    (. .))
+  (ID DICKENS-1837,547.67))
+
+/~*
+'and in course o' time he come here in consekens.
+(DICKENS-1837,548.96)
+*~/
+/*
+23 ADVP-DIR:  23 ADVP-DIR, 25 here
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ and)
+	      (PP (P in)
+		  (NP (N course)
+		      (PP (P o')
+			  (NP (N time)))))
+	      (NP-SBJ (PRO he))
+	      (VBD come)
+	      (ADVP-DIR (ADV here))
+	      (PP (P in)
+		  (NP (N consekens)))
+	      (. .))
+  (ID DICKENS-1837,548.96))
+
+/~*
+and if I $ai $n't struck with apoplexy, $I $'ll be back in five minits by the
+clock. "
+(DICKENS-1837,548.110)
+*~/
+/*
+39 ADVP-DIR:  39 ADVP-DIR, 41 back
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO I))
+					  (BEP $ai)
+					  (NEG $n't)
+					  (CODE {TEXT:ain't})
+					  (VAN struck)
+					  (PP (P with)
+					      (NP (N apoplexy))))))
+	      (, ,)
+	      (NP-SBJ (PRO $I))
+	      (MD $'ll)
+	      (CODE {TEXT:I'll})
+	      (BE be)
+	      (ADVP-DIR (ADV back))
+	      (PP (P in)
+		  (NP (NUM five)
+		      (NS minits)
+		      (PP (P by)
+			  (NP (D the) (N clock)))))
+	      (. .)
+	      (" "))
+  (ID DICKENS-1837,548.110))
+
+/~*
+'And never came back again,' said Mr Pickwick.
+(DICKENS-1837,549.126)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 18 again
+*/
+
+( (IP-MAT (' ')
+	  (IP-MAT-SPE (CONJ And)
+		      (NP-SBJ *con*)
+		      (ADVP-TMP (ADV never))
+		      (VBD came)
+		      (ADVP-DIR (ADV back) (ADV again)))
+	  (, ,)
+	  (' ')
+	  (VBD said)
+	  (NP-SBJ (NPR Mr) (NPR Pickwick))
+	  (. .))
+  (ID DICKENS-1837,549.126))
+
+/~*
+'for back he come two minits afore the time, a bilin' vith rage, sayin' how
+$he $'d been nearly run over by a hackney coach; that he $war $n't used to it,
+and he wos blowed if he $would $n't write to the Lord Mayor.
+(DICKENS-1837,549.128)
+*~/
+/*
+6 ADVP-DIR:  6 ADVP-DIR, 8 back
+*/
+
+( (IP-MAT-SPE (' ')
+	      (CONJ for)
+	      (ADVP-DIR (ADV back))
+	      (NP-SBJ (PRO he))
+	      (VBD come)
+	      (PP (NP-MSR (NUM two) (NS minits))
+		  (P afore)
+		  (NP (D the) (N time)))
+	      (, ,)
+	      (PP (P a)
+		  (NP (N bilin')
+		      (PP (P vith)
+			  (NP (N rage)))))
+	      (, ,)
+	      (IP-PPL-SPE (VAG sayin')
+			  (CP-THT-SPE (CP-THT-SPE (C how)
+						  (IP-SUB-SPE (NP-SBJ (PRO $he))
+							      (HVD $'d)
+							      (CODE {TEXT:he'd})
+							      (BEN been)
+							      (ADVP (ADV nearly))
+							      (VAN run)
+							      (RP over)
+							      (PP (P by)
+								  (NP (D a) (N hackney) (N coach)))))
+				      (, ;)
+				      (CONJP (CP-THT-SPE (C that)
+							 (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO he))
+										 (BED $war)
+										 (NEG $n't)
+										 (CODE {TEXT:warn't})
+										 (ADJP (VAN used)
+										       (PP (P to)
+											   (NP (PRO it)))))
+								     (, ,)
+								     (CONJP (CONJ and)
+									    (IP-SUB-SPE (NP-SBJ (PRO he))
+											(BED wos)
+											(VAN blowed)
+											(PP (P if)
+											    (CP-ADV-SPE (C 0)
+													(IP-SUB-SPE (NP-SBJ (PRO he))
+														    (MD $would)
+														    (NEG $n't)
+														    (CODE {TEXT:wouldn't})
+														    (VB write)
+														    (PP (P to)
+															(NP (D the) (NPR Lord) (NPR Mayor)))))))))))))
+	      (. .))
+  (ID DICKENS-1837,549.128))
+
+/~*
+and it wos such a wery nice parlour, that he took it into his head to go there
+every night, which he did for a long time, alvays comin' back reg'lar about a
+quarter of an hour afore the gate shut, which wos all wery snug and
+comfortable.
+(DICKENS-1837,549.134)
+*~/
+/*
+51 ADVP-DIR:  51 ADVP-DIR, 53 there
+95 ADVP-DIR:  95 ADVP-DIR, 97 back
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO it))
+	      (BED wos)
+	      (NP-OB1 (ADJP (SUCH such)
+			    (CP-DEG-SPE *ICH*-1))
+		      (D a)
+		      (ADJP (ADV wery) (ADJ nice))
+		      (N parlour)
+		      (, ,)
+		      (CP-DEG-SPE-1 (C that)
+				    (IP-SUB-SPE (NP-SBJ (PRO he))
+						(VBD took)
+						(NP-OB1-2 (PRO it))
+						(PP (P into)
+						    (NP (PRO$ his) (N head)))
+						(IP-INF-SPE-2 (TO to)
+							      (VB go)
+							      (ADVP-DIR (ADV there))
+							      (NP-TMP (Q every) (N night))
+							      (, ,)
+							      (CP-CAR-SPE (WNP-3 (WPRO which))
+									  (C 0)
+									  (IP-SUB-SPE (NP-OB1 *T*-3)
+										      (NP-SBJ (PRO he))
+										      (DOD did)
+										      (VB *)
+										      (PP (P for)
+											  (NP (D a) (ADJ long) (N time)))
+										      (, ,)
+										      (IP-PPL-SPE (ADVP-TMP (ADV alvays))
+												  (VAG comin')
+												  (ADVP-DIR (ADV back))
+												  (ADVP (ADV reg'lar))
+												  (PP (NP-MSR (ADV about)
+													      (D a)
+													      (N quarter)
+													      (PP (P of)
+														  (NP (D an) (N hour))))
+												      (P afore)
+												      (CP-ADV-SPE (C 0)
+														  (IP-SUB-SPE (NP-SBJ (D the) (N gate))
+															      (VBD shut))))))))
+						(, ,)
+						(CP-CAR-SPE (WNP-4 (WPRO which))
+							    (C 0)
+							    (IP-SUB-SPE (NP-SBJ *T*-4)
+									(BED wos)
+									(Q all)
+									(ADJP (ADV wery)
+									      (ADJ snug)
+									      (CONJP (CONJ and)
+										     (ADJX (ADJ comfortable)))))))))
+	      (. .))
+  (ID DICKENS-1837,549.134))
+
+/~*
+"Vell then, $I $'ll tell you wot it is, my friend," says the turnkey, openin'
+the gate wery slow and sulky,
+(DICKENS-1837,549.141)
+*~/
+/*
+74 ADVX:  74 ADVX, 76 sulky
+*/
+
+( (IP-MAT (" ")
+	  (IP-MAT-SPE (INTJP (ADV Vell) (ADV then))
+		      (, ,)
+		      (NP-SBJ (PRO $I))
+		      (MD $'ll)
+		      (CODE {TEXT:I'll})
+		      (VB tell)
+		      (NP-OB2 (PRO you))
+		      (CP-QUE-SPE (WNP-1 (WPRO wot))
+				  (C 0)
+				  (IP-SUB-SPE (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO it))
+					      (BEP is)))
+		      (, ,)
+		      (NP-VOC (PRO$ my) (N friend)))
+	  (, ,)
+	  (" ")
+	  (VBP says)
+	  (NP-SBJ (D the) (N turnkey))
+	  (, ,)
+	  (IP-PPL-SPE (VAG openin')
+		      (NP-OB1 (D the) (N gate))
+		      (ADVP (ADV wery)
+			    (ADV slow)
+			    (CONJP (CONJ and)
+				   (ADVX (ADV sulky)))))
+	  (. ,))
+  (ID DICKENS-1837,549.141))
+
+/~*
+"but if you $can $n't confine yourself to steady circles, and find your vay
+back at reg'lar hours, as sure as $you $'re a standin' there, $I $'ll shut you
+out altogether!"
+(DICKENS-1837,549.144)
+*~/
+/*
+49 ADVP-DIR:  49 ADVP-DIR, 51 back
+*/
+
+( (IP-MAT-SPE (" ")
+	      (CONJ but)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ (PRO you))
+							(MD $can)
+							(NEG $n't)
+							(CODE {TEXT:can't})
+							(VB confine)
+							(NP-OB1 (PRO$+N yourself))
+							(PP (P to)
+							    (NP (ADJ steady) (NS circles))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE=1 (VB find)
+							       (NP-OB1 (PRO$ your) (N vay))
+							       (ADVP-DIR (ADV back))
+							       (PP (P at)
+								   (NP (ADJ reg'lar) (NS hours))))))))
+	      (, ,)
+	      (ADVP (ADVR as)
+		    (ADV sure)
+		    (PP (P as)
+			(CP-CMP-SPE (WADVP-2 0)
+				    (C 0)
+				    (IP-SUB-SPE (ADVP *T*-2)
+						(NP-SBJ (PRO $you))
+						(BEP $'re)
+						(CODE {TEXT:you're})
+						(PP (P a)
+						    (NP (N standin')))
+						(ADVP-LOC (ADV there))))))
+	      (, ,)
+	      (NP-SBJ (PRO $I))
+	      (MD $'ll)
+	      (CODE {TEXT:I'll})
+	      (VB shut)
+	      (NP-OB1 (PRO you))
+	      (RP out)
+	      (ADVP (ADV altogether))
+	      (. !)
+	      (" "))
+  (ID DICKENS-1837,549.144))
+
+/~*
+'Why, bless the gentleman's honest heart and soul!' said the Zephyr, turning
+round and affecting the extremity of surprise;
+(DICKENS-1837,553.198)
+*~/
+/*
+47 ADVP-DIR:  47 ADVP-DIR, 49 round
+*/
+
+( (IP-MAT (' ')
+	  (IP-MAT-SPE (INTJP (WADV Why))
+		      (, ,)
+		      (NP-SBJ *pro*)
+		      (VBP bless)
+		      (NP-OB1 (NP-POS (D the) (ADJ+N$ gentleman's))
+			      (ADJ honest)
+			      (N heart)
+			      (CONJP (CONJ and)
+				     (NX (N soul)))))
+	  (, !)
+	  (' ')
+	  (VBD said)
+	  (NP-SBJ (D the) (N Zephyr))
+	  (, ,)
+	  (IP-PPL-SPE (IP-PPL-SPE (VAG turning)
+				  (ADVP-DIR (ADV round)))
+		      (CONJP (CONJ and)
+			     (IP-PPL-SPE (VAG affecting)
+					 (NP-OB1 (D the)
+						 (N extremity)
+						 (PP (P of)
+						     (NP (N surprise)))))))
+	  (. ;))
+  (ID DICKENS-1837,553.198))
+
+/~*
+He then once again dropped off to sleep, with a confused consciousness that Mr
+Smangle was still engaged in relating a long story, the chief point of which
+appeared to be, that, on some occasion particularly stated and set forth, he
+had 'done' a bill and a gentleman at the same time.
+(DICKENS-1837,556.312)
+*~/
+/*
+121 ADVP-DIR:  121 ADVP-DIR, 123 forth
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (ADVP-TMP (ADV then))
+	  (ADVP (NUM once) (ADV again))
+	  (VBD dropped)
+	  (RP off)
+	  (PP (P to)
+	      (NP (N sleep)))
+	  (, ,)
+	  (PP (P with)
+	      (NP (D a)
+		  (VAN confused)
+		  (N consciousness)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (NPR Mr) (NPR Smangle))
+				  (BED was)
+				  (ADVP-TMP (ADV still))
+				  (VAN engaged)
+				  (PP (P in)
+				      (IP-PPL (VAG relating)
+					      (NP-OB1 (D a)
+						      (ADJ long)
+						      (N story)
+						      (, ,)
+						      (CP-REL (WNP-1 (D the)
+								     (ADJ chief)
+								     (N point)
+								     (WPP (P of)
+									  (WNP (WPRO which))))
+							      (C 0)
+							      (IP-SUB (NP-SBJ *T*-1)
+								      (VBD appeared)
+								      (IP-INF (TO to)
+									      (BE be)
+									      (, ,)
+									      (CP-THT (C that)
+										      (, ,)
+										      (IP-SUB (PP (P on)
+												  (NP (Q some)
+												      (N occasion)
+												      (RRC (RRC (ADVP (ADV particularly))
+														(VAN stated))
+													   (CONJP (CONJ and)
+														  (RRC (VAN set)
+														       (ADVP-DIR (ADV forth)))))))
+											      (, ,)
+											      (NP-SBJ (PRO he))
+											      (HVD had)
+											      (' ')
+											      (DON done)
+											      (' ')
+											      (NP-OB1 (NP (D a) (N bill))
+												      (CONJP (CONJ and)
+													     (NP (D a) (ADJ+N gentleman))))
+											      (PP (P at)
+												  (NP (D the) (ADJ same) (N time)))))))))))))))
+	  (. .))
+  (ID DICKENS-1837,556.312))
+
+/~*
+Thus spake Mr Smangle, edging himself meanwhile as near as possible to the
+portmanteau, and beaming forth looks of the most fervent and disinterested
+friendship.
+(DICKENS-1837,558.359)
+*~/
+/*
+52 ADVP-DIR:  52 ADVP-DIR, 54 forth
+*/
+
+( (IP-MAT (ADVP (ADV Thus))
+	  (VBD spake)
+	  (NP-SBJ (NPR Mr) (NPR Smangle))
+	  (, ,)
+	  (IP-PPL (IP-PPL (VAG edging)
+			  (NP-OB1 (PRO+N himself))
+			  (NP-TMP (ADJ+N meanwhile))
+			  (PP (NP-MSR (ADJP (ADVR as) (ADJ near))
+				      (PP (P as)
+					  (ADJP (ADJ possible))))
+			      (P to)
+			      (NP (D the) (N portmanteau))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (VAG beaming)
+				 (ADVP-DIR (ADV forth))
+				 (NP-OB1 (NS looks)
+					 (PP (P of)
+					     (NP (D the)
+						 (ADJP (QS most)
+						       (ADJ fervent)
+						       (CONJP (CONJ and)
+							      (ADJX (ADJ disinterested))))
+						 (N friendship)))))))
+	  (. .))
+  (ID DICKENS-1837,558.359))
+
+/~*
+Very much perplexed by this summary disposition of his person, Mr Pickwick
+walked back into the prison, revolving in his mind what he had better do.
+(DICKENS-1837,560.408)
+*~/
+/*
+38 ADVP-DIR:  38 ADVP-DIR, 40 back
+*/
+
+( (IP-MAT (IP-PPL (NP-MSR (QP (ADV Very) (Q much)))
+		  (VAN perplexed)
+		  (PP (P by)
+		      (NP (D this)
+			  (ADJ summary)
+			  (N disposition)
+			  (PP (P of)
+			      (NP (PRO$ his) (N person))))))
+	  (, ,)
+	  (NP-SBJ (NPR Mr) (NPR Pickwick))
+	  (VBD walked)
+	  (ADVP-DIR (ADV back))
+	  (PP (P into)
+	      (NP (D the) (N prison)))
+	  (, ,)
+	  (IP-PPL (VAG revolving)
+		  (PP (P in)
+		      (NP (PRO$ his) (N mind)))
+		  (CP-QUE (WNP-1 (WPRO what))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO he))
+				  (MD had)
+				  (ADVP (ADVR better))
+				  (DO do))))
+	  (. .))
+  (ID DICKENS-1837,560.408))
+
+/~*
+'I have come here in consequence of receiving this bit of paper,' rejoined Mr
+Pickwick.
+(DICKENS-1837,561.425)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 here
+*/
+
+( (IP-MAT (' ')
+	  (IP-MAT-SPE (NP-SBJ (PRO I))
+		      (HVP have)
+		      (VBN come)
+		      (ADVP-DIR (ADV here))
+		      (PP (P in)
+			  (NP (N consequence)
+			      (PP (P of)
+				  (IP-PPL-SPE (VAG receiving)
+					      (NP-OB1 (D this)
+						      (N bit)
+						      (PP (P of)
+							  (NP (N paper)))))))))
+	  (, ,)
+	  (' ')
+	  (VBD rejoined)
+	  (NP-SBJ (NPR Mr) (NPR Pickwick))
+	  (. .))
+  (ID DICKENS-1837,561.425))
+
+/~*
+Unquestionably there were but few things to put away, if there had been one;
+(DICKENS-1837,562.449)
+*~/
+/*
+27 ADVP-DIR:  27 ADVP-DIR, 29 away
+*/
+
+( (IP-MAT (ADVP (ADV Unquestionably))
+	  (NP-SBJ-1 (EX there))
+	  (BED were)
+	  (NP-1 (FP but)
+		(Q few)
+		(NS things)
+		(CP-EOP (WNP-2 0)
+			(IP-INF (NP-OB1 *T*-2)
+				(TO to)
+				(VB put)
+				(ADVP-DIR (ADV away)))))
+	  (, ,)
+	  (PP (P if)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-3 (EX there))
+			      (HVD had)
+			      (BEN been)
+			      (NP-3 (ONE one)))))
+	  (. ;))
+  (ID DICKENS-1837,562.449))
+
+/~*
+'Just step there with me,' said Roker, taking up his hat with great alacrity;
+(DICKENS-1837,563.494)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 there
+*/
+
+( (IP-MAT (' ')
+	  (IP-IMP-SPE (ADVP (ADV Just))
+		      (VBI step)
+		      (ADVP-DIR (ADV there))
+		      (PP (P with)
+			  (NP (PRO me))))
+	  (, ,)
+	  (' ')
+	  (VBD said)
+	  (NP-SBJ (NPR Roker))
+	  (, ,)
+	  (IP-PPL-SPE (VAG taking)
+		      (RP up)
+		      (NP-OB1 (PRO$ his) (N hat))
+		      (PP (P with)
+			  (NP (ADJ great) (N alacrity))))
+	  (. ;))
+  (ID DICKENS-1837,563.494))
+
+/~*
+'Yes; I mean who are able to go outside.
+(DICKENS-1837,564.530)
+*~/
+/*
+35 ADVP-DIR:  35 ADVP-DIR, 37 outside
+*/
+
+( (IP-MAT-SPE (' ')
+	      (INTJ Yes)
+	      (, ;)
+	      (NP-SBJ (PRO I))
+	      (VBP mean)
+	      (NP-OB1 (NS *)
+		      (CP-REL-SPE (WNP-1 (WPRO who))
+				  (C 0)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (BEP are)
+					      (ADJP (ADJ able)
+						    (IP-INF-SPE (TO to)
+								(VB go)
+								(ADVP-DIR (ADV outside)))))))
+	      (. .))
+  (ID DICKENS-1837,564.530))
+
+/~*
+Horses, dogs, and drink had brought him there pell-mell.
+(DICKENS-1837,566.562)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 26 there
+*/
+
+( (IP-MAT (NP-SBJ (NS Horses)
+		  (, ,)
+		  (CONJP (NS dogs))
+		  (, ,)
+		  (CONJP (CONJ and) (N drink)))
+	  (HVD had)
+	  (VBN brought)
+	  (NP-OB1 (PRO him))
+	  (ADVP-DIR (ADV there))
+	  (ADVP (ADV pell-mell))
+	  (. .))
+  (ID DICKENS-1837,566.562))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	18/17/566
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd
+*/
+
+/~*
+but in pouring forth this, she was so very profuse, that others perhaps may
+think this single Endowment to have been more than equivalent to all the
+various blessings which he enjoyed from Nature.
+(FIELDING-1749,1,5.9)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 forth
+*/
+
+( (IP-MAT (CONJ but)
+	  (PP (P in)
+	      (IP-PPL (VAG pouring)
+		      (ADVP-DIR (ADV forth))
+		      (NP-OB1 (D this))))
+	  (, ,)
+	  (NP-SBJ (PRO she))
+	  (BED was)
+	  (ADJP (ADVR so)
+		(ADV very)
+		(ADJ profuse)
+		(, ,)
+		(CP-DEG (C that)
+			(IP-SUB (NP-SBJ (OTHERS others))
+				(ADVP (ADV perhaps))
+				(MD may)
+				(VB think)
+				(IP-INF (NP-SBJ (D this) (ADJ single) (N Endowment))
+					(TO to)
+					(HV have)
+					(BEN been)
+					(NP-OB1 (QR more)
+						(PP (P than)
+						    (ADJP (ADJ equivalent)
+							  (PP (P to)
+							      (NP (Q all)
+								  (D the)
+								  (ADJ various)
+								  (NS blessings)
+								  (CP-REL (WNP-1 (WPRO which))
+									  (C 0)
+									  (IP-SUB (NP-OB1 *T*-1)
+										  (NP-SBJ (PRO he))
+										  (VBD enjoyed)
+										  (PP (P from)
+										      (NP (N Nature))))))))))))))
+	  (. .))
+  (ID FIELDING-1749,1,5.9))
+
+/~*
+She therefore no sooner opened the Door, and saw her Master standing by the
+Bed-side in his Shirt, with a Candle in his Hand, than she started back in a
+most terrible Fright, and might perhaps have swooned away, had he not now
+recollected his being undrest, and put an End to her Terrors, by desiring her
+to stay without the Door till he had thrown some Cloaths over his Back, and
+was become incapable of shocking the pure eyes of Mrs. Deborah Wilkins, who,
+tho' in the 52d Year of her Age, vowed she had never beheld a Man without his
+Coat.
+(FIELDING-1749,1,9.53)
+*~/
+/*
+91 ADVP-DIR:  91 ADVP-DIR, 93 back
+126 ADVP-DIR:  126 ADVP-DIR, 128 away
+*/
+
+( (IP-MAT-1 (NP-SBJ (PRO She))
+	    (PP (ADV+P therefore))
+	    (ADVP-TMP (Q no)
+		      (ADVR sooner)
+		      (PP *ICH*-2))
+	    (VBD opened)
+	    (NP-OB1 (D the) (N Door))
+	    (, ,)
+	    (IP-MAT-PRN=1 (CONJ and)
+			  (VBD saw)
+			  (IP-PPL-OB1 (NP-SBJ (PRO$ her) (N Master))
+				      (VAG standing)
+				      (PP (P by)
+					  (NP (D the) (N+N Bed-side)))
+				      (PP (P in)
+					  (NP (PRO$ his) (N Shirt)))
+				      (, ,)
+				      (PP (P with)
+					  (IP-SMC (NP-SBJ (D a) (N Candle))
+						  (PP (P in)
+						      (NP (PRO$ his) (N Hand)))))))
+	    (, ,)
+	    (PP-2 (P than)
+		  (CP-CMP (WADVP-3 0)
+			  (C 0)
+			  (IP-SUB (IP-SUB (ADVP-TMP *T*-3)
+					  (NP-SBJ (PRO she))
+					  (VBD started)
+					  (ADVP-DIR (ADV back))
+					  (PP (P in)
+					      (NP (D a)
+						  (ADJP (QS most) (ADJ terrible))
+						  (N Fright))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (ADVP-TMP *T*-3)
+						 (NP-SBJ *con*)
+						 (MD might)
+						 (ADVP (ADV perhaps))
+						 (HV have)
+						 (VBN swooned)
+						 (ADVP-DIR (ADV away))
+						 (, ,)
+						 (CP-ADV (IP-SUB (IP-SUB-4 (HVD had)
+									   (NP-SBJ (PRO he))
+									   (NEG not)
+									   (ADVP-TMP (ADV now))
+									   (VBN recollected)
+									   (NP-OB1 (PRO$ his)
+										   (IP-PPL (BAG being) (VAN undrest))))
+								 (, ,)
+								 (CONJP (CONJ and)
+									(IP-SUB=4 (VBN put)
+										  (NP-OB1 (D an) (N End))
+										  (PP (P to)
+										      (NP (PRO$ her) (NS Terrors)))
+										  (, ,)
+										  (PP (P by)
+										      (IP-PPL (VAG desiring)
+											      (NP-OB1 (PRO her))
+											      (IP-INF (TO to)
+												      (VB stay)
+												      (PP (P without)
+													  (NP (D the) (N Door)))
+												      (PP (P till)
+													  (CP-ADV (C 0)
+														  (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+																  (HVD had)
+																  (VBN thrown)
+																  (NP-OB1 (Q some) (NS Cloaths))
+																  (PP (P over)
+																      (NP (PRO$ his) (N Back))))
+															  (, ,)
+															  (CONJP (CONJ and)
+																 (IP-SUB (NP-SBJ *con*)
+																	 (BED was)
+																	 (VBN become)
+																	 (ADJP (ADJ incapable)
+																	       (PP (P of)
+																		   (IP-PPL (VAG shocking)
+																			   (NP-OB1 (D the)
+																				   (ADJ pure)
+																				   (NS eyes)
+																				   (PP (P of)
+																				       (NP (NPR Mrs.)
+																					   (CODE <font>)
+																					   (NPR Deborah)
+																					   (NPR Wilkins)
+																					   (CODE <$$font>)
+																					   (, ,)
+																					   (CP-REL (WNP-5 (WPRO who))
+																						   (, ,)
+																						   (C 0)
+																						   (IP-SUB (NP-SBJ *T*-5)
+																							   (PP (P tho')
+																							       (PP (P in)
+																								   (NP (D the)
+																								       (ADJ 52d)
+																								       (N Year)
+																								       (PP (P of)
+																									   (NP (PRO$ her) (N Age))))))
+																							   (, ,)
+																							   (VBD vowed)
+																							   (CP-THT (C 0)
+																								   (IP-SUB (NP-SBJ (PRO she))
+																									   (HVD had)
+																									   (ADVP-TMP (ADV never))
+																									   (VBN beheld)
+																									   (NP-OB1 (D a) (N Man))
+																									   (PP (P without)
+																									       (NP (PRO$ his) (N Coat))))))))))))))))))))))))))))))
+	    (. .))
+  (ID FIELDING-1749,1,9.53))
+
+/~*
+Did she not faint away on seeing him lie breathless on the Ground?
+(FIELDING-1749,2,10.184)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 away
+*/
+
+( (CP-QUE-SPE (IP-SUB-SPE (DOD Did)
+			  (NP-SBJ (PRO she))
+			  (NEG not)
+			  (VB faint)
+			  (ADVP-DIR (ADV away))
+			  (PP (P on)
+			      (IP-PPL-SPE (VAG seeing)
+					  (IP-INF-SPE (NP-SBJ (PRO him))
+						      (VB lie)
+						      (ADJP-SPR (ADJ breathless))
+						      (PP (P on)
+							  (NP (D the) (N Ground)))))))
+	      (. ?))
+  (ID FIELDING-1749,2,10.184))
+
+/~*
+and therefore, burst forth in a Rage,
+(FIELDING-1749,2,12.229)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 forth
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (PP (ADV+P therefore))
+	  (, ,)
+	  (VBD burst)
+	  (ADVP-DIR (ADV forth))
+	  (PP (P in)
+	      (NP (D a) (N Rage)))
+	  (. ,))
+  (ID FIELDING-1749,2,12.229))
+
+/~*
+then launched forth into a very just Encomium on the young Lady's Merit;
+(FIELDING-1749,2,17.288)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 forth
+*/
+
+( (IP-MAT (NP-SBJ *con*)
+	  (ADVP-TMP (ADV then))
+	  (VBD launched)
+	  (ADVP-DIR (ADV forth))
+	  (PP (P into)
+	      (NP (D a)
+		  (ADJP (ADV very) (ADJ just))
+		  (N Encomium)
+		  (PP (P on)
+		      (NP (NP-POS (D the) (ADJ young) (N$ Lady's))
+			  (N Merit)))))
+	  (. ;))
+  (ID FIELDING-1749,2,17.288))
+
+/~*
+Now, whoever takes this Maxim abroad with him into the grand Market of the
+World, and constantly applies it to Honours, to Riches, to Pleasures, and to
+every other Commodity which that Market affords, is, I will venture to affirm,
+a wise Man;
+(FIELDING-1749,2,19.317)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 27 abroad
+*/
+
+( (IP-MAT (ADVP (ADV Now))
+	  (, ,)
+	  (NP-SBJ (CP-FRL (WNP-1 (WPRO+ADV whoever))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
+					  (VBP takes)
+					  (NP-OB1 (D this) (N Maxim))
+					  (ADVP-DIR (ADV abroad))
+					  (PP (P with)
+					      (NP (PRO him)))
+					  (PP (P into)
+					      (NP (D the)
+						  (ADJ grand)
+						  (N Market)
+						  (PP (P of)
+						      (NP (D the) (N World))))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *T*-1)
+						 (ADVP (ADV constantly))
+						 (VBP applies)
+						 (NP-OB1 (PRO it))
+						 (PP (PP (P to)
+							 (NP (NS Honours)))
+						     (, ,)
+						     (CONJP (PP (P to)
+								(NP (NS Riches))))
+						     (, ,)
+						     (CONJP (PP (P to)
+								(NP (NS Pleasures))))
+						     (, ,)
+						     (CONJP (CONJ and)
+							    (PP (P to)
+								(NP (Q every)
+								    (OTHER other)
+								    (N Commodity)
+								    (CP-REL (WNP-2 (WPRO which))
+									    (C 0)
+									    (IP-SUB (NP-OB1 *T*-2)
+										    (NP-SBJ (D that) (N Market))
+										    (VBP affords))))))))))))
+	  (, ,)
+	  (BEP is)
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (MD will)
+		      (VB venture)
+		      (IP-INF (TO to) (VB affirm)))
+	  (, ,)
+	  (NP-OB1 (D a) (ADJ wise) (N Man))
+	  (. ;))
+  (ID FIELDING-1749,2,19.317))
+
+/~*
+Now on some hollow Tree the Owl, shrill Chorister of the Night, hoots forth
+Notes which might charm the Ears of some modern Connoisseurs in Music:
+(FIELDING-1749,3,5.329)
+*~/
+/*
+39 ADVP-DIR:  39 ADVP-DIR, 41 forth
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Now))
+	  (PP (P on)
+	      (NP (Q some) (ADJ hollow) (N Tree)))
+	  (NP-SBJ (D the)
+		  (N Owl)
+		  (, ,)
+		  (NP-PRN (ADJ shrill)
+			  (N Chorister)
+			  (PP (P of)
+			      (NP (D the) (N Night)))))
+	  (, ,)
+	  (VBP hoots)
+	  (ADVP-DIR (ADV forth))
+	  (NP-OB1 (NS Notes)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (MD might)
+				  (VB charm)
+				  (NP-OB1 (D the)
+					  (NS Ears)
+					  (PP (P of)
+					      (NP (Q some)
+						  (ADJ modern)
+						  (NS Connoisseurs)
+						  (PP (P in)
+						      (NP (N Music)))))))))
+	  (. :))
+  (ID FIELDING-1749,3,5.329))
+
+/~*
+and if she be gone away before me, do tell me which Way I shall go after her
+to meet her,
+(FIELDING-1749,3,6.341)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 away
+*/
+
+( (IP-IMP-SPE (CONJ and)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO she))
+					  (BEP be)
+					  (VBN gone)
+					  (ADVP-DIR (ADV away))
+					  (PP (P before)
+					      (NP (PRO me))))))
+	      (, ,)
+	      (DOI do)
+	      (VB tell)
+	      (NP-OB2 (PRO me))
+	      (CP-QUE-SPE (WNP-1 (WD which) (N Way))
+			  (C 0)
+			  (IP-SUB-SPE (NP-DIR *T*-1)
+				      (NP-SBJ (PRO I))
+				      (MD shall)
+				      (VB go)
+				      (PP (P after)
+					  (NP (PRO her)))
+				      (IP-INF-PRP-SPE (TO to)
+						      (VB meet)
+						      (NP-OB1 (PRO her)))))
+	      (. ,))
+  (ID FIELDING-1749,3,6.341))
+
+/~*
+and, having no Fortune at Home, was obliged to look abroad in order to get one:
+For which purpose he was proceeding to the Bath, to try his Luck with Cards
+and the Women.
+(FIELDING-1749,3,8.365)
+*~/
+/*
+33 ADVP-DIR:  33 ADVP-DIR, 35 abroad
+*/
+
+( (IP-MAT (CONJ and)
+	  (, ,)
+	  (IP-PPL (HAG having)
+		  (NP-OB1 (Q no) (N Fortune))
+		  (PP (P at)
+		      (NP (N Home))))
+	  (, ,)
+	  (NP-SBJ *con*)
+	  (BED was)
+	  (VAN obliged)
+	  (IP-INF (TO to)
+		  (VB look)
+		  (ADVP-DIR (ADV abroad)))
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB get)
+			  (NP-OB1 (ONE one)))))
+	  (, :)
+	  (CP-CAR (WPP-1 (P For)
+			 (WNP (WD which) (N purpose)))
+		  (C 0)
+		  (IP-SUB (PP *T*-1)
+			  (NP-SBJ (PRO he))
+			  (BED was)
+			  (VAG proceeding)
+			  (PP (P to)
+			      (NP (D the) (CODE <font>) (NPR Bath)))
+			  (CODE <$$font>)
+			  (, ,)
+			  (IP-INF-PRP (TO to)
+				      (VB try)
+				      (NP-OB1 (PRO$ his) (N Luck))
+				      (PP (P with)
+					  (NP (NP (NS Cards))
+					      (CONJP (CONJ and)
+						     (NP (D the) (NS Women))))))))
+	  (. .))
+  (ID FIELDING-1749,3,8.365))
+
+/~*
+and I am sure no Vagabonds, nor wicked beggarly People come here. '
+(FIELDING-1749,3,13.433)
+*~/
+/*
+36 ADVP-DIR:  36 ADVP-DIR, 38 here
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO I))
+	      (BEP am)
+	      (ADJP (ADJ sure)
+		    (CP-THT-SPE (C 0)
+				(IP-SUB-SPE (NP-SBJ (NP (Q no) (NS Vagabonds))
+						    (, ,)
+						    (CONJP (CONJ nor)
+							   (NP (ADJ wicked) (ADJ beggarly) (NS People))))
+					    (VBP come)
+					    (ADVP-DIR (ADV here)))))
+	      (. .)
+	      (' '))
+  (ID FIELDING-1749,3,13.433))
+
+/~*
+For if he had broke open the Lady's Door with any of the wicked Designs of a
+Gentleman, he would never have sneaked away to another Room to save the
+expense of a Supper and a Bed to himself.
+(FIELDING-1749,3,15.469)
+*~/
+/*
+69 ADVP-DIR:  69 ADVP-DIR, 71 away
+*/
+
+( (IP-MAT-SPE (CONJ For)
+	      (PP (P if)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ (PRO he))
+					  (HVD had)
+					  (VBN broke)
+					  (ADJP-SPR (ADJ open))
+					  (NP-OB1 (NP-POS (D the) (N$ Lady's))
+						  (N Door))
+					  (PP (P with)
+					      (NP (Q any)
+						  (PP (P of)
+						      (NP (D the)
+							  (ADJ wicked)
+							  (NS Designs)
+							  (PP (P of)
+							      (CODE <P_3,15>)
+							      (NP (D a) (ADJ+N Gentleman))))))))))
+	      (, ,)
+	      (NP-SBJ (PRO he))
+	      (MD would)
+	      (ADVP-TMP (ADV never))
+	      (HV have)
+	      (VBN sneaked)
+	      (ADVP-DIR (ADV away))
+	      (PP (P to)
+		  (NP (D+OTHER another) (N Room)))
+	      (IP-INF-PRP-SPE (TO to)
+			      (VB save)
+			      (NP-OB1 (D the)
+				      (N expense)
+				      (PP (P of)
+					  (NP (NP (D a) (N Supper))
+					      (CONJP (CONJ and)
+						     (NP (D a)
+							 (N Bed)
+							 (PP (P to)
+							     (NP (PRO+N himself)))))))))
+	      (. .))
+  (ID FIELDING-1749,3,15.469))
+
+/~*
+and, in order to possess himself of this, he had used her with such Cruelty,
+that, together with his Jealousy, which was of the bitterest Kind, it had
+forced the poor Woman to run away from him.
+(FIELDING-1749,3,15.476)
+*~/
+/*
+111 ADVP-DIR:  111 ADVP-DIR, 119 him
+*/
+
+( (IP-MAT (CONJ and)
+	  (, ,)
+	  (PP (P in)
+	      (NP (N order)
+		  (IP-INF (TO to)
+			  (VB possess)
+			  (NP-OB1 (PRO+N himself))
+			  (PP (P of)
+			      (NP (D this))))))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (HVD had)
+	  (VBN used)
+	  (NP-OB1 (PRO her))
+	  (PP (P with)
+	      (NP (ADJP (SUCH such)
+			(CP-DEG *ICH*-1))
+		  (N Cruelty)
+		  (, ,)
+		  (CP-DEG-1 (C that)
+			    (, ,)
+			    (IP-SUB (PP (ADV together)
+					(P with)
+					(NP (PRO$ his)
+					    (N Jealousy)
+					    (, ,)
+					    (CP-REL (WNP-2 (WPRO which))
+						    (C 0)
+						    (IP-SUB (NP-SBJ *T*-2)
+							    (BED was)
+							    (PP (P of)
+								(NP (D the) (ADJS bitterest) (N Kind)))))))
+				    (, ,)
+				    (NP-SBJ (PRO it))
+				    (HVD had)
+				    (VBN forced)
+				    (NP-OB1 (D the) (ADJ poor) (N Woman))
+				    (IP-INF (TO to)
+					    (VB run)
+					    (ADVP-DIR (ADV away)
+						      (PP (P from)
+							  (NP (PRO him)))))))))
+	  (. .))
+  (ID FIELDING-1749,3,15.476))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	13/12/486
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd
+*/
+
+/~*
+No doubt, my pride did not come away ungratified from these enterprises.
+(GODWIN-1805,60.19)
+*~/
+/*
+20 ADVP-DIR:  20 ADVP-DIR, 22 away
+*/
+
+( (IP-MAT (NP-ADV (Q No) (N doubt))
+	  (, ,)
+	  (NP-SBJ (PRO$ my) (N pride))
+	  (DOD did)
+	  (NEG not)
+	  (VB come)
+	  (ADVP-DIR (ADV away))
+	  (ADJP-SPR (ADJ ungratified))
+	  (PP (P from)
+	      (NP (D these) (NS enterprises)))
+	  (. .))
+  (ID GODWIN-1805,60.19))
+
+/~*
+the sun burst forth with redoubled splendour,
+(GODWIN-1805,61.45)
+*~/
+/*
+9 ADVP-DIR:  9 ADVP-DIR, 11 forth
+*/
+
+( (IP-MAT (NP-SBJ (D the) (N sun))
+	  (VBD burst)
+	  (ADVP-DIR (ADV forth))
+	  (PP (P with)
+	      (NP (VAN redoubled) (N splendour)))
+	  (. ,))
+  (ID GODWIN-1805,61.45))
+
+/~*
+Morrison, the jester, added, that this votary of the muses, and himself, were
+upon so intimate terms, that each had a key to the other's chamber; that he,
+not recollecting this at the moment, had left the manuscript, being called
+away by a particular occasion, open upon his desk, had locked the door, and
+departed; and that the poet, arriving soon after, had discovered, and seized
+with avidity, the Fifth Labour of Hercules.
+(GODWIN-1805,77.455)
+*~/
+/*
+136 ADVP-DIR:  136 ADVP-DIR, 138 away
+*/
+
+( (IP-MAT (NP-SBJ (NPR Morrison)
+		  (, ,)
+		  (NP-PRN (D the) (N jester)))
+	  (, ,)
+	  (VBD added)
+	  (, ,)
+	  (CP-THT (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (NP (D this)
+					      (N votary)
+					      (PP (P of)
+						  (NP (D the) (NS muses))))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (NP (PRO+N himself))))
+				  (, ,)
+				  (BED were)
+				  (PP (P upon)
+				      (NP (ADJP (ADVR so)
+						(ADJ intimate)
+						(CP-DEG *ICH*-1))
+					  (NS terms)
+					  (, ,)
+					  (CP-DEG-1 (C that)
+						    (IP-SUB (NP-SBJ (Q each))
+							    (HVD had)
+							    (NP-OB1 (D a)
+								    (N key)
+								    (PP (P to)
+									(NP (NP-POS (D the) (N$ other's))
+									    (N chamber))))))))))
+		  (, ;)
+		  (CONJP (CP-THT (C that)
+				 (IP-SUB (IP-SUB (NP-SBJ (PRO he))
+						 (, ,)
+						 (IP-PPL (NEG not)
+							 (VAG recollecting)
+							 (NP-OB1 (D this))
+							 (PP (P at)
+							     (NP (D the) (N moment))))
+						 (, ,)
+						 (HVD had)
+						 (VBN left)
+						 (NP-OB1 (D the) (N manuscript))
+						 (, ,)
+						 (IP-PPL (BAG being)
+							 (VAN called)
+							 (ADVP-DIR (ADV away))
+							 (PP (P by)
+							     (NP (D a) (ADJ particular) (N occasion))))
+						 (, ,)
+						 (ADJP-SPR (ADJ open))
+						 (PP (P upon)
+						     (NP (PRO$ his) (N desk))))
+					 (, ,)
+					 (CONJP (IP-SUB-2 (NP-SBJ *con*)
+							  (HVD had)
+							  (VBN locked)
+							  (NP-OB1 (D the) (N door))))
+					 (, ,)
+					 (CONJP (CONJ and)
+						(IP-SUB=2 (VBN departed))))))
+		  (, ;)
+		  (CONJP (CONJ and)
+			 (CP-THT (C that)
+				 (IP-SUB-3 (NP-SBJ (D the) (N poet))
+					   (, ,)
+					   (IP-PPL (VAG arriving)
+						   (ADVP-TMP (ADV soon) (ADV after)))
+					   (, ,)
+					   (HVD had)
+					   (VBN discovered)
+					   (, ,)
+					   (IP-SUB-PRN=3 (CONJ and)
+							 (VBD seized)
+							 (PP (P with)
+							     (NP (N avidity))))
+					   (, ,)
+					   (NP-OB1 (D the)
+						   (NPR Fifth)
+						   (NPR Labour)
+						   (PP (P of)
+						       (NP (NPR Hercules))))))))
+	  (. .))
+  (ID GODWIN-1805,77.455))
+
+/~*
+By and by an outrageous laugh burst forth at once from one of the audience.
+(GODWIN-1805,83.548)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 forth
+*/
+
+( (IP-MAT (ADVP-TMP (ADV By) (CONJ and) (ADV by))
+	  (NP-SBJ (D an) (ADJ outrageous) (N laugh))
+	  (VBD burst)
+	  (ADVP-DIR (ADV forth))
+	  (PP (P at)
+	      (ADVP (ADV once)))
+	  (PP (P from)
+	      (NP (ONE one)
+		  (PP (P of)
+		      (NP (D the) (N audience)))))
+	  (. .))
+  (ID GODWIN-1805,83.548))
+
+/~*
+The deluded rioters, for they laboured under a state of delusion not less
+complete than their victim, persuaded themselves to look back with complacency
+upon the diversion of the evening,
+(GODWIN-1805,85.588)
+*~/
+/*
+60 ADVP-DIR:  60 ADVP-DIR, 62 back
+*/
+
+( (IP-MAT (NP-SBJ (D The) (VAN deluded) (NS rioters))
+	  (, ,)
+	  (IP-MAT-PRN (CONJ for)
+		      (NP-SBJ (PRO they))
+		      (VBD laboured)
+		      (PP (P under)
+			  (NP (D a)
+			      (N state)
+			      (PP (P of)
+				  (NP (N delusion)))
+			      (ADJP (NEG not)
+				    (QR less)
+				    (ADJ complete)
+				    (PP (P than)
+					(NP (PRO$ their) (N victim)))))))
+	  (, ,)
+	  (VBD persuaded)
+	  (NP-OB1 (PRO+N themselves))
+	  (IP-INF (TO to)
+		  (VB look)
+		  (ADVP-DIR (ADV back))
+		  (PP (P with)
+		      (NP (N complacency)))
+		  (PP (P upon)
+		      (NP (D the)
+			  (N diversion)
+			  (PP (P of)
+			      (NP (D the) (N evening))))))
+	  (. ,))
+  (ID GODWIN-1805,85.588))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	5/5/593
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd
+*/
+
+/~*
+Whenever Diggory sees yeating going forward, ecod $he $'s always wishing for a
+mouthful himself.
+(GOLDSMITH-1773,18.29)
+*~/
+/*
+20 ADVP-DIR:  20 ADVP-DIR, 22 forward
+*/
+
+( (IP-MAT (PP (P+ADV Whenever)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Diggory))
+			      (VBP sees)
+			      (IP-PPL-OB1 (NP-SBJ (N yeating))
+					  (VAG going)
+					  (ADVP-DIR (ADV+WARD forward))))))
+	  (, ,)
+	  (INTJ ecod)
+	  (NP-SBJ (PRO $he))
+	  (BEP $'s)
+	  (CODE {TEXT:he's})
+	  (ADVP-TMP (ADV always))
+	  (VAG wishing)
+	  (PP (P for)
+	      (NP (D a)
+		  (N mouthful)
+		  (NP-PRN (PRO+N himself))))
+	  (. .))
+  (ID GOLDSMITH-1773,18.29))
+
+/~*
+Hastings. My friend, Mr. Marlow, with whom I came down, and I, have been sent
+here as to an inn, I assure you.
+(GOLDSMITH-1773,30.305)
+*~/
+/*
+58 ADVP-DIR:  58 ADVP-DIR, 60 here
+*/
+
+( (IP-MAT (META (NP (NPR Hastings))
+		(, .))
+	  (NP-SBJ (NP (PRO$ My)
+		      (N friend)
+		      (, ,)
+		      (NP-PRN (NPR Mr.) (NPR Marlow))
+		      (, ,)
+		      (CP-REL (WPP-1 (P with)
+				     (WNP (WPRO whom)))
+			      (C 0)
+			      (IP-SUB (PP *T*-1)
+				      (NP-SBJ (PRO I))
+				      (VBD came)
+				      (RP down))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (PRO I))))
+	  (, ,)
+	  (HVP have)
+	  (BEN been)
+	  (VAN sent)
+	  (ADVP-DIR (ADV here))
+	  (PP (P as)
+	      (PP (P to)
+		  (NP (D an) (N inn))))
+	  (, ,)
+	  (IP-MAT-PRN (NP-SBJ (PRO I))
+		      (VBP assure)
+		      (NP-OB1 (PRO you)))
+	  (. .))
+  (ID GOLDSMITH-1773,30.305))
+
+/~*
+A young fellow, whom we accidentally met at a house hard by directed us hither.
+(GOLDSMITH-1773,30.306)
+*~/
+/*
+47 ADVP-DIR:  47 ADVP-DIR, 49 hither
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (ADJ young)
+		  (N fellow)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO whom))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO we))
+				  (ADVP (ADV accidentally))
+				  (VBD met)
+				  (PP (P at)
+				      (NP (D a)
+					  (N house)
+					  (RRC (ADVP-LOC (ADV hard) (RP by))))))))
+	  (VBD directed)
+	  (NP-OB1 (PRO us))
+	  (ADVP-DIR (ADV hither))
+	  (. .))
+  (ID GOLDSMITH-1773,30.306))
+
+/~*
+and will be back in an instant.
+(GOLDSMITH-1773,32.351)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 back
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ *con*)
+	  (MD will)
+	  (BE be)
+	  (ADVP-DIR (ADV back))
+	  (PP (P in)
+	      (NP (D an) (N instant)))
+	  (. .))
+  (ID GOLDSMITH-1773,32.351))
+
+/~*
+$Do $n't you see half the ladies of our acquaintance, my lady, Kill-day-light,
+and Mrs. Crump, and the rest of them, carry their jewels to town, and bring
+nothing but Paste and Marcasites back.
+(GOLDSMITH-1773,53.778)
+*~/
+/*
+110 ADVP-DIR:  110 ADVP-DIR, 112 back
+*/
+
+( (CP-QUE (IP-SUB (DOP $Do)
+		  (NEG $n't)
+		  (CODE {TEXT:Don't})
+		  (NP-SBJ (PRO you))
+		  (VB see)
+		  (IP-INF (IP-INF (NP-SBJ (Q half)
+					  (D the)
+					  (NS ladies)
+					  (PP (P of)
+					      (NP (PRO$ our) (N acquaintance)))
+					  (, ,)
+					  (NP-PRN (NP (PRO$ my)
+						      (N lady)
+						      (, ,)
+						      (NP-PRN (NPR Kill-day-light)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (NP (NPR Mrs.) (NPR Crump)))
+						  (, ,)
+						  (CONJP (CONJ and)
+							 (NP (D the)
+							     (N rest)
+							     (PP (P of)
+								 (NP (PRO them)))))))
+				  (, ,)
+				  (CODE <P_53>)
+				  (VB carry)
+				  (NP-OB1 (PRO$ their) (NS jewels))
+				  (PP (P to)
+				      (NP (N town))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-INF (NP-SBJ *con*)
+					 (VB bring)
+					 (NP-OB1 (Q+N nothing)
+						 (PP (P but)
+						     (NP (N Paste) (CONJ and) (NS Marcasites))))
+					 (ADVP-DIR (ADV back))))))
+	  (. .))
+  (ID GOLDSMITH-1773,53.778))
+
+/~*
+My bureau has been broken open, and all taken away.
+(GOLDSMITH-1773,56.856)
+*~/
+/*
+28 ADVP-DIR:  28 ADVP-DIR, 30 away
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO$ My) (N bureau))
+		    (HVP has)
+		    (BEN been)
+		    (VAN broken)
+		    (ADJP-SPR (ADJ open)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (NP-SBJ (Q all))
+			   (VAN taken)
+			   (ADVP-DIR (ADV away))))
+	  (. .))
+  (ID GOLDSMITH-1773,56.856))
+
+/~*
+She still places herself before him, he turning away
+(GOLDSMITH-1773,59.934)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 34 away
+*/
+
+( (META (IP-MAT (CODE <paren>)
+		(CODE <font>)
+		(NP-SBJ (PRO She))
+		(ADVP (ADV still))
+		(VBP places)
+		(NP-OB1 (PRO+N herself))
+		(PP (P before)
+		    (NP (PRO him)))
+		(, ,)
+		(IP-PPL-ABS (NP-SBJ (PRO he))
+			    (VAG turning)
+			    (ADVP-DIR (ADV away)))
+		(CODE <$$font>)
+		(CODE {COM:close_paren_missing})))
+  (ID GOLDSMITH-1773,59.934))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	7/7/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd
+*/
+
+/~*
+She thought our Island all the darker because Henrietta had induced her to
+talk on the boat of her mountain home and her last morning there for the walk
+away with Chillon John.
+(MEREDITH-1895,19,133.19)
+*~/
+/*
+82 ADVP-DIR:  82 ADVP-DIR, 84 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO She))
+	  (VBD thought)
+	  (IP-SMC (NP-SBJ (PRO$ our) (N Island))
+		  (ADJP (Q all) (D the) (ADJR darker)))
+	  (PP (P+N because)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (NPR Henrietta))
+			      (HVD had)
+			      (VBN induced)
+			      (NP-OB1 (PRO her))
+			      (IP-INF (TO to)
+				      (VB talk)
+				      (PP (P on)
+					  (NP (D the) (N boat)))
+				      (PP (P of)
+					  (NP (NP (PRO$ her) (N mountain) (N home))
+					      (CONJP (CONJ and)
+						     (NP (PRO$ her)
+							 (ADJ last)
+							 (N morning)
+							 (ADVP (ADV there)))))))
+			      (PP (P for)
+				  (NP (D the)
+				      (N walk)
+				      (ADVP-DIR (ADV away))
+				      (PP (P with)
+					  (NP (NPR Chillon) (NPR John))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,133.19))
+
+/~*
+It shows the old campaigner's shrewdness in guessing where his prey would come,
+and not putting him on his guard by a call at his house.
+(MEREDITH-1895,19,136.66)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 32 *T*-1
+*/
+
+( (IP-MAT (NP-SBJ (PRO It))
+	  (VBP shows)
+	  (NP-OB1 (NP-POS (D the) (ADJ old) (N$ campaigner's))
+		  (N shrewdness)
+		  (PP (P in)
+		      (IP-PPL (IP-PPL (VAG guessing)
+				      (CP-QUE (WADVP-1 (WADV where))
+					      (C 0)
+					      (IP-SUB (ADVP-DIR *T*-1)
+						      (NP-SBJ (PRO$ his) (N prey))
+						      (MD would)
+						      (VB come))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-PPL (NEG not)
+					     (VAG putting)
+					     (NP-OB1 (PRO him))
+					     (PP (P on)
+						 (NP (PRO$ his) (N guard)))
+					     (PP (P by)
+						 (NP (D a)
+						     (N call)
+						     (PP (P at)
+							 (NP (PRO$ his) (N house))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,136.66))
+
+/~*
+There he lay, protesting that the ceremony could not possibly be for the
+fourteenth, because Countess Livia had, he now remembered, written of her
+engagement to meet Russett on the night of that day at a ball at Mrs. Cowper
+Quillett's place, Canleys, lying south of the Surrey hills: a house famed for
+its gatherings of beautiful women; whither Lord Fleetwood would be sure to
+engage to go, the admiral now said;
+(MEREDITH-1895,19,143.189)
+*~/
+/*
+207 ADVP-DIR:  207 ADVP-DIR, 208 *T*-1
+*/
+
+( (IP-MAT (ADVP-LOC (ADV There))
+	  (NP-SBJ (PRO he))
+	  (VBD lay)
+	  (, ,)
+	  (IP-PPL (VAG protesting)
+		  (CP-THT (C that)
+			  (IP-SUB (NP-SBJ (D the) (N ceremony))
+				  (MD could)
+				  (NEG not)
+				  (ADVP (ADV possibly))
+				  (BE be)
+				  (PP (P for)
+				      (NP (D the) (ADJ fourteenth)))
+				  (, ,)
+				  (PP (P+N because)
+				      (CP-ADV (C 0)
+					      (IP-SUB (NP-SBJ (NPR Countess) (NPR Livia))
+						      (HVD had)
+						      (, ,)
+						      (IP-MAT-PRN (NP-SBJ (PRO he))
+								  (ADVP-TMP (ADV now))
+								  (VBD remembered))
+						      (, ,)
+						      (VBN written)
+						      (PP (P of)
+							  (NP (PRO$ her)
+							      (N engagement)
+							      (IP-INF (TO to)
+								      (CODE <P_19,143>)
+								      (VB meet)
+								      (NP-OB1 (NPR Russett))
+								      (PP (P on)
+									  (NP (D the)
+									      (N night)
+									      (PP (P of)
+										  (NP (D that) (N day)))))
+								      (PP (P at)
+									  (NP (D a)
+									      (N ball)
+									      (PP (P at)
+										  (NP (NP-POS (NPR Mrs.) (NPR Cowper) (NPR$ Quillett's))
+										      (N place)
+										      (, ,)
+										      (NP-PRN (NPR Canleys))
+										      (, ,)
+										      (RRC (VAG lying)
+											   (NP-DIR (N south)
+												   (PP (P of)
+												       (NP (D the) (NPR Surrey) (NS hills)))))
+										      (, :)
+										      (NP-PRN (D a)
+											      (N house)
+											      (RRC (VAN famed)
+												   (PP (P for)
+												       (NP (PRO$ its)
+													   (NS gatherings)
+													   (PP (P of)
+													       (NP (ADJ beautiful) (NS women)))))))))
+									      (, ;)
+									      (CP-REL (WADVP-1 (WADV whither))
+										      (C 0)
+										      (IP-SUB (CP-THT (C 0)
+												      (IP-SUB (NP-SBJ (NPR Lord) (NPR Fleetwood))
+													      (MD would)
+													      (BE be)
+													      (ADJP (ADJ sure)
+														    (IP-INF (TO to)
+															    (VB engage)
+															    (IP-INF (ADVP-DIR *T*-1)
+																    (TO to)
+																    (VB go))))))
+											      (, ,)
+											      (NP-SBJ (D the) (N admiral))
+											      (ADVP-TMP (ADV now))
+											      (VBD said))))))))))))))
+	  (. ;))
+  (ID MEREDITH-1895,19,143.189))
+
+/~*
+A famous maxim in the book of the Old Buccaneer, treating of Precaution, as '
+The brave man's clean conscience,' with sound counsel to the adventurous, has
+it: - 'Then you sail away into the tornado, happy as a sealed bottle of ripe
+wine.'
+(MEREDITH-1895,19,149.300)
+*~/
+/*
+105 ADVP-DIR:  105 ADVP-DIR, 107 away
+*/
+
+( (IP-MAT (NP-SBJ (D A)
+		  (ADJ famous)
+		  (N maxim)
+		  (PP (P in)
+		      (NP (D the)
+			  (N book)
+			  (PP (P of)
+			      (NP (D the) (ADJ Old) (N Buccaneer)))))
+		  (, ,)
+		  (RRC (VAG treating)
+		       (PP (P of)
+			   (NP (N Precaution)))
+		       (, ,)
+		       (PP (P as)
+			   (CODE <font>)
+			   (' ')
+			   (NP (NP-POS (D The) (ADJ brave) (N$ man's))
+			       (ADJ clean)
+			       (N conscience)))
+		       (, ,)
+		       (' ')
+		       (CODE <$$font>)
+		       (PP (P with)
+			   (NP (ADJ sound)
+			       (N counsel)
+			       (PP (P to)
+				   (NP (D the) (ADJ adventurous)))))))
+	  (, ,)
+	  (HVP has)
+	  (NP-OB1-1 (PRO it))
+	  (, :)
+	  (, -)
+	  (CODE <font>)
+	  (' ')
+	  (IP-MAT-SPE-1 (ADVP-TMP (ADV Then))
+			(NP-SBJ (PRO you))
+			(VBP sail)
+			(ADVP-DIR (ADV away))
+			(PP (P into)
+			    (NP (D the) (N tornado)))
+			(, ,)
+			(ADJP-SPR (ADJ happy)
+				  (PP (P as)
+				      (NP (D a)
+					  (VAN sealed)
+					  (N bottle)
+					  (PP (P of)
+					      (NP (ADJ ripe) (N wine)))))))
+	  (. .)
+	  (' ')
+	  (CODE <$$font>))
+  (ID MEREDITH-1895,19,149.300))
+
+/~*
+How had he come to this pass, which swung him round to think almost
+regretfully of the scorned multitude of fair besiegers in the market, some of
+whom had their unpoetic charms?
+(MEREDITH-1895,19,152.381)
+*~/
+/*
+39 ADVP-DIR:  39 ADVP-DIR, 41 round
+*/
+
+( (CP-QUE (WADVP-1 (WADV How))
+	  (IP-SUB (ADVP *T*-1)
+		  (HVD had)
+		  (NP-SBJ (PRO he))
+		  (VBN come)
+		  (PP (P to)
+		      (NP (D this)
+			  (N pass)
+			  (, ,)
+			  (CP-REL (WNP-2 (WPRO which))
+				  (C 0)
+				  (IP-SUB (NP-SBJ *T*-2)
+					  (VBD swung)
+					  (NP-OB1 (PRO him))
+					  (ADVP-DIR (ADV round))
+					  (IP-INF (TO to)
+						  (VB think)
+						  (ADVP (ADV almost) (ADV regretfully))
+						  (PP (P of)
+						      (NP (D the)
+							  (VAN scorned)
+							  (N multitude)
+							  (PP (P of)
+							      (NP (ADJ fair)
+								  (NS besiegers)
+								  (PP (P in)
+								      (NP (D the) (N market)))
+								  (, ,)
+								  (CP-REL (WNP-3 (Q some)
+										 (WPP (P of)
+										      (WNP (WPRO whom))))
+									  (C 0)
+									  (IP-SUB (NP-SBJ *T*-3)
+										  (HVD had)
+										  (NP-OB1 (PRO$ their) (ADJ unpoetic) (NS charms))))))))))))))
+	  (. ?))
+  (ID MEREDITH-1895,19,152.381))
+
+/~*
+There was talk of a girl present at the fight, and of how she received the
+eyeless, almost faceless, carcase of her sweetheart Kit, and carried him away
+in a little donkey-cart, comfortably cushioned to meet disaster.
+(MEREDITH-1895,19,160.601)
+*~/
+/*
+99 ADVP-DIR:  99 ADVP-DIR, 101 away
+*/
+
+( (IP-MAT (NP-SBJ-1 (EX There))
+	  (BED was)
+	  (NP-1 (N talk)
+		(PP (PP (P of)
+			(NP (D a)
+			    (N girl)
+			    (ADJP (ADJ present)
+				  (PP (P at)
+				      (NP (D the) (N fight))))))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (PP (P of)
+			       (NP (CP-FRL (WADVP-2 (WADV how))
+					   (C 0)
+					   (IP-SUB (IP-SUB (ADVP *T*-2)
+							   (NP-SBJ (PRO she))
+							   (VBD received)
+							   (NP-OB1 (D the)
+								   (ADJP (ADJP (ADJ eyeless))
+									 (, ,)
+									 (CONJP (ADJP (ADV almost) (ADJ faceless))))
+								   (, ,)
+								   (N carcase)
+								   (PP (P of)
+								       (NP (PRO$ her)
+									   (ADJ+N sweetheart)
+									   (NP-PRN (NPR Kit))))))
+						   (, ,)
+						   (CONJP (CONJ and)
+							  (IP-SUB (ADVP *T*-2)
+								  (NP-SBJ *con*)
+								  (VBD carried)
+								  (NP-OB1 (PRO him))
+								  (ADVP-DIR (ADV away))
+								  (PP (P in)
+								      (NP (D a)
+									  (ADJ little)
+									  (N+N donkey-cart)
+									  (, ,)
+									  (RRC (ADVP (ADV comfortably))
+									       (VAN cushioned)
+									       (IP-INF-PRP (TO to)
+											   (VB meet)
+											   (NP-OB1 (N disaster)))))))))))))))
+	  (. .))
+  (ID MEREDITH-1895,19,160.601))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	6/6/652
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd
+*/
+
+/~*
+he came there on a visit to the lady,
+(REEVE-1777,5.95)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 there
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO he))
+	      (VBD came)
+	      (ADVP-DIR (ADV there))
+	      (PP (P on)
+		  (NP (D a)
+		      (N visit)
+		      (PP (P to)
+			  (NP (D the) (N lady)))))
+	      (. ,))
+  (ID REEVE-1777,5.95))
+
+/~*
+and went away,
+(REEVE-1777,5.108)
+*~/
+/*
+8 ADVP-DIR:  8 ADVP-DIR, 10 away
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ *con*)
+	      (VBD went)
+	      (ADVP-DIR (ADV away))
+	      (. ,))
+  (ID REEVE-1777,5.108))
+
+/~*
+so I come away directly,
+(REEVE-1777,8.177)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 away
+*/
+
+( (IP-MAT-SPE (ADVP (ADV so))
+	      (NP-SBJ (PRO I))
+	      (VBD come)
+	      (ADVP-DIR (ADV away))
+	      (ADVP-TMP (ADV directly))
+	      (. ,))
+  (ID REEVE-1777,8.177))
+
+/~*
+John, do you run back
+(REEVE-1777,9.195)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 back
+*/
+
+( (IP-IMP-SPE (NP-VOC (NPR John))
+	      (, ,)
+	      (DOI do)
+	      (NP-SBJ (PRO you))
+	      (VB run)
+	      (ADVP-DIR (ADV back)))
+  (ID REEVE-1777,9.195))
+
+/~*
+John flew back the second time,
+(REEVE-1777,9.202)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 back
+*/
+
+( (IP-MAT (NP-SBJ (NPR John))
+	  (VBD flew)
+	  (ADVP-DIR (ADV back))
+	  (NP-TMP (D the) (ADJ second) (N time))
+	  (. ,))
+  (ID REEVE-1777,9.202))
+
+/~*
+and none can come here without my permission,
+(REEVE-1777,9.216)
+*~/
+/*
+11 ADVP-DIR:  11 ADVP-DIR, 13 here
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (Q none))
+	      (MD can)
+	      (VB come)
+	      (ADVP-DIR (ADV here))
+	      (PP (P without)
+		  (NP (PRO$ my) (N permission)))
+	      (. ,))
+  (ID REEVE-1777,9.216))
+
+/~*
+Presently after, he thought he was hurried away by an invisible hand, and led
+into a wild heath, where the people were inclosing the ground, and making
+preparations for two combatants;
+(REEVE-1777,10.224)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 away
+*/
+
+( (IP-MAT (ADVP-TMP (ADV Presently) (ADV after))
+	  (, ,)
+	  (NP-SBJ (PRO he))
+	  (VBD thought)
+	  (CP-THT (C 0)
+		  (IP-SUB (IP-SUB-1 (NP-SBJ (PRO he))
+				    (BED was)
+				    (VAN hurried)
+				    (ADVP-DIR (ADV away))
+				    (PP (P by)
+					(NP (D an) (ADJ invisible) (N hand))))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (IP-SUB=1 (VAN led)
+					   (PP (P into)
+					       (NP (D a)
+						   (ADJ wild)
+						   (N heath)
+						   (, ,)
+						   (CP-REL (WADVP-2 (WADV where))
+							   (C 0)
+							   (IP-SUB (IP-SUB-3 (ADVP-LOC *T*-2)
+									     (NP-SBJ (D the) (NS people))
+									     (BED were)
+									     (VAG inclosing)
+									     (NP-OB1 (D the) (N ground)))
+								   (, ,)
+								   (CONJP (CONJ and)
+									  (IP-SUB=3 (VAG making)
+										    (NP-OB1 (NS preparations))
+										    (PP (P for)
+											(NP (NUM two) (NS combatants)))))))))))))
+	  (. ;))
+  (ID REEVE-1777,10.224))
+
+/~*
+He was soon called back by the good woman, who told him that a servant from
+the baron waited to conduct him to the castle.
+(REEVE-1777,11.251)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 back
+*/
+
+( (IP-MAT (NP-SBJ (PRO He))
+	  (BED was)
+	  (ADVP-TMP (ADV soon))
+	  (VAN called)
+	  (ADVP-DIR (ADV back))
+	  (PP (P by)
+	      (NP (D the)
+		  (ADJ good)
+		  (N woman)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD told)
+				  (NP-OB2 (PRO him))
+				  (CP-THT (C that)
+					  (IP-SUB (NP-SBJ (D a)
+							  (N servant)
+							  (PP (P from)
+							      (NP (D the) (N baron))))
+						  (VBD waited)
+						  (IP-INF-PRP (TO to)
+							      (VB conduct)
+							      (NP-OB1 (PRO him))
+							      (PP (P to)
+								  (NP (D the) (N castle))))))))))
+	  (. .))
+  (ID REEVE-1777,11.251))
+
+/~*
+The daughter fetched his horse, which he mounted, and set forward with the
+servant, of whom he asked many questions concerning his master's family.
+(REEVE-1777,11.253)
+*~/
+/*
+41 ADVP-DIR:  41 ADVP-DIR, 43 forward
+*/
+
+( (IP-MAT (NP-SBJ (D The) (N daughter))
+	  (VBD fetched)
+	  (NP-OB1 (PRO$ his)
+		  (N horse)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB (NP-OB1 *T*-1)
+					  (NP-SBJ (PRO he))
+					  (VBD mounted))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB (NP-SBJ *con*)
+						 (VBD set)
+						 (ADVP-DIR (ADV+WARD forward))
+						 (PP (P with)
+						     (NP (D the)
+							 (N servant)
+							 (, ,)
+							 (CP-REL (WPP-2 (P of)
+									(WNP (WPRO whom)))
+								 (C 0)
+								 (IP-SUB (PP *T*-2)
+									 (NP-SBJ (PRO he))
+									 (VBD asked)
+									 (NP-OB1 (Q many)
+										 (NS questions)
+										 (RRC (VAG concerning)
+										      (NP-OB1 (NP-POS (PRO$ his) (N$ master's))
+											      (N family)))))))))))))
+	  (. .))
+  (ID REEVE-1777,11.253))
+
+/~*
+he used to run here and there on errands for my people,
+(REEVE-1777,15.348)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 18 there
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO he))
+	      (VBD used)
+	      (IP-INF-SPE (TO to)
+			  (VB run)
+			  (ADVP-DIR (ADV here) (CONJ and) (ADV there))
+			  (PP (P on)
+			      (NP (NS errands)))
+			  (PP (P for)
+			      (NP (PRO$ my) (NS people))))
+	      (. ,))
+  (ID REEVE-1777,15.348))
+
+/~*
+let us send for Edmund hither.
+(REEVE-1777,16.389)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 hither
+*/
+
+( (IP-IMP-SPE (VBI let)
+	      (IP-INF-SPE (NP-SBJ (PRO us))
+			  (VB send)
+			  (PP (P for)
+			      (NP (NPR Edmund)))
+			  (ADVP-DIR (ADV hither)))
+	      (. .))
+  (ID REEVE-1777,16.389))
+
+/~*
+I came hither with a heavy heart,
+(REEVE-1777,19.448)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 hither
+*/
+
+( (IP-MAT-SPE (NP-SBJ (PRO I))
+	      (VBD came)
+	      (ADVP-DIR (ADV hither))
+	      (PP (P with)
+		  (NP (D a) (ADJ heavy) (N heart)))
+	      (. ,))
+  (ID REEVE-1777,19.448))
+
+/~*
+- Why said he, my good friend, do you look at me so earnestly and
+affectionately?
+(REEVE-1777,25.545)
+*~/
+/*
+48 ADVX:  48 ADVX, 50 affectionately
+*/
+
+( (CP-QUE-SPE (, -)
+	      (WADVP-1 (WADV Why))
+	      (IP-MAT-PRN (VBD said)
+			  (NP-SBJ (PRO he)))
+	      (, ,)
+	      (NP-VOC (PRO$ my) (ADJ good) (N friend))
+	      (, ,)
+	      (IP-SUB-SPE (ADVP *T*-1)
+			  (DOP do)
+			  (NP-SBJ (PRO you))
+			  (VB look)
+			  (PP (P at)
+			      (NP (PRO me)))
+			  (ADVP (ADVR so)
+				(ADV earnestly)
+				(CONJP (CONJ and)
+				       (ADVX (ADV affectionately)))))
+	      (. ?))
+  (ID REEVE-1777,25.545))
+
+/~*
+Mr. William pressed forward to assist his friend, sir Robert, to defend his
+brother - Wenlock and Markham from shame to stay behind.
+(REEVE-1777,31.666)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 forward
+*/
+
+( (IP-MAT (IP-MAT-1 (NP-SBJ (NPR Mr.) (NPR William))
+		    (VBD pressed)
+		    (ADVP-DIR (ADV+WARD forward))
+		    (IP-INF-PRP (TO to)
+				(VB assist)
+				(NP-OB1 (PRO$ his) (N friend))))
+	  (, ,)
+	  (CONJP (IP-MAT=1 (NP-SBJ (NPR sir) (NPR Robert))
+			   (, ,)
+			   (IP-INF-PRP (TO to)
+				       (VB defend)
+				       (NP-OB1 (PRO$ his) (N brother)))))
+	  (, -)
+	  (CONJP (IP-MAT=1 (NP-SBJ (NPR Wenlock) (CONJ and) (NPR Markham))
+			   (PP (P from)
+			       (NP (N shame)
+				   (IP-INF (TO to)
+					   (VB stay)
+					   (ADVP-LOC (ADV behind)))))))
+	  (. .))
+  (ID REEVE-1777,31.666))
+
+/~*
+Thomas Hewson and his associates drew back on their side,
+(REEVE-1777,31.667)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 back
+*/
+
+( (IP-MAT (NP-SBJ (NP (NPR Thomas) (NPR Hewson))
+		  (CONJP (CONJ and)
+			 (NP (PRO$ his) (NS associates))))
+	  (VBD drew)
+	  (ADVP-DIR (ADV back))
+	  (PP (P on)
+	      (NP (PRO$ their) (N side)))
+	  (. ,))
+  (ID REEVE-1777,31.667))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	15/15/751
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd
+*/
+
+/~*
+his Arms and Legs are dwindled away with Whoring;
+(STEVENS-1745,22.120)
+*~/
+/*
+17 ADVP-DIR:  17 ADVP-DIR, 19 away
+*/
+
+( (IP-MAT (NP-SBJ (PRO$ his)
+		  (NS Arms)
+		  (CONJP (CONJ and)
+			 (NX (NS Legs))))
+	  (BEP are)
+	  (VAN dwindled)
+	  (ADVP-DIR (ADV away))
+	  (PP (P with)
+	      (NP (N Whoring)))
+	  (. ;))
+  (ID STEVENS-1745,22.120))
+
+/~*
+$let $'s away.
+(STEVENS-1745,24.192)
+*~/
+/*
+10 ADVP-DIR:  10 ADVP-DIR, 12 away
+*/
+
+( (IP-IMP (VBI $let)
+	  (IP-SMC (NP-SBJ (PRO $'s))
+		  (CODE {TEXT:let's})
+		  (ADVP-DIR (ADV away)))
+	  (. .))
+  (ID STEVENS-1745,24.192))
+
+/~*
+Lucy draws back a little,
+(STEVENS-1745,36.468)
+*~/
+/*
+12 ADVP-DIR:  12 ADVP-DIR, 14 back
+*/
+
+( (META (IP-MAT (CODE <bracket>)
+		(NP-SBJ (NPR Lucy))
+		(CODE <font>)
+		(VBP draws)
+		(ADVP-DIR (ADV back))
+		(NP-MSR (D a) (ADJ little))
+		(. ,)))
+  (ID STEVENS-1745,36.468))
+
+/~*
+Lucy. So! my Business is likely to go forward.
+(STEVENS-1745,38.523)
+*~/
+/*
+32 ADVP-DIR:  32 ADVP-DIR, 34 forward
+*/
+
+( (IP-MAT (META (CODE <font>)
+		(NP (NPR Lucy))
+		(, .)
+		(CODE <$$font>))
+	  (INTJP (ADV So))
+	  (, !)
+	  (NP-SBJ (PRO$ my) (N Business))
+	  (BEP is)
+	  (ADJP (ADJ likely)
+		(IP-INF (TO to)
+			(VB go)
+			(ADVP-DIR (ADV+WARD forward))))
+	  (. .))
+  (ID STEVENS-1745,38.523))
+
+/~*
+Lucy. Come hither then.
+(STEVENS-1745,44.677)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 hither
+*/
+
+( (IP-IMP (META (CODE <font>)
+		(NP (NPR Lucy))
+		(, .)
+		(CODE <$$font>))
+	  (VBI Come)
+	  (ADVP-DIR (ADV hither))
+	  (ADVP (ADV then))
+	  (. .))
+  (ID STEVENS-1745,44.677))
+
+/~*
+$Can $n't I study some Excuse to call her back again?
+(STEVENS-1745,45.693)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 33 again
+*/
+
+( (CP-QUE (IP-SUB (MD $Can)
+		  (NEG $n't)
+		  (CODE {TEXT:Can't})
+		  (NP-SBJ (PRO I))
+		  (VB study)
+		  (NP-OB1 (Q some)
+			  (N Excuse)
+			  (IP-INF (TO to)
+				  (VB call)
+				  (CODE <P_45>)
+				  (NP-OB1 (PRO her))
+				  (ADVP-DIR (ADV back) (ADV again)))))
+	  (. ?))
+  (ID STEVENS-1745,45.693))
+
+/~*
+if so, $'t $is only so much Money thrown away -
+(STEVENS-1745,46.741)
+*~/
+/*
+30 ADVP-DIR:  30 ADVP-DIR, 32 away
+*/
+
+( (IP-MAT (PP (P if)
+	      (ADVP (ADV so)))
+	  (, ,)
+	  (NP-SBJ (PRO $'t))
+	  (BEP $is)
+	  (CODE {TEXT:'tis})
+	  (NP-OB1 (QP (FP only) (ADVR so) (Q much))
+		  (N Money)
+		  (RRC (VAN thrown)
+		       (ADVP-DIR (ADV away))))
+	  (. -))
+  (ID STEVENS-1745,46.741))
+
+/~*
+I wish he may have an Answer to carry back.
+(STEVENS-1745,47.779)
+*~/
+/*
+33 ADVP-DIR:  33 ADVP-DIR, 35 back
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (VBP wish)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (MD may)
+			  (HV have)
+			  (NP-OB1 (D an)
+				  (N Answer)
+				  (CP-EOP (WNP-1 0)
+					  (IP-INF (NP-OB1 *T*-1)
+						  (TO to)
+						  (VB carry)
+						  (ADVP-DIR (ADV back)))))))
+	  (. .))
+  (ID STEVENS-1745,47.779))
+
+/~*
+$I $'ll take an abrupt Farewel, and away. - Aside. -
+(STEVENS-1745,49.837)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 27 away
+*/
+
+( (IP-MAT (IP-MAT (NP-SBJ (PRO $I))
+		  (MD $'ll)
+		  (CODE {TEXT:I'll})
+		  (VB take)
+		  (NP-OB1 (D an) (ADJ abrupt) (N Farewel)))
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (FRAG (ADVP-DIR (ADV away))))
+	  (, .)
+	  (, -)
+	  (META (CODE <font>)
+		(CODE <paren>)
+		(PP (P+N Aside))
+		(, .)
+		(CODE <$$paren>)
+		(. -)
+		(CODE <$$font>)))
+  (ID STEVENS-1745,49.837))
+
+/~*
+Well! now for the Top.
+(STEVENS-1745,49.852)
+*~/
+/*
+7 ADVP-DIR:  7 ADVP-DIR, 9 now
+*/
+
+( (FRAG (INTJP (ADV Well))
+	(, !)
+	(ADVP-DIR (ADV now))
+	(PP (P for)
+	    (NP (D the) (N Top)))
+	(. .))
+  (ID STEVENS-1745,49.852))
+
+/~*
+The Footman snatches it away,
+(STEVENS-1745,50.865)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 away
+*/
+
+( (META (CODE <font>)
+	(IP-MAT (NP-SBJ (D The) (N+N Footman))
+		(VBP snatches)
+		(NP-OB1 (PRO it))
+		(ADVP-DIR (ADV away)))
+	(. ,))
+  (ID STEVENS-1745,50.865))
+
+/~*
+and calling, Stop Thief, turns back again.
+(STEVENS-1745,50.871)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 30 again
+*/
+
+( (META (CONJ and)
+	(IP-MAT (NP-SBJ *con*)
+		(IP-PPL (VAG calling)
+			(CODE <$$font>)
+			(, ,)
+			(IP-IMP-SPE (VBI Stop)
+				    (NP-VOC (N Thief))))
+		(, ,)
+		(CODE <font>)
+		(VBP turns)
+		(ADVP-DIR (ADV back) (ADV again)))
+	(. .)
+	(CODE <$$font>))
+  (ID STEVENS-1745,50.871))
+
+/~*
+Well! $I $'ll away to Sir George, and inform him of it;
+(STEVENS-1745,50.881)
+*~/
+/*
+15 ADVP-DIR:  15 ADVP-DIR, 17 away
+*/
+
+( (IP-MAT (IP-MAT-1 (INTJP (ADV Well))
+		    (, !)
+		    (NP-SBJ (PRO $I))
+		    (MD $'ll)
+		    (CODE {TEXT:I'll})
+		    (ADVP-DIR (ADV away))
+		    (PP (P to)
+			(NP (NPR Sir) (CODE <font>) (NPR George))))
+	  (CODE <$$font>)
+	  (, ,)
+	  (CONJP (CONJ and)
+		 (IP-MAT=1 (VB inform)
+			   (NP-OB1 (PRO him))
+			   (PP (P of)
+			       (NP (PRO it)))))
+	  (. ;))
+  (ID STEVENS-1745,50.881))
+
+/~*
+Were I inclin'd to pass away an Evening, it should always be at one of our own
+Theatres, where $I $'m sure to understand what $I $'m merry or sad for;
+(STEVENS-1745,56.1017)
+*~/
+/*
+18 ADVP-DIR:  18 ADVP-DIR, 20 away
+*/
+
+( (IP-MAT (CP-ADV (C 0)
+		  (IP-SUB (BED Were)
+			  (NP-SBJ (PRO I))
+			  (VAN inclin'd)
+			  (IP-INF (TO to)
+				  (VB pass)
+				  (ADVP-DIR (ADV away))
+				  (NP-OB1 (D an) (CODE <P_56>) (N Evening)))))
+	  (, ,)
+	  (NP-SBJ (PRO it))
+	  (MD should)
+	  (ADVP-TMP (ADV always))
+	  (BE be)
+	  (PP (P at)
+	      (NP (ONE one)
+		  (PP (P of)
+		      (NP (PRO$ our)
+			  (ADJ own)
+			  (NS Theatres)
+			  (, ,)
+			  (CP-REL (WADVP-1 (WADV where))
+				  (C 0)
+				  (IP-SUB (ADVP-LOC *T*-1)
+					  (NP-SBJ (PRO $I))
+					  (BEP $'m)
+					  (CODE {TEXT:I'm})
+					  (ADJP (ADJ sure)
+						(IP-INF (TO to)
+							(VB understand)
+							(CP-QUE (WNP-2 (WPRO what))
+								(C 0)
+								(IP-SUB (NP-SBJ (PRO $I))
+									(BEP $'m)
+									(CODE {TEXT:I'm})
+									(ADJP (ADJ merry) (CONJ or) (ADJ sad))
+									(PP (P for)
+									    (NP *T*-2))))))))))))
+	  (. ;))
+  (ID STEVENS-1745,56.1017))
+
+/~*
+- Then he may be as proper a Person as any one to pass away the Evening with.
+(STEVENS-1745,57.1044)
+*~/
+/*
+40 ADVP-DIR:  40 ADVP-DIR, 42 away
+*/
+
+( (IP-MAT (, -)
+	  (ADVP (ADV Then))
+	  (NP-SBJ (PRO he))
+	  (MD may)
+	  (BE be)
+	  (NP-OB1 (ADJP (ADVR as) (ADJ proper))
+		  (D a)
+		  (N Person)
+		  (PP (P as)
+		      (NP (Q any) (ONE one)))
+		  (CP-EOP (WNP-1 0)
+			  (IP-INF (TO to)
+				  (VB pass)
+				  (ADVP-DIR (ADV away))
+				  (NP-OB1 (D the) (N Evening))
+				  (PP (P with)
+				      (NP *T*-1)))))
+	  (. .))
+  (ID STEVENS-1745,57.1044))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	15/15/1065
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd
+*/
+
+/~*
+Sir Robert Chiltern: And if it is all taken away from me now?
+(WILDE-1895,42.81)
+*~/
+/*
+30 ADVP-DIR:  30 ADVP-DIR, 38 me
+*/
+
+( (FRAG (META (NP (NPR Sir) (NPR Robert) (NPR Chiltern))
+	      (, :))
+	(CONJ And)
+	(PP (P if)
+	    (CP-ADV (C 0)
+		    (IP-SUB (NP-SBJ (PRO it))
+			    (BEP is)
+			    (Q all)
+			    (VAN taken)
+			    (ADVP-DIR (ADV away)
+				      (PP (P from)
+					  (NP (PRO me))))
+			    (ADVP-TMP (ADV now)))))
+	(. ?))
+  (ID WILDE-1895,42.81))
+
+/~*
+Sir Robert Chiltern: When I was going away he said to me that if I ever could
+give him any private information of real value he would make me a very rich
+man.
+(WILDE-1895,44.120)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 away
+*/
+
+( (IP-MAT (META (NP (NPR Sir) (NPR Robert) (NPR Chiltern))
+		(, :))
+	  (PP (P When)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (BED was)
+			      (VAG going)
+			      (ADVP-DIR (ADV away)))))
+	  (NP-SBJ (PRO he))
+	  (VBD said)
+	  (PP (P to)
+	      (NP (PRO me)))
+	  (CP-THT (C that)
+		  (IP-SUB (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO I))
+					      (ADVP-TMP (ADV ever))
+					      (MD could)
+					      (VB give)
+					      (NP-OB2 (PRO him))
+					      (NP-OB1 (Q any)
+						      (ADJ private)
+						      (N information)
+						      (PP (P of)
+							  (NP (ADJ real) (N value)))))))
+			  (NP-SBJ (PRO he))
+			  (MD would)
+			  (VB make)
+			  (IP-SMC (NP-SBJ (PRO me))
+				  (NP-OB1 (D a)
+					  (ADJP (ADV very) (ADJ rich))
+					  (N man)))))
+	  (. .))
+  (ID WILDE-1895,44.120))
+
+/~*
+Lord Goring leaning back with his hands in his pockets: Well, the English $can
+$n't stand a man who is always saying he is in the right,
+(WILDE-1895,46.184)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 back
+*/
+
+( (IP-MAT (META (NP (NPR Lord) (NPR Goring))
+		(CODE <font>)
+		(IP-PPL (VAG leaning)
+			(ADVP-DIR (ADV back))
+			(PP (P with)
+			    (IP-SMC (NP-SBJ (PRO$ his) (NS hands))
+				    (PP (P in)
+					(NP (PRO$ his) (NS pockets)))))))
+	  (CODE <$$font>)
+	  (, :)
+	  (INTJP (ADV Well))
+	  (, ,)
+	  (NP-SBJ (D the) (ADJ English))
+	  (MD $can)
+	  (NEG $n't)
+	  (CODE {TEXT:can't})
+	  (VB stand)
+	  (NP-OB1 (D a)
+		  (N man)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BEP is)
+				  (ADVP-TMP (ADV always))
+				  (VAG saying)
+				  (CP-THT (C 0)
+					  (IP-SUB (NP-SBJ (PRO he))
+						  (BEP is)
+						  (PP (P in)
+						      (NP (D the) (N right))))))))
+	  (. ,))
+  (ID WILDE-1895,46.184))
+
+/~*
+then comes running back.
+(WILDE-1895,58.518)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 back
+*/
+
+( (META (IP-MAT (NP-SBJ *con*)
+		(ADVP-TMP (ADV then))
+		(VBP comes)
+		(IP-PPL (VAG running))
+		(ADVP-DIR (ADV back))
+		(. .)
+		(CODE <$$font>)))
+  (ID WILDE-1895,58.518))
+
+/~*
+I dare say I lost it at the Opera, before we came on here.
+(WILDE-1895,60.583)
+*~/
+/*
+45 ADVP-DIR:  45 ADVP-DIR, 47 here
+*/
+
+( (IP-MAT (NP-SBJ (PRO I))
+	  (MD dare)
+	  (VB say)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (VBD lost)
+			  (NP-OB1 (PRO it))
+			  (PP (P at)
+			      (NP (D the) (N Opera)))
+			  (, ,)
+			  (PP (P before)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (PRO we))
+					      (VBD came)
+					      (RP on)
+					      (ADVP-DIR (ADV here)))))))
+	  (. .))
+  (ID WILDE-1895,60.583))
+
+/~*
+and I $do $n't think I shall go anywhere afterwards.
+(WILDE-1895,66.728)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 anywhere
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (PRO I))
+	  (DOP $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB think)
+	  (CP-THT (C 0)
+		  (IP-SUB (NP-SBJ (PRO I))
+			  (MD shall)
+			  (VB go)
+			  (ADVP-DIR (Q+WADV anywhere))
+			  (ADVP-TMP (ADV+WARD afterwards))))
+	  (. .))
+  (ID WILDE-1895,66.728))
+
+/~*
+Mrs Cheveley leaning back in her chair: Do you know, Gertrude, I $do $n't mind
+your talking morality a bit.
+(WILDE-1895,67.758)
+*~/
+/*
+13 ADVP-DIR:  13 ADVP-DIR, 15 back
+*/
+
+( (CP-QUE (META (NP (NPR Mrs) (NPR Cheveley))
+		(CODE <font>)
+		(IP-PPL (VAG leaning)
+			(ADVP-DIR (ADV back))
+			(PP (P in)
+			    (NP (PRO$ her) (N chair))))
+		(CODE <$$font>)
+		(, :))
+	  (IP-SUB (DOP Do)
+		  (NP-SBJ (PRO you))
+		  (VB know)
+		  (, ,)
+		  (NP-VOC (NPR Gertrude))
+		  (, ,)
+		  (CP-THT (C 0)
+			  (IP-SUB (NP-SBJ (PRO I))
+				  (DOP $do)
+				  (NEG $n't)
+				  (CODE {TEXT:don't})
+				  (VB mind)
+				  (NP-OB1 (PRO$ your)
+					  (IP-PPL (VAG talking)
+						  (NP-OB1 (N morality))))
+				  (NP-MSR (D a) (N bit)))))
+	  (. .))
+  (ID WILDE-1895,67.758))
+
+/~*
+And yet I have come here to do you a service.
+(WILDE-1895,67.763)
+*~/
+/*
+14 ADVP-DIR:  14 ADVP-DIR, 16 here
+*/
+
+( (IP-MAT (CONJ And)
+	  (ADVP (ADV yet))
+	  (NP-SBJ (PRO I))
+	  (HVP have)
+	  (VBN come)
+	  (ADVP-DIR (ADV here))
+	  (IP-INF-PRP (TO to)
+		      (DO do)
+		      (NP-OB2 (PRO you))
+		      (NP-OB1 (D a) (N service)))
+	  (. .))
+  (ID WILDE-1895,67.763))
+
+/~*
+Lady Chiltern thrusting him back with outstretched hands: No, $do $n't speak!
+(WILDE-1895,70.847)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 back
+*/
+
+( (IP-IMP (META (NP (NPR Lady) (NPR Chiltern))
+		(CODE <font>)
+		(IP-PPL (VAG thrusting)
+			(NP-OB1 (PRO him))
+			(ADVP-DIR (ADV back))
+			(PP (P with)
+			    (NP (VAN outstretched) (NS hands))))
+		(CODE <$$font>)
+		(, :))
+	  (INTJ No)
+	  (, ,)
+	  (DOI $do)
+	  (NEG $n't)
+	  (CODE {TEXT:don't})
+	  (VB speak)
+	  (. !))
+  (ID WILDE-1895,70.847))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	9/9/996
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd
+*/
+
+/~*
+"Now," said Mr. Keith, leaning back, "on my answer depends whether Bessie
+enters this place with a character for chanting, croquet, or crochet.
+(YONGE-1865,163.106)
+*~/
+/*
+24 ADVP-DIR:  24 ADVP-DIR, 26 back
+*/
+
+( (IP-MAT-SPE (" ")
+	      (ADVP (ADV Now))
+	      (, ,)
+	      (" ")
+	      (IP-MAT-PRN (VBD said)
+			  (NP-SBJ (NPR Mr.) (NPR Keith))
+			  (, ,)
+			  (IP-PPL-SPE (VAG leaning)
+				      (ADVP-DIR (ADV back))))
+	      (, ,)
+	      (" ")
+	      (PP (P on)
+		  (NP (PRO$ my) (N answer)))
+	      (VBP depends)
+	      (CP-QUE-SBJ-SPE (WQ whether)
+			      (C 0)
+			      (IP-SUB-SPE (NP-SBJ (NPR Bessie))
+					  (VBP enters)
+					  (NP-OB1 (D this) (N place))
+					  (PP (P with)
+					      (NP (D a)
+						  (N character)
+						  (PP (P for)
+						      (NP (N chanting) (, ,) (N croquet) (, ,) (CONJ or) (N crochet)))))))
+	      (. .))
+  (ID YONGE-1865,163.106))
+
+/~*
+Here comes the beauty, in Rose's own cloak. "
+(YONGE-1865,165.168)
+*~/
+/*
+2 ADVP-DIR:  2 ADVP-DIR, 4 Here
+*/
+
+( (IP-MAT-SPE (ADVP-DIR (ADV Here))
+	      (VBP comes)
+	      (NP-SBJ (D the) (N beauty))
+	      (, ,)
+	      (PP (P in)
+		  (NP (NPR$ Rose's) (ADJ own) (N cloak)))
+	      (. .)
+	      (" "))
+  (ID YONGE-1865,165.168))
+
+/~*
+If you could see the change from the petted creature she was with her mother
+and husband, almost always the first lady in the place, and latterly with a
+colonial court of her own, and now, ordered about, advised, domineered over,
+made nobody of, and taking it as meekly and sweetly as if she were grateful
+for it!
+(YONGE-1865,169.271)
+*~/
+/*
+180 ADVX:  180 ADVX, 182 sweetly
+*/
+
+( (PP (P If)
+      (CP-ADV (C 0)
+	      (IP-SUB (NP-SBJ (PRO you))
+		      (MD could)
+		      (VB see)
+		      (NP-OB1 (D the) (N change))
+		      (PP (P from)
+			  (NP (D the)
+			      (VAN petted)
+			      (N creature)
+			      (CP-REL (WNP-1 0)
+				      (C 0)
+				      (IP-SUB (NP-OB1 *T*-1)
+					      (NP-SBJ (PRO she))
+					      (BED was)
+					      (PP (P with)
+						  (NP (PRO$ her)
+						      (N mother)
+						      (CONJP (CONJ and)
+							     (NX (N husband)))))))
+			      (, ,)
+			      (RRC (RRC (RRC (ADVP-TMP (ADV almost) (CODE <P_169>) (ADV always))
+					     (NP-OB1 (D the) (ADJ first) (N lady))
+					     (PP (P in)
+						 (NP (D the) (N place))))
+					(, ,)
+					(CONJP (CONJ and)
+					       (RRC (ADVP-TMP (ADV latterly))
+						    (PP (P with)
+							(NP (D a)
+							    (ADJ colonial)
+							    (N court)
+							    (PP (P of)
+								(NP (PRO$ her) (ADJ own))))))))
+				   (, ,)
+				   (CONJP (CONJ and)
+					  (RRC (RRC (ADVP-TMP (ADV now))
+						    (, ,)
+						    (VAN ordered)
+						    (RP about))
+					       (, ,)
+					       (CONJP (RRC (VAN advised)))
+					       (, ,)
+					       (CONJP (RRC (VAN domineered)
+							   (PP (P over)
+							       (NP *))))
+					       (, ,)
+					       (CONJP (RRC (VAN made)
+							   (IP-SMC (NP-SBJ *)
+								   (NP-OB1 (Q+N nobody))
+								   (PP (P of)
+								       (NP *)))))
+					       (, ,)
+					       (CONJP (CONJ and)
+						      (RRC (VAG taking)
+							   (NP-OB1 (PRO it))
+							   (ADVP (ADVR as)
+								 (ADV meekly)
+								 (CONJP (CONJ and)
+									(ADVX (ADV sweetly)))
+								 (PP (P as)
+								     (PP (P if)
+									 (CP-ADV (C 0)
+										 (IP-SUB (NP-SBJ (PRO she))
+											 (BED were)
+											 (ADJP (ADJ grateful)
+											       (PP (P for)
+												   (NP (PRO it))))))))))))))))))
+      (. !))
+  (ID YONGE-1865,169.271))
+
+/~*
+But she certainly ought to come away. "
+(YONGE-1865,169.273)
+*~/
+/*
+16 ADVP-DIR:  16 ADVP-DIR, 18 away
+*/
+
+( (IP-MAT-SPE (CONJ But)
+	      (NP-SBJ (PRO she))
+	      (ADVP (ADV certainly))
+	      (MD ought)
+	      (TO to)
+	      (VB come)
+	      (ADVP-DIR (ADV away))
+	      (. .)
+	      (" "))
+  (ID YONGE-1865,169.273))
+
+/~*
+It seems to me rather a dangerous responsibility to take her away from her own
+relations, unless there were any with equal claims. "
+(YONGE-1865,169.275)
+*~/
+/*
+31 ADVP-DIR:  31 ADVP-DIR, 43 relations
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (PRO It))
+	      (VBP seems)
+	      (PP (P to)
+		  (NP (PRO me)))
+	      (ADVP (ADVR rather))
+	      (NP-OB1 (D a) (ADJ dangerous) (N responsibility))
+	      (IP-INF-SPE-1 (TO to)
+			    (VB take)
+			    (NP-OB1 (PRO her))
+			    (ADVP-DIR (ADV away)
+				      (PP (P from)
+					  (NP (PRO$ her) (ADJ own) (NS relations)))))
+	      (, ,)
+	      (PP (P unless)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (NP-SBJ-2 (EX there))
+					  (BED were)
+					  (NP-2 (Q any)
+						(PP (P with)
+						    (NP (ADJ equal) (NS claims)))))))
+	      (. .)
+	      (" "))
+  (ID YONGE-1865,169.275))
+
+/~*
+"What, are you going to order me away?"
+(YONGE-1865,169.298)
+*~/
+/*
+25 ADVP-DIR:  25 ADVP-DIR, 27 away
+*/
+
+( (CP-QUE-SPE (" ")
+	      (INTJP (WPRO What))
+	      (, ,)
+	      (IP-SUB-SPE (BEP are)
+			  (NP-SBJ (PRO you))
+			  (VAG going)
+			  (IP-INF-PRP-SPE (TO to)
+					  (VB order)
+					  (NP-OB1 (PRO me))
+					  (ADVP-DIR (ADV away))))
+	      (. ?)
+	      (" "))
+  (ID YONGE-1865,169.298))
+
+/~*
+"Oh, if you come here out of duty -" she said archly, and with her merry laugh.
+(YONGE-1865,170.308)
+*~/
+/*
+21 ADVP-DIR:  21 ADVP-DIR, 23 here
+*/
+
+( (IP-MAT (" ")
+	  (QTP (INTJ Oh)
+	       (, ,)
+	       (PP (P if)
+		   (CP-ADV-SPE (C 0)
+			       (IP-SUB-SPE (NP-SBJ (PRO you))
+					   (VBP come)
+					   (ADVP-DIR (ADV here))
+					   (PP (RP out)
+					       (P of)
+					       (NP (N duty)))))))
+	  (, -)
+	  (" ")
+	  (NP-SBJ (PRO she))
+	  (VBD said)
+	  (ADVP (ADVP (ADV archly))
+		(, ,)
+		(CONJP (CONJ and)
+		       (PP (P with)
+			   (NP (PRO$ her) (ADJ merry) (N laugh)))))
+	  (. .))
+  (ID YONGE-1865,170.308))
+
+/~*
+and some women are so conscientious as only to put forth what is of weight and
+value. "
+(YONGE-1865,175.410)
+*~/
+/*
+26 ADVP-DIR:  26 ADVP-DIR, 28 forth
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (Q some) (NS women))
+	      (BEP are)
+	      (ADJP (ADVR so)
+		    (ADJ conscientious)
+		    (-PP (P as)
+			 (IP-INF-SPE (FP only)
+				     (TO to)
+				     (VB put)
+				     (ADVP-DIR (ADV forth))
+				     (NP-OB1 (CP-FRL-SPE (WNP-1 (WPRO what))
+							 (C 0)
+							 (IP-SUB-SPE (NP-SBJ *T*-1)
+								     (BEP is)
+								     (PP (P of)
+									 (NP (N weight) (CONJ and) (N value)))))))))
+	      (. .)
+	      (" "))
+  (ID YONGE-1865,175.410))
+
+/~*
+It is hard that a man who can forgive a woman for intellect, should be thrown
+back on poor little Fanny;
+(YONGE-1865,176.443)
+*~/
+/*
+51 ADVP-DIR:  51 ADVP-DIR, 53 back
+*/
+
+( (IP-MAT-SPE (NP-SBJ-1 (PRO It))
+	      (BEP is)
+	      (ADJP (ADJ hard))
+	      (CP-THT-SPE-1 (C that)
+			    (IP-SUB-SPE (NP-SBJ (D a)
+						(N man)
+						(CP-REL-SPE (WNP-2 (WPRO who))
+							    (C 0)
+							    (IP-SUB-SPE (NP-SBJ *T*-2)
+									(MD can)
+									(VB forgive)
+									(NP-OB1 (D a) (N woman))
+									(PP (P for)
+									    (NP (N intellect))))))
+					(, ,)
+					(MD should)
+					(BE be)
+					(VAN thrown)
+					(ADVP-DIR (ADV back))
+					(PP (P on)
+					    (NP (ADJP (ADJ poor) (ADJ little))
+						(NPR Fanny)))))
+	      (. ;))
+  (ID YONGE-1865,176.443))
+
+/~*
+and Rachel felt as if it took her breath away by the likeness to Louis XIV;
+(YONGE-1865,180.531)
+*~/
+/*
+29 ADVP-DIR:  29 ADVP-DIR, 31 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (NPR Rachel))
+	  (VBD felt)
+	  (PP (P as)
+	      (PP (P if)
+		  (CP-ADV (C 0)
+			  (IP-SUB (NP-SBJ (PRO it))
+				  (VBD took)
+				  (NP-OB1 (PRO$ her) (N breath))
+				  (ADVP-DIR (ADV away))
+				  (PP (P by)
+				      (NP (D the)
+					  (N likeness)
+					  (PP (P to)
+					      (NP (NPR Louis) (NUM XIV)))))))))
+	  (. ;))
+  (ID YONGE-1865,180.531))
+
+/~*
+and the most unsatisfactory consideration which Rachel carried away that
+evening was that Alexander Keith being really somewhat the senior, if the
+improvement in Fanny's spirits were really owing to his presence, the
+objection on the score of age would not hold.
+(YONGE-1865,183.618)
+*~/
+/*
+28 ADVP-DIR:  28 ADVP-DIR, 30 away
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (ADJP (QS most) (ADJ unsatisfactory))
+		  (N consideration)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-OB1 *T*-1)
+				  (NP-SBJ (NPR Rachel))
+				  (VBD carried)
+				  (ADVP-DIR (ADV away))
+				  (NP-TMP (D that) (N evening)))))
+	  (BED was)
+	  (CP-THT (C that)
+		  (IP-SUB (IP-PPL-ABS (NP-SBJ (NPR Alexander) (NPR Keith))
+				      (BAG being)
+				      (ADVP (ADV really))
+				      (NP-OB1 (NP-MSR (Q+WPRO somewhat))
+					      (D the)
+					      (N senior)))
+			  (, ,)
+			  (PP (P if)
+			      (CP-ADV (C 0)
+				      (IP-SUB (NP-SBJ (D the)
+						      (N improvement)
+						      (PP (P in)
+							  (NP (NPR$ Fanny's) (NS spirits))))
+					      (BED were)
+					      (ADVP (ADV really))
+					      (VAG owing)
+					      (PP (P to)
+						  (NP (PRO$ his) (N presence))))))
+			  (, ,)
+			  (NP-SBJ (D the)
+				  (N objection)
+				  (PP (P on)
+				      (NP (D the)
+					  (N score)
+					  (PP (P of)
+					      (NP (N age))))))
+			  (MD would)
+			  (NEG not)
+			  (VB hold)))
+	  (. .))
+  (ID YONGE-1865,183.618))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	11/11/629
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\brougham-1861.psd	11/11/1202
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\collier-1835.psd	10/10/1122
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\colman-1805.psd	24/24/1185
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\davys-1716.psd	11/11/946
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\defoe-1719.psd	31/29/495
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\dickens-1837.psd	18/17/566
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\fielding-1749.psd	13/12/486
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\godwin-1805.psd	5/5/593
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\goldsmith-1773.psd	7/7/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\meredith-1895.psd	6/6/652
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\reeve-1777.psd	15/15/751
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\stevens-1745.psd	15/15/1065
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\wilde-1895.psd	9/9/996
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCMBE\temp1492106160469\fiction_romances_dramacomedies_and_verse\yonge-1865.psd	11/11/629
+whole search, hits/tokens/total
+		186/182/11753
+*/

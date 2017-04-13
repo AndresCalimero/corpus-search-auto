@@ -1,0 +1,495 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:30 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_prepositional_phrases_appositive_parenthetical.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_prepositional_phrases_appositive_parenthetical\fiction_romances_dramacomedies_and_verse\result.out
+
+node:   PP-*PRN*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (PP-*PRN* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-h.psd
+*/
+
+/~*
+and I would but for doing thee harme thou hadst no tongue to grant that foole
+his next sute;
+(ARMIN-E2-H,47.475)
+*~/
+/*
+18 DAG:  18 DAG, 19 doing, 11 PP-PRN
+*/
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (PRO I))
+	      (VBD would)
+	      (CODE <paren>)
+	      (PP-PRN (P but)
+		      (PP (P for)
+			  (IP-PPL-SPE (DAG doing)
+				      (NP-OB2 (PRO thee))
+				      (NP-OB1 (N harme)))))
+	      (CODE <$$paren>)
+	      (CP-THT-SPE (C 0)
+			  (IP-SUB-SPE (NP-SBJ (PRO thou))
+				      (HVD hadst)
+				      (NP-OB1 (Q no)
+					      (N tongue)
+					      (CP-EOP-SPE (WNP-1 0)
+							  (IP-INF-SPE (NP-SBJ *T*-1)
+								      (TO to)
+								      (VB grant)
+								      (NP-OB2 (D that) (N foole))
+								      (NP-OB1 (PRO$ his) (ADJS next) (N sute)))))))
+	      (. ;))
+  (ID ARMIN-E2-H,47.475))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-h.psd	1/1/488
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p1.psd	0/0/430
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p2.psd	0/0/405
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-h.psd
+*/
+
+/~*
+and the king, who had caus'd a very rich bath to be prepar'd, was led into it,
+where he sate under a canopy, in state, to receive this long'd-for virgin;
+whom he having commanded shou'd be brought to him, they after disrobing her
+led her to the bath, and making fast the doors, left her to descend.
+(BEHN-E3-H,158.50)
+*~/
+/*
+146 VAG:  146 VAG, 147 disrobing, 142 PP-PRN
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (D the)
+		  (N king)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (HVD had)
+				  (VBN caus'd)
+				  (IP-INF (NP-SBJ (D a)
+						  (ADJP (ADV very) (ADJ rich))
+						  (N bath))
+					  (TO to)
+					  (BE be)
+					  (VAN prepar'd)))))
+	  (, ,)
+	  (BED was)
+	  (VAN led)
+	  (PP (P into)
+	      (NP (PRO it)
+		  (, ,)
+		  (CP-REL (WADVP-2 (WADV where))
+			  (C 0)
+			  (IP-SUB (ADVP-LOC *T*-2)
+				  (NP-SBJ (PRO he))
+				  (VBD sate)
+				  (PP (P under)
+				      (NP (D a) (N canopy)))
+				  (, ,)
+				  (PP (P in)
+				      (NP (N state)))
+				  (, ,)
+				  (IP-INF-PRP (TO to)
+					      (VB receive)
+					      (NP-OB1 (D this)
+						      (VAN+P long'd-for)
+						      (N virgin)
+						      (, ;)
+						      (CP-REL (WNP-3 (WPRO whom))
+							      (C 0)
+							      (IP-SUB (IP-SUB (IP-PPL-ABS (NP-SBJ (PRO he))
+											  (HAG having)
+											  (VBN commanded)
+											  (CP-THT (C 0)
+												  (IP-SUB (NP-SBJ *T*-3)
+													  (MD shou'd)
+													  (BE be)
+													  (VAN brought)
+													  (PP (P to)
+													      (NP (PRO him))))))
+									      (, ,)
+									      (NP-SBJ (PRO they))
+									      (CODE <paren>)
+									      (PP-PRN (P after)
+										      (IP-PPL (VAG disrobing)
+											      (NP-OB1=3 (PRO her))))
+									      (CODE <$$paren>)
+									      (VBD led)
+									      (NP-OB1-RSP=3 (PRO her))
+									      (PP (P to)
+										  (NP (D the) (N bath))))
+								      (, ,)
+								      (CONJP (CONJ and)
+									     (IP-SUB (NP-SBJ *con*)
+										     (IP-PPL (VAG making)
+											     (IP-SMC (ADJP (ADJ fast))
+												     (NP-SBJ (D the) (NS doors))))
+										     (, ,)
+										     (VBD left)
+										     (NP-OB1-RSP=3 (PRO her))
+										     (IP-INF (TO to) (VB descend))))))))))))
+	  (. .))
+  (ID BEHN-E3-H,158.50))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-h.psd	1/1/237
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p1.psd	0/0/257
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p2.psd	0/0/195
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-h.psd	0/0/525
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p1.psd	0/0/504
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p2.psd	0/0/396
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-h.psd	0/0/719
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p1.psd	0/0/801
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p2.psd	0/0/660
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-h.psd	0/0/366
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p1.psd	0/0/452
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p2.psd	0/0/361
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-h.psd	0/0/491
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p1.psd	0/0/507
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p2.psd	0/0/520
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-h.psd	0/0/768
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p1.psd	0/0/784
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p2.psd	0/0/784
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-h.psd	0/0/630
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p1.psd	0/0/590
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p2.psd	0/0/375
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-h.psd	0/0/741
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p1.psd	0/0/897
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p2.psd	0/0/862
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-h.psd	0/0/604
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p1.psd	0/0/734
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p2.psd	0/0/328
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-h.psd	0/0/513
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p1.psd	0/0/576
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p2.psd	0/0/812
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-h.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-h.psd	0/0/715
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p1.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p1.psd	0/0/792
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p2.psd	0/0/856
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-h.psd	1/1/488
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p1.psd	0/0/430
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\armin-e2-p2.psd	0/0/405
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-h.psd	1/1/237
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p1.psd	0/0/257
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\behn-e3-p2.psd	0/0/195
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-h.psd	0/0/525
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p1.psd	0/0/504
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\deloney-e2-p2.psd	0/0/396
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-h.psd	0/0/719
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p1.psd	0/0/801
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\farquhar-e3-p2.psd	0/0/660
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-h.psd	0/0/366
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p1.psd	0/0/452
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\harman-e1-p2.psd	0/0/361
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-h.psd	0/0/491
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p1.psd	0/0/507
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\merrytal-e1-p2.psd	0/0/520
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-h.psd	0/0/768
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p1.psd	0/0/784
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\middlet-e2-p2.psd	0/0/784
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-h.psd	0/0/630
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p1.psd	0/0/590
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\penny-e3-p2.psd	0/0/375
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-h.psd	0/0/741
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p1.psd	0/0/897
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\shakesp-e2-p2.psd	0/0/862
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-h.psd	0/0/604
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p1.psd	0/0/734
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\stevenso-e1-p2.psd	0/0/328
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-h.psd	0/0/513
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p1.psd	0/0/576
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\udall-e1-p2.psd	0/0/812
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-h.psd	0/0/715
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p1.psd	0/0/792
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\fiction_romances_dramacomedies_and_verse\vanbr-e3-p2.psd	0/0/856
+whole search, hits/tokens/total
+		2/2/20675
+*/

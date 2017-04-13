@@ -1,0 +1,300 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 19:02:20 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCME2\progressive_forms_in_noun_phrases_subject_nonnominative\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd
+*/
+
+/~*
+and chastete is defoyled, whan hit so is +tat greet brennyngge temptacioun
+drawe+t to hym fuul wyl, ant rauesce+t menbres to vuel asent. Wherfore hit
+behoue+t gretliche +tat an holy mayde be-+tenke heore +tat alle heore menbres
+be+t halwed to God, incorporat to Crist and dedyed to +te Holy Gost.
+(CMAELR3,27.47)
+*~/
+/*
+36 VAG:  36 VAG, 37 brennyngge, 33 NP-SBJ
+*/
+( (IP-MAT (CONJ and)
+	  (NP-SBJ (N chastete))
+	  (BEP is)
+	  (VAN defoyled)
+	  (, ,)
+	  (PP (P whan)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ-1 (PRO hit))
+			      (ADVP (ADV so))
+			      (BEP is)
+			      (CP-THT-1 (C +tat)
+					(IP-SUB (IP-SUB (NP-SBJ (ADJ greet) (VAG brennyngge) (N temptacioun))
+							(VBP drawe+t)
+							(PP (P to)
+							    (NP (PRO hym)))
+							(ADVP (ADV fuul) (ADV wyl)))
+						(, ,)
+						(CONJP (CONJ ant)
+						       (IP-SUB (NP-SBJ *con*)
+							       (VBP rauesce+t)
+							       (NP-OB1 (N menbres))
+							       (PP (P to)
+								   (NP (ADJ vuel) (N asent))))))))))
+	  (, .)
+	  (CP-CAR (WPP-2 (WADV+P Wherfore))
+		  (C 0)
+		  (IP-SUB (PP *T*-2)
+			  (NP-SBJ-3 (PRO hit))
+			  (VBP behoue+t)
+			  (ADVP (ADV gretliche))
+			  (CP-THT-3 (C +tat)
+				    (IP-SUB (NP-SBJ (D an) (ADJ holy) (N mayde))
+					    (VBP be-+tenke)
+					    (NP-OB2 (PRO heore))
+					    (CP-THT (C +tat)
+						    (IP-SUB (IP-SUB-4 (NP-SBJ (Q alle) (PRO$ heore) (NS menbres))
+								      (BEP be+t)
+								      (VAN halwed)
+								      (PP (P to)
+									  (NP (NPR God))))
+							    (, ,)
+							    (CONJP (IP-SUB=4 (VAN incorporat)
+									     (PP (P to)
+										 (NP (NPR Crist)))))
+							    (CONJP (CONJ and)
+								   (IP-SUB=4 (VAN dedyed)
+									     (PP (P to)
+										 (NP (D +te) (NPR Holy) (NPR Gost)))))))))))
+	  (. .))
+  (ID CMAELR3,27.47))
+
+/~*
+As ofte as eny brennyngge temptacioun come+t vp-on +te, as ofte as +te wyckede
+spyryt put to +te vnlifful lustes, wite it wel +tat he is present +tat
+ascherche+t entrayles of +tyn herte,
+(CMAELR3,29.78)
+*~/
+/*
+21 VAG:  21 VAG, 22 brennyngge, 18 NP-SBJ
+*/
+
+( (IP-IMP (ADVP-TMP (ADVR As)
+		    (ADV ofte)
+		    (PP (P as)
+			(CP-CMP (WADVP-1 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-1)
+					(NP-SBJ (Q eny) (VAG brennyngge) (N temptacioun))
+					(VBP come+t)
+					(PP (P vp-on)
+					    (NP (PRO +te)))))))
+	  (, ,)
+	  (ADVP-TMP (ADVR as)
+		    (ADV ofte)
+		    (PP (P as)
+			(CP-CMP (WADVP-2 0)
+				(C 0)
+				(IP-SUB (ADVP-TMP *T*-2)
+					(NP-SBJ (D +te) (ADJ wyckede) (N spyryt))
+					(VBP put)
+					(PP (P to)
+					    (NP (PRO +te)))
+					(NP-OB1 (ADJ vnlifful) (NS lustes))))))
+	  (, ,)
+	  (VBI wite)
+	  (NP-OB1=3 (PRO it))
+	  (ADVP (ADV wel))
+	  (CP-THT-3 (C +tat)
+		    (IP-SUB (NP-SBJ (PRO he)
+				    (CP-REL *ICH*-4))
+			    (BEP is)
+			    (ADJP (ADJ present))
+			    (CP-REL-4 (WNP-5 0)
+				      (C +tat)
+				      (IP-SUB (NP-SBJ *T*-5)
+					      (VBP ascherche+t)
+					      (NP-OB1 (NS entrayles)
+						      (PP (P of)
+							  (CODE <P_29>)
+							  (NP (PRO$ +tyn) (N herte))))))))
+	  (. ,))
+  (ID CMAELR3,29.78))
+
+/~*
+And +gif I schal seye hit, iblessyd was +tis wumman +tat was +tus founden in
+swhich avoutrye, +te which was asoyled of Crist of sennes +tat where apassed,
+and ymaad syker of tyme to-comyngge.
+(CMAELR3,42.478)
+*~/
+/*
+118 VAG:  118 VAG, 119 to-comyngge, 27 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (PP (P +gif)
+	      (CP-ADV (C 0)
+		      (IP-SUB (NP-SBJ (PRO I))
+			      (MD schal)
+			      (VB seye)
+			      (NP-OB1 (PRO hit)))))
+	  (, ,)
+	  (VAN iblessyd)
+	  (BED was)
+	  (NP-SBJ (D +tis)
+		  (N wumman)
+		  (CP-REL (WNP-1 0)
+			  (C +tat)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED was)
+				  (ADVP (ADV +tus))
+				  (VAN founden)
+				  (PP (P in)
+				      (NP (SUCH swhich) (N avoutrye)))))
+		  (, ,)
+		  (CP-REL (WNP-2 (D +te) (WPRO which))
+			  (C 0)
+			  (IP-SUB (IP-SUB-3 (NP-SBJ *T*-2)
+					    (BED was)
+					    (VAN asoyled)
+					    (PP (P of)
+						(NP (NPR Crist)))
+					    (PP (P of)
+						(NP (NS sennes)
+						    (CP-REL (WNP-4 0)
+							    (C +tat)
+							    (IP-SUB (NP-SBJ *T*-4)
+								    (BED where)
+								    (VAN apassed))))))
+				  (, ,)
+				  (CONJP (CONJ and)
+					 (IP-SUB=3 (VAN ymaad)
+						   (IP-SMC (NP-SBJ *)
+							   (ADJP (ADJ syker)
+								 (PP (P of)
+								     (NP (N tyme)
+									 (RRC (VAG to-comyngge)))))))))))
+	  (. .))
+  (ID CMAELR3,42.478))
+
+/~*
+and in +tat wyse let oure deuocioun be acresyd, and brennyngge loue isteryd to
+Godwarde.
+(CMAELR3,43.519)
+*~/
+/*
+32 VAG:  32 VAG, 33 brennyngge, 31 NP-SBJ
+*/
+
+( (IP-IMP (CONJ and)
+	  (PP (P in)
+	      (NP (D +tat) (N wyse)))
+	  (VBI let)
+	  (IP-INF (IP-INF-1 (NP-SBJ (PRO$ oure) (N deuocioun))
+			    (BE be)
+			    (VAN acresyd))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-INF=1 (NP-SBJ (VAG brennyngge) (N loue))
+				   (VAN isteryd)
+				   (PP (P to)
+				       (NP (NPR+WARD Godwarde))))))
+	  (. .))
+  (ID CMAELR3,43.519))
+
+/~*
++Te harde betyngge of +gou+gre scharpe +gerdes, +te wannesse of +te woundes,
++te fel+te of +gou+gre stynkynde spatelynge witnesse+t wel +tat he is a man.
+(CMAELR3,47.663)
+*~/
+/*
+50 VAG:  50 VAG, 51 stynkynde, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (D +Te)
+		      (ADJ harde)
+		      (N betyngge)
+		      (PP (P of)
+			  (NP (PRO$ +gou+gre) (ADJ scharpe) (NS +gerdes))))
+		  (, ,)
+		  (CONJP (NP (D +te)
+			     (N wannesse)
+			     (PP (P of)
+				 (NP (D +te) (NS woundes)))))
+		  (, ,)
+		  (CONJP (NP (D +te)
+			     (N fel+te)
+			     (PP (P of)
+				 (NP (PRO$ +gou+gre) (VAG stynkynde) (N spatelynge))))))
+	  (VBP witnesse+t)
+	  (ADVP (ADV wel))
+	  (CP-THT (C +tat)
+		  (IP-SUB (NP-SBJ (PRO he))
+			  (BEP is)
+			  (NP-OB1 (D a) (N man))))
+	  (. .))
+  (ID CMAELR3,47.663))
+
+/~*
+and on +tat o+ter syde, +tat chaungynge of euele maneres, and vertues comyngge
+in after vices, wipe+t awey +te vilanows schame of oold vnclene conuersacioun.
+(CMAELR3,54.888)
+*~/
+/*
+39 VAG:  39 VAG, 40 comyngge, 16 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (PP (P on)
+	      (NP (D +tat) (OTHER o+ter) (N syde)))
+	  (, ,)
+	  (NP-SBJ (NP (D +tat)
+		      (N chaungynge)
+		      (PP (P of)
+			  (NP (ADJ euele) (NS maneres))))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (NS vertues)
+			     (RRC (VAG comyngge)
+				  (RP in)
+				  (PP (P after)
+				      (NP (NS vices)))))))
+	  (, ,)
+	  (VBP wipe+t)
+	  (ADVP-DIR (ADV awey))
+	  (NP-OB1 (D +te)
+		  (ADJ vilanows)
+		  (N schame)
+		  (PP (P of)
+		      (NP (ADJ oold) (ADJ vnclene) (N conuersacioun))))
+	  (. .))
+  (ID CMAELR3,54.888))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	6/6/1054
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	0/0/1454
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmaelr3.m23.psd	6/6/1054
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCME2\temp1492106398658\rules_charters_wills_laws_ecclesiastical_laws_and_proceedingstrials\cmbenrul.m3.psd	0/0/1454
+whole search, hits/tokens/total
+		6/6/2508
+*/

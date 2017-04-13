@@ -1,0 +1,1105 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Apr 13 18:54:12 BST 2017
+
+command file:     data\searches\queries\PENN\progressive_forms_in_noun_phrases_subject_non-nominative.q
+output file:      C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\output\13-04-2017 18.46.36.333 PPCEME\progressive_forms_in_noun_phrases_subject_nonnominative\bible_and_apocrypha\result.out
+
+node:   NP-SBJ*|BAG*|HAG*|VAG*|DAG*
+query:  (BAG*|HAG*|VAG*|DAG* Dominates  !BAG*|HAG*|VAG*|DAG*) 
+  AND  (NP-SBJ* Dominates  BAG*|HAG*|VAG*|DAG*) 
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd
+*/
+
+/~*
+As the liuing Father hath sent me, and I liue by the Father: so, he that
+eateth me, euen he shall liue by me.
+(AUTHNEW-E2-H,6,40J.787)
+*~/
+/*
+17 VAG:  17 VAG, 18 liuing, 14 NP-SBJ
+*/
+( (IP-MAT-SPE (PP (P As)
+		  (CP-CMP-SPE (WADVP-1 0)
+			      (C 0)
+			      (IP-SUB-SPE (IP-SUB-SPE (ADVP *T*-1)
+						      (NP-SBJ (D the) (VAG liuing) (NPR Father))
+						      (HVP hath)
+						      (VBN sent)
+						      (NP-OB1 (PRO me)))
+					  (, ,)
+					  (CONJP (CONJ and)
+						 (IP-SUB-SPE (ADVP *T*-1)
+							     (NP-SBJ (PRO I))
+							     (VBP liue)
+							     (PP (P by)
+								 (NP (D the) (NPR Father))))))))
+	      (, :)
+	      (ADVP (ADV so))
+	      (, ,)
+	      (NP-SBJ (PRO he)
+		      (CP-REL-SPE (WNP-2 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-2)
+					      (VBP eateth)
+					      (NP-OB1 (PRO me))))
+		      (, ,)
+		      (NP-PRN (FP euen) (PRO he)))
+	      (MD shall)
+	      (VB liue)
+	      (PP (P by)
+		  (NP (PRO me)))
+	      (. .))
+  (ID AUTHNEW-E2-H,6,40J.787))
+
+/~*
+He that beleeueth on me, as the Scripture hath saide, out of his belly shall
+flow riuers of liuing water.
+(AUTHNEW-E2-H,7,20J.944)
+*~/
+/*
+66 VAG:  66 VAG, 67 liuing, 59 NP-SBJ
+*/
+
+( (IP-MAT-SPE (NP-LFD (PRO He)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP beleeueth)
+					      (PP (P on)
+						  (NP (PRO me)))
+					      (, ,)
+					      (PP-PRN (P as)
+						      (CP-ADV-SPE (WNP-2 0)
+								  (C 0)
+								  (IP-SUB-SPE (NP-OB1 *T*-2)
+									      (NP-SBJ (D the) (NPR Scripture))
+									      (HVP hath)
+									      (VBN saide)))))))
+	      (, ,)
+	      (PP (RP out)
+		  (P of)
+		  (NP-RSP (PRO$ his) (N belly)))
+	      (MD shall)
+	      (VB flow)
+	      (NP-SBJ (NS riuers)
+		      (PP (P of)
+			  (NP (VAG liuing) (N water))))
+	      (. .))
+  (ID AUTHNEW-E2-H,7,20J.944))
+
+/~*
+And they which heard it, being conuicted by their owne conscience, went out
+one by one, beginning at the eldest, euen vnto the last:
+(AUTHNEW-E2-H,8,1J.1010)
+*~/
+/*
+24 BAG:  24 BAG, 25 being, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they)
+		  (CP-REL (WNP-1 (WPRO which))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD heard)
+				  (NP-OB1 (PRO it))
+				  (, ,)
+				  (IP-PPL (BAG being)
+					  (VAN conuicted)
+					  (PP (P by)
+					      (NP (PRO$ their) (ADJ owne) (N conscience)))))))
+	  (, ,)
+	  (VBD went)
+	  (RP out)
+	  (NP-ADV (ONE one)
+		  (PP (P by)
+		      (NP (ONE one))))
+	  (, ,)
+	  (IP-PPL (VAG beginning)
+		  (PP (P at)
+		      (NP (D the) (ADJS eldest)))
+		  (, ,)
+		  (PP (FP euen)
+		      (P vnto)
+		      (NP (D the) (ADJ last))))
+	  (. :))
+  (ID AUTHNEW-E2-H,8,1J.1010))
+
+/~*
+And one of them named Caiaphas, being the high Priest that same yeere, said
+vnto them, Ye know nothing at all,
+(AUTHNEW-E2-H,11,40J.1594)
+*~/
+/*
+25 BAG:  25 BAG, 26 being, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (ONE one)
+		  (PP (P of)
+		      (NP (PRO them)))
+		  (RRC (VAN named)
+		       (IP-SMC (NP-SBJ *)
+			       (NP-OB1 (NPR Caiaphas))))
+		  (, ,)
+		  (RRC (BAG being)
+		       (NP-OB1 (D the) (ADJ high) (N Priest))
+		       (NP-TMP (D that) (ADJ same) (N yeere))))
+	  (, ,)
+	  (VBD said)
+	  (PP (P vnto)
+	      (NP (PRO them)))
+	  (, ,)
+	  (IP-MAT-SPE (NP-SBJ (PRO Ye))
+		      (VBP know)
+		      (NP-OB1 (Q+N nothing)
+			      (PP (P at)
+				  (NP (Q all)))))
+	  (. ,))
+  (ID AUTHNEW-E2-H,11,40J.1594))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	4/4/1613
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd
+*/
+
+/~*
+One of the seruants of the high Priests being his kinsman whose eare Peter cut
+off saith, Did not I see thee in the garden with him?
+(AUTHNEW-E2-P1,18,20J.720)
+*~/
+/*
+27 BAG:  27 BAG, 28 being, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (ONE One)
+		  (PP (P of)
+		      (NP (D the)
+			  (NS seruants)
+			  (PP (P of)
+			      (NP (NP-POS (D the) (ADJ high) (N$ Priests))))))
+		  (CODE <paren>)
+		  (RRC (BAG being)
+		       (NP-OB1 (PRO$ his)
+			       (N kinsman)
+			       (CP-REL (WNP-1 (WPRO$ whose) (N eare))
+				       (C 0)
+				       (IP-SUB (NP-OB1 *T*-1)
+					       (NP-SBJ (NPR Peter))
+					       (VBD cut)
+					       (RP off))))))
+	  (CODE <$$paren>)
+	  (VBP saith)
+	  (, ,)
+	  (CP-QUE-SPE (IP-SUB-SPE (DOD Did)
+				  (NEG not)
+				  (NP-SBJ (PRO I))
+				  (VB see)
+				  (NP-OB1 (PRO thee))
+				  (PP (P in)
+				      (NP (D the) (N garden)))
+				  (PP (P with)
+				      (NP (PRO him)))))
+	  (. ?))
+  (ID AUTHNEW-E2-P1,18,20J.720))
+
+/~*
+and bee conuerted, that your sins may be blotted out, when the times of
+refreshing shal come from the presence of the Lord.
+(AUTHNEW-E2-P1,3,1A.1327)
+*~/
+/*
+45 VAG:  45 VAG, 46 refreshing, 36 NP-SBJ
+*/
+
+( (IP-IMP-SPE (CONJ and)
+	      (BEI bee)
+	      (VAN conuerted)
+	      (, ,)
+	      (CP-ADV-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (PRO$ your) (NS sins))
+				      (MD may)
+				      (BE be)
+				      (VAN blotted)
+				      (RP out)
+				      (, ,)
+				      (PP (P when)
+					  (CP-ADV-SPE (C 0)
+						      (IP-SUB-SPE (NP-SBJ (D the)
+									  (NS times)
+									  (PP (P of)
+									      (IP-PPL-SPE (VAG refreshing))))
+								  (MD shal)
+								  (VB come)
+								  (PP (P from)
+								      (NP (D the)
+									  (N presence)
+									  (PP (P of)
+									      (NP (D the) (NPR Lord))))))))))
+	      (. .))
+  (ID AUTHNEW-E2-P1,3,1A.1327))
+
+/~*
+And Ioses, who by the Apostles was surnamed Barnabas which is, being
+interpreted, The sonne of consolation a Leuite, and of the Countrey of Cyprus,
+37 Hauing land, sold it,
+(AUTHNEW-E2-P1,4,20A.1425)
+*~/
+/*
+49 BAG:  49 BAG, 50 being, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (NS Ioses)
+		  (, ,)
+		  (CP-REL (WNP-1 (WPRO who))
+			  (C 0)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (PP (P by)
+				      (NP (D the) (NPRS Apostles)))
+				  (BED was)
+				  (VAN surnamed)
+				  (NP-SPR (NPR Barnabas)
+					  (CODE <paren>)
+					  (CP-REL (WNP-2 (WPRO which))
+						  (C 0)
+						  (IP-SUB (NP-SBJ *T*-2)
+							  (BEP is)
+							  (, ,)
+							  (IP-PPL (BAG being) (VAN interpreted))
+							  (, ,)
+							  (NP-OB1 (D The)
+								  (N sonne)
+								  (PP (P of)
+								      (NP (N consolation)))))))))
+		  (CODE <$$paren>)
+		  (NP-PRN (NP (D a) (NPR Leuite))
+			  (, ,)
+			  (CONJP (CONJ and)
+				 (PP (P of)
+				     (NP (D the)
+					 (N Countrey)
+					 (PP (P of)
+					     (NP (NPR Cyprus))))))))
+	  (, ,)
+	  (CODE (NUM 37))
+	  (IP-PPL (HAG Hauing)
+		  (NP-OB1 (N land)))
+	  (, ,)
+	  (VBD sold)
+	  (NP-OB1 (PRO it))
+	  (. ,))
+  (ID AUTHNEW-E2-P1,4,20A.1425))
+
+/~*
+And beleeuers were the more added to the Lord, multitudes both of men and
+women. 15 Insomuch y=t= they brought foorth the sicke into the streetes, and
+layed them on beds and couches, that at the least the shadow of Peter passing
+by, might ouershadow some of them.
+(AUTHNEW-E2-P1,5,1A.1480)
+*~/
+/*
+131 VAG:  131 VAG, 132 passing, 119 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (NS beleeuers)
+		  (NP-PRN *ICH*-1))
+	  (BED were)
+	  (NP-MSR (QP (D the) (QR more)))
+	  (VAN added)
+	  (PP (P to)
+	      (NP (D the) (NPR Lord)))
+	  (, ,)
+	  (NP-PRN-1 (NS multitudes)
+		    (CONJ-2 both)
+		    (PP (P of)
+			(NP (CONJ *ICH*-2)
+			    (NS men)
+			    (CONJ and)
+			    (NS women))))
+	  (, .)
+	  (CODE <$$paren>)
+	  (CODE (NUM 15))
+	  (PP (P+ADVR+Q Insomuch)
+	      (CP-DEG (C y=t=)
+		      (IP-SUB (IP-SUB (NP-SBJ (PRO they))
+				      (VBD brought)
+				      (ADVP-DIR (ADV foorth))
+				      (NP-OB1 (D the) (ADJ sicke))
+				      (PP (P into)
+					  (NP (D the) (NS streetes))))
+			      (, ,)
+			      (CONJP (CONJ and)
+				     (IP-SUB (NP-SBJ *con*)
+					     (VBD layed)
+					     (NP-OB1 (PRO them))
+					     (PP (P on)
+						 (NP (NS beds) (CONJ and) (NS couches)))))
+			      (, ,)
+			      (CP-ADV (C that)
+				      (IP-SUB (PP (P at)
+						  (QP (D the) (QS least)))
+					      (NP-SBJ (D the)
+						      (N shadow)
+						      (PP (P of)
+							  (NP (NPR Peter)
+							      (RRC (VAG passing) (RP by)))))
+					      (, ,)
+					      (MD might)
+					      (VB ouershadow)
+					      (NP-OB1 (Q some)
+						      (PP (P of)
+							  (NP (PRO them)))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P1,5,1A.1480))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	4/4/1558
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd
+*/
+
+/~*
+But their laying awaite was knowen of Saul:
+(AUTHNEW-E2-P2,9,20A.400)
+*~/
+/*
+8 VAG:  8 VAG, 9 laying, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (PRO$ their)
+		  (IP-PPL (VAG laying)
+			  (PP (P+N awaite))))
+	  (BED was)
+	  (VAN knowen)
+	  (PP (P of)
+	      (NP (NPR Saul)))
+	  (. :))
+  (ID AUTHNEW-E2-P2,9,20A.400))
+
+/~*
+And saw heauen opened, and a certaine vessell descending vnto him, as it had
+beene a great sheete, knit at the foure corners, and let downe to the earth:
+12 Wherein were all maner of foure footed beasts of the earth, and wilde
+beasts, and creeping things, and foules of the ayre.
+(AUTHNEW-E2-P2,10,1A.493)
+*~/
+/*
+152 VAG:  152 VAG, 153 creeping, 111 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ *con*)
+	  (VBD saw)
+	  (IP-SMC (IP-SMC (NP-SBJ (NPR heauen))
+			  (VAN opened))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (IP-PPL (NP-SBJ (D a)
+					 (ADJ certaine)
+					 (N vessell)
+					 (CP-REL *ICH*-1))
+				 (VAG descending)
+				 (PP (P vnto)
+				     (NP (PRO him)))
+				 (, ,)
+				 (PP (P as)
+				     (CP-ADV (C 0)
+					     (IP-SUB (NP-SBJ (PRO it))
+						     (HVD had)
+						     (BEN beene)
+						     (NP-OB1 (D a)
+							     (ADJ great)
+							     (N sheete)
+							     (, ,)
+							     (RRC (RRC (VAN knit)
+								       (PP (P at)
+									   (NP (D the) (NUM foure) (NS corners))))
+								  (, ,)
+								  (CONJP (CONJ and)
+									 (RRC (VAN let)
+									      (RP downe)
+									      (PP (P to)
+										  (NP (D the) (N earth))))))))))
+				 (, :)
+				 (CODE (NUM 12))
+				 (CP-REL-1 (WPP-2 (WADV+P Wherein))
+					   (C 0)
+					   (IP-SUB (PP *T*-2)
+						   (BED were)
+						   (NP-SBJ (Q all)
+							   (N maner)
+							   (PP (P of)
+							       (NP (NP (ADJ (ADJ21 foure) (ADJ22 footed))
+								       (NS beasts)
+								       (PP (P of)
+									   (NP (D the) (N earth))))
+								   (, ,)
+								   (CONJP (CONJ and)
+									  (NP (ADJ wilde) (NS beasts)))
+								   (, ,)
+								   (CONJP (CONJ and)
+									  (NP (VAG creeping) (NS things)))
+								   (, ,)
+								   (CONJP (CONJ and)
+									  (NP (NS foules)
+									      (PP (P of)
+										  (NP (D the) (N ayre)))))))))))))
+	  (. .))
+  (ID AUTHNEW-E2-P2,10,1A.493))
+
+/~*
+But the vnbeleeuing Iewes stirred vp the Gentiles,
+(AUTHNEW-E2-P2,14,1A.908)
+*~/
+/*
+7 VAG:  7 VAG, 8 vnbeleeuing, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ But)
+	  (NP-SBJ (D the) (VAG vnbeleeuing) (NPRS Iewes))
+	  (VBD stirred)
+	  (RP vp)
+	  (NP-OB1 (D the) (NPRS Gentiles))
+	  (. ,))
+  (ID AUTHNEW-E2-P2,14,1A.908))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	3/3/1255
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd
+*/
+
+/~*
+and euery tree, in the which is the fruit of a tree yeelding seed, to you it
+shall be for meat:
+(AUTHOLD-E2-H,1,20G.96)
+*~/
+/*
+45 VAG:  45 VAG, 46 yeelding, 31 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-LFD-1 (Q euery)
+			(N tree)
+			(, ,)
+			(CP-REL-SPE (WPP-2 (P in)
+					   (WNP (D the) (WPRO which)))
+				    (C 0)
+				    (IP-SUB-SPE (PP *T*-2)
+						(CODE <font>)
+						(BEP is)
+						(CODE <$$font>)
+						(NP-SBJ (D the)
+							(N fruit)
+							(PP (P of)
+							    (NP (D a)
+								(N tree)
+								(RRC (VAG yeelding)
+								     (NP-OB1 (N seed)))))))))
+	      (, ,)
+	      (PP (P to)
+		  (NP (PRO you)))
+	      (NP-SBJ-RSP=1 (PRO it))
+	      (MD shall)
+	      (BE be)
+	      (PP (P for)
+		  (NP (N meat)))
+	      (. :))
+  (ID AUTHOLD-E2-H,1,20G.96))
+
+/~*
+and whatsoeuer Adam called euery liuing creature, that was the name thereof.
+(AUTHOLD-E2-H,2,1G.163)
+*~/
+/*
+23 VAG:  23 VAG, 24 liuing, 20 NP-SBJ
+*/
+
+( (IP-MAT (CONJ and)
+	  (NP-LFD-1 (CP-FRL (WNP-2 (WPRO+ADV+ADV whatsoeuer))
+			    (C 0)
+			    (IP-SUB (NP-SBJ (NPR Adam))
+				    (VBD called)
+				    (IP-SMC (NP-OB1 *T*-2)
+					    (NP-SBJ (Q euery) (VAG liuing) (N creature))))))
+	  (, ,)
+	  (NP-SBJ-RSP=1 (D that))
+	  (CODE <font>)
+	  (BED was)
+	  (CODE <$$font>)
+	  (NP-OB1 (D the)
+		  (N name)
+		  (PP (ADV+P thereof)))
+	  (. .))
+  (ID AUTHOLD-E2-H,2,1G.163))
+
+/~*
+And euery liuing substance was destroyed, which was vpon the face of the
+ground, both man and cattell, and the creeping things, and the foule of the
+heauen;
+(AUTHOLD-E2-H,7,20G.395)
+*~/
+/*
+7 VAG:  7 VAG, 8 liuing, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (Q euery)
+		  (VAG liuing)
+		  (N substance)
+		  (CP-REL *ICH*-1)
+		  (NP-PRN *ICH*-3))
+	  (BED was)
+	  (VAN destroyed)
+	  (, ,)
+	  (CP-REL-1 (WNP-2 (WPRO which))
+		    (C 0)
+		    (IP-SUB (NP-SBJ *T*-2)
+			    (BED was)
+			    (PP (P vpon)
+				(NP (D the)
+				    (N face)
+				    (PP (P of)
+					(NP (D the) (N ground)))))))
+	  (, ,)
+	  (NP-PRN-3 (CONJ both)
+		    (N man)
+		    (CONJ and)
+		    (NS cattell)
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (NP (D the) (VAG creeping) (NS things)))
+		    (, ,)
+		    (CONJP (CONJ and)
+			   (NP (D the)
+			       (N foule)
+			       (PP (P of)
+				   (NP (D the) (N heauen))))))
+	  (. ;))
+  (ID AUTHOLD-E2-H,7,20G.395))
+
+/~*
+Euery beast, euery creeping thing, and euery fowle, and whatsoeuer creepeth
+vpon the earth, after their kinds, went foorth out of the Arke.
+(AUTHOLD-E2-H,8,1G.456)
+*~/
+/*
+14 VAG:  14 VAG, 15 creeping, 2 NP-SBJ
+*/
+
+( (IP-MAT (NP-SBJ (NP (Q Euery) (N beast))
+		  (, ,)
+		  (CONJP (NP (Q euery) (VAG creeping) (N thing)))
+		  (, ,)
+		  (CONJP (CONJ and)
+			 (NP (Q euery) (N fowle)))
+		  (, ,)
+		  (CODE <font>)
+		  (CONJP (CONJ and)
+			 (CODE <$$font>)
+			 (NP (CP-FRL (WNP-1 (WPRO+ADV+ADV whatsoeuer))
+				     (C 0)
+				     (IP-SUB (NP-SBJ *T*-1)
+					     (VBP creepeth)
+					     (PP (P vpon)
+						 (NP (D the) (N earth))))))))
+	  (, ,)
+	  (PP (P after)
+	      (NP (PRO$ their) (NS kinds)))
+	  (, ,)
+	  (VBD went)
+	  (ADVP-DIR (ADV foorth))
+	  (PP (RP out)
+	      (P of)
+	      (NP (D the) (NPR Arke)))
+	  (. .))
+  (ID AUTHOLD-E2-H,8,1G.456))
+
+/~*
+Euery mouing thing that liueth, $shall $be meat for you;
+(AUTHOLD-E2-H,9,1G.482)
+*~/
+/*
+5 VAG:  5 VAG, 6 mouing, 2 NP-SBJ
+*/
+
+( (IP-MAT-SPE (NP-SBJ (Q Euery)
+		      (VAG mouing)
+		      (N thing)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP liueth))))
+	      (, ,)
+	      (MD $shall)
+	      (BE $be)
+	      (CODE {TEXT:shalbe})
+	      (NP-OB1 (N meat)
+		      (PP (P for)
+			  (NP (PRO you))))
+	      (. ;))
+  (ID AUTHOLD-E2-H,9,1G.482))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	5/5/1234
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd
+*/
+
+/~*
+And they that found him gathering sticks, brought him vnto Moses and Aaron,
+and vnto all the Congregation.
+(AUTHOLD-E2-P1,15,20N.1101)
+*~/
+/*
+21 VAG:  21 VAG, 22 gathering, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD found)
+				  (NP-OB1 (PRO him))
+				  (IP-PPL (VAG gathering)
+					  (NP-OB1 (NS sticks))))))
+	  (, ,)
+	  (VBD brought)
+	  (NP-OB1 (PRO him))
+	  (PP (PP (P vnto)
+		  (NP (NPR Moses) (CONJ and) (NPR Aaron)))
+	      (, ,)
+	      (CONJP (CONJ and)
+		     (PP (P vnto)
+			 (NP (Q all) (D the) (N Congregation)))))
+	  (. .))
+  (ID AUTHOLD-E2-P1,15,20N.1101))
+
+/~*
+and running water shall bee put thereto in a vessell:
+(AUTHOLD-E2-P1,19,1N.1269)
+*~/
+/*
+5 VAG:  5 VAG, 6 running, 4 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ and)
+	      (NP-SBJ (VAG running) (N water))
+	      (MD shall)
+	      (BE bee)
+	      (VAN put)
+	      (PP (ADV+P thereto))
+	      (PP (P in)
+		  (NP (D a) (N vessell)))
+	      (. :))
+  (ID AUTHOLD-E2-P1,19,1N.1269))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	2/2/1385
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	0/0/912
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd
+*/
+
+/~*
+As the lyvinge father hath sent me, even so lyve I by my father:
+(TYNDNEW-E1-H,6,40J.522)
+*~/
+/*
+16 VAG:  16 VAG, 17 lyvinge, 13 NP-SBJ
+*/
+
+( (IP-MAT-SPE (PP (P As)
+		  (CP-CMP-SPE (WADVP-1 0)
+			      (C 0)
+			      (IP-SUB-SPE (ADVP *T*-1)
+					  (NP-SBJ (D the) (VAG lyvinge) (NPR father))
+					  (HVP hath)
+					  (VBN sent)
+					  (NP-OB1 (PRO me)))))
+	      (, ,)
+	      (ADVP (FP even) (ADV so))
+	      (VBP lyve)
+	      (NP-SBJ (PRO I))
+	      (PP (P by)
+		  (NP (PRO$ my) (N father)))
+	      (. :))
+  (ID TYNDNEW-E1-H,6,40J.522))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	1/1/1078
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd
+*/
+
+/~*
+and turne, that youre synnes maye be done awaye, when the tyme of refresshinge
+commeth, which we shall have of the presence of the Lorde, and when God shall
+sende him, which before was preached vnto you, that is to wit Jesus Christ,
+which must receave heaven vntyll the tyme that all thinges, which God hath
+spoken by the mouth of all his holy Prophetes sence the worlde began be
+restored agayne.
+(TYNDNEW-E1-P1,3,20A.937)
+*~/
+/*
+45 VAG:  45 VAG, 46 refresshinge, 36 NP-SBJ
+*/
+
+( (IP-IMP-SPE (CONJ and)
+	      (VBI turne)
+	      (, ,)
+	      (CP-ADV-SPE (C that)
+			  (IP-SUB-SPE (NP-SBJ (PRO$ youre) (NS synnes))
+				      (MD maye)
+				      (BE be)
+				      (DAN done)
+				      (ADVP-DIR (ADV awaye))
+				      (, ,)
+				      (PP (PP (P when)
+					      (CP-ADV-SPE (C 0)
+							  (IP-SUB-SPE (NP-SBJ (D the)
+									      (N tyme)
+									      (PP (P of)
+										  (IP-PPL-SPE (VAG refresshinge)))
+									      (CP-REL-SPE *ICH*-1))
+								      (VBP commeth)
+								      (, ,)
+								      (CP-REL-SPE-1 (WNP-2 (WPRO which))
+										    (C 0)
+										    (IP-SUB-SPE (NP-OB1 *T*-2)
+												(NP-SBJ (PRO we))
+												(MD shall)
+												(HV have)
+												(PP (P of)
+												    (NP (D the)
+													(N presence)
+													(PP (P of)
+													    (NP (D the) (NPR Lorde))))))))))
+					  (, ,)
+					  (CODE <P_3,20A>)
+					  (CONJP (CONJ and)
+						 (PP (P when)
+						     (CP-ADV-SPE (C 0)
+								 (IP-SUB-SPE (NP-SBJ (NPR God))
+									     (MD shall)
+									     (VB sende)
+									     (NP-OB1 (PRO him)
+										     (, ,)
+										     (CP-REL-SPE (WNP-3 (WPRO which))
+												 (C 0)
+												 (IP-SUB-SPE (NP-SBJ *T*-3)
+													     (ADVP-TMP (ADV before))
+													     (BED was)
+													     (VAN preached)
+													     (PP (P vnto)
+														 (NP (PRO you)))))
+										     (, ,)
+										     (IP-MAT-PRN-SPE (NP-SBJ (D that))
+												     (BEP is)
+												     (IP-INF-SPE (TO to)
+														 (VB wit)
+														 (NP-OB1 (NPR Jesus)
+															 (NPR Christ)
+															 (, ,)
+															 (CP-REL-SPE (WNP-4 (WPRO which))
+																     (C 0)
+																     (IP-SUB-SPE (NP-SBJ *T*-4)
+																		 (MD must)
+																		 (VB receave)
+																		 (NP-OB1 (NPR heaven))
+																		 (PP (P vntyll)
+																		     (NP (D the)
+																			 (N tyme)
+																			 (CP-REL-SPE (WNP-5 0)
+																				     (C that)
+																				     (IP-SUB-SPE (NP-TMP *T*-5)
+																						 (NP-SBJ (Q all)
+																							 (NS thinges)
+																							 (, ,)
+																							 (CP-REL-SPE (WNP-6 (WPRO which))
+																								     (C 0)
+																								     (IP-SUB-SPE (NP-OB1 *T*-6)
+																										 (NP-SBJ (NPR God))
+																										 (HVP hath)
+																										 (VBN spoken)
+																										 (PP (P by)
+																										     (NP (D the)
+																											 (N mouth)
+																											 (PP (P of)
+																											     (NP (Q all) (PRO$ his) (ADJ holy) (NS Prophetes)))))
+																										 (PP (P sence)
+																										     (CP-ADV-SPE (C 0)
+																												 (IP-SUB-SPE (NP-SBJ (D the) (N worlde))
+																													     (VBD began)))))))
+																						 (BEP be)
+																						 (VAN restored)
+																						 (ADVP (ADV agayne)))))))))))))))))))
+	      (. .))
+  (ID TYNDNEW-E1-P1,3,20A.937))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	1/1/1102
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd
+*/
+
+/~*
+For vnclene spretes cryinge with loude voyce, came out of many that were
+possessed of them.
+(TYNDNEW-E1-P2,8,1A.164)
+*~/
+/*
+10 VAG:  10 VAG, 11 cryinge, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ For)
+	  (NP-SBJ (ADJ vnclene)
+		  (NS spretes)
+		  (RRC (VAG cryinge)
+		       (PP (P with)
+			   (NP (ADJ loude) (N voyce)))))
+	  (, ,)
+	  (VBD came)
+	  (PP (RP out)
+	      (P of)
+	      (NP (Q many)
+		  (CP-REL (WNP-1 0)
+			  (C that)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (BED were)
+				  (VAN possessed)
+				  (PP (P of)
+				      (NP (PRO them)))))))
+	  (. .))
+  (ID TYNDNEW-E1-P2,8,1A.164))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	1/1/889
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd
+*/
+
+/~*
+And all that moveth vppon the erth havynge lyfe, shall be youre meate:
+(TYNDOLD-E1-H,9,1G.315)
+*~/
+/*
+26 HAG:  26 HAG, 27 havynge, 4 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (Q all)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP moveth)
+					      (PP (P vppon)
+						  (NP (D the) (N erth)))))
+		      (RRC (HAG havynge)
+			   (NP-OB1 (N lyfe))))
+	      (, ,)
+	      (MD shall)
+	      (BE be)
+	      (NP-OB1 (PRO$ youre) (N meate))
+	      (. :))
+  (ID TYNDOLD-E1-H,9,1G.315))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	1/1/811
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd
+*/
+
+/~*
+And they y=t= founde him gatherynge stickes, brought him vnto Moses and Aaron
+and vnto all y=e= congregacion:
+(TYNDOLD-E1-P1,15,20N.1043)
+*~/
+/*
+21 VAG:  21 VAG, 22 gatherynge, 4 NP-SBJ
+*/
+
+( (IP-MAT (CONJ And)
+	  (NP-SBJ (PRO they)
+		  (CP-REL (WNP-1 0)
+			  (C y=t=)
+			  (IP-SUB (NP-SBJ *T*-1)
+				  (VBD founde)
+				  (NP-OB1 (PRO him))
+				  (IP-PPL (VAG gatherynge)
+					  (NP-OB1 (NS stickes))))))
+	  (, ,)
+	  (VBD brought)
+	  (NP-OB1 (PRO him))
+	  (PP (PP (P vnto)
+		  (NP (NPR Moses) (CONJ and) (NPR Aaron)))
+	      (CONJP (CONJ and)
+		     (PP (P vnto)
+			 (NP (Q all) (D y=e=) (N congregacion)))))
+	  (. :))
+  (ID TYNDOLD-E1-P1,15,20N.1043))
+
+/~*
+And he that sprynkleth y=e= sprynklynge water, shall wassh his clothes.
+(TYNDOLD-E1-P1,19,20N.1216)
+*~/
+/*
+20 VAG:  20 VAG, 21 sprynklynge, 4 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (PRO he)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP sprynkleth)
+					      (NP-OB1 (D y=e=) (VAG sprynklynge) (N water)))))
+	      (, ,)
+	      (MD shall)
+	      (VB wassh)
+	      (NP-OB1 (PRO$ his) (NS clothes))
+	      (. .))
+  (ID TYNDOLD-E1-P1,19,20N.1216))
+
+/~*
+And he that twicheth the sprynklynge water, $shall $be vncleane vntill eue~.
+(TYNDOLD-E1-P1,19,20N.1218)
+*~/
+/*
+20 VAG:  20 VAG, 21 sprynklynge, 4 NP-SBJ
+*/
+
+( (IP-MAT-SPE (CONJ And)
+	      (NP-SBJ (PRO he)
+		      (CP-REL-SPE (WNP-1 0)
+				  (C that)
+				  (IP-SUB-SPE (NP-SBJ *T*-1)
+					      (VBP twicheth)
+					      (NP-OB1 (D the) (VAG sprynklynge) (N water)))))
+	      (, ,)
+	      (MD $shall)
+	      (BE $be)
+	      (CODE {TEXT:shalbe})
+	      (ADJP (ADJ vncleane))
+	      (PP (P vntill)
+		  (NP (N eue~)))
+	      (. .))
+  (ID TYNDOLD-E1-P1,19,20N.1218))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	3/3/1317
+*/
+/*
+HEADER:
+source file:  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd
+*/
+
+/~*
+For what is any flesh that he shulde heare the voyce of the lyuynge God
+speakynge out of the fyre as we haue done and shulde yet lyue:
+(TYNDOLD-E1-P2,5,20D.480)
+*~/
+/*
+41 VAG:  41 VAG, 42 lyuynge, 30 NP-SBJ
+*/
+
+( (CP-QUE-SPE (CONJ For)
+	      (WNP-1 (WPRO what))
+	      (IP-SUB-SPE (NP-OB1 *T*-1)
+			  (BEP is)
+			  (NP-SBJ (Q any) (N flesh))
+			  (CP-ADV-SPE (C that)
+				      (IP-SUB-SPE (IP-SUB-SPE (NP-SBJ (PRO he))
+							      (MD shulde)
+							      (VB heare)
+							      (IP-PPL-OB1-SPE (NP-SBJ (D the)
+										      (N voyce)
+										      (PP (P of)
+											  (NP (D the) (VAG lyuynge) (NPR God))))
+									      (VAG speakynge)
+									      (PP (RP out)
+										  (P of)
+										  (NP (D the) (N fyre)))
+									      (PP (P as)
+										  (CP-ADV-SPE (WNP-2 0)
+											      (C 0)
+											      (IP-SUB-SPE (NP-OB1 *T*-2)
+													  (NP-SBJ (PRO we))
+													  (HVP haue)
+													  (DON done))))))
+						  (CONJP (CONJ and)
+							 (IP-SUB-SPE (NP-SBJ *con*)
+								     (MD shulde)
+								     (ADVP (ADV yet))
+								     (VB lyue))))))
+	      (. :))
+  (ID TYNDOLD-E1-P2,5,20D.480))
+/*
+FOOTER
+  source file, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	1/1/866
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-h.psd	4/4/1613
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p1.psd	4/4/1558
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authnew-e2-p2.psd	3/3/1255
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-h.psd	5/5/1234
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p1.psd	2/2/1385
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\authold-e2-p2.psd	0/0/912
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-h.psd	1/1/1078
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p1.psd	1/1/1102
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndnew-e1-p2.psd	1/1/889
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-h.psd	1/1/811
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p1.psd	3/3/1317
+  C:\Users\Shoo\Dropbox\workspace\CorpusSearch_Auto\data\corporas\PPCEME\temp1492105854173\bible_and_apocrypha\tyndold-e1-p2.psd	1/1/866
+whole search, hits/tokens/total
+		26/26/14020
+*/
