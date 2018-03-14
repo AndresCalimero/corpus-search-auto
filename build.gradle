@@ -1,8 +1,32 @@
 version '1.5.0'
 
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.2'
+    }
+}
+
 apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow'
 
 sourceCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'CorpusSearchAuto',
+                'Implementation-Version': version,
+                'Main-Class': 'perez.garcia.andres.Main'
+    }
+}
+
+shadowJar {
+    baseName = 'CorpusSearchAuto'
+    classifier = null
+    version = version
+}
 
 repositories {
     mavenCentral()

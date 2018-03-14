@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Tools {
 	
-	public final static Map<String, Tool> TOOLS = new HashMap<String, Tool>();
+	public final static Map<String, Tool> TOOLS = new HashMap<>();
 	
 	static {
 		TOOLS.put("genre-finder", new GenreFinder());

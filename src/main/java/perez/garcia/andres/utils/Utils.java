@@ -47,9 +47,9 @@ public class Utils {
 
 	public static Map<TimeUnit, Long> getElapsedTime(Date oldDate, Date newDate) {
 		long milliesRest = newDate.getTime() - oldDate.getTime();
-		List<TimeUnit> units = new ArrayList<TimeUnit>(EnumSet.allOf(TimeUnit.class));
+		List<TimeUnit> units = new ArrayList<>(EnumSet.allOf(TimeUnit.class));
 		Collections.reverse(units);
-		Map<TimeUnit, Long> result = new LinkedHashMap<TimeUnit, Long>();
+		Map<TimeUnit, Long> result = new LinkedHashMap<>();
 		for (TimeUnit unit : units) {
 			long diff = unit.convert(milliesRest, TimeUnit.MILLISECONDS);
 			long diffInMilliesForUnit = unit.toMillis(diff);

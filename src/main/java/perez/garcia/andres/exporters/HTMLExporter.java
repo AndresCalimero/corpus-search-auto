@@ -27,7 +27,7 @@ public class HTMLExporter implements Exporter {
 		htmlContent.append("<title>CorpusSearchAuto</title>\n");
 		htmlContent.append("</head>\n");
 		htmlContent.append("<body>\n");
-		htmlContent.append("<h3>CorpusSearchAuto output table " + new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(dateOfSearch) + " (" + showOnly.toString() + ")</h3>\n");
+		htmlContent.append("<h3>CorpusSearchAuto output table ").append(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(dateOfSearch)).append(" (").append(showOnly.toString()).append(")</h3>\n");
 
 		htmlContent.append("<blockquote>\n");
 		htmlContent.append("<table border cellpadding=\"5\">\n");
@@ -35,21 +35,21 @@ public class HTMLExporter implements Exporter {
 		htmlContent.append("<tr>\n");
 		htmlContent.append("<th></th>\n");
 		for (Variable variable : variablesList) {
-			htmlContent.append("<th>" + variable.getName() + "</th>\n");
+			htmlContent.append("<th>").append(variable.getName()).append("</th>\n");
 		}
 		htmlContent.append("</tr>\n");
 		for (int i = 0; i < outputTable.length; i++) {
 			htmlContent.append("<tr>\n");
 			if (i != outputTable.length -1) {
-				htmlContent.append("<th align=\"left\">" + genresList.get(i).substring(0, 1).toUpperCase() + genresList.get(i).substring(1).toLowerCase() + "</th>\n");
+				htmlContent.append("<th align=\"left\">").append(genresList.get(i).substring(0, 1).toUpperCase()).append(genresList.get(i).substring(1).toLowerCase()).append("</th>\n");
 			} else {
 				htmlContent.append("<th align=\"left\">TOTAL</th>\n");
 			}
 			for (int j = 0; j < variablesList.size(); j++) {
 				if (i != outputTable.length -1) {
-					htmlContent.append("<td align=\"right\">" + outputTable[i][j] + "</td>\n");
+					htmlContent.append("<td align=\"right\">").append(outputTable[i][j]).append("</td>\n");
 				} else {
-					htmlContent.append("<td align=\"right\"><b>" + outputTable[i][j] + "</b></td>\n");
+					htmlContent.append("<td align=\"right\"><b>").append(outputTable[i][j]).append("</b></td>\n");
 				}
 			}
 			htmlContent.append("</tr>\n");

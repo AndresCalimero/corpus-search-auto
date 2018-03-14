@@ -31,17 +31,16 @@ public class WordsCountVariable extends BuiltInVariable {
 		for (int i = 0; i < genres.size(); i++) {
 			long wordsGenre = 0;
 			List<Corpus> corpusList = corpusByGenre.get(genres.get(i));
-			for (int j = 0; j < corpusList.size(); j++) {
-				Corpus corpus = corpusList.get(j);
+			for (Corpus corpus : corpusList) {
 				if (corpus.getType() == CorpusType.POS) {
 					try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(corpus.getFile()), Charset.forName("UTF-8")))) {
-						for (String line; (line = br.readLine()) != null;) {
+						for (String line; (line = br.readLine()) != null; ) {
 							line = line.trim().replaceAll("[_/]", "//");
 							String[] words = line.split(" ");
-							for (int k = 0; k < words.length; k++) {
-								int lastIndexOfSeparator = words[k].lastIndexOf("//");
+							for (String word : words) {
+								int lastIndexOfSeparator = word.lastIndexOf("//");
 								if (lastIndexOfSeparator != -1) {
-									String node = words[k].substring(lastIndexOfSeparator + 2);
+									String node = word.substring(lastIndexOfSeparator + 2);
 									if (!IGNORED_NODES.contains(node)) {
 										wordsGenre++;
 										totalWords++;

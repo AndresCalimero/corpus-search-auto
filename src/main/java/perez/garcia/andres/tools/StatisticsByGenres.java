@@ -12,16 +12,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
 import java.util.concurrent.Semaphore;
 
 import org.jdom2.Document;
@@ -71,7 +63,7 @@ public class StatisticsByGenres implements Tool {
 		Map<Integer, Map<Corpus, Boolean>> includedCorpus = new HashMap<>();
 		Date lastStartDate;
 
-		Map<String, String> paramsMap = new HashMap<String, String>();
+		Map<String, String> paramsMap = new HashMap<>();
 		for (int i = 0; i + 1 < params.size(); i++) {
 			if (params.get(i).matches("-(in|show-only|out-format|out)") && !params.get(i + 1).startsWith("-")) {
 				paramsMap.put(params.get(i).substring(1), params.get(++i));
@@ -106,7 +98,7 @@ public class StatisticsByGenres implements Tool {
 
 		if (XMLUtils.validateXMLWithSchema(inFile, SEARCH_SCHEMA_URL)) {
 			SAXBuilder builder = new SAXBuilder();
-			Document document = (Document) builder.build(inFile);
+			Document document = builder.build(inFile);
 			List<Element> corporasElement = document.getRootElement().getChildren("corpora", NAMESPACE);
 			for (Element corporaElement : corporasElement) {
 				String corporaName = corporaElement.getAttributeValue("name");
@@ -155,7 +147,7 @@ public class StatisticsByGenres implements Tool {
 				for (Element genreElement : genresElements) {
 					String genreName = genreElement.getAttributeValue("name").trim();
 					if (!corpusByGenre.get(iCorpora).containsKey(genreName)) {
-						corpusByGenre.get(iCorpora).put(genreName, new ArrayList<Corpus>());
+						corpusByGenre.get(iCorpora).put(genreName, new ArrayList<>());
 					}
 					List<Element> corpusElements = genreElement.getChildren("corpus", NAMESPACE);
 
@@ -201,9 +193,7 @@ public class StatisticsByGenres implements Tool {
 				StringBuilder corpusNotIncluded = new StringBuilder();
 				includedCorpus.get(iCorpora).forEach((corpus, isIncluded) -> {
 					if (!isIncluded) {
-						corpusNotIncluded.append("\t[" + corpus.getType() + "] " + corpus.getName() + "\n");
-					} else {
-
+						corpusNotIncluded.append("\t[").append(corpus.getType()).append("] ").append(corpus.getName()).append("\n");
 					}
 				});
 				if (corpusNotIncluded.length() == 0) {
@@ -464,7 +454,7 @@ public class StatisticsByGenres implements Tool {
 
 	private Map<String, File> createTempDirStructure(File tempFolder, Map<String, List<Corpus>> corpusByGenre) throws Exception {
 		Map<String, File> folderForGenre = new HashMap<>();
-		for (File file : tempFolder.getParentFile().listFiles()) {
+		for (File file : Objects.requireNonNull(tempFolder.getParentFile().listFiles())) {
 			if (file.getName().startsWith("temp")) {
 				FileSystemUtils.deleteDirectory(file);
 			}

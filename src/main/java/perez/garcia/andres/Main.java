@@ -3,6 +3,7 @@ package perez.garcia.andres;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import perez.garcia.andres.models.Corpora;
@@ -35,10 +36,7 @@ public class Main {
 		} else if (args[0].equals("-tool")) {
 			Tool tool = Tools.getToolByName(args[1]);
 			if (tool != null) {
-				List<String> params = new ArrayList<>();
-				for (int i = 2; i < args.length; i++) {
-					params.add(args[i]);
-				}
+				List<String> params = new ArrayList<>(Arrays.asList(args).subList(2, args.length));
 				try {
 					tool.execute(params, true);
 				} catch (Exception e) {

@@ -5,6 +5,7 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.SimpleListProperty;
@@ -25,19 +26,19 @@ public class Corpora {
 	static {
 		File corporasFolder = CORPORAS_PATH.toFile();
 		if (corporasFolder.isDirectory()) {
-			for (File corporaFolder : corporasFolder.listFiles()) {
+			for (File corporaFolder : Objects.requireNonNull(corporasFolder.listFiles())) {
 				if (corporaFolder.isDirectory()) {
 					File psdFolder = corporaFolder.toPath().resolve("psd").toFile();
 					File posFolder = corporaFolder.toPath().resolve("pos").toFile();
 					if (psdFolder.isDirectory() && posFolder.isDirectory()) {
 						Corpora corpora = new Corpora(corporaFolder.getName());
-						for (File corpusFile : psdFolder.listFiles(new FileSystemUtils.ExtensionFilter("psd"))) {
+						for (File corpusFile : Objects.requireNonNull(psdFolder.listFiles(new FileSystemUtils.ExtensionFilter("psd")))) {
 							Corpus corpus = new Corpus(corpora, CorpusType.PSD, corpusFile);
 							corpora.getCorpusList().add(corpus);
 						}
 						CORPORAS.put(corpora.getName(), corpora);
 
-						for (File corpusFile : posFolder.listFiles(new FileSystemUtils.ExtensionFilter("pos"))) {
+						for (File corpusFile : Objects.requireNonNull(posFolder.listFiles(new FileSystemUtils.ExtensionFilter("pos")))) {
 							Corpus corpus = new Corpus(corpora, CorpusType.POS, corpusFile);
 							corpora.getCorpusList().add(corpus);
 						}

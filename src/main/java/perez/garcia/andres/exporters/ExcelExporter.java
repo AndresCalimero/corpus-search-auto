@@ -42,7 +42,7 @@ public class ExcelExporter implements Exporter {
 			cell.setCellStyle(headerStyle);
 		}
 
-		int rowNumber = 0;
+		int rowNumber;
 		for (rowNumber = 0; rowNumber < outputTable.length; rowNumber++) {
 			Row resultRow = sheet.createRow(rowNumber + 1);
 			Cell genreNameCell = resultRow.createCell(0);

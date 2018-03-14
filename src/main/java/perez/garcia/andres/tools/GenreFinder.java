@@ -26,7 +26,7 @@ public class GenreFinder implements Tool {
 
 	@Override
 	public void execute(List<String> params, boolean interactive) throws Exception {
-		Map<String, String> paramsMap = new HashMap<String, String>();
+		Map<String, String> paramsMap = new HashMap<>();
 		for (int i = 0; i + 1 < params.size(); i++) {
 			if (params.get(i).matches("-(corpora|in|out)") && !params.get(i + 1).startsWith("-")) {
 				paramsMap.put(params.get(i).replace("-", ""), params.get(++i));
@@ -82,7 +82,7 @@ public class GenreFinder implements Tool {
 		Document xmlDocument = new Document(genresElement);
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(inFile), Charset.forName("UTF-8")))) {
-			Map<String, Element> genresMap = new HashMap<String, Element>();
+			Map<String, Element> genresMap = new HashMap<>();
 			StringBuilder genreSb = new StringBuilder();
 			String filename = null;
 			long wordCount = 0;
@@ -134,7 +134,7 @@ public class GenreFinder implements Tool {
 		Document xmlDocument = new Document(genresElement);
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(inFile), Charset.forName("UTF-8")))) {
-			Map<String, Element> genresMap = new HashMap<String, Element>();
+			Map<String, Element> genresMap = new HashMap<>();
 			int linesToName = 0, linesToGenre = 0;
 			String filename = null;
 			boolean searching = false;
