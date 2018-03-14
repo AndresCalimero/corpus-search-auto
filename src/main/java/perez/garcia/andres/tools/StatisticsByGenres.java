@@ -42,7 +42,7 @@ import perez.garcia.andres.variables.VariableFactory;
 public class StatisticsByGenres implements Tool {
 
 	private static final Namespace NAMESPACE = Namespace.getNamespace("http://corpus.search.auto");
-	private static final URL SEARCH_SCHEMA_URL = Main.class.getResource("/perez/garcia/andres/schemas/search-schema.xsd");
+	private static final URL SEARCH_SCHEMA_URL = Main.class.getResource("/schemas/search-schema.xsd");
 	private static final Path OUTPUT_PATH = Main.ACTUAL_DIR.resolve("output");
 
 	private final Date dateOfSearch = new Date();
